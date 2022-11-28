@@ -1,0 +1,23 @@
+soldierTransformation:
+  - name: STR_OFFICER_PROMOTION
+    cost: 20000
+    producedSoldierType: STR_SOLDIER_OFFICER
+    keepSoldierArmor: true
+    minRank: 2
+    transferTime: 168
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_ELITE_SOLDIER
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false 
+    upperBoundAtStatCaps: true
+    flatOverallStatChange: 
+      bravery: 2
+      health: 2
+      strength: 2
+      reactions: 2
+      firing: 2
+      throwing: 2
+      melee: 2

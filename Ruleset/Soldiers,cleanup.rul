@@ -1,0 +1,338 @@
+soldiers:
+  - type: STR_DOG
+    costBuy: 60000
+    costSalary: 20000
+    minStats:
+      tu: 60
+      stamina: 80
+      health: 25
+      bravery: 10
+      reactions: 60
+      firing: 0
+      throwing: 0
+      strength: 1
+      psiStrength: 40
+      psiSkill: 0
+      melee: 70
+      mana: 100
+    maxStats:
+      tu: 70
+      stamina: 90
+      health: 30
+      bravery: 20
+      reactions: 80
+      firing: 0
+      throwing: 0
+      strength: 1
+      psiStrength: 40
+      psiSkill: 0
+      melee: 90
+      mana: 150
+    statCaps:
+      tu: 100
+      stamina: 130
+      health: 50
+      bravery: 40
+      reactions: 110
+      firing: 10
+      throwing: 10
+      strength: 2
+      psiStrength: 40
+      psiSkill: 0
+      melee: 140
+      mana: 220
+    trainingStatCaps:
+      tu: 70
+      stamina: 90
+      health: 30
+      bravery: 20
+      reactions: 60
+      firing: 0
+      throwing: 0
+      strength: 1
+      psiStrength: 40
+      psiSkill: 0
+      melee: 90
+      mana: 0
+    armor: STR_DOGE_ARMOR
+    armorForAvatar: STR_DOGE_ARMOR
+    avatarOffsetX: 91
+    avatarOffsetY: 60
+    soldierNames:
+      - delete
+      - DogName/ZZZ_Doge.nam
+    allowPiloting: false
+    allowPromotion: false
+    flagOffset: 777
+    rankSprite: 910         # default 42 # basebits.pck
+    rankBattleSprite: 910   # default 20 # smoke.pck
+    moraleLossWhenKilled: 33
+    rankTinySprite: 18
+    standHeight: 12
+    kneelHeight: 12
+    requires:
+      - STR_DOG_RECRUITMENT
+    femaleFrequency: 50
+    deathMale: [994, 680, 681]
+    deathFemale: [994, 680, 681]
+  - type: STR_SOLDIER
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 35
+      stamina: 40
+      health: 30
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 40
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 30
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 45
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 45
+      psiStrength: 100
+      psiSkill: 15
+      melee: 70
+    statCaps:
+      tu: 90
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_VEST_ARMOR_UC
+    armorForAvatar: STR_BERET_ARMOR_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 20
+    soldierNames:
+      - delete
+      - SoldierNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+  - type: STR_ELITE_SOLDIER
+    costBuy: 200000
+    costSalary: 55000
+    minStats:
+      tu: 55
+      stamina: 50
+      health: 35
+      bravery: 30
+      reactions: 50
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 20
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 65
+      stamina: 70
+      health: 45
+      bravery: 70
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 15
+      melee: 70
+    statCaps:
+      tu: 90
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_VEST_ARMOR_BLACK_UC
+    armorForAvatar: STR_BERET_ARMOR_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 15
+    soldierNames:
+      - delete
+      - SoldierNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+  - type: STR_SOLDIER_OFFICER
+    costSalary: 60000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 65
+      stamina: 70
+      health: 45
+      bravery: 70
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 15
+      melee: 70
+    statCaps:
+      tu: 90
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_VEST_ARMOR_GREY_UC
+    armorForAvatar: STR_BERET_ARMOR_UC
+    standHeight: 22
+    kneelHeight: 14
+    rankTinySprite: 6 
+    rankSprite: 800         # default 42 # basebits.pck
+    rankBattleSprite: 800   # default 20 # smoke.pck
+    femaleFrequency: 25
+    soldierNames:
+      - delete
+      - SoldierNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+    rankStrings:
+    - STR_DEPUTY_OFICER
+    - STR_3RD_LIEUTENANT
+    - STR_ARMY_LIEUTENANT
+    - STR_ARMY_CAPTAIN
+    - STR_ARMY_MAJOR
+    - STR_ARMY_LT_COLONEL
+  - type: STR_PILOT
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 55
+      stamina: 50
+      health: 30
+      bravery: 40
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 65
+      stamina: 80
+      health: 45
+      bravery: 70
+      reactions: 70
+      firing: 70
+      throwing: 50
+      strength: 30
+      psiStrength: 100
+      psiSkill: 16
+      melee: 25
+    statCaps:
+      tu: 100
+      stamina: 100
+      health: 70
+      bravery: 120
+      reactions: 120
+      firing: 120
+      throwing: 120
+      strength: 30
+      psiStrength: 100
+      psiSkill: 100
+      melee: 40
+    armor: STR_PILOT_UC
+    armorForAvatar: STR_PILOT_UC
+    rankTinySprite: 12 
+    rankSprite: 900         # default 42 # basebits.pck
+    rankBattleSprite: 900   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 40
+    soldierNames:
+      - delete
+      - PilotNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: true
+    dogfightExperience:
+      bravery: 50
+      reactions: 75
+      firing: 100
+    rankStrings:
+    - STR_2ND_LIEUTENANT
+    - STR_1ST_LIEUTENANT
+    - STR_AIR_CAPTAIN
+    - STR_AIR_MAJOR
+    - STR_AIR_COLONEL
+    - STR_BRIGADIER
+############################## CLEAN UP EVERYTHING BELOW THIS#################################
+
+items:
+  - type: STR_CORPSE_UNIFORM
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 999
+    floorSprite: 999
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: false
+ufopaedia:
+  - id: STR_PILOT_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1691
+    text: STR_PILOT_UC_UFOPEDIA
+extraSprites:
+########################################
+########## PILOT JUMPSUIT #############
+######################################
+  - type: PILOT.PCK 
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Layered Sprite/XCOM1.png
+
+  - type: BIGOBS.PCK
+    files:
+      999: Resources/Layered Sprite/BIGOBS/Pilot_Inventory_corpse_Blue.png
+  - type: FLOOROB.PCK
+    files:
+      999: Resources/Layered Sprite/FLOOROB/Pilot_corpse_Blue.png
+

@@ -1,0 +1,192 @@
+#Big thanks to Dioxine for letting me borrow his living Quarters and General Stores.
+facilities:
+  - type: STR_ALIEN_CONTAINMENT
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    buildCostItems:
+      STR_ALIEN_HABITAT:
+        build: 3
+        refund: 1
+    spriteShape: 1
+    spriteFacility: 100
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 15000
+    aliens: 10
+    mapName: XBASE_08
+  - type: STR_GYM
+    spriteShape: 1
+    spriteFacility: 700
+    buildCost: 350000
+    buildTime: 20
+    monthlyCost: 35000
+    trainingRooms: 10
+    mapName: XBASS_23
+    listOrder: 6960
+  - type: STR_SAT_UP_NET
+    requires:
+      - STR_GLOBAL_RADAR
+    spriteShape: 130
+    spriteFacility: 130
+    buildCost: 4700000
+    size: 2
+    buildTime: 40
+    monthlyCost: 70000
+    radarRange: 10850
+    radarChance: 8
+    mapName: XOPSXBASE11
+  - type: STR_HYP_UP_NET
+    requires:
+      - STR_HYP_UP_NET
+    hyper: true
+    spriteShape: 122
+    spriteFacility: 122
+    size: 2
+    buildCost: 11200000
+    buildTime: 52
+    monthlyCost: 200000
+    radarRange: 10850
+    radarChance: 100
+    mapName: XOPSXBASE16
+  - type: STR_LIVING_QUARTERS
+    mapName: XBASS_01
+    personnel: 25
+  - type: STR_LIVING_QUARTERS_2
+    spriteShape: 301
+    spriteFacility: 301
+    size: 2
+    buildCost: 2250000
+    buildTime: 24
+    monthlyCost: 60000
+    personnel: 120
+    storage: 25
+    storageTiles:
+      - [17, 9, 0]
+      - [17, 8, 0]
+      - [17, 7, 0]
+      - [18, 7, 0]
+    mapName: XBASS_02
+  - type: STR_GENERAL_STORES_2
+    spriteShape: 309
+    spriteFacility: 309
+    size: 2
+    buildCost: 1000000
+    buildTime: 20
+    monthlyCost: 30000
+    storage: 275
+    storageTiles:
+      - [0, 14, 1]
+      - [1, 14, 1]
+      - [2, 14, 1]
+      - [3, 14, 1]
+      - [4, 14, 1]
+      - [5, 14, 1]
+      - [6, 14, 1]
+      - [0, 1, 1]
+      - [1, 1, 1]
+      - [2, 1, 1]
+      - [3, 1, 1]
+      - [4, 1, 1]
+      - [5, 1, 1]
+    mapName: XBASS_06
+  - type: STR_GENERAL_STORES
+    storageTiles:
+      - [5, 5, 1]
+      - [1, 1, 1]
+      - [7, 1, 1]
+      - [8, 5, 1]
+  - type: STR_CORRIDOR
+    spriteShape: 3
+    spriteFacility: 103
+    buildCost: 10000
+    buildTime: 4
+    monthlyCost: 2000
+    mapName: XOPSXBASE01
+  - type: STR_SEC_CORRIDOR
+    spriteShape: 1
+    spriteFacility: 104
+    buildCost: 100000
+    buildTime: 7
+    monthlyCost: 7000
+    mapName: XOPSXBASE06
+  - type: STR_LARGE_WORKSHOP
+    spriteShape: 105
+    spriteFacility: 105
+    size: 2
+    requires:
+      - STR_ELERIUM_115
+      - STR_ALIEN_ALLOYS
+      - STR_UFO_POWER_SOURCE
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 30
+        refund: 10
+      STR_ALIEN_ALLOYS:
+        build: 100
+        refund: 50
+      STR_UFO_POWER_SOURCE:
+        build: 1
+        refund: 0
+    buildCost: 3800000
+    buildTime: 45
+    monthlyCost: 140000
+    workshops: 125
+    mapName: XOPSXBASE07
+  - type: STR_LARGE_LAB
+    spriteShape: 114
+    spriteFacility: 114
+    size: 2
+    requires:
+      - STR_ELERIUM_115
+      - STR_ALIEN_ALLOYS
+      - STR_UFO_POWER_SOURCE
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 20
+        refund: 5
+      STR_ALIEN_ALLOYS:
+        build: 50
+        refund: 25
+      STR_UFO_POWER_SOURCE:
+        build: 1
+        refund: 0
+      STR_UFO_NAVIGATION:
+        build: 2
+        refund: 0
+    buildCost: 3300000
+    buildTime: 40
+    monthlyCost: 120000
+    labs: 100
+    mapName: XOPSXBASE02
+  - type: STR_PSIONIC_LABORATORY_LARGE
+    requires:
+      - STR_PSI_LAB
+    spriteShape: 138
+    spriteFacility: 138
+    size: 2
+    buildCost: 3200000
+    buildTime: 37
+    monthlyCost: 67000
+    psiLabs: 50
+    mapName: XOPSXBASE20
+    listOrder: 4205
+  - type: STR_WORKSHOP
+    workshops: 25
+  - type: STR_LABORATORY
+    labs: 20
+  - delete: STR_HANGAR
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    storage: 10
+    storageTiles:
+      - [1, 12, 0]
+      - [1, 11, 0]
+      - [1, 10, 0]
+      - [1, 9, 0]    
+    monthlyCost: 25000
+    crafts: 2
+    mapName: XBASE_16
