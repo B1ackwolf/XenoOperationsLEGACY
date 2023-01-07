@@ -176,7 +176,7 @@ items:
     bulletSprite: 4
     fireSound: 12
     compatibleAmmo:
-      - STR_HWP_SMOKE_CLIP
+      - STR_DRONE_SHOTGUN_CLIP
     accuracySnap: 40
     accuracyAimed: 60
     tuSnap: 33
@@ -186,39 +186,51 @@ items:
     invWidth: 2
     invHeight: 3
     turretType: 8
-    arcingShot: true
+    aimRange: 5
+    snapRange: 3
+    dropoff: 4
     listOrder: 1505
-  - type: STR_HWP_SMOKE
-    weight: 0
-    bigSprite: 1208
+  - type: STR_DRONE_SHOTGUN
+    size: 6
+    costBuy: 0
+    bigSprite: 90
+    bulletSprite: 3
+    fireSound: 82
     compatibleAmmo:
-      - STR_HWP_SMOKE_CLIP
-    accuracyAimed: 100
-    tuAimed: 45
-    confAimed:
-      name: STR_HWP_POP_SMOKE
+      - STR_DRONE_SHOTGUN_CLIP
+    accuracyAimed: 150
+    tuAimed: 40
     battleType: 1
-    maxRange: 2
-    arcingShot: true
     fixedWeapon: true
     invWidth: 2
-    invHeight: 2
-    recover: false
-  - type: STR_HWP_SMOKE_CLIP
-    weight: 0
+    invHeight: 3
+    aimRange: 5
+    snapRange: 3
+    dropoff: 4
+    listOrder: 10910
+  - type: STR_DRONE_SHOTGUN_CLIP
+    requiresBuy:
+      - STR_DRONE_WARFARE
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    transferTime: 12
+    weight: 4
     bigSprite: 1209
-    floorSprite: 1021
-    power: 60
-    damageType: 9
-    clipSize: 3
-    battleType: 2
-    bulletSprite: 2
-    fireSound: 12
+    floorSprite: 12
     hitSound: 13
     hitAnimation: 26
+    aimRange: 5
+    snapRange: 3
+    dropoff: 4
+    power: 30
+    clipSize: 6
+    shotgunPellets: 5
+    damageType: 1
+    battleType: 2
     invWidth: 2
     invHeight: 1
-    recover: false
+    listOrder: 10920
   - type: STR_HWP_RANGEFINDER
     weight: 0
     bigSprite: 810
@@ -276,6 +288,7 @@ items:
     size: 0.3
     costSell: 2250
     weight: 1
+    battletype: 0
     bigSprite: { mod: master, index: 61 }
     floorSprite: 16
     hitSound: 0
@@ -2983,9 +2996,10 @@ items:
     invWidth: 1
     invHeight: 1
     power: 0
-    battleType: 10
+    battleType: 0
     armor: 65
     ignoreInCraftEquip: true
+    ignoreInBaseDefense: true
     listOrder: 1001
 ##########-------------- Terran Plasma weaponey---------##############
   - type: STR_HUMAN_PLASMA_PISTOL_COMPACT
@@ -6770,6 +6784,15 @@ items:
     battleType: 0
     transferTime: 24
 ########################## Pockets Items #########################
+  - type: STR_NULL_JETPACK
+    bigSprite: 2989
+    weight: 0
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+    battleType: 11
   - type: STR_NULL_BACKPACK
     bigSprite: 2990
     weight: 0

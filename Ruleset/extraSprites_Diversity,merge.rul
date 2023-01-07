@@ -1,256 +1,468 @@
-extraSprites:
+﻿extraSprites:
   - type: Flag0
     singleImage: true
     files:
-      0: Resources/Flags/00-USA.png
+      0: Resources/UI/Flags/Albania.png
   - type: Flag1
     singleImage: true
     files:
-      0: Resources/Flags/01-Egypt.png
+      0: Resources/UI/Flags/Algeria.png
   - type: Flag2
     singleImage: true
     files:
-      0: Resources/Flags/02-Argentina.png
+      0: Resources/UI/Flags/Angola.png
   - type: Flag3
     singleImage: true
     files:
-      0: Resources/Flags/03-Armenia.png
+      0: Resources/UI/Flags/Argentina.png
   - type: Flag4
     singleImage: true
     files:
-      0: Resources/Flags/04-Belarus.png
+      0: Resources/UI/Flags/Armenia.png
   - type: Flag5
     singleImage: true
     files:
-      0: Resources/Flags/05-Belgium.png
+      0: Resources/UI/Flags/Australia.png
   - type: Flag6
     singleImage: true
     files:
-      0: Resources/Flags/06-Brasil.png
+      0: Resources/UI/Flags/Austria.png
   - type: Flag7
     singleImage: true
     files:
-      0: Resources/Flags/07-UK.png
+      0: Resources/UI/Flags/Azerbaijan.png
   - type: Flag8
     singleImage: true
     files:
-      0: Resources/Flags/08-Bulgaria.png
+      0: Resources/UI/Flags/Bahrain.png
   - type: Flag9
     singleImage: true
     files:
-      0: Resources/Flags/09-Canada.png
+      0: Resources/UI/Flags/Bangladesh.png
   - type: Flag10
     singleImage: true
     files:
-      0: Resources/Flags/10-China.png
+      0: Resources/UI/Flags/Belarus.png
   - type: Flag11
     singleImage: true
     files:
-      0: Resources/Flags/11-Congo.png
+      0: Resources/UI/Flags/Belgium.png
   - type: Flag12
     singleImage: true
     files:
-      0: Resources/Flags/12-Croatia.png
+      0: Resources/UI/Flags/Bolivia.png
   - type: Flag13
     singleImage: true
     files:
-      0: Resources/Flags/13-Cuba.png
+      0: Resources/UI/Flags/Bosnia and Hezergovina.png
   - type: Flag14
     singleImage: true
     files:
-      0: Resources/Flags/14-Czechia.png
+      0: Resources/UI/Flags/Botswana.png
   - type: Flag15
     singleImage: true
     files:
-      0: Resources/Flags/15-Denmark.png
+      0: Resources/UI/Flags/Brazil.png
   - type: Flag16
     singleImage: true
     files:
-      0: Resources/Flags/16-Netherlands.png
+      0: Resources/UI/Flags/Bulgaria.png
   - type: Flag17
     singleImage: true
     files:
-      0: Resources/Flags/17-Estonia.png
+      0: Resources/UI/Flags/Burma.png
   - type: Flag18
     singleImage: true
     files:
-      0: Resources/Flags/18-Ethiopia.png
+      0: Resources/UI/Flags/Cameroon.png
   - type: Flag19
     singleImage: true
     files:
-      0: Resources/Flags/19-Faroe_Islands.png
+      0: Resources/UI/Flags/Canada.png
   - type: Flag20
     singleImage: true
     files:
-      0: Resources/Flags/20-Finland.png
+      0: Resources/UI/Flags/Chad.png
   - type: Flag21
     singleImage: true
     files:
-      0: Resources/Flags/21-France.png
+      0: Resources/UI/Flags/Chile.png
   - type: Flag22
     singleImage: true
     files:
-      0: Resources/Flags/22-Georgia.png
+      0: Resources/UI/Flags/China.png
   - type: Flag23
     singleImage: true
     files:
-      0: Resources/Flags/23-Germany.png
+      0: Resources/UI/Flags/Colombia.png
   - type: Flag24
     singleImage: true
     files:
-      0: Resources/Flags/24-Greece.png
+      0: Resources/UI/Flags/Congo.png
   - type: Flag25
     singleImage: true
     files:
-      0: Resources/Flags/25-India.png
+      0: Resources/UI/Flags/Croatia.png
   - type: Flag26
     singleImage: true
     files:
-      0: Resources/Flags/26-Hungary.png
+      0: Resources/UI/Flags/Cuba.png
   - type: Flag27
     singleImage: true
     files:
-      0: Resources/Flags/27-Iceland.png
+      0: Resources/UI/Flags/Czechia.png
   - type: Flag28
     singleImage: true
     files:
-      0: Resources/Flags/28-Indonesia.png
+      0: Resources/UI/Flags/Denmark.png
   - type: Flag29
     singleImage: true
     files:
-      0: Resources/Flags/29-Iran.png
+      0: Resources/UI/Flags/Ecuador.png
   - type: Flag30
     singleImage: true
     files:
-      0: Resources/Flags/30-Ireland.png
+      0: Resources/UI/Flags/Egypt.png
   - type: Flag31
     singleImage: true
     files:
-      0: Resources/Flags/31-Italy.png
+      0: Resources/UI/Flags/El Salvador.png
   - type: Flag32
     singleImage: true
     files:
-      0: Resources/Flags/32-Japan.png
+      0: Resources/UI/Flags/Estonia.png
   - type: Flag33
     singleImage: true
     files:
-      0: Resources/Flags/33-Israel.png
+      0: Resources/UI/Flags/Ethiopia.png
   - type: Flag34
     singleImage: true
     files:
-      0: Resources/Flags/34-Kazakhstan.png
+      0: Resources/UI/Flags/Faroe Islands.png
   - type: Flag35
     singleImage: true
     files:
-      0: Resources/Flags/35-Kenya.png
+      0: Resources/UI/Flags/Finland.png
   - type: Flag36
     singleImage: true
     files:
-      0: Resources/Flags/36-SouthKorea.png
+      0: Resources/UI/Flags/France.png
   - type: Flag37
     singleImage: true
     files:
-      0: Resources/Flags/37-Kyrgyzstan.png
+      0: Resources/UI/Flags/Georgia.png
   - type: Flag38
     singleImage: true
     files:
-      0: Resources/Flags/38-Latvia.png
+      0: Resources/UI/Flags/Germany.png
   - type: Flag39
     singleImage: true
     files:
-      0: Resources/Flags/39-Mexico.png
+      0: Resources/UI/Flags/Ghana.png
   - type: Flag40
     singleImage: true
     files:
-      0: Resources/Flags/40-Mongolia.png
+      0: Resources/UI/Flags/Greece.png
   - type: Flag41
     singleImage: true
     files:
-      0: Resources/Flags/41-Nigeria.png
+      0: Resources/UI/Flags/Guatemala.png
   - type: Flag42
     singleImage: true
     files:
-      0: Resources/Flags/42-Norway.png
+      0: Resources/UI/Flags/Honduras.png
   - type: Flag43
     singleImage: true
     files:
-      0: Resources/Flags/43-Poland.png
+      0: Resources/UI/Flags/Hungary.png
   - type: Flag44
     singleImage: true
     files:
-      0: Resources/Flags/44-Australia.png
+      0: Resources/UI/Flags/Iceland.png
   - type: Flag45
     singleImage: true
     files:
-      0: Resources/Flags/45-Portugal.png
+      0: Resources/UI/Flags/India.png
   - type: Flag46
     singleImage: true
     files:
-      0: Resources/Flags/46-Romania.png
+      0: Resources/UI/Flags/Indonesia.png
   - type: Flag47
     singleImage: true
     files:
-      0: Resources/Flags/47-Russia.png
+      0: Resources/UI/Flags/Iran.png
   - type: Flag48
     singleImage: true
     files:
-      0: Resources/Flags/48-Senegal.png
+      0: Resources/UI/Flags/Iraq.png
   - type: Flag49
     singleImage: true
     files:
-      0: Resources/Flags/49-Slovakia.png
+      0: Resources/UI/Flags/Ireland.png
   - type: Flag50
     singleImage: true
     files:
-      0: Resources/Flags/50-South_Africa.png
+      0: Resources/UI/Flags/Israel.png
   - type: Flag51
     singleImage: true
     files:
-      0: Resources/Flags/51-Spain.png
+      0: Resources/UI/Flags/Italy.png
   - type: Flag52
     singleImage: true
     files:
-      0: Resources/Flags/52-Sweden.png
+      0: Resources/UI/Flags/Ivory Coast.png
   - type: Flag53
     singleImage: true
     files:
-      0: Resources/Flags/53-Switzerland.png
+      0: Resources/UI/Flags/Japan.png
   - type: Flag54
     singleImage: true
     files:
-      0: Resources/Flags/54-Tajikistan.png
+      0: Resources/UI/Flags/Jordan.png
   - type: Flag55
     singleImage: true
     files:
-      0: Resources/Flags/55-Thailand.png
+      0: Resources/UI/Flags/Kazakhstan.png
   - type: Flag56
     singleImage: true
     files:
-      0: Resources/Flags/56-Turkey.png
+      0: Resources/UI/Flags/Kenya.png
   - type: Flag57
     singleImage: true
     files:
-      0: Resources/Flags/57-Uganda.png
+      0: Resources/UI/Flags/Kuwait.png
   - type: Flag58
     singleImage: true
     files:
-      0: Resources/Flags/58-Ukraine.png
+      0: Resources/UI/Flags/Kyrgyzstan.png
   - type: Flag59
     singleImage: true
     files:
-      0: Resources/Flags/59-Uzbekistan.png
+      0: Resources/UI/Flags/Latvia.png
   - type: Flag60
     singleImage: true
     files:
-      0: Resources/Flags/60-Vietnam.png
+      0: Resources/UI/Flags/Libya.png
   - type: Flag61
     singleImage: true
     files:
-      0: Resources/Flags/61-Venezuela.png
+      0: Resources/UI/Flags/Lithuania.png
   - type: Flag62
     singleImage: true
     files:
-      0: Resources/Doge/DogFlag.png
+      0: Resources/UI/Flags/Malaysia.png
+  - type: Flag63
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Mali.png
+  - type: Flag64
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Mexico.png
+  - type: Flag65
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Mongolia.png
+  - type: Flag66
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Montenegro.png
+  - type: Flag67
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Morocco.png
+  - type: Flag68
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Mozambique.png
+  - type: Flag69
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Netherlands.png
+  - type: Flag70
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/New Zealand.png
+  - type: Flag71
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Nicaragua.png
+  - type: Flag72
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Niger.png
+  - type: Flag73
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Nigeria.png
+  - type: Flag74
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/North Macedonia.png
+  - type: Flag75
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Norway.png
+  - type: Flag76
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Pakistan.png
+  - type: Flag77
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Panama.png
+  - type: Flag78
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Paraguay.png
+  - type: Flag79
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Peru.png
+  - type: Flag80
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Philippines.png
+  - type: Flag81
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Poland.png
+  - type: Flag82
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Portugal.png
+  - type: Flag83
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Qatar.png
+  - type: Flag84
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Romania.png
+  - type: Flag85
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Russia.png
+  - type: Flag86
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Saudi Arabia.png
+  - type: Flag87
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Senegal.png
+  - type: Flag88
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Serbia.png
+  - type: Flag89
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Singapur.png
+  - type: Flag90
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Slovakia.png
+  - type: Flag91
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Slovenia.png
+  - type: Flag92
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/South Africa.png
+  - type: Flag93
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/South Korea.png
+  - type: Flag94
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Spain.png
+  - type: Flag95
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Sudan.png
+  - type: Flag96
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Sweden.png
+  - type: Flag97
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Switzerland.png
+  - type: Flag98
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Syria.png
+  - type: Flag99
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Taiwan.png
+  - type: Flag100
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Tajikistan.png
+  - type: Flag101
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Tanzania.png
+  - type: Flag102
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Thailand.png
+  - type: Flag103
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Tunisia.png
+  - type: Flag104
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Turkey.png
+  - type: Flag105
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Uganda.png
+  - type: Flag106
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Ukraine.png
+  - type: Flag107
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/United Arab Emirates.png
+  - type: Flag108
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/United Kingdom.png
+  - type: Flag109
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/United States.png
+  - type: Flag110
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Uruguay.png
+  - type: Flag111
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Uzbekistan.png
+  - type: Flag112
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Venezuela.png
+  - type: Flag113
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Vietnam.png
+  - type: Flag114
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/Zambia.png
+  - type: Flag500
+    singleImage: true
+    files:
+      0: Resources/UI/Flags/ZZZDoges.png
   - type: AvatarBackground
     singleImage: true
     files:

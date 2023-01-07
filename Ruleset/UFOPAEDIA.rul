@@ -118,7 +118,7 @@ ufopaedia:
     listOrder: 210
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    image_id: DRAGONFLY_BIG
+    image_id: FIREFLY_BIG
     rect_stats:
       x: 210
       y: 140

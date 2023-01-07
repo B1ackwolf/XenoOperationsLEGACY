@@ -59,8 +59,8 @@ A few tips
 -  Xeno Operations armor is great for rookies. Even though it is very weak, it is a cheap armor that boosts shooting. When the rookie's stats improve, they can graduate to heavier armor.
 -  It is extremely important that troops don't bunch up. The aliens have a few new area of effect weapons that are very devastating.
 -  First Aid Kits are a starting medikit. They are heavy though and are more costly in TUs to use.
--  Use armor colors for quick identification of soldier roles. For example, dress all snipers in blue or put the best troops in black. This allows for soldier identification at a quick glanced.
--  Security stations make base defense much easier. In fact I am a bit worried it is a bit of a game breaker in that area.
+-  Use armor colors for quick identification of soldier roles. For example, dress all snipers in green or put the best troops in black. This allows for soldier identification at a quick glanced.
+-  Security stations make base defense much easier. Updated the desing so its a little bit fairier for both sides.
 -  Corridors are awesome for decreasing build times as they are a cheap facility to connect other facilities. Use them to quickly flesh out a base and then take them apart when you don't need them anymore.
 -  Keep a diverse arsenal and make sure to take a wide variety of weapons with you on every mission. You never know when you might encounter an alien that is immune to certain kinds of weapons.
 -  Never pass up a codex recovery mission. Ever!
@@ -74,48 +74,72 @@ Known Bugs
 Changelog:
 v0.96.v8 LE:
 
+  At first a small disclaimer, i have been trying the amazing BRUTAL IA MOD, and i heavily encourage to do it so to get an improved experience, i cant remark all the changes so go take a look (esto seria un link).
+    -Thus as a QoL , made a small changes to metadata files so its fully compatible with BRUTAL IA MOD (in case you already tried and found XOPS LEGACY didnt showed up in the mod list for activation)
 	-Finally!, after spending more time that i wished, the paperdolls layered system its fully implemented
 	 *Every tier now its DONE™, there are still some clipping issues on some sprites, but they'll be progressively ironed out (nerve and personal armour doesnt cover all the body in some sprites)
-      °now i can focus on finishing some sprite work 
-	  
-	-COMPLETAR Three new doggos friends!, increasing over to 4 diferent breeds
-     *Mallinois, German Shepperds, Dobbermans and Rottweilers sprites made
+      °now i can focus on finishing some sprite work like the nerve armour or updating the basic sprites to show the newer four scoped Night vision googles to name a few examples
+  Finally learned how to add new nationalities:
+	  *There are now 115 nationalities
+      °Some flags are entirely new, others were retouched
+	  °expanded the name pools of almost all countries (my target is to add at least 500 names per gender and 1000 surnames,thera still some cases were the number werent enough to consider it finished) 
+	  °focused on adding missing countries with either high military spending, or history of cooperation with bigger supperpowers or UN peacekeeping forces (colombia and malasya for example)
+	 *reorganized "nationalities" (i.e. the flags) into (imho) a more intiutive order, basically into alphabetical order, (so now USA and EGYPT are moved lower on the list, to name a few changes)
+	  °be wary that with this changes, most of the soldiers flags will be flipped all over the place, so you might need to manually fix this yourself, sorry :s .
+	-Three new doggos friends!, increasing the total to 4 diferent breeds
+     *Mallinois, German Shepperds, Dobbermans and Rottweilers sprites done (if anyone has ideas for other k9 breeds that should be included tbh, im all ears)
 	 *Implemented layered system on doggos, so collars and combat harness can be used the same way as armors for soldiers
-	  °i cant imagine any other k9 breed that should be included tbh, if anyone has any ideas, im all ears.
-	  °instead i will try and make new fur patters for the aviable breeds, thus having more variety
-	  °changes only in inventory screen, sadly making battlescape sprites is way above my current skills..... some day i hope.
+	  °i will try and make new fur patters for the aviable breeds, thus having more variety
+	  °all changes only in inventory screen, sadly making battlescape sprites is way above my current skills..... some day i hope.
+	-Rebalanced first land drone loadout, also renamed to UCLV "DAGGER"
+	  *stripped the smoke launcher (way too weak for their breaching role ) , now uses a shotgun like weapon, with very small range, but decent damage output (stick boom turns sectoids into meat confetti)
+	-NEW STARTING SHIP! called the DRAGONFLY thanks a lot to efrenspartano for his gorgeos spritework, increible compadre, te la rifaste!
+	 *based on the newest bell valor 280 from boeing:
+	  °capacity for only twelve soldiers
+	  °cant take any HWP TANKS, only dogs and small drones as auxiliary units.
+	 *Should be your mainstay unit for troop transporting 
+	-Old starting ship (the CUSTODIAN/dragonfly) was renamed into FIREFLY has became a new ship on their own:
+     *its a crude step foward.
+      °can haul 14 units, including heavy tanks
+	  °intended as a "spec ops" plane, with only a pair fielded and the rest of the work done by the dragonflies(valor 280)
+	  °slighty faster than before
+	  °more expensive all around
+	  °uses an improved battlescape map, courtesy of EFRENSPARTANO
 	-Completar Now tanks are finally done (sprites are placeholder, planing to use the coelacanth sheet, so threads are animated, the same with the turret)
-      *first tier  requires allien alloys for their construction (so they are light enough to be airlifter on VTOL transports)	
+      *first tier  requires allien alloys for their construction (so they are light enough to be airlifted on VTOL transports)	
 	  *tanks comes in two varieties for now and all use the same chassis (imported and repurporsed from XENONAUTS 1)
 	   °AP (an 20mm IFV) intended for infantry support, small smoke launcher as secondary weapon .
 	   °HE (classic 105mm MBT) intended for brawling aggainst heavier alien units. also with smoke launcher as backup
-	  *advanced tier uses the hyperion from xenonauts 1. purporsely more feeble than it bigger cousin as a trade of for levitating, this is unlocked deep on the mid game tho.
-	   °intended as glass cannons, they field advanced weaponry and rocket launchers as secondary weaponry
-	-COMPLETAR rebalanced first drone loadout.
-	  *stripped the smoke launcher (way too weak for their breaching role ) , now uses a shotgun like weapon, with very small range, but decent damage output (stick boom turns sectoids into meat confetti)
-    -COMPLETAR Finally learned how to add new nationalities:
-	 *hella bunch new flags and name libraries created, around 30+ more
-	  °focused on adding missing countries with either high military spending, or history of cooperation with bigger supperpowers or UN peacekeeping forces (colombia and malasya for example)
-	 *reorganized "nationalities" (i.e. the flags) into (imho) a more intiutive order, basically into alphabetical order, (so now USA and EGYPT are moved lower on the list, to name a few changes)
-	  °regarding this, i made a folder with nationalities using the instead the demonym as before (american, arabic, british, dutch, etc)
-	-COMPLETAR NEW STARTING SHIP! thanks a lot to efrenspartano for his gorgeos spritework, increible compadre, te la rifaste!
-	 *based on the newest bell valor 280 from boeing:
-	  °capacity for only twelve soldiers
-	  °slight fa
 	-Improved sprites of tinyranks,Thanks to Filip H from the IDT group for the insights, now EVERY soldier types use a correct version:
      *Green backgrouds with yellow chevrons for basic infantry
      *Green and yellow bars for officers
 	 *Blue backgrouds with yellow bars for pilots
 	 *doggos has a yellow K over a red background
+	-Updated some Text strings and ufopaedia entries:
+	-Updated pilot suit description
+	-Figthers now follow a new name convention based on chess pieces:
+	 *basic f35 lore updated and renamed unto "bishop"
+	 *xcf1 renamed to "Knight"
+	 *xcf2 Renamed to "Rook"
+	 *xcf3 renamed to "empress" based on the queen piece (queen sounded kinda bland and unispired)
+	 * the ultimate ship renamed from archangel to OVERLORD based on the king piece(a more imposing and fitting name according to lore)
+	 *Ufopaedia updated to some extra articles missing (hacer el de perros, el de combined arms opperations)
+	  °on a related note OVERLORD ALIENS (the golden crystaline shards) are renamed to SOVEREIGN (firstly to avoid confusions of having same elements, secondly, cuz without making too much spoilers, it didnt make sense considering their position in command)
+	
     -BugFixes:
+	 °Declustered and streamlined some folders and files(specially names), and to make finding stuff more easier. mostly for my sanity, also in case anyone wish to use resources from the mod, remember to give credits for other people work...in the veeeeeeeeeeeery few cases where the sprites or files are entirely being made by me (like dogs sprites for example), are free to use without any issues, dont worry
 	 °balanced X3 HEAVY PISTOL alloy ammunition: 50 > to 42 (it was hitting harder than a AM-Rifle )
-	 °BORRAR swapped new zealand flag with an AUSTRALIAN FLAG (sorry kiwis friends :C)
+	 °Moved the craft craft tile were all inventory items formed a pile to a safer location across ALL ships this way you'll theorethically wont lose any item by a stray rocket/grenade/cyberdisc explosion (last row of the firefly for example)
      °Fixed doggos portraits (it correctly shows the face)
+	 °Updated congo flag now use the Official (since 2006) DRC 
      °okay now for real,Fixed(?) tinyranks spritesheet, last patch i changed color combinations correctly to green, they used to be RED. If anyone preffers that version, i left both files on the folder, change the names and use as your preference. 
-
+	 °corrected the army rank description : HIGHER RANK SHOULD BE a LT. COLONEL now (instead of simply a colonel, thats reserved for pilots ranks)
+	 ESTO PONERLO EN PLANES A FUTURO 
+	  *advanced tier uses the hyperion from xenonauts 1. purporsely more feeble than it bigger cousin as a trade of for levitating, this is unlocked deep on the mid game tho.
+	   °intended as glass cannons, they field advanced weaponry and rocket launchers as secondary weaponry
 v0.96.v7 LE:
     -Added new items:
-	 °All the items has custom sprites, inspired heavily from Xcomfiles. So thanks again for all the work done by solariusScorch. They need ufopaedia text which is currently being done.
+	 °All the items has custom sprites, inspired heavily from Xcomfiles. So thanks again for all the work done by solariusScorch. They need ufopaedia text which is currently being working on.
       *adrenalin syringe: gives 1 dose to revive stun soldiers (get discarded after use)
 	  *First aid kit: heals 1 point of bleeding, can be used on themselves, its discarded after use),Cost more TUs,so its slower than other medkits
 	  *Basic medkit:  heal 1 point of bleeding and have 5 charges, useful for dedicated medic units, its expensive,heavier but heals more quickly and recharge freely after missions.
@@ -223,7 +247,7 @@ vO.96.V5 LE:
 v0.96.v4 LE:
    -correctly remplaced some wrong RUL files compressed by mistake from a very old build (sorry :C) (some tweaks to base facilities for example)
    -finally managed to make doggos unable to equip human clothing   
-   -streamlined shock (stun weapons), reduced to just two ammo types (three if you count your first taser pistol into this category tho):
+   -streamlined shock (stun weapons), reduced to just two ammo types (three if you count your first taser pistol into this category):
     °pistol and rifle uses the same battery (you must pick between the accuracy/reliabilty of the rifle or portability and swiftness of the pistol)
 	°added missing shock weapons ufopedia entries (tried my best to translate my ideas, will prolly change later for better grammar)
 	°tweaked and adjusted stats (grenade included, so theorethically everything should have their own identity and niche)

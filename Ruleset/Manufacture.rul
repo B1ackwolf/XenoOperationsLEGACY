@@ -274,7 +274,7 @@ manufacture:
       - STR_DRONE_WARFARE
     space: 6
     time: 240
-    cost: 250000
+    cost: 150000
     listOrder: 490
   - name: STR_UAV_ROCKET_LAUNCHER
     category: STR_HEAVY_WEAPONS_PLATFORM
@@ -298,9 +298,9 @@ manufacture:
       - STR_DRONE_WARFARE
     space: 6
     time: 250
-    cost: 180000
+    cost: 110000
     listOrder: 488
-  - name: STR_HWP_SMOKE_CLIP
+  - name: STR_DRONE_SHOTGUN_CLIP
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_DRONE_WARFARE

@@ -4041,7 +4041,7 @@
     visibilityAtDark: 18
     heatVision: 100
     builtInWeapons:
-      - STR_NULL_BACKPACK
+      - STR_NULL_JETPACK
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
@@ -4192,7 +4192,7 @@
     visibilityAtDark: 18
     heatVision: 100
     builtInWeapons:
-      - STR_NULL_BACKPACK
+      - STR_NULL_JETPACK
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
@@ -4341,7 +4341,7 @@
     visibilityAtDark: 18
     heatVision: 100
     builtInWeapons:
-      - STR_NULL_BACKPACK
+      - STR_NULL_JETPACK
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
@@ -4492,7 +4492,7 @@
     visibilityAtDark: 18
     heatVision: 100
     builtInWeapons:
-      - STR_NULL_BACKPACK
+      - STR_NULL_JETPACK
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
@@ -4643,7 +4643,7 @@
     visibilityAtDark: 18
     heatVision: 100
     builtInWeapons:
-      - STR_NULL_BACKPACK
+      - STR_NULL_JETPACK
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
@@ -4792,7 +4792,7 @@
     visibilityAtDark: 18
     heatVision: 100
     builtInWeapons:
-      - STR_NULL_BACKPACK
+      - STR_NULL_JETPACK
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
@@ -6720,6 +6720,294 @@
       - 0.8
       - 1.5
       - 0.0
+# dogs
+  - type: STR_DOGE_ARMOR
+    spriteSheet: DOGE.PCK
+    spriteInv: MAN_100
+    customArmorPreviewIndex: 57
+    layersDefaultPrefix: DOGGO
+    layersSpecificPrefix:
+      8: DOGGO_HARNESS
+    layersDefinition:
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+####temporary solution?####
+    corpseBattle:
+      - STR_DOGE_CORPSE
+    storeItem: STR_NONE
+    visibilityAtDay: 40
+    visibilityAtDark: 15
+    personalLight: 5
+    heatVision: 20
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    builtInWeapons:
+      - STR_DOGE_BARK
+      - STR_DOGE_BITE
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    recovery:
+      morale:
+        flatHundred: -0.05
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 60
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    movementType: 0
+    drawingRoutine: 4
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.5
+      - 1.0
+      - 4.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    units:
+      - STR_DOG
+    specialWeapon: STR_DOGE_TRACK
+    loftempsSet: [ 2 ]
+  - type: STR_DOGE_COMBAT_VEST_ARMOR
+    storeItem: STR_DOGE_COMBAT_VEST
+    spriteSheet: DOGE_COMBAT_VEST.PCK
+    spriteInv: MAN_101
+    customArmorPreviewIndex: 58
+    layersDefaultPrefix: DOGGO
+    layersSpecificPrefix:
+      8: DOGGO_VEST
+    layersDefinition:
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_VEST_ALT_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_VEST_ALT_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
+    corpseBattle:
+      - STR_DOGE_COMBAT_VEST_CORPSE
+    visibilityAtDay: 40
+    visibilityAtDark: 15
+    personalLight: 5
+    heatVision: 20
+    frontArmor: 11
+    sideArmor: 15
+    rearArmor: 13
+    underArmor: 9
+    builtInWeapons:
+      - STR_DOGE_BARK
+      - STR_DOGE_BITE
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    weight: -6
+    recovery:
+      morale:
+        flatHundred: -0.05
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 30
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    movementType: 0
+    drawingRoutine: 4
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 4.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    units:
+      - STR_DOG
+    specialWeapon: STR_DOGE_TRACK
+    loftempsSet: [ 2 ]
+    tags:
+  - type: STR_DOGE_DURATHREAD_VEST_ARMOR
+    storeItem: STR_DOGE_DURATHREAD_VEST
+    spriteSheet: DOGE_DURATHREAD_VEST.PCK
+    spriteInv: MAN_103
+    customArmorPreviewIndex: 59
+    corpseBattle:
+      - STR_DOGE_DURATHREAD_VEST_CORPSE
+    visibilityAtDay: 40
+    visibilityAtDark: 15
+    personalLight: 5
+    heatVision: 20
+    frontArmor: 7
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 10
+    weight: -4
+    builtInWeapons:
+      - STR_DOGE_BARK
+      - STR_DOGE_BITE
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    recovery:
+      morale:
+        flatHundred: -0.05
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 50
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    movementType: 0
+    drawingRoutine: 4
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.0
+    units:
+      - STR_DOG
+    specialWeapon: STR_DOGE_TRACK
+    loftempsSet: [ 2 ]
+  - type: STR_DOGE_ALLOY_VEST_ARMOR
+    storeItem: STR_DOGE_AA_VEST
+    spriteSheet: DOGE_ALLOY_VEST.PCK
+    spriteInv: MAN_102
+    customArmorPreviewIndex: 60
+    corpseBattle:
+      - STR_DOGE_ALLOY_VEST_CORPSE
+    visibilityAtDay: 40
+    visibilityAtDark: 15
+    personalLight: 5
+    heatVision: 20
+    frontArmor: 17
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 12
+    weight: -4
+    builtInWeapons:
+      - STR_DOGE_BITE
+      - STR_DOGE_BARK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    recovery:
+      morale:
+        flatHundred: -0.05
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        flatHundred: 0.21
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    movementType: 0
+    drawingRoutine: 4
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.7
+      - 1.0
+      - 0.9
+      - 1.0
+      - 4.0
+      - 0.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.0
+    units:
+      - STR_DOG
+    specialWeapon: STR_DOGE_TRACK
+    loftempsSet: [ 2 ]
 #------ Armors for ufopaedia display, check if this could be deleted later.
   - type: STR_VEST_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_1.PCK
@@ -6969,13 +7257,25 @@
     spriteSheet: UAV.PCK
     corpseBattle:
       - STR_UAV_CORPSE
+    spriteInv: inventory_HELI_DRONE
     frontArmor: 35
     sideArmor: 35
     rearArmor: 35
     underArmor: 35
     drawingRoutine: 19
-    allowInv: false
     movementType: 1
+    visibilityAtDay: 15
+    visibilityAtDark: 15
+    camouflageAtDay: 7
+    camouflageAtDark: 7
+    personalLight: 5
+    heatVision: 50
+    antiCamouflageAtDay: 5
+    antiCamouflageAtDark: 5
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
     size: 1
     damageModifier:
       - 1.0
@@ -6988,9 +7288,19 @@
       - 1.0
       - 1.4
       - 0.0
+    builtInWeapons:
+      - STR_DRONE_SHOTGUN_CLIP
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
     loftempsSet: [ 5 ]
   - type: UAV_ARMOR2
     spriteSheet: UAVROCKET.PCK
+#    spriteInv: inventory_HELI_DRONE2
     corpseBattle:
       - STR_UAV_CORPSE
     frontArmor: 35
@@ -6998,8 +7308,19 @@
     rearArmor: 35
     underArmor: 35
     drawingRoutine: 4
-    allowInv: false
     movementType: 1
+    visibilityAtDay: 15
+    visibilityAtDark: 15
+    camouflageAtDay: 7
+    camouflageAtDark: 7
+    personalLight: 5
+    heatVision: 100
+    antiCamouflageAtDay: 7
+    antiCamouflageAtDark: 7
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
     size: 1
     damageModifier:
       - 1.0
@@ -7012,13 +7333,26 @@
       - 1.0
       - 1.4
       - 0.0
+    builtInWeapons:
+      - STR_DRONE_SHOTGUN_CLIP
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
     loftempsSet: [ 5 ]
   - type: LAND_DRONE_ARMOR
     spriteSheet: LAND_DRONE.PCK
     customArmorPreviewIndex: 54
     corpseBattle:
       - STR_LAND_DRONE_CORPSE
+    spriteInv: inventory_LAND_DRONE
+    visibilityAtDay: 15
     visibilityAtDark: 15
+    camouflageAtDay: 12
+    camouflageAtDark: 12
     personalLight: 5
     heatVision: 50
     antiCamouflageAtDay: 5
@@ -7062,7 +7396,7 @@
       - 0.0
     builtInWeapons:
 #      - STR_HWP_SMOKE
-      - STR_HWP_SMOKE_CLIP
+      - STR_DRONE_SHOTGUN_CLIP
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
@@ -7490,266 +7824,4 @@
       - 1.0
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-# dogs
-  - type: STR_DOGE_ARMOR
-    spriteSheet: DOGE.PCK
-    spriteInv: MAN_100
-    customArmorPreviewIndex: 57
-    corpseBattle:
-      - STR_DOGE_CORPSE
-    storeItem: STR_NONE
-    visibilityAtDay: 40
-    visibilityAtDark: 15
-    personalLight: 5
-    heatVision: 20
-    frontArmor: 5
-    sideArmor: 5
-    rearArmor: 5
-    underArmor: 5
-    builtInWeapons:
-      - STR_DOGE_BARK
-      - STR_DOGE_BITE
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    recovery:
-      morale:
-        flatHundred: -0.05
-        manaNormalized: 14.0
-      time:
-        tu: 0.5
-        manaNormalized: 125.0
-      energy:
-        manaNormalized: 60
-        healthCurrent: 0.25
-      stun:
-        healthCurrent: 0.06
-        health: -0.09
-        stunCurrent: 0.036
-        manaNormalized: 8.0
-      health:
-        stunNormalized: -0.1
-    movementType: 0
-    drawingRoutine: 4
-    overKill: 1.5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.5
-      - 1.0
-      - 4.0
-      - 0.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    units:
-      - STR_DOG
-    specialWeapon: STR_DOGE_TRACK
-    loftempsSet: [ 2 ]
-  - type: STR_DOGE_COMBAT_VEST_ARMOR
-    storeItem: STR_DOGE_COMBAT_VEST
-    spriteSheet: DOGE_COMBAT_VEST.PCK
-    spriteInv: MAN_101
-    customArmorPreviewIndex: 58
-    corpseBattle:
-      - STR_DOGE_COMBAT_VEST_CORPSE
-    visibilityAtDay: 40
-    visibilityAtDark: 15
-    personalLight: 5
-    heatVision: 20
-    frontArmor: 11
-    sideArmor: 15
-    rearArmor: 13
-    underArmor: 9
-    builtInWeapons:
-      - STR_DOGE_BARK
-      - STR_DOGE_BITE
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    weight: -6
-    recovery:
-      morale:
-        flatHundred: -0.05
-        manaNormalized: 14.0
-      time:
-        tu: 0.5
-        manaNormalized: 125.0
-      energy:
-        manaNormalized: 30
-        healthCurrent: 0.25
-      stun:
-        healthCurrent: 0.06
-        health: -0.09
-        stunCurrent: 0.036
-        manaNormalized: 8.0
-      health:
-        stunNormalized: -0.1
-    movementType: 0
-    drawingRoutine: 4
-    overKill: 1.5
-    damageModifier:
-      - 1.0
-      - 0.8
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 4.0
-      - 0.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    units:
-      - STR_DOG
-    specialWeapon: STR_DOGE_TRACK
-    loftempsSet: [ 2 ]
-    tags:
-  - type: STR_DOGE_DURATHREAD_VEST_ARMOR
-    storeItem: STR_DOGE_DURATHREAD_VEST
-    spriteSheet: DOGE_DURATHREAD_VEST.PCK
-    spriteInv: MAN_103
-    customArmorPreviewIndex: 59
-    corpseBattle:
-      - STR_DOGE_DURATHREAD_VEST_CORPSE
-    visibilityAtDay: 40
-    visibilityAtDark: 15
-    personalLight: 5
-    heatVision: 20
-    frontArmor: 7
-    sideArmor: 12
-    rearArmor: 9
-    underArmor: 10
-    weight: -4
-    builtInWeapons:
-      - STR_DOGE_BARK
-      - STR_DOGE_BITE
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    recovery:
-      morale:
-        flatHundred: -0.05
-        manaNormalized: 14.0
-      time:
-        tu: 0.5
-        manaNormalized: 125.0
-      energy:
-        manaNormalized: 50
-        healthCurrent: 0.25
-      stun:
-        healthCurrent: 0.06
-        health: -0.09
-        stunCurrent: 0.036
-        manaNormalized: 8.0
-      health:
-        stunNormalized: -0.1
-    movementType: 0
-    drawingRoutine: 4
-    overKill: 1.5
-    damageModifier:
-      - 1.0
-      - 0.7
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.7
-      - 1.0
-      - 4.0
-      - 0.0
-      - 0.7
-      - 1.0
-      - 1.0
-      - 0.0
-    units:
-      - STR_DOG
-    specialWeapon: STR_DOGE_TRACK
-    loftempsSet: [ 2 ]
-  - type: STR_DOGE_ALLOY_VEST_ARMOR
-    storeItem: STR_DOGE_AA_VEST
-    spriteSheet: DOGE_ALLOY_VEST.PCK
-    spriteInv: MAN_102
-    customArmorPreviewIndex: 60
-    corpseBattle:
-      - STR_DOGE_ALLOY_VEST_CORPSE
-    visibilityAtDay: 40
-    visibilityAtDark: 15
-    personalLight: 5
-    heatVision: 20
-    frontArmor: 17
-    sideArmor: 25
-    rearArmor: 20
-    underArmor: 12
-    weight: -4
-    builtInWeapons:
-      - STR_DOGE_BITE
-      - STR_DOGE_BARK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    recovery:
-      morale:
-        flatHundred: -0.05
-        manaNormalized: 14.0
-      time:
-        tu: 0.5
-        manaNormalized: 125.0
-      energy:
-        flatHundred: 0.21
-        healthCurrent: 0.25
-      stun:
-        healthCurrent: 0.06
-        health: -0.09
-        stunCurrent: 0.036
-        manaNormalized: 8.0
-      health:
-        stunNormalized: -0.1
-    movementType: 0
-    drawingRoutine: 4
-    overKill: 1.5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.8
-      - 0.7
-      - 0.7
-      - 1.0
-      - 0.9
-      - 1.0
-      - 4.0
-      - 0.0
-      - 0.7
-      - 1.0
-      - 1.0
-      - 0.0
-    units:
-      - STR_DOG
-    specialWeapon: STR_DOGE_TRACK
-    loftempsSet: [ 2 ]
+

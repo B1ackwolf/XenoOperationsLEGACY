@@ -3,9 +3,9 @@ startingTime:
   minute: 0
   hour: 12
   weekday: 2
-  day: 1
+  day: 5
   month: 1
-  year: 2024
+  year: 2026
 costEngineer: 62500
 costScientist: 75000
 maxLookVariant: 13 

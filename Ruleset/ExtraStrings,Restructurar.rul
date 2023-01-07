@@ -10,7 +10,8 @@ extraStrings:
       STR_ELITE_SOLDIER: Elite Soldier
       STR_SOLDIER_OFFICER: Officer
       STR_PILOT_UC: PILOT FLIGHT SUIT
-      STR_PILOT_UC_UFOPEDIA: Standard G-suit used by XCOM combat pilots. Made to resist high levels of acceleration forces, it's very practical (has plenty of pockets), and durable (includes fire retardant clothing). Its appearance is usually similar to a jumpsuit.
+      STR_PILOT_UFOPEDIA_DISPLAY: Pilot Flight Suit
+      STR_PILOT_UC_UFOPEDIA: Standard G-suit used by XCOM combat pilots. Made to resist high levels of acceleration forces, lightweight yet durable (includes fire retardant clothing). Its appearance is usually similar to a jumpsuit.
       STR_2ND_LIEUTENANT: 2nd Lieutenant
       STR_1ST_LIEUTENANT: 1st Lieutenant
       STR_AIR_CAPTAIN: Captain
@@ -22,7 +23,7 @@ extraStrings:
       STR_ARMY_LIEUTENANT: Lieutenant
       STR_ARMY_CAPTAIN: Captain
       STR_ARMY_MAJOR: Major
-      STR_ARMY_LT_COLONEL: Colonel
+      STR_ARMY_LT_COLONEL: Lt. Colonel
       STR_OFFICER_PROMOTION: Officer Promotion
       STR_AVATAR_NAME_1: "Male 0"
       STR_AVATAR_NAME_2: "Male 1"
@@ -140,10 +141,54 @@ extraStrings:
       STR_RECOVERY_TIME: "Recovery Time>{ALT}{0}"
       STR_CURRENT_STATS: "Current stats"
       STR_CHANGES: "Changes" 
+      STR_COMMANDER: "Master Sergeant"
+      STR_COLONEL: "Staff Sergeant"
+      STR_CAPTAIN: "Sergeant"
+      STR_SERGEANT: "Corporal"
+      STR_SQUADDIE: "Private"
+      STR_ROOKIE: "Recruit"
+      STR_CUSTODIAN_UFOPEDIA: "This vertical landing vessel can transport up to 14 agents directly to the operation site. It can also be used to transport auxiliary units as Heavy Weapons Platforms and such."
+      STR_GYM: "Gym"
+      STR_GYM_UFOPEDIA: "This facility is a training room for X-Com agents. It can accommodate up to 10 people at a time."
+      STR_DOGE_TRACK: "Track"
+      STR_DOGE_TRACK_UFOPEDIA: "Dogs can be commanded to Track nearby units. Tracking reveals all targets moving nearby, but also makes the dog agitated, which is represented by 10 Morale loss."
+      STR_DOGE_BARK: "Dog Bark"
+      STR_DOGE_BARK_UFOPEDIA: "The ferocious bark of this savage attack dog can cause foes to freeze in place."
+      STR_DOGE_BITE: "Dog Bite"
+      STR_DOGE_BITE_UFOPEDIA: "Chomp!"
+      STR_DOGE_COMBAT_VEST_CORPSE: "Dead Dog"
+      STR_DOGE_COMBAT_VEST: "Dog Combat Gear"
+      STR_DOGE_COMBAT_VEST_ARMOR_UNDERWATER: "Dog Combat Gear"
+      STR_DOGE_COMBAT_VEST_ARMOR: "Dog Combat Gear"
+      STR_DOGE_COMBAT_VEST_ARMOR_UFOPEDIA: "This armor gives the dog some basic protection on the modern battlefield, but may tire it out quickly."
+      STR_DOGE_DURATHREAD_VEST_ARMOR: "DURATHREAD VEST"
+      STR_DOGE_DURATHREAD_VEST_ARMOR_UNDERWATER: "DOG DURATHREAD VEST"
+      STR_DOGE_DURATHREAD_VEST_ARMOR_UFOPEDIA: "The Durathread Vest is much less constricting than combat armor and also offers better protection. It increases the dog's carrying capacity by 4."
+      STR_DOGE_CYBERSUIT_ARMOR: "CYBERSUIT GEAR"
+      STR_DOGE_CYBERSUIT: "Dog Cybersuit"
+      STR_DOGE_CYBERSUIT_CORPSE: "Dead Dog"
+      STR_DOGE_CYBERSUIT_ARMOR_UFOPEDIA: "State of the art protective gear for X-Com canine companions. Features enhanced protection and electronic sensory assistance."
+      STR_DOGE_ALLOY_VEST_CORPSE: "Dead Dog"
+      STR_DOGE_ALLOY_VEST: "Dog Tritanium Vest"
+      STR_DOGE_ALLOY_VEST_ARMOR_UNDERWATER: "TRITANIUM GEAR"
+      STR_DOGE_ALLOY_VEST_ARMOR: "TRITANIUM GEAR"
+      STR_DOGE_ALLOY_VEST_ARMOR_UFOPEDIA: "Made from Tritanium, this protective gear is both stronger and lighter than basic dog armor. It increases the dog's carrying capacity by 4."
+      STR_DOGE_DURATHREAD_VEST_CORPSE: "Dead Dog"
+      STR_DOGE_DURATHREAD_VEST: "Dog Durathread Vest"
+      STR_DOGE_AA_VEST: "Dog Tritanium Gear"
+      STR_DOGE_AA_VEST_ARMOR: "TRITANIUM GEAR"
+      STR_DOG: "Dog"
+      STR_DOGE_ARMOR: "Dog Harness"
+      STR_DOGE_ARMOR_UFOPEDIA: "Unarmored dogs have better effective stamina than those wearing armor."
+      STR_DOGE: "Attack Dog"
+      STR_DOGE_CORPSE: "Dead Dog"
+      STR_DOGE_JAWS: "Bite"
+      STR_DOGE_UFOPEDIA: "These highly trained dogs are fully capable of operating in battlefield conditions. Always obedient, they won't attack unless ordered to do so."
 ##### reorder everything above this #####-------------------------------------
 #GENERAL
 #-----misc
       STR_QD_SLOT: QD
+      STR_NULL_JETPACK: JETPACK
       STR_NULL_BACKPACK: ""
       STR_NULL_SMALL_BACKPACK: ""
       STR_NULL_BELT: "" 
@@ -152,26 +197,38 @@ extraStrings:
       STR_NULL_POCKET_RL: ""
       STR_NULL_POCKET_LL: ""
 #-----Craft and Craft Weapons
-      STR_PLASMA_CANNON: Plasma Beam
-      STR_ELERIUM_CELL: Elerium Cell
-      STR_INTERCEPTOR: X35 JSF
       STR_SR71: SR-71 BLACKBIRD
-      STR_XCF1: XCF-1 ROOK
-      STR_XCF2: XCF-2 GUARDIAN
-      STR_XCF3: XCF-3 AEGIS
-      STR_XCF3_FUEL: XCF-3 Aegis Fuel
-      STR_CLUSTER_MISSILE: Gladius Missile
-      STR_PILUM: Pilum
-      STR_CLUSTER_MISSILES: Gladius Missile
-      STR_PILUM_MISSILES: Pilum Missile
-      STR_CLUSTER_MISSILE_LAUNCHER: Gladius Missile Launcher
-      STR_PILUM_LAUNCHER: Pilum Missile Launcher
-      STR_CLUSTER_MISSILE_UC: GLADIUS
+      STR_INTERCEPTOR: XCF-0 BISHOP
+      STR_XCF1: XCF-1 KNIGHT
+      STR_XCF2: XCF-2 ROOK
+      STR_XCF3: XCF-3 EMPRESS
+      STR_BELL_VALOR: DRAGONFLY
+      STR_CUSTODIAN: FIREFLY
+      STR_SKYWARDEN: GOLIATH
+      STR_HURRICANE: HERACLES
+      STR_ARCHANGEL: OVERLORD
+      STR_CANNON: SLING Cannon
+      STR_STINGRAY_MISSILES: JAVELIN Missile
+      STR_STINGRAY_LAUNCHER: JAVELIN Missile Launcher
+      STR_CLUSTER_MISSILE: TRIDENT Missile
+      STR_CLUSTER_MISSILE_LAUNCHER: TRIDENT Missile Launcher
+      STR_CLUSTER_MISSILES: TRIDENT Missile
+      STR_PILUM: PILUM
+      STR_PILUM_MISSILES: PILUM Missile
+      STR_PILUM_LAUNCHER: PILUM Missile Launcher
+      STR_LASER_CANNON: BALLISTA Laser Cannon
+      STR_PLASMA_BEAM: ONAGER Plasma Beam
+      STR_FUSION_BALL: TREBUCHET Fusion Launcher
+      STR_CANNON_UC: SLING
+      STR_STINGRAY: JAVELIN
+      STR_CLUSTER_MISSILE_UC: TRIDENT
       STR_PILUM_UC: PILUM
+      STR_LASER_CANNON_UC: BALLISTA
+      STR_PLASMA_BEAM_UC: ONAGER
+      STR_FUSION_BALL_UC: TREBUCHET
       STR_XCF_FUEL: Aegis Fuel
-      STR_SKYWARDEN: SKYWARDEN
-      STR_HURRICANE: HURRICANE
-      STR_ARCHANGEL: ARCHANGEL
+      STR_XCF3_FUEL: XCF-3 Aegis Fuel
+      STR_ELERIUM_CELL: Elerium Cell
 #-----Facilities
       STR_LIVING_QUARTERS_2: "Large Living Quarters"
       STR_GENERAL_STORES_2: "Large Storage Facility"
@@ -183,10 +240,13 @@ extraStrings:
       STR_SAT_UP_NET: Satellite Network
       STR_HYP_UP_NET: Hyperwave Network
 #-----HWP
-      STR_UAV: UAV
-      STR_UAV_ROCKET_LAUNCHER: UAV/Rockets
-      STR_UAV_ROCKETS: UAV Rocket
-      STR_UAV_CORPSE: UAV Debris
+      STR_UAV: UAV SHURIKEN
+      STR_UAV_ROCKET_LAUNCHER: UCAV LONGBOW
+      STR_UAV_ROCKETS: Arrow rockets
+      STR_LAND_DRONE: UCLV DAGGER
+      STR_DRONE_SHOTGUN_CLIP: Drone shotgun clips
+      STR_UAV_CORPSE: Drone Debris
+      STR_LAND_DRONE_CORPSE: Drone Debris
 #-----Alien Weapons
       STR_LIGHT_ALIEN_WEAPONS: Light Alien Weapons
       STR_MEDIUM_ALIEN_WEAPONS: Medium Alien Weapons
@@ -237,7 +297,6 @@ extraStrings:
       STR_ALIEN_HIGH_EXPLOSIVE: Alien High Explosive
       STR_ALIEN_HOLO_PROJECTOR: Holo Projector
       STR_ALIEN_INJECTOR: Alien Injector
-      STR_ALIEN_INJECTOR_BREAKDOWN: Breakdown Alien Injector
       STR_ALIEN_COMM: Alien Communicator
       STR_ALIEN_SMALL_ENTERTAINMENT: Small Entertainment
       STR_ELLERIUM_LAMP: Alien Elerium Lamp
@@ -330,7 +389,6 @@ extraStrings:
       STR_HUMAN_PLASMA_BLASTER_CLIP4: Breakdown Plsm Blaster Clip
       STR_HUMAN_PLASMA_BLASTER_CLIP5: Breakdown Plsm Blaster OR
       STR_HUMAN_PLASMA_BLASTER_CLIP6: Breakdown Plsm Blaster AM
-      STR_ALIEN_HIGH_EXPLOSIVE_BREAKDOWN: Breakdown Alien High Explosive
       STR_ALIEN_GRENADE_BREAKDOWN: Breakdown Alien Grenade
       STR_ALIEN_PROX_GRENADE_BREAKDOWN: Breakdown Alien Mine
       STR_SMALL_LAUNCHER_BREAKDOWN: Breakdown Cluster Launcher
@@ -345,10 +403,8 @@ extraStrings:
       STR_BREAKDOWN_SECTOPOD: Process Sectopod Debris
       STR_BREAKDOWN_ETHEREAL: Process Ethereal Corpse
       STR_BREAKDOWN_CELATID: Process Celatid Corpse
-      STR_BREAKDOWN_OVERLORD: Process Overlord Shards
+      STR_BREAKDOWN_OVERLORD: Process Sovereign Shards
       STR_MIND_PROBE_BREAKDOWN: Breakdown Mind Probe
-      STR_BLASTER_LAUNCHER_BREAKDOWN: Breakdown Blaster Launcher
-      STR_BLASTER_BOMB_BREAKDOWN: Breakdown Blaster Bomb
       STR_ALIEN_ENTERTAINMENT_BREAKDOWN: Alien Entertainment>Fragment
       STR_UFO_NAVIGATION_BREAKDOWN: UFO Computer>3xFragments
       STR_ALIEN_FOOD_BREAKDOWN: Breakdown Alien Supplies
@@ -392,7 +448,7 @@ extraStrings:
       STR_MUTON_COMMANDO: Muton Commando
       STR_MUTON_COMMANDO_AUTOPSY: Muton Commando Autopsy
       STR_HYBRID: Hybrid
-      STR_OVERLORD: Overlord
+      STR_OVERLORD: Sovereign
       STR_ENERGYALIEN: Solarite
       STR_ARMORED_SECTOID_COMMANDER: Armored Sectoid Commander
       STR_ARMORED_SECTOID_LEADER: Armored Sectoid Leader
@@ -425,9 +481,9 @@ extraStrings:
       STR_MUTON_COMMANDO_CORPSE: Muton Commando Corpse
       STR_MUTON_GUARD_CORPSE: Muton Praetorian Corpse
       STR_MUTON_WARLORD_CORPSE: Muton Warlord Corpse
-      STR_OVERLORD_CORPSE: Overlord Shards
+      STR_OVERLORD_CORPSE: Sovereign Shards
       STR_ENERGYALIEN_CORPSE: Solarite Residue
-      STR_OVERLORD_AUTOPSY: Overlord Autopsy
+      STR_OVERLORD_AUTOPSY: Sovereign Autopsy
       STR_ENERGYALIEN_AUTOPSY: Solarite Autopsy
       STR_ROACHER_CORPSE: Roacher Corpse
       STR_ROACHER_AUTOPSY: Roacher Autopsy
@@ -958,20 +1014,18 @@ extraStrings:
       STR_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
       STR_ANTIMATTER_LAUNCHER_BOMB3_UFOPEDIA:
 #-----UFOPaedia XCom Vehicles and Heavy Weapons
-      STR_UAV_UFOPEDIA: This Unmanned Aerial Vehicle is excellent for scouting in open terrain where it can use its engines and thrusters to hover in the air. It is very weakly armored though and has no weapons.
-      STR_UAV_ROCKET_LAUNCHER_UFOPEDIA: This UAV is armed with four small rockets and useful for taking out light remote targets.
-      STR_TANK_MORTAR_UFOPEDIA: This weapons platform has a built in mortar for indirect area affect fire. This allows it to fire mortar rounds over small obstacles.
-      STR_TANK_MRLS_UFOPEDIA: The rocket turret of this weapon system is greatly expanded to feature a Multiple Rocket Launcher System or MRLS. The explosive rockets fragment raining down anti personnel shrapnel over a large area.
-      STR_CLUSTER_MISSILE_UFOPEDIA: Gladius Missiles are a short range anti UFO missile system that relies on chain reacting explosions to achieve maximum aerial coverage. They fire very quickly, but are a short range weapon.
+      STR_UAV_UFOPEDIA: The Unmanned Aerial Vehicle 'shuriken' is excellent for scouting in open terrain where it can use its fans and to hover almost silently in the air. It is very weakly armored though and has no weapons yet it possess enough vertical lift to carry a small High Explosive charge, dropping an explosive payload previously primed on unsuspecting enemies or flying on a suicide run directly if the situation calls for it.
+      STR_UAV_ROCKET_LAUNCHER_UFOPEDIA: The Unmanned Combat Aerial vehicle 'Longbow' its an improvement in almost every metric to earlier models.  Armed with four small rockets it can be useful for taking out light remote targets.
+      STR_CLUSTER_MISSILE_UFOPEDIA: Trident Missiles are a short range anti UFO missile system that relies on chain reacting explosions to achieve maximum aerial coverage. They fire very quickly, but are a short range weapon.
       STR_PILUM_UFOPEDIA: The Pilum is the first true anti-UFO missile designed by XCom. Complex flight computers grant the missile superior accuracy while a nuclear warhead ensures maximum damage at long range.
-      STR_INTERCEPTOR_UFOPEDIA: With the advent of UFO activity, the USAF sped up their next generation joint strike fighter program with the X35. They have agreed to lease the fighter to XCom and it represents the best of humanity's current air supremacy technology.
+      STR_INTERCEPTOR_UFOPEDIA: With the advent of UFO activity, XCOM in a joint effort with the USAF sped up a program for possible upgrades to their fith generation strike fighter. The result its the F35U,  Codenamed XCF-0 'Bishop'. It represents the best of humanity's current air supremacy technology.
       STR_SR71_UFOPEDIA: The former USAF recon aircraft has been re-purposed as a long range radar craft.
-      STR_XCF1_UFOPEDIA: The XCF-1 'Rook' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Rook is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
-      STR_XCF2_UFOPEDIA: The XCF-2 'Guardian' is a step up from the XCF-1 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior protection to the Rook. The Guardian surpasses most small UFOs in performance and can rival medium sized ones.
-      STR_XCF3_UFOPEDIA: A third generation XCom interceptor, the XCF-3 'Aegis' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
-      STR_SKYWARDEN_UFOPEDIA: The SKYWARDEN is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
-      STR_HURRICANE_UFOPEDIA: The HURRICANE transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hurricane's roof.
-      STR_ARCHANGEL_UFOPEDIA: The pinnacle of XCom craft, the ARCHANGEL has a fully operational, completed Codex installed. It's armor and speed surpass even the most powerful alien warships.
+      STR_XCF1_UFOPEDIA: The XCF-1 'Knight' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Knight is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
+      STR_XCF2_UFOPEDIA: The XCF-2 'Rook' is a step up from the XCF-1 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
+      STR_XCF3_UFOPEDIA: A third generation XCom interceptor, the XCF-3 'Empress' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
+      STR_SKYWARDEN_UFOPEDIA: The GOLIATH is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
+      STR_HURRICANE_UFOPEDIA: The HERACLES transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Heracles's roof.
+      STR_ARCHANGEL_UFOPEDIA: The pinnacle of XCom craft, the OVERLORD has a fully operational, completed Codex installed. It's armor and speed surpass even the most powerful alien warships.
 #-----UFOPaedia XCom Technology
       STR_GOODS_UFOPEDIA: XCom's engineers are some of the finest in the world, however a few are also shrewd businessmen. By establishing a front company, XCom can bid on valuable defense contact work. This allows XCom to build goods exclusively for sell as a way to supplement its income.
       STR_GOODS_2_UFOPEDIA: All Codex technology contains detailed instructions on replication. It is assumed that this a redundant system designed to let nearly any civilization utilize and improve the Codex until it reaches its completed stage. Even the smallest Codex fragment contains details for a device called an automated printer. This device functions like a 3D printer though far more advanced and versatile. A smaller version could be manufactured and sold without the need for more advanced components.
@@ -1003,8 +1057,8 @@ extraStrings:
       STR_MUTON_COMMANDO_UFOPEDIA: Some Mutons possess a natural resistance to psionic control. Rather than purging these willful individuals, they are instead separated from the normal Mutons and sent to special training facilities. Most die in the training, but those who survive become something akin to the Alien's special forces. Normally held in suspended animation, the Aliens only unleash these commandos when they encounter a particularly stubborn enemy. There presence on Earth suggests the Aliens are loosing their patience as they are normally hesitant to use these particularity difficult to control Mutons.
       STR_MUTON_COMMANDO_AUTOPSY_UFOPEDIA: This sample appears to be almost identical to other Mutons encountered, but there are a few subtle differences. The most apparent is the large amount of scarring on the skin. This creature has seen a lot of combat. It is also far older than other mutons encountered with signs of aging in every part of its body. The creature's brain showed signs of being more active with no evidence of external psionic control. The armor this creature wears adds more protection than the normal Muton though it shares the same resistance to armor piercing rounds.
       STR_MUTON_GUARD_UFOPEDIA: The Muton Praetorian consists of only the best of the Muton Commandos. Most have seen thousands of battles across the stars and are truly the greatest soldiers the Aliens have to offer. Their special armor makes them near immune to psionic control. They guard the Alien Mastermind deep within the Alien command center.
-      STR_OVERLORD_UFOPEDIA: We had assumed that Elerium was mined on a distant world, however we now know this creature called the Overlord is the source of Elerium. The Overlords are ancient and have lived longer than our solar system has existed. The other aliens seem to revere and worship the Overlords though Overlords do not directly command or control the other aliens. Instead the Overlords gift the Alien hierarchy with Elerium. None of the other Aliens truly know the Overlord's goals and none of the Overlords has ever spoken directly to another alien save for the Ethereals.
-      STR_ENERGYALIEN_UFOPEDIA: The Solarite is an Overlord without its crystal Elerium shell. It is a collection of protons that attract other atomic particles and accelerates them to make a plasma field around it. This ability to gather particles is what it uses to attack. Once it has collected enough particles to form a strong field, it travels to a nearby star and uses the heavy gravity to form its Elerium shell. During the final phase of its transformation, an antimatter reaction propels it from the star into space where it can be collected by the Aliens along with excess Elerium.
+      STR_OVERLORD_UFOPEDIA: We had assumed that Elerium was mined on a distant world, however we now know this creature called the Sovereign is the source of Elerium. The Sovereigns are ancient and have lived longer than our solar system has existed. The other aliens seem to revere and worship the Sovereigns though Sovereigns do not directly command or control the other aliens. Instead the Sovereigns gift the Alien hierarchy with Elerium. None of the other Aliens truly know the Sovereign's goals and none of the Sovereigns has ever spoken directly to another alien save for the Ethereals.
+      STR_ENERGYALIEN_UFOPEDIA: The Solarite is an Sovereign without its crystal Elerium shell. It is a collection of protons that attract other atomic particles and accelerates them to make a plasma field around it. This ability to gather particles is what it uses to attack. Once it has collected enough particles to form a strong field, it travels to a nearby star and uses the heavy gravity to form its Elerium shell. During the final phase of its transformation, an antimatter reaction propels it from the star into space where it can be collected by the Aliens along with excess Elerium.
       STR_OVERLORD_AUTOPSY_UFOPEDIA: This alien is made of now inert Elerium 115 shards. Its mere existence is a mockery of everything we thought we knew about physics. How its 'biology' works in unknown though it seems to somehow control the matter states of the Elerium crystal to allow for movement. The Crystal is immune to heat and we theorize that it could live in a star if it wished. As such incendiary and plasma weapons are completely useless against it and lasers reflect off of the crystalline structure. However the crystal lattice can be easily shattered by ballistic solid mass rounds.
       STR_ENERGYALIEN_AUTOPSY_UFOPEDIA: This residue is all that remains of the strange energy alien encountered. Analysis shows most of the residue consists of space dust and microscopic bits of Elerium 115 crystal. Combat footage shows most solid mass projectiles and objects pass harmlessly through it however plasma and laser based weapons seem to disrupt the energy field around it causing the field to dissipate. Explosives and incendiary weapons seem largely useless against it as well.
       STR_ROACHER_UFOPEDIA: This creature is nothing more than an oversized roach allowed to grow to enormous size in a low gravity high oxygen environment. While resilient, they are not especially bright being driven more by instinct than careful planning. The aliens control these creatures directly when they need them to accomplish a task, otherwise they spend their time eating or mating. Due to their fast reproduction rates, the aliens use these creatures as expendable stock troops for terror operations and suicide raids.
@@ -1031,7 +1085,7 @@ extraStrings:
       STR_UFO_TRAJECTORIES_UFOPEDIA: UFOs trajectory data acquired from Alien prisoners have allowed XCom to trace UFO movements back to Mars. The aliens have numerous facilities on Mars as the planet forms a critical link in their supply chain. However, Mars is heavily defended and capturing a live alien commander will be needed in order to find a way past these defenses.
       STR_MARTIAN_DEFENSES_UFOPEDIA: In addition to a large fleet of UFOs, the martian base is also guarded by a series of ground base plasma beams capable of annihilating any craft XCom currently has. However, a completed Codex integrated with an XCom craft would allow it to bypass the martian defenses entirely.
       STR_MASTERMIND_UFOPEDIA: The Mastermind manages all of the Alien force's logistical and administrative needs. Ancient, the Mastermind species joined the alien hierarchy willingly to escape certain extinction in their native environment. Even at their height, there was only a handful of them. While hyper intelligent and able to outclass any computer system, a Mastermind is not psionically gifted even though it is immune to psionic attacks. While quite large, it is not especially resilient to damage.
-      STR_ENDGAME_UFOPEDIA: This is it. The end. Our struggle comes down to a single battle on Mars. The ancient Mastermind alien is secured deep within Cydonia, the face on Mars. We have discovered a shortcut through a pyramid landing site that can lead an assault team to the innermost areas of the alien command center. The Mastermind sits upon an incomplete alien Codex. XCom must killed the Mastermind and then place XCom's completed Codex in its place. The complete Codex will activate and disable all of the alien's Codex based technology, effectively ending the invasion. However, this will also disable humanity's Codex based technology as well. We must outfit our most powerful craft, the Archangel, with the best weapons and soldiers available for the assault. Should we fail, then the aliens will gain a completed Codex and humanity will fall. There is no other way to defeat the Alien force. This is humanity's crucible. We emerged strong or burn away.
+      STR_ENDGAME_UFOPEDIA: This is it. The end. Our struggle comes down to a single battle on Mars. The ancient Mastermind alien is secured deep within Cydonia, the face on Mars. We have discovered a shortcut through a pyramid landing site that can lead an assault team to the innermost areas of the alien command center. The Mastermind sits upon an incomplete alien Codex. XCom must killed the Mastermind and then place XCom's completed Codex in its place. The complete Codex will activate and disable all of the alien's Codex based technology, effectively ending the invasion. However, this will also disable humanity's Codex based technology as well. We must outfit our most powerful craft, the OVERLORD , with the best weapons and soldiers available for the assault. Should we fail, then the aliens will gain a completed Codex and humanity will fall. There is no other way to defeat the Alien force. This is humanity's crucible. We emerged strong or burn away.
 #---------Codex Stage 1
       STR_ALLOY_MESH: Alien Alloy Mesh
       STR_ALLOY_MESH_UFOPEDIA: Special chemical reactions occur when Alien Alloys are subjected to specific temperature ranges and chemicals. One such reaction causes the alloys to form high strength carbon meshes that possess a high toughness in addition to remaining flexible. Such meshes could have applications in new armor that is lighter and more durable than any conventional protection system for our operatives.

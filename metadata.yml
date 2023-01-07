@@ -2,11 +2,11 @@
 # metadata.yaml for XCOM1
 
 name: "Xeno Operations LEGACY"
-version: 0.96V5.LE
+version: 0.96V8.LE
 description: "A graphics focused expansion mod."
-author: XOps
+requiredExtendedVersion: "7.4"
+author: XOps and revamped by b1ackwolf
 id: XOPS
 reservedSpace: 3
 isMaster: false
-loadResources:
-  - UFO
+master: xcom1
