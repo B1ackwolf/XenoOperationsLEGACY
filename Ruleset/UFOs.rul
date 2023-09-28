@@ -1,62 +1,9 @@
 ufos:
+#----- Deletions -----#
   - delete: STR_SMALL_SCOUT
-  - type: STR_RAIDER
-    size: STR_VERY_SMALL
-    modSprite: UFORAIDER
-    damageMax: 400
-    speedMax: 2600
-    accel: 7
-    power: 20
-    range: 62
-    score: 120
-    reload: 15
-    breakOffTime: 1000
-    battlescapeTerrainData:
-      name: XOPSRAIDER
-      mapDataSets:
-        - BLANKS
-        - XOPSUFOEXT
-        - XOPSUFOPHASERS1
-        - XOPSUFOPHASERS2
-        - XOPSUFOPHASERS3
-        - XOPSUFOPHASERS4
-        - XOPSUFOFLOOR
-        - XOPSUFOWALLS
-        - XOPSUFOITEMS1
-        - XOPSUFOITEMS2
-      mapBlocks:
-        - name: XOPSRAIDER
-          width: 10
-          length: 10
-  - type: STR_SCANNER
-    size: STR_VERY_SMALL
-    modSprite: UFOSCANNER
-    damageMax: 80
-    speedMax: 2300
-    accel: 12
-    power: 0
-    range: 0
-    score: 40
-    reload: 56
-    breakOffTime: 175
-    battlescapeTerrainData:
-      name: XOPSSCANNER
-      mapDataSets:
-        - BLANKS
-        - XOPSUFOEXT
-        - XOPSUFOPHASERS1
-        - XOPSUFOPHASERS2
-        - XOPSUFOPHASERS3
-        - XOPSUFOPHASERS4
-        - XOPSUFOFLOOR
-        - XOPSUFOWALLS
-        - XOPSUFOITEMS1
-        - XOPSUFOITEMS2
-      mapBlocks:
-        - name: XOPSSCANNER1
-          width: 10
-          length: 10
-  - type: STR_SURVEY
+#----- Finish deletions -----#
+#----- Survey Skiff -----#
+  - type: STR_SURVEY 
     size: STR_VERY_SMALL
     modSprite: UFOSURVEY
     damageMax: 100
@@ -85,6 +32,65 @@ ufos:
         - name: XOPSSURVEY1
           width: 10
           length: 10
+#----- Raider Gunship -----#
+  - type: STR_RAIDER 
+    size: STR_VERY_SMALL
+    modSprite: UFORAIDER
+    damageMax: 400
+    speedMax: 2600
+    accel: 7
+    power: 20
+    range: 62
+    score: 120
+    reload: 15
+    breakOffTime: 1000
+    battlescapeTerrainData:
+      name: XOPSRAIDER
+      mapDataSets:
+        - BLANKS
+        - XOPSUFOEXT
+        - XOPSUFOPHASERS1
+        - XOPSUFOPHASERS2
+        - XOPSUFOPHASERS3
+        - XOPSUFOPHASERS4
+        - XOPSUFOFLOOR
+        - XOPSUFOWALLS
+        - XOPSUFOITEMS1
+        - XOPSUFOITEMS2
+      mapBlocks:
+        - name: XOPSRAIDER
+          width: 10
+          length: 10
+#----- Scanner Boat -----#
+  - type: STR_SCANNER
+    size: STR_VERY_SMALL
+    modSprite: UFOSCANNER
+    damageMax: 80
+    speedMax: 2300
+    accel: 12
+    power: 0
+    range: 0
+    score: 40
+    reload: 56
+    breakOffTime: 175
+    battlescapeTerrainData:
+      name: XOPSSCANNER
+      mapDataSets:
+        - BLANKS
+        - XOPSUFOEXT
+        - XOPSUFOPHASERS1
+        - XOPSUFOPHASERS2
+        - XOPSUFOPHASERS3
+        - XOPSUFOPHASERS4
+        - XOPSUFOFLOOR
+        - XOPSUFOWALLS
+        - XOPSUFOITEMS1
+        - XOPSUFOITEMS2
+      mapBlocks:
+        - name: XOPSSCANNER1
+          width: 10
+          length: 10
+#----- Scout Escort ----#
   - type: STR_MEDIUM_SCOUT
     size: STR_SMALL
     modSprite: UFOSCOUT
@@ -158,6 +164,7 @@ ufos:
           items:
             STR_ELERIUM_115:
               - [11, 6, 0]
+#----- Research Corvette -----#
   - type: STR_LARGE_SCOUT
     size: STR_SMALL
     modSprite: UFORESEARCHSHIP
@@ -208,6 +215,40 @@ ufos:
           items:
             STR_ELERIUM_115:
               - [5, 10, 1]
+#----- Cloner Frigate -----#
+  - type: STR_CLONER
+    size: STR_MEDIUM_UC
+    modSprite: UFOCLONER
+    damageMax: 450
+    speedMax: 4100
+    accel: 7
+    power: 35
+    range: 62
+    score: 235
+    reload: 36
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: XOPSCLONER
+      mapDataSets:
+        - BLANKS
+        - XOPSUFOEXT
+        - XOPSUFOPHASERS1
+        - XOPSUFOPHASERS2
+        - XOPSUFOPHASERS3
+        - XOPSUFOPHASERS4
+        - XOPSUFOSMFLOOR
+        - XOPSUFOWALLS
+        - XOPSUFOITEMS1
+        - XOPSUFOITEMS2
+        - XOPSUFOCLONES
+      mapBlocks:
+        - name: XOPSCLONER
+          width: 20
+          length: 20
+          items:
+            STR_ELERIUM_115:
+              - [5, 5, 1]
+#----- Harverster Destroyer -----#
   - type: STR_HARVESTER
     size: STR_MEDIUM_UC
     modSprite: UFOHARVESTER
@@ -262,6 +303,7 @@ ufos:
             STR_ELERIUM_115:
               - [4, 4, 2]
               - [13, 14, 2]
+#----- Abductor Cruiser -----#
   - type: STR_ABDUCTOR
     size: STR_MEDIUM_UC
     modSprite: UFOABDUCTOR
@@ -316,19 +358,20 @@ ufos:
             STR_ELERIUM_115:
               - [3, 9, 2]
               - [5, 9, 2]
-  - type: STR_CLONER
-    size: STR_MEDIUM_UC
-    modSprite: UFOCLONER
-    damageMax: 450
-    speedMax: 4100
-    accel: 7
-    power: 35
+#----- Supply Tanker -----#
+  - type: STR_SUPPLY_SHIP
+    size: STR_LARGE
+    modSprite: UFOSUPPLYSHIP
+    damageMax: 2200
+    speedMax: 3200
+    accel: 6
+    power: 60
     range: 62
-    score: 235
-    reload: 36
-    breakOffTime: 500
+    score: 400
+    reload: 24
+    breakOffTime: 3000
     battlescapeTerrainData:
-      name: XOPSCLONER
+      name: XOPSSUPPLYSHIP
       mapDataSets:
         - BLANKS
         - XOPSUFOEXT
@@ -336,18 +379,58 @@ ufos:
         - XOPSUFOPHASERS2
         - XOPSUFOPHASERS3
         - XOPSUFOPHASERS4
-        - XOPSUFOSMFLOOR
-        - XOPSUFOWALLS
+        - XOPSUFOFLOORSUPPLY
+        - XOPSUFOWALLSSM
         - XOPSUFOITEMS1
         - XOPSUFOITEMS2
-        - XOPSUFOCLONES
+        - XOPSUFOSUPPLY
       mapBlocks:
-        - name: XOPSCLONER
-          width: 20
-          length: 20
+        - name: XOPSSUPPLYSHIP1
+          width: 30
+          length: 30
+        - name: XOPSSUPPLYSHIP2
+          width: 30
+          length: 30
+        - name: XOPSSUPPLYSHIP3
+          width: 30
+          length: 30
+#----- Construction Barge -----#
+  - type: STR_CONSTRUCTOR
+    size: STR_VERY_LARGE
+    modSprite: UFOCONSTRUCTOR
+    damageMax: 500
+    speedMax: 2800
+    accel: 6
+    power: 20
+    range: 62
+    score: 500
+    reload: 24
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: XOPSCONSTRUCTOR
+      mapDataSets:
+        - BLANKS
+        - XOPSUFOEXT
+        - XOPSUFOPHASERS1
+        - XOPSUFOPHASERS2
+        - XOPSUFOPHASERS3
+        - XOPSUFOPHASERS4
+        - XOPSUFOFLOORSUPPLY
+        - XOPSUFOWALLSSM
+        - XOPSUFOITEMS1
+        - XOPSUFOITEMS2
+        - XOPSUFOSUPPLY
+      mapBlocks:
+        - name: XOPSCONSTRUCTOR1
+          width: 30
+          length: 30
           items:
             STR_ELERIUM_115:
-              - [5, 5, 1]
+              - [4, 12, 2]
+              - [4, 17, 2]
+              - [25, 12, 2]
+              - [25, 17, 2]
+#----- Laboratory Ship -----#
   - type: STR_LABSHIP
     size: STR_LARGE
     modSprite: UFOLABSHIP
@@ -381,6 +464,7 @@ ufos:
             STR_ELERIUM_115:
               - [3, 14, 2]
               - [25, 14, 2]
+#----- Battlecruiser -----#
   - type: STR_DESTROYER
     size: STR_LARGE
     modSprite: UFODESTROYER
@@ -413,6 +497,7 @@ ufos:
             STR_ELERIUM_115:
               - [19, 9, 1]
               - [19, 19, 1]
+#----- Terror Battleship -----#
   - type: STR_TERROR_SHIP
     size: STR_LARGE
     modSprite: UFOSTRIKECRUISER
@@ -462,41 +547,7 @@ ufos:
               - [16, 7, 1]
               - [16, 21, 1]
               - [22, 14, 1]
-  - type: STR_CONSTRUCTOR
-    size: STR_VERY_LARGE
-    modSprite: UFOCONSTRUCTOR
-    damageMax: 500
-    speedMax: 2800
-    accel: 6
-    power: 20
-    range: 62
-    score: 500
-    reload: 24
-    breakOffTime: 3000
-    battlescapeTerrainData:
-      name: XOPSCONSTRUCTOR
-      mapDataSets:
-        - BLANKS
-        - XOPSUFOEXT
-        - XOPSUFOPHASERS1
-        - XOPSUFOPHASERS2
-        - XOPSUFOPHASERS3
-        - XOPSUFOPHASERS4
-        - XOPSUFOFLOORSUPPLY
-        - XOPSUFOWALLSSM
-        - XOPSUFOITEMS1
-        - XOPSUFOITEMS2
-        - XOPSUFOSUPPLY
-      mapBlocks:
-        - name: XOPSCONSTRUCTOR1
-          width: 30
-          length: 30
-          items:
-            STR_ELERIUM_115:
-              - [4, 12, 2]
-              - [4, 17, 2]
-              - [25, 12, 2]
-              - [25, 17, 2]
+#----- Dreadnought -----#
   - type: STR_BATTLESHIP
     size: STR_VERY_LARGE
     modSprite: UFOBATTLESHIP
@@ -532,38 +583,3 @@ ufos:
               - [23, 10, 1]
               - [5, 18, 1]
               - [22, 18, 1]
-  - type: STR_SUPPLY_SHIP
-    size: STR_LARGE
-    modSprite: UFOSUPPLYSHIP
-    damageMax: 2200
-    speedMax: 3200
-    accel: 6
-    power: 60
-    range: 62
-    score: 400
-    reload: 24
-    breakOffTime: 3000
-    battlescapeTerrainData:
-      name: XOPSSUPPLYSHIP
-      mapDataSets:
-        - BLANKS
-        - XOPSUFOEXT
-        - XOPSUFOPHASERS1
-        - XOPSUFOPHASERS2
-        - XOPSUFOPHASERS3
-        - XOPSUFOPHASERS4
-        - XOPSUFOFLOORSUPPLY
-        - XOPSUFOWALLSSM
-        - XOPSUFOITEMS1
-        - XOPSUFOITEMS2
-        - XOPSUFOSUPPLY
-      mapBlocks:
-        - name: XOPSSUPPLYSHIP1
-          width: 30
-          length: 30
-        - name: XOPSSUPPLYSHIP2
-          width: 30
-          length: 30
-        - name: XOPSSUPPLYSHIP3
-          width: 30
-          length: 30

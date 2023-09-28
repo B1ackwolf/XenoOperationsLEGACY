@@ -18,10 +18,10 @@ extraSounds:
       90: Resources/Sounds/emp.ogg
       91: Resources/Sounds/heavyplasmacannon.ogg
       92: Resources/Sounds/psiattack2.ogg
-      95: Resources/Sounds/DogeSpotted.wav
+      955: Resources/Sounds/DogeSpotted.wav
       93: Resources/Sounds/metalhit.ogg
       94: Resources/Sounds/plasmasword.ogg
-      955: Resources/Sounds/plasmaswordhit.ogg
+      95: Resources/Sounds/plasmaswordhit.ogg
       96: Resources/Sounds/plasma2.ogg
       97: Resources/Sounds/Hybrid1.ogg
       98: Resources/Sounds/Hybrid2.ogg
@@ -72,6 +72,10 @@ extraSounds:
       994: Resources/Sounds/DogeDeath1.wav
       1000: Resources/Sounds/JetMove.ogg
       1001: Resources/Sounds/rocketfast.ogg
+      1330: Resources/Sounds/TankHE_fire_UNEXCOM.wav
+      1332: Resources/Sounds/TankHE_hit_UNEXCOM.wav
+      1333: Resources/Sounds/TankAP_fire_UNEXCOM.wav
+      1335: Resources/Sounds/TankAP_hit_UNEXCOM.wav
   - type: GEO.CAT
     files:
       20: Resources/Sounds/rocketslow.ogg

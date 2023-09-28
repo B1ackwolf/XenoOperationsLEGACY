@@ -36,6 +36,7 @@ units:
     deathSound: 907
   - type: STR_CELATID_TERRORIST
     deathSound: 908
+    armor: CELATID_ARMOR
   - type: STR_ETHEREAL_SOLDIER
     deathSound: 909
   - type: STR_ETHEREAL_LEADER
@@ -67,7 +68,7 @@ units:
     deathSound: 12
     energyRecovery: 50
     moveSound: 1000
-  - type: STR_UAV_ROCKET_LAUNCHER
+  - type: STR_UCAV_ROCKET_LAUNCHER
     race: STR_UAV
     stats:
       tu: 140
@@ -110,6 +111,60 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
+####---- Tanks in progress
+  - type: STR_HEAVY_TANK_AP
+    race: STR_HEAVY_TANK
+    stats:
+      tu: 110
+      stamina: 100
+      health: 125
+      bravery: 110
+      reactions: 45
+      firing: 100
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: HEAVY_TANK_AP_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_25MM_CHAIN_BOX
+        - STR_TANK_SMOKE_LAUNCHER
+        - STR_TANK_SMOKE_GRENADE
+  - type: STR_HEAVY_TANK_HE
+    race: STR_HEAVY_TANK
+    stats:
+      tu: 110
+      stamina: 100
+      health: 125
+      bravery: 110
+      reactions: 45
+      firing: 100
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: HEAVY_TANK_HE_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_105MM_CANNON_SHELLS
+        - STR_TANK_SMOKE_LAUNCHER
+        - STR_TANK_SMOKE_GRENADE
+###-------End Tanks
   - type: STR_FLOATER_SOLDIER
     race: STR_FLOATER
     rank: STR_LIVE_SOLDIER
@@ -255,7 +310,7 @@ units:
     intelligence: 8
     aggression: 0
   - type: STR_MUTON_COMMANDO
-    race: STR_MUTON_ELITE
+    race: STR_MUTON_COMMANDO
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 75
@@ -300,8 +355,8 @@ units:
     intelligence: 6
     aggression: 2
     energyRecovery: 50
-  - type: STR_MUTON_WARLORD
-    race: STR_MUTON_ELITE
+  - type: STR_MUTON_CHIEFTAIN
+    race: STR_MUTON_COMMANDO
     rank: STR_LIVE_COMMANDER
     stats:
       tu: 80
@@ -315,7 +370,7 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 95
-    armor: MUTON_WARLORD_ARMOR
+    armor: MUTON_CHIEFTAIN_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 19
@@ -438,9 +493,10 @@ units:
     intelligence: 1
     aggression: 2
     energyRecovery: 40
-    builtInWeapons:
-      - STR_ALLOY_BLADE
-      - STR_ALLOY_BLADE
+    builtInWeaponSets:
+      -
+        - STR_ALLOY_BLADE
+        - STR_ALLOY_BLADE
   - type: STR_ARMORED_SECTOID_SOLDIER
     race: STR_ARMORED_SECTOID
     rank: STR_LIVE_SOLDIER
@@ -907,6 +963,7 @@ units:
     deathSound: [41, 42, 43]
     intelligence: 7
     aggression: 2
-    builtInWeapons:
-      - STR_ASSAULT_RIFLE
-      - STR_ASSAULT_RIFLE_CLIP
+    builtInWeaponSets:
+      -
+        - STR_ASSAULT_RIFLE
+        - STR_ASSAULT_RIFLE_CLIP

@@ -1,0 +1,506 @@
+crafts:
+# Organization complete
+#---Deletions------------------------
+  - delete: STR_SKYRANGER
+  - delete: STR_LIGHTNING
+  - delete: STR_FIRESTORM
+  - delete: STR_AVENGER
+#---End Deletions--------------------
+#---Transport Crafts-----------------
+  - type: STR_BELL_VALOR
+    sprite: 125
+    maxSkinIndex: 2            # default 0
+    skinSprites: [126,127] # default empty, contains all sprites except for the first (index zero)
+    fuelMax: 1500
+    damageMax: 130
+    speedMax: 450
+    accel: 2
+    weapons: 1
+    avoidBonus: 15
+    soldiers: 12
+    vehicles: -1
+    maxSmallUnits: 12
+    maxLargeUnits: 0
+    pilots: 1
+    costBuy: 600000
+    costSell: 250000
+    costRent: 100000
+    refuelRate: 20
+    radarRange: 350
+    radarChance: 100
+    transferTime: 72
+    score: 400
+    keepCraftAfterFailedMission: false
+    battlescapeTerrainData:
+      name: BELL_VALOR
+      mapDataSets:
+        - BLANKS
+        - BD_PLANE
+        - BD_OSPREY_ROTOR
+      mapBlocks:
+        - name: BELL_VALOR
+          width: 20
+          length: 20
+    craftInventoryTile: [10, 11, 0] #X, Y, Level
+    deployment:
+      - [9, 11, 0, 2]
+      - [10, 11, 0, 4]
+      - [11, 11, 0, 6]
+      - [9, 12, 0, 2]
+      - [10, 12, 0, 4]
+      - [11, 12, 0, 6]
+      - [9, 13, 0, 2]
+      - [11, 13, 0, 6]
+      - [9, 10, 0, 2]
+      - [10, 10, 0, 4]
+      - [11, 10, 0, 6]
+      - [10, 13, 0, 4]
+  - type: STR_FIREFLY
+    sprite: 824
+    fuelMax: 1900
+    damageMax: 250
+    speedMax: 760
+    accel: 2
+    weapons: 1
+    soldiers: 14
+    maxItems: 700
+    vehicles: -1
+    maxSmallUnits: 14
+    maxLargeUnits: 3
+    pilots: 1
+    costSell: 450000
+    costRent: 130000
+    refuelRate: 50
+    radarRange: 700
+    radarChance: 100
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: FIREFLY
+      mapDataSets:
+        - BLANKS
+        - FIREFLY
+      mapBlocks:
+        - name: FIREFLY
+          width: 10
+          length: 20
+    craftInventoryTile: [3, 16, 1]
+  - type: STR_SKYWARDEN
+    sprite: 25
+    fuelMax: 1500
+    damageMax: 350
+    speedMax: 2000
+    accel: 5
+    soldiers: 18
+    vehicles: 3
+    pilots: 2
+    allowLanding: true
+    costBuy: 0
+    costSell: 562500
+    costRent: 200000
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: SKYWARDEN
+      mapDataSets:
+        - BLANKS
+        - XOPSTRANSPORT2
+        - XOPSTRANSPORT3
+      mapBlocks:
+        - name: XOPSNEWSKYWARDEN
+          width: 10
+          length: 20
+    deployment:
+      - [4, 15, 1, 4]
+      - [5, 15, 1, 4]
+      - [4, 14, 1, 4]
+      - [5, 14, 1, 4]
+      - [4, 13, 1, 4]
+      - [5, 13, 1, 4]
+      - [4, 12, 1, 4]
+      - [5, 12, 1, 4]
+      - [4, 5, 1, 6]
+      - [5, 5, 1, 2]
+      - [4, 7, 1, 6]
+      - [5, 7, 1, 2]
+      - [4, 6, 1, 4]
+      - [5, 6, 1, 4]
+      - [4, 8, 1, 4]
+      - [5, 8, 1, 4]
+      - [4, 11, 1, 4]
+      - [5, 11, 1, 4]
+  - type: STR_HURRICANE
+    sprite: 117
+    fuelMax: 1800
+    damageMax: 450
+    speedMax: 2900
+    accel: 6
+    soldiers: 22
+    vehicles: 3
+    pilots: 3
+    allowLanding: true
+    costBuy: 0
+    costSell: 562500
+    costRent: 230000
+    refuelRate: 60
+    transferTime: 72
+    score: 250
+    battlescapeTerrainData:
+      name: XOPSHURRICANE
+      mapDataSets:
+        - BLANKS
+        - XOPSTRANSPORT2
+      mapBlocks:
+        - name: XOPSHURRICANE
+          width: 20
+          length: 10
+    deployment:
+      - [4, 5, 1, 4]
+      - [5, 5, 1, 4]
+      - [4, 4, 1, 4]
+      - [5, 4, 1, 4]
+      - [15, 5, 1, 4]
+      - [16, 5, 1, 4]  
+      - [15, 4, 1, 4]
+      - [16, 4, 1, 4]
+      - [14, 5, 1, 4]
+      - [13, 5, 1, 4]
+      - [14, 4, 1, 4]
+      - [13, 4, 1, 4]
+      - [12, 5, 1, 4]
+      - [12, 4, 1, 4]
+      - [6, 5, 1, 4]
+      - [6, 4, 1, 4]
+      - [7, 4, 1, 4]
+      - [7, 5, 1, 4]
+      - [8, 5, 1, 4]
+      - [8, 4, 1, 4]
+      - [8, 3, 1, 2]
+      - [12, 3, 1, 6]
+  - type: STR_ARCHANGEL
+    requires:
+      - STR_ARCHANGEL
+    sprite: 118
+    fuelMax: 100 #25000
+    damageMax: 2000
+    speedMax: 6000
+    accel: 20
+    weapons: 2
+    soldiers: 30
+    vehicles: 5
+    pilots: 4
+    allowLanding: true
+    refuelItem: STR_ELERIUM_115
+    costRent: 430000
+    refuelRate: 50
+    score: 10000
+    spacecraft: true
+    battlescapeTerrainData:
+      name: ARCANGEL
+      mapDataSets:
+        - BLANKS
+        - XOPSTRANSPORT3
+      mapBlocks:
+        - name: XOPSARCANGEL
+          width: 10
+          length: 20
+#--- End Transport Crafts---------------
+#--- Combat and Patrolling Crafts-------
+  - type: STR_SR71
+    sprite: 119
+    fuelMax: 5000
+    damageMax: 120
+    speedMax: 2600
+    accel: 5
+    weapons: 0
+    soldiers: 1
+    pilots: 1
+    autoPatrol: true
+    allowLanding: false
+    costBuy: 800000
+    costRent: 100000
+    radarRange: 1500
+    refuelRate: 100
+    transferTime: 120
+    score: 150
+  - type: STR_INTERCEPTOR
+    sprite: 22
+    fuelMax: 1000
+    damageMax: 210
+    speedMax: 2100
+    accel: 3
+    weapons: 2
+    soldiers: 1
+    pilots: 1
+    allowLanding: false
+    costBuy: 600000
+    costRent: 150000
+    refuelRate: 50
+    transferTime: 96
+    score: 100
+  - type: STR_XCF1
+    sprite: 3
+    fuelMax: 1200
+    damageMax: 300
+    speedMax: 2500
+    accel: 5
+    weapons: 2
+    soldiers: 1
+    pilots: 1
+    allowLanding: false
+    costBuy: 0
+    costSell: 375000
+    costRent: 170000
+    refuelRate: 50
+    transferTime: 96
+    score: 150
+  - type: STR_XCF2
+    sprite: 23
+    fuelMax: 1000
+    damageMax: 300
+    speedMax: 3000
+    costSell: 475000
+    costRent: 265000
+    accel: 6
+    weapons: 2
+    soldiers: 1
+    pilots: 1
+    allowLanding: false
+    refuelRate: 50
+    transferTime: 96
+    score: 200
+  - type: STR_XCF3
+    sprite: 24
+    fuelMax: 20
+    damageMax: 500
+    speedMax: 3500
+    costSell: 437500
+    costRent: 300000
+    accel: 7
+    weapons: 2
+    soldiers: 2
+    pilots: 2
+    allowLanding: false
+    refuelItem: STR_XCF_FUEL
+    refuelRate: 5
+    transferTime: 96
+    score: 250
+#--- End Combat and Patrolling Crafts------
+########### delete everything below this???
+  - type: STR_FIRESTORM
+    requires:
+      - STR_FIRESTORM
+    sprite: 4
+    fuelMax: 20
+    damageMax: 500
+    speedMax: 4200
+    costRent: 270000
+    costSell: 500000
+    accel: 9
+    weapons: 2
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 250
+  - type: STR_LIGHTNING
+    requires:
+      - STR_LIGHTNING
+    sprite: 1
+    fuelMax: 30
+    damageMax: 800
+    speedMax: 3100
+    costRent: 270000
+    costSell: 750000
+    accel: 9
+    weapons: 1
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 300
+    battlescapeTerrainData:
+      name: LIGHTNIN
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+      mapBlocks:
+        - name: LIGHTNIN
+          width: 20
+          length: 10
+    deployment:
+      - [10, 5, 1, 2]
+      - [10, 6, 1, 2]
+      - [10, 4, 1, 2]
+      - [9, 7, 1, 2]
+      - [9, 3, 1, 2]
+      - [8, 7, 1, 2]
+      - [8, 3, 1, 2]
+      - [7, 7, 1, 2]
+      - [7, 3, 1, 2]
+      - [6, 6, 1, 2]
+      - [6, 4, 1, 2]
+      - [6, 5, 1, 2]
+  - type: STR_AVENGER
+    requires:
+      - STR_AVENGER
+    sprite: 2
+    fuelMax: 60
+    damageMax: 1200
+    speedMax: 5400
+    costRent: 500000
+    costSell: 1125000
+    accel: 10
+    weapons: 2
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 400
+    spacecraft: false
+    battlescapeTerrainData:
+      name: AVENGER
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+      mapBlocks:
+        - name: AVENGER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      - [4, 13, 1, 0]
+      - [5, 13, 1, 0]
+      - [4, 14, 1, 0]
+      - [5, 14, 1, 0]
+      - [4, 15, 1, 0]
+      - [5, 15, 1, 0]
+      - [4, 16, 1, 0]
+      - [5, 16, 1, 0]
+      - [3, 10, 1, 0]
+      - [3, 11, 1, 0]
+      - [3, 12, 1, 0]
+      - [3, 13, 1, 0]
+      - [3, 14, 1, 0]
+      - [6, 10, 1, 0]
+      - [6, 11, 1, 0]
+      - [6, 12, 1, 0]
+      - [6, 13, 1, 0]
+      - [6, 14, 1, 0]
+############# End Possible deletions
+#####CraftWeapons
+craftWeapons:
+  - type: STR_STINGRAY
+    sprite: 12
+    sound: 21
+    damage: 70
+    range: 30
+    accuracy: 70
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 6
+    launcher: STR_STINGRAY_LAUNCHER
+    clip: STR_STINGRAY_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+  - type: STR_AVALANCHE
+    sprite: 13
+    sound: 20
+    damage: 100
+    range: 60
+    accuracy: 80
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 3
+    launcher: STR_AVALANCHE_LAUNCHER
+    clip: STR_AVALANCHE_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_CANNON_UC
+    sprite: 11
+    sound: 4
+    damage: 10
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 4
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_CANNON
+    clip: STR_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+  - type: STR_LASER_CANNON_UC
+    sprite: 14
+    sound: 8
+    damage: 70
+    range: 21
+    accuracy: 35
+    reloadCautious: 24
+    reloadStandard: 24
+    reloadAggressive: 24
+    ammoMax: 100
+    rearmRate: 50
+    launcher: STR_LASER_CANNON
+    projectileType: 4
+  - type: STR_PLASMA_BEAM_UC
+    sprite: 15
+    sound: 9
+    damage: 140
+    range: 34
+    accuracy: 50
+    reloadCautious: 24
+    reloadStandard: 24
+    reloadAggressive: 24
+    ammoMax: 50
+    rearmRate: 50
+    launcher: STR_PLASMA_BEAM
+    clip: STR_ELERIUM_CELL
+    projectileType: 5
+  - type: STR_FUSION_BALL_UC
+    sprite: 35
+    sound: 7
+    damage: 230
+    range: 66
+    accuracy: 100
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 5
+    launcher: STR_FUSION_BALL_LAUNCHER
+    clip: STR_FUSION_BALL
+    projectileType: 3
+    projectileSpeed: 8
+  - type: STR_CLUSTER_MISSILE_UC
+    sprite: 35
+    sound: 22
+    damage: 45
+    range: 12
+    accuracy: 45
+    reloadCautious: 8
+    reloadStandard: 6
+    reloadAggressive: 4
+    ammoMax: 15
+    launcher: STR_CLUSTER_MISSILE_LAUNCHER
+    clip: STR_CLUSTER_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_PILUM_UC
+    sprite: 36
+    sound: 20
+    damage: 135
+    range: 62
+    accuracy: 80
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 3
+    launcher: STR_PILUM_LAUNCHER
+    clip: STR_PILUM_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
