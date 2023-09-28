@@ -86,6 +86,7 @@ expanded ufopaedia entries:
 >gracias scamps, reducido techo de los codex recoverys y LAS BASES ALIENS
 >reordenado las carpetas de perros y tanques, ojito faltan agregar funcionalmente imagenes de inventario de dron y land drone
 ###tengo q reducir techo de misiones codex y de bases de asalto enemiga
+>reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012
 
 **acomodada armadura de los armored sectoids para evitar que se confundan con los interiores de las naves
 
