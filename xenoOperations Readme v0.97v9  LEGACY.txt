@@ -84,7 +84,7 @@ expanded ufopaedia entries:
 >corregido bug disparos de hybrido hacia gemido de perro rastreo
 >devuelto daño de cohete hybrido chem a incendiario
 >gracias scamps, reducido techo de los codex recoverys y LAS BASES ALIENS
-
+>reordenado las carpetas de perros y tanques, ojito faltan agregar funcionalmente imagenes de inventario de dron y land drone
 ###tengo q reducir techo de misiones codex y de bases de asalto enemiga
 
 **acomodada armadura de los armored sectoids para evitar que se confundan con los interiores de las naves
