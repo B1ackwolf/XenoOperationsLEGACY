@@ -319,16 +319,15 @@ extraSprites:
       951: Resources/WeaponrySprites/alienArsenal/KeyCryptics.gif
       952: Resources/WeaponrySprites/alienArsenal/KeyOracle.gif
       953: Resources/WeaponrySprites/alienArsenal/CodexKey.gif
-      960: Resources/HWP/BIGOBS/MiniRocket.gif
-      961: Resources/HWP/BIGOBS/Motar.png
-      962: Resources/HWP/BIGOBS/MRLS.gif
-      963: Resources/HWP/BIGOBS/Camera.gif
+      960: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/MiniRocket.gif
+      961: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/Motar.png
+      962: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/MRLS.gif
       996: Resources/WeaponrySprites/Botiquines/AdrenoSyringe.png
       997: Resources/WeaponrySprites/Botiquines/MiniFirstAid.png
       998: Resources/WeaponrySprites/Botiquines/BasicMedkit.png
       999: Resources/WeaponrySprites/Botiquines/ImprovedMedkit.gif
-      1208: Resources/HWP/BIGOBS/bigob_SmokeLauncher.png
-      1209: Resources/HWP/BIGOBS/bigob_SmokeLauncherClip.png
+      1208: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncher.png
+      1209: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncherClip.png
   - type: BIGOBS.PCK
     subX: 32
     subY: 48
@@ -2323,7 +2322,7 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      0: Resources/Geoscape/globe_ufo_expanded.png
+      0: Resources/Globe/globe_ufo_expanded.png
   - type: BigBurnIndicator
     singleImage: true
     files:
@@ -3921,16 +3920,16 @@ extraSprites:
     width: 32
     height: 24  
     files:  
-      108: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/ojito_SpIcon_Smell.png
+      108: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_SpIcon_Smell.png
   - type: BIGOBS.PCK
     files:
-      181: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/ojito_DOGE_BITE.png
+      181: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_BITE.png
       165: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_CORPSE.png
       166: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_COMBAT_VEST_CORPSE.png
       167: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_ALLOY_VEST_CORPSE.png
-      981: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/ojito_DOGE_TRACK.png
+      981: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_TRACK.png
       168: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_DURATHREAD_VEST_CORPSE.png
-      874: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/ojito_DOGE_BARK.png
+      874: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_BARK.png
   - type: FLOOROB.PCK
     files:
       165: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_CORPSE.png
@@ -4521,7 +4520,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Tanks/UFOPedia/LEGIONNAIRE_UFOPEDIA.png
+      0: Resources/Ufopedia/LEGIONNAIRE_UFOPEDIA.png
   - type: IMP_TANK_CHASSIS_IMAGE
     singleImage: true
     width: 320
@@ -4530,14 +4529,9 @@ extraSprites:
       0: Resources/Ufopedia/IMP_TANK_CHASSIS_IMAGE.png
   - type: BIGOBS.PCK
     files:
-      2500: Resources/Tanks/DUAL50CAL.png
-      2501: Resources/Tanks/SMOKELAUNCHER.png
-
-      2502: Resources/Tanks/105MM.png
-      2503: Resources/Tanks/MGM51.png
-
-      2504: Resources/Tanks/25MM.png
-      2505: Resources/Tanks/M1919A.png
+      2501: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/SMOKELAUNCHER.png
+      2504: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/25MM.png
+      2502: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/105MM.png
 #####----- MEDALS-----#####
   - type: Commendations #Hardcoded
     width: 31
