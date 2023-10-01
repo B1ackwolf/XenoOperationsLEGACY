@@ -257,7 +257,8 @@ crear nuevo acompañante pa los formics pa remplazar los silacoids O, eliminar l
 mutons solo con bersekers y formics con spitters, eliminar silacoids hasta encontrar un remplazo decente
 agregar cadaveres de celatids/spitters nuevos
 agregar quadlentes arriba a las sprites de los soldados, luego agregar quadlentes ABAJO y averiguar si se puede configurar
-
+ojito agregar luego musica de ambiente?
+revisar la mamada q es el archivo Scang.DAT, se supone q es lo q modifica el mapa, a primera instancia se ve mas placentero visualmente sin el archivo pero calculo q tendran algun tipo de index extras de otros objetos, averiguar como porongas se modifica un archivo DAT
 
 cual deberia ser el orden de la ufopedia
 0?>dossiers and background info
