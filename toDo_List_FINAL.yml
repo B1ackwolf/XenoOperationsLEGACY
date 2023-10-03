@@ -92,7 +92,6 @@ evitar que el drone shotgun clips y el str_tank_smoke_grenade aparezcan en el dr
 confirmar que onda con el sprite de disparos taser
 
 
-reordenar todas los articulos de especies e ufopaedia
 
 
 reordenar todo esto:
@@ -259,6 +258,17 @@ agregar cadaveres de celatids/spitters nuevos
 agregar quadlentes arriba a las sprites de los soldados, luego agregar quadlentes ABAJO y averiguar si se puede configurar
 ojito agregar luego musica de ambiente?
 revisar la mamada q es el archivo Scang.DAT, se supone q es lo q modifica el mapa, a primera instancia se ve mas placentero visualmente sin el archivo pero calculo q tendran algun tipo de index extras de otros objetos, averiguar como porongas se modifica un archivo DAT
+mejorar el drawing routine del abomination
+
+
+PRIORIDAD OJITO: limpiar y corregir todos los newlines (y dobles newline) donde se deje sangria SOLO al inicio del texto, pero no al inicio de un nuevo parrafo, cambiar todas las lineas de ufopedia color 227 a 229, porq quema los ojos lo brillantes q son
+prioridad averiguar como carajo modificar tiempos de recargas de armas: q sea mas rapido sacar tu arma del holster q recargar la principal
+>se usa los comandos 
+tuLoad
+tuUnload
+incluir esto: "you need to additionally pay the cost of moving the ammo from its current inventory slot into a hand slot! Consider that when balancing reload costs.
+tener en consideracion esto: since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
+
 
 cual deberia ser el orden de la ufopedia
 0?>dossiers and background info

@@ -84,12 +84,17 @@ expanded ufopaedia entries:
 >corregido bug disparos de hybrido hacia gemido de perro rastreo
 >devuelto daño de cohete hybrido chem a incendiario
 >gracias scamps, reducido techo de los codex recoverys y LAS BASES ALIENS
+>aproveche y aumente el tamaño en algunos mapas de ufos chikitos, q esporadicamente daban error ya que no cabian "ambas naves", en teoria deberia reducir la cantidad de ctds.
 >reordenado las carpetas de perros y tanques, ojito faltan agregar funcionalmente imagenes de inventario de dron y land drone
 ###tengo q reducir techo de misiones codex y de bases de asalto enemiga
 >reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012
+>con la existencia de brutal IA la necesidad de instant grenades es menor, eliminado de FIXED, pero preguntar por feedback al respecto.
+>en teoria, resuelto el tema de los cadaveres aliens infinitos, confirmar luego
+poner lo de subir manualmente los rangos en "sugeridos"
+yo habia cambiado los valores requeridos para los ascensos, reducirlos y cconfirmar si mas bajos estan bien, asi hay mas posibilidades de "rangos altos" sin necesidad de explayar tus batallones.
 
 **acomodada armadura de los armored sectoids para evitar que se confundan con los interiores de las naves
-
+OJITO RECORDAR COLOCAR EN RECOMENDACIONES SIEMPRE SIEMPRE GUARDAR LA PARTIDA ANTES DE EMPEZAR UNA MISION, por si acaso.
 #########################
 v0.96.v9 LE Changelog:
 

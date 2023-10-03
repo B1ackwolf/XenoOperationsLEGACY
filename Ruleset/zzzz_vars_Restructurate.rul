@@ -1,4 +1,5 @@
 #Also merged Interfaces.RUL, IA.RUL, hitFX.RUL
+fontName: AmigaFont.dat
 startingTime:
   second: 0
   minute: 0
@@ -15,11 +16,10 @@ initialFunding: 6000
 alienFuel: [STR_ELERIUM_115, 10]
 turnAIUseGrenade: 3
 turnAIUseBlaster: 4
-soldiersPerSergeant: 7
-soldiersPerCaptain: 15
-soldiersPerColonel: 24
-soldiersPerCommander: 39
-fontName: AmigaFont.dat
+soldiersPerSergeant: 5 #prev valor 7
+soldiersPerCaptain: 11 #prev valor 15
+soldiersPerColonel: 19 #prev valor 24
+soldiersPerCommander: 29 #prev valor 39
 crewEmergencyEvacuationSurvivalChance: 65
 pilotsEmergencyEvacuationSurvivalChance: 75
 statisticalBulletConservation: true
@@ -44,6 +44,34 @@ pilotBraveryThresholds: [90, 80, 40] #Very bold, Bold, Normal
 ufoBeamWidthParameter: 1000
 extraNerdyPediaInfo: true
 hunterKillerFastRetarget: true
+fixedUserOptions:
+  friendlyCraftEscort: true
+  battleUFOExtenderAccuracy: true
+  extendedItemReloadCost: true
+  storageLimitsEnforced: true
+  weaponSelfDestruction: true
+  battleExplosionHeight: 3 
+  sneakyAI: false
+  canSellLiveAliens: true
+recommendedUserOptions:
+  battleInstantGrenade: false
+  fieldPromotions: true
+  aggressiveRetaliation: false
+  # retainCorpses: true
+  alienBleeding: true
+  allowPsionicCapture: true
+  bleedingIndicator: true
+  autoSell: true
+  anytimePsiTraining: true
+  psiStrengthEval: true
+  storageLimitsEnforced: true
+  oxcePlayBriefingMusicDuringEquipment: true
+  craftLaunchAlways: true
+#####artificial inteligence reemplazado por brutal IA?
+# ai:
+#   extendedFireModeChoice: true #default false
+#   pickUpWeaponsMoreActively: true #default false
+#   pickUpWeaponsMoreActivelyCiv: true #default false
 operationNamesFirst:
   - Allied
   - Banished
@@ -196,6 +224,41 @@ operationNamesLast:
   - Wrath
   - Zeus
 ### Ojito, move this to another more appropiate rul?
+interfaces:
+  - type: inventory
+    elements:
+      - id: textName
+        color: 46
+      - id: textTUs
+        color: 240
+        color2: 48
+      - id: textWeight
+        color: 240
+        color2: 48
+      - id: textFiring
+        color: 240
+        color2: 48
+      - id: textReaction
+        color: 240
+        color2: 48
+      - id: textPsiSkill
+        color: 240
+        color2: 48
+      - id: textPsiStrength
+        color: 240
+        color2: 48
+      - id: textItem
+        color: 48
+      - id: textAmmo
+        color: 144
+        color2: 48
+      - id: textSlots
+        color: 240
+      - id: weight
+        color: 48
+        color2: 32
+      - id: grid
+        color: 248
 invs:
   - id: STR_GROUND
     costs:
@@ -322,35 +385,6 @@ invs:
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
 #### end of moving
-fixedUserOptions:
-  friendlyCraftEscort: true
-  battleUFOExtenderAccuracy: true
-  extendedItemReloadCost: true
-  storageLimitsEnforced: true
-  weaponSelfDestruction: true
-  battleExplosionHeight: 3 
-  sneakyAI: false
-  canSellLiveAliens: true
-  battleInstantGrenade: true
-recommendedUserOptions:
-  fieldPromotions: true
-  aggressiveRetaliation: false
-  retainCorpses: true
-  alienBleeding: true
-  allowPsionicCapture: true
-  bleedingIndicator: true
-  autoSell: true
-  anytimePsiTraining: true
-  psiStrengthEval: true
-  storageLimitsEnforced: true
-  oxcePlayBriefingMusicDuringEquipment: true
-  craftLaunchAlways: true
-  # retainCorpses: true
-#####artificial inteligence
-ai:
-  extendedFireModeChoice: true #default false
-  pickUpWeaponsMoreActively: true #default false
-  pickUpWeaponsMoreActivelyCiv: true #default false
 # HitFX Basic Version
 extended:
   tags:
@@ -359,7 +393,6 @@ extended:
       # 1: only armor damaged, 2: hp damaged
       LAST_HIT_TYPE: int
       LAST_HIT_POWER: int
-
   scripts:
     # hitUnit required to find side hit
     # Otherwise we cannot get the armor value delta
@@ -489,39 +522,3 @@ extended:
           end;
           
           return new_pixel;
-
-interfaces:
-  - type: inventory
-    elements:
-      - id: textName
-        color: 46
-      - id: textTUs
-        color: 240
-        color2: 48
-      - id: textWeight
-        color: 240
-        color2: 48
-      - id: textFiring
-        color: 240
-        color2: 48
-      - id: textReaction
-        color: 240
-        color2: 48
-      - id: textPsiSkill
-        color: 240
-        color2: 48
-      - id: textPsiStrength
-        color: 240
-        color2: 48
-      - id: textItem
-        color: 48
-      - id: textAmmo
-        color: 144
-        color2: 48
-      - id: textSlots
-        color: 240
-      - id: weight
-        color: 48
-        color2: 32
-      - id: grid
-        color: 248

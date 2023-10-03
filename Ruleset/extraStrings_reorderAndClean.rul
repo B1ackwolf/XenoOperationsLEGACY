@@ -1117,8 +1117,7 @@
       STR_TERROR_SHIP: Terror Battleship
       STR_BATTLESHIP: Dreadnought
 #-----Human Weapons
-      STR_PISTOL_NEW: Service Pistol
-      STR_PISTOL_NEW_CLIP: .40 S&W Magazine
+
       STR_TASER: Taser Pistol
       STR_TASER_CLIP: Taser Shock Clip
       STR_SNIPER_RIFLE: Sniper Rifle
@@ -1182,9 +1181,8 @@
       STR_BRASS_KNUCKLES: Brass Knuckles
       STR_IMPROVED_MEDKIT: Field Surgery kit
       STR_HVGRENADE: X Force Grenade
-      STR_MACHINE_PISTOL: Machine Pistol
-      STR_MACHINE_PISTOL_CLIP: 9mm Magazine
-      STR_PISTOL_SMALL: Compact Pistol
+
+
       STR_MAGNUM: Heavy Pistol
       STR_MAGNUM_CLIP: .44 MAG Magazine
       STR_UZI: Uzi Submachine Gun
@@ -1192,6 +1190,19 @@
       STR_PDW: Personal Defense Weapon
       STR_PDW_CLIP: PDW Magazine
 #ojito reordenar arriba y dividir en dos tiers
+#-----Human Tier 1 Ballistic   {NEWLINE}{NEWLINE}
+      STR_PISTOL_SMALL: Compact Pistol
+      STR_PISTOL_SMALL_UFOPEDIA: "The SIG SAUER P229, XCOM's choice for a compact sidearm, boasts a global reputation for reliability and precision. Renowned among security agencies worldwide, it's the smallest and most concealable weapon in XCOM's arsenal.{NEWLINE}{NEWLINE}Chambered with standard 9mm ammunition, it balances compactness with decent stopping power, its ergonomic design enhances control and maneuverability, ensuring XCOM operatives remain prepared for any unexpected threats." # making it the perfect companion for covert missions where concealment and precision are paramount.
+      STR_MACHINE_PISTOL: Machine Pistol
+      STR_MACHINE_PISTOL_UFOPEDIA: "The Beretta 93R, XCOM's rapid-fire sidearm specialist. This automatic pistol unleashes a controlled three-round burst. While it sacrifices some accuracy, the blistering rate of fire more than makes up for it.{NEWLINE}{NEWLINE}Chambered for standard 9mm ammunition, it's the ideal choice for close-quarters combat when sheer volume of fire can be the difference between victory and defeat."
+      STR_MACHINE_PISTOL_CLIP: 9mm Magazine
+
+      STR_PISTOL_NEW: Service Pistol
+      STR_PISTOL_NEW_UFOPEDIA: "The FN Herstal FNX-40, chosen as XCOM's standard sidearm for our troops, is a global staple among armies and special forces. It's a versatile choice for backup and secondary roles.{NEWLINE}{NEWLINE}Chambered for .40 S&W Colt Pistol rounds, it boasts a twelve-round magazine capacity, ensuring a steady supply of firepower. Reliable and adaptable, the FNX-40 is the trusted companion for XCOM operatives in a variety of combat scenarios, ready to deliver precision and stopping power when needed most."
+
+      STR_PISTOL_NEW_CLIP: .40 S&W Magazine
+#-----Human Tier 2 eXperimental Ballistics
+
 #-----Human Tier 3 Hybrids
       STR_HB_PISTOL_SMALL: HY1A Compact Pistol
       STR_HB_PISTOL_SMALL_UFOPEDIA: This small compact pistol uses alien Codex technology to greatly enhance its weight, accuracy, and impact force. This hybrid design is far superior to even the most advanced human ballistic technology firing powerful 10mm Auto ammo.
@@ -1584,9 +1595,8 @@
       STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY: Personal Armor
       STR_TASER_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
       STR_ASSAULT_RIFLE_UFOPEDIA: X-Com's standard assault rifle. Good for medium range combat with a 20 round magazine. Fires 5.56mm rounds.
-      STR_PISTOL_NEW_UFOPEDIA: The Service Pistol is used by armies around the word as a backup weapon for officers and support staff. Special forces often use them as a secondary weapon. This one fires .40 S&W Automatic Colt Pistol rounds with a twelve round capacity magazine.
-      STR_MACHINE_PISTOL_UFOPEDIA: This automatic pistol fires in a three round burst. Less accurate than a conventional pistol, the high rate of fire more than compensates this. Uses standard 9mm ammunition.
-      STR_PISTOL_SMALL_UFOPEDIA: This compact semi-automatic pistol is used by various security agencies around the world as a compact, lightweight, and easy to conceal pistol. Uses standard 9mm ammo. 
+
+
       STR_MAGNUM_UFOPEDIA: This large caliber pistol fires .44 Magnum rounds for XCom agents who wish to not only kill Aliens but to completely obliterate them . It is however very heavy for a pistol with a nasty kick.
       STR_UZI_UFOPEDIA: The latest model Uzi SMG chambered with .45 ACP rounds. This compact version has a high rate of fire with a large magazine , but suffers with accuracy at long range.
       STR_PDW_UFOPEDIA: Personal Defense Weapons were designed to bridge the gap between carbines and submachine guns. While the concept was sound, proprietary ammunition and manufacturing expenses made them unpopular with with many armies. This version fires 5.56 rounds with a high capacity magazine.

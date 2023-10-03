@@ -653,8 +653,8 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
-    width: 40
-    length: 40
+    width: 50
+    length: 50
     height: 9
 # Raider Gunship
   - type: STR_RAIDER
@@ -798,8 +798,8 @@ alienDeployments:
             - STR_ELLERIUM_LAMP
             - STR_ALIEN_PROX_GRENADE
             - STR_MIND_PROBE
-    width: 40
-    length: 40
+    width: 50
+    length: 50
     height: 9
 # Scanner Boat
   - type: STR_SCANNER
@@ -943,8 +943,8 @@ alienDeployments:
             - STR_ELLERIUM_LAMP
             - STR_ALIEN_PROX_GRENADE
             - STR_MIND_PROBE
-    width: 40
-    length: 40
+    width: 50
+    length: 50
     height: 9
 # Scout Escort
   - type: STR_MEDIUM_SCOUT
