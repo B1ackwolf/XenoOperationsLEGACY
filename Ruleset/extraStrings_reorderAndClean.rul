@@ -1126,8 +1126,7 @@
       STR_ASSAULT_RIFLE_CLIP: 5.56mm Magazine
       STR_AM_RIFLE: Anti-materiel Rifle
       STR_AM_RIFLE_CLIP: .50 BMG Magazine
-      STR_SMG: Submachine Gun
-      STR_SMG_CLIP: SMG Magazine
+
       STR_LMG: Squad Automatic Weapon
       STR_LMG_BELT: 5.56mm Belt
       STR_SHOTGUN: Combat Shotgun
@@ -1183,10 +1182,7 @@
       STR_HVGRENADE: X Force Grenade
 
 
-      STR_MAGNUM: Heavy Pistol
-      STR_MAGNUM_CLIP: .44 MAG Magazine
-      STR_UZI: Uzi Submachine Gun
-      STR_UZI_CLIP: .45 ACP Magazine
+
       STR_PDW: Personal Defense Weapon
       STR_PDW_CLIP: PDW Magazine
 #ojito reordenar arriba y dividir en dos tiers
@@ -1196,11 +1192,23 @@
       STR_MACHINE_PISTOL: Machine Pistol
       STR_MACHINE_PISTOL_UFOPEDIA: "The Beretta 93R, XCOM's rapid-fire sidearm specialist. This automatic pistol unleashes a controlled three-round burst. While it sacrifices some accuracy, the blistering rate of fire more than makes up for it.{NEWLINE}{NEWLINE}Chambered for standard 9mm ammunition, it's the ideal choice for close-quarters combat when sheer volume of fire can be the difference between victory and defeat."
       STR_MACHINE_PISTOL_CLIP: 9mm Magazine
-
       STR_PISTOL_NEW: Service Pistol
       STR_PISTOL_NEW_UFOPEDIA: "The FN Herstal FNX-40, chosen as XCOM's standard sidearm for our troops, is a global staple among armies and special forces. It's a versatile choice for backup and secondary roles.{NEWLINE}{NEWLINE}Chambered for .40 S&W Colt Pistol rounds, it boasts a twelve-round magazine capacity, ensuring a steady supply of firepower. Reliable and adaptable, the FNX-40 is the trusted companion for XCOM operatives in a variety of combat scenarios, ready to deliver precision and stopping power when needed most."
-
       STR_PISTOL_NEW_CLIP: .40 S&W Magazine
+      STR_MAGNUM: Heavy Pistol
+      STR_MAGNUM_UFOPEDIA: "Enter the IMI Desert Eagle Mk XIX. This heavy pistol is the ultimate choice for agents who don't just want to defeat aliens but utterly obliterate them. Its unparalleled stopping power ensures that no threat goes unanswered. However, it comes at a cost, the Desert Eagle is a weighty sidearm with a substantial kick.{NEWLINE}{NEWLINE}Chambered for .44 Magnum rounds, It represents one of the most potent calibers available in XCOM's arsenal, making it the weapon of choice when maximum firepower is required."
+      STR_MAGNUM_CLIP: .44 MAG Magazine
+      STR_UZI: Uzi Submachine Gun
+      STR_SMG: Submachine Gun
+
+      STR_UZI_UFOPEDIA: "The IMI UZI has stood the test of time. A timeless design marked by subtle yet reliable updates, has earned its permanent place in XCOM's arsenal. This version is chambered with .45 ACP rounds.{NEWLINE}It shines in close-quarters combat, offering a high rate of fire and an ample magazine capacity. Its compact build enables controlled bursts even with a single hand. Yet, accuracy diminishes at longer ranges, making a reliable pick when precision takes a back seat to overwhelming firepower."
+
+      STR_SMG_UFOPEDIA: This Submachine Gun fires .45 ACP ammunition. It is compact and lighter than the assault rifle and easier to maneuver in tight spaces making it ideal for close engagements, but suffers in accuracy at longer ranges.
+      STR_UZI_CLIP: .45 ACP Magazine
+
+
+
+
 #-----Human Tier 2 eXperimental Ballistics
 
 #-----Human Tier 3 Hybrids
@@ -1597,15 +1605,15 @@
       STR_ASSAULT_RIFLE_UFOPEDIA: X-Com's standard assault rifle. Good for medium range combat with a 20 round magazine. Fires 5.56mm rounds.
 
 
-      STR_MAGNUM_UFOPEDIA: This large caliber pistol fires .44 Magnum rounds for XCom agents who wish to not only kill Aliens but to completely obliterate them . It is however very heavy for a pistol with a nasty kick.
-      STR_UZI_UFOPEDIA: The latest model Uzi SMG chambered with .45 ACP rounds. This compact version has a high rate of fire with a large magazine , but suffers with accuracy at long range.
+
+
       STR_PDW_UFOPEDIA: Personal Defense Weapons were designed to bridge the gap between carbines and submachine guns. While the concept was sound, proprietary ammunition and manufacturing expenses made them unpopular with with many armies. This version fires 5.56 rounds with a high capacity magazine.
       STR_AM_RIFLE_UFOPEDIA: This highly accurate Anti-materiel rifle is used by armies around the world to destroy light vehicles and enemy supplies. The Geneva Convention forbids the use of this weapon against personnel in most cases. Thankfully the Aliens were not there to sign it. It fires extremely powerful .50 BMG rounds.
       STR_SNIPER_RIFLE_UFOPEDIA: While a slower firing weapon than the Assault Rifle, the Sniper Rifle is highly accurate with greater stopping power than most other firearms thanks to the 7.62mm rounds chambered. It comes mounted with a night vision scope for increased accuracy while aimed.
       STR_LMG_UFOPEDIA: This Light Machine Gun loads standard 5.56mm rounds on special belt boxes . Its useful for suppression and fire support. While heavy, this weapon has a high rate of fire.
       STR_MINIGUN_UFOPEDIA: This belt fed Gatling Gun fires 5.56mm ammunition at extremely high rates of fire. However it is very heavy and can only fire at full auto.
       STR_SHOTGUN_UFOPEDIA: The standard X-Com 12-gauge Shotgun has a lot of stopping power, but suffers from poor accuracy due to the shot spread. This however makes it ideal for close quarters combat. Solid slugs can be used as well.
-      STR_SMG_UFOPEDIA: This Submachine Gun fires .45 ACP ammunition. It is compact and lighter than the assault rifle and easier to maneuver in tight spaces making it ideal for close engagements, but suffers in accuracy at longer ranges.
+
       STR_HVMACHINE_PISTOL_UFOPEDIA: The X1 Machine Pistol is a precision engineered rapid fire pistol with a three round burst using 9mm ammo.
       STR_HVPISTOL_SMALL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition. 
       STR_HVMAGNUM_UFOPEDIA: X3 Heavy Pistol uses a high caliber .44 MAG round for extra power. The high quality engineering makes this the most powerful ballistic pistol in the world.
