@@ -2271,7 +2271,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/WeaponrySprites/Cursor.gif
+      0: Resources/Ui/Cursor.gif
   - type: GEOBORD.SCR
     singleImage: true
     width: 320
@@ -2628,8 +2628,6 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Body/MAN_F53.png
   - typeSingle: HUMAN__2__F54_NUDE
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Body/MAN_F54.png
-  - typeSingle: HUMAN__2__F55_NUDE
-    fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Body/MAN_F55.png
   - typeSingle: HUMAN__2__F55_NUDE
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Body/MAN_F55.png
   - typeSingle: HUMAN__2__F56_NUDE
@@ -4995,4 +4993,18 @@ extraSprites:
     singleImage: true
     files:
       0: resources/ui/battlescape/SCANBORD.png
-      
+################Custom palletes
+customPalettes:
+  - type: PAL_GEOSCAPE_NEW
+    target: PAL_GEOSCAPE
+    file: Resources/PALS/LUKESGEOhybrid4.pal
+
+  # - type: PAL_BATTLESCAPE_1L83
+  #   target: PAL_BATTLESCAPE_1
+  #   file: Resources/Pals/FACTIONS_seadepth1.jasc
+  # - type: PAL_BATTLESCAPE_2L83
+  #   target: PAL_BATTLESCAPE_2
+  #   file: Resources/Pals/FACTIONS_seadepth2.jasc
+  # - type: PAL_BATTLESCAPE_3L83
+  #   target: PAL_BATTLESCAPE_3
+  #   file: Resources/Pals/FACTIONS_seadepth3.jasc 

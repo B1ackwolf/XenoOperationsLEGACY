@@ -6,7 +6,8 @@
 ###########################
 globe:
   data: Resources/Globe/NEWWORLD.DAT
-  oceanPalette: 12
+  oceanShading: false #deactivate this if isnt popular?
+  oceanPalette: 10
   countryColor: 239
   cityColor: 138
   baseColor: 133

@@ -72,7 +72,7 @@ A few tips
 Known Bugs
   -Clicking on the camera icon for the UAV freezes game. Right click to unfreeze game.
   -A crapton of missing UFOPaedia entries
-
+  -Random CTDs when loading battlescapes, BE SURE TO better to SAVE PREVIOUSLY to the moment your transport crafts arrives to any mission.
 Changelog:
 
 v.0.97.01 LE changelog
@@ -86,14 +86,18 @@ expanded ufopaedia entries:
 >gracias scamps, reducido techo de los codex recoverys y LAS BASES ALIENS
 >aproveche y aumente el tamaño en algunos mapas de ufos chikitos, q esporadicamente daban error ya que no cabian "ambas naves", en teoria deberia reducir la cantidad de ctds.
 >reordenado las carpetas de perros y tanques, ojito faltan agregar funcionalmente imagenes de inventario de dron y land drone
-###tengo q reducir techo de misiones codex y de bases de asalto enemiga
 >reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012
 >con la existencia de brutal IA la necesidad de instant grenades es menor, eliminado de FIXED, pero preguntar por feedback al respecto.
+>agregada texturas a la tierra para q el mar tenga profundidades , consultar si a la gente le gusta.
 >en teoria, resuelto el tema de los cadaveres aliens infinitos, confirmar luego
-poner lo de subir manualmente los rangos en "sugeridos"
-yo habia cambiado los valores requeridos para los ascensos, reducirlos y cconfirmar si mas bajos estan bien, asi hay mas posibilidades de "rangos altos" sin necesidad de explayar tus batallones.
-
-**acomodada armadura de los armored sectoids para evitar que se confundan con los interiores de las naves
+####poner lo de subir manualmente los rangos en "sugeridos"
+####reordenar carpeta UI y excedentres adentro de estas como pals y globe
+####terminar al menos tier 1 de armas
+####concretar el cambio de armas de plasma usando woofington
+####Modificar unos pixelitos al tavor corriendo el cargador adelante
+>yo habia cambiado los valores requeridos para los ascensos, reducirlos y cconfirmar si mas bajos estan bien, asi hay mas posibilidades de "rangos altos" sin necesidad de explayar tus batallones.
+>corregido un error gramatical en unidades tanques de soporte
+>acomodada armadura de los armored sectoids para evitar que se confundan con los interiores de las naves
 OJITO RECORDAR COLOCAR EN RECOMENDACIONES SIEMPRE SIEMPRE GUARDAR LA PARTIDA ANTES DE EMPEZAR UNA MISION, por si acaso.
 #########################
 v0.96.v9 LE Changelog:
