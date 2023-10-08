@@ -191,15 +191,15 @@ items:
       - STR_DRONE_SHOTGUN_CLIP
     accuracyAimed: 150
     tuAimed: 40
-    battleType: 1
+    battleType: 0
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
     aimRange: 5
     snapRange: 3
     dropoff: 4
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
+    # ignoreInCraftEquip: true
+    # ignoreInBaseDefense: true
     listOrder: 10910
   - type: STR_DRONE_SHOTGUN_CLIP
     requiresBuy:
@@ -220,7 +220,7 @@ items:
     clipSize: 6
     shotgunPellets: 5
     damageType: 1
-    battleType: 2
+    battleType: 0
     invWidth: 2
     ignoreInCraftEquip: true
     ignoreInBaseDefense: true
@@ -289,10 +289,10 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 70
-    damageType: 3
+    damageType: 0
     clipSize: 4
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
+    # ignoreInCraftEquip: true
+    # ignoreInBaseDefense: true
     battleType: 2
     invWidth: 2
     invHeight: 3
@@ -464,7 +464,7 @@ items:
     power: 60
     damageType: 9
     clipSize: 6
-    battleType: 2
+    battleType: 0
     ignoreInCraftEquip: true
     ignoreInBaseDefense: true
     hitSound: 0
@@ -947,7 +947,7 @@ items:
     floorSprite: 279
     hitSound: 22
     hitAnimation: 26
-    power: 55
+    power: 65
     damageType: 1
     clipSize: 8
     battleType: 2
@@ -995,12 +995,21 @@ items:
     listOrder: 2124
 ##### Ojito complete this later #####
   - type: STR_HEAVY_CANNON
+    compatibleAmmo:
+      - STR_HC_HE_AMMO
+      - STR_HC_I_AMMO
+      - STR_HC_AP_AMMO
+    arcingShot: true
     listOrder: 2125
-  - type: STR_HC_AP_AMMO
-    listOrder: 2126
   - type: STR_HC_HE_AMMO
-    listOrder: 2127
+    power: 45
+    listOrder: 2126
   - type: STR_HC_I_AMMO
+    power: 55
+    listOrder: 2127
+  - type: STR_HC_AP_AMMO
+    damageType: 9
+    power: 65
     listOrder: 2128
   - type: STR_ROCKET_LAUNCHER
     size: 0.4
@@ -4618,8 +4627,8 @@ items:
     power: 0
     battleType: 0
     armor: 65
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
+    # ignoreInCraftEquip: true
+    # ignoreInBaseDefense: true
     listOrder: 1001
   - type: STR_ADRENO_SYRINGE
     size: 0.1

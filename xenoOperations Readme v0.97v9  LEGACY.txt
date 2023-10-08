@@ -75,31 +75,50 @@ Known Bugs
   -Random CTDs when loading battlescapes, BE SURE TO better to SAVE PREVIOUSLY to the moment your transport crafts arrives to any mission.
 Changelog:
 
+##########
+
 v.0.97.01 LE changelog
 
-expanded ufopaedia entries:
-- expanded all the entries related to CODEX stages and elements, might need to be trimmed down, this will depend on feedback.
->reorganizado la seccion de alien life forms y adicionalmente creado lore nuevo para todas las especies
->woffinton cuchillo alloy
->corregido bug disparos de hybrido hacia gemido de perro rastreo
->devuelto daño de cohete hybrido chem a incendiario
->gracias scamps, reducido techo de los codex recoverys y LAS BASES ALIENS
->aproveche y aumente el tamaño en algunos mapas de ufos chikitos, q esporadicamente daban error ya que no cabian "ambas naves", en teoria deberia reducir la cantidad de ctds.
->reordenado las carpetas de perros y tanques, ojito faltan agregar funcionalmente imagenes de inventario de dron y land drone
->reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012
->con la existencia de brutal IA la necesidad de instant grenades es menor, eliminado de FIXED, pero preguntar por feedback al respecto.
->agregada texturas a la tierra para q el mar tenga profundidades , consultar si a la gente le gusta.
->en teoria, resuelto el tema de los cadaveres aliens infinitos, confirmar luego
-####poner lo de subir manualmente los rangos en "sugeridos"
-####reordenar carpeta UI y excedentres adentro de estas como pals y globe
-####terminar al menos tier 1 de armas
-####concretar el cambio de armas de plasma usando woofington
-####Modificar unos pixelitos al tavor corriendo el cargador adelante
->yo habia cambiado los valores requeridos para los ascensos, reducirlos y cconfirmar si mas bajos estan bien, asi hay mas posibilidades de "rangos altos" sin necesidad de explayar tus batallones.
->corregido un error gramatical en unidades tanques de soporte
->acomodada armadura de los armored sectoids para evitar que se confundan con los interiores de las naves
-OJITO RECORDAR COLOCAR EN RECOMENDACIONES SIEMPRE SIEMPRE GUARDAR LA PARTIDA ANTES DE EMPEZAR UNA MISION, por si acaso.
-#########################
+Expansion of UFOpedia Entries:
+- Expanded all entries related to CODEX stages and elements. Feedback may prompt further trimming if necessary.
+- Reorganized alien life forms and introduced new lore for other species (with plans to redo all of them).
+- Completely reworked the FLUFF TEXT for the first tier of XCOM weapons, awaiting feedback. (Approximately 15 weapons with details, including real-world inspiration, ammo, intended role, strengths, and weaknesses).
+- Similar revisions are currently underway for the next weapon tiers.
+
+Folder and File Reorganization:
+- Restructured unit sprite folders, including those for dogs, humans, and mechanical units used by XCOM.
+- Removed numerous redundant, unused, or duplicate files that were only bloating the folders and increasing mod size.
+- Folders are now more intuitive and easier to navigate, improving the efficiency of sprite work and making it easier for anyone to extract content for personal use or other mods.
+- Added inventory images for the land drone and the UAV.
+
+Balances and Tweaks:
+- Restored the damage type of the hybrid chem rocket from CHEMICAL to INCENDIARY (due to a misunderstanding of how this damage worked, and considering it wasn't working as intended).
+- Added Hybrid tftd/UfoEU textures to the GlobeMap for improved visual appearance of Earth's oceans (submerged missions are not within the mod's scope, thus this change is visuals only). Seeking opinions on this visual change.
+- Slightly adjusted the color of Armored Sectoids to prevent them from blending into the interior of UFOs.
+- Recolored some UFOpedia pages, reducing the brightness of white borders to minimize visual noise, especially noticeable in the "WEAPONS" UFOpedia screen.
+- Removed the "fixed" option for INSTANT GRENADES, as it was originally necessary for AI competence but has since become obsolete with the Brutal AI MOD. Seeking feedback on this change.
+- Replaced the Alloy knife texture with a retouched version from Woofington's vanilla weapon resprite pack. Plasma and laser blades are next in line for replacement.
+- The Heavy Cannon has undergone a complete transformation. The names of both the weapon and its associated ammunition have been updated:
+  * Now is called automatic grenade launcher. Grenades are now called "40mm (type) grenade" 
+    ~ Additionally the AP ammunition has been replaced with smoke rounds.
+  * To reflect this changes, the ammunition types have been reordered, making "high explosive" the new standard. 
+  * All their ammo got some tweaks and a slight reduction in terms of damage.
+  * The amount of ammunition for this weapon at the beginning of a new campaign has been rebalanced.
+- The AmRifle damage got buffed a bit, as is was underperforming.
+- Created new artwork intended as the Splash Art banner for the mod on the MOD.IO site and forum.
+
+Bug Fixes:
+- Resolved an issue where the shotgun drone clip and the tank smoke clip appeared in the inventory.
+- Corrected palette issues in some images, especially in the basebits folder and UFOpedia.
+- Fixed a CTD (Crash to Desktop) caused by a grammar mistake in some UFOpedia images.
+- Resolved a bug where firing chemical weapons (e.g., hybrid with chem ammo) played the wrong sound file (a dog whimper instead of a slimy splash).
+- Reduced the number of "levels" in every UNDERGROUND Mission (codex recoveries and alien base assaults) to prevent exploitative scenarios with floating enemies.
+- Increased the map size of some smaller UFOs to address CTDs caused by spawning both the UFO and the XCOM transport ship in certain maps.
+- Fixed the "infinite bodies" bug, which caused aliens not to be removed when researching an interrogation, enabling exploitative behavior.
+- With the addition of OXCE, you can now manually increase or demote unit ranks by clicking on the unit rank in the base Soldiers tab. Consequently, the number of soldiers required to unlock officer billets has been substantially decreased.
+
+##########
+
 v0.96.v9 LE Changelog:
 
 Tweaked Some Numbers:
@@ -296,6 +315,7 @@ Bugfixes:
 - Corrected all craft weapons and ammunition names.
 - Removed overkill from AP Tanks (which mistakenly evaporated everything it killed, including weapons and items).
 
+##########
 
 v0.96.v8 LE:
 

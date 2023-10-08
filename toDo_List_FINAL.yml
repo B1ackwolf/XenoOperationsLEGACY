@@ -269,6 +269,15 @@ tuUnload
 incluir esto: "you need to additionally pay the cost of moving the ammo from its current inventory slot into a hand slot! Consider that when balancing reload costs.
 tener en consideracion esto: since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
 
+>reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012
+####reordenar carpeta UI y excedentres adentro de estas como pals y globe
+####terminar al menos tier 1 de armas
+####concretar el cambio de armas de plasma melee y laser usando woofington
+####Modificar unos pixelitos al tavor corriendo el cargador adelante
+- Redone the FLUFF TEXT for the armors text:
+ * All tiers, same as above 
+  ~every armor name was changed.
+  ~all colors has been renamed.
 
 cual deberia ser el orden de la ufopedia
 0?>dossiers and background info

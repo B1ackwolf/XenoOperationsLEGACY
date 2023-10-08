@@ -202,7 +202,7 @@ extraSprites:
       423: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaClip3.gif
       424: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip2.gif
       425: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip3.gif
-      430: Resources/WeaponrySprites/alienArsenal/HumanAlloyBlade.gif
+      430: Resources/XtraSprites/HumanAlloyBlade.gif
       431: Resources/WeaponrySprites/alienArsenal/HumanPlasmaBlade.gif
       433: Resources/WeaponrySprites/alienArsenal/HumanProxGrenade.gif
       434: Resources/WeaponrySprites/alienArsenal/HumaAntiMatterBomb.gif
@@ -554,7 +554,7 @@ extraSprites:
       423: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaClip3.gif
       424: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip2.gif
       425: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip3.gif
-      430: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanAlloyBlade.gif
+      430: Resources/XtraSprites/floorob_HumanAlloyBlade.gif
       431: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanPlasmaBlade.gif
       433: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanProxGrenade.gif
       434: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumaAntiMatterBomb.gif
@@ -788,7 +788,7 @@ extraSprites:
       1030: Resources/WeaponrySprites/alienArsenal/HandObjects/EliteRifle.gif
       1040: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienHighExplosiveHandOb.gif
       1050: Resources/WeaponrySprites/alienArsenal/HandObjects/AntiMatterBombHandOb.gif
-      1060: Resources/WeaponrySprites/alienArsenal/HandObjects/HumanAlloyBladeHandOb.gif
+      1060: Resources/XtraSprites/HumanAlloyBladeHandOb.png
       1070: Resources/WeaponrySprites/alienArsenal/HandObjects/HumanPlasmaSwordHandOb.gif
       1080: Resources/WeaponrySprites/alienArsenal/HandObjects/AntiMatterLauncherHandOb.gif
       1090: Resources/WeaponrySprites/HVRL/HVRLHandOb.gif

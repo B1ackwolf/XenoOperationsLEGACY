@@ -901,6 +901,15 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_CANNON_UFOPEDIA
     listOrder: 2114
+  - id: STR_HC_HE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HC_I_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HC_AP_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_ROCKET_LAUNCHER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
