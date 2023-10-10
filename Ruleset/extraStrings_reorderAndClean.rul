@@ -432,7 +432,7 @@
 # ANTARTIC BASES/OUTPOSTS
       STR_VOSTOK: "Vostok Station"
       STR_MCMURDO: "McMurdo Station"
-      STR_AMUNDSENSCOTT: "Amundsen-Scott Station"
+      STR_AMUNDSEN: "Amundsen-Scott Station"
       STR_BELLINGSHAUSEN: "Bellingshausen Station"
 
 # ATLANTIC/PACIFIC/INDIAN CITIES
@@ -450,7 +450,7 @@
       STR_COCOS_ISLANDS: Cocos Islands
       STR_DIEGO_GARCIA: Diego Garcia
 #END CITY NAMES
-###########################
+###########################ojito reordenar
       STR_FIRST_AID: "First Aid Kit"
       STR_BASIC_MEDKIT: "Basic Medikit Pack"
       STR_MEDI_KIT: Advanced Medikit

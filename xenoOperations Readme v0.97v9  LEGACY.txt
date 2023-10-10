@@ -77,6 +77,19 @@ Changelog:
 
 ##########
 
+v0.97.02 LE changelog:
+
+sprite changes:
+>recoulored some small bits of hybrids ammo, to get a goldier tint in elerium tipped ammo
+>recoloured hybrid shotgun shells to make more contrast with other types and to bring in lane with the rest of the tier
+
+Rebalance and tweaks:
+Xcom units stats rebalance, some increases in streght to reduce the ammount of useless soldiers and increased some changes when promoted to officers
+
+bugfixes:
+>corregido el nombre de estacion en el polo sur q estaba mal definido.
+
+
 v.0.97.01 LE changelog
 
 Expansion of UFOpedia Entries:

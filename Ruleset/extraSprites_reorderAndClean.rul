@@ -50,7 +50,7 @@ extraSprites:
       126: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Grey.gif
       127: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Purple.gif
       128: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_White.gif
-      11: Resources/WeaponrySprites/AGL.gif
+      11: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/14GrenadeLauncher.gif
       35: Resources/WeaponrySprites/alienArsenal/BlasterLauncher.gif
       1113: Resources/WeaponrySprites/Taser/bigob_Taser.png
       1114: Resources/WeaponrySprites/Taser/bigob_Taser_Clip.png
@@ -62,11 +62,11 @@ extraSprites:
       275: Resources/WeaponrySprites/LaserSniperBattery.gif
       276: Resources/WeaponrySprites/HeavyLaser.gif
       277: Resources/WeaponrySprites/HeavyLaserBattery.gif
-      278: Resources/WeaponrySprites/AMRifle.gif
-      279: Resources/WeaponrySprites/AMRifleClip.gif
+      278: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/12AMRifle.gif
+      279: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/12AMRifle_mag.gif
       280: Resources/WeaponrySprites/APRocket.gif
-      281: Resources/WeaponrySprites/AssaultRifle.gif
-      282: Resources/WeaponrySprites/AssaultRifleClip.gif
+      281: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/9AssaultRifle.gif
+      282: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/9AssaultRifle_mag.gif
       283: Resources/WeaponrySprites/HVLMG.gif
       284: Resources/WeaponrySprites/HVLMGBelt.gif
       285: Resources/WeaponrySprites/HVLMGBeltAlloy.gif
@@ -86,15 +86,14 @@ extraSprites:
       299: Resources/WeaponrySprites/HVSniperRifleClip.gif
       300: Resources/WeaponrySprites/HVSniperRifleClipAlloy.gif
       301: Resources/WeaponrySprites/IncGrenade.gif
-      302: Resources/WeaponrySprites/LMG.gif
-      303: Resources/WeaponrySprites/LMGBelt.gif
-      304: Resources/WeaponrySprites/Minigun.gif
-      305: Resources/WeaponrySprites/MinigunBelt.gif
-      306: Resources/WeaponrySprites/Pistol.gif
-      307: Resources/WeaponrySprites/Shotgun.gif
-      308: Resources/WeaponrySprites/ShotgunShells.gif
-      309: Resources/WeaponrySprites/SMG.gif
-      310: Resources/WeaponrySprites/SMGClip.gif
+      302: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/10Lmg.gif
+      303: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/10Lmg_belt.gif
+      304: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/13Minigun.gif
+      305: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/13Minigun_belt.gif
+      306: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/3ServicePistol.gif
+      307: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/7Shotgun.gif
+      308: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/7Shotgun_shells.gif
+      309: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/6Smg.gif
       311: Resources/WeaponrySprites/SniperRifle.gif
       312: Resources/WeaponrySprites/SniperRifleClip.gif
       313: Resources/WeaponrySprites/HVGrenade.gif
@@ -112,7 +111,6 @@ extraSprites:
       326: Resources/WeaponrySprites/PistolSmall.gif
       327: Resources/WeaponrySprites/PistolClipSmall.gif
       328: Resources/WeaponrySprites/PDW.gif
-      329: Resources/WeaponrySprites/PDWClip.gif
       330: Resources/WeaponrySprites/HeavyLaserBattery2.gif
       331: Resources/WeaponrySprites/HeavyLaserBattery3.gif
       332: Resources/WeaponrySprites/LaserBattery2.gif
@@ -219,7 +217,6 @@ extraSprites:
       518: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip2.gif
       519: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip3.gif
       600: Resources/WeaponrySprites/PistolSmall.gif
-      601: Resources/WeaponrySprites/PistolClipSmall.gif
       602: Resources/WeaponrySprites/UZI.gif
       603: Resources/WeaponrySprites/UZIClip.gif
       604: Resources/WeaponrySprites/HVMachinePistol.gif
@@ -334,14 +331,15 @@ extraSprites:
     width: 128
     height: 624
     files:
-      450: Resources/WeaponrySprites/Tier3BigObsTan.gif
+      450: Resources/WeaponrySpritesCorregido/3rdTierHyb/Bigob/HybridWeaponsTier.gif
   - type: BIGOBS.PCK
     subX: 32
     subY: 48
     width: 224
     height: 48
     files:
-      501: Resources/WeaponrySprites/ShockWeapons.gif
+      501: Resources/WeaponrySprites
+Corregido/7thStun/Bigob/ShockWeaponsTier.gif
   - type: BIGOBS.PCK
     files:
        2989: Resources/UI/Inventory/Null_Jetpack.png
@@ -2368,7 +2366,7 @@ extraSprites:
   - typeSingle: DOGGO__2__F0_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M0.png
   - typeSingle: DOGGO__2__F1_BREED
-    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breedreed/DOG_M1.png
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M1.png
   - typeSingle: DOGGO__2__F2_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M2.png
   - typeSingle: DOGGO__2__F3_BREED
