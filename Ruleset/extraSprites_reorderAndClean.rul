@@ -318,13 +318,13 @@ extraSprites:
       953: Resources/WeaponrySprites/alienArsenal/CodexKey.gif
       960: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/MiniRocket.gif
       961: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/Motar.png
-      962: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/MRLS.gif
       996: Resources/WeaponrySprites/Botiquines/AdrenoSyringe.png
       997: Resources/WeaponrySprites/Botiquines/MiniFirstAid.png
       998: Resources/WeaponrySprites/Botiquines/BasicMedkit.png
       999: Resources/WeaponrySprites/Botiquines/ImprovedMedkit.gif
       1208: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncher.png
       1209: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncherClip.png
+      1210: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/Camera.gif
   - type: BIGOBS.PCK
     subX: 32
     subY: 48
@@ -338,8 +338,7 @@ extraSprites:
     width: 224
     height: 48
     files:
-      501: Resources/WeaponrySprites
-Corregido/7thStun/Bigob/ShockWeaponsTier.gif
+      501: Resources/WeaponrySpritesCorregido/7thStun/Bigob/ShockWeaponsTier.gif
   - type: BIGOBS.PCK
     files:
        2989: Resources/UI/Inventory/Null_Jetpack.png
@@ -2171,7 +2170,7 @@ Corregido/7thStun/Bigob/ShockWeaponsTier.gif
     files:
       0: Resources/UnitSprites/AlienFaction/Ethereal.png
 #---XCOM MECHANICHAL PAPERDOLL IMAGES ------------------------------
-  - type: Inventory_HELI_DRONE
+  - type: Inventory_UAV
     singleImage: true
     files:
       0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/HeliDrone.gif

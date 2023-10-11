@@ -7285,7 +7285,7 @@
     spriteSheet: UAV.PCK
     corpseBattle:
       - STR_UAV_CORPSE
-    spriteInv: inventory_HELI_DRONE
+    spriteInv: Inventory_UAV
     frontArmor: 15
     sideArmor: 15
     rearArmor: 15
@@ -7317,7 +7317,7 @@
       - 1.4
       - 0.0
     builtInWeapons:
-      - STR_DRONE_SHOTGUN_CLIP
+      - STR_HWP_RANGEFINDER
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
@@ -7362,7 +7362,7 @@
       - 1.4
       - 0.0
     builtInWeapons:
-      - STR_DRONE_SHOTGUN_CLIP
+      - STR_HWP_RANGEFINDER
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
@@ -7373,10 +7373,10 @@
     loftempsSet: [ 5 ]
   - type: LAND_DRONE_ARMOR
     spriteSheet: LAND_DRONE.PCK
+    spriteInv: Inventory_LAND_DRONE
     customArmorPreviewIndex: 54
     corpseBattle:
       - STR_LAND_DRONE_CORPSE
-    spriteInv: inventory_LAND_DRONE
     visibilityAtDay: 15
     visibilityAtDark: 15
     camouflageAtDay: 12
@@ -7423,8 +7423,7 @@
       - 0.0
       - 0.0
     builtInWeapons:
-#      - STR_HWP_SMOKE
-      - STR_DRONE_SHOTGUN_CLIP
+      - STR_HWP_RANGEFINDER
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
@@ -7432,7 +7431,7 @@
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
-    specialWeapon: STR_HWP_RANGEFINDER
+    # specialWeapon: STR_HWP_RANGEFINDER
     loftempsSet: [ 5 ]
   - type: HEAVY_TANK_AP_ARMOR
     spriteSheet: HEAVYTANK1.PCK

@@ -70,25 +70,46 @@ A few tips
 
 "(Gameplay note: Players must strategize their upgrades wisely. Rushing through all stages isn't feasible, and the expense of advanced technologies might outstrip current finances. Balance and planning are key.)"
 Known Bugs
-  -Clicking on the camera icon for the UAV freezes game. Right click to unfreeze game.
+
   -A crapton of missing UFOPaedia entries
   -Random CTDs when loading battlescapes, BE SURE TO better to SAVE PREVIOUSLY to the moment your transport crafts arrives to any mission.
 Changelog:
 
-##########
+
+
+###################
 
 v0.97.02 LE changelog:
 
-sprite changes:
->recoulored some small bits of hybrids ammo, to get a goldier tint in elerium tipped ammo
->recoloured hybrid shotgun shells to make more contrast with other types and to bring in lane with the rest of the tier
+Sprite Changes:
 
-Rebalance and tweaks:
-Xcom units stats rebalance, some increases in streght to reduce the ammount of useless soldiers and increased some changes when promoted to officers
+- Hybrid Ammo Enhancement:
+  * Adjusted the color of some small sections of hybrid ammo to give the elerium-tipped rounds a richer, more golden hue.
+  * Recolored hybrid shotgun shells to provide better contrast with other ammo types and align them more closely with the rest of their tier.
 
-bugfixes:
->corregido el nombre de estacion en el polo sur q estaba mal definido.
+- Dragonfly Soldier Deployment Reorientation: Altered the starting deployment of Dragonfly soldiers to prevent unnecessary turning when facing doors and obstacles. To help with micro-managing deployment, follow this order:
+  * The first two soldiers are assigned to the left door.
+  * The next two soldiers are designated for the right door.
+  * The subsequent two soldiers occupy the middle.
+  * The following two soldiers are positioned beside the "pilot spot."
+  * The three soldiers after that occupy the back row, near the tail of the plane.
+  * Ideally, the last spot is reserved for the pilot.
+    ° Fixes for the Dragonfly are currently in progress, addressing issues such as the missing roof tiles, and further improvements are anticipated.
 
+- Rebalances and Tweaks:
+  * Rebalanced XCOM unit stats, boosting the strength of some to reduce the number of underutilized soldiers. Additionally, made changes when soldiers are promoted to officers.
+
+- Bugfixes:
+  * Fixed a naming error for a station in the South Pole that was inaccurately defined.
+  * Corrected numerous errors related to drones, including:
+    ° The UAV now features a motion-sensing lens.
+	  ~ However, they temporarily lose their ability to carry and drop bombs until an optimal solution is determined, so they'll remain exploratory drones for now.
+    ° The UCav has the same lens, along with a correction of its rocket damage type (changed from acid to explosive).
+    ° The land drone's shotgun now has the correct ammunition.
+  * The UAV and land drone's inventory sprites now function as intended.
+  * Resolved a long-standing bug that has been present since the initial release. Clicking on the camera icon for the UAV will no longer freeze the game.
+
+##########
 
 v.0.97.01 LE changelog
 
@@ -579,6 +600,11 @@ v0.96v1 Legacy Extended:
    *Increased total resistence of all objects (so you wont lose your beloved new toys to a random SMOKE grenade explosion, planning to tweak further so UPPER tiers have EVEN MORE resistance)
   -tons of other changes that i might not remember now but i know i did.....THANKS a lot to EFRENSPARTANO for all his insights and ungodly amount of patience.
   -Changed all the music and reeplaced it with the 2012 xcom (firaxis) version, THANKS TO Xover88 for his work.
+  
+  
+  
+#################
+  
 V0.96
   - Updated compatibility with OXC nightly and OXCE
 V0.958

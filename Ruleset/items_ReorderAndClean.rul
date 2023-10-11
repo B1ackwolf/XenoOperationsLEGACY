@@ -154,6 +154,7 @@ items:
     size: 0.1
     costSell: 1250
     listOrder: 1005
+######----- Drones -----##### 
   - type: STR_LAND_DRONE
     size: 1
     costSell: 160000
@@ -198,6 +199,7 @@ items:
     aimRange: 5
     snapRange: 3
     dropoff: 4
+    # defaultInventorySlot: STR_RIGHT_HAND
     # ignoreInCraftEquip: true
     # ignoreInBaseDefense: true
     listOrder: 10910
@@ -220,34 +222,33 @@ items:
     clipSize: 6
     shotgunPellets: 5
     damageType: 1
-    battleType: 0
+    battleType: 2
     invWidth: 2
     ignoreInCraftEquip: true
     ignoreInBaseDefense: true
     invHeight: 1
     listOrder: 10920
+##### ojito el error esta en uno de estos parametros####
   - type: STR_HWP_RANGEFINDER
     weight: 0
-    bigSprite: 810
+    bigSprite: 1210
     accuracyAimed: 0
     tuAimed: 999
     confAimed:
       name: STR_MEASURE_RANGE
     dropoff: -1
-    battleType: 1
-    damageType: 4
+    battleType: 7
     power: 0
     clipSize: -1
     aimRange: 0
     flatRate: true
-    defaultInventorySlot: STR_LEFT_HAND
+    # defaultInventorySlot: STR_LEFT_HAND
     fixedWeapon: true
     recover: false
     noLOSAccuracyPenalty: 100
   - type: STR_UAV
     size: 5
-    costSell: 290000
-    bigSprite: 963
+    costSell: 29000
     floorSprite: 960
     requiresBuy:
       - STR_DRONE_WARFARE
@@ -279,17 +280,17 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 1510
+    # defaultInventorySlot: STR_RIGHT_HAND
   - type: STR_UCAV_ROCKETS
     size: 0.3
     costSell: 2250
     weight: 1
-    battletype: 0
 #    bigSprite: { mod: master, index: 61 }
     floorSprite: 16
     hitSound: 0
     hitAnimation: 0
     power: 70
-    damageType: 0
+    damageType: 3
     clipSize: 4
     # ignoreInCraftEquip: true
     # ignoreInBaseDefense: true

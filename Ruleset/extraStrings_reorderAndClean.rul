@@ -889,6 +889,7 @@
       STR_LAND_DRONE_CORPSE: Drone Debris
       STR_HEAVY_TANK_AP: Heavy Tank RAPIER 
       STR_HEAVY_TANK_HE: Heavy Tank LONGSWORD
+      STR_HWP_RANGEFINDER: Drone Movement Sensor
 #-----Alien Weapons
       STR_LIGHT_ALIEN_WEAPONS: Light Alien Weapons
       STR_MEDIUM_ALIEN_WEAPONS: Medium Alien Weapons
