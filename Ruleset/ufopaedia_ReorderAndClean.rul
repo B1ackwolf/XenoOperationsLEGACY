@@ -192,7 +192,7 @@ ufopaedia:
   - id: STR_SKYWARDEN
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    listOrder: 103
+    listOrder: 211
     requires:
       - STR_SKYWARDEN
     text: STR_SKYWARDEN_UFOPEDIA
@@ -210,7 +210,7 @@ ufopaedia:
   - id: STR_HURRICANE
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    listOrder: 104
+    listOrder: 212
     requires:
       - STR_HURRICANE
     text: STR_HURRICANE_UFOPEDIA
@@ -2934,7 +2934,7 @@ ufopaedia:
     text_width: 308
     rect_text:
       x: 5
-      y: 90
+      y: 85
       width: 311
       height: 200
     listOrder: 781

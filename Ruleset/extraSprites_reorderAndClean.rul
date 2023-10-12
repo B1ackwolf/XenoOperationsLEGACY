@@ -877,7 +877,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      8: Resources/UI/smoke_cloud.gif
+      8: Resources/WeaponrySpritesCorregido/bWeaponFX/Smoke_Cloud.gif
   - type: HIT.PCK
     width: 128
     height: 40
@@ -4926,7 +4926,7 @@ extraSprites:
   - type: UNIBORD.PCK
     singleImage: true
     files:
-      0: resources/ui/battlescape/UNIBORD.png
+      0: resources/ui/Backgrounds/UNIBORD.png
   - type: oxceLinks
     width: 32
     height: 16

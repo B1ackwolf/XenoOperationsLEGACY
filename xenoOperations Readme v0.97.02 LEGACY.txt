@@ -71,6 +71,8 @@ A few tips
 "(Gameplay note: Players must strategize their upgrades wisely. Rushing through all stages isn't feasible, and the expense of advanced technologies might outstrip current finances. Balance and planning are key.)"
 Known Bugs
 
+
+Know Errors:
   -A crapton of missing UFOPaedia entries
   -Random CTDs when loading battlescapes, BE SURE TO better to SAVE PREVIOUSLY to the moment your transport crafts arrives to any mission.
 Changelog:
@@ -79,6 +81,26 @@ Changelog:
 
 ###################
 
+
+v.097.03 LE changelog:
+
+mas cambios:
+>agregadas mas descripciones relacionadas al CODEX , ejemplo el de los archivos corruptos.
+>corregida algunos errores en los commendations, mejorado el espaciado, requerira otra pasada mucho mas profunda
+>reordenado posicion de naves en listas y ufopaedia
+sprites:
+>smg hibrida, uzi hibrida, rifle hibrido y pdw hibrido retocados ligeramente la sprite principal en el area de cargadores para q parezcan mas a su respectivo cartucho
+>retocado ligeralmente el cartucho de rifle hybrido
+>retocado ligeralmente la posicion de lmg hybrida
+>ajustada posicion del rifle rieles
+>ajustada posicion smg rieles
+>ajustada posicion pistola plasma comun
+>ajustada posiocion pistola plasma pesada
+>ajustada posicion pistola shock
+
+
+
+########arriba####
 v0.97.02 LE changelog:
 
 Sprite Changes:
