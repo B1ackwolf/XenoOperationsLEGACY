@@ -1026,18 +1026,23 @@ globe:
           - name: NOOBERIA
             weight: 10
     - id: 13 # Swallow water, now unused
+      fakeUnderwater: true
       terrain:
           - name: POLAR
     - id: 14 # Mid-deep water, now unused
+      fakeUnderwater: true
       terrain:
           - name: POLAR
     - id: 15 # Deep ocean water, now unused
+      fakeUnderwater: true
       terrain:
           - name: POLAR
     - id: 16 # Coral reef 1/abyss, now unused
+      fakeUnderwater: true
       terrain:
           - name: POLAR
     - id: 17 # Coral reef 2, now unused
+      fakeUnderwater: true
       terrain:
           - name: POLAR
     - id: 18 # Tundra 1

@@ -71,7 +71,6 @@ alienRaces:
       - STR_ENERGYALIEN
       - STR_ENERGYALIEN
   - id: STR_CYDONIA_LANDING_GUARD
-    retaliation: false
     members:
       - STR_ARMORED_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -82,7 +81,6 @@ alienRaces:
       - STR_CYBERDISC_TERRORIST
       - STR_REAPER_TERRORIST
   - id: STR_CYDONIA_ELITE_GUARD
-    retaliation: false
     members:
       - STR_MUTON_GUARD
       - STR_ETHEREAL_COMMANDER

@@ -5089,7 +5089,7 @@ alienDeployments:
       - EXPANDED_TERROR
       - COMRCURBAN
       - INDUSTRIALSLUM
-      - TMURBAN
+      # - TMURBAN #ojito error del mapa
 #      - RAILYARDURBAN
     alert: STR_ALIENS_TERRORISE
     briefing:
@@ -5127,7 +5127,7 @@ alienDeployments:
     civilians: 16
     terrains:
       - IDT_SNOWVILLAGE
-      - TPURBAN
+      # - TPURBAN # ojito error del mapa
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -5163,8 +5163,8 @@ alienDeployments:
     civilians: 16
     terrains:
       - ISLANDURBAN
-      - TJURBAN
-      - TMURBAN
+      # - TJURBAN #ojito error del mapa
+      # - TMURBAN #ojito error del mapa
       - EXPANDED_TERROR
       - IDT_AIRPORT
     alert: STR_ALIENS_TERRORISE

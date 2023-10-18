@@ -2294,7 +2294,7 @@ extraSprites:
   #   height: 200
   #   files:
   #     0: Resources/UI/Backgrounds/MainBackground.gif
-  - type: BACK07.SCR
+  - type: ALTBACK07.SCR
     singleImage: true
     width: 320
     height: 200
@@ -4426,18 +4426,22 @@ extraSprites:
     files:
       0: Resources/UI/Flags/ZZZDoges.png
 #---Flags Ending------------------------
-#####MISC
+#####MISC Ojito
+  - type: AlienInventory
+    singleImage: true
+    files:
+      0: Resources/UI/battlescape/enemy_preview_background.png
   - type: AvatarBackground
     singleImage: true
     files:
-      0: Resources/UI/avatar-background.png
+      0: Resources/UI/battlescape/avatar-background.png
   - type: TinyRanks
     width: 133
     height: 7
     subX: 7
     subY: 7
     files:
-      0: Resources/UI/TinyRanks.png
+      0: Resources/UI/battlescape/TinyRanks.png
   - type: CustomArmorPreviews
     width: 744
     height: 60

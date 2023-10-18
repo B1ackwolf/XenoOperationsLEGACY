@@ -585,10 +585,9 @@ research:
       - STR_HYBRID_CORPSE
       - STR_ROACHER_CORPSE
       - STR_ARMORED_MUTON_CORPSE
-#      - STR_ARMORED_MUTON_COMMANDER_CORPSE
-#      - STR_MUTON_BERSERKER_CORPSE
+      # - STR_ARMORED_MUTON_COMMANDER_CORPSE
+      # - STR_MUTON_BERSERKER_CORPSE
       - STR_ARMORED_SECTOID_CORPSE
-      - STR_ROACHER_CORPSE
       - STR_CARCHARODON_CORPSE
   - name: STR_ALIEN_CONTAINMENT
     cost: 25
@@ -660,12 +659,6 @@ research:
     dependencies:
       - STR_ENDGAME
 #--Victory Tech Tree--------------------END
-#--KEY Tech Tree--------------------
-  - name: STR_CODEX_KEY
-    cost: 50
-    points: 500
-    needItem: true
-#--KEY Tech Tree--------------------END
 #--Hyper Wave Tech Tree--------------------
   - name: STR_CODEX_HYPERWAVE_THEORY
     points: 10
@@ -1068,10 +1061,6 @@ research:
       - STR_ANTI_GRAV_DEVICE
 #--Human Other Weapons  --------------------END
 #--Alien Gear --------------------
-  - name: STR_MIND_PROBE
-    cost: 40
-    points: 25
-    needItem: true
   - name: STR_ALIEN_COMM
     cost: 1
     points: 6
@@ -1408,74 +1397,73 @@ research:
     points: 50
     lookup: STR_HYBRID
     needItem: true
+    destroyItem: true
   - name: STR_ENERGYALIEN
     cost: 10
     points: 50
     lookup: STR_ENERGYALIEN
     needItem: true
+    destroyItem: true
   - name: STR_CYBERDISC_TERRORIST
     cost: 10
     points: 50
     lookup: STR_CYBERDISC
     needItem: true
+    destroyItem: true
   - name: STR_REAPER_TERRORIST
     cost: 10
     points: 50
     lookup: STR_REAPER
     needItem: true
+    destroyItem: true
   - name: STR_CHRYSSALID_TERRORIST
     cost: 10
     points: 50
     lookup: STR_CHRYSSALID
     needItem: true
+    destroyItem: true
   - name: STR_SILACOID_TERRORIST
     cost: 10
     points: 50
     lookup: STR_SILACOID
     needItem: true
+    destroyItem: true
   - name: STR_CELATID_TERRORIST
     cost: 10
     points: 50
     lookup: STR_CELATID
     needItem: true
+    destroyItem: true
   - name: STR_SECTOPOD_TERRORIST
     cost: 10
     points: 50
     lookup: STR_SECTOPOD
     needItem: true
-  - name: STR_ROACHER
-    cost: 10
-    points: 50
-    lookup: STR_ROACHER
-    needItem: true
-  - name: STR_ARMORED_MUTON
+    destroyItem: true
+  - name: STR_ARMORED_MUTON #ojito quizas mover a otro sitio
     cost: 10
     points: 50
     lookup: STR_ARMORED_MUTON
     needItem: true
+    destroyItem: true
   - name: STR_MUTON_BERSERKER
     cost: 10
     points: 50
     lookup: STR_MUTON_BERSERKER
     needItem: true
-  - name: STR_ARMORED_MUTON_COMMANDER
+    destroyItem: true
+  - name: STR_ARMORED_MUTON_COMMANDER #ojito quizas mover a otro sitio
     cost: 10
     points: 50
     lookup: STR_MUTON_CHIEFTAIN
-    needItem: true 
-  - name: STR_CARCHARODON
-    cost: 10
-    points: 50
-    lookup: STR_CARCHARODON
     needItem: true
+    destroyItem: true 
   - name: STR_ANCIENT_ABOMINATION_TERRORIST
     cost: 10
     points: 50
     lookup: STR_ANCIENT_ABOMINATION
     needItem: true
-  - name: STR_ANCIENT_ABOMINATION
-    points: 50
-    needItem: true
+    destroyItem: true
 #--Live Alien Soldiers --------------------
   - name: STR_SECTOID_SOLDIER
     cost: 10
@@ -1484,11 +1472,13 @@ research:
     unlocks:
       - STR_THE_ALIEN_MIND
     needItem: true
+    destroyItem: true
   - name: STR_OVERLORD
     cost: 10
     points: 50
     lookup: STR_OVERLORD
     needItem: true
+    destroyItem: true
     unlocks:
       - STR_THREAT_UNLOCK
   - name: STR_ARMORED_SECTOID_SOLDIER
@@ -1496,6 +1486,7 @@ research:
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
+    destroyItem: true
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_MUTON_COMMANDO
@@ -1503,6 +1494,7 @@ research:
     points: 50
     lookup: STR_MUTON_COMMANDO
     needItem: true
+    destroyItem: true
     unlocks:
       - STR_THREAT_UNLOCK
       - STR_THE_ALIEN_MIND
@@ -1511,6 +1503,7 @@ research:
     points: 50
     lookup: STR_FLOATER
     needItem: true
+    destroyItem: true
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_SNAKEMAN_SOLDIER
@@ -1518,6 +1511,7 @@ research:
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
+    destroyItem: true
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_MUTON_SOLDIER
@@ -1525,6 +1519,7 @@ research:
     points: 50
     lookup: STR_MUTON
     needItem: true
+    destroyItem: true
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_ETHEREAL_SOLDIER
@@ -1532,6 +1527,7 @@ research:
     points: 50
     lookup: STR_ETHEREAL
     needItem: true
+    destroyItem: true
     unlocks:
       - STR_THREAT_UNLOCK
       - STR_PSIONIC_UNLOCK
@@ -1541,17 +1537,20 @@ research:
     points: 50
     lookup: STR_ROACHER
     needItem: true
+    destroyItem: true
   - name: STR_CARCHARODON_SOLDIER
     cost: 10
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
+    destroyItem: true
 #--Live Alien Navigators --------------------
   - name: STR_SECTOID_NAVIGATOR
     cost: 12
     points: 50
     lookup: STR_SECTOID
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1566,12 +1565,13 @@ research:
       - STR_ALIEN_TERROR
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
-      #- STR_CODEX_RECOVERY
+      #- STR_CODEX_RECOVERY #ojito
   - name: STR_ARMORED_SECTOID_NAVIGATOR
     cost: 12
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1592,6 +1592,7 @@ research:
     points: 50
     lookup: STR_FLOATER
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1612,6 +1613,7 @@ research:
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1632,6 +1634,7 @@ research:
     points: 50
     lookup: STR_MUTON
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1652,6 +1655,7 @@ research:
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1673,6 +1677,7 @@ research:
     points: 50
     lookup: STR_FLOATER
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     getOneFree:
@@ -1717,6 +1722,7 @@ research:
     cost: 14
     points: 50
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     lookup: STR_SECTOID
@@ -1763,6 +1769,7 @@ research:
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     getOneFree:
@@ -1807,6 +1814,7 @@ research:
     cost: 16
     points: 50
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     lookup: STR_SECTOID
@@ -1830,6 +1838,7 @@ research:
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     getOneFree:
@@ -1852,6 +1861,7 @@ research:
     points: 50
     lookup: STR_FLOATER
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     getOneFree:
@@ -1874,6 +1884,7 @@ research:
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     getOneFree:
@@ -1896,6 +1907,7 @@ research:
     points: 50
     lookup: STR_MUTON
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     getOneFree:
@@ -1918,6 +1930,7 @@ research:
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     getOneFree:
@@ -1940,6 +1953,7 @@ research:
     cost: 20
     points: 50
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1958,6 +1972,7 @@ research:
       - STR_THREAT_UNLOCK
       - STR_PSIONIC_UNLOCK
     needItem: true
+    destroyItem: true
   - name: STR_FLOATER_LEADER
     cost: 20
     points: 50
@@ -1968,11 +1983,13 @@ research:
       - STR_LEADER_UNLOCK
       - STR_THREAT_UNLOCK
     needItem: true
+    destroyItem: true
   - name: STR_SNAKEMAN_LEADER
     cost: 20
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1983,6 +2000,7 @@ research:
     points: 50
     lookup: STR_ETHEREAL
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -1994,6 +2012,7 @@ research:
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -2004,6 +2023,7 @@ research:
     cost: 32
     points: 50
     needItem: true
+    destroyItem: true
     lookup: STR_SECTOID
     dependencies:
       - STR_THE_ALIEN_MIND
@@ -2017,6 +2037,7 @@ research:
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -2029,6 +2050,7 @@ research:
     points: 50
     lookup: STR_FLOATER
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -2040,6 +2062,7 @@ research:
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -2051,6 +2074,7 @@ research:
     points: 50
     lookup: STR_ETHEREAL
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -2064,6 +2088,7 @@ research:
     points: 50
     lookup: STR_MUTON_CHIEFTAIN
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -2076,6 +2101,7 @@ research:
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
+    destroyItem: true
     dependencies:
       - STR_THE_ALIEN_MIND
     unlocks:
@@ -2389,14 +2415,14 @@ research:
 #--Codex Tech Tree --------------------END
 #doggos#
 #  - name: STR_DOGE_BITE
-    cost: 0
-    points: 0
-    dependencies:
-      - STR_DOG_RECRUITMENT
-    listOrder: 17580
+    # cost: 0
+    # points: 0
+    # dependencies:
+    #   - STR_DOG_RECRUITMENT
+    # listOrder: 17580
 #  - name: STR_DOGE_TRACK
-    cost: 0
-    points: 0
-    dependencies:
-      - STR_DOG_RECRUITMENT
-    listOrder: 17512
+    # cost: 0
+    # points: 0
+    # dependencies:
+    #   - STR_DOG_RECRUITMENT
+    # listOrder: 17512

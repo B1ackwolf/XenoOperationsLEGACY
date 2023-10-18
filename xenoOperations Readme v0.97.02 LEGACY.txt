@@ -88,7 +88,17 @@ mas cambios:
 >agregadas mas descripciones relacionadas al CODEX , ejemplo el de los archivos corruptos.
 >corregida algunos errores en los commendations, mejorado el espaciado, requerira otra pasada mucho mas profunda
 >reordenado posicion de naves en listas y ufopaedia
+>reordenado el orden de los soldados:
+ al momento de ordenar por typo de soldado en tus listas, el nuevo orden es
+ "doggos"
+ "basic soldiers"
+ the other types"
+ esto ayuda mucho a la hora de ordenar tus tropas
+ como efecto secundario, se pierde el tipo "1", se empieza a contar desde el tipo 2. no genera problemas excepto para aquellos con OCD (tomarle screenshot al error en lyst type)
 sprites:
+>modificado el avatar background del menubatlescape para mantener el correlativo del resto del menu
+>cuando estas en combate se puede dar click al boton del medio para tener un preview del enemigo
+ solo muestra sprite y armas en la mano, mejorado el preview para q tenga una interfaz propia, basado en el trabajo previo de neoworm, mejorado para q sea de la misma paleta de colores q el resto de los menues
 >smg hibrida, uzi hibrida, rifle hibrido y pdw hibrido retocados ligeramente la sprite principal en el area de cargadores para q parezcan mas a su respectivo cartucho
 >retocado ligeralmente el cartucho de rifle hybrido
 >retocado ligeralmente la posicion de lmg hybrida
@@ -98,6 +108,18 @@ sprites:
 >ajustada posiocion pistola plasma pesada
 >ajustada posicion pistola shock
 
+Correcciones:
+>al fin resuelto problema de interrogaciones duplicadas, gracias scamps por encontrar la solucion.
+>re resuelto el problema de las personal armor no siendo posibles de equipar, esta vez si se resolvio, lo juro
+>resuelto problema con el sprite del escaner de drones, ahora esta correctamente centrado
+>>>corrected an instance where sectopod kill medal wasnt being correctly awarded.
+>resuelto un problema q evitaba q el background 7 saliera correctamente (gracias a alex_D por la solucion)
+ °ya q hablamos de eso, oscurecido ligeramente los tonos de los distintos back, para hacerlo mas pleasing to the eye
+>Corregido problema de ufos en el agua splish splash, no more water crash
+
+(((revisar q porongas hice con los muton commanders, muton warlords y demas especies, redefinir correctamente los nombres y demas)))))
+
+((((((descargar cmp y certificar q mapas y todo lo demas este en lo mas actualizado)
 
 
 ########arriba####

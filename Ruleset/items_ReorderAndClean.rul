@@ -224,9 +224,9 @@ items:
     damageType: 1
     battleType: 2
     invWidth: 2
+    invHeight: 1
     ignoreInCraftEquip: true
     ignoreInBaseDefense: true
-    invHeight: 1
     listOrder: 10920
 ##### ojito el error esta en uno de estos parametros####
   - type: STR_HWP_RANGEFINDER
@@ -245,6 +245,8 @@ items:
     # defaultInventorySlot: STR_LEFT_HAND
     fixedWeapon: true
     recover: false
+    invWidth: 2
+    invHeight: 3
     noLOSAccuracyPenalty: 100
   - type: STR_UAV
     size: 5

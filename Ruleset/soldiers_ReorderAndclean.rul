@@ -1,4 +1,5 @@
 soldiers:
+  - delete: STR_SOLDIER
   - type: STR_DOG
     costBuy: 60000
     costSalary: 20000
