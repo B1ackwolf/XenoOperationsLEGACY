@@ -514,10 +514,10 @@ research:
       - STR_FLOATER_LEADER
       - STR_ARMORED_SECTOID_COMMANDER
       - STR_ARMORED_SECTOID_LEADER
-#      - STR_ROACHER_ALPHA
+#      - STR_FORMIC_ALPHA
       - STR_MUTON_COMMANDO
       - STR_MUTON_CHIEFTAIN
-      - STR_OVERLORD
+      - STR_SOVEREIGN
       - STR_CARCHARODON_LEADER
       - STR_CARCHARODON_COMMANDER
   - name: STR_NAVIGATOR_UNLOCK
@@ -545,7 +545,7 @@ research:
       - STR_ARMORED_SECTOID_COMMANDER
       - STR_ARMORED_SECTOID_LEADER
       - STR_MUTON_CHIEFTAIN
-#      - STR_ROACHER_ALPHA
+#      - STR_FORMIC_ALPHA
       - STR_CARCHARODON_LEADER
       - STR_CARCHARODON_COMMANDER
   - name: STR_COMMANDER_UNLOCK
@@ -583,7 +583,7 @@ research:
       - STR_MUTON_COMMANDO_CORPSE
       - STR_MUTON_CHIEFTAIN_CORPSE
       - STR_HYBRID_CORPSE
-      - STR_ROACHER_CORPSE
+      - STR_FORMIC_CORPSE
       - STR_ARMORED_MUTON_CORPSE
       # - STR_ARMORED_MUTON_COMMANDER_CORPSE
       # - STR_MUTON_BERSERKER_CORPSE
@@ -640,7 +640,7 @@ research:
     dependencies:
       - STR_FINAL_UNLOCK
       - STR_ALIEN_THREAT
-  - name: STR_ARCHANGEL
+  - name: STR_OVERLORD
     cost: 2400
     points: 10
     dependencies:
@@ -652,7 +652,7 @@ research:
     unlockFinalMission: true
     dependencies:
       - STR_MASTERMIND
-      - STR_ARCHANGEL
+      - STR_OVERLORD
   - name: STR_CYDONIA_OR_BUST
     cost: 0
     points: 60
@@ -1216,10 +1216,10 @@ research:
       - STR_XENO_PHYSIOLOGY
     lookup: STR_HYBRID_AUTOPSY
     needItem: true
-  - name: STR_OVERLORD_CORPSE
+  - name: STR_SOVEREIGN_CORPSE
     cost: 4
     points: 50
-    lookup: STR_OVERLORD_AUTOPSY
+    lookup: STR_SOVEREIGN_AUTOPSY
     needItem: true
   - name: STR_ENERGYALIEN_CORPSE
     cost: 4
@@ -1339,7 +1339,7 @@ research:
   - name: STR_HYBRID_AUTOPSY
     points: 50
     needItem: true
-  - name: STR_OVERLORD_AUTOPSY
+  - name: STR_SOVEREIGN_AUTOPSY
     points: 50
     needItem: true
   - name: STR_SECTOID_AUTOPSY
@@ -1375,15 +1375,15 @@ research:
   - name: STR_SECTOPOD_AUTOPSY
     points: 50
     needItem: true
-  - name: STR_ROACHER_AUTOPSY
+  - name: STR_FORMIC_AUTOPSY
     points: 50
     needItem: true
-  - name: STR_ROACHER_CORPSE
+  - name: STR_FORMIC_CORPSE
     cost: 4
     points: 50
     unlocks:
       - STR_XENO_PHYSIOLOGY
-    lookup: STR_ROACHER_AUTOPSY
+    lookup: STR_FORMIC_AUTOPSY
     needItem: true
   - name: STR_CARCHARODON_AUTOPSY
     points: 50
@@ -1473,10 +1473,10 @@ research:
       - STR_THE_ALIEN_MIND
     needItem: true
     destroyItem: true
-  - name: STR_OVERLORD
+  - name: STR_SOVEREIGN
     cost: 10
     points: 50
-    lookup: STR_OVERLORD
+    lookup: STR_SOVEREIGN
     needItem: true
     destroyItem: true
     unlocks:
@@ -1532,10 +1532,10 @@ research:
       - STR_THREAT_UNLOCK
       - STR_PSIONIC_UNLOCK
       - STR_THE_ALIEN_MIND
-  - name: STR_ROACHER
+  - name: STR_FORMIC
     cost: 10
     points: 50
-    lookup: STR_ROACHER
+    lookup: STR_FORMIC
     needItem: true
     destroyItem: true
   - name: STR_CARCHARODON_SOLDIER
@@ -1710,10 +1710,10 @@ research:
       - STR_MUTON_CHIEFTAIN
 #      - STR_MUTON_GUARD
       - STR_HYBRID
-      - STR_OVERLORD
+      - STR_SOVEREIGN
       - STR_ENERGYALIEN
-      - STR_ROACHER
-      - STR_ROACHER_CORPSE
+      - STR_FORMIC
+      - STR_FORMIC_CORPSE
       - STR_ANCIENT_ABOMINATION
       - STR_CARCHARODON
       - STR_CARCHARODON_CORPSE
@@ -1760,10 +1760,10 @@ research:
       - STR_MUTON_CHIEFTAIN
 #      - STR_MUTON_GUARD
       - STR_HYBRID
-      - STR_OVERLORD
+      - STR_SOVEREIGN
       - STR_ENERGYALIEN
-      - STR_ROACHER
-      - STR_ROACHER_CORPSE
+      - STR_FORMIC
+      - STR_FORMIC_CORPSE
   - name: STR_ARMORED_SECTOID_MEDIC
     cost: 14
     points: 50
@@ -1801,10 +1801,10 @@ research:
       - STR_MUTON_CHIEFTAIN
 #      - STR_MUTON_GUARD
       - STR_HYBRID
-      - STR_OVERLORD
+      - STR_SOVEREIGN
       - STR_ENERGYALIEN
-      - STR_ROACHER
-      - STR_ROACHER_CORPSE
+      - STR_FORMIC
+      - STR_FORMIC_CORPSE
       - STR_ANCIENT_ABOMINATION
       - STR_CARCHARODON
       - STR_CARCHARODON_CORPSE

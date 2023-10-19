@@ -302,9 +302,9 @@ extraSprites:
       802: Resources/UnitSprites/AlienFaction/BIGOBS/MutonCommanderInventoryCorpse.gif
       803: Resources/UnitSprites/AlienFaction/BIGOBS/Armor_Sectoid_Inventory_Corpse.gif
       804: Resources/UnitSprites/AlienFaction/BIGOBS/Hybrid_Inventory_Corpse.gif
-      805: Resources/UnitSprites/AlienFaction/BIGOBS/OverlordInventoryCorpse.gif
+      805: Resources/UnitSprites/AlienFaction/BIGOBS/SOVEREIGNInventoryCorpse.gif
       806: Resources/UnitSprites/AlienFaction/BIGOBS/EnergyAlienInventoryCorpse.gif
-      807: Resources/UnitSprites/AlienFaction/BIGOBS/RoacherInventoryCorpse.png
+      807: Resources/UnitSprites/AlienFaction/BIGOBS/FormicInventoryCorpse.png
       808: Resources/UnitSprites/AlienFaction/BIGOBS/ArmoredMutonInventoryCorpse.gif
       809: Resources/UnitSprites/AlienFaction/BIGOBS/MutonBerzerkerInventoryCorpse.gif
       810: Resources/UnitSprites/AlienFaction/BIGOBS/ArmoredMutonCommanderInventoryCorpse.gif
@@ -654,9 +654,9 @@ extraSprites:
       802: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Commander_Corpse.gif
       803: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Sectoid_Corpse.gif
       804: Resources/UnitSprites/AlienFaction/FLOOROB/Hybrid_Corpse.gif
-      805: Resources/UnitSprites/AlienFaction/FLOOROB/Overlord_Corpse.gif
+      805: Resources/UnitSprites/AlienFaction/FLOOROB/SOVEREIGN_Corpse.gif
       806: Resources/UnitSprites/AlienFaction/FLOOROB/EnergyAlien_Corpse.gif
-      807: Resources/UnitSprites/AlienFaction/FLOOROB/Roacher_Corpse.png
+      807: Resources/UnitSprites/AlienFaction/FLOOROB/Formic_Corpse.png
       808: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Muton_Corpse.gif
       809: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Berzerker_Corpse.gif
       810: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Muton_Commander_Corpse.gif
@@ -953,7 +953,7 @@ extraSprites:
       144: Resources/Ui/Basebits/LargePsiPC3.gif
       145: Resources/Ui/Basebits/LargePsiPC4.gif
       150: Resources/Ui/Basebits/HURRICANE.gif
-      151: Resources/Ui/Basebits/ARCHANGEL.gif
+      151: Resources/Ui/Basebits/Overlord.gif
       152: Resources/Ui/Basebits/SR71.gif
       158: Resources/Ui/Basebits/BellValor_base3.png
       159: Resources/Ui/Basebits/BellValor_base1.png
@@ -1016,8 +1016,8 @@ extraSprites:
       41: Resources/Ui/CraftIcons/Pilum.gif
       117: Resources/Ui/CraftIcons/HURRICANEMin.gif
       128: Resources/Ui/CraftIcons/HURRICANEDogfight.gif
-      118: Resources/Ui/CraftIcons/ARCHANGELMin.gif
-      129: Resources/Ui/CraftIcons/ARCHANGELdogfight.gif
+      118: Resources/Ui/CraftIcons/OverlordMin.gif
+      129: Resources/Ui/CraftIcons/Overlorddogfight.gif
       119: Resources/Ui/CraftIcons/SR71Min.gif
       130: Resources/Ui/CraftIcons/SR71Dogfight.gif
       824: Resources/Ui/CraftIcons/Firefly_minimised.png
@@ -1198,19 +1198,19 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/HURRICANE.gif
-  - type: ARCHANGELUFO
+  - type: OVERLORDUFO
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ufopedia/ARCHANGEL.gif
+      0: Resources/Ufopedia/Overlord.gif
   - type: UP006.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CraftWeaponStingray.gif
-  - type: BELL_VALOR_BIG
+  - type: DRAGONFLY_BIG
     singleImage: true
     width: 320
     height: 200
@@ -1324,18 +1324,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/HybridBody.gif
-  - type: UFOPAEDIA_IMG_OVERLORD
+  - type: UFOPAEDIA_IMG_SOVEREIGN
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ufopedia/Overlord.gif
-  - type: UFOPAEDIA_IMG_OVERLORD_CORPSE
+      0: Resources/Ufopedia/Sovereign.gif
+  - type: UFOPAEDIA_IMG_SOVEREIGN_CORPSE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ufopedia/OverlordBody.gif
+      0: Resources/Ufopedia/SOVEREIGNBody.gif
   - type: UFOPAEDIA_IMG_ENERGYALIEN
     singleImage: true
     width: 320
@@ -1348,18 +1348,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/EnergyAlienBody.gif
-  - type: UFOPAEDIA_IMG_ROACHER
+  - type: UFOPAEDIA_IMG_FORMIC
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ufopedia/Roacher.gif
-  - type: UFOPAEDIA_IMG_ROACHER_CORPSE
+      0: Resources/Ufopedia/Formic.gif
+  - type: UFOPAEDIA_IMG_FORMIC_CORPSE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ufopedia/RoacherBody.png
+      0: Resources/Ufopedia/FormicBody.png
   - type: UFOPAEDIA_IMG_CARCHARODON
     singleImage: true
     width: 320
@@ -2092,13 +2092,13 @@ extraSprites:
     height: 400
     files:
       0: Resources/UnitSprites/AlienFaction/Hybrid.gif
-  - type: OVERLORD.PCK
+  - type: SOVEREIGN.PCK
     subX: 32
     subY: 40
     width: 256
     height: 1360
     files:
-      0: Resources/UnitSprites/AlienFaction/Overlord.gif
+      0: Resources/UnitSprites/AlienFaction/Sovereign.gif
   - type: ENERGYALIEN.PCK
     subX: 32
     subY: 40
@@ -2106,13 +2106,13 @@ extraSprites:
     height: 80
     files:
       0: Resources/UnitSprites/AlienFaction/EnergyAlien.gif
-  - type: ROACHER.PCK
+  - type: FORMIC.PCK
     subX: 32
     subY: 40
     width: 512
     height: 680
     files:
-      0: Resources/UnitSprites/AlienFaction/Roacher.png
+      0: Resources/UnitSprites/AlienFaction/Formic.png
   - type: ARMOREDMUTON.PCK
     subX: 32
     subY: 40
@@ -2241,14 +2241,14 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UnitSprites/AlienFaction/IventoryScreens/Hybrid.gif
-  - type: inventory_OVERLORD
+  - type: inventory_SOVEREIGN
     singleImage: true
     files:
-      0: Resources/UnitSprites/AlienFaction/IventoryScreens/overlord.gif
-  - type: inventory_ROACHER
+      0: Resources/UnitSprites/AlienFaction/IventoryScreens/Sovereign.gif
+  - type: inventory_FORMIC
     singleImage: true
     files:
-      0: Resources/UnitSprites/AlienFaction/IventoryScreens/roacher.png
+      0: Resources/UnitSprites/AlienFaction/IventoryScreens/Formic.png
   - type: inventory_ARMORED_MUTON
     singleImage: true
     files:

@@ -38,7 +38,7 @@
       y: 5
 
   crafts:
-    - type: STR_BELL_VALOR
+    - type: STR_DRAGONFLY
       id: 1
       fuel: 1500
       damage: 0

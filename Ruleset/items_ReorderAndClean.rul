@@ -5892,7 +5892,7 @@ items:
     invHeight: 3
     meleeAnimation: 76
     recover: false
-  - type: STR_ROACHER_CORPSE
+  - type: STR_FORMIC_CORPSE
     size: 0.4
     costSell: 20000
     weight: 20
@@ -6043,17 +6043,17 @@ items:
     recover: true
     liveAlien: true
     costSell: 60000
-  - type: STR_ROACHER
+  - type: STR_FORMIC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
-  - type: STR_ROACHER_BETA
+  - type: STR_FORMIC_BETA
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 50000
-  - type: STR_ROACHER_ALPHA
+  - type: STR_FORMIC_ALPHA
     size: 0.0
     recover: true
     liveAlien: true
@@ -6128,7 +6128,7 @@ items:
     recover: true
     liveAlien: true
     costSell: 60000
-  - type: STR_OVERLORD
+  - type: STR_SOVEREIGN
     size: 0.0
     recover: true
     liveAlien: true
@@ -6143,7 +6143,7 @@ items:
     recover: true
     liveAlien: true
     costSell: 40000
-  - type: STR_OVERLORD_CORPSE
+  - type: STR_SOVEREIGN_CORPSE
     size: 0.4
     costSell: 20000
     weight: 20

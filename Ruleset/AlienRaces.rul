@@ -1,13 +1,13 @@
 alienRaces:
   - delete: STR_MIXED
-  - id: STR_ROACHER
+  - id: STR_FORMIC
     members:
-      - STR_ROACHER_ALPHA
-      - STR_ROACHER_ALPHA
-      - STR_ROACHER_BETA
-      - STR_ROACHER
-      - STR_ROACHER_BETA
-      - STR_ROACHER
+      - STR_FORMIC_ALPHA
+      - STR_FORMIC_ALPHA
+      - STR_FORMIC_BETA
+      - STR_FORMIC
+      - STR_FORMIC_BETA
+      - STR_FORMIC
       - STR_SILACOID_TERRORIST
       - STR_SILACOID_TERRORIST
   - id: STR_CARCHARODON
@@ -60,14 +60,14 @@ alienRaces:
       - STR_MUTON_COMMANDO
       - STR_SECTOPOD_TERRORIST
       - STR_SECTOPOD_TERRORIST
-  - id: STR_OVERLORD
+  - id: STR_SOVEREIGN
     members:
-      - STR_OVERLORD
-      - STR_OVERLORD
-      - STR_OVERLORD
-      - STR_OVERLORD
-      - STR_OVERLORD
-      - STR_OVERLORD
+      - STR_SOVEREIGN
+      - STR_SOVEREIGN
+      - STR_SOVEREIGN
+      - STR_SOVEREIGN
+      - STR_SOVEREIGN
+      - STR_SOVEREIGN
       - STR_ENERGYALIEN
       - STR_ENERGYALIEN
   - id: STR_CYDONIA_LANDING_GUARD
@@ -87,6 +87,6 @@ alienRaces:
       - STR_ARMORED_MUTON_COMMANDER
       - STR_CHRYSSALID_TERRORIST
       - STR_MUTON_COMMANDO
-      - STR_OVERLORD
+      - STR_SOVEREIGN
       - STR_SECTOPOD_TERRORIST
       - STR_CYBERDISC_TERRORIST #replace with something else eventually

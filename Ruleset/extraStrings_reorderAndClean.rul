@@ -838,11 +838,11 @@
       STR_XCF1: XCF-1 KNIGHT
       STR_XCF2: XCF-2 ROOK
       STR_XCF3: XCF-3 EMPRESS
-      STR_BELL_VALOR: DRAGONFLY
+      STR_DRAGONFLY: DRAGONFLY
       STR_FIREFLY: FIREFLY
       STR_SKYWARDEN: GOLIATH
       STR_HURRICANE: HERCULES
-      STR_ARCHANGEL: OVERLORD
+      STR_OVERLORD: OVERLORD
       STR_CANNON: Sling Autocannon
       STR_CANNON_UC: SLING Autocannon
       STR_STINGRAY_MISSILES: Javelin Missile
@@ -998,7 +998,7 @@
       STR_BREAKDOWN_SECTOPOD: Process Sectopod Debris
       STR_BREAKDOWN_ETHEREAL: Process Ethereal Corpse
       STR_BREAKDOWN_CELATID: Process Celatid Corpse
-      STR_BREAKDOWN_OVERLORD: Process Sovereign Shards
+      STR_BREAKDOWN_SOVEREIGN: Process Sovereign Shards
       STR_MIND_PROBE_BREAKDOWN: Breakdown Mind Probe
       STR_ALIEN_ENTERTAINMENT_BREAKDOWN: Dissesamble Alien Entertainment
       STR_UFO_NAVIGATION_BREAKDOWN: Dissesamble UFO Computer
@@ -1057,7 +1057,7 @@
       STR_SNAKEMAN_ENGINEER: Serpentoid Engineer
       STR_SNAKEMAN_LEADER: Serpentoid Leader
       STR_HYBRID: Hybrid
-      STR_OVERLORD: Sovereign
+      STR_SOVEREIGN: Sovereign
       STR_ENERGYALIEN: Solarite
       STR_ARMORED_SECTOID_COMMANDER: Armored Sectoid Commander
       STR_ARMORED_SECTOID_LEADER: Armored Sectoid Leader
@@ -1065,9 +1065,9 @@
       STR_ARMORED_SECTOID_MEDIC: Armored Sectoid Medic
       STR_ARMORED_SECTOID_NAVIGATOR: Armored Sectoid Navigator
       STR_ARMORED_SECTOID_SOLDIER: Armored Sectoid Soldier
-      STR_ROACHER: Formic
-      STR_ROACHER_BETA: Formic Beta
-      STR_ROACHER_ALPHA: Formic Alpha
+      STR_FORMIC: Formic
+      STR_FORMIC_BETA: Formic Beta
+      STR_FORMIC_ALPHA: Formic Alpha
       STR_CARCHARODON: Carcharodon
       STR_CARCHARODON_COMMANDER: Carcharodon Commander
       STR_CARCHARODON_NAVIGATOR: Carcharodon Navigator
@@ -1087,12 +1087,12 @@
       STR_MUTON_COMMANDO_CORPSE: Muton Enforcer Corpse
       STR_MUTON_GUARD_CORPSE: Muton Elite Corpse
       STR_MUTON_CHIEFTAIN_CORPSE: Muton Chieftain Corpse
-      STR_OVERLORD_CORPSE: Sovereign Shards
+      STR_SOVEREIGN_CORPSE: Sovereign Shards
       STR_ENERGYALIEN_CORPSE: Solarite Residue
-      STR_OVERLORD_AUTOPSY: Sovereign Remnants
+      STR_SOVEREIGN_AUTOPSY: Sovereign Remnants
       STR_ENERGYALIEN_AUTOPSY: Solarite autopsy
-      STR_ROACHER_CORPSE: Formic Corpse
-      STR_ROACHER_AUTOPSY: Formic autopsy
+      STR_FORMIC_CORPSE: Formic Corpse
+      STR_FORMIC_AUTOPSY: Formic autopsy
       STR_ARMORED_SECTOID_CORPSE: Armored Sectoid Corpse
       STR_ARMORED_SECTOID_AUTOPSY: Armored Sectoid autopsy
       STR_ARMORED_MUTON_CORPSE: Muton Warrior Corpse
@@ -1699,7 +1699,7 @@
       STR_XCF3_UFOPEDIA: A third generation XCom interceptor, the XCF-3 'Empress' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
       STR_SKYWARDEN_UFOPEDIA: The GOLIATH is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
       STR_HURRICANE_UFOPEDIA: The HERCULES transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hercules' roof.
-      STR_ARCHANGEL_UFOPEDIA: The pinnacle of XCom craft, the OVERLORD has a fully operational, completed Codex installed. It's armor and speed surpass even the most powerful alien warships.
+      STR_OVERLORD_UFOPEDIA: The pinnacle of XCom craft, the OVERLORD has a fully operational, completed Codex installed. It's armor and speed surpass even the most powerful alien warships.
 #-----UFOPaedia XCom Technology
       STR_GOODS_UFOPEDIA: XCom's engineers are some of the finest in the world, however a few are also shrewd businessmen. By establishing a front company, XCom can bid on valuable defense contact work. This allows XCom to build goods exclusively for sell as a way to supplement its income.
       STR_GOODS_2_UFOPEDIA: All Codex technology contains detailed instructions on replication. It is assumed that this a redundant system designed to let nearly any civilization utilize and improve the Codex until it reaches its completed stage. Even the smallest Codex fragment contains details for a device called an automated printer. This device functions like a 3D printer though far more advanced and versatile. A smaller version could be manufactured and sold without the need for more advanced components.
@@ -1734,10 +1734,10 @@
       STR_MUTON_GUARD_UFOPEDIA: The Muton Elite Guard stands as an elite echelon among the Alien forces, comprised solely of the most battle-hardened Muton enforcers. These battle-scarred veterans have endured countless conflicts across the cosmos, earning their place as the pinnacle of the Alien military might. Distinguished by their formidable armor, these warriors possess an exceptional resilience against psionic manipulation, rendering them nearly impervious to anything except the mind-bending influence of the Alien Codex.Stationed at the heart of the Alien command center, the Codex Mastermind's inner sanctum, these elite guardsmen serve as its unwavering protectors. Their presence alone serves as a testament to the significance of the Alien Codex Mastermind, a strategic entity of paramount importance within the Alien hierarchy. To breach their ranks is to confront the very epitome of the Alien's martial prowess and unwavering dedication to their sinister cause.
       STR_OVERLORD_UFOPEDIA: We had assumed that Elerium was mined on a distant world, however we now know this creature called the Sovereign is the source of Elerium. The Sovereigns are ancient and have lived longer than our solar system has existed. The other aliens seem to revere and worship the Sovereigns though Sovereigns do not directly command or control the other aliens. Instead the Sovereigns gift the Alien hierarchy with Elerium. None of the other Aliens truly know the Sovereign's goals and none of the Sovereigns has ever spoken directly to another alien save for the Ethereals.
       STR_ENERGYALIEN_UFOPEDIA: The Solarite is an Sovereign without its crystal Elerium shell. It is a collection of protons that attract other atomic particles and accelerates them to make a plasma field around it. This ability to gather particles is what it uses to attack. Once it has collected enough particles to form a strong field, it travels to a nearby star and uses the heavy gravity to form its Elerium shell. During the final phase of its transformation, an antimatter reaction propels it from the star into space where it can be collected by the Aliens along with excess Elerium.
-      STR_OVERLORD_AUTOPSY_UFOPEDIA: This alien is made of now inert Elerium 115 shards. Its mere existence is a mockery of everything we thought we knew about physics. How its 'biology' works in unknown though it seems to somehow control the matter states of the Elerium crystal to allow for movement. The Crystal is immune to heat and we theorize that it could live in a star if it wished. As such incendiary and plasma weapons are completely useless against it and lasers reflect off of the crystalline structure. However the crystal lattice can be easily shattered by ballistic solid mass rounds.
+      STR_SOVEREIGN_AUTOPSY_UFOPEDIA: This alien is made of now inert Elerium 115 shards. Its mere existence is a mockery of everything we thought we knew about physics. How its 'biology' works in unknown though it seems to somehow control the matter states of the Elerium crystal to allow for movement. The Crystal is immune to heat and we theorize that it could live in a star if it wished. As such incendiary and plasma weapons are completely useless against it and lasers reflect off of the crystalline structure. However the crystal lattice can be easily shattered by ballistic solid mass rounds.
       STR_ENERGYALIEN_AUTOPSY_UFOPEDIA: This residue is all that remains of the strange energy alien encountered. Analysis shows most of the residue consists of space dust and microscopic bits of Elerium 115 crystal. Combat footage shows most solid mass projectiles and objects pass harmlessly through it however plasma and laser based weapons seem to disrupt the energy field around it causing the field to dissipate. Explosives and incendiary weapons seem largely useless against it as well.
-      STR_ROACHER_UFOPEDIA: These beings are an alien insect species that bear a striking resemblance to Earth's ants, earning them the classification "Formics." They have achieved their colossal size due to thriving in environments characterized by low gravity and elevated oxygen levels. Despite their resilience, these creatures exhibit limited cognitive abilities, predominantly relying on instinctual behaviors rather than complex strategic thinking. The aliens maintain direct control over these insectoid beings, deploying them when required their formidable physical attributes. Outside of their designated missions, they occupy their time with activities such as foraging for sustenance and mating. Notably, their rapid rate of reproduction renders them a valuable resource for the aliens, who employ them as expendable shock troops in terror operations and suicidal assaults.
-      STR_ROACHER_AUTOPSY_UFOPEDIA: This specimen, referred as "Formics" bears a semblance to the earthly Ant, albeit probably having undergone an extraordinary process of accelerated growth and genetic manipulation. In contrast to numerous alien autopsies, the Formics display minimal cybernetic augmentation with the exception of a cybernetic device intricately linked to its neural network. This exercises direct control over the Formics, suppressing its innate instincts and enabling remote guidance. It's crucial to note that Earth's environmental conditions, including gravity and oxygen levels, would render the Formics unable to survive for extended periods of time. The Formics boast a robust and resilient exoskeleton, particularly on their dorsal side with remarkable resistance to corrosive substances, their primitive nervous system exhibits resilience to stunning effects rendering them exceptionally resistant to incapacitation through conventional means. Although it remains susceptible to combustion under certain conditions. 
+      STR_FORMIC_UFOPEDIA: These beings are an alien insect species that bear a striking resemblance to Earth's ants, earning them the classification "Formics." They have achieved their colossal size due to thriving in environments characterized by low gravity and elevated oxygen levels. Despite their resilience, these creatures exhibit limited cognitive abilities, predominantly relying on instinctual behaviors rather than complex strategic thinking. The aliens maintain direct control over these insectoid beings, deploying them when required their formidable physical attributes. Outside of their designated missions, they occupy their time with activities such as foraging for sustenance and mating. Notably, their rapid rate of reproduction renders them a valuable resource for the aliens, who employ them as expendable shock troops in terror operations and suicidal assaults.
+      STR_FORMIC_AUTOPSY_UFOPEDIA: This specimen, referred as "Formics" bears a semblance to the earthly Ant, albeit probably having undergone an extraordinary process of accelerated growth and genetic manipulation. In contrast to numerous alien autopsies, the Formics display minimal cybernetic augmentation with the exception of a cybernetic device intricately linked to its neural network. This exercises direct control over the Formics, suppressing its innate instincts and enabling remote guidance. It's crucial to note that Earth's environmental conditions, including gravity and oxygen levels, would render the Formics unable to survive for extended periods of time. The Formics boast a robust and resilient exoskeleton, particularly on their dorsal side with remarkable resistance to corrosive substances, their primitive nervous system exhibits resilience to stunning effects rendering them exceptionally resistant to incapacitation through conventional means. Although it remains susceptible to combustion under certain conditions. 
       STR_ARMORED_MUTON_UFOPEDIA: These formidable adversaries, known as Muton Warriors, bear a striking physical resemblance to their standard Muton counterparts. What sets them apart is the remarkable upgrade in the form of heavy powered armor. Clad in this formidable exosuit, they transform into walking tanks on the battlefield, significantly enhancing their combat endurance and resilience.However, despite their imposing physical presence and enhanced armor, these Warriors are not without their vulnerabilities. Their mental faculties remain as susceptible as those of regular Mutons, making them ripe targets for psionic attacks. This discrepancy between their physical might and mental fragility is a double-edged sword, presenting both an advantage and a critical weakness for these imposing soldiers. While their armored forms make them formidable adversaries in direct combat, their limited resistance to psionics leaves them susceptible to mind-controlling and debilitating psychic abilities employed by XCOM operatives. Consequently, a well-placed psionic strike can be just as effective at neutralizing a Muton Warrior as a barrage of conventional weaponry.
       STR_MUTON_BERSERKER_UFOPEDIA: A rare psychological anomaly afflicts approximately one in a thousand Mutons, rendering them immune to psionic control while subjecting them to unending fits of uncontrollable rage. Instead of discarding these unique individuals, the Aliens have devised a sinister purpose for them in terror operations. These tormented Mutons are carefully sedated and preserved, awaiting their moment of awakening.Upon revival, they are administered a potent chemical cocktail, amplifying their already boundless rage to unprecedented levels. In this frenzied state, these creatures become known as "Berserkers." Remarkably, Berserkers remain impervious to the sensations of pain and fear, consumed solely by an unrelenting wellspring of hatred and aggression. This makes them exceptionally formidable opponents on the battlefield, charging relentlessly at any perceived threat with an insatiable fury that knows no bounds. Facing a Berserker in combat is a harrowing ordeal, as they become living embodiments of relentless violence and destruction, sparing neither XCOM operatives nor their own Alien counterparts in their blind pursuit of annihilation.
       STR_ANCIENT_ABOMINATION_UFOPEDIA: This thing is not an individual life form, but an extension of something far larger. The rest of its body exists in an external dimension. This powerful, almost god-like creature has existed before our own universe. This ancient abomination is not quiet alive. It is clear that the alien collective does not fully understand what this ancient thing is, but have somehow allied with it.
@@ -1767,7 +1767,7 @@
       STR_ALLOY_AERODYNAMICS: Alloy Aerodynamic Design
       STR_ALLOY_AERODYNAMICS_UFOPAEDIA: This Codex data contains detailed information on aerodynamic design principles and how they could be applied to Alien Alloys. This information has potential applications in the design of new fighter craft that integrate Alien Alloys into their construction. With the lightweight and high toughness of Alien Alloys, interceptors could better match Alien UFOs in aerial combat.
       STR_NEXT_GEN_TRANSPORT: Scaled Alloy Construction
-      STR_NEXT_GEN_TRANSPORT_UFOPAEDIA: This Codex data contains information on advanced Alien Alloy construction techniques. Such techniques could be applied to designing larger transport craft made from light weight Alien Alloys. A transport utilizing Alien Alloys could reach higher speeds without sacrificing cargo space like the standard FIREFLY.
+      STR_NEXT_GEN_TRANSPORT_UFOPAEDIA: This Codex data contains information on advanced Alien Alloy construction techniques. Such techniques could be applied to designing larger transport craft made from light weight Alien Alloys. A transport utilizing Alien Alloys could reach higher speeds without sacrificing cargo space like the standard DRAGONFLY.
       STR_HYBRID_BALLISTICS_WEAPONS: Ballistic Hybrid Weapons
       STR_HYBRID_BALLISTICS_WEAPONS_UFOPAEDIA: Although Alien energy weapons are far too advanced for us to replicate at this time, Codex data regarding their basic component design could prove useful to XCom's ballistic weapons program. The compact and light design of Alien weapons could be adapted to XCom ballistic technology, increasing performance by creating a hybrid of Alien and human technology. While not as advanced as directed energy weapons, these hybrid firearms could easily surpass the performance of any conventional weapon currently used.
 

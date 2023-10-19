@@ -7,7 +7,7 @@ crafts:
   - delete: STR_AVENGER
 #---End Deletions--------------------
 #---Transport Crafts-----------------
-  - type: STR_BELL_VALOR
+  - type: STR_DRAGONFLY
     sprite: 125
     maxSkinIndex: 2            # default 0
     skinSprites: [126,127] # default empty, contains all sprites except for the first (index zero)
@@ -32,13 +32,13 @@ crafts:
     score: 400
     keepCraftAfterFailedMission: false
     battlescapeTerrainData:
-      name: BELL_VALOR
+      name: DRAGONFLY
       mapDataSets:
         - BLANKS
         - BD_PLANE
         - BD_OSPREY_ROTOR
       mapBlocks:
-        - name: BELL_VALOR
+        - name: DRAGONFLY
           width: 20
           length: 20
     craftInventoryTile: [10, 11, 0] #X, Y, Level
@@ -178,9 +178,9 @@ crafts:
       - [8, 4, 1, 4]
       - [8, 3, 1, 2]
       - [12, 3, 1, 6]
-  - type: STR_ARCHANGEL
+  - type: STR_OVERLORD
     requires:
-      - STR_ARCHANGEL
+      - STR_OVERLORD
     sprite: 118
     fuelMax: 100 #25000
     damageMax: 2000
@@ -197,12 +197,12 @@ crafts:
     score: 10000
     spacecraft: true
     battlescapeTerrainData:
-      name: ARCANGEL
+      name: OVERLORD
       mapDataSets:
         - BLANKS
         - XOPSTRANSPORT3
       mapBlocks:
-        - name: XOPSARCANGEL
+        - name: XOPSOVERLORD
           width: 10
           length: 20
 #--- End Transport Crafts---------------

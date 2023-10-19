@@ -184,10 +184,10 @@ manufacture:
       STR_ELERIUM_115: 50
       STR_CODEX_FRAGMENT: 30
     listOrder: 293
-  - name: STR_ARCHANGEL
+  - name: STR_OVERLORD
     category: STR_CRAFT
     requires:
-      - STR_ARCHANGEL
+      - STR_OVERLORD
     space: 20
     time: 25000
     cost: 1500000

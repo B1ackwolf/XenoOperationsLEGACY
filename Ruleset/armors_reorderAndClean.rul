@@ -7666,11 +7666,11 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: OVERLORD_ARMOR
-    spriteSheet: OVERLORD.PCK
-    spriteInv: inventory_OVERLORD
+  - type: SOVEREIGN_ARMOR
+    spriteSheet: SOVEREIGN.PCK
+    spriteInv: inventory_SOVEREIGN
     corpseBattle:
-      - STR_OVERLORD_CORPSE
+      - STR_SOVEREIGN_CORPSE
     frontArmor: 80
     sideArmor: 60
     rearArmor: 50
@@ -7710,11 +7710,11 @@
       - 0.0
       - 0.0
     loftempsSet: [ 5 ]
-  - type: ROACHER_ARMOR
-    spriteSheet: ROACHER.PCK
-    spriteInv: inventory_ROACHER
+  - type: FORMIC_ARMOR
+    spriteSheet: FORMIC.PCK
+    spriteInv: inventory_FORMIC
     corpseBattle:
-      - STR_ROACHER_CORPSE
+      - STR_FORMIC_CORPSE
     frontArmor: 20
     sideArmor: 8
     rearArmor: 35

@@ -298,3 +298,7 @@ cual deberia ser el orden de la ufopedia
 ultima>commendations
 
 >>>recta final de cambios de sprites, ya cada uno esta en sus respectivas carpetas, necesitaria otra pasada para primeramente segmentar en rul cada uno de los tiers por seccion (bigobs,handobs y floorobs), luego empezar a cambiar tier por tier haciendo enfasis en cambiar de una vez el nombre y la ruta dirigida, una vez concretado esos tres pasos, cambiar nombre de carpeta, eliminar carpeta vieja y probar q todo funque correctamente, luego para siguiente parche, empezar a modificar referencias a sus nombres y NUMEROS correctos, pero ya podria facilmente agregar armas nuevas, rechecar y ordenar todo list para saber q puedo empezar a hacer, darle prioridad a cambios en armas y perritos nuevos, luego las armaduras y layers corregidos"
+
+el alien dissasemble de alien enterneintment regale un mind probe?
+-de ser asi, bajarle mucho el precio al probe
+-aumentar las horas necesarias

@@ -157,11 +157,11 @@ ufopaedia:
       width: 311
       height: 47
     image_id: XCF3UFO
-  - id: STR_BELL_VALOR
+  - id: STR_DRAGONFLY
     listOrder: 209
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    image_id: BELL_VALOR_BIG
+    image_id: DRAGONFLY_BIG
     rect_stats:
       x: 5
       y: 40
@@ -225,12 +225,12 @@ ufopaedia:
       width: 190
       height: 50
     image_id: HURRICANEUFO
-  - id: STR_ARCHANGEL
+  - id: STR_OVERLORD
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ARCHANGEL
-    image_id: ARCHANGELUFO
+      - STR_OVERLORD
+    image_id: OVERLORDUFO
     rect_stats:
       x: 170
       y: 120
@@ -241,7 +241,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 105
-    text: STR_ARCHANGEL_UFOPEDIA
+    text: STR_OVERLORD_UFOPEDIA
     listOrder: 501
 #---Craft END-----------------
   - id: STR_CLUSTER_MISSILE_UC
@@ -2337,23 +2337,23 @@ ufopaedia:
     # image_id: UFOPAEDIA_IMG_FLOATER
     text: STR_FLOATER_AUTOPSY_UFOPEDIA
     text_width: 158
-  - id: STR_ROACHER
+  - id: STR_FORMIC
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 507
     requires:
-      - STR_ROACHER
-    image_id: UFOPAEDIA_IMG_ROACHER
-    text: STR_ROACHER_UFOPEDIA
+      - STR_FORMIC
+    image_id: UFOPAEDIA_IMG_FORMIC
+    text: STR_FORMIC_UFOPEDIA
     text_width: 158
-  - id: STR_ROACHER_AUTOPSY
+  - id: STR_FORMIC_AUTOPSY
     type_id: 7
     listOrder: 508
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_ROACHER_CORPSE
-    image_id: UFOPAEDIA_IMG_ROACHER_CORPSE
-    text: STR_ROACHER_AUTOPSY_UFOPEDIA
+      - STR_FORMIC_CORPSE
+    image_id: UFOPAEDIA_IMG_FORMIC_CORPSE
+    text: STR_FORMIC_AUTOPSY_UFOPEDIA
     text_width: 158
   - id: STR_SNAKEMAN
     type_id: 7
@@ -2481,23 +2481,23 @@ ufopaedia:
     image_id: UFOPAEDIA_IMG_MUTON_CHIEFTAIN_CORPSE
     text: STR_MUTON_CHIEFTAIN_AUTOPSY_UFOPEDIA
     text_width: 158
-  - id: STR_OVERLORD
+  - id: STR_SOVEREIGN
     type_id: 7
     listOrder: 523
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_OVERLORD
-    image_id: UFOPAEDIA_IMG_OVERLORD
-    text: STR_OVERLORD_UFOPEDIA
+      - STR_SOVEREIGN
+    image_id: UFOPAEDIA_IMG_SOVEREIGN
+    text: STR_SOVEREIGN_UFOPEDIA
     text_width: 158
-  - id: STR_OVERLORD_AUTOPSY
+  - id: STR_SOVEREIGN_AUTOPSY
     type_id: 7
     listOrder: 524
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_OVERLORD_CORPSE
-    image_id: UFOPAEDIA_IMG_OVERLORD_CORPSE
-    text: STR_OVERLORD_AUTOPSY_UFOPEDIA
+      - STR_SOVEREIGN_CORPSE
+    image_id: UFOPAEDIA_IMG_SOVEREIGN_CORPSE
+    text: STR_SOVEREIGN_AUTOPSY_UFOPEDIA
     text_width: 158
   - id: STR_ETHEREAL
     type_id: 7
@@ -2505,7 +2505,7 @@ ufopaedia:
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_ETHEREAL
-    # image_id: UFOPAEDIA_IMG_OVERLORD
+    # image_id: UFOPAEDIA_IMG_SOVEREIGN
     text: STR_ETHEREAL_UFOPEDIA
     text_width: 158
   - id: STR_ETHEREAL_AUTOPSY
@@ -2514,7 +2514,7 @@ ufopaedia:
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_ETHEREAL_CORPSE
-    # image_id: UFOPAEDIA_IMG_OVERLORD_CORPSE
+    # image_id: UFOPAEDIA_IMG_SOVEREIGN_CORPSE
     text: STR_ETHEREAL_AUTOPSY_UFOPEDIA
     text_width: 158
   - id: STR_MASTERMIND

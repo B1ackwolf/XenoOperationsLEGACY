@@ -85,6 +85,11 @@ Changelog:
 v.097.03 LE changelog:
 
 mas cambios:
+
+>>>>>>>(explicar todos los cambios a futuro con el beta de q ya ordene las carpetas, pues ahora hay q cambiar las referencias y q el primer caso fue con los SOVEREIGNS, q se llamaban overlord, pero la nave era tambien overlord, pero esta a su vez se referencia como archangel, etc)
+>>>>>>>tambien cambiado los formics, q a diferencia del contrario fue mucho mas facil cambiarlos a formics
+>>>>>> se cambiaron todas las referencias al archangel hacia OVERLORD
+
 >agregadas mas descripciones relacionadas al CODEX , ejemplo el de los archivos corruptos.
 >corregida algunos errores en los commendations, mejorado el espaciado, requerira otra pasada mucho mas profunda
 >reordenado posicion de naves en listas y ufopaedia
@@ -121,10 +126,12 @@ Correcciones:
 >resuelto un problema q evitaba q el background 7 saliera correctamente (gracias a alex_D por la solucion)
  °ya q hablamos de eso, oscurecido ligeramente los tonos de los distintos back, para hacerlo mas pleasing to the eye
 >Corregido problema de ufos en el agua splish splash, no more water crash, gracias efren
-
+>corregido una referencia incorrecta al firefly en la ufopedia, debia nombrar al DRAGONFLY
 (((revisar q porongas hice con los muton commanders, muton warlords y demas especies, redefinir correctamente los nombres y demas)))))
 
 ((((((descargar cmp y certificar q mapas y todo lo demas este en lo mas actualizado)
+
+
 
 
 ########arriba####

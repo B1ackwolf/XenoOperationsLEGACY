@@ -655,8 +655,8 @@ units:
     aggression: 1
     energyRecovery: 20
     livingWeapon: true
-  - type: STR_OVERLORD
-    race: STR_OVERLORD
+  - type: STR_SOVEREIGN
+    race: STR_SOVEREIGN
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 60
@@ -670,7 +670,7 @@ units:
       psiStrength: 200
       psiSkill: 0
       melee: 80
-    armor: OVERLORD_ARMOR
+    armor: SOVEREIGN_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 25
@@ -705,8 +705,8 @@ units:
     energyRecovery: 40
     specab: 2
     livingWeapon: true
-  - type: STR_ROACHER
-    race: STR_ROACHER
+  - type: STR_FORMIC
+    race: STR_FORMIC
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 56
@@ -720,15 +720,15 @@ units:
       psiStrength: 25
       psiSkill: 0
       melee: 80
-    armor: ROACHER_ARMOR
+    armor: FORMIC_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 10
     deathSound: 50
     intelligence: 1
     aggression: 3
-  - type: STR_ROACHER_BETA
-    race: STR_ROACHER
+  - type: STR_FORMIC_BETA
+    race: STR_FORMIC
     rank: STR_LIVE_NAVIGATOR
     stats:
       tu: 56
@@ -742,15 +742,15 @@ units:
       psiStrength: 30
       psiSkill: 0
       melee: 80
-    armor: ROACHER_ARMOR
+    armor: FORMIC_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 20
     deathSound: 50
     intelligence: 3
     aggression: 3
-  - type: STR_ROACHER_ALPHA
-    race: STR_ROACHER
+  - type: STR_FORMIC_ALPHA
+    race: STR_FORMIC
     rank: STR_LIVE_LEADER
     stats:
       tu: 56
@@ -764,7 +764,7 @@ units:
       psiStrength: 50
       psiSkill: 0
       melee: 80
-    armor: ROACHER_ARMOR
+    armor: FORMIC_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 30
