@@ -1585,7 +1585,6 @@ terrains:
       - name: XBASE_20
         width: 10
         length: 10
-        # type: 5 # ojito me lo marcaba error
       - name: XBASS_01
         width: 10
         length: 10

@@ -2598,11 +2598,13 @@ manufacture:
       - STR_UFO_POWER_SOURCE
     space: 5
     time: 450
-    cost: 4000
+    cost: 15000
     requiredItems:
       STR_UFO_POWER_SOURCE: 1
     producedItems:
+      STR_ALIEN_ALLOYS: 10
       STR_CODEX_FRAGMENT: 5
+      STR_ELERIUM_115: 10
     listOrder: 1537
   - name: STR_UFO_NAVIGATION_BREAKDOWN
     category: STR_UFO_COMPONENT_BREAKDOWN
@@ -2610,11 +2612,13 @@ manufacture:
       - STR_UFO_NAVIGATION
     space: 2
     time: 200
-    cost: 2000
+    cost: 8000
     requiredItems:
       STR_UFO_NAVIGATION: 1
     producedItems:
-      STR_CODEX_FRAGMENT: 3
+      STR_ALIEN_ALLOYS: 10
+      STR_CODEX_FRAGMENT: 5
+      STR_ELERIUM_115: 2
     listOrder: 1536
   - name: STR_UFO_CONSTRUCTION
     category: STR_UFO_COMPONENT_BREAKDOWN
@@ -2622,11 +2626,13 @@ manufacture:
       - STR_UFO_CONSTRUCTION
     space: 10
     time: 500
-    cost: 4000
+    cost: 6000
     requiredItems:
       STR_UFO_CONSTRUCTION: 1
     producedItems:
+      STR_ALIEN_ALLOYS: 10                        
       STR_CODEX_FRAGMENT: 5
+      STR_ELERIUM_115: 2
     listOrder: 1536
   - name: STR_ALIEN_FOOD_BREAKDOWN
     category: STR_UFO_COMPONENT_BREAKDOWN
@@ -2634,13 +2640,13 @@ manufacture:
       - STR_ALIEN_FOOD
     space: 2
     time: 200
-    cost: 1500
+    cost: 8000
     requiredItems:
       STR_ALIEN_FOOD: 1
     producedItems:
-      STR_ELERIUM_115: 1
-      STR_ALIEN_ALLOYS: 2
-      STR_CODEX_FRAGMENT: 1
+      STR_ALIEN_ALLOYS: 25
+      STR_CODEX_FRAGMENT: 5
+      STR_ELERIUM_115: 10
     listOrder: 1531
   - name: STR_ALIEN_REPRODUCTION_BREAKDOWN
     category: STR_UFO_COMPONENT_BREAKDOWN
@@ -2648,11 +2654,13 @@ manufacture:
       - STR_ALIEN_REPRODUCTION
     space: 3
     time: 200
-    cost: 1600
+    cost: 5000
     requiredItems:
       STR_ALIEN_REPRODUCTION: 1
     producedItems:
-      STR_CODEX_FRAGMENT: 1
+      STR_ALIEN_ALLOYS: 5
+      STR_CODEX_FRAGMENT: 2
+      STR_ELERIUM_115: 1
     listOrder: 1532
   - name: STR_EXAMINATION_ROOM_BREAKDOWN
     category: STR_UFO_COMPONENT_BREAKDOWN
@@ -2660,11 +2668,13 @@ manufacture:
       - STR_EXAMINATION_ROOM
     space: 3
     time: 180
-    cost: 1500
+    cost: 5500
     requiredItems:
       STR_EXAMINATION_ROOM: 1
     producedItems:
-      STR_CODEX_FRAGMENT: 1
+      STR_ALIEN_ALLOYS: 10
+      STR_CODEX_FRAGMENT: 4
+      STR_ELERIUM_115: 2
     listOrder: 1535
   - name: STR_ALIEN_HABITAT_BREAKDOWN
     category: STR_UFO_COMPONENT_BREAKDOWN
@@ -2672,11 +2682,13 @@ manufacture:
       - STR_ALIEN_HABITAT
     space: 5
     time: 200
-    cost: 2000
+    cost: 4000
     requiredItems:
       STR_ALIEN_HABITAT: 1
     producedItems:
-      STR_CODEX_FRAGMENT: 1
+      STR_ALIEN_ALLOYS: 10
+      STR_CODEX_FRAGMENT: 5
+      STR_ELERIUM_115: 1
     listOrder: 1533
   - name: STR_ALIEN_ENTERTAINMENT_BREAKDOWN
     category: STR_UFO_COMPONENT_BREAKDOWN
@@ -2684,12 +2696,14 @@ manufacture:
       - STR_ALIEN_ENTERTAINMENT
     space: 2
     time: 150
-    cost: 1500
+    cost: 5500
     requiredItems:
       STR_ALIEN_ENTERTAINMENT: 1
     producedItems:
-      STR_CODEX_FRAGMENT: 1
-    listOrder: 1530
+      STR_ALIEN_ALLOYS: 6
+      STR_CODEX_FRAGMENT: 3
+      STR_ELERIUM_115: 2
+    listOrder: 1539
 #--- UFO Component Breakdown ----------------------------------END
 #--- Alien Component Breakdown ----------------------------------END
 #--- Crafting Components ----------------------------------
@@ -2699,7 +2713,7 @@ manufacture:
       - STR_ELERIUM_115_SYNTHESIS
     space: 1
     time: 10
-    cost: 1000
+    cost: 3000
     listOrder: 3286
   - name: STR_ALIEN_ALLOYS
     category: STR_UFO_COMPONENT
@@ -2707,7 +2721,7 @@ manufacture:
       - STR_ALLOY_FORGE
     space: 5
     time: 40
-    cost: 3000
+    cost: 2000
   - name: STR_CODEX_FRAGMENT
     category: STR_UFO_COMPONENT
     requires:

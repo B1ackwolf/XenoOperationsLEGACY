@@ -1000,14 +1000,14 @@
       STR_BREAKDOWN_CELATID: Process Celatid Corpse
       STR_BREAKDOWN_OVERLORD: Process Sovereign Shards
       STR_MIND_PROBE_BREAKDOWN: Breakdown Mind Probe
-      STR_ALIEN_ENTERTAINMENT_BREAKDOWN: Alien Entertainment>Fragment
-      STR_UFO_NAVIGATION_BREAKDOWN: UFO Computer>3xFragments
+      STR_ALIEN_ENTERTAINMENT_BREAKDOWN: Dissesamble Alien Entertainment
+      STR_UFO_NAVIGATION_BREAKDOWN: Dissesamble UFO Computer
       STR_ALIEN_FOOD_BREAKDOWN: Breakdown Alien Supplies
-      STR_ALIEN_SURGERY_BREAKDOWN: Unused
-      STR_EXAMINATION_ROOM_BREAKDOWN: UFO Sensor>Fragment
-      STR_UFO_POWER_SOURCE_BREAKDOWN: UFO Power Source>5xFragments
-      STR_ALIEN_REPRODUCTION_BREAKDOWN: Alien Cloner>Fragment
-      STR_ALIEN_HABITAT_BREAKDOWN: Alien Life Support>Fragment
+      # STR_ALIEN_SURGERY_BREAKDOWN: Dissesamble Unused 
+      STR_EXAMINATION_ROOM_BREAKDOWN: Dissesamble UFO Sensor
+      STR_UFO_POWER_SOURCE_BREAKDOWN: Dissesamble UFO Power Source
+      STR_ALIEN_REPRODUCTION_BREAKDOWN: Dissesamble Alien Cloner
+      STR_ALIEN_HABITAT_BREAKDOWN: Dissesamble Alien Life Support
 #      STR_ELERIUM_EXTRACTION: Elerium Shard Fusion
 #-----Components
 # Vanillia Components
@@ -1545,7 +1545,7 @@
       STR_UFO_CONSTRUCTION: UFO Plasma Projector
       STR_ALIEN_FOOD: Alien Supplies
       STR_ALIEN_REPRODUCTION: Alien Cloner
-      STR_ALIEN_SURGERY: Sir not appearing is this mod
+      # STR_ALIEN_SURGERY: Sir not appearing is this mod
       STR_EXAMINATION_ROOM: UFO Sensor
       STR_ALIEN_HABITAT: UFO Life Support
       STR_UFO_NAVIGATION_UFOPEDIA: UFO computer systems seem mostly dedicated to navigation however their systems are still far ahead of Terran computing power. Most circuitry appears superconductive allowing for complex computations at fast speeds. Most UFO systems take up very little of the computer's memory and processing power. Despite the power of these computers, they appear to have little in the way of extra data either as a security precaution or for utilitarian purposes.

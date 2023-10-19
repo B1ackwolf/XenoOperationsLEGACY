@@ -108,6 +108,11 @@ sprites:
 >ajustada posiocion pistola plasma pesada
 >ajustada posicion pistola shock
 
+tweaked:
+>>>ampliado considerablemente la cantidad de materiales producidos por los breakdown projects, recuerden interactuar con esto, ya q cada componente puede ser reducido a componentes mas basicos. el siguiente paso sera mejorar los projectos de manufactura (en bundle, esto tomara un poco de tiempo)
+   °adicionalmente se agregaran mas proyectos para breakdown mas articulos (ejemplo cadaveres mecanicos a cambio de piezas, o armas alienigenas por materiales, etc)
+   °aumentado el costo y tiempo para balancear
+   °reducido el costo de la manufactura y replicacion del AALLOY
 Correcciones:
 >al fin resuelto problema de interrogaciones duplicadas, gracias scamps por encontrar la solucion.
 >re resuelto el problema de las personal armor no siendo posibles de equipar, esta vez si se resolvio, lo juro
@@ -115,7 +120,7 @@ Correcciones:
 >>>corrected an instance where sectopod kill medal wasnt being correctly awarded.
 >resuelto un problema q evitaba q el background 7 saliera correctamente (gracias a alex_D por la solucion)
  °ya q hablamos de eso, oscurecido ligeramente los tonos de los distintos back, para hacerlo mas pleasing to the eye
->Corregido problema de ufos en el agua splish splash, no more water crash
+>Corregido problema de ufos en el agua splish splash, no more water crash, gracias efren
 
 (((revisar q porongas hice con los muton commanders, muton warlords y demas especies, redefinir correctamente los nombres y demas)))))
 

@@ -341,15 +341,15 @@ extraSprites:
       501: Resources/WeaponrySpritesCorregido/7thStun/Bigob/ShockWeaponsTier.gif
   - type: BIGOBS.PCK
     files:
-       2989: Resources/UI/Inventory/Null_Jetpack.png
-       2990: Resources/UI/Inventory/Null_Backpack.png
-       2991: Resources/UI/Inventory/Null_2x3.png
-       2992: Resources/UI/Inventory/Null_Belt.png
-       2993: Resources/UI/Inventory/Null_PocketRS.png
-       2994: Resources/UI/Inventory/Null_PocketLS.png
-       2995: Resources/UI/Inventory/Null_PocketRL.png
-       2996: Resources/UI/Inventory/Null_PocketLL.png
-       2997: Resources/UI/Inventory/Null_Holster.png
+       2989: Resources/Ui/Inventory/Null_Jetpack.png
+       2990: Resources/Ui/Inventory/Null_Backpack.png
+       2991: Resources/Ui/Inventory/Null_2x3.png
+       2992: Resources/Ui/Inventory/Null_Belt.png
+       2993: Resources/Ui/Inventory/Null_PocketRS.png
+       2994: Resources/Ui/Inventory/Null_PocketLS.png
+       2995: Resources/Ui/Inventory/Null_PocketRL.png
+       2996: Resources/Ui/Inventory/Null_PocketLL.png
+       2997: Resources/Ui/Inventory/Null_Holster.png
 #---FLOOR OBJECTS------------------------------------------
   - type: FLOOROB.PCK
     files:
@@ -852,25 +852,25 @@ extraSprites:
       86: Resources/WeaponrySprites/alienArsenal/PlasmaHitBlue.gif
       96: Resources/WeaponrySprites/ShockHit.gif
       56: Resources/WeaponrySprites/Taser/Taser_hit.png
-      20: Resources/UI/RankSprite/Smoke/Army0recruit.png
-      21: Resources/UI/RankSprite/Smoke/Army1private.png
-      22: Resources/UI/RankSprite/Smoke/Army2corporal.png
-      23: Resources/UI/RankSprite/Smoke/Army3sergeant.png
-      24: Resources/UI/RankSprite/Smoke/Army4staffsergeant.png
-      25: Resources/UI/RankSprite/Smoke/Army5mastersergeant.png
-      800: Resources/UI/RankSprite/Smoke/Army10deputy.png
-      801: Resources/UI/RankSprite/Smoke/Army11lieutenant.png
-      802: Resources/UI/RankSprite/Smoke/Army12lieutenant.png
-      803: Resources/UI/RankSprite/Smoke/Army13captain.png
-      804: Resources/UI/RankSprite/Smoke/Army14major.png
-      805: Resources/UI/RankSprite/Smoke/Army15ltcolonel.png
-      900: Resources/UI/RankSprite/Smoke/Pilot1lieutenant.png
-      901: Resources/UI/RankSprite/Smoke/Pilot2Lieutenant.png
-      902: Resources/UI/RankSprite/Smoke/Pilot3captain.png
-      903: Resources/UI/RankSprite/Smoke/Pilot4major.png
-      904: Resources/UI/RankSprite/Smoke/Pilot5colonel.png
-      905: Resources/UI/RankSprite/Smoke/Pilot6brigadier.png
-      910: Resources/UI/RankSprite/Smoke/Doggorank.png
+      20: Resources/Ui/RankSprites/inBattlescape/Army0recruit.png
+      21: Resources/Ui/RankSprites/inBattlescape/Army1private.png
+      22: Resources/Ui/RankSprites/inBattlescape/Army2corporal.png
+      23: Resources/Ui/RankSprites/inBattlescape/Army3sergeant.png
+      24: Resources/Ui/RankSprites/inBattlescape/Army4staffsergeant.png
+      25: Resources/Ui/RankSprites/inBattlescape/Army5mastersergeant.png
+      800: Resources/Ui/RankSprites/inBattlescape/Army10deputy.png
+      801: Resources/Ui/RankSprites/inBattlescape/Army11lieutenant.png
+      802: Resources/Ui/RankSprites/inBattlescape/Army12lieutenant.png
+      803: Resources/Ui/RankSprites/inBattlescape/Army13captain.png
+      804: Resources/Ui/RankSprites/inBattlescape/Army14major.png
+      805: Resources/Ui/RankSprites/inBattlescape/Army15ltcolonel.png
+      900: Resources/Ui/RankSprites/inBattlescape/Pilot1lieutenant.png
+      901: Resources/Ui/RankSprites/inBattlescape/Pilot2Lieutenant.png
+      902: Resources/Ui/RankSprites/inBattlescape/Pilot3captain.png
+      903: Resources/Ui/RankSprites/inBattlescape/Pilot4major.png
+      904: Resources/Ui/RankSprites/inBattlescape/Pilot5colonel.png
+      905: Resources/Ui/RankSprites/inBattlescape/Pilot6brigadier.png
+      910: Resources/Ui/RankSprites/inBattlescape/Doggorank.png
   - type: PCK #Thanks robin for sharing this
     height: 40
     width: 384
@@ -895,224 +895,224 @@ extraSprites:
 #---FACILITIES IMAGES------------------------------------------
   - type: BASEBITS.PCK
     files:
-      55: Resources/UI/Basebits/X35.gif
-      56: Resources/UI/Basebits/XCF2.gif
-      57: Resources/UI/Basebits/XCF3.gif
-      58: Resources/UI/Basebits/SKYWARDEN.gif
-      59: Resources/UI/Basebits/Cannon.gif
-      60: Resources/UI/Basebits/Stingray.gif
-      61: Resources/UI/Basebits/Avalanche.gif
-      62: Resources/UI/Basebits/Laser.gif
-      63: Resources/UI/Basebits/Plasma.gif
-      64: Resources/UI/Basebits/Fusion.gif
-      83: Resources/UI/Basebits/Cluster.gif
-      84: Resources/UI/Basebits/Pilum.gif
-      100: Resources/UI/Basebits/AlienContainment.gif
-      700: Resources/UI/Basebits/Gym.png
-      103: Resources/UI/Basebits/Corridor.gif
-      104: Resources/UI/Basebits/SecurityCheckpoint.gif
-      105: Resources/UI/Basebits/LargeWorkshopP1.gif
-      106: Resources/UI/Basebits/LargeWorkshopP2.gif
-      107: Resources/UI/Basebits/LargeWorkshopP3.gif
-      108: Resources/UI/Basebits/LargeWorkshopP4.gif
-      109: Resources/UI/Basebits/LargeWorkshopPC1.gif
-      110: Resources/UI/Basebits/LargeWorkshopPC2.gif
-      111: Resources/UI/Basebits/LargeWorkshopPC3.gif
-      112: Resources/UI/Basebits/LargeWorkshopPC4.gif
-      113: Resources/UI/Basebits/SecurityCheckpoint.gif
-      114: Resources/UI/Basebits/LargeLabP1.gif
-      115: Resources/UI/Basebits/LargeLabP2.gif
-      116: Resources/UI/Basebits/LargeLabP3.gif
-      117: Resources/UI/Basebits/LargeLabP4.gif
-      118: Resources/UI/Basebits/LargeLabPC1.gif
-      119: Resources/UI/Basebits/LargeLabPC2.gif
-      120: Resources/UI/Basebits/LargeLabPC3.gif
-      121: Resources/UI/Basebits/LargeLabPC4.gif
-      122: Resources/UI/Basebits/LargeHyperP1.gif
-      123: Resources/UI/Basebits/LargeHyperP2.gif
-      124: Resources/UI/Basebits/LargeHyperP3.gif
-      125: Resources/UI/Basebits/LargeHyperP4.gif
-      126: Resources/UI/Basebits/LargeHyperPC1.gif
-      127: Resources/UI/Basebits/LargeHyperPC2.gif
-      128: Resources/UI/Basebits/LargeHyperPC3.gif
-      129: Resources/UI/Basebits/LargeHyperPC4.gif
-      130: Resources/UI/Basebits/LargeRadarP1.gif
-      131: Resources/UI/Basebits/LargeRadarP2.gif
-      132: Resources/UI/Basebits/LargeRadarP3.gif
-      133: Resources/UI/Basebits/LargeRadarP4.gif
-      134: Resources/UI/Basebits/LargeRadarPC1.gif
-      135: Resources/UI/Basebits/LargeRadarPC2.gif
-      136: Resources/UI/Basebits/LargeRadarPC3.gif
-      137: Resources/UI/Basebits/LargeRadarPC4.gif
-      138: Resources/UI/Basebits/LargePsiP1.gif
-      139: Resources/UI/Basebits/LargePsiP2.gif
-      140: Resources/UI/Basebits/LargePsiP3.gif
-      141: Resources/UI/Basebits/LargePsiP4.gif
-      142: Resources/UI/Basebits/LargePsiPC1.gif
-      143: Resources/UI/Basebits/LargePsiPC2.gif
-      144: Resources/UI/Basebits/LargePsiPC3.gif
-      145: Resources/UI/Basebits/LargePsiPC4.gif
-      150: Resources/UI/Basebits/HURRICANE.gif
-      151: Resources/UI/Basebits/ARCHANGEL.gif
-      152: Resources/UI/Basebits/SR71.gif
-      158: Resources/UI/Basebits/BellValor_base3.png
-      159: Resources/UI/Basebits/BellValor_base1.png
-      160: Resources/UI/Basebits/BellValor_base2.png
-      857: Resources/UI/Basebits/Firefly_base.png
-      301: Resources/UI/Basebits/LQ2_1.gif
-      302: Resources/UI/Basebits/LQ2_2.gif
-      303: Resources/UI/Basebits/LQ2_3.gif
-      304: Resources/UI/Basebits/LQ2_4.gif
-      305: Resources/UI/Basebits/LQ2_b_1.gif
-      306: Resources/UI/Basebits/LQ2_b_2.gif
-      307: Resources/UI/Basebits/LQ2_b_3.gif
-      308: Resources/UI/Basebits/LQ2_b_4.gif
-      309: Resources/UI/Basebits/GS2_1.gif
-      310: Resources/UI/Basebits/GS2_2.gif
-      311: Resources/UI/Basebits/GS2_3.gif
-      312: Resources/UI/Basebits/GS2_4.gif
-      313: Resources/UI/Basebits/GS2_b_1.gif
-      314: Resources/UI/Basebits/GS2_b_2.gif
-      315: Resources/UI/Basebits/GS2_b_3.gif
-      316: Resources/UI/Basebits/GS2_b_4.gif
+      55: Resources/Ui/Basebits/X35.gif
+      56: Resources/Ui/Basebits/XCF2.gif
+      57: Resources/Ui/Basebits/XCF3.gif
+      58: Resources/Ui/Basebits/SKYWARDEN.gif
+      59: Resources/Ui/Basebits/Cannon.gif
+      60: Resources/Ui/Basebits/Stingray.gif
+      61: Resources/Ui/Basebits/Avalanche.gif
+      62: Resources/Ui/Basebits/Laser.gif
+      63: Resources/Ui/Basebits/Plasma.gif
+      64: Resources/Ui/Basebits/Fusion.gif
+      83: Resources/Ui/Basebits/Cluster.gif
+      84: Resources/Ui/Basebits/Pilum.gif
+      100: Resources/Ui/Basebits/AlienContainment.gif
+      700: Resources/Ui/Basebits/Gym.png
+      103: Resources/Ui/Basebits/Corridor.gif
+      104: Resources/Ui/Basebits/SecurityCheckpoint.gif
+      105: Resources/Ui/Basebits/LargeWorkshopP1.gif
+      106: Resources/Ui/Basebits/LargeWorkshopP2.gif
+      107: Resources/Ui/Basebits/LargeWorkshopP3.gif
+      108: Resources/Ui/Basebits/LargeWorkshopP4.gif
+      109: Resources/Ui/Basebits/LargeWorkshopPC1.gif
+      110: Resources/Ui/Basebits/LargeWorkshopPC2.gif
+      111: Resources/Ui/Basebits/LargeWorkshopPC3.gif
+      112: Resources/Ui/Basebits/LargeWorkshopPC4.gif
+      113: Resources/Ui/Basebits/SecurityCheckpoint.gif
+      114: Resources/Ui/Basebits/LargeLabP1.gif
+      115: Resources/Ui/Basebits/LargeLabP2.gif
+      116: Resources/Ui/Basebits/LargeLabP3.gif
+      117: Resources/Ui/Basebits/LargeLabP4.gif
+      118: Resources/Ui/Basebits/LargeLabPC1.gif
+      119: Resources/Ui/Basebits/LargeLabPC2.gif
+      120: Resources/Ui/Basebits/LargeLabPC3.gif
+      121: Resources/Ui/Basebits/LargeLabPC4.gif
+      122: Resources/Ui/Basebits/LargeHyperP1.gif
+      123: Resources/Ui/Basebits/LargeHyperP2.gif
+      124: Resources/Ui/Basebits/LargeHyperP3.gif
+      125: Resources/Ui/Basebits/LargeHyperP4.gif
+      126: Resources/Ui/Basebits/LargeHyperPC1.gif
+      127: Resources/Ui/Basebits/LargeHyperPC2.gif
+      128: Resources/Ui/Basebits/LargeHyperPC3.gif
+      129: Resources/Ui/Basebits/LargeHyperPC4.gif
+      130: Resources/Ui/Basebits/LargeRadarP1.gif
+      131: Resources/Ui/Basebits/LargeRadarP2.gif
+      132: Resources/Ui/Basebits/LargeRadarP3.gif
+      133: Resources/Ui/Basebits/LargeRadarP4.gif
+      134: Resources/Ui/Basebits/LargeRadarPC1.gif
+      135: Resources/Ui/Basebits/LargeRadarPC2.gif
+      136: Resources/Ui/Basebits/LargeRadarPC3.gif
+      137: Resources/Ui/Basebits/LargeRadarPC4.gif
+      138: Resources/Ui/Basebits/LargePsiP1.gif
+      139: Resources/Ui/Basebits/LargePsiP2.gif
+      140: Resources/Ui/Basebits/LargePsiP3.gif
+      141: Resources/Ui/Basebits/LargePsiP4.gif
+      142: Resources/Ui/Basebits/LargePsiPC1.gif
+      143: Resources/Ui/Basebits/LargePsiPC2.gif
+      144: Resources/Ui/Basebits/LargePsiPC3.gif
+      145: Resources/Ui/Basebits/LargePsiPC4.gif
+      150: Resources/Ui/Basebits/HURRICANE.gif
+      151: Resources/Ui/Basebits/ARCHANGEL.gif
+      152: Resources/Ui/Basebits/SR71.gif
+      158: Resources/Ui/Basebits/BellValor_base3.png
+      159: Resources/Ui/Basebits/BellValor_base1.png
+      160: Resources/Ui/Basebits/BellValor_base2.png
+      857: Resources/Ui/Basebits/Firefly_base.png
+      301: Resources/Ui/Basebits/LQ2_1.gif
+      302: Resources/Ui/Basebits/LQ2_2.gif
+      303: Resources/Ui/Basebits/LQ2_3.gif
+      304: Resources/Ui/Basebits/LQ2_4.gif
+      305: Resources/Ui/Basebits/LQ2_b_1.gif
+      306: Resources/Ui/Basebits/LQ2_b_2.gif
+      307: Resources/Ui/Basebits/LQ2_b_3.gif
+      308: Resources/Ui/Basebits/LQ2_b_4.gif
+      309: Resources/Ui/Basebits/GS2_1.gif
+      310: Resources/Ui/Basebits/GS2_2.gif
+      311: Resources/Ui/Basebits/GS2_3.gif
+      312: Resources/Ui/Basebits/GS2_4.gif
+      313: Resources/Ui/Basebits/GS2_b_1.gif
+      314: Resources/Ui/Basebits/GS2_b_2.gif
+      315: Resources/Ui/Basebits/GS2_b_3.gif
+      316: Resources/Ui/Basebits/GS2_b_4.gif
 ####reorder####
-      42: Resources/UI/RankSprite/BaseBit/Army0recruit.png
-      43: Resources/UI/RankSprite/BaseBit/Army1private.png
-      44: Resources/UI/RankSprite/BaseBit/Army2corporal.png
-      45: Resources/UI/RankSprite/BaseBit/Army3sergeant.png
-      46: Resources/UI/RankSprite/BaseBit/Army4staffsergeant.png
-      47: Resources/UI/RankSprite/BaseBit/Army5mastersergeant.png
-      800: Resources/UI/RankSprite/BaseBit/Army10deputy.png
-      801: Resources/UI/RankSprite/BaseBit/Army11lieutenant.png
-      802: Resources/UI/RankSprite/BaseBit/Army12lieutenant.png
-      803: Resources/UI/RankSprite/BaseBit/Army13captain.png
-      804: Resources/UI/RankSprite/BaseBit/Army14major.png
-      805: Resources/UI/RankSprite/BaseBit/Army15ltcolonel.png
-      900: Resources/UI/RankSprite/BaseBit/Pilot1lieutenant.png
-      901: Resources/UI/RankSprite/BaseBit/Pilot2Lieutenant.png
-      902: Resources/UI/RankSprite/BaseBit/Pilot3captain.png
-      903: Resources/UI/RankSprite/BaseBit/Pilot4major.png
-      904: Resources/UI/RankSprite/BaseBit/Pilot5colonel.png
-      905: Resources/UI/RankSprite/BaseBit/Pilot6brigadier.png
-      910: Resources/UI/RankSprite/BaseBit/Doggorank.png
+      42: Resources/Ui/RankSprites/inGeoscape/Army0recruit.png
+      43: Resources/Ui/RankSprites/inGeoscape/Army1private.png
+      44: Resources/Ui/RankSprites/inGeoscape/Army2corporal.png
+      45: Resources/Ui/RankSprites/inGeoscape/Army3sergeant.png
+      46: Resources/Ui/RankSprites/inGeoscape/Army4staffsergeant.png
+      47: Resources/Ui/RankSprites/inGeoscape/Army5mastersergeant.png
+      800: Resources/Ui/RankSprites/inGeoscape/Army10deputy.png
+      801: Resources/Ui/RankSprites/inGeoscape/Army11lieutenant.png
+      802: Resources/Ui/RankSprites/inGeoscape/Army12lieutenant.png
+      803: Resources/Ui/RankSprites/inGeoscape/Army13captain.png
+      804: Resources/Ui/RankSprites/inGeoscape/Army14major.png
+      805: Resources/Ui/RankSprites/inGeoscape/Army15ltcolonel.png
+      900: Resources/Ui/RankSprites/inGeoscape/Pilot1lieutenant.png
+      901: Resources/Ui/RankSprites/inGeoscape/Pilot2Lieutenant.png
+      902: Resources/Ui/RankSprites/inGeoscape/Pilot3captain.png
+      903: Resources/Ui/RankSprites/inGeoscape/Pilot4major.png
+      904: Resources/Ui/RankSprites/inGeoscape/Pilot5colonel.png
+      905: Resources/Ui/RankSprites/inGeoscape/Pilot6brigadier.png
+      910: Resources/Ui/RankSprites/inGeoscape/Doggorank.png
 #---CRAFT INTECEPTION IMAGES------------------------------------------
   - type: INTICON.PCK
     files:
-      16: Resources/UI/CraftIcons/Cannon.gif
-      17: Resources/UI/CraftIcons/Stingray.gif
-      18: Resources/UI/CraftIcons/Avalanche.gif
-      19: Resources/UI/CraftIcons/Laser.gif
-      20: Resources/UI/CraftIcons/Plasma.gif
-      21: Resources/UI/CraftIcons/Fusion.gif
-      22: Resources/UI/CraftIcons/X35Min.gif
-      23: Resources/UI/CraftIcons/XCF2Min.gif
-      24: Resources/UI/CraftIcons/XCF3Min.gif
-      25: Resources/UI/CraftIcons/SKYWARDENMin.gif
-      33: Resources/UI/CraftIcons/X35Dogfight.gif
-      34: Resources/UI/CraftIcons/XCF2Dogfight.gif
-      35: Resources/UI/CraftIcons/XCF3Dogfight.gif
-      36: Resources/UI/CraftIcons/SKYWARDENDogfight.gif
-      40: Resources/UI/CraftIcons/Cluster.gif
-      41: Resources/UI/CraftIcons/Pilum.gif
-      117: Resources/UI/CraftIcons/HURRICANEMin.gif
-      128: Resources/UI/CraftIcons/HURRICANEDogfight.gif
-      118: Resources/UI/CraftIcons/ARCHANGELMin.gif
-      129: Resources/UI/CraftIcons/ARCHANGELdogfight.gif
-      119: Resources/UI/CraftIcons/SR71Min.gif
-      130: Resources/UI/CraftIcons/SR71Dogfight.gif
-      824: Resources/UI/CraftIcons/Firefly_minimised.png
-      835: Resources/UI/CraftIcons/Firefly_dogfight.png
-      125: Resources/UI/CraftIcons/BellValor_minimised.png
-      126: Resources/UI/CraftIcons/BellValor_minimised.png
-      127: Resources/UI/CraftIcons/BellValor_minimised.png
-      136: Resources/UI/CraftIcons/BellValor_dogfight.png
-      137: Resources/UI/CraftIcons/BellValor_dogfight.png
-      138: Resources/UI/CraftIcons/BellValor_dogfight.png
+      16: Resources/Ui/CraftIcons/Cannon.gif
+      17: Resources/Ui/CraftIcons/Stingray.gif
+      18: Resources/Ui/CraftIcons/Avalanche.gif
+      19: Resources/Ui/CraftIcons/Laser.gif
+      20: Resources/Ui/CraftIcons/Plasma.gif
+      21: Resources/Ui/CraftIcons/Fusion.gif
+      22: Resources/Ui/CraftIcons/X35Min.gif
+      23: Resources/Ui/CraftIcons/XCF2Min.gif
+      24: Resources/Ui/CraftIcons/XCF3Min.gif
+      25: Resources/Ui/CraftIcons/SKYWARDENMin.gif
+      33: Resources/Ui/CraftIcons/X35Dogfight.gif
+      34: Resources/Ui/CraftIcons/XCF2Dogfight.gif
+      35: Resources/Ui/CraftIcons/XCF3Dogfight.gif
+      36: Resources/Ui/CraftIcons/SKYWARDENDogfight.gif
+      40: Resources/Ui/CraftIcons/Cluster.gif
+      41: Resources/Ui/CraftIcons/Pilum.gif
+      117: Resources/Ui/CraftIcons/HURRICANEMin.gif
+      128: Resources/Ui/CraftIcons/HURRICANEDogfight.gif
+      118: Resources/Ui/CraftIcons/ARCHANGELMin.gif
+      129: Resources/Ui/CraftIcons/ARCHANGELdogfight.gif
+      119: Resources/Ui/CraftIcons/SR71Min.gif
+      130: Resources/Ui/CraftIcons/SR71Dogfight.gif
+      824: Resources/Ui/CraftIcons/Firefly_minimised.png
+      835: Resources/Ui/CraftIcons/Firefly_dogfight.png
+      125: Resources/Ui/CraftIcons/BellValor_minimised.png
+      126: Resources/Ui/CraftIcons/BellValor_minimised.png
+      127: Resources/Ui/CraftIcons/BellValor_minimised.png
+      136: Resources/Ui/CraftIcons/BellValor_dogfight.png
+      137: Resources/Ui/CraftIcons/BellValor_dogfight.png
+      138: Resources/Ui/CraftIcons/BellValor_dogfight.png
 #---NEW UFO IMAGES------------------------------------------
   - type: UFOLABSHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOLabShip.gif
+      0: Resources/Ui/InterWin/UFOLabShip.gif
   - type: UFOSCANNER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOScanner.gif
+      0: Resources/Ui/InterWin/UFOScanner.gif
   - type: UFOSURVEY
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOSurvey.gif
+      0: Resources/Ui/InterWin/UFOSurvey.gif
   - type: UFOSCOUT
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOScout.gif
+      0: Resources/Ui/InterWin/UFOScout.gif
   - type: UFORAIDER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFORaider.gif
+      0: Resources/Ui/InterWin/UFORaider.gif
   - type: UFORESEARCHSHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOResearchShip.gif
+      0: Resources/Ui/InterWin/UFOResearchShip.gif
   - type: UFOABDUCTOR
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOAbductor.gif
+      0: Resources/Ui/InterWin/UFOAbductor.gif
   - type: UFOHARVESTER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOHarvester.gif
+      0: Resources/Ui/InterWin/UFOHarvester.gif
   - type: UFOSTRIKECRUISER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOStrikeCruiser.gif
+      0: Resources/Ui/InterWin/UFOStrikeCruiser.gif
   - type: UFOBATTLESHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOBattleship.gif
+      0: Resources/Ui/InterWin/UFOBattleship.gif
   - type: UFOSUPPLYSHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOSupplyShip.gif
+      0: Resources/Ui/InterWin/UFOSupplyShip.gif
   - type: UFOCONSTRUCTOR
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOConstructor.gif
+      0: Resources/Ui/InterWin/UFOConstructor.gif
   - type: UFODESTROYER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFODestroyer.gif
+      0: Resources/Ui/InterWin/UFODestroyer.gif
   - type: UFOCLONER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/UI/InterWin/UFOCloner.gif
+      0: Resources/Ui/InterWin/UFOCloner.gif
 #---UFOPAEDIA IMAGES------------------------------------------
   - type: BACK08.SCR
     singleImage: true
@@ -2274,45 +2274,45 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UI/Backgrounds/GEOBORD.png
+      0: Resources/Ui/Backgrounds/GEOBORD.png
   - type: BACK01.SCR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UI/Backgrounds/MainBackground.gif
+      0: Resources/Ui/Backgrounds/MainBackground.gif
 ### ojito, esto tendra distintos colores, son las imagenes de fondo
   # - type: BACK02.SCR
   #   singleImage: true
   #   width: 320
   #   height: 200
   #   files:
-  #     0: Resources/UI/Backgrounds/BACK02.png
+  #     0: Resources/Ui/Backgrounds/BACK02.png
   # - type: BACK04.SCR
   #   singleImage: true
   #   width: 320
   #   height: 200
   #   files:
-  #     0: Resources/UI/Backgrounds/MainBackground.gif
+  #     0: Resources/Ui/Backgrounds/MainBackground.gif
   - type: ALTBACK07.SCR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UI/Backgrounds/Back07.png
+      0: Resources/Ui/Backgrounds/Back07.png
   - type: CODEXALERT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UI/Backgrounds/CodexBackground.gif
+      0: Resources/Ui/Backgrounds/CodexBackground.gif
   - type: DayNightIndicator
     width: 72
     height: 24
     subX: 24
     subY: 24
     files:
-      0: Resources/UI/Mun.png
+      0: Resources/Ui/Mun.png
   - type: GlobeMarkers
     width: 90
     height: 3
@@ -2323,35 +2323,35 @@ extraSprites:
   - type: BigBurnIndicator
     singleImage: true
     files:
-      0: Resources/UI/burning.png
+      0: Resources/Ui/burning.png
   - type: BigStunIndicator
     singleImage: true
     files:
-      0: Resources/UI/Zzz.png
+      0: Resources/Ui/Zzz.png
   - type: BigWoundIndicator
     singleImage: true
     files:
-      0: Resources/UI/Bleed.png
+      0: Resources/Ui/Bleed.png
   - type: BigShockIndicator
     singleImage: true
     files:
-      0: Resources/UI/Shock.png
+      0: Resources/Ui/Shock.png
   - type: FloorBurnIndicator
     singleImage: true
     files:
-      0: Resources/UI/burning.png
+      0: Resources/Ui/burning.png
   - type: FloorStunIndicator
     singleImage: true
     files:
-      0: Resources/UI/Zzz.png
+      0: Resources/Ui/Zzz.png
   - type: FloorWoundIndicator
     singleImage: true
     files:
-      0: Resources/UI/Bleed.png
+      0: Resources/Ui/Bleed.png
   - type: FloorShockIndicator
     singleImage: true
     files:
-      0: Resources/UI/Shock.png
+      0: Resources/Ui/Shock.png
 ##### Paperdolls sprite layers #####--------------------------------
 ########-----Dogs breeds# 
   - typeSingle: DOGGO__2__M0_BREED
@@ -3964,491 +3964,491 @@ extraSprites:
   - type: Flag0
     singleImage: true
     files:
-      0: Resources/UI/Flags/Albania.png
+      0: Resources/Ui/Flags/Albania.png
   - type: Flag1
     singleImage: true
     files:
-      0: Resources/UI/Flags/Algeria.png
+      0: Resources/Ui/Flags/Algeria.png
   - type: Flag2
     singleImage: true
     files:
-      0: Resources/UI/Flags/Angola.png
+      0: Resources/Ui/Flags/Angola.png
   - type: Flag3
     singleImage: true
     files:
-      0: Resources/UI/Flags/Argentina.png
+      0: Resources/Ui/Flags/Argentina.png
   - type: Flag4
     singleImage: true
     files:
-      0: Resources/UI/Flags/Armenia.png
+      0: Resources/Ui/Flags/Armenia.png
   - type: Flag5
     singleImage: true
     files:
-      0: Resources/UI/Flags/Australia.png
+      0: Resources/Ui/Flags/Australia.png
   - type: Flag6
     singleImage: true
     files:
-      0: Resources/UI/Flags/Austria.png
+      0: Resources/Ui/Flags/Austria.png
   - type: Flag7
     singleImage: true
     files:
-      0: Resources/UI/Flags/Azerbaijan.png
+      0: Resources/Ui/Flags/Azerbaijan.png
   - type: Flag8
     singleImage: true
     files:
-      0: Resources/UI/Flags/Bahrain.png
+      0: Resources/Ui/Flags/Bahrain.png
   - type: Flag9
     singleImage: true
     files:
-      0: Resources/UI/Flags/Bangladesh.png
+      0: Resources/Ui/Flags/Bangladesh.png
   - type: Flag10
     singleImage: true
     files:
-      0: Resources/UI/Flags/Belarus.png
+      0: Resources/Ui/Flags/Belarus.png
   - type: Flag11
     singleImage: true
     files:
-      0: Resources/UI/Flags/Belgium.png
+      0: Resources/Ui/Flags/Belgium.png
   - type: Flag12
     singleImage: true
     files:
-      0: Resources/UI/Flags/Bolivia.png
+      0: Resources/Ui/Flags/Bolivia.png
   - type: Flag13
     singleImage: true
     files:
-      0: Resources/UI/Flags/Bosnia and Hezergovina.png
+      0: Resources/Ui/Flags/Bosnia and Hezergovina.png
   - type: Flag14
     singleImage: true
     files:
-      0: Resources/UI/Flags/Botswana.png
+      0: Resources/Ui/Flags/Botswana.png
   - type: Flag15
     singleImage: true
     files:
-      0: Resources/UI/Flags/Brazil.png
+      0: Resources/Ui/Flags/Brazil.png
   - type: Flag16
     singleImage: true
     files:
-      0: Resources/UI/Flags/Bulgaria.png
+      0: Resources/Ui/Flags/Bulgaria.png
   - type: Flag17
     singleImage: true
     files:
-      0: Resources/UI/Flags/Burma.png
+      0: Resources/Ui/Flags/Burma.png
   - type: Flag18
     singleImage: true
     files:
-      0: Resources/UI/Flags/Cameroon.png
+      0: Resources/Ui/Flags/Cameroon.png
   - type: Flag19
     singleImage: true
     files:
-      0: Resources/UI/Flags/Canada.png
+      0: Resources/Ui/Flags/Canada.png
   - type: Flag20
     singleImage: true
     files:
-      0: Resources/UI/Flags/Chad.png
+      0: Resources/Ui/Flags/Chad.png
   - type: Flag21
     singleImage: true
     files:
-      0: Resources/UI/Flags/Chile.png
+      0: Resources/Ui/Flags/Chile.png
   - type: Flag22
     singleImage: true
     files:
-      0: Resources/UI/Flags/China.png
+      0: Resources/Ui/Flags/China.png
   - type: Flag23
     singleImage: true
     files:
-      0: Resources/UI/Flags/Colombia.png
+      0: Resources/Ui/Flags/Colombia.png
   - type: Flag24
     singleImage: true
     files:
-      0: Resources/UI/Flags/Congo.png
+      0: Resources/Ui/Flags/Congo.png
   - type: Flag25
     singleImage: true
     files:
-      0: Resources/UI/Flags/Croatia.png
+      0: Resources/Ui/Flags/Croatia.png
   - type: Flag26
     singleImage: true
     files:
-      0: Resources/UI/Flags/Cuba.png
+      0: Resources/Ui/Flags/Cuba.png
   - type: Flag27
     singleImage: true
     files:
-      0: Resources/UI/Flags/Czechia.png
+      0: Resources/Ui/Flags/Czechia.png
   - type: Flag28
     singleImage: true
     files:
-      0: Resources/UI/Flags/Denmark.png
+      0: Resources/Ui/Flags/Denmark.png
   - type: Flag29
     singleImage: true
     files:
-      0: Resources/UI/Flags/Ecuador.png
+      0: Resources/Ui/Flags/Ecuador.png
   - type: Flag30
     singleImage: true
     files:
-      0: Resources/UI/Flags/Egypt.png
+      0: Resources/Ui/Flags/Egypt.png
   - type: Flag31
     singleImage: true
     files:
-      0: Resources/UI/Flags/El Salvador.png
+      0: Resources/Ui/Flags/El Salvador.png
   - type: Flag32
     singleImage: true
     files:
-      0: Resources/UI/Flags/Estonia.png
+      0: Resources/Ui/Flags/Estonia.png
   - type: Flag33
     singleImage: true
     files:
-      0: Resources/UI/Flags/Ethiopia.png
+      0: Resources/Ui/Flags/Ethiopia.png
   - type: Flag34
     singleImage: true
     files:
-      0: Resources/UI/Flags/Faroe Islands.png
+      0: Resources/Ui/Flags/Faroe Islands.png
   - type: Flag35
     singleImage: true
     files:
-      0: Resources/UI/Flags/Finland.png
+      0: Resources/Ui/Flags/Finland.png
   - type: Flag36
     singleImage: true
     files:
-      0: Resources/UI/Flags/France.png
+      0: Resources/Ui/Flags/France.png
   - type: Flag37
     singleImage: true
     files:
-      0: Resources/UI/Flags/Georgia.png
+      0: Resources/Ui/Flags/Georgia.png
   - type: Flag38
     singleImage: true
     files:
-      0: Resources/UI/Flags/Germany.png
+      0: Resources/Ui/Flags/Germany.png
   - type: Flag39
     singleImage: true
     files:
-      0: Resources/UI/Flags/Ghana.png
+      0: Resources/Ui/Flags/Ghana.png
   - type: Flag40
     singleImage: true
     files:
-      0: Resources/UI/Flags/Greece.png
+      0: Resources/Ui/Flags/Greece.png
   - type: Flag41
     singleImage: true
     files:
-      0: Resources/UI/Flags/Guatemala.png
+      0: Resources/Ui/Flags/Guatemala.png
   - type: Flag42
     singleImage: true
     files:
-      0: Resources/UI/Flags/Honduras.png
+      0: Resources/Ui/Flags/Honduras.png
   - type: Flag43
     singleImage: true
     files:
-      0: Resources/UI/Flags/Hungary.png
+      0: Resources/Ui/Flags/Hungary.png
   - type: Flag44
     singleImage: true
     files:
-      0: Resources/UI/Flags/Iceland.png
+      0: Resources/Ui/Flags/Iceland.png
   - type: Flag45
     singleImage: true
     files:
-      0: Resources/UI/Flags/India.png
+      0: Resources/Ui/Flags/India.png
   - type: Flag46
     singleImage: true
     files:
-      0: Resources/UI/Flags/Indonesia.png
+      0: Resources/Ui/Flags/Indonesia.png
   - type: Flag47
     singleImage: true
     files:
-      0: Resources/UI/Flags/Iran.png
+      0: Resources/Ui/Flags/Iran.png
   - type: Flag48
     singleImage: true
     files:
-      0: Resources/UI/Flags/Iraq.png
+      0: Resources/Ui/Flags/Iraq.png
   - type: Flag49
     singleImage: true
     files:
-      0: Resources/UI/Flags/Ireland.png
+      0: Resources/Ui/Flags/Ireland.png
   - type: Flag50
     singleImage: true
     files:
-      0: Resources/UI/Flags/Israel.png
+      0: Resources/Ui/Flags/Israel.png
   - type: Flag51
     singleImage: true
     files:
-      0: Resources/UI/Flags/Italy.png
+      0: Resources/Ui/Flags/Italy.png
   - type: Flag52
     singleImage: true
     files:
-      0: Resources/UI/Flags/Ivory Coast.png
+      0: Resources/Ui/Flags/Ivory Coast.png
   - type: Flag53
     singleImage: true
     files:
-      0: Resources/UI/Flags/Japan.png
+      0: Resources/Ui/Flags/Japan.png
   - type: Flag54
     singleImage: true
     files:
-      0: Resources/UI/Flags/Jordan.png
+      0: Resources/Ui/Flags/Jordan.png
   - type: Flag55
     singleImage: true
     files:
-      0: Resources/UI/Flags/Kazakhstan.png
+      0: Resources/Ui/Flags/Kazakhstan.png
   - type: Flag56
     singleImage: true
     files:
-      0: Resources/UI/Flags/Kenya.png
+      0: Resources/Ui/Flags/Kenya.png
   - type: Flag57
     singleImage: true
     files:
-      0: Resources/UI/Flags/Kuwait.png
+      0: Resources/Ui/Flags/Kuwait.png
   - type: Flag58
     singleImage: true
     files:
-      0: Resources/UI/Flags/Kyrgyzstan.png
+      0: Resources/Ui/Flags/Kyrgyzstan.png
   - type: Flag59
     singleImage: true
     files:
-      0: Resources/UI/Flags/Latvia.png
+      0: Resources/Ui/Flags/Latvia.png
   - type: Flag60
     singleImage: true
     files:
-      0: Resources/UI/Flags/Libya.png
+      0: Resources/Ui/Flags/Libya.png
   - type: Flag61
     singleImage: true
     files:
-      0: Resources/UI/Flags/Lithuania.png
+      0: Resources/Ui/Flags/Lithuania.png
   - type: Flag62
     singleImage: true
     files:
-      0: Resources/UI/Flags/Malaysia.png
+      0: Resources/Ui/Flags/Malaysia.png
   - type: Flag63
     singleImage: true
     files:
-      0: Resources/UI/Flags/Mali.png
+      0: Resources/Ui/Flags/Mali.png
   - type: Flag64
     singleImage: true
     files:
-      0: Resources/UI/Flags/Mexico.png
+      0: Resources/Ui/Flags/Mexico.png
   - type: Flag65
     singleImage: true
     files:
-      0: Resources/UI/Flags/Mongolia.png
+      0: Resources/Ui/Flags/Mongolia.png
   - type: Flag66
     singleImage: true
     files:
-      0: Resources/UI/Flags/Montenegro.png
+      0: Resources/Ui/Flags/Montenegro.png
   - type: Flag67
     singleImage: true
     files:
-      0: Resources/UI/Flags/Morocco.png
+      0: Resources/Ui/Flags/Morocco.png
   - type: Flag68
     singleImage: true
     files:
-      0: Resources/UI/Flags/Mozambique.png
+      0: Resources/Ui/Flags/Mozambique.png
   - type: Flag69
     singleImage: true
     files:
-      0: Resources/UI/Flags/Netherlands.png
+      0: Resources/Ui/Flags/Netherlands.png
   - type: Flag70
     singleImage: true
     files:
-      0: Resources/UI/Flags/New Zealand.png
+      0: Resources/Ui/Flags/New Zealand.png
   - type: Flag71
     singleImage: true
     files:
-      0: Resources/UI/Flags/Nicaragua.png
+      0: Resources/Ui/Flags/Nicaragua.png
   - type: Flag72
     singleImage: true
     files:
-      0: Resources/UI/Flags/Niger.png
+      0: Resources/Ui/Flags/Niger.png
   - type: Flag73
     singleImage: true
     files:
-      0: Resources/UI/Flags/Nigeria.png
+      0: Resources/Ui/Flags/Nigeria.png
   - type: Flag74
     singleImage: true
     files:
-      0: Resources/UI/Flags/North Macedonia.png
+      0: Resources/Ui/Flags/North Macedonia.png
   - type: Flag75
     singleImage: true
     files:
-      0: Resources/UI/Flags/Norway.png
+      0: Resources/Ui/Flags/Norway.png
   - type: Flag76
     singleImage: true
     files:
-      0: Resources/UI/Flags/Pakistan.png
+      0: Resources/Ui/Flags/Pakistan.png
   - type: Flag77
     singleImage: true
     files:
-      0: Resources/UI/Flags/Panama.png
+      0: Resources/Ui/Flags/Panama.png
   - type: Flag78
     singleImage: true
     files:
-      0: Resources/UI/Flags/Paraguay.png
+      0: Resources/Ui/Flags/Paraguay.png
   - type: Flag79
     singleImage: true
     files:
-      0: Resources/UI/Flags/Peru.png
+      0: Resources/Ui/Flags/Peru.png
   - type: Flag80
     singleImage: true
     files:
-      0: Resources/UI/Flags/Philippines.png
+      0: Resources/Ui/Flags/Philippines.png
   - type: Flag81
     singleImage: true
     files:
-      0: Resources/UI/Flags/Poland.png
+      0: Resources/Ui/Flags/Poland.png
   - type: Flag82
     singleImage: true
     files:
-      0: Resources/UI/Flags/Portugal.png
+      0: Resources/Ui/Flags/Portugal.png
   - type: Flag83
     singleImage: true
     files:
-      0: Resources/UI/Flags/Qatar.png
+      0: Resources/Ui/Flags/Qatar.png
   - type: Flag84
     singleImage: true
     files:
-      0: Resources/UI/Flags/Romania.png
+      0: Resources/Ui/Flags/Romania.png
   - type: Flag85
     singleImage: true
     files:
-      0: Resources/UI/Flags/Russia.png
+      0: Resources/Ui/Flags/Russia.png
   - type: Flag86
     singleImage: true
     files:
-      0: Resources/UI/Flags/Saudi Arabia.png
+      0: Resources/Ui/Flags/Saudi Arabia.png
   - type: Flag87
     singleImage: true
     files:
-      0: Resources/UI/Flags/Senegal.png
+      0: Resources/Ui/Flags/Senegal.png
   - type: Flag88
     singleImage: true
     files:
-      0: Resources/UI/Flags/Serbia.png
+      0: Resources/Ui/Flags/Serbia.png
   - type: Flag89
     singleImage: true
     files:
-      0: Resources/UI/Flags/Singapur.png
+      0: Resources/Ui/Flags/Singapur.png
   - type: Flag90
     singleImage: true
     files:
-      0: Resources/UI/Flags/Slovakia.png
+      0: Resources/Ui/Flags/Slovakia.png
   - type: Flag91
     singleImage: true
     files:
-      0: Resources/UI/Flags/Slovenia.png
+      0: Resources/Ui/Flags/Slovenia.png
   - type: Flag92
     singleImage: true
     files:
-      0: Resources/UI/Flags/South Africa.png
+      0: Resources/Ui/Flags/South Africa.png
   - type: Flag93
     singleImage: true
     files:
-      0: Resources/UI/Flags/South Korea.png
+      0: Resources/Ui/Flags/South Korea.png
   - type: Flag94
     singleImage: true
     files:
-      0: Resources/UI/Flags/Spain.png
+      0: Resources/Ui/Flags/Spain.png
   - type: Flag95
     singleImage: true
     files:
-      0: Resources/UI/Flags/Sudan.png
+      0: Resources/Ui/Flags/Sudan.png
   - type: Flag96
     singleImage: true
     files:
-      0: Resources/UI/Flags/Sweden.png
+      0: Resources/Ui/Flags/Sweden.png
   - type: Flag97
     singleImage: true
     files:
-      0: Resources/UI/Flags/Switzerland.png
+      0: Resources/Ui/Flags/Switzerland.png
   - type: Flag98
     singleImage: true
     files:
-      0: Resources/UI/Flags/Syria.png
+      0: Resources/Ui/Flags/Syria.png
   - type: Flag99
     singleImage: true
     files:
-      0: Resources/UI/Flags/Taiwan.png
+      0: Resources/Ui/Flags/Taiwan.png
   - type: Flag100
     singleImage: true
     files:
-      0: Resources/UI/Flags/Tajikistan.png
+      0: Resources/Ui/Flags/Tajikistan.png
   - type: Flag101
     singleImage: true
     files:
-      0: Resources/UI/Flags/Tanzania.png
+      0: Resources/Ui/Flags/Tanzania.png
   - type: Flag102
     singleImage: true
     files:
-      0: Resources/UI/Flags/Thailand.png
+      0: Resources/Ui/Flags/Thailand.png
   - type: Flag103
     singleImage: true
     files:
-      0: Resources/UI/Flags/Tunisia.png
+      0: Resources/Ui/Flags/Tunisia.png
   - type: Flag104
     singleImage: true
     files:
-      0: Resources/UI/Flags/Turkey.png
+      0: Resources/Ui/Flags/Turkey.png
   - type: Flag105
     singleImage: true
     files:
-      0: Resources/UI/Flags/Uganda.png
+      0: Resources/Ui/Flags/Uganda.png
   - type: Flag106
     singleImage: true
     files:
-      0: Resources/UI/Flags/Ukraine.png
+      0: Resources/Ui/Flags/Ukraine.png
   - type: Flag107
     singleImage: true
     files:
-      0: Resources/UI/Flags/United Arab Emirates.png
+      0: Resources/Ui/Flags/United Arab Emirates.png
   - type: Flag108
     singleImage: true
     files:
-      0: Resources/UI/Flags/United Kingdom.png
+      0: Resources/Ui/Flags/United Kingdom.png
   - type: Flag109
     singleImage: true
     files:
-      0: Resources/UI/Flags/United States.png
+      0: Resources/Ui/Flags/United States.png
   - type: Flag110
     singleImage: true
     files:
-      0: Resources/UI/Flags/Uruguay.png
+      0: Resources/Ui/Flags/Uruguay.png
   - type: Flag111
     singleImage: true
     files:
-      0: Resources/UI/Flags/Uzbekistan.png
+      0: Resources/Ui/Flags/Uzbekistan.png
   - type: Flag112
     singleImage: true
     files:
-      0: Resources/UI/Flags/Venezuela.png
+      0: Resources/Ui/Flags/Venezuela.png
   - type: Flag113
     singleImage: true
     files:
-      0: Resources/UI/Flags/Vietnam.png
+      0: Resources/Ui/Flags/Vietnam.png
   - type: Flag114
     singleImage: true
     files:
-      0: Resources/UI/Flags/Zambia.png
+      0: Resources/Ui/Flags/Zambia.png
   - type: Flag500
     singleImage: true
     files:
-      0: Resources/UI/Flags/ZZZDoges.png
+      0: Resources/Ui/Flags/ZZZDoges.png
 #---Flags Ending------------------------
 #####MISC Ojito
   - type: AlienInventory
     singleImage: true
     files:
-      0: Resources/UI/battlescape/enemy_preview_background.png
+      0: Resources/Ui/NewInterface/enemy_preview_background.png
   - type: AvatarBackground
     singleImage: true
     files:
-      0: Resources/UI/battlescape/avatar-background.png
+      0: Resources/Ui/NewInterface/avatar-background.png
   - type: TinyRanks
     width: 133
     height: 7
     subX: 7
     subY: 7
     files:
-      0: Resources/UI/battlescape/TinyRanks.png
+      0: Resources/Ui/RankSprites/TinyRanks.png
   - type: CustomArmorPreviews
     width: 744
     height: 60
     subX: 12
     subY: 20
     files:
-      0: Resources/UI/GUI_Soldiers.png
+      0: Resources/Ui/GUI_Soldiers.png
   - type: TEXTURE.DAT
     width: 896
     height: 96
@@ -4919,81 +4919,81 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: resources/ui/Backgrounds/GRAPHS.png
+      0: resources/Ui/Backgrounds/GRAPHS.png
   - type: BACK06.SCR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: resources/ui/Backgrounds/BACK06.png
+      0: resources/Ui/Backgrounds/BACK06.png
 
   - type: UNIBORD.PCK
     singleImage: true
     files:
-      0: resources/ui/Backgrounds/UNIBORD.png
+      0: resources/Ui/Backgrounds/UNIBORD.png
   - type: oxceLinks
     width: 32
     height: 16
     singleImage: true
     files:
-      0: resources/ui/battlescape/oxceLinks.png
+      0: resources/Ui/NewInterface/oxceLinks.png
   - type: oxceLinksInv
     width: 23
     height: 22
     singleImage: true
     files:
-      0: resources/ui/battlescape/oxceLinksInv.png
+      0: resources/Ui/NewInterface/oxceLinksInv.png
   - type: InvCopy
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/ui/battlescape/invcopy.png
+      0: resources/Ui/NewInterface/invcopy.png
   - type: InvCopyActive
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/ui/battlescape/invcopy_active.png
+      0: resources/Ui/NewInterface/invcopy_active.png
   - type: InvPaste
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/ui/battlescape/invpaste.png
+      0: resources/Ui/NewInterface/invpaste.png
   - type: InvPasteEmpty
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/ui/battlescape/invpaste_empty.png
+      0: resources/Ui/NewInterface/invpaste_empty.png
   - type: TAC01.SCR
     singleImage: true
     files:
-      0: resources/ui/battlescape/TAC01.png
+      0: resources/Ui/NewInterface/TAC01.png
   - type: ICONS.PCK
     singleImage: true
     files:
-      0: resources/ui/battlescape/ui.png
+      0: resources/Ui/NewInterface/ui.png
   - type: KneelButton
     width: 32
     height: 32
     subX: 32
     subY: 16
     files:
-      0: resources/ui/battlescape/kneelButton.png
+      0: resources/Ui/NewInterface/kneelButton.png
   - type: DETBORD.PCK
     singleImage: true
     files:
-      0: resources/ui/battlescape/DETBORD.png
+      0: resources/Ui/NewInterface/DETBORD.png
   - type: MEDIBORD.PCK
     singleImage: true
     files:
-      0: resources/ui/battlescape/MEDIBORD.png
+      0: resources/Ui/NewInterface/MEDIBORD.png
   - type: SCANBORD.PCK
     singleImage: true
     files:
-      0: resources/ui/battlescape/SCANBORD.png
+      0: resources/Ui/NewInterface/SCANBORD.png
 ################Custom palletes
 customPalettes:
   - type: PAL_GEOSCAPE_NEW
