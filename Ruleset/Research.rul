@@ -153,11 +153,6 @@ research:
     points: 150
     dependencies:
       - STR_SHOCK_RIFLE
-  - name: STR_SHOCK_PISTOL_BATTERY
-    cost: 0
-    points: 0
-    dependencies:
-      - STR_SHOCK_PISTOL
   - name: STR_SHOCK_RIFLE
     cost: 65
     points: 150

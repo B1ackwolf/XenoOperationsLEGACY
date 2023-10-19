@@ -941,7 +941,6 @@ units:
     aggression: 1
     energyRecovery: 50
     livingWeapon: true
-
   - type: NPC_SOLDIER
     race: STR_CIVILIAN
     stats:

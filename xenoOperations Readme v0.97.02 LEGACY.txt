@@ -89,7 +89,11 @@ mas cambios:
 >>>>>>>(explicar todos los cambios a futuro con el beta de q ya ordene las carpetas, pues ahora hay q cambiar las referencias y q el primer caso fue con los SOVEREIGNS, q se llamaban overlord, pero la nave era tambien overlord, pero esta a su vez se referencia como archangel, etc)
 >>>>>>>tambien cambiado los formics, q a diferencia del contrario fue mucho mas facil cambiarlos a formics
 >>>>>> se cambiaron todas las referencias al archangel hacia OVERLORD
-
+>>>>lo mismo con los dragonfly
+>>>>>modificada los deployment en cydonia (para que no hayan enemigos "sin cascos" y q no tengan sentido q esten ahi segun el lore)
+     el cydonia elit guard son los mas peligrosos enemigos
+	 los mutons enforcers ahora van acompañados de sectopods negros q son muchos pas peligrosos q las contrapartes comunes
+	 
 >agregadas mas descripciones relacionadas al CODEX , ejemplo el de los archivos corruptos.
 >corregida algunos errores en los commendations, mejorado el espaciado, requerira otra pasada mucho mas profunda
 >reordenado posicion de naves en listas y ufopaedia
@@ -130,7 +134,7 @@ Correcciones:
 (((revisar q porongas hice con los muton commanders, muton warlords y demas especies, redefinir correctamente los nombres y demas)))))
 
 ((((((descargar cmp y certificar q mapas y todo lo demas este en lo mas actualizado)
-
+((((((recolorear el archivo del sectopod en la ufopaedia))))
 
 
 
