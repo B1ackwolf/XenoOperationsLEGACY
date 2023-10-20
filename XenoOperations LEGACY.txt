@@ -113,9 +113,14 @@ sprites:
 >retocado ligeralmente la posicion de lmg hybrida
 >ajustada posicion del rifle rieles
 >ajustada posicion smg rieles
+)))))checar eso de vuelta abajo
 >ajustada posicion pistola plasma comun
 >ajustada posiocion pistola plasma pesada
 >ajustada posicion pistola shock
+)))))continua aca
+>recoloreado las imagenes en ufopedia del sectopod, para q coincida con el sprite en las misiones
+>modificado la sprite del lanzacohetes, de modo q mantenga la coherencia del artwork general del mod, sacado de xfiles y retocada la sprite
+>modificado sprites de grenade launcher, municion son granadas en un drum, el floor ob ya esta listo, el handob aun necesita refinarse, todo tambien proviene de XFILES
 
 tweaked:
 >>>ampliado considerablemente la cantidad de materiales producidos por los breakdown projects, recuerden interactuar con esto, ya q cada componente puede ser reducido a componentes mas basicos. el siguiente paso sera mejorar los projectos de manufactura (en bundle, esto tomara un poco de tiempo)
@@ -131,10 +136,12 @@ Correcciones:
  °ya q hablamos de eso, oscurecido ligeramente los tonos de los distintos back, para hacerlo mas pleasing to the eye
 >Corregido problema de ufos en el agua splish splash, no more water crash, gracias efren
 >corregido una referencia incorrecta al firefly en la ufopedia, debia nombrar al DRAGONFLY
+
+
 (((revisar q porongas hice con los muton commanders, muton warlords y demas especies, redefinir correctamente los nombres y demas)))))
 
 ((((((descargar cmp y certificar q mapas y todo lo demas este en lo mas actualizado)
-((((((recolorear el archivo del sectopod en la ufopaedia))))
+
 
 
 

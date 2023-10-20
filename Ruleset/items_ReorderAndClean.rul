@@ -1003,16 +1003,23 @@ items:
       - STR_HC_I_AMMO
       - STR_HC_AP_AMMO
     arcingShot: true
+    # handSprite: 90 ojito. acomodar sprite
     listOrder: 2125
   - type: STR_HC_HE_AMMO
     power: 45
+    bigSprite: 12
+    floorSprite: 12
     listOrder: 2126
   - type: STR_HC_I_AMMO
     power: 55
+    bigSprite: 13
+    floorSprite: 12
     listOrder: 2127
   - type: STR_HC_AP_AMMO
     damageType: 9
     power: 65
+    bigSprite: 14
+    floorSprite: 12
     listOrder: 2128
   - type: STR_ROCKET_LAUNCHER
     size: 0.4

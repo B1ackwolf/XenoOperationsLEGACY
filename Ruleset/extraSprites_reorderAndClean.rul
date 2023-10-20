@@ -2,11 +2,8 @@ extraSprites:
 #---BIG OBJECTS------------------------------------------
   - type: BIGOBS.PCK
     files:
+#####----- Unit BigObs Sprites for XCOM -----#####
       28: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Blue.gif
-      46: Resources/UnitSprites/AlienFaction/BIGOBS/SectoidInventoryCorpse.png
-      48: Resources/UnitSprites/AlienFaction/BIGOBS/MutonInventoryCorpse.gif
-      50: Resources/UnitSprites/AlienFaction/BIGOBS/SnakemanInventoryCorpse.png
-      52: Resources/UnitSprites/AlienFaction/BIGOBS/FloaterInventoryCorpse.gif
       63: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Pilot_Inventory_corpse_Blue.png
       64: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse.gif
       65: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse_Black.gif
@@ -50,23 +47,64 @@ extraSprites:
       126: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Grey.gif
       127: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Purple.gif
       128: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_White.gif
-      11: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/14GrenadeLauncher.gif
-      35: Resources/WeaponrySprites/alienArsenal/BlasterLauncher.gif
-      1113: Resources/WeaponrySprites/Taser/bigob_Taser.png
-      1114: Resources/WeaponrySprites/Taser/bigob_Taser_Clip.png
-      270: Resources/WeaponrySprites/LaserPistol.gif
-      271: Resources/WeaponrySprites/LaserPistolBattery.gif
-      272: Resources/WeaponrySprites/LaserRifle.gif
-      273: Resources/WeaponrySprites/LaserBattery.gif
-      274: Resources/WeaponrySprites/LaserSniper.gif
-      275: Resources/WeaponrySprites/LaserSniperBattery.gif
-      276: Resources/WeaponrySprites/HeavyLaser.gif
-      277: Resources/WeaponrySprites/HeavyLaserBattery.gif
-      278: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/12AMRifle.gif
-      279: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/12AMRifle_mag.gif
-      280: Resources/WeaponrySprites/APRocket.gif
+      960: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/MiniRocket.gif
+      961: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/Motar.png
+      1208: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncher.png
+      1209: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncherClip.png
+      1210: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/Camera.gif
+#####----- Unit sprites for XCOM ends here -----#####
+#####----- Unit Sprites for ALIENS -----#####
+      46: Resources/UnitSprites/AlienFaction/BIGOBS/SectoidInventoryCorpse.png
+      48: Resources/UnitSprites/AlienFaction/BIGOBS/MutonInventoryCorpse.gif
+      50: Resources/UnitSprites/AlienFaction/BIGOBS/SnakemanInventoryCorpse.png
+      52: Resources/UnitSprites/AlienFaction/BIGOBS/FloaterInventoryCorpse.gif
+      800: Resources/UnitSprites/AlienFaction/BIGOBS/MUTONCOMMANDOInventoryCorpse.gif
+      801: Resources/UnitSprites/AlienFaction/BIGOBS/MutonGuardInventoryCorpse.gif
+      802: Resources/UnitSprites/AlienFaction/BIGOBS/MutonCommanderInventoryCorpse.gif
+      803: Resources/UnitSprites/AlienFaction/BIGOBS/Armor_Sectoid_Inventory_Corpse.gif
+      804: Resources/UnitSprites/AlienFaction/BIGOBS/Hybrid_Inventory_Corpse.gif
+      805: Resources/UnitSprites/AlienFaction/BIGOBS/SOVEREIGNInventoryCorpse.gif
+      806: Resources/UnitSprites/AlienFaction/BIGOBS/EnergyAlienInventoryCorpse.gif
+      807: Resources/UnitSprites/AlienFaction/BIGOBS/FormicInventoryCorpse.png
+      808: Resources/UnitSprites/AlienFaction/BIGOBS/ArmoredMutonInventoryCorpse.gif
+      809: Resources/UnitSprites/AlienFaction/BIGOBS/MutonBerzerkerInventoryCorpse.gif
+      810: Resources/UnitSprites/AlienFaction/BIGOBS/ArmoredMutonCommanderInventoryCorpse.gif
+      811: Resources/UnitSprites/AlienFaction/BIGOBS/CarcharodonInventoryCorpse.gif
+      812: Resources/UnitSprites/AlienFaction/BIGOBS/AbominationInventoryCorpse.gif
+      813: Resources/UnitSprites/AlienFaction/BIGOBS/SharkBite.gif
+#####----- Unit sprites for ALIENS ends here -----#####  
+######----- Tier 1 Ballistic tier Bigobs -----#####
+      600: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/1CompactPistol.gif
+      345: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/2MachinePistol.gif
+      346: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/2MachinePistol_mag.gif
+      306: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/3ServicePistol.gif
+      344: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/3ServicePistol_mag.gif
+      347: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/4HeavyPistol.gif
+      348: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/4HeavyPistol_mag.gif
+      602: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/5Uzi.gif
+      309: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/6Smg.gif
+      603: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/6Smg_mag.gif
+      307: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/7Shotgun.gif
+      308: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/7Shotgun_shells.gif
+      314: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/7Shotgun_slugs.gif
+      328: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/8Pdw.gif
       281: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/9AssaultRifle.gif
       282: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/9AssaultRifle_mag.gif
+      302: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/10Lmg.gif
+      303: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/10Lmg_belt.gif
+      311: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/11SniperRifle.gif
+      312: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/11SniperRifle_mag.gif
+      278: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/12AMRifle.gif
+      279: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/12AMRifle_mag.gif
+      304: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/13Minigun.gif
+      305: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/13Minigun_belt.gif
+      11: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/14GrenadeLauncher.gif
+      12: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/14GrenadeLauncher_drum_he.png
+      13: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/14GrenadeLauncher_drum_inc.png
+      14: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/14GrenadeLauncher_drum_smoke.png
+      15: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/15RocketLauncher.png
+######----- Tier 1 ends here -----#####
+######----- Tier 2 X ballistic Bigobs -----#####
       283: Resources/WeaponrySprites/HVLMG.gif
       284: Resources/WeaponrySprites/HVLMGBelt.gif
       285: Resources/WeaponrySprites/HVLMGBeltAlloy.gif
@@ -85,140 +123,7 @@ extraSprites:
       298: Resources/WeaponrySprites/HVSniperRifle.gif
       299: Resources/WeaponrySprites/HVSniperRifleClip.gif
       300: Resources/WeaponrySprites/HVSniperRifleClipAlloy.gif
-      301: Resources/WeaponrySprites/IncGrenade.gif
-      302: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/10Lmg.gif
-      303: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/10Lmg_belt.gif
-      304: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/13Minigun.gif
-      305: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/13Minigun_belt.gif
-      306: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/3ServicePistol.gif
-      307: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/7Shotgun.gif
-      308: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/7Shotgun_shells.gif
-      309: Resources/WeaponrySpritesCorregido/1stTierBalli/Bigob/6Smg.gif
-      311: Resources/WeaponrySprites/SniperRifle.gif
-      312: Resources/WeaponrySprites/SniperRifleClip.gif
-      313: Resources/WeaponrySprites/HVGrenade.gif
-      314: Resources/WeaponrySprites/ShotgunSlugs.gif
-      315: Resources/WeaponrySprites/Knife.gif
-      316: Resources/WeaponrySprites/BrassKnuckles.gif
-      317: Resources/WeaponrySprites/LaserSMG.gif
-      318: Resources/WeaponrySprites/LaserSMGBattery.gif
-      319: Resources/WeaponrySprites/LaserShotgun.gif
-      320: Resources/WeaponrySprites/LaserShotgunBattery.gif
-      321: Resources/WeaponrySprites/LaserLMG.gif
-      322: Resources/WeaponrySprites/LaserLMGBattery.gif
       324: Resources/WeaponrySprites/HVSniperRifleShell.gif
-      325: Resources/WeaponrySprites/LaserSword.gif
-      326: Resources/WeaponrySprites/PistolSmall.gif
-      327: Resources/WeaponrySprites/PistolClipSmall.gif
-      328: Resources/WeaponrySprites/PDW.gif
-      330: Resources/WeaponrySprites/HeavyLaserBattery2.gif
-      331: Resources/WeaponrySprites/HeavyLaserBattery3.gif
-      332: Resources/WeaponrySprites/LaserBattery2.gif
-      333: Resources/WeaponrySprites/LaserBattery3.gif
-      334: Resources/WeaponrySprites/LaserLMGBattery2.gif
-      335: Resources/WeaponrySprites/LaserLMGBattery3.gif
-      336: Resources/WeaponrySprites/LaserPistolBattery2.gif
-      337: Resources/WeaponrySprites/LaserPistolBattery3.gif
-      338: Resources/WeaponrySprites/LaserShotgunBattery2.gif
-      339: Resources/WeaponrySprites/LaserShotgunBattery3.gif
-      340: Resources/WeaponrySprites/LaserSMGBattery2.gif
-      341: Resources/WeaponrySprites/LaserSMGBattery3.gif
-      342: Resources/WeaponrySprites/LaserSniperBattery2.gif
-      343: Resources/WeaponrySprites/LaserSniperBattery3.gif
-      344: Resources/WeaponrySprites/PistolClip.gif
-      345: Resources/WeaponrySprites/MachinePistol.gif
-      346: Resources/WeaponrySprites/MachinePistolClip.gif
-      347: Resources/WeaponrySprites/Magnum.gif
-      348: Resources/WeaponrySprites/MagnumClip.gif
-      350: Resources/WeaponrySprites/alienArsenal/AlienPlasmaPistol.gif
-      351: Resources/WeaponrySprites/alienArsenal/AlienPlasmaPistolClip.gif
-      352: Resources/WeaponrySprites/alienArsenal/AlienPlasmaAssaulter.gif
-      353: Resources/WeaponrySprites/alienArsenal/AlienPlasmaAssaulterClip.gif
-      354: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifle.gif
-      355: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip.gif
-      356: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlaster.gif
-      357: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlasterClip.gif
-      358: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifle.gif
-      359: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifleClip.gif
-      360: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasma.gif
-      361: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip.gif
-      362: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannon.gif
-      363: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannonClip.gif
-      364: Resources/WeaponrySprites/alienArsenal/AlienGrenade.gif
-      365: Resources/WeaponrySprites/alienArsenal/AlienCommDevice.gif
-      366: Resources/WeaponrySprites/alienArsenal/AlienHighExplosive.gif
-      367: Resources/WeaponrySprites/alienArsenal/AlienHoloProjector.gif
-      368: Resources/WeaponrySprites/alienArsenal/AlienInjector.gif
-      369: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlade.gif
-      370: Resources/WeaponrySprites/alienArsenal/AlienProxGrenade.gif
-      371: Resources/WeaponrySprites/alienArsenal/AlienSmallEntertainment.gif
-      372: Resources/WeaponrySprites/alienArsenal/AlloyBlade.gif
-      373: Resources/WeaponrySprites/alienArsenal/BlasterBomb.gif
-      374: Resources/WeaponrySprites/alienArsenal/ElleriumLamp.gif
-      375: Resources/WeaponrySprites/alienArsenal/SmallLauncher.gif
-      376: Resources/WeaponrySprites/alienArsenal/StunBomb.gif
-      377: Resources/WeaponrySprites/alienArsenal/PlasmaPistol.gif
-      378: Resources/WeaponrySprites/alienArsenal/PlasmaPistolClip.gif
-      379: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulter.gif
-      380: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulterClip.gif
-      381: Resources/WeaponrySprites/alienArsenal/PlasmaRifle.gif
-      382: Resources/WeaponrySprites/alienArsenal/PlasmaRifleClip.gif
-      383: Resources/WeaponrySprites/alienArsenal/PlasmaBlaster.gif
-      384: Resources/WeaponrySprites/alienArsenal/PlasmaBlasterClip.gif
-      385: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifle.gif
-      386: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifleClip.gif
-      387: Resources/WeaponrySprites/alienArsenal/HeavyPlasma.gif
-      388: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaClip.gif
-      389: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannon.gif
-      390: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip.gif
-      391: Resources/WeaponrySprites/alienArsenal/ElitePlasma.gif
-      392: Resources/WeaponrySprites/alienArsenal/ElitePlasmaClip.gif
-      393: Resources/WeaponrySprites/alienArsenal/AlienComputer.gif
-      394: Resources/WeaponrySprites/alienArsenal/AlienDNASample.gif
-      395: Resources/WeaponrySprites/alienArsenal/AlienEmbryo.gif
-      396: Resources/WeaponrySprites/alienArsenal/AlienExtractor.gif
-      397: Resources/WeaponrySprites/alienArsenal/AlienOrganSample.gif
-      400: Resources/WeaponrySprites/alienArsenal/StunBombAcid.gif
-      401: Resources/WeaponrySprites/alienArsenal/StunBombExplosive.gif
-      402: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip2.gif
-      403: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip3.gif
-      406: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifleClip2.gif
-      408: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip2.gif
-      409: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip3.gif
-      411: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannonClip3.gif
-      412: Resources/WeaponrySprites/alienArsenal/PlasmaPistolClip2.gif
-      413: Resources/WeaponrySprites/alienArsenal/PlasmaPistolClip3.gif
-      414: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulterClip2.gif
-      415: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulterClip3.gif
-      416: Resources/WeaponrySprites/alienArsenal/PlasmaRifleClip2.gif
-      417: Resources/WeaponrySprites/alienArsenal/PlasmaRifleClip3.gif
-      418: Resources/WeaponrySprites/alienArsenal/PlasmaBlasterClip2.gif
-      419: Resources/WeaponrySprites/alienArsenal/PlasmaBlasterClip3.gif
-      420: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifleClip2.gif
-      421: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifleClip3.gif
-      422: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaClip2.gif
-      423: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaClip3.gif
-      424: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip2.gif
-      425: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip3.gif
-      430: Resources/XtraSprites/HumanAlloyBlade.gif
-      431: Resources/WeaponrySprites/alienArsenal/HumanPlasmaBlade.gif
-      433: Resources/WeaponrySprites/alienArsenal/HumanProxGrenade.gif
-      434: Resources/WeaponrySprites/alienArsenal/HumaAntiMatterBomb.gif
-      508: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmall.gif
-      509: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmallClip.gif
-      510: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmallClip2.gif
-      511: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmallClip3.gif
-      512: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavy.gif
-      513: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavyClip.gif
-      514: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavyClip2.gif
-      515: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavyClip3.gif
-      516: Resources/WeaponrySprites/alienArsenal/PlasmaCarbine.gif
-      517: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip.gif
-      518: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip2.gif
-      519: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip3.gif
-      600: Resources/WeaponrySprites/PistolSmall.gif
-      602: Resources/WeaponrySprites/UZI.gif
-      603: Resources/WeaponrySprites/UZIClip.gif
       604: Resources/WeaponrySprites/HVMachinePistol.gif
       605: Resources/WeaponrySprites/HVMachinePistolClip.gif
       606: Resources/WeaponrySprites/HVMachinePistolClipAlloy.gif
@@ -234,6 +139,65 @@ extraSprites:
       616: Resources/WeaponrySprites/HVUZI.gif
       617: Resources/WeaponrySprites/HVUZIClip.gif
       618: Resources/WeaponrySprites/HVUZIClipAlloy.gif
+      647: Resources/WeaponrySprites/HVRL.gif
+      648: Resources/WeaponrySprites/HVRLR1.gif
+      649: Resources/WeaponrySprites/HVRLR2.gif
+      660: Resources/WeaponrySprites/HVPistolClipSmallTech.gif
+      661: Resources/WeaponrySprites/HVPistolClipTech.gif
+      662: Resources/WeaponrySprites/HVMachinePistolClipTech.gif
+      663: Resources/WeaponrySprites/HVMagnumClipTech.gif
+      664: Resources/WeaponrySprites/HVUZIClipTech.gif
+      665: Resources/WeaponrySprites/HVSMGClipTech.gif
+      666: Resources/WeaponrySprites/HVPDWClipTech.gif
+      667: Resources/WeaponrySprites/HVRifleClipTech.gif
+      668: Resources/WeaponrySprites/HVShotgunShellsTech.gif
+      669: Resources/WeaponrySprites/HVSniperRifleClipTech.gif
+      670: Resources/WeaponrySprites/HVLMGBeltTech.gif
+      280: Resources/WeaponrySprites/APRocket.gif
+      676: Resources/WeaponrySprites/AssaultCannon.gif
+      677: Resources/WeaponrySprites/AssaultCannonClip.gif
+      678: Resources/WeaponrySprites/AssaultCannonClip2.gif
+      679: Resources/WeaponrySprites/AssaultCannonClip3.gif
+      680: Resources/WeaponrySprites/MinigunT2.gif
+      681: Resources/WeaponrySprites/MinigunBeltT2.gif
+      682: Resources/WeaponrySprites/MinigunBeltT22.gif
+      683: Resources/WeaponrySprites/MinigunBeltT23.gif
+#####------ Tier 2 X ballistic ends here-----#####
+#####------ Tier 3 Hybrid Bigobs -----#####
+
+
+#####------ Tier 3 Hybrid ends here -----#####
+#####------ Tier 4 Laser Bigobs ------#####
+      270: Resources/WeaponrySprites/LaserPistol.gif
+      271: Resources/WeaponrySprites/LaserPistolBattery.gif
+      272: Resources/WeaponrySprites/LaserRifle.gif
+      273: Resources/WeaponrySprites/LaserBattery.gif
+      274: Resources/WeaponrySprites/LaserSniper.gif
+      275: Resources/WeaponrySprites/LaserSniperBattery.gif
+      276: Resources/WeaponrySprites/HeavyLaser.gif
+      277: Resources/WeaponrySprites/HeavyLaserBattery.gif
+      317: Resources/WeaponrySprites/LaserSMG.gif
+      318: Resources/WeaponrySprites/LaserSMGBattery.gif
+      319: Resources/WeaponrySprites/LaserShotgun.gif
+      320: Resources/WeaponrySprites/LaserShotgunBattery.gif
+      321: Resources/WeaponrySprites/LaserLMG.gif
+      322: Resources/WeaponrySprites/LaserLMGBattery.gif
+      330: Resources/WeaponrySprites/HeavyLaserBattery2.gif
+      331: Resources/WeaponrySprites/HeavyLaserBattery3.gif
+      332: Resources/WeaponrySprites/LaserBattery2.gif
+      333: Resources/WeaponrySprites/LaserBattery3.gif
+      334: Resources/WeaponrySprites/LaserLMGBattery2.gif
+      335: Resources/WeaponrySprites/LaserLMGBattery3.gif
+      336: Resources/WeaponrySprites/LaserPistolBattery2.gif
+      337: Resources/WeaponrySprites/LaserPistolBattery3.gif
+      338: Resources/WeaponrySprites/LaserShotgunBattery2.gif
+      339: Resources/WeaponrySprites/LaserShotgunBattery3.gif
+      340: Resources/WeaponrySprites/LaserSMGBattery2.gif
+      341: Resources/WeaponrySprites/LaserSMGBattery3.gif
+      342: Resources/WeaponrySprites/LaserSniperBattery2.gif
+      343: Resources/WeaponrySprites/LaserSniperBattery3.gif
+#####------ Tier 4 Laser ends here-----#####
+#####------ Tier 5 Hypervelocity  Bigobs -----######
       619: Resources/WeaponrySprites/TFPistol.gif
       620: Resources/WeaponrySprites/TFPistolClip.gif
       621: Resources/WeaponrySprites/TFSMG.gif
@@ -258,13 +222,6 @@ extraSprites:
       640: Resources/WeaponrySprites/TFHeavy.gif
       641: Resources/WeaponrySprites/TFHeavyClip.gif
       642: Resources/WeaponrySprites/TFHeavyClip2.gif
-      643: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncher.gif
-      644: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncherBomb.gif
-      645: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncherBomb2.gif
-      646: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncherBomb3.gif
-      647: Resources/WeaponrySprites/HVRL.gif
-      648: Resources/WeaponrySprites/HVRLR1.gif
-      649: Resources/WeaponrySprites/HVRLR2.gif
       650: Resources/WeaponrySprites/TFPistolClip3.gif
       651: Resources/WeaponrySprites/TFSMGClip3.gif
       652: Resources/WeaponrySprites/TFRifleClip3.gif
@@ -273,58 +230,147 @@ extraSprites:
       655: Resources/WeaponrySprites/TFLMGClip3.gif
       656: Resources/WeaponrySprites/TFHeavyClip3.gif
       657: Resources/WeaponrySprites/TFCannonClip3.gif
-      660: Resources/WeaponrySprites/HVPistolClipSmallTech.gif
-      661: Resources/WeaponrySprites/HVPistolClipTech.gif
-      662: Resources/WeaponrySprites/HVMachinePistolClipTech.gif
-      663: Resources/WeaponrySprites/HVMagnumClipTech.gif
-      664: Resources/WeaponrySprites/HVUZIClipTech.gif
-      665: Resources/WeaponrySprites/HVSMGClipTech.gif
-      666: Resources/WeaponrySprites/HVPDWClipTech.gif
-      667: Resources/WeaponrySprites/HVRifleClipTech.gif
-      668: Resources/WeaponrySprites/HVShotgunShellsTech.gif
-      669: Resources/WeaponrySprites/HVSniperRifleClipTech.gif
-      670: Resources/WeaponrySprites/HVLMGBeltTech.gif
-      671: Resources/WeaponrySprites/alienArsenal/PsiAmpLarge.gif
-      672: Resources/WeaponrySprites/alienArsenal/PsiAmpSmall.gif
-      673: Resources/WeaponrySprites/alienArsenal/ElleriumLampHuman.gif
+#####------ Tier 5 Hypervelocity ends here -----#####
+#####------ Tier 6 Terran plasma Bigobs -----######
+      377: Resources/WeaponrySprites/alienArsenal/PlasmaPistol.gif
+      378: Resources/WeaponrySprites/alienArsenal/PlasmaPistolClip.gif
+      379: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulter.gif
+      380: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulterClip.gif
+      381: Resources/WeaponrySprites/alienArsenal/PlasmaRifle.gif
+      382: Resources/WeaponrySprites/alienArsenal/PlasmaRifleClip.gif
+      383: Resources/WeaponrySprites/alienArsenal/PlasmaBlaster.gif
+      384: Resources/WeaponrySprites/alienArsenal/PlasmaBlasterClip.gif
+      385: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifle.gif
+      386: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifleClip.gif
+      643: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncher.gif
+      644: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncherBomb.gif
+      645: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncherBomb2.gif
+      646: Resources/WeaponrySprites/alienArsenal/AntiMatterLauncherBomb3.gif
+      412: Resources/WeaponrySprites/alienArsenal/PlasmaPistolClip2.gif
+      413: Resources/WeaponrySprites/alienArsenal/PlasmaPistolClip3.gif
+      414: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulterClip2.gif
+      415: Resources/WeaponrySprites/alienArsenal/PlasmaAssaulterClip3.gif
+      416: Resources/WeaponrySprites/alienArsenal/PlasmaRifleClip2.gif
+      417: Resources/WeaponrySprites/alienArsenal/PlasmaRifleClip3.gif
+      418: Resources/WeaponrySprites/alienArsenal/PlasmaBlasterClip2.gif
+      419: Resources/WeaponrySprites/alienArsenal/PlasmaBlasterClip3.gif
+      420: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifleClip2.gif
+      421: Resources/WeaponrySprites/alienArsenal/PlasmaSniperRifleClip3.gif
+      508: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmall.gif
+      509: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmallClip.gif
+      510: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmallClip2.gif
+      511: Resources/WeaponrySprites/alienArsenal/PlasmaPistolSmallClip3.gif
+      512: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavy.gif
+      513: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavyClip.gif
+      514: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavyClip2.gif
+      515: Resources/WeaponrySprites/alienArsenal/PlasmaPistolHeavyClip3.gif
+      516: Resources/WeaponrySprites/alienArsenal/PlasmaCarbine.gif
+      517: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip.gif
+      518: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip2.gif
+      519: Resources/WeaponrySprites/alienArsenal/PlasmaCarbineClip3.gif
+#####------ Tier 6 Terran plasma ends here -----#####
+#####------ Tier 7 Stun Bigobs -----######
+      1113: Resources/WeaponrySprites/Taser/bigob_Taser.png
+      1114: Resources/WeaponrySprites/Taser/bigob_Taser_Clip.png
+#####------ Tier 7 Stun ends here -----#####
+#####------ Tier 8 Melee Bigobs -----######
+      315: Resources/WeaponrySprites/Knife.gif
+      316: Resources/WeaponrySprites/BrassKnuckles.gif
+      325: Resources/WeaponrySprites/LaserSword.gif
+      430: Resources/XtraSprites/HumanAlloyBlade.gif
+      372: Resources/WeaponrySprites/alienArsenal/AlloyBlade.gif
+      369: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlade.gif
+      431: Resources/WeaponrySprites/alienArsenal/HumanPlasmaBlade.gif
+#####------ Tier 8 Melee ends here -----#####
+#####------ Tier 9 Ordnance Bigobs -----######
+      301: Resources/WeaponrySprites/IncGrenade.gif
+      313: Resources/WeaponrySprites/HVGrenade.gif
       674: Resources/WeaponrySprites/Tier3Grenade.gif
       675: Resources/WeaponrySprites/Tier3Grenade2.gif
-      676: Resources/WeaponrySprites/AssaultCannon.gif
-      677: Resources/WeaponrySprites/AssaultCannonClip.gif
-      678: Resources/WeaponrySprites/AssaultCannonClip2.gif
-      679: Resources/WeaponrySprites/AssaultCannonClip3.gif
-      680: Resources/WeaponrySprites/MinigunT2.gif
-      681: Resources/WeaponrySprites/MinigunBeltT2.gif
-      682: Resources/WeaponrySprites/MinigunBeltT22.gif
-      683: Resources/WeaponrySprites/MinigunBeltT23.gif
-      800: Resources/UnitSprites/AlienFaction/BIGOBS/MUTONCOMMANDOInventoryCorpse.gif
-      801: Resources/UnitSprites/AlienFaction/BIGOBS/MutonGuardInventoryCorpse.gif
-      802: Resources/UnitSprites/AlienFaction/BIGOBS/MutonCommanderInventoryCorpse.gif
-      803: Resources/UnitSprites/AlienFaction/BIGOBS/Armor_Sectoid_Inventory_Corpse.gif
-      804: Resources/UnitSprites/AlienFaction/BIGOBS/Hybrid_Inventory_Corpse.gif
-      805: Resources/UnitSprites/AlienFaction/BIGOBS/SOVEREIGNInventoryCorpse.gif
-      806: Resources/UnitSprites/AlienFaction/BIGOBS/EnergyAlienInventoryCorpse.gif
-      807: Resources/UnitSprites/AlienFaction/BIGOBS/FormicInventoryCorpse.png
-      808: Resources/UnitSprites/AlienFaction/BIGOBS/ArmoredMutonInventoryCorpse.gif
-      809: Resources/UnitSprites/AlienFaction/BIGOBS/MutonBerzerkerInventoryCorpse.gif
-      810: Resources/UnitSprites/AlienFaction/BIGOBS/ArmoredMutonCommanderInventoryCorpse.gif
-      811: Resources/UnitSprites/AlienFaction/BIGOBS/CarcharodonInventoryCorpse.gif
-      812: Resources/UnitSprites/AlienFaction/BIGOBS/AbominationInventoryCorpse.gif
-      813: Resources/UnitSprites/AlienFaction/BIGOBS/SharkBite.gif
+      433: Resources/WeaponrySprites/alienArsenal/HumanProxGrenade.gif
+      434: Resources/WeaponrySprites/alienArsenal/HumaAntiMatterBomb.gif
+#####------ Tier 9 Ordnance ends here -----#####
+#####------ Tier 10 Alien Plasma Bigobs -----######
+      35: Resources/WeaponrySprites/alienArsenal/BlasterLauncher.gif
+      350: Resources/WeaponrySprites/alienArsenal/AlienPlasmaPistol.gif
+      351: Resources/WeaponrySprites/alienArsenal/AlienPlasmaPistolClip.gif
+      352: Resources/WeaponrySprites/alienArsenal/AlienPlasmaAssaulter.gif
+      353: Resources/WeaponrySprites/alienArsenal/AlienPlasmaAssaulterClip.gif
+      354: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifle.gif
+      355: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip.gif
+      356: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlaster.gif
+      357: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlasterClip.gif
+      358: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifle.gif
+      359: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifleClip.gif
+      360: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasma.gif
+      361: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip.gif
+      362: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannon.gif
+      363: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannonClip.gif
+      387: Resources/WeaponrySprites/alienArsenal/HeavyPlasma.gif
+      388: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaClip.gif
+      389: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannon.gif
+      390: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip.gif
+      391: Resources/WeaponrySprites/alienArsenal/ElitePlasma.gif
+      392: Resources/WeaponrySprites/alienArsenal/ElitePlasmaClip.gif
+      375: Resources/WeaponrySprites/alienArsenal/SmallLauncher.gif
+      376: Resources/WeaponrySprites/alienArsenal/StunBomb.gif
+      400: Resources/WeaponrySprites/alienArsenal/StunBombAcid.gif
+      401: Resources/WeaponrySprites/alienArsenal/StunBombExplosive.gif
+      402: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip2.gif
+      403: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip3.gif
+      406: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifleClip2.gif
+      408: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip2.gif
+      409: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip3.gif
+      411: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannonClip3.gif
+      422: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaClip2.gif
+      423: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaClip3.gif
+      424: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip2.gif
+      425: Resources/WeaponrySprites/alienArsenal/HeavyPlasmaCannonClip3.gif
+      373: Resources/WeaponrySprites/alienArsenal/BlasterBomb.gif
+#####------ Tier 10 Alien plasma ends here -----#####
+#####------ Tier 10b Alien Ordnance Bigobs -----######
+      364: Resources/WeaponrySprites/alienArsenal/AlienGrenade.gif
+      366: Resources/WeaponrySprites/alienArsenal/AlienHighExplosive.gif
+      370: Resources/WeaponrySprites/alienArsenal/AlienProxGrenade.gif      
+#####------ Tier 10b Alien Ordnance ends here -----#####
+#####------ Tier 11 Miscellaneous -----######
       900: Resources/WeaponrySprites/alienArsenal/EleriumCell.gif
       950: Resources/WeaponrySprites/alienArsenal/KeyCodex.gif
       951: Resources/WeaponrySprites/alienArsenal/KeyCryptics.gif
       952: Resources/WeaponrySprites/alienArsenal/KeyOracle.gif
       953: Resources/WeaponrySprites/alienArsenal/CodexKey.gif
-      960: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/MiniRocket.gif
-      961: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/Motar.png
+      365: Resources/WeaponrySprites/alienArsenal/AlienCommDevice.gif
+      367: Resources/WeaponrySprites/alienArsenal/AlienHoloProjector.gif
+      368: Resources/WeaponrySprites/alienArsenal/AlienInjector.gif   
+      371: Resources/WeaponrySprites/alienArsenal/AlienSmallEntertainment.gif
+      393: Resources/WeaponrySprites/alienArsenal/AlienComputer.gif
+      394: Resources/WeaponrySprites/alienArsenal/AlienDNASample.gif
+      395: Resources/WeaponrySprites/alienArsenal/AlienEmbryo.gif
+      396: Resources/WeaponrySprites/alienArsenal/AlienExtractor.gif
+      397: Resources/WeaponrySprites/alienArsenal/AlienOrganSample.gif
       996: Resources/WeaponrySprites/Botiquines/AdrenoSyringe.png
       997: Resources/WeaponrySprites/Botiquines/MiniFirstAid.png
       998: Resources/WeaponrySprites/Botiquines/BasicMedkit.png
       999: Resources/WeaponrySprites/Botiquines/ImprovedMedkit.gif
-      1208: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncher.png
-      1209: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/bigob_SmokeLauncherClip.png
-      1210: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/Camera.gif
+      671: Resources/WeaponrySprites/alienArsenal/PsiAmpLarge.gif
+      672: Resources/WeaponrySprites/alienArsenal/PsiAmpSmall.gif
+      673: Resources/WeaponrySprites/alienArsenal/ElleriumLampHuman.gif
+      374: Resources/WeaponrySprites/alienArsenal/ElleriumLamp.gif
+#####------ Tier 11 Miscellaneous ends here -----#####    
+############# OJITO REORDENAR LUEGO ###########
+      181: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_BITE.png
+      165: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_CORPSE.png
+      166: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_COMBAT_VEST_CORPSE.png
+      167: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_ALLOY_VEST_CORPSE.png
+      981: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_TRACK.png
+      168: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_DURATHREAD_VEST_CORPSE.png
+      874: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_BARK.png
+      2501: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/SMOKELAUNCHER.png
+      2504: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/25MM.png
+      2502: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/105MM.png
+
+
+############# OJITO REORDENAR LUEGO ARRIBA DE ESTO ############
   - type: BIGOBS.PCK
     subX: 32
     subY: 48
@@ -339,6 +385,8 @@ extraSprites:
     height: 48
     files:
       501: Resources/WeaponrySpritesCorregido/7thStun/Bigob/ShockWeaponsTier.gif
+
+#####----- Inventory Nullifying slots -----#####
   - type: BIGOBS.PCK
     files:
        2989: Resources/Ui/Inventory/Null_Jetpack.png
@@ -350,14 +398,13 @@ extraSprites:
        2995: Resources/Ui/Inventory/Null_PocketRL.png
        2996: Resources/Ui/Inventory/Null_PocketLL.png
        2997: Resources/Ui/Inventory/Null_Holster.png
+#####----- Inventory Nullifying slots ends here -----#####
+
 #---FLOOR OBJECTS------------------------------------------
   - type: FLOOROB.PCK
     files:
-      34: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_BlasterLauncher.gif
+#####----- Unit FloorObs Sprites for XCOM -----#####
       40: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_Blue.gif
-      42: Resources/UnitSprites/AlienFaction/FLOOROB/Sectoid_Corpse.png
-      44: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Corpse.gif
-      48: Resources/UnitSprites/AlienFaction/FLOOROB/Floater_Corpse.gif
       63: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Pilot_Corpse_Blue.png
       77: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse.gif
       78: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_Black.gif
@@ -365,8 +412,6 @@ extraSprites:
       80: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_Green.gif
       81: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_Grey.gif
       82: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_White.gif
-      83: Resources/WeaponrySprites/Taser/floorob_Taser.png
-      91: Resources/WeaponrySprites/Taser/floorob_Taser_Ammo.png
       92: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse.gif
       93: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_Black.gif
       94: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_Blue.gif
@@ -403,19 +448,65 @@ extraSprites:
       126: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_Grey.gif
       127: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_Purple.gif
       128: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_White.gif
-      270: Resources/WeaponrySprites/FloorOb/floorob_LaserPistol.gif
-      271: Resources/WeaponrySprites/FloorOb/floorob_LaserPistolBattery.gif
-      272: Resources/WeaponrySprites/FloorOb/floorob_LaserRifle.gif
-      273: Resources/WeaponrySprites/FloorOb/floorob_LaserBattery.gif
-      274: Resources/WeaponrySprites/FloorOb/floorob_LaserSniper.gif
-      275: Resources/WeaponrySprites/FloorOb/floorob_LaserSniperBattery.gif
-      276: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaser.gif
-      277: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaserBattery.gif
+      960: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/UAVDebris.gif
+      1021: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_SmokeLauncherClip.png
+      1118: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_Scoutdrone.png
+#####----- Unit Floorobs Sprites for XCOM ends here -----#####
+#####----- Unit FloorObs Sprites for ALIENS -----#####
+      42: Resources/UnitSprites/AlienFaction/FLOOROB/Sectoid_Corpse.png
+      44: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Corpse.gif
+      48: Resources/UnitSprites/AlienFaction/FLOOROB/Floater_Corpse.gif
+      800: Resources/UnitSprites/AlienFaction/FLOOROB/MUTON_COMMANDO_Corpse.gif
+      801: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Guard_Corpse.gif
+      802: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Commander_Corpse.gif
+      803: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Sectoid_Corpse.gif
+      804: Resources/UnitSprites/AlienFaction/FLOOROB/Hybrid_Corpse.gif
+      805: Resources/UnitSprites/AlienFaction/FLOOROB/SOVEREIGN_Corpse.gif
+      806: Resources/UnitSprites/AlienFaction/FLOOROB/EnergyAlien_Corpse.gif
+      807: Resources/UnitSprites/AlienFaction/FLOOROB/Formic_Corpse.png
+      808: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Muton_Corpse.gif
+      809: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Berzerker_Corpse.gif
+      810: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Muton_Commander_Corpse.gif
+      811: Resources/UnitSprites/AlienFaction/FLOOROB/Carcharodon_Corpse.gif
+      812: Resources/UnitSprites/AlienFaction/FLOOROB/Abomination_Corpse.gif
+#####----- Unit FloorObs Sprites for ALIENS ends here -----#####
+######----- Tier 1 Ballistic tier FloorObs -----#####
       278: Resources/WeaponrySprites/FloorOb/floorob_AMRifle.gif
       279: Resources/WeaponrySprites/FloorOb/floorob_AMRifleClip.gif
       280: Resources/WeaponrySprites/FloorOb/floorob_APRocket.gif
       281: Resources/WeaponrySprites/FloorOb/floorob_AssaultRifle.gif
       282: Resources/WeaponrySprites/FloorOb/floorob_AssaultRifleClip.gif
+      302: Resources/WeaponrySprites/FloorOb/floorob_LMG.gif
+      303: Resources/WeaponrySprites/FloorOb/floorob_LMGBelt.gif
+      304: Resources/WeaponrySprites/FloorOb/floorob_Minigun.gif
+      305: Resources/WeaponrySprites/FloorOb/floorob_MinigunBelt.gif
+      306: Resources/WeaponrySprites/FloorOb/floorob_Pistol.gif
+      307: Resources/WeaponrySprites/FloorOb/floorob_Shotgun.gif
+      308: Resources/WeaponrySprites/FloorOb/floorob_ShotgunShells.gif
+      309: Resources/WeaponrySprites/FloorOb/floorob_SMG.gif
+      310: Resources/WeaponrySprites/FloorOb/floorob_SMGClip.gif
+      311: Resources/WeaponrySprites/FloorOb/floorob_SniperRifle.gif
+      312: Resources/WeaponrySprites/FloorOb/floorob_SniperRifleClip.gif
+      314: Resources/WeaponrySprites/FloorOb/floorob_ShotgunSlugs.gif
+      326: Resources/WeaponrySprites/FloorOb/floorob_pistolsmall.gif
+      327: Resources/WeaponrySprites/FloorOb/floorob_pistolsmallclip.gif
+      328: Resources/WeaponrySprites/FloorOb/floorob_PDW.gif
+      329: Resources/WeaponrySprites/FloorOb/floorob_PDWclip.gif
+      344: Resources/WeaponrySprites/FloorOb/floorob_pistolClip.gif
+      345: Resources/WeaponrySprites/FloorOb/floorob_MachinePistol.gif
+      346: Resources/WeaponrySprites/FloorOb/floorob_MachinePistolClip.gif
+      347: Resources/WeaponrySprites/FloorOb/floorob_Magnum.gif
+      348: Resources/WeaponrySprites/FloorOb/floorob_MagnumClip.gif
+      600: Resources/WeaponrySprites/FloorOb/floorob_pistolsmall.gif
+      601: Resources/WeaponrySprites/FloorOb/floorob_pistolsmallclip.gif
+      602: Resources/WeaponrySprites/FloorOb/floorob_UZI.gif
+      603: Resources/WeaponrySprites/FloorOb/floorob_UZIClip.gif
+      11: Resources/WeaponrySpritesCorregido/1stTierBalli/FloorOb/14GrenadeLauncher_floor.png
+      12: Resources/WeaponrySpritesCorregido/1stTierBalli/FloorOb/14GrenadeLauncher_drum_floor.png
+      15: Resources/WeaponrySpritesCorregido/1stTierBalli/FloorOb/15RocketLauncher_floor.png
+######----- Tier 1 ends here -----#####
+######----- Tier 2 X ballistic FloorObs -----#####
+      324: Resources/WeaponrySprites/FloorOb/floorob_HVSniperRifleShell.gif
       283: Resources/WeaponrySprites/FloorOb/floorob_HVLMG.gif
       284: Resources/WeaponrySprites/FloorOb/floorob_HVLMGBelt.gif
       285: Resources/WeaponrySprites/FloorOb/floorob_HVLMGBeltAlloy.gif
@@ -434,143 +525,9 @@ extraSprites:
       298: Resources/WeaponrySprites/FloorOb/floorob_HVSniperRifle.gif
       299: Resources/WeaponrySprites/FloorOb/floorob_HVSniperRifleClip.gif
       300: Resources/WeaponrySprites/FloorOb/floorob_HVSniperRifleClipAlloy.gif
-      301: Resources/WeaponrySprites/FloorOb/floorob_IncGre.gif
-      302: Resources/WeaponrySprites/FloorOb/floorob_LMG.gif
-      303: Resources/WeaponrySprites/FloorOb/floorob_LMGBelt.gif
-      304: Resources/WeaponrySprites/FloorOb/floorob_Minigun.gif
-      305: Resources/WeaponrySprites/FloorOb/floorob_MinigunBelt.gif
-      306: Resources/WeaponrySprites/FloorOb/floorob_Pistol.gif
-      307: Resources/WeaponrySprites/FloorOb/floorob_Shotgun.gif
-      308: Resources/WeaponrySprites/FloorOb/floorob_ShotgunShells.gif
-      309: Resources/WeaponrySprites/FloorOb/floorob_SMG.gif
-      310: Resources/WeaponrySprites/FloorOb/floorob_SMGClip.gif
-      311: Resources/WeaponrySprites/FloorOb/floorob_SniperRifle.gif
-      312: Resources/WeaponrySprites/FloorOb/floorob_SniperRifleClip.gif
-      313: Resources/WeaponrySprites/FloorOb/floorob_HVGre.gif
-      314: Resources/WeaponrySprites/FloorOb/floorob_ShotgunSlugs.gif
-      315: Resources/WeaponrySprites/FloorOb/floorob_Knife.gif
-      316: Resources/WeaponrySprites/FloorOb/floorob_BrassKnuckles.gif
-      317: Resources/WeaponrySprites/FloorOb/floorob_LaserSMG.gif
-      318: Resources/WeaponrySprites/FloorOb/floorob_LaserSMGBattery.gif
-      319: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgun.gif
-      320: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgunBattery.gif
-      321: Resources/WeaponrySprites/FloorOb/floorob_LaserLMG.gif
-      322: Resources/WeaponrySprites/FloorOb/floorob_LaserLMGBattery.gif
-      324: Resources/WeaponrySprites/FloorOb/floorob_HVSniperRifleShell.gif
-      325: Resources/WeaponrySprites/FloorOb/floorob_LaserSword.gif
-      326: Resources/WeaponrySprites/FloorOb/floorob_pistolsmall.gif
-      327: Resources/WeaponrySprites/FloorOb/floorob_pistolsmallclip.gif
-      328: Resources/WeaponrySprites/FloorOb/floorob_PDW.gif
-      329: Resources/WeaponrySprites/FloorOb/floorob_PDWclip.gif
-      330: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaserBattery2.gif
-      331: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaserBattery3.gif
-      332: Resources/WeaponrySprites/FloorOb/floorob_LaserBattery2.gif
-      333: Resources/WeaponrySprites/FloorOb/floorob_LaserBattery3.gif
-      334: Resources/WeaponrySprites/FloorOb/floorob_LaserLMGBattery2.gif
-      335: Resources/WeaponrySprites/FloorOb/floorob_LaserLMGBattery3.gif
-      336: Resources/WeaponrySprites/FloorOb/floorob_LaserPistolBattery2.gif
-      337: Resources/WeaponrySprites/FloorOb/floorob_LaserPistolBattery3.gif
-      338: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgunBattery2.gif
-      339: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgunBattery3.gif
-      340: Resources/WeaponrySprites/FloorOb/floorob_LaserSMGBattery2.gif
-      341: Resources/WeaponrySprites/FloorOb/floorob_LaserSMGBattery3.gif
-      342: Resources/WeaponrySprites/FloorOb/floorob_LaserSniperBattery2.gif
-      343: Resources/WeaponrySprites/FloorOb/floorob_LaserSniperBattery3.gif
-      344: Resources/WeaponrySprites/FloorOb/floorob_pistolClip.gif
-      345: Resources/WeaponrySprites/FloorOb/floorob_MachinePistol.gif
-      346: Resources/WeaponrySprites/FloorOb/floorob_MachinePistolClip.gif
-      347: Resources/WeaponrySprites/FloorOb/floorob_Magnum.gif
-      348: Resources/WeaponrySprites/FloorOb/floorob_MagnumClip.gif
-      350: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaPistol.gif
-      351: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaPistolClip.gif
-      352: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaAssaulter.gif
-      353: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaAssaulterClip.gif
-      354: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifle.gif
-      355: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip.gif
-      356: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaBlaster.gif
-      357: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaBlasterClip.gif
-      358: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifle.gif
-      359: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifleClip.gif
-      360: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasma.gif
-      361: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip.gif
-      362: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannon.gif
-      363: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannonClip.gif
-      364: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienGrenade.gif
-      365: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienCommDevice.gif
-      366: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHighExplosive.gif
-      367: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienProjector.gif
-      368: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienInjector.gif
-      369: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSword.gif
-      370: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienProxGrenade.gif
-      371: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienSmallEntertainment.gif
-      372: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlloyBlade.gif
-      373: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_BlasterBomb.gif
-      374: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElleriumLamp.gif
-      375: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallLauncher.gif
-      376: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBomb.gif
-      377: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistol.gif
-      378: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistolClip.gif
-      379: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulter.gif
-      380: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulterClip.gif
-      381: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifle.gif
-      382: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifleClip.gif
-      383: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlaster.gif
-      384: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlasterClip.gif
-      385: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifle.gif
-      386: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifleClip.gif
-      387: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasma.gif
-      388: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaClip.gif
-      389: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannon.gif
-      390: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip.gif
-      391: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElitePlasma.gif
-      392: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElitePlasmaClip.gif
-      393: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienComputer.gif
-      394: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienDNASample.gif
-      395: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienEmbryo.gif
-      396: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienExtractor.gif
-      397: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienOrganSample.gif
-      400: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBombAcid.gif
-      401: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBombExplosive.gif
-      402: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip2.gif
-      403: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip3.gif
-      406: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifleClip2.gif
-      408: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip2.gif
-      409: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip3.gif
-      411: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannonClip3.gif
-      412: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistolClip2.gif
-      413: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistolClip3.gif
-      414: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulterClip2.gif
-      415: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulterClip3.gif
-      416: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifleClip2.gif
-      417: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifleClip3.gif
-      418: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlasterClip2.gif
-      419: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlasterClip3.gif
-      420: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifleClip2.gif
-      421: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifleClip3.gif
-      422: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaClip2.gif
-      423: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaClip3.gif
-      424: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip2.gif
-      425: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip3.gif
-      430: Resources/XtraSprites/floorob_HumanAlloyBlade.gif
-      431: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanPlasmaBlade.gif
-      433: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanProxGrenade.gif
-      434: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumaAntiMatterBomb.gif
-      508: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistol.gif
-      509: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistolClip.gif
-      510: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistolClip2.gif
-      511: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistolClip3.gif
-      512: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistol.gif
-      513: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistolClip.gif
-      514: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistolClip2.gif
-      515: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistolClip3.gif
-      516: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbine.gif
-      517: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbineClip.gif
-      518: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbineClip2.gif
-      519: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbineClip3.gif
-      600: Resources/WeaponrySprites/FloorOb/floorob_pistolsmall.gif
-      601: Resources/WeaponrySprites/FloorOb/floorob_pistolsmallclip.gif
-      602: Resources/WeaponrySprites/FloorOb/floorob_UZI.gif
-      603: Resources/WeaponrySprites/FloorOb/floorob_UZIClip.gif
+      647: Resources/WeaponrySprites/FloorOb/floorob_HVRL.gif
+      648: Resources/WeaponrySprites/FloorOb/floorob_HVRLR1.gif
+      649: Resources/WeaponrySprites/FloorOb/floorob_HVRLR2.gif
       604: Resources/WeaponrySprites/FloorOb/floorob_HVMachinePistol.gif
       605: Resources/WeaponrySprites/FloorOb/floorob_HVMachinePistolClip.gif
       606: Resources/WeaponrySprites/FloorOb/floorob_HVMachinePistolClipAlloy.gif
@@ -586,6 +543,62 @@ extraSprites:
       616: Resources/WeaponrySprites/FloorOb/floorob_HVUZI.gif
       617: Resources/WeaponrySprites/FloorOb/floorob_HVUZIClip.gif
       618: Resources/WeaponrySprites/FloorOb/floorob_HVUZIClipAlloy.gif
+      660: Resources/WeaponrySprites/FloorOb/floorob_HVSmallPistolClipTech.gif
+      661: Resources/WeaponrySprites/FloorOb/floorob_HVPistolClipTech.gif
+      662: Resources/WeaponrySprites/FloorOb/floorob_HVMachinePistolClipTech.gif
+      663: Resources/WeaponrySprites/FloorOb/floorob_HVMagnumClipTech.gif
+      664: Resources/WeaponrySprites/FloorOb/floorob_HVUZIClipTech.gif
+      665: Resources/WeaponrySprites/FloorOb/floorob_HVSMGClipTech.gif
+      666: Resources/WeaponrySprites/FloorOb/floorob_HVPDWClipTech.gif
+      667: Resources/WeaponrySprites/FloorOb/floorob_HVRifleClipTech.gif
+      668: Resources/WeaponrySprites/FloorOb/floorob_HVShotgunShellsTech.gif
+      669: Resources/WeaponrySprites/FloorOb/floorob_HVSniperRifleClipTech.gif
+      670: Resources/WeaponrySprites/FloorOb/floorob_HVLMGBeltTech.gif
+      680: Resources/WeaponrySprites/FloorOb/floorob_MinigunT2.gif
+      681: Resources/WeaponrySprites/FloorOb/floorob_MinigunBeltT2.gif
+      682: Resources/WeaponrySprites/FloorOb/floorob_MinigunBeltT22.gif
+      683: Resources/WeaponrySprites/FloorOb/floorob_MinigunBeltT23.gif
+      676: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannon.gif
+      677: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannonClip.gif
+      678: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannonClip2.gif
+      679: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannonClip3.gif
+#####------ Tier 2 X ballistic ends here -----#####
+#####------ Tier 3 Hybrid FloorObs -----#####
+
+
+#####------ Tier 3 Hybrid ends here -----#####
+#####------ Tier 4 Laser FloorObs ------#####
+      316: Resources/WeaponrySprites/FloorOb/floorob_BrassKnuckles.gif
+      270: Resources/WeaponrySprites/FloorOb/floorob_LaserPistol.gif
+      271: Resources/WeaponrySprites/FloorOb/floorob_LaserPistolBattery.gif
+      272: Resources/WeaponrySprites/FloorOb/floorob_LaserRifle.gif
+      273: Resources/WeaponrySprites/FloorOb/floorob_LaserBattery.gif
+      274: Resources/WeaponrySprites/FloorOb/floorob_LaserSniper.gif
+      275: Resources/WeaponrySprites/FloorOb/floorob_LaserSniperBattery.gif
+      317: Resources/WeaponrySprites/FloorOb/floorob_LaserSMG.gif
+      318: Resources/WeaponrySprites/FloorOb/floorob_LaserSMGBattery.gif
+      319: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgun.gif
+      320: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgunBattery.gif
+      321: Resources/WeaponrySprites/FloorOb/floorob_LaserLMG.gif
+      322: Resources/WeaponrySprites/FloorOb/floorob_LaserLMGBattery.gif
+      330: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaserBattery2.gif
+      331: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaserBattery3.gif
+      332: Resources/WeaponrySprites/FloorOb/floorob_LaserBattery2.gif
+      333: Resources/WeaponrySprites/FloorOb/floorob_LaserBattery3.gif
+      334: Resources/WeaponrySprites/FloorOb/floorob_LaserLMGBattery2.gif
+      335: Resources/WeaponrySprites/FloorOb/floorob_LaserLMGBattery3.gif
+      336: Resources/WeaponrySprites/FloorOb/floorob_LaserPistolBattery2.gif
+      337: Resources/WeaponrySprites/FloorOb/floorob_LaserPistolBattery3.gif
+      338: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgunBattery2.gif
+      339: Resources/WeaponrySprites/FloorOb/floorob_LaserShotgunBattery3.gif
+      340: Resources/WeaponrySprites/FloorOb/floorob_LaserSMGBattery2.gif
+      341: Resources/WeaponrySprites/FloorOb/floorob_LaserSMGBattery3.gif
+      342: Resources/WeaponrySprites/FloorOb/floorob_LaserSniperBattery2.gif
+      343: Resources/WeaponrySprites/FloorOb/floorob_LaserSniperBattery3.gif
+      276: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaser.gif
+      277: Resources/WeaponrySprites/FloorOb/floorob_HeavyLaserBattery.gif
+#####------ Tier 4 Laser ends here-----#####
+#####------ Tier 5 Hypervelocity  FloorObs -----######
       619: Resources/WeaponrySprites/FloorOb/floorob_TFPistol.gif
       620: Resources/WeaponrySprites/FloorOb/floorob_TFPistolClip.gif
       621: Resources/WeaponrySprites/FloorOb/floorob_TFSMG.gif
@@ -610,13 +623,6 @@ extraSprites:
       640: Resources/WeaponrySprites/FloorOb/floorob_TFHeavy.gif
       641: Resources/WeaponrySprites/FloorOb/floorob_TFHeavyClip.gif
       642: Resources/WeaponrySprites/FloorOb/floorob_TFHeavyClip2.gif
-      643: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncher.gif
-      644: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncherBomb.gif
-      645: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncherBomb2.gif
-      646: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncherBomb3.gif
-      647: Resources/WeaponrySprites/FloorOb/floorob_HVRL.gif
-      648: Resources/WeaponrySprites/FloorOb/floorob_HVRLR1.gif
-      649: Resources/WeaponrySprites/FloorOb/floorob_HVRLR2.gif
       650: Resources/WeaponrySprites/FloorOb/floorob_TFPistolClip3.gif
       651: Resources/WeaponrySprites/FloorOb/floorob_TFSMGClip3.gif
       652: Resources/WeaponrySprites/FloorOb/floorob_TFRifleClip3.gif
@@ -625,54 +631,137 @@ extraSprites:
       655: Resources/WeaponrySprites/FloorOb/floorob_TFLMGClip3.gif
       656: Resources/WeaponrySprites/FloorOb/floorob_TFHeavyClip3.gif
       657: Resources/WeaponrySprites/FloorOb/floorob_TFCannonClip3.gif
-      660: Resources/WeaponrySprites/FloorOb/floorob_HVSmallPistolClipTech.gif
-      661: Resources/WeaponrySprites/FloorOb/floorob_HVPistolClipTech.gif
-      662: Resources/WeaponrySprites/FloorOb/floorob_HVMachinePistolClipTech.gif
-      663: Resources/WeaponrySprites/FloorOb/floorob_HVMagnumClipTech.gif
-      664: Resources/WeaponrySprites/FloorOb/floorob_HVUZIClipTech.gif
-      665: Resources/WeaponrySprites/FloorOb/floorob_HVSMGClipTech.gif
-      666: Resources/WeaponrySprites/FloorOb/floorob_HVPDWClipTech.gif
-      667: Resources/WeaponrySprites/FloorOb/floorob_HVRifleClipTech.gif
-      668: Resources/WeaponrySprites/FloorOb/floorob_HVShotgunShellsTech.gif
-      669: Resources/WeaponrySprites/FloorOb/floorob_HVSniperRifleClipTech.gif
-      670: Resources/WeaponrySprites/FloorOb/floorob_HVLMGBeltTech.gif
-      671: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpLarge.gif
-      672: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpSmall.gif
-      673: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElleriumLampHuman.gif
+#####------ Tier 5 Hypervelocity ends here -----#####
+#####------ Tier 6 Terran plasma FloorObs -----######
+      508: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistol.gif
+      509: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistolClip.gif
+      510: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistolClip2.gif
+      511: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallPlasmaPistolClip3.gif
+      512: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistol.gif
+      513: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistolClip.gif
+      514: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistolClip2.gif
+      515: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaPistolClip3.gif
+      516: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbine.gif
+      517: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbineClip.gif
+      518: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbineClip2.gif
+      519: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaCarbineClip3.gif
+      412: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistolClip2.gif
+      413: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistolClip3.gif
+      414: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulterClip2.gif
+      415: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulterClip3.gif
+      416: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifleClip2.gif
+      417: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifleClip3.gif
+      418: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlasterClip2.gif
+      419: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlasterClip3.gif
+      420: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifleClip2.gif
+      421: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifleClip3.gif
+      422: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaClip2.gif
+      423: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaClip3.gif
+      424: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip2.gif
+      425: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip3.gif
+      377: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistol.gif
+      378: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaPistolClip.gif
+      379: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulter.gif
+      380: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaAssaulterClip.gif
+      381: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifle.gif
+      382: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaRifleClip.gif
+      383: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlaster.gif
+      384: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaBlasterClip.gif
+      385: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifle.gif
+      386: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PlasmaSniperRifleClip.gif
+      387: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasma.gif
+      388: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaClip.gif
+      389: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannon.gif
+      390: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HeavyPlasmaCannonClip.gif
+      643: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncher.gif
+      644: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncherBomb.gif
+      645: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncherBomb2.gif
+      646: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AntiMatterLauncherBomb3.gif
+#####------ Tier 6 Terran plasma ends here -----#####
+#####------ Tier 7 Stun FloorObs -----######
+      83: Resources/WeaponrySprites/Taser/floorob_Taser.png
+      91: Resources/WeaponrySprites/Taser/floorob_Taser_Ammo.png
+#####------ Tier 7 Stun ends here -----#####
+#####------ Tier 8 Melee FloorObs -----######
+      372: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlloyBlade.gif
+      430: Resources/XtraSprites/floorob_HumanAlloyBlade.gif
+      369: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSword.gif
+      325: Resources/WeaponrySprites/FloorOb/floorob_LaserSword.gif
+      431: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanPlasmaBlade.gif
+      315: Resources/WeaponrySprites/FloorOb/floorob_Knife.gif
+#####------ Tier 8 Melee ends here -----#####
+#####------ Tier 9 Ordnance FloorObs -----######
+      313: Resources/WeaponrySprites/FloorOb/floorob_HVGre.gif
+      301: Resources/WeaponrySprites/FloorOb/floorob_IncGre.gif
+      433: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanProxGrenade.gif
+      434: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumaAntiMatterBomb.gif
       674: Resources/WeaponrySprites/FloorOb/floorob_tier3grenade.gif
       675: Resources/WeaponrySprites/FloorOb/floorob_tier3grenade2.gif
-      676: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannon.gif
-      677: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannonClip.gif
-      678: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannonClip2.gif
-      679: Resources/WeaponrySprites/FloorOb/floorob_AssaultCannonClip3.gif
-      680: Resources/WeaponrySprites/FloorOb/floorob_MinigunT2.gif
-      681: Resources/WeaponrySprites/FloorOb/floorob_MinigunBeltT2.gif
-      682: Resources/WeaponrySprites/FloorOb/floorob_MinigunBeltT22.gif
-      683: Resources/WeaponrySprites/FloorOb/floorob_MinigunBeltT23.gif
-      800: Resources/UnitSprites/AlienFaction/FLOOROB/MUTON_COMMANDO_Corpse.gif
-      801: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Guard_Corpse.gif
-      802: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Commander_Corpse.gif
-      803: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Sectoid_Corpse.gif
-      804: Resources/UnitSprites/AlienFaction/FLOOROB/Hybrid_Corpse.gif
-      805: Resources/UnitSprites/AlienFaction/FLOOROB/SOVEREIGN_Corpse.gif
-      806: Resources/UnitSprites/AlienFaction/FLOOROB/EnergyAlien_Corpse.gif
-      807: Resources/UnitSprites/AlienFaction/FLOOROB/Formic_Corpse.png
-      808: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Muton_Corpse.gif
-      809: Resources/UnitSprites/AlienFaction/FLOOROB/Muton_Berzerker_Corpse.gif
-      810: Resources/UnitSprites/AlienFaction/FLOOROB/Armored_Muton_Commander_Corpse.gif
-      811: Resources/UnitSprites/AlienFaction/FLOOROB/Carcharodon_Corpse.gif
-      812: Resources/UnitSprites/AlienFaction/FLOOROB/Abomination_Corpse.gif
+#####------ Tier 9 Ordnance ends here -----#####
+#####------ Tier 10 Alien Plasma FloorObs -----######
+      350: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaPistol.gif
+      351: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaPistolClip.gif
+      352: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaAssaulter.gif
+      353: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaAssaulterClip.gif
+      354: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifle.gif
+      355: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip.gif
+      356: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaBlaster.gif
+      357: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaBlasterClip.gif
+      358: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifle.gif
+      359: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifleClip.gif
+      402: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip2.gif
+      403: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip3.gif
+      406: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifleClip2.gif
+      408: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip2.gif
+      409: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip3.gif
+      411: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannonClip3.gif
+      360: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasma.gif
+      361: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip.gif
+      362: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannon.gif
+      363: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannonClip.gif
+      375: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallLauncher.gif
+      376: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBomb.gif
+      391: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElitePlasma.gif
+      392: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElitePlasmaClip.gif
+      400: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBombAcid.gif
+      401: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBombExplosive.gif
+      34: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_BlasterLauncher.gif
+      373: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_BlasterBomb.gif
+#####------ Tier 10 Alien plasma ends here -----#####
+#####------ Tier 10b Alien Ordnance FloorObs -----######
+      364: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienGrenade.gif
+      366: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHighExplosive.gif
+      370: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienProxGrenade.gif
+#####------ Tier 10b Alien Ordnance ends here -----#####
+#####------ Tier 11 Miscellaneous -----######
+      393: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienComputer.gif
+      394: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienDNASample.gif
+      395: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienEmbryo.gif
+      396: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienExtractor.gif
+      397: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienOrganSample.gif
+      365: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienCommDevice.gif
+      367: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienProjector.gif
+      368: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienInjector.gif
+      371: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienSmallEntertainment.gif
       950: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyCodex.gif
       951: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyCryptics.gif
       952: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyOracle.gif
       953: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_CodexKey.gif
-      960: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/UAVDebris.gif
+      671: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpLarge.gif
+      672: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpSmall.gif
+      673: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElleriumLampHuman.gif
+      374: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElleriumLamp.gif
       996: Resources/WeaponrySprites/Botiquines/FLOOROB/floorob_AdrenoSyringe.png
       997: Resources/WeaponrySprites/Botiquines/FLOOROB/floorob_MiniFirstAid.png
       998: Resources/WeaponrySprites/Botiquines/FLOOROB/floorob_BasicMedkit.png
       999: Resources/WeaponrySprites/Botiquines/FLOOROB/floorob_ImprovedMedKit.png
-      1021: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_SmokeLauncherClip.png
-      1118: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_Scoutdrone.png
+########## ojito reordenar###########
+      165: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_CORPSE.png
+      166: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_COMBAT_VEST_CORPSE.png
+      167: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_ALLOY_VEST_CORPSE.png
+      168: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_DURATHREAD_VEST_CORPSE.png
+########## ojito reordenar arriba de esto############
+#####------ Tier 11 Miscellaneous ends here -----#####
   - type: FLOOROB.PCK
     subX: 32
     subY: 40
@@ -687,6 +776,7 @@ extraSprites:
     height: 48
     files:
       501: Resources/WeaponrySprites/FloorOb/floorob_ShockWeapons.gif
+
 #---HAND OBJECTS------------------------------------------
   - type: HANDOB.PCK
     files:
@@ -723,38 +813,37 @@ extraSprites:
     width: 256
     height: 40
     files:
-##### ojito ordenar despues ####
-      56:  Resources/WeaponrySprites/alienArsenal/HandObjects/BlasterLauncher.gif
-      200: Resources/WeaponrySprites/Taser/HandOb_Taser.png
-      208: Resources/WeaponrySprites/ImprovedHandObs/handob_MediKit.png
-      232: Resources/WeaponrySprites/ImprovedHandObs/handob_prx_grn.png
-      1335: Resources/WeaponrySprites/ImprovedHandObs/handob_aln_grn.png
-      216: Resources/WeaponrySprites/ImprovedHandObs/handob_HE.png
-      1224: Resources/WeaponrySprites/ImprovedHandObs/handob_Scanner.png
-      240: Resources/WeaponrySprites/ImprovedHandObs/handob_ElectroFlare.png
-      248: Resources/WeaponrySprites/ImprovedHandObs/handob_MindProbe.png
+######----- Tier 1 Ballistic tier HandObs
       256: Resources/WeaponrySprites/ImprovedHandObs/Handob_SMRocket.png
-      # 264: Resources/WeaponrySprites/ImprovedHandObs/Handob_LGRocket.png
+      264: Resources/WeaponrySprites/ImprovedHandObs/Handob_LGRocket.png
       1272: Resources/WeaponrySprites/ImprovedHandObs/Handob_INRocket.png
-      # 280: Resources/WeaponrySprites/ImprovedHandObs/Handob_BlasterBomb.png
-      1344: Resources/WeaponrySprites/ImprovedHandObs/Handob_SmokeGrenade.png
       1352: Resources/WeaponrySprites/ImprovedHandObs/Handob_RifleClip.png
       1366: Resources/WeaponrySprites/ImprovedHandObs/Handob_PistolClip.png
-    #  1632: Resources/WeaponrySprites/ImprovedHandObs/Handob_PPistolClip.png
-    #  640: Resources/WeaponrySprites/ImprovedHandObs/Handob_PRifleClip.png
-    #  648: Resources/WeaponrySprites/ImprovedHandObs/Handob_PHeavyClip.png
-    #  656: Resources/WeaponrySprites/ImprovedHandObs/Handob_StunBomb.png
-    #  664: Resources/WeaponrySprites/ImprovedHandObs/handob_Elerium.png
       530: Resources/WeaponrySprites/PDW/PDWHandob.gif
+      590: Resources/WeaponrySprites/MachinePistol/MachinePistolHand.gif
+      600: Resources/WeaponrySprites/Magnum/MagnumHand.gif
+      610: Resources/WeaponrySprites/PistolSmall/PistolSmallHand.gif
+      620: Resources/WeaponrySprites/UZI/UZIHand.gif
+      # 90: Resources/WeaponrySpritesCorregido/1stTierBalli/HandOb/14GrenadeLauncher_hand.png ojito hacer a dos manos
+      72: Resources/WeaponrySpritesCorregido/1stTierBalli/HandOb/15RocketLauncher_hand.png
+######----- Tier 1 ends here -----#####
+######----- Tier 2 X ballistic HandObs -----#####
       540: Resources/WeaponrySprites/HVMachinePistol/HVMachinePistolHand.gif
       550: Resources/WeaponrySprites/HVMagnum/HVMagnumHand.gif
       560: Resources/WeaponrySprites/HVPDW/HVPDWHand.gif
       570: Resources/WeaponrySprites/HVPistolSmall/HVPistolSmallHand.gif
       580: Resources/WeaponrySprites/HVUZI/HVUZIHand.gif
-      590: Resources/WeaponrySprites/MachinePistol/MachinePistolHand.gif
-      600: Resources/WeaponrySprites/Magnum/MagnumHand.gif
-      610: Resources/WeaponrySprites/PistolSmall/PistolSmallHand.gif
-      620: Resources/WeaponrySprites/UZI/UZIHand.gif
+      1090: Resources/WeaponrySprites/HVRL/HVRLHandOb.gif
+      2260: Resources/WeaponrySprites/T2Mingun/T2MinigunHandObj.gif
+      2270: Resources/WeaponrySprites/AssaultCannon/AssaultCannonHandObj.gif
+#####------ Tier 2 X ballistic ends here -----#####
+#####------ Tier 3 Hybrid HandObs -----#####
+
+#####------ Tier 3 Hybrid ends here -----#####
+#####------ Tier 4 Laser HandObs ------#####
+
+#####------ Tier 4 Laser ends here-----#####
+#####------ Tier 5 Hypervelocity  HandObs -----######
       630: Resources/WeaponrySprites/TFPistol/TFPistolHand.gif
       640: Resources/WeaponrySprites/TFSMG/TFSMGHand.gif
       650: Resources/WeaponrySprites/TFRifle/TFRifleHand.gif
@@ -763,10 +852,34 @@ extraSprites:
       680: Resources/WeaponrySprites/TFLMG/TFLMG.gif
       690: Resources/WeaponrySprites/TFCannon/TFCannonHand.gif
       700: Resources/WeaponrySprites/TFHeavy/TFHeavyHand.gif
+#####------ Tier 5 Hypervelocity ends here -----#####
+#####------ Tier 6 Terran plasma HandObs -----######
       710: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaCarbine.gif
-      800: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaSwordHandObj.gif
+      940: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaSupressor.gif
+      960: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaAssaulter.gif
+      970: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaBlaster.gif
+      980: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaPistol.gif
+      990: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaRifle.gif
+      1000: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaSniperRifle.gif
       810: Resources/WeaponrySprites/alienArsenal/HandObjects/SmallPlasmaPistol.gif
       820: Resources/WeaponrySprites/alienArsenal/HandObjects/HeavyPlasmaPistol.gif
+      950: Resources/WeaponrySprites/alienArsenal/HandObjects/HeavyPlasma.gif
+      1080: Resources/WeaponrySprites/alienArsenal/HandObjects/AntiMatterLauncherHandOb.gif
+#####------ Tier 6 Terran plasma ends here -----#####
+#####------ Tier 7 Stun HandObs -----######
+      200: Resources/WeaponrySprites/Taser/HandOb_Taser.png
+#####------ Tier 7 Stun ends here -----#####
+#####------ Tier 8 Melee HandObs -----######
+      1060: Resources/XtraSprites/HumanAlloyBladeHandOb.png
+      800: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaSwordHandObj.gif
+      1070: Resources/WeaponrySprites/alienArsenal/HandObjects/HumanPlasmaSwordHandOb.gif
+#####------ Tier 8 Melee ends here -----#####
+#####------ Tier 9 Ordnance HandObs -----######
+      1344: Resources/WeaponrySprites/ImprovedHandObs/Handob_SmokeGrenade.png
+      232: Resources/WeaponrySprites/ImprovedHandObs/handob_prx_grn.png
+      216: Resources/WeaponrySprites/ImprovedHandObs/handob_HE.png
+#####------ Tier 9 Ordnance ends here -----#####
+#####------ Tier 10 Alien Plasma HandObs -----######
       860: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienHeavyPlasma.gif
       870: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienCannon.gif
       880: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienSMG.gif
@@ -774,27 +887,28 @@ extraSprites:
       900: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienPistol.gif
       910: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienRifle.gif
       920: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienSniperRifle.gif
-      940: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaSupressor.gif
-      950: Resources/WeaponrySprites/alienArsenal/HandObjects/HeavyPlasma.gif
-      960: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaAssaulter.gif
-      970: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaBlaster.gif
-      980: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaPistol.gif
-      990: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaRifle.gif
-      1000: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaSniperRifle.gif
       1020: Resources/WeaponrySprites/alienArsenal/HandObjects/ClusterLauncher.gif
       1030: Resources/WeaponrySprites/alienArsenal/HandObjects/EliteRifle.gif
+      56:  Resources/WeaponrySprites/alienArsenal/HandObjects/BlasterLauncher.gif
+#####------ Tier 10 Alien plasma ends here -----#####
+#####------ Tier 10b Alien Ordnance HandObs -----######
       1040: Resources/WeaponrySprites/alienArsenal/HandObjects/AlienHighExplosiveHandOb.gif
       1050: Resources/WeaponrySprites/alienArsenal/HandObjects/AntiMatterBombHandOb.gif
-      1060: Resources/XtraSprites/HumanAlloyBladeHandOb.png
-      1070: Resources/WeaponrySprites/alienArsenal/HandObjects/HumanPlasmaSwordHandOb.gif
-      1080: Resources/WeaponrySprites/alienArsenal/HandObjects/AntiMatterLauncherHandOb.gif
-      1090: Resources/WeaponrySprites/HVRL/HVRLHandOb.gif
+      1335: Resources/WeaponrySprites/ImprovedHandObs/handob_aln_grn.png
+#####------ Tier 10b Alien Ordnance ends here -----#####
+#####------ Tier 11 Miscellaneous -----######
       2240: Resources/WeaponrySprites/alienArsenal/HandObjects/SmallPsiAmpHandObj.gif
       2250: Resources/WeaponrySprites/alienArsenal/HandObjects/LargePsiAmpHandObj.gif
-      2260: Resources/WeaponrySprites/T2Mingun/T2MinigunHandObj.gif
-      2270: Resources/WeaponrySprites/AssaultCannon/AssaultCannonHandObj.gif
       2980: Resources/WeaponrySprites/Botiquines/HANDOB/handob_BasicMedkit.png
       2990: Resources/WeaponrySprites/Botiquines/HANDOB/handob_ImprovedMedkit.png
+      208: Resources/WeaponrySprites/ImprovedHandObs/handob_MediKit.png
+      1224: Resources/WeaponrySprites/ImprovedHandObs/handob_Scanner.png
+      240: Resources/WeaponrySprites/ImprovedHandObs/handob_ElectroFlare.png
+      248: Resources/WeaponrySprites/ImprovedHandObs/handob_MindProbe.png
+    # 280: Resources/WeaponrySprites/ImprovedHandObs/Handob_BlasterBomb.png
+    # 656: Resources/WeaponrySprites/ImprovedHandObs/Handob_StunBomb.png
+    # 664: Resources/WeaponrySprites/ImprovedHandObs/handob_Elerium.png
+#####------ Tier 11 Miscellaneous ends here -----#####
   - type: HANDOB.PCK
     subX: 32
     subY: 40
@@ -3916,21 +4030,6 @@ extraSprites:
     height: 24  
     files:  
       108: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_SpIcon_Smell.png
-  - type: BIGOBS.PCK
-    files:
-      181: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_BITE.png
-      165: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_CORPSE.png
-      166: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_COMBAT_VEST_CORPSE.png
-      167: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_ALLOY_VEST_CORPSE.png
-      981: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_TRACK.png
-      168: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_DURATHREAD_VEST_CORPSE.png
-      874: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_DOGE_BARK.png
-  - type: FLOOROB.PCK
-    files:
-      165: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_CORPSE.png
-      166: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_COMBAT_VEST_CORPSE.png
-      167: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_ALLOY_VEST_CORPSE.png
-      168: Resources/UnitSprites/XcomFaction/XcomDoge/FloorOb/floorob_DOGE_DURATHREAD_VEST_CORPSE.png
   - type: DOGE.PCK
     subX: 32
     subY: 40
@@ -4526,11 +4625,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/IMP_TANK_CHASSIS_IMAGE.png
-  - type: BIGOBS.PCK
-    files:
-      2501: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/SMOKELAUNCHER.png
-      2504: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/25MM.png
-      2502: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/105MM.png
 #####----- MEDALS-----#####
   - type: Commendations #Hardcoded
     width: 31
