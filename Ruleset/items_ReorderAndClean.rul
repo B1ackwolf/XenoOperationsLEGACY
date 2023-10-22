@@ -487,7 +487,7 @@ items:
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
-      - STR_MACHINE_PISTOL_CLIP
+      - STR_COMPACT_PISTOL_CLIP
     accuracySnap: 50
     accuracyAimed: 68
     tuSnap: 20
@@ -513,7 +513,7 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_MACHINE_PISTOL_CLIP
+      - STR_COMPACT_PISTOL_CLIP
     accuracyAuto: 25
     accuracySnap: 53
     accuracyAimed: 72
@@ -530,7 +530,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2102
-  - type: STR_MACHINE_PISTOL_CLIP
+  - type: STR_COMPACT_PISTOL_CLIP
     size: 0.025
     costBuy: 90
     costSell: 72
@@ -641,7 +641,7 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_UZI_CLIP
+      - STR_SMG_CLIP
     accuracyAuto: 24
     accuracySnap: 40
     accuracyAimed: 60
@@ -670,7 +670,7 @@ items:
     bulletSprite: 2
     fireSound: 121
     compatibleAmmo:
-      - STR_UZI_CLIP
+      - STR_SMG_CLIP
     accuracyAuto: 30
     accuracySnap: 55
     accuracyAimed: 84
@@ -688,7 +688,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2109
-  - type: STR_UZI_CLIP
+  - type: STR_SMG_CLIP
     size: 0.025
     costBuy: 100
     costSell: 75
@@ -1060,7 +1060,7 @@ items:
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
-      - STR_MACHINE_PISTOL_CLIP
+      - STR_COMPACT_PISTOL_CLIP
       - STR_HVMACHINE_PISTOL_CLIP_ALLOY
       - STR_HVMACHINE_PISTOL_CLIP_TECH
     accuracySnap: 55
@@ -1087,7 +1087,7 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_MACHINE_PISTOL_CLIP
+      - STR_COMPACT_PISTOL_CLIP
       - STR_HVMACHINE_PISTOL_CLIP_ALLOY
       - STR_HVMACHINE_PISTOL_CLIP_TECH
     accuracyAuto: 28
@@ -1265,7 +1265,7 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_UZI_CLIP
+      - STR_SMG_CLIP
       - STR_HVUZI_CLIP_ALLOY
       - STR_HVUZI_CLIP_TECH
     accuracyAuto: 28
@@ -1295,7 +1295,7 @@ items:
     bulletSprite: 2 
     fireSound: 81
     compatibleAmmo:
-      - STR_UZI_CLIP
+      - STR_SMG_CLIP
       - STR_HVUZI_CLIP_ALLOY
       - STR_HVUZI_CLIP_TECH
     accuracyAuto: 34

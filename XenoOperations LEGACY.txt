@@ -84,68 +84,59 @@ Changelog:
 
 v.097.03 LE changelog:
 
-mas cambios:
+Various Changes:
+- Adjusted numerous references as result of the folder reorganization, such as renaming SOVEREIGNS from 'Overlord'.
+- Replaced all 'Archangel' references with 'OVERLORD.'
+- Renamed all references to roachers into Formics, which was relatively straightforward compared to the overlord case.
+- Applied similar adjustments to 'Dragonfly.'
+- Made equivalent changes to weapons and ammunition of Tier 1.
+- Modified deployment in Cydonia to ensure there are no 'helmet-less' enemies, aligning better with the lore.
+- Cydonia Elite Guards are now the most formidable foes.
+- Muton Enforcers are now accompanied by Black Sectopods, even more dangerous than their common 'blue-ish' counterparts.
+- Reordered the position of ships in lists and ufopaedia.
+- Reorganized the soldier 'type' as follows:
+  * "Doggos"
+  * "Basic Soldiers"
+  * "The Other Types"
+    ° This will help when reordering your troops by types in the base interface.
+	
+	
+Enhanced Descriptions:
+- Included additional descriptions related to the CODEX, like corrupted files.
+- Corrected some commendation errors and improved spacing, with more in-depth revisions required.
 
->>>>>>>(explicar todos los cambios a futuro con el beta de q ya ordene las carpetas, pues ahora hay q cambiar las referencias y q el primer caso fue con los SOVEREIGNS, q se llamaban overlord, pero la nave era tambien overlord, pero esta a su vez se referencia como archangel, etc)
->>>>>>>tambien cambiado los formics, q a diferencia del contrario fue mucho mas facil cambiarlos a formics
->>>>>> se cambiaron todas las referencias al archangel hacia OVERLORD
->>>>lo mismo con los dragonfly
->>>>>modificada los deployment en cydonia (para que no hayan enemigos "sin cascos" y q no tengan sentido q esten ahi segun el lore)
-     el cydonia elit guard son los mas peligrosos enemigos
-	 los mutons enforcers ahora van acompañados de sectopods negros q son muchos pas peligrosos q las contrapartes comunes
-	 
->agregadas mas descripciones relacionadas al CODEX , ejemplo el de los archivos corruptos.
->corregida algunos errores en los commendations, mejorado el espaciado, requerira otra pasada mucho mas profunda
->reordenado posicion de naves en listas y ufopaedia
->reordenado el orden de los soldados:
- al momento de ordenar por typo de soldado en tus listas, el nuevo orden es
- "doggos"
- "basic soldiers"
- the other types"
- esto ayuda mucho a la hora de ordenar tus tropas
- como efecto secundario, se pierde el tipo "1", se empieza a contar desde el tipo 2. no genera problemas excepto para aquellos con OCD (tomarle screenshot al error en lyst type)
-sprites:
->modificado el avatar background del menubatlescape para mantener el correlativo del resto del menu
->cuando estas en combate se puede dar click al boton del medio para tener un preview del enemigo
- solo muestra sprite y armas en la mano, mejorado el preview para q tenga una interfaz propia, basado en el trabajo previo de neoworm, mejorado para q sea de la misma paleta de colores q el resto de los menues
->smg hibrida, uzi hibrida, rifle hibrido y pdw hibrido retocados ligeramente la sprite principal en el area de cargadores para q parezcan mas a su respectivo cartucho
->retocado ligeralmente el cartucho de rifle hybrido
->retocado ligeralmente la posicion de lmg hybrida
->ajustada posicion del rifle rieles
->ajustada posicion smg rieles
-)))))checar eso de vuelta abajo
->ajustada posicion pistola plasma comun
->ajustada posiocion pistola plasma pesada
->ajustada posicion pistola shock
-)))))continua aca
->recoloreado las imagenes en ufopedia del sectopod, para q coincida con el sprite en las misiones
->modificado la sprite del lanzacohetes, de modo q mantenga la coherencia del artwork general del mod, sacado de xfiles y retocada la sprite
->modificado sprites de grenade launcher, municion son granadas en un drum, el floor ob ya esta listo, el handob aun necesita refinarse, todo tambien proviene de XFILES
+Sprites Changes:
+- Altered the avatar background of the Menu in the battlescape to match the rest of the interface.
+- During combat, you can click the middle button for an enemy preview. This preview now includes sprite and held weapons and boasts a user-friendly interface, inspired by Neoworm's previous work. It also adheres to the same color palette as the rest of the menus.
+- Slightly retouched the sprite of the SMG Hybrid, Uzi Hybrid, Hybrid Rifle, and PDW Hybrid in the magazine area to better resemble their respective cartridges.
+- Slightly modified the Hybrid Rifle cartridge.
+- Adjusted the position of the LMG Hybrid.
+- Tweaked the SMG Rail position.
+- Additionally, repositioned the Rail Rifle.
+- Rearranged the Pistol Plasma position.
+- Tweaked the Heavy Plasma Pistol position.
+- Recolored the images in the ufopedia for Sectopods to match their sprites in battle.
+- Modified the Rocket Launcher sprite to maintain consistency with the mod's general artwork. The base is taken from X-Files and was further refined.
+- Tweaked the sprites for the Grenade Launcher, where ammunition is now depicted as grenades in a drum. The floor-ob is ready, while the hand-ob still needs refinement. All assets are also sourced from X-Files.
 
-tweaked:
->>>ampliado considerablemente la cantidad de materiales producidos por los breakdown projects, recuerden interactuar con esto, ya q cada componente puede ser reducido a componentes mas basicos. el siguiente paso sera mejorar los projectos de manufactura (en bundle, esto tomara un poco de tiempo)
-   °adicionalmente se agregaran mas proyectos para breakdown mas articulos (ejemplo cadaveres mecanicos a cambio de piezas, o armas alienigenas por materiales, etc)
-   °aumentado el costo y tiempo para balancear
-   °reducido el costo de la manufactura y replicacion del AALLOY
-Correcciones:
->al fin resuelto problema de interrogaciones duplicadas, gracias scamps por encontrar la solucion.
->re resuelto el problema de las personal armor no siendo posibles de equipar, esta vez si se resolvio, lo juro
->resuelto problema con el sprite del escaner de drones, ahora esta correctamente centrado
->>>corrected an instance where sectopod kill medal wasnt being correctly awarded.
->resuelto un problema q evitaba q el background 7 saliera correctamente (gracias a alex_D por la solucion)
- °ya q hablamos de eso, oscurecido ligeramente los tonos de los distintos back, para hacerlo mas pleasing to the eye
->Corregido problema de ufos en el agua splish splash, no more water crash, gracias efren
->corregido una referencia incorrecta al firefly en la ufopedia, debia nombrar al DRAGONFLY
+Tweaked: 
+- Hopefully this first sweep of the drop rate of materials will help aleviate somewhat the ammount of resources aviable until a more intricate balance is done
+  * Significantly increased the amount of materials produced by breakdown projects. Remember to interact with this feature, as each component can be reduced to more basic components. The next step is improving manufacturing projects to create ammo in bundles, this change will take some time.
+  * Additionally, more breakdown projects will be added for various items (e.g., mechanical cadavers for parts or alien weapons for materials). This comes with increased costs and time requirements to maintain balance.
+  * Reduced the cost of manufacturing and replicating A-Alloys.
 
+Bugfixes:
+- Finally resolved the issue of duplicated interrogations, thanks to Scamps for finding the solution.
+- The problem with Personal Armor not being equipable has been fixed this time, I swear!
+- The drone scanner sprite issue has been corrected, and it is now correctly centered.
+- Fixed an issue where the Sectopod kill medal wasn't being awarded correctly.
+- Addressed a problem with the background 7 not displaying correctly (i found the solution in another thread, thanks to Alex_D for commenting it).
+- Darkened the tones of various backgrounds slightly to enhance visual appeal.
+- 'Splish-splash, no more water crash', UFOs can not longer create crash sites on water, thanks Efrenespartano for the help.
+- Corrected an incorrect reference to 'Firefly' in the ufopedia; it should mention 'DRAGONFLY.'
 
-(((revisar q porongas hice con los muton commanders, muton warlords y demas especies, redefinir correctamente los nombres y demas)))))
+############
 
-((((((descargar cmp y certificar q mapas y todo lo demas este en lo mas actualizado)
-
-
-
-
-########arriba####
 v0.97.02 LE changelog:
 
 Sprite Changes:

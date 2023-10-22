@@ -1179,7 +1179,7 @@
       STR_PISTOL_SMALL_UFOPEDIA: "The SIG SAUER P229, XCOM's choice for a compact sidearm, boasts a global reputation for reliability and precision. Renowned among security agencies worldwide, it's the smallest and most concealable weapon in XCOM's arsenal.{NEWLINE}{NEWLINE}Chambered with standard 9mm ammunition, it balances compactness with decent stopping power, its ergonomic design enhances control and maneuverability, ensuring XCOM operatives remain prepared for any unexpected threats." # making it the perfect companion for covert missions where concealment and precision are paramount.
       STR_MACHINE_PISTOL: Machine Pistol
       STR_MACHINE_PISTOL_UFOPEDIA: "The Beretta 93R, XCOM's rapid-fire sidearm specialist. This automatic pistol unleashes a controlled three-round burst. While it sacrifices some accuracy, the blistering rate of fire more than makes up for it.{NEWLINE}{NEWLINE}Chambered for standard 9mm ammunition, it's the ideal choice for close-quarters combat when sheer volume of fire can be the difference between victory and defeat."
-      STR_MACHINE_PISTOL_CLIP: 9mm Magazine
+      STR_COMPACT_PISTOL_CLIP: 9mm Magazine
       STR_PISTOL_NEW: Service Pistol
       STR_PISTOL_NEW_UFOPEDIA: "The FN Herstal FNX-40, chosen as XCOM's standard sidearm for our troops, is a global staple among armies and special forces. It's a versatile choice for backup and secondary roles.{NEWLINE}{NEWLINE}Chambered for .40 S&W Colt Pistol rounds, it boasts a twelve-round magazine capacity, ensuring a steady supply of firepower. Reliable and adaptable, the FNX-40 is the trusted companion for XCOM operatives in a variety of combat scenarios, ready to deliver precision and stopping power when needed most."
       STR_PISTOL_NEW_CLIP: .40 S&W Magazine
@@ -1190,7 +1190,7 @@
       STR_SMG: Submachine Gun
       STR_UZI_UFOPEDIA: "The IMI UZI has stood the test of time. A timeless design marked by subtle yet reliable updates, has earned a permanent place in XCOM's arsenal. This version is chambered with .45 ACP rounds.{NEWLINE}It shines in close-quarters combat, offering a high rate of fire and an ample magazine capacity. Its compact build enables controlled bursts even with a single hand. Yet, accuracy diminishes at longer ranges, making a reliable pick when precision isn't priority."
       STR_SMG_UFOPEDIA: "The Heckler & Koch UMP45, lightweight and maneuverable, it excels in close engagements, making it ideal for navigating tight spaces. While it thrives in these scenarios, it sacrifices accuracy at longer ranges and doesn't match the stopping power of heavier rifles.{NEWLINE}{NEWLINE}Chambered with .45 ACP ammunition.It's the perfect choice for any non-frontline troops, specialized in supporting roles within XCOM."
-      STR_UZI_CLIP: .45 ACP Magazine
+      STR_SMG_CLIP: .45 ACP Magazine
       STR_SHOTGUN: Combat Shotgun
       STR_SHOTGUN_UFOPEDIA: "The Mossberg M590A1, XCOM's standard 12-gauge shotgun. Renowned for its raw stopping power, delivers a devastating spread of metal pellets, capable of tearing unarmored foes to shreds. However, this spread diminishes accuracy over longer distances.{NEWLINE}Nevertheless, this limitation makes it ideal for breaching tight spaces, such as UFOs and rooms, where close-quarters combat reigns supreme. Additionally, XCOM operatives can opt for solid slugs, providing versatility when a more precise shot against an armored foe is necessary."
       STR_SHOTGUN_SHELLS: 12-gauge Shells

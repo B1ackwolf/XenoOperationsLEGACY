@@ -802,7 +802,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MACHINE_PISTOL_UFOPEDIA
     listOrder: 2102
-  - id: STR_MACHINE_PISTOL_CLIP
+  - id: STR_COMPACT_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PISTOL_NEW
@@ -826,7 +826,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UZI_UFOPEDIA
     listOrder: 2105
-  - id: STR_UZI_CLIP
+  - id: STR_SMG_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_SMG
@@ -834,9 +834,6 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMG_UFOPEDIA
     listOrder: 2106
-  - id: STR_SMG_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
   - id: STR_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -853,9 +850,6 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PDW_UFOPEDIA
     listOrder: 2108
-  - id: STR_PDW_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
   - id: STR_ASSAULT_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

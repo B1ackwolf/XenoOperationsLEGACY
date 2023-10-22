@@ -4,19 +4,19 @@ https://onedrive.live.com/edit.aspx?resid=E25BBD9AA4FC8376!443&ithint=file%2cxls
 
 
 +Priorities:
-  - Check whats goin on with reports of live aliens
+  - 
  
  
 
 +reorganize folders:
-  - weapons should have one folder per tier, all weapons clumped together
-  - inside each tier there should be a single floorOB and handOB clumped together
+  - 
+  - 
   - the fix all the relative routes inside the extrasprites.rul for this
   -    
   
 
 +improvements from xross ui:
-  - Check whats happening with scr.back07
+  - 
   - Creates images for mech units on a 6x6 grid with the image i made
   - Cape shouldnt desintegrate but just drop into the floor
   - The cape should be the actual corpse
@@ -69,10 +69,12 @@ concretar de ordenar explosivos y meles en items.rul y manufacture.rul
 aumentar peso del xx canon
 rebalancear completa armas plasma, sobre todo pesos
 
+###
 plasma cannon
 tank plasma cannon
 planes plasma cannon
 changed to something more unique each one
+###
 
 +add new type of missions like in eu2012, they should look like
 -landed ufo (already implemented)
@@ -114,7 +116,7 @@ esto esperar que efrenespartano postee sus cambios para los dos aviones iniciale
 *agregar sillas plegables en los pasillos
 *segmentar y separar cabina?
 -dragonfly
-*acomodar problema del techo y correr un tile al frente, acomodar posicion inicial soldados
+*acomodar problema del techo y correr un tile al frente
 
 *agregar bombillas en manitos, caderas en las nerve armors
 *reemplazar sectoides comandantes con versiones con puas como los aquatoides, que le brille la cabeza?
@@ -124,10 +126,10 @@ esto esperar que efrenespartano postee sus cambios para los dos aviones iniciale
 *agregar filtros a manufactures para hacerlo mas granular
 *averiguar como se hacen reportes mundiales dinamicos
 
-*agregar lore previo, norcorea nukeado (pintar de rojo?) , cabo de buena esperanza nukeado ( tambien rojo?), haiti y holanda?
+*agregar lore al mundo previo, norcorea nukeado (pintar de rojo?) , cabo de buena esperanza nukeado ( tambien rojo?), haiti y holanda?
 
 *mejorar sprites de armaduras
--reorganizar carpetas en base a bandos>human/mechanical/other>sprites+inventory/floorob/handOB
+
 -mejorar y crear cascos nuevos unicos y exclusivos para pilotos
 -crear distintas versiones segun talles de soldados 
 -asegurarse que versiones avanzadas tapen TODA la piel (probar primero con un fondo negro a medida que actualizo, usar la barriga de las mujeres para hombres sin six packs
@@ -307,3 +309,8 @@ ojito sectopods aliens son color azulito alloys, en cambio, los sectopods humano
 colocar correctamente el nuevo lore del Xenominium, xenium alloy corto y xelloy de jeerga
 
 ojito preguntar como hacer pa q la sprite noctura y diurna sean diferentes, para mejorar el primer tier
+
+- Review the changes made to Muton Commanders, Muton Warlords, and other species, and reclassify their names accurately.
+- Download CMP and ensure maps and everything else are up to date.
+
+ojito, CHECAR y modificar los nombres de TODOS LOS nombres de los sprites en "unitSprites" folders
