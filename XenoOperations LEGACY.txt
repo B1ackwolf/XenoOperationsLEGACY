@@ -79,8 +79,7 @@ Changelog:
 
 
 
-###################
-
+##########
 
 v.097.03 LE changelog:
 
@@ -99,7 +98,6 @@ Various Changes:
   * "Basic Soldiers"
   * "The Other Types"
     ° This will help when reordering your troops by types in the base interface.
-	
 	
 Enhanced Descriptions:
 - Included additional descriptions related to the CODEX, like corrupted files.
@@ -135,7 +133,7 @@ Bugfixes:
 - 'Splish-splash, no more water crash', UFOs can not longer create crash sites on water, thanks Efrenespartano for the help.
 - Corrected an incorrect reference to 'Firefly' in the ufopedia; it should mention 'DRAGONFLY.'
 
-############
+##########
 
 v0.97.02 LE changelog:
 
@@ -407,7 +405,7 @@ Bugfixes:
 - Corrected all craft weapons and ammunition names.
 - Removed overkill from AP Tanks (which mistakenly evaporated everything it killed, including weapons and items).
 
-##########
+########## Rewrite every changelog below for clarity
 
 v0.96.v8 LE:
 
@@ -482,6 +480,9 @@ v0.96.v8 LE:
 	 °Updated congo flag now use the Official (since 2006) DRC 
      °okay now for real,Fixed(?) tinyranks spritesheet, last patch i changed color combinations correctly to green, they used to be RED. If anyone preffers that version, i left both files on the folder, change the names and use as your preference. 
 	 °corrected the army rank description : HIGHER RANK SHOULD BE a LT. COLONEL now (instead of simply a colonel, thats reserved for pilots ranks)
+	 
+##########
+
 v0.96.v7 LE:
     -Added new items:
 	 °All the items has custom sprites, inspired heavily from Xcomfiles. So thanks again for all the work done by solariusScorch. They need ufopaedia text which is currently being working on.
@@ -661,7 +662,7 @@ v0.96v1 Legacy Extended:
   
   
   
-#################
+##### Versions previos to Legacy #####
   
 V0.96
   - Updated compatibility with OXC nightly and OXCE

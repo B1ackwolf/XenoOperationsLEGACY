@@ -9,96 +9,71 @@ https://onedrive.live.com/edit.aspx?resid=E25BBD9AA4FC8376!443&ithint=file%2cxls
  
 
 +reorganize folders:
-  - 
-  - 
-  - the fix all the relative routes inside the extrasprites.rul for this
-  -    
+ - 
+ - 
+ - the fix all the relative routes inside the extrasprites.rul for this
+ -    
   
 
 +improvements from xross ui:
-  - 
-  - Creates images for mech units on a 6x6 grid with the image i made
-  - Cape shouldnt desintegrate but just drop into the floor
-  - The cape should be the actual corpse
-  - The ethereal desintegration should create a psionic scream? , morale checking and panicking enemy nearby troops?
-  - Lore should be update to reflect this, you only recover cape and dust until you do an interrogation where you find a proper and specime to study it corpse
-  - Ethereal scientific name to tetramand?
+ - 
+ - Creates images for mech units on a 6x6 grid with the image i made
+ - Cape shouldnt desintegrate but just drop into the floor
+ - The cape should be the actual corpse
+ - The ethereal desintegration should create a psionic scream? , morale checking and panicking enemy nearby troops?
+ - Lore should be update to reflect this, you only recover cape and dust until you do an interrogation where you find a proper and specime to study it corpse
+ - Ethereal scientific name to tetramand?
   
 
 +remake a lot of ufopedia entries:
-  - reorder every ufopaedia and create new sections
-  - remake all the alien races ufopedia entries
-  - all weapons should have a realistic equivalent in description
-  - modify acient abomination to be more bloody
-  - change carcharodons to gray?
-  - Should create a new interrogation project for advanced races?
-  - check to center and align ALL WEAPONS in the ufopedia (edit individually and let it be all to the left and equally margin Top/bot)  
-
+ - reorder every ufopaedia and create new sections
+ - remake all the alien races ufopedia entries
+ - all weapons should have a realistic equivalent in description
+ - modify acient abomination to be more bloody
+ - change carcharodons to gray?
+ - Should create a new interrogation project for advanced races?
+ - check to center and align ALL WEAPONS in the ufopedia (edit individually and let it be all to the left and equally margin Top/bot)  
 
 +Weapons changes:
-  - fix rocket launcher sprites directly by redoing entirely into a at4/smaw (xfiles)
-  - add and reeplace heavy cannon standard description, reeplace ap ammo into smoke and add lobbed behaviour
-  - minigun should have backpack item created when equipped
-  - check all the loading tus for every weapon
-  - 
-
+ - fix rocket launcher sprites directly by redoing entirely into a at4/smaw (xfiles)
+ - add and reeplace heavy cannon standard description, reeplace ap ammo into smoke and add lobbed behaviour
+ - minigun should have backpack item created when equipped
+ - check all the loading tus for every weapon
+ - 
     
 
++Units Changes:
+ -
+
++Sprites Changes:
+ -
+
+
+########################corregir todo abajo de esto #############
+cambios Armas:
+
+*concretar de ordenar explosivos y meles en items.rul y manufacture.rul
+*aumentar peso del xx canon
+*rebalancear completa armas plasma, sobre todo pesos
+*eliminar cargadores de elerium alienigenas de ufopedia
+*cambiar sprite de elerium grenade por la alien clasica y ponerle una mas cheta
+
+cambios armaduras:
 *create new sprite with cool visors for every pilot version
 
 
-
-
-
+Cambios menoreS:
 
 *rename auto cannon 20mm
-*tank cannon 25 mm bushmaster
-*plane cannon 30 mm gau8/a avenger (desbloquear luego de investigar alien alloys?)
-
-
-
-
+ -tank cannon 25 mm bushmaster
+ -plane cannon 30 mm gau8/a avenger (desbloquear luego de investigar alien alloys?)
+ -plasma cannon
+ -tank plasma cannon
+ - planes plasma cannon
 *clean everyrule of END and reorder correct all annotations
 - "#----- topic -----#" should be the correct
-liminar todos los que sean mas de seis guiones
-
-eliminar cargadores de elerium alienigenas de ufopedia
-cambiar sprite de elerium grenade por la alien clasica y ponerle una mas cheta
-
-concretar de ordenar explosivos y meles en items.rul y manufacture.rul
-aumentar peso del xx canon
-rebalancear completa armas plasma, sobre todo pesos
-
-###
-plasma cannon
-tank plasma cannon
-planes plasma cannon
-changed to something more unique each one
-###
-
-+add new type of missions like in eu2012, they should look like
--landed ufo (already implemented)
--crashed ufo (already implemented)
--abductions? (perhaps low scale "terror misions" with small ammount of civilians, around 5, maybe?)
--ships attacks (counting as abductions?, small crews of sailors, less than a dozen)
--Bomb disposal (should be the early "terror missions") maybe one per two months, to spice mission variety)
--asset recovery ( wip)
--extraction/excort (if its possible to code a VIP mission, this should be once/twice per month?)
--key recovery mission twice or thrice per year MAX
-
--terror sites ( BIG CHUNGUS ATTACKS), on council funding members, should be giant maps, big ammount of civilians (20 perhaps?) and military pressence (partially implemented, should be moved at least until april or may as a sign of conflict scalation)
--ship line cruisers (same as above, maybe two dozens passengers?)
-
-
-evitar que el drone shotgun clips y el str_tank_smoke_grenade aparezcan en el dropshio
-confirmar que onda con el sprite de disparos taser
-
-
-
-
-reordenar todo esto:
-
-
+*eliminar todos los que sean mas de seis guiones
+*confirmar que onda con el sprite de disparos taser
 *mejorar descripciones ufopaedia de los edificios
 
 *modificar armaduras de perritos sin bolsillos, quizas agregar bolsillos a versiones avanzadas, devolver strenght stat y balancear con el peso de las armaduras
@@ -108,6 +83,24 @@ reordenar todo esto:
 *modificar berseker para que tenga un arma incorporada en lugar de dagas
 *resolver sprite de hwp usando el sheet del coelacanth
 *usar sprites de xenonauts de tanques voladores, con mrls como arma secundaria
+
+Cambios mayores:
+ *add new type of missions like in eu2012, they should look like
+  -landed ufo (already implemented)
+  -crashed ufo (already implemented)
+  -abductions? (perhaps low scale "terror misions" with small ammount of civilians, around 5, maybe?)
+  -ships attacks (counting as abductions?, small crews of sailors, less than a dozen)
+  -Bomb disposal (should be the early "terror missions") maybe one per two months, to spice mission variety)
+  -asset recovery ( wip)
+  -extraction/excort (if its possible to code a VIP mission, this should be once/twice per month?)
+  -key recovery mission twice or thrice per year MAX
+  -terror sites ( BIG CHUNGUS ATTACKS), on council funding members, should be giant maps, big ammount of civilians (20 perhaps?) and military pressence (partially implemented, should be moved at least until april or may as a sign of conflict scalation)
+  -ship line cruisers (same as above, maybe two dozens passengers?)
+
+########reordenar todo esto:
+
+
+
 
 esto esperar que efrenespartano postee sus cambios para los dos aviones iniciales:
 -firefly
@@ -148,8 +141,6 @@ muy a largo plazo, fuera de mis habilidades actuales:
 *mejorar imagenes de medallas para que sea igual al resto de ufopaedia y seguir acomodando descripciones, darle prioridad a la del discurso de erwin (mover eso al articulo de la batalla de cabo esperanza)
 
 
-para preguntar a meridian:
-*preguntar si se puede hacer que las unidades desmayadas en el area de escape (Tanto aliadas como enemigas) dejen de contar como MIA, es molesto en multiple estancias donde podrias decidir retirarte con soldados a los cuales salvaste pero el juego los desaparece, ademas que evita la tactica de raidear UFOS/Bases en busqueda de enemigos de alto rango y luego retirarse
 
 *a sprites agregarle ropa interior y/o camisetas (hacer SFW)
 
@@ -280,9 +271,7 @@ revisar q tengo q hacer handobs de un monton de tiers
 
 >reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012
 ####reordenar carpeta UI y excedentres adentro de estas como pals y globe
-####terminar al menos tier 1 de armas
 ####concretar el cambio de armas de plasma melee y laser usando woofington
-####Modificar unos pixelitos al tavor corriendo el cargador adelante
 - Redone the FLUFF TEXT for the armors text:
  * All tiers, same as above 
   ~every armor name was changed.
@@ -299,18 +288,18 @@ cual deberia ser el orden de la ufopedia
 (????) el resto
 ultima>commendations
 
->>>recta final de cambios de sprites, ya cada uno esta en sus respectivas carpetas, necesitaria otra pasada para primeramente segmentar en rul cada uno de los tiers por seccion (bigobs,handobs y floorobs), luego empezar a cambiar tier por tier haciendo enfasis en cambiar de una vez el nombre y la ruta dirigida, una vez concretado esos tres pasos, cambiar nombre de carpeta, eliminar carpeta vieja y probar q todo funque correctamente, luego para siguiente parche, empezar a modificar referencias a sus nombres y NUMEROS correctos, pero ya podria facilmente agregar armas nuevas, rechecar y ordenar todo list para saber q puedo empezar a hacer, darle prioridad a cambios en armas y perritos nuevos, luego las armaduras y layers corregidos"
+
 
 el alien dissasemble de alien enterneintment regale un mind probe?
 -de ser asi, bajarle mucho el precio al probe
 -aumentar las horas necesarias
 
-ojito sectopods aliens son color azulito alloys, en cambio, los sectopods humanos, seran grisesitos, modificar esto
-colocar correctamente el nuevo lore del Xenominium, xenium alloy corto y xelloy de jeerga
+*ojito sectopods aliens son color azulito alloys, en cambio, los sectopods humanos, seran  marroncitos, modificar esto
+*colocar correctamente el nuevo lore del Xenominium, xenium alloy corto y xelloy de jeerga
 
-ojito preguntar como hacer pa q la sprite noctura y diurna sean diferentes, para mejorar el primer tier
+*ojito preguntar como hacer pa q la sprite noctura y diurna sean diferentes, para mejorar el primer tier
 
 - Review the changes made to Muton Commanders, Muton Warlords, and other species, and reclassify their names accurately.
 - Download CMP and ensure maps and everything else are up to date.
 
-ojito, CHECAR y modificar los nombres de TODOS LOS nombres de los sprites en "unitSprites" folders
+*ojito, CHECAR y modificar los nombres de TODOS LOS nombres de los sprites en "unitSprites" folders
