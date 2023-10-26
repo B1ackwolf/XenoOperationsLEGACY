@@ -1043,8 +1043,8 @@
       STR_MUTON_ENGINEER: Muton Engineer
       STR_ARMORED_MUTON: Muton Warrior
       STR_ARMORED_MUTON_SOLDIER: Muton Warrior
-      STR_ARMORED_MUTON_NAVIGATOR: Muton Advanced Navigator
-      STR_ARMORED_MUTON_ENGINEER: Muton Advanced Engineer
+      STR_ARMORED_MUTON_NAVIGATOR: Muton Veteran Navigator
+      STR_ARMORED_MUTON_ENGINEER: Muton Veteran Engineer
       STR_MUTON_COMMANDO: Muton Enforcer
       STR_MUTON_CHIEFTAIN: Muton Chieftain
       STR_MUTON_GUARD: Muton Elite

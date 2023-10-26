@@ -382,7 +382,7 @@ mapScripts:
       executions: 2
     - type: addBlock
       executions: 2
-      groups: 4 #OJITO
+      groups: 5 #OJITO corregido?
     - type: addBlock
       executions: 2
       groups: 5
@@ -578,7 +578,7 @@ mapScripts:
       size: 1
       executions: 1
       executionChances: 100
-      UFOName: STR_CONST_UFO #ojito
+      UFOName: STR_CONSTRUCTOR #ojito
     - type: addBlock
       size: 2
       executions: 4
@@ -685,7 +685,7 @@ mapScripts:
       conditionals: [-1, -2, -3]
       direction: vertical
       executionChances: 50
-      verticalGroup: 7
+      # verticalGroup: 7
       rects:
         - [1, 1, 4, 1]
     - type: addLine
@@ -693,8 +693,8 @@ mapScripts:
       conditionals: [-1, -2, -3, -4]
       executionChances: 50
       direction: both
-      verticalGroup: 7
-      crossingGroup: 8
+      # verticalGroup: 7
+      # crossingGroup: 8
       rects:
         - [1, 1, 4, 4]
     - type: addBlock

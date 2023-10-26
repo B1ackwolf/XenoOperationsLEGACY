@@ -917,7 +917,7 @@ units:
     aggression: 2
     energyRecovery: 40
     livingWeapon: true
-  - type: STR_ELITE_SECTOPOD_TERRORIST
+  - type: STR_SECTOPOD_ELITE_TERRORIST
     race: STR_SECTOPOD
     rank: STR_LIVE_TERRORIST
     stats:
@@ -932,7 +932,7 @@ units:
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: ELITE_SECTOPOD_ARMOR
+    armor: SECTOPOD_ELITE_ARMOR
     standHeight: 23
     kneelHeight: 16
     value: 30

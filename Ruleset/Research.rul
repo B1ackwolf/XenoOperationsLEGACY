@@ -254,19 +254,19 @@ research:
   - name: STR_ELERIUM_POWERED_SERVOS
     points: 20
     needItem: true
-  - name: STR_POWER_SUIT
-    cost: 100
-    points: 20
-    dependencies:
-      - STR_ELERIUM_POWERED_SERVOS
-      - STR_CODEX_3
+  # - name: STR_XOPS_POWER_ARMOR
+  #   cost: 200
+  #   points: 25
+  #   dependencies:
+  #     - STR_REACTOR_MINIATURIZATION
+  #     - STR_CODEX_4
 #----Power Suit Armor-----------------------
-  - name: STR_FLYING_SUIT
-    cost: 60
-    points: 20
-    dependencies:
-      - STR_POWER_SUIT
-      - STR_ANTI_GRAV_DEVICE
+  # - name: STR_FLYING_SUIT
+  #   cost: 60
+  #   points: 20
+  #   dependencies:
+  #     - STR_POWER_SUIT
+  #     - STR_ANTI_GRAV_DEVICE
 #----Nerve Suit Armor-----------------------
   - name: STR_NERVE_INTERFACE
     points: 20
@@ -286,8 +286,9 @@ research:
     cost: 200
     points: 25
     dependencies:
+      - STR_ELERIUM_POWERED_SERVOS
       - STR_REACTOR_MINIATURIZATION
-      - STR_CODEX_5
+      - STR_CODEX_4
 #--Armor Tech Tree--------------------END
 #--Laser Weapons Tech Tree--------------------
   - name: STR_LASER_WEAPONIZATION
@@ -2369,6 +2370,7 @@ research:
     points: 500
     needItem: true
     getOneFree:
+      - STR_REACTOR_MINIATURIZATION #Power Armor
       - STR_ADVANCED_PLASMA #Plasma Weapons
       - STR_NERVE_INTERFACE #Psi Armor
       - STR_ZEROG_SMELTING #Alien Alloys
@@ -2385,7 +2387,6 @@ research:
     needItem: true
     getOneFree:
       - STR_UFO_MASTERY #Avenger
-      - STR_REACTOR_MINIATURIZATION #Power Armor
       - STR_MICRO_FUSION #Fusion Weapons
       - STR_GOODS_6
       - STR_PSIONIC_DOMINATION

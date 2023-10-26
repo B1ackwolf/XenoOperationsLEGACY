@@ -23,6 +23,8 @@ items:
   - delete: STR_HWP_ROCKETS
   - delete: STR_HWP_CANNON_SHELLS
   - delete: STR_TANK_LASER_CANNON
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLIYING_SUIT
 ###-----improved hand obs ojito-----###
   - type: STR_MEDI_KIT
     handSprite: 208
@@ -49,7 +51,7 @@ items:
   # - type: STR_HC_I_AMMO
   #   handSprite: 328
   - type: STR_SMOKE_GRENADE
-    handSprite: 1344
+    handSprite: 1346
   - type: STR_RIFLE_CLIP
     handSprite: 1352
   - type: STR_PISTOL_CLIP
@@ -232,8 +234,8 @@ items:
   - type: STR_HWP_RANGEFINDER
     weight: 0
     bigSprite: 1210
-    accuracyAimed: 0
-    tuAimed: 999
+    accuracyAimed: 100
+    tuAimed: 100
     confAimed:
       name: STR_MEASURE_RANGE
     dropoff: -1
@@ -4863,7 +4865,7 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    waypoint: true
+    waypoints: 5
     blastRadius: 3
     listOrder: 5512
   - type: STR_ANTIMATTER_LAUNCHER_BOMB2
@@ -4900,7 +4902,7 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    waypoint: true
+    waypoints: 5
     blastRadius: 10
     listOrder: 5514
 ### Alien units Weaponry
@@ -5522,7 +5524,6 @@ items:
     bigSprite: 364
     floorSprite: 364
     handSprite: 850
-    handSprite: 1335
     attraction: 6
   - type: STR_BLASTER_LAUNCHER
     requires:
@@ -5542,7 +5543,7 @@ items:
     tuAimed: 80
     battleType: 1
     twoHanded: true
-    waypoint: true
+    waypoints: 5
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -6939,7 +6940,7 @@ items:
     battleType: 11
 ##########DOGGOS##########
   - type: STR_DOGE
-    categories: [STR_BEASTS]
+    # categories: [STR_BEASTS]
     size: 0.0
     recover: true
     liveAlien: true
@@ -6997,7 +6998,7 @@ items:
     recoveryPoints: 1
     armor: 65
 # auxiliaries armours
-    categories: [STR_HUMAN_TECH, STR_OUTFITS]
+    # categories: [STR_HUMAN_TECH, STR_OUTFITS]
   - type: STR_DOGE_COMBAT_VEST
     requires:
       - STR_TAC_INF_TECH
@@ -7055,7 +7056,7 @@ items:
     recover: false
     listOrder: 17513
   - type: STR_DOGE_TRACK
-    categories: [STR_BUILT_INS]
+    # categories: [STR_BUILT_INS]
     weight: 0
     bigSprite: 981
     floorSprite: 0
@@ -7073,7 +7074,7 @@ items:
       time: 15
       morale: 20
   - type: STR_DOGE_BITE
-    categories: [STR_BUILT_INS]
+    # categories: [STR_BUILT_INS]
     weight: 0
     bigSprite: 181
     floorSprite: 0

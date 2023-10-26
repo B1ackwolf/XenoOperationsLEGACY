@@ -2678,7 +2678,7 @@ ufopaedia:
     listOrder: 568
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_SECTOPOID_CORPSE
+      - STR_SECTOPOD_CORPSE
     # image_id: ojito
     text: STR_SILACOID_AUTOPSY_UFOPEDIA
     text_width: 158
@@ -2944,7 +2944,7 @@ ufopaedia:
       width: 311
       height: 200
     listOrder: 782
-#---MEDALS----------------------------------
+#---MEDALS REORDER BELOW, also colorize background by commendations type?----------------------------------
   - id: STR_MEDAL_ALLUFOS
     type_id: 7
     section: STR_COMMENDATIONS_UC
