@@ -89,10 +89,13 @@ Tweaks:
 - with those changes in mind, the POWER ARMOR (tier five xops armor) has been mooved "down" the codex path, you'll get it earlier in codex level 4, to balance this, you'll need an extra research topic, and prices remain untouched (thus still making the alloy armor a solid candidate to stay as the backbone of your troops)
 - made some changes with the SECTOPOD ELITE, a black variant of the standard sectopod, tweaked numbers to be more impresive (also fixes some instances where killing this unit wasnt providing their respective commendations)
 - modified the buy/selling screen, now it only displays "custom categories" (this is being heavily improved currently in tandem with the manufacture granularity), hopefully this will improve navigation and readability with the big ammount of different items aviable
+- improved dagger ufopaedia description
 
 bugfixes:
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
- °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo
+ °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo)
+- some bugfixes for the handobs of the smoke grenade  
+- corrected names in some muton variants
 ------------------------
 v.097.03 LE changelog:
 

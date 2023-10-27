@@ -321,7 +321,7 @@ extraSprites:
       950: Resources/WeaponrySprites/alienArsenal/KeyCodex.gif
       951: Resources/WeaponrySprites/alienArsenal/KeyCryptics.gif
       952: Resources/WeaponrySprites/alienArsenal/KeyOracle.gif
-      953: Resources/WeaponrySprites/alienArsenal/KeyCodexBig.gif
+      953: Resources/WeaponrySpritescorregido/b11thMisc/AlienStuff/BigOb/KeyCodexBig.gif
       365: Resources/WeaponrySprites/alienArsenal/AlienCommDevice.gif
       367: Resources/WeaponrySprites/alienArsenal/AlienHoloProjector.gif
       368: Resources/WeaponrySprites/alienArsenal/AlienInjector.gif   
@@ -717,7 +717,7 @@ extraSprites:
       950: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyCodex.gif
       951: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyCryptics.gif
       952: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyOracle.gif
-      953: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyCodexBig.gif
+      953: Resources/WeaponrySpritescorregido/b11thMisc/AlienStuff/FloorOb/floorob_KeyCodexBig.gif
       671: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpLarge.gif
       672: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpSmall.gif
       673: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElleriumLampHuman.gif

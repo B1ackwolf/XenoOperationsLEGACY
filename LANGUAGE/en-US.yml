@@ -1041,8 +1041,8 @@ en-US:
       STR_MUTON_ENGINEER: Muton Engineer
       STR_ARMORED_MUTON: Muton Warrior
       STR_ARMORED_MUTON_SOLDIER: Muton Warrior
-      STR_ARMORED_MUTON_NAVIGATOR: Muton Advanced Navigator
-      STR_ARMORED_MUTON_ENGINEER: Muton Advanced Engineer
+      STR_ARMORED_MUTON_NAVIGATOR: Muton Veteran Navigator
+      STR_ARMORED_MUTON_ENGINEER: Muton Veteran Engineer
       STR_MUTON_COMMANDO: Muton Enforcer
       STR_MUTON_CHIEFTAIN: Muton Chieftain
       STR_MUTON_GUARD: Muton Elite
@@ -1682,7 +1682,8 @@ en-US:
 #-----UFOPaedia XCom Vehicles and Heavy Weapons
       STR_UAV_UFOPEDIA: The Unmanned Aerial Vehicle RQ-40B 'Shuriken' excels at reconnaissance missions in open terrains, utilizing its silent hovering capabilities powered by fans. However, it features minimal armor and lacks weaponry, yet it possesses sufficient vertical lift capacity to carry a compact High Explosive charge. This allows it to deploy an explosive payload strategically onto unsuspecting enemies or, if necessary, execute a direct suicide run in critical situations.
       STR_UCAV_ROCKET_LAUNCHER_UFOPEDIA: The MQ-X 'Longbow' is the result of a joint effort between the USAF and the XCOM Research team. Leveraging Alien Alloys accessibility, they've successfully created a downsized REAPER drone. Armed with four compact 'Arrow' rockets, effective for eliminating light targets. However, its primary advantage is also their major drawback-its considerably reduced fuselage severely limits its potential flight range and autonomy, restricting its use to local operations.
-      STR_LAND_DRONE_UFOPEDIA: The FMT-X3 'Dagger,' designed by Qinetiq, stands as one of the swiftest robots in production, capable of traversing diverse terrains such as sand, mud, snow, and staircases. Equipped with an advanced signal repeater, the DAGGER transmits in color, black and white, infrared, and night vision, offering versatile surveillance capabilities. This signal repeater can be effortlessly loaded into any of our transport ships, enabling remote control from anywhere on the planet, ensuring the operator's safety within our main base installation. The Dagger is armed with a short-range, high-impact shotgun, designed to lead breach operations, flush out adversaries, and enhance troop entry safety."
+
+      STR_LAND_DRONE_UFOPEDIA: "The FMT-X3 'Dagger' designed by Qinetiq, stands as one of the swiftest robots in production, capable of traversing diverse and dificult terrains. Equipped with an advanced signal repeater that can be loaded into any of our transport ships, enabling remote control from the safety within our main base installation. Armed with a short-range, high-impact shotgun, designed to lead dangerous breach operations and flush out adversaries, providing troops a safe entry." #the DAGGER transmits in color, black and white, infrared, and night vision, offering versatile surveillance capabilities. This signal repeater 
       STR_HEAVY_TANK_AP_UFOPEDIA: Tank with a small armour piercing Cannon.
       STR_HEAVY_TANK_HE_UFOPEDIA: Tank with a BIG high explosive CANNON. 
       STR_STINGRAY_UFOPEDIA: This advanced air-to-air weapon, equipped with shielded electronics, stands as one of the premier choices for intercepting extraterrestrial threats. Renowned for its precision and reliability, it is the vanguard against alien incursions.
