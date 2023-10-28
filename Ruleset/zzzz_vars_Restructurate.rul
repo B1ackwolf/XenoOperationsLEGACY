@@ -223,6 +223,7 @@ operationNamesLast:
   - Wrath
   - Zeus
 ### Ojito, move this to another more appropiate rul?
+#####tendria q modificar esto si quiero q mi inventario este mas ordenado
 interfaces:
   - type: inventory
     elements:

@@ -823,7 +823,8 @@
 ##### reorder everything above this #####-------------------------------------
 #GENERAL
 #-----misc
-      STR_QD_SLOT: QD
+      STR_BELT: "    BELT"
+      STR_QD_SLOT: "HOLSTER"
       STR_NULL_JETPACK: JETPACK
       STR_NULL_BACKPACK: ""
       STR_NULL_SMALL_BACKPACK: ""
@@ -833,16 +834,16 @@
       STR_NULL_POCKET_RL: ""
       STR_NULL_POCKET_LL: ""
 #-----Craft and Craft Weapons
-      STR_SR71: SR-71 BLACKBIRD
+      STR_SR71: XRS-71G BLACKBIRD
       STR_INTERCEPTOR: XCF-0 BISHOP
       STR_XCF1: XCF-1 KNIGHT
       STR_XCF2: XCF-2 ROOK
       STR_XCF3: XCF-3 EMPRESS
-      STR_DRAGONFLY: DRAGONFLY
-      STR_FIREFLY: FIREFLY
-      STR_SKYWARDEN: GOLIATH
-      STR_HURRICANE: HERCULES
-      STR_OVERLORD: OVERLORD
+      STR_DRAGONFLY: XTP-1 DRAGONFLY
+      STR_FIREFLY: XTP-2 FIREFLY
+      STR_SKYWARDEN: XTP-3 GOLIATH
+      STR_HURRICANE: XTP-4 HERCULES
+      STR_OVERLORD: XTP-X OVERLORD
       STR_CANNON: Sling Autocannon
       STR_CANNON_UC: SLING Autocannon
       STR_STINGRAY_MISSILES: Javelin Missile

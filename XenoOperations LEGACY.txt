@@ -90,6 +90,9 @@ Tweaks:
 - made some changes with the SECTOPOD ELITE, a black variant of the standard sectopod, tweaked numbers to be more impresive (also fixes some instances where killing this unit wasnt providing their respective commendations)
 - modified the buy/selling screen, now it only displays "custom categories" (this is being heavily improved currently in tandem with the manufacture granularity), hopefully this will improve navigation and readability with the big ammount of different items aviable
 - improved dagger ufopaedia description
+- changed "QD" slot name to HOLSTER, to imply better their intended function as a side arm pocket, also modified the "belt name" so it doesnt overlap between each other
+- changed all the transport ships names to have a "XTP-(n°)" acronnym previous to their codename, to keep the nomenclature of other planes
+- same changes to the SR-71, now called XRS-71G
 
 bugfixes:
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
