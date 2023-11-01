@@ -1,5 +1,9 @@
 ufopaedia:
 #---Deletions----------------
+  # - delete: STR_ALIEN_ORIGINS
+  # - delete: STR_THE_MARTIAN_SOLUTION
+  # - delete: STR_CYDONIA_OR_BUST
+#####ojito quizas haga falta devolver#######
   - delete: STR_PISTOL_CLIP
   - delete: STR_PISTOL
   - delete: STR_RIFLE
@@ -278,14 +282,14 @@ ufopaedia:
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_UAV
+      - STR_DRONE_WARFARE
     text: STR_UAV_UFOPEDIA
     weapon: STR_NONE
   - id: STR_UCAV_ROCKET_LAUNCHER
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_UAV
+      - STR_DRONE_WARFARE
       - STR_NEW_FIGHTER_PROGRAM
     text: STR_UCAV_ROCKET_LAUNCHER_UFOPEDIA
     weapon: STR_UCAV_ROCKETS
@@ -293,7 +297,7 @@ ufopaedia:
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_UAV
+      - STR_DRONE_WARFARE
     text: STR_LAND_DRONE_UFOPEDIA
     weapon: STR_NONE
   - id: STR_HEAVY_TANK_AP
@@ -2718,6 +2722,7 @@ ufopaedia:
     listOrder: 1
   - id: STR_ALIEN_THREAT
     type_id: 8
+    # image_id: ALTHREAT
     section: STR_ALIEN_RESEARCH_UC
     text: STR_ALIEN_THREAT_UFOPEDIA
     requires:
@@ -2782,7 +2787,7 @@ ufopaedia:
     section: STR_UFO_COMPONENTS
     text: STR_UFO_WEAPONS_UFOPEDIA
     requires:
-      - STR_UFO_WEAPONS
+      - STR_UFO_CONSTRUCTION
     listOrder: 1
   - id: STR_ALIEN_REPRODUCTION
     type_id: 7

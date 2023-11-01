@@ -51,7 +51,7 @@ items:
   # - type: STR_HC_I_AMMO
   #   handSprite: 328
   - type: STR_SMOKE_GRENADE
-    handSprite: 1346
+    handSprite: 1340
   - type: STR_RIFLE_CLIP
     handSprite: 1352
   - type: STR_PISTOL_CLIP
@@ -183,11 +183,13 @@ items:
     aimRange: 5
     snapRange: 3
     dropoff: 4
+    ignoreInCraftEquip: true
+    ignoreInBaseDefense: true
     listOrder: 1505
   - type: STR_DRONE_SHOTGUN
     size: 6
     costBuy: 0
-    bigSprite: 90
+    bigSprite: 961
     bulletSprite: 3
     fireSound: 82
     compatibleAmmo:
@@ -202,8 +204,8 @@ items:
     snapRange: 3
     dropoff: 4
     # defaultInventorySlot: STR_RIGHT_HAND
-    # ignoreInCraftEquip: true
-    # ignoreInBaseDefense: true
+    ignoreInCraftEquip: true
+    ignoreInBaseDefense: true
     listOrder: 10910
   - type: STR_DRONE_SHOTGUN_CLIP
     requiresBuy:
@@ -1047,7 +1049,7 @@ items:
     listOrder: 2130
   - type: STR_LARGE_ROCKET
     listOrder: 2131
-    handSprite: 264
+    handSprite: 1264
   - type: STR_INCENDIARY_ROCKET
     listOrder: 2132
     handSprite: 1272
@@ -1581,7 +1583,6 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2225
-
   - type: STR_HVSNIPER_RIFLE_CLIP_ALLOY
     size: 0.025
     costSell: 6000
@@ -4398,8 +4399,8 @@ items:
     size: 0.1
     costSell: 600
     weight: 3
-    bigSprite: 501
-    floorSprite: 501
+    bigSprite: 1501
+    floorSprite: 1501
     handSprite: 2204
     bulletSprite: 25
     fireSound: 130
@@ -4423,8 +4424,8 @@ items:
     size: 0.2
     costSell: 2250
     weight: 8
-    bigSprite: 503
-    floorSprite: 503
+    bigSprite: 1503
+    floorSprite: 1503
     handSprite: 2212
     bulletSprite: 26
     fireSound: 131
@@ -4448,8 +4449,8 @@ items:
     size: 0.025
     costSell: 150
     weight: 2
-    bigSprite: 504
-    floorSprite: 504
+    bigSprite: 1504
+    floorSprite: 1504
     handSprite: 2228
     hitSound: 90
     hitAnimation: 96
@@ -4463,8 +4464,8 @@ items:
     size: 0.2
     costSell: 2250
     weight: 16
-    bigSprite: 505
-    floorSprite: 505
+    bigSprite: 1505
+    floorSprite: 1505
     handSprite: 2220
     bulletSprite: 27
     fireSound: 132
@@ -4488,8 +4489,8 @@ items:
     size: 0.025
     costSell: 150
     weight: 5
-    bigSprite: 506
-    floorSprite: 506
+    bigSprite: 1506
+    floorSprite: 1506
     hitSound: 134
     handSprite: 2228
     hitAnimation: 96
@@ -4503,8 +4504,8 @@ items:
     size: 0.05
     costSell: 5000
     weight: 3
-    bigSprite: 507
-    floorSprite: 507
+    bigSprite: 1507
+    floorSprite: 1507
     handSprite: 2228
     power: 90
     damageType: 6

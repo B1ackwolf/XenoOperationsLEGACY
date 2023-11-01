@@ -7,7 +7,6 @@ Link al drive:
 
 +Priorities fixes:
  - confirmar que onda con el error del bulletsprite de la pistol taser.
- - colocar correctamente el nuevo lore del Alien Alloy, ahora llamado Xenominium, xenium alloy corto y xelloy de jeerga.
  - checar funcionamiento del spitter de xfiles en cuanto a esconderse, para reemplazar completamente los silacoid.
  - resolver problema con la zombificacion de los perros (desde xfiles).
  - la imagen de xeno physiology es la de hwp, mejorar esto y adicionalmente
@@ -26,7 +25,12 @@ Link al drive:
  - Review the changes made alien species and reclasiffy their names accurately
    * taking special consideration of the Muton Commanders, Muton Warlords.
  - Download CMP and ensure maps and everything else are up to date to keep purging the CTDs.
-
+ - crear handob y floorob sprite nuevo estilo kriss vector de la Xsmg
+ - cambiar granada de proximidad q no este desbloqueada al principio, q solo aparezca con el detector de movimientos
+   * ojito
+ - resolver esto Supressed Error for 'STR_SECTOPOD_ELITE_TERRORIST'
+     * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
+     * Supressed Error for 'mod' Both 'STR_CYDONIA_OR_BUST' and 'STR_ENDGAME' research are marked as 'unlockFinalMission: true'   
 #####
 
 +Finish Reorganizing Folders:
@@ -81,6 +85,8 @@ Link al drive:
 #####
 
 +Armor Changes:
+ - esperar las insignias a los trajes de efren
+   * confirmar si luego se puede meter mas insignias en base al rango del soldado
  - Remake the FLUFF TEXT for the armors
    * remake tiers names?
    * remake every armor name individually also?
@@ -91,19 +97,38 @@ Link al drive:
    * asegurarse que versiones avanzadas tapen TODA la piel (probar primero con un fondo negro a medida que actualizo)
    * usar la barriga de las personal armor femeninas para hombres que no sean muy musculosos.
  - agregar bombillas en manitos, caderas en las battlescape sprites de las nerve armors
-
+ - implementar configuracion nueva de bolsillos
+   * reordenar las posiciones de los bolsillos actuales
+   * agregar un bolsillo nuevo donde solo se puedan poner "modulos de armaduras"
+     ~ placas de proteccion de metal
+     ~ nodos de comunicacion
+     ~ para mejora de punteria
 #####
 
 +Weapons changes:
+ - revisar q todas las granadas tengan implementado un fusetype
+   * sin mecha para las granadas y demas armas iniciales
+   * explosivos mas avanzados con mecha de 3 turnos
+   * mejor balanceo de ornance
+   * con esto se diferenciarian tres tipos de explosivo pesado?
+     ~ c4/semtexch como vainilla
+     ~ una carga satchel mas liviana pero sin mecha contadora?
  - revisar q al eliminar ciertos tipos de disparo ahora las armas tienen distintos rangos maximos, revisar eso.
  - crear mejor handob sprite para el milkor agl
    * reducir ligeramente el tamaño de los drums cargadores
  - aumentar peso del xx canon
+ - crear un breaching charge para perforar paredes de ufo y por lo tanto asaltar por otros angulos (revisar ejemplo de xenonauts1)
+   * primer nivel un explosivo en forma de tubo/garrafa de gas, que se llame bangalore, grande, pesado y q no se pueda arrojar
+   * niveles consecuentes mas livianos y faciles de manejar
+   * luego algun soplete/taladro/arma melee especializado en romper paredes y entrar a ufos?
+     ~ darle esta sub propiedad de daño a terreno a la espada y cuchillo plasma? 
  - rebalancear completa armas plasma, sobre todo pesos
  - cambiar sprite de elerium grenade por la alien clasica y ponerle una mas cheta #(ojito esto posiblemente no)   
  - rebalancear minigun mas "liviana" el arma en si, pero mas pesada en general xq necesitara una mochila especial de balas y bateria, que luego se mejorara en la Xtier
    * usar beltbox de municion como mochila fija para la bateria y las balas (blackops minigun box in xfiles)
    * add vapor trails and reduce bullet speed.
+   * agregar parametro "followProjectiles: false" y crear un confAuto
+   * agregarle que "cargar el arma desde el piso a las manos tarde bastantes tus porq incluye "ponerse la mochila especial"
  - agregar un cilindro al plasma de handcannon para que sea un revolver pesado?
  - usar el rifle polaco fb msbs como bullpup Xperimental
  - integrar lanzallamas funcionales desde xfiles
@@ -118,7 +143,16 @@ Link al drive:
    * crear una espada comun de aleaciones
    * crear un cuchillo progresivo equivalente al laser tier, corta a nivel molecular por vibraciones (evangelion)
    * concretar lore de cuchillo de xelloy, simplemente mas afilado, liviano y nunca se oxida o desgasta
-
+ - implementar sistema de recoil
+   * cada disparo seguido con un arma en el mismo turno genere un debuff de accuracy
+     ~ esto es mitigado por los stats de punteria Y FUERZA del soldado
+   * con este parametro adicional podria seguir balanceando mejor las armas (ejemplo el pdw tendria poco recoil pero mas tiempo de recarga en tus)
+ - implementar sistema de escudos por fin y de una vez como en el xenonauts
+   * tendrian distintos niveles y distintos materiales
+     ~ uno sencillo de color gris plomo/oscuro
+     ~ uno de aleaciones
+     ~ uno de material hyper pesado
+     ~ uno "holografico"/de energia     
 #####
 
 +Units Changes:
@@ -160,6 +194,7 @@ Link al drive:
  - intentar resolver error que drones ya no pueden cargar cosas
  - resolver sprite de hwp usando el spritesheet del coelacanth, para tener rueda y torreta movil
    * o en caso contrario, checar el outrunner de xfiles y confirmar como se mueven sus rueditas
+     ~ usa el drawingroutine numero 5 (sectopods)
  - usar el sprite del tanque volador de xenonauts para remplazar los cyberdisc humanos
    * tendrian mrls como arma secundaria
      ~ tendrian un comportamiento de lobbed (usando el "arcingShot true"), perfectos para carpet bombing
@@ -205,6 +240,7 @@ Link al drive:
 #####
 
 +Minor Changes:
+ - colocar correctamente el nuevo lore del Alien Alloy, ahora llamado Xenominium, xenium alloy corto y xelloy de jeerga.
  - clean every .rul file from unused lines, reorder and correct all annotations
    * "#----- topic -----#" should be the correct
    * eliminar todos lo que tengan exceso de guiones
@@ -229,7 +265,18 @@ Link al drive:
    * balancear vision total y rangos
  - tanques, platillos y sectopods usan pilotos
    * por lo tanto crear un nuevo soldier transformation para entrenarlos y ahora seran armaduras en lugar de unidades
+   * el entrenamiento requiere superar la claustrofobia? por lo tanto requiere un minimo de bravery
+     ~ todos los tanques seran monoplazas pero el piloto no puede salir de manera rapida asi q al haber una destruccion permanente el piloto muere
+     ~ el lore sera q una vez armado el tanque, se requieren instalaciones especiales para retirarlo y sacar al piloto de manera segura
    * integrar sectopods con pilotos humanos, seran marroncitos como en vainilla para mantener la homogeneidad del bando humano
+   * cuando se "destruyan" quedara un "chassis derruido q puede repararse".
+ - cambiar todos los drones a un sistema basado en "una plataforma cpu que se puede insertar en distintos chasis y con diferentes equipamientos.
+   * con esto el dron terrestre tendria una version con lanzacohetes, una version con ametralladora de apoyo, una con escopeta de ingreso
+   * adicionalmente tendria distintas "armaduras"
+     ~ un chasis ligero, muchos tus pero poca resistencia
+     ~ reforzado , mas pesado y fuerte pero sin tantos tus
+     ~ versiones con aleaciones primero una basica y luego uno avanzado
+   *estos cambios brindarian mucha mas longevidad al uso de drones por parte de xcom     
  - agregar inventory sprites para civiles y variedad de civiles tambien (posiblemente salga de XFILES)
  - cambiar y agregar mucha mas variedad de musica y canciones chidas
  - implementar un posible sistema de Armor chipping y degradation
@@ -242,7 +289,7 @@ Link al drive:
          tuLoad
          tuUnload
    * >incluir esto "you need to additionally pay the cost of moving the ammo from its current inventory slot into a hand slot! Consider that when balancing reload costs.
-   * >tener en consideracion esto: since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
+   * >"tener en consideracion esto: since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
 
 #####
 
@@ -278,11 +325,15 @@ Link al drive:
  - mejorar totalmente base de datos de sonidos
    * a todas las armas, distintos efectos, explosiones, etc
  - mejorar complamente la sprites de explosiones (checar xfiles y otros mods)
-   * eliminar el cheesy efecto de una calavera como explosion 
+   * eliminar el cheesy efecto de una calavera como explosion
+   * crear explosiones de distintos colores segun el efecto o daño causado
+   * averiguar para crear un efecto de "implosion" que crezca, luego se colapse e inmediatamente expanda de vuelta
  - implementar las armas elites alienigenas
    * confirmar funcionalidad de sprites
    * agregar sonido "chiflador" para asustar
      ~ checar convo con efren
+ - pasar todas las imagenes a png
+   * asi podre establecer un alfa transparente correctamente
 
 #####
 
@@ -294,19 +345,18 @@ Link al drive:
      ~ se supone q es lo q modifica el mapa
      ~ a primera instancia se ve mas placentero "visualmente" sin el archivo 
      ~ calculo q tendran algun tipo de index extras de otros objetos, averiguar como porongas se modifica un archivo DAT  
+   * probar el de xfiles
  - agregar sistema de "voces", con dialogos a respuestas y demas
-
-##########
->checar cyberpunk para referencias a posibles armas
->revisar nuevo BRUTAL IA
->reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012
->deberia ser el orden de la ufopedia:
-0?>dossiers and background info
-100>alien research
-200>alien artifacts
-300>ufo components
-400> ufos
-500>alien life forms
-600>codex techs
-(????) el resto
-ultima>commendations
+ - checar cyberpunk para referencias a posibles armas
+ - revisar nuevo BRUTAL IA
+ - reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012.
+ - deberia ser el orden de la ufopedia
+   * 0: dossiers and background info
+   * 100: alien research
+   * 200: alien artifacts
+   * 300: ufo components
+   * 400: ufos
+   * 500: alien life forms
+   * 600: codex techs
+   * (????): el resto
+   * ultima>commendations

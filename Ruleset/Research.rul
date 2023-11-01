@@ -649,11 +649,11 @@ research:
     dependencies:
       - STR_MASTERMIND
       - STR_OVERLORD
-  - name: STR_CYDONIA_OR_BUST
-    cost: 0
-    points: 60
-    dependencies:
-      - STR_ENDGAME
+  # - name: STR_CYDONIA_OR_BUST #delete later?
+  #   cost: 0
+  #   points: 60
+  #   dependencies:
+  #     - STR_ENDGAME
 #--Victory Tech Tree--------------------END
 #--Hyper Wave Tech Tree--------------------
   - name: STR_CODEX_HYPERWAVE_THEORY
@@ -2090,6 +2090,18 @@ research:
     unlocks:
       - STR_LEADER_UNLOCK
       - STR_FINAL_UNLOCK
+      - STR_COMMANDER_UNLOCK
+      - STR_THREAT_UNLOCK
+  - name: STR_MUTON_GUARD
+    cost: 40
+    points: 50
+    lookup: STR_MUTON_GUARD
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_THE_ALIEN_MIND
+    unlocks:
+      - STR_LEADER_UNLOCK
       - STR_COMMANDER_UNLOCK
       - STR_THREAT_UNLOCK
   - name: STR_CARCHARODON_COMMANDER

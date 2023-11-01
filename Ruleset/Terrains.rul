@@ -5195,9 +5195,9 @@ terrains:
       - name: NOOBERIA29
         width: 10
         length: 10
-############################################
-###### CRUISE LINER BY SOLARIUS SCORCH ####
-##########################################
+#########################################
+#### CRUISE LINER BY SOLARIUS SCORCH ####
+#########################################
   - name: CRUISE_LINER
     mapDataSets:
       - BLANKS

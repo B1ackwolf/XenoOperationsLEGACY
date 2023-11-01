@@ -1,5 +1,5 @@
  armors:
-##### delete vainilla armors ######--------------------------------
+#----- delete vainilla armors -----#
   - delete: STR_NONE_UC
   - delete: STR_POWER_SUIT_UC
   - delete: STR_FLIYING_SUIT_UC

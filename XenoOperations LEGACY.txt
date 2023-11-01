@@ -93,12 +93,36 @@ Tweaks:
 - changed "QD" slot name to HOLSTER, to imply better their intended function as a side arm pocket, also modified the "belt name" so it doesnt overlap between each other
 - changed all the transport ships names to have a "XTP-(n°)" acronnym previous to their codename, to keep the nomenclature of other planes
 - same changes to the SR-71, now called XRS-71G
-
+revisar q si aplique todo esto
+- improved the name of some items an some ordnances and explosives to have a more distinct yet intuitive name
+  * antimatter cannon renamed to "apex launcher"
+    ~ ammo renamed to warhead if can use waypoint, "payload" in the other case.
+  * inc grenade renamed napalm grenade
+  * proximity grenade renamed to "proximity mine"
+  * grenade gained the prefix "standard"
+  * High explosive renamed to "explosive charge"
+  * antimatter bomb renamed to antimatter charge
+  * alien high explosive renamed to "alien demolition core"
 bugfixes:
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
  °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo)
-- some bugfixes for the handobs of the smoke grenade  
+- some bugfixes for the handobs of the smoke grenade 
+  * tons of fixes in handobs, smoke grenade, incendiary rocket , hybrid and shock weaponry 
 - corrected names in some muton variants
+- corrected a small issue with the amiga font not having the correct pallete format
+- implemented some changes from xross visual upgrade unto the main geoboard Menu
+  * also fixed an error where amiga font wasnt being applied on the geoboard (thus having vainilla pixelated font)
+  * also made some personal tweaks to the "clock" icons, increased size and some recoloring, imho resulted better
+  * finally made aviable the small "icons" representing the different buttons aside the words, a small QoL/improvement to UxUi
+    ~ thanks to kitten/hidletaus amiga font plus
+- fixed some errors in researches paths related 
+  * to muton guards(blue ones)
+  * UAVs
+  * others various researches
+- a problem related to final mission unlock being duplicate
+  * both operation endgame and cydonia or bust could be investigated
+  * also some redundant files from vainilla were scrapped, now they wont bloat the ufopaedia in some instances 
+#################
 ------------------------
 v.097.03 LE changelog:
 
