@@ -31,6 +31,9 @@ Link al drive:
  - resolver esto Supressed Error for 'STR_SECTOPOD_ELITE_TERRORIST'
      * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
      * Supressed Error for 'mod' Both 'STR_CYDONIA_OR_BUST' and 'STR_ENDGAME' research are marked as 'unlockFinalMission: true'   
+ - error en la nueva imagen de "inventario" enemigo
+     * primero que nada, agregar imagenes restantes del inventario enemigo
+     * revisar el tamaño de la posicion de los "slots" de manos para unidades 2x2
 #####
 
 +Finish Reorganizing Folders:
@@ -229,6 +232,8 @@ Link al drive:
 #####
 
 +Sprites Changes:
+ - revisar tier por tier
+   * cuales handobs, floorobs y bigobs faltan (prioridad primeras dos opciones)
  - a sprites agregarle ropa interior y/o camisetas como las nuevas del USARMY (hacer SFW)
  - seguir concretando los improved handobs de ciertos articulos
    * usar las de pistol y las de rifle clip para el primer tier

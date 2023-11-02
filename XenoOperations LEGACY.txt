@@ -103,6 +103,11 @@ revisar q si aplique todo esto
   * High explosive renamed to "explosive charge"
   * antimatter bomb renamed to antimatter charge
   * alien high explosive renamed to "alien demolition core"
+- eliminado todos los rastros de musica 2012
+  * reduje tamaño mod
+  * no conseguia darle creditos
+  * asi es mas justo, hay mejores opciones y los modders creadores obtienen el trafico y descargas merecido por su esfuerzo y dedicacion.
+-agregado mas versiones de sonidos mejorados del mod de XRoss  
 bugfixes:
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
  °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo)
@@ -121,7 +126,8 @@ bugfixes:
   * others various researches
 - a problem related to final mission unlock being duplicate
   * both operation endgame and cydonia or bust could be investigated
-  * also some redundant files from vainilla were scrapped, now they wont bloat the ufopaedia in some instances 
+  * also some redundant files from vainilla were scrapped, now they wont bloat the ufopaedia in some instances
+- purged all acknoleged problems on VSC using pedrothezero, this should help with the general instability of the mod  
 #################
 ------------------------
 v.097.03 LE changelog:
