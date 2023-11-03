@@ -1683,7 +1683,7 @@ terrains:
         length: 10
   - name: XOPSALIENBASE
     ambience: 300
-    ambientVolume: 2
+    ambientVolume: 3
     mapDataSets:
       - BLANKS
       - XOPSUFOFLOOR

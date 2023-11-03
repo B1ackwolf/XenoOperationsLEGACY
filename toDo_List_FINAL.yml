@@ -6,6 +6,11 @@ Link al drive:
 #####
 
 +Priorities fixes:
+ - organizar el arroz con mango que tengo respecto a los articulos medicos, establecer nomenclatura unica
+   * "medikit" tanto en referencias str_ como en strings y fotos
+ - notariar en pascal todo dentro de la carpeta de weaponFx
+ - eliminar carpeta de sounds a medida q hago las pruebas de los nuevos sonidos, ojito.
+ ######
  - confirmar que onda con el error del bulletsprite de la pistol taser.
  - checar funcionamiento del spitter de xfiles en cuanto a esconderse, para reemplazar completamente los silacoid.
  - resolver problema con la zombificacion de los perros (desde xfiles).
@@ -155,7 +160,8 @@ Link al drive:
      ~ uno sencillo de color gris plomo/oscuro
      ~ uno de aleaciones
      ~ uno de material hyper pesado
-     ~ uno "holografico"/de energia     
+     ~ uno "holografico"/de energia
+   * usar el metalhit.ogg como sonido     
 #####
 
 +Units Changes:

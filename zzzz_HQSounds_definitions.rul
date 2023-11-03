@@ -1,0 +1,551 @@
+units:
+####ojito usar esta info e ir corrigiendo los nuevos sonidos####
+  # - type: STR_TANK_CANNON
+  # - type: STR_TANK_ROCKET_LAUNCHER
+  # - type: STR_TANK_LASER_CANNON
+    # deathSound: 23
+    # moveSound: 14
+  # - type: STR_HOVERTANK_PLASMA
+  # - type: STR_HOVERTANK_LAUNCHER
+    # deathSound: 23
+    # moveSound: 40
+  - type: STR_SECTOID_SOLDIER
+    deathSound: 57
+  - type: STR_SECTOID_ENGINEER
+    deathSound: 57
+  - type: STR_SECTOID_MEDIC
+    deathSound: 57
+  - type: STR_SECTOID_NAVIGATOR
+    deathSound: 57
+  - type: STR_SECTOID_LEADER
+    deathSound: 57
+  - type: STR_SECTOID_COMMANDER
+    deathSound: 57
+    # deathSound: 10
+  # - type: STR_CYBERDISC_TERRORIST
+    # deathSound: 23
+    # moveSound: 40
+  - type: STR_FLOATER_SOLDIER
+    deathSound: 58
+  - type: STR_FLOATER_ENGINEER
+    deathSound: 58
+  - type: STR_FLOATER_NAVIGATOR
+    deathSound: 58
+  - type: STR_FLOATER_MEDIC
+    deathSound: 58
+  - type: STR_FLOATER_LEADER
+    deathSound: 58
+  - type: STR_FLOATER_COMMANDER
+    deathSound: 58
+    # moveSound: 15
+  - type: STR_REAPER_TERRORIST
+    deathSound: 56
+  - type: STR_SNAKEMAN_SOLDIER
+    moveSound: 0
+    deathSound: 1
+  - type: STR_SNAKEMAN_NAVIGATOR
+    moveSound: 0
+    deathSound: 1
+  - type: STR_SNAKEMAN_ENGINEER
+    moveSound: 0
+    deathSound: 1
+  - type: STR_SNAKEMAN_LEADER
+    moveSound: 0
+    deathSound: 1
+  - type: STR_SNAKEMAN_COMMANDER
+    moveSound: 0
+    deathSound: 1
+  - type: STR_CHRYSSALID_TERRORIST
+    deathSound: 59
+    aggroSound: 49
+  # - type: STR_MUTON_SOLDIER
+  # - type: STR_MUTON_NAVIGATOR
+  # - type: STR_MUTON_ENGINEER
+    # deathSound: 6
+  - type: STR_SILACOID_TERRORIST
+    deathSound: 7
+    # moveSound: 47
+  - type: STR_CELATID_TERRORIST
+    deathSound: 51
+    moveSound: 0
+    #moveSound: 16
+  # - type: STR_ETHEREAL_SOLDIER
+  # - type: STR_ETHEREAL_LEADER
+  # - type: STR_ETHEREAL_COMMANDER
+    # deathSound: 9
+  # - type: STR_SECTOPOD_TERRORIST
+    # deathSound: 23
+  # - type: STR_DOGE
+    # deathSound: 94
+    # aggroSound: 95
+  - type: STR_ZOMBIE
+    deathSound: 55
+  # - type: STR_ETHEREAL_GUARDIAN
+  # - type: STR_ETHEREAL_SPEAKER
+  # - type: STR_ETHEREAL_KNIGHT
+  # - type: STR_ETHEREAL_GRAND_MASTER
+    # deathSound: 9
+  - type: STR_DOGE
+    aggroSound: 101
+    deathSound: 102
+  - type: STR_HYBRID_SOLDIER
+    deathSound: 10
+  - type: STR_HYBRID_ENGINEER
+    deathSound: 10
+  - type: STR_HYBRID_NAVIGATOR
+    deathSound: 10
+  - type: STR_HYBRID_MEDIC
+    deathSound: 10
+    #deathSound: 8
+  # - type: STR_ALIEN_DRONE_TERRORIST
+    # deathSound: 23
+    # moveSound: 40
+  # - type: STR_ANTHROPOD_SOLDIER
+  # - type: STR_ANTHROPOD_NAVIGATOR
+  # - type: STR_ANTHROPOD_ENGINEER
+    # deathSound: 90
+  # - type: STR_SPITTER_TERRORIST
+    # deathSound: 102
+    # moveSound: 0
+  # - type: STR_SPITTER_RETRACT_TERRORIST
+    # deathSound: 102
+    # moveSound: 0
+  # - type: STR_SPITTER_RETRES_TERRORIST
+    # deathSound: 101
+    # moveSound: 0
+  # - type: STR_SPITTER_NAKED_TERRORIST
+    # deathSound: 102
+    # moveSound: 0
+  - type: STR_CEREBREAL_SOLDIER
+    deathSound: 51
+  - type: STR_CEREBREAL_ENGINEER
+    deathSound: 51
+  - type: STR_CEREBREAL_NAVIGATOR
+    deathSound: 51
+  - type: STR_CEREBREAL_MEDIC
+    deathSound: 51
+  - type: STR_CEREBREAL_LEADER
+    deathSound: 51
+  - type: STR_CEREBREAL_COMMANDER
+    deathSound: 51
+    #deathSound: 8
+  # - type: STR_CEREBREAL_LARVA_TERRORIST
+    # deathSound: 23
+  - type: STR_CHTONITE_SOLDIER
+    deathSound: 10
+  - type: STR_CHTONITE_ENGINEER
+    deathSound: 10
+  - type: STR_CHTONITE_NAVIGATOR
+    deathSound: 10
+  - type: STR_CHTONITE_MEDIC
+    deathSound: 10
+  - type: STR_CHTONITE_LEADER
+    deathSound: 10
+  - type: STR_CHTONITE_COMMANDER
+    deathSound: 10
+    #deathSound: 8
+  - type: STR_TUNLUN_TERRORIST
+    deathSound: 68
+    #deathSound: 10
+  # - type: STR_REPTOID_SOLDIER
+  # - type: STR_REPTOID_ENGINEER
+  # - type: STR_REPTOID_NAVIGATOR
+  # - type: STR_REPTOID_MEDIC
+  # - type: STR_REPTOID_LEADER
+  # - type: STR_REPTOID_COMMANDER
+    # deathSound: 8
+  - type: STR_SALAMANDRON_TERRORIST
+    deathSound: 67
+  - type: STR_GAZER_SOLDIER
+    deathSound: 66
+  - type: STR_GAZER_ENGINEER
+    deathSound: 66
+  - type: STR_GAZER_NAVIGATOR
+    deathSound: 66
+  - type: STR_GAZER_MEDIC
+    deathSound: 66
+  - type: STR_GAZER_LEADER
+    deathSound: 66
+  - type: STR_GAZER_COMMANDER
+    deathSound: 66
+  # - type: STR_HOLODRONE_TERRORIST
+    # deathSound: 23
+    # moveSound: 15
+  # - type: STR_CYBERMITE_TERRORIST
+    # deathSound: 23
+  - type: STR_WASPITE_SOLDIER
+    deathSound: 65
+  - type: STR_WASPITE_ENGINEER
+    deathSound: 65
+  - type: STR_WASPITE_NAVIGATOR
+    deathSound: 65
+  - type: STR_WASPITE_MEDIC
+    deathSound: 65
+  - type: STR_WASPITE_LEADER
+    deathSound: 65
+  - type: STR_WASPITE_COMMANDER
+    deathSound: 65
+items:
+  - type: STR_PISTOL
+    fireSound: 70
+  - type: STR_PISTOL_CLIP
+    hitSound: 22
+  - type: STR_RIFLE
+    fireSound: 71
+  - type: STR_RIFLE_CLIP
+    hitSound: 22
+  - type: STR_HEAVY_CANNON
+    fireSound: 72
+  - type: STR_HC_AP_AMMO
+    hitSound: 13
+  - type: STR_AUTO_CANNON
+    fireSound: 73
+  - type: STR_AC_AP_AMMO
+    hitSound: 79
+  - type: STR_LASER_PISTOL
+    fireSound: 74
+    hitSound: 19
+  - type: STR_LASER_RIFLE
+    fireSound: 11
+    hitSound: 19
+  - type: STR_HEAVY_LASER
+    fireSound: 75
+    hitSound: 19
+  - type: STR_PLASMA_PISTOL
+    fireSound: 76
+  - type: STR_PLASMA_RIFLE
+    fireSound: 18
+  - type: STR_HEAVY_PLASMA
+    fireSound: 77
+  - type: STR_PLASMA_PISTOL_CLIP
+    hitSound: 78
+  - type: STR_PLASMA_RIFLE_CLIP
+    hitSound: 78
+  - type: STR_HEAVY_PLASMA_CLIP
+    hitSound: 78
+  - type: STR_PISTOL_AA_CLIP
+    hitSound: 22
+  - type: STR_RIFLE_AA_CLIP
+    hitSound: 22
+  - type: STR_ASSAULT_RIFLE
+    fireSound: 71
+  - type: STR_HC_AA_AMMO
+    hitSound: 13
+  - type: STR_AC_AA_AMMO
+    hitSound: 79
+  # - type: STR_STUN_ROD
+    # meleeSound: 54
+  - type: STR_TASER
+    fireSound: 84
+  - type: STR_TASER_CLIP
+    hitSound: 85
+  - type: STR_GRENADE_LAUNCHER
+    fireSound: 86
+  - type: STR_SHOTGUN
+    fireSound: 87
+  - type: STR_SHOTGUN_SHELLS
+    hitSound: 13
+  - type: STR_SHOTGUN_SHELLS_AP
+    hitSound: 13
+  - type: STR_SHOTGUN_AA_SHELLS
+    hitSound: 13
+  - type: STR_SHOTGUN_AA_SHELLS_AP
+    hitSound: 13
+  # - type: STR_LMG
+    # fireSound: 57
+  # - type: STR_LMG_CLIP
+  # - type: STR_LMG_AA_CLIP
+    # hitSound: 22
+  # - type: STR_HMG
+    # fireSound: 2
+  # - type: STR_HMG_CLIP
+  # - type: STR_HMG_AA_CLIP
+    # hitSound: 22
+  # - type: STR_LIGHT_MINIGUN
+    # fireSound: 56
+  # - type: STR_LIGHT_MINIGUN_CLIP
+  # - type: STR_LIGHT_MINIGUN_AA_CLIP
+    # hitSound: 22
+  # - type: STR_MINIGUN
+    # fireSound: 55
+  # - type: STR_MINIGUN_CLIP
+  # - type: STR_MINIGUN_AA_CLIP
+    # hitSound: 22
+  - type: STR_MAGNUM
+    fireSound: 88
+  - type: STR_MAGNUM_DRUM
+    hitSound: 13
+  - type: STR_MAGNUM_AA_DRUM
+    hitSound: 13
+  # - type: STR_SMG
+    # fireSound: 58
+  # - type: STR_SMG_CLIP
+  # - type: STR_SMG_AA_CLIP
+    # hitSound: 22
+  - type: STR_SNIPER_RIFLE
+    fireSound: 81
+    # minRange: 10
+    # snapRange: 50
+    # aimRange: 200
+  - type: STR_SNIPER_RIFLE_CLIP
+    hitSound: 22
+  - type: STR_SNIPER_RIFLE_AA_CLIP
+    hitSound: 22
+  - type: STR_HEAVY_SNIPER_RIFLE
+    fireSound: 94
+    # minRange: 15
+    # snapRange: 50
+    # aimRange: 200
+  - type: STR_HEAVY_SNIPER_RIFLE_CLIP
+    hitSound: 13
+  - type: STR_HEAVY_SNIPER_RIFLE_HE_CLIP
+    hitSound: 13
+  - type: STR_HEAVY_SNIPER_RIFLE_AA_CLIP
+    hitSound: 13
+  - type: STR_DART_RIFLE
+    fireSound: 96
+  - type: STR_DART_RIFLE_CLIP_A
+    hitSound: 79
+  - type: STR_DART_RIFLE_CLIP_B
+    hitSound: 79
+  - type: STR_DART_RIFLE_CLIP_C
+    hitSound: 79
+  # - type: STR_FLAMETHROWER
+    # fireSound: 64
+  # - type: STR_FLAMETHROWER_CLIP
+    # hitSound: 12
+  # - type: STR_FIRE_LAUNCHER
+    # fireSound: 64
+    # hitSound: 12
+  # - type: STR_ELECTRO_WHIP
+    # fireSound: 99
+    # hitSound: 1
+  # - type: STR_CONCUSSION_CANNON
+    # fireSound: 100
+    # hitSound: 0
+  - type: STR_PISTOL_LT
+    fireSound: 70
+  - type: STR_PISTOL_LT_CLIP
+    hitSound: 22
+  # - type: STR_RPG
+    # fireSound: 52
+  - type: STR_HUNTING_RIFLE
+    fireSound: 95
+  - type: STR_HUNTING_RIFLE_CLIP
+    hitSound: 22
+  - type: STR_PUMP_ACTION
+    fireSound: 87
+  - type: STR_PUMP_ACTION_SHELLS
+    hitSound: 13
+  # - type: STR_SNUBNOSE_PISTOL
+    # fireSound: 4
+  # - type: STR_SNUBNOSE_PISTOL_CLIP
+    # hitSound: 22
+  - type: STR_AK47
+    fireSound: 71
+  - type: STR_AK47_CLIP
+    hitSound: 22
+ # - type: STR_UZI
+   # fireSound: 58
+ # - type: STR_UZI_CLIP
+   # hitSound: 22
+  - type: STR_MULTI_LAUNCHER
+    fireSound: 52
+  - type: STR_ADVANCED_ROCKET_LAUNCHER
+    fireSound: 52
+#--------------------------####
+#-----HI-TECH WEAPONS------####
+#--------------------------####
+  # - type: STR_TOXIGUN
+    # fireSound: 71
+  - type: STR_TOXIGUN_FLASK
+    hitSound: 78
+  # - type: STR_PLASMA_CASTER
+    # fireSound: 18
+  - type: STR_PLASMA_CASTER_CLIP
+    hitSound: 78
+  - type: STR_PLASMA_SNIPER_RIFLE
+    fireSound: 83
+  - type: STR_PLASMA_SNIPER_RIFLE_CLIP
+    hitSound: 78
+  # - type: STR_PLASMA_BLASTER
+    # fireSound: 18
+  - type: STR_PLASMA_BLASTER_CLIP
+    hitSound: 78
+  - type: STR_LASER_SNIPER_RIFLE
+    fireSound: 82
+    hitSound: 19
+  - type: STR_LASER_SHOTGUN
+    fireSound: 75
+    hitSound: 19
+  - type: STR_SCATTER_LASER
+    fireSound: 11
+    hitSound: 19
+  - type: STR_ALIEN_LASER_RIFLE
+    fireSound: 11
+  - type: STR_ALIEN_LASER_RIFLE_CLIP
+    hitSound: 19
+  - type: STR_LASER_PISTOL_MIB
+    fireSound: 74
+  - type: STR_LASER_RIFLE_MIB
+    fireSound: 11
+  - type: STR_HEAVY_LASER_MIB
+    fireSound: 75
+  - type: STR_LASER_PISTOL_MIB_CLIP
+    hitSound: 19
+  - type: STR_LASER_RIFLE_MIB_CLIP
+    hitSound: 19
+  - type: STR_HEAVY_LASER_MIB_CLIP
+    hitSound: 19
+  # - type: STR_ELERIUM_MACE
+    # hitSound: 70
+  - type: STR_GAUSS_PISTOL
+    fireSound: 90
+  - type: STR_GAUSS_RIFLE
+    fireSound: 91
+  - type: STR_GAUSS_SNIPER_RIFLE
+    fireSound: 92
+  - type: STR_HEAVY_GAUSS
+    fireSound: 93
+  # - type: STR_GAUSS_PISTOL_CLIP
+    # hitSound: 66
+  # - type: STR_GAUSS_RIFLE_CLIP
+    # hitSound: 66
+  # - type: STR_GAUSS_SNIPER_RIFLE_CLIP
+    # hitSound: 66
+  # - type: STR_HEAVY_GAUSS_CLIP
+    # hitSound: 66
+  # - type: STR_RAIL_PISTOL
+    # fireSound: 98#68
+  # - type: STR_RAIL_RIFLE
+  # - type: STR_RAIL_SNIPER_RIFLE
+  # - type: STR_HEAVY_RAILGUN
+  # - type: STR_RAIL_PISTOL_CLIP
+    # hitSound: 66
+  # - type: STR_RAIL_RIFLE_CLIP
+  # - type: STR_RAIL_SNIPER_RIFLE_CLIP
+  # - type: STR_HEAVY_RAILGUN_CLIP
+#--------------------------####
+#-----WEAPON PLATFORMS-----####
+#--------------------------####
+  - type: STR_DOGE
+    meleeSound: 100
+  - type: MIBTANK_WEAPON
+    fireSound: 11
+    hitSound: 19
+  - type: STR_XCOM_CYBERDISC_PLASMA
+    fireSound: 18
+    hitSound: 78
+  - type: STR_XCOM_CYBERDISC_LASER
+    fireSound: 75
+    hitSound: 19
+  - type: STR_TANK_CANNON
+    fireSound: 72
+  - type: STR_TANK_ROCKET_LAUNCHER
+    fireSound: 52
+  - type: STR_TANK_LASER_CANNON
+    fireSound: 75
+    hitSound: 19
+  - type: STR_TANK_PLASMA
+    fireSound: 77
+    hitSound: 78
+  - type: STR_HOVERTANK_LASER_CANNON
+    fireSound: 75
+    hitSound: 19
+  - type: STR_HOVERTANK_PLASMA
+    fireSound: 77
+    hitSound: 78
+  - type: STR_HOVERTANK_ROCKET_LAUNCHER
+    fireSound: 52
+  - type: STR_HOVERTANK_LAUNCHER
+    fireSound: 53
+  - type: STR_SECTOPOD_LASER
+    fireSound: 11
+    hitSound: 19
+  - type: STR_SECTOPOD_PLASMA
+    fireSound: 77
+    hitSound: 78
+  - type: STR_TANK_GAUSS
+    fireSound: 91
+  - type: STR_HOVERTANK_GAUSS
+    fireSound: 93
+  # - type: STR_HWP_GAUSS_AMMO
+    # hitSound: 66
+  # - type: STR_TANK_RAILGUN
+    # fireSound: 96
+  # - type: STR_HOVERTANK_RAILGUN
+    # fireSound: 96
+  # - type: STR_HWP_RAILGUN_AMMO
+    # hitSound: 66
+  #- type: STR_SALAMANDRON_BITE
+  - type: ALIEN_DRONE_WEAPON
+    fireSound: 71
+    hitSound: 79
+  - type: CYBERDISC_WEAPON
+    fireSound: 77
+    hitSound: 78
+  - type: SECTOPOD_WEAPON
+    fireSound: 18
+    hitSound: 78
+  - type: MIB_SECTOPOD_WEAPON
+    fireSound: 75
+    hitSound: 19
+  - type: CHRYSSALID_WEAPON
+    meleeSound: 61
+  - type: ZOMBIE_WEAPON
+    meleeSound: 62
+  - type: SILACOID_WEAPON
+    meleeSound: 63
+  - type: CELATID_WEAPON
+    fireSound: 50
+    hitSound: 78
+facilities:
+  - type: STR_LASER_DEFENSES
+    fireSound: 14
+craftWeapons:
+  - type: STR_STINGRAY
+    sound: 15
+  # - type: STR_AVALANCHE
+    # sound: 5
+  # - type: STR_STORMLANCE
+    # sound: 5
+  # - type: STR_CANNON_UC
+    # sound: 4
+  # - type: STR_ALLOY_CANNON_UC
+    # sound: 4
+  - type: STR_GAUSS_CANNON_UC
+    sound: 16
+  - type: STR_RAIL_CANNON_UC
+    sound: 16
+  # - type: STR_LASER_CANNON_UC
+    # sound: 8
+  # - type: STR_PLASMA_BEAM_UC
+    # sound: 9
+  # - type: STR_FUSION_BALL_UC
+    # sound: 7
+  - type: STR_LASER_CANNON_UC
+    sound: 14
+#-----------------
+#-----------------
+#-----------------
+# Version 1.0
+# - added all missing sounds + some more
+# - changed general approach, trying to make the sounds more scary and better fitting for intense X-Com atmosphere
+# - changed volume of most of the new sounds, so they better match original sounds now
+# - [Geoscape] added different launch sounds for Avalanche and Stingray missiles
+# - [Geoscape] changed loud UFO attack sound from laser (default in OpenXCom) to more subtle one
+# - [Geoscape] swapped UFO hit and X-Com craft hit sounds (since they're swapped in OpenXCom comparing to UFO:EU sound documentation)
+# - [Geoscape] added X-Com craft destroy sound
+# - [Geoscape] tweaked Cannon sound
+# - [Battlescape] added all missing sounds
+# - [Battlescape] changed many sounds to make them fit the game better
+# - [Battlescape] added new fire sounds for each basic gun (pistol, rifle, heavy cannon, auto cannon)
+# - [Battlescape] added new fire sounds for each laser and plasma variant (pistol, rifle, heavy)
+# - [Battlescape] added new hit effects for plasma and autocannon
+# - [Battlescape] added new a lot of new alien death/scream/attack sound effects so that each alien would have his own set of sounds
+######### FMP
+# - [Final Mod Pack] added Gauss Cannon Geoscape sound
+# - [Final Mod Pack] added new sounds for most of the new weapons (Sniper, Heavy Sniper, Laser/Plasma Sniper, Shotguns, Magnum, Hunting Rifle, Dartgun, Grenade Launcher, Gauss Weapons)
+# - [Final Mod Pack] added new sounds for tanks, hovertanks, sectopods...
+# - [Final Mod Pack] added few new death screams for some of the new aliens
+# - [Final Mod Pack] added new sounds for Attack Dog

@@ -259,13 +259,13 @@ extraSprites:
       1114: Resources/WeaponrySpritesCorregido/7thStun/BigOb/TaserPistol_clip.png
 #------ Tier 7 Stun ends here -----#
 #------ Tier 8 Melee BigOb -----#
-      316: Resources/WeaponrySpritesCorregido/8thTierMelee/BigOb/1HumanBrassKnuckles.gif
-      315: Resources/WeaponrySpritesCorregido/8thTierMelee/BigOb/2HumanKnife.gif
-      430: Resources/WeaponrySpritesCorregido/8thTierMelee/BigOb/3HumanAlloyKnife.gif
-      325: Resources/WeaponrySpritesCorregido/8thTierMelee/BigOb/6HumanLaserSword.gif
-      431: Resources/WeaponrySpritesCorregido/8thTierMelee/BigOb/8HumanPlasmaSword.gif
-      372: Resources/WeaponrySpritesCorregido/8thTierMelee/BigOb/15AlienAlloyBlade.gif
-      369: Resources/WeaponrySpritesCorregido/8thTierMelee/BigOb/16AlienPlasmaBlade.gif
+      316: Resources/WeaponrySpritesCorregido/8thMelee/BigOb/1HumanBrassKnuckles.gif
+      315: Resources/WeaponrySpritesCorregido/8thMelee/BigOb/2HumanKnife.gif
+      430: Resources/WeaponrySpritesCorregido/8thMelee/BigOb/3HumanAlloyKnife.gif
+      325: Resources/WeaponrySpritesCorregido/8thMelee/BigOb/6HumanLaserSword.gif
+      431: Resources/WeaponrySpritesCorregido/8thMelee/BigOb/8HumanPlasmaSword.gif
+      372: Resources/WeaponrySpritesCorregido/8thMelee/BigOb/15AlienAlloyBlade.gif
+      369: Resources/WeaponrySpritesCorregido/8thMelee/BigOb/16AlienPlasmaBlade.gif
 #####------ Tier 8 Melee ends here -----#####
 #####------ Tier 9 Ordnance BigOb -----#####
       301: Resources/WeaponrySpritesCorregido/9thOrdnance/BigOb/2IncGrenade.gif
@@ -276,74 +276,74 @@ extraSprites:
       434: Resources/WeaponrySpritesCorregido/9thOrdnance/BigOb/11HumaAntiMatterCharge.gif
 #####------ Tier 9 Ordnance ends here -----#####
 #####------ Tier 10 Alien Plasma BigOb -----#
-      350: Resources/WeaponrySprites/alienArsenal/AlienPlasmaPistol.gif
-      351: Resources/WeaponrySprites/alienArsenal/AlienPlasmaPistolClip.gif #eliminar esta?
-      352: Resources/WeaponrySprites/alienArsenal/AlienPlasmaAssaulter.gif
-      353: Resources/WeaponrySprites/alienArsenal/AlienPlasmaAssaulterClip.gif
-      356: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlaster.gif
-      357: Resources/WeaponrySprites/alienArsenal/AlienPlasmaBlasterClip.gif
-      354: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifle.gif
-      355: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip.gif
-      402: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip2.gif
-      403: Resources/WeaponrySprites/alienArsenal/AlienPlasmaRifleClip3.gif
-      358: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifle.gif
-      359: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifleClip.gif
-      406: Resources/WeaponrySprites/alienArsenal/AlienPlasmaSniperRifleClip2.gif
-      360: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasma.gif
-      361: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip.gif
-      408: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip2.gif
-      409: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaClip3.gif
-      362: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannon.gif
-      363: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannonClip.gif
-      411: Resources/WeaponrySprites/alienArsenal/AlienHeavyPlasmaCannonClip3.gif
-      391: Resources/WeaponrySprites/alienArsenal/ElitePlasma.gif
-      392: Resources/WeaponrySprites/alienArsenal/ElitePlasmaClip.gif
-      375: Resources/WeaponrySprites/alienArsenal/SmallLauncher.gif
-      376: Resources/WeaponrySprites/alienArsenal/StunBomb.gif
-      400: Resources/WeaponrySprites/alienArsenal/StunBombAcid.gif
-      401: Resources/WeaponrySprites/alienArsenal/StunBombExplosive.gif
-      35: Resources/WeaponrySprites/alienArsenal/BlasterLauncher.gif
-      373: Resources/WeaponrySprites/alienArsenal/BlasterBomb.gif
+      350: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/1AlienPlasmaPistol.gif
+      351: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/1AlienPlasmaPistol_clip1.gif #eliminar esta?
+      352: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/2AlienPlasmaSmg.gif
+      353: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/2AlienPlasmaSmg_clip1.gif
+      356: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/3AlienPlasmaShotgun.gif
+      357: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/3AlienPlasmaShotgun_clip1.gif
+      354: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/4AlienPlasmaRifle.gif
+      355: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/4AlienPlasmaRifle_clip1.gif
+      402: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/4AlienPlasmaRifle_clip2.gif
+      403: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/4AlienPlasmaRifle_clip3.gif
+      360: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/5AlienPlasmaLmg.gif
+      361: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/5AlienPlasmaLmg_belt1.gif
+      408: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/5AlienPlasmaLmg_belt2.gif
+      409: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/5AlienPlasmaLmg_belt3.gif
+      358: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/6AlienPlasmaSniper.gif
+      359: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/6AlienPlasmaSniper_clip1.gif
+      406: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/6AlienPlasmaSniper_clip2.gif
+      362: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/7AlienPlasmaCannon.gif
+      363: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/7AlienPlasmaCannon_clip1.gif
+      411: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/7AlienPlasmaCannon_clip3.gif
+      391: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/13ElitePlasmaRifle.gif
+      392: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/13ElitePlasmaRifle_clip1.gif
+      375: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/16AlienSmallLauncher.gif
+      376: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/16AlienSmallLauncher_rack1.gif
+      400: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/16AlienSmallLauncher_rack2.gif
+      401: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/16AlienSmallLauncher_rack3.gif
+      35: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/17AlienBlasterLauncher.gif
+      373: Resources/WeaponrySpritesCorregido/10thAlien/BigOb/17AlienBlasterLauncher_bomb1.gif
 #####------ Tier 10 Alien plasma ends here -----#####
 #####------ Tier 10b Alien Ordnance BigOb -----#
-      364: Resources/WeaponrySprites/alienArsenal/AlienGrenade.gif
-      370: Resources/WeaponrySprites/alienArsenal/AlienProxGrenade.gif
-      366: Resources/WeaponrySprites/alienArsenal/AlienHighExplosive.gif
+      364: Resources/WeaponrySpritesCorregido/10thAlienOrdnance/BigOb/AlienGrenade.gif
+      370: Resources/WeaponrySpritesCorregido/10thAlienOrdnance/BigOb/AlienProxGrenade.gif
+      366: Resources/WeaponrySpritesCorregido/10thAlienOrdnance/BigOb/AlienExplosivePack.gif
 #####------ Tier 10b Alien Ordnance ends here -----#####
 #####------ Tier 11 Miscellaneous -----#
-      900: Resources/WeaponrySprites/alienArsenal/EleriumCell.gif
-      950: Resources/WeaponrySprites/alienArsenal/KeyCodex.gif
-      951: Resources/WeaponrySprites/alienArsenal/KeyCryptics.gif
-      952: Resources/WeaponrySprites/alienArsenal/KeyOracle.gif
-      953: Resources/WeaponrySpritescorregido/b11thMisc/noAlienStuff/BigOb/KeyCodexBig.gif
-      365: Resources/WeaponrySprites/alienArsenal/AlienCommDevice.gif
-      367: Resources/WeaponrySprites/alienArsenal/AlienHoloProjector.gif
-      368: Resources/WeaponrySprites/alienArsenal/AlienInjector.gif
-      371: Resources/WeaponrySprites/alienArsenal/AlienSmallEntertainment.gif
-      393: Resources/WeaponrySprites/alienArsenal/AlienComputer.gif
-      394: Resources/WeaponrySprites/alienArsenal/AlienDNASample.gif
-      395: Resources/WeaponrySprites/alienArsenal/AlienEmbryo.gif
-      396: Resources/WeaponrySprites/alienArsenal/AlienExtractor.gif
-      397: Resources/WeaponrySprites/alienArsenal/AlienOrganSample.gif
-      996: Resources/WeaponrySprites/Botiquines/AdrenoSyringe.png
-      997: Resources/WeaponrySprites/Botiquines/MiniFirstAid.png
-      998: Resources/WeaponrySprites/Botiquines/BasicMedkit.png
-      999: Resources/WeaponrySprites/Botiquines/ImprovedMedkit.gif
-      671: Resources/WeaponrySprites/alienArsenal/PsiAmpLarge.gif
-      672: Resources/WeaponrySprites/alienArsenal/PsiAmpSmall.gif
-      673: Resources/WeaponrySprites/alienArsenal/ElleriumLampHuman.gif
-      374: Resources/WeaponrySprites/alienArsenal/ElleriumLamp.gif
+      900: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/EleriumCell.gif
+      950: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/KeyCodex.gif
+      951: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/KeyCryptics.gif
+      952: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/KeyOracle.gif
+      953: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/KeyCodexBig.gif
+      365: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienCommDevice.gif
+      367: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienHoloProjector.gif
+      368: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienInjector.gif
+      371: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienSmallEntertainment.gif
+      393: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienComputer.gif
+      394: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienDNASample.gif
+      395: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienEmbryo.gif
+      396: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienExtractor.gif
+      397: Resources/WeaponrySpritesCorregido/11thMisc/AlienStuff/BigOb/AlienOrganSample.gif
+      996: Resources/WeaponrySpritesCorregido/11thMisc/Medicals/BigOb/AdrenoSyringe.png
+      997: Resources/WeaponrySpritesCorregido/11thMisc/Medicals/BigOb/FirstAidkit.png
+      998: Resources/WeaponrySpritesCorregido/11thMisc/Medicals/BigOb/BasicMedikit.png
+      999: Resources/WeaponrySpritesCorregido/11thMisc/Medicals/BigOb/ImprovedMedikit.gif
+      671: Resources/WeaponrySpritesCorregido/11thMisc/Others/BigOb/PsiAmpLarge.gif
+      672: Resources/WeaponrySpritesCorregido/11thMisc/Others/BigOb/PsiAmpSmall.gif
+      673: Resources/WeaponrySpritesCorregido/11thMisc/Others/BigOb/HumanEleriumLamp.gif
+      374: Resources/WeaponrySpritesCorregido/11thMisc/Others/BigOb/AlienEleriumLamp.gif
 #####------ Tier 11 Miscellaneous ends here -----#####
 #####----- Inventory Nullifying slots -----#####
-      2989: Resources/Ui/Inventory/Null_Jetpack.png
-      2990: Resources/Ui/Inventory/Null_Backpack.png
-      2991: Resources/Ui/Inventory/Null_2x3.png
-      2992: Resources/Ui/Inventory/Null_Belt.png
-      2993: Resources/Ui/Inventory/Null_PocketRS.png
-      2994: Resources/Ui/Inventory/Null_PocketLS.png
-      2995: Resources/Ui/Inventory/Null_PocketRL.png
-      2996: Resources/Ui/Inventory/Null_PocketLL.png
-      2997: Resources/Ui/Inventory/Null_Holster.png
+      2989: Resources/UxUI/InvBlockers/Null_Jetpack.png
+      2990: Resources/UxUI/InvBlockers/Null_Backpack.png
+      2991: Resources/UxUI/InvBlockers/Null_2x3.png
+      2992: Resources/UxUI/InvBlockers/Null_Belt.png
+      2993: Resources/UxUI/InvBlockers/Null_PocketRS.png
+      2994: Resources/UxUI/InvBlockers/Null_PocketLS.png
+      2995: Resources/UxUI/InvBlockers/Null_PocketRL.png
+      2996: Resources/UxUI/InvBlockers/Null_PocketLL.png
+      2997: Resources/UxUI/InvBlockers/Null_Holster.png
 #####----- Inventory Nullifying slots ends here -----#####
 #####------ Tier 3 Hybrid BigOb -----#####
   - type: BIGOBS.PCK
@@ -615,7 +615,7 @@ extraSprites:
 #####------ Tier 8 Melee FloorObs -----#
       316: Resources/WeaponrySprites/FloorOb/floorob_BrassKnuckles.gif
       315: Resources/WeaponrySprites/FloorOb/floorob_Knife.gif
-      430: Resources/XtraSprites/floorob_HumanAlloyBlade.gif
+      430: Resources/WeaponrySpritesCorregido/8ThMelee/FloorOb/3HumanAlloyKnife_floor.gif
       325: Resources/WeaponrySprites/FloorOb/floorob_LaserSword.gif
       431: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_HumanPlasmaBlade.gif
       372: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlloyBlade.gif
@@ -631,15 +631,15 @@ extraSprites:
 #####------ Tier 9 Ordnance ends here -----#####
 #####------ Tier 10 Alien Plasma FloorObs -----#
       350: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaPistol.gif
-      351: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaPistolClip.gif
+      351: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaPistolclip.gif
       352: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaAssaulter.gif
-      353: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaAssaulterClip.gif
+      353: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaAssaulterclip.gif
       354: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifle.gif
-      355: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip.gif
+      355: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleclip.gif
       356: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaBlaster.gif
-      357: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaBlasterClip.gif
+      357: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaBlasterclip.gif
       358: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifle.gif
-      359: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifleClip.gif
+      359: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifleclip.gif
       402: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip2.gif
       403: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaRifleClip3.gif
       406: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienPlasmaSniperRifleClip2.gif
@@ -647,13 +647,13 @@ extraSprites:
       409: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip3.gif
       411: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannonClip3.gif
       360: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasma.gif
-      361: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaClip.gif
+      361: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaclip.gif
       362: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannon.gif
-      363: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannonClip.gif
+      363: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_AlienHeavyPlasmaCannonclip.gif
       375: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_SmallLauncher.gif
       376: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBomb.gif
       391: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElitePlasma.gif
-      392: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElitePlasmaClip.gif
+      392: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElitePlasmaclip.gif
       400: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBombAcid.gif
       401: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_StunBombExplosive.gif
       34: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_BlasterLauncher.gif
@@ -677,15 +677,15 @@ extraSprites:
       950: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyCodex.gif
       951: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyCryptics.gif
       952: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_KeyOracle.gif
-      953: Resources/WeaponrySpritescorregido/b11thMisc/noAlienStuff/noFloorOb/floorob_KeyCodexBig.gif
+      953: Resources/WeaponrySpritescorregido/11thMisc/AlienStuff/FloorOb/KeyCodexBig_floor.gif
       671: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpLarge.gif
       672: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_PsiAmpSmall.gif
       673: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElleriumLampHuman.gif
       374: Resources/WeaponrySprites/alienArsenal/FloorOb/floorob_ElleriumLamp.gif
       996: Resources/WeaponrySprites/Botiquines/FloorOb/floorob_AdrenoSyringe.png
       997: Resources/WeaponrySprites/Botiquines/FloorOb/floorob_MiniFirstAid.png
-      998: Resources/WeaponrySprites/Botiquines/FloorOb/floorob_BasicMedkit.png
-      999: Resources/WeaponrySprites/Botiquines/FloorOb/floorob_ImprovedMedKit.png
+      998: Resources/WeaponrySpritesCorregido/11thMisc/Medicals/FloorOb/BasicMedikit_floor.png
+      999: Resources/WeaponrySpritesCorregido/11thMisc/Medicals/FloorOb/ImprovedMediKit_floor.png
 #####------ Tier 11 Miscellaneous ends here -----#####
 #####------ Tier 3 Hybrid FloorObs -----#####
   - type: FLOOROB.PCK
@@ -795,7 +795,7 @@ extraSprites:
       200: Resources/WeaponrySprites/Taser/HandOb_Taser.png
 #####------ Tier 7 Stun ends here -----#####
 #####------ Tier 8 Melee HandObs -----#
-      1060: Resources/XtraSprites/HumanAlloyBladeHandOb.png
+      1060: Resources/WeaponrySpritesCorregido/8thMelee/HandOb/3HumanAlloyKnife_hand.png
       800: Resources/WeaponrySprites/alienArsenal/HandObjects/PlasmaSwordHandObj.gif
       1070: Resources/WeaponrySprites/alienArsenal/HandObjects/HumanPlasmaSwordHandOb.gif
 #####------ Tier 8 Melee ends here -----#####
@@ -897,25 +897,26 @@ extraSprites:
       86: Resources/WeaponrySprites/alienArsenal/PlasmaHitBlue.gif
       96: Resources/WeaponrySprites/ShockHit.gif
       56: Resources/WeaponrySprites/Taser/Taser_hit.png
-      20: Resources/Ui/RankSprites/inBattlescape/Army0recruit.png
-      21: Resources/Ui/RankSprites/inBattlescape/Army1private.png
-      22: Resources/Ui/RankSprites/inBattlescape/Army2corporal.png
-      23: Resources/Ui/RankSprites/inBattlescape/Army3sergeant.png
-      24: Resources/Ui/RankSprites/inBattlescape/Army4staffsergeant.png
-      25: Resources/Ui/RankSprites/inBattlescape/Army5mastersergeant.png
-      800: Resources/Ui/RankSprites/inBattlescape/Army10deputy.png
-      801: Resources/Ui/RankSprites/inBattlescape/Army11lieutenant.png
-      802: Resources/Ui/RankSprites/inBattlescape/Army12lieutenant.png
-      803: Resources/Ui/RankSprites/inBattlescape/Army13captain.png
-      804: Resources/Ui/RankSprites/inBattlescape/Army14major.png
-      805: Resources/Ui/RankSprites/inBattlescape/Army15ltcolonel.png
-      900: Resources/Ui/RankSprites/inBattlescape/Pilot1lieutenant.png
-      901: Resources/Ui/RankSprites/inBattlescape/Pilot2Lieutenant.png
-      902: Resources/Ui/RankSprites/inBattlescape/Pilot3captain.png
-      903: Resources/Ui/RankSprites/inBattlescape/Pilot4major.png
-      904: Resources/Ui/RankSprites/inBattlescape/Pilot5colonel.png
-      905: Resources/Ui/RankSprites/inBattlescape/Pilot6brigadier.png
-      910: Resources/Ui/RankSprites/inBattlescape/Doggorank.png
+###### Ranks, mover a un smoke separado para mantener ordenado #####      
+      20: Resources/UxUI/RankSprites/inBattlescape/Army0recruit.png
+      21: Resources/UxUI/RankSprites/inBattlescape/Army1private.png
+      22: Resources/UxUI/RankSprites/inBattlescape/Army2corporal.png
+      23: Resources/UxUI/RankSprites/inBattlescape/Army3sergeant.png
+      24: Resources/UxUI/RankSprites/inBattlescape/Army4staffsergeant.png
+      25: Resources/UxUI/RankSprites/inBattlescape/Army5mastersergeant.png
+      800: Resources/UxUI/RankSprites/inBattlescape/Army10deputy.png
+      801: Resources/UxUI/RankSprites/inBattlescape/Army11lieutenant.png
+      802: Resources/UxUI/RankSprites/inBattlescape/Army12lieutenant.png
+      803: Resources/UxUI/RankSprites/inBattlescape/Army13captain.png
+      804: Resources/UxUI/RankSprites/inBattlescape/Army14major.png
+      805: Resources/UxUI/RankSprites/inBattlescape/Army15ltcolonel.png
+      900: Resources/UxUI/RankSprites/inBattlescape/Pilot1lieutenant.png
+      901: Resources/UxUI/RankSprites/inBattlescape/Pilot2Lieutenant.png
+      902: Resources/UxUI/RankSprites/inBattlescape/Pilot3captain.png
+      903: Resources/UxUI/RankSprites/inBattlescape/Pilot4major.png
+      904: Resources/UxUI/RankSprites/inBattlescape/Pilot5colonel.png
+      905: Resources/UxUI/RankSprites/inBattlescape/Pilot6brigadier.png
+      910: Resources/UxUI/RankSprites/inBattlescape/Doggorank.png
   - type: PCK #Thanks robin for sharing this
     height: 40
     width: 384
@@ -940,225 +941,226 @@ extraSprites:
 #---FACILITIES IMAGES------------------------------------------
   - type: BASEBITS.PCK
     files:
-      55: Resources/Ui/Basebits/X35.gif
-      56: Resources/Ui/Basebits/XCF2.gif
-      57: Resources/Ui/Basebits/XCF3.gif
-      58: Resources/Ui/Basebits/SKYWARDEN.gif
-      59: Resources/Ui/Basebits/Cannon.gif
-      60: Resources/Ui/Basebits/Stingray.gif
-      61: Resources/Ui/Basebits/Avalanche.gif
-      62: Resources/Ui/Basebits/Laser.gif
-      63: Resources/Ui/Basebits/Plasma.gif
-      64: Resources/Ui/Basebits/Fusion.gif
-      83: Resources/Ui/Basebits/Cluster.gif
-      84: Resources/Ui/Basebits/Pilum.gif
-      100: Resources/Ui/Basebits/AlienContainment.gif
-      700: Resources/Ui/Basebits/Gym.png
-      103: Resources/Ui/Basebits/Corridor.gif
-      104: Resources/Ui/Basebits/SecurityCheckpoint.gif
-      105: Resources/Ui/Basebits/LargeWorkshopP1.gif
-      106: Resources/Ui/Basebits/LargeWorkshopP2.gif
-      107: Resources/Ui/Basebits/LargeWorkshopP3.gif
-      108: Resources/Ui/Basebits/LargeWorkshopP4.gif
-      109: Resources/Ui/Basebits/LargeWorkshopPC1.gif
-      110: Resources/Ui/Basebits/LargeWorkshopPC2.gif
-      111: Resources/Ui/Basebits/LargeWorkshopPC3.gif
-      112: Resources/Ui/Basebits/LargeWorkshopPC4.gif
-      113: Resources/Ui/Basebits/SecurityCheckpoint.gif
-      114: Resources/Ui/Basebits/LargeLabP1.gif
-      115: Resources/Ui/Basebits/LargeLabP2.gif
-      116: Resources/Ui/Basebits/LargeLabP3.gif
-      117: Resources/Ui/Basebits/LargeLabP4.gif
-      118: Resources/Ui/Basebits/LargeLabPC1.gif
-      119: Resources/Ui/Basebits/LargeLabPC2.gif
-      120: Resources/Ui/Basebits/LargeLabPC3.gif
-      121: Resources/Ui/Basebits/LargeLabPC4.gif
-      122: Resources/Ui/Basebits/LargeHyperP1.gif
-      123: Resources/Ui/Basebits/LargeHyperP2.gif
-      124: Resources/Ui/Basebits/LargeHyperP3.gif
-      125: Resources/Ui/Basebits/LargeHyperP4.gif
-      126: Resources/Ui/Basebits/LargeHyperPC1.gif
-      127: Resources/Ui/Basebits/LargeHyperPC2.gif
-      128: Resources/Ui/Basebits/LargeHyperPC3.gif
-      129: Resources/Ui/Basebits/LargeHyperPC4.gif
-      130: Resources/Ui/Basebits/LargeRadarP1.gif
-      131: Resources/Ui/Basebits/LargeRadarP2.gif
-      132: Resources/Ui/Basebits/LargeRadarP3.gif
-      133: Resources/Ui/Basebits/LargeRadarP4.gif
-      134: Resources/Ui/Basebits/LargeRadarPC1.gif
-      135: Resources/Ui/Basebits/LargeRadarPC2.gif
-      136: Resources/Ui/Basebits/LargeRadarPC3.gif
-      137: Resources/Ui/Basebits/LargeRadarPC4.gif
-      138: Resources/Ui/Basebits/LargePsiP1.gif
-      139: Resources/Ui/Basebits/LargePsiP2.gif
-      140: Resources/Ui/Basebits/LargePsiP3.gif
-      141: Resources/Ui/Basebits/LargePsiP4.gif
-      142: Resources/Ui/Basebits/LargePsiPC1.gif
-      143: Resources/Ui/Basebits/LargePsiPC2.gif
-      144: Resources/Ui/Basebits/LargePsiPC3.gif
-      145: Resources/Ui/Basebits/LargePsiPC4.gif
-      150: Resources/Ui/Basebits/HURRICANE.gif
-      151: Resources/Ui/Basebits/Overlord.gif
-      152: Resources/Ui/Basebits/SR71.gif
-      158: Resources/Ui/Basebits/BellValor_base3.png
-      159: Resources/Ui/Basebits/BellValor_base1.png
-      160: Resources/Ui/Basebits/BellValor_base2.png
-      857: Resources/Ui/Basebits/Firefly_base.png
-      301: Resources/Ui/Basebits/LQ2_1.gif
-      302: Resources/Ui/Basebits/LQ2_2.gif
-      303: Resources/Ui/Basebits/LQ2_3.gif
-      304: Resources/Ui/Basebits/LQ2_4.gif
-      305: Resources/Ui/Basebits/LQ2_b_1.gif
-      306: Resources/Ui/Basebits/LQ2_b_2.gif
-      307: Resources/Ui/Basebits/LQ2_b_3.gif
-      308: Resources/Ui/Basebits/LQ2_b_4.gif
-      309: Resources/Ui/Basebits/GS2_1.gif
-      310: Resources/Ui/Basebits/GS2_2.gif
-      311: Resources/Ui/Basebits/GS2_3.gif
-      312: Resources/Ui/Basebits/GS2_4.gif
-      313: Resources/Ui/Basebits/GS2_b_1.gif
-      314: Resources/Ui/Basebits/GS2_b_2.gif
-      315: Resources/Ui/Basebits/GS2_b_3.gif
-      316: Resources/Ui/Basebits/GS2_b_4.gif
-####reorder####
-      42: Resources/Ui/RankSprites/inGeoscape/Army0recruit.png
-      43: Resources/Ui/RankSprites/inGeoscape/Army1private.png
-      44: Resources/Ui/RankSprites/inGeoscape/Army2corporal.png
-      45: Resources/Ui/RankSprites/inGeoscape/Army3sergeant.png
-      46: Resources/Ui/RankSprites/inGeoscape/Army4staffsergeant.png
-      47: Resources/Ui/RankSprites/inGeoscape/Army5mastersergeant.png
-      800: Resources/Ui/RankSprites/inGeoscape/Army10deputy.png
-      801: Resources/Ui/RankSprites/inGeoscape/Army11lieutenant.png
-      802: Resources/Ui/RankSprites/inGeoscape/Army12lieutenant.png
-      803: Resources/Ui/RankSprites/inGeoscape/Army13captain.png
-      804: Resources/Ui/RankSprites/inGeoscape/Army14major.png
-      805: Resources/Ui/RankSprites/inGeoscape/Army15ltcolonel.png
-      900: Resources/Ui/RankSprites/inGeoscape/Pilot1lieutenant.png
-      901: Resources/Ui/RankSprites/inGeoscape/Pilot2Lieutenant.png
-      902: Resources/Ui/RankSprites/inGeoscape/Pilot3captain.png
-      903: Resources/Ui/RankSprites/inGeoscape/Pilot4major.png
-      904: Resources/Ui/RankSprites/inGeoscape/Pilot5colonel.png
-      905: Resources/Ui/RankSprites/inGeoscape/Pilot6brigadier.png
-      910: Resources/Ui/RankSprites/inGeoscape/Doggorank.png
+      59: Resources/UxUI/BaseBits/PlaneSprites/Cannon.gif
+      60: Resources/UxUI/BaseBits/PlaneSprites/Stingray.gif
+      61: Resources/UxUI/BaseBits/PlaneSprites/Avalanche.gif
+      62: Resources/UxUI/BaseBits/PlaneSprites/Laser.gif
+      63: Resources/UxUI/BaseBits/PlaneSprites/Plasma.gif
+      64: Resources/UxUI/BaseBits/PlaneSprites/Fusion.gif
+      83: Resources/UxUI/BaseBits/PlaneSprites/Cluster.gif
+      84: Resources/UxUI/BaseBits/PlaneSprites/Pilum.gif
+      152: Resources/UxUI/BaseBits/PlaneSprites/XRS71_base.gif
+      55: Resources/UxUI/BaseBits/PlaneSprites/XCF0_base.gif
+      56: Resources/UxUI/BaseBits/PlaneSprites/XCF2_base.gif
+      57: Resources/UxUI/BaseBits/PlaneSprites/XCF3_base.gif
+      158: Resources/UxUI/BaseBits/PlaneSprites/XTP1a_base.png
+      159: Resources/UxUI/BaseBits/PlaneSprites/XTP1b_base.png
+      160: Resources/UxUI/BaseBits/PlaneSprites/XTP1c_base.png
+      857: Resources/UxUI/BaseBits/PlaneSprites/XTP2_base.png
+      58: Resources/UxUI/BaseBits/PlaneSprites/XTP3_base.gif
+      150: Resources/UxUI/BaseBits/PlaneSprites/XTP4_base.gif      
+      151: Resources/UxUI/BaseBits/PlaneSprites/XTPX_base.gif
+      100: Resources/UxUI/BaseBits/BuildingSprites/AlienContainment.gif
+      700: Resources/UxUI/BaseBits/BuildingSprites/Gym.png
+      103: Resources/UxUI/BaseBits/BuildingSprites/Corridor.gif
+      104: Resources/UxUI/BaseBits/BuildingSprites/SecurityCheckpoint.gif
+      105: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP1.gif
+      106: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP2.gif
+      107: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP3.gif
+      108: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP4.gif
+      109: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopPC1.gif
+      110: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopPC2.gif
+      111: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopPC3.gif
+      112: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopPC4.gif
+      113: Resources/UxUI/BaseBits/BuildingSprites/SecurityCheckpoint.gif
+      114: Resources/UxUI/BaseBits/BuildingSprites/LargeLabP1.gif
+      115: Resources/UxUI/BaseBits/BuildingSprites/LargeLabP2.gif
+      116: Resources/UxUI/BaseBits/BuildingSprites/LargeLabP3.gif
+      117: Resources/UxUI/BaseBits/BuildingSprites/LargeLabP4.gif
+      118: Resources/UxUI/BaseBits/BuildingSprites/LargeLabPC1.gif
+      119: Resources/UxUI/BaseBits/BuildingSprites/LargeLabPC2.gif
+      120: Resources/UxUI/BaseBits/BuildingSprites/LargeLabPC3.gif
+      121: Resources/UxUI/BaseBits/BuildingSprites/LargeLabPC4.gif
+      122: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperP1.gif
+      123: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperP2.gif
+      124: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperP3.gif
+      125: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperP4.gif
+      126: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperPC1.gif
+      127: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperPC2.gif
+      128: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperPC3.gif
+      129: Resources/UxUI/BaseBits/BuildingSprites/LargeHyperPC4.gif
+      130: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarP1.gif
+      131: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarP2.gif
+      132: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarP3.gif
+      133: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarP4.gif
+      134: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarPC1.gif
+      135: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarPC2.gif
+      136: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarPC3.gif
+      137: Resources/UxUI/BaseBits/BuildingSprites/LargeRadarPC4.gif
+      138: Resources/UxUI/BaseBits/BuildingSprites/LargePsiP1.gif
+      139: Resources/UxUI/BaseBits/BuildingSprites/LargePsiP2.gif
+      140: Resources/UxUI/BaseBits/BuildingSprites/LargePsiP3.gif
+      141: Resources/UxUI/BaseBits/BuildingSprites/LargePsiP4.gif
+      142: Resources/UxUI/BaseBits/BuildingSprites/LargePsiPC1.gif
+      143: Resources/UxUI/BaseBits/BuildingSprites/LargePsiPC2.gif
+      144: Resources/UxUI/BaseBits/BuildingSprites/LargePsiPC3.gif
+      145: Resources/UxUI/BaseBits/BuildingSprites/LargePsiPC4.gif
+      301: Resources/UxUI/BaseBits/BuildingSprites/LQ2_1.gif
+      302: Resources/UxUI/BaseBits/BuildingSprites/LQ2_2.gif
+      303: Resources/UxUI/BaseBits/BuildingSprites/LQ2_3.gif
+      304: Resources/UxUI/BaseBits/BuildingSprites/LQ2_4.gif
+      305: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_1.gif
+      306: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_2.gif
+      307: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_3.gif
+      308: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_4.gif
+      309: Resources/UxUI/BaseBits/BuildingSprites/GS2_1.gif
+      310: Resources/UxUI/BaseBits/BuildingSprites/GS2_2.gif
+      311: Resources/UxUI/BaseBits/BuildingSprites/GS2_3.gif
+      312: Resources/UxUI/BaseBits/BuildingSprites/GS2_4.gif
+      313: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_1.gif
+      314: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_2.gif
+      315: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_3.gif
+      316: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_4.gif
+##### reorder en otro separado, para mantener el orden correcto #####
+      42: Resources/UxUi/RankSprites/inGeoscape/Army0recruit.png
+      43: Resources/UxUi/RankSprites/inGeoscape/Army1private.png
+      44: Resources/UxUi/RankSprites/inGeoscape/Army2corporal.png
+      45: Resources/UxUi/RankSprites/inGeoscape/Army3sergeant.png
+      46: Resources/UxUi/RankSprites/inGeoscape/Army4staffsergeant.png
+      47: Resources/UxUi/RankSprites/inGeoscape/Army5mastersergeant.png
+      800: Resources/UxUi/RankSprites/inGeoscape/Army10deputy.png
+      801: Resources/UxUi/RankSprites/inGeoscape/Army11lieutenant.png
+      802: Resources/UxUi/RankSprites/inGeoscape/Army12lieutenant.png
+      803: Resources/UxUi/RankSprites/inGeoscape/Army13captain.png
+      804: Resources/UxUi/RankSprites/inGeoscape/Army14major.png
+      805: Resources/UxUi/RankSprites/inGeoscape/Army15ltcolonel.png
+      900: Resources/UxUi/RankSprites/inGeoscape/Pilot1lieutenant.png
+      901: Resources/UxUi/RankSprites/inGeoscape/Pilot2Lieutenant.png
+      902: Resources/UxUi/RankSprites/inGeoscape/Pilot3captain.png
+      903: Resources/UxUi/RankSprites/inGeoscape/Pilot4major.png
+      904: Resources/UxUi/RankSprites/inGeoscape/Pilot5colonel.png
+      905: Resources/UxUi/RankSprites/inGeoscape/Pilot6brigadier.png
+      910: Resources/UxUi/RankSprites/inGeoscape/Doggorank.png
 #---CRAFT INTECEPTION IMAGES------------------------------------------
   - type: INTICON.PCK
     files:
-      16: Resources/Ui/CraftIcons/Cannon.gif
-      17: Resources/Ui/CraftIcons/Stingray.gif
-      18: Resources/Ui/CraftIcons/Avalanche.gif
-      19: Resources/Ui/CraftIcons/Laser.gif
-      20: Resources/Ui/CraftIcons/Plasma.gif
-      21: Resources/Ui/CraftIcons/Fusion.gif
-      22: Resources/Ui/CraftIcons/X35Min.gif
-      23: Resources/Ui/CraftIcons/XCF2Min.gif
-      24: Resources/Ui/CraftIcons/XCF3Min.gif
-      25: Resources/Ui/CraftIcons/SKYWARDENMin.gif
-      33: Resources/Ui/CraftIcons/X35Dogfight.gif
-      34: Resources/Ui/CraftIcons/XCF2Dogfight.gif
-      35: Resources/Ui/CraftIcons/XCF3Dogfight.gif
-      36: Resources/Ui/CraftIcons/SKYWARDENDogfight.gif
-      40: Resources/Ui/CraftIcons/Cluster.gif
-      41: Resources/Ui/CraftIcons/Pilum.gif
-      117: Resources/Ui/CraftIcons/HURRICANEMin.gif
-      128: Resources/Ui/CraftIcons/HURRICANEDogfight.gif
-      118: Resources/Ui/CraftIcons/OverlordMin.gif
-      129: Resources/Ui/CraftIcons/Overlorddogfight.gif
-      119: Resources/Ui/CraftIcons/SR71Min.gif
-      130: Resources/Ui/CraftIcons/SR71Dogfight.gif
-      824: Resources/Ui/CraftIcons/Firefly_minimised.png
-      835: Resources/Ui/CraftIcons/Firefly_dogfight.png
-      125: Resources/Ui/CraftIcons/BellValor_minimised.png
-      126: Resources/Ui/CraftIcons/BellValor_minimised.png
-      127: Resources/Ui/CraftIcons/BellValor_minimised.png
-      136: Resources/Ui/CraftIcons/BellValor_dogfight.png
-      137: Resources/Ui/CraftIcons/BellValor_dogfight.png
-      138: Resources/Ui/CraftIcons/BellValor_dogfight.png
-#---NEW UFO IMAGES------------------------------------------
+      16: Resources/UxUi/InterWin/WeaponIcons/Cannon.gif
+      17: Resources/UxUi/InterWin/WeaponIcons/Stingray.gif
+      18: Resources/UxUi/InterWin/WeaponIcons/Avalanche.gif
+      19: Resources/UxUi/InterWin/WeaponIcons/Laser.gif
+      20: Resources/UxUi/InterWin/WeaponIcons/Plasma.gif
+      21: Resources/UxUi/InterWin/WeaponIcons/Fusion.gif
+      40: Resources/UxUi/InterWin/WeaponIcons/Cluster.gif
+      41: Resources/UxUi/InterWin/WeaponIcons/Pilum.gif
+#####ojito Renomnbrar y reordenar esta seccion#####
+      119: Resources/UxUi/InterWin/CraftIcons/SR71Min.gif
+      130: Resources/UxUi/InterWin/CraftIcons/SR71Dogfight.gif
+      22: Resources/UxUi/InterWin/CraftIcons/X35Min.gif
+      23: Resources/UxUi/InterWin/CraftIcons/XCF2Min.gif
+      24: Resources/UxUi/InterWin/CraftIcons/XCF3Min.gif
+      25: Resources/UxUi/InterWin/CraftIcons/SKYWARDENMin.gif
+      33: Resources/UxUi/InterWin/CraftIcons/X35Dogfight.gif
+      34: Resources/UxUi/InterWin/CraftIcons/XCF2Dogfight.gif
+      35: Resources/UxUi/InterWin/CraftIcons/XCF3Dogfight.gif
+      36: Resources/UxUi/InterWin/CraftIcons/SKYWARDENDogfight.gif
+      824: Resources/UxUi/InterWin/CraftIcons/Firefly_minimised.png
+      835: Resources/UxUi/InterWin/CraftIcons/Firefly_dogfight.png
+      125: Resources/UxUi/InterWin/CraftIcons/BellValor_minimised.png
+      126: Resources/UxUi/InterWin/CraftIcons/BellValor_minimised.png
+      127: Resources/UxUi/InterWin/CraftIcons/BellValor_minimised.png
+      136: Resources/UxUi/InterWin/CraftIcons/BellValor_dogfight.png
+      137: Resources/UxUi/InterWin/CraftIcons/BellValor_dogfight.png
+      138: Resources/UxUi/InterWin/CraftIcons/BellValor_dogfight.png
+      117: Resources/UxUi/InterWin/CraftIcons/HURRICANEMin.gif
+      128: Resources/UxUi/InterWin/CraftIcons/HURRICANEDogfight.gif
+      118: Resources/UxUi/InterWin/CraftIcons/OverlordMin.gif
+      129: Resources/UxUi/InterWin/CraftIcons/Overlorddogfight.gif
+#---NEW UFO IMAGES--------------#####Ojito acomodar nombres?----------------------------
   - type: UFOLABSHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOLabShip.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOLabShip.gif
   - type: UFOSCANNER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOScanner.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOScanner.gif
   - type: UFOSURVEY
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOSurvey.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOSurvey.gif
   - type: UFOSCOUT
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOScout.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOScout.gif
   - type: UFORAIDER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFORaider.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFORaider.gif
   - type: UFORESEARCHSHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOResearchShip.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOResearchShip.gif
   - type: UFOABDUCTOR
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOAbductor.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOAbductor.gif
   - type: UFOHARVESTER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOHarvester.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOHarvester.gif
   - type: UFOSTRIKECRUISER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOStrikeCruiser.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOStrikeCruiser.gif
   - type: UFOBATTLESHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOBattleship.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOBattleship.gif
   - type: UFOSUPPLYSHIP
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOSupplyShip.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOSupplyShip.gif
   - type: UFOCONSTRUCTOR
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOConstructor.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFOConstructor.gif
   - type: UFODESTROYER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFODestroyer.gif
+      0: Resources/UxUi/InterWin/AlienUfos/UFODestroyer.gif
   - type: UFOCLONER
     singleImage: true
     width: 160
     height: 52
     files:
-      0: Resources/Ui/InterWin/UFOCloner.gif
-#---UFOPAEDIA IMAGES------------------------------------------
+      0: Resources/UxUi/InterWin/AlienUfos/UFOCloner.gif
+#---UFOPEDIA IMAGES------------------------------------------
   - type: BACK08.SCR
     singleImage: true
     width: 320
@@ -1249,7 +1251,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/Overlord.gif
-  - type: UP006.SPK
+  - type: UP006.SPk
     singleImage: true
     width: 320
     height: 200
@@ -1267,31 +1269,31 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/Firefly_ufopedia.gif
-  - type: UP007.SPK
+  - type: UP007.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CraftWeaponAvalanche.gif
-  - type: UP008.SPK
+  - type: UP008.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CraftWeaponCannon.gif
-  - type: UP009.SPK
+  - type: UP009.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CraftWeaponFusion.gif
-  - type: UP010.SPK
+  - type: UP010.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CraftWeaponLaser.gif
-  - type: UP011.SPK
+  - type: UP011.SPk
     singleImage: true
     width: 320
     height: 200
@@ -1441,133 +1443,133 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/MutonBerzerker.gif
-  - type: UP012.SPK
+  - type: UP012.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Cleatid.gif
-  - type: UP013.SPK
+  - type: UP013.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CleatidBody.gif
-  - type: UP014.SPK
+  - type: UP014.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Crysalid.gif
-  - type: UP015.SPK
+  - type: UP015.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CrysalidBody.gif
-  - type: UP041.SPK
+  - type: UP041.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Cyberdisc.gif
-  - type: UP042.SPK
+  - type: UP042.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/CyberdiscBody.gif
-  - type: UP016.SPK
+  - type: UP016.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Ethereal.gif
-  - type: UP017.SPK
+  - type: UP017.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/EtherealBody.gif
-  - type: UP018.SPK
+  - type: UP018.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Floater.gif
-  - type: UP019.SPK
+  - type: UP019.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/FloaterBody.gif
-  - type: UP020.SPK
+  - type: UP020.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Muton.gif
-  - type: UP021.SPK
+  - type: UP021.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/MutonBody.gif
-  - type: UP022.SPK
+  - type: UP022.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Reaper.gif
-  - type: UP023.SPK
+  - type: UP023.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/ReaperBody.gif
-  - type: UP024.SPK
+  - type: UP024.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Sectoid.gif
-  - type: UP025.SPK
+  - type: UP025.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/SectoidBody.gif
-  - type: UP026.SPK
+  - type: UP026.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Sectopod.gif
-  - type: UP027.SPK
+  - type: UP027.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/SectopodBody.gif
-  - type: UP028.SPK
+  - type: UP028.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Silicoid.gif
-  - type: UP029.SPK
+  - type: UP029.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/SilicoidBody.gif
-  - type: UP030.SPK
+  - type: UP030.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/Snakeman.gif
-  - type: UP031.SPK
+  - type: UP031.SPk
     singleImage: true
     width: 320
     height: 200
@@ -1627,25 +1629,25 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/AlienWeaponsSpecial.gif
-  - type: UP040.SPK
+  - type: UP040.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/AlienAlloys.gif
-  - type: UP037.SPK
+  - type: UP037.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/AlienEntertainment.gif
-  - type: UP036.SPK
+  - type: UP036.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/UFOCloner.gif
-  - type: UP032.SPK
+  - type: UP032.SPk
     singleImage: true
     width: 320
     height: 200
@@ -1669,67 +1671,67 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopedia/CorruptedData.gif
-  - type: ALLOYARMORUFOPEDIA.SPK
+  - type: ALLOYARMORUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/AlloyArmor.gif
-  - type: FLYINGSUITUFOPEDIA.SPK
+  - type: FLYINGSUITUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/FlyingSuit.gif
-  - type: HECUFOPEDIA.SPK
+  - type: HECUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/HECArmor.gif
-  - type: KEVLARUFOPEDIA.SPK
+  - type: KEVLARUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/KevlarArmor.gif
-  - type: PILOTUFOPEDIA.SPK
+  - type: PILOTUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/PilotFlightSuit.gif
-  - type: POWERARMORUFOPEDIA.SPK
+  - type: POWERARMORUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/PowerArmor.gif
-  - type: POWERSUITUFOPEDIA.SPK
+  - type: POWERSUITUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/PowerSuit.gif
-  - type: PISONICUFOPEDIA.SPK
+  - type: PISONICUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/PsionicArmor.gif
-  - type: PERSONALUFOPEDIA.SPK
+  - type: PERSONALUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/PersonalArmor.gif
-  - type: SKY_STRIKEUFOPEDIA.SPK
+  - type: SKY_STRIKEUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopedia/SKY_STRIKEArmor.gif
-  - type: XOPSUFOPEDIA.SPK
+  - type: XOPSUFOPEDIA.SPk
     singleImage: true
     width: 320
     height: 200
@@ -2079,7 +2081,7 @@ extraSprites:
     width: 512
     height: 200
     files:
-      0: Resources/UnitSprites/AlienFaction/SPITTER.png
+      0: Resources/UnitSprites/AlienFaction/SPETTER.png
   - type: FLOATER.PCK
     subX: 32
     subY: 40
@@ -2319,91 +2321,91 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Ui/Cursor.gif
+      0: Resources/UxUi/InterfaceNew/Cursor.gif
+#----- Background Images -----#      
   - type: GEOBORD.SCR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ui/Backgrounds/GEOBORD.png
+      0: Resources/UxUi/BackgroundFiles/GEOBORD.png
   - type: BACK01.SCR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ui/Backgrounds/MainBackground.gif
+      0: Resources/UxUi/BackgroundFiles/MainBackground.gif
 ### ojito, esto tendra distintos colores, son las imagenes de fondo
   # - type: BACK02.SCR
   #   singleImage: true
   #   width: 320
   #   height: 200
   #   files:
-  #     0: Resources/Ui/Backgrounds/BACK02.png
+  #     0: Resources/UxUi/BackgroundFiles/BACK02.png
   # - type: BACK04.SCR
   #   singleImage: true
   #   width: 320
   #   height: 200
   #   files:
-  #     0: Resources/Ui/Backgrounds/MainBackground.gif
+  #     0: Resources/UxUi/BackgroundFiles/MainBackground.gif
   - type: ALTBACK07.SCR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ui/Backgrounds/Back07.png
+      0: Resources/UxUi/BackgroundFiles/Back07.png
   - type: CODEXALERT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Ui/Backgrounds/CodexBackground.gif
+      0: Resources/UxUi/BackgroundFiles/CodexBackground.gif
   - type: DayNightIndicator
     width: 72
     height: 24
     subX: 24
     subY: 24
     files:
-      0: Resources/Ui/Mun.png
+      0: Resources/UxUi/DarkMission.png
   - type: GlobeMarkers
     width: 90
     height: 3
     subX: 3
     subY: 3
     files:
-      0: Resources/Globe/globe_ufo_expanded.png
+      0: Resources/UxUi/SpriteSheets/GlobeTags_sheet.png
   - type: BigBurnIndicator
     singleImage: true
     files:
-      0: Resources/Ui/burning.png
+      0: Resources/UxUi/BurnState.png
   - type: BigStunIndicator
     singleImage: true
     files:
-      0: Resources/Ui/Zzz.png
+      0: Resources/UxUi/StunState.png
   - type: BigWoundIndicator
     singleImage: true
     files:
-      0: Resources/Ui/Bleed.png
+      0: Resources/UxUi/BleedState.png
   - type: BigShockIndicator
     singleImage: true
     files:
-      0: Resources/Ui/Shock.png
+      0: Resources/UxUi/ShockState.png
   - type: FloorBurnIndicator
     singleImage: true
     files:
-      0: Resources/Ui/burning.png
+      0: Resources/UxUi/BurnState.png
   - type: FloorStunIndicator
     singleImage: true
     files:
-      0: Resources/Ui/Zzz.png
+      0: Resources/UxUi/StunState.png
   - type: FloorWoundIndicator
     singleImage: true
     files:
-      0: Resources/Ui/Bleed.png
+      0: Resources/UxUi/BleedState.png
   - type: FloorShockIndicator
     singleImage: true
     files:
-      0: Resources/Ui/Shock.png
-
+      0: Resources/UxUi/ShockState.png
 #DOGGOS#
   - type: SPICONS.DAT
     width: 32
@@ -2443,491 +2445,483 @@ extraSprites:
   - type: Flag0
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Albania.png
+      0: Resources/UxUi/FlagSprites/Albania.png
   - type: Flag1
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Algeria.png
+      0: Resources/UxUi/FlagSprites/Algeria.png
   - type: Flag2
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Angola.png
+      0: Resources/UxUi/FlagSprites/Angola.png
   - type: Flag3
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Argentina.png
+      0: Resources/UxUi/FlagSprites/Argentina.png
   - type: Flag4
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Armenia.png
+      0: Resources/UxUi/FlagSprites/Armenia.png
   - type: Flag5
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Australia.png
+      0: Resources/UxUi/FlagSprites/Australia.png
   - type: Flag6
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Austria.png
+      0: Resources/UxUi/FlagSprites/Austria.png
   - type: Flag7
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Azerbaijan.png
+      0: Resources/UxUi/FlagSprites/Azerbaijan.png
   - type: Flag8
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Bahrain.png
+      0: Resources/UxUi/FlagSprites/Bahrain.png
   - type: Flag9
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Bangladesh.png
+      0: Resources/UxUi/FlagSprites/Bangladesh.png
   - type: Flag10
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Belarus.png
+      0: Resources/UxUi/FlagSprites/Belarus.png
   - type: Flag11
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Belgium.png
+      0: Resources/UxUi/FlagSprites/Belgium.png
   - type: Flag12
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Bolivia.png
+      0: Resources/UxUi/FlagSprites/Bolivia.png
   - type: Flag13
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Bosnia and Hezergovina.png
+      0: Resources/UxUi/FlagSprites/Bosnia and Hezergovina.png
   - type: Flag14
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Botswana.png
+      0: Resources/UxUi/FlagSprites/Botswana.png
   - type: Flag15
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Brazil.png
+      0: Resources/UxUi/FlagSprites/Brazil.png
   - type: Flag16
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Bulgaria.png
+      0: Resources/UxUi/FlagSprites/Bulgaria.png
   - type: Flag17
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Burma.png
+      0: Resources/UxUi/FlagSprites/Burma.png
   - type: Flag18
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Cameroon.png
+      0: Resources/UxUi/FlagSprites/Cameroon.png
   - type: Flag19
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Canada.png
+      0: Resources/UxUi/FlagSprites/Canada.png
   - type: Flag20
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Chad.png
+      0: Resources/UxUi/FlagSprites/Chad.png
   - type: Flag21
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Chile.png
+      0: Resources/UxUi/FlagSprites/Chile.png
   - type: Flag22
     singleImage: true
     files:
-      0: Resources/Ui/Flags/China.png
+      0: Resources/UxUi/FlagSprites/China.png
   - type: Flag23
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Colombia.png
+      0: Resources/UxUi/FlagSprites/Colombia.png
   - type: Flag24
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Congo.png
+      0: Resources/UxUi/FlagSprites/Congo.png
   - type: Flag25
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Croatia.png
+      0: Resources/UxUi/FlagSprites/Croatia.png
   - type: Flag26
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Cuba.png
+      0: Resources/UxUi/FlagSprites/Cuba.png
   - type: Flag27
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Czechia.png
+      0: Resources/UxUi/FlagSprites/Czechia.png
   - type: Flag28
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Denmark.png
+      0: Resources/UxUi/FlagSprites/Denmark.png
   - type: Flag29
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Ecuador.png
+      0: Resources/UxUi/FlagSprites/Ecuador.png
   - type: Flag30
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Egypt.png
+      0: Resources/UxUi/FlagSprites/Egypt.png
   - type: Flag31
     singleImage: true
     files:
-      0: Resources/Ui/Flags/El Salvador.png
+      0: Resources/UxUi/FlagSprites/El Salvador.png
   - type: Flag32
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Estonia.png
+      0: Resources/UxUi/FlagSprites/Estonia.png
   - type: Flag33
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Ethiopia.png
+      0: Resources/UxUi/FlagSprites/Ethiopia.png
   - type: Flag34
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Faroe Islands.png
+      0: Resources/UxUi/FlagSprites/Faroe Islands.png
   - type: Flag35
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Finland.png
+      0: Resources/UxUi/FlagSprites/Finland.png
   - type: Flag36
     singleImage: true
     files:
-      0: Resources/Ui/Flags/France.png
+      0: Resources/UxUi/FlagSprites/France.png
   - type: Flag37
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Georgia.png
+      0: Resources/UxUi/FlagSprites/Georgia.png
   - type: Flag38
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Germany.png
+      0: Resources/UxUi/FlagSprites/Germany.png
   - type: Flag39
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Ghana.png
+      0: Resources/UxUi/FlagSprites/Ghana.png
   - type: Flag40
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Greece.png
+      0: Resources/UxUi/FlagSprites/Greece.png
   - type: Flag41
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Guatemala.png
+      0: Resources/UxUi/FlagSprites/Guatemala.png
   - type: Flag42
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Honduras.png
+      0: Resources/UxUi/FlagSprites/Honduras.png
   - type: Flag43
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Hungary.png
+      0: Resources/UxUi/FlagSprites/Hungary.png
   - type: Flag44
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Iceland.png
+      0: Resources/UxUi/FlagSprites/Iceland.png
   - type: Flag45
     singleImage: true
     files:
-      0: Resources/Ui/Flags/India.png
+      0: Resources/UxUi/FlagSprites/India.png
   - type: Flag46
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Indonesia.png
+      0: Resources/UxUi/FlagSprites/Indonesia.png
   - type: Flag47
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Iran.png
+      0: Resources/UxUi/FlagSprites/Iran.png
   - type: Flag48
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Iraq.png
+      0: Resources/UxUi/FlagSprites/Iraq.png
   - type: Flag49
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Ireland.png
+      0: Resources/UxUi/FlagSprites/Ireland.png
   - type: Flag50
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Israel.png
+      0: Resources/UxUi/FlagSprites/Israel.png
   - type: Flag51
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Italy.png
+      0: Resources/UxUi/FlagSprites/Italy.png
   - type: Flag52
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Ivory Coast.png
+      0: Resources/UxUi/FlagSprites/Ivory Coast.png
   - type: Flag53
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Japan.png
+      0: Resources/UxUi/FlagSprites/Japan.png
   - type: Flag54
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Jordan.png
+      0: Resources/UxUi/FlagSprites/Jordan.png
   - type: Flag55
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Kazakhstan.png
+      0: Resources/UxUi/FlagSprites/Kazakhstan.png
   - type: Flag56
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Kenya.png
+      0: Resources/UxUi/FlagSprites/Kenya.png
   - type: Flag57
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Kuwait.png
+      0: Resources/UxUi/FlagSprites/Kuwait.png
   - type: Flag58
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Kyrgyzstan.png
+      0: Resources/UxUi/FlagSprites/Kyrgyzstan.png
   - type: Flag59
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Latvia.png
+      0: Resources/UxUi/FlagSprites/Latvia.png
   - type: Flag60
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Libya.png
+      0: Resources/UxUi/FlagSprites/Libya.png
   - type: Flag61
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Lithuania.png
+      0: Resources/UxUi/FlagSprites/Lithuania.png
   - type: Flag62
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Malaysia.png
+      0: Resources/UxUi/FlagSprites/Malaysia.png
   - type: Flag63
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Mali.png
+      0: Resources/UxUi/FlagSprites/Mali.png
   - type: Flag64
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Mexico.png
+      0: Resources/UxUi/FlagSprites/Mexico.png
   - type: Flag65
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Mongolia.png
+      0: Resources/UxUi/FlagSprites/Mongolia.png
   - type: Flag66
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Montenegro.png
+      0: Resources/UxUi/FlagSprites/Montenegro.png
   - type: Flag67
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Morocco.png
+      0: Resources/UxUi/FlagSprites/Morocco.png
   - type: Flag68
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Mozambique.png
+      0: Resources/UxUi/FlagSprites/Mozambique.png
   - type: Flag69
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Netherlands.png
+      0: Resources/UxUi/FlagSprites/Netherlands.png
   - type: Flag70
     singleImage: true
     files:
-      0: Resources/Ui/Flags/New Zealand.png
+      0: Resources/UxUi/FlagSprites/New Zealand.png
   - type: Flag71
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Nicaragua.png
+      0: Resources/UxUi/FlagSprites/Nicaragua.png
   - type: Flag72
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Niger.png
+      0: Resources/UxUi/FlagSprites/Niger.png
   - type: Flag73
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Nigeria.png
+      0: Resources/UxUi/FlagSprites/Nigeria.png
   - type: Flag74
     singleImage: true
     files:
-      0: Resources/Ui/Flags/North Macedonia.png
+      0: Resources/UxUi/FlagSprites/North Macedonia.png
   - type: Flag75
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Norway.png
+      0: Resources/UxUi/FlagSprites/Norway.png
   - type: Flag76
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Pakistan.png
+      0: Resources/UxUi/FlagSprites/Pakistan.png
   - type: Flag77
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Panama.png
+      0: Resources/UxUi/FlagSprites/Panama.png
   - type: Flag78
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Paraguay.png
+      0: Resources/UxUi/FlagSprites/Paraguay.png
   - type: Flag79
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Peru.png
+      0: Resources/UxUi/FlagSprites/Peru.png
   - type: Flag80
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Philippines.png
+      0: Resources/UxUi/FlagSprites/Philippines.png
   - type: Flag81
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Poland.png
+      0: Resources/UxUi/FlagSprites/Poland.png
   - type: Flag82
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Portugal.png
+      0: Resources/UxUi/FlagSprites/Portugal.png
   - type: Flag83
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Qatar.png
+      0: Resources/UxUi/FlagSprites/Qatar.png
   - type: Flag84
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Romania.png
+      0: Resources/UxUi/FlagSprites/Romania.png
   - type: Flag85
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Russia.png
+      0: Resources/UxUi/FlagSprites/Russia.png
   - type: Flag86
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Saudi Arabia.png
+      0: Resources/UxUi/FlagSprites/Saudi Arabia.png
   - type: Flag87
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Senegal.png
+      0: Resources/UxUi/FlagSprites/Senegal.png
   - type: Flag88
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Serbia.png
+      0: Resources/UxUi/FlagSprites/Serbia.png
   - type: Flag89
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Singapur.png
+      0: Resources/UxUi/FlagSprites/Singapur.png
   - type: Flag90
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Slovakia.png
+      0: Resources/UxUi/FlagSprites/Slovakia.png
   - type: Flag91
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Slovenia.png
+      0: Resources/UxUi/FlagSprites/Slovenia.png
   - type: Flag92
     singleImage: true
     files:
-      0: Resources/Ui/Flags/South Africa.png
+      0: Resources/UxUi/FlagSprites/South Africa.png
   - type: Flag93
     singleImage: true
     files:
-      0: Resources/Ui/Flags/South Korea.png
+      0: Resources/UxUi/FlagSprites/South Korea.png
   - type: Flag94
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Spain.png
+      0: Resources/UxUi/FlagSprites/Spain.png
   - type: Flag95
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Sudan.png
+      0: Resources/UxUi/FlagSprites/Sudan.png
   - type: Flag96
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Sweden.png
+      0: Resources/UxUi/FlagSprites/Sweden.png
   - type: Flag97
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Switzerland.png
+      0: Resources/UxUi/FlagSprites/Switzerland.png
   - type: Flag98
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Syria.png
+      0: Resources/UxUi/FlagSprites/Syria.png
   - type: Flag99
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Taiwan.png
+      0: Resources/UxUi/FlagSprites/Taiwan.png
   - type: Flag100
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Tajikistan.png
+      0: Resources/UxUi/FlagSprites/Tajikistan.png
   - type: Flag101
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Tanzania.png
+      0: Resources/UxUi/FlagSprites/Tanzania.png
   - type: Flag102
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Thailand.png
+      0: Resources/UxUi/FlagSprites/Thailand.png
   - type: Flag103
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Tunisia.png
+      0: Resources/UxUi/FlagSprites/Tunisia.png
   - type: Flag104
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Turkey.png
+      0: Resources/UxUi/FlagSprites/Turkey.png
   - type: Flag105
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Uganda.png
+      0: Resources/UxUi/FlagSprites/Uganda.png
   - type: Flag106
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Ukraine.png
+      0: Resources/UxUi/FlagSprites/Ukraine.png
   - type: Flag107
     singleImage: true
     files:
-      0: Resources/Ui/Flags/United Arab Emirates.png
+      0: Resources/UxUi/FlagSprites/United Arab Emirates.png
   - type: Flag108
     singleImage: true
     files:
-      0: Resources/Ui/Flags/United Kingdom.png
+      0: Resources/UxUi/FlagSprites/United Kingdom.png
   - type: Flag109
     singleImage: true
     files:
-      0: Resources/Ui/Flags/United States.png
+      0: Resources/UxUi/FlagSprites/United States.png
   - type: Flag110
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Uruguay.png
+      0: Resources/UxUi/FlagSprites/Uruguay.png
   - type: Flag111
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Uzbekistan.png
+      0: Resources/UxUi/FlagSprites/Uzbekistan.png
   - type: Flag112
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Venezuela.png
+      0: Resources/UxUi/FlagSprites/Venezuela.png
   - type: Flag113
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Vietnam.png
+      0: Resources/UxUi/FlagSprites/Vietnam.png
   - type: Flag114
     singleImage: true
     files:
-      0: Resources/Ui/Flags/Zambia.png
+      0: Resources/UxUi/FlagSprites/Zambia.png
   - type: Flag500
     singleImage: true
     files:
-      0: Resources/Ui/Flags/ZZZDoges.png
+      0: Resources/UxUi/FlagSprites/ZZZDoges.png
 #---Flags Ending------------------------
 #####MISC Ojito
-  - type: AlienInventory
-    singleImage: true
-    files:
-      0: Resources/Ui/NewInterface/enemy_preview_background.png
-  - type: AvatarBackground
-    singleImage: true
-    files:
-      0: Resources/Ui/NewInterface/avatar-background.png
   - type: TinyRanks
     width: 133
     height: 7
     subX: 7
     subY: 7
     files:
-      0: Resources/Ui/RankSprites/TinyRanks.png
+      0: Resources/UxUi/SpriteSheets/TinyRanks_sheet.png
   - type: CustomArmorPreviews
     width: 744
     height: 60
     subX: 12
     subY: 20
     files:
-      0: Resources/Ui/GUI_Soldiers.png
+      0: Resources/UxUi/SpriteSheets/ArmorList_sheet.png
   - type: TEXTURE.DAT
     width: 896
     height: 96
@@ -2936,7 +2930,7 @@ extraSprites:
     files:
        0: Resources/Globe/CMP_TEXTURES.png
 #### MISC ending
-####personel extra UFOPAEDIA
+####personel extra UFOPEDIA
 
   - type: UFOPEDIA_IMG_SOLDIERS
     singleImage: true
@@ -3012,462 +3006,471 @@ extraSprites:
     subX: 31
     subY: 8 
     files:
-      0: Resources/Commendations/SpriteSheet_CommendationCommendations.png
+      0: Resources/UxUi/SpriteSheets/Medals_sheet.png
   - type: CommendationDecorations #Hardcoded
     width: 31
     height: 80
     subX: 31
     subY: 8 
     files:
-      0: Resources/Commendations/SpriteSheet_CommendationDecorations.png
+      0: Resources/UxUi/SpriteSheets/Condecorations_sheet.png
 #MEDALS
   - type: ALIENS_KILLED
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKilled.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AliensKilled.png
   - type: ALIENS_KILLED_BY_INCENDIARY
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKilledByIncendiary.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AliensKilledByIncendiary.png
   - type: ALIENS_KILLED_BY_RACE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKilledByRace.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AliensKilledByRace.png
   - type: ALIENS_KNOCKED_OUT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKnockedOut.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AliensKnockedOut.png
   - type: ALIEN_BASE_ASSAULT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AlienBaseAssault.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AlienBaseAssault.png
   - type: ALIEN_SOLDIERS_KILLED_ALL_RACES
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AlienSoliersKilledAllRaces.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AlienSoliersKilledAllRaces.png
   - type: ALLBATTLETYPES
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllBattleTypes.png 
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AllBattleTypes.png 
   - type: ALLMISSIONS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllMissions.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AllMissions.png
   - type: ALLRANKS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllRanks.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AllRanks.png
   - type: ALLUFOS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllUfos.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AllUfos.png
   - type: ANTITERROR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AntiTerror.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_AntiTerror.png
   - type: BASE_DEFENDER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BaseDefender.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_BaseDefender.png
   - type: BESTOFRANK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BestOfRank.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_BestOfRank.png
   - type: BESTSOLDIER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BestSoldier.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_BestSoldier.png
   - type: BRAVERYGAIN
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BraveryGain.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_BraveryGain.png
   - type: DAYS_WOUNDED
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_DaysWounded.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_DaysWounded.png
   - type: DOUBLEKILL
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_DoubleKill.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_DoubleKill.png
   - type: FALLEN
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Fallen.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Fallen.png
   - type: FLANKSHOT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Flankshot.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Flankshot.png
   - type: GLOBETROTTER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Globetrotter.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Globetrotter.png
   - type: GRENADIER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Grenadier.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Grenadier.png
   - type: HEADSHOT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Headshot.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Headshot.png
   - type: HEALER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Healer.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Healer.png
   - type: IMPORTANT_ALIENS_KNOCKED_OUT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_ImportantAliensKnockedOut.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_ImportantAliensKnockedOut.png
   - type: IRON_MAN
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Ironman.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Ironman.png
   - type: LUCKYSHOT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Luckyshot.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Luckyshot.png
   - type: MAN_OF_STEEL
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_ManOfSteel.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_ManOfSteel.png
   - type: MARTYRER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Martyrer.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Martyrer.png
   - type: MEDIKIT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Medikit.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Medikit.png
   - type: MELEE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Melee.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Melee.png
   - type: MERCY_CROSS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_MercyCross.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_MercyCross.png
   - type: MIA
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Mia.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Mia.png
   - type: MINDCONTROL
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_MindControl.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_MindControl.png
   - type: NIGHT_TERRORMISSION_COUNT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_NightTerrormissionCount.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_NightTerrormissionCount.png
   - type: NIKE_CROSS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_NikeCross.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_NikeCross.png
   - type: ONE_MONTH_SERVICE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_OneMonthService.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_OneMonthService.png
   - type: ORIGINAL8
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Original8.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Original8.png
   - type: POSTMORTEM_KILL
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_PostmortemKill.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_PostmortemKill.png
   - type: PSIPANIC
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_PsiPanic.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_PsiPanic.png
   - type: REACTIONFIRE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Reactionfire.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Reactionfire.png
   - type: REARSHOT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Rearshot.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Rearshot.png
   - type: REVIVE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Revive.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Revive.png
   - type: SAPPER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Sapper.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Sapper.png
   - type: SECTOPOD_KILL
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_SectopodKill.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_SectopodKill.png
   - type: SEVEN_IN_ONE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_SevenInOne.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_SevenInOne.png
   - type: SLAVEKILLS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Slavekills.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Slavekills.png
   - type: SNIPER
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Sniper.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Sniper.png
   - type: STAR_OF_ASCLEPIUS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_StarOfAsclepius.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_StarOfAsclepius.png
   - type: STATGAIN
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_StatGain.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_StatGain.png
   - type: TOTAL_FRIENDLY_FIRED
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalFriendlyFired.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalFriendlyFired.png
   - type: TOTAL_IMPORTANT_MISSIONS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalImportantMissions.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalImportantMissions.png
   - type: TOTAL_KNOCKED_OUT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalKnockedOut.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalKnockedOut.png
   - type: TOTAL_LONE_SURVIVOR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalLoneSurvivor.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalLoneSurvivor.png
   - type: TOTAL_MISSION_COUNT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalMissionCount.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalMissionCount.png
   - type: TOTAL_MISSION_REGION_COUNT
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalMissionRegionCount.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalMissionRegionCount.png
   - type: TOTAL_MONTH_SERVICE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalMonthService.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalMonthService.png
   - type: TOTAL_NIGHT_MISSIONS
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalNightMissions.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_TotalNightMissions.png
   - type: TRAP
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Trap.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Trap.png
   - type: VALIANT_CRUX
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_ValiantCrux.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_ValiantCrux.png
   - type: WEAPON_PROFICIENCY
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_WeaponProficiency.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_WeaponProficiency.png
   - type: WOUNDED
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Wounded.png
+      0: Resources/UfopediaCorregido/UPediaMedals/UfoPaedia_Medal_Wounded.png
 ####Reorder below this
-  - type: GRAPHS.SPK
+  - type: GRAPHS.SPk
     singleImage: true
     width: 320
     height: 200
     files:
-      0: resources/Ui/Backgrounds/GRAPHS.png
+      0: resources/UxUi/BackgroundFiles/GRAPHS.png
   - type: BACK06.SCR
     singleImage: true
     width: 320
     height: 200
     files:
-      0: resources/Ui/Backgrounds/BACK06.png
+      0: resources/UxUi/BackgroundFiles/BACK06.png
 
   - type: UNIBORD.PCK
     singleImage: true
     files:
-      0: resources/Ui/Backgrounds/UNIBORD.png
+      0: resources/UxUi/BackgroundFiles/UNIBORD.png
+##########Reordenar#############      
   - type: oxceLinks
     width: 32
     height: 16
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/oxceLinks.png
+      0: resources/UxUi/InterfaceNew/oxceLinks.png
   - type: oxceLinksInv
     width: 23
     height: 22
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/oxceLinksInv.png
+      0: resources/UxUi/InterfaceNew/oxceLinksInv.png
   - type: InvCopy
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/invcopy.png
+      0: resources/UxUi/InterfaceNew/invcopy.png
   - type: InvCopyActive
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/invcopy_active.png
+      0: resources/UxUi/InterfaceNew/invcopy_active.png
   - type: InvPaste
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/invpaste.png
+      0: resources/UxUi/InterfaceNew/invpaste.png
   - type: InvPasteEmpty
     width: 32
     height: 22
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/invpaste_empty.png
+      0: resources/UxUi/InterfaceNew/invpaste_empty.png
   - type: TAC01.SCR
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/TAC01.png
+      0: resources/UxUi/InterfaceNew/TAC01.png
   - type: ICONS.PCK
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/ui.png
+      0: resources/UxUi/InterfaceNew/UiScreen.png
   - type: KneelButton
     width: 32
     height: 32
     subX: 32
     subY: 16
     files:
-      0: resources/Ui/NewInterface/kneelButton.png
+      0: resources/UxUi/InterfaceNew/kneelButton.png
   - type: DETBORD.PCK
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/DETBORD.png
+      0: resources/UxUi/InterfaceNew/DETBORD.png
   - type: MEDIBORD.PCK
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/MEDIBORD.png
+      0: resources/UxUi/InterfaceNew/MEDIBORD.png
   - type: SCANBORD.PCK
     singleImage: true
     files:
-      0: resources/Ui/NewInterface/SCANBORD.png
+      0: resources/UxUi/InterfaceNew/SCANBORD.png
+  - type: AlienInventory
+    singleImage: true
+    files:
+      0: Resources/UxUi/InterfaceNew/ENEMBOARD.png
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/UxUi/InterfaceNew/avatar-background.png
 ##### Paperdolls sprite layers #####--------------------------------
 #---------- Dogs breeds -----#
   - typeSingle: DOGGO__2__M0_BREED
@@ -5030,7 +5033,7 @@ extraSprites:
 customPalettes:
   - type: PAL_GEOSCAPE_NEW
     target: PAL_GEOSCAPE
-    file: Resources/PALS/LUKESGEOhybrid4.pal
+    file: Resources/GLOBE/LUKESGEOhybrid4.pal
   # - type: PAL_BATTLESCAPE_1L83
   #   target: PAL_BATTLESCAPE_1
   #   file: Resources/Pals/FACTIONS_seadepth1.jasc
