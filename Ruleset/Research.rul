@@ -722,7 +722,7 @@ research:
   - name: STR_PSIONIC_AMPLIFICATION
     points: 20
     needItem: true
-  - name: STR_PSI_AMP
+  - name: STR_PSI_AMP_SMALL
     cost: 200
     points: 20
     dependencies:
@@ -1026,6 +1026,11 @@ research:
     points: 10
     dependencies:
       - STR_ALLOY_BLADE
+  - name: STR_HUMAN_PLASMA_SWORD
+    cost: 40
+    points: 10
+    dependencies:
+      - STR_LIGHT_PLASMA_WEAPONS
   - name: STR_MICRO_FUSION
     points: 30
     needItem: true

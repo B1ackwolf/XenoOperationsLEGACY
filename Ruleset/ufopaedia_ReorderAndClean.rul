@@ -1891,7 +1891,7 @@ ufopaedia:
     listOrder: 2708
     requires:
       - STR_SHOCK_GRENADE
-#######OJITO ordenar despuies de esto
+#######OJITO ordenar despues de esto
   - id: STR_HUMAN_ALLOY_BLADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

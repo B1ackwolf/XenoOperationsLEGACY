@@ -6,8 +6,10 @@ Link al drive:
 #####
 
 +Priorities fixes:
+ - crear el sprite de floorob para el eleriumCell q sea el 37, checar q el small launcher use otro, ojito
+ - mejorar los sprites de la mindprobe? (bolita como el planeta del tesoro con muescas
  - organizar el arroz con mango que tengo respecto a los articulos medicos, establecer nomenclatura unica
-   * "medikit" tanto en referencias str_ como en strings y fotos
+   - "medikit" tanto en referencias str_ como en strings y fotos
  - notariar en pascal todo dentro de la carpeta de weaponFx
  - eliminar carpeta de sounds a medida q hago las pruebas de los nuevos sonidos, ojito.
  ######
@@ -31,14 +33,13 @@ Link al drive:
    * taking special consideration of the Muton Commanders, Muton Warlords.
  - Download CMP and ensure maps and everything else are up to date to keep purging the CTDs.
  - crear handob y floorob sprite nuevo estilo kriss vector de la Xsmg
- - cambiar granada de proximidad q no este desbloqueada al principio, q solo aparezca con el detector de movimientos
-   * ojito
- - resolver esto Supressed Error for 'STR_SECTOPOD_ELITE_TERRORIST'
-     * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
-     * Supressed Error for 'mod' Both 'STR_CYDONIA_OR_BUST' and 'STR_ENDGAME' research are marked as 'unlockFinalMission: true'   
+ - cambiar granada de proximidad q no este desbloqueada al principio, q solo aparezca con el detector de movimientos #ojito
+ - resolver esto de Supressed Error for STR_SECTOPOD_ELITE_TERRORIST.
+   * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
+   * Supressed Error for 'mod' Both 'STR_CYDONIA_OR_BUST' and 'STR_ENDGAME' research are marked as 'unlockFinalMission: true'   
  - error en la nueva imagen de "inventario" enemigo
-     * primero que nada, agregar imagenes restantes del inventario enemigo
-     * revisar el tamaño de la posicion de los "slots" de manos para unidades 2x2
+   * primero que nada, agregar imagenes restantes del inventario enemigo
+   * revisar el tamaño de la posicion de los "slots" de manos para unidades 2x2
 #####
 
 +Finish Reorganizing Folders:
@@ -135,7 +136,7 @@ Link al drive:
  - rebalancear minigun mas "liviana" el arma en si, pero mas pesada en general xq necesitara una mochila especial de balas y bateria, que luego se mejorara en la Xtier
    * usar beltbox de municion como mochila fija para la bateria y las balas (blackops minigun box in xfiles)
    * add vapor trails and reduce bullet speed.
-   * agregar parametro "followProjectiles: false" y crear un confAuto
+   * agregar parametro "followProjectiles false" y crear un confAuto
    * agregarle que "cargar el arma desde el piso a las manos tarde bastantes tus porq incluye "ponerse la mochila especial"
  - agregar un cilindro al plasma de handcannon para que sea un revolver pesado?
  - usar el rifle polaco fb msbs como bullpup Xperimental
@@ -291,7 +292,7 @@ Link al drive:
  - agregar inventory sprites para civiles y variedad de civiles tambien (posiblemente salga de XFILES)
  - cambiar y agregar mucha mas variedad de musica y canciones chidas
  - implementar un posible sistema de Armor chipping y degradation
- - check all the reloading tus for every weapon.
+ - checar all the reloading tus for every weapon.
    * modificar tiempos de recarga, balancear tiempos de transferencia de articulos de un bolsillo a otro
    * hacer que bullpups tarden mas en recargarse como metodo de balance?
    * averiguar como carajo modificar tiempos de recargas de armas
@@ -361,7 +362,7 @@ Link al drive:
  - checar cyberpunk para referencias a posibles armas
  - revisar nuevo BRUTAL IA
  - reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012.
- - deberia ser el orden de la ufopedia
+ - este deberia ser el orden de la ufopedia
    * 0: dossiers and background info
    * 100: alien research
    * 200: alien artifacts

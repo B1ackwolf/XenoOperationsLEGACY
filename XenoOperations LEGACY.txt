@@ -84,7 +84,10 @@ Changelog:
 v.097.04 LE changelog:
 
 Tweaks:
-- changes to some tecnologies relevant to the power armor , (purged all references from the "power suit" (the vainilla ultimate armor), so you dont waste time researching a dead end
+terminado al fin restructuracion de la carpeta RESOURCES faltan la parte de ufopaedia
+
+- cambiado el floorsprite del elerium, ahora los ufo power sources no tendran una pelota morada en medio, en cambio es correctamente un cristalito ambar, qol muy chiquito pero q me venia molestando hacia mucho tiempo
+- changes to some tecnologies relevant to the power armor , (purged all references from the "power suit" (the vainilla ultimate armor)), so you dont waste time researching a dead end
 - same change for the "fliying suit"
 - with those changes in mind, the POWER ARMOR (tier five xops armor) has been mooved "down" the codex path, you'll get it earlier in codex level 4, to balance this, you'll need an extra research topic, and prices remain untouched (thus still making the alloy armor a solid candidate to stay as the backbone of your troops)
 - made some changes with the SECTOPOD ELITE, a black variant of the standard sectopod, tweaked numbers to be more impresive (also fixes some instances where killing this unit wasnt providing their respective commendations)
@@ -107,7 +110,7 @@ revisar q si aplique todo esto
   * reduje tamaño mod
   * no conseguia darle creditos
   * asi es mas justo, hay mejores opciones y los modders creadores obtienen el trafico y descargas merecido por su esfuerzo y dedicacion.
--agregado mas versiones de sonidos mejorados del mod de XRoss  
+-agregado mas versiones de sonidos mejorados del mod HQSounds , author DAEDALUS 
 bugfixes:
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
  °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo)
@@ -119,7 +122,7 @@ bugfixes:
   * also fixed an error where amiga font wasnt being applied on the geoboard (thus having vainilla pixelated font)
   * also made some personal tweaks to the "clock" icons, increased size and some recoloring, imho resulted better
   * finally made aviable the small "icons" representing the different buttons aside the words, a small QoL/improvement to UxUi
-    ~ thanks to kitten/hidletaus amiga font plus
+    ~ thanks to kitten/hidletaus, the authors of amiga font plus
 - fixed some errors in researches paths related 
   * to muton guards(blue ones)
   * UAVs
@@ -127,7 +130,9 @@ bugfixes:
 - a problem related to final mission unlock being duplicate
   * both operation endgame and cydonia or bust could be investigated
   * also some redundant files from vainilla were scrapped, now they wont bloat the ufopaedia in some instances
-- purged all acknoleged problems on VSC using pedrothezero, this should help with the general instability of the mod  
+- purged all acknoleged problems on VSC using pedrothezeroTool, this should help with the general instability of the mod  
+
+
 #################
 ------------------------
 v.097.03 LE changelog:

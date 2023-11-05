@@ -7009,7 +7009,7 @@
       - STR_DOG
     specialWeapon: STR_DOGE_TRACK
     loftempsSet: [ 2 ]
-#------ Armors for ufopaedia display, check if this could be deleted later.
+#------ #ojito Armors for ufopaedia display, check if this could be deleted later.
   - type: STR_PILOT_UFOPEDIA_DISPLAY
     spriteSheet: XCOM_0.PCK
     spriteInv: PILOTUFOPEDIA

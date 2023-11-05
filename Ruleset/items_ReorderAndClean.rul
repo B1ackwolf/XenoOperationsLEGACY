@@ -52,10 +52,10 @@ items:
   #   handSprite: 328
   - type: STR_SMOKE_GRENADE
     handSprite: 1340
-  - type: STR_RIFLE_CLIP
-    handSprite: 1352
-  - type: STR_PISTOL_CLIP
-    handSprite: 1366
+  # - type: STR_RIFLE_CLIP
+  #   handSprite: 1352
+  # - type: STR_PISTOL_CLIP
+  #   handSprite: 1366
 ##########improvedhandob ending#########
   - type: STR_CODEX_1
     size: .5
@@ -4362,7 +4362,7 @@ items:
     bigSprite: 1113
     floorSprite: 83
     handSprite: 200
-    bulletSprite: 13
+    bulletSprite: 25 #ojito resolver quilombo del taser
     fireSound: 61
     compatibleAmmo:
       - STR_TASER_CLIP
