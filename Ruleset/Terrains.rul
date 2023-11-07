@@ -2618,219 +2618,219 @@ terrains:
         length: 20
 #END EXPANDED UBASE
 
-  - name: ACULTA   # by bulletdesigner
-    script: FARM
-    mapDataSets:
-      - BLANKS
-      - GOTHIC
-      - ACHURCH
-      - ACHURCH2
-      - ACHURCH3
-      - AGROUND
-      - ACHURCH4
-    mapBlocks:
-      - name: AULTA00
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA01
-        width: 10
-        length: 10
-      - name: AULTA02
-        width: 10
-        length: 10
-      - name: AULTA03
-        width: 10
-        length: 10
-      - name: AULTA04
-        width: 10
-        length: 10
-      - name: AULTA05
-        width: 10
-        length: 10
-      - name: AULTA06
-        width: 10
-        length: 10
-      - name: AULTA07
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA08
-        width: 10
-        length: 10
-      - name: AULTA09
-        width: 10
-        length: 10
-      - name: AULTA10
-        width: 10
-        length: 10
-      - name: AULTA11
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA12
-        width: 10
-        length: 10
-      - name: AULTA13
-        width: 10
-        length: 10
-      - name: AULTA14
-        width: 10
-        length: 10
-      - name: AULTA15
-        width: 10
-        length: 10
-      - name: AULTA16
-        width: 10
-        length: 10
-      - name: AULTA17
-        width: 10
-        length: 10
-      - name: AULTA18
-        width: 10
-        length: 10
-  - name: ACULTASAND  # by bulletdesigner
-    script: FARM
-    mapDataSets:
-      - BLANKS
-      - GOTHICSAND
-      - ACHURCH
-      - ACHURCH2
-      - ACHURCH3
-      - AGROUND
-      - ACHURCH4
-    mapBlocks:
-      - name: AULTA00
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA01
-        width: 10
-        length: 10
-      - name: AULTA02
-        width: 10
-        length: 10
-      - name: AULTA03
-        width: 10
-        length: 10
-      - name: AULTA04
-        width: 10
-        length: 10
-      - name: AULTA05
-        width: 10
-        length: 10
-      - name: AULTA06
-        width: 10
-        length: 10
-      - name: AULTA07
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA08
-        width: 10
-        length: 10
-      - name: AULTA09
-        width: 10
-        length: 10
-      - name: AULTA10
-        width: 10
-        length: 10
-      - name: AULTA11
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA12
-        width: 10
-        length: 10
-      - name: AULTA13
-        width: 10
-        length: 10
-      - name: AULTA14
-        width: 10
-        length: 10
-      - name: AULTA15
-        width: 10
-        length: 10
-      - name: AULTA16
-        width: 10
-        length: 10
-      - name: AULTA17
-        width: 10
-        length: 10
-      - name: AULTA18
-        width: 10
-        length: 10
-  - name: ACULTASNOW  # by bulletdesigner
-    script: FARM
-    mapDataSets:
-      - BLANKS
-      - GOTHICSNOW
-      - ACHURCH
-      - ACHURCH2
-      - ACHURCH3
-      - AGROUND
-      - ACHURCH4
-    mapBlocks:
-      - name: AULTA00
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA01
-        width: 10
-        length: 10
-      - name: AULTA02
-        width: 10
-        length: 10
-      - name: AULTA03
-        width: 10
-        length: 10
-      - name: AULTA04
-        width: 10
-        length: 10
-      - name: AULTA05
-        width: 10
-        length: 10
-      - name: AULTA06
-        width: 10
-        length: 10
-      - name: AULTA07
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA08
-        width: 10
-        length: 10
-      - name: AULTA09
-        width: 10
-        length: 10
-      - name: AULTA10
-        width: 10
-        length: 10
-      - name: AULTA11
-        width: 10
-        length: 10
-        groups: 1
-      - name: AULTA12
-        width: 10
-        length: 10
-      - name: AULTA13
-        width: 10
-        length: 10
-      - name: AULTA14
-        width: 10
-        length: 10
-      - name: AULTA15
-        width: 10
-        length: 10
-      - name: AULTA16
-        width: 10
-        length: 10
-      - name: AULTA17
-        width: 10
-        length: 10
-      - name: AULTA18
-        width: 10
-        length: 10
+  # - name: ACULTA   # by bulletdesigner
+  #   script: FARM
+  #   mapDataSets:
+  #     - BLANKS
+  #     - GOTHIC
+  #     - ACHURCH
+  #     - ACHURCH2
+  #     - ACHURCH3
+  #     - AGROUND
+  #     - ACHURCH4
+  #   mapBlocks:
+  #     - name: AULTA00
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA01
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA02
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA03
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA04
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA05
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA06
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA07
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA08
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA09
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA10
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA11
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA12
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA13
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA14
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA15
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA16
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA17
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA18
+  #       width: 10
+  #       length: 10
+  # - name: ACULTASAND  # by bulletdesigner
+  #   script: FARM
+  #   mapDataSets:
+  #     - BLANKS
+  #     - GOTHICSAND
+  #     - ACHURCH
+  #     - ACHURCH2
+  #     - ACHURCH3
+  #     - AGROUND
+  #     - ACHURCH4
+  #   mapBlocks:
+  #     - name: AULTA00
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA01
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA02
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA03
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA04
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA05
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA06
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA07
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA08
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA09
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA10
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA11
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA12
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA13
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA14
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA15
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA16
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA17
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA18
+  #       width: 10
+  #       length: 10
+  # - name: ACULTASNOW  # by bulletdesigner
+  #   script: FARM
+  #   mapDataSets:
+  #     - BLANKS
+  #     - GOTHICSNOW
+  #     - ACHURCH
+  #     - ACHURCH2
+  #     - ACHURCH3
+  #     - AGROUND
+  #     - ACHURCH4
+  #   mapBlocks:
+  #     - name: AULTA00
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA01
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA02
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA03
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA04
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA05
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA06
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA07
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA08
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA09
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA10
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA11
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+  #     - name: AULTA12
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA13
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA14
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA15
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA16
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA17
+  #       width: 10
+  #       length: 10
+  #     - name: AULTA18
+  #       width: 10
+  #       length: 10
   - name: POLAR_BD # by bulletdesigner
     mapDataSets:
       - BLANKS

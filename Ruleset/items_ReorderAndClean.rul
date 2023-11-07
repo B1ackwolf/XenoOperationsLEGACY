@@ -449,7 +449,7 @@ items:
   - type: STR_TANK_SMOKE_LAUNCHER
     weight: 0
     bigSprite: 2501
-#    fireSound: 1007
+    fireSound: 114
     compatibleAmmo:
       - STR_TANK_SMOKE_GRENADE
     accuracyAimed: 100
@@ -478,7 +478,7 @@ items:
     hitAnimation: 0
     listOrder: 9000
 #######- Final tanks WIP
-
+#revisar desde aqui
 ###-----Human first tier Ballistic terran weapons-----###
   - type: STR_PISTOL_SMALL
     size: 0.1
@@ -1007,6 +1007,7 @@ items:
       - STR_HC_I_AMMO
       - STR_HC_AP_AMMO
     arcingShot: true
+    fireSound: 114
     # handSprite: 90 ojito. acomodar sprite
     listOrder: 2125
   - type: STR_HC_HE_AMMO
@@ -1564,7 +1565,7 @@ items:
     floorSprite: 298
     handSprite: 330
     bulletSprite: 2
-    fireSound: 83
+    fireSound: 80
     compatibleAmmo:
       - STR_AM_RIFLE_CLIP
       - STR_HVSNIPER_RIFLE_CLIP_ALLOY

@@ -1,148 +1,167 @@
 extraSounds:
-#----- GEOSCAPE Sounds -----#
+##### GEOSCAPE SOUNDS #####
   - type: GEO.CAT
     files:
 #----- All vainilla basegame Sounds in geoscape, improved -----#
-      0: Resources/ExtraSoundsCorregido/GeoSounds/geo_button_2.ogg	#button1
-      1: Resources/ExtraSoundsCorregido/GeoSounds/geo_window.ogg	#window close
-      2: Resources/ExtraSoundsCorregido/GeoSounds/geo_whoosh_1.ogg	#window open1
-      3: Resources/ExtraSoundsCorregido/GeoSounds/geo_whoosh_2.ogg	#window open2
-      4: Resources/ExtraSoundsCorregido/GeoSounds/geo_cannon.ogg	#cannon
-      5: Resources/ExtraSoundsCorregido/GeoSounds/geo_missile.ogg	#missile (AVALANCHE)
-      6: Resources/ExtraSoundsCorregido/GeoSounds/geo_button_2.ogg #button2 #geo_button_1.ogg
-      7: Resources/ExtraSoundsCorregido/GeoSounds/geo_fusionball.ogg	#Fusion Ball
-      8: Resources/ExtraSoundsCorregido/GeoSounds/geo_ufoattack.ogg	#laser -> ufo attack (actual laser changed to 14)
-      9: Resources/ExtraSoundsCorregido/GeoSounds/geo_plasma.ogg	#plasma
-      10: Resources/ExtraSoundsCorregido/GeoSounds/geo_planehit.ogg	#xcom craft hit
-      11: Resources/ExtraSoundsCorregido/GeoSounds/geo_ufodestroyed.ogg	#ufo destroyed
-      12: Resources/ExtraSoundsCorregido/GeoSounds/geo_ufohit.ogg	#ufo hit
-      13: Resources/ExtraSoundsCorregido/GeoSounds/geo_planedestroyed.ogg  #xcom craft destroy
+      0: Resources/ImprovedSounds/GeoSounds/geo_button_2.ogg #button1
+      1: Resources/ImprovedSounds/GeoSounds/geo_window.ogg #window close
+      2: Resources/ImprovedSounds/GeoSounds/geo_whoosh_1.ogg #window open1
+      3: Resources/ImprovedSounds/GeoSounds/geo_whoosh_2.ogg #window open2
+      4: Resources/ImprovedSounds/GeoSounds/geo_cannon.ogg #cannon
+      5: Resources/ImprovedSounds/GeoSounds/geo_missile.ogg	#missile (AVALANCHE)
+      6: Resources/ImprovedSounds/GeoSounds/geo_button_2.ogg #button2 #geo_button_1.ogg
+      7: Resources/ImprovedSounds/GeoSounds/geo_fusionball.ogg #Fusion Ball
+      8: Resources/ImprovedSounds/GeoSounds/geo_ufoattack.ogg #laser -> ufo attack (actual laser changed to 14)
+      9: Resources/ImprovedSounds/GeoSounds/geo_plasma.ogg #plasma
+      10: Resources/ImprovedSounds/GeoSounds/geo_planehit.ogg #xcom craft hit
+      11: Resources/ImprovedSounds/GeoSounds/geo_ufodestroyed.ogg	#ufo destroyed
+      12: Resources/ImprovedSounds/GeoSounds/geo_ufohit.ogg	#ufo hit
+      13: Resources/ImprovedSounds/GeoSounds/geo_planedestroyed.ogg #xcom craft destroy
 #----- New plane weapons Sounds Already in XENOPS-----#    
-      20: Resources/Sounds/rocketslow.ogg
-      21: Resources/Sounds/rocket.ogg
-      22: Resources/Sounds/rocketfast.ogg
+      20: Resources/ImprovedSounds/GeoSounds/rocketslow.ogg
+      21: Resources/ImprovedSounds/GeoSounds/rocket.ogg
+      22: Resources/ImprovedSounds/GeoSounds/rocketfast.ogg
 #----- #OJITO NEW, ADDITIONAL sounds
-      14: Resources/ExtraSoundsCorregido/GeoSounds/geo_laser.ogg	#LASER
-      15: Resources/ExtraSoundsCorregido/GeoSounds/geo_missile_smaller.ogg	#STINGRAY
-      16: Resources/ExtraSoundsCorregido/GeoSounds/geo_gauss.ogg	#GAUSS CANNON
+      14: Resources/ImprovedSounds/GeoSounds/geo_laser.ogg #LASER
+      15: Resources/ImprovedSounds/GeoSounds/geo_missile_smaller.ogg #STINGRAY
+      16: Resources/ImprovedSounds/GeoSounds/geo_gauss.ogg #GAUSS CANNON
+##### GEOSCAPE SOUNDS ENDS #####
 
-#----- BATTLESCAPE Sounds -----#
+##### BATTLESCAPE Sounds #####
   - type: BATTLE.CAT
     files:
-#----- All vainilla BaseGame Sounds in battlescape, improved -----#
-      2: Resources/ExtraSoundsCorregido/FXSounds/NewFX/small_explosion.ogg	#small explosion
-      3: Resources/ExtraSoundsCorregido/FXSounds/NewFX/door_barn.ogg	#door open
-      5: Resources/ExtraSoundsCorregido/FXSounds/NewFX/large_explosion.ogg	#large explosion
-      17: Resources/ExtraSoundsCorregido/FXSounds/NewFX/b_reload.ogg	#reload
-      20: Resources/ExtraSoundsCorregido/FXSounds/NewFX/door_ufomain.ogg	#ufo door main
-      21: Resources/ExtraSoundsCorregido/FXSounds/NewFX/door_inner.ogg	#ufo door inner
-      24: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_metal1.ogg	#footsteps metal 1
-      25: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_metal2.ogg	#footsteps metal 2
-      26: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_ground1.ogg	#footsteps ground 1
-      27: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_ground2.ogg	#footsteps ground 2
-      28: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_martian1.ogg	#footsteps mars 1
-      29: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_martian2.ogg	#footsteps mars 2
-      30: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_water1.ogg	#footsteps mud 1
-      31: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_water2.ogg	#footsteps mud 2
-      32: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_sand1.ogg	#footsteps sand 1
-      33: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_sand2.ogg	#footsteps sand 2
-      34: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_snow1.ogg	#footsteps snow 1
-      35: Resources/ExtraSoundsCorregido/FXSounds/NewFX/walk_snow2.ogg	#footsteps snow 2
-      36: Resources/ExtraSoundsCorregido/FXSounds/NewFX/psy_attack.ogg	#mind control
-      37: Resources/ExtraSoundsCorregido/FXSounds/NewFX/psy_check.ogg	#mindprobe
-      38: Resources/ExtraSoundsCorregido/FXSounds/NewFX/place.ogg	#item drop
-      39: Resources/ExtraSoundsCorregido/FXSounds/NewFX/throw.ogg	#item throw
-      40: Resources/ExtraSoundsCorregido/FXSounds/NewFX/move_hover.ogg	#hovertank/cyberdisc move
-      41: Resources/ExtraSoundsCorregido/UnitSounds/NewUnits/death_x_m1.ogg	#male scream 1
-      42: Resources/ExtraSoundsCorregido/UnitSounds/NewUnits/death_x_m2.ogg	#male scream 2
-      43: Resources/ExtraSoundsCorregido/UnitSounds/NewUnits/death_x_m3.ogg	#male scream 3
-      44: Resources/ExtraSoundsCorregido/UnitSounds/NewUnits/death_x_f1.ogg	#female scream 1
-      45: Resources/ExtraSoundsCorregido/UnitSounds/NewUnits/death_x_f2.ogg	#female scream 2
-      46: Resources/ExtraSoundsCorregido/UnitSounds/NewUnits/death_x_f3.ogg	#female scream 3
-#----- Doge Sounds -----#
-      955: Resources/Sounds/DogeSpotted.wav
-      680: Resources/Sounds/DogeDeath2.wav
-      681: Resources/Sounds/DogeDeath3.wav
-      994: Resources/Sounds/DogeDeath1.wav
-      685: Resources/Sounds/DogeAttack2.wav
-      686: Resources/Sounds/DogeAttack3.wav
-      933: Resources/Sounds/DogeAttack1.wav
-#----- Finish Dog Sounds -----#
-#### sonido de armas?
+#----- new Alien Sounds improved, 2012 death sounds and daedalus hqSfmp -----#
+      901: Resources/ImprovedSounds/AlienSounds/sectoid_death.wav
+      101: Resources/ImprovedSounds/AlienSounds/Floater1.ogg
+      903: Resources/ImprovedSounds/AlienSounds/floater_death.wav
+      904: Resources/ImprovedSounds/AlienSounds/snake_death.wav
+      906: Resources/ImprovedSounds/AlienSounds/muton_death.wav
+      204: Resources/ImprovedSounds/AlienSounds/SharkScream.ogg
+      207: Resources/ImprovedSounds/AlienSounds/SharkScream2.ogg
+      202: Resources/ImprovedSounds/AlienSounds/Sovereignscream.ogg
+      909: Resources/ImprovedSounds/AlienSounds/ether_death.wav
+      905: Resources/ImprovedSounds/AlienSounds/chrys_death.wav
+      203: Resources/ImprovedSounds/AlienSounds/EnergyAlienMove.ogg
+      200: Resources/ImprovedSounds/AlienSounds/hybridmove.ogg
+      205: Resources/ImprovedSounds/AlienSounds/AbominationMove.ogg
+      206: Resources/ImprovedSounds/AlienSounds/AbominationDie.ogg
+      907: Resources/ImprovedSounds/AlienSounds/sila_death.wav
+      908: Resources/ImprovedSounds/AlienSounds/cela_death.ogg
+      902: Resources/ImprovedSounds/AlienSounds/cyber_death.wav
+      910: Resources/ImprovedSounds/AlienSounds/secto_death.wav
+      201: Resources/ImprovedSounds/AlienSounds/psiattack3.ogg # Hybrid Alien attack, Acient Abomination Alien attack
+#----- new alien sounds end here -----#
+#----- All vainilla BaseGame FXSounds in battlescape, improved -----#
+      2: Resources/ImprovedSounds/FXSounds/NewFX/small_explosion.ogg	#small explosion
+      3: Resources/ImprovedSounds/FXSounds/NewFX/door_barn.ogg	#door open
+      5: Resources/ImprovedSounds/FXSounds/NewFX/large_explosion.ogg	#large explosion
+      17: Resources/ImprovedSounds/FXSounds/NewFX/b_reload.ogg	#reload
+      20: Resources/ImprovedSounds/FXSounds/NewFX/door_ufomain.ogg	#ufo door main
+      21: Resources/ImprovedSounds/FXSounds/NewFX/door_inner.ogg	#ufo door inner
+      24: Resources/ImprovedSounds/FXSounds/NewFX/walk_metal1.ogg	#footsteps metal 1
+      25: Resources/ImprovedSounds/FXSounds/NewFX/walk_metal2.ogg	#footsteps metal 2
+      26: Resources/ImprovedSounds/FXSounds/NewFX/walk_ground1.ogg	#footsteps ground 1
+      27: Resources/ImprovedSounds/FXSounds/NewFX/walk_ground2.ogg	#footsteps ground 2
+      28: Resources/ImprovedSounds/FXSounds/NewFX/walk_martian1.ogg	#footsteps mars 1
+      29: Resources/ImprovedSounds/FXSounds/NewFX/walk_martian2.ogg	#footsteps mars 2
+      30: Resources/ImprovedSounds/FXSounds/NewFX/walk_water1.ogg	#footsteps mud 1
+      31: Resources/ImprovedSounds/FXSounds/NewFX/walk_water2.ogg	#footsteps mud 2
+      32: Resources/ImprovedSounds/FXSounds/NewFX/walk_sand1.ogg	#footsteps sand 1
+      33: Resources/ImprovedSounds/FXSounds/NewFX/walk_sand2.ogg	#footsteps sand 2
+      34: Resources/ImprovedSounds/FXSounds/NewFX/walk_snow1.ogg	#footsteps snow 1
+      35: Resources/ImprovedSounds/FXSounds/NewFX/walk_snow2.ogg	#footsteps snow 2
+      36: Resources/ImprovedSounds/FXSounds/NewFX/psy_attack.ogg	#mind control
+      37: Resources/ImprovedSounds/FXSounds/NewFX/psy_check.ogg	#mindprobe
+      38: Resources/ImprovedSounds/FXSounds/NewFX/place.ogg	#item drop
+      39: Resources/ImprovedSounds/FXSounds/NewFX/throw.ogg	#item throw
+      40: Resources/ImprovedSounds/FXSounds/NewFX/move_hover.ogg	#hovertank/cyberdisc move
+      93: Resources/ImprovedSounds/FxSounds/metalhit.ogg
+      19: Resources/ImprovedSounds/FxSounds/PlasmasHit1.ogg
+      125: Resources/ImprovedSounds/FxSounds/RailGunHit.ogg
+      126: Resources/ImprovedSounds/FxSounds/RailGunHit2.ogg
+      87: Resources/ImprovedSounds/FxSounds/swish.ogg
+      88: Resources/ImprovedSounds/FxSounds/slice.ogg
+      89: Resources/ImprovedSounds/FxSounds/punch2.ogg
+      94: Resources/ImprovedSounds/FxSounds/plasmasword.ogg
+      95: Resources/ImprovedSounds/FxSounds/plasmaswordhit.ogg
+      92: Resources/ImprovedSounds/FxSounds/psiattack2.ogg
+#----- FXSounds end here ----#
+#----- Unit Sounds improved -----#
+      41: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_m1.ogg	#male death scream 1
+      42: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_m2.ogg	#male death scream 2
+      43: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_m3.ogg	#male death scream 3
+      44: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_f1.ogg	#female death scream 1
+      45: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_f2.ogg	#female death scream 2
+      46: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_f3.ogg	#female death scream 3
+      248: Resources/ImprovedSounds/UnitSounds/Dog_Bark.wav # dog barking
+      249: Resources/ImprovedSounds/UnitSounds/Dog_growl.wav
+      955: Resources/ImprovedSounds/UnitSounds/DogeSpotted.wav #dog tracking
+      994: Resources/ImprovedSounds/UnitSounds/DogeDeath1.wav
+      680: Resources/ImprovedSounds/UnitSounds/DogeDeath2.wav
+      681: Resources/ImprovedSounds/UnitSounds/DogeDeath3.wav
+      933: Resources/ImprovedSounds/UnitSounds/DogeAttack1.ogg
+      685: Resources/ImprovedSounds/UnitSounds/DogeAttack2.wav
+      686: Resources/ImprovedSounds/UnitSounds/DogeAttack3.wav
+      1330: Resources/ImprovedSounds/UnitSounds/TankHE_fire_UNEXCOM.wav
+      1332: Resources/ImprovedSounds/UnitSounds/TankHE_hit_UNEXCOM.wav
+      1333: Resources/ImprovedSounds/UnitSounds/TankAP_fire_UNEXCOM.wav
+      1335: Resources/ImprovedSounds/UnitSounds/TankAP_hit_UNEXCOM.wav
+      1001: Resources/ImprovedSounds/UnitSounds/rocketfast.ogg #rocket drone shoot#### OJITO ???
+#----- Unit Sounds end here -----#
+#----- Weapon Sounds , improved -----#
+# Tier 1 & 2
+      123: Resources/ImprovedSounds/WeaponSounds/pistol3.ogg # compactPistol /// XcompactPistol
+      121: Resources/ImprovedSounds/WeaponSounds/shot4.ogg # machinePistol, uzi, smg /// XmachinePistol, Xuzi
+      122: Resources/ImprovedSounds/WeaponSounds/pistol2.ogg # servicePistol /// XservicePistol
+      84: Resources/ImprovedSounds/WeaponSounds/pistol.ogg # heavyPistol /// XheavyPistol
+      82: Resources/ImprovedSounds/WeaponSounds/shotgun_shot.ogg # shotgun, droneShotgun /// Xshotgun
+      81: Resources/ImprovedSounds/WeaponSounds/shot.ogg # pdw, rifle, lmg /// Xsmg, Xpdw, Xrifle, Xlmg
+      83: Resources/ImprovedSounds/WeaponSounds/sniper_shot.ogg # sniper /// Xsniper
+      80: Resources/ImprovedSounds/WeaponSounds/amrifle_shoot.ogg # AMrifle
+      85: Resources/ImprovedSounds/WeaponSounds/minigun.ogg # minigun /// Xminigun
+      12: Resources/ImprovedSounds/weaponSounds/b_cannon_fire.ogg	# Xassault cannon ---#standard cannon shoot
+      114: Resources/ImprovedSounds/WeaponSounds/GrenadeLauncher_shot.ogg # grenadeLauncher, tankSmokeLauncher
+      86: Resources/ImprovedSounds/WeaponSounds/rocket.ogg # rocketLauncher /// XrocketLauncher /// HYrocketlauncher #### OJITO2 ????
+# Tier 3
+      97: Resources/ImprovedSounds/WeaponSounds/Hybrid1.ogg # HYcompactPistol, HYmachinePistol, HYservicePistol, HYuzi, Hypdw
+      98: Resources/ImprovedSounds/WeaponSounds/Hybrid2.ogg # HYheavyPistol, HYsmg, HYshotgun, HYrifle
+      99: Resources/ImprovedSounds/WeaponSounds/Hybrid3.ogg # HYlmg, HYsniper, HYCannon
+# Tier 4 (ojito, hacer q cada tipo de municion tenga su propio sonido)
+      11: Resources/ImprovedSounds/WeaponSounds/LaserRifle_fire.ogg # laserPistol, LaserSmg, LaserShotgun, LaserRifle, LaserLmg, LaserSniper, LaserCannon
+# Tier 5
+      129: Resources/ImprovedSounds/WeaponSounds/RailGunShot3.ogg # RailPistol, RailSmg, RailLmg, RailLmg, RailCannon
+      128: Resources/ImprovedSounds/WeaponSounds/RailGunShot2.ogg # RailShotgun, RailRifle, RailSniper
+# Tier 6 (ojito, hacer q cada tipo de municion tenga su propio sonido)
+      100: Resources/ImprovedSounds/WeaponSounds/Plasma4.ogg # HPlasmaCompactPistol123, HPlasmaServicePistol123 /// APlasmaPistol, APlasmaSmg
+      91: Resources/ImprovedSounds/WeaponSounds/heavyplasmacannon.ogg # HPlasmaHeavyPistol123, HPlasmaCannon /// APlasmaRifle3, APlasmaCannon1
+      18: Resources/ImprovedSounds/WeaponSounds/Plasma3.ogg # HPlasmaShotgun123, HPlasmaRifle123, HPlasmaSniper123 /// ACyberdisc, APlasmaRifle1, APlasmaShotgun, APlasmaSniper1, ElitePlasmaRifle
+      96: Resources/ImprovedSounds/WeaponSounds/plasma2.ogg # HPlasmaLmg123 /// AplasmaRifle2, APlasmaSniper2, APlasmaLmg1, APlasmaLmg2, APlasmaLmg3
+      53: Resources/ImprovedSounds/WeaponSounds/b_blaster_launcher.ogg	# HBlasterLauncher /// AClusterLauncher, AlienBlasterLauncher
+# Tier 7 
+      61: Resources/ImprovedSounds/WeaponSounds/TaserPistol_shot.wav # TaserPistol
+      130: Resources/ImprovedSounds/WeaponSounds/Gauss1.ogg # ShockPistol
+      131: Resources/ImprovedSounds/WeaponSounds/Gauss2.ogg # ShockRifle
+      132: Resources/ImprovedSounds/WeaponSounds/Gauss3.ogg # ShockCannon
+# posible hitsound? de ser asi, se mueve a carpeta de FX
+      90: Resources/ImprovedSounds/WeaponSounds/emp.ogg      
+#----- Weapon Sounds end here -----#
+#----- Xtra Sounds Improved -----#
+      300: Resources/ImprovedSounds/XtraSounds/ambientAlienBase.ogg
+      1000: Resources/ImprovedSounds/XtraSounds/JetMove.ogg
+#----- Xtra Sounds end here -----#
+##### BATTLESCAPE SOUNDS ENDS #####
 
-      18: Resources/Sounds/Plasma3.ogg
-      19: Resources/Sounds/PlasmasHit1.ogg
-      61: Resources/Sounds/Shoot.wav
-      80: Resources/Sounds/amrifle.ogg
-      81: Resources/Sounds/shot.ogg
-      82: Resources/Sounds/shotgun.ogg
-      83: Resources/Sounds/sniper.ogg
-      84: Resources/Sounds/pistol.ogg
-      85: Resources/Sounds/minigun.ogg
-      86: Resources/Sounds/rocket.ogg
-      87: Resources/Sounds/swish.ogg
-      88: Resources/Sounds/slice.ogg
-      89: Resources/Sounds/punch2.ogg
-      90: Resources/Sounds/emp.ogg
-      91: Resources/Sounds/heavyplasmacannon.ogg
-      92: Resources/Sounds/psiattack2.ogg
-
-      93: Resources/Sounds/metalhit.ogg
-      94: Resources/Sounds/plasmasword.ogg
-      95: Resources/Sounds/plasmaswordhit.ogg
-      96: Resources/Sounds/plasma2.ogg
-      97: Resources/Sounds/Hybrid1.ogg
-      98: Resources/Sounds/Hybrid2.ogg
-      99: Resources/Sounds/Hybrid3.ogg
-      100: Resources/Sounds/Plasma4.ogg
-
-      120: Resources/Sounds/shot2.ogg
-      121: Resources/Sounds/shot4.ogg
-      122: Resources/Sounds/pistol2.ogg
-      123: Resources/Sounds/pistol3.ogg
-      124: Resources/Sounds/shot3.ogg
-      125: Resources/Sounds/RailGunHit.ogg
-      126: Resources/Sounds/RailGunHit2.ogg
-      127: Resources/Sounds/RailGunShot.ogg
-      128: Resources/Sounds/RailGunShot2.ogg
-      129: Resources/Sounds/RailGunShot3.ogg
-      130: Resources/Sounds/Gauss1.ogg
-      131: Resources/Sounds/Gauss2.ogg
-      132: Resources/Sounds/Gauss3.ogg
-      133: Resources/Sounds/emplight.ogg
-      134: Resources/Sounds/empheavy.ogg
-
-      201: Resources/Sounds/psiattack3.ogg
-
-      248: Resources/Sounds/Dog_Bark.wav
-      249: Resources/Sounds/Dog_growl.wav
-      300: Resources/Sounds/ambientAlienBase.ogg
 
 
-      202: Resources/Sounds/Sovereignscream.ogg
-      203: Resources/Sounds/EnergyAlienMove.ogg
-      204: Resources/Sounds/SharkScream.ogg
-      205: Resources/Sounds/AbominationMove.ogg
-      206: Resources/Sounds/AbominationDie.ogg
-      207: Resources/Sounds/SharkScream2.ogg
-      200: Resources/Sounds/hybridmove.ogg
-      101: Resources/Sounds/Floater1.ogg
-      901: Resources/Sounds/sectoid_death.wav
-      902: Resources/Sounds/cyber_death.wav
-      903: Resources/Sounds/floater_death.wav
-      904: Resources/Sounds/snake_death.wav
-      905: Resources/Sounds/chrys_death.wav
-      906: Resources/Sounds/muton_death.wav
-      907: Resources/Sounds/sila_death.wav
-      908: Resources/ExtraSoundsCorregido/AlienSounds/cela_death.ogg
-      909: Resources/Sounds/ether_death.wav
-      910: Resources/Sounds/secto_death.wav
+########## Reordenar todo abajo q esta sin usar
+
+      120: Resources/ImprovedSounds/WeaponSounds/shot2.ogg
+      124: Resources/ImprovedSounds/WeaponSounds/shot3.ogg
+      127: Resources/ImprovedSounds/WeaponSounds/RailGunShot.ogg
+      133: Resources/ImprovedSounds/WeaponSounds/emplight.ogg
+      134: Resources/ImprovedSounds/WeaponSounds/empheavy.ogg
 
 
 
-      1000: Resources/Sounds/JetMove.ogg
-      1001: Resources/Sounds/rocketfast.ogg
-      1330: Resources/Sounds/TankHE_fire_UNEXCOM.wav
-      1332: Resources/Sounds/TankHE_hit_UNEXCOM.wav
-      1333: Resources/Sounds/TankAP_fire_UNEXCOM.wav
-      1335: Resources/Sounds/TankAP_hit_UNEXCOM.wav
+
+

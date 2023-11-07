@@ -6,6 +6,10 @@ Link al drive:
 #####
 
 +Priorities fixes:
+ - [FATAL]	OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4
+   * no importa cuanto modifique el problema en la pestaña de alien deployments, sigue dando error.
+   * seguir investigando con efren a ver q porongas pasa aca
+
  - crear el sprite de floorob para el eleriumCell q sea el 37, checar q el small launcher use otro, ojito
  - mejorar los sprites de la mindprobe? (bolita como el planeta del tesoro con muescas
  - organizar el arroz con mango que tengo respecto a los articulos medicos, establecer nomenclatura unica
@@ -45,7 +49,7 @@ Link al drive:
 +Finish Reorganizing Folders:
  - fix all the relative routes inside the extrasprites.rul for this.
    * ojito, CHECAR y modificar los nombres de TODOS LOS nombres de los sprites en "unitSprites" folders.  
-   * reordenar carpeta UI y mover otros excedentres adentro de estas como pals y globe.
+   * renombrar todos los archivos dentro de upedia races
    * concretar de ordenar explosivos y melees en "items.rul" y "manufacture.rul"
 #####
 
@@ -362,6 +366,11 @@ Link al drive:
  - checar cyberpunk para referencias a posibles armas
  - revisar nuevo BRUTAL IA
  - reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012.
+ - checar como funcionan callsings de vigilo confido (preguntar a EfrenEspartano)
+   * buscar q funcione mejor, q pueda modificarlo a voluntad
+ 
+ 
+ 
  - este deberia ser el orden de la ufopedia
    * 0: dossiers and background info
    * 100: alien research

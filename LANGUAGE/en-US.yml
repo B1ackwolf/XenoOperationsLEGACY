@@ -1,5 +1,17 @@
 en-US:
 ##### reorder everything below this #####--------------------------
+      STR_INTERCEPT: "ㄷ INTERCEPT ㄹ"
+      STR_BASES: "ㅁ BASES "
+      STR_GRAPHS: "ㅂ GRAPHS "
+      STR_UFOPAEDIA_UC: "ㅅ UFOPEDIA "
+      STR_OPTIONS_UC: "ㅇ OPTIONS "
+      STR_FUNDING_UC: "ㅈ FUNDING"
+      STR_5_SECONDS: "ㅊ 5s"
+      STR_1_MINUTE: "ㅋ 1m"
+      STR_5_MINUTES: "ㅍ 5m"
+      STR_30_MINUTES: "ㅌ 30m"
+      STR_1_HOUR: "ㅎ 1h"
+      STR_1_DAY: "ㅆ 1ㅉ"  
       STR_ADRENO_SYRINGE: "Adrenaline Syringe"
       MAP_ACULTA: "Gothic Grass"
       MAP_ACULTASNOW: "Gothic Snow"
@@ -635,7 +647,7 @@ en-US:
       STR_COMMENDATIONS_UC: Commendations
       STR_MEDAL_ALIENS_KILLED: "Merit Star"
       STR_MEDAL_ALIENS_KILLED_DESCRIPTION: "Given to a soldier who has killed many aliens."
-      STR_MEDAL_ALIENS_KILLED_UFOPEDIA: "'We may demonstrate to the enemy the unacceptable cost of his struggle by:{NEWLINE}  invading his territory;{NEWLINE}  conducting operations to increase his suffering;{NEWLINE}  or by wearing down the enemy.    {NEWLINE}  --Clauswitz'   {NEWLINE} {NEWLINE} This award is given to a soldier who has proven their lethality and killed many aliens.{NEWLINE} {NEWLINE}  Eligibility for the award starts at 10 kills. Additional awards are issued for every 10 kills after that."
+      STR_MEDAL_ALIENS_KILLED_UFOPEDIA: "'We may demonstrate to the enemy the unacceptable cost of his struggle by: invading his territory;{NEWLINE}  conducting operations to increase his suffering;{NEWLINE}  or by wearing down the enemy.    {NEWLINE}  --Clauswitz'   {NEWLINE} {NEWLINE} This award is given to a soldier who has proven their lethality and killed many aliens.{NEWLINE} {NEWLINE}  Eligibility for the award starts at 10 kills. Additional awards are issued for every 10 kills after that."
       STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY: "Prometheus Badge"
       STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_DESCRIPTION: "Given to a soldier who has used incendiary weapons to kill aliens."
       STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_UFOPEDIA: " Of the four classical elements, fire is by far the most primal. The most challenging. The most dangerous. The most transforming. The control of fire by early hominids was a critical technology enabling the evolution of humans and it was about time before it was turned from a tool, to a weapon. And just as our primitive ancestors, it shall be used for protection against predators,  wherever they might come.{NEWLINE}{NEWLINE}This award is presented to those who have mastered the art of destroying the enemy with fire. The award is given for every five torched aliens, up to four times. "
@@ -821,7 +833,8 @@ en-US:
 ##### reorder everything above this #####-------------------------------------
 #GENERAL
 #-----misc
-      STR_QD_SLOT: QD
+      STR_BELT: "    BELT"
+      STR_QD_SLOT: "HOLSTER"
       STR_NULL_JETPACK: JETPACK
       STR_NULL_BACKPACK: ""
       STR_NULL_SMALL_BACKPACK: ""
@@ -831,16 +844,16 @@ en-US:
       STR_NULL_POCKET_RL: ""
       STR_NULL_POCKET_LL: ""
 #-----Craft and Craft Weapons
-      STR_SR71: SR-71 BLACKBIRD
+      STR_SR71: XRS-71G BLACKBIRD
       STR_INTERCEPTOR: XCF-0 BISHOP
       STR_XCF1: XCF-1 KNIGHT
       STR_XCF2: XCF-2 ROOK
       STR_XCF3: XCF-3 EMPRESS
-      STR_DRAGONFLY: DRAGONFLY
-      STR_FIREFLY: FIREFLY
-      STR_SKYWARDEN: GOLIATH
-      STR_HURRICANE: HERCULES
-      STR_OVERLORD: OVERLORD
+      STR_DRAGONFLY: XTP-1 DRAGONFLY
+      STR_FIREFLY: XTP-2 FIREFLY
+      STR_SKYWARDEN: XTP-3 GOLIATH
+      STR_HURRICANE: XTP-4 HERCULES
+      STR_OVERLORD: XTP-X OVERLORD
       STR_CANNON: Sling Autocannon
       STR_CANNON_UC: SLING Autocannon
       STR_STINGRAY_MISSILES: Javelin Missile
@@ -935,7 +948,7 @@ en-US:
       STR_ALIEN_EMBRYO: Alien Embryo
       STR_ALIEN_EXTRACTOR: DNA Extractor
       STR_ALIEN_ORGAN: Organ Sample
-      STR_ALIEN_HIGH_EXPLOSIVE: Alien High Explosive
+      STR_ALIEN_HIGH_EXPLOSIVE: Alien Demolition Core
       STR_ALIEN_HOLO_PROJECTOR: Holo Projector
       STR_ALIEN_INJECTOR: Alien Injector
       STR_ALIEN_COMM: Alien Communicator
@@ -1032,6 +1045,7 @@ en-US:
       STR_GOODS_6_U: Nano Immune Cells
       STR_GOODS_7_U: Economy Control
 #------Aliens
+      STR_SECTOPOD_ELITE_TERRORIST: Elite Sectopod
       STR_CYDONIA_ELITE_GUARD: Cydonia Elite Guard
       STR_CYDONIA_LANDING_GUARD: Cydonia Landing Guard
       STR_MUTON_BERSERKER: Muton Berserker
@@ -1161,7 +1175,7 @@ en-US:
       STR_HV_ASSAULT_CANNON_BELT: 20mm Cannon Belt
       STR_HV_ASSAULT_CANNON_BELT_ALLOY: 20mm Cannon Alloy Belt
       STR_HV_ASSAULT_CANNON_BELT_TECH: 20mm Cannon Tech Belt
-      STR_INC_GRENADE: Incendiary Grenade
+      STR_INC_GRENADE: Napalm Grenade
       STR_KNIFE: Combat Knife
       STR_BRASS_KNUCKLES: Brass Knuckles
       STR_IMPROVED_MEDKIT: Field Surgery kit
@@ -1388,15 +1402,15 @@ en-US:
 #----- Ojito re ordenar todo esto
       STR_HUMAN_PLASMA_SWORD: Plasma Sword
       STR_HUMAN_ALLOY_BLADE: Alloy Knife
-      STR_ANTIMATTER_BOMB: Antimatter Bomb
+      STR_ANTIMATTER_BOMB: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
       STR_ELERIUM_MINE: Elerium Mine
       STR_HUMAN_SMALL_LAUNCHER: Small Launcher
       STR_HUMAN_STUN_BOMB: Stun Bomb
-      STR_ANTIMATTER_LAUNCHER: Antimatter Launcher
-      STR_ANTIMATTER_LAUNCHER_BOMB: Antimatter Missile
-      STR_ANTIMATTER_LAUNCHER_BOMB2: Antimatter Warhead
-      STR_ANTIMATTER_LAUNCHER_BOMB3: Inferno Missile
+      STR_ANTIMATTER_LAUNCHER: Apex Launcher
+      STR_ANTIMATTER_LAUNCHER_BOMB: Plasma Warhead
+      STR_ANTIMATTER_LAUNCHER_BOMB2: Antimatter Payload
+      STR_ANTIMATTER_LAUNCHER_BOMB3: Inferno Warhead
 #-----Human Shock Weapons
       STR_SHOCK_WEAPONS: Shock Weapons
       STR_SHOCK_PISTOL: Shock Pistol
@@ -1675,7 +1689,7 @@ en-US:
       STR_ANTIMATTER_BOMB_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
       STR_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
-      STR_ANTIMATTER_LAUNCHER_UFOPEDIA: The Antimatter Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Antimatter Missile and Inferno Missile are guided by waypoints.
+      STR_ANTIMATTER_LAUNCHER_UFOPEDIA: The Apex Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
       STR_ANTIMATTER_LAUNCHER_BOMB_UFOPEDIA:
       STR_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
       STR_ANTIMATTER_LAUNCHER_BOMB3_UFOPEDIA:

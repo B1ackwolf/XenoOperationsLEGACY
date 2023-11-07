@@ -84,8 +84,8 @@ Changelog:
 v.097.04 LE changelog:
 
 Tweaks:
-terminado al fin restructuracion de la carpeta RESOURCES faltan la parte de ufopaedia
-
+terminado al fin restructuracion de la carpeta RESOURCES completamente. esto ayudara muchisimo la implementacion de nuevos elementos ya q streamline the flujo de trabajo.
+- added some temporary ufopedia images, at least now there are not any "blanks/black spaced ufopedia entries) but the artwork lets a lot to be desired, will be improved further down the line.
 - cambiado el floorsprite del elerium, ahora los ufo power sources no tendran una pelota morada en medio, en cambio es correctamente un cristalito ambar, qol muy chiquito pero q me venia molestando hacia mucho tiempo
 - changes to some tecnologies relevant to the power armor , (purged all references from the "power suit" (the vainilla ultimate armor)), so you dont waste time researching a dead end
 - same change for the "fliying suit"
@@ -96,6 +96,7 @@ terminado al fin restructuracion de la carpeta RESOURCES faltan la parte de ufop
 - changed "QD" slot name to HOLSTER, to imply better their intended function as a side arm pocket, also modified the "belt name" so it doesnt overlap between each other
 - changed all the transport ships names to have a "XTP-(n°)" acronnym previous to their codename, to keep the nomenclature of other planes
 - same changes to the SR-71, now called XRS-71G
+- small qol, improved the "daylight indicator" , now it will granularly shows either a sun, a half sun or a moon depending of the time of the mission.
 revisar q si aplique todo esto
 - improved the name of some items an some ordnances and explosives to have a more distinct yet intuitive name
   * antimatter cannon renamed to "apex launcher"
@@ -110,7 +111,9 @@ revisar q si aplique todo esto
   * reduje tamaño mod
   * no conseguia darle creditos
   * asi es mas justo, hay mejores opciones y los modders creadores obtienen el trafico y descargas merecido por su esfuerzo y dedicacion.
--agregado mas versiones de sonidos mejorados del mod HQSounds , author DAEDALUS 
+-agregado mas versiones de sonidos mejorados del mod HQSounds , author DAEDALUS:
+  * firesounds
+    ~ grenade launcher now has an unique sound 
 bugfixes:
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
  °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo)
@@ -126,12 +129,14 @@ bugfixes:
 - fixed some errors in researches paths related 
   * to muton guards(blue ones)
   * UAVs
+  * psi amp small
+  * human plasma sword  
   * others various researches
 - a problem related to final mission unlock being duplicate
   * both operation endgame and cydonia or bust could be investigated
   * also some redundant files from vainilla were scrapped, now they wont bloat the ufopaedia in some instances
 - purged all acknoleged problems on VSC using pedrothezeroTool, this should help with the general instability of the mod  
-
+- temporarily deactivated all the "gothic church" maps, they failed more than they worked correctly and until i found out a way to get it working all together, it easier to limited their rotation in the map pool for now.
 
 #################
 ------------------------
