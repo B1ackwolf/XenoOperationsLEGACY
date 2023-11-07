@@ -49,6 +49,7 @@ extraSounds:
       908: Resources/ImprovedSounds/AlienSounds/cela_death.ogg
       902: Resources/ImprovedSounds/AlienSounds/cyber_death.wav
       910: Resources/ImprovedSounds/AlienSounds/secto_death.wav
+      18: Resources/ImprovedSounds/AlienSounds/AlienHeavyPlasma.ogg # Cyberdisc cannon ### possibly sectopod cannon too
       201: Resources/ImprovedSounds/AlienSounds/psiattack3.ogg # Hybrid Alien attack, Acient Abomination Alien attack
 #----- new alien sounds end here -----#
 #----- All vainilla BaseGame FXSounds in battlescape, improved -----#
@@ -106,44 +107,58 @@ extraSounds:
       1332: Resources/ImprovedSounds/UnitSounds/TankHE_hit_UNEXCOM.wav
       1333: Resources/ImprovedSounds/UnitSounds/TankAP_fire_UNEXCOM.wav
       1335: Resources/ImprovedSounds/UnitSounds/TankAP_hit_UNEXCOM.wav
-      1001: Resources/ImprovedSounds/UnitSounds/rocketfast.ogg #rocket drone shoot#### OJITO ???
+      1001: Resources/ImprovedSounds/UnitSounds/rocketfast.ogg #rocket drone shot#### OJITO ???
 #----- Unit Sounds end here -----#
 #----- Weapon Sounds , improved -----#
 # Tier 1 & 2
-      123: Resources/ImprovedSounds/WeaponSounds/pistol3.ogg # compactPistol /// XcompactPistol
-      121: Resources/ImprovedSounds/WeaponSounds/shot4.ogg # machinePistol, uzi, smg /// XmachinePistol, Xuzi
-      122: Resources/ImprovedSounds/WeaponSounds/pistol2.ogg # servicePistol /// XservicePistol
-      84: Resources/ImprovedSounds/WeaponSounds/pistol.ogg # heavyPistol /// XheavyPistol
-      82: Resources/ImprovedSounds/WeaponSounds/shotgun_shot.ogg # shotgun, droneShotgun /// Xshotgun
-      81: Resources/ImprovedSounds/WeaponSounds/shot.ogg # pdw, rifle, lmg /// Xsmg, Xpdw, Xrifle, Xlmg
-      83: Resources/ImprovedSounds/WeaponSounds/sniper_shot.ogg # sniper /// Xsniper
-      80: Resources/ImprovedSounds/WeaponSounds/amrifle_shoot.ogg # AMrifle
-      85: Resources/ImprovedSounds/WeaponSounds/minigun.ogg # minigun /// Xminigun
-      12: Resources/ImprovedSounds/weaponSounds/b_cannon_fire.ogg	# Xassault cannon ---#standard cannon shoot
+      123: Resources/ImprovedSounds/WeaponSounds/BalliSmallpistol_shot.ogg # compactPistol /// XcompactPistol
+      121: Resources/ImprovedSounds/WeaponSounds/BalliMediumPistol_shot.ogg # machinePistol, uzi, smg /// XmachinePistol, Xuzi, Xsmg
+      122: Resources/ImprovedSounds/WeaponSounds/BalliServicePistol_shot.ogg # servicePistol /// XservicePistol
+      84: Resources/ImprovedSounds/WeaponSounds/BalliHeavyPistol_shot.ogg # heavyPistol /// XheavyPistol
+      82: Resources/ImprovedSounds/WeaponSounds/BalliShotgun_shot.ogg # shotgun, droneShotgun /// Xshotgun
+      81: Resources/ImprovedSounds/WeaponSounds/BalliRifle_shot.ogg # pdw, rifle, lmg /// Xpdw, Xrifle, Xlmg
+      83: Resources/ImprovedSounds/WeaponSounds/Ballisniper_shot.ogg # sniper /// Xsniper
+      80: Resources/ImprovedSounds/WeaponSounds/Balliamrifle_shot.ogg # AMrifle /// Xsniper
+      85: Resources/ImprovedSounds/WeaponSounds/Balliminigun_shot.ogg # minigun /// Xminigun
+      12: Resources/ImprovedSounds/weaponSounds/HeavyCannon_shot.ogg # standard cannon shot
       114: Resources/ImprovedSounds/WeaponSounds/GrenadeLauncher_shot.ogg # grenadeLauncher, tankSmokeLauncher
-      86: Resources/ImprovedSounds/WeaponSounds/rocket.ogg # rocketLauncher /// XrocketLauncher /// HYrocketlauncher #### OJITO2 ????
+      86: Resources/ImprovedSounds/WeaponSounds/RocketLauncher_shot.ogg # rocketLauncher /// XrocketLauncher /// HYrocketlauncher ### OJITO cambiar este ????
+      213: Resources/ImprovedSounds/weaponSounds/AssaultCannon_shot.ogg # Xassault cannon
 # Tier 3
-      97: Resources/ImprovedSounds/WeaponSounds/Hybrid1.ogg # HYcompactPistol, HYmachinePistol, HYservicePistol, HYuzi, Hypdw
-      98: Resources/ImprovedSounds/WeaponSounds/Hybrid2.ogg # HYheavyPistol, HYsmg, HYshotgun, HYrifle
-      99: Resources/ImprovedSounds/WeaponSounds/Hybrid3.ogg # HYlmg, HYsniper, HYCannon
-# Tier 4 (ojito, hacer q cada tipo de municion tenga su propio sonido)
-      11: Resources/ImprovedSounds/WeaponSounds/LaserRifle_fire.ogg # laserPistol, LaserSmg, LaserShotgun, LaserRifle, LaserLmg, LaserSniper, LaserCannon
+      97: Resources/ImprovedSounds/WeaponSounds/HYSmall_shot.ogg # HYcompactPistol, HYmachinePistol, HYservicePistol, HYuzi, Hysmg
+      98: Resources/ImprovedSounds/WeaponSounds/HYMedium_shot.ogg # HYheavyPistol, HYpdw, HYrifle
+      99: Resources/ImprovedSounds/WeaponSounds/HYLarge_shot.ogg # HYlmg, HYsniper, HYShotgun
+      100: Resources/ImprovedSounds/WeaponSounds/HYAutoCannon_shot.ogg # HYcannon
+# Tier 4 
+      401: Resources/ImprovedSounds/WeaponSounds/LaserPistol_shot.ogg # laserPistol, LaserSmg
+      403: Resources/ImprovedSounds/WeaponSounds/LaserShotgun_shot.ogg # LaserShotgun
+      11: Resources/ImprovedSounds/WeaponSounds/LaserRifle_shot.ogg # LaserRifle, LaserLmg
+      406: Resources/ImprovedSounds/WeaponSounds/LaserSniper_shot.ogg # LaserSniper
+      407: Resources/ImprovedSounds/WeaponSounds/LaserCannon_shot.ogg # LaserCannon
+      410: Resources/ImprovedSounds/WeaponSounds/LaserInfinite_shot.ogg # laser elerium batteries
 # Tier 5
-      129: Resources/ImprovedSounds/WeaponSounds/RailGunShot3.ogg # RailPistol, RailSmg, RailLmg, RailLmg, RailCannon
-      128: Resources/ImprovedSounds/WeaponSounds/RailGunShot2.ogg # RailShotgun, RailRifle, RailSniper
+      501: Resources/ImprovedSounds/WeaponSounds/RailPistol_shot.ogg # RailPistol, RailSmg
+      503: Resources/ImprovedSounds/WeaponSounds/RailShotgun_shot.ogg # RailShotgun
+      504: Resources/ImprovedSounds/WeaponSounds/RailRifle_shot.ogg # RailRifle, RailLmg
+      506: Resources/ImprovedSounds/WeaponSounds/RailSniper_shot.ogg # RailSniper
+      507: Resources/ImprovedSounds/WeaponSounds/RailHeavy_shot.ogg # RailHeavy
+      508: Resources/ImprovedSounds/WeaponSounds/RailCannon_shot.ogg # RailCannon
 # Tier 6 (ojito, hacer q cada tipo de municion tenga su propio sonido)
-      100: Resources/ImprovedSounds/WeaponSounds/Plasma4.ogg # HPlasmaCompactPistol123, HPlasmaServicePistol123 /// APlasmaPistol, APlasmaSmg
-      91: Resources/ImprovedSounds/WeaponSounds/heavyplasmacannon.ogg # HPlasmaHeavyPistol123, HPlasmaCannon /// APlasmaRifle3, APlasmaCannon1
-      18: Resources/ImprovedSounds/WeaponSounds/Plasma3.ogg # HPlasmaShotgun123, HPlasmaRifle123, HPlasmaSniper123 /// ACyberdisc, APlasmaRifle1, APlasmaShotgun, APlasmaSniper1, ElitePlasmaRifle
-      96: Resources/ImprovedSounds/WeaponSounds/plasma2.ogg # HPlasmaLmg123 /// AplasmaRifle2, APlasmaSniper2, APlasmaLmg1, APlasmaLmg2, APlasmaLmg3
-      53: Resources/ImprovedSounds/WeaponSounds/b_blaster_launcher.ogg	# HBlasterLauncher /// AClusterLauncher, AlienBlasterLauncher
+      601: Resources/ImprovedSounds/WeaponSounds/PlasmaPistol_shot.ogg # HPlasmaCompactPistol123, HPlasmaServicePistol123, HPlasmaSmg123 /// APlasmaPistol, APlasmaSmg
+      607: Resources/ImprovedSounds/WeaponSounds/PlasmaRifle_shot.ogg ### HPlasmaHeavyPistol123, HPlasmaCarbine123, HPlasmaShotgun123, HPlasmaRifle123  /// APlasmaRifle3, APlasmashotgun, ElitePlasmaRifle
+      609: Resources/ImprovedSounds/WeaponSounds/PlasmaSniper_shot.ogg ### 
+      610: Resources/ImprovedSounds/WeaponSounds/PlasmaHeavy_shot.ogg ### 
+
+      53: Resources/ImprovedSounds/WeaponSounds/BlasterLauncher_shot.ogg	### HBlasterLauncher /// AClusterLauncher, AlienBlasterLauncher
+      1016: Resources/ImprovedSounds/WeaponSounds/ClusterLauncher_shot.ogg #AClusterLauncher
+
 # Tier 7 
-      61: Resources/ImprovedSounds/WeaponSounds/TaserPistol_shot.wav # TaserPistol
-      130: Resources/ImprovedSounds/WeaponSounds/Gauss1.ogg # ShockPistol
-      131: Resources/ImprovedSounds/WeaponSounds/Gauss2.ogg # ShockRifle
-      132: Resources/ImprovedSounds/WeaponSounds/Gauss3.ogg # ShockCannon
+      61: Resources/ImprovedSounds/WeaponSounds/TaserPistol_shot.ogg # TaserPistol
+      130: Resources/ImprovedSounds/WeaponSounds/ShockPistol_shot.ogg # ShockPistol
+      131: Resources/ImprovedSounds/WeaponSounds/ShockRifle_shot.ogg # ShockRifle
+      132: Resources/ImprovedSounds/WeaponSounds/ShockCannon_shot.ogg # ShockCannon
 # posible hitsound? de ser asi, se mueve a carpeta de FX
-      90: Resources/ImprovedSounds/WeaponSounds/emp.ogg      
+      90: Resources/ImprovedSounds/WeaponSounds/emp.ogg   #OJITO   
 #----- Weapon Sounds end here -----#
 #----- Xtra Sounds Improved -----#
       300: Resources/ImprovedSounds/XtraSounds/ambientAlienBase.ogg
@@ -155,11 +170,11 @@ extraSounds:
 
 ########## Reordenar todo abajo q esta sin usar
 
-      120: Resources/ImprovedSounds/WeaponSounds/shot2.ogg
-      124: Resources/ImprovedSounds/WeaponSounds/shot3.ogg
-      127: Resources/ImprovedSounds/WeaponSounds/RailGunShot.ogg
-      133: Resources/ImprovedSounds/WeaponSounds/emplight.ogg
-      134: Resources/ImprovedSounds/WeaponSounds/empheavy.ogg
+      # 120: Resources/ImprovedSounds/WeaponSounds/shot2.ogg
+      # 124: Resources/ImprovedSounds/WeaponSounds/shot3.ogg
+      # 127: Resources/ImprovedSounds/WeaponSounds/RailGunShot.ogg
+      134: Resources/ImprovedSounds/WeaponSounds/emplight.ogg
+      # 134: Resources/ImprovedSounds/WeaponSounds/empheavy.ogg
 
 
 

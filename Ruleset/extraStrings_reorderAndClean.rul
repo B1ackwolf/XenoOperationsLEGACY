@@ -835,7 +835,7 @@
 ##### reorder everything above this #####-------------------------------------
 #GENERAL
 #-----misc
-      STR_BELT: "    BELT"
+      STR_BELT: "       BELT"
       STR_QD_SLOT: "HOLSTER"
       STR_NULL_JETPACK: JETPACK
       STR_NULL_BACKPACK: ""

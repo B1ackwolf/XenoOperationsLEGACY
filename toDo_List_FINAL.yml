@@ -256,6 +256,7 @@ Link al drive:
 #####
 
 +Minor Changes:
+ - hacer q manual promotions y autimatic promotions esten en "recomendados"
  - colocar correctamente el nuevo lore del Alien Alloy, ahora llamado Xenominium, xenium alloy corto y xelloy de jeerga.
  - clean every .rul file from unused lines, reorder and correct all annotations
    * "#----- topic -----#" should be the correct

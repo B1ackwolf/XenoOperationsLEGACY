@@ -1298,7 +1298,7 @@ items:
     floorSprite: 295
     handSprite: 370
     bulletSprite: 2 
-    fireSound: 81
+    fireSound: 121
     compatibleAmmo:
       - STR_SMG_CLIP
       - STR_HVUZI_CLIP_ALLOY
@@ -1417,6 +1417,7 @@ items:
     bigSprite: 610
     floorSprite: 610
     handSprite: 560
+    bulletSprite: 2
     fireSound: 81
     compatibleAmmo:
       - STR_ASSAULT_RIFLE_CLIP
@@ -1677,7 +1678,7 @@ items:
     floorSprite: 676
     handSprite: 2270
     bulletSprite: 3
-    fireSound: 12
+    fireSound: 213
     compatibleAmmo:
       - STR_HV_ASSAULT_CANNON_BELT
       - STR_HV_ASSAULT_CANNON_BELT_ALLOY
@@ -2099,7 +2100,7 @@ items:
     bigSprite: 474
     floorSprite: 474
     handSprite: 1148
-    fireSound: 98
+    fireSound: 97
     compatibleAmmo:
       - STR_HB_UZI_CLIP
       - STR_HB_UZI_CLIP2
@@ -2176,7 +2177,7 @@ items:
     bigSprite: 482
     floorSprite: 482
     handSprite: 1164
-    fireSound: 98
+    fireSound: 99
     compatibleAmmo:
       - STR_HB_SHOTGUN_CLIP
       - STR_HB_SHOTGUN_CLIP2
@@ -2246,7 +2247,7 @@ items:
     bigSprite: 470
     floorSprite: 470
     handSprite: 1140
-    fireSound: 97
+    fireSound: 98
     compatibleAmmo:
       - STR_HB_RIFLE_CLIP
       - STR_HB_RIFLE_CLIP2
@@ -2490,7 +2491,7 @@ items:
     floorSprite: 494
     handSprite: 1188
     bulletSprite: 3
-    fireSound: 99
+    fireSound: 100
     compatibleAmmo:
       - STR_HB_CANNON_CLIP
       - STR_HB_CANNON_CLIP2
@@ -2621,7 +2622,7 @@ items:
     bigSprite: 270
     floorSprite: 270
     handSprite: 270
-    fireSound: 11
+    fireSound: 401
     compatibleAmmo:
       - STR_LASER_PISTOL_BATTERY
       - STR_LASER_PISTOL_BATTERY2
@@ -2652,7 +2653,7 @@ items:
     bigSprite: 317
     floorSprite: 317
     handSprite: 480
-    fireSound: 11
+    fireSound: 401
     compatibleAmmo:
       - STR_LASER_PISTOL_BATTERY
       - STR_LASER_PISTOL_BATTERY2
@@ -2713,6 +2714,7 @@ items:
     bigSprite: 337
     floorSprite: 337
     bulletSprite: 18
+    fireSound: 410
     hitSound: 19
     hitAnimation: 36
     power: 40
@@ -2728,7 +2730,7 @@ items:
     bigSprite: 319
     floorSprite: 319
     handSprite: 490
-    fireSound: 11
+    fireSound: 403
     compatibleAmmo:
       - STR_LASER_SHOT_GUN_BATTERY
       - STR_LASER_SHOT_GUN_BATTERY2
@@ -2789,6 +2791,7 @@ items:
     bigSprite: 339
     floorSprite: 339
     bulletSprite: 19
+    fireSound: 410
     hitSound: 19
     hitAnimation: 36
     power: 40
@@ -2867,6 +2870,7 @@ items:
     bigSprite: 333
     floorSprite: 333
     bulletSprite: 19
+    fireSound: 410
     hitSound: 19
     hitAnimation: 36
     power: 55
@@ -2944,6 +2948,7 @@ items:
     bigSprite: 335
     floorSprite: 335
     bulletSprite: 20
+    fireSound: 410
     hitSound: 19
     hitAnimation: 36
     power: 63
@@ -2961,7 +2966,7 @@ items:
     bigSprite: 274
     floorSprite: 274
     handSprite: 290
-    fireSound: 11
+    fireSound: 406
     compatibleAmmo:
       - STR_LASER_SNIPER_RIFLE_BATTERY
       - STR_LASER_SNIPER_RIFLE_BATTERY2
@@ -3021,6 +3026,7 @@ items:
     bigSprite: 343
     floorSprite: 343
     bulletSprite: 19
+    fireSound: 410
     hitSound: 19
     hitAnimation: 36
     power: 68
@@ -3036,7 +3042,7 @@ items:
     bigSprite: 276
     floorSprite: 276
     handSprite: 300
-    fireSound: 11
+    fireSound: 407
     compatibleAmmo:
       - STR_HEAVY_LASER_BATTERY
       - STR_HEAVY_LASER_BATTERY2
@@ -3101,6 +3107,7 @@ items:
     bigSprite: 331
     floorSprite: 331
     bulletSprite: 20
+    fireSound: 410
     hitSound: 19
     hitAnimation: 36
     power: 80
@@ -3119,7 +3126,7 @@ items:
     bigSprite: 619
     floorSprite: 619
     handSprite: 630
-    fireSound: 129
+    fireSound: 501
     compatibleAmmo:
       - STR_TFPISTOL_CLIP
       - STR_TFPISTOL_CLIP2
@@ -3144,7 +3151,7 @@ items:
     bigSprite: 621
     floorSprite: 621
     handSprite: 640
-    fireSound: 129
+    fireSound: 501
     compatibleAmmo:
       - STR_TFPISTOL_CLIP
       - STR_TFPISTOL_CLIP2
@@ -3220,7 +3227,7 @@ items:
     bigSprite: 625
     floorSprite: 625
     handSprite: 660
-    fireSound: 128
+    fireSound: 503
     compatibleAmmo:
       - STR_TFSHOTGUN_CLIP
       - STR_TFSHOTGUN_CLIP2
@@ -3292,7 +3299,7 @@ items:
     bigSprite: 623
     floorSprite: 623
     handSprite: 650
-    fireSound: 128
+    fireSound: 504
     compatibleAmmo:
       - STR_TFRIFLE_CLIP
       - STR_TFRIFLE_CLIP2
@@ -3364,7 +3371,7 @@ items:
     bigSprite: 629
     floorSprite: 629
     handSprite: 680
-    fireSound: 129
+    fireSound: 504
     compatibleAmmo:
       - STR_TFLMG_CLIP
       - STR_TFLMG_CLIP2
@@ -3440,7 +3447,7 @@ items:
     bigSprite: 627
     floorSprite: 627
     handSprite: 670
-    fireSound: 128
+    fireSound: 506
     compatibleAmmo:
       - STR_TFSNIPER_CLIP
       - STR_TFSNIPER_CLIP2
@@ -3509,7 +3516,7 @@ items:
     bigSprite: 640
     floorSprite: 640
     handSprite: 700
-    fireSound: 129
+    fireSound: 507
     compatibleAmmo:
       - STR_TFHEAVY_CLIP
       - STR_TFHEAVY_CLIP2
@@ -3587,7 +3594,7 @@ items:
     bigSprite: 631
     floorSprite: 631
     handSprite: 690
-    fireSound: 129
+    fireSound: 508
     compatibleAmmo:
       - STR_TFCANNON_CLIP
       - STR_TFCANNON_CLIP2
@@ -3689,7 +3696,7 @@ items:
     bigSprite: 378
     floorSprite: 378
     bulletSprite: 8
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
     hitAnimation: 46
     power: 40
@@ -3705,7 +3712,7 @@ items:
     bigSprite: 412
     floorSprite: 412
     bulletSprite: 13
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
     hitAnimation: 83
     power: 46
@@ -3720,7 +3727,7 @@ items:
     weight: 2
     bigSprite: 413
     floorSprite: 413
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
 #    hitAnimation: 76
     bulletSprite: 12
@@ -3792,7 +3799,7 @@ items:
     bigSprite: 513
     floorSprite: 513
     bulletSprite: 8
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
     hitAnimation: 46
     power: 45
@@ -3808,7 +3815,7 @@ items:
     bigSprite: 514
     floorSprite: 514
     bulletSprite: 13
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
     hitAnimation: 83
     power: 52
@@ -3823,7 +3830,7 @@ items:
     weight: 3
     bigSprite: 515
     floorSprite: 515
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
 #    hitAnimation: 76
     bulletSprite: 12
@@ -3895,7 +3902,7 @@ items:
     bigSprite: 517
     floorSprite: 517
     bulletSprite: 8
-    fireSound: 91
+    fireSound: 607
     hitSound: 19
     hitAnimation: 46
     power: 60
@@ -3911,7 +3918,7 @@ items:
     bigSprite: 518
     floorSprite: 518
     bulletSprite: 13
-    fireSound: 91
+    fireSound: 607
     hitSound: 19
     hitAnimation: 83
     power: 72
@@ -3926,7 +3933,7 @@ items:
     weight: 4
     bigSprite: 519
     floorSprite: 519
-    fireSound: 91
+    fireSound: 607
     hitSound: 19
 #    hitAnimation: 76
     bulletSprite: 12
@@ -3971,7 +3978,7 @@ items:
     bigSprite: 384
     floorSprite: 384
     bulletSprite: 8
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
     hitAnimation: 46
     power: 50
@@ -3988,7 +3995,7 @@ items:
     bigSprite: 418
     floorSprite: 418
     bulletSprite: 13
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
     hitAnimation: 83
     power: 64
@@ -4005,7 +4012,7 @@ items:
     bigSprite: 419
     floorSprite: 419
     bulletSprite: 12
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
 #    hitAnimation: 76
     power: 48
@@ -4051,7 +4058,7 @@ items:
     bigSprite: 382
     floorSprite: 382
     bulletSprite: 8
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
     hitAnimation: 46
     power: 74
@@ -4067,7 +4074,7 @@ items:
     bigSprite: 416
     floorSprite: 416
     bulletSprite: 13
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
     hitAnimation: 83
     power: 88
@@ -4083,7 +4090,7 @@ items:
     bigSprite: 417
     floorSprite: 417
     bulletSprite: 12
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
 #    hitAnimation: 76
     power: 66
@@ -4129,7 +4136,7 @@ items:
     bigSprite: 388
     floorSprite: 388
     bulletSprite: 8
-    fireSound: 96
+    fireSound: 610
     hitSound: 19
     hitAnimation: 46
     power: 105
@@ -4147,7 +4154,7 @@ items:
     bigSprite: 422
     floorSprite: 422
     bulletSprite: 13
-    fireSound: 96
+    fireSound: 610
     hitSound: 19
     hitAnimation: 83
     power: 126
@@ -4165,7 +4172,7 @@ items:
     bigSprite: 423
     floorSprite: 423
     bulletSprite: 12
-    fireSound: 96
+    fireSound: 610
     hitSound: 19
 #    hitAnimation: 76
     power: 95
@@ -4211,7 +4218,7 @@ items:
     bigSprite: 386
     floorSprite: 386
     bulletSprite: 8
-    fireSound: 18
+    fireSound: 609
     hitSound: 19
     hitAnimation: 46
     power: 88
@@ -4227,7 +4234,7 @@ items:
     bigSprite: 420
     floorSprite: 420
     bulletSprite: 13
-    fireSound: 18
+    fireSound: 609
     hitSound: 19
     hitAnimation: 83
     power: 105
@@ -4243,7 +4250,7 @@ items:
     bigSprite: 421
     floorSprite: 421
     bulletSprite: 12
-    fireSound: 18
+    fireSound: 609
     hitSound: 19
 #    hitAnimation: 76
     power: 80
@@ -4260,7 +4267,7 @@ items:
     bigSprite: 389
     floorSprite: 389
     handSprite: 950
-    fireSound: 91
+    fireSound: 610
     compatibleAmmo:
       - STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP
       - STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP2
@@ -4990,7 +4997,7 @@ items:
     bigSprite: 351
     floorSprite: 351
     bulletSprite: 11
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
     hitAnimation: 66
     power: 56
@@ -5042,7 +5049,7 @@ items:
     bigSprite: 353
     floorSprite: 353
     bulletSprite: 11
-    fireSound: 100
+    fireSound: 601
     hitSound: 19
     hitAnimation: 66
     power: 67
@@ -5096,7 +5103,7 @@ items:
     bigSprite: 355
     floorSprite: 355
     bulletSprite: 11
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
     hitAnimation: 66
     power: 80
@@ -5116,7 +5123,7 @@ items:
     bigSprite: 402
     floorSprite: 402
     bulletSprite: 8
-    fireSound: 96
+    fireSound: 607
     hitSound: 19
     hitAnimation: 46
     power: 96
@@ -5136,7 +5143,7 @@ items:
     bigSprite: 403
     floorSprite: 403
     bulletSprite: 12
-    fireSound: 91
+    fireSound: 607
     hitSound: 19
 #    hitAnimation: 76
     power: 72
@@ -5188,7 +5195,7 @@ items:
     bigSprite: 357
     floorSprite: 357
     bulletSprite: 11
-    fireSound: 18
+    fireSound: 607
     hitSound: 19
     hitAnimation: 66
     power: 60
@@ -5239,7 +5246,7 @@ items:
     bigSprite: 359
     floorSprite: 359
     bulletSprite: 11
-    fireSound: 18
+    fireSound: 609
     hitSound: 19
     hitAnimation: 66
     power: 95
@@ -5259,7 +5266,7 @@ items:
     bigSprite: 406
     floorSprite: 406
     bulletSprite: 8
-    fireSound: 96
+    fireSound: 609
     hitSound: 19
     hitAnimation: 46
     power: 114
@@ -5313,7 +5320,7 @@ items:
     bigSprite: 361
     floorSprite: 361
     bulletSprite: 11
-    fireSound: 96
+    fireSound: 610
     hitSound: 19
     hitAnimation: 66
     power: 115
@@ -5333,7 +5340,7 @@ items:
     bigSprite: 408
     floorSprite: 408
     bulletSprite: 8
-    fireSound: 96
+    fireSound: 610
     hitSound: 19
     hitAnimation: 46
     power: 138
@@ -5353,7 +5360,7 @@ items:
     bigSprite: 409
     floorSprite: 409
     bulletSprite: 12
-    fireSound: 96
+    fireSound: 610
     hitSound: 19
 #    hitAnimation: 76
     power: 104
@@ -5374,7 +5381,7 @@ items:
     bigSprite: 362
     floorSprite: 362
     handSprite: 870
-    fireSound: 91
+    fireSound: 610
     compatibleAmmo:
       - STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP
       - STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3
@@ -5446,7 +5453,7 @@ items:
     size: 0.2
     costSell: 120000
     weight: 10
-    fireSound: 53
+    fireSound: 1016
     compatibleAmmo:
       - STR_STUN_BOMB
       - STR_STUN_BOMB2
@@ -5798,7 +5805,7 @@ items:
     floorSprite: 391
     handSprite: 1030
     bulletSprite: 8
-    fireSound: 18
+    fireSound: 607
     compatibleAmmo:
       - STR_ELITE_PLASMA_CLIP
     accuracyAuto: 70

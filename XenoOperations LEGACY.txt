@@ -113,8 +113,16 @@ revisar q si aplique todo esto
   * asi es mas justo, hay mejores opciones y los modders creadores obtienen el trafico y descargas merecido por su esfuerzo y dedicacion.
 -agregado mas versiones de sonidos mejorados del mod HQSounds , author DAEDALUS:
   * firesounds
+  todo el primer tier
+  todo el segundo tier
+  tercer tier reordenado pero requerira mas sonidos proximamente
+  todo el laser tier mejorado
+  todo el tier rieles mejorado
+  todo el tier plasma mejorado
     ~ grenade launcher now has an unique sound 
 bugfixes:
+- devuelvo el bulletsprite a la xpdw
+- marcado obligatorio que los aliens no puedan usar explosivos en el primer turno OJO PRIORIDAD
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
  °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo)
 - some bugfixes for the handobs of the smoke grenade 
