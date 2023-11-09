@@ -953,9 +953,9 @@ extraSprites:
       55: Resources/UxUI/BaseBits/PlaneSprites/XCF0_base.gif
       56: Resources/UxUI/BaseBits/PlaneSprites/XCF2_base.gif
       57: Resources/UxUI/BaseBits/PlaneSprites/XCF3_base.gif
-      158: Resources/UxUI/BaseBits/PlaneSprites/XTP1a_base.png
-      159: Resources/UxUI/BaseBits/PlaneSprites/XTP1b_base.png
-      160: Resources/UxUI/BaseBits/PlaneSprites/XTP1c_base.png
+      158: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA0_base.png
+      159: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA1_base.png
+      160: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA2_base.png
       857: Resources/UxUI/BaseBits/PlaneSprites/XTP2_base.png
       58: Resources/UxUI/BaseBits/PlaneSprites/XTP3_base.gif
       150: Resources/UxUI/BaseBits/PlaneSprites/XTP4_base.gif      
