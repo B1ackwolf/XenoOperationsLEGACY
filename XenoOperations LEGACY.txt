@@ -83,6 +83,10 @@ Changelog:
 
 v.097.04 LE changelog:
 
+maptweaks: le hice cambios a una cantidad sustancial de mapas
+firefly y dragonfly coregidos y revampeados
+
+
 Tweaks:
 terminado al fin restructuracion de la carpeta RESOURCES completamente. esto ayudara muchisimo la implementacion de nuevos elementos ya q streamline the flujo de trabajo.
 - added some temporary ufopedia images, at least now there are not any "blanks/black spaced ufopedia entries) but the artwork lets a lot to be desired, will be improved further down the line.
@@ -120,7 +124,18 @@ revisar q si aplique todo esto
   todo el tier rieles mejorado
   todo el tier plasma mejorado
     ~ grenade launcher now has an unique sound 
+	~ rocket launcher tiene un sonido mejorado, esto afecta tambien a los tanques y unidades de apoyo
+	~ blaster launcher (tanto la version humana como la alienigena tienen un sonido mejorado)
+	~ adicionalmente los cluster launcher (small launcher) alienigenas tiene un efecto de disparo diferente, asi se evitan situaciones confusas donde no sabes exactamente q te dispararon
+	~ directamente TODAS LAS ARMAS ALIENS tienen mejores sonidos, especialmente util para asentar la personalidad de cada arma y ademas ayudar a dar pistas para saber con que diantres te atacaron
+  *Unitsounds
+    agregado sonidos a muertes de tus unidades de mayor calidad (y variedad), incluyendo perritos
+    todos los sonidos de perritos fueron mejorados	
 bugfixes:
+- resuelto un problema con los sonidos de los perritos, por un lado producia CTDs, por el otro, varios sonidos estaban mal definidos, creando situaciones confusas
+  * ahora se encuentran correctamente definidos los sonidos para cuando el perro va a atacar (previamente gruñe o ladra cortamente)
+  * en caso de "conectar" el ataque, sonara un crunch/chomp correctamente siempre y cuando logre acertar el ataque correctamente
+  * UN QOL en la claridad a la hora de atacar con perritos, better sound cues and clues to inform the result better  
 - devuelvo el bulletsprite a la xpdw
 - marcado obligatorio que los aliens no puedan usar explosivos en el primer turno OJO PRIORIDAD
 - Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)

@@ -1521,6 +1521,11 @@ terrains:
       - XCOMBITS
       - BATHWALL
       - BATHBITZ
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
     mapBlocks:
       - name: XBASE_00
         width: 10

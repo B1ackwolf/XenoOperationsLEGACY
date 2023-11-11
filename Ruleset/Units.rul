@@ -1,37 +1,11 @@
 units:
 ###----- Beggining of Death Sounds of Vainilla Races -----###
-  - type: STR_SECTOID_SOLDIER
-    deathSound: 901
-  - type: STR_SECTOID_ENGINEER
-    deathSound: 901
-  - type: STR_SECTOID_MEDIC
-    deathSound: 901
-  - type: STR_SECTOID_NAVIGATOR
-    deathSound: 901
-  - type: STR_SECTOID_LEADER
-    deathSound: 901
-  - type: STR_SECTOID_COMMANDER
-    deathSound: 901
   - type: STR_CYBERDISC_TERRORIST
-    deathSound: 902
-  - type: STR_SNAKEMAN_SOLDIER
-    deathSound: 904
-  - type: STR_SNAKEMAN_NAVIGATOR 
-    deathSound: 904
-  - type: STR_SNAKEMAN_ENGINEER
-    deathSound: 904
-  - type: STR_SNAKEMAN_LEADER
-    deathSound: 904
-  - type: STR_SNAKEMAN_COMMANDER
-    deathSound: 904
+    deathSound: 999
+
   - type: STR_CHRYSSALID_TERRORIST
-    deathSound: 905
-  - type: STR_MUTON_SOLDIER
-    deathSound: 906
-  - type: STR_MUTON_NAVIGATOR
-    deathSound: 906
-  - type: STR_MUTON_ENGINEER
-    deathSound: 906
+    deathSound: 995
+
   - type: STR_SILACOID_TERRORIST
     deathSound: 907
   - type: STR_CELATID_TERRORIST
@@ -44,7 +18,7 @@ units:
   - type: STR_ETHEREAL_COMMANDER
     deathSound: 909
   - type: STR_SECTOPOD_TERRORIST
-    deathSound: 910
+    deathSound: 993
 ###----- End Of Death Sounds of Vainilla Races -----###
   - type: STR_UAV
     race: STR_UAV
@@ -165,6 +139,156 @@ units:
         - STR_TANK_SMOKE_LAUNCHER
         - STR_TANK_SMOKE_GRENADE
 ###-------End Tanks
+
+#####reordenar todo arriba de esto
+
+#----- Alien Races -----#
+# Sectoids #        
+  - type: STR_SECTOID_SOLDIER
+    deathSound: [901, 902]
+  - type: STR_SECTOID_ENGINEER
+    deathSound: [901, 902]
+  - type: STR_SECTOID_MEDIC
+    deathSound: [901, 902]
+  - type: STR_SECTOID_NAVIGATOR
+    deathSound: [901, 902]
+  - type: STR_SECTOID_LEADER
+    deathSound: [901, 902]
+  - type: STR_SECTOID_COMMANDER
+    deathSound: [901, 902]
+  - type: STR_ARMORED_SECTOID_SOLDIER
+    race: STR_ARMORED_SECTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: [901, 902]
+    intelligence: 3
+    aggression: 2
+  - type: STR_ARMORED_SECTOID_ENGINEER
+    race: STR_ARMORED_SECTOID
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 16
+    deathSound: [901, 902]
+    intelligence: 6
+    aggression: 2
+  - type: STR_ARMORED_SECTOID_MEDIC
+    race: STR_ARMORED_SECTOID
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 14
+    deathSound: [901, 902]
+    intelligence: 5
+    aggression: 1
+  - type: STR_ARMORED_SECTOID_NAVIGATOR
+    race: STR_ARMORED_SECTOID
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 12
+    deathSound: [901, 902]
+    intelligence: 4
+    aggression: 2
+  - type: STR_ARMORED_SECTOID_LEADER
+    race: STR_ARMORED_SECTOID
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 50
+      melee: 76
+    armor: SECTOID_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 20
+    deathSound: [901, 902]
+    intelligence: 7
+    aggression: 1
+  - type: STR_ARMORED_SECTOID_COMMANDER
+    race: STR_ARMORED_SECTOID
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 60
+      melee: 76
+    armor: SECTOID_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 25
+    deathSound: [901, 902]
+    intelligence: 8
+    aggression: 0
+# Floaters #
   - type: STR_FLOATER_SOLDIER
     race: STR_FLOATER
     rank: STR_LIVE_SOLDIER
@@ -185,7 +309,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 12
-    deathSound: 903
+    aggroSound: 905
+    deathSound: 906
     moveSound: 15
     intelligence: 4
     aggression: 2
@@ -209,7 +334,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 18
-    deathSound: 903
+    aggroSound: 905
+    deathSound: 906
     moveSound: 15
     intelligence: 7
     aggression: 2
@@ -233,7 +359,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 14
-    deathSound: 903
+    aggroSound: 905
+    deathSound: 906
     moveSound: 15
     intelligence: 5
     aggression: 2
@@ -257,7 +384,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 16
-    deathSound: 903
+    aggroSound: 905
+    deathSound: 906
     moveSound: 15
     intelligence: 6
     aggression: 1
@@ -281,7 +409,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 25
-    deathSound: 903
+    aggroSound: 905
+    deathSound: 906
     moveSound: 15
     intelligence: 8
     aggression: 0
@@ -305,102 +434,42 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 35
-    deathSound: 903
+    aggroSound: 905
+    deathSound: 906
     moveSound: 15
     intelligence: 8
     aggression: 0
-  - type: STR_MUTON_COMMANDO
-    race: STR_MUTON_COMMANDO
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 75
-      stamina: 120
-      health: 155
-      bravery: 90
-      reactions: 75
-      firing: 62
-      throwing: 70
-      strength: 80
-      psiStrength: 70
-      psiSkill: 0
-      melee: 82
-    armor: MUTON_COMMANDO_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    deathSound: 906
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
-  - type: STR_MUTON_GUARD
-    race: STR_MIXED
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 80
-      stamina: 150
-      health: 175
-      bravery: 110
-      reactions: 80
-      firing: 70
-      throwing: 75
-      strength: 80
-      psiStrength: 150
-      psiSkill: 0
-      melee: 90
-    armor: MUTON_GUARD_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    deathSound: 906
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
-  - type: STR_MUTON_CHIEFTAIN
-    race: STR_MUTON_COMMANDO
-    rank: STR_LIVE_COMMANDER
-    stats:
-      tu: 80
-      stamina: 150
-      health: 180
-      bravery: 95
-      reactions: 85
-      firing: 75
-      throwing: 75
-      strength: 85
-      psiStrength: 80
-      psiSkill: 0
-      melee: 95
-    armor: MUTON_CHIEFTAIN_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    deathSound: 906
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
-  - type: STR_ARMORED_MUTON_COMMANDER
-    race: STR_ARMORED_MUTON
-    rank: STR_LIVE_COMMANDER
-    stats:
-      tu: 80
-      stamina: 150
-      health: 180
-      bravery: 95
-      reactions: 85
-      firing: 75
-      throwing: 75
-      strength: 85
-      psiStrength: 80
-      psiSkill: 0
-      melee: 95
-    armor: ARMORED_MUTON_COMMANDER_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    deathSound: 906
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
+# Serpentoids #
+  - type: STR_SNAKEMAN_SOLDIER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_NAVIGATOR 
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_ENGINEER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_LEADER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_COMMANDER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+# Mutons #
+  - type: STR_MUTON_SOLDIER
+    aggroSound: 915
+    deathSound: 917
+  - type: STR_MUTON_NAVIGATOR
+    aggroSound: 915
+    deathSound: 917
+  - type: STR_MUTON_ENGINEER
+    aggroSound: 915
+    deathSound: 917
   - type: STR_ARMORED_MUTON_SOLDIER
     race: STR_ARMORED_MUTON
     rank: STR_LIVE_SOLDIER
@@ -420,7 +489,8 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 19
-    deathSound: 906
+    aggroSound: 915
+    deathSound: 917
     intelligence: 2
     aggression: 2
     energyRecovery: 40
@@ -443,7 +513,8 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 21
-    deathSound: 906
+    aggroSound: 915
+    deathSound: 917
     intelligence: 3
     aggression: 2
     energyRecovery: 40
@@ -466,10 +537,107 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 23
-    deathSound: 906
+    aggroSound: 915
+    deathSound: 917
     intelligence: 4
     aggression: 2
     energyRecovery: 40
+  - type: STR_MUTON_COMMANDO
+    race: STR_MUTON_COMMANDO
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 75
+      stamina: 120
+      health: 155
+      bravery: 90
+      reactions: 75
+      firing: 62
+      throwing: 70
+      strength: 80
+      psiStrength: 70
+      psiSkill: 0
+      melee: 82
+    armor: MUTON_COMMANDO_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 917
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
+  - type: STR_MUTON_GUARD
+    race: STR_MIXED
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 150
+      health: 175
+      bravery: 110
+      reactions: 80
+      firing: 70
+      throwing: 75
+      strength: 80
+      psiStrength: 150
+      psiSkill: 0
+      melee: 90
+    armor: MUTON_GUARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 916
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
+  - type: STR_MUTON_CHIEFTAIN
+    race: STR_MUTON_COMMANDO
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 80
+      stamina: 150
+      health: 180
+      bravery: 95
+      reactions: 85
+      firing: 75
+      throwing: 75
+      strength: 85
+      psiStrength: 80
+      psiSkill: 0
+      melee: 95
+    armor: MUTON_CHIEFTAIN_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 916
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
+  - type: STR_ARMORED_MUTON_COMMANDER
+    race: STR_ARMORED_MUTON
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 80
+      stamina: 150
+      health: 180
+      bravery: 95
+      reactions: 85
+      firing: 75
+      throwing: 75
+      strength: 85
+      psiStrength: 80
+      psiSkill: 0
+      melee: 95
+    armor: ARMORED_MUTON_COMMANDER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 916
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
   - type: STR_MUTON_BERSERKER
     race: STR_ARMORED_MUTON
     rank: STR_LIVE_TERRORIST
@@ -489,7 +657,8 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 25
-    deathSound: 906
+    aggroSound: 918
+    deathSound: 919
     intelligence: 1
     aggression: 2
     energyRecovery: 40
@@ -497,138 +666,79 @@ units:
       -
         - STR_ALLOY_BLADE
         - STR_ALLOY_BLADE
-  - type: STR_ARMORED_SECTOID_SOLDIER
-    race: STR_ARMORED_SECTOID
+# Formics #
+  - type: STR_FORMIC
+    race: STR_FORMIC
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 54
-      stamina: 90
-      health: 30
-      bravery: 80
-      reactions: 63
-      firing: 52
-      throwing: 58
-      strength: 30
-      psiStrength: 40
+      tu: 56
+      stamina: 80
+      health: 40
+      bravery: 70
+      reactions: 70
+      firing: 48
+      throwing: 50
+      strength: 55
+      psiStrength: 25
       psiSkill: 0
-      melee: 76
-    armor: SECTOID_POWER_ARMOR
-    standHeight: 16
-    kneelHeight: 12
+      melee: 80
+    armor: FORMIC_ARMOR
+    standHeight: 21
+    kneelHeight: 16
     value: 10
-    deathSound: 901
-    intelligence: 3
-    aggression: 2
-  - type: STR_ARMORED_SECTOID_ENGINEER
-    race: STR_ARMORED_SECTOID
-    rank: STR_LIVE_ENGINEER
-    stats:
-      tu: 54
-      stamina: 90
-      health: 30
-      bravery: 80
-      reactions: 63
-      firing: 52
-      throwing: 58
-      strength: 30
-      psiStrength: 40
-      psiSkill: 0
-      melee: 76
-    armor: SECTOID_POWER_ARMOR
-    standHeight: 16
-    kneelHeight: 12
-    value: 16
-    deathSound: 901
-    intelligence: 6
-    aggression: 2
-  - type: STR_ARMORED_SECTOID_MEDIC
-    race: STR_ARMORED_SECTOID
-    rank: STR_LIVE_MEDIC
-    stats:
-      tu: 54
-      stamina: 90
-      health: 30
-      bravery: 80
-      reactions: 63
-      firing: 52
-      throwing: 58
-      strength: 30
-      psiStrength: 40
-      psiSkill: 0
-      melee: 76
-    armor: SECTOID_POWER_ARMOR
-    standHeight: 16
-    kneelHeight: 12
-    value: 14
-    deathSound: 901
-    intelligence: 5
-    aggression: 1
-  - type: STR_ARMORED_SECTOID_NAVIGATOR
-    race: STR_ARMORED_SECTOID
+    deathSound: 920
+    intelligence: 1
+    aggression: 3
+  - type: STR_FORMIC_BETA
+    race: STR_FORMIC
     rank: STR_LIVE_NAVIGATOR
     stats:
-      tu: 54
-      stamina: 90
-      health: 30
-      bravery: 80
-      reactions: 63
-      firing: 52
-      throwing: 58
-      strength: 30
-      psiStrength: 40
+      tu: 56
+      stamina: 80
+      health: 50
+      bravery: 70
+      reactions: 70
+      firing: 48
+      throwing: 50
+      strength: 55
+      psiStrength: 30
       psiSkill: 0
-      melee: 76
-    armor: SECTOID_POWER_ARMOR
-    standHeight: 16
-    kneelHeight: 12
-    value: 12
-    deathSound: 901
-    intelligence: 4
-    aggression: 2
-  - type: STR_ARMORED_SECTOID_LEADER
-    race: STR_ARMORED_SECTOID
+      melee: 80
+    armor: FORMIC_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 20
+    deathSound: 920
+    intelligence: 3
+    aggression: 3
+  - type: STR_FORMIC_ALPHA
+    race: STR_FORMIC
     rank: STR_LIVE_LEADER
     stats:
-      tu: 54
-      stamina: 90
-      health: 30
+      tu: 56
+      stamina: 80
+      health: 120
       bravery: 80
-      reactions: 63
-      firing: 52
-      throwing: 58
-      strength: 30
-      psiStrength: 40
-      psiSkill: 50
-      melee: 76
-    armor: SECTOID_POWER_ARMOR
-    standHeight: 16
-    kneelHeight: 12
-    value: 20
-    deathSound: 901
+      reactions: 75
+      firing: 48
+      throwing: 50
+      strength: 60
+      psiStrength: 50
+      psiSkill: 0
+      melee: 80
+    armor: FORMIC_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 30
+    deathSound: 920
     intelligence: 7
-    aggression: 1
-  - type: STR_ARMORED_SECTOID_COMMANDER
-    race: STR_ARMORED_SECTOID
-    rank: STR_LIVE_COMMANDER
-    stats:
-      tu: 54
-      stamina: 90
-      health: 30
-      bravery: 80
-      reactions: 63
-      firing: 52
-      throwing: 58
-      strength: 30
-      psiStrength: 40
-      psiSkill: 60
-      melee: 76
-    armor: SECTOID_POWER_ARMOR
-    standHeight: 16
-    kneelHeight: 12
-    value: 25
-    deathSound: 901
-    intelligence: 8
-    aggression: 0
+    aggression: 3
+
+
+
+###reordenar desde aqui abajo
+
+
   - type: STR_HYBRID
     race: STR_HYBRID
     rank: STR_LIVE_TERRORIST
@@ -705,72 +815,7 @@ units:
     energyRecovery: 40
     specab: 2
     livingWeapon: true
-  - type: STR_FORMIC
-    race: STR_FORMIC
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 56
-      stamina: 80
-      health: 40
-      bravery: 70
-      reactions: 70
-      firing: 48
-      throwing: 50
-      strength: 55
-      psiStrength: 25
-      psiSkill: 0
-      melee: 80
-    armor: FORMIC_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 10
-    deathSound: 50
-    intelligence: 1
-    aggression: 3
-  - type: STR_FORMIC_BETA
-    race: STR_FORMIC
-    rank: STR_LIVE_NAVIGATOR
-    stats:
-      tu: 56
-      stamina: 80
-      health: 50
-      bravery: 70
-      reactions: 70
-      firing: 48
-      throwing: 50
-      strength: 55
-      psiStrength: 30
-      psiSkill: 0
-      melee: 80
-    armor: FORMIC_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 20
-    deathSound: 50
-    intelligence: 3
-    aggression: 3
-  - type: STR_FORMIC_ALPHA
-    race: STR_FORMIC
-    rank: STR_LIVE_LEADER
-    stats:
-      tu: 56
-      stamina: 80
-      health: 120
-      bravery: 80
-      reactions: 75
-      firing: 48
-      throwing: 50
-      strength: 60
-      psiStrength: 50
-      psiSkill: 0
-      melee: 80
-    armor: FORMIC_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 30
-    deathSound: 50
-    intelligence: 7
-    aggression: 3
+
   - type: STR_CARCHARODON_SOLDIER
     race: STR_CARCHARODON
     rank: STR_LIVE_SOLDIER

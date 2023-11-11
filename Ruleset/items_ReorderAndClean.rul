@@ -7093,8 +7093,8 @@ items:
       energy: 7
       time: 10
     damageType: 7
-    meleeSound: [685, 686]
-    meleeHitSound: 249
+    meleeSound: [249, 248]
+    meleeHitSound: [685, 686]
     accuracyMelee: 100
     battleType: 3
     fixedWeapon: true

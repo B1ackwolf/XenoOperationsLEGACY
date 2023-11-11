@@ -31,48 +31,60 @@ extraSounds:
   - type: BATTLE.CAT
     files:
 #----- new Alien Sounds improved, 2012 death sounds and daedalus hqSfmp -----#
-      901: Resources/ImprovedSounds/AlienSounds/sectoid_death.wav
-      101: Resources/ImprovedSounds/AlienSounds/Floater1.ogg
-      903: Resources/ImprovedSounds/AlienSounds/floater_death.wav
-      904: Resources/ImprovedSounds/AlienSounds/snake_death.wav
-      906: Resources/ImprovedSounds/AlienSounds/muton_death.wav
-      204: Resources/ImprovedSounds/AlienSounds/SharkScream.ogg
-      207: Resources/ImprovedSounds/AlienSounds/SharkScream2.ogg
-      202: Resources/ImprovedSounds/AlienSounds/Sovereignscream.ogg
-      909: Resources/ImprovedSounds/AlienSounds/ether_death.wav
-      905: Resources/ImprovedSounds/AlienSounds/chrys_death.wav
-      203: Resources/ImprovedSounds/AlienSounds/EnergyAlienMove.ogg
-      200: Resources/ImprovedSounds/AlienSounds/hybridmove.ogg
-      205: Resources/ImprovedSounds/AlienSounds/AbominationMove.ogg
-      206: Resources/ImprovedSounds/AlienSounds/AbominationDie.ogg
-      907: Resources/ImprovedSounds/AlienSounds/sila_death.wav
-      908: Resources/ImprovedSounds/AlienSounds/cela_death.ogg
-      902: Resources/ImprovedSounds/AlienSounds/cyber_death.wav
-      910: Resources/ImprovedSounds/AlienSounds/secto_death.wav
-      18: Resources/ImprovedSounds/AlienSounds/AlienHeavyPlasma.ogg # Cyberdisc cannon ### possibly sectopod cannon too
-      201: Resources/ImprovedSounds/AlienSounds/psiattack3.ogg # Hybrid Alien attack, Acient Abomination Alien attack
+      901: Resources/ImprovedSounds/AlienSounds/Sectoid_death.wav
+      902: Resources/ImprovedSounds/AlienSounds/Sectoid_death_alt.ogg
+      905: Resources/ImprovedSounds/AlienSounds/Floater_alert.ogg
+      906: Resources/ImprovedSounds/AlienSounds/Floater_death.wav
+      910: Resources/ImprovedSounds/AlienSounds/Snake_alert.ogg
+      911: Resources/ImprovedSounds/AlienSounds/snake_death.wav
+      912: Resources/ImprovedSounds/AlienSounds/Snake_move.ogg
+      915: Resources/ImprovedSounds/AlienSounds/Muton_alert.ogg
+      916: Resources/ImprovedSounds/AlienSounds/Muton_alpha_death.ogg
+      917: Resources/ImprovedSounds/AlienSounds/Muton_death.ogg
+      918: Resources/ImprovedSounds/AlienSounds/Muton_mad_alert.ogg
+      919: Resources/ImprovedSounds/AlienSounds/Muton_mad_death.wav
+      920: Resources/ImprovedSounds/AlienSounds/Formic_death.ogg
+
+      204: Resources/ImprovedSounds/AlienSounds/Carchar_alert.ogg
+      207: Resources/ImprovedSounds/AlienSounds/Carchar_death.ogg
+
+
+      202: Resources/ImprovedSounds/AlienSounds/NewAliens/Sovereignscream.ogg
+      909: Resources/ImprovedSounds/AlienSounds/NewAliens/ether_death.wav
+      995: Resources/ImprovedSounds/AlienSounds/NewAliens/chrys_death.wav
+      203: Resources/ImprovedSounds/AlienSounds/NewAliens/EnergyAlienMove.ogg
+      200: Resources/ImprovedSounds/AlienSounds/NewAliens/hybridmove.ogg
+      205: Resources/ImprovedSounds/AlienSounds/NewAliens/AbominationMove.ogg
+      206: Resources/ImprovedSounds/AlienSounds/NewAliens/AbominationDie.ogg
+      907: Resources/ImprovedSounds/AlienSounds/NewAliens/sila_death.wav
+      908: Resources/ImprovedSounds/AlienSounds/NewAliens/cela_death.ogg
+      999: Resources/ImprovedSounds/AlienSounds/NewAliens/cyber_death.wav
+      993: Resources/ImprovedSounds/AlienSounds/NewAliens/secto_death.wav
+      18: Resources/ImprovedSounds/AlienSounds/NewAliens/AlienHeavyPlasma.ogg # Cyberdisc cannon ### possibly sectopod cannon too
+      201: Resources/ImprovedSounds/AlienSounds/NewAliens/Alien_Hybrid_attack.ogg # Hybrid Alien attack, Acient Abomination Alien attack
 #----- new alien sounds end here -----#
 #----- All vainilla BaseGame FXSounds in battlescape, improved -----#
-      2: Resources/ImprovedSounds/FXSounds/NewFX/small_explosion.ogg	#small explosion
-      3: Resources/ImprovedSounds/FXSounds/NewFX/door_barn.ogg	#door open
-      5: Resources/ImprovedSounds/FXSounds/NewFX/large_explosion.ogg	#large explosion
-      17: Resources/ImprovedSounds/FXSounds/NewFX/b_reload.ogg	#reload
-      20: Resources/ImprovedSounds/FXSounds/NewFX/door_ufomain.ogg	#ufo door main
-      21: Resources/ImprovedSounds/FXSounds/NewFX/door_inner.ogg	#ufo door inner
+#ojito este me falta aun completar mucho
+      2: Resources/ImprovedSounds/FXSounds/NewFX/small_explosion.ogg #small explosion
+      3: Resources/ImprovedSounds/FXSounds/NewFX/door_barn.ogg #door open
+      5: Resources/ImprovedSounds/FXSounds/NewFX/large_explosion.ogg #large explosion
+      17: Resources/ImprovedSounds/FXSounds/NewFX/b_reload.ogg #reload
+      20: Resources/ImprovedSounds/FXSounds/NewFX/door_ufomain.ogg #ufo door main
+      21: Resources/ImprovedSounds/FXSounds/NewFX/door_inner.ogg #ufo door inner
       24: Resources/ImprovedSounds/FXSounds/NewFX/walk_metal1.ogg	#footsteps metal 1
       25: Resources/ImprovedSounds/FXSounds/NewFX/walk_metal2.ogg	#footsteps metal 2
-      26: Resources/ImprovedSounds/FXSounds/NewFX/walk_ground1.ogg	#footsteps ground 1
-      27: Resources/ImprovedSounds/FXSounds/NewFX/walk_ground2.ogg	#footsteps ground 2
-      28: Resources/ImprovedSounds/FXSounds/NewFX/walk_martian1.ogg	#footsteps mars 1
-      29: Resources/ImprovedSounds/FXSounds/NewFX/walk_martian2.ogg	#footsteps mars 2
+      26: Resources/ImprovedSounds/FXSounds/NewFX/walk_ground1.ogg #footsteps ground 1
+      27: Resources/ImprovedSounds/FXSounds/NewFX/walk_ground2.ogg #footsteps ground 2
+      28: Resources/ImprovedSounds/FXSounds/NewFX/walk_martian1.ogg #footsteps mars 1
+      29: Resources/ImprovedSounds/FXSounds/NewFX/walk_martian2.ogg #footsteps mars 2
       30: Resources/ImprovedSounds/FXSounds/NewFX/walk_water1.ogg	#footsteps mud 1
       31: Resources/ImprovedSounds/FXSounds/NewFX/walk_water2.ogg	#footsteps mud 2
-      32: Resources/ImprovedSounds/FXSounds/NewFX/walk_sand1.ogg	#footsteps sand 1
-      33: Resources/ImprovedSounds/FXSounds/NewFX/walk_sand2.ogg	#footsteps sand 2
-      34: Resources/ImprovedSounds/FXSounds/NewFX/walk_snow1.ogg	#footsteps snow 1
-      35: Resources/ImprovedSounds/FXSounds/NewFX/walk_snow2.ogg	#footsteps snow 2
-      36: Resources/ImprovedSounds/FXSounds/NewFX/psy_attack.ogg	#mind control
-      37: Resources/ImprovedSounds/FXSounds/NewFX/psy_check.ogg	#mindprobe
+      32: Resources/ImprovedSounds/FXSounds/NewFX/walk_sand1.ogg #footsteps sand 1
+      33: Resources/ImprovedSounds/FXSounds/NewFX/walk_sand2.ogg #footsteps sand 2
+      34: Resources/ImprovedSounds/FXSounds/NewFX/walk_snow1.ogg #footsteps snow 1
+      35: Resources/ImprovedSounds/FXSounds/NewFX/walk_snow2.ogg #footsteps snow 2
+      36: Resources/ImprovedSounds/FXSounds/NewFX/psy_attack.ogg #mind control
+      37: Resources/ImprovedSounds/FXSounds/NewFX/psy_check.ogg #mindprobe
       38: Resources/ImprovedSounds/FXSounds/NewFX/place.ogg	#item drop
       39: Resources/ImprovedSounds/FXSounds/NewFX/throw.ogg	#item throw
       40: Resources/ImprovedSounds/FXSounds/NewFX/move_hover.ogg	#hovertank/cyberdisc move
@@ -86,28 +98,29 @@ extraSounds:
       94: Resources/ImprovedSounds/FxSounds/plasmasword.ogg
       95: Resources/ImprovedSounds/FxSounds/plasmaswordhit.ogg
       92: Resources/ImprovedSounds/FxSounds/psiattack2.ogg
+#ojito modificar nombres      
+      1332: Resources/ImprovedSounds/FxSounds/TankHE_hit_UNEXCOM.wav
+      1335: Resources/ImprovedSounds/FxSounds/TankAP_hit_UNEXCOM.wav
 #----- FXSounds end here ----#
 #----- Unit Sounds improved -----#
-      41: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_m1.ogg	#male death scream 1
-      42: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_m2.ogg	#male death scream 2
-      43: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_m3.ogg	#male death scream 3
-      44: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_f1.ogg	#female death scream 1
-      45: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_f2.ogg	#female death scream 2
-      46: Resources/ImprovedSounds/UnitSounds/NewUnits/death_x_f3.ogg	#female death scream 3
-      248: Resources/ImprovedSounds/UnitSounds/Dog_Bark.wav # dog barking
-      249: Resources/ImprovedSounds/UnitSounds/Dog_growl.wav
-      955: Resources/ImprovedSounds/UnitSounds/DogeSpotted.wav #dog tracking
-      994: Resources/ImprovedSounds/UnitSounds/DogeDeath1.wav
-      680: Resources/ImprovedSounds/UnitSounds/DogeDeath2.wav
-      681: Resources/ImprovedSounds/UnitSounds/DogeDeath3.wav
-      933: Resources/ImprovedSounds/UnitSounds/DogeAttack1.ogg
-      685: Resources/ImprovedSounds/UnitSounds/DogeAttack2.wav
-      686: Resources/ImprovedSounds/UnitSounds/DogeAttack3.wav
-      1330: Resources/ImprovedSounds/UnitSounds/TankHE_fire_UNEXCOM.wav
-      1332: Resources/ImprovedSounds/UnitSounds/TankHE_hit_UNEXCOM.wav
-      1333: Resources/ImprovedSounds/UnitSounds/TankAP_fire_UNEXCOM.wav
-      1335: Resources/ImprovedSounds/UnitSounds/TankAP_hit_UNEXCOM.wav
-      1001: Resources/ImprovedSounds/UnitSounds/rocketfast.ogg #rocket drone shot#### OJITO ???
+      41: Resources/ImprovedSounds/UnitSounds/HumanM1_death.ogg #male death scream 1
+      42: Resources/ImprovedSounds/UnitSounds/HumanM2_death.ogg #male death scream 2
+      43: Resources/ImprovedSounds/UnitSounds/HumanM3_death.ogg #male death scream 3
+      44: Resources/ImprovedSounds/UnitSounds/HumanF1_death.ogg #female death scream 1
+      45: Resources/ImprovedSounds/UnitSounds/HumanF2_death.ogg #female death scream 2
+      46: Resources/ImprovedSounds/UnitSounds/HumanF3_death.ogg #female death scream 3
+      994: Resources/ImprovedSounds/UnitSounds/DogeDeath1.ogg #doge death scream 1
+      680: Resources/ImprovedSounds/UnitSounds/DogeDeath2.wav #doge death scream 2
+      681: Resources/ImprovedSounds/UnitSounds/DogeDeath3.wav #doge death scream 3
+      248: Resources/ImprovedSounds/UnitSounds/DogeBark.wav #doge barking
+      249: Resources/ImprovedSounds/UnitSounds/Dogegrowl.wav #doge preparing to attack
+      933: Resources/ImprovedSounds/UnitSounds/DogePreparing.ogg #doge preparing to attack2
+      685: Resources/ImprovedSounds/UnitSounds/DogeMaul2.wav #doge biting success 1
+      686: Resources/ImprovedSounds/UnitSounds/DogeMaul3.wav #doge biting success 2
+      955: Resources/ImprovedSounds/UnitSounds/DogeTracking.wav #doge tracking
+      1330: Resources/ImprovedSounds/UnitSounds/TankHE_shot.wav #tank HE cannon from UNEXCOM
+      1333: Resources/ImprovedSounds/UnitSounds/TankAP_shot.wav #tank AP cannon from UNEXCOM
+      1001: Resources/ImprovedSounds/UnitSounds/TankRocket_shot.ogg # tanks and rocket shot sound
 #----- Unit Sounds end here -----#
 #----- Weapon Sounds , improved -----#
 # Tier 1 & 2

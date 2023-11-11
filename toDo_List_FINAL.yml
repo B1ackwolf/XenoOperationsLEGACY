@@ -6,8 +6,8 @@ Link al drive:
 #####
 
 +Priorities fixes:
- - [FATAL]	OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4
-   * no importa cuanto modifique el problema en la pestaña de alien deployments, sigue dando error.
+ - "[FATAL] OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4"
+ - no importa cuanto modifique el problema en la pestaña de alien deployments, sigue dando error.
    * seguir investigando con efren a ver q porongas pasa aca
 
  - crear el sprite de floorob para el eleriumCell q sea el 37, checar q el small launcher use otro, ojito
