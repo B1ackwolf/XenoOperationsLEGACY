@@ -4830,7 +4830,7 @@ items:
     invHeight: 3
     armor: 65
     meleeSound: 94
-    meleeHitSound: 955
+    meleeHitSound: 95
     meleeAnimation: 88
     skillApplied: true
     attraction: 10
@@ -4937,18 +4937,21 @@ items:
     invHeight: 3
     recover: false
   - type: CHRYSSALID_WEAPON
+    meleeSound: 942
     meleeAnimation: 28
     zombieUnit: STR_ZOMBIE
+  - type: ZOMBIE_WEAPON
+    meleeSound: 946
+    meleeAnimation: 28
   - type: REAPER_WEAPON
     meleeAnimation: 64
-  - type: ZOMBIE_WEAPON
-    meleeAnimation: 28
+    meleeSound: 927
   - type: STR_JAWS
     bigSprite: 813
-    meleeSound: 204
-    strengthApplied: true
+    meleeSound: 927
+    strengthApplied: true #ojito change to damageBonus
     damageType: 7
-    accuracyMelee: 100
+    accuracyMelee: 80
     tuMelee: 15
     battleType: 3
     meleeAnimation: 64
@@ -4957,6 +4960,12 @@ items:
     invHeight: 3
     clipSize: -1
     recover: false
+  - type: CELATID_WEAPON
+    fireSound: 956
+    hitSound: 19
+  - type: SILACOID_WEAPON
+    meleeSound: 960
+
   - type: STR_ALIEN_PLASMA_PISTOL
     requires:
       - STR_LIGHT_ALIEN_WEAPONS
@@ -5855,7 +5864,7 @@ items:
     floorSprite: 31
     handSprite: 104
     bulletSprite: 12
-    fireSound: 201
+    fireSound: 970
     hitSound: 19
     hitAnimation: 76
     power: 150
@@ -5876,7 +5885,7 @@ items:
     floorSprite: 31
     handSprite: 104
     bulletSprite: 12
-    fireSound: 201
+    fireSound: 956
     hitSound: 19
     hitAnimation: 76
     power: 150
@@ -7071,7 +7080,7 @@ items:
     floorSprite: 0
     handSprite: 0
     specialIconSprite: 108
-    fireSound: 955
+    fireSound: 687
     battleType: 7
     tuUse: 15
     fixedWeapon: true

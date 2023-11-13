@@ -85,6 +85,7 @@ v.097.04 LE changelog:
 
 maptweaks: le hice cambios a una cantidad sustancial de mapas
 firefly y dragonfly coregidos y revampeados
+mapas humanos con algunas correciones y mejoras menores (es un preludio para un cambio proximo que si todo sale bien, mejorara increiblemente la apariencia de la base de xcom)
 
 
 Tweaks:

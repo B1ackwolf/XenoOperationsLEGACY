@@ -817,7 +817,7 @@ mapScripts:
       size: 2
       executions: 4
     - type: fillArea
-
+#OJITO AQUI ESTA EL PROBLEMA
   - type: CRUISE_LINER # Thanks to Solarius Scorch!
     commands:
     - type: addBlock

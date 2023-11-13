@@ -3,20 +3,11 @@ units:
   - type: STR_CYBERDISC_TERRORIST
     deathSound: 999
 
-  - type: STR_CHRYSSALID_TERRORIST
-    deathSound: 995
 
-  - type: STR_SILACOID_TERRORIST
-    deathSound: 907
-  - type: STR_CELATID_TERRORIST
-    deathSound: 908
-    armor: CELATID_ARMOR
-  - type: STR_ETHEREAL_SOLDIER
-    deathSound: 909
-  - type: STR_ETHEREAL_LEADER
-    deathSound: 909
-  - type: STR_ETHEREAL_COMMANDER
-    deathSound: 909
+
+
+
+
   - type: STR_SECTOPOD_TERRORIST
     deathSound: 993
 ###----- End Of Death Sounds of Vainilla Races -----###
@@ -733,12 +724,211 @@ units:
     deathSound: 920
     intelligence: 7
     aggression: 3
-
-
-
-###reordenar desde aqui abajo
-
-
+# Carcharodons #
+  - type: STR_CARCHARODON_SOLDIER
+    race: STR_CARCHARODON
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 95
+      health: 75
+      bravery: 80
+      reactions: 65
+      firing: 40
+      throwing: 50
+      strength: 70
+      psiStrength: 40
+      psiSkill: 0
+      melee: 80
+    armor: CARCHARODON_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    aggroSound: 915
+    deathSound: 917
+    intelligence: 4
+    aggression: 2
+    meleeWeapon: STR_JAWS
+    energyRecovery: 40
+  - type: STR_CARCHARODON_NAVIGATOR
+    race: STR_CARCHARODON
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 80
+      stamina: 95
+      health: 75
+      bravery: 80
+      reactions: 65
+      firing: 40
+      throwing: 50
+      strength: 70
+      psiStrength: 40
+      psiSkill: 0
+      melee: 80
+    armor: CARCHARODON_ARMOR2
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    aggroSound: 925
+    deathSound: 926
+    intelligence: 4
+    aggression: 2
+    meleeWeapon: STR_JAWS
+    energyRecovery: 40
+  - type: STR_CARCHARODON_ENGINEER
+    race: STR_CARCHARODON
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 80
+      stamina: 95
+      health: 75
+      bravery: 80
+      reactions: 65
+      firing: 40
+      throwing: 50
+      strength: 70
+      psiStrength: 40
+      psiSkill: 0
+      melee: 80
+    armor: CARCHARODON_ARMOR2
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    aggroSound: 925
+    deathSound: 926
+    intelligence: 4
+    aggression: 2
+    meleeWeapon: STR_JAWS
+    energyRecovery: 40
+  - type: STR_CARCHARODON_LEADER
+    race: STR_CARCHARODON
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 85
+      stamina: 100
+      health: 80
+      bravery: 90
+      reactions: 70
+      firing: 50
+      throwing: 60
+      strength: 80
+      psiStrength: 50
+      psiSkill: 0
+      melee: 90
+    armor: CARCHARODON_ARMOR3
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    aggroSound: 925
+    deathSound: 926
+    intelligence: 4
+    aggression: 2
+    meleeWeapon: STR_JAWS
+    energyRecovery: 40
+  - type: STR_CARCHARODON_COMMANDER
+    race: STR_CARCHARODON
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 130
+      stamina: 120
+      health: 100
+      bravery: 95
+      reactions: 75
+      firing: 55
+      throwing: 70
+      strength: 90
+      psiStrength: 60
+      psiSkill: 0
+      melee: 100
+    armor: CARCHARODON_ARMOR3
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    aggroSound: 925
+    deathSound: 926
+    intelligence: 4
+    aggression: 2
+    meleeWeapon: STR_JAWS
+    energyRecovery: 40
+# Sovereigns #
+  - type: STR_SOVEREIGN
+    race: STR_SOVEREIGN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 150
+      health: 100
+      bravery: 110
+      reactions: 60
+      firing: 65
+      throwing: 50
+      strength: 70
+      psiStrength: 200
+      psiSkill: 0
+      melee: 80
+    armor: SOVEREIGN_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 930
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 50
+# Ethereals #
+  - type: STR_ETHEREAL_SOLDIER
+    deathSound: 935
+  - type: STR_ETHEREAL_LEADER
+    deathSound: 935
+  - type: STR_ETHEREAL_COMMANDER
+    deathSound: 935
+# Chryssalids #
+  - type: STR_CHRYSSALID_TERRORIST
+    aggroSound: 940
+    deathSound: 941
+# Zombies #
+  - type: STR_ZOMBIE
+    deathSound: 945
+# Reapers #
+  - type: STR_REAPER_TERRORIST
+    aggroSound: 950
+    deathSound: 951
+# Celatids #
+  - type: STR_CELATID_TERRORIST
+    deathSound: 955
+    moveSound: 912
+    armor: CELATID_ARMOR
+# Silacoids #
+  - type: STR_SILACOID_TERRORIST
+    deathSound: 961
+    moveSound: 962
+# Abominations #
+  - type: STR_ANCIENT_ABOMINATION_TERRORIST
+    race: STR_ANCIENT_ABOMINATION_TERRORIST
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 150
+      health: 80
+      bravery: 110
+      reactions: 40
+      firing: 100
+      throwing: 0
+      strength: 10
+      psiStrength: 80
+      psiSkill: 25
+      melee: 80
+    armor: ABOMINATION_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 20
+    deathSound: 965
+    moveSound: 966
+    intelligence: 3
+    aggression: 2
+    energyRecovery: 40
+    livingWeapon: true
+# Hybrids #
   - type: STR_HYBRID
     race: STR_HYBRID
     rank: STR_LIVE_TERRORIST
@@ -759,35 +949,16 @@ units:
     kneelHeight: 20
     floatHeight: 2
     value: 30
-    deathSound: 9
-    moveSound: 200
+    deathSound: 971
+    moveSound: 972
     intelligence: 10
     aggression: 1
     energyRecovery: 20
     livingWeapon: true
-  - type: STR_SOVEREIGN
-    race: STR_SOVEREIGN
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 60
-      stamina: 150
-      health: 100
-      bravery: 110
-      reactions: 60
-      firing: 65
-      throwing: 50
-      strength: 70
-      psiStrength: 200
-      psiSkill: 0
-      melee: 80
-    armor: SOVEREIGN_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 25
-    deathSound: 202
-    intelligence: 6
-    aggression: 1
-    energyRecovery: 50
+
+
+###reordenar desde aqui abajo
+
   - type: STR_ENERGYALIEN
     race: STR_ENERGYALIEN
     rank: STR_LIVE_TERRORIST
@@ -816,152 +987,9 @@ units:
     specab: 2
     livingWeapon: true
 
-  - type: STR_CARCHARODON_SOLDIER
-    race: STR_CARCHARODON
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 80
-      stamina: 95
-      health: 75
-      bravery: 80
-      reactions: 65
-      firing: 40
-      throwing: 50
-      strength: 70
-      psiStrength: 40
-      psiSkill: 0
-      melee: 80
-    armor: CARCHARODON_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 12
-    deathSound: 207
-    intelligence: 4
-    aggression: 2
-    meleeWeapon: STR_JAWS
-    energyRecovery: 40
-  - type: STR_CARCHARODON_NAVIGATOR
-    race: STR_CARCHARODON
-    rank: STR_LIVE_NAVIGATOR
-    stats:
-      tu: 80
-      stamina: 95
-      health: 75
-      bravery: 80
-      reactions: 65
-      firing: 40
-      throwing: 50
-      strength: 70
-      psiStrength: 40
-      psiSkill: 0
-      melee: 80
-    armor: CARCHARODON_ARMOR2
-    standHeight: 21
-    kneelHeight: 16
-    value: 12
-    deathSound: 207
-    intelligence: 4
-    aggression: 2
-    meleeWeapon: STR_JAWS
-    energyRecovery: 40
-  - type: STR_CARCHARODON_ENGINEER
-    race: STR_CARCHARODON
-    rank: STR_LIVE_ENGINEER
-    stats:
-      tu: 80
-      stamina: 95
-      health: 75
-      bravery: 80
-      reactions: 65
-      firing: 40
-      throwing: 50
-      strength: 70
-      psiStrength: 40
-      psiSkill: 0
-      melee: 80
-    armor: CARCHARODON_ARMOR2
-    standHeight: 21
-    kneelHeight: 16
-    value: 12
-    deathSound: 207
-    intelligence: 4
-    aggression: 2
-    meleeWeapon: STR_JAWS
-    energyRecovery: 40
-  - type: STR_CARCHARODON_LEADER
-    race: STR_CARCHARODON
-    rank: STR_LIVE_LEADER
-    stats:
-      tu: 85
-      stamina: 100
-      health: 80
-      bravery: 90
-      reactions: 70
-      firing: 50
-      throwing: 60
-      strength: 80
-      psiStrength: 50
-      psiSkill: 0
-      melee: 90
-    armor: CARCHARODON_ARMOR3
-    standHeight: 21
-    kneelHeight: 16
-    value: 12
-    deathSound: 207
-    intelligence: 4
-    aggression: 2
-    meleeWeapon: STR_JAWS
-    energyRecovery: 40
-  - type: STR_CARCHARODON_COMMANDER
-    race: STR_CARCHARODON
-    rank: STR_LIVE_COMMANDER
-    stats:
-      tu: 130
-      stamina: 120
-      health: 100
-      bravery: 95
-      reactions: 75
-      firing: 55
-      throwing: 70
-      strength: 90
-      psiStrength: 60
-      psiSkill: 0
-      melee: 100
-    armor: CARCHARODON_ARMOR3
-    standHeight: 21
-    kneelHeight: 16
-    value: 12
-    deathSound: 207
-    intelligence: 4
-    aggression: 2
-    meleeWeapon: STR_JAWS
-    energyRecovery: 40
-  - type: STR_ANCIENT_ABOMINATION_TERRORIST
-    race: STR_ANCIENT_ABOMINATION_TERRORIST
-    rank: STR_LIVE_TERRORIST
-    stats:
-      tu: 50
-      stamina: 150
-      health: 80
-      bravery: 110
-      reactions: 40
-      firing: 100
-      throwing: 0
-      strength: 10
-      psiStrength: 80
-      psiSkill: 25
-      melee: 80
-    armor: ABOMINATION_ARMOR
-    standHeight: 12
-    kneelHeight: 12
-    floatHeight: 6
-    value: 20
-    deathSound: 206
-    moveSound: 205
-    intelligence: 3
-    aggression: 2
-    energyRecovery: 40
-    livingWeapon: true
+
+
+
   - type: STR_SECTOPOD_ELITE_TERRORIST
     race: STR_SECTOPOD
     rank: STR_LIVE_TERRORIST

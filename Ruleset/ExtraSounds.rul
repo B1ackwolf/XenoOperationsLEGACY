@@ -37,31 +37,46 @@ extraSounds:
       906: Resources/ImprovedSounds/AlienSounds/Floater_death.wav
       910: Resources/ImprovedSounds/AlienSounds/Snake_alert.ogg
       911: Resources/ImprovedSounds/AlienSounds/snake_death.wav
-      912: Resources/ImprovedSounds/AlienSounds/Snake_move.ogg
+      912: Resources/ImprovedSounds/AlienSounds/Snake_move.ogg # also the movement of the celatid
       915: Resources/ImprovedSounds/AlienSounds/Muton_alert.ogg
       916: Resources/ImprovedSounds/AlienSounds/Muton_alpha_death.ogg
       917: Resources/ImprovedSounds/AlienSounds/Muton_death.ogg
       918: Resources/ImprovedSounds/AlienSounds/Muton_mad_alert.ogg
       919: Resources/ImprovedSounds/AlienSounds/Muton_mad_death.wav
       920: Resources/ImprovedSounds/AlienSounds/Formic_death.ogg
+      925: Resources/ImprovedSounds/AlienSounds/Carchar_alert.ogg
+      926: Resources/ImprovedSounds/AlienSounds/Carchar_death.ogg
+      927: Resources/ImprovedSounds/AlienSounds/Carchar_chomp.ogg #also reaper bite sound
+      930: Resources/ImprovedSounds/AlienSounds/Sovereign_death.ogg
+      935: Resources/ImprovedSounds/AlienSounds/Ethereal_death.wav
+      940: Resources/ImprovedSounds/AlienSounds/Chryssalid_alert.ogg
+      941: Resources/ImprovedSounds/AlienSounds/Chryssalid_death.ogg
+      942: Resources/ImprovedSounds/AlienSounds/Chryssalid_slash.ogg
+      945: Resources/ImprovedSounds/AlienSounds/Zombie_death.ogg
+      946: Resources/ImprovedSounds/AlienSounds/Zombie_slash.ogg
+      950: Resources/ImprovedSounds/AlienSounds/Reaper_alert.ogg
+      951: Resources/ImprovedSounds/AlienSounds/Reaper_death.ogg
+      955: Resources/ImprovedSounds/AlienSounds/Celatid_death.ogg
+      956: Resources/ImprovedSounds/AlienSounds/Celatid_spit.ogg
+      960: Resources/ImprovedSounds/AlienSounds/Silacoid_attack.ogg
+      961: Resources/ImprovedSounds/AlienSounds/Silacoid_death.ogg
+      962: Resources/ImprovedSounds/AlienSounds/Silacoid_move.ogg
+      965: Resources/ImprovedSounds/AlienSounds/Abomination_death.ogg
+      966: Resources/ImprovedSounds/AlienSounds/Abomination_move.ogg
+      970: Resources/ImprovedSounds/AlienSounds/Hybrid_attack.ogg
+      971: Resources/ImprovedSounds/AlienSounds/Hybrid_death.ogg
+      972: Resources/ImprovedSounds/AlienSounds/Hybrid_move.ogg
 
-      204: Resources/ImprovedSounds/AlienSounds/Carchar_alert.ogg
-      207: Resources/ImprovedSounds/AlienSounds/Carchar_death.ogg
 
-
-      202: Resources/ImprovedSounds/AlienSounds/NewAliens/Sovereignscream.ogg
-      909: Resources/ImprovedSounds/AlienSounds/NewAliens/ether_death.wav
-      995: Resources/ImprovedSounds/AlienSounds/NewAliens/chrys_death.wav
       203: Resources/ImprovedSounds/AlienSounds/NewAliens/EnergyAlienMove.ogg
-      200: Resources/ImprovedSounds/AlienSounds/NewAliens/hybridmove.ogg
-      205: Resources/ImprovedSounds/AlienSounds/NewAliens/AbominationMove.ogg
-      206: Resources/ImprovedSounds/AlienSounds/NewAliens/AbominationDie.ogg
-      907: Resources/ImprovedSounds/AlienSounds/NewAliens/sila_death.wav
-      908: Resources/ImprovedSounds/AlienSounds/NewAliens/cela_death.ogg
+
+
+
       999: Resources/ImprovedSounds/AlienSounds/NewAliens/cyber_death.wav
       993: Resources/ImprovedSounds/AlienSounds/NewAliens/secto_death.wav
+
+
       18: Resources/ImprovedSounds/AlienSounds/NewAliens/AlienHeavyPlasma.ogg # Cyberdisc cannon ### possibly sectopod cannon too
-      201: Resources/ImprovedSounds/AlienSounds/NewAliens/Alien_Hybrid_attack.ogg # Hybrid Alien attack, Acient Abomination Alien attack
 #----- new alien sounds end here -----#
 #----- All vainilla BaseGame FXSounds in battlescape, improved -----#
 #ojito este me falta aun completar mucho
@@ -117,7 +132,7 @@ extraSounds:
       933: Resources/ImprovedSounds/UnitSounds/DogePreparing.ogg #doge preparing to attack2
       685: Resources/ImprovedSounds/UnitSounds/DogeMaul2.wav #doge biting success 1
       686: Resources/ImprovedSounds/UnitSounds/DogeMaul3.wav #doge biting success 2
-      955: Resources/ImprovedSounds/UnitSounds/DogeTracking.wav #doge tracking
+      687: Resources/ImprovedSounds/UnitSounds/DogeTracking.wav #doge tracking
       1330: Resources/ImprovedSounds/UnitSounds/TankHE_shot.wav #tank HE cannon from UNEXCOM
       1333: Resources/ImprovedSounds/UnitSounds/TankAP_shot.wav #tank AP cannon from UNEXCOM
       1001: Resources/ImprovedSounds/UnitSounds/TankRocket_shot.ogg # tanks and rocket shot sound
