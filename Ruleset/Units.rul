@@ -1,16 +1,5 @@
 units:
-###----- Beggining of Death Sounds of Vainilla Races -----###
-  - type: STR_CYBERDISC_TERRORIST
-    deathSound: 999
-
-
-
-
-
-
-  - type: STR_SECTOPOD_TERRORIST
-    deathSound: 993
-###----- End Of Death Sounds of Vainilla Races -----###
+###----- Drone and Support units -----###
   - type: STR_UAV
     race: STR_UAV
     stats:
@@ -52,7 +41,7 @@ units:
     kneelHeight: 10
     floatHeight: 15
     value: 15
-    deathSound: 12
+    deathSound: 1003
     energyRecovery: 50
     moveSound: 1000
   - type: STR_LAND_DRONE
@@ -73,8 +62,8 @@ units:
     standHeight: 16
     kneelHeight: 16
     value: 20
-    deathSound: 23
-    moveSound: 14
+    deathSound: 1003
+    moveSound: 1002
     energyRecovery: 50
 ####---- Tanks in progress
   - type: STR_HEAVY_TANK_AP
@@ -95,8 +84,8 @@ units:
     standHeight: 16
     kneelHeight: 16
     value: 20
-    deathSound: 23
-    moveSound: 14
+    deathSound: 1003
+    moveSound: 1002
     energyRecovery: 50
     builtInWeaponSets:
       -
@@ -121,8 +110,8 @@ units:
     standHeight: 16
     kneelHeight: 16
     value: 20
-    deathSound: 23
-    moveSound: 14
+    deathSound: 1003
+    moveSound: 1002
     energyRecovery: 50
     builtInWeaponSets:
       -
@@ -302,7 +291,7 @@ units:
     value: 12
     aggroSound: 905
     deathSound: 906
-    moveSound: 15
+    moveSound: 999
     intelligence: 4
     aggression: 2
   - type: STR_FLOATER_ENGINEER
@@ -327,7 +316,7 @@ units:
     value: 18
     aggroSound: 905
     deathSound: 906
-    moveSound: 15
+    moveSound: 999
     intelligence: 7
     aggression: 2
   - type: STR_FLOATER_NAVIGATOR
@@ -352,7 +341,7 @@ units:
     value: 14
     aggroSound: 905
     deathSound: 906
-    moveSound: 15
+    moveSound: 999
     intelligence: 5
     aggression: 2
   - type: STR_FLOATER_MEDIC
@@ -377,7 +366,7 @@ units:
     value: 16
     aggroSound: 905
     deathSound: 906
-    moveSound: 15
+    moveSound: 999
     intelligence: 6
     aggression: 1
   - type: STR_FLOATER_LEADER
@@ -402,7 +391,7 @@ units:
     value: 25
     aggroSound: 905
     deathSound: 906
-    moveSound: 15
+    moveSound: 999
     intelligence: 8
     aggression: 0
   - type: STR_FLOATER_COMMANDER
@@ -427,7 +416,7 @@ units:
     value: 35
     aggroSound: 905
     deathSound: 906
-    moveSound: 15
+    moveSound: 999
     intelligence: 8
     aggression: 0
 # Serpentoids #
@@ -955,10 +944,7 @@ units:
     aggression: 1
     energyRecovery: 20
     livingWeapon: true
-
-
-###reordenar desde aqui abajo
-
+# Solarites #
   - type: STR_ENERGYALIEN
     race: STR_ENERGYALIEN
     rank: STR_LIVE_TERRORIST
@@ -979,17 +965,20 @@ units:
     kneelHeight: 12
     floatHeight: 6
     value: 20
-    deathSound: 95
-    moveSound: 203
+    deathSound: 975
+    moveSound: 976
     intelligence: 3
     aggression: 2
     energyRecovery: 40
     specab: 2
     livingWeapon: true
-
-
-
-
+# Cyberdiscs #
+  - type: STR_CYBERDISC_TERRORIST
+    deathSound: 980
+    moveSound: 981
+# Sectopods #
+  - type: STR_SECTOPOD_TERRORIST
+    deathSound: 985
   - type: STR_SECTOPOD_ELITE_TERRORIST
     race: STR_SECTOPOD
     rank: STR_LIVE_TERRORIST
@@ -1009,11 +998,12 @@ units:
     standHeight: 23
     kneelHeight: 16
     value: 30
-    deathSound: 23
+    deathSound: 985
     intelligence: 4
     aggression: 1
     energyRecovery: 50
     livingWeapon: true
+###reordenar desde aqui abajo
   - type: NPC_SOLDIER
     race: STR_CIVILIAN
     stats:

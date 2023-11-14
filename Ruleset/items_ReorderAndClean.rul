@@ -4921,7 +4921,7 @@ items:
     floorSprite: 31
     handSprite: 104
     bulletSprite: 11
-    fireSound: 18
+    fireSound: 982
     hitSound: 19
     hitAnimation: 66
     power: 130

@@ -132,6 +132,10 @@ revisar q si aplique todo esto
   *Unitsounds
     agregado sonidos a muertes de tus unidades de mayor calidad (y variedad), incluyendo perritos
     todos los sonidos de perritos fueron mejorados	
+	todos los aliens recibieron mejores sonidos
+	 algunas especies ahora emiten un sonido al momento de ser alertados
+	 todas las especies pertinentes emiten un sonido previo al momento de su ataque
+	 todas las especies ahora tienen un sonido de muerte personalizado
 bugfixes:
 - resuelto un problema con los sonidos de los perritos, por un lado producia CTDs, por el otro, varios sonidos estaban mal definidos, creando situaciones confusas
   * ahora se encuentran correctamente definidos los sonidos para cuando el perro va a atacar (previamente gruñe o ladra cortamente)

@@ -66,17 +66,13 @@ extraSounds:
       970: Resources/ImprovedSounds/AlienSounds/Hybrid_attack.ogg
       971: Resources/ImprovedSounds/AlienSounds/Hybrid_death.ogg
       972: Resources/ImprovedSounds/AlienSounds/Hybrid_move.ogg
-
-
-      203: Resources/ImprovedSounds/AlienSounds/NewAliens/EnergyAlienMove.ogg
-
-
-
-      999: Resources/ImprovedSounds/AlienSounds/NewAliens/cyber_death.wav
-      993: Resources/ImprovedSounds/AlienSounds/NewAliens/secto_death.wav
-
-
-      18: Resources/ImprovedSounds/AlienSounds/NewAliens/AlienHeavyPlasma.ogg # Cyberdisc cannon ### possibly sectopod cannon too
+      975: Resources/ImprovedSounds/AlienSounds/Solarite_death.wav
+      976: Resources/ImprovedSounds/AlienSounds/Solarite_move.ogg
+      980: Resources/ImprovedSounds/AlienSounds/Cyberdisc_death.wav
+      981: Resources/ImprovedSounds/AlienSounds/Cyberdisc_hover.ogg # cyberdisc move
+      982: Resources/ImprovedSounds/AlienSounds/AlienTankPlasma_shot.ogg # Cyberdisc cannon ### possibly sectopod cannon too
+      985: Resources/ImprovedSounds/AlienSounds/Sectopod_death.wav
+      999: Resources/ImprovedSounds/AlienSounds/Floating_movement.ogg
 #----- new alien sounds end here -----#
 #----- All vainilla BaseGame FXSounds in battlescape, improved -----#
 #ojito este me falta aun completar mucho
@@ -102,7 +98,7 @@ extraSounds:
       37: Resources/ImprovedSounds/FXSounds/NewFX/psy_check.ogg #mindprobe
       38: Resources/ImprovedSounds/FXSounds/NewFX/place.ogg	#item drop
       39: Resources/ImprovedSounds/FXSounds/NewFX/throw.ogg	#item throw
-      40: Resources/ImprovedSounds/FXSounds/NewFX/move_hover.ogg	#hovertank/cyberdisc move
+
       93: Resources/ImprovedSounds/FxSounds/metalhit.ogg
       19: Resources/ImprovedSounds/FxSounds/PlasmasHit1.ogg
       125: Resources/ImprovedSounds/FxSounds/RailGunHit.ogg
@@ -124,15 +120,17 @@ extraSounds:
       44: Resources/ImprovedSounds/UnitSounds/HumanF1_death.ogg #female death scream 1
       45: Resources/ImprovedSounds/UnitSounds/HumanF2_death.ogg #female death scream 2
       46: Resources/ImprovedSounds/UnitSounds/HumanF3_death.ogg #female death scream 3
-      994: Resources/ImprovedSounds/UnitSounds/DogeDeath1.ogg #doge death scream 1
-      680: Resources/ImprovedSounds/UnitSounds/DogeDeath2.wav #doge death scream 2
-      681: Resources/ImprovedSounds/UnitSounds/DogeDeath3.wav #doge death scream 3
-      248: Resources/ImprovedSounds/UnitSounds/DogeBark.wav #doge barking
-      249: Resources/ImprovedSounds/UnitSounds/Dogegrowl.wav #doge preparing to attack
-      933: Resources/ImprovedSounds/UnitSounds/DogePreparing.ogg #doge preparing to attack2
-      685: Resources/ImprovedSounds/UnitSounds/DogeMaul2.wav #doge biting success 1
-      686: Resources/ImprovedSounds/UnitSounds/DogeMaul3.wav #doge biting success 2
-      687: Resources/ImprovedSounds/UnitSounds/DogeTracking.wav #doge tracking
+      994: Resources/ImprovedSounds/UnitSounds/Doge_death1.ogg #doge death scream 1
+      680: Resources/ImprovedSounds/UnitSounds/Doge_death2.wav #doge death scream 2
+      681: Resources/ImprovedSounds/UnitSounds/Doge_death3.wav #doge death scream 3
+      248: Resources/ImprovedSounds/UnitSounds/Doge_bark.wav #doge barking
+      249: Resources/ImprovedSounds/UnitSounds/Doge_growl.wav #doge preparing to attack
+      933: Resources/ImprovedSounds/UnitSounds/Doge_preparing.ogg #doge preparing to attack2
+      685: Resources/ImprovedSounds/UnitSounds/Doge_maul2.wav #doge biting success 1
+      686: Resources/ImprovedSounds/UnitSounds/Doge_maul3.wav #doge biting success 2
+      687: Resources/ImprovedSounds/UnitSounds/Doge_tracking.wav #doge tracking
+      1002: Resources/ImprovedSounds/UnitSounds/Tank_move.ogg # tanks track movement
+      1003: Resources/ImprovedSounds/UnitSounds/Tank_death.ogg # tanks destuction
       1330: Resources/ImprovedSounds/UnitSounds/TankHE_shot.wav #tank HE cannon from UNEXCOM
       1333: Resources/ImprovedSounds/UnitSounds/TankAP_shot.wav #tank AP cannon from UNEXCOM
       1001: Resources/ImprovedSounds/UnitSounds/TankRocket_shot.ogg # tanks and rocket shot sound
