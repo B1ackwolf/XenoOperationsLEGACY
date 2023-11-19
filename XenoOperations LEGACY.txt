@@ -81,91 +81,46 @@ Changelog:
 
 ##########
 
-v.097.04 LE changelog:
+Version 0.97.04 LE Changelog:
 
-maptweaks: le hice cambios a una cantidad sustancial de mapas
-firefly y dragonfly coregidos y revampeados
-mapas humanos con algunas correciones y mejoras menores (es un preludio para un cambio proximo que si todo sale bien, mejorara increiblemente la apariencia de la base de xcom)
+**Map Tweaks:**
+- Made changes to a substantial number of maps:
+  * The Dragonfly finally got corrected , desing recieved some additional improvements.
+  * The Firefly got completely redesigned.
+- XCOM BASE maps got some minor corrections and improvements (a prelude for an upcoming change that will significantly enhance the appearance of the XCOM base).
+  - Some sections now have computers with moving sprites, including beeping screens.
+  - The security station has the white picket fence replaced with something substantially better (temporary change until the complete overhaul of the XCOM base).
 
+**Tweaks:**
+- Successfully completed the restructuring of the RESOURCES folder, streamlining the workflow for implementing new elements.
+- Added temporary ufopedia images to eliminate any blank/black spaced entries, although further artwork improvements are planned.
+- Changed the floorsprite of Elerium to enhance visual coherence (goodbye purple rubber ball, hello new ambar crystal)
+- Made changes to some technologies relevant to power armor, eliminating references to the "power suit" and "flying suit" to avoid researching dead ends.
+  * This resulted in moving the POWER ARMOR (Tier 5 XOPS armor) down the Codex path, to balance, now requires an extra research topic but prices are unchanged.
+- Made adjustments to the SECTOPOD ELITE, a black variant of the standard sectopod, tweaking numbers for increased impact.
+- Modified the buy/selling screen to display only "custom categories," improving navigation and readability.
+- Improved Dagger ufopaedia description.
+- Changed "QD" slot name to HOLSTER and modified the "belt" name to avoid any possible obstruction.
+- Renamed transport ships and SR-71, adding some prefixes to follow a consistent nomenclature.
+- Small quality of life improvement: enhanced the "daylight indicator" for better mission time representation.
+- Improved the names of some items, ordnances, and explosives for distinct yet intuitive naming.
+- Eliminated all traces of 2012 music to reduce mod size.
+- Added more versions of improved sounds from the HQSounds mod by DAEDALUS to most weapons, aliens and effects.
 
-Tweaks:
-terminado al fin restructuracion de la carpeta RESOURCES completamente. esto ayudara muchisimo la implementacion de nuevos elementos ya q streamline the flujo de trabajo.
-- added some temporary ufopedia images, at least now there are not any "blanks/black spaced ufopedia entries) but the artwork lets a lot to be desired, will be improved further down the line.
-- cambiado el floorsprite del elerium, ahora los ufo power sources no tendran una pelota morada en medio, en cambio es correctamente un cristalito ambar, qol muy chiquito pero q me venia molestando hacia mucho tiempo
-- changes to some tecnologies relevant to the power armor , (purged all references from the "power suit" (the vainilla ultimate armor)), so you dont waste time researching a dead end
-- same change for the "fliying suit"
-- with those changes in mind, the POWER ARMOR (tier five xops armor) has been mooved "down" the codex path, you'll get it earlier in codex level 4, to balance this, you'll need an extra research topic, and prices remain untouched (thus still making the alloy armor a solid candidate to stay as the backbone of your troops)
-- made some changes with the SECTOPOD ELITE, a black variant of the standard sectopod, tweaked numbers to be more impresive (also fixes some instances where killing this unit wasnt providing their respective commendations)
-- modified the buy/selling screen, now it only displays "custom categories" (this is being heavily improved currently in tandem with the manufacture granularity), hopefully this will improve navigation and readability with the big ammount of different items aviable
-- improved dagger ufopaedia description
-- changed "QD" slot name to HOLSTER, to imply better their intended function as a side arm pocket, also modified the "belt name" so it doesnt overlap between each other
-- changed all the transport ships names to have a "XTP-(n°)" acronnym previous to their codename, to keep the nomenclature of other planes
-- same changes to the SR-71, now called XRS-71G
-- small qol, improved the "daylight indicator" , now it will granularly shows either a sun, a half sun or a moon depending of the time of the mission.
-revisar q si aplique todo esto
-- improved the name of some items an some ordnances and explosives to have a more distinct yet intuitive name
-  * antimatter cannon renamed to "apex launcher"
-    ~ ammo renamed to warhead if can use waypoint, "payload" in the other case.
-  * inc grenade renamed napalm grenade
-  * proximity grenade renamed to "proximity mine"
-  * grenade gained the prefix "standard"
-  * High explosive renamed to "explosive charge"
-  * antimatter bomb renamed to antimatter charge
-  * alien high explosive renamed to "alien demolition core"
-- eliminado todos los rastros de musica 2012
-  * reduje tamaño mod
-  * no conseguia darle creditos
-  * asi es mas justo, hay mejores opciones y los modders creadores obtienen el trafico y descargas merecido por su esfuerzo y dedicacion.
--agregado mas versiones de sonidos mejorados del mod HQSounds , author DAEDALUS:
-  * firesounds
-  todo el primer tier
-  todo el segundo tier
-  tercer tier reordenado pero requerira mas sonidos proximamente
-  todo el laser tier mejorado
-  todo el tier rieles mejorado
-  todo el tier plasma mejorado
-    ~ grenade launcher now has an unique sound 
-	~ rocket launcher tiene un sonido mejorado, esto afecta tambien a los tanques y unidades de apoyo
-	~ blaster launcher (tanto la version humana como la alienigena tienen un sonido mejorado)
-	~ adicionalmente los cluster launcher (small launcher) alienigenas tiene un efecto de disparo diferente, asi se evitan situaciones confusas donde no sabes exactamente q te dispararon
-	~ directamente TODAS LAS ARMAS ALIENS tienen mejores sonidos, especialmente util para asentar la personalidad de cada arma y ademas ayudar a dar pistas para saber con que diantres te atacaron
-  *Unitsounds
-    agregado sonidos a muertes de tus unidades de mayor calidad (y variedad), incluyendo perritos
-    todos los sonidos de perritos fueron mejorados	
-	todos los aliens recibieron mejores sonidos
-	 algunas especies ahora emiten un sonido al momento de ser alertados
-	 todas las especies pertinentes emiten un sonido previo al momento de su ataque
-	 todas las especies ahora tienen un sonido de muerte personalizado
-bugfixes:
-- resuelto un problema con los sonidos de los perritos, por un lado producia CTDs, por el otro, varios sonidos estaban mal definidos, creando situaciones confusas
-  * ahora se encuentran correctamente definidos los sonidos para cuando el perro va a atacar (previamente gruñe o ladra cortamente)
-  * en caso de "conectar" el ataque, sonara un crunch/chomp correctamente siempre y cuando logre acertar el ataque correctamente
-  * UN QOL en la claridad a la hora de atacar con perritos, better sound cues and clues to inform the result better  
-- devuelvo el bulletsprite a la xpdw
-- marcado obligatorio que los aliens no puedan usar explosivos en el primer turno OJO PRIORIDAD
-- Made some changes to the MAPSCRIPT files, theoretically, this should reduce EVEN MORE the starting mission CTDs (i havent experiment any after some long runs, of course i'll keep my eyes peeled and my ears open to any feedback)
- °also cleaned some errors to weird references that might be related to CTDs (specifically the constructor ufo)
-- some bugfixes for the handobs of the smoke grenade 
-  * tons of fixes in handobs, smoke grenade, incendiary rocket , hybrid and shock weaponry 
-- corrected names in some muton variants
-- corrected a small issue with the amiga font not having the correct pallete format
-- implemented some changes from xross visual upgrade unto the main geoboard Menu
-  * also fixed an error where amiga font wasnt being applied on the geoboard (thus having vainilla pixelated font)
-  * also made some personal tweaks to the "clock" icons, increased size and some recoloring, imho resulted better
-  * finally made aviable the small "icons" representing the different buttons aside the words, a small QoL/improvement to UxUi
-    ~ thanks to kitten/hidletaus, the authors of amiga font plus
-- fixed some errors in researches paths related 
-  * to muton guards(blue ones)
-  * UAVs
-  * psi amp small
-  * human plasma sword  
-  * others various researches
-- a problem related to final mission unlock being duplicate
-  * both operation endgame and cydonia or bust could be investigated
-  * also some redundant files from vainilla were scrapped, now they wont bloat the ufopaedia in some instances
-- purged all acknoleged problems on VSC using pedrothezeroTool, this should help with the general instability of the mod  
-- temporarily deactivated all the "gothic church" maps, they failed more than they worked correctly and until i found out a way to get it working all together, it easier to limited their rotation in the map pool for now.
-
+- Bugfixes:
+  - Resolved issues with dog sounds causing CTDs and providing better cues for dog attacks.
+  - Returned the bulletsprite to the XPDW.
+  - Ensured aliens cannot use explosives on the first turn.
+  - Implemented changes to MAPSCRIPT files to potentially reduce starting mission CTDs.
+  - Fixed handobs for various items.
+  - Corrected names in some Muton variants.
+  - Addressed an issue with the Amiga font not having the correct palette format.
+  - Integrated changes from XROSS Visual Upgrade into the main geoboard menu.
+  - Fixed errors in research paths for various items.
+  - Resolved a problem related to duplicate final mission unlocks.
+  - Used pedrothezeroTool to address acknowledged problems in VSC, improving mod stability.
+  - Temporarily deactivated "gothic church" maps due to their inconsistent performance.
+  
 #################
 ------------------------
 v.097.03 LE changelog:

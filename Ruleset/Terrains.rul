@@ -1512,20 +1512,21 @@ terrains:
       - name: RAILYARDURBAN27
         width: 10
         length: 10
+# Xcom Base tiles, vainilla blocks, trying to be improved by blackwolf        
   - name: XBASE
     mapDataSets:
       - BLANKS
       - XBASE1
       - XBASE2
-      - XCOMWALL
-      - XCOMBITS
-      - BATHWALL
-      - BATHBITZ
       # - XBASES01
       # - XBASES02
       # - XBASES03
       # - XBASES04
       # - XBASES05
+      - XCOMWALL
+      - XCOMBITS
+      - BATHWALL
+      - BATHBITZ
     mapBlocks:
       - name: XBASE_00
         width: 10
@@ -1551,7 +1552,7 @@ terrains:
       - name: XBASE_07
         width: 10
         length: 10
-      - name: XBASE_08
+      - name: XBASE_08 #the alien capturing. has extra bath bits?
         width: 10
         length: 10
       - name: XBASE_09
@@ -1590,6 +1591,7 @@ terrains:
       - name: XBASE_20
         width: 10
         length: 10
+# Xcom Base blocks , expanded by other users
       - name: XBASS_01
         width: 10
         length: 10
@@ -1686,6 +1688,8 @@ terrains:
       - name: XOPSXBASE23
         width: 10
         length: 10
+##### end of experimentation
+
   - name: XOPSALIENBASE
     ambience: 300
     ambientVolume: 3

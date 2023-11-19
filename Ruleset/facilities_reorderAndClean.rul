@@ -1,4 +1,6 @@
 #Big thanks to Dioxine for letting me borrow his living Quarters and General Stores.
+#Ojito, tendre q renombrar y reubicar TODOS las facilities en este sector
+#recordar ponerle nuevos 
 facilities:
   - type: STR_ALIEN_CONTAINMENT
     requires:
