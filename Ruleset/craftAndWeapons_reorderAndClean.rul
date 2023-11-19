@@ -43,18 +43,18 @@ crafts:
           length: 20
     craftInventoryTile: [10, 11, 0] #X, Y, Level
     deployment:
-      - [9, 12, 0, 6] #First Left Door
-      - [9, 11, 0, 6] #Second Left Door
-      - [11, 12, 0, 2] #First Right Door
-      - [11, 11, 0, 2] #Second Right Door
-      - [10, 12, 0, 4] #First Middle
-      - [10, 11, 0, 4] #Second Middle
-      - [9, 13, 0, 0] #left of pilot
-      - [11, 13, 0, 0] #right of pilot
-      - [9, 10, 0, 4] #back left
-      - [10, 10, 0, 4] #back middle
-      - [11, 10, 0, 4] #back Right
-      - [10, 13, 0, 4] #pilot
+      - [9, 11, 0, 6] #First Left Door
+      - [9, 10, 0, 6] #Second Left Door
+      - [11, 11, 0, 2] #First Right Door
+      - [11, 10, 0, 2] #Second Right Door
+      - [10, 11, 0, 4] #First Middle
+      - [10, 10, 0, 4] #Second Middle
+      - [9, 12, 0, 0] #left of pilot
+      - [11, 12, 0, 0] #right of pilot
+      - [9, 9, 0, 4] #back left
+      - [10, 9, 0, 4] #back middle
+      - [11, 9, 0, 4] #back Right
+      - [10, 9, 0, 4] #pilot
   - type: STR_FIREFLY
     sprite: 824
     fuelMax: 1900
