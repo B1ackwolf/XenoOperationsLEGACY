@@ -183,8 +183,6 @@ items:
     aimRange: 5
     snapRange: 3
     dropoff: 4
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
     listOrder: 1505
   - type: STR_DRONE_SHOTGUN
     size: 6

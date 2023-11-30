@@ -2,6 +2,14 @@
 #Ojito, tendre q renombrar y reubicar TODOS las facilities en este sector
 #recordar ponerle nuevos 
 facilities:
+#----- Vainilla Buildings -----#
+  - type: STR_LIVING_QUARTERS
+    mapName: XBASE_01
+    personnel: 25
+  - type: STR_WORKSHOP
+    workshops: 25
+  - type: STR_LABORATORY
+    labs: 20
   - type: STR_ALIEN_CONTAINMENT
     requires:
       - STR_ALIEN_CONTAINMENT
@@ -16,6 +24,29 @@ facilities:
     monthlyCost: 15000
     aliens: 10
     mapName: XBASE_08
+  - type: STR_GENERAL_STORES
+    storageTiles:
+      - [5, 5, 1]
+      - [7, 5, 1]
+      - [2, 1, 1]
+      - [1, 7, 0]
+  - delete: STR_HANGAR
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    storage: 10
+    storageTiles:
+      - [18, 17, 0]
+      - [17, 17, 0]
+      - [17, 18, 0]
+      - [18, 18, 0]   
+    monthlyCost: 25000
+    crafts: 2
+    mapName: XBASE_16
+#----- New Mod Buildings -----#
   - type: STR_GYM
     spriteShape: 1
     spriteFacility: 700
@@ -25,34 +56,21 @@ facilities:
     trainingRooms: 10
     mapName: XBASS_23
     listOrder: 6960
-  - type: STR_SAT_UP_NET
-    requires:
-      - STR_GLOBAL_RADAR
-    spriteShape: 130
-    spriteFacility: 130
-    buildCost: 4700000
-    size: 2
-    buildTime: 40
-    monthlyCost: 70000
-    radarRange: 10850
-    radarChance: 8
-    mapName: XOPSXBASE11
-  - type: STR_HYP_UP_NET
-    requires:
-      - STR_HYP_UP_NET
-    hyper: true
-    spriteShape: 122
-    spriteFacility: 122
-    size: 2
-    buildCost: 11200000
-    buildTime: 52
-    monthlyCost: 200000
-    radarRange: 10850
-    radarChance: 100
-    mapName: XOPSXBASE16
-  - type: STR_LIVING_QUARTERS
-    mapName: XBASS_01
-    personnel: 25
+  - type: STR_CORRIDOR
+    spriteShape: 3
+    spriteFacility: 103
+    buildCost: 10000
+    buildTime: 4
+    monthlyCost: 2000
+    mapName: XOPSXBASE01
+  - type: STR_SEC_CORRIDOR
+    spriteShape: 1
+    spriteFacility: 104
+    buildCost: 100000
+    buildTime: 7
+    monthlyCost: 7000
+    mapName: XOPSXBASE06
+#----- Large Buildings 2x2 Basics -----#
   - type: STR_LIVING_QUARTERS_2
     spriteShape: 301
     spriteFacility: 301
@@ -91,26 +109,32 @@ facilities:
       - [4, 1, 1]
       - [5, 1, 1]
     mapName: XBASS_06
-  - type: STR_GENERAL_STORES
-    storageTiles:
-      - [5, 5, 1]
-      - [1, 1, 1]
-      - [7, 1, 1]
-      - [8, 5, 1]
-  - type: STR_CORRIDOR
-    spriteShape: 3
-    spriteFacility: 103
-    buildCost: 10000
-    buildTime: 4
-    monthlyCost: 2000
-    mapName: XOPSXBASE01
-  - type: STR_SEC_CORRIDOR
-    spriteShape: 1
-    spriteFacility: 104
-    buildCost: 100000
-    buildTime: 7
-    monthlyCost: 7000
-    mapName: XOPSXBASE06
+#---- Large Buildings 2x2 Advanced requirements -----#
+  - type: STR_SAT_UP_NET
+    requires:
+      - STR_GLOBAL_RADAR
+    spriteShape: 130
+    spriteFacility: 130
+    buildCost: 4700000
+    size: 2
+    buildTime: 40
+    monthlyCost: 70000
+    radarRange: 10850
+    radarChance: 8
+    mapName: XOPSXBASE11
+  - type: STR_HYP_UP_NET
+    requires:
+      - STR_HYP_UP_NET
+    hyper: true
+    spriteShape: 122
+    spriteFacility: 122
+    size: 2
+    buildCost: 11200000
+    buildTime: 52
+    monthlyCost: 200000
+    radarRange: 10850
+    radarChance: 100
+    mapName: XOPSXBASE16
   - type: STR_LARGE_WORKSHOP
     spriteShape: 105
     spriteFacility: 105
@@ -172,23 +196,4 @@ facilities:
     psiLabs: 50
     mapName: XOPSXBASE20
     listOrder: 4205
-  - type: STR_WORKSHOP
-    workshops: 25
-  - type: STR_LABORATORY
-    labs: 20
-  - delete: STR_HANGAR
-  - type: STR_HANGAR
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 200000
-    buildTime: 25
-    storage: 10
-    storageTiles:
-      - [1, 12, 0]
-      - [1, 11, 0]
-      - [1, 10, 0]
-      - [1, 9, 0]    
-    monthlyCost: 25000
-    crafts: 2
-    mapName: XBASE_16
+

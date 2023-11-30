@@ -81,6 +81,19 @@ Changelog:
 
 ##########
 
+version 0.97.05 LE Changelog:
+
+improved the storagetiles of the basic general store facilitie and the hangar to fit the newer map disposition
+
+bugfix:
+- solved an mistaken property that impeded the dagger to be loaded either in a transport troop or in base defense mission 
+- solved that georgia flag was using a very old version (prior to new millenia, correct by the time of game release, totally anachronic now, updated to newest flag of 2004)
+- solved some problems with the deployments of units in transport planes
+  * the dragonfly can load their 12 soldiers correctly, and moved the tiles where weaponry appears
+  * same treatment for the firefly, all soldiers should spawn correctly , item spawning tile moved to somewhere more safe away from the ramp
+
+#########
+
 Version 0.97.04 LE Changelog:
 
 **Map Tweaks:**
@@ -567,7 +580,7 @@ v0.96.v7 LE:
 	 °last patch i said i finished tinyranks sprites, found i loaded the wrong file (SHOULD BE FINISHED NOW), (still trying to find how to add different tinysprite for different soldiertypes tho)
 	 
 	  
-	
+---------------Reorder below ------------------	
 	 
 v0.96.v6 LE:
     -Slowly but steadely restructurating some .RUL files (eliminated redundant ones, cleaning, merging and organizing others, tbh they were a mess and dear lord, i increased this mess), still a lot to do tho

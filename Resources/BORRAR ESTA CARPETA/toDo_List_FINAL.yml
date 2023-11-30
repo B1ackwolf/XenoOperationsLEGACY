@@ -6,6 +6,11 @@ Link al drive:
 #####
 
 +Priorities fixes:
+ - revisar mi lista de opciones para ver cuales puedo poner de obligatorias y cuales de recomendada
+ - revisar todo el tema de los pisos
+   * ponerle las luces a los pisos para mantener el alumbrado
+   * corregir todos los mapas q llevo y poonerle sus respectivos luces en las porciones "oscuras" de las lineas de modo q sea esa la q queda enfrente de la fuente de luz   
+ - sacar la pared bajita de los ufos de terror from the deep, con eso resolveria sprites, recolorizar a gris por si acaso
  - "[FATAL] OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4"
  - no importa cuanto modifique el problema en la pestaña de alien deployments, sigue dando error.
    * seguir investigando con efren a ver q porongas pasa aca
@@ -55,13 +60,8 @@ Link al drive:
 
 +EfrenEspartano help in Planes Changes:
  - firefly
-   * add a single door at the side of the cabin.
-   * mejorar posicion turbinas bajo las alas.
-   * agregar sillas plegables en los pasillos.
-   * segmentar y separar cabina?.
- - dragonfly
-   * acomodar problema del techo y correr un tile al frente (conversar de vuelta)
-     ~ acomodar dragonfly posicion de soldados iniciales(ya se hizo, pero rehacer luego q se corrijan errores actuales)
+   * corregir error de posicion de equipamiento
+   * resolver tema de la rampita para q no se desvien incorrectamente (probar poniendo 3 tus)
 
 #####
 
@@ -102,11 +102,12 @@ Link al drive:
 
 +Armor Changes:
  - esperar las insignias a los trajes de efren
-   * confirmar si luego se puede meter mas insignias en base al rango del soldado
+   * confirmar si luego se puede meter mas insignias en el paperdoll en base al rango del soldado
  - Remake the FLUFF TEXT for the armors
    * remake tiers names?
    * remake every armor name individually also?
    * rename how all armor colors are referred to
+   * focus specially in bodies and corpses
  - mejorar sprites de armaduras
    * create new sprite with cool visors for every pilot version
    * crear distintas versiones segun talles de soldados 
@@ -255,11 +256,14 @@ Link al drive:
  - agregar quadlentes subidos a las sprites de tier 1 de los soldados, luego agregar quadlentes ABAJO y averiguar si se puede configurar
    * preguntar como hacer pa q la sprite noctura y diurna sean diferentes, para implementar el cambio al primer tier como puse arriba
  - sectopods aliens son color azulito alloys, en cambio, los sectopods humanos, seran  marroncito, concretar esto
-
+ - confirmar con efren para que me pase los nuevos uniformes con simbolito
+ - revisar de donde puedo sacar versiones mejoradas de simbolos del mapa y globo (de tftd+ y de unexcom, ojito)
 #####
 
 +Minor Changes:
  - hacer q manual promotions y autimatic promotions esten en "recomendados"
+   * consecuentemente hacer lo mismo con "field promotions"
+   * desactivar definitamente "explosiones en primer turno"
  - colocar correctamente el nuevo lore del Alien Alloy, ahora llamado Xenominium, xenium alloy corto y xelloy de jeerga.
  - clean every .rul file from unused lines, reorder and correct all annotations
    * "#----- topic -----#" should be the correct
@@ -361,19 +365,31 @@ Link al drive:
  - crear videos como en el ps1 assets
  - reordenar listas de misiones a algo mas coherente 
  - mejorar mapas y esteticas de la base
-   * revisar y usar los tiles de tftd en la base de xcom  
+   * revisar y usar los tiles de tftd en la base de xcom 
+     ~ al final si pude, ya casi termino, solo me faltarian 7 edificios totales (osea 28 bloques , siendo 4 de ultra prioridad para el viernes) 
+       + large living quarters (4 buildings >ULTRA PRIORIDAD)
+       + Large storage facilities (4 buildings >PRIORIDAD)
+       + large workshop (4 buildings)
+       + Large laboratory (4 buildings)
+       + large psi laboratory (4 buildings
+       + satellite network (4 buildings)
+       + hyperwave network (4 buildings)
+   * mejorar totalmente nombres y descripciones (ejemplo cambiar nombre a barraks y los numeros q dicen de los radares)
+   * confirmar como se hace para construir encima y si se podria con descuento (de un 25% max)   
    * revisar la mamada q es el archivo Scang.DAT, q es el mapa q se ve en el scanner
-     ~ se supone q es lo q modifica el mapa
-     ~ a primera instancia se ve mas placentero "visualmente" sin el archivo 
-     ~ calculo q tendran algun tipo de index extras de otros objetos, averiguar como porongas se modifica un archivo DAT  
-   * probar el de xfiles
+     ~ confirmado que se acomoda usando el mcdview para modificar cual es el correspondiente
+     ~ como son demasiados, primeramente revisar el index de la base vainilla y copiar y pegar para tener un minimo funcional
+     ~ luego modificar para conseguir los q realmente si deberian ser adecuados
+   * conversar con efre para conseguir los basebits de tftd 
+     ~ tendria q modificarlos practicamente todos ya q no sirven ponerlos directamente   
  - agregar sistema de "voces", con dialogos a respuestas y demas
  - checar cyberpunk para referencias a posibles armas
  - revisar nuevo BRUTAL IA
- - reconocer al q le saque las letras de amiga, tambien al de las cancioncitas de xcom2012.
+ - reconocer al q le saque las letras de amiga kittencon(https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols)
+   * deberia hacer una seccion q diga "MODS INTEGRADOS" y sumar tambien el de daedalus fmp hqsounds
  - checar como funcionan callsings de vigilo confido (preguntar a EfrenEspartano)
    * buscar q funcione mejor, q pueda modificarlo a voluntad
- 
+ - pedirles a oxce que los loadouts sean algo definible en un RUL para q pase de partida a partida?
  
  
  - este deberia ser el orden de la ufopedia

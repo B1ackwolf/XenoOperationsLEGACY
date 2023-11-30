@@ -5058,7 +5058,16 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_65_wide_down.gif
   - typeSingle: HUMAN__16__CAP_NERVE_GREEN_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_65_wide_down_right.gif
-####ENDING ARMORS    
+####ENDING ARMORS
+  # - delete: GlobeMarkers
+  # - type: GlobeMarkers
+  #   width: 105
+  #   height: 21
+  #   subX: 7
+  #   subY: 7
+  #   files:
+  #     0: Resources/globe/geoicons.png
+#######
   - type: TEXTURE.DAT
     width: 896
     height: 96

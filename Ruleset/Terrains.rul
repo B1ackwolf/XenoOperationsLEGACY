@@ -1516,17 +1516,17 @@ terrains:
   - name: XBASE
     mapDataSets:
       - BLANKS
-      - XBASE1
-      - XBASE2
-      # - XBASES01
-      # - XBASES02
-      # - XBASES03
-      # - XBASES04
-      # - XBASES05
-      - XCOMWALL
-      - XCOMBITS
-      - BATHWALL
-      - BATHBITZ
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      # - XBASE1
+      # - XBASE2
+      # - XCOMWALL
+      # - XCOMBITS
+      # - BATHWALL
+      # - BATHBITZ
     mapBlocks:
       - name: XBASE_00
         width: 10
