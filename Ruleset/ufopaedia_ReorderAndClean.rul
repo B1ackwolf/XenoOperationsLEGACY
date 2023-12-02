@@ -2684,7 +2684,7 @@ ufopaedia:
     requires:
       - STR_SECTOPOD_CORPSE
     # image_id: ojito
-    text: STR_SILACOID_AUTOPSY_UFOPEDIA
+    text: STR_SECTOPOD_AUTOPSY_UFOPEDIA
     text_width: 158
 #---Alien Life Forms----------------------------------END
 #---Alien Research----------------------------------

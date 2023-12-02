@@ -10,12 +10,10 @@ Link al drive:
  - revisar todo el tema de los pisos
    * ponerle las luces a los pisos para mantener el alumbrado
    * corregir todos los mapas q llevo y poonerle sus respectivos luces en las porciones "oscuras" de las lineas de modo q sea esa la q queda enfrente de la fuente de luz   
- - sacar la pared bajita de los ufos de terror from the deep, con eso resolveria sprites, recolorizar a gris por si acaso
  - "[FATAL] OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4"
  - no importa cuanto modifique el problema en la pestaña de alien deployments, sigue dando error.
    * seguir investigando con efren a ver q porongas pasa aca
 
- - crear el sprite de floorob para el eleriumCell q sea el 37, checar q el small launcher use otro, ojito
  - mejorar los sprites de la mindprobe? (bolita como el planeta del tesoro con muescas
  - organizar el arroz con mango que tengo respecto a los articulos medicos, establecer nomenclatura unica
    - "medikit" tanto en referencias str_ como en strings y fotos
@@ -367,7 +365,7 @@ Link al drive:
  - mejorar mapas y esteticas de la base
    * revisar y usar los tiles de tftd en la base de xcom 
      ~ al final si pude, ya casi termino, solo me faltarian 7 edificios totales (osea 28 bloques , siendo 4 de ultra prioridad para el viernes) 
-       + large living quarters (4 buildings >ULTRA PRIORIDAD)
+       + large living quarters (4 buildings >ULTRA PRIORIDAD, ya casi listo)
        + Large storage facilities (4 buildings >PRIORIDAD)
        + large workshop (4 buildings)
        + Large laboratory (4 buildings)

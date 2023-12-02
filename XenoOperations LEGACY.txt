@@ -83,7 +83,13 @@ Changelog:
 
 version 0.97.05 LE Changelog:
 
+changed entirely the appearance of the xcom base with new props, tiles and assets, dumped from tftd
 improved the storagetiles of the basic general store facilitie and the hangar to fit the newer map disposition
+
+tweaked some numbers:
+small living quarters now can hold 20 units (down from 25)
+large living quarters can only hold 100 units (down from 125)
+
 
 bugfix:
 - solved an mistaken property that impeded the dagger to be loaded either in a transport troop or in base defense mission 
@@ -91,7 +97,7 @@ bugfix:
 - solved some problems with the deployments of units in transport planes
   * the dragonfly can load their 12 soldiers correctly, and moved the tiles where weaponry appears
   * same treatment for the firefly, all soldiers should spawn correctly , item spawning tile moved to somewhere more safe away from the ramp
-
+-solved wrong description of sectopod in ufopaedia
 #########
 
 Version 0.97.04 LE Changelog:

@@ -5,7 +5,7 @@ facilities:
 #----- Vainilla Buildings -----#
   - type: STR_LIVING_QUARTERS
     mapName: XBASE_01
-    personnel: 25
+    personnel: 20
   - type: STR_WORKSHOP
     workshops: 25
   - type: STR_LABORATORY
@@ -78,8 +78,8 @@ facilities:
     buildCost: 2250000
     buildTime: 24
     monthlyCost: 60000
-    personnel: 120
-    storage: 25
+    personnel: 100
+    storage: 20
     storageTiles:
       - [17, 9, 0]
       - [17, 8, 0]

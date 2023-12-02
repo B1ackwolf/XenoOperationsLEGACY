@@ -1592,9 +1592,6 @@ terrains:
         width: 10
         length: 10
 # Xcom Base blocks , expanded by other users
-      - name: XBASS_01
-        width: 10
-        length: 10
       - name: XBASS_02
         width: 10
         length: 10
