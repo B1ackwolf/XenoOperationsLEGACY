@@ -1,0 +1,2446 @@
+name: Xops,3. Vigilance Protocols
+version: Extended 7.8.7 + Brutal AI 3.0.0
+engine: Extended
+build: " (v2023-01-16)"
+time: {second: 5, minute: 42, hour: 8, weekday: 3, day: 5, month: 1, year: 2027}
+mods:
+  - "xcom1 ver: 1.0"
+  - "XOPS ver: 0.96V8.LE"
+  - "Nationalities ver: 1.0"
+---
+difficulty: 3
+end: 0
+monthsPassed: 0
+graphRegionToggles: ""
+graphCountryToggles: ""
+graphFinanceToggles: ""
+rng: 12027190521804454540
+funds:
+  - 713000
+maintenance:
+  - 0
+userNotes:
+  []
+researchScores:
+  - 0
+incomes:
+  - 6015000
+expenditures:
+  - 5302000
+warned: false
+togglePersonalLight: true
+toggleNightVision: false
+toggleBrightness: 0
+globeLon: 4.3628409297708295
+globeLat: -0.57708826574447847
+globeZoom: 0
+ids:
+  ALIEN_MISSIONS: 3
+  STR_BELL_VALOR: 2
+  STR_CRASH_SITE: 2
+  STR_INTERCEPTOR: 3
+  STR_LANDING_SITE: 3
+  STR_SOLDIER: 26
+  STR_SR71: 2
+  STR_UFO: 3
+  STR_UFO_UNIQUE: 3
+  STR_WAY_POINT: 2
+countries:
+  - type: STR_USA
+    funding:
+      - 839000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 2
+  - type: STR_RUSSIA
+    funding:
+      - 559000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_UK
+    funding:
+      - 215000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_FRANCE
+    funding:
+      - 274000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_GERMANY
+    funding:
+      - 220000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_ITALY
+    funding:
+      - 235000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_SPAIN
+    funding:
+      - 170000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_CHINA
+    funding:
+      - 425000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_JAPAN
+    funding:
+      - 323000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_INDIA
+    funding:
+      - 237000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_BRAZIL
+    funding:
+      - 241000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_AUSTRALIA
+    funding:
+      - 267000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_NIGERIA
+    funding:
+      - 138000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_SOUTH_AFRICA
+    funding:
+      - 154000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_EGYPT
+    funding:
+      - 146000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_CANADA
+    funding:
+      - 228000
+    activityXcom:
+      - 123
+    activityAlien:
+      - 1
+  - type: STR_POLAND
+    funding:
+      - 86000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_CUBA
+    funding:
+      - 30000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 1
+  - type: STR_MONGOLIA
+    funding:
+      - 47000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_NEW_ZEALAND
+    funding:
+      - 67000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_ICELAND
+    funding:
+      - 27000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_PORTUGAL
+    funding:
+      - 113000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_MEXICO
+    funding:
+      - 72000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_INDONESIA
+    funding:
+      - 42000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_IRELAND
+    funding:
+      - 27000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_UKRAINE
+    funding:
+      - 84000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_TURKEY
+    funding:
+      - 84000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_ISRAEL
+    funding:
+      - 200000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_ARGENTINA
+    funding:
+      - 48000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_IRAN
+    funding:
+      - 88000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_FINLAND
+    funding:
+      - 58000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_LIBIA
+    funding:
+      - 30000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_SOUTH_KOREA
+    funding:
+      - 224000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+regions:
+  - type: STR_NORTH_AMERICA
+    activityXcom:
+      - 123
+    activityAlien:
+      - 6
+  - type: STR_ARCTIC
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_ANTARCTICA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 2
+  - type: STR_SOUTH_AMERICA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 4
+  - type: STR_EUROPE
+    activityXcom:
+      - 0
+    activityAlien:
+      - 2
+  - type: STR_NORTH_AFRICA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_SOUTHERN_AFRICA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_CENTRAL_ASIA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_SOUTH_EAST_ASIA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_SIBERIA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_AUSTRALASIA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_NORTH_PACIFIC
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_SOUTH_PACIFIC
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_NORTH_ATLANTIC
+    activityXcom:
+      - 117
+    activityAlien:
+      - 24
+  - type: STR_SOUTH_ATLANTIC
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+  - type: STR_INDIAN_OCEAN
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+bases:
+  - lon: 4.4255549719354672
+    lat: -0.64808764480119085
+    name: Cent-Com
+    facilities:
+      - type: STR_ACCESS_LIFT
+        x: 2
+        y: 2
+      - type: STR_HANGAR
+        x: 0
+        y: 0
+      - type: STR_HANGAR
+        x: 2
+        y: 0
+      - type: STR_HANGAR
+        x: 4
+        y: 0
+      - type: STR_SEC_CORRIDOR
+        x: 2
+        y: 3
+      - type: STR_LABORATORY
+        x: 5
+        y: 3
+      - type: STR_WORKSHOP
+        x: 4
+        y: 2
+      - type: STR_LARGE_RADAR_SYSTEM
+        x: 3
+        y: 3
+      - type: STR_LIVING_QUARTERS_2
+        x: 2
+        y: 4
+      - type: STR_GYM
+        x: 1
+        y: 3
+      - type: STR_CORRIDOR
+        x: 4
+        y: 3
+      - type: STR_GENERAL_STORES
+        x: 1
+        y: 5
+    soldiers:
+      - type: STR_SOLDIER
+        id: 12
+        name: Benaissa Choukri
+        nationality: 67
+        initialStats:
+          tu: 51
+          stamina: 47
+          health: 32
+          bravery: 10
+          reactions: 35
+          firing: 52
+          throwing: 70
+          strength: 20
+          psiStrength: 36
+          psiSkill: 0
+          melee: 30
+          mana: 0
+        currentStats:
+          tu: 52
+          stamina: 51
+          health: 36
+          bravery: 10
+          reactions: 35
+          firing: 53
+          throwing: 71
+          strength: 21
+          psiStrength: 36
+          psiSkill: 0
+          melee: 30
+          mana: 0
+        rank: 2
+        craft:
+          lon: 4.3948468218387013
+          lat: -1.0010397505072206
+          type: STR_BELL_VALOR
+          id: 1
+        gender: 0
+        look: 2
+        lookVariant: 21
+        missions: 2
+        kills: 0
+        stuns: 0
+        armor: STR_VEST_ARMOR_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_SHOTGUN, slot: STR_RIGHT_HAND, ammoItem: STR_SHOTGUN_SHELLS, ammoItemSlots: [STR_SHOTGUN_SHELLS]}
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_SHOTGUN_SHELLS, slot: STR_RIGHT_LEG}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+          missionIdList: [0, 1]
+          shotsFiredCounterTotal: 1
+          shotsLandedCounterTotal: 1
+          statGainTotal: 12
+      - type: STR_ELITE_SOLDIER
+        id: 2
+        name: Otto Brinkmann
+        nationality: 38
+        initialStats:
+          tu: 64
+          stamina: 66
+          health: 41
+          bravery: 40
+          reactions: 54
+          firing: 54
+          throwing: 63
+          strength: 33
+          psiStrength: 89
+          psiSkill: 0
+          melee: 65
+          mana: 0
+        currentStats:
+          tu: 68
+          stamina: 68
+          health: 42
+          bravery: 40
+          reactions: 54
+          firing: 55
+          throwing: 64
+          strength: 36
+          psiStrength: 89
+          psiSkill: 0
+          melee: 65
+          mana: 0
+        rank: 2
+        craft:
+          lon: 4.3948468218387013
+          lat: -1.0010397505072206
+          type: STR_BELL_VALOR
+          id: 1
+        gender: 0
+        look: 0
+        lookVariant: 0
+        missions: 2
+        kills: 1
+        stuns: 0
+        armor: STR_VEST_ARMOR_BLACK_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_PISTOL_NEW, slot: STR_QD_SLOT, ammoItem: STR_PISTOL_NEW_CLIP, ammoItemSlots: [STR_PISTOL_NEW_CLIP]}
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG, slotX: 1}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+          killList:
+            - {type: STR_SECTOID_SOLDIER, rank: STR_LIVE_SOLDIER, race: STR_SECTOID, weapon: STR_ASSAULT_RIFLE, weaponAmmo: STR_ASSAULT_RIFLE_CLIP, status: 6, faction: 1, mission: 1, turn: 303, side: 1, bodypart: 3, id: 1000000}
+          missionIdList: [0, 1]
+          shotsFiredCounterTotal: 3
+          shotsLandedCounterTotal: 1
+          statGainTotal: 12
+      - type: STR_ELITE_SOLDIER
+        id: 1
+        name: Samuel Fisher
+        nationality: 109
+        initialStats:
+          tu: 60
+          stamina: 66
+          health: 39
+          bravery: 40
+          reactions: 68
+          firing: 65
+          throwing: 61
+          strength: 40
+          psiStrength: 82
+          psiSkill: 0
+          melee: 40
+          mana: 0
+        currentStats:
+          tu: 67
+          stamina: 70
+          health: 44
+          bravery: 40
+          reactions: 68
+          firing: 67
+          throwing: 61
+          strength: 45
+          psiStrength: 82
+          psiSkill: 0
+          melee: 40
+          mana: 0
+        rank: 3
+        craft:
+          lon: 4.3948468218387013
+          lat: -1.0010397505072206
+          type: STR_BELL_VALOR
+          id: 1
+        gender: 0
+        look: 1
+        lookVariant: 0
+        missions: 2
+        kills: 2
+        stuns: 0
+        armor: STR_VEST_ARMOR_BLACK_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+          - {itemType: STR_FIRST_AID, slot: STR_LEFT_SHOULDER, slotX: 1}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_PISTOL_NEW, slot: STR_QD_SLOT, ammoItem: STR_PISTOL_NEW_CLIP, ammoItemSlots: [STR_PISTOL_NEW_CLIP]}
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG, slotX: 1}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+          killList:
+            - {type: STR_FLOATER_SOLDIER, rank: STR_LIVE_SOLDIER, race: STR_FLOATER, weapon: STR_ASSAULT_RIFLE, weaponAmmo: STR_ASSAULT_RIFLE_CLIP, status: 6, faction: 1, mission: 0, turn: 3, side: 3, bodypart: 1, id: 1000001}
+            - {type: STR_SECTOID_NAVIGATOR, rank: STR_LIVE_NAVIGATOR, race: STR_SECTOID, weapon: STR_ASSAULT_RIFLE, weaponAmmo: STR_ASSAULT_RIFLE_CLIP, status: 6, faction: 1, mission: 1, turn: 303, side: 3, bodypart: 1, id: 1000001}
+          missionIdList: [0, 1]
+          shotsFiredCounterTotal: 2
+          shotsLandedCounterTotal: 2
+          statGainTotal: 23
+      - type: STR_SOLDIER
+        id: 9
+        name: Kouadio Kounan
+        nationality: 52
+        initialStats:
+          tu: 49
+          stamina: 62
+          health: 41
+          bravery: 40
+          reactions: 41
+          firing: 44
+          throwing: 66
+          strength: 23
+          psiStrength: 39
+          psiSkill: 0
+          melee: 31
+          mana: 0
+        currentStats:
+          tu: 52
+          stamina: 67
+          health: 46
+          bravery: 40
+          reactions: 41
+          firing: 45
+          throwing: 66
+          strength: 24
+          psiStrength: 39
+          psiSkill: 0
+          melee: 32
+          mana: 0
+        rank: 2
+        craft:
+          lon: 4.3948468218387013
+          lat: -1.0010397505072206
+          type: STR_BELL_VALOR
+          id: 1
+        gender: 0
+        look: 3
+        lookVariant: 52
+        missions: 2
+        kills: 2
+        stuns: 0
+        armor: STR_VEST_ARMOR_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+          killList:
+            - {type: STR_FLOATER_NAVIGATOR, rank: STR_LIVE_NAVIGATOR, race: STR_FLOATER, weapon: STR_ASSAULT_RIFLE, weaponAmmo: STR_ASSAULT_RIFLE_CLIP, status: 6, faction: 1, mission: 0, turn: 15, side: 0, bodypart: 1, id: 1000002}
+            - {type: STR_SECTOID_MEDIC, rank: STR_LIVE_MEDIC, race: STR_SECTOID, weapon: STR_ASSAULT_RIFLE, weaponAmmo: STR_ASSAULT_RIFLE_CLIP, status: 6, faction: 1, mission: 1, turn: 309, side: 0, bodypart: 1, id: 1000002}
+          missionIdList: [0, 1]
+          shotsFiredCounterTotal: 5
+          shotsLandedCounterTotal: 2
+          statGainTotal: 16
+      - type: STR_SOLDIER
+        id: 10
+        name: Dmitry Nazarenko
+        nationality: 85
+        initialStats:
+          tu: 51
+          stamina: 69
+          health: 34
+          bravery: 40
+          reactions: 52
+          firing: 68
+          throwing: 41
+          strength: 37
+          psiStrength: 52
+          psiSkill: 0
+          melee: 36
+          mana: 0
+        currentStats:
+          tu: 51
+          stamina: 69
+          health: 34
+          bravery: 40
+          reactions: 52
+          firing: 68
+          throwing: 41
+          strength: 37
+          psiStrength: 52
+          psiSkill: 0
+          melee: 36
+          mana: 0
+        rank: 0
+        craft:
+          lon: 4.3948468218387013
+          lat: -1.0010397505072206
+          type: STR_BELL_VALOR
+          id: 1
+        gender: 0
+        look: 0
+        lookVariant: 62
+        missions: 2
+        kills: 0
+        stuns: 0
+        armor: STR_VEST_ARMOR_GREEN_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_MACHINE_PISTOL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_SNIPER_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_SNIPER_RIFLE_CLIP, ammoItemSlots: [STR_SNIPER_RIFLE_CLIP]}
+          - {itemType: STR_SNIPER_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+          missionIdList: [0, 1]
+      - type: STR_SOLDIER
+        id: 11
+        name: Vincas Malinauskas
+        nationality: 61
+        initialStats:
+          tu: 38
+          stamina: 56
+          health: 43
+          bravery: 40
+          reactions: 52
+          firing: 53
+          throwing: 46
+          strength: 31
+          psiStrength: 48
+          psiSkill: 0
+          melee: 54
+          mana: 0
+        currentStats:
+          tu: 38
+          stamina: 56
+          health: 43
+          bravery: 40
+          reactions: 52
+          firing: 54
+          throwing: 46
+          strength: 31
+          psiStrength: 48
+          psiSkill: 0
+          melee: 54
+          mana: 0
+        rank: 0
+        craft:
+          lon: 4.3948468218387013
+          lat: -1.0010397505072206
+          type: STR_BELL_VALOR
+          id: 1
+        gender: 0
+        look: 1
+        lookVariant: 11
+        missions: 2
+        kills: 0
+        stuns: 0
+        armor: STR_VEST_ARMOR_WHITE_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_BASIC_MEDKIT, slot: STR_BELT, slotX: 2}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+          - {itemType: STR_IMPROVED_MEDKIT, slot: STR_BACK_PACK, slotY: 1}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_SMG, slot: STR_RIGHT_HAND, ammoItem: STR_UZI_CLIP, ammoItemSlots: [STR_UZI_CLIP]}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+          missionIdList: [0, 1]
+          woundsHealedTotal: 1
+          statGainTotal: 1
+      - type: STR_SOLDIER
+        id: 14
+        name: Manik Gharakeshishyan
+        nationality: 4
+        initialStats:
+          tu: 56
+          stamina: 67
+          health: 41
+          bravery: 40
+          reactions: 57
+          firing: 43
+          throwing: 72
+          strength: 36
+          psiStrength: 69
+          psiSkill: 0
+          melee: 69
+          mana: 0
+        currentStats:
+          tu: 56
+          stamina: 67
+          health: 41
+          bravery: 40
+          reactions: 57
+          firing: 43
+          throwing: 72
+          strength: 36
+          psiStrength: 69
+          psiSkill: 0
+          melee: 69
+          mana: 0
+        rank: 0
+        gender: 0
+        look: 2
+        lookVariant: 1
+        missions: 1
+        kills: 0
+        stuns: 0
+        recovery: 12
+        armor: STR_VEST_ARMOR_UC
+        returnToTrainingWhenHealed: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_PISTOL_NEW, slot: STR_QD_SLOT, ammoItem: STR_PISTOL_NEW_CLIP, ammoItemSlots: [STR_PISTOL_NEW_CLIP]}
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG, slotX: 1}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+            - {commendationName: STR_MEDAL_WOUNDED, decorationLevel: 0}
+          missionIdList: [0]
+          daysWoundedTotal: 13
+          shotAtCounterTotal: 2
+          hitCounterTotal: 1
+          timesWoundedTotal: 1
+      - type: STR_SOLDIER_OFFICER
+        id: 15
+        name: Gareth Dienes
+        nationality: 92
+        initialStats:
+          tu: 55
+          stamina: 53
+          health: 36
+          bravery: 50
+          reactions: 68
+          firing: 44
+          throwing: 63
+          strength: 30
+          psiStrength: 93
+          psiSkill: 0
+          melee: 52
+          mana: 0
+        currentStats:
+          tu: 62
+          stamina: 54
+          health: 43
+          bravery: 50
+          reactions: 69
+          firing: 47
+          throwing: 63
+          strength: 32
+          psiStrength: 93
+          psiSkill: 0
+          melee: 52
+          mana: 0
+        rank: 3
+        gender: 0
+        look: 1
+        lookVariant: 13
+        missions: 2
+        kills: 0
+        stuns: 0
+        recovery: 22
+        armor: STR_VEST_ARMOR_GREY_UC
+        returnToTrainingWhenHealed: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_KNIFE, slot: STR_BELT}
+          - {itemType: STR_MAGNUM, slot: STR_QD_SLOT, ammoItem: STR_MAGNUM_CLIP, ammoItemSlots: [STR_MAGNUM_CLIP]}
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+            - {commendationName: STR_MEDAL_WOUNDED, decorationLevel: 0}
+          missionIdList: [0, 1]
+          daysWoundedTotal: 22
+          shotsFiredCounterTotal: 11
+          shotsLandedCounterTotal: 2
+          timesWoundedTotal: 1
+          statGainTotal: 21
+      - type: STR_PILOT
+        id: 6
+        name: Tomoya Iwamura
+        nationality: 53
+        initialStats:
+          tu: 61
+          stamina: 62
+          health: 34
+          bravery: 60
+          reactions: 46
+          firing: 67
+          throwing: 50
+          strength: 30
+          psiStrength: 100
+          psiSkill: 0
+          melee: 23
+          mana: 0
+        currentStats:
+          tu: 61
+          stamina: 62
+          health: 35
+          bravery: 60
+          reactions: 46
+          firing: 67
+          throwing: 50
+          strength: 30
+          psiStrength: 100
+          psiSkill: 0
+          melee: 23
+          mana: 0
+        rank: 0
+        gender: 0
+        look: 2
+        lookVariant: 6
+        missions: 2
+        kills: 0
+        stuns: 0
+        recovery: 38
+        armor: STR_PILOT_UC
+        returnToTrainingWhenHealed: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_KNIFE, slot: STR_RIGHT_LEG}
+          - {itemType: STR_PDW, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+          - {itemType: STR_PISTOL_SMALL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+          - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_HAND}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+            - {commendationName: STR_MEDAL_DAYS_WOUNDED, decorationLevel: 0}
+            - {commendationName: STR_MEDAL_WOUNDED, decorationLevel: 0}
+          missionIdList: [0, 1]
+          daysWoundedTotal: 38
+          timesWoundedTotal: 1
+          statGainTotal: 1
+      - type: STR_PILOT
+        id: 3
+        name: Nadya Korolyova
+        nationality: 85
+        initialStats:
+          tu: 58
+          stamina: 63
+          health: 31
+          bravery: 40
+          reactions: 40
+          firing: 47
+          throwing: 50
+          strength: 29
+          psiStrength: 10
+          psiSkill: 0
+          melee: 22
+          mana: 0
+        currentStats:
+          tu: 58
+          stamina: 63
+          health: 31
+          bravery: 40
+          reactions: 40
+          firing: 48
+          throwing: 50
+          strength: 29
+          psiStrength: 10
+          psiSkill: 0
+          melee: 22
+          mana: 0
+        rank: 0
+        gender: 1
+        look: 0
+        lookVariant: 33
+        missions: 0
+        kills: 0
+        stuns: 0
+        armor: STR_PILOT_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+          - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+          - {itemType: STR_PDW, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+          - {itemType: STR_PISTOL_SMALL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+      - type: STR_PILOT
+        id: 4
+        name: Erica Pershing
+        nationality: 109
+        initialStats:
+          tu: 62
+          stamina: 75
+          health: 37
+          bravery: 60
+          reactions: 56
+          firing: 42
+          throwing: 50
+          strength: 22
+          psiStrength: 43
+          psiSkill: 0
+          melee: 20
+          mana: 0
+        currentStats:
+          tu: 62
+          stamina: 75
+          health: 37
+          bravery: 60
+          reactions: 56
+          firing: 42
+          throwing: 50
+          strength: 22
+          psiStrength: 43
+          psiSkill: 0
+          melee: 20
+          mana: 0
+        rank: 0
+        craft:
+          lon: 4.4255549719354672
+          lat: -0.64808764480119085
+          type: STR_SR71
+          id: 1
+        gender: 1
+        look: 1
+        lookVariant: 0
+        missions: 0
+        kills: 0
+        stuns: 0
+        armor: STR_PILOT_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+      - type: STR_PILOT
+        id: 5
+        name: Joshua Graham
+        nationality: 108
+        initialStats:
+          tu: 61
+          stamina: 66
+          health: 35
+          bravery: 40
+          reactions: 67
+          firing: 58
+          throwing: 50
+          strength: 24
+          psiStrength: 31
+          psiSkill: 0
+          melee: 23
+          mana: 0
+        currentStats:
+          tu: 62
+          stamina: 66
+          health: 35
+          bravery: 40
+          reactions: 68
+          firing: 59
+          throwing: 50
+          strength: 24
+          psiStrength: 31
+          psiSkill: 0
+          melee: 23
+          mana: 0
+        rank: 0
+        craft:
+          lon: 4.4255549719354672
+          lat: -0.64808764480119085
+          type: STR_INTERCEPTOR
+          id: 1
+        gender: 0
+        look: 1
+        lookVariant: 6
+        missions: 0
+        kills: 0
+        stuns: 0
+        armor: STR_PILOT_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+      - type: STR_PILOT
+        id: 7
+        name: Boris Pavlov
+        nationality: 85
+        initialStats:
+          tu: 55
+          stamina: 72
+          health: 39
+          bravery: 60
+          reactions: 46
+          firing: 52
+          throwing: 50
+          strength: 30
+          psiStrength: 86
+          psiSkill: 0
+          melee: 20
+          mana: 0
+        currentStats:
+          tu: 55
+          stamina: 72
+          health: 39
+          bravery: 60
+          reactions: 46
+          firing: 52
+          throwing: 50
+          strength: 30
+          psiStrength: 86
+          psiSkill: 0
+          melee: 20
+          mana: 0
+        rank: 0
+        craft:
+          lon: 4.4255549719354672
+          lat: -0.64808764480119085
+          type: STR_INTERCEPTOR
+          id: 2
+        gender: 0
+        look: 1
+        lookVariant: 1
+        missions: 0
+        kills: 0
+        stuns: 0
+        armor: STR_PILOT_UC
+        training: true
+        improvement: 0
+        psiStrImprovement: 0
+        diary:
+          commendations:
+            - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+    crafts:
+      - lon: 4.3948468218387013
+        lat: -1.0010397505072206
+        id: 1
+        name: TT01-'Big Sky'
+        dest:
+          lon: 4.4255549719354672
+          lat: -0.64808764480119085
+          type: STR_BASE
+          id: 0
+        speedLon: 2.3835229082951632e-05
+        speedLat: 0.00018134992011145982
+        speedRadian: 0.00018180513041607597
+        speed: 450
+        type: STR_BELL_VALOR
+        fuel: 1140
+        damage: 0
+        shield: 0
+        weapons:
+          - type: STR_CANNON_UC
+            ammo: 200
+        items:
+          STR_ADRENO_SYRINGE: 2
+          STR_ASSAULT_RIFLE: 8
+          STR_ASSAULT_RIFLE_CLIP: 30
+          STR_BASIC_MEDKIT: 2
+          STR_ELECTRO_FLARE: 15
+          STR_FIRST_AID: 5
+          STR_GRENADE: 12
+          STR_HC_AP_AMMO: 1
+          STR_HC_HE_AMMO: 1
+          STR_HC_I_AMMO: 1
+          STR_HEAVY_CANNON: 1
+          STR_HIGH_EXPLOSIVE: 3
+          STR_IMPROVED_MEDKIT: 1
+          STR_INC_GRENADE: 4
+          STR_KNIFE: 12
+          STR_LMG: 1
+          STR_LMG_BELT: 3
+          STR_MACHINE_PISTOL: 2
+          STR_MACHINE_PISTOL_CLIP: 5
+          STR_MAGNUM: 2
+          STR_MAGNUM_CLIP: 4
+          STR_PDW: 3
+          STR_PISTOL_NEW: 6
+          STR_PISTOL_NEW_CLIP: 10
+          STR_PISTOL_SMALL: 2
+          STR_PROXIMITY_GRENADE: 4
+          STR_ROCKET_LAUNCHER: 1
+          STR_SHOTGUN: 1
+          STR_SHOTGUN_SHELLS: 5
+          STR_SMALL_ROCKET: 2
+          STR_SMG: 1
+          STR_SMOKE_GRENADE: 8
+          STR_SNIPER_RIFLE: 1
+          STR_SNIPER_RIFLE_CLIP: 3
+          STR_UZI_CLIP: 3
+        status: STR_OUT
+        mission: true
+        lonAuto: 0
+        latAuto: 0
+        pilots:
+          - 6
+      - lon: 4.4255549719354672
+        lat: -0.64808764480119085
+        id: 1
+        name: XCF-037 'Smokey'
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        fuel: 1000
+        damage: 0
+        shield: 0
+        weapons:
+          - type: STR_STINGRAY
+            ammo: 6
+          - type: STR_AVALANCHE
+            ammo: 3
+        items:
+          {}
+        status: STR_READY
+        lonAuto: 0
+        latAuto: 0
+        pilots:
+          - 5
+      - lon: 4.4255549719354672
+        lat: -0.64808764480119085
+        id: 2
+        name: XCF-054 'Akula'
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        fuel: 1000
+        damage: 0
+        shield: 0
+        weapons:
+          - type: STR_STINGRAY
+            ammo: 6
+          - type: STR_AVALANCHE
+            ammo: 3
+        items:
+          {}
+        status: STR_READY
+        lonAuto: 0
+        latAuto: 0
+        pilots:
+          - 7
+      - lon: 4.4255549719354672
+        lat: -0.64808764480119085
+        id: 1
+        name: SR-001 'Raven'
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_SR71
+        fuel: 5000
+        damage: 0
+        shield: 0
+        items:
+          {}
+        status: STR_READY
+        lonAuto: 0
+        latAuto: 0
+        pilots:
+          - 4
+    items:
+      STR_ADRENO_SYRINGE: 2
+      STR_ALIEN_ALLOYS: 14
+      STR_ALIEN_HABITAT: 2
+      STR_ALIEN_PROX_GRENADE: 1
+      STR_AM_RIFLE: 1
+      STR_AM_RIFLE_CLIP: 5
+      STR_ASSAULT_RIFLE: 12
+      STR_ASSAULT_RIFLE_CLIP: 19
+      STR_AVALANCHE_MISSILES: 9
+      STR_BASIC_MEDKIT: 1
+      STR_BRASS_KNUCKLES: 4
+      STR_CANNON_ROUNDS_X50: 3
+      STR_ELECTRO_FLARE: 4
+      STR_ELERIUM_115: 20
+      STR_EXAMINATION_ROOM: 16
+      STR_FIRST_AID: 2
+      STR_FLOATER_CORPSE: 4
+      STR_GRENADE: 13
+      STR_HC_AP_AMMO: 2
+      STR_HC_HE_AMMO: 2
+      STR_HC_I_AMMO: 2
+      STR_HEAVY_CANNON: 1
+      STR_HIGH_EXPLOSIVE: 2
+      STR_INC_GRENADE: 6
+      STR_KNIFE: 8
+      STR_LMG: 1
+      STR_LMG_BELT: 7
+      STR_MACHINE_PISTOL_CLIP: 5
+      STR_MAGNUM_CLIP: 1
+      STR_PDW: 2
+      STR_PISTOL_NEW: 9
+      STR_PISTOL_NEW_CLIP: 20
+      STR_PISTOL_SMALL: 3
+      STR_PROXIMITY_GRENADE: 6
+      STR_SECTOID_CORPSE: 3
+      STR_SHOTGUN: 1
+      STR_SHOTGUN_SHELLS: 5
+      STR_SMALL_ROCKET: 3
+      STR_SMG: 1
+      STR_SMOKE_GRENADE: 15
+      STR_SNIPER_RIFLE: 1
+      STR_SNIPER_RIFLE_CLIP: 7
+      STR_STINGRAY_MISSILES: 25
+      STR_UFO_NAVIGATION: 2
+      STR_UFO_POWER_SOURCE: 2
+      STR_UZI_CLIP: 7
+    scientists: 0
+    engineers: 0
+    transfers:
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 16
+          name: Shermat Shukurov
+          nationality: 100
+          initialStats:
+            tu: 44
+            stamina: 56
+            health: 36
+            bravery: 40
+            reactions: 46
+            firing: 60
+            throwing: 68
+            strength: 35
+            psiStrength: 40
+            psiSkill: 0
+            melee: 36
+            mana: 0
+          currentStats:
+            tu: 44
+            stamina: 56
+            health: 36
+            bravery: 40
+            reactions: 46
+            firing: 60
+            throwing: 68
+            strength: 35
+            psiStrength: 40
+            psiSkill: 0
+            melee: 36
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 1
+          lookVariant: 12
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 17
+          name: Jayamma Hoque
+          nationality: 45
+          initialStats:
+            tu: 59
+            stamina: 70
+            health: 40
+            bravery: 20
+            reactions: 34
+            firing: 58
+            throwing: 80
+            strength: 32
+            psiStrength: 95
+            psiSkill: 0
+            melee: 65
+            mana: 0
+          currentStats:
+            tu: 59
+            stamina: 70
+            health: 40
+            bravery: 20
+            reactions: 34
+            firing: 58
+            throwing: 80
+            strength: 32
+            psiStrength: 95
+            psiSkill: 0
+            melee: 65
+            mana: 0
+          rank: 0
+          gender: 1
+          look: 2
+          lookVariant: 63
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 18
+          name: Sansyzbay Bakirov
+          nationality: 55
+          initialStats:
+            tu: 42
+            stamina: 64
+            health: 41
+            bravery: 30
+            reactions: 59
+            firing: 57
+            throwing: 52
+            strength: 21
+            psiStrength: 37
+            psiSkill: 0
+            melee: 56
+            mana: 0
+          currentStats:
+            tu: 42
+            stamina: 64
+            health: 41
+            bravery: 30
+            reactions: 59
+            firing: 57
+            throwing: 52
+            strength: 21
+            psiStrength: 37
+            psiSkill: 0
+            melee: 56
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 1
+          lookVariant: 40
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 19
+          name: Evelyne Edou
+          nationality: 18
+          initialStats:
+            tu: 36
+            stamina: 49
+            health: 37
+            bravery: 50
+            reactions: 57
+            firing: 40
+            throwing: 61
+            strength: 22
+            psiStrength: 69
+            psiSkill: 0
+            melee: 46
+            mana: 0
+          currentStats:
+            tu: 36
+            stamina: 49
+            health: 37
+            bravery: 50
+            reactions: 57
+            firing: 40
+            throwing: 61
+            strength: 22
+            psiStrength: 69
+            psiSkill: 0
+            melee: 46
+            mana: 0
+          rank: 0
+          gender: 1
+          look: 3
+          lookVariant: 53
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 20
+          name: Sekou Kende
+          nationality: 87
+          initialStats:
+            tu: 56
+            stamina: 68
+            health: 30
+            bravery: 20
+            reactions: 56
+            firing: 67
+            throwing: 62
+            strength: 44
+            psiStrength: 57
+            psiSkill: 0
+            melee: 50
+            mana: 0
+          currentStats:
+            tu: 56
+            stamina: 68
+            health: 30
+            bravery: 20
+            reactions: 56
+            firing: 67
+            throwing: 62
+            strength: 44
+            psiStrength: 57
+            psiSkill: 0
+            melee: 50
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 3
+          lookVariant: 23
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 21
+          name: Ang Bik
+          nationality: 113
+          initialStats:
+            tu: 57
+            stamina: 47
+            health: 33
+            bravery: 60
+            reactions: 44
+            firing: 53
+            throwing: 72
+            strength: 37
+            psiStrength: 65
+            psiSkill: 0
+            melee: 31
+            mana: 0
+          currentStats:
+            tu: 57
+            stamina: 47
+            health: 33
+            bravery: 60
+            reactions: 44
+            firing: 53
+            throwing: 72
+            strength: 37
+            psiStrength: 65
+            psiSkill: 0
+            melee: 31
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 2
+          lookVariant: 5
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 22
+          name: Kamran Canavan
+          nationality: 108
+          initialStats:
+            tu: 44
+            stamina: 49
+            health: 31
+            bravery: 50
+            reactions: 55
+            firing: 44
+            throwing: 76
+            strength: 33
+            psiStrength: 66
+            psiSkill: 0
+            melee: 49
+            mana: 0
+          currentStats:
+            tu: 44
+            stamina: 49
+            health: 31
+            bravery: 50
+            reactions: 55
+            firing: 44
+            throwing: 76
+            strength: 33
+            psiStrength: 66
+            psiSkill: 0
+            melee: 49
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 1
+          lookVariant: 38
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 23
+          name: András Palásti
+          nationality: 43
+          initialStats:
+            tu: 41
+            stamina: 52
+            health: 43
+            bravery: 60
+            reactions: 48
+            firing: 63
+            throwing: 66
+            strength: 22
+            psiStrength: 39
+            psiSkill: 0
+            melee: 53
+            mana: 0
+          currentStats:
+            tu: 41
+            stamina: 52
+            health: 43
+            bravery: 60
+            reactions: 48
+            firing: 63
+            throwing: 66
+            strength: 22
+            psiStrength: 39
+            psiSkill: 0
+            melee: 53
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 1
+          lookVariant: 40
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 24
+          name: Cyril Adamec
+          nationality: 27
+          initialStats:
+            tu: 54
+            stamina: 69
+            health: 45
+            bravery: 40
+            reactions: 57
+            firing: 61
+            throwing: 54
+            strength: 39
+            psiStrength: 9
+            psiSkill: 0
+            melee: 61
+            mana: 0
+          currentStats:
+            tu: 54
+            stamina: 69
+            health: 45
+            bravery: 40
+            reactions: 57
+            firing: 61
+            throwing: 54
+            strength: 39
+            psiStrength: 9
+            psiSkill: 0
+            melee: 61
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 1
+          lookVariant: 21
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        soldier:
+          type: STR_SOLDIER
+          id: 25
+          name: Heinz-Hermann Hecht
+          nationality: 38
+          initialStats:
+            tu: 53
+            stamina: 56
+            health: 43
+            bravery: 60
+            reactions: 60
+            firing: 54
+            throwing: 76
+            strength: 29
+            psiStrength: 15
+            psiSkill: 0
+            melee: 60
+            mana: 0
+          currentStats:
+            tu: 53
+            stamina: 56
+            health: 43
+            bravery: 60
+            reactions: 60
+            firing: 54
+            throwing: 76
+            strength: 29
+            psiStrength: 15
+            psiSkill: 0
+            melee: 60
+            mana: 0
+          rank: 0
+          gender: 0
+          look: 1
+          lookVariant: 12
+          missions: 0
+          kills: 0
+          stuns: 0
+          armor: STR_VEST_ARMOR_UC
+          improvement: 0
+          psiStrImprovement: 0
+      - hours: 52
+        scientists: 15
+      - hours: 52
+        engineers: 15
+      - hours: 4
+        itemId: STR_LARGE_ROCKET
+        itemQty: 10
+    research:
+      - project: STR_SUPPORT_UNITS
+        assigned: 5
+        spent: 5
+        cost: 33
+    productions:
+      - item: STR_GOODS
+        assigned: 5
+        spent: 100
+        amount: 1
+        infinite: true
+        sell: true
+alienMissions:
+  - type: STR_ALIEN_RESEARCH
+    region: STR_NORTH_AMERICA
+    race: STR_SECTOID
+    nextWave: 1
+    nextUfoCounter: 0
+    spawnCountdown: 8610
+    liveUfos: 0
+    uniqueID: 1
+    missionSiteZone: -1
+  - type: STR_ALIEN_TERROR
+    region: STR_NORTH_ATLANTIC
+    race: STR_FLOATER
+    nextWave: 1
+    nextUfoCounter: 0
+    spawnCountdown: 12780
+    liveUfos: 0
+    uniqueID: 2
+    missionSiteZone: 10
+generatedEvents:
+  {}
+ufopediaRuleStatus:
+  STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES: 1
+  STR_MEDAL_BESTOFRANK: 1
+  STR_MEDAL_BESTSOLDIER: 1
+  STR_MEDAL_FALLEN: 1
+  STR_MEDAL_MIA: 1
+  STR_MEDAL_WOUNDED: 1
+manufactureRuleStatus:
+  STR_GOODS: 1
+researchRuleStatus:
+  STR_SUPPORT_UNITS: 1
+monthlyPurchaseLimitLog:
+  {}
+hiddenPurchaseItems:
+  {}
+customRuleCraftDeployments:
+  {}
+alienStrategy:
+  regions:
+    STR_ANTARCTICA: 4
+    STR_ARCTIC: 4
+    STR_AUSTRALASIA: 10
+    STR_CENTRAL_ASIA: 12
+    STR_EUROPE: 16
+    STR_INDIAN_OCEAN: 5
+    STR_NORTH_AFRICA: 12
+    STR_NORTH_AMERICA: 18
+    STR_NORTH_ATLANTIC: 5
+    STR_NORTH_PACIFIC: 5
+    STR_SIBERIA: 10
+    STR_SOUTHERN_AFRICA: 8
+    STR_SOUTH_AMERICA: 10
+    STR_SOUTH_ATLANTIC: 5
+    STR_SOUTH_EAST_ASIA: 15
+    STR_SOUTH_PACIFIC: 5
+  possibleMissions:
+    - region: STR_ANTARCTICA
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+    - region: STR_ARCTIC
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+    - region: STR_AUSTRALASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_BASE: 16
+        STR_ALIEN_HARVEST: 11
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_CENTRAL_ASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 6
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_HARVEST: 5
+        STR_ALIEN_INFILTRATION: 10
+        STR_ALIEN_RESEARCH: 5
+    - region: STR_EUROPE
+      missions:
+        STR_ALIEN_ABDUCTION: 15
+        STR_ALIEN_BASE: 6
+        STR_ALIEN_HARVEST: 10
+        STR_ALIEN_INFILTRATION: 20
+        STR_ALIEN_RESEARCH: 10
+    - region: STR_INDIAN_OCEAN
+      missions:
+        STR_ALIEN_BASE: 27
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_NORTH_AFRICA
+      missions:
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_BASE: 19
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 8
+    - region: STR_NORTH_AMERICA
+      missions:
+        STR_ALIEN_ABDUCTION: 20
+        STR_ALIEN_BASE: 20
+        STR_ALIEN_HARVEST: 17
+        STR_ALIEN_INFILTRATION: 20
+    - region: STR_NORTH_ATLANTIC
+      missions:
+        STR_ALIEN_BASE: 27
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_NORTH_PACIFIC
+      missions:
+        STR_ALIEN_BASE: 27
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_SIBERIA
+      missions:
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_RESEARCH: 6
+    - region: STR_SOUTHERN_AFRICA
+      missions:
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 7
+    - region: STR_SOUTH_AMERICA
+      missions:
+        STR_ALIEN_ABDUCTION: 12
+        STR_ALIEN_BASE: 22
+        STR_ALIEN_HARVEST: 24
+        STR_ALIEN_INFILTRATION: 18
+        STR_ALIEN_RESEARCH: 10
+    - region: STR_SOUTH_ATLANTIC
+      missions:
+        STR_ALIEN_BASE: 27
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_SOUTH_EAST_ASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 21
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_HARVEST: 13
+        STR_ALIEN_INFILTRATION: 13
+        STR_ALIEN_RESEARCH: 8
+    - region: STR_SOUTH_PACIFIC
+      missions:
+        STR_ALIEN_BASE: 27
+        STR_ALIEN_RESEARCH: 15
+  missionLocations:
+    {}
+  missionsRun:
+    {}
+deadSoldiers:
+  - type: STR_SOLDIER
+    id: 8
+    name: Andrescu Bouba
+    nationality: 20
+    initialStats:
+      tu: 59
+      stamina: 61
+      health: 34
+      bravery: 20
+      reactions: 50
+      firing: 44
+      throwing: 69
+      strength: 35
+      psiStrength: 59
+      psiSkill: 0
+      melee: 36
+      mana: 0
+    currentStats:
+      tu: 59
+      stamina: 61
+      health: 34
+      bravery: 20
+      reactions: 50
+      firing: 44
+      throwing: 69
+      strength: 35
+      psiStrength: 59
+      psiSkill: 0
+      melee: 36
+      mana: 0
+    rank: 0
+    gender: 0
+    look: 2
+    lookVariant: 11
+    missions: 1
+    kills: 0
+    stuns: 0
+    armor: STR_VEST_ARMOR_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time: {second: 30, minute: 47, hour: 23, weekday: 2, day: 4, month: 1, year: 2027}
+      cause: {type: STR_FLOATER_NAVIGATOR, rank: STR_LIVE_NAVIGATOR, race: STR_FLOATER, weapon: STR_ALIEN_PLASMA_SNIPER_RIFLE, weaponAmmo: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP, status: 6, faction: 1, mission: 0, turn: 13, side: 0, bodypart: 1, id: 8}
+    diary:
+      commendations:
+        - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+        - {commendationName: STR_MEDAL_FALLEN, decorationLevel: 0}
+      missionIdList: [0]
+      shotAtCounterTotal: 2
+      hitCounterTotal: 1
+      shotsFiredCounterTotal: 2
+    corpseRecovered: true
+  - type: STR_SOLDIER
+    id: 13
+    name: Marnar Fjallheim
+    nationality: 34
+    initialStats:
+      tu: 38
+      stamina: 56
+      health: 31
+      bravery: 10
+      reactions: 56
+      firing: 65
+      throwing: 69
+      strength: 32
+      psiStrength: 76
+      psiSkill: 0
+      melee: 66
+      mana: 0
+    currentStats:
+      tu: 45
+      stamina: 57
+      health: 35
+      bravery: 10
+      reactions: 56
+      firing: 66
+      throwing: 69
+      strength: 37
+      psiStrength: 76
+      psiSkill: 0
+      melee: 66
+      mana: 0
+    rank: 2
+    gender: 0
+    look: 0
+    lookVariant: 29
+    missions: 2
+    kills: 2
+    stuns: 0
+    armor: STR_VEST_ARMOR_UC
+    improvement: 0
+    psiStrImprovement: 0
+    death:
+      time: {second: 50, minute: 36, hour: 8, weekday: 3, day: 5, month: 1, year: 2027}
+      cause: {type: STR_SECTOID_MEDIC, rank: STR_LIVE_MEDIC, race: STR_SECTOID, weapon: STR_ALIEN_GRENADE, weaponAmmo: STR_ALIEN_GRENADE, status: 6, faction: 1, mission: 1, turn: 7, side: 0, bodypart: 1, id: 13}
+    diary:
+      commendations:
+        - {commendationName: STR_MEDAL_ORIGINAL8_NAME, noun: NoNoun, decorationLevel: 0}
+        - {commendationName: STR_MEDAL_BESTOFRANK, decorationLevel: 0}
+        - {commendationName: STR_MEDAL_BESTSOLDIER, decorationLevel: 9}
+        - {commendationName: STR_MEDAL_FALLEN, decorationLevel: 0}
+      killList:
+        - {type: STR_FLOATER_NAVIGATOR, rank: STR_LIVE_NAVIGATOR, race: STR_FLOATER, weapon: STR_LMG, weaponAmmo: STR_LMG_BELT, status: 6, faction: 1, mission: 0, turn: 9, side: 0, bodypart: 1, id: 1000003}
+        - {type: STR_FLOATER_SOLDIER, rank: STR_LIVE_SOLDIER, race: STR_FLOATER, weapon: STR_LMG, weaponAmmo: STR_LMG_BELT, status: 6, faction: 1, mission: 0, turn: 12, side: 0, bodypart: 1, id: 1000000}
+      missionIdList: [0, 1]
+      shotsFiredCounterTotal: 18
+      shotsLandedCounterTotal: 4
+      statGainTotal: 18
+      bestOfRank: 190
+      bestSoldier: 190
+    corpseRecovered: true
+globalEquipmentLayout0:
+  - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+  - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+  - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG, slotX: 1}
+  - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_PISTOL_NEW, slot: STR_QD_SLOT, ammoItem: STR_PISTOL_NEW_CLIP, ammoItemSlots: [STR_PISTOL_NEW_CLIP]}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+globalEquipmentLayoutName0: Trooper
+globalEquipmentLayout1:
+  - {itemType: STR_SHOTGUN, slot: STR_RIGHT_HAND, ammoItem: STR_SHOTGUN_SHELLS, ammoItemSlots: [STR_SHOTGUN_SHELLS]}
+  - {itemType: STR_SHOTGUN_SHELLS, slot: STR_RIGHT_LEG}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_MACHINE_PISTOL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+globalEquipmentLayoutName1: Vanguard
+globalEquipmentLayout2:
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_LMG, slot: STR_RIGHT_HAND, ammoItem: STR_LMG_BELT, ammoItemSlots: [STR_LMG_BELT]}
+  - {itemType: STR_PISTOL_SMALL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_LMG_BELT, slot: STR_RIGHT_LEG}
+globalEquipmentLayoutName2: Gunner
+globalEquipmentLayout3:
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_MACHINE_PISTOL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_SNIPER_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_SNIPER_RIFLE_CLIP, ammoItemSlots: [STR_SNIPER_RIFLE_CLIP]}
+  - {itemType: STR_SNIPER_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+globalEquipmentLayoutName3: Sharpshooter
+globalEquipmentLayout4:
+  - {itemType: STR_BASIC_MEDKIT, slot: STR_BELT, slotX: 2}
+  - {itemType: STR_BASIC_MEDKIT, slot: STR_BACK_PACK, slotY: 1}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_SMG, slot: STR_RIGHT_HAND, ammoItem: STR_UZI_CLIP, ammoItemSlots: [STR_UZI_CLIP]}
+  - {itemType: STR_UZI_CLIP, slot: STR_RIGHT_LEG}
+globalEquipmentLayoutName4: Sanitater
+globalEquipmentLayout5:
+  - {itemType: STR_ROCKET_LAUNCHER, slot: STR_RIGHT_HAND, ammoItem: STR_SMALL_ROCKET, ammoItemSlots: [STR_SMALL_ROCKET]}
+  - {itemType: STR_SMALL_ROCKET, slot: STR_BACK_PACK}
+  - {itemType: STR_SMALL_ROCKET, slot: STR_BACK_PACK, slotX: 1}
+  - {itemType: STR_SMALL_ROCKET, slot: STR_BACK_PACK, slotX: 2}
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_PISTOL_SMALL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+globalEquipmentLayoutName5: Rocketeer
+globalEquipmentLayout6:
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_HIGH_EXPLOSIVE, slot: STR_BACK_PACK, slotY: 2}
+  - {itemType: STR_HIGH_EXPLOSIVE, slot: STR_BACK_PACK, slotY: 1}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_HIGH_EXPLOSIVE, slot: STR_BACK_PACK}
+  - {itemType: STR_PROXIMITY_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_INC_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_PDW, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+globalEquipmentLayoutName6: Sapper
+globalEquipmentLayout7:
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_HEAVY_CANNON, slot: STR_RIGHT_HAND, ammoItem: STR_HC_HE_AMMO, ammoItemSlots: [STR_HC_HE_AMMO]}
+  - {itemType: STR_HC_I_AMMO, slot: STR_LEFT_LEG}
+  - {itemType: STR_HC_AP_AMMO, slot: STR_RIGHT_LEG}
+globalEquipmentLayoutName7: Pioneer
+globalEquipmentLayout8:
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_PDW, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+  - {itemType: STR_PISTOL_SMALL, slot: STR_QD_SLOT, ammoItem: STR_MACHINE_PISTOL_CLIP, ammoItemSlots: [STR_MACHINE_PISTOL_CLIP]}
+globalEquipmentLayoutName8: Pilot
+globalEquipmentLayout9:
+  - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+  - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+  - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+  - {itemType: STR_SMOKE_GRENADE, slot: STR_LEFT_LEG, slotX: 1}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_MAGNUM, slot: STR_QD_SLOT, ammoItem: STR_MAGNUM_CLIP, ammoItemSlots: [STR_MAGNUM_CLIP]}
+globalEquipmentLayoutName9: Officer
+globalEquipmentLayout10:
+  - {itemType: STR_ASSAULT_RIFLE, slot: STR_RIGHT_HAND, ammoItem: STR_ASSAULT_RIFLE_CLIP, ammoItemSlots: [STR_ASSAULT_RIFLE_CLIP]}
+  - {itemType: STR_ASSAULT_RIFLE_CLIP, slot: STR_RIGHT_LEG}
+  - {itemType: STR_PISTOL_NEW, slot: STR_QD_SLOT, ammoItem: STR_PISTOL_NEW_CLIP, ammoItemSlots: [STR_PISTOL_NEW_CLIP]}
+  - {itemType: STR_KNIFE, slot: STR_BELT}
+  - {itemType: STR_ELECTRO_FLARE, slot: STR_LEFT_SHOULDER}
+  - {itemType: STR_GRENADE, slot: STR_LEFT_LEG}
+globalEquipmentLayoutName10: Reserve
+missionStatistics:
+  - id: 0
+    markerName: STR_LANDING_SITE_
+    markerId: 1
+    time: {second: 30, minute: 47, hour: 23, weekday: 2, day: 4, month: 1, year: 2027}
+    region: STR_NORTH_ATLANTIC
+    country: STR_UNKNOWN
+    type: STR_UFO_GROUND_ASSAULT
+    ufo: STR_SCANNER
+    success: true
+    score: 117
+    rating: STR_RATING_OK
+    alienRace: STR_FLOATER
+    daylight: 15
+    injuryList:
+      14: 13
+    lootValue: 1
+  - id: 1
+    markerName: STR_CRASH_SITE_
+    markerId: 1
+    time: {second: 50, minute: 36, hour: 8, weekday: 3, day: 5, month: 1, year: 2027}
+    region: STR_NORTH_AMERICA
+    country: STR_CANADA
+    type: STR_UFO_CRASH_RECOVERY
+    ufo: STR_SURVEY
+    success: true
+    score: 73
+    rating: STR_RATING_OK
+    alienRace: STR_SECTOID
+    daylight: 15
+    injuryList:
+      6: 38
+      15: 22
+    lootValue: 1
+options:
+  displayWidth: 1920
+  displayHeight: 1080
+  fullscreen: true
+  asyncBlit: true
+  keyboardMode: 1
+  maxFrameSkip: 0
+  traceAI: false
+  verboseLogging: false
+  StereoSound: true
+  geoscapeScale: 0
+  battlescapeScale: 1
+  useScaleFilter: false
+  useHQXFilter: false
+  useXBRZFilter: true
+  useOpenGL: false
+  checkOpenGLErrors: false
+  useOpenGLShader: Shaders/5xbr_rounded.opengl.shader
+  useOpenGLSmoothing: true
+  debug: true
+  debugUi: false
+  soundVolume: 82
+  musicVolume: 33
+  uiVolume: 21
+  language: en-US
+  battleScrollSpeed: 7
+  battleEdgeScroll: 2
+  battleDragScrollButton: 0
+  dragScrollTimeTolerance: 300
+  dragScrollPixelTolerance: 10
+  battleFireSpeed: 6
+  battleXcomSpeed: 36
+  battleAlienSpeed: 34
+  battleNewPreviewPath: 3
+  fpsCounter: false
+  globeDetail: true
+  globeRadarLines: true
+  globeFlightPaths: true
+  globeAllRadarsOnBaseBuild: true
+  audioSampleRate: 22050
+  audioBitDepth: 16
+  audioChunkSize: 1024
+  pauseMode: 0
+  battleNotifyDeath: true
+  showFundsOnGeoscape: true
+  allowResize: false
+  windowedModePositionX: 0
+  windowedModePositionY: 0
+  borderless: false
+  captureMouse: true
+  battleTooltips: true
+  keepAspectRatio: false
+  nonSquarePixelRatio: false
+  cursorInBlackBandsInFullscreen: false
+  cursorInBlackBandsInWindow: true
+  cursorInBlackBandsInBorderlessWindow: false
+  saveOrder: 0
+  geoClockSpeed: 121
+  dogfightSpeed: 38
+  geoScrollSpeed: 20
+  geoDragScrollButton: 2
+  preferredMusic: 0
+  preferredSound: 0
+  preferredVideo: 0
+  wordwrap: 0
+  musicAlwaysLoop: false
+  touchEnabled: false
+  rootWindowedMode: false
+  backgroundMute: true
+  oxceUpdateCheck: true
+  playIntro: true
+  autosave: true
+  autosaveFrequency: 5
+  autosaveSlots: 1
+  newSeedOnLoad: true
+  lazyLoadResources: true
+  mousewheelSpeed: 3
+  changeValueByMouseWheel: 10
+  soldierDiaries: true
+  maximizeInfoScreens: true
+  geoDragScrollInvert: false
+  aggressiveRetaliation: false
+  dogfightAI: true
+  customInitialBase: false
+  allowBuildingQueue: true
+  craftLaunchAlways: true
+  storageLimitsEnforced: true
+  canSellLiveAliens: true
+  anytimePsiTraining: true
+  globeSeasons: true
+  psiStrengthEval: true
+  canTransferCraftsWhileAirborne: true
+  retainCorpses: false
+  fieldPromotions: false
+  battleDragScrollInvert: false
+  battleUFOExtenderAccuracy: true
+  showMoreStatsInInventoryView: true
+  battleHairBleach: true
+  battleInstantGrenade: false
+  includePrimeStateInSavedLayout: true
+  battleExplosionHeight: 3
+  battleAutoEnd: true
+  battleSmoothCamera: true
+  disableAutoEquip: true
+  battleConfirmFireMode: true
+  weaponSelfDestruction: true
+  allowPsionicCapture: true
+  allowPsiStrengthImprovement: false
+  strafe: true
+  forceFire: true
+  skipNextTurnScreen: true
+  noAlienPanicMessages: true
+  alienBleeding: true
+  sneakyAI: false
+  ignoreDelay: true
+  brutalAI: true
+  cheatOnMovement: false
+  allowPreprime: true
+  aiTargetMode: 3
+  brutalCivilians: true
+  autoCombat: false
+  autoAggression: false
+  oxceLinks: true
+  oxceAlternateCraftEquipmentManagement: false
+  oxceUfoLandingAlert: true
+  oxceWoundedDefendBaseIf: 60
+  oxcePlayBriefingMusicDuringEquipment: true
+  oxceNightVisionColor: 5
+  oxceAutoNightVisionThreshold: 10
+  oxceAutoSell: true
+  oxceRememberDisabledCraftWeapons: true
+  oxceEnableOffCentreShooting: true
+  oxceFatFingerLinks: false
+  oxceThrottleMouseMoveEvent: 0
+  oxceHighlightNewTopicsHidden: true
+  oxceInterceptGuiMaintenanceTimeHidden: 2
+  oxceEnableUnitResponseSounds: true
+  oxceEnableSlackingIndicator: true
+  oxceEnablePaletteFlickerFix: false
+  oxceMaxEquipmentLayoutTemplates: 20
+  oxcePersonalLayoutIncludingArmor: true
+  oxceManufactureFilterSuppliesOK: false
+  oxceTogglePersonalLightType: 1
+  oxceToggleNightVisionType: 1
+  oxceToggleBrightnessType: 0
+  oxceModValidationLevel: 0
+  oxceEmbeddedOnly: false
+  oxceListVFSContents: false
+  oxceRawScreenShots: false
+  oxceThumbButtons: true
+  oxceRecommendedOptionsWereSet: true
+  password: secret
+  oxceStartUpTextMode: 0
+  oxceManufactureScrollSpeed: 10
+  oxceManufactureScrollSpeedWithCtrl: 1
+  oxceResearchScrollSpeed: 10
+  oxceResearchScrollSpeedWithCtrl: 1
+  oxceGeoSlowdownFactor: 1
+  oxceDisableTechTreeViewer: false
+  oxceDisableStatsForNerds: false
+  oxceDisableProductionDependencyTree: false
+  oxceDisableHitLog: false
+  oxceDisableAlienInventory: false
+  oxceDisableInventoryTuCost: false
+  keyOk: 13
+  keyCancel: 27
+  keyScreenshot: 316
+  keyFps: 288
+  keyQuickSave: 286
+  keyQuickLoad: 290
+  keyGeoLeft: 97
+  keyGeoRight: 100
+  keyGeoUp: 119
+  keyGeoDown: 115
+  keyGeoZoomIn: 273
+  keyGeoZoomOut: 274
+  keyGeoSpeed1: 49
+  keyGeoSpeed2: 50
+  keyGeoSpeed3: 51
+  keyGeoSpeed4: 52
+  keyGeoSpeed5: 53
+  keyGeoSpeed6: 54
+  keyGeoIntercept: 105
+  keyGeoBases: 98
+  keyGeoGraphs: 103
+  keyGeoUfopedia: 117
+  keyGeoOptions: 27
+  keyGeoFunding: 102
+  keyGeoToggleDetail: 9
+  keyGeoToggleRadar: 114
+  keyBaseSelect1: 49
+  keyBaseSelect2: 50
+  keyBaseSelect3: 51
+  keyBaseSelect4: 52
+  keyBaseSelect5: 53
+  keyBaseSelect6: 54
+  keyBaseSelect7: 55
+  keyBaseSelect8: 56
+  keyBattleLeft: 97
+  keyBattleRight: 100
+  keyBattleUp: 119
+  keyBattleDown: 115
+  keyBattleLevelUp: 273
+  keyBattleLevelDown: 274
+  keyBattleCenterUnit: 32
+  keyBattlePrevUnit: 0
+  keyBattleNextUnit: 9
+  keyBattleDeselectUnit: 96
+  keyBattleUseLeftHand: 113
+  keyBattleUseRightHand: 101
+  keyBattleInventory: 105
+  keyBattleMap: 109
+  keyBattleOptions: 27
+  keyBattleEndTurn: 8
+  keyBattleAbort: 112
+  keyBattleStats: 117
+  keyBattleKneel: 99
+  keyBattleReload: 114
+  keyBattlePersonalLighting: 110
+  keyBattleReserveNone: 282
+  keyBattleReserveSnap: 283
+  keyBattleReserveAimed: 284
+  keyBattleReserveAuto: 285
+  keyBattleReserveKneel: 106
+  keyBattleZeroTUs: 127
+  keyBattleCenterEnemy1: 49
+  keyBattleCenterEnemy2: 50
+  keyBattleCenterEnemy3: 51
+  keyBattleCenterEnemy4: 52
+  keyBattleCenterEnemy5: 53
+  keyBattleCenterEnemy6: 54
+  keyBattleCenterEnemy7: 55
+  keyBattleCenterEnemy8: 56
+  keyBattleCenterEnemy9: 57
+  keyBattleCenterEnemy10: 48
+  keyBattleVoxelView: 291
+  keyInvCreateTemplate: 99
+  keyInvApplyTemplate: 118
+  keyInvClear: 120
+  keyInvAutoEquip: 122
+  keyBasescapeBuildNewBase: 110
+  keyBasescapeBaseInformation: 105
+  keyBasescapeSoldiers: 115
+  keyBasescapeEquipCraft: 101
+  keyBasescapeBuildFacilities: 102
+  keyBasescapeResearch: 114
+  keyBasescapeManufacture: 109
+  keyBasescapeTransfer: 116
+  keyBasescapePurchase: 112
+  keyBasescapeSell: 108
+  keyGeoDailyPilotExperience: 101
+  keyGeoUfoTracker: 116
+  keyGeoTechTreeViewer: 113
+  keyGeoGlobalProduction: 112
+  keyGeoGlobalResearch: 99
+  keyGraphsZoomIn: 273
+  keyGraphsZoomOut: 274
+  keyToggleQuickSearch: 113
+  keyCraftLoadoutSave: 286
+  keyCraftLoadoutLoad: 290
+  keyMarkAllAsSeen: 120
+  keySellAll: 120
+  keySellAllButOne: 122
+  keyTransferAll: 120
+  keyRemoveSoldiersFromAllCrafts: 120
+  keyRemoveSoldiersFromCraft: 122
+  keyRemoveEquipmentFromCraft: 120
+  keyRemoveArmorFromAllCrafts: 120
+  keyRemoveArmorFromCraft: 122
+  keyRemoveSoldiersFromTraining: 120
+  keyAddSoldiersToTraining: 122
+  keyInventoryArmor: 97
+  keyInventoryAvatar: 109
+  keyInventorySave: 286
+  keyInventoryLoad: 290
+  keyInvSavePersonalEquipment: 115
+  keyInvLoadPersonalEquipment: 108
+  keyInvShowPersonalEquipment: 112
+  keyBattleShowLayers: 0
+  keyBattleUseSpecial: 119
+  keyBattleActionItem1: 49
+  keyBattleActionItem2: 50
+  keyBattleActionItem3: 51
+  keyBattleActionItem4: 52
+  keyBattleActionItem5: 53
+  keyNightVisionToggle: 44
+  keyNightVisionHold: 46
+  keySelectMusicTrack: 279
+  FPS: 100
+  FPSInactive: 50
+  vSyncForOpenGL: true

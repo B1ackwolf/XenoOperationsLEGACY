@@ -97,7 +97,9 @@ bugfix:
 - solved some problems with the deployments of units in transport planes
   * the dragonfly can load their 12 soldiers correctly, and moved the tiles where weaponry appears
   * same treatment for the firefly, all soldiers should spawn correctly , item spawning tile moved to somewhere more safe away from the ramp
--solved wrong description of sectopod in ufopaedia
+-solved wrong description of sectopod autopsy in ufopaedia
+-solved an ctd in ufopaedia with the XCf0-bishop. the picture correctly shows now.
+-solved an issue with miniguns behaviour, the camera wont follow every shot, causing heavy flickering in some situations 
 #########
 
 Version 0.97.04 LE Changelog:

@@ -972,6 +972,8 @@ items:
     accuracyAuto: 25
     tuAuto: 80
     autoShots: 15
+    confAuto:
+     followProjectiles: false
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -1627,6 +1629,8 @@ items:
     accuracyAuto: 30
     tuAuto: 70
     autoShots: 15
+    confAuto:
+     followProjectiles: false
     battleType: 1
     twoHanded: true
     invWidth: 2
