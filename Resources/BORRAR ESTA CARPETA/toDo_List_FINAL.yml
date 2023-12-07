@@ -6,29 +6,35 @@ Link al drive:
 #####
 
 +Priorities fixes:
- - revisar mi lista de opciones para ver cuales puedo poner de obligatorias y cuales de recomendada
- - revisar todo el tema de los pisos
-   * ponerle las luces a los pisos para mantener el alumbrado
-   * corregir todos los mapas q llevo y poonerle sus respectivos luces en las porciones "oscuras" de las lineas de modo q sea esa la q queda enfrente de la fuente de luz   
+ - revisar mi lista de opciones para ver cuales puedo poner de obligatorias y cuales de recomendada 
  - "[FATAL] OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4"
  - no importa cuanto modifique el problema en la pestaña de alien deployments, sigue dando error.
    * seguir investigando con efren a ver q porongas pasa aca
-
- - mejorar los sprites de la mindprobe? (bolita como el planeta del tesoro con muescas
  - organizar el arroz con mango que tengo respecto a los articulos medicos, establecer nomenclatura unica
-   - "medikit" tanto en referencias str_ como en strings y fotos
+   * "medikit" tanto en referencias str_ como en strings y fotos
  - notariar en pascal todo dentro de la carpeta de weaponFx
  - eliminar carpeta de sounds a medida q hago las pruebas de los nuevos sonidos, ojito.
+ - terminar de configurar los 5 edificios restantes para equiparar el nuevo estilo de arte de las bases onda tftd
+   * me faltan los siguientes edificios
+     ~ el large storage store ponerle todos los props e iluminar
+     ~ large laboratory
+     ~ large workshop
+     ~ large hyper wave decoder
+     ~ large radar network
+   * consegir los basebits de tftd y editarlos para que coincidan con los nuevos diseños
+   * mejorar descripciones ufopaedia de los edificios
+     ~ confirmar que al hangar se le pueden meter dos aviones ahora
+     ~ actualizar la info absurda de los radares con rangos en millas nauticas coherentes
+     ~ permitir que los edificios se puedan upgradear al construirles cosas encima
  ######
- - confirmar que onda con el error del bulletsprite de la pistol taser.
+
  - checar funcionamiento del spitter de xfiles en cuanto a esconderse, para reemplazar completamente los silacoid.
  - resolver problema con la zombificacion de los perros (desde xfiles).
  - la imagen de xeno physiology es la de hwp, mejorar esto y adicionalmente
    * concretar este cambio para poder agregar las nuevas imagenes con sprites de las unidades de apoyo en la ufopedia.
  - acomodar los mapas de cruceros pa que quepan las naves transporte.
-   - resolver problemas en cruceros y cargo ship terror al mover el landing pad unos cuantos pixeles a la izquierda?.
-   -  agregar H de pick up y lading en cruiser large maps?.
-   - en caso contrario, simplemente limpiar el area de aterrizaje (necesitare mucha ayuda al respecto. #OJITO)
+   * con los landings pad que ya cree, necesitaria aumentar el espacio de zona de aterrizaje a 20x20
+   * designar esta zona como el area de aterrizaje correcto
  - investigar como resolver el siguiente error 
    * [ERROR]	STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
  - OJITO CHECAR SERIAMENTE TODO EL RESEARCH TREE, parece q hay muchos dead ends en investigaciones importantes.
@@ -36,8 +42,13 @@ Link al drive:
  - limpiar y corregir todos los newlines (y dobles newline)
    * donde se deje sangria SOLO al inicio del texto, pero no al inicio de un nuevo parrafo.
  - cambiar todas las lineas del sprite de reporte en la ufopedia color 227 a 229, porq quema los ojos lo brillantes q son.
- - Review the changes made alien species and reclasiffy their names accurately
+ - Review the changes made alien species and reclasiffy their names accurately.
    * taking special consideration of the Muton Commanders, Muton Warlords.
+   * perhaps create an extra investigation that brings reports about the weaknesess to aliens
+   * thus every race would consist on these projects
+     ~ a alive study talking about behaviour and characteristics of the species
+     ~ an autopsy stablishing a bit of generalities and functioning of the species
+     ~ a combat analysis showing weaknesses and exploiting qualities, givin a bonus in damage. (check xenonauts posters entries)
  - Download CMP and ensure maps and everything else are up to date to keep purging the CTDs.
  - crear handob y floorob sprite nuevo estilo kriss vector de la Xsmg
  - cambiar granada de proximidad q no este desbloqueada al principio, q solo aparezca con el detector de movimientos #ojito
@@ -53,12 +64,11 @@ Link al drive:
  - fix all the relative routes inside the extrasprites.rul for this.
    * ojito, CHECAR y modificar los nombres de TODOS LOS nombres de los sprites en "unitSprites" folders.  
    * renombrar todos los archivos dentro de upedia races
-   * concretar de ordenar explosivos y melees en "items.rul" y "manufacture.rul"
+   * renombrar todos los archivos dentro de ufopaedia folder
 #####
 
 +EfrenEspartano help in Planes Changes:
  - firefly
-   * corregir error de posicion de equipamiento
    * resolver tema de la rampita para q no se desvien incorrectamente (probar poniendo 3 tus)
 
 #####
@@ -80,10 +90,11 @@ Link al drive:
  - modify acient abomination autopsy to be more bloody
  - Should create a new interrogation project for advanced races?
  - check to center and align ALL WEAPONS in the ufopedia (edit individually and let it be all to the left and equally margin Top/bot)  
- - mejorar descripciones ufopaedia de los edificios
  - eliminar articulos de cargadores de elerium alienigenas de ufopedia
  - hacer enorme pasada y correccion a los articulos de medallas
-   * corregir y mejorar todos los textos, reacomodar posicion en la foto, cambiar color de commendation basado en el tipo q sea? (ejemplo NEGROS para cosas POSTUMAS)
+   * corregir y mejorar todos los textos
+   * reacomodar posicion de medalla en la foto para que sea siempre simetrico
+   * cambiar color de commendation basado en el tipo q sea? (ejemplo NEGROS para cosas POSTUMAS)
    * darle prioridad a la del discurso de erwin (mover eso al articulo de la batalla de cabo esperanza)
      ~ inventar seccion de dossier mover lo de erwin aca
  - ponerle nombre chido a municion de aleacion(derivado al cambio del Xenominium/xelloy)
@@ -100,6 +111,7 @@ Link al drive:
 
 +Armor Changes:
  - esperar las insignias a los trajes de efren
+   * agregarle simbolito tambien a la boina
    * confirmar si luego se puede meter mas insignias en el paperdoll en base al rango del soldado
  - Remake the FLUFF TEXT for the armors
    * remake tiers names?
@@ -118,6 +130,9 @@ Link al drive:
      ~ placas de proteccion de metal
      ~ nodos de comunicacion
      ~ para mejora de punteria
+ - rehacer bolsillos de armaduras basica devolviendole el otro bolsillo
+   * quizas quitarle los bolsillos a la armadura personal?
+   * cambiarle nombre a "shoulders" por "vest" o algun equivalente q signifique que ponen sus cosas en el pecho
 #####
 
 +Weapons changes:
@@ -142,7 +157,6 @@ Link al drive:
  - rebalancear minigun mas "liviana" el arma en si, pero mas pesada en general xq necesitara una mochila especial de balas y bateria, que luego se mejorara en la Xtier
    * usar beltbox de municion como mochila fija para la bateria y las balas (blackops minigun box in xfiles)
    * add vapor trails and reduce bullet speed.
-   * agregar parametro "followProjectiles false" y crear un confAuto
    * agregarle que "cargar el arma desde el piso a las manos tarde bastantes tus porq incluye "ponerse la mochila especial"
  - agregar un cilindro al plasma de handcannon para que sea un revolver pesado?
  - usar el rifle polaco fb msbs como bullpup Xperimental
@@ -168,7 +182,8 @@ Link al drive:
      ~ uno de aleaciones
      ~ uno de material hyper pesado
      ~ uno "holografico"/de energia
-   * usar el metalhit.ogg como sonido     
+   * usar el metalhit.ogg como sonido
+ - confirmar que onda con el error del bulletsprite de la pistol taser.     
 #####
 
 +Units Changes:
@@ -199,9 +214,9 @@ Link al drive:
    * 5to nivel mechanical exosuit (necesitaria el uplift para usarse?)
      ~ podrian equiparsele armas a la armadura como los ligers de zoid?, medkits?
      ~ convertiria a los perritos en mejores unidades de soporte
-     ~ convertiria a los perros en el equivalente un "terro unit" para la especie humana
+     ~ convertiria a los perros en el equivalente un "terror unit" para la especie humana
  - tendria q crear las battlesprites, actualmente totalmente fuera de mis habilidades, pedir ayuda  
-
+ - ralentizar la velocidad de animacion de los perritos cuando caminan, asi se confirma q se activan todos los frames?
 #####
 
 +Vehicles Changes:
@@ -210,12 +225,13 @@ Link al drive:
  - intentar resolver error que drones ya no pueden cargar cosas
  - resolver sprite de hwp usando el spritesheet del coelacanth, para tener rueda y torreta movil
    * o en caso contrario, checar el outrunner de xfiles y confirmar como se mueven sus rueditas
-     ~ usa el drawingroutine numero 5 (sectopods)
+     ~ confirmado que usa el drawingroutine numero 5 (sectopods)
  - usar el sprite del tanque volador de xenonauts para remplazar los cyberdisc humanos
    * tendrian mrls como arma secundaria
      ~ tendrian un comportamiento de lobbed (usando el "arcingShot true"), perfectos para carpet bombing
- - con los drones basicos usar sprites de medusas para crear efecto que suben y bajan al menos un pixel cuando estan quietitos?
+ - con los drones basicos usar el drawing routine sprites de medusas para crear efecto que suben y bajan al menos un pixel cuando estan quietitos?
  - mantener las aspitas del shuriken, ponerle una porcion de aspas centrales al longbow?
+   * rehacer completamente el sprite del longbow
  - usar drone and large drones de xenonauts como actualizaciones y mejoras a mis drones clasicos
    * requeririan investigacion de anti gravity core, equivalente a las skystrike armors
  
@@ -245,6 +261,7 @@ Link al drive:
 #####
 
 +Sprites Changes:
+ - mejorar los sprites de la mindprobe? (bolita como el planeta del tesoro con muescas
  - revisar tier por tier
    * cuales handobs, floorobs y bigobs faltan (prioridad primeras dos opciones)
  - a sprites agregarle ropa interior y/o camisetas como las nuevas del USARMY (hacer SFW)
@@ -254,15 +271,18 @@ Link al drive:
  - agregar quadlentes subidos a las sprites de tier 1 de los soldados, luego agregar quadlentes ABAJO y averiguar si se puede configurar
    * preguntar como hacer pa q la sprite noctura y diurna sean diferentes, para implementar el cambio al primer tier como puse arriba
  - sectopods aliens son color azulito alloys, en cambio, los sectopods humanos, seran  marroncito, concretar esto
- - confirmar con efren para que me pase los nuevos uniformes con simbolito
- - revisar de donde puedo sacar versiones mejoradas de simbolos del mapa y globo (de tftd+ y de unexcom, ojito)
+   * ya esta cambiado el azulito, faltaria solamente crear los sectos para humanos
+ - revisar de donde puedo sacar versiones mejoradas de simbolos del mapa y globo 
+   * implementar los de de tftd+ y de unexcom, ojito
+     ~ tengo q usar el comando "marker" adjudicado a cada aeronave
 #####
 
 +Minor Changes:
  - hacer q manual promotions y autimatic promotions esten en "recomendados"
    * consecuentemente hacer lo mismo con "field promotions"
    * desactivar definitamente "explosiones en primer turno"
- - colocar correctamente el nuevo lore del Alien Alloy, ahora llamado Xenominium, xenium alloy corto y xelloy de jeerga.
+ - colocar correctamente el nuevo lore del Alien Alloy, ahora llamado Xenominium, xenium alloy corto y xelloy de jerga.
+   * consistiria en aleaciones de alta entropia de elementos conocidos y otros alienigenas, el verdadero problema no es saber q elemento es, sino la proporcion para mezclarlo correctamente y obtener las propiedades deseadas
  - clean every .rul file from unused lines, reorder and correct all annotations
    * "#----- topic -----#" should be the correct
    * eliminar todos lo que tengan exceso de guiones
@@ -271,6 +291,7 @@ Link al drive:
  - plane cannon 30 mm gau8/a avenger
    * desbloquear luego de investigar alien alloys? o crear una version mejorada con esto
  - rename the entirety of weapons of planes
+   * ya casi listo
  - rename the tank plasma cannon
  - rename planes plasma cannon
  - agregar filtros a manufactures para hacerlo mas granular
@@ -290,17 +311,19 @@ Link al drive:
    * el entrenamiento requiere superar la claustrofobia? por lo tanto requiere un minimo de bravery
      ~ todos los tanques seran monoplazas pero el piloto no puede salir de manera rapida asi q al haber una destruccion permanente el piloto muere
      ~ el lore sera q una vez armado el tanque, se requieren instalaciones especiales para retirarlo y sacar al piloto de manera segura
+     ~ crearle algun edificio especial q ayude a la manutencion de los vehiculos?
    * integrar sectopods con pilotos humanos, seran marroncitos como en vainilla para mantener la homogeneidad del bando humano
    * cuando se "destruyan" quedara un "chassis derruido q puede repararse".
  - cambiar todos los drones a un sistema basado en "una plataforma cpu que se puede insertar en distintos chasis y con diferentes equipamientos.
-   * con esto el dron terrestre tendria una version con lanzacohetes, una version con ametralladora de apoyo, una con escopeta de ingreso
+   * con esto el dron terrestre seria una plataforma a la cual se le podrian equipar distintas armas, ejemplo una version con lanzacohetes, una version con ametralladora de apoyo, una con escopeta de ingreso
+   * o hacerlo un proyecto para cambiar de "arma dentro del chassis" q requiera espacio en el workshop e ingenieros
    * adicionalmente tendria distintas "armaduras"
      ~ un chasis ligero, muchos tus pero poca resistencia
      ~ reforzado , mas pesado y fuerte pero sin tantos tus
      ~ versiones con aleaciones primero una basica y luego uno avanzado
    *estos cambios brindarian mucha mas longevidad al uso de drones por parte de xcom     
  - agregar inventory sprites para civiles y variedad de civiles tambien (posiblemente salga de XFILES)
- - cambiar y agregar mucha mas variedad de musica y canciones chidas
+ - agregar mas claramente la recomendacion del mod de canciones
  - implementar un posible sistema de Armor chipping y degradation
  - checar all the reloading tus for every weapon.
    * modificar tiempos de recarga, balancear tiempos de transferencia de articulos de un bolsillo a otro
@@ -312,7 +335,10 @@ Link al drive:
          tuUnload
    * >incluir esto "you need to additionally pay the cost of moving the ammo from its current inventory slot into a hand slot! Consider that when balancing reload costs.
    * >"tener en consideracion esto: since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
-
+ - rebalancear TODO EL PESO de todos los objetos para que tengan valores mas intuitivos
+   * se necesitaria un rebalanceo total de la fuerza de los soldados de modo q se mantengan valores coherentes?
+ - cambio total en el precio de los articulos y todos los proyectos
+   * para q tengan mas coherencia los numeros, o al menos como minimo, reducir el costo de todas las primeras armas para decir q es una notacion cientifica y en realidad esta dividido entre mil  
 #####
 
 +Long term Changes:

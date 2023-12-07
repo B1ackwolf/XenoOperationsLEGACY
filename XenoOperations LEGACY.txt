@@ -76,35 +76,40 @@ Know Errors:
   -A crapton of missing UFOPaedia entries
   -Random CTDs when loading battlescapes, BE SURE TO better to SAVE PREVIOUSLY to the moment your transport crafts arrives to any mission.
 Changelog:
+#################
+0.97.05 complete LE
 
-
-
+sprites:
+-small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
+  * added a xcom patch.
 ##########
 
-version 0.97.05 LE Changelog:
+**Version 0.97.05 beta Changelog:**
 
-changed entirely the appearance of the xcom base with new props, tiles and assets, dumped from tftd
-improved the storagetiles of the basic general store facilitie and the hangar to fit the newer map disposition
+Visual Overhaul:
+- Completely revamped the appearance of the Xcom base with new props, tiles, and assets extracted from TFTD.
+- Improved storage tiles for the basic general store facility and the hangar to align with the updated map disposition.
 
-tweaked some numbers:
-small living quarters now can hold 20 units (down from 25)
-large living quarters can only hold 100 units (down from 125)
+Balance Tweaks:
+- Adjusted some capacity numbers:
+  * Small living quarters can now accommodate 20 units (down from 25).
+  * Large living quarters have a reduced capacity of 100 units (down from 125).
 
+Bug Fixes:
+- Fixed an issue preventing the Dagger from being loaded in transport troops or during base defense missions.
+- Updated the Georgia flag to the correct version from 2004 (previously using an outdated flag).
+- Resolved deployment problems for units in transport planes:
+  * The Dragonfly now correctly loads its 12 soldiers, and weapon spawning tiles have been relocated.
+  * Similar adjustments made to the Firefly for correct soldier spawning, with item spawning tiles moved to a safer location away from the ramp.
+- Corrected the description of the Sectopod autopsy in the UFOpaedia.
+- Fixed a UFOPaedia CTD issue related to the XCf0-bishop, ensuring the picture displays correctly. Thanks Daev for the report.
+- Solved an issue with the Miniguns' behavior, preventing the camera from excessively following each shot and causing flickering in certain situations.
 
-bugfix:
-- solved an mistaken property that impeded the dagger to be loaded either in a transport troop or in base defense mission 
-- solved that georgia flag was using a very old version (prior to new millenia, correct by the time of game release, totally anachronic now, updated to newest flag of 2004)
-- solved some problems with the deployments of units in transport planes
-  * the dragonfly can load their 12 soldiers correctly, and moved the tiles where weaponry appears
-  * same treatment for the firefly, all soldiers should spawn correctly , item spawning tile moved to somewhere more safe away from the ramp
--solved wrong description of sectopod autopsy in ufopaedia
--solved an ctd in ufopaedia with the XCf0-bishop. the picture correctly shows now.
--solved an issue with miniguns behaviour, the camera wont follow every shot, causing heavy flickering in some situations 
 #########
 
 Version 0.97.04 LE Changelog:
 
-**Map Tweaks:**
+Map Tweaks:
 - Made changes to a substantial number of maps:
   * The Dragonfly finally got corrected , desing recieved some additional improvements.
   * The Firefly got completely redesigned.
@@ -112,7 +117,7 @@ Version 0.97.04 LE Changelog:
   - Some sections now have computers with moving sprites, including beeping screens.
   - The security station has the white picket fence replaced with something substantially better (temporary change until the complete overhaul of the XCOM base).
 
-**Tweaks:**
+Tweaks:
 - Successfully completed the restructuring of the RESOURCES folder, streamlining the workflow for implementing new elements.
 - Added temporary ufopedia images to eliminate any blank/black spaced entries, although further artwork improvements are planned.
 - Changed the floorsprite of Elerium to enhance visual coherence (goodbye purple rubber ball, hello new ambar crystal)
@@ -128,19 +133,19 @@ Version 0.97.04 LE Changelog:
 - Eliminated all traces of 2012 music to reduce mod size.
 - Added more versions of improved sounds from the HQSounds mod by DAEDALUS to most weapons, aliens and effects.
 
-- Bugfixes:
-  - Resolved issues with dog sounds causing CTDs and providing better cues for dog attacks.
-  - Returned the bulletsprite to the XPDW.
-  - Ensured aliens cannot use explosives on the first turn.
-  - Implemented changes to MAPSCRIPT files to potentially reduce starting mission CTDs.
-  - Fixed handobs for various items.
-  - Corrected names in some Muton variants.
-  - Addressed an issue with the Amiga font not having the correct palette format.
-  - Integrated changes from XROSS Visual Upgrade into the main geoboard menu.
-  - Fixed errors in research paths for various items.
-  - Resolved a problem related to duplicate final mission unlocks.
-  - Used pedrothezeroTool to address acknowledged problems in VSC, improving mod stability.
-  - Temporarily deactivated "gothic church" maps due to their inconsistent performance.
+Bugfixes:
+ - Resolved issues with dog sounds causing CTDs and providing better cues for dog attacks.
+ - Returned the bulletsprite to the XPDW.
+ - Ensured aliens cannot use explosives on the first turn.
+ - Implemented changes to MAPSCRIPT files to potentially reduce starting mission CTDs.
+ - Fixed handobs for various items.
+ - Corrected names in some Muton variants.
+ - Addressed an issue with the Amiga font not having the correct palette format.
+ - Integrated changes from XROSS Visual Upgrade into the main geoboard menu.
+ - Fixed errors in research paths for various items.
+ - Resolved a problem related to duplicate final mission unlocks.
+ - Used pedrothezeroTool to address acknowledged problems in VSC, improving mod stability.
+ - Temporarily deactivated "gothic church" maps due to their inconsistent performance and costant CTDs.
   
 #################
 ------------------------
