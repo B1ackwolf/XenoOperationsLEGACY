@@ -78,7 +78,10 @@ Know Errors:
 Changelog:
 #################
 0.97.05 complete LE
-
+VISUAL overhaul:
+-improved the mcd files with extra assets (will be recolored later)
+- retouched the laboratory building
+- fixed some "invisible floor squares" on the second level of the corridors
 sprites:
 -small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
   * added a xcom patch.
