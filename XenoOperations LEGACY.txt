@@ -79,9 +79,12 @@ Changelog:
 #################
 0.97.05 complete LE
 VISUAL overhaul:
--improved the mcd files with extra assets (will be recolored later)
-- retouched the laboratory building
+-improved the mcd files with extra assets , correctly coloured to xcom eu pallete (will be retouched later, laser dots to RED, purplish area to a more gray metalic hue)
+- retouched the workshop building
+  *added and recolored the robot arm assembler
+   ~changed from intense pink to a more industrial orange
 - fixed some "invisible floor squares" on the second level of the corridors
+
 sprites:
 -small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
   * added a xcom patch.
