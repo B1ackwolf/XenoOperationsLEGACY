@@ -169,6 +169,7 @@ crafts:
       mapDataSets:
         - BLANKS
         - XOPSTRANSPORT2
+        - XOPSTRANSPORT3
       mapBlocks:
         - name: XOPSHURRICANE
           width: 20
@@ -219,6 +220,7 @@ crafts:
       mapDataSets:
         - BLANKS
         - XOPSTRANSPORT3
+        - XOPSTRANSPORT2
       mapBlocks:
         - name: XOPSOVERLORD
           width: 10

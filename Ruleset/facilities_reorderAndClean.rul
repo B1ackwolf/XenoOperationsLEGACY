@@ -3,6 +3,20 @@
 #recordar ponerle nuevos 
 facilities:
 #----- Vainilla Buildings -----#
+  - type: STR_MISSILE_DEFENSES
+    spriteShape: 1
+  - type: STR_LASER_DEFENSES
+    spriteShape: 1
+  - type: STR_PLASMA_DEFENSES
+    spriteShape: 1
+  - type: STR_FUSION_BALL_DEFENSES
+    spriteShape: 1
+  - type: STR_GRAV_SHIELD
+    spriteShape: 1
+  - type: STR_MIND_SHIELD
+    spriteShape: 1
+  - type: STR_HYPER_WAVE_DECODER
+    spriteShape: 1
   - type: STR_LIVING_QUARTERS
     mapName: XBASE_01
     personnel: 20
@@ -18,7 +32,7 @@ facilities:
         build: 3
         refund: 1
     spriteShape: 1
-    spriteFacility: 100
+    spriteFacility: 25
     buildCost: 400000
     buildTime: 18
     monthlyCost: 15000
@@ -58,7 +72,7 @@ facilities:
     listOrder: 6960
   - type: STR_CORRIDOR
     spriteShape: 3
-    spriteFacility: 103
+    spriteFacility: 3
     buildCost: 10000
     buildTime: 4
     monthlyCost: 2000

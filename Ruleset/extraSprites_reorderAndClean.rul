@@ -960,9 +960,33 @@ extraSprites:
       58: Resources/UxUI/BaseBits/PlaneSprites/XTP3_base.gif
       150: Resources/UxUI/BaseBits/PlaneSprites/XTP4_base.gif      
       151: Resources/UxUI/BaseBits/PlaneSprites/XTPX_base.gif
-      100: Resources/UxUI/BaseBits/BuildingSprites/AlienContainment.gif
+      ####
+      0: Resources/UxUI/BaseBits/BuildingSprites/EARTH_BASEBITS.png
+      1: Resources/UxUI/BaseBits/BuildingSprites/SQUARE_BASEBITS.png
+      2: Resources/UxUI/BaseBits/BuildingSprites/OCTAGON_BASEBITS.png
+      3: Resources/UxUI/BaseBits/BuildingSprites/CROSS_BASEBITS.png
+      9: Resources/UxUI/BaseBits/BuildingSprites/HANGAR_1_BASEBITS.png
+      10: Resources/UxUI/BaseBits/BuildingSprites/HANGAR_2_BASEBITS.png
+      11: Resources/UxUI/BaseBits/BuildingSprites/HANGAR_3_BASEBITS.png
+      12: Resources/UxUI/BaseBits/BuildingSprites/HANGAR_4_BASEBITS.png
+      17: Resources/UxUI/BaseBits/BuildingSprites/ACCESS_LIFT_BASEBITS.png
+      18: Resources/UxUI/BaseBits/BuildingSprites/LIVING_QUARTERS_BASEBITS.png
+      19: Resources/UxUI/BaseBits/BuildingSprites/LABORATORY_BASEBITS.png
+      20: Resources/UxUI/BaseBits/BuildingSprites/WORKSHOP_BASEBITS.png
+      21: Resources/UxUI/BaseBits/BuildingSprites/SMALL_RADAR_BASEBITS.png
+      22: Resources/UxUI/BaseBits/BuildingSprites/LARGE_RADAR_BASEBITS.png
+      23: Resources/UxUI/BaseBits/BuildingSprites/MISSILE_DEFENSES_BASEBITS.png
+      24: Resources/UxUI/BaseBits/BuildingSprites/GENERAL_STORES_BASEBITS.png
+      25: Resources/UxUI/BaseBits/BuildingSprites/ALIEN_CONTAINMENT_BASEBITS.png
+      26: Resources/UxUI/BaseBits/BuildingSprites/LASER_DEFENSES_BASEBITS.png
+      27: Resources/UxUI/BaseBits/BuildingSprites/PLASMA_DEFENSES_BASEBITS.png
+      28: Resources/UxUI/BaseBits/BuildingSprites/FUSION_BALL_DEFENSES_BASEBITS.png
+      29: Resources/UxUI/BaseBits/BuildingSprites/GRAVSHIELD_BASEBITS.png
+      30: Resources/UxUI/BaseBits/BuildingSprites/MINDSHIELD_BASEBITS.png
+      31: Resources/UxUI/BaseBits/BuildingSprites/PSI_LAB_BASEBITS.png
+      32: Resources/UxUI/BaseBits/BuildingSprites/HYPERWAVE_BASEBITS.png
+####
       700: Resources/UxUI/BaseBits/BuildingSprites/Gym.png
-      103: Resources/UxUI/BaseBits/BuildingSprites/Corridor.gif
       104: Resources/UxUI/BaseBits/BuildingSprites/SecurityCheckpoint.gif
       105: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP1.gif
       106: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP2.gif
