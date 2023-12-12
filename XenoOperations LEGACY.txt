@@ -78,8 +78,27 @@ Know Errors:
 Changelog:
 #################
 0.97.05 complete LE
+
+Sprites changes
+ - xcom transport planes and fighters recieved a general aesthetic retouch
+   * the xcf0 recieved small improvements to their basebit sprite shadowing
+   * the XCF1 got their vainilla appearance totally renewed, now its based on the 2012 firaxis RAVEN figther
+     ~ included a custom artwork for it ufopaedia entry
+	 ~ recieved a matching basebit and interception window sprite to reflect this change
+   * the XCF2 also recieved some improvements:
+     ~ a custom made artwork for the ufopaedia based on the x59 marauder from the game XENONAUTS.
+	 ~ some slight changes to the basebit and inticon sprites.
+   * the XCF3 also recieved some slight improvements to their basebit sprite
+
+   * xrs 71 recieved small changes
+   * dragonfly recieved subtle changes in the basebit sprite
+   * firefly recieved changes of the basebit sprite
+   * small improvements for the goliath sprites
+   * small improvements to the hercules sprites
+   * overlord recieved improvements in the basebit sprite
+   
 VISUAL overhaul:
--improved the mcd files with extra assets , correctly coloured to xcom eu pallete (will be retouched later, laser dots to RED, purplish area to a more gray metalic hue)
+-improved the mcd files with extra assets , correctly coloured to xcom eu pallete
 - retouched the workshop building
   *added a better assembly board  
   *added and recolored the robot arm assembler
@@ -88,7 +107,7 @@ VISUAL overhaul:
 - improved the fussion ball cannon building, added a few advanced monitors to interface
 sprites:
 -small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
-  * added a xcom patch.
+  * added a xcom patch on xops tier
 ##########
 
 **Version 0.97.05 beta Changelog:**
