@@ -835,9 +835,11 @@
 ##### reorder everything above this #####-------------------------------------
 #GENERAL
 #-----misc
+      STR_LEFT_SHOULDER: "LEFT POCKETS"
+      STR_RIGHT_SHOULDER: "RIGHT POCKETS"  
       STR_BELT: "       BELT"
       STR_QD_SLOT: "HOLSTER"
-      STR_NULL_JETPACK: JETPACK
+      STR_NULL_JETPACK: "JETPACK"
       STR_NULL_BACKPACK: ""
       STR_NULL_SMALL_BACKPACK: ""
       STR_NULL_BELT: "" 
@@ -1116,7 +1118,7 @@
       STR_CARCHARODON_CORPSE: Carcharodon Corpse
       STR_ANCIENT_ABOMINATION_AUTOPSY: Abomination autopsy
       STR_CARCHARODON_AUTOPSY: Carcharodon autopsy
-#---------UFOs
+#---------UFOs, ojito reordenar
       STR_SURVEY: Survey Skiff
       STR_RAIDER: Raider Gunship
       STR_SCANNER: Scanner Boat
@@ -1131,13 +1133,22 @@
       STR_DESTROYER: Battlecruiser
       STR_TERROR_SHIP: Terror Battleship
       STR_BATTLESHIP: Dreadnought
+
+      STR_MEDIUM_SCOUT_UFOPEDIA: This small ship is the Alien's dedicated reconnaissance ship. It has a host of sensory systems which come at the cost of weapons and armor. Due to its small crew and fragile hull, this vessel poses a low threat to XCom craft.
+      STR_LARGE_SCOUT_UFOPEDIA: This vessel is slightly larger than the Scout and is used primarily for alien research. It hosts a number of sensors and much of the main deck is taken up by a field laboratory. Although having a larger hull than the scout, its armor and weapons are still weak as most of the craft's power is used for its delicate sensory and laboratory equipment.
+      STR_SCANNER_UFOPEDIA: This small UFO is loaded with sensors attuned to scan human brain waves. It is used by the Aliens to search for large human population centers ripe for terror missions as well as to hunt down hidden XCom facilities. Its dedicated sensory systems, however, make this craft delicate and lightly armed.
+      STR_CLONER_UFOPEDIA: This medium sized vessel hosts an expansive cloning lab. The lab is used to quickly populate new alien facilities on earth. However, the cloning labs have a more sinister use. The Aliens can use this ship's labs to clone puppet political leaders and sleeper agents for the purpose of infiltration.
+      STR_CONSTRUCTOR_UFOPEDIA: This huge alien vessel is weakly armed and armored despite its size. It hosts a number of supplies and construction equipment used for building new alien facilities on earth.
+      STR_DESTROYER_UFOPEDIA: This is a well armored and armed vessel, but relatively lightly crewed for it size. This alien vessel seems built solely for air and space combat.
+      STR_TERROR_SHIP_UFOPEDIA: The Battleship contains a large hold for numerous terror troops in addition to its formidable weaponry. This powerful ship is used as both a general purpose combat ship and heavy troop transport usually to terror sites.
+      STR_BATTLESHIP_UFOPEDIA: The dreadnought is the largest and most powerful alien craft until now. It is normally the primary alien mission craft, equipped with powerful weapons and numerous crew members.
+      STR_RAIDER_UFOPEDIA: The Raider is a small UFO designed for aerial combat. Despite its small size, it has excellent armor and a rapid fire plasma array weapon. Although well armed, the craft only has a few crew members.
+      STR_SURVEY_UFOPEDIA: This small ship uses various sensors to survey Earth's geographic makeup. The sensory system can do detailed scans of the Earth's surface. This data is used by larger research ships. It has no weapons in addition to a small crew and the delicate sensory systems make this ship easy prey for XCom craft.
+      STR_LABSHIP_UFOPEDIA: This large ship contains numerous research facilities and has a large staff. Its weapons and armor are sub par for a UFO of its size and its crew are lightly armed.
 #-----Human Weapons
 
       STR_TASER: Taser Pistol
       STR_TASER_CLIP: Taser Shock Clip
-
-      # STR_SMALL_ROCKET:
-      # STR_LARGE_ROCKET: 
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
       STR_HVMACHINE_PISTOL: X1 Machine Pistol
       STR_HVMACHINE_PISTOL_CLIP_ALLOY: 9mm Alloys Magazine
@@ -1235,7 +1246,9 @@
       STR_HC_HE_AMMO: 40mm Frag Grenade 
       STR_HC_AP_AMMO: 40mm Smoke Grenade
       STR_HC_I_AMMO: 40mm Napalm Grenade
-
+      # STR_ROCKET_LAUNCHER:
+      # STR_SMALL_ROCKET:
+      # STR_LARGE_ROCKET: 
 
 
 
@@ -1543,17 +1556,6 @@
       STR_PSIONICS: Psionics
 #UFOPAEDIA
 #-----UFOPaedia UFOS and UFO Systems
-      STR_MEDIUM_SCOUT_UFOPEDIA: This small ship is the Alien's dedicated reconnaissance ship. It has a host of sensory systems which come at the cost of weapons and armor. Due to its small crew and fragile hull, this vessel poses a low threat to XCom craft.
-      STR_LARGE_SCOUT_UFOPEDIA: This vessel is slightly larger than the Scout and is used primarily for alien research. It hosts a number of sensors and much of the main deck is taken up by a field laboratory. Although having a larger hull than the scout, its armor and weapons are still weak as most of the craft's power is used for its delicate sensory and laboratory equipment.
-      STR_SCANNER_UFOPEDIA: This small UFO is loaded with sensors attuned to scan human brain waves. It is used by the Aliens to search for large human population centers ripe for terror missions as well as to hunt down hidden XCom facilities. Its dedicated sensory systems, however, make this craft delicate and lightly armed.
-      STR_CLONER_UFOPEDIA: This medium sized vessel hosts an expansive cloning lab. The lab is used to quickly populate new alien facilities on earth. However, the cloning labs have a more sinister use. The Aliens can use this ship's labs to clone puppet political leaders and sleeper agents for the purpose of infiltration.
-      STR_CONSTRUCTOR_UFOPEDIA: This huge alien vessel is weakly armed and armored despite its size. It hosts a number of supplies and construction equipment used for building new alien facilities on earth.
-      STR_DESTROYER_UFOPEDIA: This is a well armored and armed vessel, but relatively lightly crewed for it size. This alien vessel seems built solely for air and space combat.
-      STR_TERROR_SHIP_UFOPEDIA: The Battleship contains a large hold for numerous terror troops in addition to its formidable weaponry. This powerful ship is used as both a general purpose combat ship and heavy troop transport usually to terror sites.
-      STR_BATTLESHIP_UFOPEDIA: The dreadnought is the largest and most powerful alien craft until now. It is normally the primary alien mission craft, equipped with powerful weapons and numerous crew members.
-      STR_RAIDER_UFOPEDIA: The Raider is a small UFO designed for aerial combat. Despite its small size, it has excellent armor and a rapid fire plasma array weapon. Although well armed, the craft only has a few crew members.
-      STR_SURVEY_UFOPEDIA: This small ship uses various sensors to survey Earth's geographic makeup. The sensory system can do detailed scans of the Earth's surface. This data is used by larger research ships. It has no weapons in addition to a small crew and the delicate sensory systems make this ship easy prey for XCom craft.
-      STR_LABSHIP_UFOPEDIA: This large ship contains numerous research facilities and has a large staff. Its weapons and armor are sub par for a UFO of its size and its crew are lightly armed.
       STR_UFO_POWER_SOURCE: UFO Power Source
       STR_UFO_NAVIGATION: UFO Computer
       STR_UFO_CONSTRUCTION: UFO Plasma Projector

@@ -37,7 +37,8 @@ The Following base mods won't harm the game, but will have no effect if enabled.
 TO THOSE WHO WISH TO USE MY GRAPHICS
 I only ask that I get a mention in the credits. Modders may use whatever they wish.
   
-Thanks to...
+Credits and special Thanks to:
+
 All of the OpenXcom crew for allowing me to play my favorite game again while also giving me the means to tweak it.
 Warboy, robin, Tyran_nick, Dioxine, SolariusScorch since I copied/mimicked a lot of their code
 Dioxine for letting me steal his expanded Living Quarters and Stores and for his inventory screen recolor.
@@ -51,8 +52,12 @@ Anyone else I may have stolen sprites from at one point without realizing it (pr
 Music by www.pacdv.com/sounds/ who I stole their music for sound effects
 Big thank you to pkrcel, Duke_Falcon, cjones, and Arthanor who gave me detailed feedback and ThatDude who found a couple of nasty bugs for me.
 Beta Testers and others who gave me feedback: smexyvami,  Mr. Quiet, kkmic,	robin, Recruit69, ThatDude, BlackLibrary, ivandogovich, Dioxine, KingMob4313, the_third_curry, Yankes, Solarius Scorch, Arthanor, Infini, VSx86, XCOMFan419, MFive, cjones, moghopper, SIMON, and Squaddie Perseus.
+
 And
 Anyone who gives me constructive feedback, nonconstructive feedback, tries the beta, and/or strokes my ego by telling me my mod is awesome.
+
+
+
 
 A few tips
 -  The Minigun is very useful for base defense since it is basically an area of effect weapon without an explosion. Park a soldier with a minigun at the end of a choke point and laugh. Otherwise it is very difficult to use and probably the worst weapon to bring to a terror site.
@@ -88,7 +93,7 @@ Sprites changes
    * the XCF2 also recieved some improvements:
      ~ a custom made artwork for the ufopaedia based on the x59 marauder from the game XENONAUTS.
 	 ~ some slight changes to the basebit and inticon sprites.
-   * the XCF3 also recieved some slight improvements to their basebit sprite
+   * the XCF3 got their sprite completely revamped, now uses one made by Efrenespartano, based on the SARACEN from xenonauts
 
    * xrs 71 recieved small changes
    * dragonfly recieved subtle changes in the basebit sprite
@@ -108,7 +113,10 @@ VISUAL overhaul:
 sprites:
 -small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
   * added a xcom patch on xops tier
-##########
+
+BugFixes: removed the weapon slot from the dragonfly
+
+~~~~~~~~~~~~~~~~~~~~~~
 
 **Version 0.97.05 beta Changelog:**
 

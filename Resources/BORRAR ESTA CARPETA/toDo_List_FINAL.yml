@@ -1,23 +1,24 @@
 #ideas for the mod, in any specific order:
 
-
-+ Priorities Fixes:
++ PRIORITIES FIXES:
+ - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
  - Review my list of options to determine which ones can be marked as mandatory and which as recommended.
  - "[FATAL] OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4."
  - No matter how I modify the problem in the alien deployments tab, it still gives an error.
-   * Continue investigating with Efren to see what's going on.
+   * Continue investigating with EfrenEspartano to see what's going on.
  - Organize the chaotic situation I have regarding medical articles, establish a unique nomenclature.
    * Use "medikit" consistently in str_ references, strings, and images.
  - Document everything in Pascal within the weaponFx folder.
  - Delete the sounds folder as I test the new sounds, be careful.
  - Finish configuring the remaining 5 buildings to match the new art style of the bases similar to TFTD.
-   * The following buildings are pending:
+   * The following buildings are pending
      ~ Complete the large storage facility, add all props, and illuminate.
      ~ Large laboratory
      ~ Large workshop
      ~ Large hyperwave decoder
      ~ Large radar network
-   * Obtain the TFTD basebits and edit them to match the new designs.
+     ~ Large PsiLab
+     ~ Create a "Gauss Defense" building to ensure compatibility with the Buildings Uplift mod when used alongside FMP.
    * Enhance ufopaedia descriptions of the buildings.
      ~ Confirm that the hangar can now accommodate two aircraft.
      ~ Update the absurd radar information with coherent nautical mile ranges.
@@ -30,7 +31,7 @@
  - Adjust cruiser maps to accommodate transport ships.
    * With the landing pads I already created, I would need to increase the landing zone space to 20x20.
    * Designate this area as the correct landing area.
- - Investigate how to resolve the following error:
+ - Investigate how to resolve the following error
    * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
  - Thoroughly check the entire research tree; there seem to be many dead ends in important research.
    * Prioritize "UFO Components."
@@ -40,7 +41,7 @@
  - Review the changes made to alien species and reclassify their names accurately.
    * Pay special attention to Muton Commanders and Muton Warlords.
    * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
-   * Every race should consist of these projects:
+   * Every race should consist of these projects
      ~ A live study discussing the behavior and characteristics of the species.
      ~ An autopsy establishing generalities and the functioning of the species.
      ~ A combat analysis showing weaknesses and exploiting qualities, giving a damage bonus. (Check Xenonauts posters entries).
@@ -49,340 +50,365 @@
  - Change the proximity grenade so that it's not unlocked initially, only appears with the motion detector.
  - Resolve the Suppressed Error for STR_SECTOPOD_ELITE_TERRORIST.
    * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
-   * Suppressed Error for 'mod': Both 'STR_CYDONIA_OR_BUST' and 'STR_ENDGAME' research are marked as 'unlockFinalMission: true'.
+   * Suppressed Error for 'mod'/ Both 'STR_CYDONIA_OR_BUST' and 'STR_ENDGAME' research are marked as 'unlockFinalMission / true'.
  - Error in the new "inventory" image for enemies.
    * Firstly, add remaining images of enemy inventory.
    * Review the size of the "slots" position for 2x2 units.
 
-+ Finish Reorganizing Folders:
+#####
+
++ FINISH REORGANIZING FOLDERS:
  - Fix all relative routes inside extrasprites.rul for this.
    * Be cautious, CHECK and modify the names of ALL sprites in "unitSprites" folders.
    * Rename all files within upedia races.
    * Rename all files within ufopaedia folder.
 
-+ EfrenEspartano Help in Planes Changes:
+#####
+
++ EFRENESPARTANO HELP IN PLANES CHANGES:
  - Firefly
    * Resolve the issue with the ramp so that it doesn't deviate incorrectly (test by placing 3 tus).
 
-+ Improvements to Xross UI Mod Relative to New Ethereals:
+#####
+
++ IMPROVEMENTS TO JACKSTRAW2323 MOD RELATIVE TO NEW ETHEREALS:
  - The cape shouldn't disintegrate but should drop to the floor.
  - The cape should be the actual corpse.
  - Ethereal disintegration should create a psionic scream, morale checking, and panicking enemy nearby troops.
  - Update lore to reflect this; you only recover the cape and dust until you conduct an interrogation, finding a proper specimen to study
  - change Ethereal scientific name to tetramand?.
- 
-#####
-
-+Ufopedia Changes:
-
-- Reorder every Ufopedia and create new sections.
-- Rewrite all alien races Ufopedia entries.
-- Provide realistic equivalents for all weapon descriptions.
-- Modify Ancient Abomination autopsy to be more detailed.
-- Consider creating a new interrogation project for advanced races.
-- Center and align ALL WEAPONS in the Ufopedia.
-- Remove articles about alien Elerium chargers from Ufopedia.
-- Conduct a thorough review and correction of medal articles.
-  * Correct and improve all texts.
-  * Rearrange the position of the medal in the photo for symmetry.
-  * Change commendation color based on the type (e.g., BLACK for posthumous).
-  * Give priority to Erwin's speech (move that to the Cape Hope Battle article).
-    ~ Invent a dossier section and move Erwin's information there.
-- Give a cool name to alloy ammunition (due to Xenominium/xelloy change).
-- Create better lore for tech ammo, something like "intelligent ammunition with hollow points, using Codex technology, a small onboard computer determines the depth and chooses the best time to detonate, causing shrapnel and severe internal injuries, GYROJET/DUMDUM?"
-- Adjust the position of text in certain reports.
-  * For heavy weapons platforms (lower it a bit for a better view of the drawing and separate paragraphs correctly).
-- Use the extraNerdyPediaInfoType command in necessary articles.
-  * Test how it works; currently set at 0, 1 summarized, and 2 complete.
-- Create images for mech units on a 6x6 grid with the image made for Ufopedia.
-- Invent new Elerium lore related to Sovereigns.
-  * Check conversation with Efren again; basically, Sovereigns are like sheep to shear Elerium.
-  * Rearrange the project to recreate Elerium, needing a live pair in the base.
 
 #####
 
-+Armor Changes:
++ UFOPEDIA CHANGES:
+ - Reorder every Ufopedia and create new sections.
+ - Rewrite all alien races Ufopedia entries.
+ - Provide realistic equivalents for all weapon descriptions.
+ - Modify Ancient Abomination autopsy to be more detailed.
+ - Consider creating a new interrogation project for advanced races.
+ - Center and align ALL WEAPONS in the Ufopedia.
+ - Remove articles about alien Elerium chargers from Ufopedia.
+ - Conduct a thorough review and correction of medal articles.
+   * Correct and improve all texts.
+   * Rearrange the position of the medal in the photo for symmetry.
+   * Change commendation color based on the type (e.g., BLACK for posthumous).
+   * Give priority to Erwin's speech (move that to the Cape Hope Battle article).
+     ~ Invent a dossier section and move Erwin's information there.
+ - Give a cooler name to alloy ammunition (due to Xenominium/xelloy change).
+ - Create better lore for tech ammo, something like "intelligent ammunition with hollow points, using Codex technology, a small onboard computer determines the depth and chooses the best time to detonate, causing shrapnel and severe internal injuries, GYROJET/DUMDUM?"
+ - Adjust the position of text in certain reports.
+   * For heavy weapons platforms (lower it a bit for a better view of the drawing and separate paragraphs correctly).
+ - Use the extraNerdyPediaInfoType command in necessary articles.
+   * Test how it works; currently set at 0, 1 summarized, and 2 complete.
+ - Create images for mech units on a 6x6 grid with the image made for Ufopedia.
+ - Invent new Elerium lore related to Sovereigns.
+   * Check conversation with EfrenEspartano again; basically, Sovereigns are like sheep to shear Elerium.
+   * Rearrange the project to recreate Elerium, needing a live pair in the base.
 
-- Add insignias to Efren's suits.
-  * Add a symbol to the beret as well.
-  * Confirm if more insignias can be added to the paperdoll based on the soldier's rank.
-- Remake the FLUFF TEXT for the armors.
-  * Consider renaming tiers.
-  * Rename each armor individually.
-  * Rename how all armor colors are referred to.
-  * Focus especially on bodies and corpses.
-- Improve armor sprites.
-  * Create new sprites with cool visors for every pilot version.
-  * Create different versions based on soldier sizes.
-  * Ensure advanced versions cover ALL skin (test with a black background as I update).
-  * Use the belly from female personal armor for non-muscular men.
-- Add bulbs on hands, hips in the battlescape sprites of nerve armors.
-- Implement a new pocket configuration.
-  * Rearrange the positions of current pockets.
-  * Add a new pocket where only "armor modules" can be placed.
-    ~ Metal protection plates.
-    ~ Communication nodes.
-    ~ For aiming improvement.
-- Redo basic armor pockets, returning the other pocket.
-  * Perhaps remove pockets from personal armor.
-  * Change the name from "shoulders" to "vest" or an equivalent meaning they put their things on the chest.
-  
+#####
+
++ ARMOR CHANGES:
+
+ - Add EfrenEspartano's custom made insignias to all suits.
+   * Add a symbol to the beret as well.
+   * Confirm if more insignias can be added to the paperdoll based on the soldier's rank.
+ - Remake the FLUFF TEXT for the armors.
+   * Consider renaming tiers.
+   * Rename each armor individually.
+   * Rename how all armor colors are referred to in "str_" references.
+   * Focus especially on bodies and corpses png and gif files.
+ - Improve armor sprites.
+   * Create new sprites with cool visors for every pilot version.
+   * Create different versions based on soldier sizes.
+   * Ensure advanced versions cover ALL skin (test with a black background as I update).
+   * Use the belly from female personal armor for non-muscular men.
+ - Add bulbs on hands, hips in the battlescape sprites of nerve armors.
+ - Implement a new pocket configuration.
+   * Add a new pocket where only "armor modules" can be placed.
+     ~ Metal protection plates.
+     ~ Communication nodes.
+     ~ For aiming improvement.
+ - Redo basic armor pockets, returning the other pocket.
+   * Perhaps remove pockets from personal armor.
+
 ######
 
-+Weapons Changes:
++ Weapons Changes:
+ - Ensure all grenades have an implemented fuse type.
+   * No fuse for basic grenades and other initial weapons.
+   * Advanced explosives with a 3-turn timer.
+   * Better balancing of ordnance.
+   * This would differentiate three types of heavy explosives
+     ~ C4/Semtex as vanilla.
+     ~ A lighter satchel charge without a counting fuse that could be created.
+     ~ A breaching charge.
+ - Check that by eliminating certain shot types, weapons now have different maximum ranges in some instances.
+ - Create a better handob sprite for the Milkor AGL.
+   * Slightly reduce the size of drum magazines.
+ - Increase the weight of the XX cannon.
+ - Create a breaching charge to perforate UFO walls and thus assault from different angles (check Xenonauts1 example).
+   * First level; an explosive in the form of a tube/gas cylinder, called Bangalore, large, heavy, and not throwable.
+   * Subsequent levels; lighter and easier to handle.
+   * Later, some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
+     ~ Give this "terrain damage" sub-property to the plasma sword and knife?
+ - Completely rebalance plasma weapons, especially weights.
+ - Change the Elerium grenade sprite to the classic alien and possibly enhance it (note: this might not be feasible, check this later if possible).
+ - Rebalance the minigun to be "lighter" in the weapon itself but heavier overall, requiring a special ammo and battery backpack, which will be upgraded in the Xtier.
+   * Use a belt box of ammo as a fixed backpack for the battery and bullets (Black Ops minigun box sprite in X-Files could be used).
+   * Add vapor trails and reduce bullet speed.
+   * Add a delay to "load the gun from the ground to the hands" as it involves "putting on the special backpack."
+ - Perhaps add a cylinder to the plasma handcannon to make it a heavy revolver?.
+ - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
+ - Integrate functional flamethrowers (taking example from X-Files).
+   * First version with tanks on the back.
+   * Second version without a tank.
+   * Third version with gelatinized Elerium.
+     ~ Some tank-like weapon, perhaps a "Kokodrile"?
+ - Use "onehandpenalty" to define holographic swords like those in Mass Effect.
+ - Finalize the sprite change for melee weapons using Woofington files.
+   * Green plasma almost like a Kopesh.
+   * Laser like a saw with a beam.
+   * Create a xelloy sword.
+   * Create a progressive knife equivalent to the laser tier, cutting at the molecular level through vibrations (Evangelion).
+   * Finalize lore for the Xelloy knife, simply sharper, lighter, and never rusts or wears out.
+ - Implement a recoil system.
+   * Each consecutive shot with a weapon in the same turn generates an accuracy debuff.
+     ~ Mitigated by the soldier's accuracy and strength stats.
+   * This additional parameter could help in better balancing weapons (e.g., the PDW having little recoil but longer reload times).
+ - Finally, implement a shield system similar to Xenonauts.
+   * Different levels and materials.
+     ~ A simple one in dark gray.
+     ~ One made of xelloys.
+     ~ One of hyper-heavy material.
+     ~ One "holographic"/energy-based.
+   * Use metalhit.ogg as the sound.
+ - Confirm the issue with the bullet sprite of the pistol taser.
 
-- Ensure all grenades have an implemented fuse type.
-  * No fuse for basic grenades and other initial weapons.
-  * Advanced explosives with a 3-turn timer.
-  * Better balancing of ordnance.
-  * This would differentiate three types of heavy explosives:
-    ~ C4/Semtex as vanilla.
-    ~ A lighter satchel charge without a counting fuse.
-- Check that by eliminating certain shot types, weapons now have different maximum ranges.
-- Create a better handob sprite for the Milkor AGL.
-  * Slightly reduce the size of drum magazines.
-- Increase the weight of the XX cannon.
-- Create a breaching charge to perforate UFO walls and thus assault from different angles (check Xenonauts1 example).
-  * First level: an explosive in the form of a tube/gas cylinder, called Bangalore, large, heavy, and not throwable.
-  * Subsequent levels: lighter and easier to handle.
-  * Later, some kind of torch/drill/specialized melee weapon to break walls and enter UFOs.
-    ~ Give this terrain damage sub-property to the plasma sword and knife?
-- Completely rebalance plasma weapons, especially weights.
-- Change the Elerium grenade sprite to the classic alien and possibly enhance it (note: this might not be feasible).
-- Rebalance the minigun to be "lighter" in the weapon itself but heavier overall, requiring a special ammo and battery backpack, which will be upgraded in the Xtier.
-  * Use a belt box of ammo as a fixed backpack for the battery and bullets (Black Ops minigun box in X-Files).
-  * Add vapor trails and reduce bullet speed.
-  * Add a delay to "load the gun from the ground to the hands" as it involves "putting on the special backpack."
-- Add a cylinder to the plasma handcannon to make it a heavy revolver.
-- Use the Polish FB MSBS rifle as an experimental bullpup.
-- Integrate functional flamethrowers from X-Files.
-  * First version with tanks on the back.
-  * Second version without a tank.
-  * Third version with gelatinized Elerium.
-    ~ Some tank-like weapon, perhaps a "Kokodrile"?
-- Use onehandpenalty to define holographic swords like those in Mass Effect.
-- Finalize the sprite change for melee weapons using Woofington files.
-  * Green plasma almost like a Kopesh.
-  * Laser like a saw with a beam.
-  * Create a common alloy sword.
-  * Create a progressive knife equivalent to the laser tier, cutting at the molecular level through vibrations (Evangelion).
-  * Finalize lore for the Xelloy knife, simply sharper, lighter, and never rusts or wears out.
-- Implement a recoil system.
-  * Each consecutive shot with a weapon in the same turn generates an accuracy debuff.
-    ~ Mitigated by the soldier's accuracy and strength stats.
-  * This additional parameter could help in better balancing weapons (e.g., the PDW having little recoil but longer reload times).
-- Finally, implement a shield system similar to Xenonauts.
-  * Different levels and materials.
-    ~ A simple one in dark gray.
-    ~ One made of alloys.
-    ~ One of hyper-heavy material.
-    ~ One "holographic"/energy-based.
-  * Use metalhit.ogg as the sound.
-- Confirm the issue with the bullet sprite of the pistol taser.
+#####
 
-+Doggos Changes:
++ Doggos Changes:
 
-- Create more sprites for dog paper dolls.
-  * Introduce more species?
-  * Provide a wide variety of fur patterns for different species.
-    ~ At least 20 different sprites for each.
-    ~ Rottweilers and Dobermans could be additional species, considering they don't have much variety in fur patterns.
-- Develop technology to uplift dogs to sapience.
-  * Utilize a soldier transformation.
-  * They would gain intelligence improvements and access to more abilities.
-  * The lore should explain all ethical and moral implications.
-- Modify dog armor.
-  * No pockets initially; perhaps add pockets to advanced versions to serve as mini-inventories.
-  * Restore the strength stat.
-  * Balance the stat with the weight of the armors to prevent exploits like pack mules.
-- Modify dog armor sprites.
-  * Basic ones will be a simple harness/plate.
-  * XOps (tier 2) will be armor similar to Rylei Cod (done).
-  * At the 3rd level, it would resemble Astra Militarum Canid Unit.
-  * 4th level exoskeleton similar to Cod Advanced Warfare.
-  * 5th level mechanical exosuit (would it require uplift to use?).
-    ~ Could equip weapons like Zoid ligers, medkits?
-    ~ Turn dogs into better support units.
-    ~ Turn dogs into the equivalent of a "terror unit" for humans.
-- Create battle sprites, currently beyond my abilities; seek assistance.
-- Slow down the walking animation speed of dogs to ensure all frames are activated.
+ - Create more sprites for dog paper dolls.
+   * Introduce more species?
+   * Provide a wide variety of fur patterns for different species.
+     ~ At least 20 different sprites for each.
+     ~ Rottweilers and Dobermans could be additional species, considering they don't have much variety in fur patterns.
+ - Develop technology to uplift dogs to sapience.
+   * Utilize a soldier transformation.
+   * They would gain intelligence improvements and access to more abilities.
+   * The lore should explain all ethical and moral implications.
+ - Modify dog armor.
+   * No pockets initially; perhaps add pockets to advanced versions to serve as mini-inventories.
+   * Restore the strength stat.
+   * Balance the stat with the weight of the armors to prevent exploits like pack mules.
+ - Modify dog armor sprites.
+   * Basic ones will be a simple harness/plate.
+   * XOps (tier 2) will be armor similar to Riley Cod (done).
+   * At the 3rd level, it would resemble Astra Militarum Canid Unit.
+   * 4th level exoskeleton similar to Cod Advanced Warfare.
+   * 5th level mechanical exosuit (would it require uplift to use?).
+     ~ Could equip weapons like Zoid ligers, medkits?
+     ~ Turn dogs into better support units.
+     ~ Turn dogs into the equivalent of a "terror unit" for humans.
+ - Create accurate battle sprites (currently beyond my abilities; seek assistance).
+ - Slow down the walking animation speed of dogs to ensure all frames are activated.
 
-+Vehicles Changes:
-- Remove the weapon slot from the dragonfly
-- Replace the Knight (Interceptor 1) with the firaxis Raven's appearance from the base game.
-  * Create new lore.
-  * Use the obtained photo as a ufopaedia background.
-  * Recolorize the basebits to a nicer color, not so dark gray.
-- Replace the ROOK ufopaedia image with one xenonauts (x59 marauder)
-  * change the color of the image from a reddish hue, into a more fitting blueish/gray Xelloy color.  
-- Change the full name, lore, and description of the SR-71 to something cooler.
-  * Change the nickname from Blackbird to something better.
-- Add a drone helicopter-like sound for the Shuriken.
-- Attempt to resolve the issue that drones can no longer carry things.
-- Resolve HWP sprite using the Coelacanth spritesheet to have a movable wheel and turret.
-  * Alternatively, check the X-Files Outrunner and confirm how its wheels move.
-    ~ Confirmed to use drawing routine number 5 (sectopods).
-- Use the flying tank sprite from Xenonauts to replace human Cyberdiscs.
-  * They would have MRSLs as a secondary weapon.
-    ~ They would behave with a lobbed effect (using "arcingShot true"), perfect for carpet bombing.
-- For basic drones, use the drawing routine sprites of medusas to create an effect of going up and down at least one pixel when idle.
-- Maintain the blades of the Shuriken, add a portion of central blades to the Longbow.
-  * Completely redesign the Longbow sprite.
-- Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
-  * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
-  
-+Aliens Changes:
+#####
 
-- Improve all missing inventory sprites for aliens significantly.
-- Change Carcharodons sprites to gray.
-  * Only leaders should be gray, or a darker shade of gray?
-- Modify Berserker to have built-in weapons instead of basic daggers.
-  * Create handobs for double daggers like those of Wolverine/Shredder/Predator.
-- Improve Commander Sectoid sprites.
-  * Add spikes like Aquatoids.
-  * Make their heads shine?
-  * Reconfirm with Efren the color of their gray Skyranger in the sprite for the entire race.
-- Implement new lore for Sectopods.
-  * Similar to Robocop/Dreadnoughts of Warhammer for COMMANDO Mutons.
-    ~ Perpetuate them to an eternity of service and suffering.
-- Improve the drawing routine of the Abomination.
-- Resolve the situation with Silicoids.
-  * Create a new companion for Formics to replace Silicoids.
-  * Remove Silicoids as companions for Mutons.
-  * Leave Silicoids for Mutons and pass Celatids/Spitters to Formics.
-  * Mutons only with Berserkers and Formics with Spitters, completely eliminate Silicoids until a decent replacement is found.
-- Add the new corpses of Celatids/Spitters to their correct updated versions.
++ Vehicles Changes:
+ - Replace the Knight (Interceptor 1) with the firaxis Raven's appearance from the base game.
+   * Create new lore.
+ - Replace the ROOK ufopaedia image with one xenonauts (x59 marauder) 
+ - Change the full name, lore, and description of the SR-71 to something cooler.
+   * Change the nickname from Blackbird to something better.
+ - Add a drone helicopter-like sound for the Shuriken.
+ - Attempt to resolve the issue that drones can no longer carry things.
+ - Resolve HWP sprite using the Coelacanth spritesheet to have a movable wheel and turret.
+   * Alternatively, check the X-Files Outrunner and confirm how its wheels move.
+     ~ Confirmed to use drawing routine number 5 (sectopods).
+ - Use the flying tank sprite from Xenonauts to replace human Cyberdiscs.
+   * They would have MRSLs as a secondary weapon.
+     ~ They would behave with a lobbed effect (using "arcingShot true"), perfect for carpet bombing.
+ - For basic drones, use the drawing routine sprites of medusas to create an effect of going up and down at least one pixel when idle.
+ - Maintain the blades of the Shuriken, add a portion of central blades to the Longbow.
+   * Completely redesign the Longbow sprite.
+ - Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
+   * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
 
-+Sprites Changes:
+#####
 
-- Improve the sprites of the Mindprobe (a sphere with notches, like the planet from Treasure Planet).
-- Review tier by tier.
-  * Identify missing handobs, floorobs, and bigobs (priority for the first two).
-- Add underwear and/or T-shirts to sprites like the new ones in the US Army (keep it SFW).
-- Continue finalizing improved handobs for certain items.
-  * Use pistol and rifle clip handobs for the first tier.
-  * Review and create handobs for all remaining items (there are many).
-- Add raised quad-lenses to tier 1 soldier sprites, then add lower quad-lenses and find out if configuration is possible.
-  * Inquire about making day and night sprites different for implementation in the first tier.
-- Sectopod aliens are blue alloys; in contrast, human sectopods will be brown. Confirm this.
-  * Blue color has already been changed; only need to create the human sectopods.
-- Explore sources for improved versions of map and globe symbols.
-  * Implement those from TFTD+ and Unexcom.
-    ~ Use the "marker" command assigned to each aircraft.
-	
-+Minor Changes:
-- cambiar la fotico de background de la base
-  * darle prioridad al de armado de las naves por uno mejor
-- Place manual promotions and automatic promotions in "recommended."
-  * Consequently, do the same for "field promotions."
-  * Deactivate "explosions on the first turn" permanently.
-- Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
-  * Consists of high-entropy alloys of known and other alien elements.
-  * The real problem is not knowing the element but the proportion for the correct mix to obtain desired properties.
-- Clean every .rul file from unused lines, reorder and correct all annotations.
-  * "#----- topic -----#" should be the correct format.
-  * Eliminate all that have an excess of dashes.
-- Rename assault cannon to something 20mm flak.
-- Rename tank AP cannon to 25 mm Bushmaster.
-- Plane cannon 30 mm GAU-8/A Avenger.
-  * Unlock after researching alien alloys or create an improved version with this.
-- Rename the entirety of weapons for planes.
-  * Almost done.
-- Rename the tank plasma cannon.
-- Rename plane's plasma cannon.
-- Add filters to manufacturers to make it more granular.
-- Force the custom initial base option to false.
-- Place alloys and elerium at the top of the list order.
-- Does the Alien Disassemble from alien entertainment give a Mind Probe?
-  * If so, significantly reduce the price of the probe.
-  * Increase the necessary hours.
++ Aliens Changes:
 
-+Major Changes:
+ - Improve all missing inventory sprites for aliens significantly.
+ - Change Carcharodons sprites to gray.
+   * Only leaders should be gray, or a darker shade of gray?
+ - Modify Berserker to have built-in weapons instead of basic daggers.
+   * Create handobs for double daggers like those of Wolverine/Shredder/Predator.
+ - Improve Commander Sectoid sprites.
+   * Add spikes like Aquatoids.
+   * Make their heads shine?
+   * Reconfirm with EfrenEspartano the color of their gray Skyranger in the sprite for the entire race.
+ - Implement new lore for Sectopods.
+   * Similar to Robocop/Dreadnoughts of Warhammer for COMMANDO Mutons.
+     ~ Perpetuate them to an eternity of service and suffering.
+ - Improve the drawing routine of the Abomination.
+ - Resolve the situation with Silicoids.
+   * Create a new companion for Formics to replace Silicoids.
+   * Remove Silicoids as companions for Mutons.
+   * Leave Silicoids for Mutons and pass Celatids/Spitters to Formics.
+   * Mutons only with Berserkers and Formics with Spitters, completely eliminate Silicoids until a decent replacement is found.
+ - Add the new corpses of Celatids/Spitters to their correct updated versions.
 
-- Implement daytime and nighttime camouflage.
-  * Balance total vision and ranges.
-- Tanks, UFOs, and Sectopods use pilots.
-  * Create a new soldier transformation to train them; they will now be armor instead of units.
-  * Training requires overcoming claustrophobia, thus requiring a minimum bravery.
-    ~ All tanks will be single-seaters, but the pilot cannot exit quickly, so with permanent destruction, the pilot dies.
-    ~ The lore will be that once the tank is assembled, special facilities are needed to remove it and extract the pilot safely.
-    ~ Create a special building to help with vehicle maintenance.
-  * Integrate Sectopods with human pilots; they will be brown like in vanilla for human homogeneity.
-  * When "destroyed," a "ruined chassis that can be repaired" remains.
-- Change all drones to a system based on "a CPU platform that can be inserted into different chassis and with different equipment."
-  * The ground drone would be a platform to which various weapons could be attached, e.g., a version with rockets, a version with a support machine gun, one with a shotgun for entry.
-  * Or make it a project to change "weapons within the chassis" that requires space in the workshop and engineers.
-  * Additionally, they would have different "armors."
-    ~ A light chassis, many TUs but low resistance.
-    ~ Reinforced, heavier and stronger but with fewer TUs.
-    ~ Versions with alloys, first basic and then advanced.
-  * These changes would provide much more longevity to the use of drones by XCOM.
-- Add inventory sprites for civilians and a variety of civilians as well (possibly from XFILES).
-- Clearly add the recommendation for the song mod.
-- Implement a possible Armor chipping and degradation system.
-- Check all reloading TUs for every weapon.
-  * Modify reload times, balance transfer times of items from one pocket to another.
-  * Make bullpups take longer to reload as a balancing method.
-  * Find out how to modify weapon reload times.
-  * It should be faster to draw your weapon from the holster than to reload the primary.
-    ~ Use the commands tuLoad and tuUnload.
-  * Include this: "you need to additionally pay the cost of moving the ammo from its current inventory slot into a hand slot! Consider that when balancing reload costs."
-  * "Take into consideration that, since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
-- Rebalance the weight of all objects for more intuitive values.
-  * Would a total rebalancing of the soldiers' strength be needed to maintain coherent values?
-- Total change in the price of items and all projects.
-  * To make the numbers more coherent, or at least, as a minimum, reduce the cost of all initial weapons to say that it is scientific notation and is actually divided by a thousand.
-  
-  +Long Term Changes:
+#####
 
-- Add a new type of missions similar to EU2012, such as:
-  * Landed UFO (already implemented).
-  * Crashed UFO (already implemented).
-  * Abductions (perhaps low-scale "terror missions" with a small number of civilians, around 5, maybe?).
-  * Ships attacks (counting as abductions?, small crews of sailors, less than a dozen).
-  * Bomb disposal (should be the early "terror missions," maybe one per two months, to spice mission variety).
-  * Asset recovery (WIP).
-  * Extraction/escort (if it's possible to code a VIP mission, this should be once/twice per month?).
-  * Key recovery mission twice or thrice per year MAX (already implemented).
-  * Terror sites (BIG CHUNGUS ATTACKS) on council funding members, should be giant maps, a big number of civilians (20 perhaps?) and military presence (partially implemented, should be moved at least until April or May as a sign of conflict escalation).
-  * Ship line cruisers (same as above, maybe two dozen passengers?).
-- Improve the pacing of missions, including:
-  * Delay terror in major cities by a couple of months.
-  * Definitely correct the spawning in cruise ship and boat missions (these should be the first terrors, then remote places like bases/facilities, then major cities).
-  * Avoid key missions appearing in nonsensical locations (Europe, for example).
-- Find out how to make dynamic global reports.
-- Add lore to the previous world, North Korea nuked (paint it red?), Cape of Good Hope nuked (also red?), Haiti, and the Netherlands?, Israel?
-- Create medical technologies to recover wounds for humans (create a medbay and a base with a medbay included?).
-- Improve buildings so that they can be upgraded by building on top.
-  * Priority to defense systems.
-- Completely improve the air game, interception, patrols, etc.
-- Organize and overhaul alien deployments.
-- Adjust the position of the Russian peninsula above the Kuril Islands, finalize changes to the world map.
-- Change all references from str_ to all items.
-  * Focusing on chargers and weapons.
-  * Eliminating those that do not exist and focusing them correctly on their new identity.
-- Each council country must have at least 4 cities on the map.
-- Later add ambient music to different maps.
-- Completely improve the sound database.
-  * To all weapons, different effects, explosions, etc.
-- Completely improve explosion sprites (check XFILES and other mods).
-  * Eliminate the cheesy effect of a skull as an explosion.
-  * Create explosions of different colors according to the effect or damage caused.
-  * Find out how to create an "implosion" effect that grows, then collapses and immediately expands again.
-- Implement elite alien weapons.
-  * Confirm functionality of sprites.
-  * Add a "whistling" sound to scare.
-    ~ Check conversation with Efren.
-- Convert all images to PNG.
-  * This way, I can establish transparent alpha correctly.
++ Sprites Changes:
 
-+Possible Unattainable Changes:
+ - Improve the sprites of the Mindprobe (a sphere with notches, like the planet from Treasure Planet).
+ - Review tier by tier.
+   * Identify missing handobs, floorobs, and bigobs (priority for the first two).
+ - Add underwear and/or T-shirts to sprites like the new ones in the US Army (keep it SFW).
+ - Continue finalizing improved handobs for certain items.
+   * Use pistol and rifle clip handobs for the first tier.
+   * Review and create handobs for all remaining items (there are many).
+ - Add raised quad-lenses to tier 1 soldier sprites, then add lower quad-lenses and find out if configuration is possible.
+   * Inquire about making day and night sprites different for implementation in the first tier.
+ - Sectopod aliens are xelloy blue; in contrast, human sectopods will be brown. Confirm this.
+   * Blue color has already been changed; only need to create the human sectopods.
+ - Explore sources for improved versions of map and globe symbols.
+   * Implement those from TFTD+ and Unexcom.
+     ~ Use the "marker" command assigned to each aircraft.
+ - Change background sprites for some screens on the base.
+   * Background02 (soldier tab)/ Something more fitting and militarish, perhaps some soldiers formed saluting?
+     ~ Inquire if there is a way to add a background specifically TO THE MEMORIAL tab, then add some kind of memorial wall, like in Firaxis or Mass Effect.
+   * Background03 (terror tab)/ Create something more fitting, perhaps a city burning?
+     ~ Differentiate different missions with different tabs (so all different terror types, either liners, islands, small towns, etc., have a different background).
+   * Background04 (base defense)/ Something showing either soldiers fighting in a hallway (like Xenonauts vs. Androns), or some kind of missile batteries shooting at an incoming UFO.
+   * Background13 (selling screen)/ I always liked the TFTD version of this a lot more (try to add the money suitcase too?).
+   * Background14 (plane equipment)/ I'm okay with the current version, might only retouch the silhouette to not be so dark, so all the changes made to plane basebits shadows stand out more.
+   * Background16 (UFO related mission start)/ Some kind of POV over the shoulder inside the cockpit of our plane, flying over a crashed UFO.
+     ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
 
-- Create videos like in the PS1 assets.
-- Rearrange mission lists to something more coherent.
-- Improve maps and aesthetics of the base.
-  * Review and use TFTD tiles in the XCOM base.
-    ~ At the end, I could, almost done, I would only need 7 total buildings (meaning 28 blocks, with 4 of ultra-priority for Friday).
+#####
+
++ Minor Changes:
+ - cambiar la fotico de background de la base
+   * darle prioridad al de armado de las naves por uno mejor
+ - Place manual promotions and automatic promotions in "recommended."
+   * Consequently, do the same for "field promotions."
+   * Deactivate "explosions on the first turn" permanently.
+ - Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
+   * Consists of high-entropy alloys of known and other alien elements.
+   * The real problem is not knowing the elements but the proportion for the correct mix to obtain desired properties.
+ - Clean every .rul file from unused lines, reorder and correct all annotations.
+   * "#----- topic -----#" should be the correct format.
+   * Eliminate all that have an excess of dashes.
+ - Rename assault cannon to something 20mm flak.
+ - Rename tank AP cannon to 25 mm Bushmaster.
+ - Plane cannon is now a 30 mm GAU-8/A Avenger.
+   * Create an improved version that unlocks after researching xelloys?.
+ - Rename the entirety of weapons for planes.
+   * Almost done.
+ - Rename the tank plasma cannon.
+ - Rename plane's plasma cannon.
+ - Add filters to manufacturers to make it more granular.
+ - Force the custom initial base option to false.
+ - Place xelloys and elerium at the top of the list order.
+ - Does the Alien Disassemble from alien entertainment give a Mind Probe?
+   * If so, significantly reduce the price of the probe.
+   * Increase the necessary hours.
+
+#####
+
++ Major Changes:
+
+ - Implement daytime and nighttime camouflage.
+   * Balance total vision and ranges.
+ - Tanks, UFOs, and Sectopods use pilots.
+   * Create a new soldier transformation to train them; they will now be armor instead of units.
+   * Training requires overcoming claustrophobia, thus requiring a minimum bravery.
+     ~ All tanks will be single-seaters, but the pilot cannot exit quickly, so with permanent destruction, the pilot dies.
+     ~ The lore will be that once the tank is assembled, special facilities are needed to remove it and extract the pilot safely.
+     ~ Create a special building to help with vehicle maintenance.
+   * Integrate Sectopods with human pilots; they will be brown like in vanilla for human homogeneity.
+   * When "destroyed," a "ruined chassis that can be repaired" remains.
+ - Change all drones to a system based on "a CPU platform that can be inserted into different chassis and with different equipment."
+   * The ground drone would be a platform to which various weapons could be attached, e.g., a version with rockets, a version with a support machine gun, one with a shotgun for entry.
+   * Or make it a project to change "weapons within the chassis" that requires space in the workshop and engineers.
+   * Additionally, they would have different "armors."
+     ~ A light chassis, many TUs but low resistance.
+     ~ Reinforced, heavier and stronger but with fewer TUs.
+     ~ Versions with xelloys, first basic and then advanced.
+   * These changes would provide much more longevity to the use of drones by XCOM.
+ - Add inventory sprites for civilians and a variety of civilians as well (possibly from XFILES).
+ - Clearly add the recommendation for the song mod.
+ - Implement a possible Armor chipping and degradation system.
+ - Check all reloading TUs for every weapon.
+   * Modify reload times, balance transfer times of items from one pocket to another.
+   * Make bullpups take longer to reload as a balancing method.
+   * Find out how to modify weapon reload times.
+   * It should be faster to draw your weapon from the holster than to reload the primary.
+     ~ Use the commands tuLoad and tuUnload.
+   * Remember to include this "you need to additionally pay the cost of moving the ammo from its current inventory slot into a hand slot! Consider that when balancing reload costs."
+   * "Take into consideration that, since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
+ - Rebalance the weight of all objects for more intuitive values.
+   * Would a total rebalancing of the soldiers' strength be needed to maintain coherent values?
+ - Total change in the price of items and all projects.
+   * To make the numbers more coherent, or at least, as a minimum, reduce the cost of all initial weapons to say that it is scientific notation and is actually divided by a thousand.
+
+#####
+
++ Long Term Changes:
+
+ - Add new types of missions similar to EU2012.
+   * Landed UFO (already implemented).
+   * Crashed UFO (already implemented).
+   * Abductions (perhaps low-scale "terror missions" with a small number of civilians, around 5, maybe?).
+   * Ships attacks (counting as abductions?, small crews of sailors, less than a dozen).
+   * Bomb disposal (should be the early "terror missions," maybe one per two months, to spice mission variety).
+   * Asset recovery (WIP).
+   * Extraction/escort (if it's possible to code a VIP mission, this should be once/twice per month?).
+   * Key recovery mission twice or thrice per year MAX (already implemented).
+   * Terror sites (BIG CHUNGUS ATTACKS) on council funding members, should be giant maps, a big number of civilians (20 perhaps?) and military presence (partially implemented, should be moved at least until April or May as a sign of conflict escalation).
+   * Ship line cruisers (same as above, maybe two dozen passengers?).
+ - Improve the pacing of missions escalation entirely.
+   * Delay terror in major cities by a couple of months.
+   * Definitely correct the spawning in cruise ship and boat missions (these might be the first terrors, then remote places like bases/facilities, then major cities).
+   * Avoid key missions appearing in nonsensical locations (Europe, for example).
+ - Find out how to make dynamic global reports.
+ - Add lore to the previous world, North Korea nuked (paint it red?), Cape of Good Hope nuked (also red?), Haiti, and the Netherlands?, Israel?
+ - Create medical technologies to recover wounds for humans (create a medbay and a base with a medbay included?).
+ - Improve buildings so that they can be upgraded by building on top.
+   * Priority to defense systems.
+ - Completely improve the air game, interception, patrols, etc.
+ - Organize and overhaul alien deployments.
+ - Adjust the position of the Russian peninsula above the Kuril Islands, finalize changes to the world map.
+ - Change all references from "str_" to all items.
+   * Focusing on chargers and weapons.
+   * Eliminating those that do not exist and focusing them correctly on their new identity.
+ - Each council country must have at least 4 cities on the map.
+ - Later add ambient music to different maps.
+ - Completely improve the sound database.
+   * To all weapons, different effects, explosions, etc.
+ - Completely improve explosion sprites (check XFILES and other mods).
+   * Eliminate the cheesy effect of a skull as an explosion.
+   * Create explosions of different colors according to the effect or damage caused.
+   * Find out how to create an "implosion" effect that grows, then collapses and immediately expands again.
+ - Implement elite alien weapons.
+   * Confirm functionality of sprites.
+   * Add a "whistling" sound bulletsound to scare tactics.
+     ~ Check conversation with EfrenEspartano.
+ - Convert all images to PNG.
+   * This way, I can establish transparent alpha correctly.
+
+#####
+
++ Possible Unattainable Changes:
+
+ - Create videos like in the PS1 assets.
+ - Rearrange mission lists to something more coherent.
+ - Improve maps and aesthetics of the base.
+   * Review and use TFTD tiles in the XCOM base.
+     ~ At the end, I could, almost done, I would only need 7 total buildings (meaning 28 blocks, with 4 of ultra-priority for Friday).
        + Large living quarters (4 buildings >ULTRA PRIORITY, almost done).
        + Large storage facilities (4 buildings >PRIORITY).
        + Large workshop (4 buildings).
@@ -390,30 +416,31 @@
        + Large psi laboratory (4 buildings).
        + Satellite network (4 buildings).
        + Hyperwave network (4 buildings).
-  * Completely improve names and descriptions (e.g., change the name to barracks and the numbers of the radars).
-  * Confirm how to build on top and if it could be with a discount (up to 25% off).
-  * Review the file Scang.DAT, which is the map seen on the scanner.
-    ~ Confirmed that it is adjusted using the MCDView to modify which one corresponds.
-    ~ As there are too many, first review the index of the vanilla base and copy and paste to have a minimum functional.
-    ~ Then modify to get those that really should be appropriate.
-  * Talk to Efren to get TFTD basebits.
-    ~ I would have to modify practically all of them since putting them directly does not work.
-- Add a "voices" system with dialogues for responses and more.
-- Check Cyberpunk for references to possible weapons.
-- Review the new BRUTAL AI.
-- Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
+   * Completely improve names and descriptions (e.g., change the name to barracks and the numbers of the radars).
+   * Confirm how to build on top and if it could be with a discount (up to 25% off).
+   * Review the file Scang.DAT, which is the map seen on the scanner.
+     ~ Confirmed that it is adjusted using the MCDView to modify which one corresponds.
+     ~ As there are too many, first review the index of the vanilla base and copy and paste to have a minimum functional.
+     ~ Then modify to get those that really should be appropriate.
+ - Add a "voices" system with dialogues for responses and more (not so sure about this, tho).
+ - Check Cyberpunk for references to possible weapons.
+ - Review the new BRUTAL AI.
+ - Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.
-- Check how the callsings of Vigilo Confido work (ask EfrenEspartano).
-- Pedirles a oxce que los loadouts sean algo definible en un RUL para q pase de partida a partida?
- 
- 
- - este deberia ser el orden de la ufopedia
-   * 0: dossiers and background info
-   * 100: alien research
-   * 200: alien artifacts
-   * 300: ufo components
-   * 400: ufos
-   * 500: alien life forms
-   * 600: codex techs
-   * (????): el resto
-   * ultima>commendations
+ - Check how the callsings of Vigilo Confido work (ask EfrenEspartano).
+ - Pedirles a oxce que los loadouts sean algo definible en un RUL para q pase de partida a partida?
+
+#####
+
++ This should be the new order in the ufopaedia:
+
+ - This is the listorder number.
+   * 0= dossiers and background info
+   * 100= alien research
+   * 200= alien artifacts
+   * 300= ufo components
+   * 400= ufos
+   * 500= alien life forms
+   * 600= codex techs
+   * (????)= the rest
+   * last one=> commendations

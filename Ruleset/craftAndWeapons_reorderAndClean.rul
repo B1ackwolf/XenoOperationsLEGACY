@@ -15,7 +15,6 @@ crafts:
     damageMax: 130
     speedMax: 450
     accel: 2
-    weapons: 1
     avoidBonus: 15
     soldiers: 12
     vehicles: -1
