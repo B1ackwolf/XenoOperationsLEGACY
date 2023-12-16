@@ -89,7 +89,7 @@ general changes:
 - some alien races were renamed, to better fit their general lore
   *ancient abominations are now called SPAWNS.
   *alien hybrids are now called ABOMINATIONS.
-
+- changed the load order of alien materials items (xelloys,elerium, codex stuff) so you dont need to scroll down everytime you need to check those when moving between bases.  
 Sprites changes
  - xcom transport planes and fighters recieved a general aesthetic retouch
    * the xcf0 recieved small improvements to their basebit sprite shadowing

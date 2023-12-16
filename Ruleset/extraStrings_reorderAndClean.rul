@@ -885,12 +885,12 @@
       # STR_XCF3_FUEL: XCF-3 Aegis Fuel ###ojito
       STR_ELERIUM_CELL: Elerium Cell
 #-----Facilities
-      STR_SMALL_RADAR_SYSTEM: Small Radar System.
-      STR_SMALL_RADAR_SYSTEM_UFOPEDIA: (WIP) A small detection system has an effective range of 1700 nautical miles (3150 KM) and is linked to satellite systems for ground search. Each system has a 10% chance of detecting an average sized object every 30 minutes. Some requeriments make it that only one of eaach of these system should be built per base, as any extra of each would be redundant. 
-      STR_LARGE_RADAR_SYSTEM: Large Radar System.
-      STR_LARGE_RADAR_SYSTEM_UFOPEDIA: (WIP) A large detection system has a range of 2600 nautical miles (4815 KM) and is linked to satellite systems for ground search. Each system has a 20% chance of detecting an average sized object every 30 minutes.
+      STR_SMALL_RADAR_SYSTEM: Regional Radar System.
+      STR_SMALL_RADAR_SYSTEM_UFOPEDIA: This advanced detection system has a range of 1700 nautical miles (3150 KM), operating on a 30-minute cycle and holding a 10% chance of detecting a UFO. The unique challenge posed by the evasive nature of UFOs necessitates constant fine-tuning, requiring a specialized frequency meticulously modulated to detect objects with a materials profile similar to those found in previous UFO reports and encounters.{NEWLINE}{NEWLINE}Seamlessly integrated with local satellite systems, this facility monitors UFO activities in real-time, generating substantial data traffic. Strategic considerations for the secrecy of our base locations mandate a singular deployment of each system per base, so exceeding this limit would render additional units redundant.
+      STR_LARGE_RADAR_SYSTEM: Continental Radar System.
+      STR_LARGE_RADAR_SYSTEM_UFOPEDIA: Special measures were taken to increase the range of the standard installation . Now, the system boasts an impressive effective range of 2600 nautical miles (4815 KM), operating on a 30-minute cycle and holding a 20% chance of detecting a UFO. The unique challenge posed by the evasive nature of UFOs necessitates constant fine-tuning, requiring a specialized frequency meticulously modulated to detect objects with a materials profile similar to those found in previous UFO reports and encounters.{NEWLINE}{NEWLINE}Seamlessly integrated with an even larger array of satellite systems, this facility monitors UFO activities in real-time, generating substantial data traffic. Strategic considerations for the secrecy of our base locations mandate a singular deployment of each system per base, so exceeding this limit would render additional units redundant.
       STR_HYPER_WAVE_DECODER: Hyper-wave Decoder
-      STR_HYPER_WAVE_DECODER_UFOPEDIA: Alien communications rely on a supre-dimensional wave which travels instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity. it has a range of 2800 nautical miles (5185 KM) and has a detecting chance of 100%.
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: Alien communications rely on a supre-dimensional wave which travels instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity. it has a range of 2800 nautical miles (5185 KM) and has 100% detection chance.
       STR_LIVING_QUARTERS_2: "Large Living Quarters"
       STR_LIVING_QUARTERS_2_UFOPEDIA: "Meant for large bases, this facility is more space-efficient than the standard Living Quarters, housing 100 personnel in considerable comfort as well as providing 25 storage space."
       STR_HANGAR_UFOPEDIA: Each hangar can acommodate Two crafts, there are facilities for maintenance, repair and refueling of X-Com aircraft. Crafts are stored on a underground vault below the facility, also the vault contain an electromagnetic catapult as those present in carriers, to help launching the plane and reducing the need of a strip for take-offs.
@@ -902,12 +902,6 @@
       STR_PSIONIC_LABORATORY_LARGE: Large Psi Laboratory
       STR_SAT_UP_NET: Satellite Network
       STR_HYP_UP_NET: Hyperwave Network
-
-
-
-
-
-
       STR_GENERAL_STORES_2_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
       STR_CORRIDOR_UFOPEDIA: A cheap facility designed to connect other facilities.
       STR_SEC_CORRIDOR_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
