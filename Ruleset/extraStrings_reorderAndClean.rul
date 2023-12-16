@@ -885,7 +885,15 @@
       # STR_XCF3_FUEL: XCF-3 Aegis Fuel ###ojito
       STR_ELERIUM_CELL: Elerium Cell
 #-----Facilities
+      STR_SMALL_RADAR_SYSTEM: Small Radar System.
+      STR_SMALL_RADAR_SYSTEM_UFOPEDIA: (WIP) A small detection system has an effective range of 1700 nautical miles (3150 KM) and is linked to satellite systems for ground search. Each system has a 10% chance of detecting an average sized object every 30 minutes. Some requeriments make it that only one of eaach of these system should be built per base, as any extra of each would be redundant. 
+      STR_LARGE_RADAR_SYSTEM: Large Radar System.
+      STR_LARGE_RADAR_SYSTEM_UFOPEDIA: (WIP) A large detection system has a range of 2600 nautical miles (4815 KM) and is linked to satellite systems for ground search. Each system has a 20% chance of detecting an average sized object every 30 minutes.
+      STR_HYPER_WAVE_DECODER: Hyper-wave Decoder
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: Alien communications rely on a supre-dimensional wave which travels instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity. it has a range of 2800 nautical miles (5185 KM) and has a detecting chance of 100%.
       STR_LIVING_QUARTERS_2: "Large Living Quarters"
+      STR_LIVING_QUARTERS_2_UFOPEDIA: "Meant for large bases, this facility is more space-efficient than the standard Living Quarters, housing 100 personnel in considerable comfort as well as providing 25 storage space."
+      STR_HANGAR_UFOPEDIA: Each hangar can acommodate Two crafts, there are facilities for maintenance, repair and refueling of X-Com aircraft. Crafts are stored on a underground vault below the facility, also the vault contain an electromagnetic catapult as those present in carriers, to help launching the plane and reducing the need of a strip for take-offs.
       STR_GENERAL_STORES_2: "Large Storage Facility"
       STR_LARGE_WORKSHOP: Large Workshop
       STR_LARGE_LAB: Large Laboratory
@@ -894,6 +902,23 @@
       STR_PSIONIC_LABORATORY_LARGE: Large Psi Laboratory
       STR_SAT_UP_NET: Satellite Network
       STR_HYP_UP_NET: Hyperwave Network
+
+
+
+
+
+
+      STR_GENERAL_STORES_2_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
+      STR_CORRIDOR_UFOPEDIA: A cheap facility designed to connect other facilities.
+      STR_SEC_CORRIDOR_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
+      STR_LIVING_QUARTERS_UFOPEDIA: Each accommodation block provides for up to 20 personnel. The facility provides basic recreation, food and sleeping areas.
+      STR_LARGE_WORKSHOP_UFOPEDIA: This Large Workshop hosts expensive, but expansive infrastructure for manufacturing on a large scale. It provides up to 125 workshop space.
+      STR_LABORATORY_UFOPEDIA: Up to 20 scientists can work in a laboratory facility. Laboratories are equipped with the latest technology for research into materials, biochemistry and cosmology. There is privileged access to the best research labs throughout the world, including military establishments.
+      STR_WORKSHOP_UFOPEDIA: A workshop contains all the equipment necessary to manufacture equipment based on designs from the science labs. Up to 25 engineers can occupy a workshop, although items under construction will also consume some space.
+      STR_LARGE_LAB_UFOPEDIA: This Large Lab contains numerous state of the art research equipment and can host a larger number of staff than the small version. It provides space for up to 100 scientists.
+      STR_SAT_UP_NET_UFOPEDIA: This facility uses a network of both military and civilian orbital satellites along with advanced computer systems that link into surveillance networks from around the world to establish a global radar detection system. It has a small chance to discover any UFO on Earth.
+      STR_HYP_UP_NET_UFOPEDIA: By bouncing an amplified hyperwave signal off of a network of satellites, XCom can achieve global hyperwave converge, though the energy costs will be rather high.
+      STR_PSIONIC_LABORATORY_LARGE_UFOPEDIA: The large Psionic Laboratory has space to train and test up to 50 soldiers.
 #-----HWP
       STR_UAV: UAV SHURIKEN
       STR_UCAV_ROCKET_LAUNCHER: UCAV LONGBOW
@@ -1072,7 +1097,7 @@
       STR_SNAKEMAN_NAVIGATOR: Serpentoid Navigator
       STR_SNAKEMAN_ENGINEER: Serpentoid Engineer
       STR_SNAKEMAN_LEADER: Serpentoid Leader
-      STR_HYBRID: Hybrid
+      STR_HYBRID: Abomination
       STR_SOVEREIGN: Sovereign
       STR_ENERGYALIEN: Solarite
       STR_ARMORED_SECTOID_COMMANDER: Armored Sectoid Commander
@@ -1090,16 +1115,16 @@
       STR_CARCHARODON_ENGINEER: Carcharodon Engineer
       STR_CARCHARODON_LEADER: Carcharodon Leader
       STR_CARCHARODON_SOLDIER: Carcharodon Soldier
-      STR_ANCIENT_ABOMINATION: Abomination
-      STR_ANCIENT_ABOMINATION_TERRORIST: Abomination
+      STR_ANCIENT_ABOMINATION: Spawn
+      STR_ANCIENT_ABOMINATION_TERRORIST: Spawn
       STR_JAWS: Carcharodon Attack
 #-----Alien Corpses and Autopsies
       STR_MUTON_COMMANDO_AUTOPSY: Muton Veteran autopsy
       STR_MUTON_CHIEFTAIN_AUTOPSY: Muton Leader autopsy
       STR_SNAKEMAN_CORPSE: Serpentoid Corpse
       STR_SNAKEMAN_AUTOPSY: Serpentoid autopsy
-      STR_HYBRID_CORPSE: Hybrid Corpse
-      STR_HYBRID_AUTOPSY: Hybrid autopsy
+      STR_HYBRID_CORPSE: Abomination Corpse
+      STR_HYBRID_AUTOPSY: Abomination autopsy
       STR_MUTON_COMMANDO_CORPSE: Muton Enforcer Corpse
       STR_MUTON_GUARD_CORPSE: Muton Elite Corpse
       STR_MUTON_CHIEFTAIN_CORPSE: Muton Chieftain Corpse
@@ -1114,9 +1139,9 @@
       STR_ARMORED_MUTON_CORPSE: Muton Warrior Corpse
       STR_MUTON_BERSERKER_CORPSE: Muton Berserker Corpse
       STR_ARMORED_MUTON_COMMANDER_CORPSE: Muton Warlord Corpse
-      STR_ANCIENT_ABOMINATION_CORPSE: Abomination Corpse
+      STR_ANCIENT_ABOMINATION_CORPSE: Spawn Corpse
       STR_CARCHARODON_CORPSE: Carcharodon Corpse
-      STR_ANCIENT_ABOMINATION_AUTOPSY: Abomination autopsy
+      STR_ANCIENT_ABOMINATION_AUTOPSY: Spawn autopsy
       STR_CARCHARODON_AUTOPSY: Carcharodon autopsy
 #---------UFOs, ojito reordenar
       STR_SURVEY: Survey Skiff
@@ -1725,19 +1750,6 @@
       STR_GOODS_5_UFOPEDIA: Hyperwave Receivers allow for instant communication that is far more secure and faster than radio waves. They are basically a scaled down version of a hyperwave decoder. While not useful to XCom, it could revolutionize communications in civilian markets. Each hyperwave receiver could be sold for a sizable profit.
       STR_GOODS_6_UFOPEDIA: Nano Immune Cells are a replication of alien medical technology without the special material cost. These cells could heal nearly any disease and would fetch a significant profit on the medical market.
       STR_ALLOY_AMMUNITION_UFOPEDIA: Once the machining processes for working with Alien Alloys is established, it is possible to use a coating of Alien Alloys on conventional bullets. The light weight and high toughness make it an excellent armor piercing coating for our bullets.
-#-----UFOPaedia Facilities
-      STR_LIVING_QUARTERS_2_UFOPEDIA: "Meant for large bases, this facility is more space-efficient than the standard Living Quarters, housing 100 personnel in considerable comfort as well as providing 25 storage space."
-      STR_GENERAL_STORES_2_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
-      STR_CORRIDOR_UFOPEDIA: A cheap facility designed to connect other facilities.
-      STR_SEC_CORRIDOR_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
-      STR_LIVING_QUARTERS_UFOPEDIA: Each accommodation block provides for up to 20 personnel. The facility provides basic recreation, food and sleeping areas.
-      STR_LARGE_WORKSHOP_UFOPEDIA: This Large Workshop hosts expensive, but expansive infrastructure for manufacturing on a large scale. It provides up to 125 workshop space.
-      STR_LABORATORY_UFOPEDIA: Up to 20 scientists can work in a laboratory facility. Laboratories are equipped with the latest technology for research into materials, biochemistry and cosmology. There is privileged access to the best research labs throughout the world, including military establishments.
-      STR_WORKSHOP_UFOPEDIA: A workshop contains all the equipment necessary to manufacture equipment based on designs from the science labs. Up to 25 engineers can occupy a workshop, although items under construction will also consume some space.
-      STR_LARGE_LAB_UFOPEDIA: This Large Lab contains numerous state of the art research equipment and can host a larger number of staff than the small version. It provides space for up to 100 scientists.
-      STR_SAT_UP_NET_UFOPEDIA: This facility uses a network of both military and civilian orbital satellites along with advanced computer systems that link into surveillance networks from around the world to establish a global radar detection system. It has a small chance to discover any UFO on Earth.
-      STR_HYP_UP_NET_UFOPEDIA: By bouncing an amplified hyperwave signal off of a network of satellites, XCom can achieve global hyperwave converge, though the energy costs will be rather high.
-      STR_PSIONIC_LABORATORY_LARGE_UFOPEDIA: The large Psionic Laboratory has space to train and test up to 50 soldiers.
 #-----UFOPaedia Alien Lifeforms
       STR_HYBRID_UFOPEDIA: The labor of twisted Sectoid science has finally bore an equally twisted fruit. They have succeed in making a hybrid race with humanity. This abomination has potent psionic abilities which it can weaponize it into a powerful psionic blast. It's psionic abilities can also control directed energy projectiles turning the bolts away from it, but it has difficulty with solid mass projectiles. Like many hybrids this thing is thankfully sterile. This creature spends its life in constant pain. Further subjects should be euthanized as a mercy.
       STR_HYBRID_AUTOPSY_UFOPEDIA: As we feared, this hybrid creature contains both human and Sectoid DNA. Cybernetic implants keep this monster alive though its potent psionic abilities explain how this abomination can function at all. Organs are a mishmash of alien and human ones and most appear to be non-functioning with no evidence of reproductive organs at all. Limbs are misshapen and useless. The massive exposed brain draws oxygen directly from the air, but how it resists infection is a mystery. Its energy blasts are likely psionic in nature as are its resistance to energy based weapons.
@@ -1757,7 +1769,7 @@
       STR_FORMIC_AUTOPSY_UFOPEDIA: This specimen, referred as "Formics" bears a semblance to the earthly Ant, albeit probably having undergone an extraordinary process of accelerated growth and genetic manipulation. In contrast to numerous alien autopsies, the Formics display minimal cybernetic augmentation with the exception of a cybernetic device intricately linked to its neural network. This exercises direct control over the Formics, suppressing its innate instincts and enabling remote guidance. It's crucial to note that Earth's environmental conditions, including gravity and oxygen levels, would render the Formics unable to survive for extended periods of time. The Formics boast a robust and resilient exoskeleton, particularly on their dorsal side with remarkable resistance to corrosive substances, their primitive nervous system exhibits resilience to stunning effects rendering them exceptionally resistant to incapacitation through conventional means. Although it remains susceptible to combustion under certain conditions. 
       STR_ARMORED_MUTON_UFOPEDIA: These formidable adversaries, known as Muton Warriors, bear a striking physical resemblance to their standard Muton counterparts. What sets them apart is the remarkable upgrade in the form of heavy powered armor. Clad in this formidable exosuit, they transform into walking tanks on the battlefield, significantly enhancing their combat endurance and resilience.However, despite their imposing physical presence and enhanced armor, these Warriors are not without their vulnerabilities. Their mental faculties remain as susceptible as those of regular Mutons, making them ripe targets for psionic attacks. This discrepancy between their physical might and mental fragility is a double-edged sword, presenting both an advantage and a critical weakness for these imposing soldiers. While their armored forms make them formidable adversaries in direct combat, their limited resistance to psionics leaves them susceptible to mind-controlling and debilitating psychic abilities employed by XCOM operatives. Consequently, a well-placed psionic strike can be just as effective at neutralizing a Muton Warrior as a barrage of conventional weaponry.
       STR_MUTON_BERSERKER_UFOPEDIA: A rare psychological anomaly afflicts approximately one in a thousand Mutons, rendering them immune to psionic control while subjecting them to unending fits of uncontrollable rage. Instead of discarding these unique individuals, the Aliens have devised a sinister purpose for them in terror operations. These tormented Mutons are carefully sedated and preserved, awaiting their moment of awakening.Upon revival, they are administered a potent chemical cocktail, amplifying their already boundless rage to unprecedented levels. In this frenzied state, these creatures become known as "Berserkers." Remarkably, Berserkers remain impervious to the sensations of pain and fear, consumed solely by an unrelenting wellspring of hatred and aggression. This makes them exceptionally formidable opponents on the battlefield, charging relentlessly at any perceived threat with an insatiable fury that knows no bounds. Facing a Berserker in combat is a harrowing ordeal, as they become living embodiments of relentless violence and destruction, sparing neither XCOM operatives nor their own Alien counterparts in their blind pursuit of annihilation.
-      STR_ANCIENT_ABOMINATION_UFOPEDIA: This thing is not an individual life form, but an extension of something far larger. The rest of its body exists in an external dimension. This powerful, almost god-like creature has existed before our own universe. This ancient abomination is not quiet alive. It is clear that the alien collective does not fully understand what this ancient thing is, but have somehow allied with it.
+      STR_ANCIENT_ABOMINATION_UFOPEDIA: This thing is not an individual life form, but an extension of something far larger. The rest of its body exists in an external dimension. This powerful, almost god-like creature has existed before our own universe. This ancient abomination is not quite alive. It is clear that the alien collective does not fully understand what this ancient thing is, but have somehow allied with it.
       STR_CARCHARODON_UFOPEDIA: Carcharodons are a highly mercenary warrior species. They are far more independent than most races who are entirely reliant on the alien hierarchy in order to survive. Although highly organized and intelligent, they are unable to control their predatory instincts for very long. They often turn on their wounded after battle and thus have no medics. Other aliens contract these predators to do their dirty work for them and the Carcharodons are more than willing to engage in any battle whether it be terror strikes or destroying military facilities.
       STR_ANCIENT_ABOMINATION_AUTOPSY_UFOPEDIA: This monster should not be alive. It lacks a mouth or any form of a digestive system. What was its muscular system has liquefied shortly after death. it has some kind of extra dimensional sense. Chemical analysis of remains makes it apparent that this life form is not carbon based. Its impossible biology makes it immune to acid damage, but highly vulnerable to fire based damage.
       STR_CARCHARODON_AUTOPSY_UFOPEDIA: This mass of muscle greatly resembles a humanoid shark. Gills and skin are obviously adapted to an aquatic environment though cybernetics allow it to operate on land for short periods of time. Stomach contents show this carnivore has a large appetite for raw flesh. Razor sharp teeth and heighten senses along with a well developed brain make this a deadly and fast predator. Oily skin increases the bloom effect of laser weapons, reducing their effectiveness. In addition, its thick muscle reduces the piercing power of bladed melee weapons.
@@ -1979,7 +1991,7 @@
       STR_SUPPORT_UNITS_UFOPEDIA: "The available data unequivocally indicates that the alien threat possesses an astounding technological superiority. As a result, our foremost priority should be the development of strategies and tactics to engage them more effectively until a time when we can engage them on more equal terms. To this end, our focus should shift towards asymmetric warfare and the implementation of combined arms doctrines. Delegating reconnaissance and exploration roles to mechanical assets and K9 support units becomes imperative to safeguard our precious human resources from unnecessary peril."
       STR_DOG_RECRUITMENT_UFOPEDIA: "These loyal companions are a valuable addition to any XCOM squad. Highly trained dogs, also known as K9 Units, are fully capable of functioning effectively in battlefield conditions. Their unwavering obedience ensures they won't engage in combat unless specifically ordered to do so, swiftly neutralizing any unfortunate lifeforms caught within their powerful jaws.{NEWLINE}{NEWLINE}It's a fitting tribute that humanity's oldest friend stands ready for what could potentially be their final battle."
       STR_DRONE_WARFARE_UFOPAEDIA: "Unmanned aerial vehicles (UAVs) have been employed in both combat and reconnaissance roles. Their capacity to conduct high-altitude scouting, well beyond the reach of ground-based threats, allows for precision strikes, including the deployment of various explosives, missiles, or even kamikaze-like missions directly onto intended targets, all of which greatly enhance our operational capabilities. {NEWLINE} Additionally, we can deploy compact autonomous Land Drones, equipped with short-range weaponry. These drones are ideal for breaching structures and confined spaces suspected of housing enemy troops, ensuring the safety of our personnel."
-      STR_TANKS_UNITS: Heavy Weapons platforms
+      STR_TANKS_UNITS: Heavy Weapons Platforms
       STR_HEAVY_TANKS_UNITS_UFOPEDIA: "As access to new materials and advanced technologies, such as the enigmatic alien alloys, became available, the imperative to deploy heavier and more formidable units on the battlefield grew exponentially. To meet this demand, our dedicated Research teams embarked on an ambitious endeavor, focusing on the creation of groundbreaking models characterized by a drastic reduction in weight and increased mobility. The primary objective was to engineer units so lightweight that they could be safely transported and swiftly deployed by our enhanced transport ships equipped with VTOL (Vertical Takeoff and Landing) capabilities. {NEWLINE}This engineering feat signifies a pivotal advancement, enabling us to rapidly respond to emerging threats and engage the alien menace with unparalleled agility. These innovative designs are a testament to the relentless pursuit of progress and efficiency in our mission to safeguard humanity against the looming extraterrestrial threat."
       STR_ADRENO_SYRINGE_UFOPEDIA: WIP{NEWLINE} gives 1 dose to revive stun soldiers (get discarded after use)
       STR_STR_FIRST_AID_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits

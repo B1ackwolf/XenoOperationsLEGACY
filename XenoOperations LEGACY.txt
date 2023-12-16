@@ -84,6 +84,12 @@ Changelog:
 #################
 0.97.05 complete LE
 
+
+general changes:
+- some alien races were renamed, to better fit their general lore
+  *ancient abominations are now called SPAWNS.
+  *alien hybrids are now called ABOMINATIONS.
+
 Sprites changes
  - xcom transport planes and fighters recieved a general aesthetic retouch
    * the xcf0 recieved small improvements to their basebit sprite shadowing
@@ -110,11 +116,15 @@ VISUAL overhaul:
    ~changed from intense pink to a more industrial orange
 - fixed some "invisible floor squares" on the second level of the corridors
 - improved the fussion ball cannon building, added a few advanced monitors to interface
+
 sprites:
 -small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
   * added a xcom patch on xops tier
 
-BugFixes: removed the weapon slot from the dragonfly
+BugFixes: 
+- removed the weapon slot from the dragonfly
+- (BASEUPLIFT TOO) fixed some "invisible floor squares" on the second level of the corridors
+- (BASEUPLIFT TOO) fixed some missing floortiles from the catwalks in the hangars 
 
 ~~~~~~~~~~~~~~~~~~~~~~
 
