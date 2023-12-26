@@ -32,8 +32,6 @@ items:
     handSprite: 216
   - type: STR_MOTION_SCANNER
     handSprite: 1224    
-  - type: STR_PROXIMITY_GRENADE
-    handSprite: 232
   - type: STR_ELECTRO_FLARE
     handSprite: 240
   - type: STR_MIND_PROBE
@@ -3289,7 +3287,7 @@ items:
 #    hitAnimation: 26
     power: 36
     damageType: 3
-    blastRadius: 2
+    blastRadius: 1
     clipSize: 6
     shotgunPellets: 5
     battleType: 2
@@ -3362,7 +3360,7 @@ items:
 #    hitAnimation: 26
     power: 48
     damageType: 3
-    blastRadius: 2
+    blastRadius: 1
     clipSize: 15
     battleType: 2
     listOrder: 2513
@@ -3436,7 +3434,7 @@ items:
 #    hitAnimation: 26
     power: 56
     damageType: 3
-    blastRadius: 2
+    blastRadius: 1
     clipSize: 20
     battleType: 2
     invWidth: 1
@@ -3507,7 +3505,7 @@ items:
 #    hitAnimation: 26
     power: 57
     damageType: 3
-    blastRadius: 2
+    blastRadius: 1
     clipSize: 5
     battleType: 2
     listOrder: 2521
@@ -3583,7 +3581,7 @@ items:
 #    hitAnimation: 26
     power: 66
     damageType: 3
-    blastRadius: 3
+    blastRadius: 2
     clipSize: 8
     battleType: 2
     invWidth: 1
@@ -3658,7 +3656,7 @@ items:
 #    hitAnimation: 26
     power: 90
     damageType: 3
-    blastRadius: 4
+    blastRadius: 3
     clipSize: 5
     battleType: 2
     invWidth: 1
@@ -4100,7 +4098,7 @@ items:
     clipSize: 10
     battleType: 2
     attraction: 1
-    blastRadius: 2
+    blastRadius: 1
     listOrder: 4622
   - type: STR_HUMAN_HEAVY_PLASMA
     size: 0.2
@@ -4182,7 +4180,7 @@ items:
     clipSize: 14
     battleType: 2
     attraction: 1
-    blastRadius: 3
+    blastRadius: 1
     invWidth: 2
     invHeight: 1
     listOrder: 2626
@@ -4260,7 +4258,7 @@ items:
     clipSize: 5
     battleType: 2
     attraction: 1
-    blastRadius: 3
+    blastRadius: 1
     listOrder: 2630
   - type: STR_HUMAN_HEAVY_PLASMA_CANNON
     size: 0.2
@@ -4340,7 +4338,7 @@ items:
     invWidth: 2
     invHeight: 1
     attraction: 1
-    blastRadius: 4
+    blastRadius: 3
     listOrder: 2634
 ###-----Human Stun Weapons Tier
   - type: STR_STUN_ROD
@@ -4520,7 +4518,7 @@ items:
     power: 90
     damageType: 6
     battleType: 4
-    blastRadius: 6
+    blastRadius: 4
     listOrder: 2709
 ###-----Human Melee tier weapons-----###
   - type: STR_KNIFE
@@ -4590,6 +4588,9 @@ items:
 ###-----Human Ordnance tier-----###
   - type: STR_GRENADE
     listOrder: 3803
+    blastRadius: 3
+    weight: 3
+    fuseType: -2
   - type: STR_INC_GRENADE
     size: 0.05
     costBuy: 380
@@ -4600,18 +4601,33 @@ items:
     power: 70
     damageType: 2
     battleType: 4
-    blastRadius: 5
+    blastRadius: 3
+    fuseType: -2
     listOrder: 4005
+  - type: STR_PROXIMITY_GRENADE
+    requires:
+      - STR_PROXIMITY_GRENADE
+    handSprite: 232
+    size: 0.05
+    costSell: 2200
+    weight: 3
+    power: 60
+    damageType: 3
+    battleType: 5
+    blastRadius: 2
+    fuseType: -1
+    listOrder: 4010
   - type: STR_HVGRENADE
     size: 0.05
     costSell: 5000
-    weight: 3
+    weight: 2
     bigSprite: 313
     floorSprite: 313
     power: 65
     damageType: 3
     battleType: 4
-    blastRadius: 6
+    blastRadius: 3
+    fuseType: -2
     listOrder: 4020
   - type: STR_HB_GRENADE
     size: 0.05
@@ -4622,6 +4638,8 @@ items:
     power: 75
     damageType: 3
     battleType: 4
+    blastRadius: 3
+    fuseType: -1
     invWidth: 1
     invHeight: 1
     listOrder: 3452
@@ -4634,6 +4652,8 @@ items:
     power: 80
     damageType: 2
     battleType: 4
+    blastRadius: 3
+    fuseType: -1
     invWidth: 1
     invHeight: 1
     listOrder: 3453
@@ -4759,7 +4779,8 @@ items:
     power: 85
     damageType: 3
     battleType: 4
-    blastRadius: 5
+    blastRadius: 4
+    fuseType: -1
     listOrder: 6004
   - type: STR_ELERIUM_MINE
     size: 0.025
@@ -4770,7 +4791,8 @@ items:
     power: 90
     damageType: 3
     battleType: 5
-    blastRadius: 5
+    blastRadius: 4
+    fuseType: -1
     attraction: 6
     listOrder: 6005
   - type: STR_ANTIMATTER_BOMB
@@ -4785,7 +4807,8 @@ items:
     battleType: 4
     invWidth: 2
     invHeight: 1
-    blastRadius: 9
+    blastRadius: 8
+    fuseType: -1
     twoHanded: true
     attraction: 6
     listOrder: 6010
@@ -5163,7 +5186,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    blastRadius: 2
+    blastRadius: 1
     listOrder: 4666
   - type: STR_ALIEN_PLASMA_BLASTER
     requires:
@@ -5380,7 +5403,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    blastRadius: 3
+    blastRadius: 2
     listOrder: 4678
   - type: STR_ALIEN_HEAVY_PLASMA_CANNON
     requires:
@@ -5450,7 +5473,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    blastRadius: 4
+    blastRadius: 3
     listOrder: 4682
   - type: STR_SMALL_LAUNCHER
     requires:
@@ -5542,6 +5565,8 @@ items:
       - STR_ALIEN_GRENADE
       - STR_LIGHT_ALIEN_WEAPONS
     bigSprite: 364
+    blastRadius: 3
+    fuseType: -1
     floorSprite: 364
     handSprite: 850
     attraction: 6
@@ -5590,7 +5615,8 @@ items:
     power: 95
     damageType: 3
     battleType: 5
-    blastRadius: 5
+    blastRadius: 4
+    fuseType: -2
     recoveryPoints: 1
     attraction: 6
     listOrder: 6005
@@ -5609,7 +5635,8 @@ items:
     battleType: 4
     invWidth: 1
     invHeight: 2
-    blastRadius: 10
+    blastRadius: 8
+    fuseType: -1
     recoveryPoints: 1
     attraction: 6
     listOrder: 6010

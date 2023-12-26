@@ -7,12 +7,34 @@ facilities:
     spriteShape: 1
   - type: STR_LASER_DEFENSES
     spriteShape: 1
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 30
+        refund: 10
+      STR_ALIEN_ALLOYS:
+        build: 100
+        refund: 50
+      STR_UFO_POWER_SOURCE:
+        build: 1
+        refund: 0
   - type: STR_PLASMA_DEFENSES
     spriteShape: 1
   - type: STR_FUSION_BALL_DEFENSES
     spriteShape: 1
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 10
+        refund: 5
+      STR_ALIEN_ALLOYS:
+        build: 10
+        refund: 5
+      STR_UFO_POWER_SOURCE:
+        build: 1
+        refund: 0
   - type: STR_GRAV_SHIELD
     spriteShape: 1
+  - type: STR_PSIONIC_LABORATORY
+    psiLabs: 5
   - type: STR_MIND_SHIELD
     spriteShape: 1
   - type: STR_HYPER_WAVE_DECODER
@@ -132,7 +154,7 @@ facilities:
     buildCost: 4700000
     size: 2
     buildTime: 40
-    monthlyCost: 70000
+    monthlyCost: 300000
     radarRange: 10850
     radarChance: 8
     mapName: XOPSXBASE11
@@ -145,7 +167,7 @@ facilities:
     size: 2
     buildCost: 11200000
     buildTime: 52
-    monthlyCost: 200000
+    monthlyCost: 700000
     radarRange: 10850
     radarChance: 100
     mapName: XOPSXBASE16
@@ -165,7 +187,10 @@ facilities:
         build: 100
         refund: 50
       STR_UFO_POWER_SOURCE:
-        build: 1
+        build: 2
+        refund: 0
+      STR_UFO_NAVIGATION:
+        build: 2
         refund: 0
     buildCost: 3800000
     buildTime: 45
@@ -188,10 +213,10 @@ facilities:
         build: 50
         refund: 25
       STR_UFO_POWER_SOURCE:
-        build: 1
+        build: 2
         refund: 0
       STR_UFO_NAVIGATION:
-        build: 2
+        build: 4
         refund: 0
     buildCost: 3300000
     buildTime: 40
@@ -207,7 +232,7 @@ facilities:
     buildCost: 3200000
     buildTime: 37
     monthlyCost: 67000
-    psiLabs: 50
+    psiLabs: 20
     mapName: XOPSXBASE20
     listOrder: 4205
 

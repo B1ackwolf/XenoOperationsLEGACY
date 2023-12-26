@@ -1521,168 +1521,162 @@ terrains:
       - XBASES03
       - XBASES04
       - XBASES05
-      #- XBASE1
-      #- XBASE2
-      #- XCOMWALL
-      #- XCOMBITS
-      #- BATHWALL
-      # - BATHBITZ
     mapBlocks:
-      - name: XBASE_00
+      - name: XBASE_00 # Access Lift
         width: 10
         length: 10
-      - name: XBASE_01
+      - name: XBASE_01 # Living Quarters
         width: 10
         length: 10
-      - name: XBASE_02
+      - name: XBASE_02 # Laboratory
         width: 10
         length: 10
-      - name: XBASE_03
+      - name: XBASE_03 # Workshop
         width: 10
         length: 10
-      - name: XBASE_04
+      - name: XBASE_04 # Small Radar
         width: 10
         length: 10
-      - name: XBASE_05
+      - name: XBASE_05 # Large Radar
         width: 10
         length: 10
-      - name: XBASE_06
+      - name: XBASE_06 # Missiles Defence
         width: 10
         length: 10
-      - name: XBASE_07
+      - name: XBASE_07 # General Stores
         width: 10
         length: 10
-      - name: XBASE_08 #the alien capturing. has extra bath bits?
+      - name: XBASE_08 # Alien Containment
         width: 10
         length: 10
-      - name: XBASE_09
+      - name: XBASE_09 # Laser Defence
         width: 10
         length: 10
-      - name: XBASE_10
+      - name: XBASE_10 # Plasma Defence
         width: 10
         length: 10
-      - name: XBASE_11
+      - name: XBASE_11 # Fusion Ball Defence
         width: 10
         length: 10
-      - name: XBASE_12
+      - name: XBASE_12 # Grav Shield
         width: 10
         length: 10
-      - name: XBASE_13
+      - name: XBASE_13 # Mind Shield
         width: 10
         length: 10
-      - name: XBASE_14
+      - name: XBASE_14 # Psi- Lab
         width: 10
         length: 10
-      - name: XBASE_15
+      - name: XBASE_15 # Hyper-Wave Decoder
         width: 10
         length: 10
-      - name: XBASE_16
+      - name: XBASE_16 # Hangar NW Block
         width: 10
         length: 10
-      - name: XBASE_17
+      - name: XBASE_17 # Hangar NE Block
         width: 10
         length: 10
-      - name: XBASE_18
+      - name: XBASE_18 # Hangar SW Block
         width: 10
         length: 10
-      - name: XBASE_19
+      - name: XBASE_19 # Hangar SE Block
         width: 10
         length: 10
-      - name: XBASE_20
+      - name: XBASE_20 # Dirt Fill block
         width: 10
         length: 10
 # Xcom Base blocks , expanded by other users
-      - name: XBASS_02
+      - name: XBASS_02 # Large Living Quarters NW Block
         width: 10
         length: 10
-      - name: XBASS_03
+      - name: XBASS_03 # Large Living Quarters NE Block
         width: 10
         length: 10
-      - name: XBASS_04
+      - name: XBASS_04 # Large Living Quarters SW Block
         width: 10
         length: 10
-      - name: XBASS_05
+      - name: XBASS_05 # Large Living Quarters SE Block
         width: 10
         length: 10
-      - name: XBASS_06
+      - name: XBASS_06 # Large Storage Facility NW Block
         width: 10
         length: 10
-      - name: XBASS_07
+      - name: XBASS_07 # Large Storage Facility NE Block
         width: 10
         length: 10
-      - name: XBASS_08
+      - name: XBASS_08 # Large Storage Facility SW Block
         width: 10
         length: 10
-      - name: XBASS_09
+      - name: XBASS_09 # Large Storage Facility SE Block
         width: 10
         length: 10
       - name: XBASS_23 # Gym
         width: 10
         length: 10
-      - name: XOPSXBASE01
+      - name: XOPSXBASE01 # Corridor
         width: 10
         length: 10
-      - name: XOPSXBASE02
+      - name: XOPSXBASE02 # Large Laboratory NW Block
         width: 10
         length: 10
-      - name: XOPSXBASE03
+      - name: XOPSXBASE03 # Large Laboratory NE Block
         width: 10
         length: 10
-      - name: XOPSXBASE04
+      - name: XOPSXBASE04 # Large Laboratory SW Block
         width: 10
         length: 10
-      - name: XOPSXBASE05
+      - name: XOPSXBASE05 # Large Laboratory SE Block
         width: 10
         length: 10
-      - name: XOPSXBASE06 # security station
+      - name: XOPSXBASE06 # Security Station
         width: 10
         length: 10
-      - name: XOPSXBASE07
+      - name: XOPSXBASE07 # Large Workshop NW Block
         width: 10
         length: 10
-      - name: XOPSXBASE08
+      - name: XOPSXBASE08 # Large Workshop NE Block
         width: 10
         length: 10
-      - name: XOPSXBASE09
+      - name: XOPSXBASE09 # Large Workshop SW Block
         width: 10
         length: 10
-      - name: XOPSXBASE10
+      - name: XOPSXBASE10 # Large Workshop SE Block
         width: 10
         length: 10
-      - name: XOPSXBASE11
+      - name: XOPSXBASE11 # Satellite Network NW Block
         width: 10
         length: 10
-      - name: XOPSXBASE12
+      - name: XOPSXBASE12 # Satellite Network NE Block
         width: 10
         length: 10
-      - name: XOPSXBASE13
+      - name: XOPSXBASE13 # Satellite Network SW Block
         width: 10
         length: 10
-      - name: XOPSXBASE14
+      - name: XOPSXBASE14 # Satellite Network SE Block
         width: 10
         length: 10
-      - name: XOPSXBASE16
+      - name: XOPSXBASE16 # Hyper-Wave Network NW Block
         width: 10
         length: 10
-      - name: XOPSXBASE17
+      - name: XOPSXBASE17 # Hyper-Wave Network NE Block
         width: 10
         length: 10
-      - name: XOPSXBASE18
+      - name: XOPSXBASE18 # Hyper-Wave Network SW Block
         width: 10
         length: 10
-      - name: XOPSXBASE19
+      - name: XOPSXBASE19 #Hyper-Wave Network SE Block
         width: 10
         length: 10
-      - name: XOPSXBASE20
+      - name: XOPSXBASE20 # Large Psy Lab NW Block
         width: 10
         length: 10
-      - name: XOPSXBASE21
+      - name: XOPSXBASE21 # Large Psy Lab NW Block
         width: 10
         length: 10
-      - name: XOPSXBASE22
+      - name: XOPSXBASE22 # Large Psy Lab SW Block
         width: 10
         length: 10
-      - name: XOPSXBASE23
+      - name: XOPSXBASE23 # Large Psy Lab SE Block
         width: 10
         length: 10
 ##### end of experimentation

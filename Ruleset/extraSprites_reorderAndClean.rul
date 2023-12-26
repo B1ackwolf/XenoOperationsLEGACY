@@ -930,14 +930,14 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      4: Resources/WeaponrySprites/WeaponFx/MeleeFx/melee1.gif
-      16: Resources/WeaponrySprites/WeaponFx/MeleeFx/plasmamelee.gif
-      28: Resources/WeaponrySprites/WeaponFx/MeleeFx/crysattack.gif
-      40: Resources/WeaponrySprites/WeaponFx/MeleeFx/lasermelee.gif
-      52: Resources/WeaponrySprites/WeaponFx/MeleeFx/shockmelee.gif
-      64: Resources/WeaponrySprites/WeaponFx/MeleeFx/ReapAttack.gif
-      76: Resources/WeaponrySprites/WeaponFx/MeleeFx/EleriumShockMelee.gif
-      88: Resources/WeaponrySprites/WeaponFx/MeleeFx/plasmameleeblue.gif
+      4: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeBasic.gif
+      16: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleePlasma.gif
+      28: Resources/WeaponrySprites/WeaponFx/MeleeFx/AttackChry.gif
+      40: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeLaser.gif
+      52: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeShock.gif
+      64: Resources/WeaponrySprites/WeaponFx/MeleeFx/AttackReap.gif
+      76: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeEleriumShock.gif
+      88: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleePlasmaBlue.gif
 #-----FACILITIES IMAGES-----#
   - type: BASEBITS.PCK
     files:
@@ -1987,7 +1987,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UPediaArmors/HECArmor.gif
+      0: Resources/UfopediaImages/Armors/HECArmor.gif
   - type: KEVLARUFOPEDIA.SPK
     singleImage: true
     width: 320
@@ -2544,278 +2544,277 @@ extraSprites:
     files:
       0: Resources/UfopediaImages/UpediaPlanes/XTPX.gif
 #----- Ufopedia Races Entries -----#
-
-#ojito reordenar desde aca
-  - type: UFOPAEDIA_IMG_MUTON_COMMANDO
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MUTONCOMMANDO.gif
-  - type: UFOPAEDIA_IMG_MUTON_COMMANDO_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MUTONCOMMANDOBody.gif
-  - type: UFOPAEDIA_IMG_MUTON_GUARD
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonGuard.gif
-  - type: UFOPAEDIA_IMG_MUTON_CHIEFTAIN
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonCommander.gif
-  - type: UFOPAEDIA_IMG_MUTON_WARLORD
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonCommanderAGOLD.gif
-  - type: UFOPAEDIA_IMG_HYBRID
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Hybrid.gif
-  - type: UFOPAEDIA_IMG_MUTON_CHIEFTAIN_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonCommanderBody.gif
-  - type: UFOPAEDIA_IMG_ARMORED_SECTOID
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/armoredsectoid.gif
-  - type: UFOPAEDIA_IMG_ARMORED_SECTOID_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/armoredsectoidbody.gif
-  - type: UFOPAEDIA_IMG_HYBRID_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/HybridBody.gif
-  - type: UFOPAEDIA_IMG_SOVEREIGN
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Sovereign.gif
-  - type: UFOPAEDIA_IMG_SOVEREIGN_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/SOVEREIGNBody.gif
-  - type: UFOPAEDIA_IMG_ENERGYALIEN
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/EnergyAlien.gif
-  - type: UFOPAEDIA_IMG_ENERGYALIEN_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/EnergyAlienBody.gif
-  - type: UFOPAEDIA_IMG_FORMIC
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Formic.gif
-  - type: UFOPAEDIA_IMG_FORMIC_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/FormicBody.png
-  - type: UFOPAEDIA_IMG_CARCHARODON
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Carcharodon.gif
-  - type: UFOPAEDIA_IMG_CARCHARODON_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/CarcharodonBody.gif
-  - type: UFOPAEDIA_IMG_ANCIENT_ABOMINATION
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Abomination.gif
-  - type: UFOPAEDIA_IMG_ANCIENT_ABOMINATION_CORPSE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Abominationbody.gif
-  - type: UFOPAEDIA_IMG_ARMORED_MUTON
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/ArmoredMuton.gif
-  - type: UFOPAEDIA_IMG_MUTON_BERSERKER
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonBerzerker.gif
-  - type: UP012.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Cleatid.gif
-  - type: UP013.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/CleatidBody.gif
-  - type: UP014.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Crysalid.gif
-  - type: UP015.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/CrysalidBody.gif
-  - type: UP041.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Cyberdisc.gif
-  - type: UP042.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/CyberdiscBody.gif
-  - type: UP016.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Ethereal.gif
-  - type: UP017.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/EtherealBody.gif
-  - type: UP018.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Floater.gif
-  - type: UP019.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/FloaterBody.gif
-  - type: UP020.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Muton.gif
-  - type: UP021.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonBody.gif
-  - type: UP022.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/Reaper.gif
-  - type: UP023.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UfopediaImages/UpediaRaces/ReaperBody.gif
   - type: UP024.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Sectoid.gif
+      0: Resources/UfopediaImages/UpediaRaces/Sectoid_race.gif
   - type: UP025.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/SectoidBody.gif
-  - type: UP026.SPK
+      0: Resources/UfopediaImages/UpediaRaces/Sectoid_body.gif
+  - type: UFOPAEDIA_IMG_ARMORED_SECTOID
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Sectopod.gif
-  - type: UP027.SPK
+      0: Resources/UfopediaImages/UpediaRaces/SectoidArmored_race.gif
+  - type: UFOPAEDIA_IMG_ARMORED_SECTOID_CORPSE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/SectopodBody.gif
-  - type: UP028.SPK
+      0: Resources/UfopediaImages/UpediaRaces/SectoidArmored_body.gif
+  - type: UP018.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Silicoid.gif
-  - type: UP029.SPK
+      0: Resources/UfopediaImages/UpediaRaces/Floater_race.gif
+  - type: UP019.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/SilicoidBody.gif
+      0: Resources/UfopediaImages/UpediaRaces/Floater_body.gif
+  - type: UFOPAEDIA_IMG_FORMIC
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Formic_race.gif
+  - type: UFOPAEDIA_IMG_FORMIC_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Formic_body.png
   - type: UP030.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Snakeman.gif
+      0: Resources/UfopediaImages/UpediaRaces/Serpentoid_race.gif
   - type: UP031.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/SnakemanBody.gif
+      0: Resources/UfopediaImages/UpediaRaces/Serpentoid_body.gif
+  - type: UP020.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Muton_race.gif
+  - type: UFOPAEDIA_IMG_ARMORED_MUTON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonWarrior_race.gif
+  - type: UFOPAEDIA_IMG_MUTON_BERSERKER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonBerzerker_race.gif
+  - type: UP021.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonBasic_body.gif
+  - type: UFOPAEDIA_IMG_MUTON_COMMANDO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonEnforcer_race.gif
+  - type: UFOPAEDIA_IMG_MUTON_GUARD
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonElite_race.gif
+  - type: UFOPAEDIA_IMG_MUTON_COMMANDO_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonVeteran_body.gif
+  - type: UFOPAEDIA_IMG_MUTON_CHIEFTAIN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonChieftain_race.gif
+  - type: UFOPAEDIA_IMG_MUTON_WARLORD
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonWarlord_race.gif
+  - type: UFOPAEDIA_IMG_MUTON_CHIEFTAIN_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/MutonCommander_body.gif
+  - type: UFOPAEDIA_IMG_CARCHARODON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Carcharodon_race.gif
+  - type: UFOPAEDIA_IMG_CARCHARODON_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Carcharodon_body.gif
+  - type: UFOPAEDIA_IMG_SOVEREIGN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Overlord_race.gif
+  - type: UFOPAEDIA_IMG_SOVEREIGN_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Overlord_body.gif
+  - type: UP016.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Ethereal_race.gif
+  - type: UP017.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Ethereal_body.gif
   - type: UFOPAEDIA_MASTERMIND
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Mastermind.gif
+      0: Resources/UfopediaImages/UpediaRaces/Mastermind_race.gif
+#ojito reordenar desde aca
+  - type: UFOPAEDIA_IMG_HYBRID
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Abomination_race.gif
+  - type: UFOPAEDIA_IMG_HYBRID_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Abomination_body.gif
+  - type: UFOPAEDIA_IMG_ENERGYALIEN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Solarite_race.gif
+  - type: UFOPAEDIA_IMG_ENERGYALIEN_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Solarite_body.gif
+  - type: UFOPAEDIA_IMG_ANCIENT_ABOMINATION
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Spawn_race.gif
+  - type: UFOPAEDIA_IMG_ANCIENT_ABOMINATION_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Spawn_body.gif
+  - type: UP012.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Celatid_race.gif
+  - type: UP013.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Celatid_body.gif
+  - type: UP014.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Chryssalid_race.gif
+  - type: UP015.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Chryssalid_body.gif
+  - type: UP041.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Cyberdisc_race.gif
+  - type: UP042.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Cyberdisc_body.gif
+  - type: UP022.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Reaper_race.gif
+  - type: UP023.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Reaper_body.gif
+  - type: UP026.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Sectopod_race.gif
+  - type: UP027.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Sectopod_body.gif
+  - type: UP028.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Silicoid_race.gif
+  - type: UP029.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Silicoid_body.gif
 #----- Ufopedia Weapons Entries -----#      
   - type: ALIENWEAPONSLIGHT
     singleImage: true
@@ -3292,7 +3291,7 @@ extraSprites:
     width: 512
     height: 200
     files:
-      0: Resources/UnitSprites/AlienFaction/SPETTER.png
+      0: Resources/UnitSprites/AlienFaction/SPITTER.png
   - type: FLOATER.PCK
     subX: 32
     subY: 40

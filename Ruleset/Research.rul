@@ -92,6 +92,11 @@ research:
     cost: 0
     points: 20
     needItem: true
+  - name: STR_PROXIMITY_GRENADE
+    cost: 10
+    points: 10
+    dependencies:
+      - STR_MOTION_SCANNER
   - name: STR_MEDI_KIT
     cost: 0
     points: 20
