@@ -81,6 +81,8 @@ Know Errors:
   -A crapton of missing UFOPaedia entries
   -Random CTDs when loading battlescapes, BE SURE TO better to SAVE PREVIOUSLY to the moment your transport crafts arrives to any mission.
 Changelog:
+
+
 #################
 0.97.05 complete LE
 
@@ -109,6 +111,10 @@ Sprites changes
    * small improvements to the hercules sprites
    * overlord recieved improvements in the basebit sprite
 - more changes to some files names (specially inside weaponrysprites folder) to improve readability and uniformity 
+
+-(nuevo) Finalizado el proceso de actualizacion de sonidos y efectos
+  * todos los misiles y armas en general del combate aereo recibieron mejoras de calidad
+- (nuevo) reducido el nivel de verbosidad y estructuracion de la descripcion de pilotos de xcom
 
 TWEAKS AND BALANCE:
 
@@ -145,6 +151,11 @@ VISUAL overhaul:
    ~changed from intense pink to a more industrial orange
 - fixed some "invisible floor squares" on the second level of the corridors
 - improved the fussion ball cannon building, added a few advanced monitors to interface
+-(nuevo) completado todo el trabajo nuevo en mapas
+  * modificado todas las lozas de piso, ahora no pareceran de marmol pulido sino q ademas tendran variedades de textura para resaltar el estilo rustico de concreto galvanizado
+    ~ todos los edificios recibieron mejoras al respecto.
+  * edificios restantes tienen ahora el alumbrado e iluminacion correcto.
+    ~ con esto daria por finalizado los planes de mejoras a las estructuras, al menos esteticamente, queda abierta la posibilidad a modificaciones debido a jugabilidad
 
 sprites:
 -small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
@@ -153,7 +164,7 @@ sprites:
 BugFixes: 
 
 - removed the weapon slot from the dragonfly, also prevented this for appearing in any new campaing.
-
+- solved a ctd caused by a missing ufopedia HEC armor file , thanks garretrgang for the report.
 - fixed some "invisible floor squares" on the second level of the corridors
 - fixed some missing floortiles from the catwalks in the hangars 
 - fixed some missing walls on the large living quarters

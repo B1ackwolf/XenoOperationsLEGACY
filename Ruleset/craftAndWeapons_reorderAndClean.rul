@@ -413,7 +413,7 @@ crafts:
 craftWeapons:
   - type: STR_STINGRAY
     sprite: 12
-    sound: 21
+    sound: 15
     damage: 70
     range: 30
     accuracy: 70
@@ -427,7 +427,7 @@ craftWeapons:
     projectileSpeed: 8
   - type: STR_AVALANCHE
     sprite: 13
-    sound: 20
+    sound: 5
     damage: 100
     range: 60
     accuracy: 80
@@ -511,7 +511,7 @@ craftWeapons:
     projectileSpeed: 8
   - type: STR_PILUM_UC
     sprite: 36
-    sound: 20
+    sound: 5
     damage: 135
     range: 62
     accuracy: 80

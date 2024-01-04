@@ -8,7 +8,7 @@ extraSounds:
       2: Resources/ImprovedSounds/GeoSounds/geo_whoosh_1.ogg #window open1
       3: Resources/ImprovedSounds/GeoSounds/geo_whoosh_2.ogg #window open2
       4: Resources/ImprovedSounds/GeoSounds/geo_cannon.ogg #cannon
-      5: Resources/ImprovedSounds/GeoSounds/geo_missile.ogg	#missile (AVALANCHE)
+      5: Resources/ImprovedSounds/GeoSounds/geo_MissileHeavy.ogg	#missile (AVALANCHE), Pilum
       6: Resources/ImprovedSounds/GeoSounds/geo_button_2.ogg #button2 #geo_button_1.ogg
       7: Resources/ImprovedSounds/GeoSounds/geo_fusionball.ogg #Fusion Ball
       8: Resources/ImprovedSounds/GeoSounds/geo_ufoattack.ogg #laser -> ufo attack (actual laser changed to 14)
@@ -18,12 +18,10 @@ extraSounds:
       12: Resources/ImprovedSounds/GeoSounds/geo_ufohit.ogg	#ufo hit
       13: Resources/ImprovedSounds/GeoSounds/geo_planedestroyed.ogg #xcom craft destroy
 #----- New plane weapons Sounds Already in XENOPS-----#    
-      20: Resources/ImprovedSounds/GeoSounds/rocketslow.ogg
-      21: Resources/ImprovedSounds/GeoSounds/rocket.ogg
-      22: Resources/ImprovedSounds/GeoSounds/rocketfast.ogg
+      22: Resources/ImprovedSounds/GeoSounds/geo_missileMedium.ogg # Cluster missile
 #----- #OJITO NEW, ADDITIONAL sounds
       14: Resources/ImprovedSounds/GeoSounds/geo_laser.ogg #LASER
-      15: Resources/ImprovedSounds/GeoSounds/geo_missile_smaller.ogg #STINGRAY
+      15: Resources/ImprovedSounds/GeoSounds/geo_MissileSmall.ogg #STINGRAY
       16: Resources/ImprovedSounds/GeoSounds/geo_gauss.ogg #GAUSS CANNON
 ##### GEOSCAPE SOUNDS ENDS #####
 
@@ -137,7 +135,7 @@ extraSounds:
 #----- Unit Sounds end here -----#
 #----- Weapon Sounds , improved -----#
 # Tier 1 & 2
-      123: Resources/ImprovedSounds/WeaponSounds/BalliSmallpistol_shot.ogg # compactPistol /// XcompactPistol
+      123: Resources/ImprovedSounds/WeaponSounds/BalliSmallpistol_shot.ogg # compactPistol /// XCompactPistol
       121: Resources/ImprovedSounds/WeaponSounds/BalliMediumPistol_shot.ogg # machinePistol, uzi, smg /// XmachinePistol, Xuzi, Xsmg
       122: Resources/ImprovedSounds/WeaponSounds/BalliServicePistol_shot.ogg # servicePistol /// XservicePistol
       84: Resources/ImprovedSounds/WeaponSounds/BalliHeavyPistol_shot.ogg # heavyPistol /// XheavyPistol

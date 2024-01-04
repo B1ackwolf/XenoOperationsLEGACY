@@ -1213,18 +1213,30 @@ extraSprites:
   #   height: 200
   #   files:
   #     0: Resources/UxUi/BackgroundFiles/BACK02.png
-  # - type: BACK04.SCR
-  #   singleImage: true
-  #   width: 320
-  #   height: 200
-  #   files:
-  #     0: Resources/UxUi/BackgroundFiles/MainBackground.gif
+  - type: BACK04.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UxUi/BackgroundFiles/BACK04.png
+  - type: BACK06.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/UxUi/BackgroundFiles/BACK06.png
   - type: ALTBACK07.SCR
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/UxUi/BackgroundFiles/Back07.png
+  # - type: BACK14.SCR
+  #   singleImage: true
+  #   width: 320
+  #   height: 200
+  #   files:
+  #     0: Resources/UxUi/BackgroundFiles/Back14.png
   - type: CODEXALERT
     singleImage: true
     width: 320
@@ -1783,12 +1795,6 @@ extraSprites:
     height: 200
     files:
       0: resources/UxUi/BackgroundFiles/GRAPHS.png
-  - type: BACK06.SCR
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: resources/UxUi/BackgroundFiles/BACK06.png
   - type: UNIBORD.PCK
     singleImage: true
     files:
@@ -1987,7 +1993,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/Armors/HECArmor.gif
+      0: Resources/UfopediaImages/UPediaArmors/HECArmor.gif
   - type: KEVLARUFOPEDIA.SPK
     singleImage: true
     width: 320

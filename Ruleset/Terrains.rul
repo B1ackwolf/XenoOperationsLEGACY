@@ -1512,7 +1512,7 @@ terrains:
       - name: RAILYARDURBAN27
         width: 10
         length: 10
-# Xcom Base tiles, vainilla blocks, trying to be improved by blackwolf        
+# XCom Base tiles, vainilla blocks, trying to be improved by blackwolf        
   - name: XBASE
     mapDataSets:
       - BLANKS
@@ -1585,7 +1585,7 @@ terrains:
       - name: XBASE_20 # Dirt Fill block
         width: 10
         length: 10
-# Xcom Base blocks , expanded by other users
+# XCom Base blocks , expanded by other users
       - name: XBASS_02 # Large Living Quarters NW Block
         width: 10
         length: 10

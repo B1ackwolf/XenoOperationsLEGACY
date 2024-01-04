@@ -12,6 +12,7 @@
    * Use "medikit" consistently in str_ references, strings, and images.
  - Delete the extras sound folder as I test the new sounds.
  - Finish configuring the remaining 5 buildings to match the new art style of the bases similar to TFTD.
+   * implement the newest tiles muck and dirt for texture.
    * The following buildings are structurally finished, only the "improved flooring" and the light and illumination is pending.
      ~ Large laboratory
      ~ Large workshop
@@ -55,7 +56,8 @@
  - Error in the new "inventory" image for enemies.
    * Firstly, add remaining images of enemy inventory.
    * Review the size of the "slots" position for 2x2 units.
-
+ - Finish the Audio enhancement
+   * Confirmar todas las carpetas
 #####
 
 + FINISH REORGANIZING FOLDERS:
@@ -105,7 +107,7 @@
  - Create images for mechanical units on a 6x6 grid with the image made for Ufopedia.
  - Invent new Elerium lore related to Sovereigns.
    * Check conversation with EfrenEspartano again; basically, Sovereigns are like sheep to shear Elerium.
-   * Rearrange the project to recreate Elerium, needing a live pair in the base.
+   * Rearrange the project to recreate Elerium, needing a live sovereing specimen in the base.
 
 #####
 
@@ -161,7 +163,7 @@
  - Perhaps add a cylinder to the plasma handcannon to make it a heavy revolver?.
  - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
  - Integrate functional flamethrowers (taking example from X-Files).
-   * First version with tanks on the back.
+   * First version with fuel tanks on the back.
    * Second version without a tank.
    * Third version with gelatinized Elerium.
      ~ Some tank-like weapon, perhaps a "Kokodrile"?
@@ -190,7 +192,7 @@
 + Doggos Changes:
 
  - Create more sprites for dog paper dolls.
-   * Introduce more species?
+   * Introduce more breeds?
    * Provide a wide variety of fur patterns for different species.
      ~ At least 20 different sprites for each.
      ~ Rottweilers and Dobermans could be additional species, considering they don't have much variety in fur patterns.
@@ -203,7 +205,7 @@
    * Restore the strength stat.
    * Balance the stat with the weight of the armors to prevent exploits like pack mules.
  - Modify dog armor sprites.
-   * Basic ones will be a simple harness/plate.
+   * Basic ones will be a simple harness.
    * XOps (tier 2) will be armor similar to Riley Cod (done).
    * At the 3rd level, it would resemble Astra Militarum Canid Unit.
    * 4th level exoskeleton similar to Cod Advanced Warfare.
@@ -221,6 +223,9 @@
  - Improve the ROOK ufopaedia lore. 
  - Change the full name, lore, and description of the SR-71 to something cooler.
    * Change the nickname from Blackbird to something better.
+     ~ Shearwater?
+     ~ Albatross
+     ~ CONDOR? (this should be the longest ranged , prolly a UAV)
  - Add a drone helicopter-like sound for the Shuriken.
  - Attempt to resolve the issue that drones can no longer carry things.
  - Resolve HWP sprite using the Coelacanth spritesheet to have a movable wheel and turret.
@@ -286,8 +291,9 @@
    * Background03 (terror tab)/ Create something more fitting, perhaps a city burning?
      ~ Differentiate different missions with different tabs (so all different terror types, either liners, islands, small towns, etc., have a different background).
    * Background04 (base defense)/ Something showing either soldiers fighting in a hallway (like Xenonauts vs. Androns), or some kind of missile batteries shooting at an incoming UFO.
+     ~ the same file applies to base equiptment preview, some kind of armory view
    * Background13 (selling screen)/ I always liked the TFTD version of this a lot more (try to add the money suitcase too?).
-   * Background14 (plane equipment)/ I'm okay with the current version, might only retouch the silhouette to not be so dark, so all the changes made to plane basebits shadows stand out more.
+   * Background14 (plane equipment)/ Im okay with the current version, might only retouch the silhouette to not be so dark, so all the changes made to plane basebits shadows stand out more.
    * Background16 (UFO related mission start)/ Some kind of POV over the shoulder inside the cockpit of our plane, flying over a crashed UFO.
      ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
 
