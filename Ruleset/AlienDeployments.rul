@@ -3,7 +3,7 @@ alienDeployments:
   - delete: STR_SMALL_SCOUT
   - delete: STR_TERROR_MISSION
 #----- Deletions finishes -----#
-#----- Xcom Base Defense mission begins -----#
+#----- XCom Base Defense mission begins -----#
   - type: STR_BASE_DEFENSE
     data:
       - alienRank: 5
@@ -449,7 +449,7 @@ alienDeployments:
             []
           -
             []
-#----- Xcom Base defense finishes -----#
+#----- XCom Base defense finishes -----#
 #----- Alien UFO Deployment begins -----#
 # Survey Skiff
   - type: STR_SURVEY

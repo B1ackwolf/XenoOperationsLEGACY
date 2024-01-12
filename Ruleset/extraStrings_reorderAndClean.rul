@@ -472,15 +472,15 @@
       STR_PILOT_UC: FLIGHT SUIT
       STR_PILOT_UFOPEDIA_DISPLAY: Flight Suit
       STR_PILOT_UC_UFOPEDIA: Standard G-suit used by X-Com combat pilots. Made to resist high levels of acceleration forces, lightweight yet durable (includes fire retardant clothing). Its appearance is usually similar to a jumpsuit.
-      STR_2ND_LIEUTENANT: 2nd Lieutenant
-      STR_1ST_LIEUTENANT: 1st Lieutenant
+      STR_2ND_LIEUTENANT: 3rd Lieutenant
+      STR_1ST_LIEUTENANT: Lieutenant
       STR_AIR_CAPTAIN: Captain
       STR_AIR_MAJOR: Major
       STR_AIR_COLONEL: Colonel
       STR_BRIGADIER: Brigadier
       STR_DEPUTY_OFICER: Deputy Officer
-      STR_3RD_LIEUTENANT: 3rd Lieutenant 
-      STR_ARMY_LIEUTENANT: Lieutenant
+      STR_3RD_LIEUTENANT: 2nd Lieutenant 
+      STR_ARMY_LIEUTENANT: 1st Lieutenant
       STR_ARMY_CAPTAIN: Captain
       STR_ARMY_MAJOR: Major
       STR_ARMY_LT_COLONEL: Lt. Colonel
