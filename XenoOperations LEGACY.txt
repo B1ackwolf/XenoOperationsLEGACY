@@ -115,7 +115,7 @@ Sprites changes
 -(nuevo) Finalizado el proceso de actualizacion de sonidos y efectos
   * todos los misiles y armas en general del combate aereo recibieron mejoras de calidad
 - (nuevo) reducido el nivel de verbosidad y estructuracion de la descripcion de pilotos de xcom
-
+- (nuevo) mejorado un poco el scang del mapa de la base, ahora no es tan molesto los colores, aun falta pero al menos no esta tan terriblemente MAL
 TWEAKS AND BALANCE:
 
 - Edificio psilab ahora tiene capacidad para solamente 5, el avanzado tiene capacidad para 25
