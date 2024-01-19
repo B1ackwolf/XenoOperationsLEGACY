@@ -134,6 +134,16 @@ TWEAKS AND BALANCE:
 
   * all explosions made by explosive ammo for diferent weapons have been resulting in cases where a rail rifle equiped with HE ammo could have bigger explosive area than a proper grenade 
   * in other cases alien grenades would have PUNISHLY HIGH areas
+
+-(nuevo) mapas actualizados, incluyendo cambios en la distribuicion y posicion de props en el hangar, en las barracas y en el gimnasio
+ * reducido el brillo de toda las fuentes de luz de la base
+ * implementacion de "texturas" en el piso de toda la base, para ayudar a eliminar la sensacion de marmol pulido
+ * algunos props poseen iluminacion propia ahora (ejemplo el globo terraqueo holografico)
+- (nuevo) primera pasada al SCANG.dat file, esto mejora la vista del mapview, ahora notaran q la base de xcom tiene una apariencia mas clara y discernible alejandose del naranja monocromatico de TFTD.
+- (nuevo) aproechando el cambio anterior se cambio tambien los colores de unidades en el minimapa
+  * xcom ahora es azul
+  * aliens son rojos
+  * civiles y neutrales amarillos
   
   
   
