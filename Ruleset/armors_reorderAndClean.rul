@@ -6884,6 +6884,18 @@
     spriteSheet: DOGE_DURATHREAD_VEST.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 59
+    layersDefaultPrefix: DOGGO
+    layersSpecificPrefix:
+      8: DOGGO_HARNESS
+    layersDefinition:
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_DURATHREAD_VEST_CORPSE
     visibilityAtDay: 40
@@ -6949,6 +6961,18 @@
     spriteSheet: DOGE_ALLOY_VEST.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 60
+    layersDefaultPrefix: DOGGO
+    layersSpecificPrefix:
+      8: DOGGO_HARNESS
+    layersDefinition:
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_ALLOY_VEST_CORPSE
     visibilityAtDay: 40

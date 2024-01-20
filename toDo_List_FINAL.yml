@@ -1,17 +1,18 @@
 #ideas for the mod, in any specific order:
 
 + PRIORITIES FIXES:
- - Revisar el tema drones no entran en el dragonfly ahora
- - Bajarle el brillo de 20 a 17  las luces, algunos otros objetos tendrian 15 o mas
- - ya entendi como modificar el scangdat (hacer eso en la chamba)
+ - revisar si se puede establecer manual promotions como una opcion obligada
+ - preguntar a meridian si es posible incrementar la cantidad de oficiales numeros 5 en cada una de las ramas que vaya creando
  - (nuevo) rehacer todas las armaduras, tanto en carpeta resources como en ufopaedia
    * Usando los archivos originales de XOPS de vuelta
    * ajustar por tamaños
    
- - (nuevo)implementar el RESETRANk q creo meridian
  - (nuevo) rangos de los tanqueros
    *Specialist
-   *
+   *gunnery sargeant
+   * master chief
+   *etc
+    ~tambien modificar entonces sargentos y oficiales de las otras ramas ojito
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.

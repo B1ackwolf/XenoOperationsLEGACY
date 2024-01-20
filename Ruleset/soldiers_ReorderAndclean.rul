@@ -305,16 +305,18 @@ soldierTransformation:
     cost: 20000
     producedSoldierType: STR_SOLDIER_OFFICER
     keepSoldierArmor: true
-    minRank: 2
+    minRank: 3
     transferTime: 168
     allowsDeadSoldiers: false
     allowsLiveSoldiers: true
+    createsClone: false
     allowedSoldierTypes:
       - STR_SOLDIER
       - STR_ELITE_SOLDIER
     lowerBoundAtMinStats: false
     upperBoundAtMaxStats: false 
     upperBoundAtStatCaps: true
+    resetRank: true
     flatOverallStatChange: 
       bravery: 10
       health: 5
@@ -323,5 +325,6 @@ soldierTransformation:
       firing: 4
       throwing: 2
       melee: 2
+
 
 

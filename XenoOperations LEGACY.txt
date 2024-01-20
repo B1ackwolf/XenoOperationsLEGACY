@@ -23,7 +23,7 @@ Features
 Highly Recommended Settings
 Alien weapon self-destruction: YES. The game is balanced with this option in mind. Playing without self-destructing alien weapons will not be game breaking, but it makes it far easier and makes alien weapons far more abundant to the player which renders much of the human weapons redundant.
 UFO Extender accuracy: YES. The mod does take this into account and this option greatly diversifies weapons. Playing without this option renders many of the weapons redundant.
-***commendations mod by ivandogovich and shoes. IT adds tons of content to enrich your roleplay and "personality" to soldiers.
+allow manual promotions: improves granularity and icreases immersion, the officers sistem was created with this option aviable in mind. 
 
 Base Mod Setting Recommendations
 Any improved or defensive starting base is largely unnecessary. Xeno Ops already has a pre-built base that takes into account the changes in staff size and the new facilities
@@ -90,6 +90,12 @@ One of the biggest milestones for this update its that i Finished translating an
 Otherwise i think its good for transparency and clear communication to have you know roughly the intended direction and changes the mod might recieve in the future. Also could help me to recieve feedback and even avoid wasting time in stuff where there are better options i might ignore and wouldn't hear otherwise. 
 
 general changes:
+- (nuevo) implementado nuevas mecanicas respecto al sistema de oficiales y rangos(gracias meridian por hacer posible este cambio)
+  * candidates to enter officer school (i.e go into soldierTransformation and upgrade into officers) must be at sergeant at least.
+  * every candidate that undertakes officer training will have their rank reseted to the lowest of this chain
+  * this solves the unpleasent issue were a soldier being promoted from the staff sergeant would jump directly into captain position
+    ~ this was both problematic in terms of gameplay and inmmersion , hopefully this will solve any problems related to this.
+	  ° As a personal recommendation, i suggest you activate the "allow manual promotions" feature in the options menu. 
 - some alien races were renamed, to better fit their general lore
   *ancient abominations are now called SPAWNS.
   *alien hybrids are now called ABOMINATIONS.
@@ -118,6 +124,11 @@ Sprites changes
 - (nuevo) mejorado un poco el scang del mapa de la base, ahora no es tan molesto los colores, aun falta pero al menos no esta tan terriblemente MAL
 TWEAKS AND BALANCE:
 
+- (Nuevo) armamento inicial de la base balanceado
+  * incrementado el numero de pdws para incentivar su prueba y uso
+  * agregado unas uzis
+  * agregado una minigun
+    ~ comentarios previos me indicaron q nunca probaban algunas armas por el hecho de tener q invertir dinero y tiempo en adquirirlas, al agregarlas al inventario inicial deberia haber oportunidades de equiparse en el getGO para su testeo inmediato
 - Edificio psilab ahora tiene capacidad para solamente 5, el avanzado tiene capacidad para 25
 - all explosives and grenades got their behaviour altered:
   * all "basics" and proxys grenades (both human and alien) got their fuse timer removed .they'll now be a simple toss and forget.
@@ -178,7 +189,8 @@ BugFixes:
 - fixed some "invisible floor squares" on the second level of the corridors
 - fixed some missing floortiles from the catwalks in the hangars 
 - fixed some missing walls on the large living quarters
-
+- (nuevo) reparado temporalmente, armaduras de perritos avanzadas ya no generaran ctd, usaran el arnes basico mientras continuo con el trabajo de diseño de estas.
+- (Nuevo) resuelto un problema que impide que se equipen unidades mecanicas a los dragonflys y fireflys usando el nuevo parche de oxce. pensaba repararlo pero creo que ya es momento de mudar los tanques al sistema de armaduras.
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Version 0.97.05 beta Changelog:**
