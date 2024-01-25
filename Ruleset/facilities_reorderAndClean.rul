@@ -222,6 +222,7 @@ facilities:
     buildTime: 40
     monthlyCost: 120000
     labs: 100
+    aliens: 5
     mapName: XOPSXBASE02
   - type: STR_PSIONIC_LABORATORY_LARGE
     requires:

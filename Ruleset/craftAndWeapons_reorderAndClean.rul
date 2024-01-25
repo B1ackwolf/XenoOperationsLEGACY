@@ -17,7 +17,7 @@ crafts:
     accel: 2
     avoidBonus: 15
     soldiers: 12
-    # vehicles: -1
+    vehicles: 4
     maxSmallUnits: 12
     maxLargeUnits: 0
     pilots: 1
@@ -63,7 +63,7 @@ crafts:
     weapons: 1
     soldiers: 14
     maxItems: 700
-    # vehicles: -1
+    vehicles: 4
     maxSmallUnits: 14
     maxLargeUnits: 2
     pilots: 1
@@ -109,7 +109,7 @@ crafts:
     speedMax: 2000
     accel: 5
     soldiers: 18
-    # vehicles: -1
+    vehicles: 4
     maxSmallUnits: 18
     maxLargeUnits: 3
     pilots: 2
@@ -156,7 +156,7 @@ crafts:
     speedMax: 2900
     accel: 6
     soldiers: 22
-    # vehicles: -1
+    vehicles: 4
     maxSmallUnits: 22
     maxLargeUnits: 4
     pilots: 3

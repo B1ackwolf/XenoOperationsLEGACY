@@ -84,113 +84,99 @@ Changelog:
 
 
 #################
-0.97.05 complete LE
 
-One of the biggest milestones for this update its that i Finished translating and structuring my To-do List. I have to make it clear its not a FIXED sets of goals, as stuff could change and some topics might be added, changed or deleted entirely without being implemented.
-Otherwise i think its good for transparency and clear communication to have you know roughly the intended direction and changes the mod might recieve in the future. Also could help me to recieve feedback and even avoid wasting time in stuff where there are better options i might ignore and wouldn't hear otherwise. 
+Version 0.97.05 LE Live patch
 
-general changes:
-- (nuevo) implementado nuevas mecanicas respecto al sistema de oficiales y rangos(gracias meridian por hacer posible este cambio)
-  * candidates to enter officer school (i.e go into soldierTransformation and upgrade into officers) must be at sergeant at least.
-  * every candidate that undertakes officer training will have their rank reseted to the lowest of this chain
-  * this solves the unpleasent issue were a soldier being promoted from the staff sergeant would jump directly into captain position
-    ~ this was both problematic in terms of gameplay and inmmersion , hopefully this will solve any problems related to this.
-	  ° As a personal recommendation, i suggest you activate the "allow manual promotions" feature in the options menu. 
-- some alien races were renamed, to better fit their general lore
-  *ancient abominations are now called SPAWNS.
-  *alien hybrids are now called ABOMINATIONS.
-- changed the load order of alien materials items (xelloys,elerium, codex stuff) so you dont need to scroll down everytime you need to check those when moving between bases.  
-Sprites changes
- - xcom transport planes and fighters recieved a general aesthetic retouch
-   * the xcf0 recieved small improvements to their basebit sprite shadowing
-   * the XCF1 got their vainilla appearance totally renewed, now its based on the 2012 firaxis RAVEN figther
-     ~ included a custom artwork for it ufopaedia entry
-	 ~ recieved a matching basebit and interception window sprite to reflect this change
-   * the XCF2 also recieved some improvements:
-     ~ a custom made artwork for the ufopaedia based on the x59 marauder from the game XENONAUTS.
-	 ~ some slight changes to the basebit and inticon sprites.
-   * the XCF3 got their sprite completely revamped, now uses one made by Efrenespartano, based on the SARACEN from xenonauts
-   * xrs 71 recieved small changes
-   * dragonfly recieved subtle changes in the basebit sprite
-   * firefly recieved changes of the basebit sprite
-   * small improvements for the goliath sprites
-   * small improvements to the hercules sprites
-   * overlord recieved improvements in the basebit sprite
-- more changes to some files names (specially inside weaponrysprites folder) to improve readability and uniformity 
+One of the significant milestones in this update is the completion of translating and structuring my To-Do List. It's important to note that this list is not a fixed set of goals; changes, additions, or deletions might occur without prior notice. This transparency helps in communicating the intended direction and potential future changes for the mod. Your feedback is invaluable and can assist in making informed decisions and avoiding wasted efforts.
 
--(nuevo) Finalizado el proceso de actualizacion de sonidos y efectos
-  * todos los misiles y armas en general del combate aereo recibieron mejoras de calidad
-- (nuevo) reducido el nivel de verbosidad y estructuracion de la descripcion de pilotos de xcom
-- (nuevo) mejorado un poco el scang del mapa de la base, ahora no es tan molesto los colores, aun falta pero al menos no esta tan terriblemente MAL
-TWEAKS AND BALANCE:
+**General Changes:**
 
-- (Nuevo) armamento inicial de la base balanceado
-  * incrementado el numero de pdws para incentivar su prueba y uso
-  * agregado unas uzis
-  * agregado una minigun
-    ~ comentarios previos me indicaron q nunca probaban algunas armas por el hecho de tener q invertir dinero y tiempo en adquirirlas, al agregarlas al inventario inicial deberia haber oportunidades de equiparse en el getGO para su testeo inmediato
-- Edificio psilab ahora tiene capacidad para solamente 5, el avanzado tiene capacidad para 25
-- all explosives and grenades got their behaviour altered:
-  * all "basics" and proxys grenades (both human and alien) got their fuse timer removed .they'll now be a simple toss and forget.
-  * more "advanced grenades" (from hybrid and further) keep their old timer behaviour.
-  * all explosions now have their explosion radius changed (reduced in most of the cases)
-  * as a side effect of these changes ,now there is a damage decay from the epicentre of the explosion and the subsecuent tiles (therefore, the farther a unit is from the center of the explosion, the higher the chance to survive even sin daños)
-	~ these changes should make explosives less overpowered and a game changer (with BRUTAL AI, the aliens exploit any clumps of soldiers, resulting in half squad wipes from a single 'nade in the early game)
-- the proximity grenade got reworked , the damage got reduced , cant be bought since start and now requires a specific research to be unlocked (related to the motion scanner) 
+- *(New)* Implemented new mechanics regarding the officer and rank system (special thanks to Meridian for enabling this change).
+  * Candidates for officer school must achieve the rank of Sergeant or higher.
+  * Officer candidates undergo training, resetting their rank to the lowest in the officer chain.
+  * This resolves the issue of soldiers skipping ranks when promoted, enhancing both gameplay and immersion. Activate the "allow manual promotions" feature for optimal results.
 
+- Renamed some alien races to better align with their general lore:
+  * Ancient Abominations are now called SPAWNS.
+  * Alien Hybrids are now called ABOMINATIONS.
 
+- Changed the load order of alien materials items for easier access (xelloys, elerium, codex stuff).
 
-- fixed some problems with the explosion radius from some explosives, they were incorrectly defined and were resulting in problematic scenarios where balancing was a headache.
-  * now all explosions made by different advanced ammo types got their explosion range significantly reduced,
+**Sprites Changes:**
 
-  * all explosions made by explosive ammo for diferent weapons have been resulting in cases where a rail rifle equiped with HE ammo could have bigger explosive area than a proper grenade 
-  * in other cases alien grenades would have PUNISHLY HIGH areas
+- Conducted a general aesthetic retouch on XCOM transport planes and fighters.
+  * XCF0 received small improvements to its basebit sprite shadowing.
+  * XCF1 underwent a complete renewal, now based on the Firaxis 2012 RAVEN fighter.
+  * XCF2 received various improvements, including a custom artwork for its ufopaedia entry.
+  * XCF3 has a sprite revamped by Efrenespartano, based on the SARACEN from Xenonauts.
+  * Several other minor sprite improvements for various vehicles.
 
--(nuevo) mapas actualizados, incluyendo cambios en la distribuicion y posicion de props en el hangar, en las barracas y en el gimnasio
- * reducido el brillo de toda las fuentes de luz de la base
- * implementacion de "texturas" en el piso de toda la base, para ayudar a eliminar la sensacion de marmol pulido
- * algunos props poseen iluminacion propia ahora (ejemplo el globo terraqueo holografico)
-- (nuevo) primera pasada al SCANG.dat file, esto mejora la vista del mapview, ahora notaran q la base de xcom tiene una apariencia mas clara y discernible alejandose del naranja monocromatico de TFTD.
-- (nuevo) aproechando el cambio anterior se cambio tambien los colores de unidades en el minimapa
-  * xcom ahora es azul
-  * aliens son rojos
-  * civiles y neutrales amarillos
-  
-  
-  
-VISUAL overhaul:
-- All buildings structure and disposition its done. Im pleased with the results but there might be room for some tweaks and adjustments.
-  * That said, i want to clarify all the ilumination of the newer rooms are still to be applied, i run out of time so i'll do this after the Holydays. 
-- improved the mcd files with extra assets , correctly coloured to xcom eu pallete
-- Small improvements for some buildings.
-  * Recoloring of some assets like chairs
-  * Starting recolouring all the floor tiles, to add some muck, wear and tear and avoid the "glossy polished marble" finish it has previously by being a plain color.
-    ~ For now, the work include the illuminated tiles and the ACCESS LIFT as an example, im eager for feedback before i jump into redoing all the floorings of the 30+ buildings
-- retouched the workshop building
-  *added a better assembly board  
-  *added and recolored the robot arm assembler
-   ~changed from intense pink to a more industrial orange
-- fixed some "invisible floor squares" on the second level of the corridors
-- improved the fussion ball cannon building, added a few advanced monitors to interface
--(nuevo) completado todo el trabajo nuevo en mapas
-  * modificado todas las lozas de piso, ahora no pareceran de marmol pulido sino q ademas tendran variedades de textura para resaltar el estilo rustico de concreto galvanizado
-    ~ todos los edificios recibieron mejoras al respecto.
-  * edificios restantes tienen ahora el alumbrado e iluminacion correcto.
-    ~ con esto daria por finalizado los planes de mejoras a las estructuras, al menos esteticamente, queda abierta la posibilidad a modificaciones debido a jugabilidad
+- *(New)* Completed the sound and effects update process.
+  * Enhanced the quality of combat aircraft missiles and weapons.
 
-sprites:
--small experimental changes done to the xops armor, a prelude of a complete revamp of ALL the armor sprites, finally i decided to tackle all this and improve it from previous attemps.
-  * added a xcom patch on xops tier
+- *(New)* Slightly improved the SCANG map view for the base, making colors less intrusive.
 
-BugFixes: 
+**Tweaks and Balance:**
 
-- removed the weapon slot from the dragonfly, also prevented this for appearing in any new campaing.
-- solved a ctd caused by a missing ufopedia HEC armor file , thanks garretrgang for the report.
-- fixed some "invisible floor squares" on the second level of the corridors
-- fixed some missing floortiles from the catwalks in the hangars 
-- fixed some missing walls on the large living quarters
-- (nuevo) reparado temporalmente, armaduras de perritos avanzadas ya no generaran ctd, usaran el arnes basico mientras continuo con el trabajo de diseño de estas.
-- (Nuevo) resuelto un problema que impide que se equipen unidades mecanicas a los dragonflys y fireflys usando el nuevo parche de oxce. pensaba repararlo pero creo que ya es momento de mudar los tanques al sistema de armaduras.
+- *(New)* Balanced initial base weaponry:
+  * Increased the number of PDWs to encourage their use.
+  * Added Uzis and a Minigun to the initial inventory for immediate testing opportunities.
+
+- Psilab building capacity adjusted to 5; Advanced Psilab can accommodate up to 25.
+
+- Altered behavior for explosives and grenades:
+  * Removed fuse timers for basic and proxy grenades.
+  * Adjusted explosion radius for all explosives, introducing damage decay from the epicenter.
+
+- Proximity grenade reworked, reduced damage, now requires specific research to unlock.
+
+- Fixed problems with explosion radius for various explosives, ensuring more balanced and predictable outcomes.
+
+- *(New)* Updated maps, including changes to prop distribution in the hangar, barracks, and gym.
+  * Reduced overall base light brightness.
+  * Implemented floor textures for a rustic concrete appearance.
+
+- *(New)* Initial pass on the SCANG.dat file, improving base map view clarity.
+
+- *(New)* Adjusted colors for units on the minimap:
+  * XCOM units are now blue.
+  * Aliens are red.
+  * Civilians and neutrals are yellow.
+
+- Implemented new props from the "From the Apocalypse" mod by Robin:
+  * Personnel Lockers
+  * Medical Stretcher (to be used in a future infirmary/hospital, currently in progress)
+
+**Visual Overhaul:**
+
+- Completed all building structures and dispositions.
+  * Illumination for newer rooms will be applied after the holidays.
+  * Improved MCD files with extra assets correctly colored to the XCOM EU palette.
+  * Recolored assets like chairs and started recoloring floor tiles for a weathered appearance.
+
+- Reworked the workshop building:
+  * Added a better assembly board.
+  * Added and recolored the robot arm assembler.
+
+- Fixed "invisible floor squares" on the second level of corridors.
+- Improved the fusion ball cannon building, adding advanced monitors for interface.
+
+- *(New)* Completed all new map work, including modified floor tiles for a rustic concrete look.
+
+**Sprites:**
+
+- Conducted small experimental changes to the XOPS armor, a prelude to a complete revamp of ALL armor sprites.
+  * Added an XCOM patch on XOPS tier.
+
+**Bug Fixes:**
+
+- Removed the weapon slot from the Dragonfly and prevented it from appearing in new campaigns.
+- Resolved a crash-to-desktop issue caused by a missing ufopedia HEC armor file.
+- Fixed "invisible floor squares" on the second level of corridors.
+- Fixed missing floor tiles on the catwalks in the hangars.
+- Fixed missing walls in the large living quarters.
+- *(New)* Temporarily fixed advanced dog armors causing CTD, using the basic harness while ongoing design work continues.
+- *(New)* Resolved an issue preventing mechanical units from equipping Dragonflies and Fireflies using the new OXCE patch; future plans involve transitioning tanks to the armor system.
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Version 0.97.05 beta Changelog:**

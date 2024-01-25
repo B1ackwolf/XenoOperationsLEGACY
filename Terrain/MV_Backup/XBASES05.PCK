@@ -521,11 +521,15 @@ I—‏ש‏ששששÿ‏‎‎‎‎‏ר‎‎‎‏üüר_‎‎‏üü‎û–‎‎‎‎‏‎‎‎‎
 G—–—–‏KûûG–FIר
 G—‏Gשש
 שששששש‏
-שששש‏F–––F‏F–––F‏ששש‏שÿ‏ענ‏ענPעעב‏ענPעפעP‏ענבעפPעפענב‏ענבעצצעPעפנP‏
-ענPעפPפצפעPנעבנעP‏ענעצרצעבעצנבעפצעP‏ענPPנPעפפצצפPעפPצענPP‏פנPPנבנפעPעפעPנPP‏פנPPנבענPעפבפענP‏
-פנPPנPנפרעבנPP‏פנPPנבנענPP‏פנPPנPנPP‏פנPPPP‏פנPPÿ‏ענ‏ענעננ‏ענPבנפפP‏עננעעעבצפעבננ‏עננעצענעערפנP‏
+שששש‏F–––F‏F–––F‏ששש‏שÿ‏צפפ‏צעענ‏צעשששרע‏צענרערעעצענ‏צענשûעשûשרצע‏
+צערערעערעצענצע‏צפפûענûûשצענרûשע‏צעצערפפרפפרערעפפצע‏רצעצענצרשûשערשששעצע‏רצעצענצערענרפפצעע‏
+רצעצעצרûשענצע‏רצעצענצפפצע‏רצעצעצע‏רצעע‏רצÿ‏ענ‏ענעננ‏ענPבנפפP‏עננעעעבצפעבננ‏עננעצענעערפנP‏
 ענעעפפפצעשרעשרפבענ‏ענעצרשצע ש שצששעצצעP‏ענPPנעננשצש ‏‏רנPPעפנPP‏נPPנצער‏‏פPPP‏ענננצרש‏נצפ‏
-פנPבנעפר‏שצענP‏פבבפר רצפנב‏פPבנררנבP‏נPבבP‏פPבÿ‏zyyyyyyz‏yxwwwwwwxy‏xwvwwwwwwvwx‏vuvwwwwwwvuv‏tuvwwwwwwvut‏tuvwwwwwwvut‏tvw‏yz‏wvt‏u‏xy‏u‏trxyrt‏trrqqqqrrt‏srqqqqqqqqrs‏srqqqqqqqqqqrs‏rqqqqqqqqqqqqr‏rqqqqqqqqqqqqr‏trqqqqqqqqqqrt‏utsrqqqqqqrstu‏vuutsrrstuuv‏vuuuuuuuuv‏zwvvvvwz‏zyyyxyzyyz‏zyyyzzyyyz‏{zyyyyyyz{‏{{zyyz{{‏{{{{ÿ‏
+פנPבנעפר‏שצענP‏פבבפר רצפנב‏פPבנררנבP‏נPבבP‏פPבÿ	‏בגה‏בגהזהה‏בגהז‏גז‏בגהז‏ה7544‏בגהז‏75444444‏בגהז‏754445444444‏
+בגז‏754444444444442R‏אה‏754444444444442RR244‏בז‏754444444444442RR2444457‏גז754444444454442RR24444579:‏754444444444442RR24444579:;;‏6544444444442RR24444579:;;רק‏77654444442RR24444579:;;רקטך‏סע7765442RR24444579:;;רקחטך‏סע7765424444579:;;רקטחטך‏
+סע776544579:;;רקטחחטך‏סע77657:;;רקחחזחטך‏סע77;;רקחזוזחטך‏ףסעפסעצקחזזוזחטך‏ףסננעפצזוההוווזחטך‏ע‏	
+נעפצ ךחזווההוחטךצ עסנע‏פצ‏ךחזווחטצצעסנעפצ‏	‏ךטטצצעסנעפצ‏צעסנעפצ‏ףסננעפצ‏
+נעפצ‏פצ‏ÿ‏
 {‏
 {‏מzzy‏yzz‏zyxxxxxxxxyz‏zyxwwwwwwxyz‏zyxwwwwwwxyz‏zyxwwwwwwxyz‏vyxwwwwwwxyv‏uqtxwwwwwwxtqu‏rqqqqqyzqqqqqr‏trqqqqxyqqqqrt‏utsrqqxyqqrstu‏vuutsxystuuv‏vuuuuuuuuv‏zwvvvvwz‏zyyyxyzyyz‏zyyyzzyyyz‏{zyyyyyyz{‏{{zyyz{{‏{{{{ÿ‏
 [‏[Z‏ZY‏YYZ‏zZYZ‏yzZYYZ‏yxyxZYYYZ‏yxwwx[[[[‏yxwwvvvvvYX‏yxwwvvvvvVVVX‏xwwvvvvvUUUVW‏YzxwvvvvXUUUUVW‏XyyWXYZXVUUUUUV‏ZyxUUUUUUUUUUU‏yzxVUUUUUUUUX‏zxyYWVUUUWXY‏y[[YXWVVWXYYZ‏x[ZZZZZZYYZ‏z[ZZZZZ[‏zyyzyxyyyz‏zyyyzzyyyz‏{zyyyyyyz{‏{{zyyz{{‏{{{{ÿ‏[‏Z[‏YZ‏ZYY‏ZYZz‏ZYYZzy‏ZYYYZxyxy‏[[[[xwwxy‏XYvvvvvwwxy‏XVVVvvvvvwwxy‏WVUUUvvvvvwwx‏WVUUUUXvvvvwxzY‏VUUUUUVXZYXWyyX‏UUUUUUUUUUUxyZ‏XUUUUUUUUVxzy‏YXWUUUVWYyxz‏ZYYXWVVWXY[[y‏ZYYZZZZZZ[x‏[ZZZZZ[z‏zyyyxyzyyz‏zyyyzzyyyz‏{zyyyyyyz{‏{{zyyz{{‏{{{{ÿ‏‏‏‏‏‏
