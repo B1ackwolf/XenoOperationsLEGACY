@@ -7,9 +7,14 @@ hacerle pisos a
 ponerle luces a
 20
 
+-empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
 
+-hacer imagensitas de los tanques de una vez, aprovechar y usar las imagenes y la de la ufopedia
+-aclarar un poquito las bandoleras un tono menos
+-concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
+- usar los cascos de CTO y girarle los lentes 90° para que queden arriba.
+- copiar el casco de exosuits para pilotos de aviones
 
-meterle un par de alien containment al laboratorio grande 2x2 
 eliminar siguientes props para hacer espacio:
 
 esquina de luces en el mcd2?
@@ -17,8 +22,15 @@ pared con repisa gris en mcd2?
 piso enrejado del primer mcd1 (25)
 bloque de tierra de mcd1
 
-para el mod de efren, eliminar bloque de tierra, piso enrejado y tacho de basurita de mcd5
 
+sacar de into the abbyss:
+* chalecos para la armaduras de soldados basicos
+* cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
+  ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
+* lore de algunas armas
+* casco para pilotos del EXO SUIT
+* Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
+* (desde el mod de jeilo) rodilleras y canilleras posiblemente, 
 sacar de fromtheapocalypse:
 
 el panel de estado de salud del hospitals
@@ -47,15 +59,7 @@ archiveros mejorados
  - Organize the chaotic situation I have regarding medical STR_ articles, establish a unique nomenclature.
    * Use "medikit" consistently in str_ references, strings, and images.
  - Delete the extras sound folder as I test the new sounds.
- - Finish configuring the remaining 5 buildings to match the new art style of the bases similar to TFTD.
-   * implement the newest tiles muck and dirt for texture.
-   * The following buildings are structurally finished, only the "improved flooring" and the light and illumination is pending.
-     ~ Large laboratory
-     ~ Large workshop
-     ~ Large hyperwave decoder
-     ~ Large radar network
-     ~ Large PsiLab
-   * Enhance ufopaedia descriptions for all buildings.
+ - Enhance ufopaedia descriptions for all buildings.
      ~ Also, allow buildings to be upgraded by building things on top of them.
      ~ And to have a descontruction timer.
    * Review the file Scang.DAT, which is the map seen on the scanner.
@@ -157,6 +161,8 @@ archiveros mejorados
    * Rename each armor individually.
    * Rename how all armor colors are referred to in "str_" and strings references.
    * Focus especially on renaming the bodies and corpses png and gif files.
+   * Increase the Size of frontal pockets to 2x2 squares.
+   * Rename the "backpack" category to something more generic.
  - Improve armor sprites.
    * Create new sprites with cool visors for every pilot version.
    * Create different versions based on soldier sizes.
