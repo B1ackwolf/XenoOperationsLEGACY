@@ -1968,7 +1968,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UPediaAllScreens/FacilityScreen.gif
+      0: Resources/UfopediaImages/UPediaAllScreens/UFOFacilityScreen.gif
   - type: BACK10.SCR
     singleImage: true
     width: 320
@@ -2549,6 +2549,49 @@ extraSprites:
     height: 200
     files:
       0: Resources/UfopediaImages/UpediaPlanes/XTPX.gif
+#----- Xcom Mechanical support Unitos OJITO -----#
+  - type: AIRDRONEUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UPediaAllScreens/Drone_Air_screen.gif
+  - type: ROCKETSDRONEUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UPediaAllScreens/Drone_Rockets_screen.gif
+  - type: LANDDRONEUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UPediaAllScreens/Drone_Land_screen.gif
+  - type: APTANKUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UPediaAllScreens/Tank_AP_screen.gif
+  - type: HETANKUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UPediaAllScreens/Tank_HE_screen.gif
+  - type: PLASMAHOVERUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UPediaAllScreens/Hover_PLASMA_screen.gif
+  - type: FUSIONHOVERUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UPediaAllScreens/Hover_FUSION_screen.gif
 #----- Ufopedia Races Entries -----#
   - type: UP024.SPK
     singleImage: true

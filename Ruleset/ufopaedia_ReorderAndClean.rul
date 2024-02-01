@@ -73,7 +73,7 @@ ufopaedia:
     text: STR_HEAVY_TANKS_UNITS_UFOPEDIA
     text_width: 308
 #---End Basic Tecnologies-----------------
-#---Craft and Craft Weapons and HWP-----------------
+#----- Craft -----#
   - id: STR_SR71
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -112,7 +112,7 @@ ufopaedia:
     requires:
       - STR_XCF1
     image_id: XCF1UFO
-# es este cabron
+# ojito es este cabron
     rect_stats:
       x: 5
       y: 40
@@ -247,7 +247,8 @@ ufopaedia:
       height: 105
     text: STR_OVERLORD_UFOPEDIA
     listOrder: 501
-#---Craft END-----------------
+#----- Craft END -----#
+#----- Craft Weapons -----#
   - id: STR_CLUSTER_MISSILE_UC
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -264,26 +265,14 @@ ufopaedia:
     image_id: HEAVYMISSILE
     text: STR_PILUM_UFOPEDIA
     listOrder: 810
-  - id: STR_HOVERTANK_PLASMA
-    type_id: 3
-    section: STR_XCOM_CRAFT_ARMAMENT
-    weapon: STR_PLASMA_CANNON
-    requires:
-      - STR_HOVER_HWP_PLASMA
-    text: STR_HOVERTANK_PLASMA_UFOPEDIA
-  - id: STR_HOVERTANK_LAUNCHER
-    type_id: 3
-    section: STR_XCOM_CRAFT_ARMAMENT
-    weapon: STR_FUSION_BALL_LAUNCHER
-    requires:
-      - STR_HOVER_HWP_FUSION
-    text: STR_HOVERTANK_LAUNCHER_UFOPEDIA
+#----- Mechanical Support Units -----#
   - id: STR_UAV
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_DRONE_WARFARE
     text: STR_UAV_UFOPEDIA
+    image_id: AIRDRONEUFO
     weapon: STR_NONE
   - id: STR_UCAV_ROCKET_LAUNCHER
     type_id: 3
@@ -292,6 +281,7 @@ ufopaedia:
       - STR_DRONE_WARFARE
       - STR_NEW_FIGHTER_PROGRAM
     text: STR_UCAV_ROCKET_LAUNCHER_UFOPEDIA
+    image_id: ROCKETSDRONEUFO
     weapon: STR_UCAV_ROCKETS
   - id: STR_LAND_DRONE
     type_id: 3
@@ -300,6 +290,7 @@ ufopaedia:
       - STR_DRONE_WARFARE
     text: STR_LAND_DRONE_UFOPEDIA
     weapon: STR_NONE
+    image_id: LANDDRONEUFO
   - id: STR_HEAVY_TANK_AP
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -307,6 +298,7 @@ ufopaedia:
       - STR_TANKS_UNITS
     text: STR_HEAVY_TANK_AP_UFOPEDIA
     weapon: STR_25MM_CHAIN_BOX
+    image_id: APTANKUFO
   - id: STR_HEAVY_TANK_HE
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -314,6 +306,24 @@ ufopaedia:
       - STR_TANKS_UNITS
     text: STR_HEAVY_TANK_HE_UFOPEDIA
     weapon: STR_105MM_CANNON_SHELLS
+    image_id: HETANKUFO
+  - id: STR_HOVERTANK_PLASMA
+    type_id: 3
+    section: STR_XCOM_CRAFT_ARMAMENT
+    weapon: STR_PLASMA_CANNON
+    requires:
+      - STR_HOVER_HWP_PLASMA
+    text: STR_HOVERTANK_PLASMA_UFOPEDIA
+    image_id: PLASMAHOVERUFO
+  - id: STR_HOVERTANK_LAUNCHER
+    type_id: 3
+    section: STR_XCOM_CRAFT_ARMAMENT
+    weapon: STR_FUSION_BALL_LAUNCHER
+    requires:
+      - STR_HOVER_HWP_FUSION
+    text: STR_HOVERTANK_LAUNCHER_UFOPEDIA
+    image_id: FUSIONHOVERUFO
+
 #---Craft and Craft Weapons and HWPs-----------------END
 #---Codex Technology----------------------------------
   - id: STR_CODEX_FRAGMENT

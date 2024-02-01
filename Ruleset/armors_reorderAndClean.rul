@@ -171,8 +171,8 @@
     layersDefinition:
       M0: ["", "", "M0_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
       M1: ["", "", "M1_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M2: ["", "", "M2_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M3: ["", "", "M3_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M2: ["", "", "M2_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M3: ["", "", "M3_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
       M4: ["", "", "M4_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
       M5: ["", "", "M5_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
       M6: ["", "", "M6_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]

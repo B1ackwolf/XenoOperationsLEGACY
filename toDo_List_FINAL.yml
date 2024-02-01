@@ -7,12 +7,19 @@ hacerle pisos a
 ponerle luces a
 20
 
--empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
+*Anotar de las armaduras:
+cuales tienen pixeles sueltos
+cuales hay q hacer talle distinto considerando el ancho del rostro
 
--hacer imagensitas de los tanques de una vez, aprovechar y usar las imagenes y la de la ufopedia
--aclarar un poquito las bandoleras un tono menos
+
+
+-empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
+ * confirmado el movimiento y sacudidas
+ * se achican al 33% y hovers al 32%
+-hacer imagensitas de los tanques de una vez, aprovechar y usar las imagenes y la de la ufopedia,
+-aclarar un poquito las bandoleras un tono menos en las versiones experimentales
 -concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
-- usar los cascos de CTO y girarle los lentes 90° para que queden arriba.
+- usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
 - copiar el casco de exosuits para pilotos de aviones
 
 eliminar siguientes props para hacer espacio:
@@ -273,9 +280,20 @@ archiveros mejorados
  - Resolve HWP sprite using the Coelacanth spritesheet to have a movable wheel and turret.
    * Alternatively, check the X-Files Outrunner and confirm how its wheels move.
      ~ Confirmed to use drawing routine number 5 (sectopods).
+ - Classic tanks will be armed with
+   * A 25mm AP cannon
+   * A HyperVelocity Ap cannon
+   * A 105mm HE cannon
+   * A Laser cannon
+   * A Plasma Cannon   
  - Use the flying tank sprite from Xenonauts to replace human Cyberdiscs.
    * They would have MRSLs as a secondary weapon.
      ~ They would behave with a lobbed effect (using "arcingShot true"), perfect for carpet bombing.
+   * Laser Cannon
+   * Plasma Cannon
+   * HyperVelocity Coilgun
+   * Fusion Launcher
+ - Perhaps add a more sturdier chassis   
  - For basic drones, use the drawing routine sprites of medusas to create an effect of going up and down at least one pixel when idle.
  - Maintain the blades of the Shuriken, add a portion of central blades to the Longbow.
    * Completely redesign the Longbow sprite.
