@@ -1962,7 +1962,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UPediaAllScreens/WeaponsScreen.gif
+      0: Resources/UfopediaImages/UPediaAllScreens/UFOWeaponsScreen.gif
   - type: BACK09.SCR
     singleImage: true
     width: 320
