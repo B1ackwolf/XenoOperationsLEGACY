@@ -820,6 +820,9 @@ mapScripts:
 #OJITO AQUI ESTA EL PROBLEMA
   - type: CRUISE_LINER # Thanks to Solarius Scorch!
     commands:
+    - type: addCraft #Size 20x20
+      rects:
+        - [1, 0, 2, 2]
     - type: addBlock
       size: [3,2]
       rects:
@@ -830,9 +833,9 @@ mapScripts:
 #BEGIN CARGOSHIP
   - type: CARGOSHIP # Thanks to Hellrazor!
     commands:
-    - type: addCraft #Size 10x20
+    - type: addCraft #Size 20x20
       rects:
-        - [1, 0, 1, 2]
+        - [0, 0, 2, 2]
     - type: addBlock #Spawn Ship
       size: [3, 7]
 #END CARGOSHIP
@@ -840,6 +843,9 @@ mapScripts:
 #BEGIN LINERSHIP
   - type: LINERSHIP # Thanks to Hellrazor!
     commands: #No Craft spawning here, we have a entry area instead
+    - type: addCraft #Size 20x20
+      rects:
+        - [0, 0, 2, 2]
     - type: addBlock
       size: [3,2]
       rects:

@@ -43,21 +43,55 @@ pilotAccuracyZeroPoint: 40
 pilotBraveryThresholds: [90, 80, 40] #Very bold, Bold, Normal
 ufoBeamWidthParameter: 1000
 hunterKillerFastRetarget: true
+#Options that cant be changed and are paramount for the balance of the mod:
 fixedUserOptions:
-  friendlyCraftEscort: true
-  battleUFOExtenderAccuracy: true
-  extendedItemReloadCost: true
+#OXC
+  lazyLoadResources: true
   storageLimitsEnforced: true
-  weaponSelfDestruction: true
-  battleExplosionHeight: 3 
-  sneakyAI: false
   canSellLiveAliens: true
-recommendedUserOptions:
+  retainCorpses: true
+  sneakyAI: false
+  battleUFOExtenderAccuracy: true
+  battleExplosionHeight: 3 
   battleInstantGrenade: false
-  fieldPromotions: true
-  aggressiveRetaliation: false
-  # retainCorpses: true
+  weaponSelfDestruction: true
+#BOXCE
+  displayHiddenAlienActivity: 1
+  baseDefenseProbability: true
+  baseDetectionProbability: true
+  battleRealisticAccuracy: true
+  battleRealisticDisplayRolls: true
+  battleRealisticImprovedSnap: true
+  battleRealisticShotDispersion: 0
+#AI
+  brutalAI: true
+  brutalCivilians: true
+  intelligenceMode: 1
+  aggressionMode: 2
+  dogfightAI: true
+  aiTargetMode: 3
+#others
+  extendedItemReloadCost: true
+
+
+
+
+
+
+  friendlyCraftEscort: true
+recommendedUserOptions:
+
+  aggressiveRetaliation: true
+  customInitialBase: false
+  allowBuildingQueue: true
+  craftLaunchAlways: true
+  fieldPromotions: false
   alienBleeding: true
+  newSeedOnLoad: true
+  battleInstantGrenade: false
+  oxceAutomaticPromotions: false
+  oxceManualPromotions: true
+  oxceWoundedDefendBaseIf: 60
   allowPsionicCapture: true
   bleedingIndicator: true
   autoSell: true
@@ -65,7 +99,6 @@ recommendedUserOptions:
   psiStrengthEval: true
   storageLimitsEnforced: true
   oxcePlayBriefingMusicDuringEquipment: true
-  craftLaunchAlways: true
 #####artificial inteligence reemplazado por brutal IA?
 # ai:
 #   extendedFireModeChoice: true #default false

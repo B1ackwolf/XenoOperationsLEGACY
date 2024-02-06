@@ -297,7 +297,7 @@ ufopaedia:
     requires:
       - STR_TANKS_UNITS
     text: STR_HEAVY_TANK_AP_UFOPEDIA
-    weapon: STR_25MM_CHAIN_BOX
+    weapon: STR_25MM_TANK_CANNON
     image_id: APTANKUFO
   - id: STR_HEAVY_TANK_HE
     type_id: 3
@@ -305,7 +305,7 @@ ufopaedia:
     requires:
       - STR_TANKS_UNITS
     text: STR_HEAVY_TANK_HE_UFOPEDIA
-    weapon: STR_105MM_CANNON_SHELLS
+    weapon: STR_105MM_TANK_CANNON
     image_id: HETANKUFO
   - id: STR_HOVERTANK_PLASMA
     type_id: 3

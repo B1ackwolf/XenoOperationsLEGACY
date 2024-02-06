@@ -2,19 +2,20 @@
 
 + PRIORITIES FIXES:
 
-crear pedido de ayuda en el foro para el asunto de los mapas del barco
-crear solicitud de q tengas distintos nivel "5"
+agregar discusion respecto al aviso de actividad enemiga en zonas sin cobertura de radar
+
+conseguir explosiones diferentes para efectos de granadas 
+
 
 revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
 
 retocar colores, no me convence del todo la version negra de black ops, probar version mas clarita?
 no me convence del todo la version de oficiales, probar con la mas OSCURA y ponerle la insignia gris
 
-faltan reparar scang.dat de los siguientes edificios:
+
 hacerle pisos a 
 20
-ponerle luces a
-20
+
 
 *Anotar de las armaduras:
 cuales tienen pixeles sueltos
@@ -25,8 +26,6 @@ cuales hay q hacer talle distinto considerando el ancho del rostro
 -empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
  * confirmado el movimiento y sacudidas
  * se achican al 33% y hovers al 32%
--hacer imagensitas de los tanques de una vez, aprovechar y usar las imagenes y la de la ufopedia,
--aclarar un poquito las bandoleras un tono menos en las versiones experimentales
 -concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
 - usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
 - copiar el casco de exosuits para pilotos de aviones
@@ -40,18 +39,18 @@ bloque de tierra de mcd1
 
 
 sacar de into the abbyss:
-* chalecos para la armaduras de soldados basicos
 * cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
   ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
 * lore de algunas armas
 * casco para pilotos del EXO SUIT
 * Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
 * (desde el mod de jeilo) rodilleras y canilleras posiblemente, 
+
+
 sacar de fromtheapocalypse:
 
 el panel de estado de salud del hospitals
 lockers especiales mejores q los grises propios
-archiveros mejorados
 
  - revisar si se puede establecer manual promotions como una opcion obligada
  - preguntar a meridian si es posible incrementar la cantidad de oficiales numeros 5 en cada una de las ramas que vaya creando

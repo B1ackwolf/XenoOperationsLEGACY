@@ -82,8 +82,40 @@ Know Errors:
   -Random CTDs when loading battlescapes, BE SURE TO better to SAVE PREVIOUSLY to the moment your transport crafts arrives to any mission.
 Changelog:
 
-
 #################
+
+Version 0.97.06
+
+importante:
+algunas opciones han sido establecidas como FIJADAS, de este modo se obtiene una experiencia mas apegada al intended balance y adicionalmente se reduce la cantidad de variables posibles q podrian terminar en CTDs
+
+opciones marcadas como fijadas (imposibles de modificar mientras este activo el mod)
+*lazy loading: YES (ayudaria a reducir la cantidad de CTDs al momento de iniciar el mod)
+
+opciones marcadas como recomendadas (que pueden ser modificadas en caso de ser deseado)
+save scumming: YES (el nombre lo explica)
+
+
+Cambios generales:
+- modificado el tiempo necesario pa obtener la medalla de servicio de xcom
+-Creados fondos con previews para cada uno de los distintos vehiculos e unidades
+- movidos ligeramente los basesprites de todos los aviones para q coincidan mejor con el hangar en la base
+- recolorizado el sprite del UCAV longbow de blanco a "KHAKI xcom"
+- retocado sprites de armaduras
+  * hecha primer nivel de color kakhi incluyendo el casco
+  * hecha color negra
+  * hecha color gris
+  * agregado detalles de parche a las boinas de xcom
+bugfixes:
+- Corregido el ctd causado en las misiones de terror q incluian un cargo ship y se usaba un avion mas grande q 10x20 (dragonfly y hercules), muchas gracias crazyharpooner por la solucion
+- en tandem con lo anterior, corregido parcialmente el problema de los cruiser line ships en donde no aparecia una nave de transporte y era imposible retirarse
+  * aunque este marcado como corregido, en ciertas circustancias comportamientos inesperados aun existe, como la nave de transporte apareciendo en posiciones indebidas
+    ~ aun sigo estudiando como resolver completamente esto, al menos se consiguio una solucion a los CTDs
+- correciones a algunos nombres en el archivo de soldados chinos
+-corregido un error ortografico en starting base, con el minigun
+-Correcciones a edificios de la base, habian sprites de props faltantes respecto al parche anterior (lockers de soldados)
+-aproximadamente 200 fixes de missings strings
+#####
 
 Version 0.97.05 LE Live patch
 

@@ -339,7 +339,7 @@ commendations:
     description: STR_MEDAL_ONE_MONTH_SERVICE_DESCRIPTION
     sprite: 36
     criteria:
-      totalMonthlyService: [1]
+      totalMonthlyService: [2]
   - type: STR_MEDAL_ORIGINAL8_NAME
     description: STR_MEDAL_ORIGINAL8_DESCRIPTION
     sprite: 37
