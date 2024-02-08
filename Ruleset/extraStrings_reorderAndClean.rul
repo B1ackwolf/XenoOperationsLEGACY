@@ -86,7 +86,46 @@
       STR_CORPSE_XOPS_POWER_ARMOR_GREY: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_GREEN: Corpse
 #Armors
-      UAV_ARMOR: Shuriken Chassi
+      UAV_ARMOR: Shuriken Frame
+      UAV_ARMOR2: Longbow Frame
+      LAND_DRONE_ARMOR: Dagger Frame
+      HEAVY_TANK_AP_ARMOR: Rapier Chassis
+      HEAVY_TANK_HE_ARMOR: Longsword Chassis
+      CELATID_ARMOR: Celatid Terrorist
+      SECTOID_ARMOR0: Sectoid
+      SECTOID_POWER_ARMOR: Sectoid Exo Suit
+      FLOATER_ARMOR0: Floater
+      FLOATER_ARMOR1: Floater
+      FLOATER_ARMOR2: Floater
+      SNAKEMAN_ARMOR0: Snakeman
+      SNAKEMAN_ARMOR1: Snakeman
+      SNAKEMAN_ARMOR2: Snakeman
+      MUTON_ARMOR0: Muton
+      MUTON_ARMOR1: Muton
+      MUTON_ARMOR2: Muton
+      ARMORED_MUTON_ARMOR: Muton Warrior 
+      MUTON_BERSERKER_ARMOR: Muton Berseker
+      MUTON_COMMANDO_ARMOR: Muton Enforcer
+      MUTON_GUARD_ARMOR: Muton Elite
+      MUTON_CHIEFTAIN_ARMOR: Muton Chieftain
+      ARMORED_MUTON_COMMANDER_ARMOR: Muton Warlord
+      HYBRID_ARMOR: Abomination Terrorist
+      SOVEREIGN_ARMOR: Sovereign
+      ENERGYALIEN_ARMOR: Solarite
+      FORMIC_ARMOR: Formic
+      CARCHARODON_ARMOR: Charcharodon
+      CARCHARODON_ARMOR2: Carcharodon
+      CARCHARODON_ARMOR3: Carcharodon
+      ABOMINATION_ARMOR: Carcharodon
+      ETHEREAL_ARMOR0: Ethereal
+      ETHEREAL_ARMOR1: Ethereal
+      ETHEREAL_ARMOR2: Ethereal
+      SECTOPOD_ARMOR: Sectopod
+      SECTOPOD_ELITE_ARMOR: Sectopod Dread
+
+
+
+
 
 
  
@@ -1303,10 +1342,6 @@
       STR_BRASS_KNUCKLES: Brass Knuckles
       STR_IMPROVED_MEDKIT: Field Surgery kit
       STR_HVGRENADE: X Force Grenade
-
-
-
-
 
 #ojito reordenar arriba y dividir en dos tiers
 #-----Human Tier 1 Ballistic   {NEWLINE}{NEWLINE}

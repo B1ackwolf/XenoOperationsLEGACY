@@ -214,7 +214,7 @@
       M42: ["", "", "M42_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
       M43: ["", "", "M43_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
       M44: ["", "", "M44_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M45: ["", "", "M45_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      M45: ["", "", "M45_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
       M46: ["", "", "M46_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
       M47: ["", "", "M47_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
       M48: ["", "", "M48_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_R",]

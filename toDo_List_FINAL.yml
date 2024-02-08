@@ -2,6 +2,9 @@
 
 + PRIORITIES FIXES:
 
+separar mascaras de cascos en versiones oscuras
+quitar rng display
+aplicar que no se permita usar alien grenade en primer turno
 agregar discusion respecto al aviso de actividad enemiga en zonas sin cobertura de radar
 
 conseguir explosiones diferentes para efectos de granadas 
@@ -25,7 +28,7 @@ cuales hay q hacer talle distinto considerando el ancho del rostro
 
 -empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
  * confirmado el movimiento y sacudidas
- * se achican al 33% y hovers al 32%
+ * se achican imagenes al 33% y hovers al 32%
 -concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
 - usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
 - copiar el casco de exosuits para pilotos de aviones

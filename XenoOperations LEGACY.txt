@@ -97,6 +97,10 @@ save scumming: YES (el nombre lo explica)
 
 
 Cambios generales:
+-agregado nuevos props nuevamente de from the apocalypse
+-(construir mañana en la chamba)creado e implementado una enfermeria, necesita muchisimo balanceo, pero en general ya deberia estar activa
+  * agregar props de camita nueva para version avanzada del hospital
+- retocado ligeramente el sprite del dragonfly, ahora es un tile mas corto en el sector de cola
 - modificado el tiempo necesario pa obtener la medalla de servicio de xcom
 -Creados fondos con previews para cada uno de los distintos vehiculos e unidades
 - movidos ligeramente los basesprites de todos los aviones para q coincidan mejor con el hangar en la base
@@ -105,6 +109,8 @@ Cambios generales:
   * hecha primer nivel de color kakhi incluyendo el casco
   * hecha color negra
   * hecha color gris
+  * heca color blanca
+  * hecha color verde
   * agregado detalles de parche a las boinas de xcom
 bugfixes:
 - Corregido el ctd causado en las misiones de terror q incluian un cargo ship y se usaba un avion mas grande q 10x20 (dragonfly y hercules), muchas gracias crazyharpooner por la solucion
@@ -114,7 +120,9 @@ bugfixes:
 - correciones a algunos nombres en el archivo de soldados chinos
 -corregido un error ortografico en starting base, con el minigun
 -Correcciones a edificios de la base, habian sprites de props faltantes respecto al parche anterior (lockers de soldados)
--aproximadamente 200 fixes de missings strings
+-corregido un problema con una esquina de la puerta lateral del firefly, permitia bajar en diagonal y ademas concedia vision desde ciertos angulos sin necesidad de abrir la puerta
+-aproximadamente 200 fixes de missings strings, algunas tienen nombres temporales, seran expandidos a la brevedad posible
+
 #####
 
 Version 0.97.05 LE Live patch
