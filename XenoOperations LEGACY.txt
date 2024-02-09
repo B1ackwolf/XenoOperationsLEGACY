@@ -115,8 +115,7 @@ Cambios generales:
 bugfixes:
 - Corregido el ctd causado en las misiones de terror q incluian un cargo ship y se usaba un avion mas grande q 10x20 (dragonfly y hercules), muchas gracias crazyharpooner por la solucion
 - en tandem con lo anterior, corregido parcialmente el problema de los cruiser line ships en donde no aparecia una nave de transporte y era imposible retirarse
-  * aunque este marcado como corregido, en ciertas circustancias comportamientos inesperados aun existe, como la nave de transporte apareciendo en posiciones indebidas
-    ~ aun sigo estudiando como resolver completamente esto, al menos se consiguio una solucion a los CTDs
+  * se tuvo q editar ligeramente algunos mapas para resolver mejor este problema
 - correciones a algunos nombres en el archivo de soldados chinos
 -corregido un error ortografico en starting base, con el minigun
 -Correcciones a edificios de la base, habian sprites de props faltantes respecto al parche anterior (lockers de soldados)
