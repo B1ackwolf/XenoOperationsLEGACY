@@ -818,11 +818,25 @@ mapScripts:
       executions: 4
     - type: fillArea
 #OJITO AQUI ESTA EL PROBLEMA
-  - type: CRUISE_LINER # Thanks to Solarius Scorch!
+
+
+######
+  - type: CRUISE_LINER # Thanks to Solarius Scorch! # BIG CRUISER
     commands:
-    - type: addCraft #Size 20x20
+    - type: addCraft
+      label: 1
       rects:
-        - [1, 0, 2, 2]
+        - [1, 0, 1, 2] #Fits only size MAP crafts of 10x20 or smaller.
+    - type: addCraft
+      label: 2 # Can be omitted if no other conditional checks are made.
+      conditionals: [-1]
+      rects:
+        - [1, 0, 2, 1] #Fits only size MAP crafts of 20x10 or smaller.
+    - type: addCraft
+      label: 3
+      conditionals: [-1, -2]
+      rects:
+        - [1, 0, 2, 2] #Fits only size MAP crafts of 20x20 or smaller.
     - type: addBlock
       size: [3,2]
       rects:
@@ -833,19 +847,41 @@ mapScripts:
 #BEGIN CARGOSHIP
   - type: CARGOSHIP # Thanks to Hellrazor!
     commands:
-    - type: addCraft #Size 20x20
+    - type: addCraft
+      label: 1
       rects:
-        - [0, 0, 2, 2]
+        - [1, 0, 1, 2] #Fits only size MAP crafts of 10x20 or smaller.
+    - type: addCraft
+      label: 2 # Can be omitted if no other conditional checks are made.
+      conditionals: [-1]
+      rects:
+        - [0, 0, 2, 1] #Fits only size MAP crafts of 20x10 or smaller.
+    - type: addCraft
+      label: 3
+      conditionals: [-1, -2]
+      rects:
+        - [0, 0, 2, 2] #Fits only size MAP crafts of 20x20 or smaller.
     - type: addBlock #Spawn Ship
       size: [3, 7]
 #END CARGOSHIP
 
-#BEGIN LINERSHIP
+#BEGIN LINERSHIP small cruiser
   - type: LINERSHIP # Thanks to Hellrazor!
-    commands: #No Craft spawning here, we have a entry area instead
-    - type: addCraft #Size 20x20
+    commands:
+    - type: addCraft
+      label: 1
       rects:
-        - [0, 0, 2, 2]
+        - [1, 0, 1, 2] #Fits only size MAP crafts of 10x20 or smaller.
+    - type: addCraft
+      label: 2 # Can be omitted if no other conditional checks are made.
+      conditionals: [-1]
+      rects:
+        - [1, 0, 2, 1] #Fits only size MAP crafts of 20x10 or smaller.
+    - type: addCraft
+      label: 3
+      conditionals: [-1, -2]
+      rects:
+        - [1, 0, 2, 2] #Fits only size MAP crafts of 20x20 or smaller.
     - type: addBlock
       size: [3,2]
       rects:
