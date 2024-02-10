@@ -292,8 +292,8 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    builtInWeapons:
-      - STR_NULL_POCKET_RS
+    # builtInWeapons:
+    #   - STR_NULL_POCKET_RS
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -441,8 +441,8 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    builtInWeapons:
-      - STR_NULL_POCKET_RS
+    # builtInWeapons:
+    #   - STR_NULL_POCKET_RS
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -589,8 +589,8 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    builtInWeapons:
-      - STR_NULL_POCKET_RS
+    # builtInWeapons:
+    #   - STR_NULL_POCKET_RS
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -737,8 +737,8 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    builtInWeapons:
-      - STR_NULL_POCKET_RS
+    # builtInWeapons:
+    #   - STR_NULL_POCKET_RS
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -885,8 +885,8 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    builtInWeapons:
-      - STR_NULL_POCKET_RS
+    # builtInWeapons:
+    #   - STR_NULL_POCKET_RS
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -1033,8 +1033,8 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    builtInWeapons:
-      - STR_NULL_POCKET_RS
+    # builtInWeapons:
+    #   - STR_NULL_POCKET_RS
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
