@@ -86,41 +86,34 @@ Changelog:
 
 Version 0.97.06
 
-importante:
-algunas opciones han sido establecidas como FIJADAS, de este modo se obtiene una experiencia mas apegada al intended balance y adicionalmente se reduce la cantidad de variables posibles q podrian terminar en CTDs
+Important:
+Some options have been set as fixed, ensuring a closer experience to the intended balance and also reducing the number of variables that could cause CTDs.
 
-opciones marcadas como fijadas (imposibles de modificar mientras este activo el mod)
-*lazy loading: YES (ayudaria a reducir la cantidad de CTDs al momento de iniciar el mod)
+General Changes:
+- Added new props from the "From the Apocalypse" mod.
+- Slightly touched up the Dragonfly sprite, now it's a shorter tile in the tail section.
+- Modified the time required to obtain the XCOM Service Medal to two months.
+- Created image backgrounds with previews for each of the different vehicles and units within the ufopaedia.
+- Slightly moved the basesprites of all planes to better match the hangar in the base.
+- Recolored the UCAV Longbow sprite from white to "Khaki XCOM".
+- Retouched armor sprites.
+  * Made the first level khaki color, including the helmet. (pixel corrections for larger sizes still pending)
+  * Made black color. (same as above)
+  * Made gray color. (same as above)
+  * Made white color. (same as above)
+  * Made green color. (same as above)
+  * Added patch details to the XCOM berets.
 
-opciones marcadas como recomendadas (que pueden ser modificadas en caso de ser deseado)
-save scumming: YES (el nombre lo explica)
-
-
-Cambios generales:
--agregado nuevos props nuevamente de from the apocalypse
--(construir mañana en la chamba)creado e implementado una enfermeria, necesita muchisimo balanceo, pero en general ya deberia estar activa
-  * agregar props de camita nueva para version avanzada del hospital
-- retocado ligeramente el sprite del dragonfly, ahora es un tile mas corto en el sector de cola
-- modificado el tiempo necesario pa obtener la medalla de servicio de xcom
--Creados fondos con previews para cada uno de los distintos vehiculos e unidades
-- movidos ligeramente los basesprites de todos los aviones para q coincidan mejor con el hangar en la base
-- recolorizado el sprite del UCAV longbow de blanco a "KHAKI xcom"
-- retocado sprites de armaduras
-  * hecha primer nivel de color kakhi incluyendo el casco
-  * hecha color negra
-  * hecha color gris
-  * heca color blanca
-  * hecha color verde
-  * agregado detalles de parche a las boinas de xcom
-bugfixes:
-- Corregido el ctd causado en las misiones de terror q incluian un cargo ship y se usaba un avion mas grande q 10x20 (dragonfly y hercules), muchas gracias crazyharpooner por la solucion
-- en tandem con lo anterior, corregido parcialmente el problema de los cruiser line ships en donde no aparecia una nave de transporte y era imposible retirarse
-  * se tuvo q editar ligeramente algunos mapas para resolver mejor este problema
-- correciones a algunos nombres en el archivo de soldados chinos
--corregido un error ortografico en starting base, con el minigun
--Correcciones a edificios de la base, habian sprites de props faltantes respecto al parche anterior (lockers de soldados)
--corregido un problema con una esquina de la puerta lateral del firefly, permitia bajar en diagonal y ademas concedia vision desde ciertos angulos sin necesidad de abrir la puerta
--aproximadamente 200 fixes de missings strings, algunas tienen nombres temporales, seran expandidos a la brevedad posible
+Bug Fixes:
+- Fixed the CTD caused in terror missions that included a cargo ship and used a plane larger than 10x20 (Dragonfly and Hercules), many thanks to CrazyHarpooner for the solution.
+- In tandem with the above, fixed the problem of Cruiser Line Ships where a transport ship did not appear and it was impossible to retreat.
+  * Some maps had to be slightly edited to better solve this problem.
+- Corrections to some incorrect names in the Chinese soldier file.
+- Corrected a spelling error in starting base, with the Minigun that could cause CTDs.
+- Corrections to base buildings, there were missing prop sprites compared to the previous patch (soldiers' lockers).
+- Fixed an issue with a corner of the Firefly's side door, allowing diagonal descent and also granting vision from certain angles without needing to open the door.
+- Fixed a similar issue with the Dragonfly that allowed lines of sight that did not correspond with the battlescape sprite.
+- Approximately 200 corrections of missing strings, some have temporary names, they will be expanded as soon as possible, with this, the overall stability of the mod will increase even more and greatly reduce the possibility of bugs.
 
 #####
 
