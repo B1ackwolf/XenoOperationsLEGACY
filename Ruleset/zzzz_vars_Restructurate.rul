@@ -60,7 +60,7 @@ fixedUserOptions:
   baseDefenseProbability: true
   baseDetectionProbability: true
   battleRealisticAccuracy: true
-  battleRealisticDisplayRolls: true
+  #battleRealisticDisplayRolls: true
   battleRealisticImprovedSnap: true
   battleRealisticShotDispersion: 0
 #AI
@@ -71,22 +71,17 @@ fixedUserOptions:
   dogfightAI: true
   aiTargetMode: 3
 #others
+  alienBleeding: true
   extendedItemReloadCost: true
-
-
-
-
-
-
   friendlyCraftEscort: true
+#Options that can be changed but are highly recommended for the balance of the mod:
 recommendedUserOptions:
-
+  displayHiddenAlienActivity: 1
   aggressiveRetaliation: true
   customInitialBase: false
   allowBuildingQueue: true
   craftLaunchAlways: true
   fieldPromotions: false
-  alienBleeding: true
   newSeedOnLoad: true
   battleInstantGrenade: false
   oxceAutomaticPromotions: false
@@ -97,7 +92,6 @@ recommendedUserOptions:
   autoSell: true
   anytimePsiTraining: true
   psiStrengthEval: true
-  storageLimitsEnforced: true
   oxcePlayBriefingMusicDuringEquipment: true
 #####artificial inteligence reemplazado por brutal IA?
 # ai:
