@@ -1,75 +1,35 @@
 #ideas for the mod, in any specific order:
 
-implementar nuevos props medicos al edificio (camilla avanzada), reemplazar fichero roto y muro de hangar roto
-
 ojito para mañana explicar:
 
  los cambios a las opciones
  mover todo lo relacionado a rangos hacia "recomendados"
  explicar lo de los avisos de actividad
- agradecer a los de reddit por sus reportes y mencion honorifica a greutneur
- poner preview de la armadura nueva
+ agregar discusion respecto al aviso de actividad enemiga en zonas sin cobertura de radar
 
 + PRIORITIES FIXES:
 
-separar mascaras de cascos en versiones oscuras
-quitar rng display
-aplicar que no se permita usar alien grenade en primer turno
-agregar discusion respecto al aviso de actividad enemiga en zonas sin cobertura de radar
+ separar mascaras de cascos en versiones oscuras
+ conseguir explosiones diferentes para efectos de granadas 
+ revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
 
-conseguir explosiones diferentes para efectos de granadas 
-
-
-revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
-
-retocar colores, no me convence del todo la version negra de black ops, probar version mas clarita?
-no me convence del todo la version de oficiales, probar con la mas OSCURA y ponerle la insignia gris
-
-
-hacerle pisos a 
-20
-
-
-*Anotar de las armaduras:
-cuales tienen pixeles sueltos
-cuales hay q hacer talle distinto considerando el ancho del rostro
-
-
-
--empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
+ - empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
  * confirmado el movimiento y sacudidas
  * se achican imagenes al 33% y hovers al 32%
--concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
-- usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
-- copiar el casco de exosuits para pilotos de aviones
-
-eliminar siguientes props para hacer espacio:
-
-esquina de luces en el mcd2?
-pared con repisa gris en mcd2?
-piso enrejado del primer mcd1 (25)
-bloque de tierra de mcd1
+ - concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
+ - usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
+ - copiar el casco de exosuits para pilotos de aviones
 
 
-sacar de into the abbyss:
-* cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
++ sacar de into the abbyss:
+ - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
   ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
-* lore de algunas armas
-* casco para pilotos del EXO SUIT
-* Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
-* (desde el mod de jeilo) rodilleras y canilleras posiblemente, 
+ - lore de algunas armas
+ - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
 
-
-sacar de fromtheapocalypse:
-
-el panel de estado de salud del hospitals
-lockers especiales mejores q los grises propios
-
- - revisar si se puede establecer manual promotions como una opcion obligada
- - preguntar a meridian si es posible incrementar la cantidad de oficiales numeros 5 en cada una de las ramas que vaya creando
  - (nuevo) rehacer todas las armaduras, tanto en carpeta resources como en ufopaedia:
-   * Usando los archivos originales de XOPS de vuelta
-   * ajustar por tamaños
+   - Usando los archivos originales de XOPS de vuelta
+   - ajustar por tamaños
    
  - (nuevo) rangos de los tanqueros
    *Specialist
@@ -172,7 +132,6 @@ lockers especiales mejores q los grises propios
    * For heavy weapons platforms (lower it a bit for a better view of the drawing and separate paragraphs correctly).
  - Use the extraNerdyPediaInfoType command in necessary articles.
    * Test how it works; currently set at 0, 1 summarized, and 2 complete.
- - Create images for mechanical units on a 6x6 grid with the image made for Ufopedia.
  - Invent new Elerium lore related to Sovereigns.
    * Check conversation with EfrenEspartano again; basically, Sovereigns are like sheep to shear Elerium.
    * Rearrange the project to recreate Elerium, needing a live sovereing specimen in the base.
@@ -225,7 +184,7 @@ lockers especiales mejores q los grises propios
      ~ A lighter satchel charge without a counting fuse that could be created.
      ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
  - Completely rebalance plasma weapons, especially weights.
- - Change the Elerium grenade sprite to the classic alien and possibly enhance it (note: this might not be feasible, check this later if possible).
+ - Change the Elerium grenade sprite to the classic alien and possibly enhance it (note; this might not be feasible, check this later if possible).
  - Rebalance the minigun to be "lighter" in the weapon itself but heavier overall, requiring a special ammo and battery backpack, which will be upgraded in the Xtier.
    * Use a belt box of ammo as a fixed backpack for the battery and bullets (Black Ops minigun box sprite in X-Files could be used).
    * Add vapor trails and reduce bullet speed.

@@ -84,7 +84,7 @@ Changelog:
 
 #################
 
-Version 0.97.06
+Version 0.97.06 LE
 
 Important:
 Some options have been set as fixed, ensuring a closer experience to the intended balance and also reducing the number of variables that could cause CTDs.
@@ -697,7 +697,7 @@ v0.96.v7 LE:
 	 °modified a lot of body sprites (groomed a lot of haircuts, to avoid clipping with some helmets and headgears)
 	 °finished POWER ARMOR layers, they should correctly show the turtleneck neoprene suit and their respective hair (i would appreciate any report in case i missed anyone)
 	 °finished ALLOY ARMOR (same as above)
-	 °finished PERSONAL ARMOR (same as above with the addition of the googles of this tier(finally managed to get the desired "head<turtleneck<hair<googles" distribution, took me a lot of more time that i expected, sorry)
+	 °finished PERSONAL ARMOR [same as above with the addition of the googles of this tier(finally managed to get the desired "head<turtleneck<hair<googles" distribution, took me a lot of more time that i expected, sorry)]
 	 °sky strike should be finished soon, now that i streamlined the process
 	 °with this more than half of the work should be done now (missing only nerve, and xops)
 	  *Xops its being worked now, will have their googles pulled up , so it needs a bit more of work than other tiers
@@ -857,7 +857,7 @@ v0.96v1 Legacy Extended:
   
   
   
-##### Versions previos to Legacy #####
+##### Versions previous to Legacy #####
   
 V0.96
   - Updated compatibility with OXC nightly and OXCE
