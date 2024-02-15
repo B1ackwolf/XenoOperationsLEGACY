@@ -83,7 +83,17 @@ Know Errors:
 Changelog:
 
 #################
+Version 0.97.07 LE
+gameplay changes:
+ - added two new buildings, the sickbay
+Sprite tweaks:
+ - Reduced size of grenade launcher ammo a bit.
+ - reajusted the position of the weapons in the first tier (continuar con esto)
 
+
+bugfixes:
+- solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.
+#####
 Version 0.97.06 LE
 
 Important:

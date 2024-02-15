@@ -6943,7 +6943,7 @@ items:
   - type: STR_NULL_POCKET_RS
     bigSprite: 2993
     weight: 0
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     fixedWeapon: true
     defaultInventorySlot: STR_RIGHT_SHOULDER
@@ -6952,7 +6952,7 @@ items:
   - type: STR_NULL_POCKET_LS
     bigSprite: 2994
     weight: 0
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     fixedWeapon: true
     defaultInventorySlot: STR_LEFT_SHOULDER
@@ -6961,7 +6961,7 @@ items:
   - type: STR_NULL_POCKET_RL
     bigSprite: 2995
     weight: 0
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     fixedWeapon: true
     defaultInventorySlot: STR_RIGHT_LEG
@@ -6970,7 +6970,7 @@ items:
   - type: STR_NULL_POCKET_LL
     bigSprite: 2996
     weight: 0
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     fixedWeapon: true
     defaultInventorySlot: STR_LEFT_LEG

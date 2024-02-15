@@ -218,7 +218,7 @@ research:
 #--Armor Tech Tree----------------------------
 #----Starting Armor-----------------------
   - name: STR_TAC_INF_TECH
-    cost: 4
+    cost: 30
     points: 10
   - name: STR_XOPS_ARMOR
     cost: 70

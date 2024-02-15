@@ -1521,6 +1521,9 @@ terrains:
       - XBASES03
       - XBASES04
       - XBASES05
+    # civilianTypes:
+    #   - STR_CIV_SCIENTIST_M
+    #   - STR_CIV_SCIENTIST_F
     mapBlocks:
       - name: XBASE_00 # Access Lift
         width: 10
@@ -1611,6 +1614,12 @@ terrains:
         width: 10
         length: 10
       - name: XBASS_23 # Gym
+        width: 10
+        length: 10
+      - name: XBASS_25 # SickBay
+        width: 10
+        length: 10
+      - name: XBASS_60 # Advanced Sickbay
         width: 10
         length: 10
       - name: XOPSXBASE01 # Corridor
