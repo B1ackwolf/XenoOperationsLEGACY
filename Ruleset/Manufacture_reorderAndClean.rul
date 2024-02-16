@@ -463,6 +463,8 @@ manufacture:
     cost: 6000
     requiredItems:
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVMACHINE_PISTOL_CLIP_TECH: 10
     listOrder: 2204
   - name: STR_HVPISTOL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -482,6 +484,8 @@ manufacture:
     cost: 1300
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10    
     listOrder: 2206
   - name: STR_HVPISTOL_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -493,6 +497,8 @@ manufacture:
     cost: 5000
     requiredItems:
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2207
   - name: STR_HVMAGNUM
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -512,6 +518,8 @@ manufacture:
     cost: 2000
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10  
     listOrder: 2209
   - name: STR_HVMAGNUM_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -523,6 +531,8 @@ manufacture:
     cost: 10000
     requiredItems:
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2210
   - name: STR_HVUZI
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -550,6 +560,8 @@ manufacture:
     cost: 1400
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10  
     listOrder: 2213
   - name: STR_HVUZI_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -618,6 +630,8 @@ manufacture:
     cost: 2400
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10  
     listOrder: 2220
   - name: STR_HVRIFLE_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -629,6 +643,8 @@ manufacture:
     cost: 14000
     requiredItems:
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2221
   - name: STR_HVLMG
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -678,6 +694,8 @@ manufacture:
     cost: 4800
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2226
   - name: STR_HVSNIPER_RIFLE_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -689,6 +707,8 @@ manufacture:
     cost: 12000
     requiredItems:
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2227
   - name: STR_HVMINGUN
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -835,6 +855,8 @@ manufacture:
     cost: 600
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2303
   - name: STR_HB_PISTOL_MACHINE_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -857,6 +879,8 @@ manufacture:
     cost: 14000
     requiredItems:
       STR_ELERIUM_115: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2305
   - name: STR_HB_PISTOL
     category: STR_HYBRID_BALLISTICS
@@ -878,6 +902,8 @@ manufacture:
     cost: 520
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2307
   - name: STR_HB_PISTOL_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -889,6 +915,8 @@ manufacture:
     cost: 1300
     requiredItems:
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2308
   - name: STR_HB_PISTOL_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -900,6 +928,8 @@ manufacture:
     cost: 13000
     requiredItems:
       STR_ELERIUM_115: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2309
   - name: STR_HB_PISTOL_LARGE
     category: STR_HYBRID_BALLISTICS
@@ -921,6 +951,8 @@ manufacture:
     cost: 800
     requiredItems:
       STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2311
   - name: STR_HB_PISTOL_LARGE_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -943,6 +975,8 @@ manufacture:
     cost: 20000
     requiredItems:
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2313
   - name: STR_HB_UZI
     category: STR_HYBRID_BALLISTICS
@@ -975,6 +1009,8 @@ manufacture:
     cost: 600
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2316
   - name: STR_HB_UZI_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -986,6 +1022,8 @@ manufacture:
     cost: 1400
     requiredItems:
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2317
   - name: STR_HB_UZI_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -997,6 +1035,8 @@ manufacture:
     cost: 14000
     requiredItems:
       STR_ELERIUM_115: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2318
   - name: STR_HB_SHOTGUN
     category: STR_HYBRID_BALLISTICS
@@ -1018,6 +1058,8 @@ manufacture:
     cost: 960
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2320
   - name: STR_HB_SHOTGUN_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1029,6 +1071,8 @@ manufacture:
     cost: 2400
     requiredItems:
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2321
   - name: STR_HB_SHOTGUN_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1040,6 +1084,8 @@ manufacture:
     cost: 24000
     requiredItems:
       STR_ELERIUM_115: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2322
   - name: STR_HB_PDW
     category: STR_HYBRID_BALLISTICS
@@ -1072,6 +1118,8 @@ manufacture:
     cost: 960
     requiredItems:
       STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2325
   - name: STR_HB_RIFLE_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1083,6 +1131,8 @@ manufacture:
     cost: 2400
     requiredItems:
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2326
   - name: STR_HB_RIFLE_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1094,6 +1144,8 @@ manufacture:
     cost: 24000
     requiredItems:
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2327
   - name: STR_HB_LMG
     category: STR_HYBRID_BALLISTICS
@@ -1115,6 +1167,8 @@ manufacture:
     cost: 1760
     requiredItems:
       STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2329
   - name: STR_HB_LMG_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1126,6 +1180,8 @@ manufacture:
     cost: 4400
     requiredItems:
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2330
   - name: STR_HB_LMG_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1137,6 +1193,8 @@ manufacture:
     cost: 44000
     requiredItems:
       STR_ELERIUM_115: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2331
   - name: STR_HB_SNIPER
     category: STR_HYBRID_BALLISTICS
@@ -1158,6 +1216,8 @@ manufacture:
     cost: 1920
     requiredItems:
       STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2333
   - name: STR_HB_SNIPER_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1169,6 +1229,8 @@ manufacture:
     cost: 4800
     requiredItems:
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2334
   - name: STR_HB_SNIPER_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1180,6 +1242,8 @@ manufacture:
     cost: 48000
     requiredItems:
       STR_ELERIUM_115: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2335
   - name: STR_HB_CANNON
     category: STR_HYBRID_BALLISTICS
@@ -1201,6 +1265,8 @@ manufacture:
     cost: 1920
     requiredItems:
       STR_ALIEN_ALLOYS: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2337
   - name: STR_HB_CANNON_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1212,6 +1278,8 @@ manufacture:
     cost: 4800
     requiredItems:
       STR_CODEX_FRAGMENT: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2338
   - name: STR_HB_CANNON_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1223,6 +1291,8 @@ manufacture:
     cost: 48000
     requiredItems:
       STR_ELERIUM_115: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2339
   - name: STR_HB_RL
     category: STR_HYBRID_BALLISTICS
@@ -1246,6 +1316,8 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
       STR_ELERIUM_115: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2341
   - name: STR_HB_MISSILE2
     category: STR_HYBRID_BALLISTICS
@@ -1258,6 +1330,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2342
 #temporal , ojito separar luego a ordnance
   - name: STR_HB_GRENADE
@@ -1269,6 +1343,8 @@ manufacture:
     cost: 7500
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2343
   - name: STR_HB_GRENADE2
     category: STR_HYBRID_BALLISTICS
@@ -1281,6 +1357,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2344
 #-----Hybrid Weapons ----------------------------------END
 

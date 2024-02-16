@@ -84,12 +84,26 @@ Changelog:
 
 #################
 Version 0.97.07 LE
+
+these options are now enforced in the options, some options will apply only if you play using BRUTAL AI (heavily recommended)
+- Lazy Loading (fundamental to avoiding startups CTDs)
+- no alien grenades on first turn (brutal ai Handles alien behaviour to make enemies competent enough to have them using this buff, becoming really fustrating in some occassions)
+- no sneaky AI (same as above)
+- alien bleeding (aliens are smart enough, this small nerf just make things fairier)
+- now some base stats are displayed in percentages, instead of merely arbitrary numbers that didnt communicate or clarify what they meant, merely a QOL)
+- fixed options from BRUTAL IA (players beware, this might become very brutal, i recommend you play some quick missions in order to gauge the difficulty and drop difficulty level if necessary (now easy level are truly easier and harder difficulties means DANGER)
+
+these options are activated by default YET you can change them in case you found them tedious/ unsavory, i recomend them, but as not being vital for the mod balance you can deactivate them at will:
+- display alien activity (forced to only giving a general overview, i consider this a QOL improvement as this was already aviable information if you checked your graphs window, this merely function like those small reports you seen in the map when playing xenonauts, you are open to deactivate this in case you found the window too spammy and annoying)
+- custom initial base its fixed (you can either accept rhe desing i made, or you can activate it and modify the layout as will if you want to
+- field promotions and automatic promotions are deactivated, and soldiers should be promoted manually by clicking in the rank icons , i preffer this way to handle the officers promotions (and roleplaying better), but i respect if anyone dont care or dont want to handle dozens or even a hundred of soldiers, so its up for everyone to decide what they want to do.
+
 gameplay changes:
  - added two new buildings, the sickbay
 Sprite tweaks:
  - Reduced size of grenade launcher ammo a bit.
  - reajusted the position of the weapons in the first tier (continuar con esto)
-
+ - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours 
 
 bugfixes:
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.
@@ -113,7 +127,7 @@ General Changes:
   * Made white color. (same as above)
   * Made green color. (same as above)
   * Added patch details to the XCOM berets.
-
+- First tier armors got their left pockets back again.
 Bug Fixes:
 - Fixed the CTD caused in terror missions that included a cargo ship and used a plane larger than 10x20 (Dragonfly and Hercules), many thanks to CrazyHarpooner for the solution.
 - In tandem with the above, fixed the problem of Cruiser Line Ships where a transport ship did not appear and it was impossible to retreat.

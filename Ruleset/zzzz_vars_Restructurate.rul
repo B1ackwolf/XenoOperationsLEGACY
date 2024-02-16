@@ -76,14 +76,13 @@ fixedUserOptions:
   friendlyCraftEscort: true
 #Options that can be changed but are highly recommended for the balance of the mod:
 recommendedUserOptions:
-  displayHiddenAlienActivity: 1
+#OXCE
   aggressiveRetaliation: true
   customInitialBase: false
   allowBuildingQueue: true
   craftLaunchAlways: true
   fieldPromotions: false
   newSeedOnLoad: true
-  battleInstantGrenade: false
   oxceAutomaticPromotions: false
   oxceManualPromotions: true
   oxceWoundedDefendBaseIf: 60

@@ -23,17 +23,12 @@ ojito para mañana explicar:
    * 15 la barraca chiquita ? incrementar coste a 15 mil
    * 85 la barraca grande ? incrementar a 70 mil
 
-+ IMPORTANTE:  
- - Reducir cost en items entre 100 todo
-   * reducir cost en manufacture
-   * reducir funding de paises
-   * reducir sueldos
-   * reducir costes de aeronave
-   * reducir precios de facilities
-
 + modificar produccion de ammunition:
  - with the "producedItems:" command
    * modificar costos y tiempos requeridos para producir un lote de municion
+   * revisar que puse un articulo dummy mientras
+   * revisar baterias de armas laser
+   * revisar cohetes y granadas
  - separar mascaras de cascos en versiones oscuras
  - conseguir explosiones diferentes para efectos de granadas 
  - revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
@@ -65,9 +60,8 @@ ojito para mañana explicar:
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.
- - Review my list of options to determine which ones can be marked as mandatory and which as recommended.
- - "[FATAL] OpenXcom has crashed: Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected: 4."
- - No matter how I modify the problem in the alien deployments tab, it still gives an error.
+ - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
+   * No matter how I modify the problem in the alien deployments tab, it still gives an error.
    * Continue investigating with EfrenEspartano to see what's going on.
  - Organize the chaotic situation I have regarding medical STR_ articles, establish a unique nomenclature.
    * Use "medikit" consistently in str_ references, strings, and images.
@@ -75,10 +69,6 @@ ojito para mañana explicar:
  - Enhance ufopaedia descriptions for all buildings.
      ~ Also, allow buildings to be upgraded by building things on top of them.
      ~ And to have a descontruction timer.
-   * Review the file Scang.DAT, which is the map seen on the scanner.
-     ~ Confirmed that it is adjusted using the MCDView to modify which one corresponds.
-     ~ As there are too many, first review the index of the vanilla base and copy and paste to have a minimum functional.
-     ~ Then modify to get those that really should be appropriate.
  - Check the functionality of the xfiles spitter regarding hiding, to completely replace the silacoid.
  - Resolve the issue with the zombification of dogs (from xfiles).
  - Improve the image of xeno physiology; it's currently the one from HWP. Additionally,
@@ -184,8 +174,7 @@ ojito para mañana explicar:
      ~ Metal protection plates.
      ~ Communication nodes.
      ~ For aiming improvement.
- - Redo basic armor pockets, returning the other side pockets.
-   * Perhaps remove pockets from personal armor.
+ - Perhaps remove pockets from personal armor.
 
 ######
 
@@ -312,7 +301,7 @@ ojito para mañana explicar:
        ° If this is applied, perhaps call the organization "The Pact", following the same function MIB has in classic fiction.
  - Solve all missing and improve inventory aliens sprites significantly.
  - Change Carcharodons sprites to gray.
-   * Only leaders should be gray, or a darker shade of gray?
+   * Perhaps Only leaders should be gray, or a darker shade of gray?
  - Modify Berserker to have built-in weapons instead of basic daggers.
    * Create handobs for double daggers like those of Wolverine/Shredder/Predator.
  - Improve Commander Sectoid sprites.
@@ -363,9 +352,7 @@ ojito para mañana explicar:
 #####
 
 + Minor Changes:
- - Place manual promotions and automatic promotions in "recommended."
-   * Consequently, do the same for "field promotions."
-   * Deactivate "explosions on the first turn" permanently.
+
  - Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
    * Consists of high-entropy alloys of known and other alien elements.
    * The real problem is not knowing the elements but the proportion for the correct mix to obtain desired properties.
@@ -381,8 +368,6 @@ ojito para mañana explicar:
  - Rename the tank plasma cannon.
  - Rename plane's plasma cannon.
  - Add filters to manufacturers to make it more granular.
- - Force the custom initial base option to false.
- - Place xelloys and elerium at the top of the list order.
  - Does the Alien Disassemble from alien entertainment give a Mind Probe?
    * If so, significantly reduce the price of the probe.
    * Increase the necessary hours.
@@ -392,10 +377,11 @@ ojito para mañana explicar:
 #####
 
 + Major Changes:
+ - include xcom npcs in base defenses
  - (new) Reduce numbers of NCP needed by xcom
    * perhaps reduce the engineers by a third
      ~ this then needs to be translated in tweaks to projects and buildings balance
-   * maybe half the scientist
+   * maybe one fith of the scientist
      ~ researches, salaries, living and labs balances should be taken into consideration.   
  - Implement daytime and nighttime camouflage.
    * Balance total vision and ranges.
@@ -429,8 +415,13 @@ ojito para mañana explicar:
  - Rebalance the weight of all objects for more intuitive values.
    * Would a total rebalancing of the soldiers' strength be needed to maintain coherent values?
  - Total change in the price of items and all projects.
-   * To make the numbers more coherent, or at least, as a minimum, reduce the cost of all initial weapons to say that it is scientific notation and is actually divided by a thousand.
-
+   * To make the numbers more coherent, or at least, as a minimum, reduce the cost of all initial weapons to say that it is scientific notation and is actually divided by a hundreth
+   * reducir cost en manufacture
+   * reducir funding de paises
+   * reducir sueldos
+   * reducir costes de aeronave
+   * reducir precios de facilities
+ - (NEW) Review the file Scang.DAT and check which maps should get their MCD file modified to improve the mapview.
 #####
 
 + Long Term Changes:
