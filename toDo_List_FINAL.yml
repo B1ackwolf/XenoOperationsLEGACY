@@ -1,13 +1,20 @@
 #ideas for the mod, in any specific order:
 
-ojito para mañana explicar:
-
- los cambios a las opciones
- mover todo lo relacionado a rangos hacia "recomendados"
- explicar lo de los avisos de actividad
- agregar discusion respecto al aviso de actividad enemiga en zonas sin cobertura de radar
-
 + PRIORITIES FIXES:
+ - revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
+ - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
+   * No matter how I modify the problem in the alien deployments tab, it still gives an error.
+   * Continue investigating with EfrenEspartano to see what's going on.
+ - Investigate how to resolve the following error
+   * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
+ - Download CMP and ensure maps and everything else is up-to-date to prevent CTDs.
+ - Resolve the Suppressed Error for STR_SECTOPOD_ELITE_TERRORIST.
+   * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
+ - Error in the new "inventory" image for enemies.
+   * Firstly, add remaining images of enemy inventory.
+   * Review the size of the "slots" position for 2x2 units.
+
++ impending changes: 
  - reajustar todo lo relacionado con cientificos
    * aumentar costos de sueldos x 4
    * reducir cantidad de horas los proyectos ÷ 4
@@ -22,8 +29,10 @@ ojito para mañana explicar:
  - reajustar capacidad de barracas en respuesta al ajuste de los cientificos
    * 15 la barraca chiquita ? incrementar coste a 15 mil
    * 85 la barraca grande ? incrementar a 70 mil
-
-+ modificar produccion de ammunition:
+ - reducir espacio de los laboratorios?
+   * 10 el laboratorio chikito
+   * 50 el laboratorio grande  
+#   
  - with the "producedItems:" command
    * modificar costos y tiempos requeridos para producir un lote de municion
    * revisar que puse un articulo dummy mientras
@@ -31,14 +40,9 @@ ojito para mañana explicar:
    * revisar cohetes y granadas
  - separar mascaras de cascos en versiones oscuras
  - conseguir explosiones diferentes para efectos de granadas 
- - revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
-
- - empezar a hacer los tanques y confirmar si hay movimiento y sacudida superponiendo una parte del scimitar sobre las otras y asi coordinar el movimiento, revisar como sacarle del coelacanth las orugas,
-   * confirmado el movimiento y sacudidas
-   * se achican imagenes al 33% y hovers al 32%
+#
  - concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
- - usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
- - copiar el casco de exosuits para pilotos de aviones
+
 
 
 + sacar de into the abbyss:
@@ -47,42 +51,28 @@ ojito para mañana explicar:
  - lore de algunas armas
  - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
 
- - (nuevo) rehacer todas las armaduras, tanto en carpeta resources como en ufopaedia:
-   - Usando los archivos originales de XOPS de vuelta
-   - ajustar por tamaños
-   
- - (nuevo) rangos de los tanqueros
-   *Specialist
-   *gunnery sargeant
-   * master chief
-   *etc
-    ~tambien modificar entonces sargentos y oficiales de las otras ramas ojito
+
+
+#MISC
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.
- - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
-   * No matter how I modify the problem in the alien deployments tab, it still gives an error.
-   * Continue investigating with EfrenEspartano to see what's going on.
+ - Clean up and correct all newlines (and double newlines).
+   * Indent only at the beginning of the text, not at the beginning of a new paragraph.
+
+
  - Organize the chaotic situation I have regarding medical STR_ articles, establish a unique nomenclature.
    * Use "medikit" consistently in str_ references, strings, and images.
- - Delete the extras sound folder as I test the new sounds.
+
  - Enhance ufopaedia descriptions for all buildings.
      ~ Also, allow buildings to be upgraded by building things on top of them.
      ~ And to have a descontruction timer.
- - Check the functionality of the xfiles spitter regarding hiding, to completely replace the silacoid.
- - Resolve the issue with the zombification of dogs (from xfiles).
- - Improve the image of xeno physiology; it's currently the one from HWP. Additionally,
-   * Finalize this change to add new images with sprites of support units in the ufopedia.
- - Adjust line cruiser maps to accommodate transport ships.
-   * With the landing pads I already created, I would need to increase the landing zone space to 20x20.
-   * Designate this area as the correct landing area.
- - Investigate how to resolve the following error
-   * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
  - Thoroughly check the entire research tree; there seem to be many dead ends in important research.
    * Prioritize "UFO Components."
- - Clean up and correct all newlines (and double newlines).
-   * Indent only at the beginning of the text, not at the beginning of a new paragraph.
+
+
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
+
  - Review the changes made to alien species and reclassify their STR_ reference names accurately.
    * Pay special attention to Muton Commanders and Muton Warlords.
    * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
@@ -91,23 +81,24 @@ ojito para mañana explicar:
      ~ A live study discussing the behavior and characteristics of the species.
      ~ An autopsy establishing generalities and the functioning of the species.
      ~ A combat analysis showing weaknesses and exploiting qualities, giving a damage bonus. (Check Xenonauts 1 posters entries for inspiration to the artwork).
- - Download CMP and ensure maps and everything else is up-to-date to prevent CTDs.
- - Create a new handob and floorob sprite in the new Kriss Vector style for the Xsmg.
- - Resolve the Suppressed Error for STR_SECTOPOD_ELITE_TERRORIST.
-   * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
-   * Suppressed Error for 'mod'/ Both 'STR_CYDONIA_OR_BUST' and 'STR_ENDGAME' research are marked as 'unlockFinalMission / true'.
- - Error in the new "inventory" image for enemies.
-   * Firstly, add remaining images of enemy inventory.
-   * Review the size of the "slots" position for 2x2 units.
+
+
+
  - Finish the Audio enhancement
    * Confirmar todas las carpetas
+ - (nuevo) rangos de los tanqueros
+   *Specialist
+   *gunnery sargeant
+   * master chief
+   *etc
+    ~tambien modificar entonces sargentos y oficiales de las otras ramas ojito}
 #####
 
 + FINISH REORGANIZING FOLDERS:
  - Fix all relative routes inside extrasprites.rul for this.
    * Be cautious, CHECK and modify the names of ALL sprites in "unitSprites" folders.
    * Rename all files within ufopaedia folder.
-
+ - Delete the extras sound folder as I test the new sounds.
 #####
 
 + EFRENESPARTANO HELP IN PLANES CHANGES:
@@ -164,7 +155,9 @@ ojito para mañana explicar:
    * Increase the Size of frontal pockets to 2x2 squares.
    * Rename the "backpack" category to something more generic.
  - Improve armor sprites.
+   * usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
    * Create new sprites with cool visors for every pilot version.
+     ~ copiar el casco de exosuits para pilotos de aviones
    * Create different versions based on soldier sizes.
    * Ensure advanced versions cover ALL skin (test with a black background as I update).
    * Use the belly from female personal armor for non-muscular men.
@@ -175,6 +168,8 @@ ojito para mañana explicar:
      ~ Communication nodes.
      ~ For aiming improvement.
  - Perhaps remove pockets from personal armor.
+
+
 
 ######
 
@@ -227,6 +222,8 @@ ojito para mañana explicar:
      ~ One "holographic"/energy-based.
    * Use metalhit.ogg as the sound.
  - Confirm the issue with the bullet sprite of the pistol taser.
+ - Create a new handob and floorob sprite in the new Kriss Vector style for the Xsmg.
+ - Reuse all the effects from into the abbyss.
 
 #####
 
@@ -256,8 +253,10 @@ ojito para mañana explicar:
      ~ Turn dogs into the equivalent of a "terror unit" for humans.
  - Create accurate battle sprites (currently beyond my abilities; seek assistance).
  - Slow down the walking animation speed of dogs to ensure all frames are activated.
+ - Resolve the issue with the zombification of dogs (from xfiles).
 
 #####
+
 
 + Vehicles Changes:
  - Create new lore for the knight (Interceptor 1).
@@ -270,6 +269,7 @@ ojito para mañana explicar:
  - Add a drone helicopter-like sound for the Shuriken.
  - Attempt to resolve the issue that drones can no longer carry things.
  - Resolve HWP sprite using the Coelacanth spritesheet to have a movable wheel and turret.
+   * se achican imagenes que tengo al 33% y hovers al 32%
    * Alternatively, check the X-Files Outrunner and confirm how its wheels move.
      ~ Confirmed to use drawing routine number 5 (sectopods).
  - Classic tanks will be armed with
@@ -312,6 +312,7 @@ ojito para mañana explicar:
    * Similar to Robocop/Dreadnoughts of Warhammer for COMMANDO Mutons.
      ~ Perpetuate them to an eternity of service and suffering.
  - Improve the drawing routine of the Spawn.
+ - Check the functionality of the xfiles spitter regarding hiding, to completely replace the silacoid.
  - Resolve the situation with Silicoids.
    * Create a new companion for Formics to replace Silicoids.
    * Remove Silicoids as companions for Mutons.

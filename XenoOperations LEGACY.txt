@@ -83,6 +83,7 @@ Know Errors:
 Changelog:
 
 #################
+
 Version 0.97.07 LE
 
 these options are now enforced in the options, some options will apply only if you play using BRUTAL AI (heavily recommended)
@@ -99,15 +100,18 @@ these options are activated by default YET you can change them in case you found
 - field promotions and automatic promotions are deactivated, and soldiers should be promoted manually by clicking in the rank icons , i preffer this way to handle the officers promotions (and roleplaying better), but i respect if anyone dont care or dont want to handle dozens or even a hundred of soldiers, so its up for everyone to decide what they want to do.
 
 gameplay changes:
- - added two new buildings, the sickbay
+ - added two new buildings, the sickbay and the advanced sickbay
+ - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
+
 Sprite tweaks:
  - Reduced size of grenade launcher ammo a bit.
  - reajusted the position of the weapons in the first tier (continuar con esto)
- - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours 
 
 bugfixes:
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.
+
 #####
+
 Version 0.97.06 LE
 
 Important:
