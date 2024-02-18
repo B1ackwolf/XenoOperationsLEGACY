@@ -1396,6 +1396,8 @@ manufacture:
     cost: 400
     requiredItems:
       STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2403
   - name: STR_LASER_PISTOL_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1407,6 +1409,8 @@ manufacture:
     cost: 400
     requiredItems:
       STR_CODEX_FRAGMENT: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2404
   - name: STR_LASER_PISTOL_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1420,6 +1424,8 @@ manufacture:
       STR_ALIEN_ALLOYS: 5
       STR_CODEX_FRAGMENT: 10
       STR_ELERIUM_115: 10
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2405
   - name: STR_LASER_SHOT_GUN
     category: STR_LASER_WEAPONS
@@ -1442,6 +1448,8 @@ manufacture:
     cost: 1600
     requiredItems:
       STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2407
   - name: STR_LASER_SHOT_GUN_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1453,6 +1461,8 @@ manufacture:
     cost: 1600
     requiredItems:
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2408
   - name: STR_LASER_SHOT_GUN_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1466,6 +1476,8 @@ manufacture:
       STR_ALIEN_ALLOYS: 5
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 20
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2409
   - name: STR_LASER_RIFLE_NEW
     category: STR_LASER_WEAPONS
@@ -1488,6 +1500,8 @@ manufacture:
     cost: 1600
     requiredItems:
       STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2411
   - name: STR_LASER_RIFLE_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1499,6 +1513,8 @@ manufacture:
     cost: 1600
     requiredItems:
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2412
   - name: STR_LASER_RIFLE_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1512,6 +1528,8 @@ manufacture:
       STR_ALIEN_ALLOYS: 5
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 20
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2413
   - name: STR_LASER_LMG
     category: STR_LASER_WEAPONS
@@ -1534,6 +1552,8 @@ manufacture:
     cost: 2400
     requiredItems:
       STR_ALIEN_ALLOYS: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2415
   - name: STR_LASER_LMG_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1545,6 +1565,8 @@ manufacture:
     cost: 2400
     requiredItems:
       STR_CODEX_FRAGMENT: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2416
   - name: STR_LASER_LMG_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1558,6 +1580,8 @@ manufacture:
       STR_ALIEN_ALLOYS: 10
       STR_CODEX_FRAGMENT: 25
       STR_ELERIUM_115: 25
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2417
   - name: STR_LASER_SNIPER_RIFLE
     category: STR_LASER_WEAPONS
@@ -1580,6 +1604,8 @@ manufacture:
     cost: 2000
     requiredItems:
       STR_ALIEN_ALLOYS: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2419
   - name: STR_LASER_SNIPER_RIFLE_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1591,6 +1617,8 @@ manufacture:
     cost: 2000
     requiredItems:
       STR_CODEX_FRAGMENT: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2420
   - name: STR_LASER_SNIPER_RIFLE_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1604,6 +1632,8 @@ manufacture:
       STR_ALIEN_ALLOYS: 10
       STR_CODEX_FRAGMENT: 25
       STR_ELERIUM_115: 25
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2421
   - name: STR_HEAVY_LASER_NEW
     category: STR_LASER_WEAPONS
@@ -1626,6 +1656,8 @@ manufacture:
     cost: 2600
     requiredItems:
       STR_ALIEN_ALLOYS: 5
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2423
   - name: STR_HEAVY_LASER_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1637,6 +1669,8 @@ manufacture:
     cost: 2600
     requiredItems:
       STR_CODEX_FRAGMENT: 5
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2424
   - name: STR_HEAVY_LASER_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1650,6 +1684,8 @@ manufacture:
       STR_ALIEN_ALLOYS: 20
       STR_CODEX_FRAGMENT: 40
       STR_ELERIUM_115: 40
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2425
 #### ojito, ordenar luego en caTEGORIA propia de melee
   - name: STR_LASER_SWORD
@@ -1697,6 +1733,8 @@ manufacture:
     cost: 4000
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2503
   - name: STR_TFPISTOL_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1709,6 +1747,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2504
   - name: STR_TFPISTOL_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1721,6 +1761,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
       STR_ELERIUM_115: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2505
   - name: STR_TFSHOTGUN
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1732,6 +1774,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 16
       STR_CODEX_FRAGMENT: 14
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2506
   - name: STR_TFSHOTGUN_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1742,6 +1786,8 @@ manufacture:
     cost: 6000
     requiredItems:
       STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2507
   - name: STR_TFSHOTGUN_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1754,6 +1800,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2508
   - name: STR_TFSHOTGUN_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1766,6 +1814,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2509
   - name: STR_TFRIFLE
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1787,6 +1837,8 @@ manufacture:
     cost: 6000
     requiredItems:
       STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2511
   - name: STR_TFRIFLE_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1799,6 +1851,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2512
   - name: STR_TFRIFLE_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1811,6 +1865,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2513
   - name: STR_TFLMG
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1832,6 +1888,8 @@ manufacture:
     cost: 8000
     requiredItems:
       STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2515
   - name: STR_TFLMG_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1844,6 +1902,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2516
   - name: STR_TFLMG_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1856,6 +1916,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2517
   - name: STR_TFSNIPER
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1877,6 +1939,8 @@ manufacture:
     cost: 6000
     requiredItems:
       STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2519
   - name: STR_TFSNIPER_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1889,6 +1953,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2520
   - name: STR_TFSNIPER_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1901,6 +1967,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2521
   - name: STR_TFHEAVY
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1922,6 +1990,8 @@ manufacture:
     cost: 10000
     requiredItems:
       STR_ALIEN_ALLOYS: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2523
   - name: STR_TFHEAVY_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1934,6 +2004,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2524
   - name: STR_TFHEAVY_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1946,6 +2018,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
       STR_ELERIUM_115: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2525
   - name: STR_TFCANNON
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1967,6 +2041,8 @@ manufacture:
     cost: 20000
     requiredItems:
       STR_ALIEN_ALLOYS: 5
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2527
   - name: STR_TFCANNON_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1979,6 +2055,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2528
   - name: STR_TFCANNON_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
@@ -1991,6 +2069,8 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 5
       STR_ELERIUM_115: 5
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2529
 #--- Hypervelocity Weapons ----------------------------------END
 #--- Sixt TierPlasma Weapons ----------------------------------
@@ -2015,6 +2095,8 @@ manufacture:
     cost: 2000
     requiredItems:
       STR_ELERIUM_115: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2602
   - name: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2027,6 +2109,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2603
   - name: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2039,6 +2123,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2604
   - name: STR_HUMAN_PLASMA_PISTOL
     category: STR_PLASMA_WEAPONS
@@ -2073,6 +2159,8 @@ manufacture:
     cost: 2000
     requiredItems:
       STR_ELERIUM_115: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2607
   - name: STR_HUMAN_PLASMA_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2085,6 +2173,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2608
   - name: STR_HUMAN_PLASMA_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2097,6 +2187,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2609
   - name: STR_HUMAN_HEAVY_PLASMA_PISTOL
     category: STR_PLASMA_WEAPONS
@@ -2131,6 +2223,8 @@ manufacture:
     cost: 2000
     requiredItems:
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2612
   - name: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2143,6 +2237,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10      
     listOrder: 2613
   - name: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2155,6 +2251,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 6
       STR_CODEX_FRAGMENT: 6
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2614
   - name: STR_HUMAN_PLASMA_BLASTER
     category: STR_PLASMA_WEAPONS
@@ -2177,6 +2275,8 @@ manufacture:
     cost: 3000
     requiredItems:
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2616
   - name: STR_HUMAN_PLASMA_BLASTER_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2189,6 +2289,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2617
   - name: STR_HUMAN_PLASMA_BLASTER_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2201,6 +2303,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2618
   - name: STR_HUMAN_PLASMA_RIFLE
     category: STR_PLASMA_WEAPONS
@@ -2223,6 +2327,8 @@ manufacture:
     cost: 32
     requiredItems:
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2620
   - name: STR_HUMAN_PLASMA_RIFLE_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2235,6 +2341,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2621
   - name: STR_HUMAN_PLASMA_RIFLE_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2247,6 +2355,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 8
       STR_CODEX_FRAGMENT: 8
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2622
   - name: STR_HUMAN_HEAVY_PLASMA
     category: STR_PLASMA_WEAPONS
@@ -2269,6 +2379,8 @@ manufacture:
     cost: 6000
     requiredItems:
       STR_ELERIUM_115: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2624
   - name: STR_HUMAN_HEAVY_PLASMA_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2281,6 +2393,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 4
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2625
   - name: STR_HUMAN_HEAVY_PLASMA_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2293,6 +2407,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 10
       STR_CODEX_FRAGMENT: 10
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2626
   - name: STR_HUMAN_PLASMA_SNIPER_RIFLE
     category: STR_PLASMA_WEAPONS
@@ -2315,6 +2431,8 @@ manufacture:
     cost: 3500
     requiredItems:
       STR_ELERIUM_115: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2628
   - name: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2327,6 +2445,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2629
   - name: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2339,6 +2459,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 10
       STR_CODEX_FRAGMENT: 10
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2630
   - name: STR_HUMAN_HEAVY_PLASMA_CANNON
     category: STR_PLASMA_WEAPONS
@@ -2361,6 +2483,8 @@ manufacture:
     cost: 7000
     requiredItems:
       STR_ELERIUM_115: 4
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2632
   - name: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2373,6 +2497,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2633
   - name: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2385,6 +2511,8 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 12
       STR_CODEX_FRAGMENT: 12
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2634
 ######Ojito pasar a armas meelee
   - name: STR_HUMAN_ALLOY_BLADE
@@ -2440,6 +2568,11 @@ manufacture:
     space: 1
     time: 50
     cost: 1200
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_CODEX_FRAGMENT: 2
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2706
   - name: STR_SHOCK_CANNON
     category: STR_SHOCK_WEAPONS
@@ -2459,6 +2592,11 @@ manufacture:
     space: 1
     time: 100
     cost: 3000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_CODEX_FRAGMENT: 3
+    producedItems:
+      STR_HVPISTOL_CLIP_ALLOY: 10
     listOrder: 2708
 #####ojito agregar a ordnance
   - name: STR_SHOCK_GRENADE

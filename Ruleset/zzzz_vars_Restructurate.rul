@@ -8,10 +8,10 @@ startingTime:
   day: 4
   month: 1
   year: 2027
-costEngineer: 62500
-costScientist: 75000
+costEngineer: 160000
+costScientist: 330000
 maxLookVariant: 13 
-timePersonnel: 72
+timePersonnel: 48
 initialFunding: 6000
 alienFuel: [STR_ELERIUM_115, 10]
 turnAIUseGrenade: 3

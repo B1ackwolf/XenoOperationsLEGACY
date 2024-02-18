@@ -1,6 +1,10 @@
 #ideas for the mod, in any specific order:
 
 + PRIORITIES FIXES:
+
+ - PEDIR UNA OPCION EN quick battles que sea toggeable y haga que la nave sea estrellada o aterrizada.
+ - Checar que onda con elerium CELL
+   * directamente revisar todos los "ojitos"
  - revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
  - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
    * No matter how I modify the problem in the alien deployments tab, it still gives an error.
@@ -15,23 +19,19 @@
    * Review the size of the "slots" position for 2x2 units.
 
 + impending changes: 
+ - implementar YA cambios al xelloy
  - reajustar todo lo relacionado con cientificos
-   * aumentar costos de sueldos x 4
    * reducir cantidad de horas los proyectos ÷ 4
-   * reducir capacidad de laboratorios a la mitad aprox
-   * numero total de cientificos aproximadamente 1/5 parte idealmente
+   * resultando en numero total de cientificos aproximadamente 1/5 parte idealmente
  - ingenieros no, por ahora?
    * triplicar sueldo
    * triplicar precio de proyectos de generacion de dinero
    * reducir costo de proyectos un 1/3
    * reducir espacios en fabricas o 1/5 o 1/10
-   * numero total de ingenieros, la mitad aproximadamente 
- - reajustar capacidad de barracas en respuesta al ajuste de los cientificos
-   * 15 la barraca chiquita ? incrementar coste a 15 mil
-   * 85 la barraca grande ? incrementar a 70 mil
- - reducir espacio de los laboratorios?
-   * 10 el laboratorio chikito
-   * 50 el laboratorio grande  
+   * resultando en numero total de ingenieros, la mitad aproximadamente 
+
+
+ - BALANCEAR TODOS LOS PRECIOS RELACIONADOS CON XELLOYS.
 #   
  - with the "producedItems:" command
    * modificar costos y tiempos requeridos para producir un lote de municion
@@ -43,16 +43,6 @@
 #
  - concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
 
-
-
-+ sacar de into the abbyss:
- - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
-  ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
- - lore de algunas armas
- - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
-
-
-
 #MISC
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
@@ -60,16 +50,11 @@
  - Clean up and correct all newlines (and double newlines).
    * Indent only at the beginning of the text, not at the beginning of a new paragraph.
 
-
- - Organize the chaotic situation I have regarding medical STR_ articles, establish a unique nomenclature.
-   * Use "medikit" consistently in str_ references, strings, and images.
-
  - Enhance ufopaedia descriptions for all buildings.
      ~ Also, allow buildings to be upgraded by building things on top of them.
      ~ And to have a descontruction timer.
  - Thoroughly check the entire research tree; there seem to be many dead ends in important research.
    * Prioritize "UFO Components."
-
 
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
 
@@ -82,16 +67,9 @@
      ~ An autopsy establishing generalities and the functioning of the species.
      ~ A combat analysis showing weaknesses and exploiting qualities, giving a damage bonus. (Check Xenonauts 1 posters entries for inspiration to the artwork).
 
-
-
  - Finish the Audio enhancement
    * Confirmar todas las carpetas
- - (nuevo) rangos de los tanqueros
-   *Specialist
-   *gunnery sargeant
-   * master chief
-   *etc
-    ~tambien modificar entonces sargentos y oficiales de las otras ramas ojito}
+
 #####
 
 + FINISH REORGANIZING FOLDERS:
@@ -169,7 +147,11 @@
      ~ For aiming improvement.
  - Perhaps remove pockets from personal armor.
 
-
++ sacar de into the abbyss:
+ - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
+  ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
+ - lore de algunas armas
+ - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
 
 ######
 
@@ -256,7 +238,6 @@
  - Resolve the issue with the zombification of dogs (from xfiles).
 
 #####
-
 
 + Vehicles Changes:
  - Create new lore for the knight (Interceptor 1).
@@ -360,7 +341,7 @@
  - Clean every .rul file from unused lines, reorder and correct all annotations.
    * "#----- topic -----#" should be the correct format.
    * Eliminate all that have an excess of dashes.
- - Rename assault cannon to something 20mm flak.
+ - Rename XX assault cannon to something 20mm flak.
  - Rename tank AP cannon to 25 mm Bushmaster.
  - Plane cannon is now a 30 mm GAU-8/A Avenger.
    * Create an improved version that unlocks after researching xelloys?.
@@ -375,6 +356,7 @@
  - Tweak and balance the ammount of Xelloys and Elerium recovered from UFO Sites.
    * Change the requeriments for some projects to balance this.
    * The ammunition manufacture should be managed in "blocks" therefore, numbers are more realist and intuitive (no move 1 Xelloy to produce one one cartridge, and 3 to produce a rifle)
+
 #####
 
 + Major Changes:
@@ -423,6 +405,8 @@
    * reducir costes de aeronave
    * reducir precios de facilities
  - (NEW) Review the file Scang.DAT and check which maps should get their MCD file modified to improve the mapview.
+ - Organize the chaotic situation I have regarding medical STR_ articles, establish a unique nomenclature.
+   * Use "medikit" consistently in str_ references, strings, and images.
 #####
 
 + Long Term Changes:

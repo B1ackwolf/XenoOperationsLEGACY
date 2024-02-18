@@ -7,16 +7,16 @@ facilities:
     spriteShape: 1
   - type: STR_LASER_DEFENSES
     spriteShape: 1
-    buildCostItems:
-      STR_ELERIUM_115:
-        build: 30
-        refund: 10
-      STR_ALIEN_ALLOYS:
-        build: 100
-        refund: 50
-      STR_UFO_POWER_SOURCE:
-        build: 1
-        refund: 0
+#    buildCostItems:
+#      STR_ELERIUM_115:
+#        build: 30
+#        refund: 10
+#      STR_ALIEN_ALLOYS:
+#        build: 100
+#        refund: 50
+#      STR_UFO_POWER_SOURCE:
+#        build: 1
+#        refund: 0
   - type: STR_PLASMA_DEFENSES
     spriteShape: 1
   - type: STR_FUSION_BALL_DEFENSES
@@ -41,11 +41,13 @@ facilities:
     spriteShape: 1
   - type: STR_LIVING_QUARTERS
     mapName: XBASE_01
-    personnel: 20
+    personnel: 15
+    monthlyCost: 15000
   - type: STR_WORKSHOP
-    workshops: 25
+    workshops: 20
   - type: STR_LABORATORY
-    labs: 20
+    labs: 10
+    monthlyCost: 45000
   - type: STR_ALIEN_CONTAINMENT
     requires:
       - STR_ALIEN_CONTAINMENT
@@ -113,8 +115,8 @@ facilities:
     size: 2
     buildCost: 2250000
     buildTime: 24
-    monthlyCost: 60000
-    personnel: 100
+    monthlyCost: 70000
+    personnel: 80
     storage: 20
     storageTiles:
       - [17, 12, 0]
@@ -195,7 +197,7 @@ facilities:
     buildCost: 3800000
     buildTime: 45
     monthlyCost: 140000
-    workshops: 125
+    workshops: 100
     mapName: XOPSXBASE07
   - type: STR_LARGE_LAB
     spriteShape: 114
@@ -220,8 +222,8 @@ facilities:
         refund: 0
     buildCost: 3300000
     buildTime: 40
-    monthlyCost: 120000
-    labs: 100
+    monthlyCost: 130000
+    labs: 50
     aliens: 5
     mapName: XOPSXBASE02
   - type: STR_PSIONIC_LABORATORY_LARGE

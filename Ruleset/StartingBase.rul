@@ -121,7 +121,7 @@
     STR_HIGH_EXPLOSIVE: 5
     STR_BRASS_KNUCKLES: 5
     STR_INC_GRENADE: 10
-  scientists: 5
+  scientists: 2
   engineers: 5
   randomSoldiers:
     STR_SOLDIER: 7
