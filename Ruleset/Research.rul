@@ -56,6 +56,8 @@ research:
   - delete: STR_REAPER_TERRORIST
   - delete: STR_SECTOPOD_TERRORIST
   - delete: STR_CYBERDISC_TERRORIST
+  - delete: STR_COMMANDER_PLUS # check if this doesnt create problems later
+  - delete: STR_CYDONIA_OR_BUST # check if this doesnt create problems later
 #--Dummy--------------------
   - name: STR_ALIENS_ONLY
     cost: 0

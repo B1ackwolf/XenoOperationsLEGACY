@@ -29,6 +29,19 @@
    * reducir costo de proyectos un 1/3
    * reducir espacios en fabricas o 1/5 o 1/10
    * resultando en numero total de ingenieros, la mitad aproximadamente 
+ - agregar nuevos sprites para q sean 71 caras por sexo
+   * agregar las imagenes nuevas en extrasprites
+   * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
+ - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
+   * aun no defino si usaran trajes kakhis o rojos
+ - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets?  
+ - crear unidad parecida a perro pero q sea "drone core"
+   * aprovechar y explicar lo del drone q se conecta desde la base
+   * aprovechar texto del edificio radar para completar la explicacion
+   * crearles sus respectivos armor previews
+ - agregar efecto purpura psionico pero solo a los ethereals
+ - aprovechar lanza cohetes matador y reemplazarlo por primer smaw
+   * retocar color
 
 
  - BALANCEAR TODOS LOS PRECIOS RELACIONADOS CON XELLOYS.
@@ -451,7 +464,7 @@
      ~ Check conversation with EfrenEspartano.
  - Convert all images to PNG.
    * This way, I can establish transparent alpha correctly.
-
+ - Improve the entire ufopedia implementing this line of code of "removedBy" (https://openxcom.org/forum/index.php/topic,7639.msg0.html#new)
 #####
 
 + Possible Unattainable Changes:

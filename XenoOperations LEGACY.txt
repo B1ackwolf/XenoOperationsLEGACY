@@ -124,6 +124,7 @@ Sprite tweaks:
 bugfixes:
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.
 - solved an incorrect price in the construction of the laser defense facility, the fusion ball requirements was duplicated.
+- Solved an instance that persisted about the final mission unlocking incorrectly, still giving an eye to this.
 #####
 
 Version 0.97.06 LE
