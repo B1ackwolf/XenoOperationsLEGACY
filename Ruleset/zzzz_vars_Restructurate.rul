@@ -10,7 +10,7 @@ startingTime:
   year: 2027
 costEngineer: 160000
 costScientist: 330000
-maxLookVariant: 13 
+maxLookVariant: 17
 timePersonnel: 48
 initialFunding: 6000
 alienFuel: [STR_ELERIUM_115, 10]

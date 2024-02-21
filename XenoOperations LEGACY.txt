@@ -102,22 +102,34 @@ these options are activated by default YET you can change them in case you found
 gameplay changes:
  - added two new buildings, the sickbay and the advanced sickbay
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
+ - tiempo de espera de arribo de contratos nuevos reducidos a 48h
 
+ - Reajusted some numbers related to scientist and research:
+   * Salaries increased to 330k (from 75k)
+   * small laboratories space reduced to 10
+     ~ maintenaince increased to 45k
+   * large laboratory space reduced to 50
+     ~ manteinaince cost increased to 130k
+   * initial scientist reduced to 2
  - reajustado todo lo relacionado con cientificos
-   * aumentar costos de sueldos x 4
    * reducir cantidad de horas los proyectos ÷ 4
-   * reducir capacidad de laboratorios a la mitad aprox
    * numero total de cientificos aproximadamente 1/5 parte idealmente
- - reajustado capacidad de barracas en respuesta al ajuste de los cientificos 
-   * 15 la barraca chiquita ? incrementar coste a 15 mil
-   * 85 la barraca grande ? incrementar a 70 mil
- - reducir espacio de los laboratorios?
-   * 10 el laboratorio chikito
-   * 50 el laboratorio grande  
-- cientificos iniciales reducidos a :2
-- tiempo de espera de arribo de contratos nuevos reducidos a 48h
+   
+   
+ - engineers recieved same treatment:
+   * salaries increased to 160k (from 62k)
+   * small workshop size reduction to 20
+   * large workshop size reducted to 
+   * reducir cantidad de horas los proyectos a la mitad
+   * numero total de ingenieros aproximadamente 1/3 parte idealmente
+
+ - These changes included some changes to living quarters facilities:
+   * small living quarters habitable size reduced to 15
+   * large living quarters habitable size reduced to 80
+     ~ maintenance price increased to 70k
 
 Sprite tweaks:
+ - increased the total ammount of faces for the paperdolls by 17 per gender
  - Reduced size of grenade launcher ammo a bit.
  - reajusted the position of the weapons in the first tier (continuar con esto)
 
