@@ -2,6 +2,11 @@
 
 + PRIORITIES FIXES:
 
+ - invertir nombres de bishop y caballero, agregar un nuevo nivel de avion para q en teoria sean 4 cazas, uno para cada nivel de codex, el f35 renombrarlo a peon
+ - checar que onda con el temita del need-item
+ - checar que onda con el data recovery y el anomalous equation
+
+
  - PEDIR UNA OPCION EN quick battles que sea toggeable y haga que la nave sea estrellada o aterrizada.
  - Checar que onda con elerium CELL
    * directamente revisar todos los "ojitos"
@@ -285,6 +290,7 @@
    * Completely redesign the Longbow sprite.
  - Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
    * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
+   * Create alien drone equivalents of drones using XFILES ROBOSPHERE
 
 #####
 

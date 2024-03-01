@@ -69,20 +69,20 @@ research:
     needItem: true
 #--Supporting units Tech Tree--------------------
   - name: STR_SUPPORT_UNITS
-    cost: 80
+    cost: 20
     points: 10
   - name: STR_DOG_RECRUITMENT
-    cost: 40
+    cost: 10
     points: 10
     dependencies:
       - STR_SUPPORT_UNITS
   - name: STR_DRONE_WARFARE
-    cost: 40
+    cost: 10
     points: 10
     dependencies:
       - STR_SUPPORT_UNITS
   - name: STR_TANKS_UNITS
-    cost: 80
+    cost: 20
     points: 11
     dependencies:
       - STR_SUPPORT_UNITS
@@ -95,7 +95,7 @@ research:
     points: 20
     needItem: true
   - name: STR_PROXIMITY_GRENADE
-    cost: 10
+    cost: 5
     points: 10
     dependencies:
       - STR_MOTION_SCANNER
@@ -106,20 +106,20 @@ research:
 #--Medi Kit and Motion Tracker--------------------END
 #--New Ballistic Tech Tree--------------------
   - name: STR_NEXT_GEN_BALLISTICS
-    cost: 80
+    cost: 20
     points: 10
   - name: STR_NEXT_GEN_BALLISTICS_HEAVY
-    cost: 80
+    cost: 20
     points: 10
     dependencies:
       - STR_NEXT_GEN_BALLISTICS
   - name: STR_NEXT_GEN_BALLISTICS_MEDIUM
-    cost: 70
+    cost: 20
     points: 10
     dependencies:
       - STR_NEXT_GEN_BALLISTICS
   - name: STR_NEXT_GEN_BALLISTICS_LIGHT
-    cost: 60
+    cost: 15
     points: 10
     dependencies:
       - STR_NEXT_GEN_BALLISTICS
@@ -129,7 +129,7 @@ research:
     dependencies:
       - STR_NEXT_GEN_BALLISTICS
   - name: STR_ALLOY_AMMUNITION
-    cost: 60
+    cost: 15
     points: 10
     dependencies:
       - STR_ALIEN_ALLOYS
@@ -138,7 +138,7 @@ research:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
       - STR_NEXT_GEN_BALLISTICS_HEAVY
   - name: STR_TECH_ROUNDS
-    cost: 70
+    cost: 20
     points: 10
     dependencies:
       - STR_ALLOY_AMMUNITION
@@ -146,22 +146,22 @@ research:
 #--New Ballistic Tech Tree--------------------END
 #-- Shock Weapon Tech Tree--------------------
   - name: STR_SHOCK_WEAPONS
-    cost: 45
+    cost: 15
     points: 150
     dependencies:
       - STR_DATA_RECOVERY
   - name: STR_SHOCK_GRENADE
-    cost: 25
+    cost: 10
     points: 150
     dependencies:
       - STR_SHOCK_WEAPONS
   - name: STR_SHOCK_PISTOL
-    cost: 50
+    cost: 15
     points: 150
     dependencies:
       - STR_SHOCK_RIFLE
   - name: STR_SHOCK_RIFLE
-    cost: 65
+    cost: 20
     points: 150
     dependencies:
       - STR_SHOCK_CANNON
@@ -171,7 +171,7 @@ research:
     dependencies:
       - STR_SHOCK_RIFLE
   - name: STR_SHOCK_CANNON
-    cost: 85
+    cost: 25
     points: 150
     dependencies:
       - STR_SHOCK_WEAPONS
@@ -186,32 +186,32 @@ research:
     points: 65
     needItem: true
   - name: STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
-    cost: 120
+    cost: 30
     points: 10
     dependencies:
       - STR_HYBRID_BALLISTICS_WEAPONS
       - STR_CODEX_1
   - name: STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
-    cost: 160
+    cost: 40
     points: 10
     dependencies:
       - STR_HYBRID_BALLISTICS_WEAPONS
       - STR_CODEX_1
   - name: STR_HEAVY_HYBRID_BALLISTICS_WEAPONS
-    cost: 220
+    cost: 55
     points: 10
     dependencies:
       - STR_HYBRID_BALLISTICS_WEAPONS
       - STR_CODEX_1
   - name: STR_CHEMICAL_ROUNDS
-    cost: 80
+    cost: 20
     points: 10
     dependencies:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
       - STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
       - STR_HEAVY_HYBRID_BALLISTICS_WEAPONS
   - name: STR_E115_ROUNDS
-    cost: 80
+    cost: 20
     points: 10
     dependencies:
       - STR_CHEMICAL_ROUNDS
@@ -220,29 +220,29 @@ research:
 #--Armor Tech Tree----------------------------
 #----Starting Armor-----------------------
   - name: STR_TAC_INF_TECH
-    cost: 30
+    cost: 10
     points: 10
   - name: STR_XOPS_ARMOR
-    cost: 70
+    cost: 20
     points: 15
     dependencies:
       - STR_TAC_INF_TECH
 #----Personal Armor-----------------------
   - name: STR_ALLOY_MESH
-    points: 20
+    points: 10
     needItem: true
   - name: STR_PERSONAL_ARMOR
-    cost: 90
+    cost: 25
     points: 20
     dependencies:
       - STR_ALLOY_MESH
       - STR_CODEX_1
 #----Alloy Armor-----------------------
   - name: STR_PLASMA_REACTIVE_PLATING
-    points: 50
+    points: 15
     needItem: true
   - name: STR_ALLOY_ARMOR
-    cost: 100
+    cost: 30
     points: 20
     dependencies:
       - STR_PLASMA_REACTIVE_PLATING
@@ -252,7 +252,7 @@ research:
     points: 20
     needItem: true
   - name: STR_SKY_STRIKE_ARMOR
-    cost: 70
+    cost: 25
     points: 20
     dependencies:
       - STR_ANTI_GRAV_DEVICE
@@ -279,7 +279,7 @@ research:
     points: 20
     needItem: true
   - name: STR_PSI_ARMOR
-    cost: 150
+    cost: 40
     points: 20
     dependencies:
       - STR_PSIONIC_WARFARE
@@ -290,7 +290,7 @@ research:
     points: 20
     needItem: true
   - name: STR_XOPS_POWER_ARMOR
-    cost: 200
+    cost: 55
     points: 25
     dependencies:
       - STR_ELERIUM_POWERED_SERVOS
@@ -304,44 +304,44 @@ research:
 #      - STR_LASER_WEAPONS_CODEX
       - STR_CODEX_2
   - name: STR_LASER_CANNON
-    cost: 100
+    cost: 25
     points: 15
     dependencies:
       - STR_LASER_WEAPONIZATION
       - STR_CODEX_2
   - name: STR_LASER_DEFENSE
-    cost: 40
+    cost: 25
     points: 15
     dependencies:
       - STR_LASER_WEAPONIZATION
       - STR_CODEX_2
   - name: STR_HEAVY_LASER_WEAPONS
-    cost: 450
+    cost: 120
     points: 15
     dependencies:
       - STR_LASER_WEAPONIZATION
       - STR_CODEX_2
   - name: STR_MEDIUM_LASER_WEAPONS
-    cost: 350
+    cost: 90
     points: 15
     dependencies:
       - STR_LASER_WEAPONIZATION
       - STR_CODEX_2
   - name: STR_LIGHT_LASER_WEAPONS
-    cost: 250
+    cost: 70
     points: 15
     dependencies:
       - STR_LASER_WEAPONIZATION
       - STR_CODEX_2
   - name: STR_CHARGED_CELLS
-    cost: 40
+    cost: 20
     points: 10
     dependencies:
       - STR_LIGHT_LASER_WEAPONS
       - STR_MEDIUM_LASER_WEAPONS
       - STR_HEAVY_LASER_WEAPONS
   - name: STR_ELERIUM_LASER_BATTERY
-    cost: 40
+    cost: 20
     points: 10
     dependencies:
       - STR_LIGHT_LASER_WEAPONS
@@ -352,14 +352,14 @@ research:
 #--Laser Weapons Tech Tree--------------------END
 #--Alien Alloy Tech Tree--------------------END
   - name: STR_ALIEN_ALLOYS
-    cost: 100
+    cost: 25
     points: 30
     needItem: true
   - name: STR_ZEROG_SMELTING
-    points: 50
+    points: 20
     needItem: true
   - name: STR_ALLOY_FORGE
-    cost: 280
+    cost: 70
     points: 10
     dependencies:
       - STR_ZEROG_SMELTING
@@ -368,16 +368,17 @@ research:
 #--Alien Alloy Tech Tree--------------------END
 #--Elerium 115 Tech Tree--------------------
   - name: STR_ELERIUM_115
-    cost: 30
+    cost: 10
     points: 60
     needItem: true
   - name: STR_MATTER_CREATION
     points: 50
     needItem: true
   - name: STR_ELERIUM_115_SYNTHESIS
-    cost: 280
+    cost: 100
     points: 10
     dependencies:
+    ### ojito, aqui agregare a los soberanos para el trasquilamiento de elerium
       - STR_MATTER_CREATION
       - STR_CODEX_COMPLETE
       - STR_ELERIUM_115
@@ -410,7 +411,7 @@ research:
     points: 50
     needItem: true
   - name: STR_FRAGMENT_CREATION
-    cost: 1
+    cost: 5
     points: 10
     dependencies:
       - STR_FRAGMENT_REPLICATION
@@ -440,52 +441,52 @@ research:
     points: 10
     needItem: true
   - name: STR_HEAVY_PLASMA_WEAPONS
-    cost: 600
+    cost: 180
     points: 10
     dependencies:
       - STR_ADVANCED_PLASMA
       - STR_CODEX_4
   - name: STR_MEDIUM_PLASMA_WEAPONS
-    cost: 600
+    cost: 180
     points: 10
     dependencies:
       - STR_ADVANCED_PLASMA
       - STR_CODEX_4
   - name: STR_LIGHT_PLASMA_WEAPONS
-    cost: 600
+    cost: 180
     points: 10
     dependencies:
       - STR_ADVANCED_PLASMA
       - STR_CODEX_4
   - name: STR_PLASMA_CANNON
-    cost: 320
+    cost: 100
     points: 10
     dependencies:
       - STR_ADVANCED_PLASMA
       - STR_UFO_CONSTRUCTION
       - STR_CODEX_4
   - name: STR_PLASMA_DEFENSE
-    cost: 200
+    cost: 70
     points: 25
     dependencies:
       - STR_ADVANCED_PLASMA
       - STR_CODEX_4
   - name: STR_CHARGED_PLASMA_CELLS
-    cost: 320
+    cost: 100
     points: 10
     dependencies:
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_MEDIUM_PLASMA_WEAPONS
       - STR_LIGHT_PLASMA_WEAPONS
   - name: STR_ANTIMATTER_CLIP
-    cost: 320
+    cost: 100
     points: 10
     dependencies:
       - STR_CHARGED_PLASMA_CELLS
       - STR_CODEX_5
 #--Human Plasma Weapons --------------------
   - name: STR_HOVER_HWP_PLASMA
-    cost: 280
+    cost: 120
     points: 25
     dependencies:
       - STR_HEAVY_PLASMA_WEAPONS
@@ -495,8 +496,8 @@ research:
   - name: STR_CYBERNETICS
     points: 25
     needItem: true
-  - name: STR_CYBER_SOLDIER
-    cost: 600
+  - name: STR_CYBER_SOLDIER ###ojito
+    cost: 150
     points: 25
     dependencies:
       - STR_CYBERNETICS
@@ -599,7 +600,7 @@ research:
       - STR_XENO_PHYSIOLOGY
       - STR_ALIEN_HABITAT
   - name: STR_THE_ALIEN_MIND
-    cost: 150
+    cost: 110
     points: 10
     dependencies:
       - STR_SECTOID_SOLDIER
@@ -611,7 +612,7 @@ research:
       - STR_MUTON_COMMANDO
       - STR_CARCHARODON_SOLDIER
   - name: STR_ALIEN_THREAT
-    cost: 200
+    cost: 120
     points: 10
     dependencies:
       - STR_THREAT_UNLOCK
@@ -619,38 +620,38 @@ research:
 #--Alien Biology and Psychology Tech Tree--------------------END
 #--Victory Tech Tree--------------------
   - name: STR_ALIEN_ORIGINS
-    cost: 120
+    cost: 80
     points: 60
     dependencies:
       - STR_NAVIGATOR_UNLOCK
       - STR_THE_ALIEN_MIND
   - name: STR_UFO_TRAJECTORIES
-    cost: 200
+    cost: 120
     points: 10
     dependencies:
       - STR_ALIEN_ORIGINS
       - STR_LEADER_UNLOCK
   - name: STR_MARTIAN_DEFENSES
-    cost: 200
+    cost: 160
     points: 10
     dependencies:
       - STR_COMMANDER_UNLOCK
       - STR_UFO_TRAJECTORIES
       - STR_CODEX_1
   - name: STR_MASTERMIND
-    cost: 320
+    cost: 200
     points: 10
     dependencies:
       - STR_FINAL_UNLOCK
       - STR_ALIEN_THREAT
   - name: STR_OVERLORD
-    cost: 2400
+    cost: 600
     points: 10
     dependencies:
       - STR_MARTIAN_DEFENSES
       - STR_CODEX_5
   - name: STR_ENDGAME
-    cost: 2400
+    cost: 600
     points: 10
     unlockFinalMission: true
     dependencies:
@@ -667,7 +668,7 @@ research:
     points: 10
     needItem: true
   - name: STR_ALIEN_CRYPTOGRAPHY
-    cost: 140
+    cost: 45
     points: 10
     dependencies:
       - STR_FLOATER_NAVIGATOR
@@ -677,7 +678,7 @@ research:
       - STR_ARMORED_SECTOID_NAVIGATOR
       - STR_CARCHARODON_NAVIGATOR
   - name: STR_HYPER_WAVE_DECODER
-    cost: 200
+    cost: 60
     points: 25
     dependencies:
       - STR_CODEX_2
@@ -687,7 +688,7 @@ research:
     points: 10
     needItem: true
   - name: STR_HYP_UP_NET
-    cost: 600
+    cost: 180
     points: 25
     dependencies:
       - STR_DIMENSIONAL_FATIGUE
@@ -696,16 +697,16 @@ research:
 #--Hyper Wave Tech Tree--------------------END
 #--Psionics Tech Tree--------------------
   - name: STR_MIND_PROBE
-    cost: 20
+    cost: 15
     points: 25
     needItem: true
   - name: STR_ALIEN_PSIONICS
-    cost: 32
+    cost: 25
     points: 10
     dependencies:
       - STR_MIND_PROBE
   - name: STR_PSI_LAB
-    cost: 80
+    cost: 45
     points: 25
     dependencies:
       - STR_ALIEN_PSIONICS
@@ -722,7 +723,7 @@ research:
       - STR_ARMORED_SECTOID_COMMANDER
       - STR_HYBRID
   - name: STR_PSIONIC_WARFARE
-    cost: 320
+    cost: 80
     points: 10
     dependencies:
       - STR_PSIONIC_UNLOCK
@@ -730,7 +731,7 @@ research:
     points: 20
     needItem: true
   - name: STR_PSI_AMP_SMALL
-    cost: 200
+    cost: 50
     points: 20
     dependencies:
       - STR_PSIONIC_WARFARE
@@ -740,22 +741,22 @@ research:
     points: 20
     needItem: true
   - name: STR_PSI_AMP_LARGE
-    cost: 200
+    cost: 50
     points: 20
     dependencies:
       - STR_PSIONIC_WARFARE
       - STR_PSIONIC_DOMINATION
       - STR_CODEX_5
   - name: STR_MIND_SHIELD
-    cost: 0
+    cost: 40
     points: 50
     needItem: true
-#--Terran Craft Tech Tree--------------------
+#--Terran Craft Tech Tree-------------------- #ojito me quede aqui
   - name: STR_NEW_CRAFT_WEAPON
     cost: 4
     points: 10
   - name: STR_PILUM_MISSILES
-    cost: 30
+    cost: 10
     points: 14
     dependencies:
       - STR_XCF1
@@ -766,22 +767,22 @@ research:
     dependencies:
       - STR_NEW_CRAFT_WEAPON
   - name: STR_NEW_FIGHTER_PROGRAM
-    cost: 50
+    cost: 15
     points: 10
     dependencies:
       - STR_ALIEN_ALLOYS
   - name: STR_XCF1
-    cost: 65
+    cost: 20
     points: 15
     dependencies:
       - STR_NEW_FIGHTER_PROGRAM
   - name: STR_FIREFLY
-    cost: 65
+    cost: 20
     points: 15
     dependencies:
       - STR_NEW_FIGHTER_PROGRAM
   - name: STR_GLOBAL_RADAR
-    cost: 32
+    cost: 15
     points: 15
     dependencies:
       - STR_NEW_FIGHTER_PROGRAM
@@ -789,7 +790,7 @@ research:
     points: 25
     needItem: true
   - name: STR_XCF2
-    cost: 160
+    cost: 40
     points: 25
     dependencies:
       - STR_ALLOY_AERODYNAMICS
@@ -797,8 +798,19 @@ research:
   - name: STR_NEXT_GEN_TRANSPORT
     points: 25
     needItem: true
+  - name: STR_XCF3
+    cost: 70
+    points: 25
+    dependencies:
+      - STR_FINAL_TERRAN_FIGHTER
+      - STR_CODEX_3
+  - name: STR_HURRICANE
+    cost: 450
+    points: 25
+    dependencies:
+      - STR_SOLVE_ANOMALOUS_EQUATION  
   - name: STR_SKYWARDEN
-    cost: 150
+    cost: 40
     points: 30
     dependencies:
       - STR_NEXT_GEN_TRANSPORT
@@ -806,12 +818,7 @@ research:
   - name: STR_FINAL_TERRAN_FIGHTER
     points: 25
     needItem: true
-  - name: STR_XCF3
-    cost: 240
-    points: 25
-    dependencies:
-      - STR_FINAL_TERRAN_FIGHTER
-      - STR_CODEX_2
+
 #--Terran Craft Tech Tree--------------------END
 #--UFO Tech Tree--------------------
   - name: STR_UFO_POWER_SOURCE
@@ -878,12 +885,7 @@ research:
   - name: STR_GRAV_SHIELD
     cost: 0
     points: 25
-    needItem: true
-  - name: STR_HURRICANE
-    cost: 450
-    points: 25
-    dependencies:
-      - STR_SOLVE_ANOMALOUS_EQUATION     
+    needItem: true   
 #--Hybrid Craft Tree--------------------END
 #--Alien Plasma Weapons --------------------END
   - name: STR_ALIEN_PLASMA_PISTOL

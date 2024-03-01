@@ -105,19 +105,19 @@ gameplay changes:
  - tiempo de espera de arribo de contratos nuevos reducidos a 48h
 
  - Reajusted some numbers related to scientist and research:
-   * Salaries increased to 330k (from 75k)
+   * Salaries increased to 450k (from 75k)
    * small laboratories space reduced to 10
      ~ maintenaince increased to 45k
    * large laboratory space reduced to 50
      ~ manteinaince cost increased to 130k
    * initial scientist reduced to 2
  - reajustado todo lo relacionado con cientificos
-   * reducir cantidad de horas los proyectos ÷ 4
+   * reducir cantidad de horas los proyectos ÷ 4 aproximadamente, algunos cuestan mas
    * numero total de cientificos aproximadamente 1/5 parte idealmente
    
    
  - engineers recieved same treatment:
-   * salaries increased to 160k (from 62k)
+   * salaries increased to 180k (from 62k)
    * small workshop size reduction to 20
    * large workshop size reducted to 
    * reducir cantidad de horas los proyectos a la mitad
@@ -134,6 +134,8 @@ Sprite tweaks:
  - reajusted the position of the weapons in the first tier (continuar con esto)
 
 bugfixes:
+- solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)
+- solved an error related with the price and research cost of the mind shield facilitie.
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.
 - solved an incorrect price in the construction of the laser defense facility, the fusion ball requirements was duplicated.
 - Solved an instance that persisted about the final mission unlocking incorrectly, still giving an eye to this.

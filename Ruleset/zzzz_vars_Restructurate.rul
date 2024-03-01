@@ -8,8 +8,8 @@ startingTime:
   day: 4
   month: 1
   year: 2027
-costEngineer: 160000
-costScientist: 330000
+costEngineer: 180000
+costScientist: 450000
 maxLookVariant: 17
 timePersonnel: 48
 initialFunding: 6000
