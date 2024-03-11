@@ -2,10 +2,21 @@
 
 + PRIORITIES FIXES:
 
+ - revisar si hay otros rangos de medics de las otras razas ademas del floater y sectoid
+   * resuelto esto, pero confirmado que el research tree necesita una revision EXHAUSTIVA.
+ - revisar lo que dijo scamps respecto a la mision final donde los doctores desbloquean al muto supremo antes de tiempo.
  - invertir nombres de bishop y caballero, agregar un nuevo nivel de avion para q en teoria sean 4 cazas, uno para cada nivel de codex, el f35 renombrarlo a peon
- - checar que onda con el temita del need-item
- - checar que onda con el data recovery y el anomalous equation
 
+ - checar que onda con el temita del need-item
+ - checar que onda con el data recovery y el anomalous equation para las naves de transporte
+ - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
+ - cambiar nombres de aeronaves
+   * inventar una nave nueva que sea continuacion inmediata del dragonfly, basado completamente en la valkyrie de starship troopers y que contenga muchos mas soldados, codigo SCARAB
+   * la alargada sera la hercules , recordatorio que tiene 18, pero le caben 8 tripulantes mas (26)
+   * la que es ala delta sera la goliathus , recordatorio que tiene 22 pero le caben 12 mas (34)
+   * el overlord tiene 30 espacios, no sera especificamente el que tenga mas pasajeros, ya que esa no es su principal funcion o nicho.
+ - ojito acomodar de vuelta el orden de la tripulacion en el firefly (eliminar el soldado de la primera fila a la derecha y agregar el piloto de espaldas a la cabina)    
+ 
 
  - PEDIR UNA OPCION EN quick battles que sea toggeable y haga que la nave sea estrellada o aterrizada.
  - Checar que onda con elerium CELL
@@ -35,7 +46,7 @@
  - agregar nuevos sprites para q sean 71 caras por sexo
    * VA APENAS UN TERCIO, CONTINUAR EN CASA
    * separar mascaras de cascos en versiones oscuras black ops.
-   * raparle pelo a "heads" para que calse con los cascos
+   * raparle pelo a "heads" nuevas para que calse con los cascos
    * primero copiar una linea de codigo y luego agregar el formato de dividir texto en columna, ir reemplazando segun sea necesario letras y demas
    * hacerlo usando la siguiente formula en excel [=B2&C2&D2&" "&E2&" "&F2&" "&G2&" "&H2&" "&I2&" "&J2&" "&K2&" "&L2&" "&M2&" "&N2&" "&O2&P2&Q2&R2]
    * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
@@ -47,9 +58,10 @@
    * aprovechar texto del edificio radar para completar la explicacion
    * crearles sus respectivos armor previews
  - agregar efecto purpura psionico pero solo a los ethereals
+ - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - aprovechar lanza cohetes matador y reemplazarlo por primer smaw
    * retocar color
-
+ - agregar enfermeria
 
  - BALANCEAR TODOS LOS PRECIOS RELACIONADOS CON XELLOYS.
 #   

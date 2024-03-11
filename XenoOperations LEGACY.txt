@@ -134,6 +134,7 @@ Sprite tweaks:
  - reajusted the position of the weapons in the first tier (continuar con esto)
 
 bugfixes:
+- solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely.
 - solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)
 - solved an error related with the price and research cost of the mind shield facilitie.
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.

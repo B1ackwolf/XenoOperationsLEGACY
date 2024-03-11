@@ -1245,7 +1245,8 @@
       STR_MUTON_COMMANDO: Muton Enforcer
       STR_MUTON_CHIEFTAIN: Muton Chieftain
       STR_MUTON_GUARD: Muton Elite
-      STR_MUTON_WARLORD: Muton Warlord
+      STR_ARMORED_MUTON_WARLORD: Muton Warlord
+      STR_ARMORED_MUTON_COMMANDER: Muton Warlord
       STR_ARMORED_SECTOID: Armored Sectoid
       STR_SNAKEMAN: Serpentoid
       STR_SNAKEMAN_SOLDIER: Serpentoid Soldier
