@@ -2471,12 +2471,12 @@ ufopaedia:
     image_id: UFOPAEDIA_IMG_MUTON_CHIEFTAIN
     text: STR_MUTON_CHIEFTAIN_UFOPEDIA
     text_width: 158
-  - id: STR_ARMORED_MUTON_COMMANDER
+  - id: STR_MUTON_WARLORD
     type_id: 7
     listOrder: 521
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_ARMORED_MUTON_COMMANDER
+      - STR_MUTON_WARLORD
     image_id: UFOPAEDIA_IMG_MUTON_WARLORD
     text: STR_MUTON_WARLORD_UFOPEDIA
     text_width: 158

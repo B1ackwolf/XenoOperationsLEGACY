@@ -8250,11 +8250,11 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ARMORED_MUTON_COMMANDER_ARMOR
+  - type: MUTON_WARLORD_ARMOR
     spriteSheet: ARMOREDMUTONCOMMANDER.PCK
-    spriteInv: inventory_ARMORED_MUTON_COMMANDER
+    spriteInv: inventory_MUTON_WARLORD
     corpseBattle:
-      - STR_ARMORED_MUTON_COMMANDER_CORPSE
+      - STR_MUTON_WARLORD_CORPSE
     frontArmor: 40
     sideArmor: 40
     rearArmor: 40

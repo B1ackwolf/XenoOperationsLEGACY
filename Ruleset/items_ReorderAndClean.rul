@@ -6002,7 +6002,7 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 65
-  - type: STR_ARMORED_MUTON_COMMANDER_CORPSE
+  - type: STR_MUTON_WARLORD_CORPSE
     size: 0.4
     costSell: 20000
     weight: 20
@@ -6138,7 +6138,7 @@ items:
     recover: true
     liveAlien: true
     costSell: 50000
-  - type: STR_ARMORED_MUTON_COMMANDER
+  - type: STR_MUTON_WARLORD
     size: 0.0
     recover: true
     liveAlien: true

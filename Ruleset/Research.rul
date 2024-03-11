@@ -589,7 +589,7 @@ research:
       - STR_HYBRID_CORPSE
       - STR_FORMIC_CORPSE
       - STR_ARMORED_MUTON_CORPSE
-      # - STR_ARMORED_MUTON_COMMANDER_CORPSE
+      # - STR_MUTON_WARLORD_CORPSE
       # - STR_MUTON_BERSERKER_CORPSE
       - STR_ARMORED_SECTOID_CORPSE
       - STR_CARCHARODON_CORPSE
@@ -1462,10 +1462,10 @@ research:
     lookup: STR_MUTON_BERSERKER
     needItem: true
     destroyItem: true
-  - name: STR_ARMORED_MUTON_COMMANDER #ojito quizas mover a otro sitio
+  - name: STR_MUTON_WARLORD #ojito quizas mover a otro sitio, acomodar en el techtree relacionado a los mutones y el desbloqueo final
     cost: 10
     points: 50
-    lookup: STR_MUTON_CHIEFTAIN
+    lookup: STR_MUTON_WARLORD
     needItem: true
     destroyItem: true 
   - name: STR_ANCIENT_ABOMINATION_TERRORIST

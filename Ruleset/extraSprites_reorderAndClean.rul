@@ -436,7 +436,7 @@ extraSprites:
       807: Resources/UnitSprites/AlienFaction/FloorOb/Formic_Corpse.png
       808: Resources/UnitSprites/AlienFaction/FloorOb/Armored_Muton_Corpse.gif
       809: Resources/UnitSprites/AlienFaction/FloorOb/Muton_Berzerker_Corpse.gif
-      810: Resources/UnitSprites/AlienFaction/FloorOb/Armored_Muton_Commander_Corpse.gif
+      810: Resources/UnitSprites/AlienFaction/FloorOb/Muton_Warlord_Corpse.gif
       811: Resources/UnitSprites/AlienFaction/FloorOb/Carcharodon_Corpse.gif
       812: Resources/UnitSprites/AlienFaction/FloorOb/Abomination_Corpse.gif
 #----- Unit FloorObs Sprites for ALIENS ends here -----#
@@ -3565,7 +3565,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/armoredmuton.gif
-  - type: inventory_ARMORED_MUTON_COMMANDER
+  - type: inventory_MUTON_WARLORD
     singleImage: true
     files:
       0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/armoredmutoncommander.gif

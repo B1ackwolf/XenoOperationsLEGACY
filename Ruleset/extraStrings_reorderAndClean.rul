@@ -108,7 +108,7 @@
       MUTON_COMMANDO_ARMOR: Muton Enforcer
       MUTON_GUARD_ARMOR: Muton Elite
       MUTON_CHIEFTAIN_ARMOR: Muton Chieftain
-      ARMORED_MUTON_COMMANDER_ARMOR: Muton Warlord
+      MUTON_WARLORD_ARMOR: Muton Warlord
       HYBRID_ARMOR: Abomination Terrorist
       SOVEREIGN_ARMOR: Sovereign
       ENERGYALIEN_ARMOR: Solarite
@@ -1245,8 +1245,7 @@
       STR_MUTON_COMMANDO: Muton Enforcer
       STR_MUTON_CHIEFTAIN: Muton Chieftain
       STR_MUTON_GUARD: Muton Elite
-      STR_ARMORED_MUTON_WARLORD: Muton Warlord
-      STR_ARMORED_MUTON_COMMANDER: Muton Warlord
+      STR_MUTON_WARLORD: Muton Warlord
       STR_ARMORED_SECTOID: Armored Sectoid
       STR_SNAKEMAN: Serpentoid
       STR_SNAKEMAN_SOLDIER: Serpentoid Soldier
@@ -1294,7 +1293,7 @@
       STR_ARMORED_SECTOID_AUTOPSY: Armored Sectoid autopsy
       STR_ARMORED_MUTON_CORPSE: Muton Warrior Corpse
       STR_MUTON_BERSERKER_CORPSE: Muton Berserker Corpse
-      STR_ARMORED_MUTON_COMMANDER_CORPSE: Muton Warlord Corpse
+      STR_MUTON_WARLORD_CORPSE: Muton Warlord Corpse
       STR_ANCIENT_ABOMINATION_CORPSE: Spawn Corpse
       STR_CARCHARODON_CORPSE: Carcharodon Corpse
       STR_ANCIENT_ABOMINATION_AUTOPSY: Spawn autopsy

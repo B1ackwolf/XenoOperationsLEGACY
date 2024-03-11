@@ -594,7 +594,7 @@ units:
     intelligence: 6
     aggression: 2
     energyRecovery: 50
-  - type: STR_ARMORED_MUTON_COMMANDER
+  - type: STR_MUTON_WARLORD
     race: STR_ARMORED_MUTON
     rank: STR_LIVE_COMMANDER
     stats:
@@ -609,7 +609,7 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 95
-    armor: ARMORED_MUTON_COMMANDER_ARMOR
+    armor: MUTON_WARLORD_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 19
