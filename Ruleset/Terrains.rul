@@ -1521,7 +1521,7 @@ terrains:
       - XBASES03
       - XBASES04
       - XBASES05
-    # civilianTypes:
+    # civilianTypes:  #ojito q esto sera luego
     #   - STR_CIV_SCIENTIST_M
     #   - STR_CIV_SCIENTIST_F
     mapBlocks:

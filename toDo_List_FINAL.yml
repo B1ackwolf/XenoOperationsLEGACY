@@ -1,6 +1,67 @@
 #ideas for the mod, in any specific order:
+Slave:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
+ 
+
+Peon:   this is just a little more specialized member of their crew, think about engineer or something like that, maybe the first red specialist members.
+ 
+
+Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
+ 
+
+Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
+ 
+
+Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
+ 
+
+Warchief:  they are veterans of a hundred battles at least, only few sebilians show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
+ 
+
+Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
+ 
+
+Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
+ 
+
+Another ranks***:  As you can see i only named the guys in vainilla, so every other rank could use a variety of names that i couldnt decide, doctors(and all medicine) members could be called Shaman or Warlock or Druid , there are so many others possible names i imagined but as i said, i didnt decided where put them.
+
+ 
+
+Brigand>Raider>Pillager(????)****>Marauder
+
+Slasher>Slayer>Executioner>Arbiter(????)
+
+Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
+
+
+TL;DR VERSION:
+ 
+
+  Quote
+Non Combatant>>>>Slave.
+Specialist>>>>>>>>Peon (pawn).
+Guard>>>>>>>>>>Grunt.
+
+Soldier>>>>>>>>>Gladiator/Centurion/Brute.
+
+Warrior>>>>>>>>>Chieftain.
+
+commando>>>>>>>>>PRIME
+
+Elite>>>>>>>>>>>APEX
+
+Leader>>>>>>>>>Warlord
+
 
 + PRIORITIES FIXES:
+
+ - la municion toxica es a base de POLONIO
+ - usar municion mas densa hecha de paladio,titanio, tugsteno
+ - municion de cañon de riel hecho de platino?, la ultra densa y rara hecha a base de osmio
+
+ - xelloy esta compuesto de aleaciones complejas de materiales conocidos, aunque algunos tengamos en muy bajas cantidades, tambien tiene mundanas cantidades de elementos aun no conocidos para nosotros.
+ - los ufos no estan enteramente constriodps de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
+ - el iridio tiene la ventaja sobre el titanio q mantiene su dureza incluso en altas temperaturas
 
  - revisar si hay otros rangos de medics de las otras razas ademas del floater y sectoid
    * resuelto esto, pero confirmado que el research tree necesita una revision EXHAUSTIVA.
@@ -17,8 +78,6 @@
    * el overlord tiene 30 espacios, no sera especificamente el que tenga mas pasajeros, ya que esa no es su principal funcion o nicho.
  - ojito acomodar de vuelta el orden de la tripulacion en el firefly (eliminar el soldado de la primera fila a la derecha y agregar el piloto de espaldas a la cabina)    
  
-
- - PEDIR UNA OPCION EN quick battles que sea toggeable y haga que la nave sea estrellada o aterrizada.
  - Checar que onda con elerium CELL
    * directamente revisar todos los "ojitos"
  - revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
@@ -50,6 +109,7 @@
    * primero copiar una linea de codigo y luego agregar el formato de dividir texto en columna, ir reemplazando segun sea necesario letras y demas
    * hacerlo usando la siguiente formula en excel [=B2&C2&D2&" "&E2&" "&F2&" "&G2&" "&H2&" "&I2&" "&J2&" "&K2&" "&L2&" "&M2&" "&N2&" "&O2&P2&Q2&R2]
    * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
+     ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
  - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
    * aun no defino si usaran trajes kakhis o rojos
  - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets?  
