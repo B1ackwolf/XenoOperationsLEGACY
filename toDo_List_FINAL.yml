@@ -55,6 +55,12 @@ Leader>>>>>>>>>Warlord
 
 + PRIORITIES FIXES:
 
+ - Nombre de aviones, f35 comun sera un pawn, el knight sera un RIDER, asi se mantiene el sufijo "caballero" para las armaduras y tanques y demas?
+   * usando nombres como
+     ~ squire
+     ~ knight
+     ~ warden
+     ~ paladin
  - la municion toxica es a base de POLONIO
  - usar municion mas densa hecha de paladio,titanio, tugsteno
  - municion de cañon de riel hecho de platino?, la ultra densa y rara hecha a base de osmio
