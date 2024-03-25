@@ -102,6 +102,71 @@ crafts:
       - [3, 13, 1, 0] #Last row left door
       - [5, 13, 1, 0] #Last row right door 
       - [4, 13, 1, 4] #pilot  
+  - type: STR_SCARAB #OJITO acomodar que sea mas lento que el firefly, also ajustar todos los fuelmax
+    sprite: 824
+    fuelMax: 1900
+    damageMax: 250
+    speedMax: 760
+    accel: 2
+    weapons: 2
+    soldiers: 25
+    maxItems: 700
+    vehicles: 0
+    maxSmallUnits: 25
+    maxLargeUnits: 0
+    pilots: 2
+    costSell: 450000
+    costRent: 130000
+    refuelRate: 50
+    radarRange: 700
+    radarChance: 100
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: FIREFLY
+      mapDataSets:
+        - BLANKS
+        - FIREFLY
+        - BD_PLANE_2
+        - PELICAN_CARGO_BAY_1
+        - PELICAN_COCKPIT_1
+        - ELEVATOR_TILES
+      mapBlocks:
+        - name: SCARAB
+          width: 10
+          length: 20
+    craftInventoryTile: [4, 8, 0]
+    deployment:
+      - [3, 12, 0, 4] #first left front door
+      - [4, 12, 0, 4] #sobra
+      - [5, 12, 0, 4] #sobra
+
+      - [3, 11, 0, 4] #sobra
+      - [4, 11, 0, 4] #sobra
+      - [5, 11, 0, 4] #sobra
+
+      - [2, 10, 0, 4] #First in front of ramp
+      - [3, 10, 0, 4] #First in front of ramp
+      - [4, 10, 0, 4] #First in front of ramp
+      - [5, 10, 0, 4] #First in front of ramp
+      - [6, 10, 0, 4] #First in front of ramp
+
+      - [2, 8, 0, 4] #First in front of ramp
+      - [3, 8, 0, 4] #First in front of ramp
+      - [4, 8, 0, 4] #First in front of ramp
+      - [5, 8, 0, 4] #First in front of ramp
+      - [6, 8, 0, 4] #First in front of ramp
+
+      - [2, 7, 0, 4] #First in front of ramp
+      - [3, 7, 0, 4] #First in front of ramp
+      - [4, 7, 0, 4] #First in front of ramp
+      - [5, 7, 0, 4] #First in front of ramp
+      - [6, 7, 0, 4] #First in front of ramp
+
+      - [2, 9, 0, 2] #First in front of ramp
+      - [4, 9, 0, 3] #Officer Seat
+      - [3, 12, 1, 0] #pilot 
+      - [5, 12, 1, 0] #pilot  
   - type: STR_SKYWARDEN
     sprite: 25
     fuelMax: 1500

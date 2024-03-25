@@ -1,12 +1,7 @@
 #ideas for the mod, in any specific order:
-Slave:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
- 
-
-Peon:   this is just a little more specialized member of their crew, think about engineer or something like that, maybe the first red specialist members.
- 
+Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
 
 Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
- 
 
 Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
  
@@ -21,40 +16,38 @@ Champion:  true veterans, the elite of the elite,they are hundreds years old and
  
 
 Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
- 
 
-Another ranks***:  As you can see i only named the guys in vainilla, so every other rank could use a variety of names that i couldnt decide, doctors(and all medicine) members could be called Shaman or Warlock or Druid , there are so many others possible names i imagined but as i said, i didnt decided where put them.
 
- 
-
-Brigand>Raider>Pillager(????)****>Marauder
-
-Slasher>Slayer>Executioner>Arbiter(????)
-
-Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
+ - Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
 
 
 TL;DR VERSION:
- 
 
-  Quote
-Non Combatant>>>>Slave.
-Specialist>>>>>>>>Peon (pawn).
-Guard>>>>>>>>>>Grunt.
+ - verdes  > brutes  >
+                    members of the hunters caste
+ - morados > warrior >
 
-Soldier>>>>>>>>>Gladiator/Centurion/Brute.
+ - negros  > prime
+                   members of the champion caste
+ - azules  > Apex
 
-Warrior>>>>>>>>>Chieftain.
-
-commando>>>>>>>>>PRIME
-
-Elite>>>>>>>>>>>APEX
-
-Leader>>>>>>>>>Warlord
-
+ - rojos   > warchief
+                   members of the elder caste
+ - dorados > warlord
 
 + PRIORITIES FIXES:
-
+ - CHECAR QUE ONDA q aparece un firefly en la ufopaedia al principio, ojito
+ - recordar q aviones se le modificaran la velocidad, estudiar diferencia entre super sonico e hypersonico
+   * recordar q velocidades estan en millas nauticas, eso pasar a kilometros y de ahi dividir a mach
+      ~ 1 match en milla nautica 666.505 (mN)
+      ~ 1 match en milla normales 765 mph
+      ~(velocidad base de aviones humanos al rededor de mach 2.5, puede ser, reducir velocidad de ufos en base a esto)
+      
+ - ya cree las sprites de los aviones, resolver ahora metiendo los aviones nuevos y agregando las basessprites adicionales
+   * f35 rider tendra el nuevo sistema coffin
+   * hacerle coffin tambien al nuevo empress q sera el avion definitivo de XCOM.
+   * revisar las descripciones y q nombres coincidan
+   * agregarle bordecito a imagenes de la ufopaedia como en el overlord
  - Nombre de aviones, f35 comun sera un pawn, el knight sera un RIDER, asi se mantiene el sufijo "caballero" para las armaduras y tanques y demas?
    * usando nombres como
      ~ squire

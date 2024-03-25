@@ -1011,14 +1011,16 @@
       STR_NULL_POCKET_LL: ""
 #-----Craft and Craft Weapons
       STR_SR71: XRS-71G BLACKBIRD
-      STR_INTERCEPTOR: XCF-0 BISHOP
-      STR_XCF1: XCF-1 KNIGHT
-      STR_XCF2: XCF-2 ROOK
-      STR_XCF3: XCF-3 EMPRESS
+      STR_INTERCEPTOR: XCF-0 PAWN
+      STR_XCF0: XCF-1 BISHOP
+      STR_XCF1: XCF-2 RIDER
+      STR_XCF2: XCF-3 ROOK
+      STR_XCF3: XCF-4 EMPRESS
       STR_DRAGONFLY: XTP-1 DRAGONFLY
       STR_FIREFLY: XTP-2 FIREFLY
-      STR_SKYWARDEN: XTP-3 GOLIATH
-      STR_HURRICANE: XTP-4 HERCULES
+      STR_SCARAB: XTP-3 SCARAB
+      STR_SKYWARDEN: XTP-4 HERCULES
+      STR_HURRICANE: XTP-5 GOLIATH
       STR_OVERLORD: XTP-X OVERLORD
       STR_CANNON: Sling Autocannon
       STR_CANNON_UC: SLING Autocannon
@@ -1234,15 +1236,15 @@
       STR_CYDONIA_ELITE_GUARD: Cydonia Elite Guard
       STR_CYDONIA_LANDING_GUARD: Cydonia Landing Guard
       STR_MUTON_BERSERKER: Muton Berserker
-      STR_MUTON: Muton Brute
+      STR_MUTON: Muton quecarajos?
       STR_MUTON_SOLDIER: Muton Brute
-      STR_MUTON_NAVIGATOR: Muton Navigator
-      STR_MUTON_ENGINEER: Muton Engineer
-      STR_ARMORED_MUTON: Muton Warrior
+      STR_MUTON_NAVIGATOR: Muton Pathfinder
+      STR_MUTON_ENGINEER: Muton inteligente
+      STR_ARMORED_MUTON: Muton cualquierverga
       STR_ARMORED_MUTON_SOLDIER: Muton Warrior
       STR_ARMORED_MUTON_NAVIGATOR: Muton Veteran Navigator
       STR_ARMORED_MUTON_ENGINEER: Muton Veteran Engineer
-      STR_MUTON_COMMANDO: Muton Prime
+      STR_MUTON_COMMANDO: Muton Champion
       STR_MUTON_CHIEFTAIN: Muton Chieftain
       STR_MUTON_GUARD: Muton Broodguard
       STR_MUTON_WARLORD: Muton Warlord
@@ -1887,8 +1889,8 @@
       STR_XCF1_UFOPEDIA: The XCF-1 'Knight' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Knight is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
       STR_XCF2_UFOPEDIA: The XCF-2 'Rook' is a step up from the XCF-1 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
       STR_XCF3_UFOPEDIA: A third generation XCom interceptor, the XCF-3 'Empress' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
-      STR_SKYWARDEN_UFOPEDIA: The GOLIATH is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
-      STR_HURRICANE_UFOPEDIA: The HERCULES transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hercules' roof.
+      STR_SKYWARDEN_UFOPEDIA: The HERCULES is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
+      STR_HURRICANE_UFOPEDIA: The GOLIATH transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hercules' roof.
       STR_OVERLORD_UFOPEDIA: The pinnacle of XCom craft, the OVERLORD has a fully operational, completed Codex installed. It's armor and speed surpass even the most powerful alien warships.
 #-----UFOPaedia XCom Technology
       STR_GOODS_UFOPEDIA: XCom's engineers are some of the finest in the world, however a few are also shrewd businessmen. By establishing a front company, XCom can bid on valuable defense contact work. This allows XCom to build goods exclusively for sell as a way to supplement its income.
