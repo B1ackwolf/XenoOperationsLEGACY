@@ -182,6 +182,8 @@ ufopaedia:
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: FIREFLY_BIG
+    requires:
+      - STR_FIREFLY
     rect_stats:
       x: 5
       y: 40

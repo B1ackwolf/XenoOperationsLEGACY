@@ -24,19 +24,22 @@ Warlord:    the only and true leader of the seb-folk ,one only the most though,s
 TL;DR VERSION:
 
  - verdes  > brutes  >
-                    members of the hunters caste
+                      members of the hunters caste
  - morados > warrior >
 
  - negros  > prime
-                   members of the champion caste
+                      members of the champion caste
  - azules  > Apex
 
  - rojos   > warchief
-                   members of the elder caste
+                      members of the elder caste
  - dorados > warlord
 
 + PRIORITIES FIXES:
- - CHECAR QUE ONDA q aparece un firefly en la ufopaedia al principio, ojito
+
+ - terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande
+
+ - name for drone crowsbow and ARBALEST
  - recordar q aviones se le modificaran la velocidad, estudiar diferencia entre super sonico e hypersonico
    * recordar q velocidades estan en millas nauticas, eso pasar a kilometros y de ahi dividir a mach
       ~ 1 match en milla nautica 666.505 (mN)
@@ -45,6 +48,7 @@ TL;DR VERSION:
       
  - ya cree las sprites de los aviones, resolver ahora metiendo los aviones nuevos y agregando las basessprites adicionales
    * f35 rider tendra el nuevo sistema coffin
+     ~ recordar hacer q necesite un pawn en su receta
    * hacerle coffin tambien al nuevo empress q sera el avion definitivo de XCOM.
    * revisar las descripciones y q nombres coincidan
    * agregarle bordecito a imagenes de la ufopaedia como en el overlord
@@ -241,6 +245,7 @@ TL;DR VERSION:
   ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
  - lore de algunas armas
  - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
+   * sacar de apoc tambien, sobre todo sonido de swarmids para dron
 
 ######
 
@@ -295,6 +300,15 @@ TL;DR VERSION:
  - Confirm the issue with the bullet sprite of the pistol taser.
  - Create a new handob and floorob sprite in the new Kriss Vector style for the Xsmg.
  - Reuse all the effects from into the abbyss.
+ - Rename XX assault cannon to something 20mm flak.
+ - Rename tank AP cannon to 25 mm Bushmaster.
+ - Plane cannon is now a 30 mm GAU-8/A Avenger.
+   * Create an improved version that unlocks after researching xelloys?.
+ - Rename the entirety of weapons for planes.
+   * Almost done.
+ - Rename the weapon of the tank plasma cannon.
+ - Rename plane's plasma cannon.
+
 
 #####
 
@@ -431,27 +445,22 @@ TL;DR VERSION:
  - Clean every .rul file from unused lines, reorder and correct all annotations.
    * "#----- topic -----#" should be the correct format.
    * Eliminate all that have an excess of dashes.
- - Rename XX assault cannon to something 20mm flak.
- - Rename tank AP cannon to 25 mm Bushmaster.
- - Plane cannon is now a 30 mm GAU-8/A Avenger.
-   * Create an improved version that unlocks after researching xelloys?.
- - Rename the entirety of weapons for planes.
-   * Almost done.
- - Rename the tank plasma cannon.
- - Rename plane's plasma cannon.
+   * Check all the "ojito" notifications.
+
  - Add filters to manufacturers to make it more granular.
  - Does the Alien Disassemble from alien entertainment give a Mind Probe?
    * If so, significantly reduce the price of the probe.
    * Increase the necessary hours.
  - Tweak and balance the ammount of Xelloys and Elerium recovered from UFO Sites.
    * Change the requeriments for some projects to balance this.
-   * The ammunition manufacture should be managed in "blocks" therefore, numbers are more realist and intuitive (no move 1 Xelloy to produce one one cartridge, and 3 to produce a rifle)
+   * The ammunition manufacture should be managed in "blocks" therefore, numbers should be more realist and intuitive.
+     ~ no more 1 Xelloy to produce one cartridge, and 3 to produce a rifle.
 
 #####
 
 + Major Changes:
  - include xcom npcs in base defenses
- - (new) Reduce numbers of NCP needed by xcom
+ - (new, in actual patch  ) Reduce numbers of NCP needed by xcom
    * perhaps reduce the engineers by a third
      ~ this then needs to be translated in tweaks to projects and buildings balance
    * maybe one fith of the scientist
@@ -556,7 +565,7 @@ TL;DR VERSION:
 
 + This should be the new order in the ufopaedia:
 
- - This is the listorder number.
+ - This is the listorder of categories.
    * 0= dossiers and background info
    * 100= alien research
    * 200= alien artifacts

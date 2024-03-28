@@ -84,7 +84,7 @@ Changelog:
 
 #################
 
-Version 0.97.07 LE
+Version 0.97.07 LE /// ultima revision de changelog: "merge branch 11-3-24"
 
 these options are now enforced in the options, some options will apply only if you play using BRUTAL AI (heavily recommended)
 - Lazy Loading (fundamental to avoiding startups CTDs)
@@ -100,7 +100,7 @@ these options are activated by default YET you can change them in case you found
 - field promotions and automatic promotions are deactivated, and soldiers should be promoted manually by clicking in the rank icons , i preffer this way to handle the officers promotions (and roleplaying better), but i respect if anyone dont care or dont want to handle dozens or even a hundred of soldiers, so its up for everyone to decide what they want to do.
 
 gameplay changes:
- - added two new buildings, the sickbay and the advanced sickbay
+ - added two new buildings, the sickbay and the advanced sickbay (culminar esto)
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
  - tiempo de espera de arribo de contratos nuevos reducidos a 48h
 
@@ -134,6 +134,9 @@ Sprite tweaks:
  - reajusted the position of the weapons in the first tier (continuar con esto)
 
 bugfixes:
+
+- CHECAR QUE ONDA q aparece un firefly en la ufopaedia al principio, ojito
+
 - solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely.
 - solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)
 - solved an error related with the price and research cost of the mind shield facilitie.

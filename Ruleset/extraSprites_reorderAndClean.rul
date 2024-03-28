@@ -939,7 +939,7 @@ extraSprites:
       76: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeEleriumShock.gif
       88: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleePlasmaBlue.gif
 #-----FACILITIES IMAGES-----#
-  - type: BASEBITS.PCK
+  - type: BASEBITS.PCK #ojito reordenar
     files:
       59: Resources/UxUI/BaseBits/PlaneSprites/Cannon.gif
       60: Resources/UxUI/BaseBits/PlaneSprites/Stingray.gif
@@ -951,9 +951,10 @@ extraSprites:
       84: Resources/UxUI/BaseBits/PlaneSprites/Pilum.gif
       152: Resources/UxUI/BaseBits/PlaneSprites/XRS71_base.gif
       55: Resources/UxUI/BaseBits/PlaneSprites/XCF0_base.gif
-      36: Resources/UxUI/BaseBits/PlaneSprites/XCF1_base.png
-      56: Resources/UxUI/BaseBits/PlaneSprites/XCF2_base.gif
-      57: Resources/UxUI/BaseBits/PlaneSprites/XCF3_base.png
+      65: Resources/UxUI/BaseBits/PlaneSprites/XCF1_base.gif #ojito modificar y crear uno nuevo
+      36: Resources/UxUI/BaseBits/PlaneSprites/XCF2_base.png
+      56: Resources/UxUI/BaseBits/PlaneSprites/XCF3_base.gif
+      57: Resources/UxUI/BaseBits/PlaneSprites/XCF4_base.png
       158: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA0_base.png
       159: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA1_base.png
       160: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA2_base.png
@@ -1080,10 +1081,12 @@ extraSprites:
 ###### ojito Renomnbrar y reordenar esta seccion ######
       119: Resources/UxUi/InterWin/CraftIcons/SR71Min.gif
       130: Resources/UxUi/InterWin/CraftIcons/SR71Dogfight.gif
+      32: Resources/UxUi/InterWin/CraftIcons/X35Min.gif #ojito recolorizar y crear uno nuevo
       22: Resources/UxUi/InterWin/CraftIcons/X35Min.gif
       23: Resources/UxUi/InterWin/CraftIcons/XCF2Min.gif
       24: Resources/UxUi/InterWin/CraftIcons/XCF3Min.gif
       25: Resources/UxUi/InterWin/CraftIcons/SKYWARDENMin.gif
+      43: Resources/UxUi/InterWin/CraftIcons/X35Dogfight.gif #ojito luego recolorizar y mejorar
       33: Resources/UxUi/InterWin/CraftIcons/X35Dogfight.gif
       34: Resources/UxUi/InterWin/CraftIcons/XCF2Dogfight.gif
       35: Resources/UxUi/InterWin/CraftIcons/XCF3Dogfight.gif
@@ -2518,7 +2521,13 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaPlanes/XCF3.gif
+      0: Resources/UfopediaImages/UpediaPlanes/XCF3.png
+  - type: XCF4UFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaPlanes/XCF4.gif
   - type: DRAGONFLY_BIG
     singleImage: true
     width: 320

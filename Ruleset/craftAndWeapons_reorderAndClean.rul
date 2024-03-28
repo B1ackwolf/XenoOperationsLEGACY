@@ -81,6 +81,7 @@ crafts:
         - FIREFLY
         - BD_PLANE_2
         - PELICAN_CARGO_BAY_1
+        - ELEVATOR_TILES
       mapBlocks:
         - name: FIREFLY
           width: 10
@@ -327,6 +328,22 @@ crafts:
     refuelRate: 50
     transferTime: 96
     score: 100
+  - type: STR_XCF0 #ojito acomodar stats
+    sprite: 32
+    fuelMax: 1200
+    damageMax: 300
+    speedMax: 2500
+    accel: 5
+    weapons: 2
+    soldiers: 1
+    pilots: 1
+    allowLanding: false
+    costBuy: 0
+    costSell: 375000
+    costRent: 170000
+    refuelRate: 50
+    transferTime: 96
+    score: 150
   - type: STR_XCF1
     sprite: 3
     fuelMax: 1200
