@@ -328,7 +328,7 @@ crafts:
     refuelRate: 50
     transferTime: 96
     score: 100
-  - type: STR_XCF0 #ojito acomodar stats
+  - type: STR_UPDATED_INTERCEPTOR #ojito acomodar stats
     sprite: 32
     fuelMax: 1200
     damageMax: 300

@@ -123,7 +123,7 @@ research:
     points: 10
     dependencies:
       - STR_NEXT_GEN_BALLISTICS
-  - name: STR_HVGRENADE
+  - name: STR_XP_GRENADE
     cost: 10
     points: 10
     dependencies:
@@ -133,7 +133,7 @@ research:
     points: 10
     dependencies:
       - STR_ALIEN_ALLOYS
-      - STR_HVGRENADE
+      - STR_XP_GRENADE
       - STR_NEXT_GEN_BALLISTICS_LIGHT
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
       - STR_NEXT_GEN_BALLISTICS_HEAVY

@@ -1053,7 +1053,7 @@ items:
     listOrder: 2132
     handSprite: 1272
 ###-----Human second tier Ballistic eXperimental weapons-----###
-  - type: STR_HVPISTOL_SMALL
+  - type: STR_XP_PISTOL_SMALL
     size: 0.1
     costSell: 6250
     weight: 2
@@ -1064,8 +1064,8 @@ items:
     fireSound: 123
     compatibleAmmo:
       - STR_COMPACT_PISTOL_CLIP
-      - STR_HVMACHINE_PISTOL_CLIP_ALLOY
-      - STR_HVMACHINE_PISTOL_CLIP_TECH
+      - STR_XP_MACHINE_PISTOL_CLIP_ALLOY
+      - STR_XP_MACHINE_PISTOL_CLIP_TECH
     accuracySnap: 55
     accuracyAimed: 73
     tuSnap: 18
@@ -1080,7 +1080,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2201
-  - type: STR_HVMACHINE_PISTOL
+  - type: STR_XP_MACHINE_PISTOL
     size: 0.1
     costSell: 8750
     weight: 5
@@ -1091,8 +1091,8 @@ items:
     fireSound: 121
     compatibleAmmo:
       - STR_COMPACT_PISTOL_CLIP
-      - STR_HVMACHINE_PISTOL_CLIP_ALLOY
-      - STR_HVMACHINE_PISTOL_CLIP_TECH
+      - STR_XP_MACHINE_PISTOL_CLIP_ALLOY
+      - STR_XP_MACHINE_PISTOL_CLIP_TECH
     accuracyAuto: 28
     accuracySnap: 58
     accuracyAimed: 76
@@ -1109,7 +1109,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2202
-  - type: STR_HVMACHINE_PISTOL_CLIP_ALLOY
+  - type: STR_XP_MACHINE_PISTOL_CLIP_ALLOY
     size: 0.025
     costSell: 1500
     weight: 2
@@ -1125,7 +1125,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2203
-  - type: STR_HVMACHINE_PISTOL_CLIP_TECH
+  - type: STR_XP_MACHINE_PISTOL_CLIP_TECH
     size: 0.025
     costSell: 8000
     weight: 2
@@ -1141,7 +1141,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2204
-  - type: STR_HVPISTOL
+  - type: STR_XP_PISTOL
     size: 0.1
     costSell: 8125
     weight: 4
@@ -1152,8 +1152,8 @@ items:
     bulletSprite: 1
     compatibleAmmo:
       - STR_PISTOL_NEW_CLIP
-      - STR_HVPISTOL_CLIP_ALLOY
-      - STR_HVPISTOL_CLIP_TECH
+      - STR_XP_PISTOL_CLIP_ALLOY
+      - STR_XP_PISTOL_CLIP_TECH
     accuracySnap: 65
     accuracyAimed: 83
     tuSnap: 15
@@ -1167,7 +1167,7 @@ items:
     snapRange: 14
     minRange: 0
     listOrder: 2205
-  - type: STR_HVPISTOL_CLIP_ALLOY
+  - type: STR_XP_PISTOL_CLIP_ALLOY
     size: 0.025
     costSell: 1625
     weight: 1
@@ -1183,7 +1183,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2206
-  - type: STR_HVPISTOL_CLIP_TECH
+  - type: STR_XP_PISTOL_CLIP_TECH
     size: 0.025
     costSell: 7000
     weight: 1
@@ -1199,7 +1199,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2207
-  - type: STR_HVMAGNUM
+  - type: STR_XP_MAGNUM
     size: 0.1
     costSell: 10000
     weight: 6
@@ -1210,8 +1210,8 @@ items:
     fireSound: 84
     compatibleAmmo:
       - STR_MAGNUM_CLIP
-      - STR_HVMAGNUM_CLIP_ALLOY
-      - STR_HVMAGNUM_CLIP_TECH
+      - STR_XP_MAGNUM_CLIP_ALLOY
+      - STR_XP_MAGNUM_CLIP_TECH
     accuracySnap: 60
     accuracyAimed: 78
     tuSnap: 22
@@ -1226,7 +1226,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2208
-  - type: STR_HVMAGNUM_CLIP_ALLOY
+  - type: STR_XP_MAGNUM_CLIP_ALLOY
     size: 0.025
     costSell: 2500
     weight: 3
@@ -1242,7 +1242,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2209
-  - type: STR_HVMAGNUM_CLIP_TECH
+  - type: STR_XP_MAGNUM_CLIP_TECH
     size: 0.025
     costSell: 15000
     weight: 3
@@ -1258,7 +1258,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2210
-  - type: STR_HVUZI
+  - type: STR_XP_UZI
     size: 0.1
     costSell: 9375
     weight: 4
@@ -1269,8 +1269,8 @@ items:
     fireSound: 121
     compatibleAmmo:
       - STR_SMG_CLIP
-      - STR_HVUZI_CLIP_ALLOY
-      - STR_HVUZI_CLIP_TECH
+      - STR_XP_UZI_CLIP_ALLOY
+      - STR_XP_UZI_CLIP_TECH
     accuracyAuto: 28
     accuracySnap: 45
     accuracyAimed: 65
@@ -1288,7 +1288,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2211
-  - type: STR_HVSMG
+  - type: STR_XP_SMG
     size: 0.2
     costSell: 10000
     weight: 5
@@ -1299,8 +1299,8 @@ items:
     fireSound: 121
     compatibleAmmo:
       - STR_SMG_CLIP
-      - STR_HVUZI_CLIP_ALLOY
-      - STR_HVUZI_CLIP_TECH
+      - STR_XP_UZI_CLIP_ALLOY
+      - STR_XP_UZI_CLIP_TECH
     accuracyAuto: 34
     accuracySnap: 59
     accuracyAimed: 88
@@ -1318,7 +1318,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2212
-  - type: STR_HVUZI_CLIP_ALLOY
+  - type: STR_XP_UZI_CLIP_ALLOY
     size: 0.025
     costSell: 1750
     weight: 2
@@ -1334,7 +1334,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2213
-  - type: STR_HVUZI_CLIP_TECH
+  - type: STR_XP_UZI_CLIP_TECH
     size: 0.025
     costSell: 9000
     weight: 2
@@ -1350,7 +1350,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2214
-  - type: STR_HVSHOTGUN
+  - type: STR_XP_SHOTGUN
     size: 0.2
     costSell: 15000
     weight: 7
@@ -1361,8 +1361,8 @@ items:
     fireSound: 82
     compatibleAmmo:
       - STR_SHOTGUN_SHELLS
-      - STR_HVSHOTGUN_SHELLS_ALLOY
-      - STR_HVSHOTGUN_SHELLS_TECH
+      - STR_XP_SHOTGUN_SHELLS_ALLOY
+      - STR_XP_SHOTGUN_SHELLS_TECH
       - STR_SHOTGUN_SLUGS
     accuracySnap: 45
     accuracyAimed: 65
@@ -1378,7 +1378,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2215
-  - type: STR_HVSHOTGUN_SHELLS_ALLOY
+  - type: STR_XP_SHOTGUN_SHELLS_ALLOY
     size: 0.025
     costSell: 3000
     weight: 3
@@ -1393,7 +1393,7 @@ items:
     shotgunPellets: 5
     battleType: 2
     listOrder: 2216
-  - type: STR_HVSHOTGUN_SHELLS_TECH
+  - type: STR_XP_SHOTGUN_SHELLS_TECH
     size: 0.025
     costSell: 18000
     weight: 3
@@ -1408,7 +1408,7 @@ items:
     shotgunPellets: 5
     battleType: 2
     listOrder: 2217
-  - type: STR_HVPDW
+  - type: STR_XP_PDW
     size: 0.1
     costSell: 10625
     weight: 6
@@ -1419,8 +1419,8 @@ items:
     fireSound: 81
     compatibleAmmo:
       - STR_ASSAULT_RIFLE_CLIP
-      - STR_HVRIFLE_CLIP_ALLOY
-      - STR_HVRIFLE_CLIP_TECH
+      - STR_XP_RIFLE_CLIP_ALLOY
+      - STR_XP_RIFLE_CLIP_TECH
     accuracyAuto: 32
     accuracySnap: 60
     accuracyAimed: 92
@@ -1438,7 +1438,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2218
-  - type: STR_HVRIFLE
+  - type: STR_XP_RIFLE
     size: 0.2
     costSell: 15000
     weight: 7
@@ -1449,8 +1449,8 @@ items:
     fireSound: 81
     compatibleAmmo:
       - STR_ASSAULT_RIFLE_CLIP
-      - STR_HVRIFLE_CLIP_ALLOY
-      - STR_HVRIFLE_CLIP_TECH
+      - STR_XP_RIFLE_CLIP_ALLOY
+      - STR_XP_RIFLE_CLIP_TECH
     accuracyAuto: 40
     accuracySnap: 65
     accuracyAimed: 105
@@ -1468,7 +1468,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2219
-  - type: STR_HVRIFLE_CLIP_ALLOY
+  - type: STR_XP_RIFLE_CLIP_ALLOY
     size: 0.025
     costSell: 3000
     weight: 3
@@ -1482,7 +1482,7 @@ items:
     clipSize: 20
     battleType: 2
     listOrder: 2220
-  - type: STR_HVRIFLE_CLIP_TECH
+  - type: STR_XP_RIFLE_CLIP_TECH
     size: 0.025
     costSell: 18000
     weight: 3
@@ -1496,7 +1496,7 @@ items:
     clipSize: 20
     battleType: 2
     listOrder: 2221
-  - type: STR_HVLMG
+  - type: STR_XP_LMG
     size: 0.2
     costSell: 27500
     weight: 8
@@ -1507,8 +1507,8 @@ items:
     fireSound: 81
     compatibleAmmo:
       - STR_LMG_BELT
-      - STR_HVLMG_BELT_ALLOY
-      - STR_HVLMG_BELT_TECH
+      - STR_XP_LMG_BELT_ALLOY
+      - STR_XP_LMG_BELT_TECH
     accuracyAuto: 30
     accuracySnap: 58
     tuAuto: 30
@@ -1524,7 +1524,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2222
-  - type: STR_HVLMG_BELT_ALLOY
+  - type: STR_XP_LMG_BELT_ALLOY
     size: 0.1
     costSell: 5500
     weight: 3
@@ -1540,7 +1540,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2223
-  - type: STR_HVLMG_BELT_TECH
+  - type: STR_XP_LMG_BELT_TECH
     size: 0.1
     costSell: 14000
     weight: 3
@@ -1556,7 +1556,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2224
-  - type: STR_HVSNIPER_RIFLE
+  - type: STR_XP_SNIPER_RIFLE
     size: 0.2
     costSell: 30000
     weight: 8
@@ -1567,8 +1567,8 @@ items:
     fireSound: 80
     compatibleAmmo:
       - STR_AM_RIFLE_CLIP
-      - STR_HVSNIPER_RIFLE_CLIP_ALLOY
-      - STR_HVSNIPER_RIFLE_CLIP_TECH
+      - STR_XP_SNIPER_RIFLE_CLIP_ALLOY
+      - STR_XP_SNIPER_RIFLE_CLIP_TECH
     accuracySnap: 48
     accuracyAimed: 140
     tuSnap: 35
@@ -1583,7 +1583,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2225
-  - type: STR_HVSNIPER_RIFLE_CLIP_ALLOY
+  - type: STR_XP_SNIPER_RIFLE_CLIP_ALLOY
     size: 0.025
     costSell: 6000
     weight: 3
@@ -1597,7 +1597,7 @@ items:
     clipSize: 8
     battleType: 2
     listOrder: 2226
-  - type: STR_HVSNIPER_RIFLE_CLIP_TECH
+  - type: STR_XP_SNIPER_RIFLE_CLIP_TECH
     size: 0.025
     costSell: 14000
     weight: 3
@@ -1611,7 +1611,7 @@ items:
     clipSize: 8
     battleType: 2
     listOrder: 2227
-  - type: STR_HVMINGUN
+  - type: STR_XP_MINGUN
     size: 0.3
     costSell: 18000
     weight: 22
@@ -1622,8 +1622,8 @@ items:
     fireSound: 85
     compatibleAmmo:
       - STR_MINIGUN_BELT
-      - STR_HVMINGUN_BELT_ALLOY
-      - STR_HVMINGUN_BELT_TECH
+      - STR_XP_MINGUN_BELT_ALLOY
+      - STR_XP_MINGUN_BELT_TECH
     accuracyAuto: 30
     tuAuto: 70
     autoShots: 15
@@ -1638,7 +1638,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2228
-  - type: STR_HVMINGUN_BELT_ALLOY
+  - type: STR_XP_MINGUN_BELT_ALLOY
     size: 0.1
     costSell: 5000
     weight: 6
@@ -1654,7 +1654,7 @@ items:
     invWidth: 1
     invHeight: 3
     listOrder: 2229
-  - type: STR_HVMINGUN_BELT_TECH
+  - type: STR_XP_MINGUN_BELT_TECH
     size: 0.1
     costSell: 25000
     weight: 5
@@ -1670,7 +1670,7 @@ items:
     invWidth: 1
     invHeight: 3
     listOrder: 2230
-  - type: STR_HV_ASSAULT_CANNON
+  - type: STR_XP__ASSAULT_CANNON
     size: 0.3
     costSell: 15000
     weight: 17
@@ -1680,9 +1680,9 @@ items:
     bulletSprite: 3
     fireSound: 213
     compatibleAmmo:
-      - STR_HV_ASSAULT_CANNON_BELT
-      - STR_HV_ASSAULT_CANNON_BELT_ALLOY
-      - STR_HV_ASSAULT_CANNON_BELT_TECH
+      - STR_XP__ASSAULT_CANNON_BELT
+      - STR_XP__ASSAULT_CANNON_BELT_ALLOY
+      - STR_XP__ASSAULT_CANNON_BELT_TECH
     accuracyAuto: 37
     accuracySnap: 61
     accuracyAimed: 87
@@ -1699,7 +1699,7 @@ items:
     autoRange: 10
     minRange: 0
     listOrder: 2231
-  - type: STR_HV_ASSAULT_CANNON_BELT
+  - type: STR_XP__ASSAULT_CANNON_BELT
     size: 0.1
     costSell: 2500
     weight: 4
@@ -1714,7 +1714,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2232
-  - type: STR_HV_ASSAULT_CANNON_BELT_ALLOY
+  - type: STR_XP__ASSAULT_CANNON_BELT_ALLOY
     size: 0.1
     costSell: 4500
     weight: 3
@@ -1729,7 +1729,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2233
-  - type: STR_HV_ASSAULT_CANNON_BELT_TECH
+  - type: STR_XP__ASSAULT_CANNON_BELT_TECH
     size: 0.1
     costSell: 45000
     weight: 3
@@ -1744,7 +1744,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2234
-  - type: STR_HVRL
+  - type: STR_XP_RL
     size: 0.4
     costSell: 40000
     weight: 8
@@ -1754,8 +1754,8 @@ items:
     bulletSprite: 0
     fireSound: 86
     compatibleAmmo:
-      - STR_HVR1
-      - STR_HVR2
+      - STR_XP_R1
+      - STR_XP_R2
       - STR_AP_ROCKET
       - STR_SMALL_ROCKET
       - STR_LARGE_ROCKET
@@ -1769,7 +1769,7 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 2235
-  - type: STR_HVR1
+  - type: STR_XP_R1
     size: 0.2
     costSell: 12000
     weight: 4
@@ -1784,7 +1784,7 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 2236
-  - type: STR_HVR2
+  - type: STR_XP_R2
     size: 0.2
     costSell: 16000
     weight: 6
@@ -2182,8 +2182,8 @@ items:
       - STR_HB_SHOTGUN_CLIP
       - STR_HB_SHOTGUN_CLIP2
       - STR_HB_SHOTGUN_CLIP3
-      - STR_HVSHOTGUN_SHELLS_ALLOY
-      - STR_HVSHOTGUN_SHELLS_TECH
+      - STR_XP_SHOTGUN_SHELLS_ALLOY
+      - STR_XP_SHOTGUN_SHELLS_TECH
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 22
@@ -2569,8 +2569,8 @@ items:
     compatibleAmmo:
       - STR_HB_MISSILE
       - STR_HB_MISSILE2
-      - STR_HVR1
-      - STR_HVR2
+      - STR_XP_R1
+      - STR_XP_R2
       - STR_AP_ROCKET
       - STR_SMALL_ROCKET
       - STR_LARGE_ROCKET
@@ -3119,7 +3119,7 @@ items:
     invHeight: 1
     listOrder: 2425
 ###-----Human fifth tier Ballistic Rail weapons-----###
-  - type: STR_TFPISTOL
+  - type: STR_RL_PISTOL
     size: 0.1
     costSell: 75000
     weight: 4
@@ -3128,9 +3128,9 @@ items:
     handSprite: 630
     fireSound: 501
     compatibleAmmo:
-      - STR_TFPISTOL_CLIP
-      - STR_TFPISTOL_CLIP2
-      - STR_TFPISTOL_CLIP3
+      - STR_RL_PISTOL_CLIP
+      - STR_RL_PISTOL_CLIP2
+      - STR_RL_PISTOL_CLIP3
     accuracySnap: 70
     accuracyAimed: 88
     tuSnap: 13
@@ -3144,7 +3144,7 @@ items:
     snapRange: 16
     minRange: 0
     listOrder: 2501
-  - type: STR_TFSMG
+  - type: STR_RL_SMG
     size: 0.2
     costSell: 140000
     weight: 5
@@ -3153,9 +3153,9 @@ items:
     handSprite: 640
     fireSound: 501
     compatibleAmmo:
-      - STR_TFPISTOL_CLIP
-      - STR_TFPISTOL_CLIP2
-      - STR_TFPISTOL_CLIP3
+      - STR_RL_PISTOL_CLIP
+      - STR_RL_PISTOL_CLIP2
+      - STR_RL_PISTOL_CLIP3
     accuracyAuto: 39
     accuracySnap: 64
     tuAuto: 19
@@ -3171,7 +3171,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2502
-  - type: STR_TFPISTOL_CLIP
+  - type: STR_RL_PISTOL_CLIP
     size: 0.025
     costSell: 5000
     weight: 2
@@ -3187,7 +3187,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2503
-  - type: STR_TFPISTOL_CLIP2
+  - type: STR_RL_PISTOL_CLIP2
     size: 0.025
     costSell: 5000
     weight: 2
@@ -3203,7 +3203,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2504
-  - type: STR_TFPISTOL_CLIP3
+  - type: STR_RL_PISTOL_CLIP3
     size: 0.025
     costSell: 5000
     weight: 2
@@ -3220,7 +3220,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2505
-  - type: STR_TFSHOTGUN
+  - type: STR_RL_SHOTGUN
     size: 0.2
     costSell: 125000
     weight: 7
@@ -3229,9 +3229,9 @@ items:
     handSprite: 660
     fireSound: 503
     compatibleAmmo:
-      - STR_TFSHOTGUN_CLIP
-      - STR_TFSHOTGUN_CLIP2
-      - STR_TFSHOTGUN_CLIP3
+      - STR_RL_SHOTGUN_CLIP
+      - STR_RL_SHOTGUN_CLIP2
+      - STR_RL_SHOTGUN_CLIP3
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 21
@@ -3246,7 +3246,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2506
-  - type: STR_TFSHOTGUN_CLIP
+  - type: STR_RL_SHOTGUN_CLIP
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3261,7 +3261,7 @@ items:
     shotgunPellets: 5
     battleType: 2
     listOrder: 2507
-  - type: STR_TFSHOTGUN_CLIP2
+  - type: STR_RL_SHOTGUN_CLIP2
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3276,7 +3276,7 @@ items:
     shotgunPellets: 5
     battleType: 2
     listOrder: 2508
-  - type: STR_TFSHOTGUN_CLIP3
+  - type: STR_RL_SHOTGUN_CLIP3
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3292,7 +3292,7 @@ items:
     shotgunPellets: 5
     battleType: 2
     listOrder: 2509
-  - type: STR_TFRIFLE
+  - type: STR_RL_RIFLE
     size: 0.2
     costSell: 125000
     weight: 7
@@ -3301,9 +3301,9 @@ items:
     handSprite: 650
     fireSound: 504
     compatibleAmmo:
-      - STR_TFRIFLE_CLIP
-      - STR_TFRIFLE_CLIP2
-      - STR_TFRIFLE_CLIP3
+      - STR_RL_RIFLE_CLIP
+      - STR_RL_RIFLE_CLIP2
+      - STR_RL_RIFLE_CLIP3
     accuracyAuto: 45
     accuracySnap: 70
     accuracyAimed: 110
@@ -3321,7 +3321,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2510
-  - type: STR_TFRIFLE_CLIP
+  - type: STR_RL_RIFLE_CLIP
     size: 0.025
     costSell: 7500
     weight: 3
@@ -3335,7 +3335,7 @@ items:
     clipSize: 30
     battleType: 2
     listOrder: 2511
-  - type: STR_TFRIFLE_CLIP2
+  - type: STR_RL_RIFLE_CLIP2
     size: 0.025
     costSell: 7500
     weight: 3
@@ -3349,7 +3349,7 @@ items:
     clipSize: 30
     battleType: 2
     listOrder: 2512
-  - type: STR_TFRIFLE_CLIP3
+  - type: STR_RL_RIFLE_CLIP3
     size: 0.025
     costSell: 7500
     weight: 3
@@ -3364,7 +3364,7 @@ items:
     clipSize: 15
     battleType: 2
     listOrder: 2513
-  - type: STR_TFLMG
+  - type: STR_RL_LMG
     size: 0.2
     costSell: 187500
     weight: 8
@@ -3373,9 +3373,9 @@ items:
     handSprite: 680
     fireSound: 504
     compatibleAmmo:
-      - STR_TFLMG_CLIP
-      - STR_TFLMG_CLIP2
-      - STR_TFLMG_CLIP3
+      - STR_RL_LMG_CLIP
+      - STR_RL_LMG_CLIP2
+      - STR_RL_LMG_CLIP3
     accuracyAuto: 37
     accuracySnap: 55
     tuAuto: 27
@@ -3391,7 +3391,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2514
-  - type: STR_TFLMG_CLIP
+  - type: STR_RL_LMG_CLIP
     size: 0.1
     costSell: 10000
     weight: 4
@@ -3407,7 +3407,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2515
-  - type: STR_TFLMG_CLIP2
+  - type: STR_RL_LMG_CLIP2
     size: 0.1
     costSell: 10000
     weight: 4
@@ -3423,7 +3423,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2516
-  - type: STR_TFLMG_CLIP3
+  - type: STR_RL_LMG_CLIP3
     size: 0.1
     costSell: 10000
     weight: 4
@@ -3440,7 +3440,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2517
-  - type: STR_TFSNIPER
+  - type: STR_RL_SNIPER
     size: 0.2
     costSell: 125000
     weight: 8
@@ -3449,9 +3449,9 @@ items:
     handSprite: 670
     fireSound: 506
     compatibleAmmo:
-      - STR_TFSNIPER_CLIP
-      - STR_TFSNIPER_CLIP2
-      - STR_TFSNIPER_CLIP3
+      - STR_RL_SNIPER_CLIP
+      - STR_RL_SNIPER_CLIP2
+      - STR_RL_SNIPER_CLIP3
     accuracySnap: 53
     accuracyAimed: 145
     tuSnap: 30
@@ -3466,7 +3466,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2518
-  - type: STR_TFSNIPER_CLIP
+  - type: STR_RL_SNIPER_CLIP
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3480,7 +3480,7 @@ items:
     clipSize: 10
     battleType: 2
     listOrder: 2519
-  - type: STR_TFSNIPER_CLIP2
+  - type: STR_RL_SNIPER_CLIP2
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3494,7 +3494,7 @@ items:
     clipSize: 10
     battleType: 2
     listOrder: 2520
-  - type: STR_TFSNIPER_CLIP3
+  - type: STR_RL_SNIPER_CLIP3
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3509,7 +3509,7 @@ items:
     clipSize: 5
     battleType: 2
     listOrder: 2521
-  - type: STR_TFHEAVY
+  - type: STR_RL_HEAVY
     size: 0.2
     costSell: 250000
     weight: 8
@@ -3518,9 +3518,9 @@ items:
     handSprite: 700
     fireSound: 507
     compatibleAmmo:
-      - STR_TFHEAVY_CLIP
-      - STR_TFHEAVY_CLIP2
-      - STR_TFHEAVY_CLIP3
+      - STR_RL_HEAVY_CLIP
+      - STR_RL_HEAVY_CLIP2
+      - STR_RL_HEAVY_CLIP3
     accuracySnap: 54
     accuracyAuto: 30
     accuracyAimed: 98
@@ -3538,7 +3538,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2522
-  - type: STR_TFHEAVY_CLIP
+  - type: STR_RL_HEAVY_CLIP
     size: 0.025
     costSell: 12500
     weight: 4
@@ -3554,7 +3554,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2523
-  - type: STR_TFHEAVY_CLIP2
+  - type: STR_RL_HEAVY_CLIP2
     size: 0.025
     costSell: 12500
     weight: 4
@@ -3570,7 +3570,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2524
-  - type: STR_TFHEAVY_CLIP3
+  - type: STR_RL_HEAVY_CLIP3
     size: 0.025
     costSell: 12500
     weight: 4
@@ -3587,7 +3587,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2525
-  - type: STR_TFCANNON
+  - type: STR_RL_CANNON
     size: 0.2
     costSell: 375000
     weight: 10
@@ -3596,9 +3596,9 @@ items:
     handSprite: 690
     fireSound: 508
     compatibleAmmo:
-      - STR_TFCANNON_CLIP
-      - STR_TFCANNON_CLIP2
-      - STR_TFCANNON_CLIP3
+      - STR_RL_CANNON_CLIP
+      - STR_RL_CANNON_CLIP2
+      - STR_RL_CANNON_CLIP3
     accuracySnap: 50
     accuracyAimed: 100
     tuSnap: 33
@@ -3613,7 +3613,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2526
-  - type: STR_TFCANNON_CLIP
+  - type: STR_RL_CANNON_CLIP
     size: 0.025
     costSell: 25000
     weight: 4
@@ -3629,7 +3629,7 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 2527
-  - type: STR_TFCANNON_CLIP2
+  - type: STR_RL_CANNON_CLIP2
     size: 0.025
     costSell: 25000
     weight: 4
@@ -3645,7 +3645,7 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 2528
-  - type: STR_TFCANNON_CLIP3
+  - type: STR_RL_CANNON_CLIP3
     size: 0.025
     costSell: 25000
     weight: 4
@@ -4617,7 +4617,7 @@ items:
     blastRadius: 2
     fuseType: -1
     listOrder: 4010
-  - type: STR_HVGRENADE
+  - type: STR_XP_GRENADE
     size: 0.05
     costSell: 5000
     weight: 2

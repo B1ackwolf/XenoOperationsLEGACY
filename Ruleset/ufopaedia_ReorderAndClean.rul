@@ -161,6 +161,28 @@ ufopaedia:
       width: 311
       height: 47
     image_id: XCF3UFO
+
+
+#ojito
+  - id: STR_XCF4
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    listOrder: 105
+    requires:
+      - STR_XCF4
+    text: STR_XCF4_UFOPEDIA
+    rect_stats:
+      x: 200
+      y: 40
+      width: 140
+      height: 56
+    rect_text:
+      x: 5
+      y: 150
+      width: 311
+      height: 47
+    image_id: XCF4UFO
+    
   - id: STR_DRAGONFLY
     listOrder: 209
     type_id: 1
@@ -942,12 +964,12 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_INC_GRENADE_UFOPEDIA
     listOrder: 4105
-  - id: STR_HVGRENADE
+  - id: STR_XP_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVGRENADE_UFOPEDIA
+    text: STR_XP_GRENADE_UFOPEDIA
     requires:
-      - STR_HVGRENADE
+      - STR_XP_GRENADE
     listOrder: 4106
   - id: STR_ADRENO_SYRINGE
     type_id: 4
@@ -971,211 +993,211 @@ ufopaedia:
     listOrder: 4804
 #reorder everything above this, ojito#
 #####-----Second Tier Experimental Ballistic Weaponry
-  - id: STR_HVPISTOL_SMALL
+  - id: STR_XP_PISTOL_SMALL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_HVPISTOL_SMALL_UFOPEDIA
+    text: STR_XP_PISTOL_SMALL_UFOPEDIA
     listOrder: 2201
-  - id: STR_HVMACHINE_PISTOL
+  - id: STR_XP_MACHINE_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_HVMACHINE_PISTOL_UFOPEDIA
+    text: STR_XP_MACHINE_PISTOL_UFOPEDIA
     listOrder: 2202
-  - id: STR_HVMACHINE_PISTOL_CLIP_ALLOY
+  - id: STR_XP_MACHINE_PISTOL_CLIP_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVMACHINE_PISTOL_CLIP_TECH
+  - id: STR_XP_MACHINE_PISTOL_CLIP_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVPISTOL
+  - id: STR_XP_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_HVPISTOL_UFOPEDIA
+    text: STR_XP_PISTOL_UFOPEDIA
     listOrder: 2203
-  - id: STR_HVPISTOL_CLIP_ALLOY
+  - id: STR_XP_PISTOL_CLIP_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVPISTOL_CLIP_TECH
+  - id: STR_XP_PISTOL_CLIP_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVMAGNUM
+  - id: STR_XP_MAGNUM
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text:  STR_HVMAGNUM_UFOPEDIA
+    text:  STR_XP_MAGNUM_UFOPEDIA
     listOrder: 2204
-  - id: STR_HVMAGNUM_CLIP_ALLOY
+  - id: STR_XP_MAGNUM_CLIP_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVMAGNUM_CLIP_TECH
+  - id: STR_XP_MAGNUM_CLIP_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVUZI
+  - id: STR_XP_UZI
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_HVUZI_UFOPEDIA
+    text: STR_XP_UZI_UFOPEDIA
     listOrder: 2205
-  - id: STR_HVSMG
+  - id: STR_XP_SMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVSMG_UFOPEDIA
+    text: STR_XP_SMG_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
     listOrder: 2206
-  - id: STR_HVUZI_CLIP_ALLOY
+  - id: STR_XP_UZI_CLIP_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVUZI_CLIP_TECH
+  - id: STR_XP_UZI_CLIP_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVSHOTGUN
+  - id: STR_XP_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVSHOTGUN_UFOPEDIA
+    text: STR_XP_SHOTGUN_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
     listOrder: 2207
-  - id: STR_HVSHOTGUN_SHELLS_ALLOY
+  - id: STR_XP_SHOTGUN_SHELLS_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION 
-  - id: STR_HVSHOTGUN_SHELLS_TECH
+  - id: STR_XP_SHOTGUN_SHELLS_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS 
-  - id: STR_HVPDW
+  - id: STR_XP_PDW
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_HVPDW_UFOPEDIA
+    text: STR_XP_PDW_UFOPEDIA
     listOrder: 2208
-  - id: STR_HVRIFLE
+  - id: STR_XP_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVRIFLE_UFOPEDIA
+    text: STR_XP_RIFLE_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
     listOrder: 2209
-  - id: STR_HVRIFLE_CLIP_ALLOY
+  - id: STR_XP_RIFLE_CLIP_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVRIFLE_CLIP_TECH
+  - id: STR_XP_RIFLE_CLIP_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVLMG
+  - id: STR_XP_LMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVLMG_UFOPEDIA
+    text: STR_XP_LMG_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2210
-  - id: STR_HVLMG_BELT_ALLOY
+  - id: STR_XP_LMG_BELT_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVLMG_BELT_TECH
+  - id: STR_XP_LMG_BELT_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVSNIPER_RIFLE
+  - id: STR_XP_SNIPER_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVSNIPER_RIFLE_UFOPEDIA
+    text: STR_XP_SNIPER_RIFLE_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
     listOrder: 2211
-  - id: STR_HVSNIPER_RIFLE_CLIP_ALLOY
+  - id: STR_XP_SNIPER_RIFLE_CLIP_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVSNIPER_RIFLE_CLIP_TECH
+  - id: STR_XP_SNIPER_RIFLE_CLIP_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVMINGUN
+  - id: STR_XP_MINGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVMINGUN_UFOPEDIA
+    text: STR_XP_MINGUN_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2212
-  - id: STR_HVMINGUN_BELT_ALLOY
+  - id: STR_XP_MINGUN_BELT_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HVMINGUN_BELT_TECH
+  - id: STR_XP_MINGUN_BELT_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HV_ASSAULT_CANNON
+  - id: STR_XP__ASSAULT_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HV_ASSAULT_CANNON_UFOPEDIA
+    text: STR_XP__ASSAULT_CANNON_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2213
-  - id: STR_HV_ASSAULT_CANNON_BELT
+  - id: STR_XP__ASSAULT_CANNON_BELT
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HV_ASSAULT_CANNON_BELT_ALLOY
+  - id: STR_XP__ASSAULT_CANNON_BELT_ALLOY
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_HV_ASSAULT_CANNON_BELT_TECH
+  - id: STR_XP__ASSAULT_CANNON_BELT_TECH
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_HVRL
+  - id: STR_XP_RL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HVRL_UFOPEDIA
+    text: STR_XP_RL_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2214
-  - id: STR_HVR1
+  - id: STR_XP_R1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HVR2
+  - id: STR_XP_R2
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_AP_ROCKET
@@ -1538,149 +1560,149 @@ ufopaedia:
     requires:
       - STR_LIGHT_LASER_WEAPONS
 #--- Fith Tier Hypervelocity Weaponry -------------------
-  - id: STR_TFPISTOL
+  - id: STR_RL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFPISTOL_UFOPEDIA
+    text: STR_RL_PISTOL_UFOPEDIA
     listOrder: 2501
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
-  - id: STR_TFSMG
+  - id: STR_RL_SMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFSMG_UFOPEDIA
+    text: STR_RL_SMG_UFOPEDIA
     listOrder: 2502
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
-  - id: STR_TFPISTOL_CLIP
+  - id: STR_RL_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TFPISTOL_CLIP2
+  - id: STR_RL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_TFPISTOL_CLIP3
+  - id: STR_RL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_TFSHOTGUN
+  - id: STR_RL_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFSHOTGUN_UFOPEDIA
+    text: STR_RL_SHOTGUN_UFOPEDIA
     listOrder: 2503
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
-  - id: STR_TFSHOTGUN_CLIP
+  - id: STR_RL_SHOTGUN_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TFSHOTGUN_CLIP2
+  - id: STR_RL_SHOTGUN_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_TFSHOTGUN_CLIP3
+  - id: STR_RL_SHOTGUN_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_TFRIFLE
+  - id: STR_RL_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFRIFLE_UFOPEDIA
+    text: STR_RL_RIFLE_UFOPEDIA
     listOrder: 2504
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
-  - id: STR_TFRIFLE_CLIP
+  - id: STR_RL_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TFRIFLE_CLIP2
+  - id: STR_RL_RIFLE_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_TFRIFLE_CLIP3
+  - id: STR_RL_RIFLE_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_TFLMG
+  - id: STR_RL_LMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFLMG_UFOPEDIA
+    text: STR_RL_LMG_UFOPEDIA
     listOrder: 2505
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
-  - id: STR_TFLMG_CLIP
+  - id: STR_RL_LMG_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TFLMG_CLIP2
+  - id: STR_RL_LMG_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_TFLMG_CLIP3
+  - id: STR_RL_LMG_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_TFSNIPER
+  - id: STR_RL_SNIPER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFSNIPER_UFOPEDIA
+    text: STR_RL_SNIPER_UFOPEDIA
     listOrder: 2506
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
-  - id: STR_TFSNIPER_CLIP
+  - id: STR_RL_SNIPER_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TFSNIPER_CLIP2
+  - id: STR_RL_SNIPER_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_TFSNIPER_CLIP3
+  - id: STR_RL_SNIPER_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_TFHEAVY
+  - id: STR_RL_HEAVY
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFHEAVY_UFOPEDIA
+    text: STR_RL_HEAVY_UFOPEDIA
     listOrder: 2507
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
-  - id: STR_TFHEAVY_CLIP
+  - id: STR_RL_HEAVY_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TFHEAVY_CLIP2
+  - id: STR_RL_HEAVY_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_TFHEAVY_CLIP3
+  - id: STR_RL_HEAVY_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_TFCANNON
+  - id: STR_RL_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFCANNON_UFOPEDIA
+    text: STR_RL_CANNON_UFOPEDIA
     listOrder: 2508
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
-  - id: STR_TFCANNON_CLIP
+  - id: STR_RL_CANNON_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TFCANNON_CLIP2
+  - id: STR_RL_CANNON_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_TFCANNON_CLIP3
+  - id: STR_RL_CANNON_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:

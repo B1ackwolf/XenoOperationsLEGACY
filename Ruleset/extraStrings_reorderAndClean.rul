@@ -1012,7 +1012,7 @@
 #-----Craft and Craft Weapons
       STR_SR71: XRS-71G BLACKBIRD
       STR_INTERCEPTOR: XCF-0 PAWN
-      STR_XCF0: XCF-1 BISHOP
+      STR_UPDATED_INTERCEPTOR: XCF-1 BISHOP
       STR_XCF1: XCF-2 RIDER
       STR_XCF2: XCF-3 ROOK
       STR_XCF3: XCF-4 EMPRESS
@@ -1332,49 +1332,49 @@
       STR_TASER: Taser Pistol
       STR_TASER_CLIP: Taser Shock Clip
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
-      STR_HVMACHINE_PISTOL: X1 Machine Pistol
-      STR_HVMACHINE_PISTOL_CLIP_ALLOY: 9mm Alloys Magazine
-      STR_HVMACHINE_PISTOL_CLIP_TECH: 9mm Tech Magazine
-      STR_HVPISTOL_SMALL: X1A Compact Pistol
-      STR_HVMAGNUM: X3 Heavy Pistol
-      STR_HVMAGNUM_CLIP_ALLOY: .44 MAG Alloy Magazine
-      STR_HVMAGNUM_CLIP_TECH: .44 MAG Tech Magazine
-      STR_HVUZI: X4A Uzi Submachine Gun
-      STR_HVUZI_CLIP_ALLOY: .45 ACP Alloy Magazine
-      STR_HVUZI_CLIP_TECH: .45 ACP Tech Magazine
-      STR_HVPDW: X6A Personal Defense Weapon
-      STR_HVPISTOL: X2 Service Pistol
-      STR_HVPISTOL_CLIP_ALLOY: .40 S&W Alloy Magazine
-      STR_HVPISTOL_CLIP_TECH: .40 S&W Tech Magazine
-      STR_HVSMG: X4 Submachine Gun
-      STR_HVRIFLE: X6 Assault Rifle
-      STR_HVRIFLE_CLIP_ALLOY: 5.56mm Alloy Magazine
-      STR_HVRIFLE_CLIP_TECH: 5.56mm Tech Magazine
-      STR_HVSHOTGUN: X5 Combat Shotgun
-      STR_HVSHOTGUN_SHELLS_ALLOY: 12-gauge Alloy Shells
-      STR_HVSHOTGUN_SHELLS_TECH: 12-gauge Tech Shells
-      STR_HVLMG: X7 Light Machine Gun
-      STR_HVLMG_BELT_ALLOY: 5.56mm Alloy Belt
-      STR_HVLMG_BELT_TECH: 5.56mm Tech Belt
-      STR_HVSNIPER_RIFLE: X8 Sniper Rifle
-      STR_HVSNIPER_RIFLE_CLIP_ALLOY: .50 BMG Alloy Magazine
-      STR_HVSNIPER_RIFLE_CLIP_TECH: .50 BMG Tech Magazine
-      STR_HVRL: XXX Rocket Launcher
-      STR_HVR1: X Light Rocket
-      STR_HVR2: X Heavy Rocket
+      STR_XP_MACHINE_PISTOL: X1 Machine Pistol
+      STR_XP_MACHINE_PISTOL_CLIP_ALLOY: 9mm Alloys Magazine
+      STR_XP_MACHINE_PISTOL_CLIP_TECH: 9mm Tech Magazine
+      STR_XP_PISTOL_SMALL: X1A Compact Pistol
+      STR_XP_MAGNUM: X3 Heavy Pistol
+      STR_XP_MAGNUM_CLIP_ALLOY: .44 MAG Alloy Magazine
+      STR_XP_MAGNUM_CLIP_TECH: .44 MAG Tech Magazine
+      STR_XP_UZI: X4A Uzi Submachine Gun
+      STR_XP_UZI_CLIP_ALLOY: .45 ACP Alloy Magazine
+      STR_XP_UZI_CLIP_TECH: .45 ACP Tech Magazine
+      STR_XP_PDW: X6A Personal Defense Weapon
+      STR_XP_PISTOL: X2 Service Pistol
+      STR_XP_PISTOL_CLIP_ALLOY: .40 S&W Alloy Magazine
+      STR_XP_PISTOL_CLIP_TECH: .40 S&W Tech Magazine
+      STR_XP_SMG: X4 Submachine Gun
+      STR_XP_RIFLE: X6 Assault Rifle
+      STR_XP_RIFLE_CLIP_ALLOY: 5.56mm Alloy Magazine
+      STR_XP_RIFLE_CLIP_TECH: 5.56mm Tech Magazine
+      STR_XP_SHOTGUN: X5 Combat Shotgun
+      STR_XP_SHOTGUN_SHELLS_ALLOY: 12-gauge Alloy Shells
+      STR_XP_SHOTGUN_SHELLS_TECH: 12-gauge Tech Shells
+      STR_XP_LMG: X7 Light Machine Gun
+      STR_XP_LMG_BELT_ALLOY: 5.56mm Alloy Belt
+      STR_XP_LMG_BELT_TECH: 5.56mm Tech Belt
+      STR_XP_SNIPER_RIFLE: X8 Sniper Rifle
+      STR_XP_SNIPER_RIFLE_CLIP_ALLOY: .50 BMG Alloy Magazine
+      STR_XP_SNIPER_RIFLE_CLIP_TECH: .50 BMG Tech Magazine
+      STR_XP_RL: XXX Rocket Launcher
+      STR_XP_R1: X Light Rocket
+      STR_XP_R2: X Heavy Rocket
       STR_AP_ROCKET: XAP Rocket
-      STR_HVMINGUN: X9 Minigun
-      STR_HVMINGUN_BELT_ALLOY: 5.56mm Minigun Alloy Box
-      STR_HVMINGUN_BELT_TECH: 5.56mm Minigun Tech Box
-      STR_HV_ASSAULT_CANNON: XX Assault Cannon
-      STR_HV_ASSAULT_CANNON_BELT: 20mm Cannon Belt
-      STR_HV_ASSAULT_CANNON_BELT_ALLOY: 20mm Cannon Alloy Belt
-      STR_HV_ASSAULT_CANNON_BELT_TECH: 20mm Cannon Tech Belt
+      STR_XP_MINGUN: X9 Minigun
+      STR_XP_MINGUN_BELT_ALLOY: 5.56mm Minigun Alloy Box
+      STR_XP_MINGUN_BELT_TECH: 5.56mm Minigun Tech Box
+      STR_XP__ASSAULT_CANNON: XX Assault Cannon
+      STR_XP__ASSAULT_CANNON_BELT: 20mm Cannon Belt
+      STR_XP__ASSAULT_CANNON_BELT_ALLOY: 20mm Cannon Alloy Belt
+      STR_XP__ASSAULT_CANNON_BELT_TECH: 20mm Cannon Tech Belt
       STR_INC_GRENADE: Napalm Grenade
       STR_KNIFE: Combat Knife
       STR_BRASS_KNUCKLES: Brass Knuckles
       STR_IMPROVED_MEDKIT: Field Surgery kit
-      STR_HVGRENADE: X Force Grenade
+      STR_XP_GRENADE: X Force Grenade
 
 #ojito reordenar arriba y dividir en dos tiers
 #-----Human Tier 1 Ballistic   {NEWLINE}{NEWLINE}
@@ -1525,35 +1525,35 @@
       STR_HEAVY_LASER_BATTERY3: Elerium Giga-Battery
       STR_LASER_SWORD: Laser Sword #ojito
 #-----Human Hypervelocity Weapons
-      STR_TFPISTOL: Rail Pistol
-      STR_TFSMG: Rail Assaulter
-      STR_TFPISTOL_CLIP: Needles Clip
-      STR_TFPISTOL_CLIP2: Depleted Needles Clip 
-      STR_TFPISTOL_CLIP3: Enriched Needles Clip
-      STR_TFSHOTGUN: Rail Shards Thrower
-      STR_TFSHOTGUN_CLIP: Shards Clip
-      STR_TFSHOTGUN_CLIP2: Depleted Shards Clip
-      STR_TFSHOTGUN_CLIP3: Enriched Shards Clip
-      STR_TFRIFLE: Rail Combat Rifle
-      STR_TFRIFLE_CLIP: Nails Clip
-      STR_TFRIFLE_CLIP2: Depleted Nails Clip
-      STR_TFRIFLE_CLIP3: Enriched Nails Clip
-      STR_TFLMG: Rail Repeater
-      STR_TFLMG_CLIP: Slugs Box
-      STR_TFLMG_CLIP2: Depleted Slugs Box
-      STR_TFLMG_CLIP3: Depleted Slugs Box
-      STR_TFSNIPER: Rail Precision Rifle
-      STR_TFSNIPER_CLIP: Darts Clip
-      STR_TFSNIPER_CLIP2: Depleted Darts Clip
-      STR_TFSNIPER_CLIP3: Enriched Darts Clip
-      STR_TFHEAVY: Rail Heavy Lance ###ojito cambiar a algo mejor
-      STR_TFHEAVY_CLIP: Spikes Magazine
-      STR_TFHEAVY_CLIP2: Depleted Spikes Magazine
-      STR_TFHEAVY_CLIP3: Enriched Spikes Magazine
-      STR_TFCANNON: Rail Macrocannon
-      STR_TFCANNON_CLIP: Sabots Magazine
-      STR_TFCANNON_CLIP2: Depleted Sabots Magazine
-      STR_TFCANNON_CLIP3: Enriched Sabots Magazine
+      STR_RL_PISTOL: Rail Pistol
+      STR_RL_SMG: Rail Assaulter
+      STR_RL_PISTOL_CLIP: Needles Clip
+      STR_RL_PISTOL_CLIP2: Depleted Needles Clip 
+      STR_RL_PISTOL_CLIP3: Enriched Needles Clip
+      STR_RL_SHOTGUN: Rail Shards Thrower
+      STR_RL_SHOTGUN_CLIP: Shards Clip
+      STR_RL_SHOTGUN_CLIP2: Depleted Shards Clip
+      STR_RL_SHOTGUN_CLIP3: Enriched Shards Clip
+      STR_RL_RIFLE: Rail Combat Rifle
+      STR_RL_RIFLE_CLIP: Nails Clip
+      STR_RL_RIFLE_CLIP2: Depleted Nails Clip
+      STR_RL_RIFLE_CLIP3: Enriched Nails Clip
+      STR_RL_LMG: Rail Repeater
+      STR_RL_LMG_CLIP: Slugs Box
+      STR_RL_LMG_CLIP2: Depleted Slugs Box
+      STR_RL_LMG_CLIP3: Depleted Slugs Box
+      STR_RL_SNIPER: Rail Precision Rifle
+      STR_RL_SNIPER_CLIP: Darts Clip
+      STR_RL_SNIPER_CLIP2: Depleted Darts Clip
+      STR_RL_SNIPER_CLIP3: Enriched Darts Clip
+      STR_RL_HEAVY: Rail Heavy Lance ###ojito cambiar a algo mejor
+      STR_RL_HEAVY_CLIP: Spikes Magazine
+      STR_RL_HEAVY_CLIP2: Depleted Spikes Magazine
+      STR_RL_HEAVY_CLIP3: Enriched Spikes Magazine
+      STR_RL_CANNON: Rail Macrocannon
+      STR_RL_CANNON_CLIP: Sabots Magazine
+      STR_RL_CANNON_CLIP2: Depleted Sabots Magazine
+      STR_RL_CANNON_CLIP3: Enriched Sabots Magazine
 #-----Human Plasma Weapons
       STR_HUMAN_PLASMA_PISTOL_COMPACT: Plasma Compact Pistol
       STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP: Nano Plasma Cell
@@ -1820,21 +1820,21 @@
 
 
 
-      STR_HVMACHINE_PISTOL_UFOPEDIA: The X1 Machine Pistol is a precision engineered rapid fire pistol with a three round burst using 9mm ammo.
-      STR_HVPISTOL_SMALL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition. 
-      STR_HVMAGNUM_UFOPEDIA: X3 Heavy Pistol uses a high caliber .44 MAG round for extra power. The high quality engineering makes this the most powerful ballistic pistol in the world.
-      STR_HVUZI_UFOPEDIA: The X4A design is based heavily on the Uzi. The design has been further refined to increase performance using .45 ACP ammunition.
-      STR_HVPDW_UFOPEDIA: X6A is a precision machined Personal Defense Weapon made exclusively by XCom chambering 5.56mm ammunition.
-      STR_HVLMG_UFOPEDIA: The X7 Light Machine Gun currently out performs the conventional version chambering versatile 5.56 ammunition.
-      STR_HVPISTOL_UFOPEDIA: The X2 Service pistol is the first in a new series of ballistic technology deployed exclusively by XCom. This state of the art pistol performs all around superior to all other conventional pistols employed by any human army and uses .40 S&W rounds.
-      STR_HVRIFLE_UFOPEDIA: The X6 Rifle is a precision machined 5.56mm assault rifle. It out preforms other models used by today's conventional armies.
-      STR_HVSHOTGUN_UFOPEDIA: The X5 Shotgun uses principles we have learned earlier in the X weapons program to adapt it to a well manufactured shotgun. It can be used with already existing 12-gauge shotgun ammo.
-      STR_HVSMG_UFOPEDIA: X4 Submachine Gun is a high performance .45 ACP weapon developed and produced by XCom. It out performs the conventional Submachine Gun available for purchase.
-      STR_HVSNIPER_RIFLE_UFOPEDIA: The X8 Sniper Rifle is the pinnacle of the X weapons development program. This highly accurate sniper rifle outperforms any other model currently held by human militaries including anti-materiel rifles. Using improved machined pieces, it can endure the wear and tear produced by .50 BMG ammunition fired at faster rates.
-      STR_HVRL_UFOPEDIA: The XXX Rocket Launcher fires light weight, but destructive rockets more accurately than any missile system available to conventional earth forces. Additionaly it can use any of the rockets already aviable on the market for extra usability.
+      STR_XP_MACHINE_PISTOL_UFOPEDIA: The X1 Machine Pistol is a precision engineered rapid fire pistol with a three round burst using 9mm ammo.
+      STR_XP_PISTOL_SMALL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition. 
+      STR_XP_MAGNUM_UFOPEDIA: X3 Heavy Pistol uses a high caliber .44 MAG round for extra power. The high quality engineering makes this the most powerful ballistic pistol in the world.
+      STR_XP_UZI_UFOPEDIA: The X4A design is based heavily on the Uzi. The design has been further refined to increase performance using .45 ACP ammunition.
+      STR_XP_PDW_UFOPEDIA: X6A is a precision machined Personal Defense Weapon made exclusively by XCom chambering 5.56mm ammunition.
+      STR_XP_LMG_UFOPEDIA: The X7 Light Machine Gun currently out performs the conventional version chambering versatile 5.56 ammunition.
+      STR_XP_PISTOL_UFOPEDIA: The X2 Service pistol is the first in a new series of ballistic technology deployed exclusively by XCom. This state of the art pistol performs all around superior to all other conventional pistols employed by any human army and uses .40 S&W rounds.
+      STR_XP_RIFLE_UFOPEDIA: The X6 Rifle is a precision machined 5.56mm assault rifle. It out preforms other models used by today's conventional armies.
+      STR_XP_SHOTGUN_UFOPEDIA: The X5 Shotgun uses principles we have learned earlier in the X weapons program to adapt it to a well manufactured shotgun. It can be used with already existing 12-gauge shotgun ammo.
+      STR_XP_SMG_UFOPEDIA: X4 Submachine Gun is a high performance .45 ACP weapon developed and produced by XCom. It out performs the conventional Submachine Gun available for purchase.
+      STR_XP_SNIPER_RIFLE_UFOPEDIA: The X8 Sniper Rifle is the pinnacle of the X weapons development program. This highly accurate sniper rifle outperforms any other model currently held by human militaries including anti-materiel rifles. Using improved machined pieces, it can endure the wear and tear produced by .50 BMG ammunition fired at faster rates.
+      STR_XP_RL_UFOPEDIA: The XXX Rocket Launcher fires light weight, but destructive rockets more accurately than any missile system available to conventional earth forces. Additionaly it can use any of the rockets already aviable on the market for extra usability.
       STR_AP_ROCKET_UFOPEDIA: This Armor Piercing rocket is enhanced using Alien Alloys. While not explosive, it will punch through most armor. It is fired using the Rocket Launcher.
-      STR_HV_ASSAULT_CANNON_UFOPEDIA: The XX Assault cannon combines the power of the conventional Heavy Cannon with the rapid fire capabilities of the Autocannon.
-      STR_HVMINGUN_UFOPEDIA: The X9 Minigun is lighter and more accurate than the conventional minigun.
+      STR_XP__ASSAULT_CANNON_UFOPEDIA: The XX Assault cannon combines the power of the conventional Heavy Cannon with the rapid fire capabilities of the Autocannon.
+      STR_XP_MINGUN_UFOPEDIA: The X9 Minigun is lighter and more accurate than the conventional minigun.
       STR_HYBRID_BALLISTICS_UFOPAEDIA: Recovered codex knowledge has given our engineers enough data to begin a third generation of ballistic weapons that are enhanced with alien technology. These weapons use alien alloys and components to greatly enhance their performance and versatility.
       STR_LASER_SNIPER_RIFLE_UFOPEDIA: A sniper rifle based on laser technology. Very accurate with a slower rate of fire.
       STR_LASER_SMG_UFOPEDIA: The Assault Laser is a more offensive focused redesign of the Laser Pistol. Its high rate of fire is useful for close quarters assault.
@@ -1850,19 +1850,19 @@
       STR_HUMAN_PLASMA_SNIPER_RIFLE_UFOPEDIA: The Plasma Sniper Rifle has a special barrel designed to reduce its spread range to practically nothing. This makes this weapon deadly accurate, but at the cost of a slower firing rate.
       STR_HUMAN_HEAVY_PLASMA_UFOPEDIA: The Heavy Plasma is extremely destructive combining a high rate of fire with a huge amount of stopping power. However, the power requirements have scaled as well and it eats through its Elerium powered clips quickly.
       STR_HUMAN_HEAVY_PLASMA_CANNON_UFOPEDIA: The Heavy Plasma Cannon is the largest plasma based weapon yet designed short of craft mounted weapons. The Elerium containment field is only barely sufficient to keep the volatile plasma core from erupting before it hits its target.
-      STR_TFPISTOL_UFOPEDIA: The Hypervelocity Pistol fires a small powered projectile at speeds that superheat a missile with extreme velocities. Its compact design makes this a powerful sidearm.
-      STR_TFSMG_UFOPEDIA: The Hypervelocity Assaulter has a high rate of fire as well as keeping the weapon compact and easy to maneuver. It fills the role of a light assault weapon firing powered kinetic darts at extreme velocities.
-      STR_TFRIFLE_UFOPEDIA: The Hypervelocity Rifle fires a small Elerium powered kinetic dart at speeds that superheat a missile with extreme velocities.
-      STR_TFSHOTGUN_UFOPEDIA: The Hypervelocity Shards Rifle fires a small powered kinetic dart at speeds that superheat a missile with extreme velocities. The dart is designed to break apart mid flight giving the weapon a spread like a shotgun.
-      STR_TFSNIPER_UFOPEDIA: The Hypervelocity Sniper Rifle is a finely tuned version of the rifle, sacrificing rate of fire for superior accuracy.
-      STR_TFHEAVY_UFOPEDIA: The Heavy Hypervelocity gun fires a large kinetic dart at extreme velocities. This heavy version fires slower than the repeater, but has more firepower.
-      STR_TFLMG_UFOPEDIA: The Hypervelocity Repeater has a high rate of fire that is excellent for suppression.
-      STR_TFCANNON_UFOPEDIA: The Hypervelocity Cannon fires a large kinetic dart at extreme velocities. The dart has enough power to punch through pretty much anything.
+      STR_RL_PISTOL_UFOPEDIA: The Hypervelocity Pistol fires a small powered projectile at speeds that superheat a missile with extreme velocities. Its compact design makes this a powerful sidearm.
+      STR_RL_SMG_UFOPEDIA: The Hypervelocity Assaulter has a high rate of fire as well as keeping the weapon compact and easy to maneuver. It fills the role of a light assault weapon firing powered kinetic darts at extreme velocities.
+      STR_RL_RIFLE_UFOPEDIA: The Hypervelocity Rifle fires a small Elerium powered kinetic dart at speeds that superheat a missile with extreme velocities.
+      STR_RL_SHOTGUN_UFOPEDIA: The Hypervelocity Shards Rifle fires a small powered kinetic dart at speeds that superheat a missile with extreme velocities. The dart is designed to break apart mid flight giving the weapon a spread like a shotgun.
+      STR_RL_SNIPER_UFOPEDIA: The Hypervelocity Sniper Rifle is a finely tuned version of the rifle, sacrificing rate of fire for superior accuracy.
+      STR_RL_HEAVY_UFOPEDIA: The Heavy Hypervelocity gun fires a large kinetic dart at extreme velocities. This heavy version fires slower than the repeater, but has more firepower.
+      STR_RL_LMG_UFOPEDIA: The Hypervelocity Repeater has a high rate of fire that is excellent for suppression.
+      STR_RL_CANNON_UFOPEDIA: The Hypervelocity Cannon fires a large kinetic dart at extreme velocities. The dart has enough power to punch through pretty much anything.
       STR_INC_GRENADE_UFOPEDIA: The Incendiary Grenade contains chemical elements that explode in a fiery blast when mixed. Useful for turning aliens into makeshift torches.
       STR_KNIFE_UFOPEDIA: The standard issue XCom Combat Knife is light and deadly being made out of high carbon steel that holds an edge well. This close combat weapon gives any soldier a suitable weapon in case the aliens get too close. Unlike the stun rod, a Soldier's strength is added to the Combat Knife's damage.
       STR_BRASS_KNUCKLES_UFOPEDIA: Brass Knuckles allow for our soldiers to use good old fashion fisticuffs to administer a classic Terran beat down. An alien would likely not be permanently killed by such a primitive hand to hand brawl, but it is useful to knock out an alien for live capture. Brass Knuckles are very light making it an easy and cheap addition to any soldier. Unlike the stun rod, this weapon adds the soldier's strength to the damage.
       STR_IMPROVED_MEDKIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
-      STR_HVGRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
+      STR_XP_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
       STR_HUMAN_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
       STR_HUMAN_ALLOY_BLADE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
       STR_ANTIMATTER_BOMB_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.

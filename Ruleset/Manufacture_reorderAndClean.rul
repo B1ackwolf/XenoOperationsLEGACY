@@ -424,7 +424,7 @@ manufacture:
     listOrder: 499
 #---HWP ----------------------------------END
 #-----Second Tier Ballistic Weapons ----------------------------------
-  - name: STR_HVPISTOL_SMALL
+  - name: STR_XP_PISTOL_SMALL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -432,7 +432,7 @@ manufacture:
     time: 80
     cost: 5000
     listOrder: 2201
-  - name: STR_HVMACHINE_PISTOL
+  - name: STR_XP_MACHINE_PISTOL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -440,7 +440,7 @@ manufacture:
     time: 110
     cost: 7000
     listOrder: 2202
-  - name: STR_HVMACHINE_PISTOL_CLIP_ALLOY
+  - name: STR_XP_MACHINE_PISTOL_CLIP_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -451,9 +451,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVMACHINE_PISTOL_CLIP_ALLOY: 10
+      STR_XP_MACHINE_PISTOL_CLIP_ALLOY: 10
     listOrder: 2203
-  - name: STR_HVMACHINE_PISTOL_CLIP_TECH
+  - name: STR_XP_MACHINE_PISTOL_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -464,9 +464,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVMACHINE_PISTOL_CLIP_TECH: 10
+      STR_XP_MACHINE_PISTOL_CLIP_TECH: 10
     listOrder: 2204
-  - name: STR_HVPISTOL
+  - name: STR_XP_PISTOL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -474,7 +474,7 @@ manufacture:
     time: 100
     cost: 6500
     listOrder: 2205
-  - name: STR_HVPISTOL_CLIP_ALLOY
+  - name: STR_XP_PISTOL_CLIP_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -485,9 +485,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10    
+      STR_XP_PISTOL_CLIP_ALLOY: 10    
     listOrder: 2206
-  - name: STR_HVPISTOL_CLIP_TECH
+  - name: STR_XP_PISTOL_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -498,9 +498,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2207
-  - name: STR_HVMAGNUM
+  - name: STR_XP_MAGNUM
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -508,7 +508,7 @@ manufacture:
     time: 140
     cost: 8000
     listOrder: 2208
-  - name: STR_HVMAGNUM_CLIP_ALLOY
+  - name: STR_XP_MAGNUM_CLIP_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -519,9 +519,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10  
+      STR_XP_PISTOL_CLIP_ALLOY: 10  
     listOrder: 2209
-  - name: STR_HVMAGNUM_CLIP_TECH
+  - name: STR_XP_MAGNUM_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -532,9 +532,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2210
-  - name: STR_HVUZI
+  - name: STR_XP_UZI
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -542,7 +542,7 @@ manufacture:
     time: 110
     cost: 7500
     listOrder: 2211
-  - name: STR_HVSMG
+  - name: STR_XP_SMG
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -550,7 +550,7 @@ manufacture:
     time: 120
     cost: 8000
     listOrder: 2212
-  - name: STR_HVUZI_CLIP_ALLOY
+  - name: STR_XP_UZI_CLIP_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -561,9 +561,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10  
+      STR_XP_PISTOL_CLIP_ALLOY: 10  
     listOrder: 2213
-  - name: STR_HVUZI_CLIP_TECH
+  - name: STR_XP_UZI_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -574,7 +574,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 2
     listOrder: 2214
-  - name: STR_HVSHOTGUN
+  - name: STR_XP_SHOTGUN
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
@@ -582,7 +582,7 @@ manufacture:
     time: 130
     cost: 12000
     listOrder: 2215
-  - name: STR_HVSHOTGUN_SHELLS_ALLOY
+  - name: STR_XP_SHOTGUN_SHELLS_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -593,7 +593,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     listOrder: 2216
-  - name: STR_HVSHOTGUN_SHELLS_TECH
+  - name: STR_XP_SHOTGUN_SHELLS_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -604,7 +604,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 2
     listOrder: 2217
-  - name: STR_HVPDW
+  - name: STR_XP_PDW
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -612,7 +612,7 @@ manufacture:
     time: 140
     cost: 8500
     listOrder: 2218
-  - name: STR_HVRIFLE
+  - name: STR_XP_RIFLE
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
@@ -620,7 +620,7 @@ manufacture:
     time: 130
     cost: 12000
     listOrder: 2219
-  - name: STR_HVRIFLE_CLIP_ALLOY
+  - name: STR_XP_RIFLE_CLIP_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -631,9 +631,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10  
+      STR_XP_PISTOL_CLIP_ALLOY: 10  
     listOrder: 2220
-  - name: STR_HVRIFLE_CLIP_TECH
+  - name: STR_XP_RIFLE_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -644,9 +644,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2221
-  - name: STR_HVLMG
+  - name: STR_XP_LMG
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -654,7 +654,7 @@ manufacture:
     time: 220
     cost: 22000
     listOrder: 2222
-  - name: STR_HVLMG_BELT_ALLOY
+  - name: STR_XP_LMG_BELT_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -665,7 +665,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     listOrder: 2223
-  - name: STR_HVLMG_BELT_TECH
+  - name: STR_XP_LMG_BELT_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -676,7 +676,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     listOrder: 2224
-  - name: STR_HVSNIPER_RIFLE
+  - name: STR_XP_SNIPER_RIFLE
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
@@ -684,7 +684,7 @@ manufacture:
     time: 240
     cost: 24000
     listOrder: 2225
-  - name: STR_HVSNIPER_RIFLE_CLIP_ALLOY
+  - name: STR_XP_SNIPER_RIFLE_CLIP_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -695,9 +695,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2226
-  - name: STR_HVSNIPER_RIFLE_CLIP_TECH
+  - name: STR_XP_SNIPER_RIFLE_CLIP_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -708,9 +708,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2227
-  - name: STR_HVMINGUN
+  - name: STR_XP_MINGUN
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -718,7 +718,7 @@ manufacture:
     time: 240
     cost: 17500
     listOrder: 2228
-  - name: STR_HVMINGUN_BELT_ALLOY
+  - name: STR_XP_MINGUN_BELT_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -729,7 +729,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     listOrder: 2229
-  - name: STR_HVMINGUN_BELT_TECH
+  - name: STR_XP_MINGUN_BELT_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -740,7 +740,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     listOrder: 2230
-  - name: STR_HV_ASSAULT_CANNON
+  - name: STR_XP__ASSAULT_CANNON
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -748,7 +748,7 @@ manufacture:
     time: 220
     cost: 14000
     listOrder: 2231
-  - name: STR_HV_ASSAULT_CANNON_BELT
+  - name: STR_XP__ASSAULT_CANNON_BELT
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -756,7 +756,7 @@ manufacture:
     time: 28
     cost: 2000
     listOrder: 2232
-  - name: STR_HV_ASSAULT_CANNON_BELT_ALLOY
+  - name: STR_XP__ASSAULT_CANNON_BELT_ALLOY
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -767,7 +767,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     listOrder: 2233
-  - name: STR_HV_ASSAULT_CANNON_BELT_TECH
+  - name: STR_XP__ASSAULT_CANNON_BELT_TECH
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -778,7 +778,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     listOrder: 2234
-  - name: STR_HVRL
+  - name: STR_XP_RL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -786,7 +786,7 @@ manufacture:
     time: 320
     cost: 32000
     listOrder: 2235
-  - name: STR_HVR1
+  - name: STR_XP_R1
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -794,7 +794,7 @@ manufacture:
     time: 40
     cost: 10000
     listOrder: 2236
-  - name: STR_HVR2
+  - name: STR_XP_R2
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -814,10 +814,10 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
     listOrder: 2238
 #temporal, ojito, separar luego a ordnance tier correctamente
-  - name: STR_HVGRENADE
+  - name: STR_XP_GRENADE
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
-      - STR_HVGRENADE
+      - STR_XP_GRENADE
     space: 1
     time: 60
     cost: 4000
@@ -856,7 +856,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2303
   - name: STR_HB_PISTOL_MACHINE_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -880,7 +880,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2305
   - name: STR_HB_PISTOL
     category: STR_HYBRID_BALLISTICS
@@ -903,7 +903,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2307
   - name: STR_HB_PISTOL_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -916,7 +916,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2308
   - name: STR_HB_PISTOL_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -929,7 +929,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2309
   - name: STR_HB_PISTOL_LARGE
     category: STR_HYBRID_BALLISTICS
@@ -952,7 +952,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2311
   - name: STR_HB_PISTOL_LARGE_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -976,7 +976,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2313
   - name: STR_HB_UZI
     category: STR_HYBRID_BALLISTICS
@@ -1010,7 +1010,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2316
   - name: STR_HB_UZI_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1023,7 +1023,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2317
   - name: STR_HB_UZI_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1036,7 +1036,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2318
   - name: STR_HB_SHOTGUN
     category: STR_HYBRID_BALLISTICS
@@ -1059,7 +1059,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2320
   - name: STR_HB_SHOTGUN_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1072,7 +1072,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2321
   - name: STR_HB_SHOTGUN_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1085,7 +1085,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2322
   - name: STR_HB_PDW
     category: STR_HYBRID_BALLISTICS
@@ -1119,7 +1119,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2325
   - name: STR_HB_RIFLE_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1132,7 +1132,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2326
   - name: STR_HB_RIFLE_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1145,7 +1145,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2327
   - name: STR_HB_LMG
     category: STR_HYBRID_BALLISTICS
@@ -1168,7 +1168,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2329
   - name: STR_HB_LMG_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1181,7 +1181,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2330
   - name: STR_HB_LMG_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1194,7 +1194,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2331
   - name: STR_HB_SNIPER
     category: STR_HYBRID_BALLISTICS
@@ -1217,7 +1217,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2333
   - name: STR_HB_SNIPER_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1230,7 +1230,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2334
   - name: STR_HB_SNIPER_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1243,7 +1243,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2335
   - name: STR_HB_CANNON
     category: STR_HYBRID_BALLISTICS
@@ -1266,7 +1266,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2337
   - name: STR_HB_CANNON_CLIP2
     category: STR_HYBRID_BALLISTICS
@@ -1279,7 +1279,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2338
   - name: STR_HB_CANNON_CLIP3
     category: STR_HYBRID_BALLISTICS
@@ -1292,7 +1292,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2339
   - name: STR_HB_RL
     category: STR_HYBRID_BALLISTICS
@@ -1317,7 +1317,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 1
       STR_ELERIUM_115: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2341
   - name: STR_HB_MISSILE2
     category: STR_HYBRID_BALLISTICS
@@ -1331,7 +1331,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2342
 #temporal , ojito separar luego a ordnance
   - name: STR_HB_GRENADE
@@ -1344,7 +1344,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2343
   - name: STR_HB_GRENADE2
     category: STR_HYBRID_BALLISTICS
@@ -1358,7 +1358,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2344
 #-----Hybrid Weapons ----------------------------------END
 
@@ -1397,7 +1397,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2403
   - name: STR_LASER_PISTOL_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1410,7 +1410,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2404
   - name: STR_LASER_PISTOL_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1425,7 +1425,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 10
       STR_ELERIUM_115: 10
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2405
   - name: STR_LASER_SHOT_GUN
     category: STR_LASER_WEAPONS
@@ -1449,7 +1449,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2407
   - name: STR_LASER_SHOT_GUN_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1462,7 +1462,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2408
   - name: STR_LASER_SHOT_GUN_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1477,7 +1477,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 20
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2409
   - name: STR_LASER_RIFLE_NEW
     category: STR_LASER_WEAPONS
@@ -1501,7 +1501,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2411
   - name: STR_LASER_RIFLE_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1514,7 +1514,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2412
   - name: STR_LASER_RIFLE_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1529,7 +1529,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 20
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2413
   - name: STR_LASER_LMG
     category: STR_LASER_WEAPONS
@@ -1553,7 +1553,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2415
   - name: STR_LASER_LMG_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1566,7 +1566,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2416
   - name: STR_LASER_LMG_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1581,7 +1581,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 25
       STR_ELERIUM_115: 25
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2417
   - name: STR_LASER_SNIPER_RIFLE
     category: STR_LASER_WEAPONS
@@ -1605,7 +1605,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2419
   - name: STR_LASER_SNIPER_RIFLE_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1618,7 +1618,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2420
   - name: STR_LASER_SNIPER_RIFLE_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1633,7 +1633,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 25
       STR_ELERIUM_115: 25
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2421
   - name: STR_HEAVY_LASER_NEW
     category: STR_LASER_WEAPONS
@@ -1657,7 +1657,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 5
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2423
   - name: STR_HEAVY_LASER_BATTERY2
     category: STR_LASER_WEAPONS
@@ -1670,7 +1670,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 5
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2424
   - name: STR_HEAVY_LASER_BATTERY3
     category: STR_LASER_WEAPONS
@@ -1685,7 +1685,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 40
       STR_ELERIUM_115: 40
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2425
 #### ojito, ordenar luego en caTEGORIA propia de melee
   - name: STR_LASER_SWORD
@@ -1702,7 +1702,7 @@ manufacture:
     listOrder: 2426
 #--- Laser Weapons ----------------------------------
 #--- Fith Tier Hypervelocity Weapons ----------------------------------
-  - name: STR_TFPISTOL
+  - name: STR_RL_PISTOL
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
@@ -1713,7 +1713,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 8
       STR_CODEX_FRAGMENT: 8
     listOrder: 2501
-  - name: STR_TFSMG
+  - name: STR_RL_SMG
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
@@ -1724,7 +1724,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 10
       STR_CODEX_FRAGMENT: 10
     listOrder: 2502
-  - name: STR_TFPISTOL_CLIP
+  - name: STR_RL_PISTOL_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
@@ -1734,9 +1734,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2503
-  - name: STR_TFPISTOL_CLIP2
+  - name: STR_RL_PISTOL_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
@@ -1748,9 +1748,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2504
-  - name: STR_TFPISTOL_CLIP3
+  - name: STR_RL_PISTOL_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
@@ -1762,9 +1762,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2505
-  - name: STR_TFSHOTGUN
+  - name: STR_RL_SHOTGUN
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1775,9 +1775,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 16
       STR_CODEX_FRAGMENT: 14
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2506
-  - name: STR_TFSHOTGUN_CLIP
+  - name: STR_RL_SHOTGUN_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1787,9 +1787,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2507
-  - name: STR_TFSHOTGUN_CLIP2
+  - name: STR_RL_SHOTGUN_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1801,9 +1801,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2508
-  - name: STR_TFSHOTGUN_CLIP3
+  - name: STR_RL_SHOTGUN_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1815,9 +1815,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2509
-  - name: STR_TFRIFLE
+  - name: STR_RL_RIFLE
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1828,7 +1828,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 14
       STR_CODEX_FRAGMENT: 14
     listOrder: 2510
-  - name: STR_TFRIFLE_CLIP
+  - name: STR_RL_RIFLE_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1838,9 +1838,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2511
-  - name: STR_TFRIFLE_CLIP2
+  - name: STR_RL_RIFLE_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1852,9 +1852,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2512
-  - name: STR_TFRIFLE_CLIP3
+  - name: STR_RL_RIFLE_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1866,9 +1866,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2513
-  - name: STR_TFLMG
+  - name: STR_RL_LMG
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -1879,7 +1879,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 20
       STR_CODEX_FRAGMENT: 20
     listOrder: 2514
-  - name: STR_TFLMG_CLIP
+  - name: STR_RL_LMG_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -1889,9 +1889,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2515
-  - name: STR_TFLMG_CLIP2
+  - name: STR_RL_LMG_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -1903,9 +1903,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 2
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2516
-  - name: STR_TFLMG_CLIP3
+  - name: STR_RL_LMG_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -1917,9 +1917,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2517
-  - name: STR_TFSNIPER
+  - name: STR_RL_SNIPER
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1930,7 +1930,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 14
       STR_CODEX_FRAGMENT: 20
     listOrder: 2518
-  - name: STR_TFSNIPER_CLIP
+  - name: STR_RL_SNIPER_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1940,9 +1940,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2519
-  - name: STR_TFSNIPER_CLIP2
+  - name: STR_RL_SNIPER_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1954,9 +1954,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 2
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2520
-  - name: STR_TFSNIPER_CLIP3
+  - name: STR_RL_SNIPER_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
@@ -1968,9 +1968,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2521
-  - name: STR_TFHEAVY
+  - name: STR_RL_HEAVY
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -1981,7 +1981,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 25
       STR_CODEX_FRAGMENT: 25
     listOrder: 2522
-  - name: STR_TFHEAVY_CLIP
+  - name: STR_RL_HEAVY_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -1991,9 +1991,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2523
-  - name: STR_TFHEAVY_CLIP2
+  - name: STR_RL_HEAVY_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -2005,9 +2005,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2524
-  - name: STR_TFHEAVY_CLIP3
+  - name: STR_RL_HEAVY_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -2019,9 +2019,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
       STR_ELERIUM_115: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2525
-  - name: STR_TFCANNON
+  - name: STR_RL_CANNON
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -2032,7 +2032,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 30
       STR_CODEX_FRAGMENT: 30
     listOrder: 2526
-  - name: STR_TFCANNON_CLIP
+  - name: STR_RL_CANNON_CLIP
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -2042,9 +2042,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 5
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2527
-  - name: STR_TFCANNON_CLIP2
+  - name: STR_RL_CANNON_CLIP2
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -2056,9 +2056,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2528
-  - name: STR_TFCANNON_CLIP3
+  - name: STR_RL_CANNON_CLIP3
     category: STR_HYPERVELOCITY_WEAPONS
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
@@ -2070,7 +2070,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 5
       STR_ELERIUM_115: 5
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2529
 #--- Hypervelocity Weapons ----------------------------------END
 #--- Sixt TierPlasma Weapons ----------------------------------
@@ -2096,7 +2096,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2602
   - name: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2110,7 +2110,7 @@ manufacture:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2603
   - name: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2124,7 +2124,7 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2604
   - name: STR_HUMAN_PLASMA_PISTOL
     category: STR_PLASMA_WEAPONS
@@ -2160,7 +2160,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2607
   - name: STR_HUMAN_PLASMA_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2174,7 +2174,7 @@ manufacture:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2608
   - name: STR_HUMAN_PLASMA_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2188,7 +2188,7 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2609
   - name: STR_HUMAN_HEAVY_PLASMA_PISTOL
     category: STR_PLASMA_WEAPONS
@@ -2224,7 +2224,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2612
   - name: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2238,7 +2238,7 @@ manufacture:
       STR_ELERIUM_115: 2
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10      
+      STR_XP_PISTOL_CLIP_ALLOY: 10      
     listOrder: 2613
   - name: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2252,7 +2252,7 @@ manufacture:
       STR_ELERIUM_115: 6
       STR_CODEX_FRAGMENT: 6
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2614
   - name: STR_HUMAN_PLASMA_BLASTER
     category: STR_PLASMA_WEAPONS
@@ -2276,7 +2276,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2616
   - name: STR_HUMAN_PLASMA_BLASTER_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2290,7 +2290,7 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2617
   - name: STR_HUMAN_PLASMA_BLASTER_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2304,7 +2304,7 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2618
   - name: STR_HUMAN_PLASMA_RIFLE
     category: STR_PLASMA_WEAPONS
@@ -2328,7 +2328,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2620
   - name: STR_HUMAN_PLASMA_RIFLE_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2342,7 +2342,7 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2621
   - name: STR_HUMAN_PLASMA_RIFLE_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2356,7 +2356,7 @@ manufacture:
       STR_ELERIUM_115: 8
       STR_CODEX_FRAGMENT: 8
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2622
   - name: STR_HUMAN_HEAVY_PLASMA
     category: STR_PLASMA_WEAPONS
@@ -2380,7 +2380,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2624
   - name: STR_HUMAN_HEAVY_PLASMA_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2394,7 +2394,7 @@ manufacture:
       STR_ELERIUM_115: 4
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2625
   - name: STR_HUMAN_HEAVY_PLASMA_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2408,7 +2408,7 @@ manufacture:
       STR_ELERIUM_115: 10
       STR_CODEX_FRAGMENT: 10
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2626
   - name: STR_HUMAN_PLASMA_SNIPER_RIFLE
     category: STR_PLASMA_WEAPONS
@@ -2432,7 +2432,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2628
   - name: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2446,7 +2446,7 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2629
   - name: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2460,7 +2460,7 @@ manufacture:
       STR_ELERIUM_115: 10
       STR_CODEX_FRAGMENT: 10
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2630
   - name: STR_HUMAN_HEAVY_PLASMA_CANNON
     category: STR_PLASMA_WEAPONS
@@ -2484,7 +2484,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 4
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2632
   - name: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP2
     category: STR_PLASMA_WEAPONS
@@ -2498,7 +2498,7 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2633
   - name: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP3
     category: STR_PLASMA_WEAPONS
@@ -2512,7 +2512,7 @@ manufacture:
       STR_ELERIUM_115: 12
       STR_CODEX_FRAGMENT: 12
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2634
 ######Ojito pasar a armas meelee
   - name: STR_HUMAN_ALLOY_BLADE
@@ -2572,7 +2572,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 2
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2706
   - name: STR_SHOCK_CANNON
     category: STR_SHOCK_WEAPONS
@@ -2596,7 +2596,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HVPISTOL_CLIP_ALLOY: 10
+      STR_XP_PISTOL_CLIP_ALLOY: 10
     listOrder: 2708
 #####ojito agregar a ordnance
   - name: STR_SHOCK_GRENADE
