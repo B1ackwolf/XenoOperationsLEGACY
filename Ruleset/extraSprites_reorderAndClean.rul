@@ -949,19 +949,25 @@ extraSprites:
       64: Resources/UxUI/BaseBits/PlaneSprites/Fusion.gif
       83: Resources/UxUI/BaseBits/PlaneSprites/Cluster.gif
       84: Resources/UxUI/BaseBits/PlaneSprites/Pilum.gif
-      152: Resources/UxUI/BaseBits/PlaneSprites/XRS71_base.gif
-      55: Resources/UxUI/BaseBits/PlaneSprites/XCF0_base.gif
-      65: Resources/UxUI/BaseBits/PlaneSprites/XCF1_base.gif #ojito modificar y crear uno nuevo
-      36: Resources/UxUI/BaseBits/PlaneSprites/XCF2_base.png
-      56: Resources/UxUI/BaseBits/PlaneSprites/XCF3_base.gif
-      57: Resources/UxUI/BaseBits/PlaneSprites/XCF4_base.png
-      158: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA0_base.png
-      159: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA1_base.png
-      160: Resources/UxUI/BaseBits/PlaneSprites/XTPDRA2_base.png
-      857: Resources/UxUI/BaseBits/PlaneSprites/XTP2_base.png
-      58: Resources/UxUI/BaseBits/PlaneSprites/XTP3_base.gif
-      150: Resources/UxUI/BaseBits/PlaneSprites/XTP4_base.gif      
-      151: Resources/UxUI/BaseBits/PlaneSprites/XTPX_base.gif
+#----- Crafts base view sprites -----#      
+      1033: Resources/UxUI/BaseBits/PlaneSprites/XTP0a_base.png
+      1034: Resources/UxUI/BaseBits/PlaneSprites/XTP0b_base.png
+      1035: Resources/UxUI/BaseBits/PlaneSprites/XTP0c_base.png
+      183: Resources/UxUI/BaseBits/PlaneSprites/XTP1_base.png
+      233: Resources/UxUI/BaseBits/PlaneSprites/XTP2_base.png      
+      283: Resources/UxUI/BaseBits/PlaneSprites/XTP3_base.gif
+      333: Resources/UxUI/BaseBits/PlaneSprites/XTP4_base.gif      
+      383: Resources/UxUI/BaseBits/PlaneSprites/XTPX_base.gif
+#
+      533: Resources/UxUI/BaseBits/PlaneSprites/XCF0_base.gif
+      583: Resources/UxUI/BaseBits/PlaneSprites/XCF1_base.gif #ojito modificar y crear uno nuevo
+      633: Resources/UxUI/BaseBits/PlaneSprites/XCF2_base.png
+      683: Resources/UxUI/BaseBits/PlaneSprites/XCF3_base.gif
+      733: Resources/UxUI/BaseBits/PlaneSprites/XCF4_base.png
+
+#----- Patrolling crafts -----#      
+      933: Resources/UxUI/BaseBits/PlaneSprites/XRS71_base.gif
+
       ####
       0: Resources/UxUI/BaseBits/BuildingSprites/EARTH_BASEBITS.png
       1: Resources/UxUI/BaseBits/BuildingSprites/SQUARE_BASEBITS.png
@@ -1070,6 +1076,7 @@ extraSprites:
 #-----CRAFT INTECEPTION IMAGES-----#
   - type: INTICON.PCK
     files:
+#----- Weapons interception sprites -----#
       16: Resources/UxUi/InterWin/WeaponIcons/Cannon.gif
       17: Resources/UxUi/InterWin/WeaponIcons/Stingray.gif
       18: Resources/UxUi/InterWin/WeaponIcons/Avalanche.gif
@@ -1078,31 +1085,39 @@ extraSprites:
       21: Resources/UxUi/InterWin/WeaponIcons/Fusion.gif
       40: Resources/UxUi/InterWin/WeaponIcons/Cluster.gif
       41: Resources/UxUi/InterWin/WeaponIcons/Pilum.gif
-###### ojito Renomnbrar y reordenar esta seccion ######
-      119: Resources/UxUi/InterWin/CraftIcons/SR71Min.gif
-      130: Resources/UxUi/InterWin/CraftIcons/SR71Dogfight.gif
-      32: Resources/UxUi/InterWin/CraftIcons/X35Min.gif #ojito recolorizar y crear uno nuevo
-      22: Resources/UxUi/InterWin/CraftIcons/X35Min.gif
-      23: Resources/UxUi/InterWin/CraftIcons/XCF2Min.gif
-      24: Resources/UxUi/InterWin/CraftIcons/XCF3Min.gif
-      25: Resources/UxUi/InterWin/CraftIcons/SKYWARDENMin.gif
-      43: Resources/UxUi/InterWin/CraftIcons/X35Dogfight.gif #ojito luego recolorizar y mejorar
-      33: Resources/UxUi/InterWin/CraftIcons/X35Dogfight.gif
-      34: Resources/UxUi/InterWin/CraftIcons/XCF2Dogfight.gif
-      35: Resources/UxUi/InterWin/CraftIcons/XCF3Dogfight.gif
-      36: Resources/UxUi/InterWin/CraftIcons/SKYWARDENDogfight.gif
-      824: Resources/UxUi/InterWin/CraftIcons/Firefly_minimised.png
-      835: Resources/UxUi/InterWin/CraftIcons/Firefly_dogfight.png
-      125: Resources/UxUi/InterWin/CraftIcons/BellValor_minimised.png
-      126: Resources/UxUi/InterWin/CraftIcons/BellValor_minimised.png
-      127: Resources/UxUi/InterWin/CraftIcons/BellValor_minimised.png
-      136: Resources/UxUi/InterWin/CraftIcons/BellValor_dogfight.png
-      137: Resources/UxUi/InterWin/CraftIcons/BellValor_dogfight.png
-      138: Resources/UxUi/InterWin/CraftIcons/BellValor_dogfight.png
-      117: Resources/UxUi/InterWin/CraftIcons/HURRICANEMin.gif
-      128: Resources/UxUi/InterWin/CraftIcons/HURRICANEDogfight.gif
-      118: Resources/UxUi/InterWin/CraftIcons/OverlordMin.gif
-      129: Resources/UxUi/InterWin/CraftIcons/Overlorddogfight.gif
+#----- Transport crafts interception sprites -----#
+      1000: Resources/UxUi/InterWin/CraftIcons/XTP0_min.png
+      1001: Resources/UxUi/InterWin/CraftIcons/XTP0_min.png
+      1002: Resources/UxUi/InterWin/CraftIcons/XTP0_min.png
+      1011: Resources/UxUi/InterWin/CraftIcons/XTP0_dogfight.png
+      1012: Resources/UxUi/InterWin/CraftIcons/XTP0_dogfight.png
+      1013: Resources/UxUi/InterWin/CraftIcons/XTP0_dogfight.png
+      150: Resources/UxUi/InterWin/CraftIcons/XTP1_min.png
+      161: Resources/UxUi/InterWin/CraftIcons/XTP1_dogfight.png
+      200: Resources/UxUi/InterWin/CraftIcons/XTP2_min.png
+      211: Resources/UxUi/InterWin/CraftIcons/XTP2_dogfight.png
+      250: Resources/UxUi/InterWin/CraftIcons/XTP3_min.gif
+      261: Resources/UxUi/InterWin/CraftIcons/XTP3_dogfight.gif
+      300: Resources/UxUi/InterWin/CraftIcons/XTP4_min.gif
+      311: Resources/UxUi/InterWin/CraftIcons/XTP4_dogfight.gif
+      350: Resources/UxUi/InterWin/CraftIcons/XTPX_min.gif
+      361: Resources/UxUi/InterWin/CraftIcons/XTPX_dogfight.gif
+#----- Fighter crafts interception sprites -----#
+      500: Resources/UxUi/InterWin/CraftIcons/XCF0_min.gif
+      511: Resources/UxUi/InterWin/CraftIcons/XCF0_dogfight.gif
+      550: Resources/UxUi/InterWin/CraftIcons/XCF1_min.gif #ojito recolorizar y crear uno nuevo
+      561: Resources/UxUi/InterWin/CraftIcons/XCF1_dogfight.gif #ojito luego recolorizar y mejorar
+      600: Resources/UxUi/InterWin/CraftIcons/XCF2_min.gif
+      611: Resources/UxUi/InterWin/CraftIcons/XCF2_dogfight.gif
+      650: Resources/UxUi/InterWin/CraftIcons/XCF3_min.gif
+      661: Resources/UxUi/InterWin/CraftIcons/XCF3_dogfight.gif
+      700: Resources/UxUi/InterWin/CraftIcons/XCF4_min.gif #es el 4
+      711: Resources/UxUi/InterWin/CraftIcons/XCF4_dogfight.gif #es el 4
+#----- Patrolling craft interception sprites -----#
+      900: Resources/UxUi/InterWin/CraftIcons/SR71_min.gif
+      911: Resources/UxUi/InterWin/CraftIcons/SR71_dogfight.gif
+
+
 #----- NEW UFO IMAGES -----# ###### Ojito acomodar nombres? ######
   - type: UFOLABSHIP
     singleImage: true
@@ -2533,13 +2548,19 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaPlanes/XTP1.gif
+      0: Resources/UfopediaImages/UpediaPlanes/XTP0.gif
   - type: FIREFLY_BIG
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaPlanes/XTP2.gif
+      0: Resources/UfopediaImages/UpediaPlanes/XTP1.gif
+  - type: SCARABUFO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaPlanes/XTP2.png
   - type: SKYWARDENUFO
     singleImage: true
     width: 320

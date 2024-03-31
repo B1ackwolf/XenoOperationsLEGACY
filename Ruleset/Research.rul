@@ -759,65 +759,126 @@ research:
     cost: 10
     points: 14
     dependencies:
-      - STR_XCF1
+      - STR_UPDATED_INTERCEPTOR
       - STR_CLUSTER_MISSILE
   - name: STR_CLUSTER_MISSILE
     cost: 10
     points: 10
     dependencies:
       - STR_NEW_CRAFT_WEAPON
-  - name: STR_NEW_FIGHTER_PROGRAM
-    cost: 15
-    points: 10
-    dependencies:
-      - STR_ALIEN_ALLOYS
-  - name: STR_XCF1
-    cost: 20
-    points: 15
-    dependencies:
-      - STR_NEW_FIGHTER_PROGRAM
-  - name: STR_FIREFLY
-    cost: 20
-    points: 15
-    dependencies:
-      - STR_NEW_FIGHTER_PROGRAM
   - name: STR_GLOBAL_RADAR
     cost: 15
     points: 15
     dependencies:
       - STR_NEW_FIGHTER_PROGRAM
-  - name: STR_ALLOY_AERODYNAMICS
-    points: 25
-    needItem: true
-  - name: STR_XCF2
+
+###### aviones de combate
+
+
+  - name: STR_UPDATED_INTERCEPTOR #ojito este es el f1 bishop f35 mejorado
+    cost: 40
+    points: 15
+    dependencies:
+      - STR_NEW_FIGHTER_PROGRAM
+  - name: STR_NEW_FIGHTER_PROGRAM
+    cost: 15
+    points: 10
+    dependencies:
+      - STR_ALIEN_ALLOYS
+
+
+  - name: STR_XCF2 #ojito este se cambia por el xf2 rider
     cost: 40
     points: 25
     dependencies:
       - STR_ALLOY_AERODYNAMICS
       - STR_CODEX_1
-  - name: STR_NEXT_GEN_TRANSPORT
+  - name: STR_ALLOY_AERODYNAMICS
     points: 25
     needItem: true
-  - name: STR_XCF3
+
+  - name: STR_XCF3 #ojito este se cambia por el xf3 rook
     cost: 70
     points: 25
     dependencies:
       - STR_FINAL_TERRAN_FIGHTER
       - STR_CODEX_3
-  - name: STR_HURRICANE
-    cost: 450
+  - name: STR_FINAL_TERRAN_FIGHTER
+    points: 25
+    needItem: true
+
+  - name: STR_XCF4 #ojito este se cambia por el xf4 empress
+    cost: 320
     points: 25
     dependencies:
-      - STR_SOLVE_ANOMALOUS_EQUATION  
-  - name: STR_SKYWARDEN
+      - STR_CODEX_4
+      - STR_UFO_ENGINEERING
+  - name: STR_UFO_ENGINEERING
+    points: 25
+    needItem: true
+
+
+#####transportes
+  - name: STR_FIREFLY
+    cost: 20
+    points: 15
+    dependencies:
+      - STR_NEW_FIGHTER_PROGRAM
+
+  - name: STR_SCARAB #cambiar a scarab
     cost: 40
     points: 30
     dependencies:
       - STR_NEXT_GEN_TRANSPORT
       - STR_CODEX_1
-  - name: STR_FINAL_TERRAN_FIGHTER
+  - name: STR_NEXT_GEN_TRANSPORT
     points: 25
     needItem: true
+
+
+  - name: STR_GOLIATHUS #cambiar a goliathus
+    cost: 200
+    points: 25
+    dependencies:
+      - STR_HYBRID_CRAFT
+      - STR_CODEX_3
+  - name: STR_HYBRID_CRAFT
+    points: 25
+    needItem: true
+
+
+
+  - name: STR_UFO_MASTERY
+    points: 25
+    needItem: true
+  - name: STR_HERCULES #cambiar a hercules
+    cost: 800
+    points: 25
+    dependencies:
+      - STR_UFO_MASTERY
+      - STR_CODEX_5
+
+
+###sobrantes
+  - name: STR_GRAV_SHIELD #ojito sobrante
+    cost: 0
+    points: 25
+    needItem: true  
+  # - name: STR_AVENGER #OJITO SOBRANTE
+  #   cost: 450
+  #   points: 25
+  #   dependencies:
+  #     - STR_SOLVE_ANOMALOUS_EQUATION
+
+
+
+
+
+
+###########
+ 
+
+
 
 #--Terran Craft Tech Tree--------------------END
 #--UFO Tech Tree--------------------
@@ -854,39 +915,7 @@ research:
     points: 30
     needItem: true
 #--UFO Tech Tree--------------------END
-#--Hybrid Craft Tree--------------------
-  - name: STR_HYBRID_CRAFT
-    points: 25
-    needItem: true
-  - name: STR_LIGHTNING
-    cost: 200
-    points: 25
-    dependencies:
-      - STR_HYBRID_CRAFT
-      - STR_CODEX_3
-  - name: STR_UFO_ENGINEERING
-    points: 25
-    needItem: true
-  - name: STR_FIRESTORM
-    cost: 320
-    points: 25
-    dependencies:
-      - STR_CODEX_4
-      - STR_UFO_ENGINEERING
-  - name: STR_UFO_MASTERY
-    points: 25
-    needItem: true
-  - name: STR_AVENGER
-    cost: 800
-    points: 25
-    dependencies:
-      - STR_UFO_MASTERY
-      - STR_CODEX_5
-  - name: STR_GRAV_SHIELD
-    cost: 0
-    points: 25
-    needItem: true   
-#--Hybrid Craft Tree--------------------END
+
 #--Alien Plasma Weapons --------------------END
   - name: STR_ALIEN_PLASMA_PISTOL
     cost: 10
@@ -2390,7 +2419,7 @@ research:
     points: 500
     needItem: true
     getOneFree:
-#      - STR_HYBRID_CRAFT #Lightning
+      - STR_HYBRID_CRAFT #Lightning
       - STR_ELERIUM_POWERED_SERVOS #Power Suit
       - STR_GRAV_SHIELD
       - STR_ELERIUM_EXPLOSIVES

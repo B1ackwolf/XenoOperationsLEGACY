@@ -169,10 +169,10 @@ manufacture:
     time: 3600
     cost: 350000
     listOrder: 291
-  - name: STR_SKYWARDEN
+  - name: STR_HERCULES
     category: STR_CRAFT
     requires:
-      - STR_SKYWARDEN
+      - STR_HERCULES
     space: 14
     time: 4900
     cost: 650000
@@ -180,10 +180,10 @@ manufacture:
       STR_ALIEN_ALLOYS: 30
       STR_CODEX_FRAGMENT: 15
     listOrder: 292
-  - name: STR_HURRICANE
+  - name: STR_GOLIATHUS
     category: STR_CRAFT
     requires:
-      - STR_HURRICANE
+      - STR_GOLIATHUS
     space: 18
     time: 9000
     cost: 900000
@@ -205,20 +205,33 @@ manufacture:
       STR_CODEX_FRAGMENT: 75
       STR_CODEX_COMPLETE: 1
     listOrder: 294
-  - name: STR_XCF1
+
+  - name: STR_UPDATED_INTERCEPTOR #ojito modificar precios
     category: STR_CRAFT
     requires:
-      - STR_XCF1
+      - STR_UPDATED_INTERCEPTOR
+    requiredItems:
+      STR_INTERCEPTOR: 1
+      STR_ALIEN_ALLOYS: 10
+    space: 10
+    time: 3600
+    cost: 350000
+    listOrder: 295
+
+  - name: STR_XCF2 #ojito modificar precios
+    category: STR_CRAFT
+    requires:
+      - STR_XCF2
     requiredItems:
       STR_ALIEN_ALLOYS: 10
     space: 10
     time: 3600
     cost: 350000
     listOrder: 295
-  - name: STR_XCF2
+  - name: STR_XCF3
     category: STR_CRAFT
     requires:
-      - STR_XCF2
+      - STR_XCF3
     space: 12
     time: 4000
     cost: 400000
@@ -227,10 +240,10 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 10
     listOrder: 296
-  - name: STR_XCF3
+  - name: STR_XCF4
     category: STR_CRAFT
     requires:
-      - STR_XCF3
+      - STR_XCF4
     space: 15
     time: 4800
     cost: 750000
@@ -242,7 +255,7 @@ manufacture:
   - name: STR_XCF_FUEL
     category: STR_UFO_COMPONENT
     requires:
-      - STR_XCF3
+      - STR_XCF4
     space: 1
     time: 10
     cost: 1000
@@ -2860,7 +2873,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 5
       STR_ELERIUM_115: 2
     listOrder: 1536
-  - name: STR_ALIEN_FOOD_BREAKDOWN
+  - name: STR_ALIEN_FOOD_BREAKDOWN #alien supplies
     category: STR_UFO_COMPONENT_BREAKDOWN
     requires:
       - STR_ALIEN_FOOD

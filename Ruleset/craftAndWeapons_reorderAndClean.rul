@@ -8,19 +8,20 @@ crafts:
 #---End Deletions--------------------
 #---Transport Crafts-----------------
   - type: STR_DRAGONFLY
-    sprite: 125
+    sprite: 1000
     maxSkinIndex: 2            # default 0
-    skinSprites: [126,127] # default empty, contains all sprites except for the first (index zero)
+    skinSprites: [1001,1002] # default empty, contains all sprites except for the first (index zero)
     fuelMax: 1500
-    damageMax: 130
-    speedMax: 450
+    damageMax: 100
+    speedMax: 300 #mach 0.45 Subsonic
     accel: 2
     avoidBonus: 15
     soldiers: 12
-    vehicles: 4
+    vehicles: 4 #ojito luego eliminare
     maxSmallUnits: 12
     maxLargeUnits: 0
     pilots: 1
+    maxItems: 250
     costBuy: 600000
     costSell: 250000
     costRent: 100000
@@ -55,18 +56,18 @@ crafts:
       - [11, 9, 0, 4] #back Right
       - [10, 12, 0, 0] #pilot
   - type: STR_FIREFLY
-    sprite: 824
+    sprite: 150
     fuelMax: 1900
-    damageMax: 250
-    speedMax: 760
+    damageMax: 200
+    speedMax: 530 # mach 0.80 Transonic
     accel: 2
     weapons: 1
     soldiers: 14
-    maxItems: 700
-    vehicles: 4
+    vehicles: 4 #OJITO ELIMINAR LUEGO
     maxSmallUnits: 14
     maxLargeUnits: 2
     pilots: 1
+    maxItems: 350
     costSell: 450000
     costRent: 130000
     refuelRate: 50
@@ -104,18 +105,18 @@ crafts:
       - [5, 13, 1, 0] #Last row right door 
       - [4, 13, 1, 4] #pilot  
   - type: STR_SCARAB #OJITO acomodar que sea mas lento que el firefly, also ajustar todos los fuelmax
-    sprite: 824
+    sprite: 200
     fuelMax: 1900
     damageMax: 250
-    speedMax: 760
+    speedMax: 430 # mach 0.65 subsonic
     accel: 2
     weapons: 2
     soldiers: 25
-    maxItems: 700
-    vehicles: 0
+    vehicles: 4 #OJITO ELIMINAR LUEGO
     maxSmallUnits: 25
     maxLargeUnits: 0
     pilots: 2
+    maxItems: 450
     costSell: 450000
     costRent: 130000
     refuelRate: 50
@@ -167,65 +168,19 @@ crafts:
       - [2, 9, 0, 2] #First in front of ramp
       - [4, 9, 0, 3] #Officer Seat
       - [3, 12, 1, 0] #pilot 
-      - [5, 12, 1, 0] #pilot  
-  - type: STR_SKYWARDEN
-    sprite: 25
-    fuelMax: 1500
-    damageMax: 350
-    speedMax: 2000
-    accel: 5
-    soldiers: 18
-    vehicles: 4
-    maxSmallUnits: 18
-    maxLargeUnits: 3
-    pilots: 2
-    allowLanding: true
-    costBuy: 0
-    costSell: 562500
-    costRent: 200000
-    refuelRate: 50
-    transferTime: 72
-    score: 200
-    battlescapeTerrainData:
-      name: SKYWARDEN
-      mapDataSets:
-        - BLANKS
-        - XOPSTRANSPORT2
-        - XOPSTRANSPORT3
-      mapBlocks:
-        - name: XOPSNEWSKYWARDEN
-          width: 10
-          length: 20
-    deployment:
-      - [4, 15, 1, 4]
-      - [5, 15, 1, 4]
-      - [4, 14, 1, 4]
-      - [5, 14, 1, 4]
-      - [4, 13, 1, 4]
-      - [5, 13, 1, 4]
-      - [4, 12, 1, 4]
-      - [5, 12, 1, 4]
-      - [4, 5, 1, 6]
-      - [5, 5, 1, 2]
-      - [4, 7, 1, 6]
-      - [5, 7, 1, 2]
-      - [4, 6, 1, 4]
-      - [5, 6, 1, 4]
-      - [4, 8, 1, 4]
-      - [5, 8, 1, 4]
-      - [4, 11, 1, 4]
-      - [5, 11, 1, 4]
-  - type: STR_HURRICANE
-    sprite: 117
+      - [5, 12, 1, 0] #pilot
+  - type: STR_GOLIATHUS
+    sprite: 250
     fuelMax: 1800
-    damageMax: 450
-    speedMax: 2900
+    damageMax: 400
+    speedMax: 1455 # mach 2,2 Supersonic
     accel: 6
     soldiers: 22
-    vehicles: 4
+    vehicles: 4 #OJITO ELIMINAR LUEGO
     maxSmallUnits: 22
     maxLargeUnits: 4
     pilots: 3
+    maxItems: 500
     allowLanding: true
     costBuy: 0
     costSell: 562500
@@ -265,19 +220,68 @@ crafts:
       - [8, 5, 1, 4]
       - [8, 4, 1, 4]
       - [8, 3, 1, 2]
-      - [12, 3, 1, 6]
+      - [12, 3, 1, 6]  
+  - type: STR_HERCULES
+    sprite: 300
+    fuelMax: 1500
+    damageMax: 475
+    speedMax: 2315 # 3.5 mach Supersonic
+    accel: 5
+    soldiers: 18
+    vehicles: 4 #OJITO ELIMINAR LUEGO
+    maxSmallUnits: 18
+    maxLargeUnits: 3
+    pilots: 2
+    maxItems: 400
+    allowLanding: true
+    costBuy: 0
+    costSell: 562500
+    costRent: 200000
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: SKYWARDEN
+      mapDataSets:
+        - BLANKS
+        - XOPSTRANSPORT2
+        - XOPSTRANSPORT3
+      mapBlocks:
+        - name: XOPSNEWSKYWARDEN
+          width: 10
+          length: 20
+    deployment:
+      - [4, 15, 1, 4]
+      - [5, 15, 1, 4]
+      - [4, 14, 1, 4]
+      - [5, 14, 1, 4]
+      - [4, 13, 1, 4]
+      - [5, 13, 1, 4]
+      - [4, 12, 1, 4]
+      - [5, 12, 1, 4]
+      - [4, 5, 1, 6]
+      - [5, 5, 1, 2]
+      - [4, 7, 1, 6]
+      - [5, 7, 1, 2]
+      - [4, 6, 1, 4]
+      - [5, 6, 1, 4]
+      - [4, 8, 1, 4]
+      - [5, 8, 1, 4]
+      - [4, 11, 1, 4]
+      - [5, 11, 1, 4]
   - type: STR_OVERLORD
     requires:
       - STR_OVERLORD
-    sprite: 118
+    sprite: 350
     fuelMax: 100 #25000
-    damageMax: 2000
-    speedMax: 6000
+    damageMax: 1400
+    speedMax: 6620 # mach 10 High-hypersonic 
     accel: 20
     weapons: 2
     soldiers: 30
-    vehicles: 5
+    vehicles: 5 #OJITO ELIMINAR LUEGO
     pilots: 4
+    maxItems: 600 #ojito modificar estos y todos los valores iguales y reducirlos
     allowLanding: true
     refuelItem: STR_ELERIUM_115
     costRent: 430000
@@ -295,29 +299,12 @@ crafts:
           width: 10
           length: 20
 #--- End Transport Crafts---------------
-#--- Combat and Patrolling Crafts-------
-  - type: STR_SR71
-    sprite: 119
-    fuelMax: 5000
-    damageMax: 120
-    speedMax: 2600
-    accel: 5
-    weapons: 0
-    soldiers: 1
-    pilots: 1
-    autoPatrol: true
-    allowLanding: false
-    costBuy: 800000
-    costRent: 100000
-    radarRange: 1500
-    refuelRate: 100
-    transferTime: 120
-    score: 150
+#--- Combat Crafts-------
   - type: STR_INTERCEPTOR
-    sprite: 22
+    sprite: 500
     fuelMax: 1000
-    damageMax: 210
-    speedMax: 2100
+    damageMax: 180
+    speedMax: 1325 # Mach 2.0 Supersonic
     accel: 3
     weapons: 2
     soldiers: 1
@@ -329,26 +316,10 @@ crafts:
     transferTime: 96
     score: 100
   - type: STR_UPDATED_INTERCEPTOR #ojito acomodar stats
-    sprite: 32
+    sprite: 550
     fuelMax: 1200
-    damageMax: 300
-    speedMax: 2500
-    accel: 5
-    weapons: 2
-    soldiers: 1
-    pilots: 1
-    allowLanding: false
-    costBuy: 0
-    costSell: 375000
-    costRent: 170000
-    refuelRate: 50
-    transferTime: 96
-    score: 150
-  - type: STR_XCF1
-    sprite: 3
-    fuelMax: 1200
-    damageMax: 300
-    speedMax: 2500
+    damageMax: 250
+    speedMax: 1855 # Mach 2.8 Supersonic
     accel: 5
     weapons: 2
     soldiers: 1
@@ -361,10 +332,26 @@ crafts:
     transferTime: 96
     score: 150
   - type: STR_XCF2
-    sprite: 23
+    sprite: 600
+    fuelMax: 1200
+    damageMax: 310
+    speedMax: 2050 # Mach 3.10 Supersonic 
+    accel: 5
+    weapons: 2
+    soldiers: 1
+    pilots: 1
+    allowLanding: false
+    costBuy: 0
+    costSell: 375000
+    costRent: 170000
+    refuelRate: 50
+    transferTime: 96
+    score: 150
+  - type: STR_XCF3 
+    sprite: 650
     fuelMax: 1000
-    damageMax: 300
-    speedMax: 3000
+    damageMax: 430
+    speedMax: 2650 # Mach 4 Supersonic
     costSell: 475000
     costRent: 265000
     accel: 6
@@ -372,14 +359,15 @@ crafts:
     soldiers: 1
     pilots: 1
     allowLanding: false
-    refuelRate: 50
+    refuelItem: STR_XCF_FUEL
+    refuelRate: 5
     transferTime: 96
     score: 200
-  - type: STR_XCF3
-    sprite: 24
-    fuelMax: 20
-    damageMax: 500
-    speedMax: 3500
+  - type: STR_XCF4 
+    sprite: 700
+    fuelMax: 30
+    damageMax: 600
+    speedMax: 3310 # Mach 5 Hypersonic
     costSell: 437500
     costRent: 300000
     accel: 7
@@ -388,113 +376,28 @@ crafts:
     pilots: 2
     allowLanding: false
     refuelItem: STR_XCF_FUEL
-    refuelRate: 5
+    refuelRate: 10
     transferTime: 96
     score: 250
+#----- Patrolling Crafts -----# 
+  - type: STR_SR71
+    sprite: 900
+    fuelMax: 5000
+    damageMax: 130
+    speedMax: 2250 # Mach 3.4 Supersonic
+    accel: 5
+    weapons: 0
+    soldiers: 1
+    pilots: 1
+    autoPatrol: true
+    allowLanding: false
+    costBuy: 800000
+    costRent: 100000
+    radarRange: 1500
+    refuelRate: 100
+    transferTime: 120
+    score: 150
 #--- End Combat and Patrolling Crafts------
-########### delete everything below this???
-  - type: STR_FIRESTORM
-    requires:
-      - STR_FIRESTORM
-    sprite: 4
-    fuelMax: 20
-    damageMax: 500
-    speedMax: 4200
-    costRent: 270000
-    costSell: 500000
-    accel: 9
-    weapons: 2
-    refuelItem: STR_ELERIUM_115
-    refuelRate: 5
-    score: 250
-  - type: STR_LIGHTNING
-    requires:
-      - STR_LIGHTNING
-    sprite: 1
-    fuelMax: 30
-    damageMax: 800
-    speedMax: 3100
-    costRent: 270000
-    costSell: 750000
-    accel: 9
-    weapons: 1
-    refuelItem: STR_ELERIUM_115
-    refuelRate: 5
-    score: 300
-    battlescapeTerrainData:
-      name: LIGHTNIN
-      mapDataSets:
-        - BLANKS
-        - LIGHTNIN
-      mapBlocks:
-        - name: LIGHTNIN
-          width: 20
-          length: 10
-    deployment:
-      - [10, 5, 1, 2]
-      - [10, 6, 1, 2]
-      - [10, 4, 1, 2]
-      - [9, 7, 1, 2]
-      - [9, 3, 1, 2]
-      - [8, 7, 1, 2]
-      - [8, 3, 1, 2]
-      - [7, 7, 1, 2]
-      - [7, 3, 1, 2]
-      - [6, 6, 1, 2]
-      - [6, 4, 1, 2]
-      - [6, 5, 1, 2]
-  - type: STR_AVENGER
-    requires:
-      - STR_AVENGER
-    sprite: 2
-    fuelMax: 60
-    damageMax: 1200
-    speedMax: 5400
-    costRent: 500000
-    costSell: 1125000
-    accel: 10
-    weapons: 2
-    refuelItem: STR_ELERIUM_115
-    refuelRate: 5
-    score: 400
-    spacecraft: false
-    battlescapeTerrainData:
-      name: AVENGER
-      mapDataSets:
-        - BLANKS
-        - AVENGER
-      mapBlocks:
-        - name: AVENGER
-          width: 10
-          length: 20
-    deployment:
-      - [4, 9, 1, 0]
-      - [5, 9, 1, 0]
-      - [4, 10, 1, 0]
-      - [5, 10, 1, 0]
-      - [4, 11, 1, 0]
-      - [5, 11, 1, 0]
-      - [4, 12, 1, 0]
-      - [5, 12, 1, 0]
-      - [4, 13, 1, 0]
-      - [5, 13, 1, 0]
-      - [4, 14, 1, 0]
-      - [5, 14, 1, 0]
-      - [4, 15, 1, 0]
-      - [5, 15, 1, 0]
-      - [4, 16, 1, 0]
-      - [5, 16, 1, 0]
-      - [3, 10, 1, 0]
-      - [3, 11, 1, 0]
-      - [3, 12, 1, 0]
-      - [3, 13, 1, 0]
-      - [3, 14, 1, 0]
-      - [6, 10, 1, 0]
-      - [6, 11, 1, 0]
-      - [6, 12, 1, 0]
-      - [6, 13, 1, 0]
-      - [6, 14, 1, 0]
-############# End Possible deletions
 #####CraftWeapons
 craftWeapons:
   - type: STR_STINGRAY

@@ -35,26 +35,44 @@ TL;DR VERSION:
                       members of the elder caste
  - dorados > warlord
 
-+ PRIORITIES FIXES:
++ cantidad de xelloys / elerium aprox:
+ - scout escort = 23x / 10e
+ - research corvette = 42x / 10e
+ - harvester destroyer = 60x / 20e
+ - abductor cruiser = 52x / 20e
+ - terror battleship = 133x / 30e
+ - dreagnought = 203x / 40e
+ - supply tanker = 110x / 30e
 
+ - survey skiff = 6x / 10e
+ - raider gunship = 10x / 10e
+ - scanner boat = 10x / 10e
+ - cloner frigate = 40x / 10e
+ - constructor barge = 135x / 40e
+ - laboratory ship = 75x / 20e
+ - battlecruiser = 105x / 20e
+
+
+ - posiblemente usar 2 bloques de alloy para producir 10 cartuchos
++ PRIORITIES FIXES:
+ - confirmar cambios en los nombres de mutons
+
+ - revisar el error con el personal armor blue
  - ya q voy a cambiar nombres de aviones, tambien cambiar TODOS los nombres de los cartuchos, recordar hacer esto a medida q modifico los nombres de los cargadores
  - esconder los edificios mejorados en la ufopaedia hasta conseguir las investigaciones respectivas
  - terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande
 
- - name for drone crowsbow and ARBALEST
- - recordar q aviones se le modificaran la velocidad, estudiar diferencia entre super sonico e hypersonico
-   * recordar q velocidades estan en millas nauticas, eso pasar a kilometros y de ahi dividir a mach
-      ~ 1 match en milla nautica 666.505 (mN)
-      ~ 1 match en milla normales 765 mph
-      ~(velocidad base de aviones humanos al rededor de mach 2.5, puede ser, reducir velocidad de ufos en base a esto)
+
+
+   
       
  - ya cree las sprites de los aviones, resolver ahora metiendo los aviones nuevos y agregando las basessprites adicionales
    * f35 rider tendra el nuevo sistema coffin
-     ~ recordar hacer q necesite un pawn en su receta
+
    * hacerle coffin tambien al nuevo empress q sera el avion definitivo de XCOM.
    * revisar las descripciones y q nombres coincidan
-   * agregarle bordecito a imagenes de la ufopaedia como en el overlord
- - Nombre de aviones, f35 comun sera un pawn, el knight sera un RIDER, asi se mantiene el sufijo "caballero" para las armaduras y tanques y demas?
+
+ - mantener el sufijo "caballero" para las armaduras y tanques y demas?
    * usando nombres como
      ~ squire
      ~ knight
@@ -76,13 +94,7 @@ TL;DR VERSION:
  - checar que onda con el temita del need-item
  - checar que onda con el data recovery y el anomalous equation para las naves de transporte
  - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
- - cambiar nombres de aeronaves
-   * inventar una nave nueva que sea continuacion inmediata del dragonfly, basado completamente en la valkyrie de starship troopers y que contenga muchos mas soldados, codigo SCARAB
-   * la alargada sera la hercules , recordatorio que tiene 18, pero le caben 8 tripulantes mas (26)
-   * la que es ala delta sera la goliathus , recordatorio que tiene 22 pero le caben 12 mas (34)
-   * el overlord tiene 30 espacios, no sera especificamente el que tenga mas pasajeros, ya que esa no es su principal funcion o nicho.
- - ojito acomodar de vuelta el orden de la tripulacion en el firefly (eliminar el soldado de la primera fila a la derecha y agregar el piloto de espaldas a la cabina)    
- 
+
  - Checar que onda con elerium CELL
    * directamente revisar todos los "ojitos"
  - revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
@@ -132,6 +144,7 @@ TL;DR VERSION:
 #   
  - with the "producedItems:" command
    * modificar costos y tiempos requeridos para producir un lote de municion
+     ~ 2 xelloys por lote de municion?
    * revisar que puse un articulo dummy mientras
    * revisar cohetes y granadas
  - conseguir explosiones diferentes para efectos de granadas 
@@ -345,10 +358,12 @@ TL;DR VERSION:
 #####
 
 + Vehicles Changes:
- - Create new lore for the knight (Interceptor 1).
- - Improve the ROOK ufopaedia lore. 
+ - Create new lore for the bishop (Interceptor improved xcf1).
+   * in short, its an xelloy plated f35, renamed to xyf-36b
+ - Improve the rider and rook ufopaedia lore. 
  - Change the full name, lore, and description of the SR-71 to something cooler.
-   * Change the nickname from Blackbird to something better.
+   * Change the nickname from Blackbird to something better. DONE, CORMORANT
+   * new ideas for improved planes.
      ~ Shearwater?
      ~ Albatross
      ~ CONDOR? (this should be the longest ranged , prolly a UAV)
@@ -377,6 +392,7 @@ TL;DR VERSION:
    * Completely redesign the Longbow sprite.
  - Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
    * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
+     ~ temptative names will be the crossbow and ARBALEST.
    * Create alien drone equivalents of drones using XFILES ROBOSPHERE
 
 #####

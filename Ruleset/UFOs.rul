@@ -9,7 +9,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 100
-    speedMax: 2200
+    speedMax:  1455 # Mach 2.2 Supersonic
     accel: 12
     power: 0
     range: 0
@@ -40,8 +40,8 @@ ufos:
     modSprite: UFORAIDER
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
-    damageMax: 400
-    speedMax: 2600
+    damageMax: 500
+    speedMax: 2120 # Mach 3.20 Supersonic
     accel: 7
     power: 20
     range: 62
@@ -72,7 +72,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 80
-    speedMax: 2300
+    speedMax: 1790 # Mach 2.70 Supersonic
     accel: 12
     power: 0
     range: 0
@@ -103,7 +103,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 200
-    speedMax: 2400
+    speedMax: 1820 # Mach 2.75 Supersonic
     accel: 9
     power: 20
     range: 40
@@ -179,7 +179,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 250
-    speedMax: 2700
+    speedMax: 1990 # Mach 3.0 Supersonic
     accel: 9
     power: 20
     range: 62
@@ -232,7 +232,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 450
-    speedMax: 4100
+    speedMax: 3010 # Mach 4.55 Supersonic
     accel: 7
     power: 35
     range: 62
@@ -267,7 +267,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 500
-    speedMax: 4000
+    speedMax: 2615 # Mach 3.95 Supersonic
     accel: 8
     power: 40
     range: 62
@@ -324,7 +324,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 500
-    speedMax: 4300
+    speedMax: 2815 # Mach 4.25 Supersonic
     accel: 8
     power: 40
     range: 62
@@ -381,7 +381,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 2200
-    speedMax: 3200
+    speedMax: 2650 # Mach 4.0 Supersonic
     accel: 6
     power: 60
     range: 62
@@ -419,7 +419,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 500
-    speedMax: 2800
+    speedMax: 2480 # Mach 3.75 Supersonic
     accel: 6
     power: 20
     range: 62
@@ -457,7 +457,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 375
-    speedMax: 3000
+    speedMax: 2050 # Mach 3.10 Supersonic
     accel: 9
     power: 30
     range: 62
@@ -493,7 +493,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 800
-    speedMax: 4300
+    speedMax: 3410 # Mach 5.15 Hypersonic
     accel: 3
     power: 80
     range: 62
@@ -528,7 +528,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 1200
-    speedMax: 4800
+    speedMax: 3375 # Mach 5.10 Hypersonic
     accel: 6
     power: 120
     range: 62
@@ -580,7 +580,7 @@ ufos:
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
     damageMax: 3000
-    speedMax: 5000
+    speedMax: 3840 # Mach 5.80 Hypersonic
     accel: 6
     power: 140
     range: 65

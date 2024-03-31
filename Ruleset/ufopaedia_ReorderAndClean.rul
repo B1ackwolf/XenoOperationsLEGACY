@@ -106,13 +106,12 @@ ufopaedia:
       height: 47
     image_id: X35UFO
     listOrder: 99
-  - id: STR_XCF1
+  - id: STR_UPDATED_INTERCEPTOR
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_XCF1
+      - STR_UPDATED_INTERCEPTOR
     image_id: XCF1UFO
-# ojito es este cabron
     rect_stats:
       x: 5
       y: 40
@@ -123,12 +122,11 @@ ufopaedia:
       y: 130
       width: 210
       height: 60
-    text: STR_XCF1_UFOPEDIA
-    listOrder: 101
+    text: STR_UPDATED_INTERCEPTOR_UFOPEDIA
+    listOrder: 100
   - id: STR_XCF2
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    listOrder: 102
     requires:
       - STR_XCF2
     text: STR_XCF2_UFOPEDIA
@@ -143,10 +141,10 @@ ufopaedia:
       width: 301
       height: 44
     image_id: XCF2UFO
+    listOrder: 101
   - id: STR_XCF3
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    listOrder: 105
     requires:
       - STR_XCF3
     text: STR_XCF3_UFOPEDIA
@@ -161,13 +159,10 @@ ufopaedia:
       width: 311
       height: 47
     image_id: XCF3UFO
-
-
-#ojito
+    listOrder: 102
   - id: STR_XCF4
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    listOrder: 105
     requires:
       - STR_XCF4
     text: STR_XCF4_UFOPEDIA
@@ -182,9 +177,8 @@ ufopaedia:
       width: 311
       height: 47
     image_id: XCF4UFO
-    
+    listOrder: 103
   - id: STR_DRAGONFLY
-    listOrder: 209
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: DRAGONFLY_BIG
@@ -199,8 +193,8 @@ ufopaedia:
       width: 311
       height: 47
     text: STR_DRAGONFLY_UFOPEDIA
+    listOrder: 120
   - id: STR_FIREFLY
-    listOrder: 210
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: FIREFLY_BIG
@@ -217,31 +211,29 @@ ufopaedia:
       width: 311
       height: 60
     text: STR_FIREFLY_UFOPEDIA
-  - id: STR_SKYWARDEN
+    listOrder: 121
+  - id: STR_SCARAB
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    listOrder: 211
-    requires:
-      - STR_SKYWARDEN
-    text: STR_SKYWARDEN_UFOPEDIA
+    image_id: SCARABUFO
     rect_stats:
       x: 5
       y: 40
       width: 140
-      height: 65
+      height: 56
     rect_text:
       x: 5
-      y: 151
-      width: 151
-      height: 44
-    image_id: SKYWARDENUFO
-  - id: STR_HURRICANE
+      y: 150
+      width: 311
+      height: 47
+    text: STR_SCARAB_UFOPEDIA
+    listOrder: 122
+  - id: STR_GOLIATHUS
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT
-    listOrder: 212
     requires:
-      - STR_HURRICANE
-    text: STR_HURRICANE_UFOPEDIA
+      - STR_GOLIATHUS
+    text: STR_GOLIATHUS_UFOPEDIA
     rect_stats:
       x: 5
       y: 40
@@ -253,6 +245,25 @@ ufopaedia:
       width: 190
       height: 50
     image_id: HURRICANEUFO
+    listOrder: 123
+  - id: STR_HERCULES
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_HERCULES
+    text: STR_HERCULES_UFOPEDIA
+    rect_stats:
+      x: 5
+      y: 40
+      width: 140
+      height: 65
+    rect_text:
+      x: 5
+      y: 151
+      width: 151
+      height: 44
+    image_id: SKYWARDENUFO
+    listOrder: 124
   - id: STR_OVERLORD
     type_id: 1
     section: STR_XCOM_CRAFT_ARMAMENT

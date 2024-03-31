@@ -770,6 +770,9 @@
       STR_ROOKIE: "Recruit"
       STR_FIREFLY_UFOPEDIA: "The ATU-760X 'Firefly' emerged victorious in the bid submitted to the X-Com project for an enhanced transport aircraft. Developed through a collaborative partnership between the Russian OAK conglomerate and the Ukrainian UOP Group, this versatile vessel boasts VTOL (Vertical Takeoff and Landing) capabilities. It can efficiently transport up to 14 agents and accommodate up to three heavier weapons platforms, delivering them directly to the operational site."
       STR_DRAGONFLY_UFOPEDIA: "The Bell Valor 280, codenamed DRAGONFLY, is a Boeing creation designed for rapid troop transport. This versatile aircraft can comfortably accommodate up to 12 troops but is unable to carry heavy support units. Its agility and speed make it a valuable asset for swift deployment and extraction during critical operations."
+      STR_SCARAB_UFOPEDIA: "wip based on dr4-viking, tons of troops capacity, but cant haul any hwp." #ojito
+
+
       STR_GYM: "Gym"
       STR_GYM_UFOPEDIA: "This facility is a training room for X-Com agents. It can accommodate up to 10 people at a time."
       STR_DOGE_TRACK: "Track"
@@ -1010,17 +1013,17 @@
       STR_NULL_POCKET_RL: ""
       STR_NULL_POCKET_LL: ""
 #-----Craft and Craft Weapons
-      STR_SR71: XRS-71G BLACKBIRD
+      STR_SR71: XRS-71G CORMORANT
       STR_INTERCEPTOR: XCF-0 PAWN
       STR_UPDATED_INTERCEPTOR: XCF-1 BISHOP
-      STR_XCF1: XCF-2 RIDER
-      STR_XCF2: XCF-3 ROOK
-      STR_XCF3: XCF-4 EMPRESS
+      STR_XCF2: XCF-2 RIDER
+      STR_XCF3: XCF-3 ROOK
+      STR_XCF4: XCF-4 EMPRESS
       STR_DRAGONFLY: XTP-1 DRAGONFLY
       STR_FIREFLY: XTP-2 FIREFLY
       STR_SCARAB: XTP-3 SCARAB
-      STR_SKYWARDEN: XTP-4 HERCULES
-      STR_HURRICANE: XTP-5 GOLIATH
+      STR_GOLIATHUS: XTP-4 GOLIATH
+      STR_HERCULES: XTP-5 HERCULES
       STR_OVERLORD: XTP-X OVERLORD
       STR_CANNON: Sling Autocannon
       STR_CANNON_UC: SLING Autocannon
@@ -1046,7 +1049,7 @@
       STR_FUSION_BALL: Trebuchet Ball
       STR_FUSION_BALL_UC: TREBUCHET Fusion Pod
       STR_XCF_FUEL: Aegis Fuel
-      # STR_XCF3_FUEL: XCF-3 Aegis Fuel ###ojito
+      # STR_XCF4_FUEL: XCF-4 Aegis Fuel ###ojito
       STR_ELERIUM_CELL: Elerium Cell
 #-----Facilities
       STR_SMALL_RADAR_SYSTEM: Regional Radar System.
@@ -1884,13 +1887,14 @@
       STR_CANNON_UFOPEDIA: A robust upgrade to the renowned General Electric GAU-8/A Avenger, the SLING is a heavyweight automatic cannon. Its exceptional firepower, capable of penetrating 3 inches of steel, makes it a vital asset for intercepting any threat that dares to approach at close range.
       STR_CLUSTER_MISSILE_UFOPEDIA: A short-range anti-UFO missile system, the TRIDENT relies on chain-reacting explosions for extensive aerial coverage. Its rapid-fire capability is unmatched, though it excels at close encounters. It's the frontline choice for defending against UFO threats in the skies.
       STR_PILUM_UFOPEDIA: Pioneered by XCom, the PILUM marks the first true anti-UFO missile. Focusing on Precision thanks to advanced flight computers, a long-range nuclear warhead delivers maximum destructive force. It provides a needed choice for countering UFO threats at long range.
-      STR_INTERCEPTOR_UFOPEDIA: As UFO activity escalated, X-Com collaborated with the USAF to expedite a program aimed at potential upgrades for their fifth-generation strike fighter. The outcome is the F35U, codenamed XCF-0 'Bishop, a current pinnacle of humanity's cutting-edge air supremacy technology.
       STR_SR71_UFOPEDIA: The former USAF recon aircraft has been re-purposed as a long range radar craft.
-      STR_XCF1_UFOPEDIA: The XCF-1 'Knight' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Knight is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
-      STR_XCF2_UFOPEDIA: The XCF-2 'Rook' is a step up from the XCF-1 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
-      STR_XCF3_UFOPEDIA: A third generation XCom interceptor, the XCF-3 'Empress' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
-      STR_SKYWARDEN_UFOPEDIA: The HERCULES is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
-      STR_HURRICANE_UFOPEDIA: The GOLIATH transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hercules' roof.
+      STR_INTERCEPTOR_UFOPEDIA: As UFO activity escalated, X-Com collaborated with the USAF to expedite a program aimed at potential upgrades for their fifth-generation strike fighter. The outcome is the F35U, codenamed XCF-0 'Bishop, a current pinnacle of humanity's cutting-edge air supremacy technology.
+      STR_UPDATED_INTERCEPTOR_UFOPEDIA: (WIP) new and improved f35 with xelloys.
+      STR_XCF2_UFOPEDIA: The XCF-2 'Rider' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Knight is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
+      STR_XCF3_UFOPEDIA: (WIP) The XCF-3 'Rook' is a step up from the XCF-2 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
+      STR_XCF4_UFOPEDIA: A fourth generation XCom interceptor, the XCF-4 'Empress' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
+      STR_HERCULES_UFOPEDIA: The HERCULES is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
+      STR_GOLIATHUS_UFOPEDIA: The GOLIATHUS transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hercules' roof.
       STR_OVERLORD_UFOPEDIA: The pinnacle of XCom craft, the OVERLORD has a fully operational, completed Codex installed. It's armor and speed surpass even the most powerful alien warships.
 #-----UFOPaedia XCom Technology
       STR_GOODS_UFOPEDIA: XCom's engineers are some of the finest in the world, however a few are also shrewd businessmen. By establishing a front company, XCom can bid on valuable defense contact work. This allows XCom to build goods exclusively for sell as a way to supplement its income.
