@@ -374,6 +374,42 @@ ufos:
             STR_ELERIUM_115:
               - [3, 9, 2]
               - [5, 9, 2]
+#----- Laboratory Ship -----#
+  - type: STR_LABSHIP
+    size: STR_MEDIUM_UC
+    modSprite: UFOLABSHIP
+    splashdownSurvivalChance: 0
+    fakeWaterLandingChance: 0
+    damageMax: 375
+    speedMax: 2050 # Mach 3.10 Supersonic
+    accel: 9
+    power: 30
+    range: 62
+    score: 250
+    reload: 48
+    breakOffTime: 800
+    battlescapeTerrainData:
+      name: XOPSLABSHIP
+      mapDataSets:
+        - BLANKS
+        - XOPSUFOEXT
+        - XOPSUFOPHASERS1
+        - XOPSUFOPHASERS2
+        - XOPSUFOPHASERS3
+        - XOPSUFOPHASERS4
+        - XOPSUFOSMFLOOR
+        - XOPSUFOWALLS
+        - XOPSUFOITEMS1
+        - XOPSUFOITEMS2
+        - XOPSUFORESEARCH
+      mapBlocks:
+        - name: XOPSLABSHIP
+          width: 30
+          length: 30
+          items:
+            STR_ELERIUM_115:
+              - [3, 14, 2]
+              - [25, 14, 2]
 #----- Supply Tanker -----#
   - type: STR_SUPPLY_SHIP
     size: STR_LARGE
@@ -414,7 +450,7 @@ ufos:
           length: 30
 #----- Construction Barge -----#
   - type: STR_CONSTRUCTOR
-    size: STR_VERY_LARGE
+    size: STR_LARGE
     modSprite: UFOCONSTRUCTOR
     splashdownSurvivalChance: 0
     fakeWaterLandingChance: 0
@@ -450,42 +486,6 @@ ufos:
               - [4, 17, 2]
               - [25, 12, 2]
               - [25, 17, 2]
-#----- Laboratory Ship -----#
-  - type: STR_LABSHIP
-    size: STR_LARGE
-    modSprite: UFOLABSHIP
-    splashdownSurvivalChance: 0
-    fakeWaterLandingChance: 0
-    damageMax: 375
-    speedMax: 2050 # Mach 3.10 Supersonic
-    accel: 9
-    power: 30
-    range: 62
-    score: 250
-    reload: 48
-    breakOffTime: 800
-    battlescapeTerrainData:
-      name: XOPSLABSHIP
-      mapDataSets:
-        - BLANKS
-        - XOPSUFOEXT
-        - XOPSUFOPHASERS1
-        - XOPSUFOPHASERS2
-        - XOPSUFOPHASERS3
-        - XOPSUFOPHASERS4
-        - XOPSUFOSMFLOOR
-        - XOPSUFOWALLS
-        - XOPSUFOITEMS1
-        - XOPSUFOITEMS2
-        - XOPSUFORESEARCH
-      mapBlocks:
-        - name: XOPSLABSHIP
-          width: 30
-          length: 30
-          items:
-            STR_ELERIUM_115:
-              - [3, 14, 2]
-              - [25, 14, 2]
 #----- Battlecruiser -----#
   - type: STR_DESTROYER
     size: STR_LARGE

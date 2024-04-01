@@ -1312,9 +1312,9 @@
       STR_CLONER: Cloner Frigate
       STR_HARVESTER: Harvester Destroyer
       STR_ABDUCTOR: Abductor Cruiser
+      STR_LABSHIP: Laboratory Ship
       STR_SUPPLY_SHIP: Supply Tanker
       STR_CONSTRUCTOR: Constructor Barge
-      STR_LABSHIP: Laboratory Ship
       STR_DESTROYER: Battlecruiser
       STR_TERROR_SHIP: Terror Battleship
       STR_BATTLESHIP: Dreadnought

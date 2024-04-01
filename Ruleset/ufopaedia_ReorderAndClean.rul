@@ -2900,26 +2900,26 @@ ufopaedia:
       - STR_ABDUCTOR
     text: STR_ABDUCTOR_UFOPEDIA
     listOrder: 408
-  - id: STR_SUPPLY_SHIP
-    type_id: 9
-    section: STR_UFOS
-    requires:
-      - STR_SUPPLY_SHIP
-    text: STR_SUPPLY_SHIP_UFOPEDIA
-    listOrder: 409
-  - id: STR_CONSTRUCTOR
-    type_id: 9
-    section: STR_UFOS
-    requires:
-      - STR_CONSTRUCTOR
-    text: STR_CONSTRUCTOR_UFOPEDIA
-    listOrder: 410
   - id: STR_LABSHIP
     type_id: 9
     section: STR_UFOS
     requires:
       - STR_LABSHIP
     text: STR_LABSHIP_UFOPEDIA
+    listOrder: 409
+  - id: STR_SUPPLY_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_SUPPLY_SHIP
+    text: STR_SUPPLY_SHIP_UFOPEDIA
+    listOrder: 410
+  - id: STR_CONSTRUCTOR
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_CONSTRUCTOR
+    text: STR_CONSTRUCTOR_UFOPEDIA
     listOrder: 411
   - id: STR_DESTROYER
     type_id: 9

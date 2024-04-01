@@ -164,6 +164,9 @@ craft changes
    * cuarto y avion final sera el caza definitivo, tambien requerira combustible especial, requerira una inversion importante de recursos para desplegarse. 
  - en consecuencia tambien los UFOs recibieron modificaciones menores tanto en velocidad como en resistencia para ajustarse a los nuevos parametros   
  - todas las aeronaves recibieron cambios esteticos tanto en los basebits como en las ufopaedias
+ - modificada la descripcion de tamaño del labship, ahora es medium size.	 
+	 
+	 
 	 
  - cambios en los mapas
    * algunas modificaciones a edificios de la base tanto en estadisticas y precios
