@@ -1381,52 +1381,52 @@
 
 #ojito reordenar arriba y dividir en dos tiers
 #-----Human Tier 1 Ballistic   {NEWLINE}{NEWLINE}
-      STR_PISTOL_SMALL: Compact Pistol
-      STR_PISTOL_SMALL_UFOPEDIA: "The SIG SAUER P229, XCom's choice for a compact sidearm, boasts a global reputation for reliability and precision. Renowned among security agencies worldwide, it's the smallest and most concealable weapon in XCom's arsenal.{NEWLINE}{NEWLINE}Chambered with standard 9mm ammunition, it balances compactness with decent stopping power, its ergonomic design enhances control and maneuverability, ensuring XCom operatives remain prepared for any unexpected threats." # making it the perfect companion for covert missions where concealment and precision are paramount.
-      STR_MACHINE_PISTOL: Machine Pistol
-      STR_MACHINE_PISTOL_UFOPEDIA: "The Beretta 93R, XCom's rapid-fire sidearm specialist. This automatic pistol unleashes a controlled three-round burst. While it sacrifices some accuracy, the blistering rate of fire more than makes up for it.{NEWLINE}{NEWLINE}Chambered for standard 9mm ammunition, it's the ideal choice for close-quarters combat when sheer volume of fire can be the difference between victory and defeat."
-      STR_COMPACT_PISTOL_CLIP: 9mm Magazine
-      STR_PISTOL_NEW: Service Pistol
-      STR_PISTOL_NEW_UFOPEDIA: "The FN Herstal FNX-40, chosen as XCom's standard sidearm for our troops, is a global staple among armies and special forces. It's a versatile choice for backup and secondary roles.{NEWLINE}{NEWLINE}Chambered for .40 S&W Colt Pistol rounds, it boasts a twelve-round magazine capacity, ensuring a steady supply of firepower. Reliable and adaptable, the FNX-40 is the trusted companion for XCom operatives in a variety of combat scenarios, ready to deliver precision and stopping power when needed most."
-      STR_PISTOL_NEW_CLIP: .40 S&W Magazine
-      STR_MAGNUM: Heavy Pistol
-      STR_MAGNUM_UFOPEDIA: "Enter the IMI Desert Eagle Mk XIX. This heavy pistol is the ultimate choice for agents who don't just want to defeat aliens but utterly obliterate them. Its unparalleled stopping power ensures that no threat goes unanswered. However, it comes at a cost, the Desert Eagle is a weighty sidearm with a substantial kick.{NEWLINE}{NEWLINE}Chambered for .44 Magnum rounds, It represents one of the most potent calibers available in XCom's arsenal, making it the weapon of choice when maximum firepower is required."
-      STR_MAGNUM_CLIP: .44 MAG Magazine
-      STR_UZI: Uzi Submachine Gun
-      STR_SMG: Submachine Gun
-      STR_UZI_UFOPEDIA: "The IMI UZI has stood the test of time. A timeless design marked by subtle yet reliable updates, has earned a permanent place in XCom's arsenal. This version is chambered with .45 ACP rounds.{NEWLINE}It shines in close-quarters combat, offering a high rate of fire and an ample magazine capacity. Its compact build enables controlled bursts even with a single hand. Yet, accuracy diminishes at longer ranges, making a reliable pick when precision isn't priority."
-      STR_SMG_UFOPEDIA: "The Heckler & Koch UMP45, lightweight and maneuverable, it excels in close engagements, making it ideal for navigating tight spaces. While it thrives in these scenarios, it sacrifices accuracy at longer ranges and doesn't match the stopping power of heavier rifles.{NEWLINE}{NEWLINE}Chambered with .45 ACP ammunition.It's the perfect choice for any non-frontline troops, specialized in supporting roles within XCom."
-      STR_SMG_CLIP: .45 ACP Magazine
-      STR_SHOTGUN: Combat Shotgun
-      STR_SHOTGUN_UFOPEDIA: "The Mossberg M590A1, XCom's standard 12-gauge shotgun. Renowned for its raw stopping power, delivers a devastating spread of metal pellets, capable of tearing unarmored foes to shreds. However, this spread diminishes accuracy over longer distances.{NEWLINE}Nevertheless, this limitation makes it ideal for breaching tight spaces, such as UFOs and rooms, where close-quarters combat reigns supreme. Additionally, XCom operatives can opt for solid slugs, providing versatility when a more precise shot against an armored foe is necessary."
-      STR_SHOTGUN_SHELLS: 12-gauge Shells
-      STR_SHOTGUN_SLUGS: 12-gauge Slugs
-      STR_PDW: Personal Defense Weapon
-      STR_PDW_UFOPEDIA: "A PDW is designed to bridge the gap between carbines and submachine guns. the XCom choice was the IWI TAVOR TAR-21. This version utilizes the common 5.56mm ammunition and features a high-capacity magazine, ensuring ample rounds for engagements.{NEWLINE}The TAVOR showcases its merits setting itself apart from traditional rifles with its compact bullpup design and stands as a versatile choice for XCom operatives navigating in confined environments."
-      STR_ASSAULT_RIFLE: Assault Rifle
-      STR_ASSAULT_RIFLE_UFOPEDIA: "The Heckler & Koch HK416, XCom's standard issue assault rifle. Achieving an ideal balance between accuracy, weight, and stopping power, making it the reliable workhorse of our current arsenal.{NEWLINE}{NEWLINE}It excels in medium-range combat and features a 20-round magazine. Firing 5.56mm rounds, the HK416 is the backbone of our forces, ready to face the alien threat with precision and versatility."
-      STR_ASSAULT_RIFLE_CLIP: 5.56mm Magazine
-      STR_LMG: Squad Automatic Weapon
-      STR_LMG_UFOPEDIA: "The FN Herstal M249 SAW, XCom's premier choice for Squad Automatic Weapon (SAW) role. This powerhouse loads standard 5.56mm rounds via special belt boxes, providing an extensive ammunition capacity that proves invaluable to their role.{NEWLINE}{NEWLINE}Though it carries some weight, its high rate of fire compensates for the heft, ensuring that XCom operatives can lay down a relentless barrage when the situation demands it. The SAW stands as a reliable asset in providing crucial fire support during intense engagements."
-      STR_LMG_BELT: 5.56mm Belt
-      STR_SNIPER_RIFLE: Sniper Rifle
-      STR_SNIPER_RIFLE_UFOPEDIA: "The Dragunov SVDM Kalashnikov Sniper Rifle, a slower-firing weapon that may not match the rapidity of other options aviable, but its exceptional accuracy and remarkable stopping power set it as a cornerstone of XCom's arsenal.{NEWLINE}Chambered in the formidable 7.62mm rounds, this rifle excels at delivering precise, high-impact shots. Equiped with an enhanced telescopic sight, the SVDM ensures that XCom operatives can eliminate high threat targets from a safe distance, making it an indispensable asset in long-range engagements."
-      STR_SNIPER_RIFLE_CLIP: 7.62mm Magazine
-      STR_AM_RIFLE: Anti-materiel Rifle
-      STR_AM_RIFLE_UFOPEDIA: "The Barrett M82A3 Anti-Materiel Rifle, a pinnacle in XCom's long-range arsenal. Known for its extraordinary accuracy and capability to dismantle light vehicles and enemy supply caches. It delivers sheer power, finding its niche in engaging enemy materiel.{NEWLINE}{NEWLINE}Chambered with the formidable .50 BMG rounds, it showcases overwhelming firepower. Though its use against personnel is often restricted by international agreements like the Geneva Convention, XCom faces an unconventional enemy unbound by such constraints."
-      STR_AM_RIFLE_CLIP: .50 BMG Magazine
-      STR_MINIGUN: Minigun
-      STR_MINIGUN_UFOPEDIA: "The General Electric XM214 Gatling Gun, a testament to XCom's relentless pursuit of high-rate-of-fire weaponry. This six-barreled, electrically operated rotary cannon unleashes an unrelenting storm of 5.56mm ammunition, it excels in obliterating enemy positions.{NEWLINE}{NEWLINE}Though its weight is a notable downside, the weapon's full-auto capability ensures superior suppressive fire. Countless redesigns were undertaken to preserve damage and rate of fire while achieving handheld portability. This overwhelming firepower places the XM214 among XCom's top choices for clearing hostile zones."
-      STR_MINIGUN_BELT: 5.56mm Minigun Box
+      STR_ST_SMALL_PISTOL: Compact Pistol
+      STR_ST_SMALL_PISTOL_UFOPEDIA: "The SIG SAUER P229, XCom's choice for a compact sidearm, boasts a global reputation for reliability and precision. Renowned among security agencies worldwide, it's the smallest and most concealable weapon in XCom's arsenal.{NEWLINE}{NEWLINE}Chambered with standard 9mm ammunition, it balances compactness with decent stopping power, its ergonomic design enhances control and maneuverability, ensuring XCom operatives remain prepared for any unexpected threats." # making it the perfect companion for covert missions where concealment and precision are paramount.
+      STR_ST_AUTO_PISTOL: Machine Pistol
+      STR_ST_AUTO_PISTOL_UFOPEDIA: "The Beretta 93R, XCom's rapid-fire sidearm specialist. This automatic pistol unleashes a controlled three-round burst. While it sacrifices some accuracy, the blistering rate of fire more than makes up for it.{NEWLINE}{NEWLINE}Chambered for standard 9mm ammunition, it's the ideal choice for close-quarters combat when sheer volume of fire can be the difference between victory and defeat."
+      STR_ST_SMALL_PISTOL_CLIP: 9mm Magazine
+      STR_ST_MAIN_PISTOL: Service Pistol
+      STR_ST_MAIN_PISTOL_UFOPEDIA: "The FN Herstal FNX-40, chosen as XCom's standard sidearm for our troops, is a global staple among armies and special forces. It's a versatile choice for backup and secondary roles.{NEWLINE}{NEWLINE}Chambered for .40 S&W Colt Pistol rounds, it boasts a twelve-round magazine capacity, ensuring a steady supply of firepower. Reliable and adaptable, the FNX-40 is the trusted companion for XCom operatives in a variety of combat scenarios, ready to deliver precision and stopping power when needed most."
+      STR_ST_MAIN_PISTOL_CLIP: .40 S&W Magazine
+      STR_ST_HEAVY_PISTOL: Heavy Pistol
+      STR_ST_HEAVY_PISTOL_UFOPEDIA: "Enter the IMI Desert Eagle Mk XIX. This heavy pistol is the ultimate choice for agents who don't just want to defeat aliens but utterly obliterate them. Its unparalleled stopping power ensures that no threat goes unanswered. However, it comes at a cost, the Desert Eagle is a weighty sidearm with a substantial kick.{NEWLINE}{NEWLINE}Chambered for .44 Magnum rounds, It represents one of the most potent calibers available in XCom's arsenal, making it the weapon of choice when maximum firepower is required."
+      STR_ST_HEAVY_PISTOL_CLIP: .44 MAG Magazine
+      STR_ST_UZI: Uzi Submachine Gun
+      STR_ST_SMG: Submachine Gun
+      STR_ST_UZI_UFOPEDIA: "The IMI UZI has stood the test of time. A timeless design marked by subtle yet reliable updates, has earned a permanent place in XCom's arsenal. This version is chambered with .45 ACP rounds.{NEWLINE}It shines in close-quarters combat, offering a high rate of fire and an ample magazine capacity. Its compact build enables controlled bursts even with a single hand. Yet, accuracy diminishes at longer ranges, making a reliable pick when precision isn't priority."
+      STR_ST_SMG_UFOPEDIA: "The Heckler & Koch UMP45, lightweight and maneuverable, it excels in close engagements, making it ideal for navigating tight spaces. While it thrives in these scenarios, it sacrifices accuracy at longer ranges and doesn't match the stopping power of heavier rifles.{NEWLINE}{NEWLINE}Chambered with .45 ACP ammunition.It's the perfect choice for any non-frontline troops, specialized in supporting roles within XCom."
+      STR_ST_SMG_CLIP: .45 ACP Magazine
+      STR_ST_SHOTGUN: Combat Shotgun
+      STR_ST_SHOTGUN_UFOPEDIA: "The Mossberg M590A1, XCom's standard 12-gauge shotgun. Renowned for its raw stopping power, delivers a devastating spread of metal pellets, capable of tearing unarmored foes to shreds. However, this spread diminishes accuracy over longer distances.{NEWLINE}Nevertheless, this limitation makes it ideal for breaching tight spaces, such as UFOs and rooms, where close-quarters combat reigns supreme. Additionally, XCom operatives can opt for solid slugs, providing versatility when a more precise shot against an armored foe is necessary."
+      STR_ST_SHOTGUN_SHELLS: 12-gauge Shells
+      STR_ST_SHOTGUN_SLUGS: 12-gauge Slugs
+      STR_ST_BULLPUP: Personal Defense Weapon
+      STR_ST_BULLPUP_UFOPEDIA: "A PDW is designed to bridge the gap between carbines and submachine guns. the XCom choice was the IWI TAVOR TAR-21. This version utilizes the common 5.56mm ammunition and features a high-capacity magazine, ensuring ample rounds for engagements.{NEWLINE}The TAVOR showcases its merits setting itself apart from traditional rifles with its compact bullpup design and stands as a versatile choice for XCom operatives navigating in confined environments."
+      STR_ST_RIFLE: Assault Rifle
+      STR_ST_RIFLE_UFOPEDIA: "The Heckler & Koch HK416, XCom's standard issue assault rifle. Achieving an ideal balance between accuracy, weight, and stopping power, making it the reliable workhorse of our current arsenal.{NEWLINE}{NEWLINE}It excels in medium-range combat and features a 20-round magazine. Firing 5.56mm rounds, the HK416 is the backbone of our forces, ready to face the alien threat with precision and versatility."
+      STR_ST_RIFLE_CLIP: 5.56mm Magazine
+      STR_ST_LMG: Squad Automatic Weapon
+      STR_ST_LMG_UFOPEDIA: "The FN Herstal M249 SAW, XCom's premier choice for Squad Automatic Weapon (SAW) role. This powerhouse loads standard 5.56mm rounds via special belt boxes, providing an extensive ammunition capacity that proves invaluable to their role.{NEWLINE}{NEWLINE}Though it carries some weight, its high rate of fire compensates for the heft, ensuring that XCom operatives can lay down a relentless barrage when the situation demands it. The SAW stands as a reliable asset in providing crucial fire support during intense engagements."
+      STR_ST_LMG_BELT: 5.56mm Belt
+      STR_ST_SNIPER: Sniper Rifle
+      STR_ST_SNIPER_UFOPEDIA: "The Dragunov SVDM Kalashnikov Sniper Rifle, a slower-firing weapon that may not match the rapidity of other options aviable, but its exceptional accuracy and remarkable stopping power set it as a cornerstone of XCom's arsenal.{NEWLINE}Chambered in the formidable 7.62mm rounds, this rifle excels at delivering precise, high-impact shots. Equiped with an enhanced telescopic sight, the SVDM ensures that XCom operatives can eliminate high threat targets from a safe distance, making it an indispensable asset in long-range engagements."
+      STR_ST_SNIPER_CLIP: 7.62mm Magazine
+      STR_ST_ANTI_MATERIEL: Anti-materiel Rifle
+      STR_ST_ANTI_MATERIEL_UFOPEDIA: "The Barrett M82A3 Anti-Materiel Rifle, a pinnacle in XCom's long-range arsenal. Known for its extraordinary accuracy and capability to dismantle light vehicles and enemy supply caches. It delivers sheer power, finding its niche in engaging enemy materiel.{NEWLINE}{NEWLINE}Chambered with the formidable .50 BMG rounds, it showcases overwhelming firepower. Though its use against personnel is often restricted by international agreements like the Geneva Convention, XCom faces an unconventional enemy unbound by such constraints."
+      STR_ST_ANTI_MATERIEL_CLIP: .50 BMG Magazine
+      STR_ST_MINIGUN: Minigun
+      STR_ST_MINIGUN_UFOPEDIA: "The General Electric XM214 Gatling Gun, a testament to XCom's relentless pursuit of high-rate-of-fire weaponry. This six-barreled, electrically operated rotary cannon unleashes an unrelenting storm of 5.56mm ammunition, it excels in obliterating enemy positions.{NEWLINE}{NEWLINE}Though its weight is a notable downside, the weapon's full-auto capability ensures superior suppressive fire. Countless redesigns were undertaken to preserve damage and rate of fire while achieving handheld portability. This overwhelming firepower places the XM214 among XCom's top choices for clearing hostile zones."
+      STR_ST_MINIGUN_BELT: 5.56mm Minigun Box
 #aqui me quede
-      STR_HEAVY_CANNON: Grenade Launcher
-      STR_HEAVY_CANNON_UFOPEDIA: "The Milkor Automatic Grenade Launcher, a formidable yet unwieldy addition to XCom's arsenal.{NEWLINE}{NEWLINE}Its true strength lies in its versatility, as it can unleash an array of 40mm grenades, including smoke, high explosive, and incendiary rounds, in a high-arcing trajectory."
-      STR_HC_HE_AMMO: 40mm Frag Grenade 
-      STR_HC_AP_AMMO: 40mm Smoke Grenade
-      STR_HC_I_AMMO: 40mm Napalm Grenade
-      # STR_ROCKET_LAUNCHER:
-      # STR_SMALL_ROCKET:
-      # STR_LARGE_ROCKET: 
+      STR_ST_LAUNCHER: Grenade Launcher
+      STR_ST_LAUNCHER_UFOPEDIA: "The Milkor Automatic Grenade Launcher, a formidable yet unwieldy addition to XCom's arsenal.{NEWLINE}{NEWLINE}Its true strength lies in its versatility, as it can unleash an array of 40mm grenades, including smoke, high explosive, and incendiary rounds, in a high-arcing trajectory."
+      STR_ST_LAUNCHER_AMMO1: 40mm Frag Grenade 
+      STR_ST_LAUNCHER_AMMO3: 40mm Smoke Grenade
+      STR_ST_LAUNCHER_AMMO2: 40mm Napalm Grenade
+      # STR_ST_BAZOOKA:
+      # STR_ST_SMALL_ROCKET:
+      # STR_ST_LARGE_ROCKET: 
 
 
 

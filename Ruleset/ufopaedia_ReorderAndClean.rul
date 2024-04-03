@@ -841,122 +841,122 @@ ufopaedia:
 
 #-----XCOM Gear and Weapons----------------------------------
 #####-----First Tier Ballistic Weaponry
-  - id: STR_PISTOL_SMALL
+  - id: STR_ST_SMALL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_PISTOL_SMALL_UFOPEDIA
+    text: STR_ST_SMALL_PISTOL_UFOPEDIA
     listOrder: 2101
-  - id: STR_MACHINE_PISTOL
+  - id: STR_ST_AUTO_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MACHINE_PISTOL_UFOPEDIA
+    text: STR_ST_AUTO_PISTOL_UFOPEDIA
     listOrder: 2102
-  - id: STR_COMPACT_PISTOL_CLIP
+  - id: STR_ST_SMALL_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PISTOL_NEW
+  - id: STR_ST_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_PISTOL_NEW_UFOPEDIA
+    text: STR_ST_MAIN_PISTOL_UFOPEDIA
     listOrder: 2103
-  - id: STR_PISTOL_NEW_CLIP
+  - id: STR_ST_MAIN_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_MAGNUM 
+  - id: STR_ST_HEAVY_PISTOL 
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MAGNUM_UFOPEDIA
+    text: STR_ST_HEAVY_PISTOL_UFOPEDIA
     listOrder: 2104
-  - id: STR_MAGNUM_CLIP
+  - id: STR_ST_HEAVY_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_UZI
+  - id: STR_ST_UZI
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_UZI_UFOPEDIA
+    text: STR_ST_UZI_UFOPEDIA
     listOrder: 2105
-  - id: STR_SMG_CLIP
+  - id: STR_ST_SMG_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SMG
+  - id: STR_ST_SMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SMG_UFOPEDIA
+    text: STR_ST_SMG_UFOPEDIA
     listOrder: 2106
-  - id: STR_SHOTGUN
+  - id: STR_ST_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SHOTGUN_UFOPEDIA
+    text: STR_ST_SHOTGUN_UFOPEDIA
     listOrder: 2107
-  - id: STR_SHOTGUN_SHELLS
+  - id: STR_ST_SHOTGUN_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SHOTGUN_SLUGS
+  - id: STR_ST_SHOTGUN_SLUGS
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PDW
+  - id: STR_ST_BULLPUP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_PDW_UFOPEDIA
+    text: STR_ST_BULLPUP_UFOPEDIA
     listOrder: 2108
-  - id: STR_ASSAULT_RIFLE
+  - id: STR_ST_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ASSAULT_RIFLE_UFOPEDIA
+    text: STR_ST_RIFLE_UFOPEDIA
     listOrder: 2109
-  - id: STR_ASSAULT_RIFLE_CLIP
+  - id: STR_ST_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_LMG
+  - id: STR_ST_LMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LMG_UFOPEDIA
+    text: STR_ST_LMG_UFOPEDIA
     listOrder: 2110
-  - id: STR_LMG_BELT
+  - id: STR_ST_LMG_BELT
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SNIPER_RIFLE
+  - id: STR_ST_SNIPER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SNIPER_RIFLE_UFOPEDIA
+    text: STR_ST_SNIPER_UFOPEDIA
     listOrder: 2111
-  - id: STR_SNIPER_RIFLE_CLIP
+  - id: STR_ST_SNIPER_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_AM_RIFLE
+  - id: STR_ST_ANTI_MATERIEL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_AM_RIFLE_UFOPEDIA
+    text: STR_ST_ANTI_MATERIEL_UFOPEDIA
     listOrder: 2112
-  - id: STR_AM_RIFLE_CLIP
+  - id: STR_ST_ANTI_MATERIEL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_MINIGUN
+  - id: STR_ST_MINIGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MINIGUN_UFOPEDIA
+    text: STR_ST_MINIGUN_UFOPEDIA
     listOrder: 2113
-  - id: STR_MINIGUN_BELT
+  - id: STR_ST_MINIGUN_BELT
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HEAVY_CANNON
+  - id: STR_ST_LAUNCHER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HEAVY_CANNON_UFOPEDIA
+    text: STR_ST_LAUNCHER_UFOPEDIA
     listOrder: 2114
-  - id: STR_HC_HE_AMMO
+  - id: STR_ST_LAUNCHER_AMMO1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HC_I_AMMO
+  - id: STR_ST_LAUNCHER_AMMO2
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HC_AP_AMMO
+  - id: STR_ST_LAUNCHER_AMMO3
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_ROCKET_LAUNCHER
+  - id: STR_ST_BAZOOKA
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ROCKET_LAUNCHER_UFOPEDIA
+    text: STR_ST_BAZOOKA_UFOPEDIA
     listOrder: 2115
 #reorder this, ojito#
   - id: STR_KNIFE

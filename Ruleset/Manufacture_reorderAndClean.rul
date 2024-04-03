@@ -842,6 +842,8 @@ manufacture:
     cost: 6000
     requiredItems:
       STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_XP_MACHINE_PISTOL_CLIP_ALLOY: 10
     listOrder: 2238
 #temporal, ojito, separar luego a ordnance tier correctamente
   - name: STR_XP_GRENADE
