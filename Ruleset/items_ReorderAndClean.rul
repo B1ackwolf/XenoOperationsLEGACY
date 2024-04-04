@@ -42,11 +42,11 @@ items:
   #   handSprite: 296
   # - type: STR_AC_I_AMMO
   #   handSprite: 304
-  # - type: STR_ST_LAUNCHER_AMMO3
+  # - type: STR_HC_AP_AMMO
   #   handSprite: 312
-  # - type: STR_ST_LAUNCHER_AMMO1
+  # - type: STR_HC_HE_AMMO
   #   handSprite: 320
-  # - type: STR_ST_LAUNCHER_AMMO2
+  # - type: STR_HC_I_AMMO
   #   handSprite: 328
   - type: STR_SMOKE_GRENADE
     handSprite: 1340
@@ -998,66 +998,38 @@ items:
     invWidth: 1
     invHeight: 3
     listOrder: 2124
-##### Ojito complete this later #####
-  - type: STR_ST_LAUNCHER
+##### Ojito ignorar para no hacer cagada, pensar como resolver luego #####
+  - type: STR_HEAVY_CANNON
     compatibleAmmo:
-      - STR_ST_LAUNCHER_AMMO1
-      - STR_ST_LAUNCHER_AMMO2
-      - STR_ST_LAUNCHER_AMMO3
+      - STR_HC_HE_AMMO
+      - STR_HC_I_AMMO
+      - STR_HC_AP_AMMO
     arcingShot: true
     fireSound: 114
     # handSprite: 90 ojito. acomodar sprite
     listOrder: 2125
-  - type: STR_ST_LAUNCHER_AMMO1
+  - type: STR_HC_HE_AMMO
     power: 45
     bigSprite: 12
     floorSprite: 12
     listOrder: 2126
-  - type: STR_ST_LAUNCHER_AMMO2
+  - type: STR_HC_I_AMMO
     power: 55
     bigSprite: 13
     floorSprite: 12
     listOrder: 2127
-  - type: STR_ST_LAUNCHER_AMMO3
+  - type: STR_HC_AP_AMMO
     damageType: 9
     power: 65
     bigSprite: 14
     floorSprite: 12
     listOrder: 2128
-  - type: STR_ST_BAZOOKA
+  - type: STR_ROCKET_LAUNCHER
     size: 0.4
     costBuy: 4000
     costSell: 3000
-    weight: 10
-    bigSprite: 15
-    floorSprite: 15
-    handSprite: 72
-    bulletSprite: 0
-    fireSound: 86
-    compatibleAmmo:
-      - STR_ST_SMALL_ROCKET
-      - STR_ST_LARGE_ROCKET
-      - STR_ST_INCEDIARY_ROCKET
-    accuracySnap: 55
-    accuracyAimed: 115
-    tuSnap: 45
-    tuAimed: 75
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    listOrder: 2129
-  - type: STR_ST_SMALL_ROCKET
-    handSprite: 256
-    listOrder: 2130
-  - type: STR_ST_LARGE_ROCKET
-    listOrder: 2131
-    handSprite: 1264
-  - type: STR_ST_INCEDIARY_ROCKET
-    listOrder: 2132
-    handSprite: 1272
 ###-----Human second tier Ballistic eXperimental weapons-----###
-  - type: STR_XP_PISTOL_SMALL
+  - type: STR_XP_SMALL_PISTOL
     size: 0.1
     costSell: 6250
     weight: 2
@@ -1761,9 +1733,9 @@ items:
       - STR_XP_R1
       - STR_XP_R2
       - STR_AP_ROCKET
-      - STR_ST_SMALL_ROCKET
-      - STR_ST_LARGE_ROCKET
-      - STR_ST_INCEDIARY_ROCKET
+      - STR_SMALL_ROCKET
+      - STR_LARGE_ROCKET
+      - STR_INCENDIARY_ROCKET
     accuracySnap: 60
     accuracyAimed: 125
     tuSnap: 42
@@ -2576,9 +2548,9 @@ items:
       - STR_XP_R1
       - STR_XP_R2
       - STR_AP_ROCKET
-      - STR_ST_SMALL_ROCKET
-      - STR_ST_LARGE_ROCKET
-      - STR_ST_INCEDIARY_ROCKET
+      - STR_SMALL_ROCKET
+      - STR_LARGE_ROCKET
+      - STR_INCENDIARY_ROCKET
     accuracySnap: 65
     accuracyAimed: 130
     tuSnap: 38
@@ -6395,11 +6367,12 @@ items:
     battleType: 11
     armor: 65
     recover: false
+# OJITO ORDENAR    
   - type: STR_PERSONAL_ARMOR
     size: 0.6
     costSell: 54000
     listOrder: 10520
-  - type: STR_PERSONAL_ARMOR_PURPLE
+  - type: STR_PERSONAL_ARMOR_GREEN
     size: 0.6
     costSell: 54000
     listOrder: 10624
@@ -6419,7 +6392,7 @@ items:
     size: 0.6
     costSell: 54000
     listOrder: 10622
-  - type: STR_CORPSE_PERSONAL_ARMOR_PURPLE
+  - type: STR_CORPSE_PERSONAL_ARMOR_GREEN
     name: STR_CORPSE
     weight: 24
     bigSprite: 127

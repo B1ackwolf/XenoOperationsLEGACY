@@ -436,7 +436,7 @@ manufacture:
     listOrder: 499
 #---HWP ----------------------------------END
 #-----Second Tier Ballistic Weapons ----------------------------------
-  - name: STR_XP_PISTOL_SMALL
+  - name: STR_XP_SMALL_PISTOL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
@@ -774,7 +774,7 @@ manufacture:
     time: 220
     cost: 14000
     listOrder: 2231
-  - name: STR_XP__ASSAULT_CANNON_BELT # ojito cambiar por algo mas cool, como incendiary? o directamente eliminar en todas las otras pags
+  - name: STR_XP__ASSAULT_CANNON_BELT # ojito cambiar esta version de municion por algo mas cool, como incendiary? o directamente eliminar en todas las otras pags
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY

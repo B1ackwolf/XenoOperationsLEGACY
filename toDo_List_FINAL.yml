@@ -1,25 +1,4 @@
 #ideas for the mod, in any specific order:
-Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
-
-Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
-
-Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
- 
-
-Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
- 
-
-Warchief:  they are veterans of a hundred battles at least, only few sebilians show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
- 
-
-Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
- 
-
-Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
-
-
- - Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
-
 
 TL;DR VERSION:
 
@@ -57,24 +36,34 @@ TL;DR VERSION:
 
  - Base defense = 75X / 20e + 180 supplies
 
-
- - posiblemente usar 2 bloques de alloy para producir 10 cartuchos
 + PRIORITIES FIXES:
+ - ya encontre el orden de las armaduras, estan en items, buscar desde la xops y modificar el loadorder
+   * creo q tengo q crear de la kevlar.
+   * cambiarle tambien el orden dentro del ruleset en si para q sigan el mismo correlativo
+     ~ el orden tambien se cambiara dentro del extra strings 
+     ~ aprovechar y cambiar el nombre a las armaduras
+
+ - modificar totalmente como funcionan los articulos medicos.
+   * nivel 0 la jeringa de adreno y el pouch individual y descartable
+   * nivel 1 el bolsito medico, pensado para unidades especializadas en curar.
+   * nivel 2 el field surgery kit, una version mejorada.
+     ~ requerira la investigacion del life support? (proporcionaria mejoras en el tratamiento de celulas madre blablabla)
+     ~ quizas tambien el de alien physiology
+       ° nota, recordatorio de agregar pistas de q se necesita el life support para poder tener el alien containtment.
+   * nivel 3 el medi-kit de vainilla q es dispensador de medi-gel, explicaria todo lo avanzado de la medicina, cosas de reparar heridas y tejido casi al instante blablabla
+     ~ requeriria quizas nivel 3 del codex? (2 como minimo)
+     ~ estaria atado a la mejora del edificio de la base de la clinica mejorada.    
+
+
  - confirmar cambios en los nombres de mutons
 
- - revisar el error con el personal armor blue
  - ya q voy a cambiar nombres de aviones, tambien cambiar TODOS los nombres de los cartuchos, recordar hacer esto a medida q modifico los nombres de los cargadores
- - esconder los edificios mejorados en la ufopaedia hasta conseguir las investigaciones respectivas
- - terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande
-
-
-
-   
-      
- - ya cree las sprites de los aviones, resolver ahora metiendo los aviones nuevos y agregando las basessprites adicionales
-   * f35 rider tendra el nuevo sistema coffin
-
-   * hacerle coffin tambien al nuevo empress q sera el avion definitivo de XCOM.
+   * cambiar nombres de referencias de "shells y slugs" de escopetas y "belt" a clip?
+     ~ quizas mas bien revisar q las escopetas siempre tengan shells (checar hybri y Rail)
+ - terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande en el mapviewer de agregarle la mugre 
+ - acomodar sprites de aviones en ufopaedia
+   * rehacerle la imagen al f35 mejorado con el coffin, foto en nuevo angulo
+     ~ tambien al nuevo empress q sera el avion definitivo de XCOM.
    * revisar las descripciones y q nombres coincidan
 
  - mantener el sufijo "caballero" para las armaduras y tanques y demas?
@@ -88,16 +77,14 @@ TL;DR VERSION:
  - municion de cañon de riel hecho de platino?, la ultra densa y rara hecha a base de osmio
 
  - xelloy esta compuesto de aleaciones complejas de materiales conocidos, aunque algunos tengamos en muy bajas cantidades, tambien tiene mundanas cantidades de elementos aun no conocidos para nosotros.
- - los ufos no estan enteramente constriodps de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
+ - los ufos no estan enteramente construidos de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
  - el iridio tiene la ventaja sobre el titanio q mantiene su dureza incluso en altas temperaturas
 
  - revisar si hay otros rangos de medics de las otras razas ademas del floater y sectoid
    * resuelto esto, pero confirmado que el research tree necesita una revision EXHAUSTIVA.
- - revisar lo que dijo scamps respecto a la mision final donde los doctores desbloquean al muto supremo antes de tiempo.
- - invertir nombres de bishop y caballero, agregar un nuevo nivel de avion para q en teoria sean 4 cazas, uno para cada nivel de codex, el f35 renombrarlo a peon
-
  - checar que onda con el temita del need-item
  - checar que onda con el data recovery y el anomalous equation para las naves de transporte
+   * resuelto, pero tengo q ver donde meto esto quizas usarlo como requisito del ultimo paso para completar el codex
  - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
 
  - Checar que onda con elerium CELL
@@ -143,7 +130,6 @@ TL;DR VERSION:
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - aprovechar lanza cohetes matador y reemplazarlo por primer smaw
    * retocar color
- - agregar enfermeria
 
  - BALANCEAR TODOS LOS PRECIOS RELACIONADOS CON XELLOYS.
 #   
@@ -443,6 +429,7 @@ TL;DR VERSION:
    * Inquire about making day and night sprites different for implementation in the first tier.
  - Sectopod aliens are xelloy blue; in contrast, human sectopods will be brown. Confirm this.
    * Blue color has already been changed; only need to create the human sectopods.
+ - hacer cambios en globemarkers
  - Explore sources for improved versions of map and globe symbols.
    * Check TFTD+ or Unexcom to understand how the ruleset works for this.
      ~ Use the "marker" command assigned to each aircraft.
@@ -474,10 +461,7 @@ TL;DR VERSION:
  - Does the Alien Disassemble from alien entertainment give a Mind Probe?
    * If so, significantly reduce the price of the probe.
    * Increase the necessary hours.
- - Tweak and balance the ammount of Xelloys and Elerium recovered from UFO Sites.
-   * Change the requeriments for some projects to balance this.
-   * The ammunition manufacture should be managed in "blocks" therefore, numbers should be more realist and intuitive.
-     ~ no more 1 Xelloy to produce one cartridge, and 3 to produce a rifle.
+
 
 #####
 
@@ -632,3 +616,28 @@ TL;DR VERSION:
    * Misc items (medicals, psi warfare, lamps)
    * Alien weaponry
    * Alien ordnance
+
+
+Posibles descripciones mutones:
+
+Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
+
+Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
+
+Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
+ 
+
+Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
+ 
+
+Warchief:  they are veterans of a hundred battles at least, only few sebilians show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
+ 
+
+Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
+ 
+
+Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
+
+
+ - Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
+

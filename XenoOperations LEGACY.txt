@@ -101,6 +101,12 @@ these options are activated by default YET you can change them in case you found
 
 gameplay changes:
  - added two new buildings, the sickbay and the advanced sickbay (culminar esto)
+ 
+ - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.
+   * Change the requeriments for some projects to balance this.
+   * The ammunition manufacture should be managed in "blocks" therefore, numbers should be more realist and intuitive.
+     ~ no more 1 Xelloy to produce one cartridge, and 3 to produce a rifle.
+
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
  - tiempo de espera de arribo de contratos nuevos reducidos a 48h
 
@@ -180,8 +186,10 @@ under da hood changes:
 bugfixes:
 
 - CHECAR QUE ONDA q aparece un firefly en la ufopaedia al principio, ojito
+- resuelto error q mostraba ciertos edificios avanzados en la ufopedia desde el principio de la campaña 
 
-- solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely.
+
+- solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely (thanks scamps for the report).
 - solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)
 - solved an error related with the price and research cost of the mind shield facilitie.
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.

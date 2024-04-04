@@ -3327,7 +3327,7 @@
       - 1.0
       - 1.0
     loftempsSet: [ 3 ]
-  - type: STR_PERSONAL_ARMOR_PURPLE_UC
+  - type: STR_PERSONAL_ARMOR_GREEN_UC
     customArmorPreviewIndex: 19
     spriteSheet: XOPS_XCOM_25.PCK
     layersDefaultPrefix: HUMAN
@@ -3451,7 +3451,7 @@
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
-      - STR_CORPSE_PERSONAL_ARMOR_PURPLE
+      - STR_CORPSE_PERSONAL_ARMOR_GREEN
     storeItem: STR_PERSONAL_ARMOR_TAN
     stats:
       reactions: 5

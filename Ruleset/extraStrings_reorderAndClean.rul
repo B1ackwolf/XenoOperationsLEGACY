@@ -56,7 +56,7 @@
       STR_CORPSE_XOPS_ARMOR_WHITE: Corpse
       STR_CORPSE_XOPS_ARMOR_GREEN: Corpse
       STR_CORPSE_XOPS_ARMOR_GREY: Corpse
-      STR_CORPSE_PERSONAL_ARMOR_PURPLE: Corpse
+      STR_CORPSE_PERSONAL_ARMOR_GREEN: Corpse
       STR_CORPSE_PERSONAL_ARMOR_TAN: Corpse
       STR_CORPSE_PERSONAL_ARMOR_GREY: Corpse
       STR_CORPSE_PERSONAL_ARMOR_WHITE: Corpse
@@ -594,6 +594,7 @@
 ###########################ojito reordenar
       STR_FIRST_AID: "First Aid Kit"
       STR_BASIC_MEDKIT: "Basic Medikit Pack"
+      STR_IMPROVED_MEDKIT: "Field Surgery kit"
       STR_MEDI_KIT: Advanced Medikit
       STR_PILOT: Pilot
       STR_ELITE_SOLDIER: Elite Soldier
@@ -1338,7 +1339,7 @@
       STR_XP_MACHINE_PISTOL: X1 Machine Pistol
       STR_XP_MACHINE_PISTOL_CLIP_ALLOY: 9mm Alloys Magazine
       STR_XP_MACHINE_PISTOL_CLIP_TECH: 9mm Tech Magazine
-      STR_XP_PISTOL_SMALL: X1A Compact Pistol
+      STR_XP_SMALL_PISTOL: X1A Compact Pistol
       STR_XP_MAGNUM: X3 Heavy Pistol
       STR_XP_MAGNUM_CLIP_ALLOY: .44 MAG Alloy Magazine
       STR_XP_MAGNUM_CLIP_TECH: .44 MAG Tech Magazine
@@ -1376,7 +1377,6 @@
       STR_INC_GRENADE: Napalm Grenade
       STR_KNIFE: Combat Knife
       STR_BRASS_KNUCKLES: Brass Knuckles
-      STR_IMPROVED_MEDKIT: Field Surgery kit
       STR_XP_GRENADE: X Force Grenade
 
 #ojito reordenar arriba y dividir en dos tiers
@@ -1419,14 +1419,14 @@
       STR_ST_MINIGUN_UFOPEDIA: "The General Electric XM214 Gatling Gun, a testament to XCom's relentless pursuit of high-rate-of-fire weaponry. This six-barreled, electrically operated rotary cannon unleashes an unrelenting storm of 5.56mm ammunition, it excels in obliterating enemy positions.{NEWLINE}{NEWLINE}Though its weight is a notable downside, the weapon's full-auto capability ensures superior suppressive fire. Countless redesigns were undertaken to preserve damage and rate of fire while achieving handheld portability. This overwhelming firepower places the XM214 among XCom's top choices for clearing hostile zones."
       STR_ST_MINIGUN_BELT: 5.56mm Minigun Box
 #aqui me quede
-      STR_ST_LAUNCHER: Grenade Launcher
-      STR_ST_LAUNCHER_UFOPEDIA: "The Milkor Automatic Grenade Launcher, a formidable yet unwieldy addition to XCom's arsenal.{NEWLINE}{NEWLINE}Its true strength lies in its versatility, as it can unleash an array of 40mm grenades, including smoke, high explosive, and incendiary rounds, in a high-arcing trajectory."
-      STR_ST_LAUNCHER_AMMO1: 40mm Frag Grenade 
-      STR_ST_LAUNCHER_AMMO3: 40mm Smoke Grenade
-      STR_ST_LAUNCHER_AMMO2: 40mm Napalm Grenade
-      # STR_ST_BAZOOKA:
-      # STR_ST_SMALL_ROCKET:
-      # STR_ST_LARGE_ROCKET: 
+      STR_HEAVY_CANNON: Grenade Launcher
+      STR_HEAVY_CANNON_UFOPEDIA: "The Milkor Automatic Grenade Launcher, a formidable yet unwieldy addition to XCom's arsenal.{NEWLINE}{NEWLINE}Its true strength lies in its versatility, as it can unleash an array of 40mm grenades, including smoke, high explosive, and incendiary rounds, in a high-arcing trajectory."
+      STR_HC_HE_AMMO: 40mm Frag Grenade 
+      STR_HC_AP_AMMO: 40mm Smoke Grenade
+      STR_HC_I_AMMO: 40mm Napalm Grenade
+      # STR_ROCKET LAUNCHER:
+      # STR_SMALL_ROCKET:
+      # STR_LARGE_ROCKET: 
 
 
 
@@ -1710,8 +1710,8 @@
       STR_PERSONAL_ARMOR_UC: PERSONAL ARMOR BLUE
       STR_PERSONAL_ARMOR_WHITE: Personal Armor White
       STR_PERSONAL_ARMOR_WHITE_UC: PERSONAL ARMOR WHITE
-      STR_PERSONAL_ARMOR_PURPLE: Personal Armor Green
-      STR_PERSONAL_ARMOR_PURPLE_UC: PERSONAL ARMOR GREEN
+      STR_PERSONAL_ARMOR_GREEN: Personal Armor Green
+      STR_PERSONAL_ARMOR_GREEN_UC: PERSONAL ARMOR GREEN
       STR_PERSONAL_ARMOR_GREY: Personal Armor Grey
       STR_PERSONAL_ARMOR_GREY_UC: PERSONAL ARMOR GREY
       STR_PERSONAL_ARMOR_BLACK: Personal Armor Black
@@ -1824,7 +1824,7 @@
 
 
       STR_XP_MACHINE_PISTOL_UFOPEDIA: The X1 Machine Pistol is a precision engineered rapid fire pistol with a three round burst using 9mm ammo.
-      STR_XP_PISTOL_SMALL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition. 
+      STR_XP_SMALL_PISTOL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition. 
       STR_XP_MAGNUM_UFOPEDIA: X3 Heavy Pistol uses a high caliber .44 MAG round for extra power. The high quality engineering makes this the most powerful ballistic pistol in the world.
       STR_XP_UZI_UFOPEDIA: The X4A design is based heavily on the Uzi. The design has been further refined to increase performance using .45 ACP ammunition.
       STR_XP_PDW_UFOPEDIA: X6A is a precision machined Personal Defense Weapon made exclusively by XCom chambering 5.56mm ammunition.

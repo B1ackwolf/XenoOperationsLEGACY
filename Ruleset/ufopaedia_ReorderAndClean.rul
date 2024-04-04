@@ -939,24 +939,24 @@ ufopaedia:
   - id: STR_ST_MINIGUN_BELT
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_ST_LAUNCHER
+  - id: STR_HEAVY_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ST_LAUNCHER_UFOPEDIA
+    text: STR_HEAVY_CANNON_UFOPEDIA
     listOrder: 2114
-  - id: STR_ST_LAUNCHER_AMMO1
+  - id: STR_HC_HE_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_ST_LAUNCHER_AMMO2
+  - id: STR_HC_I_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_ST_LAUNCHER_AMMO3
+  - id: STR_HC_AP_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_ST_BAZOOKA
+  - id: STR_ROCKET_LAUNCHER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ST_BAZOOKA_UFOPEDIA
+    text: STR_ROCKET_LAUNCHER_UFOPEDIA
     listOrder: 2115
 #reorder this, ojito#
   - id: STR_KNIFE
@@ -1004,12 +1004,12 @@ ufopaedia:
     listOrder: 4804
 #reorder everything above this, ojito#
 #####-----Second Tier Experimental Ballistic Weaponry
-  - id: STR_XP_PISTOL_SMALL
+  - id: STR_XP_SMALL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_XP_PISTOL_SMALL_UFOPEDIA
+    text: STR_XP_SMALL_PISTOL_UFOPEDIA
     listOrder: 2201
   - id: STR_XP_MACHINE_PISTOL
     type_id: 4
@@ -2283,6 +2283,11 @@ ufopaedia:
     requires:
       - STR_GLOBAL_RADAR
     text: STR_SAT_UP_NET_UFOPEDIA
+  - id: STR_ALIEN_CONTAINMENT
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_ALIEN_CONTAINMENT
   - id: STR_HYP_UP_NET
     type_id: 6
     section: STR_BASE_FACILITIES
@@ -2313,10 +2318,18 @@ ufopaedia:
   - id: STR_LARGE_WORKSHOP
     type_id: 6
     section: STR_BASE_FACILITIES
+    requires:
+      - STR_ELERIUM_115
+      - STR_ALIEN_ALLOYS
+      - STR_UFO_POWER_SOURCE
     text: STR_LARGE_WORKSHOP_UFOPEDIA
   - id: STR_LARGE_LAB
     type_id: 6
     section: STR_BASE_FACILITIES
+    requires:
+      - STR_ELERIUM_115
+      - STR_ALIEN_ALLOYS
+      - STR_UFO_POWER_SOURCE
     text: STR_LARGE_LAB_UFOPEDIA
   - id: STR_PSIONIC_LABORATORY_LARGE
     type_id: 6
