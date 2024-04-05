@@ -888,10 +888,10 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ST_SHOTGUN_UFOPEDIA
     listOrder: 2107
-  - id: STR_ST_SHOTGUN_SHELLS
+  - id: STR_ST_SHOTGUN_SHELLS1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_ST_SHOTGUN_SLUGS
+  - id: STR_ST_SHOTGUN_SHELLS2
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_ST_BULLPUP
@@ -1011,53 +1011,53 @@ ufopaedia:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
     text: STR_XP_SMALL_PISTOL_UFOPEDIA
     listOrder: 2201
-  - id: STR_XP_MACHINE_PISTOL
+  - id: STR_XP_AUTO_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_XP_MACHINE_PISTOL_UFOPEDIA
+    text: STR_XP_AUTO_PISTOL_UFOPEDIA
     listOrder: 2202
-  - id: STR_XP_MACHINE_PISTOL_CLIP_ALLOY
+  - id: STR_XP_SMALL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_MACHINE_PISTOL_CLIP_TECH
+  - id: STR_XP_SMALL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_XP_PISTOL
+  - id: STR_XP_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_XP_PISTOL_UFOPEDIA
+    text: STR_XP_MAIN_PISTOL_UFOPEDIA
     listOrder: 2203
-  - id: STR_XP_PISTOL_CLIP_ALLOY
+  - id: STR_XP_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_PISTOL_CLIP_TECH
+  - id: STR_XP_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_XP_MAGNUM
+  - id: STR_XP_HEAVY_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text:  STR_XP_MAGNUM_UFOPEDIA
+    text:  STR_XP_HEAVY_PISTOL_UFOPEDIA
     listOrder: 2204
-  - id: STR_XP_MAGNUM_CLIP_ALLOY
+  - id: STR_XP_HEAVY_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_MAGNUM_CLIP_TECH
+  - id: STR_XP_HEAVY_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1076,12 +1076,12 @@ ufopaedia:
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
     listOrder: 2206
-  - id: STR_XP_UZI_CLIP_ALLOY
+  - id: STR_XP_SMG_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_UZI_CLIP_TECH
+  - id: STR_XP_SMG_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1093,22 +1093,22 @@ ufopaedia:
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
     listOrder: 2207
-  - id: STR_XP_SHOTGUN_SHELLS_ALLOY
+  - id: STR_XP_SHOTGUN_SHELLS2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION 
-  - id: STR_XP_SHOTGUN_SHELLS_TECH
+  - id: STR_XP_SHOTGUN_SHELLS3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS 
-  - id: STR_XP_PDW
+  - id: STR_XP_BULLPUP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
-    text: STR_XP_PDW_UFOPEDIA
+    text: STR_XP_BULLPUP_UFOPEDIA
     listOrder: 2208
   - id: STR_XP_RIFLE
     type_id: 4
@@ -1117,12 +1117,12 @@ ufopaedia:
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
     listOrder: 2209
-  - id: STR_XP_RIFLE_CLIP_ALLOY
+  - id: STR_XP_RIFLE_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_RIFLE_CLIP_TECH
+  - id: STR_XP_RIFLE_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1134,152 +1134,152 @@ ufopaedia:
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2210
-  - id: STR_XP_LMG_BELT_ALLOY
+  - id: STR_XP_LMG_BELT2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_LMG_BELT_TECH
+  - id: STR_XP_LMG_BELT3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_XP_SNIPER_RIFLE
+  - id: STR_XP_ANTI_MATERIEL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_XP_SNIPER_RIFLE_UFOPEDIA
+    text: STR_XP_ANTI_MATERIEL_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
     listOrder: 2211
-  - id: STR_XP_SNIPER_RIFLE_CLIP_ALLOY
+  - id: STR_XP_ANTI_MATERIEL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_SNIPER_RIFLE_CLIP_TECH
+  - id: STR_XP_ANTI_MATERIEL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_XP_MINGUN
+  - id: STR_XP_MINIGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_XP_MINGUN_UFOPEDIA
+    text: STR_XP_MINIGUN_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2212
-  - id: STR_XP_MINGUN_BELT_ALLOY
+  - id: STR_XP_MINIGUN_BELT2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_MINGUN_BELT_TECH
+  - id: STR_XP_MINIGUN_BELT3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_XP__ASSAULT_CANNON
+  - id: STR_XP_AUTO_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_XP__ASSAULT_CANNON_UFOPEDIA
+    text: STR_XP_AUTO_CANNON_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2213
-  - id: STR_XP__ASSAULT_CANNON_BELT
+  - id: STR_XP_AUTO_CANNON_BELT
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_XP__ASSAULT_CANNON_BELT_ALLOY
+  - id: STR_XP_AUTO_CANNON_BELT2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP__ASSAULT_CANNON_BELT_TECH
+  - id: STR_XP_AUTO_CANNON_BELT3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_TECH_ROUNDS
-  - id: STR_XP_RL
+  - id: STR_XP_BAZOOKA
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_XP_RL_UFOPEDIA
+    text: STR_XP_BAZOOKA_UFOPEDIA
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2214
-  - id: STR_XP_R1
+  - id: STR_XP_ROCKET1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_XP_R2
+  - id: STR_XP_ROCKET2
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_AP_ROCKET
+  - id: STR_XP_APROCKET
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
 #####----- Third Tier Hybrid Weaponry
-  - id: STR_HB_PISTOL_SMALL
+  - id: STR_HB_SMALL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
-    text: STR_HB_PISTOL_SMALL_UFOPEDIA
+    text: STR_HB_SMALL_PISTOL_UFOPEDIA
     listOrder: 2301
-  - id: STR_HB_PISTOL_MACHINE
+  - id: STR_HB_AUTO_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
-    text: STR_HB_PISTOL_MACHINE_UFOPEDIA
+    text: STR_HB_MAIN_PISTOL_MACHINE_UFOPEDIA
     listOrder: 2302
-  - id: STR_HB_PISTOL_MACHINE_CLIP
+  - id: STR_HB_SMALL_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_PISTOL_MACHINE_CLIP2
+  - id: STR_HB_SMALL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_PISTOL_MACHINE_CLIP3
+  - id: STR_HB_SMALL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_E115_ROUNDS
-  - id: STR_HB_PISTOL
+  - id: STR_HB_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
-    text: STR_HB_PISTOL_UFOPEDIA
+    text: STR_HB_MAIN_PISTOL_UFOPEDIA
     listOrder: 2303
-  - id: STR_HB_PISTOL_CLIP
+  - id: STR_HB_MAIN_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_PISTOL_CLIP2
+  - id: STR_HB_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_PISTOL_CLIP3
+  - id: STR_HB_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_E115_ROUNDS
-  - id: STR_HB_PISTOL_LARGE
+  - id: STR_HB_HEAVY_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
-    text:  STR_HB_PISTOL_LARGE_UFOPEDIA
+    text:  STR_HB_HEAVY_PISTOL_UFOPEDIA
     listOrder: 2304
-  - id: STR_HB_PISTOL_LARGE_CLIP
+  - id: STR_HB_HEAVY_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_PISTOL_LARGE_CLIP2
+  - id: STR_HB_HEAVY_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_PISTOL_LARGE_CLIP3
+  - id: STR_HB_HEAVY_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1298,15 +1298,15 @@ ufopaedia:
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2306
-  - id: STR_HB_UZI_CLIP
+  - id: STR_HB_SMG_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_UZI_CLIP2
+  - id: STR_HB_SMG_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_UZI_CLIP3
+  - id: STR_HB_SMG_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1318,25 +1318,25 @@ ufopaedia:
     requires:
       - STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2307
-  - id: STR_HB_SHOTGUN_CLIP
+  - id: STR_HB_SHOTGUN_SHELLS1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_SHOTGUN_CLIP2
+  - id: STR_HB_SHOTGUN_SHELLS2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS 
-  - id: STR_HB_SHOTGUN_CLIP3
+  - id: STR_HB_SHOTGUN_SHELLS3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_E115_ROUNDS 
-  - id: STR_HB_PDW
+  - id: STR_HB_BULLPUP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
-    text: STR_HB_PDW_UFOPEDIA
+    text: STR_HB_BULLPUP_UFOPEDIA
     listOrder: 2308
   - id: STR_HB_RIFLE
     type_id: 4
@@ -1345,7 +1345,7 @@ ufopaedia:
     requires:
       - STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2309
-  - id: STR_HB_RIFLE_CLIP
+  - id: STR_HB_RIFLE_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_HB_RIFLE_CLIP2
@@ -1365,15 +1365,15 @@ ufopaedia:
     requires:
       - STR_HEAVY_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2310
-  - id: STR_HB_LMG_CLIP
+  - id: STR_HB_LMG_BELT1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_LMG_CLIP2
+  - id: STR_HB_LMG_BELT2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_LMG_CLIP3
+  - id: STR_HB_LMG_BELT3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1385,7 +1385,7 @@ ufopaedia:
     requires:
       - STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2311
-  - id: STR_HB_SNIPER_CLIP
+  - id: STR_HB_SNIPER_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_HB_SNIPER_CLIP2
@@ -1398,37 +1398,37 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_E115_ROUNDS
-  - id: STR_HB_CANNON
+  - id: STR_HB_AUTO_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HB_CANNON_UFOPEDIA
+    text: STR_HB_AUTO_CANNON_UFOPEDIA
     requires:
       - STR_HEAVY_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2312
-  - id: STR_HB_CANNON_CLIP
+  - id: STR_HB_AUTO_CANNON_BELT1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_CANNON_CLIP2
+  - id: STR_HB_AUTO_CANNON_BELT2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_CANNON_CLIP3
+  - id: STR_HB_AUTO_CANNON_BELT3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_E115_ROUNDS
-  - id: STR_HB_RL
+  - id: STR_HB_BAZOOKA
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HB_RL_UFOPEDIA
+    text: STR_HB_BAZOOKA_UFOPEDIA
     requires:
       - STR_HEAVY_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2313
   - id: STR_HB_MISSILE
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_MISSILE2
+  - id: STR_HB_ROCKET2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -2600,23 +2600,23 @@ ufopaedia:
     # image_id: UFOPAEDIA_IMG_HYBRID_CORPSE
     text: STR_CYBERDISC_AUTOPSY_UFOPEDIA
     text_width: 158
-  - id: STR_HYBRID
+  - id: STR_ABOMINATION
     type_id: 7
     listOrder: 553
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_HYBRID
+      - STR_ABOMINATION
     image_id: UFOPAEDIA_IMG_HYBRID
-    text: STR_HYBRID_UFOPEDIA
+    text: STR_ABOMINATION_UFOPEDIA
     text_width: 158
-  - id: STR_HYBRID_AUTOPSY
+  - id: STR_ABOMINATION_AUTOPSY
     type_id: 7
     listOrder: 554
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_HYBRID_CORPSE
+      - STR_ABOMINATION_CORPSE
     image_id: UFOPAEDIA_IMG_HYBRID_CORPSE
-    text: STR_HYBRID_AUTOPSY_UFOPEDIA
+    text: STR_ABOMINATION_AUTOPSY_UFOPEDIA
     text_width: 158
   - id: STR_REAPER
     type_id: 7
@@ -2690,23 +2690,23 @@ ufopaedia:
     # image_id: ojito
     text: STR_CHRYSSALID_AUTOPSY_UFOPEDIA
     text_width: 158
-  - id: STR_ANCIENT_ABOMINATION
+  - id: STR_ANCIENT_SPAWN
     type_id: 7
     listOrder: 563
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_ANCIENT_ABOMINATION
+      - STR_ANCIENT_SPAWN
     image_id: UFOPAEDIA_IMG_ANCIENT_ABOMINATION
-    text: STR_ANCIENT_ABOMINATION_UFOPEDIA
+    text: STR_ANCIENT_SPAWN_UFOPEDIA
     text_width: 158
-  - id: STR_ANCIENT_ABOMINATION_AUTOPSY
+  - id: STR_ANCIENT_SPAWN_AUTOPSY
     type_id: 7
     listOrder: 564
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_ANCIENT_ABOMINATION_CORPSE
+      - STR_ANCIENT_SPAWN_CORPSE
     image_id: UFOPAEDIA_IMG_ANCIENT_ABOMINATION_CORPSE
-    text: STR_ANCIENT_ABOMINATION_AUTOPSY_UFOPEDIA
+    text: STR_ANCIENT_SPAWN_AUTOPSY_UFOPEDIA
     text_width: 158
   - id: STR_ENERGYALIEN
     type_id: 7

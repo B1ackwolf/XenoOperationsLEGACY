@@ -8122,7 +8122,7 @@
   - type: HYBRID_ARMOR
     spriteSheet: HYBRID.PCK
     corpseBattle:
-      - STR_HYBRID_CORPSE
+      - STR_ABOMINATION_CORPSE
     frontArmor: 70
     sideArmor: 70
     rearArmor: 70
@@ -8341,7 +8341,7 @@
   - type: ABOMINATION_ARMOR
     spriteSheet: ABOMINATION.PCK
     corpseBattle:
-      - STR_ANCIENT_ABOMINATION_CORPSE
+      - STR_ANCIENT_SPAWN_CORPSE
     frontArmor: 0
     sideArmor: 0
     rearArmor: 0

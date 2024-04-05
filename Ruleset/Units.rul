@@ -891,8 +891,8 @@ units:
     deathSound: 961
     moveSound: 962
 # Abominations #
-  - type: STR_ANCIENT_ABOMINATION_TERRORIST
-    race: STR_ANCIENT_ABOMINATION_TERRORIST
+  - type: STR_ANCIENT_SPAWN_TERRORIST
+    race: STR_ANCIENT_SPAWN_TERRORIST
     rank: STR_LIVE_TERRORIST
     stats:
       tu: 50
@@ -918,8 +918,8 @@ units:
     energyRecovery: 40
     livingWeapon: true
 # Hybrids #
-  - type: STR_HYBRID
-    race: STR_HYBRID
+  - type: STR_ABOMINATION
+    race: STR_ABOMINATION
     rank: STR_LIVE_TERRORIST
     stats:
       tu: 60

@@ -1258,7 +1258,7 @@
       STR_SNAKEMAN_NAVIGATOR: Serpentoid Navigator
       STR_SNAKEMAN_ENGINEER: Serpentoid Engineer
       STR_SNAKEMAN_LEADER: Serpentoid Leader
-      STR_HYBRID: Abomination
+      STR_ABOMINATION: Abomination
       STR_SOVEREIGN: Sovereign
       STR_ENERGYALIEN: Solarite
       STR_ARMORED_SECTOID_COMMANDER: Armored Sectoid Commander
@@ -1276,16 +1276,16 @@
       STR_CARCHARODON_ENGINEER: Carcharodon Engineer
       STR_CARCHARODON_LEADER: Carcharodon Leader
       STR_CARCHARODON_SOLDIER: Carcharodon Soldier
-      STR_ANCIENT_ABOMINATION: Spawn
-      STR_ANCIENT_ABOMINATION_TERRORIST: Spawn
+      STR_ANCIENT_SPAWN: Spawn
+      STR_ANCIENT_SPAWN_TERRORIST: Spawn
       STR_JAWS: Carcharodon Attack
 #-----Alien Corpses and Autopsies
       STR_MUTON_COMMANDO_AUTOPSY: Muton Veteran autopsy
       STR_MUTON_CHIEFTAIN_AUTOPSY: Muton Leader autopsy
       STR_SNAKEMAN_CORPSE: Serpentoid Corpse
       STR_SNAKEMAN_AUTOPSY: Serpentoid autopsy
-      STR_HYBRID_CORPSE: Abomination Corpse
-      STR_HYBRID_AUTOPSY: Abomination autopsy
+      STR_ABOMINATION_CORPSE: Abomination Corpse
+      STR_ABOMINATION_AUTOPSY: Abomination autopsy
       STR_MUTON_COMMANDO_CORPSE: Muton Enforcer Corpse
       STR_MUTON_GUARD_CORPSE: Muton Elite Corpse
       STR_MUTON_CHIEFTAIN_CORPSE: Muton Chieftain Corpse
@@ -1300,9 +1300,9 @@
       STR_ARMORED_MUTON_CORPSE: Muton Warrior Corpse
       STR_MUTON_BERSERKER_CORPSE: Muton Berserker Corpse
       STR_MUTON_WARLORD_CORPSE: Muton Warlord Corpse
-      STR_ANCIENT_ABOMINATION_CORPSE: Spawn Corpse
+      STR_ANCIENT_SPAWN_CORPSE: Spawn Corpse
       STR_CARCHARODON_CORPSE: Carcharodon Corpse
-      STR_ANCIENT_ABOMINATION_AUTOPSY: Spawn autopsy
+      STR_ANCIENT_SPAWN_AUTOPSY: Spawn autopsy
       STR_CARCHARODON_AUTOPSY: Carcharodon autopsy
 #---------UFOs, ojito reordenar
       STR_SURVEY: Survey Skiff
@@ -1336,44 +1336,44 @@
       STR_TASER: Taser Pistol
       STR_TASER_CLIP: Taser Shock Clip
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
-      STR_XP_MACHINE_PISTOL: X1 Machine Pistol
-      STR_XP_MACHINE_PISTOL_CLIP_ALLOY: 9mm Alloys Magazine
-      STR_XP_MACHINE_PISTOL_CLIP_TECH: 9mm Tech Magazine
+      STR_XP_AUTO_PISTOL: X1 Machine Pistol
+      STR_XP_SMALL_PISTOL_CLIP2: 9mm Alloys Magazine
+      STR_XP_SMALL_PISTOL_CLIP3: 9mm Tech Magazine
       STR_XP_SMALL_PISTOL: X1A Compact Pistol
-      STR_XP_MAGNUM: X3 Heavy Pistol
-      STR_XP_MAGNUM_CLIP_ALLOY: .44 MAG Alloy Magazine
-      STR_XP_MAGNUM_CLIP_TECH: .44 MAG Tech Magazine
+      STR_XP_HEAVY_PISTOL: X3 Heavy Pistol
+      STR_XP_HEAVY_PISTOL_CLIP2: .44 MAG Alloy Magazine
+      STR_XP_HEAVY_PISTOL_CLIP3: .44 MAG Tech Magazine
       STR_XP_UZI: X4A Uzi Submachine Gun
-      STR_XP_UZI_CLIP_ALLOY: .45 ACP Alloy Magazine
-      STR_XP_UZI_CLIP_TECH: .45 ACP Tech Magazine
-      STR_XP_PDW: X6A Personal Defense Weapon
-      STR_XP_PISTOL: X2 Service Pistol
-      STR_XP_PISTOL_CLIP_ALLOY: .40 S&W Alloy Magazine
-      STR_XP_PISTOL_CLIP_TECH: .40 S&W Tech Magazine
+      STR_XP_SMG_CLIP2: .45 ACP Alloy Magazine
+      STR_XP_SMG_CLIP3: .45 ACP Tech Magazine
+      STR_XP_BULLPUP: X6A Personal Defense Weapon
+      STR_XP_MAIN_PISTOL: X2 Service Pistol
+      STR_XP_MAIN_PISTOL_CLIP2: .40 S&W Alloy Magazine
+      STR_XP_MAIN_PISTOL_CLIP3: .40 S&W Tech Magazine
       STR_XP_SMG: X4 Submachine Gun
       STR_XP_RIFLE: X6 Assault Rifle
-      STR_XP_RIFLE_CLIP_ALLOY: 5.56mm Alloy Magazine
-      STR_XP_RIFLE_CLIP_TECH: 5.56mm Tech Magazine
+      STR_XP_RIFLE_CLIP2: 5.56mm Alloy Magazine
+      STR_XP_RIFLE_CLIP3: 5.56mm Tech Magazine
       STR_XP_SHOTGUN: X5 Combat Shotgun
-      STR_XP_SHOTGUN_SHELLS_ALLOY: 12-gauge Alloy Shells
-      STR_XP_SHOTGUN_SHELLS_TECH: 12-gauge Tech Shells
+      STR_XP_SHOTGUN_SHELLS2: 12-gauge Alloy Shells
+      STR_XP_SHOTGUN_SHELLS3: 12-gauge Tech Shells
       STR_XP_LMG: X7 Light Machine Gun
-      STR_XP_LMG_BELT_ALLOY: 5.56mm Alloy Belt
-      STR_XP_LMG_BELT_TECH: 5.56mm Tech Belt
-      STR_XP_SNIPER_RIFLE: X8 Sniper Rifle
-      STR_XP_SNIPER_RIFLE_CLIP_ALLOY: .50 BMG Alloy Magazine
-      STR_XP_SNIPER_RIFLE_CLIP_TECH: .50 BMG Tech Magazine
-      STR_XP_RL: XXX Rocket Launcher
-      STR_XP_R1: X Light Rocket
-      STR_XP_R2: X Heavy Rocket
-      STR_AP_ROCKET: XAP Rocket
-      STR_XP_MINGUN: X9 Minigun
-      STR_XP_MINGUN_BELT_ALLOY: 5.56mm Minigun Alloy Box
-      STR_XP_MINGUN_BELT_TECH: 5.56mm Minigun Tech Box
-      STR_XP__ASSAULT_CANNON: XX Assault Cannon
-      STR_XP__ASSAULT_CANNON_BELT: 20mm Cannon Belt
-      STR_XP__ASSAULT_CANNON_BELT_ALLOY: 20mm Cannon Alloy Belt
-      STR_XP__ASSAULT_CANNON_BELT_TECH: 20mm Cannon Tech Belt
+      STR_XP_LMG_BELT2: 5.56mm Alloy Belt
+      STR_XP_LMG_BELT3: 5.56mm Tech Belt
+      STR_XP_ANTI_MATERIEL: X8 Sniper Rifle
+      STR_XP_ANTI_MATERIEL_CLIP2: .50 BMG Alloy Magazine
+      STR_XP_ANTI_MATERIEL_CLIP3: .50 BMG Tech Magazine
+      STR_XP_BAZOOKA: XXX Rocket Launcher
+      STR_XP_ROCKET1: X Light Rocket
+      STR_XP_ROCKET2: X Heavy Rocket
+      STR_XP_APROCKET: XAP Rocket
+      STR_XP_MINIGUN: X9 Minigun
+      STR_XP_MINIGUN_BELT2: 5.56mm Minigun Alloy Box
+      STR_XP_MINIGUN_BELT3: 5.56mm Minigun Tech Box
+      STR_XP_AUTO_CANNON: XX Assault Cannon
+      STR_XP_AUTO_CANNON_BELT: 20mm Cannon Belt
+      STR_XP_AUTO_CANNON_BELT2: 20mm Cannon Alloy Belt
+      STR_XP_AUTO_CANNON_BELT3: 20mm Cannon Tech Belt
       STR_INC_GRENADE: Napalm Grenade
       STR_KNIFE: Combat Knife
       STR_BRASS_KNUCKLES: Brass Knuckles
@@ -1399,8 +1399,8 @@
       STR_ST_SMG_CLIP: .45 ACP Magazine
       STR_ST_SHOTGUN: Combat Shotgun
       STR_ST_SHOTGUN_UFOPEDIA: "The Mossberg M590A1, XCom's standard 12-gauge shotgun. Renowned for its raw stopping power, delivers a devastating spread of metal pellets, capable of tearing unarmored foes to shreds. However, this spread diminishes accuracy over longer distances.{NEWLINE}Nevertheless, this limitation makes it ideal for breaching tight spaces, such as UFOs and rooms, where close-quarters combat reigns supreme. Additionally, XCom operatives can opt for solid slugs, providing versatility when a more precise shot against an armored foe is necessary."
-      STR_ST_SHOTGUN_SHELLS: 12-gauge Shells
-      STR_ST_SHOTGUN_SLUGS: 12-gauge Slugs
+      STR_ST_SHOTGUN_SHELLS1: 12-gauge Shells
+      STR_ST_SHOTGUN_SHELLS2: 12-gauge Slugs
       STR_ST_BULLPUP: Personal Defense Weapon
       STR_ST_BULLPUP_UFOPEDIA: "A PDW is designed to bridge the gap between carbines and submachine guns. the XCom choice was the IWI TAVOR TAR-21. This version utilizes the common 5.56mm ammunition and features a high-capacity magazine, ensuring ample rounds for engagements.{NEWLINE}The TAVOR showcases its merits setting itself apart from traditional rifles with its compact bullpup design and stands as a versatile choice for XCom operatives navigating in confined environments."
       STR_ST_RIFLE: Assault Rifle
@@ -1440,62 +1440,62 @@
 
 #-----Human Tier 3 Hybrids
 #ojitousar pa tercer tier assault cannon? "#While its bulkiness can pose challenges in mobility, the potential for devastation it offers against a wide range of enemy forces makes it an invaluable asset in X-Com's mission to defend humanity from the Alien invaders. Whether obscuring vision, creating explosive chaos, or igniting fierce fires of resistance, the Milkor Automatic Grenade Launcher stands ready to unleash the fury of X-Com."
-      STR_HB_PISTOL_SMALL: HY1A Compact Pistol
-      STR_HB_PISTOL_SMALL_UFOPEDIA: This small compact pistol uses alien Codex technology to greatly enhance its weight, accuracy, and impact force. This hybrid design is far superior to even the most advanced human ballistic technology firing powerful 10mm Auto ammo.
-      STR_HB_PISTOL: HY2 Service Pistol
-      STR_HB_PISTOL_CLIP: H. .38 SPL Magazine
-      STR_HB_PISTOL_CLIP2: H. .38 SPL Chem Mag
-      STR_HB_PISTOL_CLIP3: H. .38 SPL E115 Tipped Mag
-      STR_HB_PISTOL_UFOPEDIA: This pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a special .38 S&W Special alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its alien alloy construction and light weight make it an ideal sidearm.
-      STR_HB_PISTOL_MACHINE: HY1 Machine Pistol
-      STR_HB_PISTOL_MACHINE_CLIP: H. 10mm Magazine
-      STR_HB_PISTOL_MACHINE_CLIP2: H. 10mm Chem Mag
-      STR_HB_PISTOL_MACHINE_CLIP3: H. 10mm E115 Tipped Mag
-      STR_HB_PISTOL_MACHINE_UFOPEDIA: This machine pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a powerful 10mm Auto alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its high rate of fire comes at the cost of accuracy.
-      STR_HB_PISTOL_LARGE: HY3 Heavy Pistol
-      STR_HB_PISTOL_LARGE_CLIP: H. .50 AE Magazine
-      STR_HB_PISTOL_LARGE_CLIP2: H. .50 AE Chem Mag
-      STR_HB_PISTOL_LARGE_CLIP3: H. .50 E115 Tipped Mag
-      STR_HB_PISTOL_LARGE_UFOPEDIA: This pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a large .50 Action Express alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its powerful ammunition make it a deadly pistol.
+      STR_HB_SMALL_PISTOL: HY1A Compact Pistol
+      STR_HB_SMALL_PISTOL_UFOPEDIA: This small compact pistol uses alien Codex technology to greatly enhance its weight, accuracy, and impact force. This hybrid design is far superior to even the most advanced human ballistic technology firing powerful 10mm Auto ammo.
+      STR_HB_MAIN_PISTOL: HY2 Service Pistol
+      STR_HB_MAIN_PISTOL_CLIP1: H. .38 SPL Magazine
+      STR_HB_MAIN_PISTOL_CLIP2: H. .38 SPL Chem Mag
+      STR_HB_MAIN_PISTOL_CLIP3: H. .38 SPL E115 Tipped Mag
+      STR_HB_MAIN_PISTOL_UFOPEDIA: This pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a special .38 S&W Special alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its alien alloy construction and light weight make it an ideal sidearm.
+      STR_HB_AUTO_PISTOL: HY1 Machine Pistol
+      STR_HB_SMALL_PISTOL_CLIP1: H. 10mm Magazine
+      STR_HB_SMALL_PISTOL_CLIP2: H. 10mm Chem Mag
+      STR_HB_SMALL_PISTOL_CLIP3: H. 10mm E115 Tipped Mag
+      STR_HB_MAIN_PISTOL_MACHINE_UFOPEDIA: This machine pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a powerful 10mm Auto alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its high rate of fire comes at the cost of accuracy.
+      STR_HB_HEAVY_PISTOL: HY3 Heavy Pistol
+      STR_HB_HEAVY_PISTOL_CLIP1: H. .50 AE Magazine
+      STR_HB_HEAVY_PISTOL_CLIP2: H. .50 AE Chem Mag
+      STR_HB_HEAVY_PISTOL_CLIP3: H. .50 E115 Tipped Mag
+      STR_HB_HEAVY_PISTOL_UFOPEDIA: This pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a large .50 Action Express alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its powerful ammunition make it a deadly pistol.
       STR_HB_UZI: HY4A Uzi
-      STR_HB_UZI_CLIP: H. .357 MAG Magazine
-      STR_HB_UZI_CLIP2: H. .357 MAG Chem Mag
-      STR_HB_UZI_CLIP3: H. .357 MAG E115 Tipped Mag
+      STR_HB_SMG_CLIP1: H. .357 MAG Magazine
+      STR_HB_SMG_CLIP2: H. .357 MAG Chem Mag
+      STR_HB_SMG_CLIP3: H. .357 MAG E115 Tipped Mag
       STR_HB_UZI_UFOPEDIA: This uzi is a hybrid of alien Codex technology and human ballistic technology. It fires a special .357 Magnun alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. A small design is enhanced by its high rate of fire.
-      STR_HB_PDW: HY6A Personal Defense Weapon
+      STR_HB_BULLPUP: HY6A Personal Defense Weapon
 
-      STR_HB_PDW_UFOPEDIA: This personal defense weapon is a hybrid of alien Codex technology and ballistic technology. It fires a powerful 6.8mm alloy cartridge, but can also be adapted to fire special forms of ammo. Its light weight, powerful caliber, and compact design make it an ideal assault weapon.
+      STR_HB_BULLPUP_UFOPEDIA: This personal defense weapon is a hybrid of alien Codex technology and ballistic technology. It fires a powerful 6.8mm alloy cartridge, but can also be adapted to fire special forms of ammo. Its light weight, powerful caliber, and compact design make it an ideal assault weapon.
       STR_HB_SMG: HY4 Submachine Gun
       STR_HB_SMG_UFOPEDIA: This submachine gun is a hybrid of alien Codex technology and ballistic technology. It fires a .357 magnum alloy cartridge, but can also be adapted to fire special forms of ammo. Its light weight, and compact design make it an excellent close range weapon.
       STR_HB_RIFLE: HY6 Assault Rifle
-      STR_HB_RIFLE_CLIP: H. 6.8mm Magazine
+      STR_HB_RIFLE_CLIP1: H. 6.8mm Magazine
       STR_HB_RIFLE_CLIP2: H. 6.8mm Chem Mag
       STR_HB_RIFLE_CLIP3: H. 6.8mm E115 Tipped Mag
       STR_HB_RIFLE_UFOPEDIA: This assault rifle is a hybrid of alien Codex technology and ballistic technology. It fires a powerful yet accurate 6.8mm alien alloy cartridge, but can also be adapted to fire special ammo. With good range, firepower, and rate of fire, the hybrid Rifle is a good workhorse weapon.
       STR_HB_SHOTGUN: HY5 Combat Shotgun
-      STR_HB_SHOTGUN_CLIP: H. 10-gauge Shells
-      STR_HB_SHOTGUN_CLIP2: H. 10-gauge Chem Shells
-      STR_HB_SHOTGUN_CLIP3: H. 10-gauge E115 Shells
+      STR_HB_SHOTGUN_SHELLS1: H. 10-gauge Shells
+      STR_HB_SHOTGUN_SHELLS2: H. 10-gauge Chem Shells
+      STR_HB_SHOTGUN_SHELLS3: H. 10-gauge E115 Shells
       STR_HB_SHOTGUN_UFOPEDIA: This shotgun is a hybrid of alien Codex technology and ballistic technology. It has the particularity it can fires any shotgun ammunition made of alien alloys either in 10-gauge or in older 12-gauge versions. When fired, it sends a spray of high velocity projectiles that are devastating at close range.
       STR_HB_SNIPER: HY8 Sniper Rifle
-      STR_HB_SNIPER_CLIP: H. .52 SAAC Magazine
+      STR_HB_SNIPER_CLIP1: H. .52 SAAC Magazine
       STR_HB_SNIPER_CLIP2: H. .52 SAAC Rifle Chem Mag
       STR_HB_SNIPER_CLIP3: H. .52 SAAC E115 Tipped Mag
       STR_HB_SNIPER_UFOPEDIA: This sniper rifle is a hybrid of alien Codex technology and ballistic technology. It fires the largest caliber aviable, made exclusively by xcom manufacturing industry the .52 SAAC  alien alloy cartridge, but can also be adapted to fire special forms of ammo. A long distance computerized scope greatly enhances accuracy.
       STR_HB_LMG: HY7 Squad Automatic Weapon
-      STR_HB_LMG_CLIP: H. 6.8mm Belt
-      STR_HB_LMG_CLIP2: H. 6.8mm Chem Belt
-      STR_HB_LMG_CLIP3: H. 6.8mm E115 Tipped Belt
+      STR_HB_LMG_BELT1: H. 6.8mm Belt
+      STR_HB_LMG_BELT2: H. 6.8mm Chem Belt
+      STR_HB_LMG_BELT3: H. 6.8mm E115 Tipped Belt
       STR_HB_LMG_UFOPEDIA: This light machine gun is a hybrid of alien Codex technology and ballistic technology. It fires an alien alloy cartridge, but can also be adapted to fire special forms of ammo. Its high rate of fire make it an excellent mid range suppressor.
-      STR_HB_CANNON: HY9 Assault Cannon
-      STR_HB_CANNON_CLIP: H. Cannon Belt
-      STR_HB_CANNON_CLIP2: H. Cannon Chem Belt
-      STR_HB_CANNON_CLIP3: H. Cannon E115 Tipped Belt
-      STR_HB_CANNON_UFOPEDIA: This automatic cannon is a hybrid of alien Codex technology and ballistic technology. It fires a powerful alien alloy shell, but can also be adapted to fire special forms of ammo. Although slower than most hybrid weapons, its firepower is unrivaled.
-      STR_HB_RL: HY10 Rocket Launcher
+      STR_HB_AUTO_CANNON: HY9 Assault Cannon
+      STR_HB_AUTO_CANNON_BELT1: H. Cannon Belt
+      STR_HB_AUTO_CANNON_BELT2: H. Cannon Chem Belt
+      STR_HB_AUTO_CANNON_BELT3: H. Cannon E115 Tipped Belt
+      STR_HB_AUTO_CANNON_UFOPEDIA: This automatic cannon is a hybrid of alien Codex technology and ballistic technology. It fires a powerful alien alloy shell, but can also be adapted to fire special forms of ammo. Although slower than most hybrid weapons, its firepower is unrivaled.
+      STR_HB_BAZOOKA: HY10 Rocket Launcher
       STR_HB_MISSILE: HY Elerium Missile
-      STR_HB_MISSILE2: HY Chemical Missile
-      STR_HB_RL_UFOPEDIA: This rocket launcher is a hybrid of alien Codex technology and human technology. It fires a deadly elerium enhanced explosive rocket. While both the weapon and its ammo are expensive, their destructive force is beyond even the High Explosive.
+      STR_HB_ROCKET2: HY Chemical Missile
+      STR_HB_BAZOOKA_UFOPEDIA: This rocket launcher is a hybrid of alien Codex technology and human technology. It fires a deadly elerium enhanced explosive rocket. While both the weapon and its ammo are expensive, their destructive force is beyond even the High Explosive.
       STR_HB_GRENADE: Hybrid Grenade
       STR_HB_GRENADE_UFOPEDIA: This grenade uses alien alloys to greatly enhance its explosive power while reducing its weight.
       STR_HB_GRENADE2: Hybrid Chem Grenade
@@ -1823,21 +1823,21 @@
 
 
 
-      STR_XP_MACHINE_PISTOL_UFOPEDIA: The X1 Machine Pistol is a precision engineered rapid fire pistol with a three round burst using 9mm ammo.
+      STR_XP_AUTO_PISTOL_UFOPEDIA: The X1 Machine Pistol is a precision engineered rapid fire pistol with a three round burst using 9mm ammo.
       STR_XP_SMALL_PISTOL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition. 
-      STR_XP_MAGNUM_UFOPEDIA: X3 Heavy Pistol uses a high caliber .44 MAG round for extra power. The high quality engineering makes this the most powerful ballistic pistol in the world.
+      STR_XP_HEAVY_PISTOL_UFOPEDIA: X3 Heavy Pistol uses a high caliber .44 MAG round for extra power. The high quality engineering makes this the most powerful ballistic pistol in the world.
       STR_XP_UZI_UFOPEDIA: The X4A design is based heavily on the Uzi. The design has been further refined to increase performance using .45 ACP ammunition.
-      STR_XP_PDW_UFOPEDIA: X6A is a precision machined Personal Defense Weapon made exclusively by XCom chambering 5.56mm ammunition.
+      STR_XP_BULLPUP_UFOPEDIA: X6A is a precision machined Personal Defense Weapon made exclusively by XCom chambering 5.56mm ammunition.
       STR_XP_LMG_UFOPEDIA: The X7 Light Machine Gun currently out performs the conventional version chambering versatile 5.56 ammunition.
-      STR_XP_PISTOL_UFOPEDIA: The X2 Service pistol is the first in a new series of ballistic technology deployed exclusively by XCom. This state of the art pistol performs all around superior to all other conventional pistols employed by any human army and uses .40 S&W rounds.
+      STR_XP_MAIN_PISTOL_UFOPEDIA: The X2 Service pistol is the first in a new series of ballistic technology deployed exclusively by XCom. This state of the art pistol performs all around superior to all other conventional pistols employed by any human army and uses .40 S&W rounds.
       STR_XP_RIFLE_UFOPEDIA: The X6 Rifle is a precision machined 5.56mm assault rifle. It out preforms other models used by today's conventional armies.
       STR_XP_SHOTGUN_UFOPEDIA: The X5 Shotgun uses principles we have learned earlier in the X weapons program to adapt it to a well manufactured shotgun. It can be used with already existing 12-gauge shotgun ammo.
       STR_XP_SMG_UFOPEDIA: X4 Submachine Gun is a high performance .45 ACP weapon developed and produced by XCom. It out performs the conventional Submachine Gun available for purchase.
-      STR_XP_SNIPER_RIFLE_UFOPEDIA: The X8 Sniper Rifle is the pinnacle of the X weapons development program. This highly accurate sniper rifle outperforms any other model currently held by human militaries including anti-materiel rifles. Using improved machined pieces, it can endure the wear and tear produced by .50 BMG ammunition fired at faster rates.
-      STR_XP_RL_UFOPEDIA: The XXX Rocket Launcher fires light weight, but destructive rockets more accurately than any missile system available to conventional earth forces. Additionaly it can use any of the rockets already aviable on the market for extra usability.
-      STR_AP_ROCKET_UFOPEDIA: This Armor Piercing rocket is enhanced using Alien Alloys. While not explosive, it will punch through most armor. It is fired using the Rocket Launcher.
-      STR_XP__ASSAULT_CANNON_UFOPEDIA: The XX Assault cannon combines the power of the conventional Heavy Cannon with the rapid fire capabilities of the Autocannon.
-      STR_XP_MINGUN_UFOPEDIA: The X9 Minigun is lighter and more accurate than the conventional minigun.
+      STR_XP_ANTI_MATERIEL_UFOPEDIA: The X8 Sniper Rifle is the pinnacle of the X weapons development program. This highly accurate sniper rifle outperforms any other model currently held by human militaries including anti-materiel rifles. Using improved machined pieces, it can endure the wear and tear produced by .50 BMG ammunition fired at faster rates.
+      STR_XP_BAZOOKA_UFOPEDIA: The XXX Rocket Launcher fires light weight, but destructive rockets more accurately than any missile system available to conventional earth forces. Additionaly it can use any of the rockets already aviable on the market for extra usability.
+      STR_XP_APROCKET_UFOPEDIA: This Armor Piercing rocket is enhanced using Alien Alloys. While not explosive, it will punch through most armor. It is fired using the Rocket Launcher.
+      STR_XP_AUTO_CANNON_UFOPEDIA: The XX Assault cannon combines the power of the conventional Heavy Cannon with the rapid fire capabilities of the Autocannon.
+      STR_XP_MINIGUN_UFOPEDIA: The X9 Minigun is lighter and more accurate than the conventional minigun.
       STR_HYBRID_BALLISTICS_UFOPAEDIA: Recovered codex knowledge has given our engineers enough data to begin a third generation of ballistic weapons that are enhanced with alien technology. These weapons use alien alloys and components to greatly enhance their performance and versatility.
       STR_LASER_SNIPER_RIFLE_UFOPEDIA: A sniper rifle based on laser technology. Very accurate with a slower rate of fire.
       STR_LASER_SMG_UFOPEDIA: The Assault Laser is a more offensive focused redesign of the Laser Pistol. Its high rate of fire is useful for close quarters assault.
@@ -1905,8 +1905,8 @@
       STR_GOODS_6_UFOPEDIA: Nano Immune Cells are a replication of alien medical technology without the special material cost. These cells could heal nearly any disease and would fetch a significant profit on the medical market.
       STR_ALLOY_AMMUNITION_UFOPEDIA: Once the machining processes for working with Alien Alloys is established, it is possible to use a coating of Alien Alloys on conventional bullets. The light weight and high toughness make it an excellent armor piercing coating for our bullets.
 #-----UFOPaedia Alien Lifeforms
-      STR_HYBRID_UFOPEDIA: The labor of twisted Sectoid science has finally bore an equally twisted fruit. They have succeed in making a hybrid race with humanity. This abomination has potent psionic abilities which it can weaponize it into a powerful psionic blast. It's psionic abilities can also control directed energy projectiles turning the bolts away from it, but it has difficulty with solid mass projectiles. Like many hybrids this thing is thankfully sterile. This creature spends its life in constant pain. Further subjects should be euthanized as a mercy.
-      STR_HYBRID_AUTOPSY_UFOPEDIA: As we feared, this hybrid creature contains both human and Sectoid DNA. Cybernetic implants keep this monster alive though its potent psionic abilities explain how this abomination can function at all. Organs are a mishmash of alien and human ones and most appear to be non-functioning with no evidence of reproductive organs at all. Limbs are misshapen and useless. The massive exposed brain draws oxygen directly from the air, but how it resists infection is a mystery. Its energy blasts are likely psionic in nature as are its resistance to energy based weapons.
+      STR_ABOMINATION_UFOPEDIA: The labor of twisted Sectoid science has finally bore an equally twisted fruit. They have succeed in making a hybrid race with humanity. This abomination has potent psionic abilities which it can weaponize it into a powerful psionic blast. It's psionic abilities can also control directed energy projectiles turning the bolts away from it, but it has difficulty with solid mass projectiles. Like many hybrids this thing is thankfully sterile. This creature spends its life in constant pain. Further subjects should be euthanized as a mercy.
+      STR_ABOMINATION_AUTOPSY_UFOPEDIA: As we feared, this hybrid creature contains both human and Sectoid DNA. Cybernetic implants keep this monster alive though its potent psionic abilities explain how this abomination can function at all. Organs are a mishmash of alien and human ones and most appear to be non-functioning with no evidence of reproductive organs at all. Limbs are misshapen and useless. The massive exposed brain draws oxygen directly from the air, but how it resists infection is a mystery. Its energy blasts are likely psionic in nature as are its resistance to energy based weapons.
       STR_MUTON_CHIEFTAIN_UFOPEDIA: "Amongst the Muton ranks, an exceedingly rare one in a thousand stands out with remarkable intelligence. These exceptional individuals are identified and subjected to an intense and harsh training regimen, molding them into enforcer units of unparalleled prowess. Among these elite enforcers, only one in a thousand possesses the combined qualities of intelligence and brute strength required to ascend to the coveted rank of Chieftain.The Chieftains, as they are known, assume a pivotal leadership role within the Muton forces. They wield an uncanny influence over their fellow Mutons, surpassing even psionic control. A mere gesture from a Chieftain can ignite an insatiable, bloodthirsty frenzy among the Muton legions they lead. These remarkable beings are characterized by their cunning strategies and exceptional physical might, often taking on the role of a commanding Captain within the hierarchy of the Alien armies."
       STR_MUTON_WARLORD_UFOPEDIA: "These exceptional beings represent the pinnacle of Muton combat prowess, transcending the already formidable abilities of Chieftains. If Chieftains were known for their cunning and brutality, these specimens take these characteristics to an entirely new echelon. To attain the revered rank of Warlord, only the most intelligent and battle-hardened Chieftains can ascend, solidifying their position as leaders within Muton society.Warlords are more than just battlefield commanders; they belong to the highest echelon of the Muton caste system. Within the Alien armies, they play a role akin to that of a general, orchestrating the complex strategies and tactics employed by their fellow Mutons in the relentless pursuit of their objectives. These formidable leaders ensure that the Muton forces remain a formidable and highly organized threat on the battlefield, making them a significant adversary for X-Com and other Earth-based defenders."
       STR_MUTON_CHIEFTAIN_AUTOPSY_UFOPEDIA: This is a truly impressive physical specimen of a Muton. This creature's raw power alone could rip apart most of our vehicles with nothing but its hands. Numerous battle scars suggests this creature has seen a lot of combat. The brain appears more developed than other specimens seen. Likely it does not possess a weakness to psionic control like its smaller cousins.
@@ -1923,9 +1923,9 @@
       STR_FORMIC_AUTOPSY_UFOPEDIA: This specimen, referred as "Formics" bears a semblance to the earthly Ant, albeit probably having undergone an extraordinary process of accelerated growth and genetic manipulation. In contrast to numerous alien autopsies, the Formics display minimal cybernetic augmentation with the exception of a cybernetic device intricately linked to its neural network. This exercises direct control over the Formics, suppressing its innate instincts and enabling remote guidance. It's crucial to note that Earth's environmental conditions, including gravity and oxygen levels, would render the Formics unable to survive for extended periods of time. The Formics boast a robust and resilient exoskeleton, particularly on their dorsal side with remarkable resistance to corrosive substances, their primitive nervous system exhibits resilience to stunning effects rendering them exceptionally resistant to incapacitation through conventional means. Although it remains susceptible to combustion under certain conditions. 
       STR_ARMORED_MUTON_UFOPEDIA: These formidable adversaries, known as Muton Warriors, bear a striking physical resemblance to their standard Muton counterparts. What sets them apart is the remarkable upgrade in the form of heavy powered armor. Clad in this formidable exosuit, they transform into walking tanks on the battlefield, significantly enhancing their combat endurance and resilience.However, despite their imposing physical presence and enhanced armor, these Warriors are not without their vulnerabilities. Their mental faculties remain as susceptible as those of regular Mutons, making them ripe targets for psionic attacks. This discrepancy between their physical might and mental fragility is a double-edged sword, presenting both an advantage and a critical weakness for these imposing soldiers. While their armored forms make them formidable adversaries in direct combat, their limited resistance to psionics leaves them susceptible to mind-controlling and debilitating psychic abilities employed by X-Com operatives. Consequently, a well-placed psionic strike can be just as effective at neutralizing a Muton Warrior as a barrage of conventional weaponry.
       STR_MUTON_BERSERKER_UFOPEDIA: A rare psychological anomaly afflicts approximately one in a thousand Mutons, rendering them immune to psionic control while subjecting them to unending fits of uncontrollable rage. Instead of discarding these unique individuals, the Aliens have devised a sinister purpose for them in terror operations. These tormented Mutons are carefully sedated and preserved, awaiting their moment of awakening.Upon revival, they are administered a potent chemical cocktail, amplifying their already boundless rage to unprecedented levels. In this frenzied state, these creatures become known as "Berserkers." Remarkably, Berserkers remain impervious to the sensations of pain and fear, consumed solely by an unrelenting wellspring of hatred and aggression. This makes them exceptionally formidable opponents on the battlefield, charging relentlessly at any perceived threat with an insatiable fury that knows no bounds. Facing a Berserker in combat is a harrowing ordeal, as they become living embodiments of relentless violence and destruction, sparing neither X-Com operatives nor their own Alien counterparts in their blind pursuit of annihilation.
-      STR_ANCIENT_ABOMINATION_UFOPEDIA: This thing is not an individual life form, but an extension of something far larger. The rest of its body exists in an external dimension. This powerful, almost god-like creature has existed before our own universe. This ancient abomination is not quite alive. It is clear that the alien collective does not fully understand what this ancient thing is, but have somehow allied with it.
+      STR_ANCIENT_SPAWN_UFOPEDIA: This thing is not an individual life form, but an extension of something far larger. The rest of its body exists in an external dimension. This powerful, almost god-like creature has existed before our own universe. This ancient abomination is not quite alive. It is clear that the alien collective does not fully understand what this ancient thing is, but have somehow allied with it.
       STR_CARCHARODON_UFOPEDIA: Carcharodons are a highly mercenary warrior species. They are far more independent than most races who are entirely reliant on the alien hierarchy in order to survive. Although highly organized and intelligent, they are unable to control their predatory instincts for very long. They often turn on their wounded after battle and thus have no medics. Other aliens contract these predators to do their dirty work for them and the Carcharodons are more than willing to engage in any battle whether it be terror strikes or destroying military facilities.
-      STR_ANCIENT_ABOMINATION_AUTOPSY_UFOPEDIA: This monster should not be alive. It lacks a mouth or any form of a digestive system. What was its muscular system has liquefied shortly after death. it has some kind of extra dimensional sense. Chemical analysis of remains makes it apparent that this life form is not carbon based. Its impossible biology makes it immune to acid damage, but highly vulnerable to fire based damage.
+      STR_ANCIENT_SPAWN_AUTOPSY_UFOPEDIA: This monster should not be alive. It lacks a mouth or any form of a digestive system. What was its muscular system has liquefied shortly after death. it has some kind of extra dimensional sense. Chemical analysis of remains makes it apparent that this life form is not carbon based. Its impossible biology makes it immune to acid damage, but highly vulnerable to fire based damage.
       STR_CARCHARODON_AUTOPSY_UFOPEDIA: This mass of muscle greatly resembles a humanoid shark. Gills and skin are obviously adapted to an aquatic environment though cybernetics allow it to operate on land for short periods of time. Stomach contents show this carnivore has a large appetite for raw flesh. Razor sharp teeth and heighten senses along with a well developed brain make this a deadly and fast predator. Oily skin increases the bloom effect of laser weapons, reducing their effectiveness. In addition, its thick muscle reduces the piercing power of bladed melee weapons.
 #---------Tech Tree UFOpaedia stuff
       STR_NEXT_GEN_BALLISTICS_UFOPEDIA: With access to the best scientists and engineers in the world, XCom may be able to jump ballistic technology forward a decade within only a few months. Research teams have divided our efforts into several items. Hypersonic Barrel, Hypersonic Design, and Micro Fragmentation. Both new barrel and design techniques should lead to better precision machined firearms that outperform current weapons. Micro Fragmentation may allow our engineers to build better grenades and explosives.

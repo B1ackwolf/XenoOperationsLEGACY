@@ -586,7 +586,7 @@ research:
       - STR_REAPER_CORPSE
       - STR_MUTON_COMMANDO_CORPSE
       - STR_MUTON_CHIEFTAIN_CORPSE
-      - STR_HYBRID_CORPSE
+      - STR_ABOMINATION_CORPSE
       - STR_FORMIC_CORPSE
       - STR_ARMORED_MUTON_CORPSE
       # - STR_MUTON_WARLORD_CORPSE
@@ -721,7 +721,7 @@ research:
       - STR_SECTOID_COMMANDER
       - STR_ARMORED_SECTOID_LEADER
       - STR_ARMORED_SECTOID_COMMANDER
-      - STR_HYBRID
+      - STR_ABOMINATION
   - name: STR_PSIONIC_WARFARE
     cost: 80
     points: 10
@@ -1222,7 +1222,7 @@ research:
     cost: 0
     points: 50
     needItem: true
-  - name: STR_ANCIENT_ABOMINATION
+  - name: STR_ANCIENT_SPAWN
     cost: 0
     points: 50
     needItem: true
@@ -1248,12 +1248,12 @@ research:
       - STR_XENO_PHYSIOLOGY
     lookup: STR_MUTON_CHIEFTAIN_AUTOPSY
     needItem: true
-  - name: STR_HYBRID_CORPSE
+  - name: STR_ABOMINATION_CORPSE
     cost: 4
     points: 50
     unlocks:
       - STR_XENO_PHYSIOLOGY
-    lookup: STR_HYBRID_AUTOPSY
+    lookup: STR_ABOMINATION_AUTOPSY
     needItem: true
   - name: STR_SOVEREIGN_CORPSE
     cost: 4
@@ -1356,12 +1356,12 @@ research:
       - STR_XENO_PHYSIOLOGY
     lookup: STR_CARCHARODON_AUTOPSY
     needItem: true
-  - name: STR_ANCIENT_ABOMINATION_CORPSE
+  - name: STR_ANCIENT_SPAWN_CORPSE
     cost: 4
     points: 50
     unlocks:
       - STR_XENO_PHYSIOLOGY
-    lookup: STR_ANCIENT_ABOMINATION_AUTOPSY
+    lookup: STR_ANCIENT_SPAWN_AUTOPSY
     needItem: true
   - name: STR_ENERGYALIEN_AUTOPSY
     points: 50
@@ -1375,7 +1375,7 @@ research:
   - name: STR_MUTON_COMMANDO_AUTOPSY
     points: 50
     needItem: true
-  - name: STR_HYBRID_AUTOPSY
+  - name: STR_ABOMINATION_AUTOPSY
     points: 50
     needItem: true
   - name: STR_SOVEREIGN_AUTOPSY
@@ -1427,14 +1427,14 @@ research:
   - name: STR_CARCHARODON_AUTOPSY
     points: 50
     needItem: true
-  - name: STR_ANCIENT_ABOMINATION_AUTOPSY
+  - name: STR_ANCIENT_SPAWN_AUTOPSY
     points: 50
     needItem: true
 #--Live Alien Terrorists --------------------
-  - name: STR_HYBRID
+  - name: STR_ABOMINATION
     cost: 10
     points: 50
-    lookup: STR_HYBRID
+    lookup: STR_ABOMINATION
     needItem: true
     destroyItem: true
   - name: STR_ENERGYALIEN
@@ -1497,10 +1497,10 @@ research:
     lookup: STR_MUTON_WARLORD
     needItem: true
     destroyItem: true 
-  - name: STR_ANCIENT_ABOMINATION_TERRORIST
+  - name: STR_ANCIENT_SPAWN_TERRORIST
     cost: 10
     points: 50
-    lookup: STR_ANCIENT_ABOMINATION
+    lookup: STR_ANCIENT_SPAWN
     needItem: true
     destroyItem: true
 #--Live Alien Soldiers --------------------
@@ -1752,10 +1752,10 @@ research:
       - STR_CELATID_CORPSE
       - STR_SILACOID
       - STR_SILACOID_CORPSE
-      - STR_HYBRID
-      - STR_HYBRID_CORPSE
-      - STR_ANCIENT_ABOMINATION
-      - STR_ANCIENT_ABOMINATION_CORPSE
+      - STR_ABOMINATION
+      - STR_ABOMINATION_CORPSE
+      - STR_ANCIENT_SPAWN
+      - STR_ANCIENT_SPAWN_CORPSE
       - STR_CYBERDISC
       - STR_CYBERDISC_CORPSE
       - STR_SECTOPOD
@@ -1801,10 +1801,10 @@ research:
       - STR_CELATID_CORPSE
       - STR_SILACOID
       - STR_SILACOID_CORPSE
-      - STR_HYBRID
-      - STR_HYBRID_CORPSE
-      - STR_ANCIENT_ABOMINATION
-      - STR_ANCIENT_ABOMINATION_CORPSE
+      - STR_ABOMINATION
+      - STR_ABOMINATION_CORPSE
+      - STR_ANCIENT_SPAWN
+      - STR_ANCIENT_SPAWN_CORPSE
       - STR_CYBERDISC
       - STR_CYBERDISC_CORPSE
       - STR_SECTOPOD
@@ -1850,10 +1850,10 @@ research:
       - STR_CELATID_CORPSE
       - STR_SILACOID
       - STR_SILACOID_CORPSE
-      - STR_HYBRID
-      - STR_HYBRID_CORPSE
-      - STR_ANCIENT_ABOMINATION
-      - STR_ANCIENT_ABOMINATION_CORPSE
+      - STR_ABOMINATION
+      - STR_ABOMINATION_CORPSE
+      - STR_ANCIENT_SPAWN
+      - STR_ANCIENT_SPAWN_CORPSE
       - STR_CYBERDISC
       - STR_CYBERDISC_CORPSE
       - STR_SECTOPOD
