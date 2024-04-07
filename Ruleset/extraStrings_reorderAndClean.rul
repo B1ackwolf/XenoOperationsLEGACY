@@ -1493,7 +1493,7 @@
       STR_HB_AUTO_CANNON_BELT3: H. Cannon E115 Tipped Belt
       STR_HB_AUTO_CANNON_UFOPEDIA: This automatic cannon is a hybrid of alien Codex technology and ballistic technology. It fires a powerful alien alloy shell, but can also be adapted to fire special forms of ammo. Although slower than most hybrid weapons, its firepower is unrivaled.
       STR_HB_BAZOOKA: HY10 Rocket Launcher
-      STR_HB_MISSILE: HY Elerium Missile
+      STR_HB_ROCKET1: HY Elerium Missile
       STR_HB_ROCKET2: HY Chemical Missile
       STR_HB_BAZOOKA_UFOPEDIA: This rocket launcher is a hybrid of alien Codex technology and human technology. It fires a deadly elerium enhanced explosive rocket. While both the weapon and its ammo are expensive, their destructive force is beyond even the High Explosive.
       STR_HB_GRENADE: Hybrid Grenade
@@ -1501,31 +1501,31 @@
       STR_HB_GRENADE2: Hybrid Chem Grenade
       STR_HB_GRENADE2_UFOPEDIA: This grenade uses codex replication technology to create highly flammable chemicals.
 #-----Human Laser Weapons
-      STR_LASER_PISTOL_NEW: Laser Pistol
-      STR_LASER_SMG: Laser Assaulter
-      STR_LASER_PISTOL_BATTERY: Micro-Battery
-      STR_LASER_PISTOL_BATTERY2: Overloaded Micro-Battery
-      STR_LASER_PISTOL_BATTERY3: Elerium Micro-Battery
-      STR_LASER_SHOT_GUN: Laser Prism Gun
-      STR_LASER_SHOT_GUN_BATTERY: Prism Battery
-      STR_LASER_SHOT_GUN_BATTERY2: Overloaded Prism Battery
-      STR_LASER_SHOT_GUN_BATTERY3: Elerium Prism Battery
-      STR_LASER_RIFLE_NEW: Laser Combat Rifle
-      STR_LASER_RIFLE_BATTERY: Small Battery
-      STR_LASER_RIFLE_BATTERY2: Overloaded Small Battery
-      STR_LASER_RIFLE_BATTERY3: Elerium Small Battery
-      STR_LASER_LMG: Laser Scatter
-      STR_LASER_LMG_BATTERY: Large Battery
-      STR_LASER_LMG_BATTERY2: Overloaded Large Battery
-      STR_LASER_LMG_BATTERY3: Elerium Large Battery
-      STR_LASER_SNIPER_RIFLE: Laser Sniper Rifle
-      STR_LASER_SNIPER_RIFLE_BATTERY: Medium Battery
-      STR_LASER_SNIPER_RIFLE_BATTERY2: Overloaded Medium Battery
-      STR_LASER_SNIPER_RIFLE_BATTERY3: Elerium Medium Battery
-      STR_HEAVY_LASER_NEW: Laser Cannon
-      STR_HEAVY_LASER_BATTERY: Giga-Battery
-      STR_HEAVY_LASER_BATTERY2: Overloaded Giga-Battery
-      STR_HEAVY_LASER_BATTERY3: Elerium Giga-Battery
+      STR_LA_MAIN_PISTOL: Laser Pistol
+      STR_LA_SMG: Laser Assaulter
+      STR_LA_PISTOL_BATTERY1: Micro-Battery
+      STR_LA_PISTOL_BATTERY2: Overloaded Micro-Battery
+      STR_LA_PISTOL_BATTERY3: Elerium Micro-Battery
+      STR_LA_SHOTGUN: Laser Prism Gun
+      STR_LA_SHOTGUN_BATTERY1: Prism Battery
+      STR_LA_SHOTGUN_BATTERY2: Overloaded Prism Battery
+      STR_LA_SHOTGUN_BATTERY3: Elerium Prism Battery
+      STR_LA_RIFLE: Laser Combat Rifle
+      STR_LA_RIFLE_BATTERY1: Small Battery
+      STR_LA_RIFLE_BATTERY2: Overloaded Small Battery
+      STR_LA_RIFLE_BATTERY3: Elerium Small Battery
+      STR_LA_LMG: Laser Scatter
+      STR_LA_LMG_BATTERY1: Large Battery
+      STR_LA_LMG_BATTERY2: Overloaded Large Battery
+      STR_LA_LMG_BATTERY3: Elerium Large Battery
+      STR_LA_SNIPER: Laser Sniper Rifle
+      STR_LA_SNIPER_BATTERY1: Medium Battery
+      STR_LA_SNIPER_BATTERY2: Overloaded Medium Battery
+      STR_LA_SNIPER_BATTERY3: Elerium Medium Battery
+      STR_LA_AUTO_CANNON: Laser Cannon
+      STR_LA_AUTO_CANNON_BATTERY1: Giga-Battery
+      STR_LA_AUTO_CANNON_BATTERY2: Overloaded Giga-Battery
+      STR_LA_AUTO_CANNON_BATTERY3: Elerium Giga-Battery
       STR_LASER_SWORD: Laser Sword #ojito
 #-----Human Hypervelocity Weapons
       STR_RL_PISTOL: Rail Pistol
@@ -1839,10 +1839,10 @@
       STR_XP_AUTO_CANNON_UFOPEDIA: The XX Assault cannon combines the power of the conventional Heavy Cannon with the rapid fire capabilities of the Autocannon.
       STR_XP_MINIGUN_UFOPEDIA: The X9 Minigun is lighter and more accurate than the conventional minigun.
       STR_HYBRID_BALLISTICS_UFOPAEDIA: Recovered codex knowledge has given our engineers enough data to begin a third generation of ballistic weapons that are enhanced with alien technology. These weapons use alien alloys and components to greatly enhance their performance and versatility.
-      STR_LASER_SNIPER_RIFLE_UFOPEDIA: A sniper rifle based on laser technology. Very accurate with a slower rate of fire.
-      STR_LASER_SMG_UFOPEDIA: The Assault Laser is a more offensive focused redesign of the Laser Pistol. Its high rate of fire is useful for close quarters assault.
-      STR_LASER_SHOT_GUN_UFOPEDIA: The Bloom Laser splits the laser beam into numerous smaller beams creating a spread effect not unlike a shotgun.
-      STR_LASER_LMG_UFOPEDIA: The Pulse Laser as its name implies pulses a high focused laser emitter. This gives the Pulse Laser a very high rate of fire.
+      STR_LA_SNIPER_UFOPEDIA: A sniper rifle based on laser technology. Very accurate with a slower rate of fire.
+      STR_LA_SMG_UFOPEDIA: The Assault Laser is a more offensive focused redesign of the Laser Pistol. Its high rate of fire is useful for close quarters assault.
+      STR_LA_SHOTGUN_UFOPEDIA: The Bloom Laser splits the laser beam into numerous smaller beams creating a spread effect not unlike a shotgun.
+      STR_LA_LMG_UFOPEDIA: The Pulse Laser as its name implies pulses a high focused laser emitter. This gives the Pulse Laser a very high rate of fire.
       STR_LASER_SWORD_UFOPEDIA: The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
       STR_CHARGED_CELLS_UFOPEDIA: New advancements in battery technology has allowed our engineers to design and build Charged Cell batteries for our laser weapons. These cells greatly increase the damage output of our laser weapons, but drain more quickly than normal laser batteries.
       STR_ELERIUM_LASER_BATTERY_UFOPEDIA: By adapting a micro Elerium battery into our laser weapons it can greatly boost both their power and battery life.

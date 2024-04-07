@@ -1425,7 +1425,7 @@ ufopaedia:
     requires:
       - STR_HEAVY_HYBRID_BALLISTICS_WEAPONS
     listOrder: 2313
-  - id: STR_HB_MISSILE
+  - id: STR_HB_ROCKET1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_HB_ROCKET2
@@ -1434,129 +1434,129 @@ ufopaedia:
     requires:
       - STR_CHEMICAL_ROUNDS
 #--- Fourth Tier Laser Weaponry -------------------------
-  - id: STR_LASER_PISTOL_NEW
+  - id: STR_LA_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_PISTOL_UFOPEDIA
     listOrder: 2401
     requires:
       - STR_LIGHT_LASER_WEAPONS
-  - id: STR_LASER_SMG
+  - id: STR_LA_SMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_SMG_UFOPEDIA
+    text: STR_LA_SMG_UFOPEDIA
     listOrder: 2402
     requires:
       - STR_LIGHT_LASER_WEAPONS
-  - id: STR_LASER_PISTOL_BATTERY
+  - id: STR_LA_PISTOL_BATTERY1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_LASER_PISTOL_BATTERY2
+  - id: STR_LA_PISTOL_BATTERY2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_CELLS
-  - id: STR_LASER_PISTOL_BATTERY3
+  - id: STR_LA_PISTOL_BATTERY3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ELERIUM_LASER_BATTERY
-  - id: STR_LASER_SHOT_GUN
+  - id: STR_LA_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_SHOT_GUN_UFOPEDIA
+    text: STR_LA_SHOTGUN_UFOPEDIA
     listOrder: 2403
     requires:
       - STR_MEDIUM_LASER_WEAPONS
-  - id: STR_LASER_SHOT_GUN_BATTERY
+  - id: STR_LA_SHOTGUN_BATTERY1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_LASER_SHOT_GUN_BATTERY2
+  - id: STR_LA_SHOTGUN_BATTERY2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_CELLS
-  - id: STR_LASER_SHOT_GUN_BATTERY3
+  - id: STR_LA_SHOTGUN_BATTERY3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ELERIUM_LASER_BATTERY
-  - id: STR_LASER_RIFLE_NEW
+  - id: STR_LA_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_RIFLE_UFOPEDIA
     listOrder: 2404
     requires:
       - STR_MEDIUM_LASER_WEAPONS
-  - id: STR_LASER_RIFLE_BATTERY
+  - id: STR_LA_RIFLE_BATTERY1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_LASER_RIFLE_BATTERY2
+  - id: STR_LA_RIFLE_BATTERY2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_CELLS
-  - id: STR_LASER_RIFLE_BATTERY3
+  - id: STR_LA_RIFLE_BATTERY3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ELERIUM_LASER_BATTERY
-  - id: STR_LASER_LMG
+  - id: STR_LA_LMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_LMG_UFOPEDIA
+    text: STR_LA_LMG_UFOPEDIA
     listOrder: 2405
     requires:
       - STR_HEAVY_LASER_WEAPONS
-  - id: STR_LASER_LMG_BATTERY
+  - id: STR_LA_LMG_BATTERY1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_LASER_LMG_BATTERY2
+  - id: STR_LA_LMG_BATTERY2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_CELLS
-  - id: STR_LASER_LMG_BATTERY3
+  - id: STR_LA_LMG_BATTERY3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ELERIUM_LASER_BATTERY
-  - id: STR_LASER_SNIPER_RIFLE
+  - id: STR_LA_SNIPER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_SNIPER_RIFLE_UFOPEDIA
+    text: STR_LA_SNIPER_UFOPEDIA
     listOrder: 2406
     requires:
       - STR_MEDIUM_LASER_WEAPONS
-  - id: STR_LASER_SNIPER_RIFLE_BATTERY
+  - id: STR_LA_SNIPER_BATTERY1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_LASER_SNIPER_RIFLE_BATTERY2
+  - id: STR_LA_SNIPER_BATTERY2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_CELLS
-  - id: STR_LASER_SNIPER_RIFLE_BATTERY3
+  - id: STR_LA_SNIPER_BATTERY3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ELERIUM_LASER_BATTERY
-  - id: STR_HEAVY_LASER_NEW
+  - id: STR_LA_AUTO_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_LASER_UFOPEDIA
     listOrder: 2407
     requires:
       - STR_HEAVY_LASER_WEAPONS
-  - id: STR_HEAVY_LASER_BATTERY
+  - id: STR_LA_AUTO_CANNON_BATTERY1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HEAVY_LASER_BATTERY2
+  - id: STR_LA_AUTO_CANNON_BATTERY2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_CELLS
-  - id: STR_HEAVY_LASER_BATTERY3
+  - id: STR_LA_AUTO_CANNON_BATTERY3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:

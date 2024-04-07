@@ -1423,7 +1423,7 @@ manufacture:
 #-----Hybrid Weapons ----------------------------------END
 
 #---Fourth Tier Laser Weaponry ----------------------------------
-  - name: STR_LASER_PISTOL_NEW
+  - name: STR_LA_MAIN_PISTOL
     category: STR_LASER_WEAPONS
     requires:
       - STR_LIGHT_LASER_WEAPONS
@@ -1435,7 +1435,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 5
       STR_ELERIUM_115: 1
     listOrder: 2401
-  - name: STR_LASER_SMG
+  - name: STR_LA_SMG
     category: STR_LASER_WEAPONS
     requires:
       - STR_LIGHT_LASER_WEAPONS
@@ -1447,7 +1447,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 8
       STR_ELERIUM_115: 2
     listOrder: 2402
-  - name: STR_LASER_PISTOL_BATTERY
+  - name: STR_LA_PISTOL_BATTERY1
     category: STR_LASER_WEAPONS
     requires:
       - STR_LIGHT_LASER_WEAPONS
@@ -1457,9 +1457,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     producedItems:
-      STR_LASER_PISTOL_BATTERY: 10
+      STR_LA_PISTOL_BATTERY1: 10
     listOrder: 2403
-  - name: STR_LASER_PISTOL_BATTERY2
+  - name: STR_LA_PISTOL_BATTERY2
     category: STR_LASER_WEAPONS
     requires:
       - STR_LIGHT_LASER_WEAPONS
@@ -1470,9 +1470,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_LASER_PISTOL_BATTERY2: 10
+      STR_LA_PISTOL_BATTERY2: 10
     listOrder: 2404
-  - name: STR_LASER_PISTOL_BATTERY3
+  - name: STR_LA_PISTOL_BATTERY3
     category: STR_LASER_WEAPONS
     requires:
       - STR_LIGHT_LASER_WEAPONS
@@ -1485,9 +1485,9 @@ manufacture:
       STR_CODEX_FRAGMENT: 10
       STR_ELERIUM_115: 10
     producedItems:
-      STR_LASER_PISTOL_BATTERY3: 10
+      STR_LA_PISTOL_BATTERY3: 10
     listOrder: 2405
-  - name: STR_LASER_SHOT_GUN
+  - name: STR_LA_SHOTGUN
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1499,7 +1499,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 11
       STR_ELERIUM_115: 4
     listOrder: 2406
-  - name: STR_LASER_SHOT_GUN_BATTERY
+  - name: STR_LA_SHOTGUN_BATTERY1
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1509,9 +1509,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_LASER_SHOT_GUN_BATTERY: 10
+      STR_LA_SHOTGUN_BATTERY1: 10
     listOrder: 2407
-  - name: STR_LASER_SHOT_GUN_BATTERY2
+  - name: STR_LA_SHOTGUN_BATTERY2
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1522,9 +1522,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_LASER_SHOT_GUN_BATTERY2: 10
+      STR_LA_SHOTGUN_BATTERY2: 10
     listOrder: 2408
-  - name: STR_LASER_SHOT_GUN_BATTERY3
+  - name: STR_LA_SHOTGUN_BATTERY3
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1537,9 +1537,9 @@ manufacture:
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 20
     producedItems:
-      STR_LASER_SHOT_GUN_BATTERY3: 10
+      STR_LA_SHOTGUN_BATTERY3: 10
     listOrder: 2409
-  - name: STR_LASER_RIFLE_NEW
+  - name: STR_LA_RIFLE
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1551,7 +1551,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 10
       STR_ELERIUM_115: 3
     listOrder: 2410
-  - name: STR_LASER_RIFLE_BATTERY
+  - name: STR_LA_RIFLE_BATTERY1
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1561,9 +1561,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 3
     producedItems:
-      STR_LASER_RIFLE_BATTERY: 10
+      STR_LA_RIFLE_BATTERY1: 10
     listOrder: 2411
-  - name: STR_LASER_RIFLE_BATTERY2
+  - name: STR_LA_RIFLE_BATTERY2
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1574,9 +1574,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_LASER_RIFLE_BATTERY2: 10
+      STR_LA_RIFLE_BATTERY2: 10
     listOrder: 2412
-  - name: STR_LASER_RIFLE_BATTERY3
+  - name: STR_LA_RIFLE_BATTERY3
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1589,9 +1589,9 @@ manufacture:
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 20
     producedItems:
-      STR_LASER_RIFLE_BATTERY3: 10
+      STR_LA_RIFLE_BATTERY3: 10
     listOrder: 2413
-  - name: STR_LASER_LMG
+  - name: STR_LA_LMG
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1603,7 +1603,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 15
       STR_ELERIUM_115: 4
     listOrder: 2414
-  - name: STR_LASER_LMG_BATTERY
+  - name: STR_LA_LMG_BATTERY1
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1613,9 +1613,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
     producedItems:
-      STR_LASER_LMG_BATTERY: 10
+      STR_LA_LMG_BATTERY1: 10
     listOrder: 2415
-  - name: STR_LASER_LMG_BATTERY2
+  - name: STR_LA_LMG_BATTERY2
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1626,9 +1626,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_LASER_LMG_BATTERY2: 10
+      STR_LA_LMG_BATTERY2: 10
     listOrder: 2416
-  - name: STR_LASER_LMG_BATTERY3
+  - name: STR_LA_LMG_BATTERY3
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1641,9 +1641,9 @@ manufacture:
       STR_CODEX_FRAGMENT: 25
       STR_ELERIUM_115: 25
     producedItems:
-      STR_LASER_LMG_BATTERY3: 10
+      STR_LA_LMG_BATTERY3: 10
     listOrder: 2417
-  - name: STR_LASER_SNIPER_RIFLE
+  - name: STR_LA_SNIPER
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1655,7 +1655,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 12
       STR_ELERIUM_115: 5
     listOrder: 2418
-  - name: STR_LASER_SNIPER_RIFLE_BATTERY
+  - name: STR_LA_SNIPER_BATTERY1
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1665,9 +1665,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
     producedItems:
-      STR_LASER_SNIPER_RIFLE_BATTERY: 10
+      STR_LA_SNIPER_BATTERY1: 10
     listOrder: 2419
-  - name: STR_LASER_SNIPER_RIFLE_BATTERY2
+  - name: STR_LA_SNIPER_BATTERY2
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1678,9 +1678,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 4
     producedItems:
-      STR_LASER_SNIPER_RIFLE_BATTERY2: 10
+      STR_LA_SNIPER_BATTERY2: 10
     listOrder: 2420
-  - name: STR_LASER_SNIPER_RIFLE_BATTERY3
+  - name: STR_LA_SNIPER_BATTERY3
     category: STR_LASER_WEAPONS
     requires:
       - STR_MEDIUM_LASER_WEAPONS
@@ -1693,9 +1693,9 @@ manufacture:
       STR_CODEX_FRAGMENT: 25
       STR_ELERIUM_115: 25
     producedItems:
-      STR_LASER_SNIPER_RIFLE_BATTERY3: 10
+      STR_LA_SNIPER_BATTERY3: 10
     listOrder: 2421
-  - name: STR_HEAVY_LASER_NEW
+  - name: STR_LA_AUTO_CANNON
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1707,7 +1707,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 5
     listOrder: 2422
-  - name: STR_HEAVY_LASER_BATTERY
+  - name: STR_LA_AUTO_CANNON_BATTERY1
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1717,9 +1717,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 5
     producedItems:
-      STR_HEAVY_LASER_BATTERY: 10
+      STR_LA_AUTO_CANNON_BATTERY1: 10
     listOrder: 2423
-  - name: STR_HEAVY_LASER_BATTERY2
+  - name: STR_LA_AUTO_CANNON_BATTERY2
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1730,9 +1730,9 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 5
     producedItems:
-      STR_HEAVY_LASER_BATTERY2: 10
+      STR_LA_AUTO_CANNON_BATTERY2: 10
     listOrder: 2424
-  - name: STR_HEAVY_LASER_BATTERY3
+  - name: STR_LA_AUTO_CANNON_BATTERY3
     category: STR_LASER_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
@@ -1745,7 +1745,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 40
       STR_ELERIUM_115: 40
     producedItems:
-      STR_HEAVY_LASER_BATTERY3: 10
+      STR_LA_AUTO_CANNON_BATTERY3: 10
     listOrder: 2425
 #### ojito, ordenar luego en caTEGORIA propia de melee
   - name: STR_LASER_SWORD

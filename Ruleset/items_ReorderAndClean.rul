@@ -2591,7 +2591,7 @@ items:
     invHeight: 2
     listOrder: 2342
 ###-----Human fourth tier Energy laser weapons-----###
-  - type: STR_LASER_PISTOL_NEW
+  - type: STR_LA_MAIN_PISTOL
     size: 0.1
     costSell: 19600
     weight: 4
@@ -2600,9 +2600,9 @@ items:
     handSprite: 270
     fireSound: 401
     compatibleAmmo:
-      - STR_LASER_PISTOL_BATTERY
-      - STR_LASER_PISTOL_BATTERY2
-      - STR_LASER_PISTOL_BATTERY3
+      - STR_LA_PISTOL_BATTERY1
+      - STR_LA_PISTOL_BATTERY2
+      - STR_LA_PISTOL_BATTERY3
     accuracyAuto: 28
     # accuracySnap: 35
     accuracyAimed: 68
@@ -2622,7 +2622,7 @@ items:
     snapRange: 14
     minRange: 0
     listOrder: 2401
-  - type: STR_LASER_SMG
+  - type: STR_LA_SMG
     size: 0.1
     costSell: 20000
     weight: 5
@@ -2631,9 +2631,9 @@ items:
     handSprite: 480
     fireSound: 401
     compatibleAmmo:
-      - STR_LASER_PISTOL_BATTERY
-      - STR_LASER_PISTOL_BATTERY2
-      - STR_LASER_PISTOL_BATTERY3
+      - STR_LA_PISTOL_BATTERY1
+      - STR_LA_PISTOL_BATTERY2
+      - STR_LA_PISTOL_BATTERY3
     accuracyAuto: 35
     accuracySnap: 50
     # accuracyAimed: 72
@@ -2653,7 +2653,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2402
-  - type: STR_LASER_PISTOL_BATTERY
+  - type: STR_LA_PISTOL_BATTERY1
     size: 0.025
     costSell: 500
     weight: 2
@@ -2668,7 +2668,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2403
-  - type: STR_LASER_PISTOL_BATTERY2
+  - type: STR_LA_PISTOL_BATTERY2
     size: 0.025
     costSell: 500
     weight: 2
@@ -2683,7 +2683,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2404
-  - type: STR_LASER_PISTOL_BATTERY3
+  - type: STR_LA_PISTOL_BATTERY3
     size: 0.025
     costSell: 25000
     weight: 2
@@ -2699,7 +2699,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2405
-  - type: STR_LASER_SHOT_GUN
+  - type: STR_LA_SHOTGUN
     size: 0.2
     costSell: 36400
     weight: 6
@@ -2708,9 +2708,9 @@ items:
     handSprite: 490
     fireSound: 403
     compatibleAmmo:
-      - STR_LASER_SHOT_GUN_BATTERY
-      - STR_LASER_SHOT_GUN_BATTERY2
-      - STR_LASER_SHOT_GUN_BATTERY3
+      - STR_LA_SHOTGUN_BATTERY1
+      - STR_LA_SHOTGUN_BATTERY2
+      - STR_LA_SHOTGUN_BATTERY3
     accuracySnap: 65
     accuracyAimed: 100
     tuSnap: 30
@@ -2728,7 +2728,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2406
-  - type: STR_LASER_SHOT_GUN_BATTERY
+  - type: STR_LA_SHOTGUN_BATTERY1
     size: 0.025
     costSell: 2000
     weight: 2
@@ -2744,7 +2744,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2407
-  - type: STR_LASER_SHOT_GUN_BATTERY2
+  - type: STR_LA_SHOTGUN_BATTERY2
     size: 0.025
     costSell: 2000
     weight: 2
@@ -2760,7 +2760,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2408
-  - type: STR_LASER_SHOT_GUN_BATTERY3
+  - type: STR_LA_SHOTGUN_BATTERY3
     size: 0.025
     costSell: 30000
     weight: 2
@@ -2777,7 +2777,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2409
-  - type: STR_LASER_RIFLE_NEW
+  - type: STR_LA_RIFLE
     size: 0.2
     costSell: 36400
     weight: 6
@@ -2786,9 +2786,9 @@ items:
     handSprite: 280
     fireSound: 11
     compatibleAmmo:
-      - STR_LASER_RIFLE_BATTERY
-      - STR_LASER_RIFLE_BATTERY2
-      - STR_LASER_RIFLE_BATTERY3
+      - STR_LA_RIFLE_BATTERY1
+      - STR_LA_RIFLE_BATTERY2
+      - STR_LA_RIFLE_BATTERY3
     accuracyAuto: 46
     accuracySnap: 65
     accuracyAimed: 95
@@ -2809,7 +2809,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2410
-  - type: STR_LASER_RIFLE_BATTERY
+  - type: STR_LA_RIFLE_BATTERY1
     size: 0.025
     costSell: 2000
     weight: 2
@@ -2824,7 +2824,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2411
-  - type: STR_LASER_RIFLE_BATTERY2
+  - type: STR_LA_RIFLE_BATTERY2
     size: 0.025
     costSell: 2000
     weight: 2
@@ -2839,7 +2839,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2412
-  - type: STR_LASER_RIFLE_BATTERY3
+  - type: STR_LA_RIFLE_BATTERY3
     size: 0.025
     costSell: 30000
     weight: 2
@@ -2855,7 +2855,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2413
-  - type: STR_LASER_LMG
+  - type: STR_LA_LMG
     size: 0.3
     costSell: 59000
     weight: 14
@@ -2864,9 +2864,9 @@ items:
     handSprite: 500
     fireSound: 11
     compatibleAmmo:
-      - STR_LASER_LMG_BATTERY
-      - STR_LASER_LMG_BATTERY2
-      - STR_LASER_LMG_BATTERY3
+      - STR_LA_LMG_BATTERY1
+      - STR_LA_LMG_BATTERY2
+      - STR_LA_LMG_BATTERY3
     accuracyAuto: 40
     accuracySnap: 50
     tuAuto: 30
@@ -2883,7 +2883,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2414
-  - type: STR_LASER_LMG_BATTERY
+  - type: STR_LA_LMG_BATTERY1
     size: 0.1
     costSell: 3000
     weight: 4
@@ -2900,7 +2900,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2415
-  - type: STR_LASER_LMG_BATTERY2
+  - type: STR_LA_LMG_BATTERY2
     size: 0.1
     costSell: 3000
     weight: 4
@@ -2917,7 +2917,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2416
-  - type: STR_LASER_LMG_BATTERY3
+  - type: STR_LA_LMG_BATTERY3
     size: 0.1
     costSell: 65000
     weight: 4
@@ -2935,7 +2935,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2417
-  - type: STR_LASER_SNIPER_RIFLE
+  - type: STR_LA_SNIPER
     size: 0.2
     costSell: 44400
     weight: 9
@@ -2944,9 +2944,9 @@ items:
     handSprite: 290
     fireSound: 406
     compatibleAmmo:
-      - STR_LASER_SNIPER_RIFLE_BATTERY
-      - STR_LASER_SNIPER_RIFLE_BATTERY2
-      - STR_LASER_SNIPER_RIFLE_BATTERY3
+      - STR_LA_SNIPER_BATTERY1
+      - STR_LA_SNIPER_BATTERY2
+      - STR_LA_SNIPER_BATTERY3
     accuracyAuto: 60
     accuracyAimed: 130
     tuAuto: 55
@@ -2965,7 +2965,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2418
-  - type: STR_LASER_SNIPER_RIFLE_BATTERY
+  - type: STR_LA_SNIPER_BATTERY1
     size: 0.025
     costSell: 2500
     weight: 2
@@ -2980,7 +2980,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2419
-  - type: STR_LASER_SNIPER_RIFLE_BATTERY2
+  - type: STR_LA_SNIPER_BATTERY2
     size: 0.025
     costSell: 2500
     weight: 2
@@ -2995,7 +2995,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2420
-  - type: STR_LASER_SNIPER_RIFLE_BATTERY3
+  - type: STR_LA_SNIPER_BATTERY3
     size: 0.025
     costSell: 45000
     weight: 2
@@ -3011,7 +3011,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2421
-  - type: STR_HEAVY_LASER_NEW
+  - type: STR_LA_AUTO_CANNON
     size: 0.3
     costSell: 60400
     weight: 14
@@ -3020,9 +3020,9 @@ items:
     handSprite: 300
     fireSound: 407
     compatibleAmmo:
-      - STR_HEAVY_LASER_BATTERY
-      - STR_HEAVY_LASER_BATTERY2
-      - STR_HEAVY_LASER_BATTERY3
+      - STR_LA_AUTO_CANNON_BATTERY1
+      - STR_LA_AUTO_CANNON_BATTERY2
+      - STR_LA_AUTO_CANNON_BATTERY3
     accuracyAuto: 40
     accuracyAimed: 110
     tuAuto: 45
@@ -3042,7 +3042,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2422
-  - type: STR_HEAVY_LASER_BATTERY
+  - type: STR_LA_AUTO_CANNON_BATTERY1
     size: 0.1
     costSell: 3200
     weight: 4
@@ -3059,7 +3059,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2423
-  - type: STR_HEAVY_LASER_BATTERY2
+  - type: STR_LA_AUTO_CANNON_BATTERY2
     size: 0.1
     costSell: 3200
     weight: 4
@@ -3076,7 +3076,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2424
-  - type: STR_HEAVY_LASER_BATTERY3
+  - type: STR_LA_AUTO_CANNON_BATTERY3
     size: 0.1
     costSell: 7000
     weight: 4
