@@ -1018,7 +1018,7 @@ units:
       psiStrength: 0
       psiSkill: 0
       melee: 40
-    armor: STR_VEST_ARMOR_UC
+    armor: STR_KEVLAR_VEST_ARMOR_TAN_UC
     standHeight: 22
     kneelHeight: 14
     value: 30

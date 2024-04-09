@@ -4489,13 +4489,13 @@ extraSprites:
   - typeSingle: HUMAN__13__F71_HAIR_FRONT
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Hair_front/HAIR_FRONT_F71.png
 #----- armors -----# #ojito corregir borrar duplicados por sexo de armaduras avanzadas desde alloy, cambiar M y F por U
-  - typeSingle: PILOT_JUMPSUIT__8__PILOT_JUMPSUIT_M
+  - typeSingle: FLIGHT_JUMPSUIT__8__FLIGHT_JUMPSUIT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_0uP.png
-  - typeSingle: PILOT_JUMPSUIT__8__PILOT_JUMPSUIT_F
+  - typeSingle: FLIGHT_JUMPSUIT__8__FLIGHT_JUMPSUIT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_0uP.png
-  - typeSingle: VEST_BASIC__8__VEST_BASIC_M
+  - typeSingle: VEST_TAN__8__VEST_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_1mkz.gif
-  - typeSingle: VEST_BASIC__8__VEST_BASIC_F
+  - typeSingle: VEST_TAN__8__VEST_TAN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_1fKz.gif
   - typeSingle: VEST_BLACK__8__VEST_BLACK_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_2mkb.gif

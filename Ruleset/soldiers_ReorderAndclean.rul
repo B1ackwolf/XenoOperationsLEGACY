@@ -115,8 +115,8 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_VEST_ARMOR_UC
-    armorForAvatar: STR_BERET_ARMOR_UC
+    armor: STR_KEVLAR_VEST_ARMOR_TAN_UC
+    armorForAvatar: STR_KEVLAR_VEST_ARMOR_BERET_UC
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 20
@@ -165,8 +165,8 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_VEST_ARMOR_BLACK_UC
-    armorForAvatar: STR_BERET_ARMOR_UC
+    armor: STR_KEVLAR_VEST_ARMOR_BLACK_UC
+    armorForAvatar: STR_KEVLAR_VEST_ARMOR_BERET_UC
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 15
@@ -214,8 +214,8 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_VEST_ARMOR_GREY_UC
-    armorForAvatar: STR_BERET_ARMOR_UC
+    armor: STR_KEVLAR_VEST_ARMOR_GREY_UC
+    armorForAvatar: STR_KEVLAR_VEST_ARMOR_BERET_UC
     standHeight: 22
     kneelHeight: 14
     rankTinySprite: 6 
@@ -274,8 +274,8 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 40
-    armor: STR_PILOT_UC
-    armorForAvatar: STR_PILOT_UC
+    armor: STR_FLIGHT_JUMPSUIT
+    armorForAvatar: STR_FLIGHT_JUMPSUIT
     rankTinySprite: 12 
     rankSprite: 900         # default 42 # basebits.pck
     rankBattleSprite: 900   # default 20 # smoke.pck

@@ -38,10 +38,16 @@ TL;DR VERSION:
 
 + PRIORITIES FIXES:
  - ya encontre el orden de las armaduras, estan en items, buscar desde la xops y modificar el loadorder
-   * creo q tengo q crear de la kevlar.
    * cambiarle tambien el orden dentro del ruleset en si para q sigan el mismo correlativo
      ~ el orden tambien se cambiara dentro del extra strings 
      ~ aprovechar y cambiar el nombre a las armaduras
+       ° armadura basica = ?
+       ° armadura xops = Ulfsark
+       ° Armadura personal = ?
+       ° Armadura alloy = Spartan 
+       ° Armadura Voladora = ?
+       ° Armadura Power = Myrmidon
+       ° Armadura Psionica = ?
 
  - modificar totalmente como funcionan los articulos medicos.
    * nivel 0 la jeringa de adreno y el pouch individual y descartable
@@ -58,8 +64,6 @@ TL;DR VERSION:
  - confirmar cambios en los nombres de mutons
 
  - ya q voy a cambiar nombres de aviones, tambien cambiar TODOS los nombres de los cartuchos, recordar hacer esto a medida q modifico los nombres de los cargadores
-   * cambiar nombres de referencias de "shells y slugs" de escopetas y "belt" a clip?
-     ~ quizas mas bien revisar q las escopetas siempre tengan shells (checar hybri y Rail)
  - terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande en el mapviewer de agregarle la mugre 
  - acomodar sprites de aviones en ufopaedia
    * rehacerle la imagen al f35 mejorado con el coffin, foto en nuevo angulo
@@ -227,7 +231,7 @@ TL;DR VERSION:
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
-   * Rename how all armor colors are referred to in "str_" and strings references.
+   * Rename how all armor colors are referred to in "STR_" and strings references.
    * Focus especially on renaming the bodies and corpses png and gif files.
    * Increase the Size of frontal pockets to 2x2 squares.
    * Rename the "backpack" category to something more generic.
@@ -362,8 +366,6 @@ TL;DR VERSION:
  - Attempt to resolve the issue that drones can no longer carry things.
  - Resolve HWP sprite using the Coelacanth spritesheet to have a movable wheel and turret.
    * se achican imagenes que tengo al 33% y hovers al 32%
-   * Alternatively, check the X-Files Outrunner and confirm how its wheels move.
-     ~ Confirmed to use drawing routine number 5 (sectopods).
  - Classic tanks will be armed with
    * A 25mm AP cannon
    * A HyperVelocity Ap cannon
@@ -511,8 +513,6 @@ TL;DR VERSION:
    * reducir costes de aeronave
    * reducir precios de facilities
  - (NEW) Review the file Scang.DAT and check which maps should get their MCD file modified to improve the mapview.
- - Organize the chaotic situation I have regarding medical STR_ articles, establish a unique nomenclature.
-   * Use "medikit" consistently in str_ references, strings, and images.
 #####
 
 + Long Term Changes:
@@ -540,7 +540,7 @@ TL;DR VERSION:
  - Completely improve the air game, interception, patrols, etc.
  - Organize and overhaul alien deployments.
  - Adjust the position of the Russian peninsula above the Kuril Islands, finalize changes to the world map.
- - Change all references from "str_" to all items.
+ - Change all references from "STR_" to all items.
    * Focusing on chargers and weapons.
    * Eliminating those that do not exist and focusing them correctly on their new identity.
  - Each council country must have at least 4 cities on the map.

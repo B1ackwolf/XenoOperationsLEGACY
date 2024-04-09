@@ -100,6 +100,10 @@ these options are activated by default YET you can change them in case you found
 - field promotions and automatic promotions are deactivated, and soldiers should be promoted manually by clicking in the rank icons , i preffer this way to handle the officers promotions (and roleplaying better), but i respect if anyone dont care or dont want to handle dozens or even a hundred of soldiers, so its up for everyone to decide what they want to do.
 
 gameplay changes:
+
+ - cambiado nombre de apex launcher a devastator launcher
+ - cambiado los nombres de referencia de los medikits
+
  - added two new buildings, the sickbay and the advanced sickbay (culminar esto)
  
  - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.
@@ -184,6 +188,7 @@ under da hood changes:
  - corregido un monton de errores en el pacing del arbol de investigaciones. deberian reducirse la cantidad de puntos muertos causados por investigaciones fantasmas  remanentes del mod original
 
 bugfixes:
+
 
 - CHECAR QUE ONDA q aparece un firefly en la ufopaedia al principio, ojito
 - resuelto error q mostraba ciertos edificios avanzados en la ufopedia desde el principio de la campaña 

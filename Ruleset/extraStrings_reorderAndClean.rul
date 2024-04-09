@@ -8,9 +8,9 @@
 #ufopaedia
       STR_25MM_TANK_CANNON: 25mm M242 Bushmaster
       STR_105MM_TANK_CANNON: 105 mm L/52 M68A1 rifled gun
-      STR_HUMAN_PLASMA_PISTOL_COMPACT_UFOPEDIA: Human compact plasma pistol (WIP)
-      STR_HUMAN_HEAVY_PLASMA_PISTOL_UFOPEDIA: Human Heavy plasma pistol (WIP)
-      STR_HUMAN_PLASMA_CARBINE_UFOPEDIA: Human plasma carbine (WIP)
+      STR_PL_SMALL_PISTOL_UFOPEDIA: Human compact plasma pistol (WIP)
+      STR_PL_HEAVY_PISTOL_UFOPEDIA: Human Heavy plasma pistol (WIP)
+      STR_PL_BULLPUP_UFOPEDIA: Human plasma carbine (WIP)
 #extrasprites
       PAL_GEOSCAPE_NEW: Geoscape globe map
 #researches
@@ -42,10 +42,9 @@
       HYBRID_WEAPON: Abomination Psychic ray
       ANCIENT_ABOMINATION_TERRORIST_WEAPON: Spawn disruptor beam
       ENERGYALIEN_WEAPON: Solarite Pulsar
-      STR_CORPSE_UNIFORM: Corpse
-      STR_CORPSE_VEST_ARMOR: Corpse
+      STR_CORPSE_FLIGHT_JUMPSUIT: Corpse
+      STR_CORPSE_VEST_ARMOR_TAN: Corpse
       STR_CORPSE_VEST_ARMOR_BLACK: Corpse
-      STR_CORPSE_VEST_ARMOR_BLUE: Corpse
       STR_CORPSE_VEST_ARMOR_GREEN: Corpse
       STR_CORPSE_VEST_ARMOR_GREY: Corpse
       STR_CORPSE_VEST_ARMOR_WHITE: Corpse
@@ -592,16 +591,17 @@
       STR_DIEGO_GARCIA: Diego Garcia
 #END CITY NAMES
 ###########################ojito reordenar
-      STR_FIRST_AID: "First Aid Kit"
-      STR_BASIC_MEDKIT: "Basic Medikit Pack"
-      STR_IMPROVED_MEDKIT: "Field Surgery kit"
-      STR_MEDI_KIT: Advanced Medikit
+      STR_FIST_AID_KIT: "First Aid Kit"
+      STR_STARTING_MEDI_KIT: "Basic Medikit"
+      STR_BASIC_MEDI_KIT: "Field Surgery kit"
+      STR_MEDI_KIT: "Advanced Medi-gel kit"
       STR_PILOT: Pilot
       STR_ELITE_SOLDIER: Elite Soldier
       STR_SOLDIER_OFFICER: Officer
-      STR_PILOT_UC: FLIGHT SUIT
+      STR_FLIGHT_JUMPSUIT: FLIGHT SUIT
+      STR_FLIGHT_JUMPSUIT_UC: FLIGHT SUIT
       STR_PILOT_UFOPEDIA_DISPLAY: Flight Suit
-      STR_PILOT_UC_UFOPEDIA: Standard G-suit used by X-Com combat pilots. Made to resist high levels of acceleration forces, lightweight yet durable (includes fire retardant clothing). Its appearance is usually similar to a jumpsuit.
+      STR_FLIGHT_JUMPSUIT_UFOPEDIA: Standard G-suit used by X-Com combat pilots. Made to resist high levels of acceleration forces, lightweight yet durable (includes fire retardant clothing). Its appearance is usually similar to a jumpsuit.
       STR_2ND_LIEUTENANT: 3rd Lieutenant
       STR_1ST_LIEUTENANT: Lieutenant
       STR_AIR_CAPTAIN: Captain
@@ -1157,34 +1157,34 @@
       STR_ALIEN_INJECTOR_BREAKDOWN: Breakdown Alien Injector
       STR_ALIEN_COMM_BREAKDOWN: Breakdown Alien Communicator
       STR_ALIEN_SMALL_ENTERTAINMENT_BREAKDOWN: Breakdown Small Entertainment
-      STR_HUMAN_PLASMA_PISTOL_CLIP4: Breakdown Plsm Pistol Clip
-      STR_HUMAN_PLASMA_PISTOL_CLIP5: Breakdown Plsm Pistol OR
-      STR_HUMAN_PLASMA_PISTOL_CLIP6: Breakdown Plsm Pistol AM
-      STR_HUMAN_PLASMA_ASSAULTER_CLIP4: Breakdown Plsm Assaulter Clip
-      STR_HUMAN_PLASMA_ASSAULTER_CLIP5: Breakdown Plsm Assaulter OR
-      STR_HUMAN_PLASMA_ASSAULTER_CLIP6: Breakdown Plsm Assaulter AM
-      STR_HUMAN_PLASMA_ASSAULTER2: Breakdown Plasma Assaulter
-      STR_HUMAN_PLASMA_PISTOL2: Breakdown Plasma Pistol
-      STR_HUMAN_PLASMA_RIFLE2: Breakdown Plasma Rifle
-      STR_HUMAN_PLASMA_RIFLE_CLIP4: Breakdown Plsm Rifle Clip
-      STR_HUMAN_PLASMA_RIFLE_CLIP5: Breakdown Plsm Rifle OR
-      STR_HUMAN_PLASMA_RIFLE_CLIP6: Breakdown Plsm Rifle AM
-      STR_HUMAN_PLASMA_BLASTER2: Breakdown Plasma Blaster
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP4: Breakdown Plsm Cannon Clip
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP5: Breakdown Plsm Cannon OC
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP6: Breakdown Plsm Cannon AMd
-      STR_HUMAN_HEAVY_PLASMA_CANNON2: Breakdown Plasma Cannon
-      STR_HUMAN_HEAVY_PLASMA_CLIP4: Breakdown Hvy Plsm Clip
-      STR_HUMAN_HEAVY_PLASMA_CLIP5: Breakdown Hvy Plsm Clip OR
-      STR_HUMAN_HEAVY_PLASMA_CLIP6: Breakdown Hvy Plsm Clip AM
-      STR_HUMAN_HEAVY_PLASMA2: Breakdown Heavy Plasma
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP4: Breakdown Plsm Sniper Rifle Clip
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP5: Breakdown Plsm Sniper Rifle OR
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP6: Breakdown Plsm Sniper Rifle AM
-      STR_HUMAN_PLASMA_SNIPER_RIFLE2: Breakdown Plasma Sniper Rifle
-      STR_HUMAN_PLASMA_BLASTER_CLIP4: Breakdown Plsm Blaster Clip
-      STR_HUMAN_PLASMA_BLASTER_CLIP5: Breakdown Plsm Blaster OR
-      STR_HUMAN_PLASMA_BLASTER_CLIP6: Breakdown Plsm Blaster AM
+      STR_PL_MAIN_PISTOL_CLIP4: Breakdown Plsm Pistol Clip
+      STR_PL_MAIN_PISTOL_CLIP5: Breakdown Plsm Pistol OR
+      STR_PL_MAIN_PISTOL_CLIP6: Breakdown Plsm Pistol AM
+      STR_PL_SMG_CLIP4: Breakdown Plsm Assaulter Clip
+      STR_PL_SMG_CLIP5: Breakdown Plsm Assaulter OR
+      STR_PL_SMG_CLIP6: Breakdown Plsm Assaulter AM
+      STR_PL_SMG2: Breakdown Plasma Assaulter
+      STR_PL_MAIN_PISTOL2: Breakdown Plasma Pistol
+      STR_PL_RIFLE2: Breakdown Plasma Rifle
+      STR_PL_RIFLE_CLIP4: Breakdown Plsm Rifle Clip
+      STR_PL_RIFLE_CLIP5: Breakdown Plsm Rifle OR
+      STR_PL_RIFLE_CLIP6: Breakdown Plsm Rifle AM
+      STR_PL_SHOTGUN2: Breakdown Plasma Blaster
+      STR_PL_HEAVY_CANNON_CLIP4: Breakdown Plsm Cannon Clip
+      STR_PL_HEAVY_CANNON_CLIP5: Breakdown Plsm Cannon OC
+      STR_PL_HEAVY_CANNON_CLIP6: Breakdown Plsm Cannon AMd
+      STR_PL_HEAVY_CANNON2: Breakdown Plasma Cannon
+      STR_PL_LMG_CLIP4: Breakdown Hvy Plsm Clip
+      STR_PL_LMG_CLIP5: Breakdown Hvy Plsm Clip OR
+      STR_PL_LMG_CLIP6: Breakdown Hvy Plsm Clip AM
+      STR_PL_LMG2: Breakdown Heavy Plasma
+      STR_PL_SNIPER_CLIP4: Breakdown Plsm Sniper Rifle Clip
+      STR_PL_SNIPER_CLIP5: Breakdown Plsm Sniper Rifle OR
+      STR_PL_SNIPER_CLIP6: Breakdown Plsm Sniper Rifle AM
+      STR_PL_SNIPER2: Breakdown Plasma Sniper Rifle
+      STR_PL_SHOTGUN_CLIP4: Breakdown Plsm Blaster Clip
+      STR_PL_SHOTGUN_CLIP5: Breakdown Plsm Blaster OR
+      STR_PL_SHOTGUN_CLIP6: Breakdown Plsm Blaster AM
       STR_ALIEN_GRENADE_BREAKDOWN: Breakdown Alien Grenade
       STR_ALIEN_PROX_GRENADE_BREAKDOWN: Breakdown Alien Mine
       STR_SMALL_LAUNCHER_BREAKDOWN: Breakdown Cluster Launcher
@@ -1558,40 +1558,40 @@
       STR_RL_CANNON_CLIP2: Depleted Sabots Magazine
       STR_RL_CANNON_CLIP3: Enriched Sabots Magazine
 #-----Human Plasma Weapons
-      STR_HUMAN_PLASMA_PISTOL_COMPACT: Plasma Compact Pistol
-      STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP: Nano Plasma Cell
-      STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP2: Overcharged Nano Cell
-      STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP3: Nano Antimatter Cell
-      STR_HUMAN_PLASMA_PISTOL: Plasma Service Pistol
-      STR_HUMAN_PLASMA_ASSAULTER: Plasma Assaulter
-      STR_HUMAN_PLASMA_PISTOL_CLIP: Micro Plasma Cell
-      STR_HUMAN_PLASMA_PISTOL_CLIP2: Overcharged Micro Cell
-      STR_HUMAN_PLASMA_PISTOL_CLIP3: Micro Antimatter Cell
-      STR_HUMAN_HEAVY_PLASMA_PISTOL: Heavy Handcannon
-      STR_HUMAN_PLASMA_CARBINE: Plasma Carbine
-      STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP: Mini Plasma Cell
-      STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP2: Overcharged Mini Cell
-      STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP3: Mini Antimatter Cell
-      STR_HUMAN_PLASMA_BLASTER: Plasma Blaster
-      STR_HUMAN_PLASMA_BLASTER_CLIP: Blaster Plasma Cell
-      STR_HUMAN_PLASMA_BLASTER_CLIP2: Overcharged Blaster Cell
-      STR_HUMAN_PLASMA_BLASTER_CLIP3: Blaster Antimatter Cell
-      STR_HUMAN_PLASMA_RIFLE: Plasma Rifle
-      STR_HUMAN_PLASMA_RIFLE_CLIP: Standard Plasma Cell
-      STR_HUMAN_PLASMA_RIFLE_CLIP2: Overcharged Standard Cell
-      STR_HUMAN_PLASMA_RIFLE_CLIP3: Standard Antimatter Cell
-      STR_HUMAN_HEAVY_PLASMA: Plasma Caster
-      STR_HUMAN_HEAVY_PLASMA_CLIP: Heavy Plasma Belt
-      STR_HUMAN_HEAVY_PLASMA_CLIP2: Overcharged Heavy Belt
-      STR_HUMAN_HEAVY_PLASMA_CLIP3: Heavy Antimatter Belt
-      STR_HUMAN_PLASMA_SNIPER_RIFLE: Plasma Sharpshooter
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP: Condensed Plasma Cell
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP2: Overcharged Condensed Cell
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP3: Condensed Antimatter Cell
-      STR_HUMAN_HEAVY_PLASMA_CANNON: Plasma Heavy Cannon
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP: Large Plasma Cell
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP2: Overcharged Large Cell
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP3: Large Antimatter Cell
+      STR_PL_SMALL_PISTOL: Plasma Compact Pistol
+      STR_PL_SMALL_PISTOL_CLIP1: Nano Plasma Cell
+      STR_PL_SMALL_PISTOL_CLIP2: Overcharged Nano Cell
+      STR_PL_SMALL_PISTOL_CLIP3: Nano Antimatter Cell
+      STR_PL_MAIN_PISTOL: Plasma Service Pistol
+      STR_PL_SMG: Plasma Assaulter
+      STR_PL_MAIN_PISTOL_CLIP1: Micro Plasma Cell
+      STR_PL_MAIN_PISTOL_CLIP2: Overcharged Micro Cell
+      STR_PL_MAIN_PISTOL_CLIP3: Micro Antimatter Cell
+      STR_PL_HEAVY_PISTOL: Heavy Handcannon
+      STR_PL_BULLPUP: Plasma Carbine
+      STR_PL_HEAVY_PISTOL_CLIP1: Mini Plasma Cell
+      STR_PL_HEAVY_PISTOL_CLIP2: Overcharged Mini Cell
+      STR_PL_HEAVY_PISTOL_CLIP3: Mini Antimatter Cell
+      STR_PL_SHOTGUN: Plasma Blaster
+      STR_PL_SHOTGUN_CLIP1: Blaster Plasma Cell
+      STR_PL_SHOTGUN_CLIP2: Overcharged Blaster Cell
+      STR_PL_SHOTGUN_CLIP3: Blaster Antimatter Cell
+      STR_PL_RIFLE: Plasma Rifle
+      STR_PL_RIFLE_CLIP1: Standard Plasma Cell
+      STR_PL_RIFLE_CLIP2: Overcharged Standard Cell
+      STR_PL_RIFLE_CLIP3: Standard Antimatter Cell
+      STR_PL_LMG: Plasma Caster
+      STR_PL_LMG_CLIP1: Heavy Plasma Belt
+      STR_PL_LMG_CLIP2: Overcharged Heavy Belt
+      STR_PL_LMG_CLIP3: Heavy Antimatter Belt
+      STR_PL_SNIPER: Plasma Sharpshooter
+      STR_PL_SNIPER_CLIP1: Condensed Plasma Cell
+      STR_PL_SNIPER_CLIP2: Overcharged Condensed Cell
+      STR_PL_SNIPER_CLIP3: Condensed Antimatter Cell
+      STR_PL_HEAVY_CANNON: Plasma Heavy Cannon
+      STR_PL_HEAVY_CANNON_CLIP1: Large Plasma Cell
+      STR_PL_HEAVY_CANNON_CLIP2: Overcharged Large Cell
+      STR_PL_HEAVY_CANNON_CLIP3: Large Antimatter Cell
 #----- Ojito re ordenar todo esto
       STR_HUMAN_PLASMA_SWORD: Plasma Sword
       STR_HUMAN_ALLOY_BLADE: Alloy Knife
@@ -1600,7 +1600,7 @@
       STR_ELERIUM_MINE: Elerium Mine
       STR_HUMAN_SMALL_LAUNCHER: Small Launcher
       STR_HUMAN_STUN_BOMB: Stun Bomb
-      STR_ANTIMATTER_LAUNCHER: Apex Launcher
+      STR_ANTIMATTER_LAUNCHER: Devastator Launcher
       STR_ANTIMATTER_LAUNCHER_BOMB: Plasma Warhead
       STR_ANTIMATTER_LAUNCHER_BOMB2: Antimatter Payload
       STR_ANTIMATTER_LAUNCHER_BOMB3: Inferno Warhead
@@ -1622,6 +1622,7 @@
       STR_PSI_AMP: Psionic Amplifier
       STR_PSI_AMP_LARGE: Psionic Dominator
 #-----Human Armor
+#OJITO LIMPIAR ARMADURAS REMANENTES
       STR_XOPS_ARMOR: Xeno Operations Armor
       STR_XOPS_ARMOR_BLACK: Xeno Operations Armor Black
       STR_XOPS_ARMOR_BLUE: Xeno Operations Armor Blue
@@ -1660,26 +1661,26 @@
       STR_SKY_STRIKE_ARMOR_GREY_UC: SKYSTRIKE ARMOR GREY
       STR_SKY_STRIKE_ARMOR_BLACK: Skystrike Armor Black
       STR_SKY_STRIKE_ARMOR_BLACK_UC: SKYSTRIKE ARMOR BLACK
-      STR_VEST_ARMOR: Kevlar Vest
-      STR_VEST_ARMOR_UC: KEVLAR VEST
-      STR_VEST_ARMOR_GREEN: Woodland Camo
-      STR_VEST_ARMOR_GREEN_UC: WOODLAND CAMO
-      STR_VEST_ARMOR_BLUE: Blue Uniform
-      STR_VEST_ARMOR_BLUE_UC: BLUE UNIFORM
-      STR_VEST_ARMOR_WHITE: Arctic Camo
-      STR_VEST_ARMOR_WHITE_UC: ARCTIC CAMO
-      STR_VEST_ARMOR_GREY: Urban Camo
-      STR_VEST_ARMOR_GREY_UC: URBAN CAMO
-      STR_VEST_ARMOR_BLACK: Black Ops
-      STR_VEST_ARMOR_BLACK_UC: BLACK OPS
-      STR_BERET_ARMOR: Beret
-      STR_BERET_ARMOR_UC: BERET
-      STR_BERET_ARMOR_RED: Kevlar with Red Beret
-      STR_BERET_ARMOR_RED_UC: KEVLAR WITH RED BERET
-      STR_BERET_ARMOR_GREEN: Black Kevlar with Beret
-      STR_BERET_ARMOR_GREEN_UC: BLACK KEVLAR WITH BERET
-      STR_HEC_ARMOR: H.E.C. Suit
-      STR_HEC_ARMOR_UC: H.E.C SUIT
+      STR_KEVLAR_VEST_ARMOR_TAN: Kevlar Vest
+      STR_KEVLAR_VEST_ARMOR_TAN_UC: KEVLAR VEST
+      STR_KEVLAR_VEST_ARMOR_GREEN: Woodland Camo
+      STR_KEVLAR_VEST_ARMOR_GREEN_UC: WOODLAND CAMO
+      STR_KEVLAR_VEST_ARMOR_BLUE: Blue Uniform
+      STR_KEVLAR_VEST_ARMOR_BLUE_UC: BLUE UNIFORM
+      STR_KEVLAR_VEST_ARMOR_WHITE: Arctic Camo
+      STR_KEVLAR_VEST_ARMOR_WHITE_UC: ARCTIC CAMO
+      STR_KEVLAR_VEST_ARMOR_GREY: Urban Camo
+      STR_KEVLAR_VEST_ARMOR_GREY_UC: URBAN CAMO
+      STR_KEVLAR_VEST_ARMOR_BLACK: Black Ops
+      STR_KEVLAR_VEST_ARMOR_BLACK_UC: BLACK OPS
+      STR_KEVLAR_VEST_ARMOR_BERET: Beret
+      STR_KEVLAR_VEST_ARMOR_BERET_UC: BERET
+      STR_KEVLAR_VEST_ARMOR_BERET_RED: Kevlar with Red Beret
+      STR_KEVLAR_VEST_ARMOR_BERET_RED_UC: KEVLAR WITH RED BERET
+      STR_KEVLAR_VEST_ARMOR_BERET_GREEN: Black Kevlar with Beret
+      STR_KEVLAR_VEST_ARMOR_BERET_GREEN_UC: BLACK KEVLAR WITH BERET
+      STR_VEST_HEC_ARMOR: H.E.C. Suit
+      STR_VEST_HEC_ARMOR_UC: H.E.C SUIT
       STR_PSI_ARMOR: Nerve Suit
       STR_PSI_ARMOR_UC: NERVE SUIT
       STR_PSI_ARMOR_BLUE: Nerve Suit Blue
@@ -1799,21 +1800,21 @@
       STR_BLASTER_LAUNCHER_UFOPEDIA: "This is an alien guided missile launcher which fires powerful 'blaster bombs'. When you click to fire the weapon it will generate 'way points' for the blaster bomb to follow. When you have positioned enough way points click on the special launch icon. A special level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture."
       STR_ALIEN_GRENADE_UFOPEDIA: "This device works in the same way as a terrestrial grenade - except that it is more powerful. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture."
 #-----UFOPaedia Human Equipment
-      STR_VEST_ARMOR_UFOPEDIA: Kevlar Vest
+      STR_KEVLAR_VEST_ARMOR_UFOPEDIA: Kevlar Vest
       STR_XOPS_ARMOR_UFOPEDIA: Xeno Operations Armor
       STR_ALLOY_ARMOR_UFOPEDIA: Alloy Armor
       STR_ALLOY_UFOPEDIA: Armor made from Alien Alloys. This gives a XCom agent a chance to survive against light alien firepower.
       STR_VEST_UFOPEDIA: A basic kevlar vest. Good against conventional ballistic weapons. Better than nothing.
-      STR_HEC_UFOPEDIA: A Hazardous Environment Combat suit that protects the wearer from smoke, chemical, and biological agents. However it is restrictive of vision though.
+      STR_VEST_HEC_ARMOR_UFOPEDIA: A Hazardous Environment Combat suit that protects the wearer from smoke, chemical, and biological agents. However it is restrictive of vision though.
       STR_XOPS_UFOPEDIA: Xeno Operations Armor combines the best armor and tactical infantry combat technologies available on Earth. It provides a real time targeting computer and communication uplink system.
       STR_PSI_UFOPEDIA: This suit enhances numerous mental abilities and is resistant to plasma. However the skin tight suit is weak to most other forms of attack.
       STR_SKY_STRIKE_UFOPEDIA: The anti gravity jet system of Skystrike armor grants the agent flight and also aids them in movement increasing their speed.
       STR_XOPS_POWER_UFOPEDIA: The pinnacle of armor technology. This powered armor enhances the agent in numerous ways. It also protects against psionic attack, but does so at the cost of the agent's psi skills.
       STR_XOPS_ARMOR_UFOPEDIA_DISPLAY: Xeno Operations Armor
       STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY: Alloy Armor
-      STR_VEST_ARMOR_UFOPEDIA_DISPLAY: Kevlar Vest
+      STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY: Kevlar Vest
       STR_SKY_STRIKE_ARMOR_UFOPEDIA_DISPLAY: Sky Strike Armor
-      STR_HEC_ARMOR_UFOPEDIA_DISPLAY: HEC Suit
+      STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY: HEC Suit
       STR_PSI_ARMOR_UFOPEDIA_DISPLAY: Nerve Suit
       STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY: Power Armor
       STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY: Power Suit
@@ -1846,13 +1847,13 @@
       STR_LASER_SWORD_UFOPEDIA: The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
       STR_CHARGED_CELLS_UFOPEDIA: New advancements in battery technology has allowed our engineers to design and build Charged Cell batteries for our laser weapons. These cells greatly increase the damage output of our laser weapons, but drain more quickly than normal laser batteries.
       STR_ELERIUM_LASER_BATTERY_UFOPEDIA: By adapting a micro Elerium battery into our laser weapons it can greatly boost both their power and battery life.
-      STR_HUMAN_PLASMA_PISTOL_UFOPEDIA: The Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second. It shares ammunition with the plasma assaulter, as it uses a micro plasma cell.
-      STR_HUMAN_PLASMA_ASSAULTER_UFOPEDIA: The Plasma Assaulter fires at a high rate, but losses accuracy over long ranges quickly. This makes it ideal for close assault. It shares ammunition with the plasma pistol, as it uses a micro plasma cell.
-      STR_HUMAN_PLASMA_RIFLE_UFOPEDIA: The Plasma Rifle uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second.
-      STR_HUMAN_PLASMA_BLASTER_UFOPEDIA: The Plasma Blaster's containment field breaks apart mid flight being designed to produce a spread effect similar to a shotgun.
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_UFOPEDIA: The Plasma Sniper Rifle has a special barrel designed to reduce its spread range to practically nothing. This makes this weapon deadly accurate, but at the cost of a slower firing rate.
-      STR_HUMAN_HEAVY_PLASMA_UFOPEDIA: The Heavy Plasma is extremely destructive combining a high rate of fire with a huge amount of stopping power. However, the power requirements have scaled as well and it eats through its Elerium powered clips quickly.
-      STR_HUMAN_HEAVY_PLASMA_CANNON_UFOPEDIA: The Heavy Plasma Cannon is the largest plasma based weapon yet designed short of craft mounted weapons. The Elerium containment field is only barely sufficient to keep the volatile plasma core from erupting before it hits its target.
+      STR_PL_MAIN_PISTOL_UFOPEDIA: The Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second. It shares ammunition with the plasma assaulter, as it uses a micro plasma cell.
+      STR_PL_SMG_UFOPEDIA: The Plasma Assaulter fires at a high rate, but losses accuracy over long ranges quickly. This makes it ideal for close assault. It shares ammunition with the plasma pistol, as it uses a micro plasma cell.
+      STR_PL_RIFLE_UFOPEDIA: The Plasma Rifle uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second.
+      STR_PL_SHOTGUN_UFOPEDIA: The Plasma Blaster's containment field breaks apart mid flight being designed to produce a spread effect similar to a shotgun.
+      STR_PL_SNIPER_UFOPEDIA: The Plasma Sniper Rifle has a special barrel designed to reduce its spread range to practically nothing. This makes this weapon deadly accurate, but at the cost of a slower firing rate.
+      STR_PL_LMG_UFOPEDIA: The Heavy Plasma is extremely destructive combining a high rate of fire with a huge amount of stopping power. However, the power requirements have scaled as well and it eats through its Elerium powered clips quickly.
+      STR_PL_HEAVY_CANNON_UFOPEDIA: The Heavy Plasma Cannon is the largest plasma based weapon yet designed short of craft mounted weapons. The Elerium containment field is only barely sufficient to keep the volatile plasma core from erupting before it hits its target.
       STR_RL_PISTOL_UFOPEDIA: The Hypervelocity Pistol fires a small powered projectile at speeds that superheat a missile with extreme velocities. Its compact design makes this a powerful sidearm.
       STR_RL_SMG_UFOPEDIA: The Hypervelocity Assaulter has a high rate of fire as well as keeping the weapon compact and easy to maneuver. It fills the role of a light assault weapon firing powered kinetic darts at extreme velocities.
       STR_RL_RIFLE_UFOPEDIA: The Hypervelocity Rifle fires a small Elerium powered kinetic dart at speeds that superheat a missile with extreme velocities.
@@ -1864,14 +1865,14 @@
       STR_INC_GRENADE_UFOPEDIA: The Incendiary Grenade contains chemical elements that explode in a fiery blast when mixed. Useful for turning aliens into makeshift torches.
       STR_KNIFE_UFOPEDIA: The standard issue XCom Combat Knife is light and deadly being made out of high carbon steel that holds an edge well. This close combat weapon gives any soldier a suitable weapon in case the aliens get too close. Unlike the stun rod, a Soldier's strength is added to the Combat Knife's damage.
       STR_BRASS_KNUCKLES_UFOPEDIA: Brass Knuckles allow for our soldiers to use good old fashion fisticuffs to administer a classic Terran beat down. An alien would likely not be permanently killed by such a primitive hand to hand brawl, but it is useful to knock out an alien for live capture. Brass Knuckles are very light making it an easy and cheap addition to any soldier. Unlike the stun rod, this weapon adds the soldier's strength to the damage.
-      STR_IMPROVED_MEDKIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
+      STR_BASIC_MEDI_KIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
       STR_XP_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
       STR_HUMAN_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
       STR_HUMAN_ALLOY_BLADE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
       STR_ANTIMATTER_BOMB_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
       STR_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
-      STR_ANTIMATTER_LAUNCHER_UFOPEDIA: The Apex Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
+      STR_ANTIMATTER_LAUNCHER_UFOPEDIA: The Devastator Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
       STR_ANTIMATTER_LAUNCHER_BOMB_UFOPEDIA:
       STR_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
       STR_ANTIMATTER_LAUNCHER_BOMB3_UFOPEDIA:
@@ -2148,8 +2149,8 @@
       STR_TANKS_UNITS: Heavy Weapons Platforms
       STR_HEAVY_TANKS_UNITS_UFOPEDIA: "As access to new materials and advanced technologies, such as the enigmatic alien alloys, became available, the imperative to deploy heavier and more formidable units on the battlefield grew exponentially. To meet this demand, our dedicated Research teams embarked on an ambitious endeavor, focusing on the creation of groundbreaking models characterized by a drastic reduction in weight and increased mobility. The primary objective was to engineer units so lightweight that they could be safely transported and swiftly deployed by our enhanced transport ships equipped with VTOL (Vertical Takeoff and Landing) capabilities. {NEWLINE}This engineering feat signifies a pivotal advancement, enabling us to rapidly respond to emerging threats and engage the alien menace with unparalleled agility. These innovative designs are a testament to the relentless pursuit of progress and efficiency in our mission to safeguard humanity against the looming extraterrestrial threat."
       STR_ADRENO_SYRINGE_UFOPEDIA: WIP{NEWLINE} gives 1 dose to revive stun soldiers (get discarded after use)
-      STR_STR_FIRST_AID_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits
-      STR_BASIC_MEDKIT_UFOPEDIA: heal 1 point of bleeding and have 5 charges, useful for dedicated medic units, its expensive and heavier but heals more quickly and recharge freely after missions
+      STR_STR_FIST_AID_KIT_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits
+      STR_STARTING_MEDI_KIT_UFOPEDIA: heal 1 point of bleeding and have 5 charges, useful for dedicated medic units, its expensive and heavier but heals more quickly and recharge freely after missions
       STR_DOG_EQUIPMENT: Dog Armors and Equipment
       STR_SUPPORT_UNITS: Supporting Units
       STR_DOG_RECRUITMENT: XCom Special Canine Units

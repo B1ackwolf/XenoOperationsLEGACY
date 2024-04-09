@@ -2132,7 +2132,7 @@ manufacture:
     listOrder: 2529
 #--- Hypervelocity Weapons ----------------------------------END
 #--- Sixt TierPlasma Weapons ----------------------------------
-  - name: STR_HUMAN_PLASMA_PISTOL_COMPACT
+  - name: STR_PL_SMALL_PISTOL
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2144,7 +2144,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 8
       STR_ELERIUM_115: 5
     listOrder: 2601
-  - name: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP
+  - name: STR_PL_SMALL_PISTOL_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2154,9 +2154,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP: 10
+      STR_PL_SMALL_PISTOL_CLIP1: 10
     listOrder: 2602
-  - name: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP2
+  - name: STR_PL_SMALL_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2168,9 +2168,9 @@ manufacture:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP2: 10
+      STR_PL_SMALL_PISTOL_CLIP2: 10
     listOrder: 2603
-  - name: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP3
+  - name: STR_PL_SMALL_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2182,9 +2182,9 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP3: 10
+      STR_PL_SMALL_PISTOL_CLIP3: 10
     listOrder: 2604
-  - name: STR_HUMAN_PLASMA_PISTOL
+  - name: STR_PL_MAIN_PISTOL
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2196,7 +2196,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 10
       STR_ELERIUM_115: 6
     listOrder: 2605
-  - name: STR_HUMAN_PLASMA_ASSAULTER
+  - name: STR_PL_SMG
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2208,7 +2208,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 12
       STR_ELERIUM_115: 7
     listOrder: 2606
-  - name: STR_HUMAN_PLASMA_PISTOL_CLIP
+  - name: STR_PL_MAIN_PISTOL_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2218,9 +2218,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HUMAN_PLASMA_PISTOL_CLIP: 10
+      STR_PL_MAIN_PISTOL_CLIP1: 10
     listOrder: 2607
-  - name: STR_HUMAN_PLASMA_PISTOL_CLIP2
+  - name: STR_PL_MAIN_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2232,9 +2232,9 @@ manufacture:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HUMAN_PLASMA_PISTOL_CLIP2: 10
+      STR_PL_MAIN_PISTOL_CLIP2: 10
     listOrder: 2608
-  - name: STR_HUMAN_PLASMA_PISTOL_CLIP3
+  - name: STR_PL_MAIN_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2246,9 +2246,9 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
     producedItems:
-      STR_HUMAN_PLASMA_PISTOL_CLIP3: 10
+      STR_PL_MAIN_PISTOL_CLIP3: 10
     listOrder: 2609
-  - name: STR_HUMAN_HEAVY_PLASMA_PISTOL
+  - name: STR_PL_HEAVY_PISTOL
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2260,7 +2260,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 14
       STR_ELERIUM_115: 7
     listOrder: 2610
-  - name: STR_HUMAN_PLASMA_CARBINE
+  - name: STR_PL_BULLPUP
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2272,7 +2272,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 14
       STR_ELERIUM_115: 8
     listOrder: 2611
-  - name: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP
+  - name: STR_PL_HEAVY_PISTOL_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2282,9 +2282,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP: 10
+      STR_PL_HEAVY_PISTOL_CLIP1: 10
     listOrder: 2612
-  - name: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP2
+  - name: STR_PL_HEAVY_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2296,9 +2296,9 @@ manufacture:
       STR_ELERIUM_115: 2
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP2: 10      
+      STR_PL_HEAVY_PISTOL_CLIP2: 10      
     listOrder: 2613
-  - name: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP3
+  - name: STR_PL_HEAVY_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2310,9 +2310,9 @@ manufacture:
       STR_ELERIUM_115: 6
       STR_CODEX_FRAGMENT: 6
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP3: 10
+      STR_PL_HEAVY_PISTOL_CLIP3: 10
     listOrder: 2614
-  - name: STR_HUMAN_PLASMA_BLASTER
+  - name: STR_PL_SHOTGUN
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
@@ -2324,7 +2324,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 15
       STR_ELERIUM_115: 10
     listOrder: 2615
-  - name: STR_HUMAN_PLASMA_BLASTER_CLIP
+  - name: STR_PL_SHOTGUN_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
@@ -2334,9 +2334,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HUMAN_PLASMA_BLASTER_CLIP: 10
+      STR_PL_SHOTGUN_CLIP1: 10
     listOrder: 2616
-  - name: STR_HUMAN_PLASMA_BLASTER_CLIP2
+  - name: STR_PL_SHOTGUN_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2348,9 +2348,9 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HUMAN_PLASMA_BLASTER_CLIP2: 10
+      STR_PL_SHOTGUN_CLIP2: 10
     listOrder: 2617
-  - name: STR_HUMAN_PLASMA_BLASTER_CLIP3
+  - name: STR_PL_SHOTGUN_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2362,9 +2362,9 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
     producedItems:
-      STR_HUMAN_PLASMA_BLASTER_CLIP3: 10
+      STR_PL_SHOTGUN_CLIP3: 10
     listOrder: 2618
-  - name: STR_HUMAN_PLASMA_RIFLE
+  - name: STR_PL_RIFLE
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
@@ -2376,7 +2376,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 15
       STR_ELERIUM_115: 10
     listOrder: 2619
-  - name: STR_HUMAN_PLASMA_RIFLE_CLIP
+  - name: STR_PL_RIFLE_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
@@ -2386,9 +2386,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HUMAN_PLASMA_RIFLE_CLIP: 10
+      STR_PL_RIFLE_CLIP1: 10
     listOrder: 2620
-  - name: STR_HUMAN_PLASMA_RIFLE_CLIP2
+  - name: STR_PL_RIFLE_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2400,9 +2400,9 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HUMAN_PLASMA_RIFLE_CLIP2: 10
+      STR_PL_RIFLE_CLIP2: 10
     listOrder: 2621
-  - name: STR_HUMAN_PLASMA_RIFLE_CLIP3
+  - name: STR_PL_RIFLE_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2414,9 +2414,9 @@ manufacture:
       STR_ELERIUM_115: 8
       STR_CODEX_FRAGMENT: 8
     producedItems:
-      STR_HUMAN_PLASMA_RIFLE_CLIP3: 10
+      STR_PL_RIFLE_CLIP3: 10
     listOrder: 2622
-  - name: STR_HUMAN_HEAVY_PLASMA
+  - name: STR_PL_LMG
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
@@ -2428,7 +2428,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 30
       STR_ELERIUM_115: 15
     listOrder: 2623
-  - name: STR_HUMAN_HEAVY_PLASMA_CLIP
+  - name: STR_PL_LMG_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
@@ -2438,9 +2438,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 3
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_CLIP: 10
+      STR_PL_LMG_CLIP1: 10
     listOrder: 2624
-  - name: STR_HUMAN_HEAVY_PLASMA_CLIP2
+  - name: STR_PL_LMG_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2452,9 +2452,9 @@ manufacture:
       STR_ELERIUM_115: 4
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_CLIP2: 10
+      STR_PL_LMG_CLIP2: 10
     listOrder: 2625
-  - name: STR_HUMAN_HEAVY_PLASMA_CLIP3
+  - name: STR_PL_LMG_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2466,9 +2466,9 @@ manufacture:
       STR_ELERIUM_115: 10
       STR_CODEX_FRAGMENT: 10
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_CLIP3: 10
+      STR_PL_LMG_CLIP3: 10
     listOrder: 2626
-  - name: STR_HUMAN_PLASMA_SNIPER_RIFLE
+  - name: STR_PL_SNIPER
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
@@ -2480,7 +2480,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 20
       STR_ELERIUM_115: 10
     listOrder: 2627
-  - name: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP
+  - name: STR_PL_SNIPER_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
@@ -2490,9 +2490,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 2
     producedItems:
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP: 10
+      STR_PL_SNIPER_CLIP1: 10
     listOrder: 2628
-  - name: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP2
+  - name: STR_PL_SNIPER_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2504,9 +2504,9 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 2
     producedItems:
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP2: 10
+      STR_PL_SNIPER_CLIP2: 10
     listOrder: 2629
-  - name: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP3
+  - name: STR_PL_SNIPER_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2518,9 +2518,9 @@ manufacture:
       STR_ELERIUM_115: 10
       STR_CODEX_FRAGMENT: 10
     producedItems:
-      STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP3: 10
+      STR_PL_SNIPER_CLIP3: 10
     listOrder: 2630
-  - name: STR_HUMAN_HEAVY_PLASMA_CANNON
+  - name: STR_PL_HEAVY_CANNON
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
@@ -2532,7 +2532,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 35
       STR_ELERIUM_115: 20
     listOrder: 2631
-  - name: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP
+  - name: STR_PL_HEAVY_CANNON_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
@@ -2542,9 +2542,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 4
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP: 10
+      STR_PL_HEAVY_CANNON_CLIP1: 10
     listOrder: 2632
-  - name: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP2
+  - name: STR_PL_HEAVY_CANNON_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2556,9 +2556,9 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP2: 10
+      STR_PL_HEAVY_CANNON_CLIP2: 10
     listOrder: 2633
-  - name: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP3
+  - name: STR_PL_HEAVY_CANNON_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2570,7 +2570,7 @@ manufacture:
       STR_ELERIUM_115: 12
       STR_CODEX_FRAGMENT: 12
     producedItems:
-      STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP3: 10
+      STR_PL_HEAVY_CANNON_CLIP3: 10
     listOrder: 2634
 ######Ojito pasar a armas meelee
   - name: STR_HUMAN_ALLOY_BLADE

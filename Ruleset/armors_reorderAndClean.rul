@@ -2,161 +2,159 @@
 #----- delete vainilla armors -----#
   - delete: STR_NONE_UC
   - delete: STR_POWER_SUIT_UC
-  - delete: STR_FLIYING_SUIT_UC
-#ojito agregar luego la power armor vainilla
-#ojito agregar tambien power armor voladora
+  - delete: STR_FLYING_SUIT_UC
 ##### End of vainilla delete section #####-------------------------
 ##### First tier basic armors #####--------------------------------
-  - type: STR_PILOT_UC
+  - type: STR_FLIGHT_JUMPSUIT
     spriteSheet: XOPS_XCOM_0.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
-      8: PILOT_JUMPSUIT
+      8: FLIGHT_JUMPSUIT
     layersDefinition:
-      M0: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M0_HEAD"]
-      M1: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M1_HEAD"]
-      M2: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M2_HEAD"]
-      M3: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M3_HEAD"]
-      M4: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M4_HEAD"]
-      M5: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M5_HEAD"]
-      M6: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M6_HEAD"]
-      M7: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M7_HEAD"]
-      M8: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M8_HEAD"]
-      M9: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M9_HEAD"]
-      M10: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M10_HEAD"]
-      M11: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M11_HEAD"]
-      M12: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M12_HEAD"]
-      M13: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M13_HEAD"]
-      M14: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M14_HEAD"]
-      M15: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M15_HEAD"]
-      M16: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M16_HEAD"]
-      M17: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M17_HEAD"]
-      M18: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M18_HEAD"]
-      M19: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M19_HEAD"]
-      M20: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M20_HEAD"]
-      M21: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M21_HEAD"]
-      M22: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M22_HEAD"]
-      M23: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M23_HEAD"]
-      M24: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M24_HEAD"]
-      M25: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M25_HEAD"]
-      M26: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M26_HEAD"]
-      M27: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M27_HEAD"]
-      M28: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M28_HEAD"]
-      M29: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M29_HEAD"]
-      M30: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M30_HEAD"]
-      M31: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M31_HEAD"]
-      M32: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M32_HEAD"]
-      M33: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M33_HEAD"]
-      M34: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M34_HEAD"]
-      M35: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M35_HEAD"]
-      M36: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M36_HEAD"]
-      M37: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M37_HEAD"]
-      M38: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M38_HEAD"]
-      M39: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M39_HEAD"]
-      M40: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M40_HEAD"]
-      M41: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M41_HEAD"]
-      M42: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M42_HEAD"]
-      M43: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M43_HEAD"]
-      M44: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M44_HEAD"]
-      M45: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M45_HEAD"]
-      M46: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M46_HEAD"]
-      M47: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M47_HEAD"]
-      M48: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M48_HEAD"]
-      M49: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M49_HEAD"]
-      M50: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M50_HEAD"]
-      M51: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M51_HEAD"]
-      M52: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M52_HEAD"]
-      M53: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M53_HEAD"]
-      M54: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M54_HEAD"]
-      M55: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M55_HEAD"]
-      M56: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M56_HEAD"]
-      M57: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M57_HEAD"]
-      M58: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M58_HEAD"]
-      M59: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M59_HEAD"]
-      M60: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M60_HEAD"]
-      M61: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M61_HEAD"]
-      M62: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M62_HEAD"]
-      M63: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M63_HEAD"]
-      M64: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M64_HEAD"]
-      M65: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M65_HEAD"]
-      M66: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M66_HEAD"]
-      M67: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M67_HEAD"]
-      M68: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M68_HEAD"]
-      M69: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M69_HEAD"]
-      M70: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M70_HEAD"]
-      M71: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_M", "", "M71_HEAD"]
-      F0: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F0_HEAD"]
-      F1: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F1_HEAD"]
-      F2: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F2_HEAD"]
-      F3: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F3_HEAD"]
-      F4: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F4_HEAD"]
-      F5: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F5_HEAD"]
-      F6: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F6_HEAD"]
-      F7: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F7_HEAD"]
-      F8: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F8_HEAD"]
-      F9: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F9_HEAD"]
-      F10: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F10_HEAD"]
-      F11: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F11_HEAD"]
-      F12: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F12_HEAD"]
-      F13: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F13_HEAD"]
-      F14: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F14_HEAD"]
-      F15: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F15_HEAD"]
-      F16: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F16_HEAD"]
-      F17: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F17_HEAD"]
-      F18: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F18_HEAD"]
-      F19: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F19_HEAD"]
-      F20: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F20_HEAD"]
-      F21: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F21_HEAD"]
-      F22: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F22_HEAD"]
-      F23: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F23_HEAD"]
-      F24: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F24_HEAD"]
-      F25: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F25_HEAD"]
-      F26: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F26_HEAD"]
-      F27: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F27_HEAD"]
-      F28: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F28_HEAD"]
-      F29: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F29_HEAD"]
-      F30: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F30_HEAD"]
-      F31: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F31_HEAD"]
-      F32: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F32_HEAD"]
-      F33: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F33_HEAD"]
-      F34: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F34_HEAD"]
-      F35: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F35_HEAD"]
-      F36: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F36_HEAD"]
-      F37: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F37_HEAD"]
-      F38: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F38_HEAD"]
-      F39: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F39_HEAD"]
-      F40: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F40_HEAD"]
-      F41: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F41_HEAD"]
-      F42: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F42_HEAD"]
-      F43: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F43_HEAD"]
-      F44: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F44_HEAD"]
-      F45: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F45_HEAD"]
-      F46: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F46_HEAD"]
-      F47: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F47_HEAD"]
-      F48: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F48_HEAD"]
-      F49: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F49_HEAD"]
-      F50: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F50_HEAD"]
-      F51: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F51_HEAD"]
-      F52: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F52_HEAD"]
-      F53: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F53_HEAD"]
-      F54: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F54_HEAD"]
-      F55: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "", "F55_HEAD"]
-      F56: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F56_HEAD"]
-      F57: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F57_HEAD"]
-      F58: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F58_HEAD"]
-      F59: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F59_HEAD"]
-      F60: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F60_HEAD"]
-      F61: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F61_HEAD"]
-      F62: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F62_HEAD"]
-      F63: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F63_HEAD"]
-      F64: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F64_HEAD"]
-      F65: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F65_HEAD"]
-      F66: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F66_HEAD"]
-      F67: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F67_HEAD"]
-      F68: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F68_HEAD"]
-      F69: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F69_HEAD"]
-      F70: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F70_HEAD"]
-      F71: ["", "", "", "", "", "", "", "", "PILOT_JUMPSUIT_F", "","F71_HEAD"]
+      M0: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M0_HEAD"]
+      M1: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M1_HEAD"]
+      M2: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M2_HEAD"]
+      M3: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M3_HEAD"]
+      M4: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M4_HEAD"]
+      M5: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M5_HEAD"]
+      M6: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M6_HEAD"]
+      M7: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M7_HEAD"]
+      M8: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M8_HEAD"]
+      M9: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M9_HEAD"]
+      M10: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M10_HEAD"]
+      M11: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M11_HEAD"]
+      M12: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M12_HEAD"]
+      M13: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M13_HEAD"]
+      M14: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M14_HEAD"]
+      M15: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M15_HEAD"]
+      M16: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M16_HEAD"]
+      M17: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M17_HEAD"]
+      M18: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M18_HEAD"]
+      M19: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M19_HEAD"]
+      M20: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M20_HEAD"]
+      M21: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M21_HEAD"]
+      M22: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M22_HEAD"]
+      M23: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M23_HEAD"]
+      M24: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M24_HEAD"]
+      M25: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M25_HEAD"]
+      M26: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M26_HEAD"]
+      M27: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M27_HEAD"]
+      M28: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M28_HEAD"]
+      M29: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M29_HEAD"]
+      M30: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M30_HEAD"]
+      M31: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M31_HEAD"]
+      M32: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M32_HEAD"]
+      M33: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M33_HEAD"]
+      M34: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M34_HEAD"]
+      M35: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M35_HEAD"]
+      M36: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M36_HEAD"]
+      M37: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M37_HEAD"]
+      M38: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M38_HEAD"]
+      M39: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M39_HEAD"]
+      M40: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M40_HEAD"]
+      M41: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M41_HEAD"]
+      M42: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M42_HEAD"]
+      M43: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M43_HEAD"]
+      M44: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M44_HEAD"]
+      M45: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M45_HEAD"]
+      M46: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M46_HEAD"]
+      M47: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M47_HEAD"]
+      M48: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M48_HEAD"]
+      M49: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M49_HEAD"]
+      M50: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M50_HEAD"]
+      M51: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M51_HEAD"]
+      M52: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M52_HEAD"]
+      M53: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M53_HEAD"]
+      M54: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M54_HEAD"]
+      M55: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M55_HEAD"]
+      M56: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M56_HEAD"]
+      M57: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M57_HEAD"]
+      M58: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M58_HEAD"]
+      M59: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M59_HEAD"]
+      M60: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M60_HEAD"]
+      M61: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M61_HEAD"]
+      M62: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M62_HEAD"]
+      M63: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M63_HEAD"]
+      M64: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M64_HEAD"]
+      M65: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M65_HEAD"]
+      M66: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M66_HEAD"]
+      M67: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M67_HEAD"]
+      M68: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M68_HEAD"]
+      M69: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M69_HEAD"]
+      M70: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M70_HEAD"]
+      M71: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_M", "", "M71_HEAD"]
+      F0: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F0_HEAD"]
+      F1: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F1_HEAD"]
+      F2: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F2_HEAD"]
+      F3: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F3_HEAD"]
+      F4: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F4_HEAD"]
+      F5: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F5_HEAD"]
+      F6: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F6_HEAD"]
+      F7: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F7_HEAD"]
+      F8: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F8_HEAD"]
+      F9: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F9_HEAD"]
+      F10: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F10_HEAD"]
+      F11: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F11_HEAD"]
+      F12: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F12_HEAD"]
+      F13: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F13_HEAD"]
+      F14: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F14_HEAD"]
+      F15: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F15_HEAD"]
+      F16: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F16_HEAD"]
+      F17: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F17_HEAD"]
+      F18: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F18_HEAD"]
+      F19: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F19_HEAD"]
+      F20: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F20_HEAD"]
+      F21: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F21_HEAD"]
+      F22: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F22_HEAD"]
+      F23: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F23_HEAD"]
+      F24: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F24_HEAD"]
+      F25: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F25_HEAD"]
+      F26: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F26_HEAD"]
+      F27: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F27_HEAD"]
+      F28: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F28_HEAD"]
+      F29: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F29_HEAD"]
+      F30: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F30_HEAD"]
+      F31: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F31_HEAD"]
+      F32: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F32_HEAD"]
+      F33: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F33_HEAD"]
+      F34: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F34_HEAD"]
+      F35: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F35_HEAD"]
+      F36: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F36_HEAD"]
+      F37: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F37_HEAD"]
+      F38: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F38_HEAD"]
+      F39: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F39_HEAD"]
+      F40: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F40_HEAD"]
+      F41: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F41_HEAD"]
+      F42: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F42_HEAD"]
+      F43: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F43_HEAD"]
+      F44: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F44_HEAD"]
+      F45: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F45_HEAD"]
+      F46: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F46_HEAD"]
+      F47: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F47_HEAD"]
+      F48: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F48_HEAD"]
+      F49: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F49_HEAD"]
+      F50: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F50_HEAD"]
+      F51: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F51_HEAD"]
+      F52: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F52_HEAD"]
+      F53: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F53_HEAD"]
+      F54: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F54_HEAD"]
+      F55: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "", "F55_HEAD"]
+      F56: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F56_HEAD"]
+      F57: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F57_HEAD"]
+      F58: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F58_HEAD"]
+      F59: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F59_HEAD"]
+      F60: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F60_HEAD"]
+      F61: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F61_HEAD"]
+      F62: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F62_HEAD"]
+      F63: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F63_HEAD"]
+      F64: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F64_HEAD"]
+      F65: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F65_HEAD"]
+      F66: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F66_HEAD"]
+      F67: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F67_HEAD"]
+      F68: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F68_HEAD"]
+      F69: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F69_HEAD"]
+      F70: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F70_HEAD"]
+      F71: ["", "", "", "", "", "", "", "", "FLIGHT_JUMPSUIT_F", "","F71_HEAD"]
     spriteFaceGroup: 6
     spriteFaceColor: &SpriteFaceColorAgent [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 95, 163, 160, 176, 96, 98, 96, 160, 95, 163, 163, 97, 96, 97, 96, 159, 95, 161, 161, 96, 96, 16, 96, 160, 160, 161, 161, 96, 96, 96, 98, 99, 101, 160, 163, 100, 101, 99, 98, 160, 101, 161, 162, 144, 146, 99, 96, 160, 96, 161, 163, 96, 176, 96, 95, 163, 163, 161, 163, 96, 96, 96, 177, 163, 101, 163, 163, 96, 96, 96, 96, 161, 163, 163, 163, 96, 176, 96, 96, 160, 95, 163, 160, 176, 96, 96, 177, 160, 160, 163, 160] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
@@ -165,7 +163,7 @@
     storeItem: STR_NONE
     loftempsSet: [ 3 ]
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     frontArmor: 6
     sideArmor: 2
     rearArmor: 2
@@ -194,164 +192,164 @@
       - STR_NULL_POCKET_LS 
     units:
       - STR_PILOT
-  - type: STR_VEST_ARMOR_UC
+  - type: STR_KEVLAR_VEST_ARMOR_TAN_UC
     spriteSheet: XOPS_XCOM_1.PCK
     customArmorPreviewIndex: 1
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
-      8: VEST_BASIC
+      8: VEST_TAN
     layersDefinition:
-      M0: ["", "", "M0_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M1: ["", "", "M1_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M2: ["", "", "M2_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M3: ["", "", "M3_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M4: ["", "", "M4_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M5: ["", "", "M5_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M6: ["", "", "M6_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M7: ["", "", "M7_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M8: ["", "", "M8_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M9: ["", "", "M9_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M10: ["", "", "M10_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M11: ["", "", "M11_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M12: ["", "", "M12_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M13: ["", "", "M13_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M14: ["", "", "M14_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M15: ["", "", "M15_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M16: ["", "", "M16_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M17: ["", "", "M17_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M18: ["", "", "M18_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M19: ["", "", "M19_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M20: ["", "", "M20_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M21: ["", "", "M21_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M22: ["", "", "M22_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M23: ["", "", "M23_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M24: ["", "", "M24_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M25: ["", "", "M25_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_R",]
-      M26: ["", "", "M26_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M27: ["", "", "M27_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M28: ["", "", "M28_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M29: ["", "", "M29_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M30: ["", "", "M30_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M31: ["", "", "M31_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M32: ["", "", "M32_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M33: ["", "", "M33_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      M34: ["", "", "M34_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M35: ["", "", "M35_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M36: ["", "", "M36_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M37: ["", "", "M37_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M38: ["", "", "M38_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M39: ["", "", "M39_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M40: ["", "", "M40_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M41: ["", "", "M41_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M42: ["", "", "M42_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      M43: ["", "", "M43_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M44: ["", "", "M44_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M45: ["", "", "M45_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M46: ["", "", "M46_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
-      M47: ["", "", "M47_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M48: ["", "", "M48_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_R",]
-      M49: ["", "", "M49_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BL",]
-      M50: ["", "", "M50_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_BL",]
-      M51: ["", "", "M51_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M52: ["", "", "M52_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M53: ["", "", "M53_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M54: ["", "", "M54_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M55: ["", "", "M55_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M56: ["", "", "M56_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M57: ["", "", "M57_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M58: ["", "", "M58_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M59: ["", "", "M59_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M60: ["", "", "M60_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M61: ["", "", "M61_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M62: ["", "", "M62_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M63: ["", "", "M63_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M64: ["", "", "M64_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M65: ["", "", "M65_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M66: ["", "", "M66_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M67: ["", "", "M67_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M68: ["", "", "M68_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M69: ["", "", "M69_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M70: ["", "", "M70_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      M71: ["", "", "M71_NUDE", "", "", "", "", "", "VEST_BASIC_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F0: ["", "", "F0_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F1: ["", "", "F1_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F2: ["", "", "F2_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F3: ["", "", "F3_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F4: ["", "", "F4_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F5: ["", "", "F5_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F6: ["", "", "F6_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F7: ["", "", "F7_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F8: ["", "", "F8_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F9: ["", "", "F9_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F10: ["", "", "F10_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F11: ["", "", "F11_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F12: ["", "", "F12_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_R",]
-      F13: ["", "", "F13_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
-      F14: ["", "", "F14_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F15: ["", "", "F15_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F16: ["", "", "F16_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F17: ["", "", "F17_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
-      F18: ["", "", "F18_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_R",]
-      F19: ["", "", "F19_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_R",]
-      F20: ["", "", "F20_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F21: ["", "", "F21_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F22: ["", "", "F22_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
-      F23: ["", "", "F23_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F24: ["", "", "F24_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
-      F25: ["", "", "F25_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F26: ["", "", "F26_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F27: ["", "", "F27_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
-      F28: ["", "", "F28_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F29: ["", "", "F29_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F30: ["", "", "F30_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F31: ["", "", "F31_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F32: ["", "", "F32_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F33: ["", "", "F33_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F34: ["", "", "F34_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
-      F35: ["", "", "F35_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F36: ["", "", "F36_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F37: ["", "", "F37_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_BL",]
-      F38: ["", "", "F38_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F39: ["", "", "F39_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F40: ["", "", "F40_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F41: ["", "", "F41_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F42: ["", "", "F42_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F43: ["", "", "F43_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F44: ["", "", "F44_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F45: ["", "", "F45_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F46: ["", "", "F46_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F47: ["", "", "F47_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F48: ["", "", "F48_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F49: ["", "", "F49_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F50: ["", "", "F50_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F51: ["", "", "F51_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F52: ["", "", "F52_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F53: ["", "", "F53_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F54: ["", "", "F54_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F55: ["", "", "F55_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
-      F56: ["", "", "F56_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F57: ["", "", "F57_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F58: ["", "", "F58_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F59: ["", "", "F59_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F60: ["", "", "F60_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F61: ["", "", "F61_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F62: ["", "", "F62_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F63: ["", "", "F63_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F64: ["", "", "F64_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F65: ["", "", "F65_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F66: ["", "", "F66_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F67: ["", "", "F67_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F68: ["", "", "F68_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F69: ["", "", "F69_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F70: ["", "", "F70_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
-      F71: ["", "", "F71_NUDE", "", "", "", "", "", "VEST_BASIC_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M0: ["", "", "M0_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M1: ["", "", "M1_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M2: ["", "", "M2_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M3: ["", "", "M3_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M4: ["", "", "M4_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M5: ["", "", "M5_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M6: ["", "", "M6_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M7: ["", "", "M7_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M8: ["", "", "M8_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M9: ["", "", "M9_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M10: ["", "", "M10_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M11: ["", "", "M11_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M12: ["", "", "M12_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M13: ["", "", "M13_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M14: ["", "", "M14_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M15: ["", "", "M15_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M16: ["", "", "M16_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M17: ["", "", "M17_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M18: ["", "", "M18_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M19: ["", "", "M19_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M20: ["", "", "M20_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M21: ["", "", "M21_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M22: ["", "", "M22_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M23: ["", "", "M23_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M24: ["", "", "M24_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M25: ["", "", "M25_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_R",]
+      M26: ["", "", "M26_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M27: ["", "", "M27_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M28: ["", "", "M28_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M29: ["", "", "M29_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M30: ["", "", "M30_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M31: ["", "", "M31_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M32: ["", "", "M32_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M33: ["", "", "M33_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      M34: ["", "", "M34_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M35: ["", "", "M35_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M36: ["", "", "M36_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M37: ["", "", "M37_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M38: ["", "", "M38_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M39: ["", "", "M39_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M40: ["", "", "M40_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M41: ["", "", "M41_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M42: ["", "", "M42_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      M43: ["", "", "M43_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M44: ["", "", "M44_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M45: ["", "", "M45_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M46: ["", "", "M46_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_H",]
+      M47: ["", "", "M47_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M48: ["", "", "M48_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_R",]
+      M49: ["", "", "M49_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BL",]
+      M50: ["", "", "M50_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_BL",]
+      M51: ["", "", "M51_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M52: ["", "", "M52_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M53: ["", "", "M53_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M54: ["", "", "M54_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M55: ["", "", "M55_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M56: ["", "", "M56_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M57: ["", "", "M57_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M58: ["", "", "M58_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M59: ["", "", "M59_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M60: ["", "", "M60_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M61: ["", "", "M61_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M62: ["", "", "M62_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M63: ["", "", "M63_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M64: ["", "", "M64_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M65: ["", "", "M65_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M66: ["", "", "M66_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M67: ["", "", "M67_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M68: ["", "", "M68_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M69: ["", "", "M69_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M70: ["", "", "M70_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      M71: ["", "", "M71_NUDE", "", "", "", "", "", "VEST_TAN_M", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F0: ["", "", "F0_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F1: ["", "", "F1_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F2: ["", "", "F2_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F3: ["", "", "F3_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F4: ["", "", "F4_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F5: ["", "", "F5_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F6: ["", "", "F6_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F7: ["", "", "F7_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F8: ["", "", "F8_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F9: ["", "", "F9_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F10: ["", "", "F10_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F11: ["", "", "F11_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F12: ["", "", "F12_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_R",]
+      F13: ["", "", "F13_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
+      F14: ["", "", "F14_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F15: ["", "", "F15_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F16: ["", "", "F16_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F17: ["", "", "F17_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
+      F18: ["", "", "F18_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_R",]
+      F19: ["", "", "F19_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_R",]
+      F20: ["", "", "F20_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F21: ["", "", "F21_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F22: ["", "", "F22_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
+      F23: ["", "", "F23_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F24: ["", "", "F24_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
+      F25: ["", "", "F25_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F26: ["", "", "F26_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F27: ["", "", "F27_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BR",]
+      F28: ["", "", "F28_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F29: ["", "", "F29_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F30: ["", "", "F30_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F31: ["", "", "F31_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F32: ["", "", "F32_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F33: ["", "", "F33_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F34: ["", "", "F34_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_S",]
+      F35: ["", "", "F35_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F36: ["", "", "F36_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F37: ["", "", "F37_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_BL",]
+      F38: ["", "", "F38_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F39: ["", "", "F39_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F40: ["", "", "F40_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F41: ["", "", "F41_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F42: ["", "", "F42_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F43: ["", "", "F43_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F44: ["", "", "F44_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F45: ["", "", "F45_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F46: ["", "", "F46_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F47: ["", "", "F47_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F48: ["", "", "F48_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F49: ["", "", "F49_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F50: ["", "", "F50_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F51: ["", "", "F51_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F52: ["", "", "F52_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F53: ["", "", "F53_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F54: ["", "", "F54_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F55: ["", "", "F55_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_D",]
+      F56: ["", "", "F56_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F57: ["", "", "F57_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F58: ["", "", "F58_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F59: ["", "", "F59_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F60: ["", "", "F60_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F61: ["", "", "F61_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F62: ["", "", "F62_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F63: ["", "", "F63_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F64: ["", "", "F64_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F65: ["", "", "F65_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F66: ["", "", "F66_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F67: ["", "", "F67_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F68: ["", "", "F68_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F69: ["", "", "F69_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F70: ["", "", "F70_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
+      F71: ["", "", "F71_NUDE", "", "", "", "", "", "VEST_TAN_F", "", "", "", "", "", "HELMET_KEVLAR_C",]
     spriteFaceGroup: 6
     spriteFaceColor: *SpriteFaceColorAgent
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorAgent
     storeItem: STR_NONE
     corpseBattle:
-      - STR_CORPSE_VEST_ARMOR
+      - STR_CORPSE_VEST_ARMOR_TAN
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -374,7 +372,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: STR_VEST_ARMOR_BLACK_UC
+  - type: STR_KEVLAR_VEST_ARMOR_BLACK_UC
     spriteSheet: XOPS_XCOM_2.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -554,7 +552,7 @@
       - 1.2
       - 1.6
       - 1.0
-  - type: STR_VEST_ARMOR_GREY_UC
+  - type: STR_KEVLAR_VEST_ARMOR_GREY_UC
     spriteSheet: XOPS_XCOM_3.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -734,7 +732,7 @@
       - 1.2
       - 1.6
       - 1.0
-  - type: STR_VEST_ARMOR_WHITE_UC
+  - type: STR_KEVLAR_VEST_ARMOR_WHITE_UC
     spriteSheet: XOPS_XCOM_4.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -914,7 +912,7 @@
       - 1.2
       - 1.6
       - 1.0
-  - type: STR_VEST_ARMOR_GREEN_UC
+  - type: STR_KEVLAR_VEST_ARMOR_GREEN_UC
     spriteSheet: XOPS_XCOM_5.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -1094,7 +1092,7 @@
       - 1.2
       - 1.6
       - 1.0
-  - type: STR_BERET_ARMOR_UC
+  - type: STR_KEVLAR_VEST_ARMOR_BERET_UC
     spriteSheet: XOPS_XCOM_6.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -1250,7 +1248,7 @@
     spriteHairColor: *SpriteHairColorAgent
     customArmorPreviewIndex: 6 
     corpseBattle:
-      - STR_CORPSE_VEST_ARMOR
+      - STR_CORPSE_VEST_ARMOR_TAN
     storeItem: STR_NONE
     loftempsSet: [ 3 ]
     frontArmor: 12
@@ -1274,7 +1272,7 @@
       - 1.2
       - 1.6
       - 1.0
-  - type: STR_HEC_ARMOR_UC
+  - type: STR_VEST_HEC_ARMOR_UC
     spriteSheet: XOPS_XCOM_8.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -7494,7 +7492,7 @@
     rearArmor: 2
     underArmor: 2
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT #OJITO BUSCAR ESTE UNIFORME Q ESTA REPETIDO PA LOS CADAVERES DISPLAY UFOPAEDIA
     stats:
       tu: 5
       stamina: 10
@@ -7512,7 +7510,7 @@
       - 1.0
       - 1.6
       - 1.1
-  - type: STR_VEST_ARMOR_UFOPEDIA_DISPLAY
+  - type: STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_1.PCK
     spriteInv: KEVLARUFOPEDIA
     weight: 2
@@ -7522,7 +7520,7 @@
     rearArmor: 5
     underArmor: 2
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     damageModifier:
       - 1.0
       - 1.0
@@ -7534,12 +7532,12 @@
       - 1.2
       - 1.6
       - 1.0
-  - type: STR_HEC_ARMOR_UFOPEDIA_DISPLAY
+  - type: STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_8.PCK
     spriteInv: HECUFOPEDIA
     weight: 5
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     stats:
       firing: -4
     loftempsSet: [ 3 ]
@@ -7563,7 +7561,7 @@
     spriteInv: XOPSUFOPEDIA
     weight: 5
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     stats:
       firing: 4
     loftempsSet: [ 3 ]
@@ -7611,7 +7609,7 @@
     spriteSheet: XOPS_XCOM_31.PCK
     spriteInv: ALLOYARMORUFOPEDIA
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     loftempsSet: [ 3 ]
     frontArmor: 75
     sideArmor: 65
@@ -7632,7 +7630,7 @@
     spriteSheet: XOPS_XCOM_41.PCK
     spriteInv: SKY_STRIKEUFOPEDIA
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     stats:
       tu: 15
     loftempsSet: [ 3 ]
@@ -7656,7 +7654,7 @@
   #   spriteSheet: XCOM_61.PCK
   #   spriteInv: POWERSUITUFOPEDIA
   #   corpseBattle:
-  #     - STR_CORPSE_UNIFORM
+  #     - STR_CORPSE_FLIGHT_JUMPSUIT
   #   frontArmor: 100
   #   sideArmor: 80
   #   rearArmor: 70
@@ -7677,7 +7675,7 @@
   #   spriteSheet: XCOM_51.PCK
   #   spriteInv: FLYINGSUITUFOPEDIA
   #   corpseBattle:
-  #     - STR_CORPSE_UNIFORM
+  #     - STR_CORPSE_FLIGHT_JUMPSUIT
   #   frontArmor: 110
   #   sideArmor: 90
   #   rearArmor: 80
@@ -7699,7 +7697,7 @@
     spriteSheet: XOPS_XCOM_61.PCK
     spriteInv: PISONICUFOPEDIA
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     stats:
       tu: 10
       reactions: 20
@@ -7728,7 +7726,7 @@
     spriteSheet: XOPS_XCOM_51.PCK
     spriteInv: POWERARMORUFOPEDIA
     corpseBattle:
-      - STR_CORPSE_UNIFORM
+      - STR_CORPSE_FLIGHT_JUMPSUIT
     stats:
       tu: 7
       stamina: 10

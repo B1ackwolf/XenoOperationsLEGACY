@@ -770,17 +770,17 @@ ufopaedia:
   - id: STR_PILOT_UFOPEDIA_DISPLAY
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_PILOT_UC_UFOPEDIA
+    text: STR_FLIGHT_JUMPSUIT_UFOPEDIA
     listOrder: 1696
-  - id: STR_VEST_ARMOR_UFOPEDIA_DISPLAY
+  - id: STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VEST_UFOPEDIA
     listOrder: 1697
-  - id: STR_HEC_ARMOR_UFOPEDIA_DISPLAY
+  - id: STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HEC_UFOPEDIA
+    text: STR_VEST_HEC_ARMOR_UFOPEDIA
     listOrder: 1698
   - id: STR_XOPS_ARMOR_UFOPEDIA_DISPLAY
     type_id: 5
@@ -987,20 +987,20 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ADRENO_SYRINGE_UFOPEDIA
     listOrder: 4801
-  - id: STR_FIRST_AID
+  - id: STR_FIST_AID_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_STR_FIRST_AID_UFOPEDIA
+    text: STR_STR_FIST_AID_KIT_UFOPEDIA
     listOrder: 4802
-  - id: STR_BASIC_MEDKIT
+  - id: STR_STARTING_MEDI_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BASIC_MEDKIT_UFOPEDIA
+    text: STR_STARTING_MEDI_KIT_UFOPEDIA
     listOrder: 4803
-  - id: STR_IMPROVED_MEDKIT
+  - id: STR_BASIC_MEDI_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_IMPROVED_MEDKIT_UFOPEDIA
+    text: STR_BASIC_MEDI_KIT_UFOPEDIA
     listOrder: 4804
 #reorder everything above this, ojito#
 #####-----Second Tier Experimental Ballistic Weaponry
@@ -1719,176 +1719,176 @@ ufopaedia:
     requires:
       - STR_HYPERVELOCITY_CELLS
 #####-----Sixth Tier Plasma Weaponry
-  - id: STR_HUMAN_PLASMA_PISTOL_COMPACT
+  - id: STR_PL_SMALL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_HUMAN_PLASMA_PISTOL_COMPACT_UFOPEDIA
+    text: STR_PL_SMALL_PISTOL_UFOPEDIA
     listOrder: 2601
-  - id: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP
+  - id: STR_PL_SMALL_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP2
+  - id: STR_PL_SMALL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_PLASMA_PISTOL_COMPACT_CLIP3
+  - id: STR_PL_SMALL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_HUMAN_PLASMA_PISTOL
+  - id: STR_PL_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
     listOrder: 2602
-    text: STR_HUMAN_PLASMA_PISTOL_UFOPEDIA
-  - id: STR_HUMAN_PLASMA_ASSAULTER
+    text: STR_PL_MAIN_PISTOL_UFOPEDIA
+  - id: STR_PL_SMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_HUMAN_PLASMA_ASSAULTER_UFOPEDIA
+    text: STR_PL_SMG_UFOPEDIA
     listOrder: 2603
-  - id: STR_HUMAN_PLASMA_PISTOL_CLIP
+  - id: STR_PL_MAIN_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_PLASMA_PISTOL_CLIP2
+  - id: STR_PL_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_PLASMA_PISTOL_CLIP3
+  - id: STR_PL_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_HUMAN_HEAVY_PLASMA_PISTOL
+  - id: STR_PL_HEAVY_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_HUMAN_HEAVY_PLASMA_PISTOL_UFOPEDIA
+    text: STR_PL_HEAVY_PISTOL_UFOPEDIA
     listOrder: 2604
-  - id: STR_HUMAN_PLASMA_CARBINE
+  - id: STR_PL_BULLPUP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_HUMAN_PLASMA_CARBINE_UFOPEDIA
+    text: STR_PL_BULLPUP_UFOPEDIA
     listOrder: 2605
-  - id: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP
+  - id: STR_PL_HEAVY_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP2
+  - id: STR_PL_HEAVY_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_HEAVY_PLASMA_PISTOL_CLIP3
+  - id: STR_PL_HEAVY_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_HUMAN_PLASMA_BLASTER
+  - id: STR_PL_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
-    text: STR_HUMAN_PLASMA_BLASTER_UFOPEDIA
+    text: STR_PL_SHOTGUN_UFOPEDIA
     listOrder: 2606
-  - id: STR_HUMAN_PLASMA_BLASTER_CLIP
+  - id: STR_PL_SHOTGUN_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_PLASMA_BLASTER_CLIP2
+  - id: STR_PL_SHOTGUN_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_PLASMA_BLASTER_CLIP3
+  - id: STR_PL_SHOTGUN_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_HUMAN_PLASMA_RIFLE
+  - id: STR_PL_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
-    text: STR_HUMAN_PLASMA_RIFLE_UFOPEDIA
+    text: STR_PL_RIFLE_UFOPEDIA
     listOrder: 2607
-  - id: STR_HUMAN_PLASMA_RIFLE_CLIP
+  - id: STR_PL_RIFLE_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_PLASMA_RIFLE_CLIP2
+  - id: STR_PL_RIFLE_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_PLASMA_RIFLE_CLIP3
+  - id: STR_PL_RIFLE_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_HUMAN_HEAVY_PLASMA
+  - id: STR_PL_LMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
-    text: STR_HUMAN_HEAVY_PLASMA_UFOPEDIA
+    text: STR_PL_LMG_UFOPEDIA
     listOrder: 2608
-  - id: STR_HUMAN_HEAVY_PLASMA_CLIP
+  - id: STR_PL_LMG_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_HEAVY_PLASMA_CLIP2
+  - id: STR_PL_LMG_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_HEAVY_PLASMA_CLIP3
+  - id: STR_PL_LMG_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_HUMAN_PLASMA_SNIPER_RIFLE
+  - id: STR_PL_SNIPER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
-    text: STR_HUMAN_PLASMA_SNIPER_RIFLE_UFOPEDIA
+    text: STR_PL_SNIPER_UFOPEDIA
     listOrder: 2609
-  - id: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP
+  - id: STR_PL_SNIPER_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP2
+  - id: STR_PL_SNIPER_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_PLASMA_SNIPER_RIFLE_CLIP3
+  - id: STR_PL_SNIPER_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_HUMAN_HEAVY_PLASMA_CANNON
+  - id: STR_PL_HEAVY_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
-    text: STR_HUMAN_HEAVY_PLASMA_CANNON_UFOPEDIA
+    text: STR_PL_HEAVY_CANNON_UFOPEDIA
     listOrder: 2610
-  - id: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP
+  - id: STR_PL_HEAVY_CANNON_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP2
+  - id: STR_PL_HEAVY_CANNON_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_HUMAN_HEAVY_PLASMA_CANNON_CLIP3
+  - id: STR_PL_HEAVY_CANNON_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
