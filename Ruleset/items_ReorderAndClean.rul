@@ -3011,7 +3011,7 @@ items:
     battleType: 2
     armor: 65
     listOrder: 2421
-  - type: STR_LA_AUTO_CANNON
+  - type: STR_LA_HEAVY_CANNON
     size: 0.3
     costSell: 60400
     weight: 14
@@ -3020,9 +3020,9 @@ items:
     handSprite: 300
     fireSound: 407
     compatibleAmmo:
-      - STR_LA_AUTO_CANNON_BATTERY1
-      - STR_LA_AUTO_CANNON_BATTERY2
-      - STR_LA_AUTO_CANNON_BATTERY3
+      - STR_LA_HEAVY_CANNON_BATTERY1
+      - STR_LA_HEAVY_CANNON_BATTERY2
+      - STR_LA_HEAVY_CANNON_BATTERY3
     accuracyAuto: 40
     accuracyAimed: 110
     tuAuto: 45
@@ -3042,7 +3042,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2422
-  - type: STR_LA_AUTO_CANNON_BATTERY1
+  - type: STR_LA_HEAVY_CANNON_BATTERY1
     size: 0.1
     costSell: 3200
     weight: 4
@@ -3059,7 +3059,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2423
-  - type: STR_LA_AUTO_CANNON_BATTERY2
+  - type: STR_LA_HEAVY_CANNON_BATTERY2
     size: 0.1
     costSell: 3200
     weight: 4
@@ -3076,7 +3076,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2424
-  - type: STR_LA_AUTO_CANNON_BATTERY3
+  - type: STR_LA_HEAVY_CANNON_BATTERY3
     size: 0.1
     costSell: 7000
     weight: 4
@@ -3095,7 +3095,7 @@ items:
     invHeight: 1
     listOrder: 2425
 ###-----Human fifth tier Ballistic Rail weapons-----###
-  - type: STR_RL_PISTOL
+  - type: STR_RL_MAIN_PISTOL
     size: 0.1
     costSell: 75000
     weight: 4
@@ -3104,9 +3104,9 @@ items:
     handSprite: 630
     fireSound: 501
     compatibleAmmo:
-      - STR_RL_PISTOL_CLIP
-      - STR_RL_PISTOL_CLIP2
-      - STR_RL_PISTOL_CLIP3
+      - STR_RL_MAIN_PISTOL_CLIP1
+      - STR_RL_MAIN_PISTOL_CLIP2
+      - STR_RL_MAIN_PISTOL_CLIP3
     accuracySnap: 70
     accuracyAimed: 88
     tuSnap: 13
@@ -3129,9 +3129,9 @@ items:
     handSprite: 640
     fireSound: 501
     compatibleAmmo:
-      - STR_RL_PISTOL_CLIP
-      - STR_RL_PISTOL_CLIP2
-      - STR_RL_PISTOL_CLIP3
+      - STR_RL_MAIN_PISTOL_CLIP1
+      - STR_RL_MAIN_PISTOL_CLIP2
+      - STR_RL_MAIN_PISTOL_CLIP3
     accuracyAuto: 39
     accuracySnap: 64
     tuAuto: 19
@@ -3147,7 +3147,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2502
-  - type: STR_RL_PISTOL_CLIP
+  - type: STR_RL_MAIN_PISTOL_CLIP1
     size: 0.025
     costSell: 5000
     weight: 2
@@ -3163,7 +3163,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2503
-  - type: STR_RL_PISTOL_CLIP2
+  - type: STR_RL_MAIN_PISTOL_CLIP2
     size: 0.025
     costSell: 5000
     weight: 2
@@ -3179,7 +3179,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2504
-  - type: STR_RL_PISTOL_CLIP3
+  - type: STR_RL_MAIN_PISTOL_CLIP3
     size: 0.025
     costSell: 5000
     weight: 2
@@ -3205,7 +3205,7 @@ items:
     handSprite: 660
     fireSound: 503
     compatibleAmmo:
-      - STR_RL_SHOTGUN_CLIP
+      - STR_RL_SHOTGUN_CLIP1
       - STR_RL_SHOTGUN_CLIP2
       - STR_RL_SHOTGUN_CLIP3
     accuracySnap: 50
@@ -3222,7 +3222,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2506
-  - type: STR_RL_SHOTGUN_CLIP
+  - type: STR_RL_SHOTGUN_CLIP1
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3277,7 +3277,7 @@ items:
     handSprite: 650
     fireSound: 504
     compatibleAmmo:
-      - STR_RL_RIFLE_CLIP
+      - STR_RL_RIFLE_CLIP1
       - STR_RL_RIFLE_CLIP2
       - STR_RL_RIFLE_CLIP3
     accuracyAuto: 45
@@ -3297,7 +3297,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2510
-  - type: STR_RL_RIFLE_CLIP
+  - type: STR_RL_RIFLE_CLIP1
     size: 0.025
     costSell: 7500
     weight: 3
@@ -3349,7 +3349,7 @@ items:
     handSprite: 680
     fireSound: 504
     compatibleAmmo:
-      - STR_RL_LMG_CLIP
+      - STR_RL_LMG_CLIP1
       - STR_RL_LMG_CLIP2
       - STR_RL_LMG_CLIP3
     accuracyAuto: 37
@@ -3367,7 +3367,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2514
-  - type: STR_RL_LMG_CLIP
+  - type: STR_RL_LMG_CLIP1
     size: 0.1
     costSell: 10000
     weight: 4
@@ -3425,7 +3425,7 @@ items:
     handSprite: 670
     fireSound: 506
     compatibleAmmo:
-      - STR_RL_SNIPER_CLIP
+      - STR_RL_SNIPER_CLIP1
       - STR_RL_SNIPER_CLIP2
       - STR_RL_SNIPER_CLIP3
     accuracySnap: 53
@@ -3442,7 +3442,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2518
-  - type: STR_RL_SNIPER_CLIP
+  - type: STR_RL_SNIPER_CLIP1
     size: 0.025
     costSell: 7500
     weight: 4
@@ -3485,7 +3485,7 @@ items:
     clipSize: 5
     battleType: 2
     listOrder: 2521
-  - type: STR_RL_HEAVY
+  - type: STR_RL_AUTO_CANNON
     size: 0.2
     costSell: 250000
     weight: 8
@@ -3494,9 +3494,9 @@ items:
     handSprite: 700
     fireSound: 507
     compatibleAmmo:
-      - STR_RL_HEAVY_CLIP
-      - STR_RL_HEAVY_CLIP2
-      - STR_RL_HEAVY_CLIP3
+      - STR_RL_AUTO_CANNON_CLIP1
+      - STR_RL_AUTO_CANNON_CLIP2
+      - STR_RL_AUTO_CANNON_CLIP3
     accuracySnap: 54
     accuracyAuto: 30
     accuracyAimed: 98
@@ -3514,7 +3514,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2522
-  - type: STR_RL_HEAVY_CLIP
+  - type: STR_RL_AUTO_CANNON_CLIP1
     size: 0.025
     costSell: 12500
     weight: 4
@@ -3530,7 +3530,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2523
-  - type: STR_RL_HEAVY_CLIP2
+  - type: STR_RL_AUTO_CANNON_CLIP2
     size: 0.025
     costSell: 12500
     weight: 4
@@ -3546,7 +3546,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2524
-  - type: STR_RL_HEAVY_CLIP3
+  - type: STR_RL_AUTO_CANNON_CLIP3
     size: 0.025
     costSell: 12500
     weight: 4
@@ -3563,7 +3563,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2525
-  - type: STR_RL_CANNON
+  - type: STR_RL_BAZOOKA
     size: 0.2
     costSell: 375000
     weight: 10
@@ -3572,9 +3572,9 @@ items:
     handSprite: 690
     fireSound: 508
     compatibleAmmo:
-      - STR_RL_CANNON_CLIP
-      - STR_RL_CANNON_CLIP2
-      - STR_RL_CANNON_CLIP3
+      - STR_RL_BAZOOKA_CLIP1
+      - STR_RL_BAZOOKA_CLIP2
+      - STR_RL_BAZOOKA_CLIP3
     accuracySnap: 50
     accuracyAimed: 100
     tuSnap: 33
@@ -3589,7 +3589,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2526
-  - type: STR_RL_CANNON_CLIP
+  - type: STR_RL_BAZOOKA_CLIP1
     size: 0.025
     costSell: 25000
     weight: 4
@@ -3600,12 +3600,12 @@ items:
     hitAnimation: 26
     power: 165
     damageType: 1
-    clipSize: 10
+    clipSize: 4
     battleType: 2
     invWidth: 1
     invHeight: 2
     listOrder: 2527
-  - type: STR_RL_CANNON_CLIP2
+  - type: STR_RL_BAZOOKA_CLIP2
     size: 0.025
     costSell: 25000
     weight: 4
@@ -3616,12 +3616,12 @@ items:
     hitAnimation: 26
     power: 180
     damageType: 1
-    clipSize: 10
+    clipSize: 4
     battleType: 2
     invWidth: 1
     invHeight: 2
     listOrder: 2528
-  - type: STR_RL_CANNON_CLIP3
+  - type: STR_RL_BAZOOKA_CLIP3
     size: 0.025
     costSell: 25000
     weight: 4
@@ -3633,13 +3633,13 @@ items:
     power: 90
     damageType: 3
     blastRadius: 3
-    clipSize: 5
+    clipSize: 2
     battleType: 2
     invWidth: 1
     invHeight: 2
     listOrder: 2529
 ###-----Human sixth tier Energy plasma weapons-----###
-  - type: STR_PL_SMALL_PISTOL
+  - type: STR_PM_SMALL_PISTOL
     size: 0.1
     costSell: 84000
     weight: 2
@@ -3647,9 +3647,9 @@ items:
     floorSprite: 508
     handSprite: 810
     compatibleAmmo:
-      - STR_PL_SMALL_PISTOL_CLIP1
-      - STR_PL_SMALL_PISTOL_CLIP2
-      - STR_PL_SMALL_PISTOL_CLIP3
+      - STR_PM_SMALL_PISTOL_CLIP1
+      - STR_PM_SMALL_PISTOL_CLIP2
+      - STR_PM_SMALL_PISTOL_CLIP3
     accuracySnap: 58
     # accuracyAimed: 77
     tuSnap: 32
@@ -3665,7 +3665,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2601
-  - type: STR_PL_SMALL_PISTOL_CLIP1
+  - type: STR_PM_SMALL_PISTOL_CLIP1
     size: 0.025
     costSell: 4440
     weight: 2
@@ -3681,7 +3681,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2602
-  - type: STR_PL_SMALL_PISTOL_CLIP2
+  - type: STR_PM_SMALL_PISTOL_CLIP2
     size: 0.025
     costSell: 4740
     weight: 2
@@ -3697,7 +3697,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2603
-  - type: STR_PL_SMALL_PISTOL_CLIP3
+  - type: STR_PM_SMALL_PISTOL_CLIP3
     size: 0.025
     costSell: 4940
     weight: 2
@@ -3714,7 +3714,7 @@ items:
     blastRadius: 1
     attraction: 1
     listOrder: 2604
-  - type: STR_PL_MAIN_PISTOL
+  - type: STR_PM_MAIN_PISTOL
     size: 0.1
     costSell: 84000
     weight: 3
@@ -3722,9 +3722,9 @@ items:
     floorSprite: 377
     handSprite: 980
     compatibleAmmo:
-      - STR_PL_MAIN_PISTOL_CLIP1
-      - STR_PL_MAIN_PISTOL_CLIP2
-      - STR_PL_MAIN_PISTOL_CLIP3
+      - STR_PM_MAIN_PISTOL_CLIP1
+      - STR_PM_MAIN_PISTOL_CLIP2
+      - STR_PM_MAIN_PISTOL_CLIP3
     accuracySnap: 63
     accuracyAimed: 83
     tuSnap: 30
@@ -3740,7 +3740,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2605
-  - type: STR_PL_SMG
+  - type: STR_PM_SMG
     size: 0.1
     costSell: 89000
     weight: 4
@@ -3748,9 +3748,9 @@ items:
     floorSprite: 379
     handSprite: 960
     compatibleAmmo:
-      - STR_PL_MAIN_PISTOL_CLIP1
-      - STR_PL_MAIN_PISTOL_CLIP2
-      - STR_PL_MAIN_PISTOL_CLIP3
+      - STR_PM_MAIN_PISTOL_CLIP1
+      - STR_PM_MAIN_PISTOL_CLIP2
+      - STR_PM_MAIN_PISTOL_CLIP3
     accuracyAuto: 50
     accuracySnap: 72
     tuAuto: 35
@@ -3768,7 +3768,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2606
-  - type: STR_PL_MAIN_PISTOL_CLIP1
+  - type: STR_PM_MAIN_PISTOL_CLIP1
     size: 0.025
     costSell: 4440
     weight: 3
@@ -3784,7 +3784,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2607
-  - type: STR_PL_MAIN_PISTOL_CLIP2
+  - type: STR_PM_MAIN_PISTOL_CLIP2
     size: 0.025
     costSell: 4740
     weight: 3
@@ -3800,7 +3800,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2608
-  - type: STR_PL_MAIN_PISTOL_CLIP3
+  - type: STR_PM_MAIN_PISTOL_CLIP3
     size: 0.025
     costSell: 4940
     weight: 3
@@ -3817,7 +3817,7 @@ items:
     blastRadius: 1
     attraction: 1
     listOrder: 2609
-  - type: STR_PL_HEAVY_PISTOL
+  - type: STR_PM_HEAVY_PISTOL
     size: 0.1
     costSell: 84000
     weight: 6
@@ -3825,9 +3825,9 @@ items:
     floorSprite: 512
     handSprite: 820
     compatibleAmmo:
-      - STR_PL_HEAVY_PISTOL_CLIP1
-      - STR_PL_HEAVY_PISTOL_CLIP2
-      - STR_PL_HEAVY_PISTOL_CLIP3
+      - STR_PM_HEAVY_PISTOL_CLIP1
+      - STR_PM_HEAVY_PISTOL_CLIP2
+      - STR_PM_HEAVY_PISTOL_CLIP3
     accuracySnap: 68
     accuracyAimed: 87
     tuSnap: 33
@@ -3843,7 +3843,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2610
-  - type: STR_PL_BULLPUP
+  - type: STR_PM_BULLPUP
     size: 0.1
     costSell: 89000
     weight: 6
@@ -3851,9 +3851,9 @@ items:
     floorSprite: 516
     handSprite: 710
     compatibleAmmo:
-      - STR_PL_HEAVY_PISTOL_CLIP1
-      - STR_PL_HEAVY_PISTOL_CLIP2
-      - STR_PL_HEAVY_PISTOL_CLIP3
+      - STR_PM_HEAVY_PISTOL_CLIP1
+      - STR_PM_HEAVY_PISTOL_CLIP2
+      - STR_PM_HEAVY_PISTOL_CLIP3
     accuracyAuto: 45
     accuracySnap: 72
     tuAuto: 32
@@ -3871,7 +3871,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2611
-  - type: STR_PL_HEAVY_PISTOL_CLIP1
+  - type: STR_PM_HEAVY_PISTOL_CLIP1
     size: 0.025
     costSell: 4440
     weight: 4
@@ -3887,7 +3887,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2612
-  - type: STR_PL_HEAVY_PISTOL_CLIP2
+  - type: STR_PM_HEAVY_PISTOL_CLIP2
     size: 0.025
     costSell: 4740
     weight: 4
@@ -3903,7 +3903,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2613
-  - type: STR_PL_HEAVY_PISTOL_CLIP3
+  - type: STR_PM_HEAVY_PISTOL_CLIP3
     size: 0.025
     costSell: 4940
     weight: 4
@@ -3920,7 +3920,7 @@ items:
     blastRadius: 1
     attraction: 1
     listOrder: 2614
-  - type: STR_PL_SHOTGUN
+  - type: STR_PM_SHOTGUN
     size: 0.2
     costSell: 126500
     weight: 5
@@ -3928,9 +3928,9 @@ items:
     floorSprite: 383
     handSprite: 970
     compatibleAmmo:
-      - STR_PL_SHOTGUN_CLIP1
-      - STR_PL_SHOTGUN_CLIP2
-      - STR_PL_SHOTGUN_CLIP3
+      - STR_PM_SHOTGUN_CLIP1
+      - STR_PM_SHOTGUN_CLIP2
+      - STR_PM_SHOTGUN_CLIP3
     accuracyAuto: 38
     accuracySnap: 72
     tuAuto: 40
@@ -3947,7 +3947,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2615
-  - type: STR_PL_SHOTGUN_CLIP1
+  - type: STR_PM_SHOTGUN_CLIP1
     size: 0.025
     costSell: 6290
     weight: 3
@@ -3964,7 +3964,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2616
-  - type: STR_PL_SHOTGUN_CLIP2
+  - type: STR_PM_SHOTGUN_CLIP2
     size: 0.025
     costSell: 6790
     weight: 3
@@ -3981,7 +3981,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2617
-  - type: STR_PL_SHOTGUN_CLIP3
+  - type: STR_PM_SHOTGUN_CLIP3
     size: 0.025
     costSell: 6990
     weight: 3
@@ -3999,7 +3999,7 @@ items:
     attraction: 1
     blastRadius: 1
     listOrder: 2618
-  - type: STR_PL_RIFLE
+  - type: STR_PM_RIFLE
     size: 0.2
     costSell: 126500
     weight: 5
@@ -4007,9 +4007,9 @@ items:
     floorSprite: 381
     handSprite: 990
     compatibleAmmo:
-      - STR_PL_RIFLE_CLIP1
-      - STR_PL_RIFLE_CLIP2
-      - STR_PL_RIFLE_CLIP3
+      - STR_PM_RIFLE_CLIP1
+      - STR_PM_RIFLE_CLIP2
+      - STR_PM_RIFLE_CLIP3
     accuracySnap: 84
     accuracyAimed: 105
     tuSnap: 30
@@ -4027,7 +4027,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2619
-  - type: STR_PL_RIFLE_CLIP1
+  - type: STR_PM_RIFLE_CLIP1
     size: 0.025
     costSell: 6290
     weight: 3
@@ -4043,7 +4043,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2620
-  - type: STR_PL_RIFLE_CLIP2
+  - type: STR_PM_RIFLE_CLIP2
     size: 0.025
     costSell: 6690
     weight: 3
@@ -4059,7 +4059,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2621
-  - type: STR_PL_RIFLE_CLIP3
+  - type: STR_PM_RIFLE_CLIP3
     size: 0.025
     costSell: 6990
     weight: 3
@@ -4076,7 +4076,7 @@ items:
     attraction: 1
     blastRadius: 1
     listOrder: 4622
-  - type: STR_PL_LMG
+  - type: STR_PM_LMG
     size: 0.2
     costSell: 171600
     weight: 8
@@ -4084,9 +4084,9 @@ items:
     floorSprite: 387
     handSprite: 940
     compatibleAmmo:
-      - STR_PL_LMG_CLIP1
-      - STR_PL_LMG_CLIP2
-      - STR_PL_LMG_CLIP3
+      - STR_PM_LMG_CLIP1
+      - STR_PM_LMG_CLIP2
+      - STR_PM_LMG_CLIP3
     accuracyAuto: 48
     accuracySnap: 72
     tuAuto: 35
@@ -4105,7 +4105,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2623
-  - type: STR_PL_LMG_CLIP1
+  - type: STR_PM_LMG_CLIP1
     size: 0.1
     costSell: 9590
     weight: 3
@@ -4123,7 +4123,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2624
-  - type: STR_PL_LMG_CLIP2
+  - type: STR_PM_LMG_CLIP2
     size: 0.1
     costSell: 12200
     weight: 3
@@ -4141,7 +4141,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2625
-  - type: STR_PL_LMG_CLIP3
+  - type: STR_PM_LMG_CLIP3
     size: 0.1
     costSell: 14000
     weight: 3
@@ -4160,7 +4160,7 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2626
-  - type: STR_PL_SNIPER
+  - type: STR_PM_SNIPER
     size: 0.2
     costSell: 150000
     weight: 7
@@ -4168,9 +4168,9 @@ items:
     floorSprite: 385
     handSprite: 1000
     compatibleAmmo:
-      - STR_PL_SNIPER_CLIP1
-      - STR_PL_SNIPER_CLIP2
-      - STR_PL_SNIPER_CLIP3
+      - STR_PM_SNIPER_CLIP1
+      - STR_PM_SNIPER_CLIP2
+      - STR_PM_SNIPER_CLIP3
     # accuracySnap: 88
     accuracyAimed: 120
     # tuSnap: 36
@@ -4187,7 +4187,7 @@ items:
     minRange: 4
     dropoff: 2
     listOrder: 2627
-  - type: STR_PL_SNIPER_CLIP1
+  - type: STR_PM_SNIPER_CLIP1
     size: 0.025
     costSell: 7000
     weight: 3
@@ -4203,7 +4203,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2628
-  - type: STR_PL_SNIPER_CLIP2
+  - type: STR_PM_SNIPER_CLIP2
     size: 0.025
     costSell: 7700
     weight: 3
@@ -4219,7 +4219,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2629
-  - type: STR_PL_SNIPER_CLIP3
+  - type: STR_PM_SNIPER_CLIP3
     size: 0.025
     costSell: 7900
     weight: 3
@@ -4236,7 +4236,7 @@ items:
     attraction: 1
     blastRadius: 1
     listOrder: 2630
-  - type: STR_PL_HEAVY_CANNON
+  - type: STR_PM_HEAVY_CANNON
     size: 0.2
     costSell: 250000
     weight: 10
@@ -4245,9 +4245,9 @@ items:
     handSprite: 950
     fireSound: 610
     compatibleAmmo:
-      - STR_PL_HEAVY_CANNON_CLIP1
-      - STR_PL_HEAVY_CANNON_CLIP2
-      - STR_PL_HEAVY_CANNON_CLIP3
+      - STR_PM_HEAVY_CANNON_CLIP1
+      - STR_PM_HEAVY_CANNON_CLIP2
+      - STR_PM_HEAVY_CANNON_CLIP3
     accuracySnap: 68
     accuracyAimed: 98
     tuSnap: 36
@@ -4264,7 +4264,7 @@ items:
     minRange: 5
     dropoff: 2
     listOrder: 2631
-  - type: STR_PL_HEAVY_CANNON_CLIP1
+  - type: STR_PM_HEAVY_CANNON_CLIP1
     size: 0.2
     costSell: 12000
     weight: 3
@@ -4281,7 +4281,7 @@ items:
     invHeight: 1
     attraction: 1
     listOrder: 2632
-  - type: STR_PL_HEAVY_CANNON_CLIP2
+  - type: STR_PM_HEAVY_CANNON_CLIP2
     size: 0.2
     costSell: 14000
     weight: 3
@@ -4298,7 +4298,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2633
-  - type: STR_PL_HEAVY_CANNON_CLIP3
+  - type: STR_PM_HEAVY_CANNON_CLIP3
     size: 0.2
     costSell: 16000
     weight: 3
@@ -4316,8 +4316,87 @@ items:
     attraction: 1
     blastRadius: 3
     listOrder: 2634
-###-----Human Stun Weapons Tier
-  - type: STR_STUN_ROD
+  - type: STR_ANTIMATTER_LAUNCHER
+    requires:
+      - STR_ANTIMATTER_LAUNCHER
+    size: 0.3
+    costSell: 144000
+    weight: 16
+    bigSprite: 643
+    floorSprite: 643
+    handSprite: 1080
+    bulletSprite: 10
+    fireSound: 53
+    compatibleAmmo:
+      - STR_ANTIMATTER_LAUNCHER_BOMB
+      - STR_ANTIMATTER_LAUNCHER_BOMB2
+      - STR_ANTIMATTER_LAUNCHER_BOMB3
+    accuracyAimed: 100
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 65
+    listOrder: 5511
+  - type: STR_ANTIMATTER_LAUNCHER_BOMB
+    requires:
+      - STR_ANTIMATTER_LAUNCHER
+    size: 0.2
+    costSell: 17028
+    weight: 3
+    bigSprite: 644
+    floorSprite: 644
+    hitSound: 0
+    hitAnimation: 0
+    power: 180
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    waypoints: 5
+    blastRadius: 3
+    listOrder: 5512
+  - type: STR_ANTIMATTER_LAUNCHER_BOMB2
+    requires:
+      - STR_ANTIMATTER_LAUNCHER
+    size: 0.2
+    costSell: 17028
+    weight: 3
+    bigSprite: 645
+    floorSprite: 645
+    hitSound: 0
+    hitAnimation: 0
+    power: 195
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    blastRadius: 10
+    listOrder: 5513
+  - type: STR_ANTIMATTER_LAUNCHER_BOMB3
+    requires:
+      - STR_ANTIMATTER_LAUNCHER
+    size: 0.2
+    costSell: 17028
+    weight: 3
+    bigSprite: 646
+    floorSprite: 646
+    hitSound: 0
+    hitAnimation: 0
+    power: 150
+    damageType: 2
+    clipSize: 1
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    waypoints: 5
+    blastRadius: 10
+    listOrder: 5514
+###-----Human Stun Weapons Tier -----###
+  - type: STR_STUN_ROD #OJITO
     size: 0.1
     costBuy: 1260
     costSell: 945
@@ -4338,7 +4417,7 @@ items:
     invHeight: 3
     skillApplied: false
     listOrder: 2701
-  - type: STR_TASER
+  - type: STR_SH_TASER
     size: 0.2
     costBuy: 1800
     costSell: 600
@@ -4349,7 +4428,7 @@ items:
     bulletSprite: 25 #ojito resolver quilombo del taser
     fireSound: 61
     compatibleAmmo:
-      - STR_TASER_CLIP
+      - STR_SH_TASER_CLIP
     accuracySnap: 40
     accuracyAimed: 70
     tuSnap: 18
@@ -4362,7 +4441,7 @@ items:
     maxRange: 4
     attraction: 6
     listOrder: 2702
-  - type: STR_TASER_CLIP
+  - type: STR_SH_TASER_CLIP
     size: 0.1
     costBuy: 200
     costSell: 100
@@ -4379,7 +4458,7 @@ items:
     armor: 65
     attraction: 6
     listOrder: 2703
-  - type: STR_SHOCK_PISTOL
+  - type: STR_SH_MAIN_PISTOL
     size: 0.1
     costSell: 600
     weight: 3
@@ -4389,7 +4468,7 @@ items:
     bulletSprite: 25
     fireSound: 130
     compatibleAmmo:
-      - STR_SHOCK_RIFLE_BATTERY
+      - STR_SH_MAIN_PISTOL_BATTERY
     accuracySnap: 55
     accuracyAimed: 70
     tuSnap: 18
@@ -4404,7 +4483,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2704
-  - type: STR_SHOCK_RIFLE
+  - type: STR_SH_RIFLE
     size: 0.2
     costSell: 2250
     weight: 8
@@ -4414,7 +4493,7 @@ items:
     bulletSprite: 26
     fireSound: 131
     compatibleAmmo:
-      - STR_SHOCK_RIFLE_BATTERY
+      - STR_SH_MAIN_PISTOL_BATTERY
     accuracySnap: 65
     accuracyAimed: 100
     tuSnap: 28
@@ -4429,7 +4508,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2705
-  - type: STR_SHOCK_RIFLE_BATTERY
+  - type: STR_SH_MAIN_PISTOL_BATTERY
     size: 0.025
     costSell: 150
     weight: 2
@@ -4837,85 +4916,6 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 5510
-  - type: STR_ANTIMATTER_LAUNCHER
-    requires:
-      - STR_ANTIMATTER_LAUNCHER
-    size: 0.3
-    costSell: 144000
-    weight: 16
-    bigSprite: 643
-    floorSprite: 643
-    handSprite: 1080
-    bulletSprite: 10
-    fireSound: 53
-    compatibleAmmo:
-      - STR_ANTIMATTER_LAUNCHER_BOMB
-      - STR_ANTIMATTER_LAUNCHER_BOMB2
-      - STR_ANTIMATTER_LAUNCHER_BOMB3
-    accuracyAimed: 100
-    tuAimed: 80
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    armor: 65
-    listOrder: 5511
-  - type: STR_ANTIMATTER_LAUNCHER_BOMB
-    requires:
-      - STR_ANTIMATTER_LAUNCHER
-    size: 0.2
-    costSell: 17028
-    weight: 3
-    bigSprite: 644
-    floorSprite: 644
-    hitSound: 0
-    hitAnimation: 0
-    power: 180
-    damageType: 3
-    clipSize: 1
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    waypoints: 5
-    blastRadius: 3
-    listOrder: 5512
-  - type: STR_ANTIMATTER_LAUNCHER_BOMB2
-    requires:
-      - STR_ANTIMATTER_LAUNCHER
-    size: 0.2
-    costSell: 17028
-    weight: 3
-    bigSprite: 645
-    floorSprite: 645
-    hitSound: 0
-    hitAnimation: 0
-    power: 195
-    damageType: 3
-    clipSize: 1
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    blastRadius: 10
-    listOrder: 5513
-  - type: STR_ANTIMATTER_LAUNCHER_BOMB3
-    requires:
-      - STR_ANTIMATTER_LAUNCHER
-    size: 0.2
-    costSell: 17028
-    weight: 3
-    bigSprite: 646
-    floorSprite: 646
-    hitSound: 0
-    hitAnimation: 0
-    power: 150
-    damageType: 2
-    clipSize: 1
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    waypoints: 5
-    blastRadius: 10
-    listOrder: 5514
 ### Alien units Weaponry
   - type: CYBERDISC_WEAPON
     weight: 3
@@ -6214,7 +6214,7 @@ items:
     costBuy: 0
     costSell: 18000
     listOrder: 2002
-  - type: STR_KEVLAR_VEST_ARMOR_GREY
+  - type: STR_KEVLAR_VEST_ARMOR_GRAY
     size: 0.5
     costBuy: 0
     costSell: 18000
@@ -6270,7 +6270,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_VEST_ARMOR_GREY
+  - type: STR_CORPSE_VEST_ARMOR_GRAY
     name: STR_CORPSE
     weight: 24
     bigSprite: 103
@@ -6316,7 +6316,7 @@ items:
     costBuy: 0
     costSell: 18000
     listOrder: 2010
-  - type: STR_XOPS_ARMOR
+  - type: STR_XOPS_ARMOR_TAN
     size: 0.5
     costBuy: 0
     costSell: 18000
@@ -6326,7 +6326,7 @@ items:
     costBuy: 0
     costSell: 18000
     listOrder: 2012
-  - type: STR_XOPS_ARMOR_GREY
+  - type: STR_XOPS_ARMOR_GRAY
     size: 0.5
     costBuy: 0
     costSell: 18000
@@ -6352,7 +6352,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_XOPS_ARMOR
+  - type: STR_CORPSE_XOPS_ARMOR_TAN
     name: STR_CORPSE
     weight: 24
     bigSprite: 64
@@ -6372,7 +6372,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_XOPS_ARMOR_GREY
+  - type: STR_CORPSE_XOPS_ARMOR_GRAY
     name: STR_CORPSE
     weight: 24
     bigSprite: 68
@@ -6403,7 +6403,7 @@ items:
     armor: 65
     recover: false
 # Second Tier #
-  - type: STR_PERSONAL_ARMOR
+  - type: STR_PERSONAL_ARMOR_BLUE #Blue
     size: 0.6
     costSell: 54000
     listOrder: 2020
@@ -6415,7 +6415,7 @@ items:
     size: 0.6
     costSell: 54000
     listOrder: 2022
-  - type: STR_PERSONAL_ARMOR_GREY
+  - type: STR_PERSONAL_ARMOR_GRAY
     size: 0.6
     costSell: 54000
     listOrder: 2023
@@ -6428,11 +6428,11 @@ items:
     costSell: 54000
     listOrder: 2025
 # Corpses
-  - type: STR_CORPSE_PERSONAL_ARMOR_GREEN
+  - type: STR_CORPSE_PERSONAL_ARMOR_BLUE
     name: STR_CORPSE
     weight: 24
-    bigSprite: 127
-    floorSprite: 127
+    bigSprite: 28
+    floorSprite: 124
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -6448,26 +6448,6 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_PERSONAL_ARMOR_WHITE
-    name: STR_CORPSE
-    weight: 24
-    bigSprite: 128
-    floorSprite: 128
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
-  - type: STR_CORPSE_PERSONAL_ARMOR_GREY
-    name: STR_CORPSE
-    weight: 24
-    bigSprite: 126
-    floorSprite: 126
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
   - type: STR_CORPSE_PERSONAL_ARMOR_BLACK
     name: STR_CORPSE
     weight: 24
@@ -6478,44 +6458,68 @@ items:
     battleType: 11
     armor: 65
     recover: false
-
-
+  - type: STR_CORPSE_PERSONAL_ARMOR_GRAY
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 126
+    floorSprite: 126
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+  - type: STR_CORPSE_PERSONAL_ARMOR_WHITE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 128
+    floorSprite: 128
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+  - type: STR_CORPSE_PERSONAL_ARMOR_GREEN
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 127
+    floorSprite: 127
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
 # Third Tier #
-  - type: STR_ALLOY_ARMOR
-    size: 0.7
-    costBuy: 0
-    costSell: 60000
-    listOrder: 10531
-  - type: STR_CORPSE_ALLOY_ARMOR
-    name: STR_CORPSE
-    weight: 24
-    bigSprite: 92
-    floorSprite: 92
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
-  - type: STR_ALLOY_ARMOR_BLACK
-    size: 0.7
-    costBuy: 0
-    costSell: 60000
-    listOrder: 10532
-  - type: STR_CORPSE_ALLOY_ARMOR_BLACK
-    name: STR_CORPSE
-    weight: 24
-    bigSprite: 93
-    floorSprite: 93
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
   - type: STR_ALLOY_ARMOR_BLUE
     size: 0.7
     costBuy: 0
     costSell: 60000
-    listOrder: 10530
+    listOrder: 2030
+  - type: STR_ALLOY_ARMOR_TAN
+    size: 0.7
+    costBuy: 0
+    costSell: 60000
+    listOrder: 2031
+  - type: STR_ALLOY_ARMOR_BLACK
+    size: 0.7
+    costBuy: 0
+    costSell: 60000
+    listOrder: 2032
+  - type: STR_ALLOY_ARMOR_GRAY
+    size: 0.7
+    costBuy: 0
+    costSell: 54000
+    listOrder: 2033
+  - type: STR_ALLOY_ARMOR_WHITE
+    size: 0.7
+    costBuy: 0
+    costSell: 60000
+    listOrder: 2034
+  - type: STR_ALLOY_ARMOR_GREEN
+    size: 0.7
+    costBuy: 0
+    costSell: 60000
+    listOrder: 2035
+# Corpses
   - type: STR_CORPSE_ALLOY_ARMOR_BLUE
     name: STR_CORPSE
     weight: 24
@@ -6526,27 +6530,27 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_ALLOY_ARMOR_GREEN
-    size: 0.7
-    costBuy: 0
-    costSell: 60000
-    listOrder: 10535
-  - type: STR_CORPSE_ALLOY_ARMOR_GREEN
+  - type: STR_CORPSE_ALLOY_ARMOR_TAN
     name: STR_CORPSE
     weight: 24
-    bigSprite: 95
-    floorSprite: 95
+    bigSprite: 92
+    floorSprite: 92
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_ALLOY_ARMOR_GREY
-    size: 0.7
-    costBuy: 0
-    costSell: 54000
-    listOrder: 10533
-  - type: STR_CORPSE_ALLOY_ARMOR_GREY
+  - type: STR_CORPSE_ALLOY_ARMOR_BLACK
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 93
+    floorSprite: 93
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+  - type: STR_CORPSE_ALLOY_ARMOR_GRAY
     name: STR_CORPSE
     weight: 24
     bigSprite: 96
@@ -6556,11 +6560,6 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_ALLOY_ARMOR_WHITE
-    size: 0.7
-    costBuy: 0
-    costSell: 60000
-    listOrder: 10534
   - type: STR_CORPSE_ALLOY_ARMOR_WHITE
     name: STR_CORPSE
     weight: 24
@@ -6571,31 +6570,48 @@ items:
     battleType: 11
     armor: 65
     recover: false
-
-
-# Corpses
-
-# Fourth Tier #
-  - type: STR_SKY_STRIKE_ARMOR
-    size: 0.6
-    costBuy: 0
-    costSell: 57000
-    listOrder: 10541
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR
+  - type: STR_CORPSE_ALLOY_ARMOR_GREEN
     name: STR_CORPSE
     weight: 24
-    bigSprite: 106
-    floorSprite: 106
+    bigSprite: 95
+    floorSprite: 95
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 65
     recover: false
+# Fourth Tier #
   - type: STR_SKY_STRIKE_ARMOR_BLUE
     size: 0.6
     costBuy: 0
     costSell: 57000
-    listOrder: 10540
+    listOrder: 2040
+  - type: STR_SKY_STRIKE_ARMOR_TAN
+    size: 0.6
+    costBuy: 0
+    costSell: 57000
+    listOrder: 2041
+  - type: STR_SKY_STRIKE_ARMOR_BLACK
+    size: 0.6
+    costBuy: 0
+    costSell: 57000
+    listOrder: 2042
+  - type: STR_SKY_STRIKE_ARMOR_GRAY
+    size: 0.6
+    costBuy: 0
+    costSell: 57000
+    listOrder: 2043
+  - type: STR_SKY_STRIKE_ARMOR_WHITE
+    size: 0.6
+    costBuy: 0
+    costSell: 57000
+    listOrder: 2044
+  - type: STR_SKY_STRIKE_ARMOR_CLOUD
+    size: 0.6
+    costBuy: 0
+    costSell: 57000
+    listOrder: 2045
+# Corpses
   - type: STR_CORPSE_SKY_STRIKE_ARMOR_BLUE
     name: STR_CORPSE
     weight: 24
@@ -6606,56 +6622,16 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_SKY_STRIKE_ARMOR_SB
-    size: 0.6
-    costBuy: 0
-    costSell: 57000
-    listOrder: 10545
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_SB
+  - type: STR_CORPSE_SKY_STRIKE_ARMOR_TAN
     name: STR_CORPSE
     weight: 24
-    bigSprite: 108
-    floorSprite: 108
+    bigSprite: 106
+    floorSprite: 106
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_SKY_STRIKE_ARMOR_WHITE
-    size: 0.6
-    costBuy: 0
-    costSell: 57000
-    listOrder: 10544
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_WHITE
-    name: STR_CORPSE
-    weight: 24
-    bigSprite: 109
-    floorSprite: 109
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
-  - type: STR_SKY_STRIKE_ARMOR_GREY
-    size: 0.6
-    costBuy: 0
-    costSell: 57000
-    listOrder: 10543
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_GREY
-    name: STR_CORPSE
-    weight: 24
-    bigSprite: 110
-    floorSprite: 110
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
-  - type: STR_SKY_STRIKE_ARMOR_BLACK
-    size: 0.6
-    costBuy: 0
-    costSell: 57000
-    listOrder: 10542
   - type: STR_CORPSE_SKY_STRIKE_ARMOR_BLACK
     name: STR_CORPSE
     weight: 24
@@ -6666,50 +6642,68 @@ items:
     battleType: 11
     armor: 65
     recover: false
-# Corpses
-
-# Fifth Tier #
-  - type: STR_XOPS_POWER_ARMOR
-    size: 1
-    costBuy: 0
-    costSell: 180000
-    listOrder: 10551
-  - type: STR_XOPS_POWER_ARMOR_BLUE
-    size: 1
-    costBuy: 0
-    costSell: 180000
-    listOrder: 10550
-  - type: STR_XOPS_POWER_ARMOR_GREEN
-    size: 1
-    costBuy: 0
-    costSell: 180000
-    listOrder: 10555
-  - type: STR_XOPS_POWER_ARMOR_WHITE
-    size: 1
-    costBuy: 0
-    costSell: 180000
-    listOrder: 10554
-  - type: STR_XOPS_POWER_ARMOR_GREY
-    size: 1
-    costBuy: 0
-    costSell: 180000
-    listOrder: 10553
-  - type: STR_XOPS_POWER_ARMOR_BLACK
-    size: 1
-    costBuy: 0
-    costSell: 180000
-    listOrder: 10552
-# Corpses
-  - type: STR_CORPSE_XOPS_POWER_ARMOR
+  - type: STR_CORPSE_SKY_STRIKE_ARMOR_GRAY
     name: STR_CORPSE
-    weight: 26
-    bigSprite: 117
-    floorSprite: 117
+    weight: 24
+    bigSprite: 110
+    floorSprite: 110
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 65
     recover: false
+  - type: STR_CORPSE_SKY_STRIKE_ARMOR_WHITE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 109
+    floorSprite: 109
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+  - type: STR_CORPSE_SKY_STRIKE_ARMOR_CLOUD
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 108
+    floorSprite: 108
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+# Fifth Tier #
+  - type: STR_XOPS_POWER_ARMOR_BLUE
+    size: 1
+    costBuy: 0
+    costSell: 180000
+    listOrder: 2050
+  - type: STR_XOPS_POWER_ARMOR
+    size: 1
+    costBuy: 0
+    costSell: 180000
+    listOrder: 2051
+  - type: STR_XOPS_POWER_ARMOR_BLACK
+    size: 1
+    costBuy: 0
+    costSell: 180000
+    listOrder: 2052
+  - type: STR_XOPS_POWER_ARMOR_GRAY
+    size: 1
+    costBuy: 0
+    costSell: 180000
+    listOrder: 2053
+  - type: STR_XOPS_POWER_ARMOR_WHITE
+    size: 1
+    costBuy: 0
+    costSell: 180000
+    listOrder: 2054
+  - type: STR_XOPS_POWER_ARMOR_GREEN
+    size: 1
+    costBuy: 0
+    costSell: 180000
+    listOrder: 2055
+# Corpses
   - type: STR_CORPSE_XOPS_POWER_ARMOR_BLUE
     name: STR_CORPSE
     weight: 26
@@ -6720,31 +6714,11 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_XOPS_POWER_ARMOR_GREEN
+  - type: STR_CORPSE_XOPS_POWER_ARMOR
     name: STR_CORPSE
     weight: 26
-    bigSprite: 119
-    floorSprite: 119
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
-  - type: STR_CORPSE_XOPS_POWER_ARMOR_WHITE
-    name: STR_CORPSE
-    weight: 26
-    bigSprite: 120
-    floorSprite: 120
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
-  - type: STR_CORPSE_XOPS_POWER_ARMOR_GREY
-    name: STR_CORPSE
-    weight: 26
-    bigSprite: 121
-    floorSprite: 121
+    bigSprite: 117
+    floorSprite: 117
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -6760,48 +6734,68 @@ items:
     battleType: 11
     armor: 65
     recover: false
-# Sixth Tier #
-  - type: STR_PSI_ARMOR
-    size: 0.5
-    costBuy: 0
-    costSell: 90000
-    listOrder: 10561
-  - type: STR_PSI_ARMOR_BLUE
-    size: 0.5
-    costBuy: 0
-    costSell: 90000
-    listOrder: 10560
-  - type: STR_PSI_ARMOR_GREEN
-    size: 0.5
-    costBuy: 0
-    costSell: 90000
-    listOrder: 10565
-  - type: STR_PSI_ARMOR_WHITE
-    size: 0.5
-    costBuy: 0
-    costSell: 90000
-    listOrder: 10564
-  - type: STR_PSI_ARMOR_GREY
-    size: 0.5
-    costBuy: 0
-    costSell: 90000
-    listOrder: 10563
-  - type: STR_PSI_ARMOR_BLACK
-    size: 0.5
-    costBuy: 0
-    costSell: 90000
-    listOrder: 10562
-# Corpses
-  - type: STR_CORPSE_PSI_ARMOR
+  - type: STR_CORPSE_XOPS_POWER_ARMOR_GRAY
     name: STR_CORPSE
-    weight: 24
-    bigSprite: 112
-    floorSprite: 112
+    weight: 26
+    bigSprite: 121
+    floorSprite: 121
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 65
     recover: false
+  - type: STR_CORPSE_XOPS_POWER_ARMOR_WHITE
+    name: STR_CORPSE
+    weight: 26
+    bigSprite: 120
+    floorSprite: 120
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+  - type: STR_CORPSE_XOPS_POWER_ARMOR_GREEN
+    name: STR_CORPSE
+    weight: 26
+    bigSprite: 119
+    floorSprite: 119
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+# Sixth Tier #
+  - type: STR_PSI_ARMOR_BLUE
+    size: 0.5
+    costBuy: 0
+    costSell: 90000
+    listOrder: 2060
+  - type: STR_PSI_ARMOR
+    size: 0.5
+    costBuy: 0
+    costSell: 90000
+    listOrder: 2061
+  - type: STR_PSI_ARMOR_BLACK
+    size: 0.5
+    costBuy: 0
+    costSell: 90000
+    listOrder: 2062
+  - type: STR_PSI_ARMOR_GRAY
+    size: 0.5
+    costBuy: 0
+    costSell: 90000
+    listOrder: 2063
+  - type: STR_PSI_ARMOR_WHITE
+    size: 0.5
+    costBuy: 0
+    costSell: 90000
+    listOrder: 2064
+  - type: STR_PSI_ARMOR_GREEN
+    size: 0.5
+    costBuy: 0
+    costSell: 90000
+    listOrder: 2065
+# Corpses
   - type: STR_CORPSE_PSI_ARMOR_BLUE
     name: STR_CORPSE
     weight: 24
@@ -6812,11 +6806,31 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_PSI_ARMOR_GREEN
+  - type: STR_CORPSE_PSI_ARMOR
     name: STR_CORPSE
     weight: 24
-    bigSprite: 113
-    floorSprite: 113
+    bigSprite: 112
+    floorSprite: 112
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+  - type: STR_CORPSE_PSI_ARMOR_BLACK
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 116
+    floorSprite: 116
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 65
+    recover: false
+  - type: STR_CORPSE_PSI_ARMOR_GRAY
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 115
+    floorSprite: 115
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -6832,21 +6846,11 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_PSI_ARMOR_GREY
+  - type: STR_CORPSE_PSI_ARMOR_GREEN
     name: STR_CORPSE
     weight: 24
-    bigSprite: 115
-    floorSprite: 115
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    armor: 65
-    recover: false
-  - type: STR_CORPSE_PSI_ARMOR_BLACK
-    name: STR_CORPSE
-    weight: 24
-    bigSprite: 116
-    floorSprite: 116
+    bigSprite: 113
+    floorSprite: 113
     invWidth: 2
     invHeight: 3
     battleType: 11

@@ -788,12 +788,12 @@ ufopaedia:
     text: STR_XOPS_UFOPEDIA
     listOrder: 1699
     requires:
-      - STR_XOPS_ARMOR
+      - STR_XOPS_ARMOR_TAN
   - id: STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_PERSONAL_ARMOR
+      - STR_PERSONAL_ARMOR_TAN
     text: STR_PERSONAL_ARMOR_UFOPEDIA
     listOrder: 1700
   - id: STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY
@@ -802,14 +802,14 @@ ufopaedia:
     text: STR_ALLOY_UFOPEDIA
     listOrder: 1701
     requires:
-      - STR_ALLOY_ARMOR
+      - STR_ALLOY_ARMOR_TAN
   - id: STR_SKY_STRIKE_ARMOR_UFOPEDIA_DISPLAY
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SKY_STRIKE_UFOPEDIA
     listOrder: 1710
     requires:
-      - STR_SKY_STRIKE_ARMOR
+      - STR_SKY_STRIKE_ARMOR_TAN
   # - id: STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY ojito borrar
   #   type_id: 5
   #   section: STR_WEAPONS_AND_EQUIPMENT
@@ -1541,22 +1541,22 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ELERIUM_LASER_BATTERY
-  - id: STR_LA_AUTO_CANNON
+  - id: STR_LA_HEAVY_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_LASER_UFOPEDIA
     listOrder: 2407
     requires:
       - STR_HEAVY_LASER_WEAPONS
-  - id: STR_LA_AUTO_CANNON_BATTERY1
+  - id: STR_LA_HEAVY_CANNON_BATTERY1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_LA_AUTO_CANNON_BATTERY2
+  - id: STR_LA_HEAVY_CANNON_BATTERY2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_CELLS
-  - id: STR_LA_AUTO_CANNON_BATTERY3
+  - id: STR_LA_HEAVY_CANNON_BATTERY3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1571,10 +1571,10 @@ ufopaedia:
     requires:
       - STR_LIGHT_LASER_WEAPONS
 #--- Fith Tier Hypervelocity Weaponry -------------------
-  - id: STR_RL_PISTOL
+  - id: STR_RL_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_RL_PISTOL_UFOPEDIA
+    text: STR_RL_MAIN_PISTOL_UFOPEDIA
     listOrder: 2501
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
@@ -1585,15 +1585,15 @@ ufopaedia:
     listOrder: 2502
     requires:
       - STR_LIGHT_HYPERVELOCITY_WEAPONS
-  - id: STR_RL_PISTOL_CLIP
+  - id: STR_RL_MAIN_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_RL_PISTOL_CLIP2
+  - id: STR_RL_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_RL_PISTOL_CLIP3
+  - id: STR_RL_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1605,7 +1605,7 @@ ufopaedia:
     listOrder: 2503
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
-  - id: STR_RL_SHOTGUN_CLIP
+  - id: STR_RL_SHOTGUN_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_RL_SHOTGUN_CLIP2
@@ -1625,7 +1625,7 @@ ufopaedia:
     listOrder: 2504
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
-  - id: STR_RL_RIFLE_CLIP
+  - id: STR_RL_RIFLE_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_RL_RIFLE_CLIP2
@@ -1645,7 +1645,7 @@ ufopaedia:
     listOrder: 2505
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
-  - id: STR_RL_LMG_CLIP
+  - id: STR_RL_LMG_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_RL_LMG_CLIP2
@@ -1665,7 +1665,7 @@ ufopaedia:
     listOrder: 2506
     requires:
       - STR_MEDIUM_HYPERVELOCITY_WEAPONS
-  - id: STR_RL_SNIPER_CLIP
+  - id: STR_RL_SNIPER_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_RL_SNIPER_CLIP2
@@ -1678,245 +1678,245 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_RL_HEAVY
+  - id: STR_RL_AUTO_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_RL_HEAVY_UFOPEDIA
+    text: STR_RL_AUTO_CANNON_UFOPEDIA
     listOrder: 2507
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
-  - id: STR_RL_HEAVY_CLIP
+  - id: STR_RL_AUTO_CANNON_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_RL_HEAVY_CLIP2
+  - id: STR_RL_AUTO_CANNON_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_RL_HEAVY_CLIP3
+  - id: STR_RL_AUTO_CANNON_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
-  - id: STR_RL_CANNON
+  - id: STR_RL_BAZOOKA
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_RL_CANNON_UFOPEDIA
+    text: STR_RL_BAZOOKA_UFOPEDIA
     listOrder: 2508
     requires:
       - STR_HEAVY_HYPERVELOCITY_WEAPONS
-  - id: STR_RL_CANNON_CLIP
+  - id: STR_RL_BAZOOKA_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_RL_CANNON_CLIP2
+  - id: STR_RL_BAZOOKA_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_SLUGS
-  - id: STR_RL_CANNON_CLIP3
+  - id: STR_RL_BAZOOKA_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_HYPERVELOCITY_CELLS
 #####-----Sixth Tier Plasma Weaponry
-  - id: STR_PL_SMALL_PISTOL
+  - id: STR_PM_SMALL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_PL_SMALL_PISTOL_UFOPEDIA
+    text: STR_PM_SMALL_PISTOL_UFOPEDIA
     listOrder: 2601
-  - id: STR_PL_SMALL_PISTOL_CLIP1
+  - id: STR_PM_SMALL_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_SMALL_PISTOL_CLIP2
+  - id: STR_PM_SMALL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_SMALL_PISTOL_CLIP3
+  - id: STR_PM_SMALL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_PL_MAIN_PISTOL
+  - id: STR_PM_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
     listOrder: 2602
-    text: STR_PL_MAIN_PISTOL_UFOPEDIA
-  - id: STR_PL_SMG
+    text: STR_PM_MAIN_PISTOL_UFOPEDIA
+  - id: STR_PM_SMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_PL_SMG_UFOPEDIA
+    text: STR_PM_SMG_UFOPEDIA
     listOrder: 2603
-  - id: STR_PL_MAIN_PISTOL_CLIP1
+  - id: STR_PM_MAIN_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_MAIN_PISTOL_CLIP2
+  - id: STR_PM_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_MAIN_PISTOL_CLIP3
+  - id: STR_PM_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_PL_HEAVY_PISTOL
+  - id: STR_PM_HEAVY_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_PL_HEAVY_PISTOL_UFOPEDIA
+    text: STR_PM_HEAVY_PISTOL_UFOPEDIA
     listOrder: 2604
-  - id: STR_PL_BULLPUP
+  - id: STR_PM_BULLPUP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
-    text: STR_PL_BULLPUP_UFOPEDIA
+    text: STR_PM_BULLPUP_UFOPEDIA
     listOrder: 2605
-  - id: STR_PL_HEAVY_PISTOL_CLIP1
+  - id: STR_PM_HEAVY_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_HEAVY_PISTOL_CLIP2
+  - id: STR_PM_HEAVY_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_HEAVY_PISTOL_CLIP3
+  - id: STR_PM_HEAVY_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_PL_SHOTGUN
+  - id: STR_PM_SHOTGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
-    text: STR_PL_SHOTGUN_UFOPEDIA
+    text: STR_PM_SHOTGUN_UFOPEDIA
     listOrder: 2606
-  - id: STR_PL_SHOTGUN_CLIP1
+  - id: STR_PM_SHOTGUN_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_SHOTGUN_CLIP2
+  - id: STR_PM_SHOTGUN_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_SHOTGUN_CLIP3
+  - id: STR_PM_SHOTGUN_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_PL_RIFLE
+  - id: STR_PM_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
-    text: STR_PL_RIFLE_UFOPEDIA
+    text: STR_PM_RIFLE_UFOPEDIA
     listOrder: 2607
-  - id: STR_PL_RIFLE_CLIP1
+  - id: STR_PM_RIFLE_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_RIFLE_CLIP2
+  - id: STR_PM_RIFLE_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_RIFLE_CLIP3
+  - id: STR_PM_RIFLE_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_PL_LMG
+  - id: STR_PM_LMG
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
-    text: STR_PL_LMG_UFOPEDIA
+    text: STR_PM_LMG_UFOPEDIA
     listOrder: 2608
-  - id: STR_PL_LMG_CLIP1
+  - id: STR_PM_LMG_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_LMG_CLIP2
+  - id: STR_PM_LMG_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_LMG_CLIP3
+  - id: STR_PM_LMG_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_PL_SNIPER
+  - id: STR_PM_SNIPER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_MEDIUM_PLASMA_WEAPONS
-    text: STR_PL_SNIPER_UFOPEDIA
+    text: STR_PM_SNIPER_UFOPEDIA
     listOrder: 2609
-  - id: STR_PL_SNIPER_CLIP1
+  - id: STR_PM_SNIPER_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_SNIPER_CLIP2
+  - id: STR_PM_SNIPER_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_SNIPER_CLIP3
+  - id: STR_PM_SNIPER_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
-  - id: STR_PL_HEAVY_CANNON
+  - id: STR_PM_HEAVY_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
-    text: STR_PL_HEAVY_CANNON_UFOPEDIA
+    text: STR_PM_HEAVY_CANNON_UFOPEDIA
     listOrder: 2610
-  - id: STR_PL_HEAVY_CANNON_CLIP1
+  - id: STR_PM_HEAVY_CANNON_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PL_HEAVY_CANNON_CLIP2
+  - id: STR_PM_HEAVY_CANNON_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PL_HEAVY_CANNON_CLIP3
+  - id: STR_PM_HEAVY_CANNON_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ANTIMATTER_CLIP
 #---Seventh Tier Stun Weaponry------------------------
-  - id: STR_TASER
+  - id: STR_SH_TASER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TASER_UFOPEDIA
+    text: STR_SH_TASER_UFOPEDIA
     listOrder: 2704
-  - id: STR_TASER_CLIP
+  - id: STR_SH_TASER_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SHOCK_PISTOL
+  - id: STR_SH_MAIN_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SHOCK_PISTOL_UFOPEDIA
+    text: STR_SH_MAIN_PISTOL_UFOPEDIA
     listOrder: 2705
     requires:
-      - STR_SHOCK_PISTOL
-  - id: STR_SHOCK_RIFLE
+      - STR_SH_MAIN_PISTOL
+  - id: STR_SH_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SHOCK_RIFLE_UFOPEDIA
+    text: STR_SH_RIFLE_UFOPEDIA
     listOrder: 2706
     requires:
-      - STR_SHOCK_RIFLE
-  - id: STR_SHOCK_RIFLE_BATTERY
+      - STR_SH_RIFLE
+  - id: STR_SH_MAIN_PISTOL_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_SHOCK_CANNON

@@ -15,44 +15,44 @@ extraSprites:
       101: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_Blue.gif
       99: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse.gif
       100: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_Black.gif
-      103: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_Grey.gif
+      103: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_GRAY.gif
       104: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_White.gif
       102: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_Green.gif
       105: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/HEC_Inventory_Corpse.gif
       66: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse_Blue.gif
       64: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse.gif
       65: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse_Black.gif
-      68: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse_Grey.gif
+      68: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse_GRAY.gif
       69: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse_White.gif
       67: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/XOps_Inventory_Corpse_Green.gif
       28: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Blue.gif
       124: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse.gif
       125: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Black.gif
-      126: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Grey.gif
+      126: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_GRAY.gif
       128: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_White.gif
       127: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/PA_Inventory_Corpse_Green.gif
       94: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Alloy_Inventory_Corpse_Blue.gif
       92: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Alloy_Inventory_Corpse.gif
       93: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Alloy_Inventory_Corpse_Black.gif
-      96: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Alloy_Inventory_Corpse_Grey.gif
+      96: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Alloy_Inventory_Corpse_GRAY.gif
       98: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Alloy_Inventory_Corpse_White.gif
       95: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Alloy_Inventory_Corpse_Green.gif
       107: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Sky_Inventory_Corpse_Blue.gif
       106: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Sky_Inventory_Corpse.gif
       111: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Sky_Inventory_Corpse_Black.gif
-      110: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Sky_Inventory_Corpse_Grey.gif
+      110: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Sky_Inventory_Corpse_GRAY.gif
       109: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Sky_Inventory_Corpse_White.gif
       108: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Sky_Inventory_Corpse_Sky_Blue.gif
       123: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Psi_Inventory_Corpse_Blue.gif
       112: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Psi_Inventory_Corpse.gif
       116: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Psi_Inventory_Corpse_Black.gif
-      115: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Psi_Inventory_Corpse_Grey.gif
+      115: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Psi_Inventory_Corpse_GRAY.gif
       114: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Psi_Inventory_Corpse_White.gif
       113: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Psi_Inventory_Corpse_Green.gif
       118: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Power_Inventory_Corpse_Blue.gif
       117: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Power_Inventory_Corpse.gif
       122: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Power_Inventory_Corpse_Black.gif
-      121: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Power_Inventory_Corpse_Grey.gif
+      121: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Power_Inventory_Corpse_GRAY.gif
       120: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Power_Inventory_Corpse_White.gif
       119: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Power_Inventory_Corpse_Green.gif
       960: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Weaponry/MiniRocket.gif
@@ -380,42 +380,42 @@ extraSprites:
       78: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_Black.gif
       79: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_Blue.gif
       80: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_Green.gif
-      81: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_Grey.gif
+      81: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_GRAY.gif
       82: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/XOps_Corpse_White.gif
       92: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse.gif
       93: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_Black.gif
       94: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_Blue.gif
       95: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_Green.gif
-      96: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_Grey.gif
+      96: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_GRAY.gif
       98: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Alloy_Corpse_White.gif
       99: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Vest_Corpse.gif
       100: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Vest_Corpse_Black.gif
       101: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Vest_Corpse_Blue.gif
       102: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Vest_Corpse_Green.gif
-      103: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Vest_Corpse_Grey.gif
+      103: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Vest_Corpse_GRAY.gif
       104: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Vest_Corpse_White.gif
       105: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/HEC_Corpse.gif
       106: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Sky_Corpse.gif
       107: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Sky_Corpse_Blue.gif
       108: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Sky_Corpse_Sky_Blue.gif
       109: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Sky_Corpse_White.gif
-      110: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Sky_Corpse_Grey.gif
+      110: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Sky_Corpse_GRAY.gif
       111: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Sky_Corpse_Black.gif
       112: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Psi_Corpse.gif
       113: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Psi_Corpse_Green.gif
       114: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Psi_Corpse_White.gif
-      115: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Psi_Corpse_Grey.gif
+      115: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Psi_Corpse_GRAY.gif
       116: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Psi_Corpse_Black.gif
       117: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Power_Corpse.gif
       118: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Power_Corpse_Blue.gif
       119: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Power_Corpse_Green.gif
       120: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Power_Corpse_White.gif
-      121: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Power_Corpse_Grey.gif
+      121: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Power_Corpse_GRAY.gif
       122: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Power_Corpse_Black.gif
       123: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/Psi_Corpse_Blue.gif
       124: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse.gif
       125: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_Black.gif
-      126: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_Grey.gif
+      126: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_GRAY.gif
       127: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_Purple.gif
       128: Resources/UnitSprites/XcomFaction/XcomHuman/FloorOb/PA_Corpse_White.gif
       960: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/UAVDebris.gif
@@ -4613,9 +4613,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_44uSSw.gif
   - typeSingle: SKY_STRIKE_ARMOR_WHITE__8__SKY_STRIKE_ARMOR_WHITE_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_44uSSw.gif
-  - typeSingle: SKY_STRIKE_ARMOR_GREEN__8__SKY_STRIKE_ARMOR_GREEN_M
+  - typeSingle: STR_SKY_STRIKE_ARMOR_CLOUD__8__STR_SKY_STRIKE_ARMOR_CLOUD_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
-  - typeSingle: SKY_STRIKE_ARMOR_GREEN__8__SKY_STRIKE_ARMOR_GREEN_F
+  - typeSingle: STR_SKY_STRIKE_ARMOR_CLOUD__8__STR_SKY_STRIKE_ARMOR_CLOUD_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
   - typeSingle: XOPS_POWER_ARMOR_BLUE__8__XOPS_POWER_ARMOR_BLUE_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_50uPAp.gif
@@ -4705,37 +4705,37 @@ extraSprites:
   - typeSingle: HUMAN__11__CAP_ONESUIT_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_30AAPA_wide_down_right.gif
 ### skystrike armor
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_BR
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_BR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_bigger_right.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_C
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_C
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_center.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_D
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_D
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_DBL
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_DBL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down_bigger_left.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_DBR
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_DBR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down_bigger_right.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_DD
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_DD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down_down.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_H
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_H
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_high.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_HBL
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_HBL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_high_bigger_left.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_R
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_R
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_right.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_SL
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_left.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_SLD
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SLD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_left_down.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_SR
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_right.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_SS
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SS
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_shorter.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_W
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_W
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_wide.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_WD
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_WD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_wide_down.gif
-  - typeSingle: HUMAN__11__CAP_SKYSTRIKE_WDR
+  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_wide_down_right.gif
 #----- Headgear -----#
   - typeSingle: HUMAN__14__HELMET_KEVLAR_BL

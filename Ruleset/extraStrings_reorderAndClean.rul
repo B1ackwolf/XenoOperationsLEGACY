@@ -8,9 +8,9 @@
 #ufopaedia
       STR_25MM_TANK_CANNON: 25mm M242 Bushmaster
       STR_105MM_TANK_CANNON: 105 mm L/52 M68A1 rifled gun
-      STR_PL_SMALL_PISTOL_UFOPEDIA: Human compact plasma pistol (WIP)
-      STR_PL_HEAVY_PISTOL_UFOPEDIA: Human Heavy plasma pistol (WIP)
-      STR_PL_BULLPUP_UFOPEDIA: Human plasma carbine (WIP)
+      STR_PM_SMALL_PISTOL_UFOPEDIA: Human compact plasma pistol (WIP)
+      STR_PM_HEAVY_PISTOL_UFOPEDIA: Human Heavy plasma pistol (WIP)
+      STR_PM_BULLPUP_UFOPEDIA: Human plasma carbine (WIP)
 #extrasprites
       PAL_GEOSCAPE_NEW: Geoscape globe map
 #researches
@@ -45,44 +45,45 @@
       STR_CORPSE_FLIGHT_JUMPSUIT: Corpse
       STR_CORPSE_VEST_ARMOR_TAN: Corpse
       STR_CORPSE_VEST_ARMOR_BLACK: Corpse
-      STR_CORPSE_VEST_ARMOR_GREEN: Corpse
-      STR_CORPSE_VEST_ARMOR_GREY: Corpse
+      STR_CORPSE_VEST_ARMOR_GRAY: Corpse
       STR_CORPSE_VEST_ARMOR_WHITE: Corpse
+      STR_CORPSE_VEST_ARMOR_GREEN: Corpse
       STR_CORPSE_HEC_ARMOR: Corpse
-      STR_CORPSE_XOPS_ARMOR: Corpse
+      STR_CORPSE_XOPS_ARMOR_TAN: Corpse
       STR_CORPSE_XOPS_ARMOR_BLACK: Corpse
       STR_CORPSE_XOPS_ARMOR_BLUE: Corpse
       STR_CORPSE_XOPS_ARMOR_WHITE: Corpse
       STR_CORPSE_XOPS_ARMOR_GREEN: Corpse
-      STR_CORPSE_XOPS_ARMOR_GREY: Corpse
+      STR_CORPSE_XOPS_ARMOR_GRAY: Corpse
       STR_CORPSE_PERSONAL_ARMOR_GREEN: Corpse
       STR_CORPSE_PERSONAL_ARMOR_TAN: Corpse
-      STR_CORPSE_PERSONAL_ARMOR_GREY: Corpse
+      STR_CORPSE_PERSONAL_ARMOR_GRAY: Corpse
       STR_CORPSE_PERSONAL_ARMOR_WHITE: Corpse
       STR_CORPSE_PERSONAL_ARMOR_BLACK: Corpse
-      STR_CORPSE_ALLOY_ARMOR: Corpse
+      STR_CORPSE_PERSONAL_ARMOR_BLUE: Corpse
+      STR_CORPSE_ALLOY_ARMOR_TAN: Corpse
       STR_CORPSE_ALLOY_ARMOR_BLUE: Corpse      
       STR_CORPSE_ALLOY_ARMOR_BLACK: Corpse
-      STR_CORPSE_ALLOY_ARMOR_GREY: Corpse
+      STR_CORPSE_ALLOY_ARMOR_GRAY: Corpse
       STR_CORPSE_ALLOY_ARMOR_WHITE: Corpse
       STR_CORPSE_ALLOY_ARMOR_GREEN: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR: Corpse
+      STR_CORPSE_SKY_STRIKE_ARMOR_TAN: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_BLUE: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_SB: Corpse
+      STR_CORPSE_SKY_STRIKE_ARMOR_CLOUD: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_WHITE: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_GREY: Corpse
+      STR_CORPSE_SKY_STRIKE_ARMOR_GRAY: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_BLACK: Corpse
       STR_CORPSE_PSI_ARMOR: Corpse
       STR_CORPSE_PSI_ARMOR_BLACK: Corpse
       STR_CORPSE_PSI_ARMOR_BLUE: Corpse
-      STR_CORPSE_PSI_ARMOR_GREY: Corpse
+      STR_CORPSE_PSI_ARMOR_GRAY: Corpse
       STR_CORPSE_PSI_ARMOR_WHITE: Corpse
       STR_CORPSE_PSI_ARMOR_GREEN: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_BLACK: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_BLUE: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_WHITE: Corpse
-      STR_CORPSE_XOPS_POWER_ARMOR_GREY: Corpse
+      STR_CORPSE_XOPS_POWER_ARMOR_GRAY: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_GREEN: Corpse
 #Armors
       UAV_ARMOR: Shuriken Frame
@@ -1157,34 +1158,34 @@
       STR_ALIEN_INJECTOR_BREAKDOWN: Breakdown Alien Injector
       STR_ALIEN_COMM_BREAKDOWN: Breakdown Alien Communicator
       STR_ALIEN_SMALL_ENTERTAINMENT_BREAKDOWN: Breakdown Small Entertainment
-      STR_PL_MAIN_PISTOL_CLIP4: Breakdown Plsm Pistol Clip
-      STR_PL_MAIN_PISTOL_CLIP5: Breakdown Plsm Pistol OR
-      STR_PL_MAIN_PISTOL_CLIP6: Breakdown Plsm Pistol AM
-      STR_PL_SMG_CLIP4: Breakdown Plsm Assaulter Clip
-      STR_PL_SMG_CLIP5: Breakdown Plsm Assaulter OR
-      STR_PL_SMG_CLIP6: Breakdown Plsm Assaulter AM
-      STR_PL_SMG2: Breakdown Plasma Assaulter
-      STR_PL_MAIN_PISTOL2: Breakdown Plasma Pistol
-      STR_PL_RIFLE2: Breakdown Plasma Rifle
-      STR_PL_RIFLE_CLIP4: Breakdown Plsm Rifle Clip
-      STR_PL_RIFLE_CLIP5: Breakdown Plsm Rifle OR
-      STR_PL_RIFLE_CLIP6: Breakdown Plsm Rifle AM
-      STR_PL_SHOTGUN2: Breakdown Plasma Blaster
-      STR_PL_HEAVY_CANNON_CLIP4: Breakdown Plsm Cannon Clip
-      STR_PL_HEAVY_CANNON_CLIP5: Breakdown Plsm Cannon OC
-      STR_PL_HEAVY_CANNON_CLIP6: Breakdown Plsm Cannon AMd
-      STR_PL_HEAVY_CANNON2: Breakdown Plasma Cannon
-      STR_PL_LMG_CLIP4: Breakdown Hvy Plsm Clip
-      STR_PL_LMG_CLIP5: Breakdown Hvy Plsm Clip OR
-      STR_PL_LMG_CLIP6: Breakdown Hvy Plsm Clip AM
-      STR_PL_LMG2: Breakdown Heavy Plasma
-      STR_PL_SNIPER_CLIP4: Breakdown Plsm Sniper Rifle Clip
-      STR_PL_SNIPER_CLIP5: Breakdown Plsm Sniper Rifle OR
-      STR_PL_SNIPER_CLIP6: Breakdown Plsm Sniper Rifle AM
-      STR_PL_SNIPER2: Breakdown Plasma Sniper Rifle
-      STR_PL_SHOTGUN_CLIP4: Breakdown Plsm Blaster Clip
-      STR_PL_SHOTGUN_CLIP5: Breakdown Plsm Blaster OR
-      STR_PL_SHOTGUN_CLIP6: Breakdown Plsm Blaster AM
+      STR_PM_MAIN_PISTOL_CLIP4: Breakdown Plsm Pistol Clip
+      STR_PM_MAIN_PISTOL_CLIP5: Breakdown Plsm Pistol OR
+      STR_PM_MAIN_PISTOL_CLIP6: Breakdown Plsm Pistol AM
+      STR_PM_SMG_CLIP4: Breakdown Plsm Assaulter Clip
+      STR_PM_SMG_CLIP5: Breakdown Plsm Assaulter OR
+      STR_PM_SMG_CLIP6: Breakdown Plsm Assaulter AM
+      STR_PM_SMG2: Breakdown Plasma Assaulter
+      STR_PM_MAIN_PISTOL2: Breakdown Plasma Pistol
+      STR_PM_RIFLE2: Breakdown Plasma Rifle
+      STR_PM_RIFLE_CLIP4: Breakdown Plsm Rifle Clip
+      STR_PM_RIFLE_CLIP5: Breakdown Plsm Rifle OR
+      STR_PM_RIFLE_CLIP6: Breakdown Plsm Rifle AM
+      STR_PM_SHOTGUN2: Breakdown Plasma Blaster
+      STR_PM_HEAVY_CANNON_CLIP4: Breakdown Plsm Cannon Clip
+      STR_PM_HEAVY_CANNON_CLIP5: Breakdown Plsm Cannon OC
+      STR_PM_HEAVY_CANNON_CLIP6: Breakdown Plsm Cannon AMd
+      STR_PM_HEAVY_CANNON2: Breakdown Plasma Cannon
+      STR_PM_LMG_CLIP4: Breakdown Hvy Plsm Clip
+      STR_PM_LMG_CLIP5: Breakdown Hvy Plsm Clip OR
+      STR_PM_LMG_CLIP6: Breakdown Hvy Plsm Clip AM
+      STR_PM_LMG2: Breakdown Heavy Plasma
+      STR_PM_SNIPER_CLIP4: Breakdown Plsm Sniper Rifle Clip
+      STR_PM_SNIPER_CLIP5: Breakdown Plsm Sniper Rifle OR
+      STR_PM_SNIPER_CLIP6: Breakdown Plsm Sniper Rifle AM
+      STR_PM_SNIPER2: Breakdown Plasma Sniper Rifle
+      STR_PM_SHOTGUN_CLIP4: Breakdown Plsm Blaster Clip
+      STR_PM_SHOTGUN_CLIP5: Breakdown Plsm Blaster OR
+      STR_PM_SHOTGUN_CLIP6: Breakdown Plsm Blaster AM
       STR_ALIEN_GRENADE_BREAKDOWN: Breakdown Alien Grenade
       STR_ALIEN_PROX_GRENADE_BREAKDOWN: Breakdown Alien Mine
       STR_SMALL_LAUNCHER_BREAKDOWN: Breakdown Cluster Launcher
@@ -1333,8 +1334,8 @@
       STR_LABSHIP_UFOPEDIA: This large ship contains numerous research facilities and has a large staff. Its weapons and armor are sub par for a UFO of its size and its crew are lightly armed.
 #-----Human Weapons
 
-      STR_TASER: Taser Pistol
-      STR_TASER_CLIP: Taser Shock Clip
+      STR_SH_TASER: Taser Pistol
+      STR_SH_TASER_CLIP: Taser Shock Clip
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
       STR_XP_AUTO_PISTOL: X1 Machine Pistol
       STR_XP_SMALL_PISTOL_CLIP2: 9mm Alloys Magazine
@@ -1522,76 +1523,76 @@
       STR_LA_SNIPER_BATTERY1: Medium Battery
       STR_LA_SNIPER_BATTERY2: Overloaded Medium Battery
       STR_LA_SNIPER_BATTERY3: Elerium Medium Battery
-      STR_LA_AUTO_CANNON: Laser Cannon
-      STR_LA_AUTO_CANNON_BATTERY1: Giga-Battery
-      STR_LA_AUTO_CANNON_BATTERY2: Overloaded Giga-Battery
-      STR_LA_AUTO_CANNON_BATTERY3: Elerium Giga-Battery
+      STR_LA_HEAVY_CANNON: Laser Cannon
+      STR_LA_HEAVY_CANNON_BATTERY1: Giga-Battery
+      STR_LA_HEAVY_CANNON_BATTERY2: Overloaded Giga-Battery
+      STR_LA_HEAVY_CANNON_BATTERY3: Elerium Giga-Battery
       STR_LASER_SWORD: Laser Sword #ojito
 #-----Human Hypervelocity Weapons
-      STR_RL_PISTOL: Rail Pistol
+      STR_RL_MAIN_PISTOL: Rail Pistol
       STR_RL_SMG: Rail Assaulter
-      STR_RL_PISTOL_CLIP: Needles Clip
-      STR_RL_PISTOL_CLIP2: Depleted Needles Clip 
-      STR_RL_PISTOL_CLIP3: Enriched Needles Clip
+      STR_RL_MAIN_PISTOL_CLIP1: Needles Clip
+      STR_RL_MAIN_PISTOL_CLIP2: Depleted Needles Clip 
+      STR_RL_MAIN_PISTOL_CLIP3: Enriched Needles Clip
       STR_RL_SHOTGUN: Rail Shards Thrower
-      STR_RL_SHOTGUN_CLIP: Shards Clip
+      STR_RL_SHOTGUN_CLIP1: Shards Clip
       STR_RL_SHOTGUN_CLIP2: Depleted Shards Clip
       STR_RL_SHOTGUN_CLIP3: Enriched Shards Clip
       STR_RL_RIFLE: Rail Combat Rifle
-      STR_RL_RIFLE_CLIP: Nails Clip
+      STR_RL_RIFLE_CLIP1: Nails Clip
       STR_RL_RIFLE_CLIP2: Depleted Nails Clip
       STR_RL_RIFLE_CLIP3: Enriched Nails Clip
       STR_RL_LMG: Rail Repeater
-      STR_RL_LMG_CLIP: Slugs Box
+      STR_RL_LMG_CLIP1: Slugs Box
       STR_RL_LMG_CLIP2: Depleted Slugs Box
       STR_RL_LMG_CLIP3: Depleted Slugs Box
       STR_RL_SNIPER: Rail Precision Rifle
-      STR_RL_SNIPER_CLIP: Darts Clip
+      STR_RL_SNIPER_CLIP1: Darts Clip
       STR_RL_SNIPER_CLIP2: Depleted Darts Clip
       STR_RL_SNIPER_CLIP3: Enriched Darts Clip
-      STR_RL_HEAVY: Rail Heavy Lance ###ojito cambiar a algo mejor
-      STR_RL_HEAVY_CLIP: Spikes Magazine
-      STR_RL_HEAVY_CLIP2: Depleted Spikes Magazine
-      STR_RL_HEAVY_CLIP3: Enriched Spikes Magazine
-      STR_RL_CANNON: Rail Macrocannon
-      STR_RL_CANNON_CLIP: Sabots Magazine
-      STR_RL_CANNON_CLIP2: Depleted Sabots Magazine
-      STR_RL_CANNON_CLIP3: Enriched Sabots Magazine
+      STR_RL_AUTO_CANNON: Rail Heavy Lance ###ojito cambiar a algo mejor
+      STR_RL_AUTO_CANNON_CLIP1: Spikes Magazine
+      STR_RL_AUTO_CANNON_CLIP2: Depleted Spikes Magazine
+      STR_RL_AUTO_CANNON_CLIP3: Enriched Spikes Magazine
+      STR_RL_BAZOOKA: Rail Macrocannon
+      STR_RL_BAZOOKA_CLIP1: Sabots Magazine
+      STR_RL_BAZOOKA_CLIP2: Depleted Sabots Magazine
+      STR_RL_BAZOOKA_CLIP3: Enriched Sabots Magazine
 #-----Human Plasma Weapons
-      STR_PL_SMALL_PISTOL: Plasma Compact Pistol
-      STR_PL_SMALL_PISTOL_CLIP1: Nano Plasma Cell
-      STR_PL_SMALL_PISTOL_CLIP2: Overcharged Nano Cell
-      STR_PL_SMALL_PISTOL_CLIP3: Nano Antimatter Cell
-      STR_PL_MAIN_PISTOL: Plasma Service Pistol
-      STR_PL_SMG: Plasma Assaulter
-      STR_PL_MAIN_PISTOL_CLIP1: Micro Plasma Cell
-      STR_PL_MAIN_PISTOL_CLIP2: Overcharged Micro Cell
-      STR_PL_MAIN_PISTOL_CLIP3: Micro Antimatter Cell
-      STR_PL_HEAVY_PISTOL: Heavy Handcannon
-      STR_PL_BULLPUP: Plasma Carbine
-      STR_PL_HEAVY_PISTOL_CLIP1: Mini Plasma Cell
-      STR_PL_HEAVY_PISTOL_CLIP2: Overcharged Mini Cell
-      STR_PL_HEAVY_PISTOL_CLIP3: Mini Antimatter Cell
-      STR_PL_SHOTGUN: Plasma Blaster
-      STR_PL_SHOTGUN_CLIP1: Blaster Plasma Cell
-      STR_PL_SHOTGUN_CLIP2: Overcharged Blaster Cell
-      STR_PL_SHOTGUN_CLIP3: Blaster Antimatter Cell
-      STR_PL_RIFLE: Plasma Rifle
-      STR_PL_RIFLE_CLIP1: Standard Plasma Cell
-      STR_PL_RIFLE_CLIP2: Overcharged Standard Cell
-      STR_PL_RIFLE_CLIP3: Standard Antimatter Cell
-      STR_PL_LMG: Plasma Caster
-      STR_PL_LMG_CLIP1: Heavy Plasma Belt
-      STR_PL_LMG_CLIP2: Overcharged Heavy Belt
-      STR_PL_LMG_CLIP3: Heavy Antimatter Belt
-      STR_PL_SNIPER: Plasma Sharpshooter
-      STR_PL_SNIPER_CLIP1: Condensed Plasma Cell
-      STR_PL_SNIPER_CLIP2: Overcharged Condensed Cell
-      STR_PL_SNIPER_CLIP3: Condensed Antimatter Cell
-      STR_PL_HEAVY_CANNON: Plasma Heavy Cannon
-      STR_PL_HEAVY_CANNON_CLIP1: Large Plasma Cell
-      STR_PL_HEAVY_CANNON_CLIP2: Overcharged Large Cell
-      STR_PL_HEAVY_CANNON_CLIP3: Large Antimatter Cell
+      STR_PM_SMALL_PISTOL: Plasma Compact Pistol
+      STR_PM_SMALL_PISTOL_CLIP1: Nano Plasma Cell
+      STR_PM_SMALL_PISTOL_CLIP2: Overcharged Nano Cell
+      STR_PM_SMALL_PISTOL_CLIP3: Nano Antimatter Cell
+      STR_PM_MAIN_PISTOL: Plasma Service Pistol
+      STR_PM_SMG: Plasma Assaulter
+      STR_PM_MAIN_PISTOL_CLIP1: Micro Plasma Cell
+      STR_PM_MAIN_PISTOL_CLIP2: Overcharged Micro Cell
+      STR_PM_MAIN_PISTOL_CLIP3: Micro Antimatter Cell
+      STR_PM_HEAVY_PISTOL: Heavy Handcannon
+      STR_PM_BULLPUP: Plasma Carbine
+      STR_PM_HEAVY_PISTOL_CLIP1: Mini Plasma Cell
+      STR_PM_HEAVY_PISTOL_CLIP2: Overcharged Mini Cell
+      STR_PM_HEAVY_PISTOL_CLIP3: Mini Antimatter Cell
+      STR_PM_SHOTGUN: Plasma Blaster
+      STR_PM_SHOTGUN_CLIP1: Blaster Plasma Cell
+      STR_PM_SHOTGUN_CLIP2: Overcharged Blaster Cell
+      STR_PM_SHOTGUN_CLIP3: Blaster Antimatter Cell
+      STR_PM_RIFLE: Plasma Rifle
+      STR_PM_RIFLE_CLIP1: Standard Plasma Cell
+      STR_PM_RIFLE_CLIP2: Overcharged Standard Cell
+      STR_PM_RIFLE_CLIP3: Standard Antimatter Cell
+      STR_PM_LMG: Plasma Caster
+      STR_PM_LMG_CLIP1: Heavy Plasma Belt
+      STR_PM_LMG_CLIP2: Overcharged Heavy Belt
+      STR_PM_LMG_CLIP3: Heavy Antimatter Belt
+      STR_PM_SNIPER: Plasma Sharpshooter
+      STR_PM_SNIPER_CLIP1: Condensed Plasma Cell
+      STR_PM_SNIPER_CLIP2: Overcharged Condensed Cell
+      STR_PM_SNIPER_CLIP3: Condensed Antimatter Cell
+      STR_PM_HEAVY_CANNON: Plasma Heavy Cannon
+      STR_PM_HEAVY_CANNON_CLIP1: Large Plasma Cell
+      STR_PM_HEAVY_CANNON_CLIP2: Overcharged Large Cell
+      STR_PM_HEAVY_CANNON_CLIP3: Large Antimatter Cell
 #----- Ojito re ordenar todo esto
       STR_HUMAN_PLASMA_SWORD: Plasma Sword
       STR_HUMAN_ALLOY_BLADE: Alloy Knife
@@ -1606,14 +1607,14 @@
       STR_ANTIMATTER_LAUNCHER_BOMB3: Inferno Warhead
 #-----Human Shock Weapons
       STR_SHOCK_WEAPONS: Shock Weapons
-      STR_SHOCK_PISTOL: Shock Pistol
-      STR_SHOCK_RIFLE: Shock Rifle
-      STR_SHOCK_RIFLE_BATTERY: Standard Shock Battery
+      STR_SH_MAIN_PISTOL: Shock Pistol
+      STR_SH_RIFLE: Shock Rifle
+      STR_SH_MAIN_PISTOL_BATTERY: Standard Shock Battery
       STR_SHOCK_CANNON: Shock Cannon
       STR_SHOCK_CANNON_BATTERY: Large Shock Battery
       STR_SHOCK_GRENADE: Shock Grenade
-      STR_SHOCK_PISTOL_UFOPEDIA: The Small Shock Pistol administers a high-voltage electroshock current that overloads the neural systems of the target, leaving them zapped and disoriented for several hours. This sidearm utilizes a standard shock battery, prioritizing portability and ease of handling over pinpoint accuracy. It serves as an ideal addition to the gear of troops tasked with capturing targets. 
-      STR_SHOCK_RIFLE_UFOPEDIA: The Shock Rifle represents a significant advancement in our mission to provide our troops with a safer means of apprehending valuable targets. It boasts superior precision and an extended effective range compared to its smaller counterpart. Due to its size and primary role, troopers should carry suitable backup weaponry in case of unexpected situations. The Shock Rifle operates using a Standard Shock Battery.
+      STR_SH_MAIN_PISTOL_UFOPEDIA: The Small Shock Pistol administers a high-voltage electroshock current that overloads the neural systems of the target, leaving them zapped and disoriented for several hours. This sidearm utilizes a standard shock battery, prioritizing portability and ease of handling over pinpoint accuracy. It serves as an ideal addition to the gear of troops tasked with capturing targets. 
+      STR_SH_RIFLE_UFOPEDIA: The Shock Rifle represents a significant advancement in our mission to provide our troops with a safer means of apprehending valuable targets. It boasts superior precision and an extended effective range compared to its smaller counterpart. Due to its size and primary role, troopers should carry suitable backup weaponry in case of unexpected situations. The Shock Rifle operates using a Standard Shock Battery.
       STR_SHOCK_CANNON_UFOPEDIA: This upgraded version is tailored for handling targets that have demonstrated resilience against smaller iterations of shock technology. With its Double Coils, it significantly enhances the total current output while incorporating an improved cooling subsystem to ensure the safety of its operator, albeit at the expense of increased size and weight. Given the rapid energy consumption rate of this weapon, it necessitates an enhanced but bulkier battery to supply the entire system.
 ###### ojito
       STR_SHOCK_GRENADE_UFOPEDIA: This device generates a tightly polarized cloud that rapidly ionizes the air in its landing area, producing a small yet controlled EMP effect that swiftly immobilizes targets within its range. It proves particularly effective in confined spaces such as UFOs, Alien Bases' corridors, and choke points.
@@ -1623,44 +1624,44 @@
       STR_PSI_AMP_LARGE: Psionic Dominator
 #-----Human Armor
 #OJITO LIMPIAR ARMADURAS REMANENTES
-      STR_XOPS_ARMOR: Xeno Operations Armor
+      STR_XOPS_ARMOR_TAN: Xeno Operations Armor
       STR_XOPS_ARMOR_BLACK: Xeno Operations Armor Black
       STR_XOPS_ARMOR_BLUE: Xeno Operations Armor Blue
       STR_XOPS_ARMOR_GREEN: Xeno Operations Armor Green
-      STR_XOPS_ARMOR_GREY: Xeno Operations Armor Grey
+      STR_XOPS_ARMOR_GRAY: Xeno Operations Armor Grey
       STR_XOPS_ARMOR_WHITE: Xeno Operations Armor White
       STR_XOPS_ARMOR_UC: XOPS ARMOR
       STR_XOPS_ARMOR_BLACK_UC: XOPS ARMOR BLACK
       STR_XOPS_ARMOR_BLUE_UC: XOPS ARMOR BLUE
       STR_XOPS_ARMOR_GREEN_UC: XOPS ARMOR GREEN
-      STR_XOPS_ARMOR_GREY_UC: XOPS ARMOR GREY
+      STR_XOPS_ARMOR_GRAY_UC: XOPS ARMOR GREY
       STR_XOPS_ARMOR_WHITE_UC: XOPS ARMOR WHITE
-      STR_ALLOY_ARMOR: Alloy Armor
+      STR_ALLOY_ARMOR_TAN: Alloy Armor
       STR_ALLOY_ARMOR_BLACK: Alloy Armor Black
       STR_ALLOY_ARMOR_BLUE: Alloy Armor Blue
       STR_ALLOY_ARMOR_GREEN: Alloy Armor Green
-      STR_ALLOY_ARMOR_GREY: Alloy Armor Grey
+      STR_ALLOY_ARMOR_GRAY: Alloy Armor Grey
       STR_ALLOY_ARMOR_WHITE: Alloy Armor White
       STR_ALLOY_ARMOR_UC: ALLOY ARMOR
       STR_ALLOY_ARMOR_BLACK_UC: ALLOY ARMOR BLACK
       STR_ALLOY_ARMOR_BLUE_UC: ALLOY ARMOR BLUE
-      STR_ALLOY_ARMOR_GREY_UC: ALLOY ARMOR GREY
+      STR_ALLOY_ARMOR_GRAY_UC: ALLOY ARMOR GREY
       STR_ALLOY_ARMOR_GREEN_UC: ALLOY ARMOR GREEN
       STR_ALLOY_ARMOR_WHITE_UC: ALLOY ARMOR WHITE
       STR_HEAVY_ALLOY_ARMOR: Heavy Alloy Armor
       STR_HEAVY_ALLOY_ARMOR_UC: HEAVY ALLOY ARMOR
-      STR_SKY_STRIKE_ARMOR: Skystrike Armor
-      STR_SKY_STRIKE_ARMOR_UC: SKYSTRIKE ARMOR
-      STR_SKY_STRIKE_ARMOR_SB: Skystrike Armor Sky Blue
-      STR_SKY_STRIKE_ARMOR_SB_UC: SKYSTRIKE ARMOR SKY BLUE
+      STR_SKY_STRIKE_ARMOR_TAN: Skystrike Armor
+      STR_SKY_STRIKE_ARMOR_UC: Skystrike ARMOR
+      STR_SKY_STRIKE_ARMOR_CLOUD: Skystrike Armor Sky Blue
+      STR_SKY_STRIKE_ARMOR_CLOUD_UC: Skystrike ARMOR SKY BLUE
       STR_SKY_STRIKE_ARMOR_BLUE: Skystrike Armor Blue
-      STR_SKY_STRIKE_ARMOR_BLUE_UC: SKYSTRIKE ARMOR BLUE
+      STR_SKY_STRIKE_ARMOR_BLUE_UC: Skystrike ARMOR BLUE
       STR_SKY_STRIKE_ARMOR_WHITE: Skystrike Armor White
-      STR_SKY_STRIKE_ARMOR_WHITE_UC: SKYSTRIKE ARMOR WHITE
-      STR_SKY_STRIKE_ARMOR_GREY: Skystrike Armor Grey
-      STR_SKY_STRIKE_ARMOR_GREY_UC: SKYSTRIKE ARMOR GREY
+      STR_SKY_STRIKE_ARMOR_WHITE_UC: Skystrike ARMOR WHITE
+      STR_SKY_STRIKE_ARMOR_GRAY: Skystrike Armor Grey
+      STR_SKY_STRIKE_ARMOR_GRAY_UC: Skystrike ARMOR GREY
       STR_SKY_STRIKE_ARMOR_BLACK: Skystrike Armor Black
-      STR_SKY_STRIKE_ARMOR_BLACK_UC: SKYSTRIKE ARMOR BLACK
+      STR_SKY_STRIKE_ARMOR_BLACK_UC: Skystrike ARMOR BLACK
       STR_KEVLAR_VEST_ARMOR_TAN: Kevlar Vest
       STR_KEVLAR_VEST_ARMOR_TAN_UC: KEVLAR VEST
       STR_KEVLAR_VEST_ARMOR_GREEN: Woodland Camo
@@ -1669,8 +1670,8 @@
       STR_KEVLAR_VEST_ARMOR_BLUE_UC: BLUE UNIFORM
       STR_KEVLAR_VEST_ARMOR_WHITE: Arctic Camo
       STR_KEVLAR_VEST_ARMOR_WHITE_UC: ARCTIC CAMO
-      STR_KEVLAR_VEST_ARMOR_GREY: Urban Camo
-      STR_KEVLAR_VEST_ARMOR_GREY_UC: URBAN CAMO
+      STR_KEVLAR_VEST_ARMOR_GRAY: Urban Camo
+      STR_KEVLAR_VEST_ARMOR_GRAY_UC: URBAN CAMO
       STR_KEVLAR_VEST_ARMOR_BLACK: Black Ops
       STR_KEVLAR_VEST_ARMOR_BLACK_UC: BLACK OPS
       STR_KEVLAR_VEST_ARMOR_BERET: Beret
@@ -1685,8 +1686,8 @@
       STR_PSI_ARMOR_UC: NERVE SUIT
       STR_PSI_ARMOR_BLUE: Nerve Suit Blue
       STR_PSI_ARMOR_BLUE_UC: NERVE SUIT BLUE
-      STR_PSI_ARMOR_GREY: Nerve Suit Grey
-      STR_PSI_ARMOR_GREY_UC: NERVE SUIT GREY
+      STR_PSI_ARMOR_GRAY: Nerve Suit Grey
+      STR_PSI_ARMOR_GRAY_UC: NERVE SUIT GREY
       STR_PSI_ARMOR_GREEN: Nerve Suit Green
       STR_PSI_ARMOR_GREEN_UC: NERVE SUIT GREEN
       STR_PSI_ARMOR_WHITE: Nerve Suit White
@@ -1701,20 +1702,20 @@
       STR_XOPS_POWER_ARMOR_GREEN_UC: POWER ARMOR GREEN
       STR_XOPS_POWER_ARMOR_WHITE: Power Armor White
       STR_XOPS_POWER_ARMOR_WHITE_UC: POWER ARMOR WHITE
-      STR_XOPS_POWER_ARMOR_GREY: Power Armor Grey
-      STR_XOPS_POWER_ARMOR_GREY_UC: POWER ARMOR GREY
+      STR_XOPS_POWER_ARMOR_GRAY: Power Armor Grey
+      STR_XOPS_POWER_ARMOR_GRAY_UC: POWER ARMOR GREY
       STR_XOPS_POWER_ARMOR_BLACK: Power Armor Black
       STR_XOPS_POWER_ARMOR_BLACK_UC: POWER ARMOR BLACK
       STR_PERSONAL_ARMOR_TAN: Personal Armor
       STR_PERSONAL_ARMOR_TAN_UC: PERSONAL ARMOR
-      STR_PERSONAL_ARMOR: Personal Armor Blue
-      STR_PERSONAL_ARMOR_UC: PERSONAL ARMOR BLUE
+      STR_PERSONAL_ARMOR_BLUE: Personal Armor Blue
+      STR_PERSONAL_ARMOR_BLUE_UC: PERSONAL ARMOR BLUE
       STR_PERSONAL_ARMOR_WHITE: Personal Armor White
       STR_PERSONAL_ARMOR_WHITE_UC: PERSONAL ARMOR WHITE
       STR_PERSONAL_ARMOR_GREEN: Personal Armor Green
       STR_PERSONAL_ARMOR_GREEN_UC: PERSONAL ARMOR GREEN
-      STR_PERSONAL_ARMOR_GREY: Personal Armor Grey
-      STR_PERSONAL_ARMOR_GREY_UC: PERSONAL ARMOR GREY
+      STR_PERSONAL_ARMOR_GRAY: Personal Armor Grey
+      STR_PERSONAL_ARMOR_GRAY_UC: PERSONAL ARMOR GREY
       STR_PERSONAL_ARMOR_BLACK: Personal Armor Black
       STR_PERSONAL_ARMOR_BLACK_UC: PERSONAL ARMOR BLACK
 #-----Categories
@@ -1820,7 +1821,7 @@
       STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY: Power Suit
       STR_FLYING_SUIT_ARMOR_UFOPEDIA_DISPLAY: Flying Suit
       STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY: Personal Armor
-      STR_TASER_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
+      STR_SH_TASER_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
 
 
 
@@ -1847,21 +1848,21 @@
       STR_LASER_SWORD_UFOPEDIA: The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
       STR_CHARGED_CELLS_UFOPEDIA: New advancements in battery technology has allowed our engineers to design and build Charged Cell batteries for our laser weapons. These cells greatly increase the damage output of our laser weapons, but drain more quickly than normal laser batteries.
       STR_ELERIUM_LASER_BATTERY_UFOPEDIA: By adapting a micro Elerium battery into our laser weapons it can greatly boost both their power and battery life.
-      STR_PL_MAIN_PISTOL_UFOPEDIA: The Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second. It shares ammunition with the plasma assaulter, as it uses a micro plasma cell.
-      STR_PL_SMG_UFOPEDIA: The Plasma Assaulter fires at a high rate, but losses accuracy over long ranges quickly. This makes it ideal for close assault. It shares ammunition with the plasma pistol, as it uses a micro plasma cell.
-      STR_PL_RIFLE_UFOPEDIA: The Plasma Rifle uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second.
-      STR_PL_SHOTGUN_UFOPEDIA: The Plasma Blaster's containment field breaks apart mid flight being designed to produce a spread effect similar to a shotgun.
-      STR_PL_SNIPER_UFOPEDIA: The Plasma Sniper Rifle has a special barrel designed to reduce its spread range to practically nothing. This makes this weapon deadly accurate, but at the cost of a slower firing rate.
-      STR_PL_LMG_UFOPEDIA: The Heavy Plasma is extremely destructive combining a high rate of fire with a huge amount of stopping power. However, the power requirements have scaled as well and it eats through its Elerium powered clips quickly.
-      STR_PL_HEAVY_CANNON_UFOPEDIA: The Heavy Plasma Cannon is the largest plasma based weapon yet designed short of craft mounted weapons. The Elerium containment field is only barely sufficient to keep the volatile plasma core from erupting before it hits its target.
-      STR_RL_PISTOL_UFOPEDIA: The Hypervelocity Pistol fires a small powered projectile at speeds that superheat a missile with extreme velocities. Its compact design makes this a powerful sidearm.
+      STR_PM_MAIN_PISTOL_UFOPEDIA: The Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second. It shares ammunition with the plasma assaulter, as it uses a micro plasma cell.
+      STR_PM_SMG_UFOPEDIA: The Plasma Assaulter fires at a high rate, but losses accuracy over long ranges quickly. This makes it ideal for close assault. It shares ammunition with the plasma pistol, as it uses a micro plasma cell.
+      STR_PM_RIFLE_UFOPEDIA: The Plasma Rifle uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second.
+      STR_PM_SHOTGUN_UFOPEDIA: The Plasma Blaster's containment field breaks apart mid flight being designed to produce a spread effect similar to a shotgun.
+      STR_PM_SNIPER_UFOPEDIA: The Plasma Sniper Rifle has a special barrel designed to reduce its spread range to practically nothing. This makes this weapon deadly accurate, but at the cost of a slower firing rate.
+      STR_PM_LMG_UFOPEDIA: The Heavy Plasma is extremely destructive combining a high rate of fire with a huge amount of stopping power. However, the power requirements have scaled as well and it eats through its Elerium powered clips quickly.
+      STR_PM_HEAVY_CANNON_UFOPEDIA: The Heavy Plasma Cannon is the largest plasma based weapon yet designed short of craft mounted weapons. The Elerium containment field is only barely sufficient to keep the volatile plasma core from erupting before it hits its target.
+      STR_RL_MAIN_PISTOL_UFOPEDIA: The Hypervelocity Pistol fires a small powered projectile at speeds that superheat a missile with extreme velocities. Its compact design makes this a powerful sidearm.
       STR_RL_SMG_UFOPEDIA: The Hypervelocity Assaulter has a high rate of fire as well as keeping the weapon compact and easy to maneuver. It fills the role of a light assault weapon firing powered kinetic darts at extreme velocities.
       STR_RL_RIFLE_UFOPEDIA: The Hypervelocity Rifle fires a small Elerium powered kinetic dart at speeds that superheat a missile with extreme velocities.
       STR_RL_SHOTGUN_UFOPEDIA: The Hypervelocity Shards Rifle fires a small powered kinetic dart at speeds that superheat a missile with extreme velocities. The dart is designed to break apart mid flight giving the weapon a spread like a shotgun.
       STR_RL_SNIPER_UFOPEDIA: The Hypervelocity Sniper Rifle is a finely tuned version of the rifle, sacrificing rate of fire for superior accuracy.
-      STR_RL_HEAVY_UFOPEDIA: The Heavy Hypervelocity gun fires a large kinetic dart at extreme velocities. This heavy version fires slower than the repeater, but has more firepower.
+      STR_RL_AUTO_CANNON_UFOPEDIA: The Heavy Hypervelocity gun fires a large kinetic dart at extreme velocities. This heavy version fires slower than the repeater, but has more firepower.
       STR_RL_LMG_UFOPEDIA: The Hypervelocity Repeater has a high rate of fire that is excellent for suppression.
-      STR_RL_CANNON_UFOPEDIA: The Hypervelocity Cannon fires a large kinetic dart at extreme velocities. The dart has enough power to punch through pretty much anything.
+      STR_RL_BAZOOKA_UFOPEDIA: The Hypervelocity Cannon fires a large kinetic dart at extreme velocities. The dart has enough power to punch through pretty much anything.
       STR_INC_GRENADE_UFOPEDIA: The Incendiary Grenade contains chemical elements that explode in a fiery blast when mixed. Useful for turning aliens into makeshift torches.
       STR_KNIFE_UFOPEDIA: The standard issue XCom Combat Knife is light and deadly being made out of high carbon steel that holds an edge well. This close combat weapon gives any soldier a suitable weapon in case the aliens get too close. Unlike the stun rod, a Soldier's strength is added to the Combat Knife's damage.
       STR_BRASS_KNUCKLES_UFOPEDIA: Brass Knuckles allow for our soldiers to use good old fashion fisticuffs to administer a classic Terran beat down. An alien would likely not be permanently killed by such a primitive hand to hand brawl, but it is useful to knock out an alien for live capture. Brass Knuckles are very light making it an easy and cheap addition to any soldier. Unlike the stun rod, this weapon adds the soldier's strength to the damage.

@@ -1,7 +1,8 @@
 #ideas for the mod, in any specific order:
 
 TL;DR VERSION:
-
+ - confirmar y cambiar tanto nombres como referencias a los distintos mutons
+ 
  - verdes  > brutes  >
                       members of the hunters caste
  - morados > warrior >
@@ -14,11 +15,7 @@ TL;DR VERSION:
                       members of the elder caste
  - dorados > warlord
 
-+ cantidad de xelloys / elerium aprox:
-
-
-
-
++ cantidad de xelloys / elerium aprox, tener en cuenta para balancear:
  - survey skiff = 6x / 10e
  - raider gunship = 10x / 10e
  - scanner boat = 10x / 10e
@@ -33,21 +30,9 @@ TL;DR VERSION:
  - battlecruiser = 105x / 20e
  - terror battleship = 133x / 30e
  - dreagnought = 203x / 40e + 15 supplies
-
  - Base defense = 75X / 20e + 180 supplies
 
 + PRIORITIES FIXES:
- - ya encontre el orden de las armaduras, estan en items, buscar desde la xops y modificar el loadorder
-   * cambiarle tambien el orden dentro del ruleset en si para q sigan el mismo correlativo
-     ~ el orden tambien se cambiara dentro del extra strings 
-     ~ aprovechar y cambiar el nombre a las armaduras
-       ° armadura basica = ?
-       ° armadura xops = Ulfsark
-       ° Armadura personal = ?
-       ° Armadura alloy = Spartan 
-       ° Armadura Voladora = ?
-       ° Armadura Power = Myrmidon
-       ° Armadura Psionica = ?
 
  - modificar totalmente como funcionan los articulos medicos.
    * nivel 0 la jeringa de adreno y el pouch individual y descartable
@@ -59,12 +44,11 @@ TL;DR VERSION:
    * nivel 3 el medi-kit de vainilla q es dispensador de medi-gel, explicaria todo lo avanzado de la medicina, cosas de reparar heridas y tejido casi al instante blablabla
      ~ requeriria quizas nivel 3 del codex? (2 como minimo)
      ~ estaria atado a la mejora del edificio de la base de la clinica mejorada.    
-
-
- - confirmar cambios en los nombres de mutons
-
- - ya q voy a cambiar nombres de aviones, tambien cambiar TODOS los nombres de los cartuchos, recordar hacer esto a medida q modifico los nombres de los cargadores
  - terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande en el mapviewer de agregarle la mugre 
+
+ 
+ - ya q voy a cambiar nombres de aviones, tambien cambiar TODOS los nombres de los cartuchos, recordar hacer esto a medida q modifico los nombres de los cargadores
+
  - acomodar sprites de aviones en ufopaedia
    * rehacerle la imagen al f35 mejorado con el coffin, foto en nuevo angulo
      ~ tambien al nuevo empress q sera el avion definitivo de XCOM.
@@ -249,6 +233,17 @@ TL;DR VERSION:
      ~ Communication nodes.
      ~ For aiming improvement.
  - Perhaps remove pockets from personal armor.
+ - Aun NO encontre el orden de las armaduras , no es el de items.rul ni armors.rul
+    * Ordenar todo lo relacionado a las armaduras dentro del extrastrings, crearle su respectivo lore   
+      ~ aprovechar y cambiar el nombre a las armaduras
+         ° armadura basica = Legionnaire
+         ° armadura xops = Centurion
+         ° Armadura personal = Ulfsark
+         ° Armadura alloy = Spartan 
+         ° Armadura Voladora = cuāuhpilli
+         ° Armadura Power = Myrmidon
+         ° Armadura Psionica = Gorgon
+
 
 + sacar de into the abbyss:
  - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras

@@ -103,7 +103,10 @@ gameplay changes:
 
  - cambiado nombre de apex launcher a devastator launcher
  - cambiado los nombres de referencia de los medikits
-
+ - cambiado las funciones de ciertas armas
+   * checar cambios en rieles
+   * el lance es el equivalente a un auto cannon
+   * el mas pesado ahora es bazooka y tiene menos municion por cartucho 
  - added two new buildings, the sickbay and the advanced sickbay (culminar esto)
  
  - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.

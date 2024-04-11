@@ -214,7 +214,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_KEVLAR_VEST_ARMOR_GREY_UC
+    armor: STR_KEVLAR_VEST_ARMOR_GRAY_UC
     armorForAvatar: STR_KEVLAR_VEST_ARMOR_BERET_UC
     standHeight: 22
     kneelHeight: 14

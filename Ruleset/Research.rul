@@ -1,6 +1,8 @@
 research:
 #--Deletions
   - delete: STR_LASER_WEAPONS
+  - delete: STR_FLYING_SUIT
+  - delete: STR_POWER_SUIT
   - delete: STR_UFO_CONSTRUCTION
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
@@ -155,21 +157,21 @@ research:
     points: 150
     dependencies:
       - STR_SHOCK_WEAPONS
-  - name: STR_SHOCK_PISTOL
+  - name: STR_SH_MAIN_PISTOL
     cost: 15
     points: 150
     dependencies:
-      - STR_SHOCK_RIFLE
-  - name: STR_SHOCK_RIFLE
+      - STR_SH_RIFLE
+  - name: STR_SH_RIFLE
     cost: 20
     points: 150
     dependencies:
       - STR_SHOCK_CANNON
-  - name: STR_SHOCK_RIFLE_BATTERY
+  - name: STR_SH_MAIN_PISTOL_BATTERY
     cost: 0
     points: 0
     dependencies:
-      - STR_SHOCK_RIFLE
+      - STR_SH_RIFLE
   - name: STR_SHOCK_CANNON
     cost: 25
     points: 150
@@ -222,7 +224,7 @@ research:
   - name: STR_TAC_INF_TECH
     cost: 10
     points: 10
-  - name: STR_XOPS_ARMOR
+  - name: STR_XOPS_ARMOR_TAN
     cost: 20
     points: 15
     dependencies:
@@ -231,7 +233,7 @@ research:
   - name: STR_ALLOY_MESH
     points: 10
     needItem: true
-  - name: STR_PERSONAL_ARMOR
+  - name: STR_PERSONAL_ARMOR_TAN
     cost: 25
     points: 20
     dependencies:
@@ -241,7 +243,7 @@ research:
   - name: STR_PLASMA_REACTIVE_PLATING
     points: 15
     needItem: true
-  - name: STR_ALLOY_ARMOR
+  - name: STR_ALLOY_ARMOR_TAN
     cost: 30
     points: 20
     dependencies:
@@ -251,7 +253,7 @@ research:
   - name: STR_ANTI_GRAV_DEVICE
     points: 20
     needItem: true
-  - name: STR_SKY_STRIKE_ARMOR
+  - name: STR_SKY_STRIKE_ARMOR_TAN
     cost: 25
     points: 20
     dependencies:
