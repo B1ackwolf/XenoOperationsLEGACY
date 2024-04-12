@@ -1748,7 +1748,7 @@ manufacture:
       STR_LA_HEAVY_CANNON_BATTERY3: 10
     listOrder: 2425
 #### ojito, ordenar luego en caTEGORIA propia de melee
-  - name: STR_LASER_SWORD
+  - name: STR_ME_LASER_SWORD
     category: STR_LASER_WEAPONS
     requires:
       - STR_LIGHT_LASER_WEAPONS
@@ -2573,17 +2573,17 @@ manufacture:
       STR_PM_HEAVY_CANNON_CLIP3: 10
     listOrder: 2634
 ######Ojito pasar a armas meelee
-  - name: STR_HUMAN_ALLOY_BLADE
+  - name: STR_ME_ALLOY_KNIFE
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_HUMAN_ALLOY_BLADE
+      - STR_ME_ALLOY_KNIFE
     space: 1
     time: 20
     cost: 8000
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     listOrder: 1465
-  - name: STR_HUMAN_PLASMA_SWORD
+  - name: STR_ME_PLASMA_SWORD
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2632,10 +2632,10 @@ manufacture:
     producedItems:
       STR_SH_MAIN_PISTOL_BATTERY: 10
     listOrder: 2706
-  - name: STR_SHOCK_CANNON
+  - name: STR_SH_HEAVY_CANNON
     category: STR_SHOCK_WEAPONS
     requires:
-      - STR_SHOCK_CANNON
+      - STR_SH_HEAVY_CANNON
     space: 3
     time: 300
     cost: 30000
@@ -2643,10 +2643,10 @@ manufacture:
       STR_ALIEN_ALLOYS: 30
       STR_CODEX_FRAGMENT: 30
     listOrder: 2707
-  - name: STR_SHOCK_CANNON_BATTERY
+  - name: STR_SH_HEAVY_CANNON_BATTERY
     category: STR_SHOCK_WEAPONS
     requires:
-      - STR_SHOCK_CANNON
+      - STR_SH_HEAVY_CANNON
     space: 1
     time: 100
     cost: 3000
@@ -2654,13 +2654,13 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_SHOCK_CANNON_BATTERY: 10
+      STR_SH_HEAVY_CANNON_BATTERY: 10
     listOrder: 2708
 #####ojito agregar a ordnance
-  - name: STR_SHOCK_GRENADE
+  - name: STR_SH_GRENADE
     category: STR_SHOCK_WEAPONS
     requires:
-      - STR_SHOCK_GRENADE
+      - STR_SH_GRENADE
     space: 1
     time: 60
     cost: 6000

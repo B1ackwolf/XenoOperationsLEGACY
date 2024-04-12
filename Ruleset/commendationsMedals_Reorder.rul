@@ -458,7 +458,7 @@ commendations:
     description: STR_MEDAL_TOTAL_MONTH_SERVICE_DESCRIPTION
     sprite: 56
     criteria:
-      totalMonthlyService: [4, 8, 12, 16, 20, 24, 28, 32, 36, 40]
+      totalMonthlyService: [6, 12, 18, 24, 30, 36, 42, 48, 54, 60]
   - type: STR_MEDAL_TOTAL_NIGHT_MISSIONS
     description: STR_MEDAL_TOTAL_NIGHT_MISSIONS_DESCRIPTION
     sprite: 57

@@ -959,15 +959,15 @@ ufopaedia:
     text: STR_ROCKET_LAUNCHER_UFOPEDIA
     listOrder: 2115
 #reorder this, ojito#
-  - id: STR_KNIFE
+  - id: STR_ME_BASIC_KNIFE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_KNIFE_UFOPEDIA
+    text: STR_ME_BASIC_KNIFE_UFOPEDIA
     listOrder: 4505
-  - id: STR_BRASS_KNUCKLES
+  - id: STR_ME_KNUCKLES
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BRASS_KNUCKLES_UFOPEDIA
+    text: STR_ME_KNUCKLES_UFOPEDIA
     listOrder: 4504
 
   - id: STR_INC_GRENADE
@@ -1563,10 +1563,10 @@ ufopaedia:
       - STR_ELERIUM_LASER_BATTERY
 #####ojito ordenar esto
 #####ojito pasar a grupo melee
-  - id: STR_LASER_SWORD
+  - id: STR_ME_LASER_SWORD
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_SWORD_UFOPEDIA
+    text: STR_ME_LASER_SWORD_UFOPEDIA
     listOrder: 2805
     requires:
       - STR_LIGHT_LASER_WEAPONS
@@ -1894,12 +1894,12 @@ ufopaedia:
     requires:
       - STR_ANTIMATTER_CLIP
 #---Seventh Tier Stun Weaponry------------------------
-  - id: STR_SH_TASER
+  - id: STR_STR_SH_SMALL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SH_TASER_UFOPEDIA
+    text: STR_STR_SH_SMALL_PISTOL_UFOPEDIA
     listOrder: 2704
-  - id: STR_SH_TASER_CLIP
+  - id: STR_STR_SH_SMALL_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_SH_MAIN_PISTOL
@@ -1919,37 +1919,37 @@ ufopaedia:
   - id: STR_SH_MAIN_PISTOL_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SHOCK_CANNON
+  - id: STR_SH_HEAVY_CANNON
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SHOCK_CANNON_UFOPEDIA
+    text: STR_SH_HEAVY_CANNON_UFOPEDIA
     listOrder: 2707
     requires:
-      - STR_SHOCK_CANNON
-  - id: STR_SHOCK_CANNON_BATTERY
+      - STR_SH_HEAVY_CANNON
+  - id: STR_SH_HEAVY_CANNON_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_SHOCK_GRENADE
+  - id: STR_SH_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SHOCK_GRENADE_UFOPEDIA
+    text: STR_SH_GRENADE_UFOPEDIA
     listOrder: 2708
     requires:
-      - STR_SHOCK_GRENADE
+      - STR_SH_GRENADE
 #######OJITO ordenar despues de esto
-  - id: STR_HUMAN_ALLOY_BLADE
+  - id: STR_ME_ALLOY_KNIFE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_HUMAN_ALLOY_BLADE
-    text: STR_HUMAN_ALLOY_BLADE_UFOPEDIA
+      - STR_ME_ALLOY_KNIFE
+    text: STR_ME_ALLOY_KNIFE_UFOPEDIA
     listOrder: 3840
-  - id: STR_HUMAN_PLASMA_SWORD
+  - id: STR_ME_PLASMA_SWORD
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_HUMAN_PLASMA_SWORD
-    text: STR_HUMAN_PLASMA_SWORD_UFOPEDIA
+      - STR_ME_PLASMA_SWORD
+    text: STR_ME_PLASMA_SWORD_UFOPEDIA
     listOrder: 3841
   - id: STR_ELERIUM_GRENADE
     type_id: 4
@@ -2188,12 +2188,12 @@ ufopaedia:
     requires:
       - STR_ALIEN_INJECTOR
     text: STR_ALIEN_INJECTOR_UFOPEDIA
-  - id: STR_ALIEN_PLASMA_SWORD
+  - id: STR_AW_PLASMA_BLADE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_SWORD
-    text: STR_ALIEN_PLASMA_SWORD_UFOPEDIA
+      - STR_AW_PLASMA_BLADE
+    text: STR_AW_PLASMA_BLADE_UFOPEDIA
     listOrder: 5703
   - id: STR_ALIEN_PROX_GRENADE
     type_id: 4
@@ -2208,12 +2208,12 @@ ufopaedia:
     requires:
       - STR_ALIEN_SMALL_ENTERTAINMENT
     text: STR_ALIEN_SMALL_ENTERTAINMENT_UFOPEDIA
-  - id: STR_ALLOY_BLADE
+  - id: STR_AW_ALLOY_BLADE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALLOY_BLADE
-    text: STR_ALLOY_BLADE_UFOPEDIA
+      - STR_AW_ALLOY_BLADE
+    text: STR_AW_ALLOY_BLADE_UFOPEDIA
     listOrder: 5702
   - id: STR_ELLERIUM_LAMP
     type_id: 4

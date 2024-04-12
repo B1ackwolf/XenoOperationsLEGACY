@@ -153,7 +153,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -663,7 +663,7 @@ alienDeployments:
             - STR_ALIEN_PLASMA_RIFLE_CLIP
             - STR_ALIEN_PLASMA_RIFLE_CLIP
             - STR_ALIEN_COMM
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_COMPUTER
           -
@@ -684,7 +684,7 @@ alienDeployments:
             - STR_ALIEN_PLASMA_RIFLE_CLIP2
             - STR_ALIEN_PLASMA_RIFLE_CLIP2
             - STR_ALIEN_COMM
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_COMPUTER
           -
@@ -705,7 +705,7 @@ alienDeployments:
             - STR_ALIEN_PLASMA_RIFLE_CLIP3
             - STR_ALIEN_PLASMA_RIFLE_CLIP3
             - STR_ALIEN_COMM
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_COMPUTER
           -
@@ -878,7 +878,7 @@ alienDeployments:
             - STR_ALIEN_HIGH_EXPLOSIVE
             - STR_ALIEN_COMPUTER
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1058,7 +1058,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1296,13 +1296,13 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
             - STR_ALIEN_EXTRACTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_HOLO_PROJECTOR
             - STR_ELLERIUM_LAMP
@@ -1326,13 +1326,13 @@ alienDeployments:
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
             - STR_ALIEN_EXTRACTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_HOLO_PROJECTOR
             - STR_ELLERIUM_LAMP
@@ -1356,13 +1356,13 @@ alienDeployments:
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
             - STR_ALIEN_EXTRACTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_HOLO_PROJECTOR
             - STR_ELLERIUM_LAMP
@@ -1392,7 +1392,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
@@ -1493,7 +1493,7 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
@@ -1510,7 +1510,7 @@ alienDeployments:
             - STR_ALIEN_ORGAN
             - STR_ALIEN_ORGAN
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_SMALL_ENTERTAINMENT
             - STR_ELLERIUM_LAMP
@@ -1521,7 +1521,7 @@ alienDeployments:
             - STR_ALIEN_ORGAN
             - STR_ALIEN_ORGAN
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
@@ -1538,7 +1538,7 @@ alienDeployments:
             - STR_ALIEN_ORGAN
             - STR_ALIEN_ORGAN
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_SMALL_ENTERTAINMENT
             - STR_ELLERIUM_LAMP
@@ -1549,7 +1549,7 @@ alienDeployments:
             - STR_ALIEN_ORGAN
             - STR_ALIEN_ORGAN
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_DNA
             - STR_ALIEN_DNA
@@ -1566,7 +1566,7 @@ alienDeployments:
             - STR_ALIEN_ORGAN
             - STR_ALIEN_ORGAN
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_SMALL_ENTERTAINMENT
             - STR_ELLERIUM_LAMP
@@ -1751,7 +1751,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1906,7 +1906,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1933,7 +1933,7 @@ alienDeployments:
             - STR_ALIEN_EMBRYO
             - STR_ALIEN_EMBRYO
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1960,7 +1960,7 @@ alienDeployments:
             - STR_ALIEN_EMBRYO
             - STR_ALIEN_EMBRYO
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2126,7 +2126,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2146,7 +2146,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2166,7 +2166,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2271,7 +2271,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2291,7 +2291,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2311,7 +2311,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2470,7 +2470,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2490,7 +2490,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2510,7 +2510,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2615,7 +2615,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2635,7 +2635,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2655,7 +2655,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2814,7 +2814,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2834,7 +2834,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2854,7 +2854,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2959,7 +2959,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2979,7 +2979,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -2999,7 +2999,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3169,7 +3169,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3189,7 +3189,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3209,7 +3209,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3314,7 +3314,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3334,7 +3334,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3354,7 +3354,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3524,7 +3524,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3544,7 +3544,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3564,7 +3564,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3669,7 +3669,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3689,7 +3689,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3709,7 +3709,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3922,7 +3922,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3942,7 +3942,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -3962,7 +3962,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4066,7 +4066,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4085,7 +4085,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4104,7 +4104,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4129,7 +4129,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4148,7 +4148,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_ALIEN_COMM
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4167,7 +4167,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_ALIEN_COMM
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4374,7 +4374,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4396,7 +4396,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4418,7 +4418,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4519,7 +4519,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4537,7 +4537,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4555,7 +4555,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4579,7 +4579,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4598,7 +4598,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_ALIEN_COMM
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4617,7 +4617,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_ALIEN_COMM
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4829,7 +4829,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4837,7 +4837,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4850,7 +4850,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4858,7 +4858,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4871,7 +4871,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4879,7 +4879,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4976,7 +4976,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -4994,7 +4994,7 @@ alienDeployments:
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5011,7 +5011,7 @@ alienDeployments:
             - STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP
             - STR_ALIEN_COMM
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5377,7 +5377,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5385,7 +5385,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5398,7 +5398,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5406,7 +5406,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5419,7 +5419,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5427,7 +5427,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5524,7 +5524,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5542,7 +5542,7 @@ alienDeployments:
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5560,7 +5560,7 @@ alienDeployments:
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5792,7 +5792,7 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5800,7 +5800,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5813,7 +5813,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5821,7 +5821,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5834,7 +5834,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5842,7 +5842,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5939,7 +5939,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5957,7 +5957,7 @@ alienDeployments:
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -5975,7 +5975,7 @@ alienDeployments:
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6246,7 +6246,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6254,7 +6254,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_GRENADE
@@ -6266,7 +6266,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6274,7 +6274,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_GRENADE
@@ -6286,7 +6286,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6294,7 +6294,7 @@ alienDeployments:
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
           -
-            - STR_ALLOY_BLADE
+            - STR_AW_ALLOY_BLADE
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_INJECTOR
             - STR_ALIEN_GRENADE
@@ -6385,7 +6385,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6405,7 +6405,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6425,7 +6425,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6451,7 +6451,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6470,7 +6470,7 @@ alienDeployments:
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -6489,7 +6489,7 @@ alienDeployments:
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
           -
-            - STR_ALIEN_PLASMA_SWORD
+            - STR_AW_PLASMA_BLADE
             - STR_ALIEN_COMM
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE

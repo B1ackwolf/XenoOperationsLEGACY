@@ -4521,9 +4521,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_8mH.gif
   - typeSingle: VEST_HEC__8__VEST_HEC_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_8fH.gif
-  - typeSingle: XOPS_VEST_BLUE__8__XOPS_VEST_BLUE_M
+  - typeSingle: XOPS_VEST_PILOT__8__XOPS_VEST_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_10mXp.gif
-  - typeSingle: XOPS_VEST_BLUE__8__XOPS_VEST_BLUE_F
+  - typeSingle: XOPS_VEST_PILOT__8__XOPS_VEST_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_10fXp.gif
   - typeSingle: XOPS_VEST__8__XOPS_VEST_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_11mXz.gif
@@ -4545,9 +4545,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_15mXv.gif
   - typeSingle: XOPS_VEST_GREEN__8__XOPS_VEST_GREEN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_15fXv.gif
-  - typeSingle: PERSONAL_ARMOR_BLUE__8__PERSONAL_ARMOR_BLUE_M
+  - typeSingle: PERSONAL_ARMOR_PILOT__8__PERSONAL_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_20mPp.gif
-  - typeSingle: PERSONAL_ARMOR_BLUE__8__PERSONAL_ARMOR_BLUE_F
+  - typeSingle: PERSONAL_ARMOR_PILOT__8__PERSONAL_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_20fPp.gif
   - typeSingle: PERSONAL_ARMOR__8__PERSONAL_ARMOR_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_21mPz.gif
@@ -4569,9 +4569,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_25mPv.gif
   - typeSingle: PERSONAL_ARMOR_GREEN__8__PERSONAL_ARMOR_GREEN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_25fPv.gif
-  - typeSingle: ALLOY_ARMOR_BLUE__8__ALLOY_ARMOR_BLUE_M
+  - typeSingle: ALLOY_ARMOR_PILOT__8__ALLOY_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_30uAp.gif
-  - typeSingle: ALLOY_ARMOR_BLUE__8__ALLOY_ARMOR_BLUE_F
+  - typeSingle: ALLOY_ARMOR_PILOT__8__ALLOY_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_30uAp.gif
   - typeSingle: ALLOY_ARMOR__8__ALLOY_ARMOR_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_31uAz.gif
@@ -4593,9 +4593,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_35uAv.gif
   - typeSingle: ALLOY_ARMOR_GREEN__8__ALLOY_ARMOR_GREEN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_35uAv.gif
-  - typeSingle: SKY_STRIKE_ARMOR_BLUE__8__SKY_STRIKE_ARMOR_BLUE_M
+  - typeSingle: SKY_STRIKE_ARMOR_PILOT__8__SKY_STRIKE_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_40uSSp.gif
-  - typeSingle: SKY_STRIKE_ARMOR_BLUE__8__SKY_STRIKE_ARMOR_BLUE_F
+  - typeSingle: SKY_STRIKE_ARMOR_PILOT__8__SKY_STRIKE_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_40uSSp.gif
   - typeSingle: SKY_STRIKE_ARMOR__8__SKY_STRIKE_ARMOR_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_41uSSz.gif
@@ -4617,9 +4617,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
   - typeSingle: STR_SKY_STRIKE_ARMOR_CLOUD__8__STR_SKY_STRIKE_ARMOR_CLOUD_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
-  - typeSingle: XOPS_POWER_ARMOR_BLUE__8__XOPS_POWER_ARMOR_BLUE_M
+  - typeSingle: XOPS_POWER_ARMOR_PILOT__8__XOPS_POWER_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_50uPAp.gif
-  - typeSingle: XOPS_POWER_ARMOR_BLUE__8__XOPS_POWER_ARMOR_BLUE_F
+  - typeSingle: XOPS_POWER_ARMOR_PILOT__8__XOPS_POWER_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_50uPAp.gif
   - typeSingle: XOPS_POWER_ARMOR__8__XOPS_POWER_ARMOR_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_51uPAz.gif
@@ -4641,9 +4641,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_55uPAv.gif
   - typeSingle: XOPS_POWER_ARMOR_GREEN__8__XOPS_POWER_ARMOR_GREEN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_55uPAv.gif
-  - typeSingle: NERVE_ARMOR_BLUE__8__NERVE_ARMOR_BLUE_M
+  - typeSingle: NERVE_ARMOR_PILOT__8__NERVE_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_60mNp.gif
-  - typeSingle: NERVE_ARMOR_BLUE__8__NERVE_ARMOR_BLUE_F
+  - typeSingle: NERVE_ARMOR_PILOT__8__NERVE_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_60fNp.gif
   - typeSingle: NERVE_ARMOR__8__NERVE_ARMOR_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_61mNz.gif
@@ -4839,19 +4839,19 @@ extraSprites:
   - typeSingle: HUMAN__14__HELMET_KEVLAR_HEC_FC
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_08Hec_fem_center.gif
 #----- XOPS tier 2 Headgear -----#
-  - typeSingle: HUMAN__14__HELMET_XOPS_BLUE_BL
+  - typeSingle: HUMAN__14__HELMET_XOPS_PILOT_BL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_10Xp_bigger_left.gif
-  - typeSingle: HUMAN__14__HELMET_XOPS_BLUE_BR
+  - typeSingle: HUMAN__14__HELMET_XOPS_PILOT_BR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_10Xp_bigger_right.gif
-  - typeSingle: HUMAN__14__HELMET_XOPS_BLUE_C
+  - typeSingle: HUMAN__14__HELMET_XOPS_PILOT_C
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_10Xp_center.gif
-  - typeSingle: HUMAN__14__HELMET_XOPS_BLUE_D
+  - typeSingle: HUMAN__14__HELMET_XOPS_PILOT_D
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_10Xp_down.gif
-  - typeSingle: HUMAN__14__HELMET_XOPS_BLUE_H
+  - typeSingle: HUMAN__14__HELMET_XOPS_PILOT_H
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_10Xp_high.gif
-  - typeSingle: HUMAN__14__HELMET_XOPS_BLUE_R
+  - typeSingle: HUMAN__14__HELMET_XOPS_PILOT_R
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_10Xp_right.gif
-  - typeSingle: HUMAN__14__HELMET_XOPS_BLUE_S
+  - typeSingle: HUMAN__14__HELMET_XOPS_PILOT_S
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_10Xp_smaller.gif
   - typeSingle: HUMAN__14__HELMET_XOPS_BL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_11Xz_bigger_left.gif
@@ -4969,37 +4969,37 @@ extraSprites:
   - typeSingle: HUMAN__16__CAP_GOOGLES_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/googles_20P_wide_down_right.gif
 #----- Nerve Armor Cap -----#
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_BR
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_BR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_bigger_right.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_C
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_C
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_center.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_D
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_D
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_down.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_DBL
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_DBL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_down_bigger_left.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_DBR
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_DBR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_down_bigger_right.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_DD
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_DD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_down_down.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_H
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_H
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_high.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_HBL
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_HBL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_high_bigger_left.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_R
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_R
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_right.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_SL
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_SL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_smaller_left.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_SLD
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_SLD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_smaller_left_down.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_SR
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_SR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_smaller_right.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_SS
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_SS
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_smaller_shorter.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_W
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_W
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_wide.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_WD
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_WD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_wide_down.gif
-  - typeSingle: HUMAN__16__CAP_NERVE_BLUE_WDR
+  - typeSingle: HUMAN__16__CAP_NERVE_PILOT_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_60_wide_down_right.gif
   - typeSingle: HUMAN__16__CAP_NERVE_BR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_61_bigger_right.gif

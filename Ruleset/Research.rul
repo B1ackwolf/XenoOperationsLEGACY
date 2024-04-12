@@ -152,7 +152,7 @@ research:
     points: 150
     dependencies:
       - STR_DATA_RECOVERY
-  - name: STR_SHOCK_GRENADE
+  - name: STR_SH_GRENADE
     cost: 10
     points: 150
     dependencies:
@@ -166,22 +166,22 @@ research:
     cost: 20
     points: 150
     dependencies:
-      - STR_SHOCK_CANNON
+      - STR_SH_HEAVY_CANNON
   - name: STR_SH_MAIN_PISTOL_BATTERY
     cost: 0
     points: 0
     dependencies:
       - STR_SH_RIFLE
-  - name: STR_SHOCK_CANNON
+  - name: STR_SH_HEAVY_CANNON
     cost: 25
     points: 150
     dependencies:
       - STR_SHOCK_WEAPONS
-  - name: STR_SHOCK_CANNON_BATTERY
+  - name: STR_SH_HEAVY_CANNON_BATTERY
     cost: 0
     points: 0
     dependencies:
-      - STR_SHOCK_CANNON
+      - STR_SH_HEAVY_CANNON
 #-- Shock Weapon Tech Tree--------------------END
 #--Hybrid Ballistic Tech Tree--------------------
   - name: STR_HYBRID_BALLISTICS_WEAPONS
@@ -1003,11 +1003,11 @@ research:
     cost: 15
     points: 25
     needItem: true
-  - name: STR_ALLOY_BLADE
+  - name: STR_AW_ALLOY_BLADE
     cost: 6
     points: 15
     needItem: true
-  - name: STR_ALIEN_PLASMA_SWORD
+  - name: STR_AW_PLASMA_BLADE
     cost: 12
     points: 25
     needItem: true
@@ -1061,12 +1061,12 @@ research:
       - STR_ELERIUM_EXPLOSIVES
       - STR_ALIEN_HIGH_EXPLOSIVE
       - STR_CODEX_3
-  - name: STR_HUMAN_ALLOY_BLADE
+  - name: STR_ME_ALLOY_KNIFE
     cost: 40
     points: 10
     dependencies:
-      - STR_ALLOY_BLADE
-  - name: STR_HUMAN_PLASMA_SWORD
+      - STR_AW_ALLOY_BLADE
+  - name: STR_ME_PLASMA_SWORD
     cost: 40
     points: 10
     dependencies:

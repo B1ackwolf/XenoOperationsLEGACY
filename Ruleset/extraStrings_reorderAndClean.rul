@@ -51,7 +51,7 @@
       STR_CORPSE_HEC_ARMOR: Corpse
       STR_CORPSE_XOPS_ARMOR_TAN: Corpse
       STR_CORPSE_XOPS_ARMOR_BLACK: Corpse
-      STR_CORPSE_XOPS_ARMOR_BLUE: Corpse
+      STR_CORPSE_XOPS_ARMOR_PILOT: Corpse
       STR_CORPSE_XOPS_ARMOR_WHITE: Corpse
       STR_CORPSE_XOPS_ARMOR_GREEN: Corpse
       STR_CORPSE_XOPS_ARMOR_GRAY: Corpse
@@ -60,28 +60,28 @@
       STR_CORPSE_PERSONAL_ARMOR_GRAY: Corpse
       STR_CORPSE_PERSONAL_ARMOR_WHITE: Corpse
       STR_CORPSE_PERSONAL_ARMOR_BLACK: Corpse
-      STR_CORPSE_PERSONAL_ARMOR_BLUE: Corpse
+      STR_CORPSE_PERSONAL_ARMOR_PILOT: Corpse
       STR_CORPSE_ALLOY_ARMOR_TAN: Corpse
-      STR_CORPSE_ALLOY_ARMOR_BLUE: Corpse      
+      STR_CORPSE_ALLOY_ARMOR_PILOT: Corpse      
       STR_CORPSE_ALLOY_ARMOR_BLACK: Corpse
       STR_CORPSE_ALLOY_ARMOR_GRAY: Corpse
       STR_CORPSE_ALLOY_ARMOR_WHITE: Corpse
       STR_CORPSE_ALLOY_ARMOR_GREEN: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_TAN: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_BLUE: Corpse
+      STR_CORPSE_SKY_STRIKE_ARMOR_PILOT: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_CLOUD: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_WHITE: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_GRAY: Corpse
       STR_CORPSE_SKY_STRIKE_ARMOR_BLACK: Corpse
       STR_CORPSE_PSI_ARMOR: Corpse
       STR_CORPSE_PSI_ARMOR_BLACK: Corpse
-      STR_CORPSE_PSI_ARMOR_BLUE: Corpse
+      STR_CORPSE_PSI_ARMOR_PILOT: Corpse
       STR_CORPSE_PSI_ARMOR_GRAY: Corpse
       STR_CORPSE_PSI_ARMOR_WHITE: Corpse
       STR_CORPSE_PSI_ARMOR_GREEN: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_BLACK: Corpse
-      STR_CORPSE_XOPS_POWER_ARMOR_BLUE: Corpse
+      STR_CORPSE_XOPS_POWER_ARMOR_PILOT: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_WHITE: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_GRAY: Corpse
       STR_CORPSE_XOPS_POWER_ARMOR_GREEN: Corpse
@@ -884,7 +884,7 @@
       STR_MEDAL_HEALER_UFOPEDIA: " 'We had a deep appreciation for the quiet medic. He was nurse, doctor, first-aid station and hospital to us.  Above the roar of battle the cry of 'Medic!' was often heard, and Doc was always there for the 3d platoon.' {NEWLINE}- Robert W. Black {NEWLINE} {NEWLINE} The Combat Medic is a vital part of every military unit.  X-Com soldiers care for their own and help keep their companions in arm, in the fight. {NEWLINE} {NEWLINE} This award is issued for every five wounds healed, up to twenty wounds."
       STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT: "Bolt's Cross"
       STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_DESCRIPTION: "Given to a soldier who has used non-lethal force to take down important targets."
-      STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_UFOPEDIA: "The skillful leader subdues the enemy's troops without any fighting; he captures their cities without laying siege to them; he overthrows their kingdom without lengthy operations in the field.'{NEWLINE}  - Sun Tzu{NEWLINE} {NEWLINE}  This high commendation recognizes a critical accomplishment in the capture of a high value target. Enemy Leaders and Commanders are sure to give us a better understanding of alien goals and ways we can defeat them. {NEWLINE} {NEWLINE} This award is presented once to any soldier that captures one of these important targets."
+      STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_UFOPEDIA: "The skillful leader subdues the enemy's troops without any fighting; he captures their cities without laying siege to them; he overthrows their kingdom without lengthy operations in the field.'{NEWLINE}  -- Sun Tzu{NEWLINE} {NEWLINE}  This high commendation recognizes a critical accomplishment in the capture of a high value target. Enemy Leaders and Commanders are sure to give us a better understanding of alien goals and ways we can defeat them. {NEWLINE} {NEWLINE} This award is presented once to any soldier that captures one of these important targets."
       STR_MEDAL_IRON_MAN: "Order of the Iron Man"
       STR_MEDAL_IRON_MAN_DESCRIPTION: "Given to a soldier who is truly an Iron Man or Iron Woman."
       STR_MEDAL_IRON_MAN_UFOPEDIA: "'If you're short of everything but the enemy, you're in a combat zone.{NEWLINE}   -- Murphy's Laws of Combat' {NEWLINE} {NEWLINE} This award is presented to soldiers who take on the foe single-handedly, going on solitary in any deployment. Only the hardcore attempt this and fewer survive. The award has only one level. "
@@ -980,7 +980,7 @@
       STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA: "'We need to thank all of our troops, and particularly those for whom we can never express enough gratitude... for they have given their lives so that all of us may be free.'{NEWLINE}    -Virgil Goode {NEWLINE} {NEWLINE}The countries of a given region recognize the skill and valor by which this trooper has protected their lives and property in this war against the Alien Menace. {NEWLINE} {NEWLINE} This medal is awarded for 10, 20 and 30 missions in a given region."
       STR_MEDAL_TOTAL_MONTH_SERVICE: "Longevity Medal"
       STR_MEDAL_TOTAL_MONTH_SERVICE_DESCRIPTION: "Given to a soldier who has served for many months."
-      STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: "This commendation is presented to soldiers who have served X-Com for extended periods of time. We recognize the tremendous sacrifice that these valiant troops make while remaining in X-Com service. This decoration is awarded to soldiers who have seen friends come and go and have been seasoned in the struggle of X-Com against the Foe. Their reliability and tenacity have made them a trusted veteran of the force.  {NEWLINE} {NEWLINE}   The commendation is issued for every four months of service."
+      STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: "This commendation is presented to soldiers who have served X-Com for extended periods of time. We recognize the tremendous sacrifice that these valiant troops make while remaining in X-Com service. This decoration is awarded to soldiers who have seen friends come and go and have been seasoned in the struggle of X-Com against the Foe. Their reliability and tenacity have made them a trusted veteran of the force.  {NEWLINE} {NEWLINE}   The commendation is issued for every six months of service."
       STR_MEDAL_TOTAL_NIGHT_MISSIONS: "Night Stalker"
       STR_MEDAL_TOTAL_NIGHT_MISSIONS_DESCRIPTION: "Given to a soldier who has been part of several night missions."
       STR_MEDAL_TOTAL_NIGHT_MISSIONS_UFOPEDIA: " 'Out of the night that covers me,{NEWLINE}    Black as the pit from pole to pole,{NEWLINE}  I thank whatever gods may be {NEWLINE}     For my unconquerable soul.'{NEWLINE}- Invictus - By William Ernest Henly  {NEWLINE} {NEWLINE} Night Operations against a foe that can see almost twice as far as your soldiers is harrowing in the extreme.  {NEWLINE} {NEWLINE} This award issued for soldiers who participate in Night Missions.  One level of award is issued for every three night operations.  "
@@ -1127,8 +1127,8 @@
       STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3: Cannon Antimatter Clip
       STR_ELITE_PLASMA: Elite Plasma
       STR_ELITE_PLASMA_CLIP: Elite Plasma Clip
-      STR_ALLOY_BLADE: Alloy Blade
-      STR_ALIEN_PLASMA_SWORD: Alien Plasma Sword
+      STR_AW_ALLOY_BLADE: Alloy Blade
+      STR_AW_PLASMA_BLADE: Alien Plasma Sword
       STR_ALIEN_PROX_GRENADE: Alien Mine
       STR_SMALL_LAUNCHER: Cluster Launcher
       STR_STUN_BOMB: Stun Orbs
@@ -1334,8 +1334,8 @@
       STR_LABSHIP_UFOPEDIA: This large ship contains numerous research facilities and has a large staff. Its weapons and armor are sub par for a UFO of its size and its crew are lightly armed.
 #-----Human Weapons
 
-      STR_SH_TASER: Taser Pistol
-      STR_SH_TASER_CLIP: Taser Shock Clip
+      STR_STR_SH_SMALL_PISTOL: Taser Pistol
+      STR_STR_SH_SMALL_PISTOL_CLIP: Taser Shock Clip
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
       STR_XP_AUTO_PISTOL: X1 Machine Pistol
       STR_XP_SMALL_PISTOL_CLIP2: 9mm Alloys Magazine
@@ -1376,8 +1376,8 @@
       STR_XP_AUTO_CANNON_BELT2: 20mm Cannon Alloy Belt
       STR_XP_AUTO_CANNON_BELT3: 20mm Cannon Tech Belt
       STR_INC_GRENADE: Napalm Grenade
-      STR_KNIFE: Combat Knife
-      STR_BRASS_KNUCKLES: Brass Knuckles
+      STR_ME_BASIC_KNIFE: Combat Knife
+      STR_ME_KNUCKLES: Brass Knuckles
       STR_XP_GRENADE: X Force Grenade
 
 #ojito reordenar arriba y dividir en dos tiers
@@ -1527,7 +1527,7 @@
       STR_LA_HEAVY_CANNON_BATTERY1: Giga-Battery
       STR_LA_HEAVY_CANNON_BATTERY2: Overloaded Giga-Battery
       STR_LA_HEAVY_CANNON_BATTERY3: Elerium Giga-Battery
-      STR_LASER_SWORD: Laser Sword #ojito
+      STR_ME_LASER_SWORD: Laser Sword #ojito
 #-----Human Hypervelocity Weapons
       STR_RL_MAIN_PISTOL: Rail Pistol
       STR_RL_SMG: Rail Assaulter
@@ -1594,8 +1594,8 @@
       STR_PM_HEAVY_CANNON_CLIP2: Overcharged Large Cell
       STR_PM_HEAVY_CANNON_CLIP3: Large Antimatter Cell
 #----- Ojito re ordenar todo esto
-      STR_HUMAN_PLASMA_SWORD: Plasma Sword
-      STR_HUMAN_ALLOY_BLADE: Alloy Knife
+      STR_ME_PLASMA_SWORD: Plasma Sword
+      STR_ME_ALLOY_KNIFE: Alloy Knife
       STR_ANTIMATTER_BOMB: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
       STR_ELERIUM_MINE: Elerium Mine
@@ -1610,14 +1610,14 @@
       STR_SH_MAIN_PISTOL: Shock Pistol
       STR_SH_RIFLE: Shock Rifle
       STR_SH_MAIN_PISTOL_BATTERY: Standard Shock Battery
-      STR_SHOCK_CANNON: Shock Cannon
-      STR_SHOCK_CANNON_BATTERY: Large Shock Battery
-      STR_SHOCK_GRENADE: Shock Grenade
+      STR_SH_HEAVY_CANNON: Shock Cannon
+      STR_SH_HEAVY_CANNON_BATTERY: Large Shock Battery
+      STR_SH_GRENADE: Shock Grenade
       STR_SH_MAIN_PISTOL_UFOPEDIA: The Small Shock Pistol administers a high-voltage electroshock current that overloads the neural systems of the target, leaving them zapped and disoriented for several hours. This sidearm utilizes a standard shock battery, prioritizing portability and ease of handling over pinpoint accuracy. It serves as an ideal addition to the gear of troops tasked with capturing targets. 
       STR_SH_RIFLE_UFOPEDIA: The Shock Rifle represents a significant advancement in our mission to provide our troops with a safer means of apprehending valuable targets. It boasts superior precision and an extended effective range compared to its smaller counterpart. Due to its size and primary role, troopers should carry suitable backup weaponry in case of unexpected situations. The Shock Rifle operates using a Standard Shock Battery.
-      STR_SHOCK_CANNON_UFOPEDIA: This upgraded version is tailored for handling targets that have demonstrated resilience against smaller iterations of shock technology. With its Double Coils, it significantly enhances the total current output while incorporating an improved cooling subsystem to ensure the safety of its operator, albeit at the expense of increased size and weight. Given the rapid energy consumption rate of this weapon, it necessitates an enhanced but bulkier battery to supply the entire system.
+      STR_SH_HEAVY_CANNON_UFOPEDIA: This upgraded version is tailored for handling targets that have demonstrated resilience against smaller iterations of shock technology. With its Double Coils, it significantly enhances the total current output while incorporating an improved cooling subsystem to ensure the safety of its operator, albeit at the expense of increased size and weight. Given the rapid energy consumption rate of this weapon, it necessitates an enhanced but bulkier battery to supply the entire system.
 ###### ojito
-      STR_SHOCK_GRENADE_UFOPEDIA: This device generates a tightly polarized cloud that rapidly ionizes the air in its landing area, producing a small yet controlled EMP effect that swiftly immobilizes targets within its range. It proves particularly effective in confined spaces such as UFOs, Alien Bases' corridors, and choke points.
+      STR_SH_GRENADE_UFOPEDIA: This device generates a tightly polarized cloud that rapidly ionizes the air in its landing area, producing a small yet controlled EMP effect that swiftly immobilizes targets within its range. It proves particularly effective in confined spaces such as UFOs, Alien Bases' corridors, and choke points.
 #-----Psionic Amps
       STR_PSI_AMP_SMALL: Psionic Projector
       STR_PSI_AMP: Psionic Amplifier
@@ -1626,25 +1626,25 @@
 #OJITO LIMPIAR ARMADURAS REMANENTES
       STR_XOPS_ARMOR_TAN: Xeno Operations Armor
       STR_XOPS_ARMOR_BLACK: Xeno Operations Armor Black
-      STR_XOPS_ARMOR_BLUE: Xeno Operations Armor Blue
+      STR_XOPS_ARMOR_PILOT: Xeno Operations Armor Blue
       STR_XOPS_ARMOR_GREEN: Xeno Operations Armor Green
       STR_XOPS_ARMOR_GRAY: Xeno Operations Armor Grey
       STR_XOPS_ARMOR_WHITE: Xeno Operations Armor White
       STR_XOPS_ARMOR_UC: XOPS ARMOR
       STR_XOPS_ARMOR_BLACK_UC: XOPS ARMOR BLACK
-      STR_XOPS_ARMOR_BLUE_UC: XOPS ARMOR BLUE
+      STR_XOPS_ARMOR_PILOT_UC: XOPS ARMOR BLUE
       STR_XOPS_ARMOR_GREEN_UC: XOPS ARMOR GREEN
       STR_XOPS_ARMOR_GRAY_UC: XOPS ARMOR GREY
       STR_XOPS_ARMOR_WHITE_UC: XOPS ARMOR WHITE
       STR_ALLOY_ARMOR_TAN: Alloy Armor
       STR_ALLOY_ARMOR_BLACK: Alloy Armor Black
-      STR_ALLOY_ARMOR_BLUE: Alloy Armor Blue
+      STR_ALLOY_ARMOR_PILOT: Alloy Armor Blue
       STR_ALLOY_ARMOR_GREEN: Alloy Armor Green
       STR_ALLOY_ARMOR_GRAY: Alloy Armor Grey
       STR_ALLOY_ARMOR_WHITE: Alloy Armor White
       STR_ALLOY_ARMOR_UC: ALLOY ARMOR
       STR_ALLOY_ARMOR_BLACK_UC: ALLOY ARMOR BLACK
-      STR_ALLOY_ARMOR_BLUE_UC: ALLOY ARMOR BLUE
+      STR_ALLOY_ARMOR_PILOT_UC: ALLOY ARMOR BLUE
       STR_ALLOY_ARMOR_GRAY_UC: ALLOY ARMOR GREY
       STR_ALLOY_ARMOR_GREEN_UC: ALLOY ARMOR GREEN
       STR_ALLOY_ARMOR_WHITE_UC: ALLOY ARMOR WHITE
@@ -1654,8 +1654,8 @@
       STR_SKY_STRIKE_ARMOR_UC: Skystrike ARMOR
       STR_SKY_STRIKE_ARMOR_CLOUD: Skystrike Armor Sky Blue
       STR_SKY_STRIKE_ARMOR_CLOUD_UC: Skystrike ARMOR SKY BLUE
-      STR_SKY_STRIKE_ARMOR_BLUE: Skystrike Armor Blue
-      STR_SKY_STRIKE_ARMOR_BLUE_UC: Skystrike ARMOR BLUE
+      STR_SKY_STRIKE_ARMOR_PILOT: Skystrike Armor Blue
+      STR_SKY_STRIKE_ARMOR_PILOT_UC: Skystrike ARMOR BLUE
       STR_SKY_STRIKE_ARMOR_WHITE: Skystrike Armor White
       STR_SKY_STRIKE_ARMOR_WHITE_UC: Skystrike ARMOR WHITE
       STR_SKY_STRIKE_ARMOR_GRAY: Skystrike Armor Grey
@@ -1666,8 +1666,8 @@
       STR_KEVLAR_VEST_ARMOR_TAN_UC: KEVLAR VEST
       STR_KEVLAR_VEST_ARMOR_GREEN: Woodland Camo
       STR_KEVLAR_VEST_ARMOR_GREEN_UC: WOODLAND CAMO
-      STR_KEVLAR_VEST_ARMOR_BLUE: Blue Uniform
-      STR_KEVLAR_VEST_ARMOR_BLUE_UC: BLUE UNIFORM
+      STR_KEVLAR_VEST_ARMOR_PILOT: Blue Uniform
+      STR_KEVLAR_VEST_ARMOR_PILOT_UC: BLUE UNIFORM
       STR_KEVLAR_VEST_ARMOR_WHITE: Arctic Camo
       STR_KEVLAR_VEST_ARMOR_WHITE_UC: ARCTIC CAMO
       STR_KEVLAR_VEST_ARMOR_GRAY: Urban Camo
@@ -1684,8 +1684,8 @@
       STR_VEST_HEC_ARMOR_UC: H.E.C SUIT
       STR_PSI_ARMOR: Nerve Suit
       STR_PSI_ARMOR_UC: NERVE SUIT
-      STR_PSI_ARMOR_BLUE: Nerve Suit Blue
-      STR_PSI_ARMOR_BLUE_UC: NERVE SUIT BLUE
+      STR_PSI_ARMOR_PILOT: Nerve Suit Blue
+      STR_PSI_ARMOR_PILOT_UC: NERVE SUIT BLUE
       STR_PSI_ARMOR_GRAY: Nerve Suit Grey
       STR_PSI_ARMOR_GRAY_UC: NERVE SUIT GREY
       STR_PSI_ARMOR_GREEN: Nerve Suit Green
@@ -1696,8 +1696,8 @@
       STR_PSI_ARMOR_BLACK_UC: NERVE SUIT BLACK
       STR_XOPS_POWER_ARMOR: Power Armor
       STR_XOPS_POWER_ARMOR_UC: POWER ARMOR
-      STR_XOPS_POWER_ARMOR_BLUE: Power Armor Blue
-      STR_XOPS_POWER_ARMOR_BLUE_UC: POWER ARMOR BLUE
+      STR_XOPS_POWER_ARMOR_PILOT: Power Armor Blue
+      STR_XOPS_POWER_ARMOR_PILOT_UC: POWER ARMOR BLUE
       STR_XOPS_POWER_ARMOR_GREEN: Power Armor Green
       STR_XOPS_POWER_ARMOR_GREEN_UC: POWER ARMOR GREEN
       STR_XOPS_POWER_ARMOR_WHITE: Power Armor White
@@ -1708,8 +1708,8 @@
       STR_XOPS_POWER_ARMOR_BLACK_UC: POWER ARMOR BLACK
       STR_PERSONAL_ARMOR_TAN: Personal Armor
       STR_PERSONAL_ARMOR_TAN_UC: PERSONAL ARMOR
-      STR_PERSONAL_ARMOR_BLUE: Personal Armor Blue
-      STR_PERSONAL_ARMOR_BLUE_UC: PERSONAL ARMOR BLUE
+      STR_PERSONAL_ARMOR_PILOT: Personal Armor Blue
+      STR_PERSONAL_ARMOR_PILOT_UC: PERSONAL ARMOR BLUE
       STR_PERSONAL_ARMOR_WHITE: Personal Armor White
       STR_PERSONAL_ARMOR_WHITE_UC: PERSONAL ARMOR WHITE
       STR_PERSONAL_ARMOR_GREEN: Personal Armor Green
@@ -1788,10 +1788,10 @@
       STR_ALIEN_HOLO_PROJECTOR_UFOPEDIA: This device appears to be a simple holographic projector. The projections are not particularly realistic however. It seems to have a few set projections, but was likely intended to interface with another device like a computer. This technology while interesting in its potential, has little in the way of military applications beyond potential computer interfaces. However it will probably sell very well on the civilian market. It can also be taken apart by our engineers for useful components.
       STR_ALIEN_INJECTOR_UFOPEDIA: This Injector is filled with a nano robot solution designed to repair damaged tissue and eliminate harmful pathogens. Traces of this solution can be found in most Alien lifeforms encountered so far and would explain why they haven't caught any earth borne diseases yet. Unfortunately it seems the aliens remembered their inoculations this time. While a marvelous technology, it would take decades to adapt the nano technology to human physiology. None the less it will sell high to any number of medical and research companies.
       STR_ALIEN_COMM_UFOPEDIA: This device appears to be a simple alien communication device. It links with other communication devices via a hyperwave signal that cannot be detected or scrambled by traditional radio technology. Unfortunately the device is too miniaturized and specialized to give us a good idea of how to construct a larger facility capable of intercepting such a signal. Perhaps an Alien that specialized in navigation might have the knowledge to build such a facility? Regardless this small device is useless to XCom, but telecommunication companies would pay a lot to get their hands on this machine. It can also be taken apart by our engineers for useful components.
-      STR_ALIEN_PLASMA_SWORD_UFOPEDIA: The Plasma Sword uses an Elerium generated containment field to encase a super heated gas core in the shape of a blade. This super heated blade burns hot enough to slice through most known materials with ease. This makes this device a deadly close combat weapon without any rival. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_PLASMA_BLADE_UFOPEDIA: The Plasma Sword uses an Elerium generated containment field to encase a super heated gas core in the shape of a blade. This super heated blade burns hot enough to slice through most known materials with ease. This makes this device a deadly close combat weapon without any rival. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_ALIEN_PROX_GRENADE_UFOPEDIA: This curious device is a proximity mine. It detects particle motion and activates detonating a small antimatter reaction powered by a tiny bit of Elerium. It is far more powerful than our Proximity Grenade. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_ALIEN_SMALL_ENTERTAINMENT_UFOPEDIA: After careful study, our science teams have concluded that this is simply a smaller version of the Alien Entertainment module. It does not appear to be as potent as the larger versions aboard UFOs, but it produces a hallucinogenic effect when activated all the same. We theorized that the Aliens carry these around much like how our soldiers carry around cigars. Given our soldiers prefer cigars and scotch, the Alien Entertainment device is worthless to XCom. However we could probably sell the device at a high price so long as we make it clear that no questions will be asked on our part. It can also be taken apart by our engineers for useful components.
-      STR_ALLOY_BLADE_UFOPEDIA: This weapon is a retractable blade much like a punching dagger made out of Alien Alloys. It fits at the wrists and extends when a button is pressed on the top. The blade is retracted likely to protect the extremely fine edge that is sharpened to a single molecule in size. Otherwise this is a fairly simple device and when used in closed combat, the wielder's strength is added to the attack. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_ALLOY_BLADE_UFOPEDIA: This weapon is a retractable blade much like a punching dagger made out of Alien Alloys. It fits at the wrists and extends when a button is pressed on the top. The blade is retracted likely to protect the extremely fine edge that is sharpened to a single molecule in size. Otherwise this is a fairly simple device and when used in closed combat, the wielder's strength is added to the attack. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_ELLERIUM_LAMP_UFOPEDIA: This is the most simplistic device we have recovered so far from the Aliens. It is a simple lamp powered by a small bit of Elerium. When activated, it glows much brighter than our standard Electro Flares. This simple piece of alien technology is easy to replicate.
       STR_ELLERIUM_LAMP_HUMAN_UFOPEDIA: This device is a replication of the Alien Elerium Lamp. It glows much brighter than a standard Electro Flare.
       STR_SMALL_LAUNCHER_UFOPEDIA: The Cluster Launcher fires small numerous types of small explosive orbs. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
@@ -1821,7 +1821,7 @@
       STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY: Power Suit
       STR_FLYING_SUIT_ARMOR_UFOPEDIA_DISPLAY: Flying Suit
       STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY: Personal Armor
-      STR_SH_TASER_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
+      STR_STR_SH_SMALL_PISTOL_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
 
 
 
@@ -1845,7 +1845,7 @@
       STR_LA_SMG_UFOPEDIA: The Assault Laser is a more offensive focused redesign of the Laser Pistol. Its high rate of fire is useful for close quarters assault.
       STR_LA_SHOTGUN_UFOPEDIA: The Bloom Laser splits the laser beam into numerous smaller beams creating a spread effect not unlike a shotgun.
       STR_LA_LMG_UFOPEDIA: The Pulse Laser as its name implies pulses a high focused laser emitter. This gives the Pulse Laser a very high rate of fire.
-      STR_LASER_SWORD_UFOPEDIA: The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
+      STR_ME_LASER_SWORD_UFOPEDIA: The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
       STR_CHARGED_CELLS_UFOPEDIA: New advancements in battery technology has allowed our engineers to design and build Charged Cell batteries for our laser weapons. These cells greatly increase the damage output of our laser weapons, but drain more quickly than normal laser batteries.
       STR_ELERIUM_LASER_BATTERY_UFOPEDIA: By adapting a micro Elerium battery into our laser weapons it can greatly boost both their power and battery life.
       STR_PM_MAIN_PISTOL_UFOPEDIA: The Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. This is the Terran version adapted from Alien Technology. While it does not perform at the same level of the original Alien versions, it is a close second. It shares ammunition with the plasma assaulter, as it uses a micro plasma cell.
@@ -1864,12 +1864,12 @@
       STR_RL_LMG_UFOPEDIA: The Hypervelocity Repeater has a high rate of fire that is excellent for suppression.
       STR_RL_BAZOOKA_UFOPEDIA: The Hypervelocity Cannon fires a large kinetic dart at extreme velocities. The dart has enough power to punch through pretty much anything.
       STR_INC_GRENADE_UFOPEDIA: The Incendiary Grenade contains chemical elements that explode in a fiery blast when mixed. Useful for turning aliens into makeshift torches.
-      STR_KNIFE_UFOPEDIA: The standard issue XCom Combat Knife is light and deadly being made out of high carbon steel that holds an edge well. This close combat weapon gives any soldier a suitable weapon in case the aliens get too close. Unlike the stun rod, a Soldier's strength is added to the Combat Knife's damage.
-      STR_BRASS_KNUCKLES_UFOPEDIA: Brass Knuckles allow for our soldiers to use good old fashion fisticuffs to administer a classic Terran beat down. An alien would likely not be permanently killed by such a primitive hand to hand brawl, but it is useful to knock out an alien for live capture. Brass Knuckles are very light making it an easy and cheap addition to any soldier. Unlike the stun rod, this weapon adds the soldier's strength to the damage.
+      STR_ME_BASIC_KNIFE_UFOPEDIA: The standard issue XCom Combat Knife is light and deadly being made out of high carbon steel that holds an edge well. This close combat weapon gives any soldier a suitable weapon in case the aliens get too close. Unlike the stun rod, a Soldier's strength is added to the Combat Knife's damage.
+      STR_ME_KNUCKLES_UFOPEDIA: Brass Knuckles allow for our soldiers to use good old fashion fisticuffs to administer a classic Terran beat down. An alien would likely not be permanently killed by such a primitive hand to hand brawl, but it is useful to knock out an alien for live capture. Brass Knuckles are very light making it an easy and cheap addition to any soldier. Unlike the stun rod, this weapon adds the soldier's strength to the damage.
       STR_BASIC_MEDI_KIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
       STR_XP_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
-      STR_HUMAN_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
-      STR_HUMAN_ALLOY_BLADE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
+      STR_ME_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
+      STR_ME_ALLOY_KNIFE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
       STR_ANTIMATTER_BOMB_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
       STR_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.

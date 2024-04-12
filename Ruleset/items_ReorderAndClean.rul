@@ -48,8 +48,7 @@ items:
   #   handSprite: 320
   # - type: STR_HC_I_AMMO
   #   handSprite: 328
-  - type: STR_SMOKE_GRENADE
-    handSprite: 1340
+
   # - type: STR_RIFLE_CLIP
   #   handSprite: 1352
   # - type: STR_PISTOL_CLIP
@@ -96,8 +95,7 @@ items:
     battleType: 0
     recoveryPoints: 300
     listOrder: 7
-  - type: STR_ALIEN_ALLOYS
-    listOrder: 9
+#----- Game Resources -----#
   - type: STR_CODEX_FRAGMENT
     size: .1
     costSell: 5000
@@ -112,8 +110,11 @@ items:
     recoveryPoints: 20
     armor: 65
     listOrder: 8
+  - type: STR_ALIEN_ALLOYS
+    listOrder: 9
   - type: STR_ELERIUM_115
     listOrder: 10
+#----- UFOs Components -----#
   - type: STR_ALIEN_HABITAT
     size: 0.1
     costSell: 20000
@@ -128,6 +129,7 @@ items:
     size: 1
     costSell: 250000
     listOrder: 9599
+#----- Craft Components -----#
   - type: STR_CLUSTER_MISSILE_LAUNCHER
     size: 0.8
     costSell: 22500
@@ -154,6 +156,7 @@ items:
     size: 0.1
     costSell: 1250
     listOrder: 1005
+
 ######----- Drones -----##### 
   - type: STR_LAND_DRONE
     size: 1
@@ -473,8 +476,9 @@ items:
     hitSound: 0
     hitAnimation: 0
     listOrder: 9000
-#######- Final tanks WIP
-#revisar desde aqui
+
+# ojito revisar desde aqui
+
 ###-----Human first tier Ballistic terran weapons-----###
   - type: STR_ST_SMALL_PISTOL
     size: 0.1
@@ -4417,7 +4421,7 @@ items:
     invHeight: 3
     skillApplied: false
     listOrder: 2701
-  - type: STR_SH_TASER
+  - type: STR_STR_SH_SMALL_PISTOL
     size: 0.2
     costBuy: 1800
     costSell: 600
@@ -4428,7 +4432,7 @@ items:
     bulletSprite: 25 #ojito resolver quilombo del taser
     fireSound: 61
     compatibleAmmo:
-      - STR_SH_TASER_CLIP
+      - STR_STR_SH_SMALL_PISTOL_CLIP
     accuracySnap: 40
     accuracyAimed: 70
     tuSnap: 18
@@ -4441,7 +4445,7 @@ items:
     maxRange: 4
     attraction: 6
     listOrder: 2702
-  - type: STR_SH_TASER_CLIP
+  - type: STR_STR_SH_SMALL_PISTOL_CLIP
     size: 0.1
     costBuy: 200
     costSell: 100
@@ -4523,7 +4527,7 @@ items:
     clipSize: 12
     battleType: 2
     listOrder: 2706
-  - type: STR_SHOCK_CANNON
+  - type: STR_SH_HEAVY_CANNON
     size: 0.2
     costSell: 2250
     weight: 16
@@ -4533,7 +4537,7 @@ items:
     bulletSprite: 27
     fireSound: 132
     compatibleAmmo:
-      - STR_SHOCK_CANNON_BATTERY
+      - STR_SH_HEAVY_CANNON_BATTERY
     accuracySnap: 55
     accuracyAimed: 95
     tuSnap: 30
@@ -4548,7 +4552,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2707
-  - type: STR_SHOCK_CANNON_BATTERY
+  - type: STR_SH_HEAVY_CANNON_BATTERY
     size: 0.025
     costSell: 150
     weight: 5
@@ -4563,7 +4567,7 @@ items:
     clipSize: 10
     battleType: 2
     listOrder: 2708
-  - type: STR_SHOCK_GRENADE
+  - type: STR_SH_GRENADE
     size: 0.05
     costSell: 5000
     weight: 3
@@ -4576,29 +4580,7 @@ items:
     blastRadius: 4
     listOrder: 2709
 ###-----Human Melee tier weapons-----###
-  - type: STR_KNIFE
-    size: 0.02
-    costBuy: 75
-    costSell: 50
-    weight: 2
-    bigSprite: 315
-    floorSprite: 315
-    handSprite: 460
-    power: 15
-    strengthApplied: true
-    damageType: 7
-    clipSize: -1
-    tuMelee: 15
-    accuracyMelee: 90
-    battleType: 3
-    invWidth: 2
-    invHeight: 1
-    meleeSound: 87
-    meleeHitSound: 88
-    meleeAnimation: 4
-    skillApplied: true
-    listOrder: 4205
-  - type: STR_BRASS_KNUCKLES
+  - type: STR_ME_KNUCKLES
     size: 0.01
     costBuy: 20
     costSell: 15
@@ -4620,7 +4602,53 @@ items:
     meleeAnimation: 0
     skillApplied: true
     listOrder: 4204
-  - type: STR_LASER_SWORD
+  - type: STR_ME_BASIC_KNIFE
+    size: 0.02
+    costBuy: 75
+    costSell: 50
+    weight: 2
+    bigSprite: 315
+    floorSprite: 315
+    handSprite: 460
+    power: 15
+    strengthApplied: true
+    damageType: 7
+    clipSize: -1
+    tuMelee: 15
+    accuracyMelee: 90
+    battleType: 3
+    invWidth: 2
+    invHeight: 1
+    meleeSound: 87
+    meleeHitSound: 88
+    meleeAnimation: 4
+    skillApplied: true
+    listOrder: 4205
+  - type: STR_ME_ALLOY_KNIFE
+    size: 0.1
+    costSell: 5000
+    weight: 2
+    bigSprite: 430
+    floorSprite: 430
+    handSprite: 1060
+    power: 40
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 12
+    battleType: 3
+    clipSize: -1
+    twoHanded: false
+    invWidth: 2
+    invHeight: 1
+    armor: 65
+    meleeSound: 87
+    meleeHitSound: 88
+    meleeAnimation: 4
+    skillApplied: true
+    attraction: 10
+    listOrder: 5505
+  - type: STR_ME_LASER_SWORD
     size: 0.1
     costSell: 37500
     weight: 4
@@ -4640,12 +4668,88 @@ items:
     meleeAnimation: 40
     skillApplied: true
     listOrder: 3802
+  - type: STR_ME_PLASMA_SWORD
+    size: 0.2
+    costSell: 20000
+    weight: 4
+    bigSprite: 431
+    floorSprite: 431
+    handSprite: 1070
+    power: 140
+    strengthApplied: false
+    damageType: 5
+    clipSize: -1
+    accuracyMelee: 75
+    tuMelee: 16
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    armor: 65
+    meleeSound: 94
+    meleeHitSound: 95
+    meleeAnimation: 88
+    skillApplied: true
+    attraction: 10
+    listOrder: 5510
+# Alien melee weaponry
+  - type: STR_AW_ALLOY_BLADE
+    requires:
+      - STR_AW_ALLOY_BLADE
+      - STR_LIGHT_ALIEN_WEAPONS
+    size: 0.1
+    costSell: 5000
+    weight: 2
+    bigSprite: 372
+    floorSprite: 372
+    handSprite: 930
+    power: 45
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 12
+    battleType: 3
+    clipSize: -1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 65
+    meleeSound: 87
+    meleeHitSound: 88
+    meleeAnimation: 4
+    skillApplied: true
+    attraction: 10
+    listOrder: 5505
+  - type: STR_AW_PLASMA_BLADE
+    requires:
+      - STR_AW_PLASMA_BLADE
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 20000
+    weight: 4
+    bigSprite: 369
+    floorSprite: 369
+    handSprite: 800
+    power: 150
+    strengthApplied: false
+    damageType: 5
+    clipSize: -1
+    accuracyMelee: 80
+    tuMelee: 15
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    armor: 65
+    meleeSound: 94
+    meleeHitSound: 95
+    meleeAnimation: 16
+    skillApplied: true
+    attraction: 10
+    listOrder: 5510
 ###-----Human Ordnance tier-----###
-  - type: STR_GRENADE
-    listOrder: 3803
-    blastRadius: 3
-    weight: 3
-    fuseType: -2
+  - type: STR_SMOKE_GRENADE
+    handSprite: 1340
   - type: STR_INC_GRENADE
     size: 0.05
     costBuy: 380
@@ -4659,6 +4763,13 @@ items:
     blastRadius: 3
     fuseType: -2
     listOrder: 4005
+
+  - type: STR_GRENADE
+    listOrder: 3803
+    blastRadius: 3
+    weight: 3
+    fuseType: -2
+
   - type: STR_PROXIMITY_GRENADE
     requires:
       - STR_PROXIMITY_GRENADE
@@ -4672,6 +4783,8 @@ items:
     blastRadius: 2
     fuseType: -1
     listOrder: 4010
+
+
   - type: STR_XP_GRENADE
     size: 0.05
     costSell: 5000
@@ -4712,6 +4825,51 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 3453
+  - type: STR_ELERIUM_GRENADE
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 39
+    floorSprite: 38
+    power: 85
+    damageType: 3
+    battleType: 4
+    blastRadius: 4
+    fuseType: -1
+    listOrder: 6004
+  - type: STR_ELERIUM_MINE
+    size: 0.025
+    costSell: 17500
+    weight: 3
+    bigSprite: 433
+    floorSprite: 433
+    power: 90
+    damageType: 3
+    battleType: 5
+    blastRadius: 4
+    fuseType: -1
+    attraction: 6
+    listOrder: 6005
+  - type: STR_ANTIMATTER_BOMB
+    size: 0.25
+    costSell: 20000
+    weight: 6
+    bigSprite: 434
+    floorSprite: 434
+    handSprite: 1050
+    power: 200
+    damageType: 3
+    battleType: 4
+    invWidth: 2
+    invHeight: 1
+    blastRadius: 8
+    fuseType: -1
+    twoHanded: true
+    attraction: 6
+    listOrder: 6010
+
+
+
     # reordenar desde aqui ojito
 ######items nuevos medicos, checar luego correcciones, ojito
   - type: STR_ELERIUM_CELL
@@ -4826,96 +4984,7 @@ items:
     armor: 65
     listOrder: 4600
 #ojito final lampara
-  - type: STR_ELERIUM_GRENADE
-    size: 0.1
-    costSell: 14850
-    weight: 3
-    bigSprite: 39
-    floorSprite: 38
-    power: 85
-    damageType: 3
-    battleType: 4
-    blastRadius: 4
-    fuseType: -1
-    listOrder: 6004
-  - type: STR_ELERIUM_MINE
-    size: 0.025
-    costSell: 17500
-    weight: 3
-    bigSprite: 433
-    floorSprite: 433
-    power: 90
-    damageType: 3
-    battleType: 5
-    blastRadius: 4
-    fuseType: -1
-    attraction: 6
-    listOrder: 6005
-  - type: STR_ANTIMATTER_BOMB
-    size: 0.25
-    costSell: 20000
-    weight: 6
-    bigSprite: 434
-    floorSprite: 434
-    handSprite: 1050
-    power: 200
-    damageType: 3
-    battleType: 4
-    invWidth: 2
-    invHeight: 1
-    blastRadius: 8
-    fuseType: -1
-    twoHanded: true
-    attraction: 6
-    listOrder: 6010
-  - type: STR_HUMAN_ALLOY_BLADE
-    size: 0.1
-    costSell: 5000
-    weight: 2
-    bigSprite: 430
-    floorSprite: 430
-    handSprite: 1060
-    power: 40
-    strengthApplied: true
-    damageType: 7
-    accuracyMelee: 80
-    tuMelee: 12
-    battleType: 3
-    clipSize: -1
-    twoHanded: false
-    invWidth: 2
-    invHeight: 1
-    armor: 65
-    meleeSound: 87
-    meleeHitSound: 88
-    meleeAnimation: 4
-    skillApplied: true
-    attraction: 10
-    listOrder: 5505
-  - type: STR_HUMAN_PLASMA_SWORD
-    size: 0.2
-    costSell: 20000
-    weight: 4
-    bigSprite: 431
-    floorSprite: 431
-    handSprite: 1070
-    power: 140
-    strengthApplied: false
-    damageType: 5
-    clipSize: -1
-    accuracyMelee: 75
-    tuMelee: 16
-    battleType: 3
-    twoHanded: false
-    invWidth: 1
-    invHeight: 3
-    armor: 65
-    meleeSound: 94
-    meleeHitSound: 95
-    meleeAnimation: 88
-    skillApplied: true
-    attraction: 10
-    listOrder: 5510
+
 ### Alien units Weaponry
   - type: CYBERDISC_WEAPON
     weight: 3
@@ -5617,60 +5686,7 @@ items:
     recoveryPoints: 1
     attraction: 6
     listOrder: 6010
-  - type: STR_ALLOY_BLADE
-    requires:
-      - STR_ALLOY_BLADE
-      - STR_LIGHT_ALIEN_WEAPONS
-    size: 0.1
-    costSell: 5000
-    weight: 2
-    bigSprite: 372
-    floorSprite: 372
-    handSprite: 930
-    power: 45
-    strengthApplied: true
-    damageType: 7
-    accuracyMelee: 80
-    tuMelee: 12
-    battleType: 3
-    clipSize: -1
-    twoHanded: false
-    invWidth: 1
-    invHeight: 2
-    armor: 65
-    meleeSound: 87
-    meleeHitSound: 88
-    meleeAnimation: 4
-    skillApplied: true
-    attraction: 10
-    listOrder: 5505
-  - type: STR_ALIEN_PLASMA_SWORD
-    requires:
-      - STR_ALIEN_PLASMA_SWORD
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 20000
-    weight: 4
-    bigSprite: 369
-    floorSprite: 369
-    handSprite: 800
-    power: 150
-    strengthApplied: false
-    damageType: 5
-    clipSize: -1
-    accuracyMelee: 80
-    tuMelee: 15
-    battleType: 3
-    twoHanded: false
-    invWidth: 1
-    invHeight: 3
-    armor: 65
-    meleeSound: 94
-    meleeHitSound: 95
-    meleeAnimation: 16
-    skillApplied: true
-    attraction: 10
-    listOrder: 5510
+
   - type: STR_ELLERIUM_LAMP
     requires:
       - STR_ELLERIUM_LAMP
@@ -6311,7 +6327,7 @@ items:
     armor: 65
     recover: false
 # First Tier #
-  - type: STR_XOPS_ARMOR_BLUE
+  - type: STR_XOPS_ARMOR_PILOT
     size: 0.5
     costBuy: 0
     costSell: 18000
@@ -6342,7 +6358,7 @@ items:
     costSell: 18000
     listOrder: 2015
 # Corpses
-  - type: STR_CORPSE_XOPS_ARMOR_BLUE
+  - type: STR_CORPSE_XOPS_ARMOR_PILOT
     name: STR_CORPSE
     weight: 24
     bigSprite: 66
@@ -6403,7 +6419,7 @@ items:
     armor: 65
     recover: false
 # Second Tier #
-  - type: STR_PERSONAL_ARMOR_BLUE #Blue
+  - type: STR_PERSONAL_ARMOR_PILOT #Blue
     size: 0.6
     costSell: 54000
     listOrder: 2020
@@ -6428,7 +6444,7 @@ items:
     costSell: 54000
     listOrder: 2025
 # Corpses
-  - type: STR_CORPSE_PERSONAL_ARMOR_BLUE
+  - type: STR_CORPSE_PERSONAL_ARMOR_PILOT
     name: STR_CORPSE
     weight: 24
     bigSprite: 28
@@ -6489,7 +6505,7 @@ items:
     armor: 65
     recover: false
 # Third Tier #
-  - type: STR_ALLOY_ARMOR_BLUE
+  - type: STR_ALLOY_ARMOR_PILOT
     size: 0.7
     costBuy: 0
     costSell: 60000
@@ -6520,7 +6536,7 @@ items:
     costSell: 60000
     listOrder: 2035
 # Corpses
-  - type: STR_CORPSE_ALLOY_ARMOR_BLUE
+  - type: STR_CORPSE_ALLOY_ARMOR_PILOT
     name: STR_CORPSE
     weight: 24
     bigSprite: 94
@@ -6581,7 +6597,7 @@ items:
     armor: 65
     recover: false
 # Fourth Tier #
-  - type: STR_SKY_STRIKE_ARMOR_BLUE
+  - type: STR_SKY_STRIKE_ARMOR_PILOT
     size: 0.6
     costBuy: 0
     costSell: 57000
@@ -6612,7 +6628,7 @@ items:
     costSell: 57000
     listOrder: 2045
 # Corpses
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_BLUE
+  - type: STR_CORPSE_SKY_STRIKE_ARMOR_PILOT
     name: STR_CORPSE
     weight: 24
     bigSprite: 107
@@ -6673,7 +6689,7 @@ items:
     armor: 65
     recover: false
 # Fifth Tier #
-  - type: STR_XOPS_POWER_ARMOR_BLUE
+  - type: STR_XOPS_POWER_ARMOR_PILOT
     size: 1
     costBuy: 0
     costSell: 180000
@@ -6704,7 +6720,7 @@ items:
     costSell: 180000
     listOrder: 2055
 # Corpses
-  - type: STR_CORPSE_XOPS_POWER_ARMOR_BLUE
+  - type: STR_CORPSE_XOPS_POWER_ARMOR_PILOT
     name: STR_CORPSE
     weight: 26
     bigSprite: 118
@@ -6765,7 +6781,7 @@ items:
     armor: 65
     recover: false
 # Sixth Tier #
-  - type: STR_PSI_ARMOR_BLUE
+  - type: STR_PSI_ARMOR_PILOT
     size: 0.5
     costBuy: 0
     costSell: 90000
@@ -6796,7 +6812,7 @@ items:
     costSell: 90000
     listOrder: 2065
 # Corpses
-  - type: STR_CORPSE_PSI_ARMOR_BLUE
+  - type: STR_CORPSE_PSI_ARMOR_PILOT
     name: STR_CORPSE
     weight: 24
     bigSprite: 123

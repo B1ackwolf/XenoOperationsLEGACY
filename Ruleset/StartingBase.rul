@@ -50,7 +50,7 @@
         STR_ST_RIFLE: 10
         STR_ST_RIFLE_CLIP: 20
         STR_ELECTRO_FLARE: 10
-        STR_KNIFE: 10
+        STR_ME_BASIC_KNIFE: 10
       status: STR_READY
     - type: STR_SR71
       id: 1
@@ -117,9 +117,9 @@
     STR_STINGRAY_MISSILES: 25
     STR_AVALANCHE_MISSILES: 10
     STR_ELECTRO_FLARE: 10
-    STR_KNIFE: 10
+    STR_ME_BASIC_KNIFE: 10
     STR_HIGH_EXPLOSIVE: 5
-    STR_BRASS_KNUCKLES: 5
+    STR_ME_KNUCKLES: 5
     STR_INC_GRENADE: 10
   scientists: 2
   engineers: 5

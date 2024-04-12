@@ -34,6 +34,12 @@ TL;DR VERSION:
 
 + PRIORITIES FIXES:
 
+ - crear todas las armas melee que faltan
+ - acomodar bien la sprite de la escopeta hibrida y del bullpup basico para q sea mas iwi tavor
+ - acomodar medallita de tiempo de servicio y pasarla a seis meses
+ - acomodar el orden de los facilities TODOS
+ - crear medalla para perros
+
  - modificar totalmente como funcionan los articulos medicos.
    * nivel 0 la jeringa de adreno y el pouch individual y descartable
    * nivel 1 el bolsito medico, pensado para unidades especializadas en curar.
