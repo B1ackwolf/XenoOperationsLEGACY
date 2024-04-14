@@ -1,3 +1,6 @@
+# Made by B1ackwolf for XOPS Legacy.
+# Status: Clean and finish to add concepts in To-Do List.
+
 alienDeployments:
 #----- Deletions begins -----#
   - delete: STR_SMALL_SCOUT

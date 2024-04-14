@@ -120,7 +120,7 @@
     STR_ME_BASIC_KNIFE: 10
     STR_HIGH_EXPLOSIVE: 5
     STR_ME_KNUCKLES: 5
-    STR_INC_GRENADE: 10
+    STR_BO_FIERY_GRENADE: 10
   scientists: 2
   engineers: 5
   randomSoldiers:

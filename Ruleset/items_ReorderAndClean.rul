@@ -1,3 +1,6 @@
+# Made by B1ackwolf for XOPS-Legacy
+# Status: Reorder and clean
+
 items:
 #-----Deleting starts-----#
   - delete: STR_PISTOL_CLIP
@@ -25,35 +28,8 @@ items:
   - delete: STR_TANK_LASER_CANNON
   - delete: STR_POWER_SUIT
   - delete: STR_FLYING_SUIT
-###-----improved hand obs ojito-----###
-  - type: STR_MEDI_KIT
-    handSprite: 208
-  - type: STR_HIGH_EXPLOSIVE
-    handSprite: 216
-  - type: STR_MOTION_SCANNER
-    handSprite: 1224    
-  - type: STR_ELECTRO_FLARE
-    handSprite: 240
-  - type: STR_MIND_PROBE
-    handSprite: 248
-  # - type: STR_AC_AP_AMMO
-  #   handSprite: 288
-  # - type: STR_AC_HE_AMMO
-  #   handSprite: 296
-  # - type: STR_AC_I_AMMO
-  #   handSprite: 304
-  # - type: STR_HC_AP_AMMO
-  #   handSprite: 312
-  # - type: STR_HC_HE_AMMO
-  #   handSprite: 320
-  # - type: STR_HC_I_AMMO
-  #   handSprite: 328
-
-  # - type: STR_RIFLE_CLIP
-  #   handSprite: 1352
-  # - type: STR_PISTOL_CLIP
-  #   handSprite: 1366
-##########improvedhandob ending#########
+#----- Deleting Final -----# 
+#----- Codex related -----#
   - type: STR_CODEX_1
     size: .5
     costSell: 1000000
@@ -95,7 +71,7 @@ items:
     battleType: 0
     recoveryPoints: 300
     listOrder: 7
-#----- Game Resources -----#
+#----- Gameplay Resources -----#
   - type: STR_CODEX_FRAGMENT
     size: .1
     costSell: 5000
@@ -114,6 +90,11 @@ items:
     listOrder: 9
   - type: STR_ELERIUM_115
     listOrder: 10
+# ojito que debo modificar cuales aviones usaran combustible especial    
+  - type: STR_XCF_FUEL
+    size: 0.1
+    costSell: 1250
+    listOrder: 1005
 #----- UFOs Components -----#
   - type: STR_ALIEN_HABITAT
     size: 0.1
@@ -152,12 +133,10 @@ items:
     transferTime: 48
     clipSize: 1
     listOrder: 608
-  - type: STR_XCF_FUEL
-    size: 0.1
-    costSell: 1250
-    listOrder: 1005
 
-######----- Drones -----##### 
+
+######----- Support units -----##### 
+# ojito quizas se borre luego q se migre al otro metodo de armaduras. revisar de vuelta XFILES.
   - type: STR_LAND_DRONE
     size: 1
     costSell: 160000
@@ -478,7 +457,23 @@ items:
     listOrder: 9000
 
 # ojito revisar desde aqui
+  # - type: STR_AC_AP_AMMO
+  #   handSprite: 288
+  # - type: STR_AC_HE_AMMO
+  #   handSprite: 296
+  # - type: STR_AC_I_AMMO
+  #   handSprite: 304
+  # - type: STR_HC_AP_AMMO
+  #   handSprite: 312
+  # - type: STR_HC_HE_AMMO
+  #   handSprite: 320
+  # - type: STR_HC_I_AMMO
+  #   handSprite: 328
 
+  # - type: STR_RIFLE_CLIP
+  #   handSprite: 1352
+  # - type: STR_PISTOL_CLIP
+  #   handSprite: 1366
 ###-----Human first tier Ballistic terran weapons-----###
   - type: STR_ST_SMALL_PISTOL
     size: 0.1
@@ -4601,7 +4596,7 @@ items:
     meleeHitSound: 89
     meleeAnimation: 0
     skillApplied: true
-    listOrder: 4204
+    listOrder: 2801
   - type: STR_ME_BASIC_KNIFE
     size: 0.02
     costBuy: 75
@@ -4623,7 +4618,7 @@ items:
     meleeHitSound: 88
     meleeAnimation: 4
     skillApplied: true
-    listOrder: 4205
+    listOrder: 2802
   - type: STR_ME_ALLOY_KNIFE
     size: 0.1
     costSell: 5000
@@ -4647,7 +4642,7 @@ items:
     meleeAnimation: 4
     skillApplied: true
     attraction: 10
-    listOrder: 5505
+    listOrder: 2803
   - type: STR_ME_LASER_SWORD
     size: 0.1
     costSell: 37500
@@ -4667,7 +4662,7 @@ items:
     meleeHitSound: 88
     meleeAnimation: 40
     skillApplied: true
-    listOrder: 3802
+    listOrder: 2806
   - type: STR_ME_PLASMA_SWORD
     size: 0.2
     costSell: 20000
@@ -4691,7 +4686,7 @@ items:
     meleeAnimation: 88
     skillApplied: true
     attraction: 10
-    listOrder: 5510
+    listOrder: 2808
 # Alien melee weaponry
   - type: STR_AW_ALLOY_BLADE
     requires:
@@ -4719,7 +4714,7 @@ items:
     meleeAnimation: 4
     skillApplied: true
     attraction: 10
-    listOrder: 5505
+    listOrder: 2815
   - type: STR_AW_PLASMA_BLADE
     requires:
       - STR_AW_PLASMA_BLADE
@@ -4746,11 +4741,12 @@ items:
     meleeAnimation: 16
     skillApplied: true
     attraction: 10
-    listOrder: 5510
+    listOrder: 2816
 ###-----Human Ordnance tier-----###
-  - type: STR_SMOKE_GRENADE
+  - type: STR_SMOKE_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 1340
-  - type: STR_INC_GRENADE
+    listOrder: 2816
+  - type: STR_BO_FIERY_GRENADE 
     size: 0.05
     costBuy: 380
     costSell: 270
@@ -4762,15 +4758,25 @@ items:
     battleType: 4
     blastRadius: 3
     fuseType: -2
-    listOrder: 4005
-
-  - type: STR_GRENADE
-    listOrder: 3803
+    listOrder: 2902
+  - type: STR_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
+    listOrder: 2903
     blastRadius: 3
     weight: 3
     fuseType: -2
-
-  - type: STR_PROXIMITY_GRENADE
+  - type: STR_BO_STICK_GRENADE
+    size: 0.05
+    costSell: 5000
+    weight: 2
+    bigSprite: 313
+    floorSprite: 313
+    power: 65
+    damageType: 3
+    battleType: 4
+    blastRadius: 3
+    fuseType: -2
+    listOrder: 2904
+  - type: STR_PROXIMITY_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_PROXIMITY_GRENADE
     handSprite: 232
@@ -4782,22 +4788,10 @@ items:
     battleType: 5
     blastRadius: 2
     fuseType: -1
-    listOrder: 4010
+    listOrder: 2905
 
 
-  - type: STR_XP_GRENADE
-    size: 0.05
-    costSell: 5000
-    weight: 2
-    bigSprite: 313
-    floorSprite: 313
-    power: 65
-    damageType: 3
-    battleType: 4
-    blastRadius: 3
-    fuseType: -2
-    listOrder: 4020
-  - type: STR_HB_GRENADE
+  - type: STR_BO_HYBRID_GRENADE
     size: 0.05
     costSell: 8000
     weight: 2
@@ -4810,8 +4804,8 @@ items:
     fuseType: -1
     invWidth: 1
     invHeight: 1
-    listOrder: 3452
-  - type: STR_HB_GRENADE2
+    listOrder: 2906
+  - type: STR_BO_HYBRID_GRENADE2
     size: 0.05
     costSell: 8500
     weight: 2
@@ -4824,8 +4818,8 @@ items:
     fuseType: -1
     invWidth: 1
     invHeight: 1
-    listOrder: 3453
-  - type: STR_ELERIUM_GRENADE
+    listOrder: 2907
+  - type: STR_ELERIUM_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
     costSell: 14850
     weight: 3
@@ -4836,20 +4830,10 @@ items:
     battleType: 4
     blastRadius: 4
     fuseType: -1
-    listOrder: 6004
-  - type: STR_ELERIUM_MINE
-    size: 0.025
-    costSell: 17500
-    weight: 3
-    bigSprite: 433
-    floorSprite: 433
-    power: 90
-    damageType: 3
-    battleType: 5
-    blastRadius: 4
-    fuseType: -1
-    attraction: 6
-    listOrder: 6005
+    listOrder: 2909
+  - type: STR_HIGH_EXPLOSIVE #ojito luego cambiar nombre para mantener nomenclatura
+    handSprite: 216
+    listOrder: 2911
   - type: STR_ANTIMATTER_BOMB
     size: 0.25
     costSell: 20000
@@ -4866,9 +4850,7 @@ items:
     fuseType: -1
     twoHanded: true
     attraction: 6
-    listOrder: 6010
-
-
+    listOrder: 2912
 
     # reordenar desde aqui ojito
 ######items nuevos medicos, checar luego correcciones, ojito
@@ -4972,6 +4954,8 @@ items:
     tuUse: 16
     flatRate: true
     listOrder: 4599
+  - type: STR_MEDI_KIT
+    handSprite: 208
 #ojito lampara
   - type: STR_ELLERIUM_LAMP_HUMAN
     size: 0.025
@@ -4984,7 +4968,15 @@ items:
     armor: 65
     listOrder: 4600
 #ojito final lampara
+###-----improved hand obs ojito-----###
 
+
+  - type: STR_MOTION_SCANNER
+    handSprite: 1224    
+  - type: STR_ELECTRO_FLARE
+    handSprite: 240
+  - type: STR_MIND_PROBE
+    handSprite: 248
 ### Alien units Weaponry
   - type: CYBERDISC_WEAPON
     weight: 3
@@ -5606,6 +5598,19 @@ items:
     invHeight: 1
     recoveryPoints: 1
     listOrder: 5902
+  - type: STR_AW_ELERIUM_MINE
+    size: 0.025
+    costSell: 17500
+    weight: 3
+    bigSprite: 433
+    floorSprite: 433
+    power: 90
+    damageType: 3
+    battleType: 5
+    blastRadius: 4
+    fuseType: -1
+    attraction: 6
+    listOrder: 6005
   - type: STR_ALIEN_GRENADE
     requires:
       - STR_ALIEN_GRENADE

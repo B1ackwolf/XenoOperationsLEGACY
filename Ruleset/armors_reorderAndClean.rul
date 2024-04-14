@@ -1,4 +1,8 @@
- armors:
+# Made by B1ackwolf for XOPS-Legacy
+# Status: Reorder and clean.
+# OJITO
+
+armors:
 #----- delete vainilla armors -----#
   - delete: STR_NONE_UC
   - delete: STR_PERSONAL_ARMOR_UC

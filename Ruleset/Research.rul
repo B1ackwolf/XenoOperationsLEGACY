@@ -1,3 +1,6 @@
+# Made by B1ackwolf for XOPS-Legacy
+# Status: Clean, reorder and deffinitely fix tree just as explained in the To-Do List
+
 research:
 #--Deletions
   - delete: STR_LASER_WEAPONS
@@ -125,7 +128,7 @@ research:
     points: 10
     dependencies:
       - STR_NEXT_GEN_BALLISTICS
-  - name: STR_XP_GRENADE
+  - name: STR_BO_STICK_GRENADE
     cost: 10
     points: 10
     dependencies:
@@ -135,7 +138,7 @@ research:
     points: 10
     dependencies:
       - STR_ALIEN_ALLOYS
-      - STR_XP_GRENADE
+      - STR_BO_STICK_GRENADE
       - STR_NEXT_GEN_BALLISTICS_LIGHT
       - STR_NEXT_GEN_BALLISTICS_MEDIUM
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -1047,7 +1050,7 @@ research:
       - STR_ALIEN_GRENADE
       - STR_ELERIUM_EXPLOSIVES
       - STR_CODEX_3
-  - name: STR_ELERIUM_MINE
+  - name: STR_AW_ELERIUM_MINE
     cost: 70
     points: 10
     dependencies:

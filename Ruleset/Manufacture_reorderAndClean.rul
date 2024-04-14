@@ -1,3 +1,6 @@
+# Made by B1ackwolf for XOPS-Legacy
+# Status: Reorder and Clean.
+
 manufacture:
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
@@ -854,10 +857,10 @@ manufacture:
       STR_XP_APROCKET: 10
     listOrder: 2238
 #temporal, ojito, separar luego a ordnance tier correctamente
-  - name: STR_XP_GRENADE
+  - name: STR_BO_STICK_GRENADE
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
-      - STR_XP_GRENADE
+      - STR_BO_STICK_GRENADE
     space: 1
     time: 60
     cost: 4000
@@ -1393,7 +1396,7 @@ manufacture:
       STR_HB_ROCKET2: 10
     listOrder: 2342
 #temporal , ojito separar luego a ordnance
-  - name: STR_HB_GRENADE
+  - name: STR_BO_HYBRID_GRENADE
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
@@ -1404,9 +1407,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HB_GRENADE: 10
+      STR_BO_HYBRID_GRENADE: 10
     listOrder: 2343
-  - name: STR_HB_GRENADE2
+  - name: STR_BO_HYBRID_GRENADE2
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
@@ -1418,7 +1421,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HB_GRENADE2: 10
+      STR_BO_HYBRID_GRENADE2: 10
     listOrder: 2344
 #-----Hybrid Weapons ----------------------------------END
 
@@ -2677,10 +2680,10 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     listOrder: 1473
-  - name: STR_ELERIUM_MINE
+  - name: STR_AW_ELERIUM_MINE
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_ELERIUM_MINE
+      - STR_AW_ELERIUM_MINE
     space: 1
     time: 80
     cost: 8000

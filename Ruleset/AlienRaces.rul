@@ -1,3 +1,6 @@
+# Made by B1ackwolf for XOPS-Legacy.
+# Status: Reorder and clean, , restructurate and follow ideas from To-Do list.
+
 alienRaces:
   - delete: STR_MIXED
   - id: STR_FORMIC

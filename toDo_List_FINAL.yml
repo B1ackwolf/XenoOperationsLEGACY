@@ -34,6 +34,19 @@ TL;DR VERSION:
 
 + PRIORITIES FIXES:
 
+ - revisar enteramente arbol de investigaciones dandole enfasis a los siguientes proyectos
+   * STR_CODEX_COMPLETE
+   * STR_DATA_RECOVERY
+   * STR_DATA_FRAGMENT_SORTING
+   * STR_HISTORICAL_ARCHIVES
+   * STR_HISTORICAL_ARCHIVES_ANALYSIS
+   * STR_ANOMALOUS_EQUATION
+   * STR_SOLVE_ANOMALOUS_EQUATION
+
+ - modificar unidades alienigenas para darles una dificultad mas estable
+   * eliminar q ganen stats segun el nivel de dificultad, por lo tanto ahora regularizar mejor los stats a un promedio
+   * se modificaran las cantidades totales de aliens
+   * quizas modificar los parametros de BRUTAL IA en base al nivel (siempre sin hacer trampa)
  - crear todas las armas melee que faltan
  - acomodar bien la sprite de la escopeta hibrida y del bullpup basico para q sea mas iwi tavor
  - acomodar medallita de tiempo de servicio y pasarla a seis meses
@@ -50,7 +63,7 @@ TL;DR VERSION:
    * nivel 3 el medi-kit de vainilla q es dispensador de medi-gel, explicaria todo lo avanzado de la medicina, cosas de reparar heridas y tejido casi al instante blablabla
      ~ requeriria quizas nivel 3 del codex? (2 como minimo)
      ~ estaria atado a la mejora del edificio de la base de la clinica mejorada.    
- - terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande en el mapviewer de agregarle la mugre 
+   * terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande en el mapviewer de agregarle la mugre 
 
  
  - ya q voy a cambiar nombres de aviones, tambien cambiar TODOS los nombres de los cartuchos, recordar hacer esto a medida q modifico los nombres de los cargadores

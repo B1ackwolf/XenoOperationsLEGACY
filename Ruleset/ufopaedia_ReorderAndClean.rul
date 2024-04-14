@@ -1,3 +1,6 @@
+# Made by B1ackwolf for XOPS-Legacy
+# Status: Reorder and clean.
+
 ufopaedia:
 #---Deletions----------------
   # - delete: STR_ALIEN_ORIGINS
@@ -970,17 +973,17 @@ ufopaedia:
     text: STR_ME_KNUCKLES_UFOPEDIA
     listOrder: 4504
 
-  - id: STR_INC_GRENADE
+  - id: STR_BO_FIERY_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_INC_GRENADE_UFOPEDIA
+    text: STR_BO_FIERY_GRENADE_UFOPEDIA
     listOrder: 4105
-  - id: STR_XP_GRENADE
+  - id: STR_BO_STICK_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_XP_GRENADE_UFOPEDIA
+    text: STR_BO_STICK_GRENADE_UFOPEDIA
     requires:
-      - STR_XP_GRENADE
+      - STR_BO_STICK_GRENADE
     listOrder: 4106
   - id: STR_ADRENO_SYRINGE
     type_id: 4
@@ -1958,12 +1961,12 @@ ufopaedia:
       - STR_ELERIUM_GRENADE
     text: STR_ELERIUM_GRENADE_UFOPEDIA
     listOrder: 3842
-  - id: STR_ELERIUM_MINE
+  - id: STR_AW_ELERIUM_MINE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_ELERIUM_MINE
-    text: STR_ELERIUM_MINE_UFOPEDIA
+      - STR_AW_ELERIUM_MINE
+    text: STR_AW_ELERIUM_MINE_UFOPEDIA
     listOrder: 3843
   - id: STR_ANTIMATTER_BOMB
     type_id: 4
@@ -2007,17 +2010,17 @@ ufopaedia:
       - STR_ELLERIUM_LAMP
     text: STR_ELLERIUM_LAMP_HUMAN_UFOPEDIA
 #-----Explosives
-  - id: STR_HB_GRENADE
+  - id: STR_BO_HYBRID_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HB_GRENADE_UFOPEDIA
+    text: STR_BO_HYBRID_GRENADE_UFOPEDIA
     requires:
       - STR_MEDIUM_HYBRID_BALLISTICS_WEAPONS
     listOrder: 3514
-  - id: STR_HB_GRENADE2
+  - id: STR_BO_HYBRID_GRENADE2
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HB_GRENADE2_UFOPEDIA
+    text: STR_BO_HYBRID_GRENADE2_UFOPEDIA
     requires:
       - STR_CHEMICAL_ROUNDS
     listOrder: 3515

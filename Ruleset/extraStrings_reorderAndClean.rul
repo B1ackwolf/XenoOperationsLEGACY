@@ -593,7 +593,7 @@
 #END CITY NAMES
 ###########################ojito reordenar
       STR_FIST_AID_KIT: "First Aid Kit"
-      STR_STARTING_MEDI_KIT: "Basic Medikit"
+      STR_STARTING_MEDI_KIT: "Standard Medikit"
       STR_BASIC_MEDI_KIT: "Field Surgery kit"
       STR_MEDI_KIT: "Advanced Medi-gel kit"
       STR_PILOT: Pilot
@@ -1375,10 +1375,10 @@
       STR_XP_AUTO_CANNON_BELT: 20mm Cannon Belt
       STR_XP_AUTO_CANNON_BELT2: 20mm Cannon Alloy Belt
       STR_XP_AUTO_CANNON_BELT3: 20mm Cannon Tech Belt
-      STR_INC_GRENADE: Napalm Grenade
+      STR_BO_FIERY_GRENADE: Napalm Grenade
       STR_ME_BASIC_KNIFE: Combat Knife
       STR_ME_KNUCKLES: Brass Knuckles
-      STR_XP_GRENADE: X Force Grenade
+      STR_BO_STICK_GRENADE: X Force Grenade
 
 #ojito reordenar arriba y dividir en dos tiers
 #-----Human Tier 1 Ballistic   {NEWLINE}{NEWLINE}
@@ -1497,10 +1497,10 @@
       STR_HB_ROCKET1: HY Elerium Missile
       STR_HB_ROCKET2: HY Chemical Missile
       STR_HB_BAZOOKA_UFOPEDIA: This rocket launcher is a hybrid of alien Codex technology and human technology. It fires a deadly elerium enhanced explosive rocket. While both the weapon and its ammo are expensive, their destructive force is beyond even the High Explosive.
-      STR_HB_GRENADE: Hybrid Grenade
-      STR_HB_GRENADE_UFOPEDIA: This grenade uses alien alloys to greatly enhance its explosive power while reducing its weight.
-      STR_HB_GRENADE2: Hybrid Chem Grenade
-      STR_HB_GRENADE2_UFOPEDIA: This grenade uses codex replication technology to create highly flammable chemicals.
+      STR_BO_HYBRID_GRENADE: Hybrid Grenade
+      STR_BO_HYBRID_GRENADE_UFOPEDIA: This grenade uses alien alloys to greatly enhance its explosive power while reducing its weight.
+      STR_BO_HYBRID_GRENADE2: Hybrid Chem Grenade
+      STR_BO_HYBRID_GRENADE2_UFOPEDIA: This grenade uses codex replication technology to create highly flammable chemicals.
 #-----Human Laser Weapons
       STR_LA_MAIN_PISTOL: Laser Pistol
       STR_LA_SMG: Laser Assaulter
@@ -1598,7 +1598,7 @@
       STR_ME_ALLOY_KNIFE: Alloy Knife
       STR_ANTIMATTER_BOMB: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
-      STR_ELERIUM_MINE: Elerium Mine
+      STR_AW_ELERIUM_MINE: Elerium Mine
       STR_HUMAN_SMALL_LAUNCHER: Small Launcher
       STR_HUMAN_STUN_BOMB: Stun Bomb
       STR_ANTIMATTER_LAUNCHER: Devastator Launcher
@@ -1863,16 +1863,16 @@
       STR_RL_AUTO_CANNON_UFOPEDIA: The Heavy Hypervelocity gun fires a large kinetic dart at extreme velocities. This heavy version fires slower than the repeater, but has more firepower.
       STR_RL_LMG_UFOPEDIA: The Hypervelocity Repeater has a high rate of fire that is excellent for suppression.
       STR_RL_BAZOOKA_UFOPEDIA: The Hypervelocity Cannon fires a large kinetic dart at extreme velocities. The dart has enough power to punch through pretty much anything.
-      STR_INC_GRENADE_UFOPEDIA: The Incendiary Grenade contains chemical elements that explode in a fiery blast when mixed. Useful for turning aliens into makeshift torches.
+      STR_BO_FIERY_GRENADE_UFOPEDIA: The Incendiary Grenade contains chemical elements that explode in a fiery blast when mixed. Useful for turning aliens into makeshift torches.
       STR_ME_BASIC_KNIFE_UFOPEDIA: The standard issue XCom Combat Knife is light and deadly being made out of high carbon steel that holds an edge well. This close combat weapon gives any soldier a suitable weapon in case the aliens get too close. Unlike the stun rod, a Soldier's strength is added to the Combat Knife's damage.
       STR_ME_KNUCKLES_UFOPEDIA: Brass Knuckles allow for our soldiers to use good old fashion fisticuffs to administer a classic Terran beat down. An alien would likely not be permanently killed by such a primitive hand to hand brawl, but it is useful to knock out an alien for live capture. Brass Knuckles are very light making it an easy and cheap addition to any soldier. Unlike the stun rod, this weapon adds the soldier's strength to the damage.
       STR_BASIC_MEDI_KIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
-      STR_XP_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
+      STR_BO_STICK_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
       STR_ME_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
       STR_ME_ALLOY_KNIFE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
       STR_ANTIMATTER_BOMB_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
-      STR_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
+      STR_AW_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
       STR_ANTIMATTER_LAUNCHER_UFOPEDIA: The Devastator Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
       STR_ANTIMATTER_LAUNCHER_BOMB_UFOPEDIA:
       STR_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
