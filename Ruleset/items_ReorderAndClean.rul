@@ -133,7 +133,21 @@ items:
     transferTime: 48
     clipSize: 1
     listOrder: 608
-
+  - type: STR_ELERIUM_CELL
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.025
+    costSell: 5000
+    weight: 1
+    bigSprite: 900
+    invWidth: 1
+    invHeight: 1
+    power: 0
+    battleType: 0
+    armor: 65
+    # ignoreInCraftEquip: true
+    # ignoreInBaseDefense: true
+    listOrder: 1001
 
 ######----- Support units -----##### 
 # ojito quizas se borre luego q se migre al otro metodo de armaduras. revisar de vuelta XFILES.
@@ -1023,10 +1037,18 @@ items:
     bigSprite: 14
     floorSprite: 12
     listOrder: 2128
+# ojito mejorar    
   - type: STR_ROCKET_LAUNCHER
     size: 0.4
     costBuy: 4000
     costSell: 3000
+    listOrder: 2129
+  - type: STR_SMALL_ROCKET
+    listOrder: 2130
+  - type: STR_LARGE_ROCKET
+    listOrder: 2131
+  - type: STR_INCENDIARY_ROCKET
+    listOrder: 2132
 ###-----Human second tier Ballistic eXperimental weapons-----###
   - type: STR_XP_SMALL_PISTOL
     size: 0.1
@@ -2157,8 +2179,6 @@ items:
       - STR_HB_SHOTGUN_SHELLS1
       - STR_HB_SHOTGUN_SHELLS2
       - STR_HB_SHOTGUN_SHELLS3
-      - STR_XP_SHOTGUN_SHELLS2
-      - STR_XP_SHOTGUN_SHELLS3
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 22
@@ -2183,7 +2203,7 @@ items:
     hitAnimation: 26
     power: 36
     damageType: 1
-    clipSize: 8
+    clipSize: 14
     shotgunPellets: 5
     battleType: 2
     listOrder: 2320
@@ -2197,7 +2217,7 @@ items:
     hitAnimation: 46
     power: 40
     damageType: 8
-    clipSize: 8
+    clipSize: 14
     shotgunPellets: 5
     battleType: 2
     listOrder: 2321
@@ -2211,7 +2231,7 @@ items:
     hitAnimation: 26
     power: 45
     damageType: 1
-    clipSize: 8
+    clipSize: 10
     shotgunPellets: 5
     battleType: 2
     listOrder: 2322
@@ -4074,7 +4094,7 @@ items:
     battleType: 2
     attraction: 1
     blastRadius: 1
-    listOrder: 4622
+    listOrder: 2622
   - type: STR_PM_LMG
     size: 0.2
     costSell: 171600
@@ -4315,9 +4335,9 @@ items:
     attraction: 1
     blastRadius: 3
     listOrder: 2634
-  - type: STR_ANTIMATTER_LAUNCHER
+  - type: STR_PM_ANTIMATTER_LAUNCHER
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     size: 0.3
     costSell: 144000
     weight: 16
@@ -4327,9 +4347,9 @@ items:
     bulletSprite: 10
     fireSound: 53
     compatibleAmmo:
-      - STR_ANTIMATTER_LAUNCHER_BOMB
-      - STR_ANTIMATTER_LAUNCHER_BOMB2
-      - STR_ANTIMATTER_LAUNCHER_BOMB3
+      - STR_PM_ANTIMATTER_LAUNCHER_BOMB1
+      - STR_PM_ANTIMATTER_LAUNCHER_BOMB2
+      - STR_PM_ANTIMATTER_LAUNCHER_BOMB3
     accuracyAimed: 100
     tuAimed: 80
     battleType: 1
@@ -4337,10 +4357,10 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 65
-    listOrder: 5511
-  - type: STR_ANTIMATTER_LAUNCHER_BOMB
+    listOrder: 2635
+  - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB1
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     size: 0.2
     costSell: 17028
     weight: 3
@@ -4356,10 +4376,10 @@ items:
     invHeight: 1
     waypoints: 5
     blastRadius: 3
-    listOrder: 5512
-  - type: STR_ANTIMATTER_LAUNCHER_BOMB2
+    listOrder: 2636
+  - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB2
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     size: 0.2
     costSell: 17028
     weight: 3
@@ -4374,10 +4394,10 @@ items:
     invWidth: 2
     invHeight: 1
     blastRadius: 10
-    listOrder: 5513
-  - type: STR_ANTIMATTER_LAUNCHER_BOMB3
+    listOrder: 2637
+  - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB3
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     size: 0.2
     costSell: 17028
     weight: 3
@@ -4393,9 +4413,9 @@ items:
     invHeight: 1
     waypoints: 5
     blastRadius: 10
-    listOrder: 5514
+    listOrder: 2638
 ###-----Human Stun Weapons Tier -----###
-  - type: STR_STUN_ROD #OJITO
+  - type: STR_STUN_ROD #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
     costBuy: 1260
     costSell: 945
@@ -4706,8 +4726,8 @@ items:
     battleType: 3
     clipSize: -1
     twoHanded: false
-    invWidth: 1
-    invHeight: 2
+    invWidth: 2
+    invHeight: 1
     armor: 65
     meleeSound: 87
     meleeHitSound: 88
@@ -4834,7 +4854,7 @@ items:
   - type: STR_HIGH_EXPLOSIVE #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 216
     listOrder: 2911
-  - type: STR_ANTIMATTER_BOMB
+  - type: STR_BO_ANTIMATTER_EXPLOSIVE
     size: 0.25
     costSell: 20000
     weight: 6
@@ -4850,25 +4870,11 @@ items:
     fuseType: -1
     twoHanded: true
     attraction: 6
-    listOrder: 2912
+    listOrder: 2913
 
     # reordenar desde aqui ojito
 ######items nuevos medicos, checar luego correcciones, ojito
-  - type: STR_ELERIUM_CELL
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.025
-    costSell: 5000
-    weight: 1
-    bigSprite: 900
-    invWidth: 1
-    invHeight: 1
-    power: 0
-    battleType: 0
-    armor: 65
-    # ignoreInCraftEquip: true
-    # ignoreInBaseDefense: true
-    listOrder: 1001
+
   - type: STR_ADRENO_SYRINGE
     size: 0.1
     costBuy: 900

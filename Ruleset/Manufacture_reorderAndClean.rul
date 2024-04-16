@@ -2691,10 +2691,10 @@ manufacture:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
     listOrder: 1474
-  - name: STR_ANTIMATTER_BOMB
+  - name: STR_BO_ANTIMATTER_EXPLOSIVE
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_ANTIMATTER_BOMB
+      - STR_BO_ANTIMATTER_EXPLOSIVE
     space: 2
     time: 160
     cost: 15000
@@ -2705,10 +2705,10 @@ manufacture:
     listOrder: 1475
 #--- Elerium and Antimatter Explosives ----------------------------------END
 #--- Fusion Weapons ----------------------------------
-  - name: STR_ANTIMATTER_LAUNCHER
+  - name: STR_PM_ANTIMATTER_LAUNCHER
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     space: 4
     time: 560
     cost: 175000
@@ -2716,10 +2716,10 @@ manufacture:
       STR_ALIEN_ALLOYS: 50
       STR_CODEX_FRAGMENT: 50
     listOrder: 1469
-  - name: STR_ANTIMATTER_LAUNCHER_BOMB
+  - name: STR_PM_ANTIMATTER_LAUNCHER_BOMB1
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     space: 2
     time: 40
     cost: 8400
@@ -2727,20 +2727,20 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 1
     listOrder: 1470
-  - name: STR_ANTIMATTER_LAUNCHER_BOMB2
+  - name: STR_PM_ANTIMATTER_LAUNCHER_BOMB2
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     space: 2
     time: 40
     cost: 8400
     requiredItems:
       STR_ELERIUM_115: 8
     listOrder: 1471
-  - name: STR_ANTIMATTER_LAUNCHER_BOMB3
+  - name: STR_PM_ANTIMATTER_LAUNCHER_BOMB3
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
     space: 2
     time: 40
     cost: 8400

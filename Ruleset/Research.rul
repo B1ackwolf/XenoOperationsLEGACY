@@ -1057,7 +1057,7 @@ research:
       - STR_ALIEN_PROX_GRENADE
       - STR_ELERIUM_EXPLOSIVES
       - STR_CODEX_3
-  - name: STR_ANTIMATTER_BOMB
+  - name: STR_BO_ANTIMATTER_EXPLOSIVE
     cost: 80
     points: 10
     dependencies:
@@ -1077,7 +1077,7 @@ research:
   - name: STR_MICRO_FUSION
     points: 30
     needItem: true
-  - name: STR_ANTIMATTER_LAUNCHER
+  - name: STR_PM_ANTIMATTER_LAUNCHER
     cost: 200
     points: 30
     dependencies:
@@ -1101,7 +1101,7 @@ research:
     cost: 280
     points: 25
     dependencies:
-      - STR_ANTIMATTER_LAUNCHER
+      - STR_PM_ANTIMATTER_LAUNCHER
       - STR_ANTI_GRAV_DEVICE
 #--Human Other Weapons  --------------------END
 #--Alien Gear --------------------

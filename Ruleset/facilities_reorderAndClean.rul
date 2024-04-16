@@ -43,6 +43,7 @@ facilities:
     mapName: XBASE_01
     personnel: 15
     monthlyCost: 15000
+    listOrder: 120
   - type: STR_WORKSHOP
     workshops: 20
   - type: STR_LABORATORY
@@ -124,6 +125,7 @@ facilities:
       - [17, 10, 0]
       - [17, 7, 0]
     mapName: XBASS_02
+    listOrder: 121
   - type: STR_GENERAL_STORES_2
     spriteShape: 309
     spriteFacility: 309

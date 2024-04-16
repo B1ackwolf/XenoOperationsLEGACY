@@ -617,7 +617,7 @@ extraSprites:
       315: Resources/WeaponrySprites/8thMelee/FloorOb/2HumanKnife_floor.gif
       430: Resources/WeaponrySprites/8ThMelee/FloorOb/3HumanAlloyKnife_floor.gif
       325: Resources/WeaponrySprites/8thMelee/FloorOb/6HumanLaserSword_floor.gif
-      431: Resources/WeaponrySprites/8thMelee/FloorOb/8HumanPlasmaSword_floor.gif
+      431: Resources/WeaponrySprites/8thMelee/FloorOb/8HumanPlasmaSword_floor.png
       372: Resources/WeaponrySprites/8thMelee/FloorOb/15AlienAlloyBlade_floor.gif
       369: Resources/WeaponrySprites/8thMelee/FloorOb/16AlienPlasmaBlade_floor.gif
 #----- Tier 8 Melee ends here -----#
@@ -794,7 +794,7 @@ extraSprites:
       460: Resources/WeaponrySprites/8thMelee/HandOb/2HumanKnife_hand.png
       1060: Resources/WeaponrySprites/8thMelee/HandOb/3HumanAlloyKnife_hand.png
       520: Resources/WeaponrySprites/8thMelee/HandOb/6HumanLaserSword_hand.png
-      1070: Resources/WeaponrySprites/8thMelee/HandOb/8HumanPlasmaSword_hand.gif
+      1070: Resources/WeaponrySprites/8thMelee/HandOb/8HumanPlasmaSword_hand.png
       930: Resources/WeaponrySprites/8thMelee/HandOb/15AlienAlloyBlade_hand.png
       800: Resources/WeaponrySprites/8thMelee/HandOb/16AlienPlasmaBlade_hand.gif
 #----- Tier 8 Melee ends here -----#
@@ -5183,12 +5183,3 @@ customPalettes:
   - type: PAL_GEOSCAPE_NEW
     target: PAL_GEOSCAPE
     file: Resources/GLOBE/LUKESGEOhybrid4.pal
-  # - type: PAL_BATTLESCAPE_1L83
-  #   target: PAL_BATTLESCAPE_1
-  #   file: Resources/Pals/FACTIONS_seadepth1.jasc
-  # - type: PAL_BATTLESCAPE_2L83
-  #   target: PAL_BATTLESCAPE_2
-  #   file: Resources/Pals/FACTIONS_seadepth2.jasc
-  # - type: PAL_BATTLESCAPE_3L83
-  #   target: PAL_BATTLESCAPE_3
-  #   file: Resources/Pals/FACTIONS_seadepth3.jasc 

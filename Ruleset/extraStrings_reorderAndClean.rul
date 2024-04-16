@@ -1596,15 +1596,15 @@
 #----- Ojito re ordenar todo esto
       STR_ME_PLASMA_SWORD: Plasma Sword
       STR_ME_ALLOY_KNIFE: Alloy Knife
-      STR_ANTIMATTER_BOMB: Antimatter Charge
+      STR_BO_ANTIMATTER_EXPLOSIVE: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
       STR_AW_ELERIUM_MINE: Elerium Mine
       STR_HUMAN_SMALL_LAUNCHER: Small Launcher
       STR_HUMAN_STUN_BOMB: Stun Bomb
-      STR_ANTIMATTER_LAUNCHER: Devastator Launcher
-      STR_ANTIMATTER_LAUNCHER_BOMB: Plasma Warhead
-      STR_ANTIMATTER_LAUNCHER_BOMB2: Antimatter Payload
-      STR_ANTIMATTER_LAUNCHER_BOMB3: Inferno Warhead
+      STR_PM_ANTIMATTER_LAUNCHER: Devastator Launcher
+      STR_PM_ANTIMATTER_LAUNCHER_BOMB1: Plasma Warhead
+      STR_PM_ANTIMATTER_LAUNCHER_BOMB2: Antimatter Payload
+      STR_PM_ANTIMATTER_LAUNCHER_BOMB3: Inferno Warhead
 #-----Human Shock Weapons
       STR_SHOCK_WEAPONS: Shock Weapons
       STR_SH_MAIN_PISTOL: Shock Pistol
@@ -1870,13 +1870,13 @@
       STR_BO_STICK_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
       STR_ME_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
       STR_ME_ALLOY_KNIFE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
-      STR_ANTIMATTER_BOMB_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
+      STR_BO_ANTIMATTER_EXPLOSIVE_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
       STR_AW_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
-      STR_ANTIMATTER_LAUNCHER_UFOPEDIA: The Devastator Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
-      STR_ANTIMATTER_LAUNCHER_BOMB_UFOPEDIA:
-      STR_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
-      STR_ANTIMATTER_LAUNCHER_BOMB3_UFOPEDIA:
+      STR_PM_ANTIMATTER_LAUNCHER_UFOPEDIA: The Devastator Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
+      STR_PM_ANTIMATTER_LAUNCHER_BOMB_UFOPEDIA:
+      STR_PM_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
+      STR_PM_ANTIMATTER_LAUNCHER_BOMB3_UFOPEDIA:
 #-----UFOPaedia XCom Vehicles and Heavy Weapons
       STR_UAV_UFOPEDIA: The Unmanned Aerial Vehicle RQ-40B 'Shuriken' excels at reconnaissance missions in open terrains, utilizing its silent hovering capabilities powered by fans. However, it features minimal armor and lacks weaponry, yet it possesses sufficient vertical lift capacity to carry a compact High Explosive charge. This allows it to deploy an explosive payload strategically onto unsuspecting enemies or, if necessary, execute a direct suicide run in critical situations.
       STR_UCAV_ROCKET_LAUNCHER_UFOPEDIA: The MQ-X 'Longbow' is the result of a joint effort between the USAF and the X-Com Research team. Leveraging Alien Alloys accessibility, they've successfully created a downsized REAPER drone. Armed with four compact 'Arrow' rockets, effective for eliminating light targets. However, its primary advantage is also their major drawback-its considerably reduced fuselage severely limits its potential flight range and autonomy, restricting its use to local operations.

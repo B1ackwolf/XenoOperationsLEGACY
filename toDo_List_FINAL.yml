@@ -2,6 +2,7 @@
 
 TL;DR VERSION:
  - confirmar y cambiar tanto nombres como referencias a los distintos mutons
+   * modificar tambien nombre de los rangos
  
  - verdes  > brutes  >
                       members of the hunters caste
@@ -33,7 +34,15 @@ TL;DR VERSION:
  - Base defense = 75X / 20e + 180 supplies
 
 + PRIORITIES FIXES:
+ - LO PRIMERO HACER MAÑANA 17, modificar de ufopedia a UFOPAEDIA.
+ - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
 
+ - pedir una opcion para reordenar bases, sea con flechitas o lo q sea, comentar el hecho q se mueven automaticamente por ejemplo cuando se elimina por completo una base.
+   * un ejemplo de mi uso es q yo siempre intento mantener una base principal > base de investigaciones > dos bases fabricadoras > una base de satelite
+   * pero si necesitara implementar bases de intercepcion, seria bueno poder mantener el orden de la satelital al final de todas
+
+ - checar que onda con el data recovery y el anomalous equation para las naves de transporte
+   * resuelto, pero tengo q ver donde meto esto quizas usarlo como requisito del ultimo paso para completar el codex
  - revisar enteramente arbol de investigaciones dandole enfasis a los siguientes proyectos
    * STR_CODEX_COMPLETE
    * STR_DATA_RECOVERY
@@ -47,12 +56,10 @@ TL;DR VERSION:
    * eliminar q ganen stats segun el nivel de dificultad, por lo tanto ahora regularizar mejor los stats a un promedio
    * se modificaran las cantidades totales de aliens
    * quizas modificar los parametros de BRUTAL IA en base al nivel (siempre sin hacer trampa)
- - crear todas las armas melee que faltan
- - acomodar bien la sprite de la escopeta hibrida y del bullpup basico para q sea mas iwi tavor
- - acomodar medallita de tiempo de servicio y pasarla a seis meses
  - acomodar el orden de los facilities TODOS
+   * se hace con el "listOrder" en cada edificio
+   * parece q es lo mismo con las armaduras, aunque me salte error
  - crear medalla para perros
-
  - modificar totalmente como funcionan los articulos medicos.
    * nivel 0 la jeringa de adreno y el pouch individual y descartable
    * nivel 1 el bolsito medico, pensado para unidades especializadas en curar.
@@ -64,39 +71,36 @@ TL;DR VERSION:
      ~ requeriria quizas nivel 3 del codex? (2 como minimo)
      ~ estaria atado a la mejora del edificio de la base de la clinica mejorada.    
    * terminar lo q vendria siendo los sickbays y los pisos desde el workshop grande en el mapviewer de agregarle la mugre 
-
- 
- - ya q voy a cambiar nombres de aviones, tambien cambiar TODOS los nombres de los cartuchos, recordar hacer esto a medida q modifico los nombres de los cargadores
-
  - acomodar sprites de aviones en ufopaedia
    * rehacerle la imagen al f35 mejorado con el coffin, foto en nuevo angulo
      ~ tambien al nuevo empress q sera el avion definitivo de XCOM.
    * revisar las descripciones y q nombres coincidan
-
  - mantener el sufijo "caballero" para las armaduras y tanques y demas?
    * usando nombres como
      ~ squire
      ~ knight
      ~ warden
      ~ paladin
+
+IMPORTANTE PARA LORE:
+ - xelloy esta compuesto de aleaciones complejas de materiales conocidos, aunque algunos tengamos en muy bajas cantidades, tambien tiene mundanas cantidades de elementos aun no conocidos para nosotros.
+ - los ufos no estan enteramente construidos de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
+ - el iridio tiene la ventaja sobre el titanio q mantiene su dureza incluso en altas temperaturas
  - la municion toxica es a base de POLONIO
  - usar municion mas densa hecha de paladio,titanio, tugsteno
  - municion de cañon de riel hecho de platino?, la ultra densa y rara hecha a base de osmio
 
- - xelloy esta compuesto de aleaciones complejas de materiales conocidos, aunque algunos tengamos en muy bajas cantidades, tambien tiene mundanas cantidades de elementos aun no conocidos para nosotros.
- - los ufos no estan enteramente construidos de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
- - el iridio tiene la ventaja sobre el titanio q mantiene su dureza incluso en altas temperaturas
 
  - revisar si hay otros rangos de medics de las otras razas ademas del floater y sectoid
    * resuelto esto, pero confirmado que el research tree necesita una revision EXHAUSTIVA.
  - checar que onda con el temita del need-item
- - checar que onda con el data recovery y el anomalous equation para las naves de transporte
-   * resuelto, pero tengo q ver donde meto esto quizas usarlo como requisito del ultimo paso para completar el codex
+
  - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
 
  - Checar que onda con elerium CELL
    * directamente revisar todos los "ojitos"
- - revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima
+  [revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima]
+     ~ esto se resolvio con brutal IA, igual seguir investigando
  - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
    * No matter how I modify the problem in the alien deployments tab, it still gives an error.
    * Continue investigating with EfrenEspartano to see what's going on.
@@ -305,11 +309,10 @@ TL;DR VERSION:
      ~ Some tank-like weapon, perhaps a "Kokodrile"?
  - Use "onehandpenalty" to define holographic swords like those in Mass Effect.
  - Finalize the sprite change for melee weapons using Woofington files.
-   * Green plasma almost like a Kopesh.
-   * Laser like a saw with a beam.
-   * Create a xelloy sword.
-   * Create a progressive knife equivalent to the laser tier, cutting at the molecular level through vibrations (Evangelion).
-   * Finalize lore for the Xelloy knife, simply sharper, lighter, and never rusts or wears out.
+   * Modify the handobs of the laser knife, plasma knife (both using the xelloy knife as example), alloy sword and plasma sword (using laser sword as an guide).
+     ~ also improve the laser sword handob slighty.
+   * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
+   * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out.
  - Implement a recoil system.
    * Each consecutive shot with a weapon in the same turn generates an accuracy debuff.
      ~ Mitigated by the soldier's accuracy and strength stats.
@@ -584,6 +587,26 @@ TL;DR VERSION:
 
 #####
 
+
+   
+#####
+
++ This should be the new ListOrder of the item/weapon:
+
+ - This is roughly the new listorder in equip weapon window and ufopaedia.
+   * Basic weaponry.
+   * Xperimental weaponry.
+   * Hybrid weaponry.
+   * Laser weaponry.
+   * Human Plasma Weaponry.
+   * Stun weaponry.
+   * Human ordnance.
+   * Melee weaponry.
+   * Alien weaponry.
+   * Alien ordnance.
+   * Misc items (medicals, psi warfare, lamps).
+   * Alien Misc items.
+
 + This should be the new order in the ufopaedia:
 
  - This is the listorder of categories.
@@ -596,41 +619,6 @@ TL;DR VERSION:
    * 600= codex techs
    * (????)= the rest
    * last one=> commendations
-   
-#####
-
-+ This should be the new ListOrder of the item/weapon:
-
- - This is roughly the new listorder in equip weapon window.
-   * Basic weaponry
-   * Xperimental weaponry
-   * Hybrid weaponry
-   * Laser weaponry
-   * Human Plasma Weaponry
-   * Stun weaponry
-   * Human ordnance
-   * Melee weaponry
-   * Misc items (medicals, psi warfare, lamps)
-   * Alien weaponry
-   * Alien ordnance
-
- - This is roughly the new listorder in the ufopedia.
-   * Basic weaponry
-   * Basic ordnance
-   * Xperimental weaponry
-   * Xperimental ordnance
-   * Hybrid weaponry
-   * Hybrid ordnance
-   * Laser weaponry
-   * Human Plasma Weaponry
-   * Plasma/elerium ordnance
-   * Stun weaponry
-   * stun ordnance
-   * Melee weaponry
-   * Misc items (medicals, psi warfare, lamps)
-   * Alien weaponry
-   * Alien ordnance
-
 
 Posibles descripciones mutones:
 

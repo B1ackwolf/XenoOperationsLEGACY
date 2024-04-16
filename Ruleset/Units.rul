@@ -645,7 +645,6 @@ units:
     builtInWeaponSets:
       -
         - STR_AW_ALLOY_BLADE
-        - STR_AW_ALLOY_BLADE
 # Formics #
   - type: STR_FORMIC
     race: STR_FORMIC
