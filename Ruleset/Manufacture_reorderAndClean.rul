@@ -103,17 +103,17 @@ manufacture:
       STR_CODEX_FRAGMENT: 10
       STR_ALIEN_ALLOYS: 1
     listOrder: 1491
-  - name: STR_ELLERIUM_LAMP_HUMAN
+  - name: STR_EX_ELERIUM_LAMP
     category: STR_EQUIPMENT
     requires:
-      - STR_ELLERIUM_LAMP
+      - STR_EX_ALIEN_ELERIUM_LAMP
     space: 2
     time: 40
     cost: 8000
     requiredItems:
       STR_ELERIUM_115: 1
     listOrder: 1492
-  - name: STR_PSI_AMP_SMALL
+  - name: STR_EX_PSI_AMP_SMALL
     category: STR_EQUIPMENT
     requires:
       - STR_PSIONIC_WARFARE
@@ -137,10 +137,10 @@ manufacture:
       STR_CODEX_FRAGMENT: 25
       STR_ALIEN_ALLOYS: 25
     listOrder: 1494
-  - name: STR_PSI_AMP_LARGE
+  - name: STR_EX_PSI_AMP_LARGE
     category: STR_EQUIPMENT
     requires:
-      - STR_PSI_AMP_LARGE
+      - STR_EX_PSI_AMP_LARGE
     space: 9
     time: 600
     cost: 2500000
@@ -2680,10 +2680,10 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     listOrder: 1473
-  - name: STR_AW_ELERIUM_MINE
+  - name: STR_BO_ELERIUM_MINE
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_AW_ELERIUM_MINE
+      - STR_BO_ELERIUM_MINE
     space: 1
     time: 80
     cost: 8000

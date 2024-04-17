@@ -28,7 +28,90 @@ items:
   - delete: STR_TANK_LASER_CANNON
   - delete: STR_POWER_SUIT
   - delete: STR_FLYING_SUIT
-#----- Deleting Final -----# 
+#----- Deleting Final -----#
+#----- Pockets Items -----#
+  - type: STR_NULL_JETPACK
+    bigSprite: 2989
+    weight: 0
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+    battleType: 11
+  - type: STR_NULL_BACKPACK
+    bigSprite: 2990
+    weight: 0
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+    battleType: 11
+  - type: STR_NULL_SMALL_BACKPACK
+    bigSprite: 2991
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+    battleType: 11
+  - type: STR_NULL_BELT
+    bigSprite: 2992
+    weight: 0
+    invWidth: 4
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BELT
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_RS
+    bigSprite: 2993
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_SHOULDER
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_LS
+    bigSprite: 2994
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_SHOULDER
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_RL
+    bigSprite: 2995
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_LL
+    bigSprite: 2996
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false
+    battleType: 11
+  - type: STR_NULL_HOLSTER
+    bigSprite: 2997
+    weight: 0
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_QD_SLOT
+    recover: false
+    battleType: 11
+#----- Pocket blanks items ending -----#
 #----- Codex related -----#
   - type: STR_CODEX_1
     size: .5
@@ -90,11 +173,52 @@ items:
     listOrder: 9
   - type: STR_ELERIUM_115
     listOrder: 10
-# ojito que debo modificar cuales aviones usaran combustible especial    
-  - type: STR_XCF_FUEL
+#----- Manufactured items for profit -----#
+  - type: STR_GOODS
     size: 0.1
-    costSell: 1250
-    listOrder: 1005
+    costSell: 8500
+    battleType: 0
+    transferTime: 24
+    listOrder: 11
+  - type: STR_GOODS_2
+    size: 0.1
+    costSell: 9250
+    battleType: 0
+    transferTime: 24
+    listOrder: 12
+  - type: STR_GOODS_3
+    size: 0.1
+    costSell: 9500
+    battleType: 0
+    transferTime: 24
+    listOrder: 13
+  - type: STR_GOODS_4
+    size: 0.1
+    costSell: 9750
+    battleType: 0
+    transferTime: 24
+    listOrder: 14
+  - type: STR_GOODS_5
+    size: 0.1
+    costSell: 10000
+    battleType: 0
+    transferTime: 24
+    listOrder: 15
+  - type: STR_GOODS_6
+    size: 0.1
+    costSell: 15000
+    battleType: 0
+    transferTime: 24
+    listOrder: 16
+  - type: STR_GOODS_7
+    size: 0.1
+    costSell: 20000
+    battleType: 0
+    transferTime: 24
+    listOrder: 17
+
+##### OJITO ORDENAR AQUI ABAJO #####
+
 #----- UFOs Components -----#
   - type: STR_ALIEN_HABITAT
     size: 0.1
@@ -148,7 +272,11 @@ items:
     # ignoreInCraftEquip: true
     # ignoreInBaseDefense: true
     listOrder: 1001
-
+# ojito que debo modificar cuales aviones usaran combustible especial    
+  - type: STR_XCF_FUEL
+    size: 0.1
+    costSell: 1250
+    listOrder: 1005
 ######----- Support units -----##### 
 # ojito quizas se borre luego q se migre al otro metodo de armaduras. revisar de vuelta XFILES.
   - type: STR_LAND_DRONE
@@ -469,8 +597,248 @@ items:
     hitSound: 0
     hitAnimation: 0
     listOrder: 9000
+##########DOGGOS##########
+  - type: STR_DOGE
+    # categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 2
+    costSell: 8000
+    listOrder: 10489
+  - type: STR_DOGE_CORPSE
+    weight: 25
+    bigSprite: 165
+    floorSprite: 165
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    recoveryPoints: 1
+    armor: 65
+  - type: STR_DOGE_COMBAT_VEST_CORPSE
+    weight: 28
+    bigSprite: 166
+    floorSprite: 166
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    recoveryPoints: 1
+    armor: 65
+  - type: STR_DOGE_DURATHREAD_VEST_CORPSE
+    weight: 26
+    bigSprite: 167
+    floorSprite: 167
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    recoveryPoints: 1
+    armor: 65
+  - type: STR_DOGE_ALLOY_VEST_CORPSE
+    weight: 27
+    bigSprite: 168
+    floorSprite: 168
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    recoveryPoints: 1
+    armor: 65
+  - type: STR_DOGE_CYBERSUIT_CORPSE
+    weight: 30
+    bigSprite: 1068
+    floorSprite: 918
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    recoveryPoints: 1
+    armor: 65
+# auxiliaries armours
+    # categories: [STR_HUMAN_TECH, STR_OUTFITS]
+  - type: STR_DOGE_COMBAT_VEST
+    requires:
+      - STR_TAC_INF_TECH
+    size: 0.5
+    costBuy: 0
+    costSell: 4000
+    listOrder: 10490
+  - type: STR_DOGE_DURATHREAD_VEST
+    size: 0.5
+    costSell: 6000
+    listOrder: 10491
+  - type: STR_DOGE_AA_VEST
+    size: 0.5
+    costSell: 30000
+    listOrder: 10492
+  - type: STR_DOGE_BARK
+    weight: 0
+    bigSprite: 874
+    bulletSprite: 27
+    hitAnimation: 206
+    floorSprite: 0
+    handSprite: 0
+    fireSound: 248
+    damageType: 0
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    power: 20
+    damageAlter:
+      RandomType: 2
+      IgnoreDirection: true
+      ToHealth: 0.0
+      ToStun: 0.0
+      ToTile: 0
+      ToTime: 2.0
+      ToMorale: 2.0
+      RandomWound: false
+      ToWound: 0
+      ArmorEffectiveness: 0.1
+    accuracySnap: 70
+    accuracyMultiplier:
+      reactions: 1.3
+    costSnap:
+      time: 9
+      energy: 4
+    battleType: 1
+    clipSize: -1
+    flatRate: true
+    maxRange: 3
+    powerRangeThreshold: 4
+    powerRangeReduction: 999
+    bulletSpeed: 9999
+    experienceTrainingMode: 23
+    defaultInventorySlot: STR_LEFT_HAND
+    recover: false
+    listOrder: 17513
+  - type: STR_DOGE_TRACK
+    # categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 981
+    floorSprite: 0
+    handSprite: 0
+    specialIconSprite: 108
+    fireSound: 687
+    battleType: 7
+    tuUse: 15
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    defaultInventorySlot: STR_LEFT_HAND
+    costUse:
+      time: 15
+      morale: 20
+  - type: STR_DOGE_BITE
+    # categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 181
+    floorSprite: 0
+    handSprite: 0
+    power: 40
+    costMelee:
+      energy: 7
+      time: 10
+    damageType: 7
+    meleeSound: [249, 248]
+    meleeHitSound: [685, 686]
+    accuracyMelee: 100
+    battleType: 3
+    fixedWeapon: true
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    experienceTrainingMode: 13
+    recover: false
+    listOrder: 17580
 
-# ojito revisar desde aqui
+########################## Pockets Items #########################
+  - type: STR_NULL_JETPACK
+    bigSprite: 2989
+    weight: 0
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+    battleType: 11
+  - type: STR_NULL_BACKPACK
+    bigSprite: 2990
+    weight: 0
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+    battleType: 11
+  - type: STR_NULL_SMALL_BACKPACK
+    bigSprite: 2991
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+    battleType: 11
+  - type: STR_NULL_BELT
+    bigSprite: 2992
+    weight: 0
+    invWidth: 4
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BELT
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_RS
+    bigSprite: 2993
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_SHOULDER
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_LS
+    bigSprite: 2994
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_SHOULDER
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_RL
+    bigSprite: 2995
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+    battleType: 11
+  - type: STR_NULL_POCKET_LL
+    bigSprite: 2996
+    weight: 0
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false
+    battleType: 11
+  - type: STR_NULL_HOLSTER
+    bigSprite: 2997
+    weight: 0
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_QD_SLOT
+    recover: false
+    battleType: 11
+
+# ojito ver como incluir esto de aqui
   # - type: STR_AC_AP_AMMO
   #   handSprite: 288
   # - type: STR_AC_HE_AMMO
@@ -488,6 +856,9 @@ items:
   #   handSprite: 1352
   # - type: STR_PISTOL_CLIP
   #   handSprite: 1366
+
+##### OJITO ORDENAR AQUI HASTA ARRIBA QUE MARCA #####
+
 ###-----Human first tier Ballistic terran weapons-----###
   - type: STR_ST_SMALL_PISTOL
     size: 0.1
@@ -4459,7 +4830,7 @@ items:
     armor: 65
     maxRange: 4
     attraction: 6
-    listOrder: 2702
+    listOrder: 2704
   - type: STR_STR_SH_SMALL_PISTOL_CLIP
     size: 0.1
     costBuy: 200
@@ -4476,7 +4847,7 @@ items:
     battleType: 2
     armor: 65
     attraction: 6
-    listOrder: 2703
+    listOrder: 2705
   - type: STR_SH_MAIN_PISTOL
     size: 0.1
     costSell: 600
@@ -4501,7 +4872,7 @@ items:
     snapRange: 10
     minRange: 0
     dropoff: 2
-    listOrder: 2704
+    listOrder: 2706
   - type: STR_SH_RIFLE
     size: 0.2
     costSell: 2250
@@ -4526,7 +4897,7 @@ items:
     snapRange: 14
     minRange: 0
     dropoff: 2
-    listOrder: 2705
+    listOrder: 2707
   - type: STR_SH_MAIN_PISTOL_BATTERY
     size: 0.025
     costSell: 150
@@ -4541,7 +4912,7 @@ items:
     blastRadius: 0
     clipSize: 12
     battleType: 2
-    listOrder: 2706
+    listOrder: 2708
   - type: STR_SH_HEAVY_CANNON
     size: 0.2
     costSell: 2250
@@ -4566,7 +4937,7 @@ items:
     snapRange: 14
     minRange: 0
     dropoff: 2
-    listOrder: 2707
+    listOrder: 2709
   - type: STR_SH_HEAVY_CANNON_BATTERY
     size: 0.025
     costSell: 150
@@ -4581,7 +4952,7 @@ items:
     blastRadius: 0
     clipSize: 10
     battleType: 2
-    listOrder: 2708
+    listOrder: 2710
   - type: STR_SH_GRENADE
     size: 0.05
     costSell: 5000
@@ -4593,7 +4964,7 @@ items:
     damageType: 6
     battleType: 4
     blastRadius: 4
-    listOrder: 2709
+    listOrder: 2711
 ###-----Human Melee tier weapons-----###
   - type: STR_ME_KNUCKLES
     size: 0.01
@@ -4809,8 +5180,6 @@ items:
     blastRadius: 2
     fuseType: -1
     listOrder: 2905
-
-
   - type: STR_BO_HYBRID_GRENADE
     size: 0.05
     costSell: 8000
@@ -4854,6 +5223,19 @@ items:
   - type: STR_HIGH_EXPLOSIVE #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 216
     listOrder: 2911
+  - type: STR_BO_ELERIUM_MINE #ojito cambiar nombre q esta es humana
+    size: 0.025
+    costSell: 17500
+    weight: 3
+    bigSprite: 433
+    floorSprite: 433
+    power: 90
+    damageType: 3
+    battleType: 5
+    blastRadius: 4
+    fuseType: -1
+    attraction: 6
+    listOrder: 2912
   - type: STR_BO_ANTIMATTER_EXPLOSIVE
     size: 0.25
     costSell: 20000
@@ -4871,11 +5253,713 @@ items:
     twoHanded: true
     attraction: 6
     listOrder: 2913
-
-    # reordenar desde aqui ojito
-######items nuevos medicos, checar luego correcciones, ojito
-
-  - type: STR_ADRENO_SYRINGE
+#----- Tenth tier Alien Weaponry -----#
+  - type: STR_AW_MAIN_PISTOL
+    requires:
+      - STR_LIGHT_ALIEN_WEAPONS
+      - STR_AW_MAIN_PISTOL
+    size: 0.1
+    costSell: 84000
+    weight: 3
+    bigSprite: 350
+    floorSprite: 350
+    handSprite: 900
+    compatibleAmmo:
+      - STR_AW_MAIN_PISTOL_CLIP1
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 85
+    tuAuto: 30
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 65
+    attraction: 10
+    maxRange: 200
+    aimRange: 40
+    snapRange: 20
+    minRange: 0
+    dropoff: 2
+    listOrder: 3001
+  - type: STR_AW_MAIN_PISTOL_CLIP1
+    requires:
+      - STR_LIGHT_ALIEN_WEAPONS
+      - STR_AW_MAIN_PISTOL
+    size: 0.025
+    costSell: 4440
+    weight: 3
+    bigSprite: 351
+    floorSprite: 351
+    bulletSprite: 11
+    fireSound: 601
+    hitSound: 19
+    hitAnimation: 66
+    power: 56
+    damageType: 5
+    clipSize: 26
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3002
+  - type: STR_AW_SMG
+    requires:
+      - STR_LIGHT_ALIEN_WEAPONS
+      - STR_AW_SMG
+    size: 0.1
+    costSell: 89000
+    weight: 4
+    bigSprite: 352
+    floorSprite: 352
+    handSprite: 880
+    compatibleAmmo:
+      - STR_AW_SMG_CLIP1
+    accuracyAuto: 52
+    accuracySnap: 75
+    accuracyAimed: 97
+    tuAuto: 28
+    tuSnap: 25
+    tuAimed: 45
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 65
+    attraction: 10
+    maxRange: 200
+    aimRange: 200
+    snapRange: 17
+    autoRange: 9
+    minRange: 0
+    dropoff: 2
+    listOrder: 3003
+  - type: STR_AW_SMG_CLIP1
+    requires:
+      - STR_LIGHT_ALIEN_WEAPONS
+      - STR_AW_SMG
+    size: 0.025
+    costSell: 4600
+    weight: 3
+    bigSprite: 353
+    floorSprite: 353
+    bulletSprite: 11
+    fireSound: 601
+    hitSound: 19
+    hitAnimation: 66
+    power: 67
+    damageType: 5
+    clipSize: 30
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3004
+  - type: STR_AW_SHOTGUN
+    requires:
+      - STR_AW_SHOTGUN
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 356
+    floorSprite: 356
+    handSprite: 890
+    compatibleAmmo:
+      - STR_AW_SHOTGUN_CLIP1
+    accuracyAuto: 40
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuAuto: 40
+    tuSnap: 33
+    tuAimed: 65
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 65
+    attraction: 10
+    maxRange: 200
+    aimRange: 200
+    snapRange: 18
+    minRange: 0
+    dropoff: 2
+    listOrder: 3005
+  - type: STR_AW_SHOTGUN_CLIP1
+    requires:
+      - STR_AW_SHOTGUN
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.025
+    costSell: 6290
+    weight: 3
+    bigSprite: 357
+    floorSprite: 357
+    bulletSprite: 11
+    fireSound: 607
+    hitSound: 19
+    hitAnimation: 66
+    power: 60
+    damageType: 5
+    clipSize: 12
+    shotgunPellets: 4
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3006
+  - type: STR_AW_RIFLE
+    requires:
+      - STR_AW_RIFLE
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 354
+    floorSprite: 354
+    handSprite: 910
+    compatibleAmmo:
+      - STR_AW_RIFLE_CLIP1
+      - STR_AW_RIFLE_CLIP2
+      - STR_AW_RIFLE_CLIP3
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 110
+    tuAuto: 36
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 65
+    attraction: 10
+    maxRange: 200
+    aimRange: 200
+    snapRange: 25
+    autoRange: 15
+    minRange: 0
+    dropoff: 2
+    listOrder: 3007
+  - type: STR_AW_RIFLE_CLIP1
+    requires:
+      - STR_MEDIUM_ALIEN_WEAPONS
+      - STR_AW_RIFLE
+    size: 0.025
+    costSell: 6290
+    weight: 3
+    bigSprite: 355
+    floorSprite: 355
+    bulletSprite: 11
+    fireSound: 607
+    hitSound: 19
+    hitAnimation: 66
+    power: 80
+    damageType: 5
+    clipSize: 28
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3008
+  - type: STR_AW_RIFLE_CLIP2
+    requires:
+      - STR_AW_RIFLE_CLIP2
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.025
+    costSell: 6690
+    weight: 3
+    bigSprite: 402
+    floorSprite: 402
+    bulletSprite: 8
+    fireSound: 607
+    hitSound: 19
+    hitAnimation: 46
+    power: 96
+    damageType: 5
+    clipSize: 19
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3009
+  - type: STR_AW_RIFLE_CLIP3
+    requires:
+      - STR_AW_RIFLE_CLIP3
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.025
+    costSell: 6990
+    weight: 3
+    bigSprite: 403
+    floorSprite: 403
+    bulletSprite: 12
+    fireSound: 607
+    hitSound: 19
+#    hitAnimation: 76
+    power: 72
+    damageType: 3
+    clipSize: 10
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    blastRadius: 1
+    listOrder: 3010
+  - type: STR_AW_LMG
+    requires:
+      - STR_AW_LMG
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 360
+    floorSprite: 360
+    handSprite: 860
+    compatibleAmmo:
+      - STR_AW_LMG_CLIP1
+      - STR_AW_LMG_CLIP2
+      - STR_AW_LMG_CLIP3
+    accuracyAuto: 48
+    accuracySnap: 73
+    accuracyAimed: 95
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 65
+    attraction: 10
+    maxRange: 200
+    aimRange: 200
+    snapRange: 25
+    autoRange: 12
+    minRange: 0
+    dropoff: 2
+    listOrder: 3011
+  - type: STR_AW_LMG_CLIP1
+    requires:
+      - STR_AW_LMG
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.1
+    costSell: 9590
+    weight: 3
+    bigSprite: 361
+    floorSprite: 361
+    bulletSprite: 11
+    fireSound: 610
+    hitSound: 19
+    hitAnimation: 66
+    power: 115
+    damageType: 5
+    clipSize: 15
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3012
+  - type: STR_AW_LMG_CLIP2
+    requires:
+      - STR_AW_LMG_CLIP2
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.1
+    costSell: 12200
+    weight: 3
+    bigSprite: 408
+    floorSprite: 408
+    bulletSprite: 8
+    fireSound: 610
+    hitSound: 19
+    hitAnimation: 46
+    power: 138
+    damageType: 5
+    clipSize: 10
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3013
+  - type: STR_AW_LMG_CLIP3
+    requires:
+      - STR_AW_LMG_CLIP3
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.1
+    costSell: 14000
+    weight: 3
+    bigSprite: 409
+    floorSprite: 409
+    bulletSprite: 12
+    fireSound: 610
+    hitSound: 19
+#    hitAnimation: 76
+    power: 104
+    damageType: 3
+    clipSize: 5
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    blastRadius: 2
+    listOrder: 3014
+  - type: STR_AW_SNIPER
+    requires:
+      - STR_AW_SNIPER
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 150000
+    weight: 7
+    bigSprite: 358
+    floorSprite: 358
+    handSprite: 920
+    compatibleAmmo:
+      - STR_AW_SNIPER_CLIP1
+      - STR_AW_SNIPER_CLIP2
+    accuracySnap: 90
+    accuracyAimed: 125
+    tuSnap: 36
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 65
+    attraction: 10
+    maxRange: 200
+    aimRange: 200
+    snapRange: 28
+    minRange: 4
+    dropoff: 2
+    listOrder: 3015
+  - type: STR_AW_SNIPER_CLIP1
+    requires:
+      - STR_AW_SNIPER
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.025
+    costSell: 7000
+    weight: 3
+    bigSprite: 359
+    floorSprite: 359
+    bulletSprite: 11
+    fireSound: 609
+    hitSound: 19
+    hitAnimation: 66
+    power: 95
+    damageType: 5
+    clipSize: 8
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3016
+  - type: STR_AW_SNIPER_CLIP2
+    requires:
+      - STR_AW_SNIPER_CLIP2
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.025
+    costSell: 7700
+    weight: 3
+    bigSprite: 406
+    floorSprite: 406
+    bulletSprite: 8
+    fireSound: 609
+    hitSound: 19
+    hitAnimation: 46
+    power: 114
+    damageType: 5
+    clipSize: 5
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3017
+  - type: STR_AW_HEAVY_CANNON
+    requires:
+      - STR_AW_HEAVY_CANNON
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 250000
+    weight: 10
+    bigSprite: 362
+    floorSprite: 362
+    handSprite: 870
+    fireSound: 610
+    compatibleAmmo:
+      - STR_AW_HEAVY_CANNON_CLIP1
+      - STR_AW_HEAVY_CANNON_CLIP3
+    accuracySnap: 70
+    accuracyAimed: 100
+    tuSnap: 36
+    tuAimed: 65
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 6
+    armor: 65
+    attraction: 10
+    maxRange: 200
+    aimRange: 200
+    snapRange: 15
+    minRange: 5
+    dropoff: 2
+    listOrder: 3018
+  - type: STR_AW_HEAVY_CANNON_CLIP1
+    requires:
+      - STR_AW_HEAVY_CANNON
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 12000
+    weight: 3
+    bigSprite: 363
+    floorSprite: 363
+    bulletSprite: 11
+    hitSound: 19
+    hitAnimation: 66
+    power: 150
+    damageType: 5
+    clipSize: 8
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3019
+  - type: STR_AW_HEAVY_CANNON_CLIP3
+    requires:
+      - STR_AW_HEAVY_CANNON_CLIP3
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 16000
+    weight: 3
+    bigSprite: 411
+    floorSprite: 411
+    bulletSprite: 12
+    hitSound: 19
+#    hitAnimation: 76
+    power: 135
+    damageType: 3
+    clipSize: 3
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    blastRadius: 3
+    listOrder: 3021
+# Elite alien weaponry    
+  - type: STR_AW_ELITE_RIFLE
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 391
+    floorSprite: 391
+    handSprite: 1030
+    bulletSprite: 8
+    fireSound: 607
+    compatibleAmmo:
+      - STR_AW_ELITE_RIFLE_CLIP
+    accuracyAuto: 70
+    accuracySnap: 85
+    accuracyAimed: 130
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 65
+    attraction: 1
+    listOrder: 3030 #ojito modificar cuando agregue armas elite nuevas
+  - type: STR_AW_ELITE_RIFLE_CLIP
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE_CLIP
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 392
+    floorSprite: 392
+    hitSound: 19
+    hitAnimation: 46
+    power: 125
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 1
+    listOrder: 3031 #ojito modificar cuando agregue armas elites nuevas
+# Extra alien weaponry
+  - type: STR_SMALL_LAUNCHER #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_MEDIUM_ALIEN_WEAPONS
+    bigSprite: 375
+    floorSprite: 375
+    handSprite: 1020
+    bulletSprite: 9
+    attraction: 10
+    size: 0.2
+    costSell: 120000
+    weight: 10
+    fireSound: 1016
+    compatibleAmmo:
+      - STR_STUN_BOMB
+      - STR_STUN_BOMB2
+      - STR_STUN_BOMB3
+    accuracySnap: 65
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 4
+    listOrder: 3040
+  - type: STR_STUN_BOMB #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_STUN_BOMB
+      - STR_MEDIUM_ALIEN_WEAPONS
+    bigSprite: 376
+    floorSprite: 376
+    attraction: 10
+    size: 0.1
+    costSell: 15200
+    weight: 3
+    hitSound: 0
+    hitAnimation: 0
+    power: 90
+    damageType: 6
+    clipSize: 6
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    recoveryPoints: 1
+    listOrder: 3041
+  - type: STR_STUN_BOMB2
+    requires:
+      - STR_STUN_BOMB2
+      - STR_MEDIUM_ALIEN_WEAPONS
+    bigSprite: 400
+    floorSprite: 400
+    attraction: 10
+    size: 0.1
+    costSell: 15200
+    weight: 3
+    hitSound: 0
+    hitAnimation: 0
+    power: 90
+    damageType: 8
+    clipSize: 6
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    recoveryPoints: 1
+    listOrder: 3042
+  - type: STR_STUN_BOMB3
+    requires:
+      - STR_STUN_BOMB3
+      - STR_HEAVY_ALIEN_WEAPONS
+    bigSprite: 401
+    floorSprite: 401
+    attraction: 10
+    size: 0.1
+    costSell: 15200
+    weight: 3
+    hitSound: 0
+    hitAnimation: 0
+    power: 90
+    damageType: 3
+    clipSize: 6
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    recoveryPoints: 1
+    listOrder: 3043
+  - type: STR_BLASTER_LAUNCHER #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_BLASTER_LAUNCHER
+      - STR_SPECIAL_ALIEN_WEAPONS
+    size: 0.3
+    costSell: 144000
+    weight: 16
+    bigSprite: 35
+    floorSprite: 34
+    handSprite: 56
+    bulletSprite: 10
+    fireSound: 53
+    compatibleAmmo:
+      - STR_BLASTER_BOMB
+    accuracyAimed: 120
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    waypoints: 5
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 65
+    listOrder: 3044
+  - type: STR_BLASTER_BOMB #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_BLASTER_BOMB
+      - STR_SPECIAL_ALIEN_WEAPONS
+    bigSprite: 373
+    floorSprite: 373
+    handSprite: 1280
+    invWidth: 2
+    invHeight: 1
+    attraction: 10
+    listOrder: 3045
+#----- Alien Ordnance Tier -----#
+  - type: STR_ALIEN_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_ALIEN_GRENADE
+      - STR_LIGHT_ALIEN_WEAPONS
+    bigSprite: 364
+    blastRadius: 3
+    fuseType: -1
+    floorSprite: 364
+    handSprite: 850
+    attraction: 6
+    listOrder: 3051
+  - type: STR_AW_PROXY_GRENADE
+    requires:
+      - STR_AW_PROXY_GRENADE
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.025
+    costSell: 17500
+    weight: 3
+    bigSprite: 370
+    floorSprite: 370
+    power: 95
+    damageType: 3
+    battleType: 5
+    blastRadius: 4
+    fuseType: -2
+    recoveryPoints: 1
+    attraction: 6
+    listOrder: 3052
+  - type: STR_AW_DEMOLITION_EXPLOSIVE
+    requires:
+      - STR_AW_DEMOLITION_EXPLOSIVE
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.25
+    costSell: 20000
+    weight: 5
+    bigSprite: 366
+    floorSprite: 366
+    handSprite: 1040
+    power: 225
+    damageType: 3
+    battleType: 4
+    invWidth: 1
+    invHeight: 2
+    blastRadius: 8
+    fuseType: -1
+    recoveryPoints: 1
+    attraction: 6
+    listOrder: 3053
+#----- Misc Tier -----#
+# Medicals items
+  - type: STR_EX_ADRENO_KIT
     size: 0.1
     costBuy: 900
     costSell: 400
@@ -4894,8 +5978,8 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 15
-    listOrder: 4596
-  - type: STR_FIST_AID_KIT
+    listOrder: 3101
+  - type: STR_EX_FIST_AID_KIT
     size: 0.2
     costBuy: 800
     costSell: 250
@@ -4915,8 +5999,8 @@ items:
       time: 20
     flatRate: false
     attraction: 5
-    listOrder: 4597
-  - type: STR_STARTING_MEDI_KIT
+    listOrder: 3102
+  - type: STR_EX_BASIC_MEDI_KIT
     size: 0.5
     costBuy: 7000
     costSell: 2000
@@ -4938,8 +6022,8 @@ items:
       time: 12
     flatRate: false
     attraction: 5
-    listOrder: 4598
-  - type: STR_BASIC_MEDI_KIT
+    listOrder: 3103
+  - type: STR_EX_IMPROVED_MEDI_KIT
     size: 0.6
     costBuy: 9500
     costSell: 1250
@@ -4959,11 +6043,15 @@ items:
     energyRecovery: 15
     tuUse: 16
     flatRate: true
-    listOrder: 4599
-  - type: STR_MEDI_KIT
+    listOrder: 3104
+  - type: STR_MEDI_KIT #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 208
-#ojito lampara
-  - type: STR_ELLERIUM_LAMP_HUMAN
+    listOrder: 3105
+# Ilumination items
+  - type: STR_ELECTRO_FLARE #ojito luego cambiar nombre para mantener nomenclatura
+    handSprite: 240
+    listOrder: 3110
+  - type: STR_EX_ELERIUM_LAMP
     size: 0.025
     costSell: 10000
     weight: 2
@@ -4972,17 +6060,212 @@ items:
     power: 20
     battleType: 10
     armor: 65
-    listOrder: 4600
-#ojito final lampara
-###-----improved hand obs ojito-----###
-
-
-  - type: STR_MOTION_SCANNER
-    handSprite: 1224    
-  - type: STR_ELECTRO_FLARE
-    handSprite: 240
-  - type: STR_MIND_PROBE
+    listOrder: 3111
+  - type: STR_EX_ALIEN_ELERIUM_LAMP
+    requires:
+      - STR_EX_ALIEN_ELERIUM_LAMP
+    size: 0.025
+    costSell: 6000
+    weight: 2
+    bigSprite: 374
+    floorSprite: 374
+    power: 20
+    battleType: 10
+    armor: 65
+    listOrder: 3112
+# Enemy tracker and psionic items
+  - type: STR_MOTION_SCANNER #ojito luego cambiar nombre para mantener nomenclatura
+    handSprite: 1224
+    listOrder: 3115
+  - type: STR_MIND_PROBE #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 248
+    listOrder: 3116
+  - type: STR_EX_PSI_AMP_SMALL
+    size: 0.1
+    costSell: 194700
+    weight: 8
+    bigSprite: 672
+    floorSprite: 672
+    handSprite: 2240
+    hitSound: 36
+    battleType: 9
+    LOSRequired: true
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    tuUse: 33
+    flatRate: true
+    listOrder: 3117
+  - type: STR_PSI_AMP #ojito luego cambiar nombre para mantener nomenclatura
+    size: 0.1
+    costSell: 194700
+    weight: 12
+    bigSprite: 33
+    floorSprite: 32
+    handSprite: 88
+    hitSound: 36
+    battleType: 9
+    LOSRequired: true
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    tuUse: 25
+    flatRate: true
+    listOrder: 3118
+  - type: STR_EX_PSI_AMP_LARGE
+    size: 0.1
+    costSell: 194700
+    weight: 25
+    bigSprite: 671
+    floorSprite: 671
+    handSprite: 2250
+    hitSound: 36
+    battleType: 9
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    tuUse: 50
+    listOrder: 3119
+# Alien various items
+  - type: STR_EX_PORTABLE_COMPUTER
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costSell: 35000
+    weight: 1
+    bigSprite: 393
+    floorSprite: 393
+    invWidth: 1
+    invHeight: 2
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3125
+  - type: STR_EX_PORTABLE_HYPERWAVE
+    requires:
+      - STR_EX_PORTABLE_HYPERWAVE
+    size: 0.025
+    costSell: 10000
+    weight: 1
+    bigSprite: 365
+    floorSprite: 365
+    invWidth: 1
+    invHeight: 1
+    power: 0
+    recover: true
+    battleType: 0
+    armor: 65
+    listOrder: 3126
+  - type: STR_EX_HOLO_PROJECTOR
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.05
+    costSell: 27500
+    weight: 2
+    bigSprite: 367
+    floorSprite: 367
+    invWidth: 2
+    invHeight: 1
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3127
+  - type: STR_EX_PORTABLE_HYPERSENSORY
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.05
+    costSell: 20000
+    weight: 2
+    bigSprite: 371
+    floorSprite: 371
+    invWidth: 2
+    invHeight: 1
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3128
+  - type: STR_EX_SAMPLE_COLLECTOR
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.025
+    costSell: 15000
+    weight: 1
+    bigSprite: 396
+    floorSprite: 396
+    invWidth: 1
+    invHeight: 1
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3129
+  - type: STR_EX_BIO_SAMPLE
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.001
+    costSell: 8000
+    weight: 1
+    bigSprite: 394
+    floorSprite: 394
+    invWidth: 1
+    invHeight: 1
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3130
+  - type: STR_EX_ORGAN_SAMPLE
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costSell: 20000
+    weight: 1
+    bigSprite: 397
+    floorSprite: 397
+    invWidth: 1
+    invHeight: 2
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3131
+  - type: STR_EX_EMBRYO_SAMPLE
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costSell: 20000
+    weight: 1
+    bigSprite: 395
+    floorSprite: 395
+    invWidth: 1
+    invHeight: 2
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3132
+  - type: STR_EX_SYRINGE_SAMPLE
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.025
+    costSell: 25000
+    weight: 1
+    bigSprite: 368
+    floorSprite: 368
+    invWidth: 1
+    invHeight: 1
+    power: 0
+    battleType: 10
+    ignoreInCraftEquip: true
+    armor: 65
+    listOrder: 3133
+
+# ojito me quede aqui
+
+####### armas incorporadas en los aliens ######
 ### Alien units Weaponry
   - type: CYBERDISC_WEAPON
     weight: 3
@@ -5034,854 +6317,8 @@ items:
     hitSound: 19
   - type: SILACOID_WEAPON
     meleeSound: 960
-# ojito alien plasma weaponry
-  - type: STR_ALIEN_PLASMA_PISTOL
-    requires:
-      - STR_LIGHT_ALIEN_WEAPONS
-      - STR_ALIEN_PLASMA_PISTOL
-    size: 0.1
-    costSell: 84000
-    weight: 3
-    bigSprite: 350
-    floorSprite: 350
-    handSprite: 900
-    compatibleAmmo:
-      - STR_ALIEN_PLASMA_PISTOL_CLIP
-    accuracyAuto: 50
-    accuracySnap: 65
-    accuracyAimed: 85
-    tuAuto: 30
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    recoveryPoints: 3
-    armor: 65
-    attraction: 10
-    maxRange: 200
-    aimRange: 40
-    snapRange: 20
-    minRange: 0
-    dropoff: 2
-    listOrder: 4655
-  - type: STR_ALIEN_PLASMA_PISTOL_CLIP
-    requires:
-      - STR_LIGHT_ALIEN_WEAPONS
-      - STR_ALIEN_PLASMA_PISTOL
-    size: 0.025
-    costSell: 4440
-    weight: 3
-    bigSprite: 351
-    floorSprite: 351
-    bulletSprite: 11
-    fireSound: 601
-    hitSound: 19
-    hitAnimation: 66
-    power: 56
-    damageType: 5
-    clipSize: 26
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4656
-  - type: STR_ALIEN_PLASMA_ASSAULTER
-    requires:
-      - STR_LIGHT_ALIEN_WEAPONS
-      - STR_ALIEN_PLASMA_ASSAULTER
-    size: 0.1
-    costSell: 89000
-    weight: 4
-    bigSprite: 352
-    floorSprite: 352
-    handSprite: 880
-    compatibleAmmo:
-      - STR_ALIEN_PLASMA_ASSAULTER_CLIP
-    accuracyAuto: 52
-    accuracySnap: 75
-    accuracyAimed: 97
-    tuAuto: 28
-    tuSnap: 25
-    tuAimed: 45
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 2
-    recoveryPoints: 3
-    armor: 65
-    attraction: 10
-    maxRange: 200
-    aimRange: 200
-    snapRange: 17
-    autoRange: 9
-    minRange: 0
-    dropoff: 2
-    listOrder: 4659
-  - type: STR_ALIEN_PLASMA_ASSAULTER_CLIP
-    requires:
-      - STR_LIGHT_ALIEN_WEAPONS
-      - STR_ALIEN_PLASMA_ASSAULTER
-    size: 0.025
-    costSell: 4600
-    weight: 3
-    bigSprite: 353
-    floorSprite: 353
-    bulletSprite: 11
-    fireSound: 601
-    hitSound: 19
-    hitAnimation: 66
-    power: 67
-    damageType: 5
-    clipSize: 30
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4660
-  - type: STR_ALIEN_PLASMA_RIFLE
-    requires:
-      - STR_ALIEN_PLASMA_RIFLE
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 126500
-    weight: 5
-    bigSprite: 354
-    floorSprite: 354
-    handSprite: 910
-    compatibleAmmo:
-      - STR_ALIEN_PLASMA_RIFLE_CLIP
-      - STR_ALIEN_PLASMA_RIFLE_CLIP2
-      - STR_ALIEN_PLASMA_RIFLE_CLIP3
-    accuracyAuto: 55
-    accuracySnap: 86
-    accuracyAimed: 110
-    tuAuto: 36
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 65
-    attraction: 10
-    maxRange: 200
-    aimRange: 200
-    snapRange: 25
-    autoRange: 15
-    minRange: 0
-    dropoff: 2
-    listOrder: 4663
-  - type: STR_ALIEN_PLASMA_RIFLE_CLIP
-    requires:
-      - STR_MEDIUM_ALIEN_WEAPONS
-      - STR_ALIEN_PLASMA_RIFLE
-    size: 0.025
-    costSell: 6290
-    weight: 3
-    bigSprite: 355
-    floorSprite: 355
-    bulletSprite: 11
-    fireSound: 607
-    hitSound: 19
-    hitAnimation: 66
-    power: 80
-    damageType: 5
-    clipSize: 28
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4664
-  - type: STR_ALIEN_PLASMA_RIFLE_CLIP2
-    requires:
-      - STR_ALIEN_PLASMA_RIFLE_CLIP2
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.025
-    costSell: 6690
-    weight: 3
-    bigSprite: 402
-    floorSprite: 402
-    bulletSprite: 8
-    fireSound: 607
-    hitSound: 19
-    hitAnimation: 46
-    power: 96
-    damageType: 5
-    clipSize: 19
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4665
-  - type: STR_ALIEN_PLASMA_RIFLE_CLIP3
-    requires:
-      - STR_ALIEN_PLASMA_RIFLE_CLIP3
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.025
-    costSell: 6990
-    weight: 3
-    bigSprite: 403
-    floorSprite: 403
-    bulletSprite: 12
-    fireSound: 607
-    hitSound: 19
-#    hitAnimation: 76
-    power: 72
-    damageType: 3
-    clipSize: 10
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    blastRadius: 1
-    listOrder: 4666
-  - type: STR_ALIEN_PLASMA_BLASTER
-    requires:
-      - STR_ALIEN_PLASMA_BLASTER
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 126500
-    weight: 5
-    bigSprite: 356
-    floorSprite: 356
-    handSprite: 890
-    compatibleAmmo:
-      - STR_ALIEN_PLASMA_BLASTER_CLIP
-    accuracyAuto: 40
-    accuracySnap: 75
-    accuracyAimed: 90
-    tuAuto: 40
-    tuSnap: 33
-    tuAimed: 65
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 65
-    attraction: 10
-    maxRange: 200
-    aimRange: 200
-    snapRange: 18
-    minRange: 0
-    dropoff: 2
-    listOrder: 4667
-  - type: STR_ALIEN_PLASMA_BLASTER_CLIP
-    requires:
-      - STR_ALIEN_PLASMA_BLASTER
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.025
-    costSell: 6290
-    weight: 3
-    bigSprite: 357
-    floorSprite: 357
-    bulletSprite: 11
-    fireSound: 607
-    hitSound: 19
-    hitAnimation: 66
-    power: 60
-    damageType: 5
-    clipSize: 12
-    shotgunPellets: 4
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4668
-  - type: STR_ALIEN_PLASMA_SNIPER_RIFLE
-    requires:
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 150000
-    weight: 7
-    bigSprite: 358
-    floorSprite: 358
-    handSprite: 920
-    compatibleAmmo:
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2
-    accuracySnap: 90
-    accuracyAimed: 125
-    tuSnap: 36
-    tuAimed: 80
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 65
-    attraction: 10
-    maxRange: 200
-    aimRange: 200
-    snapRange: 28
-    minRange: 4
-    dropoff: 2
-    listOrder: 4671
-  - type: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP
-    requires:
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.025
-    costSell: 7000
-    weight: 3
-    bigSprite: 359
-    floorSprite: 359
-    bulletSprite: 11
-    fireSound: 609
-    hitSound: 19
-    hitAnimation: 66
-    power: 95
-    damageType: 5
-    clipSize: 8
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4672
-  - type: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2
-    requires:
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.025
-    costSell: 7700
-    weight: 3
-    bigSprite: 406
-    floorSprite: 406
-    bulletSprite: 8
-    fireSound: 609
-    hitSound: 19
-    hitAnimation: 46
-    power: 114
-    damageType: 5
-    clipSize: 5
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4673
-  - type: STR_ALIEN_HEAVY_PLASMA
-    requires:
-      - STR_ALIEN_HEAVY_PLASMA
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 171600
-    weight: 8
-    bigSprite: 360
-    floorSprite: 360
-    handSprite: 860
-    compatibleAmmo:
-      - STR_ALIEN_HEAVY_PLASMA_CLIP
-      - STR_ALIEN_HEAVY_PLASMA_CLIP2
-      - STR_ALIEN_HEAVY_PLASMA_CLIP3
-    accuracyAuto: 48
-    accuracySnap: 73
-    accuracyAimed: 95
-    tuAuto: 35
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    armor: 65
-    attraction: 10
-    maxRange: 200
-    aimRange: 200
-    snapRange: 25
-    autoRange: 12
-    minRange: 0
-    dropoff: 2
-    listOrder: 4675
-  - type: STR_ALIEN_HEAVY_PLASMA_CLIP
-    requires:
-      - STR_ALIEN_HEAVY_PLASMA
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.1
-    costSell: 9590
-    weight: 3
-    bigSprite: 361
-    floorSprite: 361
-    bulletSprite: 11
-    fireSound: 610
-    hitSound: 19
-    hitAnimation: 66
-    power: 115
-    damageType: 5
-    clipSize: 15
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4676
-  - type: STR_ALIEN_HEAVY_PLASMA_CLIP2
-    requires:
-      - STR_ALIEN_HEAVY_PLASMA_CLIP2
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.1
-    costSell: 12200
-    weight: 3
-    bigSprite: 408
-    floorSprite: 408
-    bulletSprite: 8
-    fireSound: 610
-    hitSound: 19
-    hitAnimation: 46
-    power: 138
-    damageType: 5
-    clipSize: 10
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4677
-  - type: STR_ALIEN_HEAVY_PLASMA_CLIP3
-    requires:
-      - STR_ALIEN_HEAVY_PLASMA_CLIP3
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.1
-    costSell: 14000
-    weight: 3
-    bigSprite: 409
-    floorSprite: 409
-    bulletSprite: 12
-    fireSound: 610
-    hitSound: 19
-#    hitAnimation: 76
-    power: 104
-    damageType: 3
-    clipSize: 5
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    blastRadius: 2
-    listOrder: 4678
-  - type: STR_ALIEN_HEAVY_PLASMA_CANNON
-    requires:
-      - STR_ALIEN_HEAVY_PLASMA_CANNON
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 250000
-    weight: 10
-    bigSprite: 362
-    floorSprite: 362
-    handSprite: 870
-    fireSound: 610
-    compatibleAmmo:
-      - STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP
-      - STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3
-    accuracySnap: 70
-    accuracyAimed: 100
-    tuSnap: 36
-    tuAimed: 65
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 6
-    armor: 65
-    attraction: 10
-    maxRange: 200
-    aimRange: 200
-    snapRange: 15
-    minRange: 5
-    dropoff: 2
-    listOrder: 4679
-  - type: STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP
-    requires:
-      - STR_ALIEN_HEAVY_PLASMA_CANNON
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 12000
-    weight: 3
-    bigSprite: 363
-    floorSprite: 363
-    bulletSprite: 11
-    hitSound: 19
-    hitAnimation: 66
-    power: 150
-    damageType: 5
-    clipSize: 8
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 4680
-  - type: STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3
-    requires:
-      - STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.2
-    costSell: 16000
-    weight: 3
-    bigSprite: 411
-    floorSprite: 411
-    bulletSprite: 12
-    hitSound: 19
-#    hitAnimation: 76
-    power: 135
-    damageType: 3
-    clipSize: 3
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    blastRadius: 3
-    listOrder: 4682
-  - type: STR_SMALL_LAUNCHER
-    requires:
-      - STR_SMALL_LAUNCHER
-      - STR_MEDIUM_ALIEN_WEAPONS
-    bigSprite: 375
-    floorSprite: 375
-    handSprite: 1020
-    bulletSprite: 9
-    attraction: 10
-    size: 0.2
-    costSell: 120000
-    weight: 10
-    fireSound: 1016
-    compatibleAmmo:
-      - STR_STUN_BOMB
-      - STR_STUN_BOMB2
-      - STR_STUN_BOMB3
-    accuracySnap: 65
-    accuracyAimed: 110
-    tuSnap: 40
-    tuAimed: 75
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 2
-    recoveryPoints: 4
-  - type: STR_STUN_BOMB
-    requires:
-      - STR_STUN_BOMB
-      - STR_MEDIUM_ALIEN_WEAPONS
-    bigSprite: 376
-    floorSprite: 376
-    attraction: 10
-    size: 0.1
-    costSell: 15200
-    weight: 3
-    hitSound: 0
-    hitAnimation: 0
-    power: 90
-    damageType: 6
-    clipSize: 6
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    recoveryPoints: 1
-  - type: STR_STUN_BOMB2
-    requires:
-      - STR_STUN_BOMB2
-      - STR_MEDIUM_ALIEN_WEAPONS
-    bigSprite: 400
-    floorSprite: 400
-    attraction: 10
-    size: 0.1
-    costSell: 15200
-    weight: 3
-    hitSound: 0
-    hitAnimation: 0
-    power: 90
-    damageType: 8
-    clipSize: 6
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    recoveryPoints: 1
-    listOrder: 5901
-  - type: STR_STUN_BOMB3
-    requires:
-      - STR_STUN_BOMB3
-      - STR_HEAVY_ALIEN_WEAPONS
-    bigSprite: 401
-    floorSprite: 401
-    attraction: 10
-    size: 0.1
-    costSell: 15200
-    weight: 3
-    hitSound: 0
-    hitAnimation: 0
-    power: 90
-    damageType: 3
-    clipSize: 6
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    recoveryPoints: 1
-    listOrder: 5902
-  - type: STR_AW_ELERIUM_MINE
-    size: 0.025
-    costSell: 17500
-    weight: 3
-    bigSprite: 433
-    floorSprite: 433
-    power: 90
-    damageType: 3
-    battleType: 5
-    blastRadius: 4
-    fuseType: -1
-    attraction: 6
-    listOrder: 6005
-  - type: STR_ALIEN_GRENADE
-    requires:
-      - STR_ALIEN_GRENADE
-      - STR_LIGHT_ALIEN_WEAPONS
-    bigSprite: 364
-    blastRadius: 3
-    fuseType: -1
-    floorSprite: 364
-    handSprite: 850
-    attraction: 6
-  - type: STR_BLASTER_LAUNCHER
-    requires:
-      - STR_BLASTER_LAUNCHER
-      - STR_SPECIAL_ALIEN_WEAPONS
-    size: 0.3
-    costSell: 144000
-    weight: 16
-    bigSprite: 35
-    floorSprite: 34
-    handSprite: 56
-    bulletSprite: 10
-    fireSound: 53
-    compatibleAmmo:
-      - STR_BLASTER_BOMB
-    accuracyAimed: 120
-    tuAimed: 80
-    battleType: 1
-    twoHanded: true
-    waypoints: 5
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    armor: 65
-  - type: STR_BLASTER_BOMB
-    requires:
-      - STR_BLASTER_BOMB
-      - STR_SPECIAL_ALIEN_WEAPONS
-    bigSprite: 373
-    floorSprite: 373
-    handSprite: 1280
-    invWidth: 2
-    invHeight: 1
-    attraction: 10
-  - type: STR_ALIEN_PROX_GRENADE
-    requires:
-      - STR_ALIEN_PROX_GRENADE
-      - STR_MEDIUM_ALIEN_WEAPONS
-    size: 0.025
-    costSell: 17500
-    weight: 3
-    bigSprite: 370
-    floorSprite: 370
-    power: 95
-    damageType: 3
-    battleType: 5
-    blastRadius: 4
-    fuseType: -2
-    recoveryPoints: 1
-    attraction: 6
-    listOrder: 6005
-  - type: STR_ALIEN_HIGH_EXPLOSIVE
-    requires:
-      - STR_ALIEN_HIGH_EXPLOSIVE
-      - STR_HEAVY_ALIEN_WEAPONS
-    size: 0.25
-    costSell: 20000
-    weight: 5
-    bigSprite: 366
-    floorSprite: 366
-    handSprite: 1040
-    power: 225
-    damageType: 3
-    battleType: 4
-    invWidth: 1
-    invHeight: 2
-    blastRadius: 8
-    fuseType: -1
-    recoveryPoints: 1
-    attraction: 6
-    listOrder: 6010
 
-  - type: STR_ELLERIUM_LAMP
-    requires:
-      - STR_ELLERIUM_LAMP
-    size: 0.025
-    costSell: 6000
-    weight: 2
-    bigSprite: 374
-    floorSprite: 374
-    power: 20
-    battleType: 10
-    armor: 65
-    listOrder: 6003
-  - type: STR_ALIEN_HOLO_PROJECTOR
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.05
-    costSell: 27500
-    weight: 2
-    bigSprite: 367
-    floorSprite: 367
-    invWidth: 2
-    invHeight: 1
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65
-  - type: STR_ALIEN_INJECTOR
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.025
-    costSell: 25000
-    weight: 1
-    bigSprite: 368
-    floorSprite: 368
-    invWidth: 1
-    invHeight: 1
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65
-  - type: STR_ALIEN_SMALL_ENTERTAINMENT
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.05
-    costSell: 20000
-    weight: 2
-    bigSprite: 371
-    floorSprite: 371
-    invWidth: 2
-    invHeight: 1
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65  
-  - type: STR_ALIEN_COMM
-    requires:
-      - STR_ALIEN_COMM
-    size: 0.025
-    costSell: 10000
-    weight: 1
-    bigSprite: 365
-    floorSprite: 365
-    invWidth: 1
-    invHeight: 1
-    power: 0
-    recover: true
-    battleType: 0
-    armor: 65
-  - type: STR_ALIEN_COMPUTER
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.1
-    costSell: 35000
-    weight: 1
-    bigSprite: 393
-    floorSprite: 393
-    invWidth: 1
-    invHeight: 2
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65
-  - type: STR_ALIEN_DNA
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.001
-    costSell: 8000
-    weight: 1
-    bigSprite: 394
-    floorSprite: 394
-    invWidth: 1
-    invHeight: 1
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65
-  - type: STR_ALIEN_EMBRYO
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.1
-    costSell: 20000
-    weight: 1
-    bigSprite: 395
-    floorSprite: 395
-    invWidth: 1
-    invHeight: 2
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65
-  - type: STR_ALIEN_EXTRACTOR
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.025
-    costSell: 15000
-    weight: 1
-    bigSprite: 396
-    floorSprite: 396
-    invWidth: 1
-    invHeight: 1
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65
-  - type: STR_ALIEN_ORGAN
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.1
-    costSell: 20000
-    weight: 1
-    bigSprite: 397
-    floorSprite: 397
-    invWidth: 1
-    invHeight: 2
-    power: 0
-    battleType: 10
-    ignoreInCraftEquip: true
-    armor: 65
-  - type: STR_ELITE_PLASMA
-    requires:
-      - STR_ELITE_ALIEN_WEAPONS
-#      - STR_ELITE_PLASMA
-    size: 0.2
-    costSell: 171600
-    weight: 8
-    bigSprite: 391
-    floorSprite: 391
-    handSprite: 1030
-    bulletSprite: 8
-    fireSound: 607
-    compatibleAmmo:
-      - STR_ELITE_PLASMA_CLIP
-    accuracyAuto: 70
-    accuracySnap: 85
-    accuracyAimed: 130
-    tuAuto: 35
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 5
-    armor: 65
-    attraction: 1
-    listOrder: 4683
-  - type: STR_ELITE_PLASMA_CLIP
-    requires:
-      - STR_ELITE_ALIEN_WEAPONS
-#      - STR_ELITE_PLASMA_CLIP
-    size: 0.3
-    costSell: 9590
-    weight: 3
-    bigSprite: 392
-    floorSprite: 392
-    hitSound: 19
-    hitAnimation: 46
-    power: 125
-    damageType: 5
-    clipSize: 35
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 1
-    listOrder: 4684
+
 # Special Psi Weapon for Aliens.
 # Usage of this is hard-coded.
 # OJITO DO NOT DELETE!
@@ -5951,279 +6388,7 @@ items:
     invHeight: 3
     meleeAnimation: 76
     recover: false
-  - type: STR_FORMIC_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 807
-    floorSprite: 807
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_MUTON_COMMANDO_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 800
-    floorSprite: 800
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_MUTON_GUARD_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 801
-    floorSprite: 801
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_MUTON_CHIEFTAIN_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 802
-    floorSprite: 802
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_ARMORED_MUTON_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 808
-    floorSprite: 808
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_MUTON_WARLORD_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 810
-    floorSprite: 810
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_MUTON_BERSERKER_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 809
-    floorSprite: 809
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_ARMORED_SECTOID_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 803
-    floorSprite: 803
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_ABOMINATION_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 804
-    floorSprite: 804
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_CARCHARODON_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 811
-    floorSprite: 811
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_ANCIENT_SPAWN_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 812
-    floorSprite: 812
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_CARCHARODON_SOLDIER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_CARCHARODON_LEADER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_CARCHARODON_ENGINEER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_CARCHARODON_NAVIGATOR
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_CARCHARODON_COMMANDER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ANCIENT_SPAWN_TERRORIST
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_FORMIC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_FORMIC_BETA
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_FORMIC_ALPHA
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_MUTON_COMMANDO
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_MUTON_CHIEFTAIN
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 65000
-  - type: STR_ARMORED_MUTON_SOLDIER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_ARMORED_MUTON_NAVIGATOR
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_ARMORED_MUTON_ENGINEER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_MUTON_WARLORD
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 65000
-  - type: STR_MUTON_BERSERKER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 65000
-  - type: STR_ARMORED_SECTOID_SOLDIER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_ARMORED_SECTOID_ENGINEER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_MEDIC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_NAVIGATOR
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_LEADER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_COMMANDER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ABOMINATION
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_SOVEREIGN
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ENERGYALIEN
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_MUTON_GUARD
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_SOVEREIGN_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 805
-    floorSprite: 805
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
-  - type: STR_ENERGYALIEN_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 20
-    bigSprite: 806
-    floorSprite: 806
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    battleType: 11
-    armor: 65
+#########################
 #----- Human Armors -----#
 # Initial Tier #
   - type: STR_FLIGHT_JUMPSUIT
@@ -6883,338 +7048,281 @@ items:
     battleType: 11
     armor: 65
     recover: false
-# Seventh Tier #
+################################
+# alien corpses
 
-# Corpses
-
-
-# Human corpses
-
-# OJITO ORDENAR
-
-
-
-
-
-
-
-
-
-
-  - type: STR_PSI_AMP_SMALL
-    size: 0.1
-    costSell: 194700
-    weight: 8
-    bigSprite: 672
-    floorSprite: 672
-    handSprite: 2240
-    hitSound: 36
-    battleType: 9
-    LOSRequired: true
-    twoHanded: false
-    invWidth: 1
-    invHeight: 2
-    tuUse: 33
-    flatRate: true
-  - type: STR_PSI_AMP
-    size: 0.1
-    costSell: 194700
-    weight: 12
-    bigSprite: 33
-    floorSprite: 32
-    handSprite: 88
-    hitSound: 36
-    battleType: 9
-    LOSRequired: true
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    tuUse: 25
-    flatRate: true
-  - type: STR_PSI_AMP_LARGE
-    size: 0.1
-    costSell: 194700
-    weight: 25
-    bigSprite: 671
-    floorSprite: 671
-    handSprite: 2250
-    hitSound: 36
-    battleType: 9
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    tuUse: 50
-  - type: STR_GOODS
-    size: 0.1
-    costSell: 8500
-    battleType: 0
-    transferTime: 24
-  - type: STR_GOODS_2
-    size: 0.1
-    costSell: 9250
-    battleType: 0
-    transferTime: 24
-  - type: STR_GOODS_3
-    size: 0.1
-    costSell: 9500
-    battleType: 0
-    transferTime: 24
-  - type: STR_GOODS_4
-    size: 0.1
-    costSell: 9750
-    battleType: 0
-    transferTime: 24
-  - type: STR_GOODS_5
-    size: 0.1
-    costSell: 10000
-    battleType: 0
-    transferTime: 24
-  - type: STR_GOODS_6
-    size: 0.1
-    costSell: 15000
-    battleType: 0
-    transferTime: 24
-  - type: STR_GOODS_7
-    size: 0.1
+  - type: STR_FORMIC_CORPSE
+    size: 0.4
     costSell: 20000
-    battleType: 0
-    transferTime: 24
-########################## Pockets Items #########################
-  - type: STR_NULL_JETPACK
-    bigSprite: 2989
-    weight: 0
-    invWidth: 3
-    invHeight: 3
-    fixedWeapon: true
-    defaultInventorySlot: STR_BACK_PACK
-    recover: false
-    battleType: 11
-  - type: STR_NULL_BACKPACK
-    bigSprite: 2990
-    weight: 0
-    invWidth: 3
-    invHeight: 3
-    fixedWeapon: true
-    defaultInventorySlot: STR_BACK_PACK
-    recover: false
-    battleType: 11
-  - type: STR_NULL_SMALL_BACKPACK
-    bigSprite: 2991
-    weight: 0
+    weight: 20
+    bigSprite: 807
+    floorSprite: 807
     invWidth: 2
     invHeight: 3
-    fixedWeapon: true
-    defaultInventorySlot: STR_BACK_PACK
-    recover: false
+    recoveryPoints: 5
     battleType: 11
-  - type: STR_NULL_BELT
-    bigSprite: 2992
-    weight: 0
-    invWidth: 4
-    invHeight: 2
-    fixedWeapon: true
-    defaultInventorySlot: STR_BELT
-    recover: false
-    battleType: 11
-  - type: STR_NULL_POCKET_RS
-    bigSprite: 2993
-    weight: 0
+    armor: 65
+  - type: STR_MUTON_COMMANDO_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 800
+    floorSprite: 800
     invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_RIGHT_SHOULDER
-    recover: false
+    invHeight: 3
+    recoveryPoints: 5
     battleType: 11
-  - type: STR_NULL_POCKET_LS
-    bigSprite: 2994
-    weight: 0
+    armor: 65
+  - type: STR_MUTON_GUARD_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 801
+    floorSprite: 801
     invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_LEFT_SHOULDER
-    recover: false
+    invHeight: 3
+    recoveryPoints: 5
     battleType: 11
-  - type: STR_NULL_POCKET_RL
-    bigSprite: 2995
-    weight: 0
+    armor: 65
+  - type: STR_MUTON_CHIEFTAIN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 802
+    floorSprite: 802
     invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_RIGHT_LEG
-    recover: false
+    invHeight: 3
+    recoveryPoints: 5
     battleType: 11
-  - type: STR_NULL_POCKET_LL
-    bigSprite: 2996
-    weight: 0
+    armor: 65
+  - type: STR_ARMORED_MUTON_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 808
+    floorSprite: 808
     invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_LEFT_LEG
-    recover: false
+    invHeight: 3
+    recoveryPoints: 5
     battleType: 11
-  - type: STR_NULL_HOLSTER
-    bigSprite: 2997
-    weight: 0
-    invWidth: 1
-    invHeight: 2
-    fixedWeapon: true
-    defaultInventorySlot: STR_QD_SLOT
-    recover: false
+    armor: 65
+  - type: STR_MUTON_WARLORD_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 810
+    floorSprite: 810
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
     battleType: 11
-##########DOGGOS##########
-  - type: STR_DOGE
-    # categories: [STR_BEASTS]
+    armor: 65
+  - type: STR_MUTON_BERSERKER_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 809
+    floorSprite: 809
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 65
+  - type: STR_ARMORED_SECTOID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 803
+    floorSprite: 803
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 65
+  - type: STR_ABOMINATION_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 804
+    floorSprite: 804
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 65
+  - type: STR_CARCHARODON_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 811
+    floorSprite: 811
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 65
+  - type: STR_ANCIENT_SPAWN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 812
+    floorSprite: 812
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 65
+  - type: STR_CARCHARODON_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
-    prisonType: 2
-    costSell: 8000
-    listOrder: 10489
-  - type: STR_DOGE_CORPSE
-    weight: 25
-    bigSprite: 165
-    floorSprite: 165
+    costSell: 40000
+  - type: STR_CARCHARODON_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CARCHARODON_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CARCHARODON_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CARCHARODON_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ANCIENT_SPAWN_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+# alien alive
+
+  - type: STR_FORMIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_FORMIC_BETA
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_FORMIC_ALPHA
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_MUTON_COMMANDO
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_MUTON_CHIEFTAIN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 65000
+  - type: STR_ARMORED_MUTON_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_ARMORED_MUTON_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_ARMORED_MUTON_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_MUTON_WARLORD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 65000
+  - type: STR_MUTON_BERSERKER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 65000
+  - type: STR_ARMORED_SECTOID_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_ARMORED_SECTOID_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ABOMINATION
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SOVEREIGN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ENERGYALIEN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_MUTON_GUARD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_SOVEREIGN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 805
+    floorSprite: 805
     invWidth: 2
     invHeight: 3
+    recoveryPoints: 5
     battleType: 11
-    recover: false
-    recoveryPoints: 1
     armor: 65
-  - type: STR_DOGE_COMBAT_VEST_CORPSE
-    weight: 28
-    bigSprite: 166
-    floorSprite: 166
+  - type: STR_ENERGYALIEN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 806
+    floorSprite: 806
     invWidth: 2
     invHeight: 3
+    recoveryPoints: 5
     battleType: 11
-    recover: false
-    recoveryPoints: 1
     armor: 65
-  - type: STR_DOGE_DURATHREAD_VEST_CORPSE
-    weight: 26
-    bigSprite: 167
-    floorSprite: 167
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recover: false
-    recoveryPoints: 1
-    armor: 65
-  - type: STR_DOGE_ALLOY_VEST_CORPSE
-    weight: 27
-    bigSprite: 168
-    floorSprite: 168
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recover: false
-    recoveryPoints: 1
-    armor: 65
-  - type: STR_DOGE_CYBERSUIT_CORPSE
-    weight: 30
-    bigSprite: 1068
-    floorSprite: 918
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recover: false
-    recoveryPoints: 1
-    armor: 65
-# auxiliaries armours
-    # categories: [STR_HUMAN_TECH, STR_OUTFITS]
-  - type: STR_DOGE_COMBAT_VEST
-    requires:
-      - STR_TAC_INF_TECH
-    size: 0.5
-    costBuy: 0
-    costSell: 4000
-    listOrder: 10490
-  - type: STR_DOGE_DURATHREAD_VEST
-    size: 0.5
-    costSell: 6000
-    listOrder: 10491
-  - type: STR_DOGE_AA_VEST
-    size: 0.5
-    costSell: 30000
-    listOrder: 10492
-  - type: STR_DOGE_BARK
-    weight: 0
-    bigSprite: 874
-    bulletSprite: 27
-    hitAnimation: 206
-    floorSprite: 0
-    handSprite: 0
-    fireSound: 248
-    damageType: 0
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    power: 20
-    damageAlter:
-      RandomType: 2
-      IgnoreDirection: true
-      ToHealth: 0.0
-      ToStun: 0.0
-      ToTile: 0
-      ToTime: 2.0
-      ToMorale: 2.0
-      RandomWound: false
-      ToWound: 0
-      ArmorEffectiveness: 0.1
-    accuracySnap: 70
-    accuracyMultiplier:
-      reactions: 1.3
-    costSnap:
-      time: 9
-      energy: 4
-    battleType: 1
-    clipSize: -1
-    flatRate: true
-    maxRange: 3
-    powerRangeThreshold: 4
-    powerRangeReduction: 999
-    bulletSpeed: 9999
-    experienceTrainingMode: 23
-    defaultInventorySlot: STR_LEFT_HAND
-    recover: false
-    listOrder: 17513
-  - type: STR_DOGE_TRACK
-    # categories: [STR_BUILT_INS]
-    weight: 0
-    bigSprite: 981
-    floorSprite: 0
-    handSprite: 0
-    specialIconSprite: 108
-    fireSound: 687
-    battleType: 7
-    tuUse: 15
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    recover: false
-    defaultInventorySlot: STR_LEFT_HAND
-    costUse:
-      time: 15
-      morale: 20
-  - type: STR_DOGE_BITE
-    # categories: [STR_BUILT_INS]
-    weight: 0
-    bigSprite: 181
-    floorSprite: 0
-    handSprite: 0
-    power: 40
-    costMelee:
-      energy: 7
-      time: 10
-    damageType: 7
-    meleeSound: [249, 248]
-    meleeHitSound: [685, 686]
-    accuracyMelee: 100
-    battleType: 3
-    fixedWeapon: true
-    clipSize: -1
-    invWidth: 2
-    invHeight: 3
-    experienceTrainingMode: 13
-    recover: false
-    listOrder: 17580

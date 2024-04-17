@@ -735,7 +735,7 @@ research:
   - name: STR_PSIONIC_AMPLIFICATION
     points: 20
     needItem: true
-  - name: STR_PSI_AMP_SMALL
+  - name: STR_EX_PSI_AMP_SMALL
     cost: 50
     points: 20
     dependencies:
@@ -745,7 +745,7 @@ research:
   - name: STR_PSIONIC_DOMINATION
     points: 20
     needItem: true
-  - name: STR_PSI_AMP_LARGE
+  - name: STR_EX_PSI_AMP_LARGE
     cost: 50
     points: 20
     dependencies:
@@ -922,73 +922,73 @@ research:
 #--UFO Tech Tree--------------------END
 
 #--Alien Plasma Weapons --------------------END
-  - name: STR_ALIEN_PLASMA_PISTOL
+  - name: STR_AW_MAIN_PISTOL
     cost: 10
     points: 10
     needItem: true
-  - name: STR_ALIEN_PLASMA_ASSAULTER
+  - name: STR_AW_SMG
     cost: 11
     points: 10
     needItem: true
-  - name: STR_ALIEN_PLASMA_RIFLE
+  - name: STR_AW_RIFLE
     cost: 12
     points: 10
     needItem: true
-  - name: STR_ALIEN_PLASMA_RIFLE_CLIP2
+  - name: STR_AW_RIFLE_CLIP2
     cost: 1
     points: 6
     needItem: true
     dependencies:
       - STR_ELERIUM_115
-  - name: STR_ALIEN_PLASMA_RIFLE_CLIP3
+  - name: STR_AW_RIFLE_CLIP3
     cost: 1
     points: 6
     needItem: true
-  - name: STR_ALIEN_PLASMA_BLASTER
+  - name: STR_AW_SHOTGUN
     cost: 13
     points: 10
     needItem: true
-  - name: STR_ALIEN_PLASMA_BLASTER_CLIP
+  - name: STR_AW_SHOTGUN_CLIP1
     cost: 1
     points: 6
     needItem: true
     dependencies:
       - STR_ELERIUM_115
-  - name: STR_ALIEN_PLASMA_SNIPER_RIFLE
+  - name: STR_AW_SNIPER
     cost: 12
     points: 10
     needItem: true
-  - name: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP
+  - name: STR_AW_SNIPER_CLIP1
     cost: 1
     points: 6
     needItem: true
     dependencies:
       - STR_ELERIUM_115
-  - name: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2
+  - name: STR_AW_SNIPER_CLIP2
     cost: 1
     points: 6
     needItem: true
     dependencies:
       - STR_ELERIUM_115
-  - name: STR_ALIEN_HEAVY_PLASMA
+  - name: STR_AW_LMG
     cost: 15
     points: 10
     needItem: true
-  - name: STR_ALIEN_HEAVY_PLASMA_CLIP2
+  - name: STR_AW_LMG_CLIP2
     cost: 1
     points: 7
     needItem: true
     dependencies:
       - STR_ELERIUM_115
-  - name: STR_ALIEN_HEAVY_PLASMA_CLIP3
+  - name: STR_AW_LMG_CLIP3
     cost: 1
     points: 7
     needItem: true
-  - name: STR_ALIEN_HEAVY_PLASMA_CANNON
+  - name: STR_AW_HEAVY_CANNON
     cost: 20
     points: 10
     needItem: true
-  - name: STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3
+  - name: STR_AW_HEAVY_CANNON_CLIP3
     cost: 1
     points: 7
     needItem: true
@@ -998,11 +998,11 @@ research:
     cost: 4
     points: 20
     needItem: true
-  - name: STR_ALIEN_PROX_GRENADE
+  - name: STR_AW_PROXY_GRENADE
     cost: 5
     points: 20
     needItem: true
-  - name: STR_ALIEN_HIGH_EXPLOSIVE
+  - name: STR_AW_DEMOLITION_EXPLOSIVE
     cost: 15
     points: 25
     needItem: true
@@ -1050,11 +1050,11 @@ research:
       - STR_ALIEN_GRENADE
       - STR_ELERIUM_EXPLOSIVES
       - STR_CODEX_3
-  - name: STR_AW_ELERIUM_MINE
+  - name: STR_BO_ELERIUM_MINE
     cost: 70
     points: 10
     dependencies:
-      - STR_ALIEN_PROX_GRENADE
+      - STR_AW_PROXY_GRENADE
       - STR_ELERIUM_EXPLOSIVES
       - STR_CODEX_3
   - name: STR_BO_ANTIMATTER_EXPLOSIVE
@@ -1062,7 +1062,7 @@ research:
     points: 10
     dependencies:
       - STR_ELERIUM_EXPLOSIVES
-      - STR_ALIEN_HIGH_EXPLOSIVE
+      - STR_AW_DEMOLITION_EXPLOSIVE
       - STR_CODEX_3
   - name: STR_ME_ALLOY_KNIFE
     cost: 40
@@ -1105,43 +1105,43 @@ research:
       - STR_ANTI_GRAV_DEVICE
 #--Human Other Weapons  --------------------END
 #--Alien Gear --------------------
-  - name: STR_ALIEN_COMM
+  - name: STR_EX_PORTABLE_HYPERWAVE
     cost: 1
     points: 6
     needItem: true
-  - name: STR_ALIEN_HOLO_PROJECTOR
+  - name: STR_EX_HOLO_PROJECTOR
     cost: 2
     points: 6
     needItem: true
-  - name: STR_ALIEN_INJECTOR
+  - name: STR_EX_SYRINGE_SAMPLE
     cost: 2
     points: 6
     needItem: true
-  - name: STR_ALIEN_SMALL_ENTERTAINMENT
+  - name: STR_EX_PORTABLE_HYPERSENSORY
     cost: 4
     points: 6
     needItem: true
-  - name: STR_ELLERIUM_LAMP
+  - name: STR_EX_ALIEN_ELERIUM_LAMP
     cost: 1
     points: 6
     needItem: true
-  - name: STR_ALIEN_COMPUTER
+  - name: STR_EX_PORTABLE_COMPUTER
     cost: 4
     points: 6
     needItem: true
-  - name: STR_ALIEN_DNA
+  - name: STR_EX_BIO_SAMPLE
     cost: 4
     points: 6
     needItem: true
-  - name: STR_ALIEN_EMBRYO
+  - name: STR_EX_EMBRYO_SAMPLE
     cost: 6
     points: 6
     needItem: true
-  - name: STR_ALIEN_EXTRACTOR
+  - name: STR_EX_SAMPLE_COLLECTOR
     cost: 6
     points: 6
     needItem: true
-  - name: STR_ALIEN_ORGAN
+  - name: STR_EX_ORGAN_SAMPLE
     cost: 5
     points: 6
     needItem: true

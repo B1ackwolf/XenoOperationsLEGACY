@@ -985,25 +985,25 @@ ufopaedia:
     requires:
       - STR_BO_STICK_GRENADE
     listOrder: 4106
-  - id: STR_ADRENO_SYRINGE
+  - id: STR_EX_ADRENO_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ADRENO_SYRINGE_UFOPEDIA
+    text: STR_EX_ADRENO_KIT_UFOPEDIA
     listOrder: 4801
-  - id: STR_FIST_AID_KIT
+  - id: STR_EX_FIST_AID_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_STR_FIST_AID_KIT_UFOPEDIA
+    text: STR_STR_EX_FIST_AID_KIT_UFOPEDIA
     listOrder: 4802
-  - id: STR_STARTING_MEDI_KIT
+  - id: STR_EX_BASIC_MEDI_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_STARTING_MEDI_KIT_UFOPEDIA
+    text: STR_EX_BASIC_MEDI_KIT_UFOPEDIA
     listOrder: 4803
-  - id: STR_BASIC_MEDI_KIT
+  - id: STR_EX_IMPROVED_MEDI_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BASIC_MEDI_KIT_UFOPEDIA
+    text: STR_EX_IMPROVED_MEDI_KIT_UFOPEDIA
     listOrder: 4804
 #reorder everything above this, ojito#
 #####-----Second Tier Experimental Ballistic Weaponry
@@ -1961,12 +1961,12 @@ ufopaedia:
       - STR_ELERIUM_GRENADE
     text: STR_ELERIUM_GRENADE_UFOPEDIA
     listOrder: 3842
-  - id: STR_AW_ELERIUM_MINE
+  - id: STR_BO_ELERIUM_MINE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_AW_ELERIUM_MINE
-    text: STR_AW_ELERIUM_MINE_UFOPEDIA
+      - STR_BO_ELERIUM_MINE
+    text: STR_BO_ELERIUM_MINE_UFOPEDIA
     listOrder: 3843
   - id: STR_BO_ANTIMATTER_EXPLOSIVE
     type_id: 4
@@ -1991,24 +1991,24 @@ ufopaedia:
   - id: STR_PM_ANTIMATTER_LAUNCHER_BOMB3
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PSI_AMP_SMALL
+  - id: STR_EX_PSI_AMP_SMALL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_PSI_AMP_SMALL
+      - STR_EX_PSI_AMP_SMALL
     text: STR_PSI_AMP_UFOPEDIA
-  - id: STR_PSI_AMP_LARGE
+  - id: STR_EX_PSI_AMP_LARGE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_PSI_AMP_LARGE
+      - STR_EX_PSI_AMP_LARGE
     text: STR_PSI_AMP_UFOPEDIA
-  - id: STR_ELLERIUM_LAMP_HUMAN
+  - id: STR_EX_ELERIUM_LAMP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_ELLERIUM_LAMP
-    text: STR_ELLERIUM_LAMP_HUMAN_UFOPEDIA
+      - STR_EX_ALIEN_ELERIUM_LAMP
+    text: STR_EX_ELERIUM_LAMP_UFOPEDIA
 #-----Explosives
   - id: STR_BO_HYBRID_GRENADE
     type_id: 4
@@ -2026,171 +2026,171 @@ ufopaedia:
     listOrder: 3515
 #---XCOM Gear and Weapons----------------------------------END
 #---Alien Artifacts----------------------------------
-  - id: STR_ALIEN_PLASMA_PISTOL
+  - id: STR_AW_MAIN_PISTOL
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_PISTOL
+      - STR_AW_MAIN_PISTOL
     listOrder: 1100
-    text: STR_ALIEN_PLASMA_PISTOL_UFOPEDIA
-  - id: STR_ALIEN_PLASMA_PISTOL_CLIP
+    text: STR_AW_MAIN_PISTOL_UFOPEDIA
+  - id: STR_AW_MAIN_PISTOL_CLIP1
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_PISTOL
+      - STR_AW_MAIN_PISTOL
     listOrder: 1110
-    text: STR_ALIEN_PLASMA_PISTOL_CLIP_UFOPEDIA
-  - id: STR_ALIEN_PLASMA_ASSAULTER
+    text: STR_AW_MAIN_PISTOL_CLIP1_UFOPEDIA
+  - id: STR_AW_SMG
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_ASSAULTER
-    text: STR_ALIEN_PLASMA_ASSAULTER_UFOPEDIA
+      - STR_AW_SMG
+    text: STR_AW_SMG_UFOPEDIA
     listOrder: 1120
-  - id: STR_ALIEN_PLASMA_ASSAULTER_CLIP
+  - id: STR_AW_SMG_CLIP1
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_ASSAULTER
-    text: STR_ALIEN_PLASMA_ASSAULTER_CLIP_UFOPEDIA
+      - STR_AW_SMG
+    text: STR_AW_SMG_CLIP1_UFOPEDIA
     listOrder: 1130
-  - id: STR_ALIEN_PLASMA_RIFLE
+  - id: STR_AW_RIFLE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_RIFLE
-    text: STR_ALIEN_PLASMA_RIFLE_UFOPEDIA
+      - STR_AW_RIFLE
+    text: STR_AW_RIFLE_UFOPEDIA
     listOrder: 1140
-  - id: STR_ALIEN_PLASMA_RIFLE_CLIP
+  - id: STR_AW_RIFLE_CLIP1
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_RIFLE
-    text: STR_ALIEN_PLASMA_RIFLE_CLIP_UFOPEDIA
+      - STR_AW_RIFLE
+    text: STR_AW_RIFLE_CLIP1_UFOPEDIA
     listOrder: 1150
-  - id: STR_ALIEN_PLASMA_RIFLE_CLIP2
+  - id: STR_AW_RIFLE_CLIP2
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_RIFLE_CLIP2
-    text: STR_ALIEN_PLASMA_RIFLE_CLIP2_UFOPEDIA
+      - STR_AW_RIFLE_CLIP2
+    text: STR_AW_RIFLE_CLIP2_UFOPEDIA
     listOrder: 1151
-  - id: STR_ALIEN_PLASMA_RIFLE_CLIP3
+  - id: STR_AW_RIFLE_CLIP3
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_RIFLE_CLIP3
-    text: STR_ALIEN_PLASMA_RIFLE_CLIP3_UFOPEDIA
+      - STR_AW_RIFLE_CLIP3
+    text: STR_AW_RIFLE_CLIP3_UFOPEDIA
     listOrder: 1152
-  - id: STR_ALIEN_PLASMA_BLASTER
+  - id: STR_AW_SHOTGUN
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_BLASTER
-    text: STR_ALIEN_PLASMA_BLASTER_UFOPEDIA
+      - STR_AW_SHOTGUN
+    text: STR_AW_SHOTGUN_UFOPEDIA
     listOrder: 1160
-  - id: STR_ALIEN_PLASMA_BLASTER_CLIP
+  - id: STR_AW_SHOTGUN_CLIP1
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_BLASTER
-    text: STR_ALIEN_PLASMA_BLASTER_CLIP_UFOPEDIA
+      - STR_AW_SHOTGUN
+    text: STR_AW_SHOTGUN_CLIP1_UFOPEDIA
     listOrder: 1170
-  - id: STR_ALIEN_PLASMA_SNIPER_RIFLE
+  - id: STR_AW_SNIPER
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE
-    text: STR_ALIEN_PLASMA_SNIPER_RIFLE_UFOPEDIA
+      - STR_AW_SNIPER
+    text: STR_AW_SNIPER_UFOPEDIA
     listOrder: 1180
-  - id: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP
+  - id: STR_AW_SNIPER_CLIP1
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE
-    text: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA
+      - STR_AW_SNIPER
+    text: STR_AW_SNIPER_CLIP1_UFOPEDIA
     listOrder: 1190
-  - id: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2
+  - id: STR_AW_SNIPER_CLIP2
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2
-    text: STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2_UFOPEDIA
+      - STR_AW_SNIPER_CLIP2
+    text: STR_AW_SNIPER_CLIP2_UFOPEDIA
     listOrder: 1191
-  - id: STR_ALIEN_HEAVY_PLASMA
+  - id: STR_AW_LMG
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HEAVY_PLASMA
-    text: STR_ALIEN_HEAVY_PLASMA_UFOPEDIA
+      - STR_AW_LMG
+    text: STR_AW_LMG_UFOPEDIA
     listOrder: 1200
-  - id: STR_ALIEN_HEAVY_PLASMA_CLIP
+  - id: STR_AW_LMG_CLIP1
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HEAVY_PLASMA
-    text: STR_ALIEN_HEAVY_PLASMA_CLIP_UFOPEDIA
+      - STR_AW_LMG
+    text: STR_AW_LMG_CLIP1_UFOPEDIA
     listOrder: 1210
-  - id: STR_ALIEN_HEAVY_PLASMA_CLIP2
+  - id: STR_AW_LMG_CLIP2
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HEAVY_PLASMA_CLIP2
-    text: STR_ALIEN_HEAVY_PLASMA_CLIP2_UFOPEDIA
+      - STR_AW_LMG_CLIP2
+    text: STR_AW_LMG_CLIP2_UFOPEDIA
     listOrder: 1211
-  - id: STR_ALIEN_HEAVY_PLASMA_CLIP3
+  - id: STR_AW_LMG_CLIP3
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HEAVY_PLASMA_CLIP3
-    text: STR_ALIEN_HEAVY_PLASMA_CLIP3_UFOPEDIA
+      - STR_AW_LMG_CLIP3
+    text: STR_AW_LMG_CLIP3_UFOPEDIA
     listOrder: 1212
-  - id: STR_ALIEN_HEAVY_PLASMA_CANNON
+  - id: STR_AW_HEAVY_CANNON
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HEAVY_PLASMA_CANNON
-    text: STR_ALIEN_HEAVY_PLASMA_CANNON_UFOPEDIA
+      - STR_AW_HEAVY_CANNON
+    text: STR_AW_HEAVY_CANNON_UFOPEDIA
     listOrder: 1220
-  - id: STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP
+  - id: STR_AW_HEAVY_CANNON_CLIP1
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HEAVY_PLASMA_CANNON
-    text: STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP_UFOPEDIA
+      - STR_AW_HEAVY_CANNON
+    text: STR_AW_HEAVY_CANNON_CLIP1_UFOPEDIA
     listOrder: 1230
-  - id: STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3
+  - id: STR_AW_HEAVY_CANNON_CLIP3
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3
-    text: STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3_UFOPEDIA
+      - STR_AW_HEAVY_CANNON_CLIP3
+    text: STR_AW_HEAVY_CANNON_CLIP3_UFOPEDIA
     listOrder: 1232
-  - id: STR_ALIEN_COMM
+  - id: STR_EX_PORTABLE_HYPERWAVE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_COMM
-    text: STR_ALIEN_COMM_UFOPEDIA
-  - id: STR_ALIEN_HIGH_EXPLOSIVE
+      - STR_EX_PORTABLE_HYPERWAVE
+    text: STR_EX_PORTABLE_HYPERWAVE_UFOPEDIA
+  - id: STR_AW_DEMOLITION_EXPLOSIVE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HIGH_EXPLOSIVE
-    text: STR_ALIEN_HIGH_EXPLOSIVE_UFOPEDIA
+      - STR_AW_DEMOLITION_EXPLOSIVE
+    text: STR_AW_DEMOLITION_EXPLOSIVE_UFOPEDIA
     listOrder: 5805
-  - id: STR_ALIEN_HOLO_PROJECTOR
+  - id: STR_EX_HOLO_PROJECTOR
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_HOLO_PROJECTOR
-    text: STR_ALIEN_HOLO_PROJECTOR_UFOPEDIA
-  - id: STR_ALIEN_INJECTOR
+      - STR_EX_HOLO_PROJECTOR
+    text: STR_EX_HOLO_PROJECTOR_UFOPEDIA
+  - id: STR_EX_SYRINGE_SAMPLE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_INJECTOR
-    text: STR_ALIEN_INJECTOR_UFOPEDIA
+      - STR_EX_SYRINGE_SAMPLE
+    text: STR_EX_SYRINGE_SAMPLE_UFOPEDIA
   - id: STR_AW_PLASMA_BLADE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
@@ -2198,19 +2198,19 @@ ufopaedia:
       - STR_AW_PLASMA_BLADE
     text: STR_AW_PLASMA_BLADE_UFOPEDIA
     listOrder: 5703
-  - id: STR_ALIEN_PROX_GRENADE
+  - id: STR_AW_PROXY_GRENADE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_PROX_GRENADE
-    text: STR_ALIEN_PROX_GRENADE_UFOPEDIA
+      - STR_AW_PROXY_GRENADE
+    text: STR_AW_PROXY_GRENADE_UFOPEDIA
     listOrder: 5804
-  - id: STR_ALIEN_SMALL_ENTERTAINMENT
+  - id: STR_EX_PORTABLE_HYPERSENSORY
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_SMALL_ENTERTAINMENT
-    text: STR_ALIEN_SMALL_ENTERTAINMENT_UFOPEDIA
+      - STR_EX_PORTABLE_HYPERSENSORY
+    text: STR_EX_PORTABLE_HYPERSENSORY_UFOPEDIA
   - id: STR_AW_ALLOY_BLADE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
@@ -2218,42 +2218,42 @@ ufopaedia:
       - STR_AW_ALLOY_BLADE
     text: STR_AW_ALLOY_BLADE_UFOPEDIA
     listOrder: 5702
-  - id: STR_ELLERIUM_LAMP
+  - id: STR_EX_ALIEN_ELERIUM_LAMP
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ELLERIUM_LAMP
-    text: STR_ELLERIUM_LAMP_UFOPEDIA
-  - id: STR_ALIEN_COMPUTER
+      - STR_EX_ALIEN_ELERIUM_LAMP
+    text: STR_EX_ALIEN_ELERIUM_LAMP_UFOPEDIA
+  - id: STR_EX_PORTABLE_COMPUTER
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_COMPUTER
-    text: STR_ALIEN_COMPUTER_UFOPEDIA
-  - id: STR_ALIEN_DNA
+      - STR_EX_PORTABLE_COMPUTER
+    text: STR_EX_PORTABLE_COMPUTER_UFOPEDIA
+  - id: STR_EX_BIO_SAMPLE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_DNA
-    text: STR_ALIEN_DNA_UFOPEDIA
-  - id: STR_ALIEN_EMBRYO
+      - STR_EX_BIO_SAMPLE
+    text: STR_EX_BIO_SAMPLE_UFOPEDIA
+  - id: STR_EX_EMBRYO_SAMPLE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_EMBRYO
-    text: STR_ALIEN_EMBRYO_UFOPEDIA
-  - id: STR_ALIEN_EXTRACTOR
+      - STR_EX_EMBRYO_SAMPLE
+    text: STR_EX_EMBRYO_SAMPLE_UFOPEDIA
+  - id: STR_EX_SAMPLE_COLLECTOR
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_EXTRACTOR
-    text: STR_ALIEN_EXTRACTOR_UFOPEDIA
-  - id: STR_ALIEN_ORGAN
+      - STR_EX_SAMPLE_COLLECTOR
+    text: STR_EX_SAMPLE_COLLECTOR_UFOPEDIA
+  - id: STR_EX_ORGAN_SAMPLE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_ALIEN_ORGAN
-    text: STR_ALIEN_ORGAN_UFOPEDIA
+      - STR_EX_ORGAN_SAMPLE
+    text: STR_EX_ORGAN_SAMPLE_UFOPEDIA
   - id: STR_SMALL_LAUNCHER
     type_id: 4
     section: STR_ALIEN_ARTIFACTS

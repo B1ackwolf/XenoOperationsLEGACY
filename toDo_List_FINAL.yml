@@ -33,8 +33,14 @@ TL;DR VERSION:
  - dreagnought = 203x / 40e + 15 supplies
  - Base defense = 75X / 20e + 180 supplies
 
++ hoja de ruta para 0.98.1:
+ - aun mas cambios, 95% terminado de ordenar el archivo items, luego tendria q seguramente agregar los items faltantes de los ufos y alguna q otra cosa, al llegar a casa, debo si o si, hacer mas cambios, para sentir q logre algo. procesar los facilities y ademas agregar el edificio medico?. mañana agregar cuchillos nuevos, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar la conclusion de agregar los rostros nuevos de armaduras y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree y ademas balancear todo en manufactures, para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul) de este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
+
 + PRIORITIES FIXES:
- - LO PRIMERO HACER MAÑANA 17, modificar de ufopedia a UFOPAEDIA.
+
+
+ - OJO, ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO
+
  - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
 
  - pedir una opcion para reordenar bases, sea con flechitas o lo q sea, comentar el hecho q se mueven automaticamente por ejemplo cuando se elimina por completo una base.
@@ -51,7 +57,11 @@ TL;DR VERSION:
    * STR_HISTORICAL_ARCHIVES_ANALYSIS
    * STR_ANOMALOUS_EQUATION
    * STR_SOLVE_ANOMALOUS_EQUATION
-
+ - aprovechar los extras aliens objects para hacer requisitos de tecnologia
+   * ejemplo el communicador y el hypersensory para el hyperwave relay
+   * todos los q son cosas de medico para las clinicas
+   * etc
+   * tambien para los manufactures for profit goods
  - modificar unidades alienigenas para darles una dificultad mas estable
    * eliminar q ganen stats segun el nivel de dificultad, por lo tanto ahora regularizar mejor los stats a un promedio
    * se modificaran las cantidades totales de aliens
@@ -61,6 +71,7 @@ TL;DR VERSION:
    * parece q es lo mismo con las armaduras, aunque me salte error
  - crear medalla para perros
  - modificar totalmente como funcionan los articulos medicos.
+   * buscar agregarle soniditos a los articulos medicos cuando se usen
    * nivel 0 la jeringa de adreno y el pouch individual y descartable
    * nivel 1 el bolsito medico, pensado para unidades especializadas en curar.
    * nivel 2 el field surgery kit, una version mejorada.

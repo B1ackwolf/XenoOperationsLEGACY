@@ -2,6 +2,7 @@
 #Ojito, tendre q renombrar y reubicar TODOS las facilities en este sector
 #recordar ponerle nuevos 
 facilities:
+  - delete: STR_HANGAR
 #----- Vainilla Buildings -----#
   - type: STR_MISSILE_DEFENSES
     spriteShape: 1
@@ -69,7 +70,6 @@ facilities:
       - [7, 5, 1]
       - [2, 1, 1]
       - [1, 7, 0]
-  - delete: STR_HANGAR
   - type: STR_HANGAR
     spriteShape: 9
     spriteFacility: 9

@@ -143,7 +143,7 @@
       STR_30_MINUTES: "ㅌ 30m"
       STR_1_HOUR: "ㅎ 1h"
       STR_1_DAY: "ㅆ 1ㅉ"  
-      STR_ADRENO_SYRINGE: "Adrenaline Syringe"
+      STR_EX_ADRENO_KIT: "Adrenaline Syringe"
       MAP_ACULTA: "Gothic Grass"
       MAP_ACULTASNOW: "Gothic Snow"
       MAP_ACULTASAND: "Gothic Sand"
@@ -592,10 +592,10 @@
       STR_DIEGO_GARCIA: Diego Garcia
 #END CITY NAMES
 ###########################ojito reordenar
-      STR_FIST_AID_KIT: "First Aid Kit"
-      STR_STARTING_MEDI_KIT: "Standard Medikit"
-      STR_BASIC_MEDI_KIT: "Field Surgery kit"
-      STR_MEDI_KIT: "Advanced Medi-gel kit"
+      STR_EX_FIST_AID_KIT: "First Aid Kit"
+      STR_EX_BASIC_MEDI_KIT: "Standard Medikit"
+      STR_EX_IMPROVED_MEDI_KIT: "Field Surgery kit"
+      STR_MEDI_KIT: "Medi-Gel kit"
       STR_PILOT: Pilot
       STR_ELITE_SOLDIER: Elite Soldier
       STR_SOLDIER_OFFICER: Officer
@@ -1099,65 +1099,65 @@
       STR_HEAVY_ALIEN_WEAPONS: Heavy Alien Weapons
       STR_SPECIAL_ALIEN_WEAPONS: Special Alien Weapons
       STR_ELITE_ALIEN_WEAPONS: Elite Alien Weapons
-      STR_ALIEN_PLASMA_PISTOL: Alien Plasma Pistol
-      STR_ALIEN_PLASMA_PISTOL_CLIP: Alien Plasma Pistol Clip
-      STR_ALIEN_PLASMA_PISTOL_CLIP2: Pistol Overcharged Clip
-      STR_ALIEN_PLASMA_PISTOL_CLIP3: Pistol Antimatter Clip
-      STR_ALIEN_PLASMA_ASSAULTER: Alien Plasma Assaulter
-      STR_ALIEN_PLASMA_ASSAULTER_CLIP: Alien Plasma Assaulter Clip
-      STR_ALIEN_PLASMA_ASSAULTER_CLIP2: Assaulter Overcharged Clip
-      STR_ALIEN_PLASMA_ASSAULTER_CLIP3: Assaulter Antimatter Clip
-      STR_ALIEN_PLASMA_RIFLE: Alien Plasma Rifle
-      STR_ALIEN_PLASMA_RIFLE_CLIP: Alien Plasma Rifle Clip
-      STR_ALIEN_PLASMA_RIFLE_CLIP2: Rifle Overcharged Clip
-      STR_ALIEN_PLASMA_RIFLE_CLIP3: Rifle Antimatter Clip
-      STR_ALIEN_PLASMA_BLASTER: Alien Shard Rifle
-      STR_ALIEN_PLASMA_BLASTER_CLIP: Elerium Shards
-      STR_ALIEN_PLASMA_SNIPER_RIFLE: Alien Plasma Lance
-      STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP: Alien Plasma Lance Clip
-      STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2: Lance Overcharged Clip
-      STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP3: Lance Antimatter Clip
-      STR_ALIEN_HEAVY_PLASMA: Alien Heavy Plasma
-      STR_ALIEN_HEAVY_PLASMA_CLIP: Alien Heavy Plasma Clip
-      STR_ALIEN_HEAVY_PLASMA_CLIP2: Heavy Overcharged Clip
-      STR_ALIEN_HEAVY_PLASMA_CLIP3: Heavy Antimatter Clip
-      STR_ALIEN_HEAVY_PLASMA_CANNON: Alien Plasma Cannon
-      STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP: Alien Plasma Cannon Clip
-      STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP2: Cannon Overcharged Clip
-      STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3: Cannon Antimatter Clip
-      STR_ELITE_PLASMA: Elite Plasma
-      STR_ELITE_PLASMA_CLIP: Elite Plasma Clip
-      STR_AW_ALLOY_BLADE: Alloy Blade
+      STR_AW_MAIN_PISTOL: Alien Plasma Pistol
+      STR_AW_MAIN_PISTOL_CLIP1: Alien Plasma Pistol Clip
+      STR_AW_MAIN_PISTOL_CLIP2: Pistol Overcharged Clip
+      STR_AW_MAIN_PISTOL_CLIP3: Pistol Antimatter Clip
+      STR_AW_SMG: Alien Plasma Assaulter
+      STR_AW_SMG_CLIP1: Alien Plasma Assaulter Clip
+      STR_AW_SMG_CLIP2: Assaulter Overcharged Clip
+      STR_AW_SMG_CLIP3: Assaulter Antimatter Clip
+      STR_AW_RIFLE: Alien Plasma Rifle
+      STR_AW_RIFLE_CLIP1: Alien Plasma Rifle Clip
+      STR_AW_RIFLE_CLIP2: Rifle Overcharged Clip
+      STR_AW_RIFLE_CLIP3: Rifle Antimatter Clip
+      STR_AW_SHOTGUN: Alien Shard Rifle
+      STR_AW_SHOTGUN_CLIP1: Elerium Shards
+      STR_AW_SNIPER: Alien Plasma Lance
+      STR_AW_SNIPER_CLIP1: Alien Plasma Lance Clip
+      STR_AW_SNIPER_CLIP2: Lance Overcharged Clip
+      STR_AW_SNIPER_CLIP13: Lance Antimatter Clip
+      STR_AW_LMG: Alien Heavy Plasma
+      STR_AW_LMG_CLIP1: Alien Heavy Plasma Clip
+      STR_AW_LMG_CLIP2: Heavy Overcharged Clip
+      STR_AW_LMG_CLIP3: Heavy Antimatter Clip
+      STR_AW_HEAVY_CANNON: Alien Plasma Cannon
+      STR_AW_HEAVY_CANNON_CLIP1: Alien Plasma Cannon Clip
+      STR_AW_HEAVY_CANNON_CLIP12: Cannon Overcharged Clip
+      STR_AW_HEAVY_CANNON_CLIP3: Cannon Antimatter Clip
+      STR_AW_ELITE_RIFLE: Elite Plasma
+      STR_AW_ELITE_RIFLE_CLIP: Elite Plasma Clip
+      STR_AW_ALLOY_BLADE: Alien Alloy Blade
       STR_AW_PLASMA_BLADE: Alien Plasma Sword
-      STR_ALIEN_PROX_GRENADE: Alien Mine
+      STR_AW_PROXY_GRENADE: Alien Mine
       STR_SMALL_LAUNCHER: Cluster Launcher
       STR_STUN_BOMB: Stun Orbs
       STR_STUN_BOMB2: Acid Orbs
       STR_STUN_BOMB3: Antimatter Orbs
 #-----Alien Equipment
-      STR_ALIEN_COMPUTER: Alien Computer
-      STR_ALIEN_DNA: DNA Sample
-      STR_ALIEN_EMBRYO: Alien Embryo
-      STR_ALIEN_EXTRACTOR: DNA Extractor
-      STR_ALIEN_ORGAN: Organ Sample
-      STR_ALIEN_HIGH_EXPLOSIVE: Alien Demolition Core
-      STR_ALIEN_HOLO_PROJECTOR: Holo Projector
-      STR_ALIEN_INJECTOR: Alien Injector
-      STR_ALIEN_COMM: Alien Communicator
-      STR_ALIEN_SMALL_ENTERTAINMENT: Small Entertainment
-      STR_ELLERIUM_LAMP: Alien Elerium Lamp
-      STR_ELLERIUM_LAMP_HUMAN: Elerium Lamp
+      STR_EX_PORTABLE_COMPUTER: Alien Computer
+      STR_EX_BIO_SAMPLE: DNA Sample
+      STR_EX_EMBRYO_SAMPLE: Alien Embryo
+      STR_EX_SAMPLE_COLLECTOR: DNA Extractor
+      STR_EX_ORGAN_SAMPLE: Organ Sample
+      STR_AW_DEMOLITION_EXPLOSIVE: Alien Demolition Core
+      STR_EX_HOLO_PROJECTOR: Holo Projector
+      STR_EX_SYRINGE_SAMPLE: Alien Injector
+      STR_EX_PORTABLE_HYPERWAVE: Alien Communicator
+      STR_EX_PORTABLE_HYPERSENSORY: Small Entertainment
+      STR_EX_ALIEN_ELERIUM_LAMP: Alien Elerium Lamp
+      STR_EX_ELERIUM_LAMP: Elerium Lamp
 #-----Alien Gear Breakdown
-      STR_ALIEN_DNA_BREAKDOWN: Breakdown DNA Sample
-      STR_ALIEN_COMPUTER_BREAKDOWN: Breakdown Alien Computer
-      STR_ALIEN_EMBRYO_BREAKDOWN: Breakdown Alien Embryo
-      STR_ALIEN_EXTRACTOR_BREAKDOWN: Breakdown DNA Extractor
-      STR_ALIEN_ORGAN_BREAKDOWN: Breakdown Organ Sample
-      STR_ALIEN_HIGH_EXPLOSIVE_BREAKDOWN: Breakdown Alien High Explosive
-      STR_ALIEN_HOLO_PROJECTOR_BREAKDOWN: Breakdown Holo Projector
-      STR_ALIEN_INJECTOR_BREAKDOWN: Breakdown Alien Injector
-      STR_ALIEN_COMM_BREAKDOWN: Breakdown Alien Communicator
-      STR_ALIEN_SMALL_ENTERTAINMENT_BREAKDOWN: Breakdown Small Entertainment
+      STR_EX_BIO_SAMPLE_BREAKDOWN: Breakdown DNA Sample
+      STR_EX_PORTABLE_COMPUTER_BREAKDOWN: Breakdown Alien Computer
+      STR_EX_EMBRYO_SAMPLE_BREAKDOWN: Breakdown Alien Embryo
+      STR_EX_SAMPLE_COLLECTOR_BREAKDOWN: Breakdown DNA Extractor
+      STR_EX_ORGAN_SAMPLE_BREAKDOWN: Breakdown Organ Sample
+      STR_AW_DEMOLITION_EXPLOSIVE_BREAKDOWN: Breakdown Alien High Explosive
+      STR_EX_HOLO_PROJECTOR_BREAKDOWN: Breakdown Holo Projector
+      STR_EX_SYRINGE_SAMPLE_BREAKDOWN: Breakdown Alien Injector
+      STR_EX_PORTABLE_HYPERWAVE_BREAKDOWN: Breakdown Alien Communicator
+      STR_EX_PORTABLE_HYPERSENSORY_BREAKDOWN: Breakdown Small Entertainment
       STR_PM_MAIN_PISTOL_CLIP4: Breakdown Plsm Pistol Clip
       STR_PM_MAIN_PISTOL_CLIP5: Breakdown Plsm Pistol OR
       STR_PM_MAIN_PISTOL_CLIP6: Breakdown Plsm Pistol AM
@@ -1187,7 +1187,7 @@
       STR_PM_SHOTGUN_CLIP5: Breakdown Plsm Blaster OR
       STR_PM_SHOTGUN_CLIP6: Breakdown Plsm Blaster AM
       STR_ALIEN_GRENADE_BREAKDOWN: Breakdown Alien Grenade
-      STR_ALIEN_PROX_GRENADE_BREAKDOWN: Breakdown Alien Mine
+      STR_AW_PROXY_GRENADE_BREAKDOWN: Breakdown Alien Mine
       STR_SMALL_LAUNCHER_BREAKDOWN: Breakdown Cluster Launcher
       STR_STUN_BOMB_BREAKDOWN: Breakdown Stun Orbs
       STR_STUN_BOMB2_BREAKDOWN: Breakdown Acid Orbs
@@ -1598,7 +1598,7 @@
       STR_ME_ALLOY_KNIFE: Alloy Knife
       STR_BO_ANTIMATTER_EXPLOSIVE: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
-      STR_AW_ELERIUM_MINE: Elerium Mine
+      STR_BO_ELERIUM_MINE: Elerium Mine
       STR_HUMAN_SMALL_LAUNCHER: Small Launcher
       STR_HUMAN_STUN_BOMB: Stun Bomb
       STR_PM_ANTIMATTER_LAUNCHER: Devastator Launcher
@@ -1619,9 +1619,9 @@
 ###### ojito
       STR_SH_GRENADE_UFOPEDIA: This device generates a tightly polarized cloud that rapidly ionizes the air in its landing area, producing a small yet controlled EMP effect that swiftly immobilizes targets within its range. It proves particularly effective in confined spaces such as UFOs, Alien Bases' corridors, and choke points.
 #-----Psionic Amps
-      STR_PSI_AMP_SMALL: Psionic Projector
+      STR_EX_PSI_AMP_SMALL: Psionic Projector
       STR_PSI_AMP: Psionic Amplifier
-      STR_PSI_AMP_LARGE: Psionic Dominator
+      STR_EX_PSI_AMP_LARGE: Psionic Dominator
 #-----Human Armor
 #OJITO LIMPIAR ARMADURAS REMANENTES
       STR_XOPS_ARMOR_TAN: Xeno Operations Armor
@@ -1756,44 +1756,44 @@
       STR_HEAVY_ALIEN_WEAPONS_UFOPEDIA: Alien heavy weapons are carefully guarded by complex locking devices with a high level of security to prevent there use in case of capture. This is especially important considering how frightfully common these weapons are. However, Codex data has allowed XCom to crack the locks on these devices, enabling for there use in the field. Although XCom operatives can use Alien equipment, the devices themselves are still far too complex to manufacture and therefore the Alien equipment should be used sparingly.
       STR_SPECIAL_ALIEN_WEAPONS_UFOPEDIA: These specialized alien weapons are terribly powerful and are carefully guarded by several layers of mechanical and digital safeguards. A multistage bypass has been devised thanks to crucial Codex data, which will allow XCom operatives to use these specialized Alien weapons. Although XCom operatives can use Alien equipment, the devices themselves are still far too complex to manufacture and therefore the Alien equipment should be used sparingly.
       STR_ELITE_ALIEN_WEAPONS_UFOPEDIA: Alien elite weapons are in a class of their own. These weapons are expensive enough that even the Aliens must ration them amongst their best troops. As such, they have the most complex encryption algorithms and mechanical locks to prevent their use in case of capture. High level Codex data has found a bypass and XCom operatives can now use these weapons in the field. Although XCom operatives can use Alien equipment, the devices themselves are still far too complex to manufacture and therefore the Alien equipment should be used sparingly.
-      STR_ALIEN_COMPUTER_UFOPEDIA: This device is a miniature alien computer system much like a laptop. The screen is a holographic projection that reacts to touch. A small Elerium battery powers it and the battery life can be measured in centuries. Unfortunately all attempts to access anything important has failed and we theorize that in the event of capture, all files are automatically erased. This makes it worthless to XCom, but the components would fetch a high price with technical companies.
-      STR_ALIEN_DNA_UFOPEDIA: This appears to be a standard DNA sample acquired from normal terrestrial lifeforms. There is DNA present from numerous species both domestic and wild. There are also traces of human DNA as well. The liquid solution appears to automatically sort the DNA somehow. While useless to us, it may be of interest to medical research and pharmaceutical companies.
-      STR_ALIEN_EMBRYO_UFOPEDIA: This device contains a nutrient liquid solution and life support systems to keep an embryo alive for up to a month. The embryo contained inside has human DNA, but it is mixed with Alien DNA of varying kinds. The chances of this hybrid surviving are slim and it has very high odds of killing the mother host as well. Why the Aliens are so intent on producing a hybrid is unclear as a weaker race would not be as useful as a normal human where as a superior hybrid risks supplanting their creators. Despite the blatantly immoral and unethical nature of these bizarre experiments, this device could have some use in the medical field as a superior form of life support. Medical companies would likely pay handsomely for recovered samples. Let's just hope they don't ask too many questions about the device's origin and original purpose.
-      STR_ALIEN_EXTRACTOR_UFOPEDIA: This device extracts DNA from a host's blood. The blood samples are then broken apart and sorted by the chemical solution inside. While useless to XCom, this device could find use in genetic research and would sell high in that market.
-      STR_ALIEN_ORGAN_UFOPEDIA: This container holds sample organs from terrestrial lifeforms. The organs taken vary as much as the species they are taken from. Unfortunately we have found a few human organs as well. The solution contained within perfectly preserves the organs. This device is useless to XCom, though it would be valuable to the food industry as a way to preserve both vegetables and meat without the use of refrigeration.
-      STR_ALIEN_PLASMA_PISTOL_UFOPEDIA: The Alien Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. The containment field likely mitigates energy loss from energy blooming. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_PLASMA_PISTOL_CLIP_UFOPEDIA: This clip is built around a small Elerium battery. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Pistol. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_PLASMA_ASSAULTER_UFOPEDIA: The Alien Plasma Assaulter has a high rate of fire, but loses accuracy over long ranges quickly. This weapon was likely designed as a short range assault weapon comparable to a Submachine Gun in role. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_PLASMA_ASSAULTER_CLIP_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_PLASMA_ASSAULTER_CLIP2_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
-      STR_ALIEN_PLASMA_ASSAULTER_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_PLASMA_RIFLE_UFOPEDIA: The Alien Plasma Rifle fires a super heated gas bolt. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_PLASMA_RIFLE_CLIP_UFOPEDIA: This clip is built around a few small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_PLASMA_RIFLE_CLIP2_UFOPEDIA: This clip is built around a few small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
-      STR_ALIEN_PLASMA_RIFLE_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_PLASMA_BLASTER_UFOPEDIA: This weapon fires charged shards of elerium-115 crystal, producing a spread effect similar to a shotgun. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_PLASMA_BLASTER_CLIP_UFOPEDIA: This clip contains a row of charged elerium-115 shards. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Blaster. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_PLASMA_SNIPER_RIFLE_UFOPEDIA: The Alien Plasma Lance has a complex barrel designed to reduce its spread range. This makes this weapon deadly accurate, but at the cost of a slower firing rate. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Lance. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_PLASMA_SNIPER_RIFLE_CLIP2_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Lance. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
-      STR_ALIEN_HEAVY_PLASMA_UFOPEDIA: The Heavy Plasma is scaled up from other alien weapons, combining a high fire rate with impressive power. A high level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_HEAVY_PLASMA_CLIP_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_HEAVY_PLASMA_CLIP2_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
-      STR_ALIEN_HEAVY_PLASMA_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_HEAVY_PLASMA_CANNON_UFOPEDIA: The Alien Heavy Plasma Cannon is the largest plasma based alien weapon yet encountered short of UFO mounted weapons. A high level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma Cannon. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP2_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma Cannon. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
-      STR_ALIEN_HEAVY_PLASMA_CANNON_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma Cannon. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_ALIEN_HIGH_EXPLOSIVE_UFOPEDIA: The Alien High Explosive is built around an Elerium core. When activated, it generates an antimatter reaction powerful enough to level a city block. Caution is strongly suggested when deploying this weapon as its destructive range is quite large. This weapon could also be useful for breaching UFO hulls. A high level lock prevents human use of this device and the technological components of this explosive are too advanced for XCom to manufacture.
-      STR_ALIEN_HOLO_PROJECTOR_UFOPEDIA: This device appears to be a simple holographic projector. The projections are not particularly realistic however. It seems to have a few set projections, but was likely intended to interface with another device like a computer. This technology while interesting in its potential, has little in the way of military applications beyond potential computer interfaces. However it will probably sell very well on the civilian market. It can also be taken apart by our engineers for useful components.
-      STR_ALIEN_INJECTOR_UFOPEDIA: This Injector is filled with a nano robot solution designed to repair damaged tissue and eliminate harmful pathogens. Traces of this solution can be found in most Alien lifeforms encountered so far and would explain why they haven't caught any earth borne diseases yet. Unfortunately it seems the aliens remembered their inoculations this time. While a marvelous technology, it would take decades to adapt the nano technology to human physiology. None the less it will sell high to any number of medical and research companies.
-      STR_ALIEN_COMM_UFOPEDIA: This device appears to be a simple alien communication device. It links with other communication devices via a hyperwave signal that cannot be detected or scrambled by traditional radio technology. Unfortunately the device is too miniaturized and specialized to give us a good idea of how to construct a larger facility capable of intercepting such a signal. Perhaps an Alien that specialized in navigation might have the knowledge to build such a facility? Regardless this small device is useless to XCom, but telecommunication companies would pay a lot to get their hands on this machine. It can also be taken apart by our engineers for useful components.
+      STR_EX_PORTABLE_COMPUTER_UFOPEDIA: This device is a miniature alien computer system much like a laptop. The screen is a holographic projection that reacts to touch. A small Elerium battery powers it and the battery life can be measured in centuries. Unfortunately all attempts to access anything important has failed and we theorize that in the event of capture, all files are automatically erased. This makes it worthless to XCom, but the components would fetch a high price with technical companies.
+      STR_EX_BIO_SAMPLE_UFOPEDIA: This appears to be a standard DNA sample acquired from normal terrestrial lifeforms. There is DNA present from numerous species both domestic and wild. There are also traces of human DNA as well. The liquid solution appears to automatically sort the DNA somehow. While useless to us, it may be of interest to medical research and pharmaceutical companies.
+      STR_EX_EMBRYO_SAMPLE_UFOPEDIA: This device contains a nutrient liquid solution and life support systems to keep an embryo alive for up to a month. The embryo contained inside has human DNA, but it is mixed with Alien DNA of varying kinds. The chances of this hybrid surviving are slim and it has very high odds of killing the mother host as well. Why the Aliens are so intent on producing a hybrid is unclear as a weaker race would not be as useful as a normal human where as a superior hybrid risks supplanting their creators. Despite the blatantly immoral and unethical nature of these bizarre experiments, this device could have some use in the medical field as a superior form of life support. Medical companies would likely pay handsomely for recovered samples. Let's just hope they don't ask too many questions about the device's origin and original purpose.
+      STR_EX_SAMPLE_COLLECTOR_UFOPEDIA: This device extracts DNA from a host's blood. The blood samples are then broken apart and sorted by the chemical solution inside. While useless to XCom, this device could find use in genetic research and would sell high in that market.
+      STR_EX_ORGAN_SAMPLE_UFOPEDIA: This container holds sample organs from terrestrial lifeforms. The organs taken vary as much as the species they are taken from. Unfortunately we have found a few human organs as well. The solution contained within perfectly preserves the organs. This device is useless to XCom, though it would be valuable to the food industry as a way to preserve both vegetables and meat without the use of refrigeration.
+      STR_AW_MAIN_PISTOL_UFOPEDIA: The Alien Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. The containment field likely mitigates energy loss from energy blooming. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_MAIN_PISTOL_CLIP1_UFOPEDIA: This clip is built around a small Elerium battery. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Pistol. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_SMG_UFOPEDIA: The Alien Plasma Assaulter has a high rate of fire, but loses accuracy over long ranges quickly. This weapon was likely designed as a short range assault weapon comparable to a Submachine Gun in role. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_SMG_CLIP1_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_SMG_CLIP2_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
+      STR_AW_SMG_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_RIFLE_UFOPEDIA: The Alien Plasma Rifle fires a super heated gas bolt. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_RIFLE_CLIP1_UFOPEDIA: This clip is built around a few small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_RIFLE_CLIP2_UFOPEDIA: This clip is built around a few small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
+      STR_AW_RIFLE_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_SHOTGUN_UFOPEDIA: This weapon fires charged shards of elerium-115 crystal, producing a spread effect similar to a shotgun. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_SHOTGUN_CLIP1_UFOPEDIA: This clip contains a row of charged elerium-115 shards. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Blaster. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_SNIPER_UFOPEDIA: The Alien Plasma Lance has a complex barrel designed to reduce its spread range. This makes this weapon deadly accurate, but at the cost of a slower firing rate. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_SNIPER_CLIP1_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Lance. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_SNIPER_CLIP2_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Lance. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
+      STR_AW_LMG_UFOPEDIA: The Heavy Plasma is scaled up from other alien weapons, combining a high fire rate with impressive power. A high level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_LMG_CLIP1_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_LMG_CLIP2_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
+      STR_AW_LMG_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_HEAVY_CANNON_UFOPEDIA: The Alien Heavy Plasma Cannon is the largest plasma based alien weapon yet encountered short of UFO mounted weapons. A high level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_AW_HEAVY_CANNON_CLIP1_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma Cannon. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_HEAVY_CANNON_CLIP12_UFOPEDIA: This clip is built around a several small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma Cannon. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
+      STR_AW_HEAVY_CANNON_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Heavy Plasma Cannon. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      STR_AW_DEMOLITION_EXPLOSIVE_UFOPEDIA: The Alien High Explosive is built around an Elerium core. When activated, it generates an antimatter reaction powerful enough to level a city block. Caution is strongly suggested when deploying this weapon as its destructive range is quite large. This weapon could also be useful for breaching UFO hulls. A high level lock prevents human use of this device and the technological components of this explosive are too advanced for XCom to manufacture.
+      STR_EX_HOLO_PROJECTOR_UFOPEDIA: This device appears to be a simple holographic projector. The projections are not particularly realistic however. It seems to have a few set projections, but was likely intended to interface with another device like a computer. This technology while interesting in its potential, has little in the way of military applications beyond potential computer interfaces. However it will probably sell very well on the civilian market. It can also be taken apart by our engineers for useful components.
+      STR_EX_SYRINGE_SAMPLE_UFOPEDIA: This Injector is filled with a nano robot solution designed to repair damaged tissue and eliminate harmful pathogens. Traces of this solution can be found in most Alien lifeforms encountered so far and would explain why they haven't caught any earth borne diseases yet. Unfortunately it seems the aliens remembered their inoculations this time. While a marvelous technology, it would take decades to adapt the nano technology to human physiology. None the less it will sell high to any number of medical and research companies.
+      STR_EX_PORTABLE_HYPERWAVE_UFOPEDIA: This device appears to be a simple alien communication device. It links with other communication devices via a hyperwave signal that cannot be detected or scrambled by traditional radio technology. Unfortunately the device is too miniaturized and specialized to give us a good idea of how to construct a larger facility capable of intercepting such a signal. Perhaps an Alien that specialized in navigation might have the knowledge to build such a facility? Regardless this small device is useless to XCom, but telecommunication companies would pay a lot to get their hands on this machine. It can also be taken apart by our engineers for useful components.
       STR_AW_PLASMA_BLADE_UFOPEDIA: The Plasma Sword uses an Elerium generated containment field to encase a super heated gas core in the shape of a blade. This super heated blade burns hot enough to slice through most known materials with ease. This makes this device a deadly close combat weapon without any rival. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_PROX_GRENADE_UFOPEDIA: This curious device is a proximity mine. It detects particle motion and activates detonating a small antimatter reaction powered by a tiny bit of Elerium. It is far more powerful than our Proximity Grenade. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ALIEN_SMALL_ENTERTAINMENT_UFOPEDIA: After careful study, our science teams have concluded that this is simply a smaller version of the Alien Entertainment module. It does not appear to be as potent as the larger versions aboard UFOs, but it produces a hallucinogenic effect when activated all the same. We theorized that the Aliens carry these around much like how our soldiers carry around cigars. Given our soldiers prefer cigars and scotch, the Alien Entertainment device is worthless to XCom. However we could probably sell the device at a high price so long as we make it clear that no questions will be asked on our part. It can also be taken apart by our engineers for useful components.
+      STR_AW_PROXY_GRENADE_UFOPEDIA: This curious device is a proximity mine. It detects particle motion and activates detonating a small antimatter reaction powered by a tiny bit of Elerium. It is far more powerful than our Proximity Grenade. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
+      STR_EX_PORTABLE_HYPERSENSORY_UFOPEDIA: After careful study, our science teams have concluded that this is simply a smaller version of the Alien Entertainment module. It does not appear to be as potent as the larger versions aboard UFOs, but it produces a hallucinogenic effect when activated all the same. We theorized that the Aliens carry these around much like how our soldiers carry around cigars. Given our soldiers prefer cigars and scotch, the Alien Entertainment device is worthless to XCom. However we could probably sell the device at a high price so long as we make it clear that no questions will be asked on our part. It can also be taken apart by our engineers for useful components.
       STR_AW_ALLOY_BLADE_UFOPEDIA: This weapon is a retractable blade much like a punching dagger made out of Alien Alloys. It fits at the wrists and extends when a button is pressed on the top. The blade is retracted likely to protect the extremely fine edge that is sharpened to a single molecule in size. Otherwise this is a fairly simple device and when used in closed combat, the wielder's strength is added to the attack. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_ELLERIUM_LAMP_UFOPEDIA: This is the most simplistic device we have recovered so far from the Aliens. It is a simple lamp powered by a small bit of Elerium. When activated, it glows much brighter than our standard Electro Flares. This simple piece of alien technology is easy to replicate.
-      STR_ELLERIUM_LAMP_HUMAN_UFOPEDIA: This device is a replication of the Alien Elerium Lamp. It glows much brighter than a standard Electro Flare.
+      STR_EX_ALIEN_ELERIUM_LAMP_UFOPEDIA: This is the most simplistic device we have recovered so far from the Aliens. It is a simple lamp powered by a small bit of Elerium. When activated, it glows much brighter than our standard Electro Flares. This simple piece of alien technology is easy to replicate.
+      STR_EX_ELERIUM_LAMP_UFOPEDIA: This device is a replication of the Alien Elerium Lamp. It glows much brighter than a standard Electro Flare.
       STR_SMALL_LAUNCHER_UFOPEDIA: The Cluster Launcher fires small numerous types of small explosive orbs. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_STUN_BOMB_UFOPEDIA: These orbs explode into electrical energy design to stun the human nervous system. Victims are fully conscious, but unable to move.
       STR_STUN_BOMB2_UFOPEDIA: Acid Orbs
@@ -1866,13 +1866,13 @@
       STR_BO_FIERY_GRENADE_UFOPEDIA: The Incendiary Grenade contains chemical elements that explode in a fiery blast when mixed. Useful for turning aliens into makeshift torches.
       STR_ME_BASIC_KNIFE_UFOPEDIA: The standard issue XCom Combat Knife is light and deadly being made out of high carbon steel that holds an edge well. This close combat weapon gives any soldier a suitable weapon in case the aliens get too close. Unlike the stun rod, a Soldier's strength is added to the Combat Knife's damage.
       STR_ME_KNUCKLES_UFOPEDIA: Brass Knuckles allow for our soldiers to use good old fashion fisticuffs to administer a classic Terran beat down. An alien would likely not be permanently killed by such a primitive hand to hand brawl, but it is useful to knock out an alien for live capture. Brass Knuckles are very light making it an easy and cheap addition to any soldier. Unlike the stun rod, this weapon adds the soldier's strength to the damage.
-      STR_BASIC_MEDI_KIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
+      STR_EX_IMPROVED_MEDI_KIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
       STR_BO_STICK_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
       STR_ME_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
       STR_ME_ALLOY_KNIFE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
       STR_BO_ANTIMATTER_EXPLOSIVE_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
-      STR_AW_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
+      STR_BO_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
       STR_PM_ANTIMATTER_LAUNCHER_UFOPEDIA: The Devastator Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
       STR_PM_ANTIMATTER_LAUNCHER_BOMB_UFOPEDIA:
       STR_PM_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
@@ -2149,9 +2149,9 @@
       STR_DRONE_WARFARE_UFOPAEDIA: "Unmanned aerial vehicles (UAVs) have been employed in both combat and reconnaissance roles. Their capacity to conduct high-altitude scouting, well beyond the reach of ground-based threats, allows for precision strikes, including the deployment of various explosives, missiles, or even kamikaze-like missions directly onto intended targets, all of which greatly enhance our operational capabilities. {NEWLINE} Additionally, we can deploy compact autonomous Land Drones, equipped with short-range weaponry. These drones are ideal for breaching structures and confined spaces suspected of housing enemy troops, ensuring the safety of our personnel."
       STR_TANKS_UNITS: Heavy Weapons Platforms
       STR_HEAVY_TANKS_UNITS_UFOPEDIA: "As access to new materials and advanced technologies, such as the enigmatic alien alloys, became available, the imperative to deploy heavier and more formidable units on the battlefield grew exponentially. To meet this demand, our dedicated Research teams embarked on an ambitious endeavor, focusing on the creation of groundbreaking models characterized by a drastic reduction in weight and increased mobility. The primary objective was to engineer units so lightweight that they could be safely transported and swiftly deployed by our enhanced transport ships equipped with VTOL (Vertical Takeoff and Landing) capabilities. {NEWLINE}This engineering feat signifies a pivotal advancement, enabling us to rapidly respond to emerging threats and engage the alien menace with unparalleled agility. These innovative designs are a testament to the relentless pursuit of progress and efficiency in our mission to safeguard humanity against the looming extraterrestrial threat."
-      STR_ADRENO_SYRINGE_UFOPEDIA: WIP{NEWLINE} gives 1 dose to revive stun soldiers (get discarded after use)
-      STR_STR_FIST_AID_KIT_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits
-      STR_STARTING_MEDI_KIT_UFOPEDIA: heal 1 point of bleeding and have 5 charges, useful for dedicated medic units, its expensive and heavier but heals more quickly and recharge freely after missions
+      STR_EX_ADRENO_KIT_UFOPEDIA: WIP{NEWLINE} gives 1 dose to revive stun soldiers (get discarded after use)
+      STR_STR_EX_FIST_AID_KIT_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits
+      STR_EX_BASIC_MEDI_KIT_UFOPEDIA: heal 1 point of bleeding and have 5 charges, useful for dedicated medic units, its expensive and heavier but heals more quickly and recharge freely after missions
       STR_DOG_EQUIPMENT: Dog Armors and Equipment
       STR_SUPPORT_UNITS: Supporting Units
       STR_DOG_RECRUITMENT: XCom Special Canine Units
