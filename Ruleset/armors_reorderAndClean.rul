@@ -8122,8 +8122,8 @@ armors:
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
-  - type: HYBRID_ARMOR
-    spriteSheet: HYBRID.PCK
+  - type: ABOMINATION_ARMOR
+    spriteSheet: ABOMINATION.PCK
     corpseBattle:
       - STR_ABOMINATION_CORPSE
     frontArmor: 70
@@ -8341,8 +8341,8 @@ armors:
       - 1.2
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ABOMINATION_ARMOR
-    spriteSheet: ABOMINATION.PCK
+  - type: SPAWN_ARMOR
+    spriteSheet: SPAWN.PCK
     corpseBattle:
       - STR_ANCIENT_SPAWN_CORPSE
     frontArmor: 0

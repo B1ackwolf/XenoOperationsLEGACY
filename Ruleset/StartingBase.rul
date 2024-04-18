@@ -12,7 +12,7 @@
     - type: STR_HANGAR #done
       x: 4
       y: 0
-    - type: STR_SEC_CORRIDOR
+    - type: STR_SECURITY_ROOM
       x: 2
       y: 3
     - type: STR_LABORATORY #done
@@ -24,7 +24,7 @@
     - type: STR_LARGE_RADAR_SYSTEM #done
       x: 3
       y: 3
-    - type: STR_LIVING_QUARTERS_2 #done
+    - type: STR_LARGE_LIVING_QUARTERS #done
       x: 2
       y: 4
     - type: STR_GYM #done

@@ -34,12 +34,13 @@ TL;DR VERSION:
  - Base defense = 75X / 20e + 180 supplies
 
 + hoja de ruta para 0.98.1:
- - aun mas cambios, 95% terminado de ordenar el archivo items, luego tendria q seguramente agregar los items faltantes de los ufos y alguna q otra cosa, al llegar a casa, debo si o si, hacer mas cambios, para sentir q logre algo. procesar los facilities y ademas agregar el edificio medico?. mañana agregar cuchillos nuevos, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar la conclusion de agregar los rostros nuevos de armaduras y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree y ademas balancear todo en manufactures, para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul) de este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
+ -  procesar los facilities y ademas agregar el edificio medico? tambien modificar y balancear precios y requerimientos a todos los edificios, ejemplos las defensas, confirmar si ya ahora q esta esto puesto puedo modificar lo de fabricar por encima y q al eliminar se haga un empty room como en tftd vainilla plus?. mañana agregar cuchillos nuevos, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar la conclusion de agregar los rostros nuevos de armaduras y terminar el rediseño de esas armaduras nivel 2? y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree y ademas balancear todo en manufactures, para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo) de este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
 
 + PRIORITIES FIXES:
-
-
- - OJO, ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO
+ - OJITO IMPLEMENTAR CORRECTAMENTE EL SCARAB Y EL xcf1
+   * el scarab aparece en la ufopaedia al inicio, resolver el tema bien de su investigacion y articulo, etc
+ - PERRITOS MATAN A CYBERDISC. bug o feature?
+ - OJO, en los ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO, no estan asignados a ninguna especie
 
  - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
 

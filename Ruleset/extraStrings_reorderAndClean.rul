@@ -39,8 +39,8 @@
       STR_25MM_CHAIN_BOX: 25x137mm Chain box
       STR_TANK_SMOKE_LAUNCHER: Smoke Array Dischargers
       STR_TANK_SMOKE_GRENADE: 76mm Tank Smoke grenade
-      HYBRID_WEAPON: Abomination Psychic ray
-      ANCIENT_ABOMINATION_TERRORIST_WEAPON: Spawn disruptor beam
+      ABOMINATION_WEAPON: Abomination Psychic ray
+      ANCIENT_SPAWN_TERRORIST_WEAPON: Spawn disruptor beam
       ENERGYALIEN_WEAPON: Solarite Pulsar
       STR_CORPSE_FLIGHT_JUMPSUIT: Corpse
       STR_CORPSE_VEST_ARMOR_TAN: Corpse
@@ -109,14 +109,14 @@
       MUTON_GUARD_ARMOR: Muton Broodguard
       MUTON_CHIEFTAIN_ARMOR: Muton Chieftain
       MUTON_WARLORD_ARMOR: Muton Warlord
-      HYBRID_ARMOR: Abomination Terrorist
+      ABOMINATION_ARMOR: Abomination Terrorist
       SOVEREIGN_ARMOR: Sovereign
       ENERGYALIEN_ARMOR: Solarite
       FORMIC_ARMOR: Formic
       CARCHARODON_ARMOR: Charcharodon
       CARCHARODON_ARMOR2: Carcharodon
       CARCHARODON_ARMOR3: Carcharodon
-      ABOMINATION_ARMOR: Carcharodon
+      SPAWN_ARMOR: Ancient Spawn
       ETHEREAL_ARMOR0: Ethereal
       ETHEREAL_ARMOR1: Ethereal
       ETHEREAL_ARMOR2: Ethereal
@@ -1060,27 +1060,27 @@
       STR_LARGE_RADAR_SYSTEM_UFOPEDIA: Special measures were taken to increase the range of the standard installation . Now, the system boasts an impressive effective range of 2600 nautical miles (4815 KM), operating on a 30-minute cycle and holding a 20% chance of detecting a UFO. The unique challenge posed by the evasive nature of UFOs necessitates constant fine-tuning, requiring a specialized frequency meticulously modulated to detect objects with a materials profile similar to those found in previous UFO reports and encounters. #{NEWLINE}{NEWLINE}Seamlessly integrated with an even larger array of satellite systems, this facility monitors UFO activities in real-time, generating substantial data traffic. Strategic considerations for the secrecy of our base locations mandate a singular deployment of each system per base, so exceeding this limit would render additional units redundant.
       STR_HYPER_WAVE_DECODER: Hyper-wave Decoder
       STR_HYPER_WAVE_DECODER_UFOPEDIA: Alien communications rely on a supre-dimensional wave which travels instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity. it has a range of 2800 nautical miles (5185 KM) and has 100% detection chance.
-      STR_LIVING_QUARTERS_2: "Large Living Quarters"
-      STR_LIVING_QUARTERS_2_UFOPEDIA: "Meant for large bases, this facility is more space-efficient than the standard Living Quarters, housing 100 personnel in considerable comfort as well as providing 25 storage space."
+      STR_LARGE_LIVING_QUARTERS: "Large Living Quarters"
+      STR_LARGE_LIVING_QUARTERS_UFOPEDIA: "Meant for large bases, this facility is more space-efficient than the standard Living Quarters, housing 100 personnel in considerable comfort as well as providing 25 storage space."
       STR_HANGAR_UFOPEDIA: Each hangar can acommodate Two crafts, there are facilities for maintenance, repair and refueling of X-Com aircraft. Crafts are stored on a underground vault below the facility, also the vault contain an electromagnetic catapult as those present in carriers, to help launching the plane and reducing the need of a strip for take-offs.
-      STR_GENERAL_STORES_2: "Large Storage Facility"
+      STR_LARGE_GENERAL_STORES: "Large Storage Facility"
       STR_LARGE_WORKSHOP: Large Workshop
-      STR_LARGE_LAB: Large Laboratory
+      STR_LARGE_LABORATORY: Large Laboratory
       STR_CORRIDOR: Corridor
-      STR_SEC_CORRIDOR: Security Station
+      STR_SECURITY_ROOM: Security Station
       STR_PSIONIC_LABORATORY_LARGE: Large Psi Laboratory
-      STR_SAT_UP_NET: Satellite Network
-      STR_HYP_UP_NET: Hyperwave Network
-      STR_GENERAL_STORES_2_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
+      STR_GLOBAL_RADAR_SYSTEM: Satellite Network
+      STR_HYPER_WAVE_GLOBAL_NETWORK: Hyperwave Network
+      STR_LARGE_GENERAL_STORES_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
       STR_CORRIDOR_UFOPEDIA: A cheap facility designed to connect other facilities.
-      STR_SEC_CORRIDOR_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
+      STR_SECURITY_ROOM_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
       STR_LIVING_QUARTERS_UFOPEDIA: Each accommodation block provides for up to 20 personnel. The facility provides basic recreation, food and sleeping areas.
       STR_LARGE_WORKSHOP_UFOPEDIA: This Large Workshop hosts expensive, but expansive infrastructure for manufacturing on a large scale. It provides up to 125 workshop space.
       STR_LABORATORY_UFOPEDIA: Up to 20 scientists can work in a laboratory facility. Laboratories are equipped with the latest technology for research into materials, biochemistry and cosmology. There is privileged access to the best research labs throughout the world, including military establishments.
       STR_WORKSHOP_UFOPEDIA: A workshop contains all the equipment necessary to manufacture equipment based on designs from the science labs. Up to 25 engineers can occupy a workshop, although items under construction will also consume some space.
-      STR_LARGE_LAB_UFOPEDIA: This Large Lab contains numerous state of the art research equipment and can host a larger number of staff than the small version. It provides space for up to 100 scientists.
-      STR_SAT_UP_NET_UFOPEDIA: This facility uses a network of both military and civilian orbital satellites along with advanced computer systems that link into surveillance networks from around the world to establish a global radar detection system. It has a small chance to discover any UFO on Earth.
-      STR_HYP_UP_NET_UFOPEDIA: By bouncing an amplified hyperwave signal off of a network of satellites, XCom can achieve global hyperwave converge, though the energy costs will be rather high.
+      STR_LARGE_LABORATORY_UFOPEDIA: This Large Lab contains numerous state of the art research equipment and can host a larger number of staff than the small version. It provides space for up to 100 scientists.
+      STR_GLOBAL_RADAR_SYSTEM_UFOPEDIA: This facility uses a network of both military and civilian orbital satellites along with advanced computer systems that link into surveillance networks from around the world to establish a global radar detection system. It has a small chance to discover any UFO on Earth.
+      STR_HYPER_WAVE_GLOBAL_NETWORK_UFOPEDIA: By bouncing an amplified hyperwave signal off of a network of satellites, XCom can achieve global hyperwave converge, though the energy costs will be rather high.
       STR_PSIONIC_LABORATORY_LARGE_UFOPEDIA: The large Psionic Laboratory has space to train and test up to 50 soldiers.
 #-----HWP
       STR_UAV: UAV SHURIKEN
@@ -2085,7 +2085,7 @@
 #---------Terran Craft
       STR_NEW_FIGHTER_PROGRAM: New Aerospace Technologies
       STR_NEW_CRAFT_WEAPON: improved Anti UFO Weapon
-      STR_GLOBAL_RADAR: Global Detection Network
+      STR_GLOBAL_DETECTION_COVERAGE: Global Detection Network
 #---------UFO Tree
       STR_UFO_WEAPONS: UFO Weapons
       STR_HYBRID_FIGHTER: Hybrid Fighter

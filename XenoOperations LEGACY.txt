@@ -108,14 +108,23 @@ gameplay changes:
 	 ~ un cuchillo plasma
  - aumentado la cantidad de meses necesarios para recibir medalla de longevidad, ahora es cada seis meses
 
+QOL CHANGES:
+ - reordenado totalmente como aparecen los edificios en la lista de una manera mas logica y coherente.
+  - added two new buildings, the sickbay and the advanced sickbay (culminar esto)
+ - tambien modificado distintos valores, precios y requisitos necesarios para construir las facilities.
+ - (TERMINAR DE IMPLEMENTAR) agregado la posibilidad de construir edificios directamente por encima de otros.
+ - (TERMINAR DE AGREGAR) ahora los edificios necesitan tiempo para ser desensamblados, ya no desaparecen instantaneamente por arte de magia 
+   * (TERMINAR DE AGREGAR) en estos casos aparece temporalmente un EMPTY ROOM, mientras termina la desconstruccion.
+
  - cambiado nombre de apex launcher a devastator launcher
  - cambiado los nombres de referencia de los medikits
- - cambiado las funciones de ciertas armas
+ - completado el reordenamiento de listorder de todos los items, ahora tienen una mejor estructuracion y correlacion en la lista de equipamiento y en las pantallas de venta y compra.
+ - (TERMINAR DE APLICAR) cambiado las funciones de ciertas armas
    * checar cambios en rieles
    * el lance es el equivalente a un auto cannon
    * el mas pesado ahora es bazooka y tiene menos municion por cartucho 
    * ahora la carbine plasma es mas un bullpup, modificado la sprite para reflejar esto
- - added two new buildings, the sickbay and the advanced sickbay (culminar esto)
+
  
  - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.
    * Change the requeriments for some projects to balance this.
@@ -213,10 +222,10 @@ under da hood changes:
 
 bugfixes:
 
-
-- CHECAR QUE ONDA q aparece un firefly en la ufopaedia al principio, ojito
+- corregido un problema en el archivo metadata, ahora tiene un identificador propio, en caso q si quisieran instalar el Xenoperations original, podrian interferir entre si, ahora usa la etiqueta XOPSLegacy como corresponde.
+- fixed a problem where the firefly appeared when you started a new campaing.
 - resuelto error q mostraba ciertos edificios avanzados en la ufopedia desde el principio de la campaña 
-
+- corregido un problema q impidia q el abomination y el ancient spawn usaran sus armas q venian incorporadas.
 
 - solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely (thanks scamps for the report).
 - solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)
@@ -224,6 +233,8 @@ bugfixes:
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.
 - solved an incorrect price in the construction of the laser defense facility, the fusion ball requirements was duplicated.
 - Solved an instance that persisted about the final mission unlocking incorrectly, still giving an eye to this.
+
+
 #####
 
 Version 0.97.06 LE
@@ -246,7 +257,10 @@ General Changes:
   * Made green color. (same as above)
   * Added patch details to the XCOM berets.
 - First tier armors got their left pockets back again.
+
+
 Bug Fixes:
+
 - Fixed the CTD caused in terror missions that included a cargo ship and used a plane larger than 10x20 (Dragonfly and Hercules), many thanks to CrazyHarpooner for the solution.
 - In tandem with the above, fixed the problem of Cruiser Line Ships where a transport ship did not appear and it was impossible to retreat.
   * Some maps had to be slightly edited to better solve this problem.

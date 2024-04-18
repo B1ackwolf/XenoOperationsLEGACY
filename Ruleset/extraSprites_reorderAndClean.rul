@@ -3427,13 +3427,13 @@ extraSprites:
     height: 1440
     files:
       0: Resources/UnitSprites/AlienFaction/ArmoredSectoid.gif
-  - type: HYBRID.PCK
+  - type: ABOMINATION.PCK
     subX: 32
     subY: 40
     width: 256
     height: 400
     files:
-      0: Resources/UnitSprites/AlienFaction/Hybrid.gif
+      0: Resources/UnitSprites/AlienFaction/Abomination.gif
   - type: SOVEREIGN.PCK
     subX: 32
     subY: 40
@@ -3483,13 +3483,13 @@ extraSprites:
     height: 1400
     files:
       0: Resources/UnitSprites/AlienFaction/Carcharodon.gif
-  - type: ABOMINATION.PCK
+  - type: SPAWN.PCK
     subX: 32
     subY: 40
     width: 256
     height: 1400
     files:
-      0: Resources/UnitSprites/AlienFaction/Abomination.gif
+      0: Resources/UnitSprites/AlienFaction/Spawn.gif
   - type: ALLOYSECTOPOD.PCK
     subX: 32
     subY: 40
@@ -3557,12 +3557,12 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/ethereal.gif
-  - type: Inventory_HYBRID
+  - type: inventory_ABOMINATION #ojito
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/Hybrid.gif
+      0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/Abomination.gif
   - type: inventory_MUTON_COMMANDO
     singleImage: true
     files:
@@ -3579,10 +3579,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/armoredsectoid.gif
-  - type: inventory_HYBRID
-    singleImage: true
-    files:
-      0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/Hybrid.gif
   - type: inventory_SOVEREIGN
     singleImage: true
     files:

@@ -905,7 +905,7 @@ units:
       psiStrength: 80
       psiSkill: 25
       melee: 80
-    armor: ABOMINATION_ARMOR
+    armor: SPAWN_ARMOR
     standHeight: 12
     kneelHeight: 12
     floatHeight: 6
@@ -916,7 +916,7 @@ units:
     aggression: 2
     energyRecovery: 40
     livingWeapon: true
-# Hybrids #
+# Abomination #
   - type: STR_ABOMINATION
     race: STR_ABOMINATION
     rank: STR_LIVE_TERRORIST
@@ -932,7 +932,7 @@ units:
       psiStrength: 75
       psiSkill: 62
       melee: 0
-    armor: HYBRID_ARMOR
+    armor: ABOMINATION_ARMOR
     standHeight: 20
     kneelHeight: 20
     floatHeight: 2

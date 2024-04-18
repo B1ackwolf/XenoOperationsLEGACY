@@ -220,6 +220,7 @@ items:
 ##### OJITO ORDENAR AQUI ABAJO #####
 
 #----- UFOs Components -----#
+# ojito agregar los componentes restantes
   - type: STR_ALIEN_HABITAT
     size: 0.1
     costSell: 20000
@@ -235,6 +236,7 @@ items:
     costSell: 250000
     listOrder: 9599
 #----- Craft Components -----#
+# ojito agregar las armas de aviones humanas restantes
   - type: STR_CLUSTER_MISSILE_LAUNCHER
     size: 0.8
     costSell: 22500
@@ -306,6 +308,56 @@ items:
     snapRange: 3
     dropoff: 4
     listOrder: 1505
+  - type: STR_UAV
+    size: 5
+    costSell: 29000
+    floorSprite: 960
+    requiresBuy:
+      - STR_DRONE_WARFARE
+    clipSize: -1
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    tuUse: 25
+    fixedWeapon: true
+    listOrder: 1509
+  - type: STR_UCAV_ROCKET_LAUNCHER
+    size: 5
+    costSell: 350000
+    bigSprite: 960
+    floorSprite: 960
+    requiresBuy:
+      - STR_DRONE_WARFARE
+    handSprite: 0
+    bulletSprite: 0
+    fireSound: 1001
+    compatibleAmmo:
+      - STR_UCAV_ROCKETS
+    accuracySnap: 40
+    accuracyAimed: 115
+    tuSnap: 25
+    tuAimed: 70
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1510
+    # defaultInventorySlot: STR_RIGHT_HAND
+#corpses de drones
+  - type: STR_LAND_DRONE_CORPSE
+    weight: 44
+    floorSprite: 1118
+    battleType: 11
+    recoveryPoints: 1
+    recover: false
+    armor: 46
+  - type: STR_UAV_CORPSE
+    floorSprite: 960
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false    
+#armas de drones
   - type: STR_DRONE_SHOTGUN
     size: 6
     costBuy: 0
@@ -372,41 +424,6 @@ items:
     invWidth: 2
     invHeight: 3
     noLOSAccuracyPenalty: 100
-  - type: STR_UAV
-    size: 5
-    costSell: 29000
-    floorSprite: 960
-    requiresBuy:
-      - STR_DRONE_WARFARE
-    clipSize: -1
-    battleType: 1
-    invWidth: 2
-    invHeight: 3
-    tuUse: 25
-    fixedWeapon: true
-    listOrder: 1509
-  - type: STR_UCAV_ROCKET_LAUNCHER
-    size: 5
-    costSell: 350000
-    bigSprite: 960
-    floorSprite: 960
-    requiresBuy:
-      - STR_DRONE_WARFARE
-    handSprite: 0
-    bulletSprite: 0
-    fireSound: 1001
-    compatibleAmmo:
-      - STR_UCAV_ROCKETS
-    accuracySnap: 40
-    accuracyAimed: 115
-    tuSnap: 25
-    tuAimed: 70
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    listOrder: 1510
-    # defaultInventorySlot: STR_RIGHT_HAND
   - type: STR_UCAV_ROCKETS
     size: 0.3
     costSell: 2250
@@ -424,19 +441,6 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 1511
-  - type: STR_UAV_CORPSE
-    floorSprite: 960
-    invWidth: 0
-    invHeight: 0
-    battleType: 11
-    recover: false
-  - type: STR_LAND_DRONE_CORPSE
-    weight: 44
-    floorSprite: 1118
-    battleType: 11
-    recoveryPoints: 1
-    recover: false
-    armor: 46
 #######----TANKS WIP
   - type: STR_HEAVY_TANK_AP
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
@@ -513,6 +517,7 @@ items:
     turretType: -1
     bulletSpeed: 4
     listOrder: 1409
+#armas tanques
   - type: STR_105MM_CANNON_SHELLS
 #    categories: [STR_TANKS, STR_US_TECH, STR_TANK_AMMO, STR_LIGHT_TANKS]
     requires:
@@ -606,6 +611,23 @@ items:
     prisonType: 2
     costSell: 8000
     listOrder: 10489
+#armaduras doggos
+  - type: STR_DOGE_COMBAT_VEST
+    requires:
+      - STR_TAC_INF_TECH
+    size: 0.5
+    costBuy: 0
+    costSell: 4000
+    listOrder: 10490
+  - type: STR_DOGE_DURATHREAD_VEST
+    size: 0.5
+    costSell: 6000
+    listOrder: 10491
+  - type: STR_DOGE_AA_VEST
+    size: 0.5
+    costSell: 30000
+    listOrder: 10492
+# corpses armaduras doggos 
   - type: STR_DOGE_CORPSE
     weight: 25
     bigSprite: 165
@@ -656,23 +678,8 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-# auxiliaries armours
     # categories: [STR_HUMAN_TECH, STR_OUTFITS]
-  - type: STR_DOGE_COMBAT_VEST
-    requires:
-      - STR_TAC_INF_TECH
-    size: 0.5
-    costBuy: 0
-    costSell: 4000
-    listOrder: 10490
-  - type: STR_DOGE_DURATHREAD_VEST
-    size: 0.5
-    costSell: 6000
-    listOrder: 10491
-  - type: STR_DOGE_AA_VEST
-    size: 0.5
-    costSell: 30000
-    listOrder: 10492
+# armas perritos
   - type: STR_DOGE_BARK
     weight: 0
     bigSprite: 874
@@ -754,109 +761,6 @@ items:
     experienceTrainingMode: 13
     recover: false
     listOrder: 17580
-
-########################## Pockets Items #########################
-  - type: STR_NULL_JETPACK
-    bigSprite: 2989
-    weight: 0
-    invWidth: 3
-    invHeight: 3
-    fixedWeapon: true
-    defaultInventorySlot: STR_BACK_PACK
-    recover: false
-    battleType: 11
-  - type: STR_NULL_BACKPACK
-    bigSprite: 2990
-    weight: 0
-    invWidth: 3
-    invHeight: 3
-    fixedWeapon: true
-    defaultInventorySlot: STR_BACK_PACK
-    recover: false
-    battleType: 11
-  - type: STR_NULL_SMALL_BACKPACK
-    bigSprite: 2991
-    weight: 0
-    invWidth: 2
-    invHeight: 3
-    fixedWeapon: true
-    defaultInventorySlot: STR_BACK_PACK
-    recover: false
-    battleType: 11
-  - type: STR_NULL_BELT
-    bigSprite: 2992
-    weight: 0
-    invWidth: 4
-    invHeight: 2
-    fixedWeapon: true
-    defaultInventorySlot: STR_BELT
-    recover: false
-    battleType: 11
-  - type: STR_NULL_POCKET_RS
-    bigSprite: 2993
-    weight: 0
-    invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_RIGHT_SHOULDER
-    recover: false
-    battleType: 11
-  - type: STR_NULL_POCKET_LS
-    bigSprite: 2994
-    weight: 0
-    invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_LEFT_SHOULDER
-    recover: false
-    battleType: 11
-  - type: STR_NULL_POCKET_RL
-    bigSprite: 2995
-    weight: 0
-    invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_RIGHT_LEG
-    recover: false
-    battleType: 11
-  - type: STR_NULL_POCKET_LL
-    bigSprite: 2996
-    weight: 0
-    invWidth: 2
-    invHeight: 1
-    fixedWeapon: true
-    defaultInventorySlot: STR_LEFT_LEG
-    recover: false
-    battleType: 11
-  - type: STR_NULL_HOLSTER
-    bigSprite: 2997
-    weight: 0
-    invWidth: 1
-    invHeight: 2
-    fixedWeapon: true
-    defaultInventorySlot: STR_QD_SLOT
-    recover: false
-    battleType: 11
-
-# ojito ver como incluir esto de aqui
-  # - type: STR_AC_AP_AMMO
-  #   handSprite: 288
-  # - type: STR_AC_HE_AMMO
-  #   handSprite: 296
-  # - type: STR_AC_I_AMMO
-  #   handSprite: 304
-  # - type: STR_HC_AP_AMMO
-  #   handSprite: 312
-  # - type: STR_HC_HE_AMMO
-  #   handSprite: 320
-  # - type: STR_HC_I_AMMO
-  #   handSprite: 328
-
-  # - type: STR_RIFLE_CLIP
-  #   handSprite: 1352
-  # - type: STR_PISTOL_CLIP
-  #   handSprite: 1366
-
 ##### OJITO ORDENAR AQUI HASTA ARRIBA QUE MARCA #####
 
 ###-----Human first tier Ballistic terran weapons-----###
@@ -921,6 +825,7 @@ items:
     weight: 2
     bigSprite: 346
     floorSprite: 346
+  #  handSprite: 1366
     hitSound: 22
     hitAnimation: 26
     power: 22
@@ -963,6 +868,7 @@ items:
     weight: 3
     bigSprite: 344
     floorSprite: 344
+  #  handSprite: 1366
     hitSound: 22
     hitAnimation: 26
     power: 26
@@ -1005,6 +911,7 @@ items:
     weight: 3
     bigSprite: 348
     floorSprite: 348
+  #  handSprite: 1366
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -1079,6 +986,7 @@ items:
     weight: 3
     bigSprite: 603
     floorSprite: 603
+  #  handSprite: 1366
     hitSound: 22
     hitAnimation: 26
     power: 24
@@ -1209,6 +1117,7 @@ items:
     weight: 3
     bigSprite: 282
     floorSprite: 282
+   # handSprite: 1352
     hitSound: 22
     hitAnimation: 26
     power: 30
@@ -1292,6 +1201,7 @@ items:
     weight: 4
     bigSprite: 312
     floorSprite: 312
+   # handSprite: 1352
     hitSound: 22
     hitAnimation: 26
     power: 40
@@ -1332,6 +1242,7 @@ items:
     weight: 4
     bigSprite: 279
     floorSprite: 279
+   # handSprite: 1352
     hitSound: 22
     hitAnimation: 26
     power: 65
@@ -1396,17 +1307,20 @@ items:
     power: 45
     bigSprite: 12
     floorSprite: 12
+ #   handSprite: 320    
     listOrder: 2126
   - type: STR_HC_I_AMMO
     power: 55
     bigSprite: 13
     floorSprite: 12
+ #   handSprite: 328
     listOrder: 2127
   - type: STR_HC_AP_AMMO
     damageType: 9
     power: 65
     bigSprite: 14
     floorSprite: 12
+  #  handSprite: 312
     listOrder: 2128
 # ojito mejorar    
   - type: STR_ROCKET_LAUNCHER
@@ -4786,7 +4700,7 @@ items:
     blastRadius: 10
     listOrder: 2638
 ###-----Human Stun Weapons Tier -----###
-  - type: STR_STUN_ROD #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_STUN_ROD   #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
     costBuy: 1260
     costSell: 945
@@ -4975,7 +4889,7 @@ items:
     floorSprite: 316
     handSprite: 470
     power: 8
-    strengthApplied: true
+    strengthApplied: true #ojito change to damageBonus
     damageType: 6
     clipSize: -1
     tuMelee: 12
@@ -4997,7 +4911,7 @@ items:
     floorSprite: 315
     handSprite: 460
     power: 15
-    strengthApplied: true
+    strengthApplied: true #ojito change to damageBonus
     damageType: 7
     clipSize: -1
     tuMelee: 15
@@ -5018,7 +4932,7 @@ items:
     floorSprite: 430
     handSprite: 1060
     power: 40
-    strengthApplied: true
+    strengthApplied: true #ojito change to damageBonus
     damageType: 7
     accuracyMelee: 80
     tuMelee: 12
@@ -5062,7 +4976,7 @@ items:
     floorSprite: 431
     handSprite: 1070
     power: 140
-    strengthApplied: false
+    strengthApplied: false #ojito change to damageBonus
     damageType: 5
     clipSize: -1
     accuracyMelee: 75
@@ -5090,7 +5004,7 @@ items:
     floorSprite: 372
     handSprite: 930
     power: 45
-    strengthApplied: true
+    strengthApplied: true #ojito change to damageBonus
     damageType: 7
     accuracyMelee: 80
     tuMelee: 12
@@ -5117,7 +5031,7 @@ items:
     floorSprite: 369
     handSprite: 800
     power: 150
-    strengthApplied: false
+    strengthApplied: false #ojito change to damageBonus
     damageType: 5
     clipSize: -1
     accuracyMelee: 80
@@ -5134,7 +5048,7 @@ items:
     attraction: 10
     listOrder: 2816
 ###-----Human Ordnance tier-----###
-  - type: STR_SMOKE_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_SMOKE_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 1340
     listOrder: 2816
   - type: STR_BO_FIERY_GRENADE 
@@ -5150,7 +5064,7 @@ items:
     blastRadius: 3
     fuseType: -2
     listOrder: 2902
-  - type: STR_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     listOrder: 2903
     blastRadius: 3
     weight: 3
@@ -5167,7 +5081,7 @@ items:
     blastRadius: 3
     fuseType: -2
     listOrder: 2904
-  - type: STR_PROXIMITY_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_PROXIMITY_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_PROXIMITY_GRENADE
     handSprite: 232
@@ -5208,7 +5122,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2907
-  - type: STR_ELERIUM_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_ELERIUM_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
     costSell: 14850
     weight: 3
@@ -5220,7 +5134,7 @@ items:
     blastRadius: 4
     fuseType: -1
     listOrder: 2909
-  - type: STR_HIGH_EXPLOSIVE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 216
     listOrder: 2911
   - type: STR_BO_ELERIUM_MINE #ojito cambiar nombre q esta es humana
@@ -5786,7 +5700,7 @@ items:
     attraction: 1
     listOrder: 3031 #ojito modificar cuando agregue armas elites nuevas
 # Extra alien weaponry
-  - type: STR_SMALL_LAUNCHER #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_SMALL_LAUNCHER   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_SMALL_LAUNCHER
       - STR_MEDIUM_ALIEN_WEAPONS
@@ -5813,7 +5727,7 @@ items:
     invHeight: 2
     recoveryPoints: 4
     listOrder: 3040
-  - type: STR_STUN_BOMB #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_STUN_BOMB   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_STUN_BOMB
       - STR_MEDIUM_ALIEN_WEAPONS
@@ -5873,7 +5787,7 @@ items:
     invHeight: 1
     recoveryPoints: 1
     listOrder: 3043
-  - type: STR_BLASTER_LAUNCHER #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_BLASTER_LAUNCHER   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_BLASTER_LAUNCHER
       - STR_SPECIAL_ALIEN_WEAPONS
@@ -5897,7 +5811,7 @@ items:
     recoveryPoints: 5
     armor: 65
     listOrder: 3044
-  - type: STR_BLASTER_BOMB #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_BLASTER_BOMB   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_BLASTER_BOMB
       - STR_SPECIAL_ALIEN_WEAPONS
@@ -5909,7 +5823,7 @@ items:
     attraction: 10
     listOrder: 3045
 #----- Alien Ordnance Tier -----#
-  - type: STR_ALIEN_GRENADE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_ALIEN_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_ALIEN_GRENADE
       - STR_LIGHT_ALIEN_WEAPONS
@@ -6044,11 +5958,11 @@ items:
     tuUse: 16
     flatRate: true
     listOrder: 3104
-  - type: STR_MEDI_KIT #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_MEDI_KIT   #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 208
     listOrder: 3105
 # Ilumination items
-  - type: STR_ELECTRO_FLARE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_ELECTRO_FLARE   #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 240
     listOrder: 3110
   - type: STR_EX_ELERIUM_LAMP
@@ -6074,10 +5988,10 @@ items:
     armor: 65
     listOrder: 3112
 # Enemy tracker and psionic items
-  - type: STR_MOTION_SCANNER #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_MOTION_SCANNER   #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 1224
     listOrder: 3115
-  - type: STR_MIND_PROBE #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_MIND_PROBE   #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 248
     listOrder: 3116
   - type: STR_EX_PSI_AMP_SMALL
@@ -6096,7 +6010,7 @@ items:
     tuUse: 33
     flatRate: true
     listOrder: 3117
-  - type: STR_PSI_AMP #ojito luego cambiar nombre para mantener nomenclatura
+  - type: STR_PSI_AMP   #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
     costSell: 194700
     weight: 12
@@ -6262,11 +6176,98 @@ items:
     ignoreInCraftEquip: true
     armor: 65
     listOrder: 3133
-
-# ojito me quede aqui
-
-####### armas incorporadas en los aliens ######
-### Alien units Weaponry
+#----- Weaponry incorporated inside aliens -----#
+# Melee units Weaponry
+  - type: STR_JAWS # ojito does it works correctly?
+    bigSprite: 813
+    meleeSound: 927
+    strengthApplied: true #ojito change to damageBonus
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 15
+    battleType: 3
+    meleeAnimation: 64
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: REAPER_WEAPON
+    meleeAnimation: 64
+    meleeSound: 927
+  - type: CHRYSSALID_WEAPON
+    meleeSound: 942
+    meleeAnimation: 28
+    zombieUnit: STR_ZOMBIE
+  - type: ZOMBIE_WEAPON
+    meleeSound: 946
+    meleeAnimation: 28
+  - type: SILACOID_WEAPON
+    meleeSound: 960
+# Range alien weapons #
+  - type: CELATID_WEAPON
+    fireSound: 956
+    hitSound: 19
+  - type: ABOMINATION_WEAPON
+    weight: 1
+    bigSprite: { mod: master, index: 60 }
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 12
+    fireSound: 970
+    hitSound: 19
+    hitAnimation: 76
+    power: 150
+    damageType: 5
+    accuracySnap: 60
+    accuracyAimed: 150
+    tuSnap: 33
+    tuAimed: 50
+    clipSize: -1
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+  - type: ANCIENT_SPAWN_TERRORIST_WEAPON
+    weight: 1
+    bigSprite: { mod: master, index: 60 }
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 12
+    fireSound: 956
+    hitSound: 19
+    hitAnimation: 76
+    power: 150
+    damageType: 5
+    accuracySnap: 60
+    accuracyAimed: 150
+    tuSnap: 33
+    tuAimed: 50
+    clipSize: -1
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+  - type: ENERGYALIEN_WEAPON #its a melee plasma weapon
+    weight: 3
+    bigSprite: 0
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 90
+    clipSize: -1
+    strengthApplied: true #ojito change to damageBonus
+    damageType: 5
+    accuracyMelee: 80
+    power: 140
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    meleeAnimation: 76
+    recover: false
   - type: CYBERDISC_WEAPON
     weight: 3
     bigSprite: { mod: master, index: 60 }
@@ -6288,108 +6289,16 @@ items:
     invWidth: 2
     invHeight: 3
     recover: false
-  - type: CHRYSSALID_WEAPON
-    meleeSound: 942
-    meleeAnimation: 28
-    zombieUnit: STR_ZOMBIE
-  - type: ZOMBIE_WEAPON
-    meleeSound: 946
-    meleeAnimation: 28
-  - type: REAPER_WEAPON
-    meleeAnimation: 64
-    meleeSound: 927
-  - type: STR_JAWS
-    bigSprite: 813
-    meleeSound: 927
-    strengthApplied: true #ojito change to damageBonus
-    damageType: 7
-    accuracyMelee: 80
-    tuMelee: 15
-    battleType: 3
-    meleeAnimation: 64
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    clipSize: -1
-    recover: false
-  - type: CELATID_WEAPON
-    fireSound: 956
-    hitSound: 19
-  - type: SILACOID_WEAPON
-    meleeSound: 960
-
-
 # Special Psi Weapon for Aliens.
 # Usage of this is hard-coded.
-# OJITO DO NOT DELETE!
+# WARNING DO NOT DELETE!
   - type: ALIEN_PSI_WEAPON
     hitSound: 92
     battleType: 9
     tuUse: 25
     flatRate: true
     recover: false
-  - type: HYBRID_WEAPON
-    weight: 1
-    bigSprite: { mod: master, index: 60 }
-    floorSprite: 31
-    handSprite: 104
-    bulletSprite: 12
-    fireSound: 970
-    hitSound: 19
-    hitAnimation: 76
-    power: 150
-    damageType: 5
-    accuracySnap: 60
-    accuracyAimed: 150
-    tuSnap: 33
-    tuAimed: 50
-    clipSize: -1
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    recover: false
-  - type: ANCIENT_ABOMINATION_TERRORIST_WEAPON
-    weight: 1
-    bigSprite: { mod: master, index: 60 }
-    floorSprite: 31
-    handSprite: 104
-    bulletSprite: 12
-    fireSound: 956
-    hitSound: 19
-    hitAnimation: 76
-    power: 150
-    damageType: 5
-    accuracySnap: 60
-    accuracyAimed: 150
-    tuSnap: 33
-    tuAimed: 50
-    clipSize: -1
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    recover: false
-  - type: ENERGYALIEN_WEAPON
-    weight: 3
-    bigSprite: 0
-    floorSprite: 31
-    handSprite: 104
-    meleeSound: 90
-    clipSize: -1
-    strengthApplied: true
-    damageType: 5
-    accuracyMelee: 80
-    power: 140
-    tuMelee: 15
-    battleType: 3
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    meleeAnimation: 76
-    recover: false
-#########################
-#----- Human Armors -----#
+#----- Human armors and corpses-----#
 # Initial Tier #
   - type: STR_FLIGHT_JUMPSUIT
     size: 0.5
@@ -7048,7 +6957,153 @@ items:
     battleType: 11
     armor: 65
     recover: false
-################################
+#----- Alien armors and corpses -----#
+#Ojito estos son los aliens nuevos, luego buscar y agregar los aliens clasicos para mantener bien ordenado todo
+  - type: STR_ARMORED_SECTOID_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_ARMORED_SECTOID_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_SECTOID_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FORMIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_FORMIC_BETA
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_FORMIC_ALPHA
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ARMORED_MUTON_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_ARMORED_MUTON_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_ARMORED_MUTON_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_MUTON_COMMANDO
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_MUTON_GUARD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_MUTON_CHIEFTAIN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 65000
+  - type: STR_MUTON_WARLORD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 65000
+  - type: STR_MUTON_BERSERKER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 65000
+  - type: STR_CARCHARODON_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_CARCHARODON_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CARCHARODON_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CARCHARODON_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CARCHARODON_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+
+
+
+
+
+
+
+
+
+  - type: STR_ABOMINATION
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SOVEREIGN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ENERGYALIEN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+
+
+  - type: STR_ANCIENT_SPAWN_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+
+
+
+
 # alien corpses
 
   - type: STR_FORMIC_CORPSE
@@ -7172,138 +7227,10 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 65
-  - type: STR_CARCHARODON_SOLDIER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_CARCHARODON_LEADER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_CARCHARODON_ENGINEER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_CARCHARODON_NAVIGATOR
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_CARCHARODON_COMMANDER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ANCIENT_SPAWN_TERRORIST
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-# alien alive
 
-  - type: STR_FORMIC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_FORMIC_BETA
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_FORMIC_ALPHA
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_MUTON_COMMANDO
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_MUTON_CHIEFTAIN
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 65000
-  - type: STR_ARMORED_MUTON_SOLDIER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_ARMORED_MUTON_NAVIGATOR
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_ARMORED_MUTON_ENGINEER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 50000
-  - type: STR_MUTON_WARLORD
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 65000
-  - type: STR_MUTON_BERSERKER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 65000
-  - type: STR_ARMORED_SECTOID_SOLDIER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_ARMORED_SECTOID_ENGINEER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_MEDIC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_NAVIGATOR
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_LEADER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ARMORED_SECTOID_COMMANDER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ABOMINATION
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_SOVEREIGN
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_ENERGYALIEN
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_MUTON_GUARD
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
+
+
+
   - type: STR_SOVEREIGN_CORPSE
     size: 0.4
     costSell: 20000

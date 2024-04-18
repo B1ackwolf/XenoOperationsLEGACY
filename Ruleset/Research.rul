@@ -692,7 +692,7 @@ research:
   - name: STR_DIMENSIONAL_FATIGUE
     points: 10
     needItem: true
-  - name: STR_HYP_UP_NET
+  - name: STR_HYPER_WAVE_GLOBAL_NETWORK
     cost: 180
     points: 25
     dependencies:
@@ -771,7 +771,7 @@ research:
     points: 10
     dependencies:
       - STR_NEW_CRAFT_WEAPON
-  - name: STR_GLOBAL_RADAR
+  - name: STR_GLOBAL_DETECTION_COVERAGE
     cost: 15
     points: 15
     dependencies:

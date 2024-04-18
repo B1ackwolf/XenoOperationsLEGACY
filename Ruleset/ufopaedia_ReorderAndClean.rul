@@ -2280,44 +2280,44 @@ ufopaedia:
     text: STR_STUN_BOMB3_UFOPEDIA
 #---Alien Artifacts----------------------------------END
 #---Base Facilities----------------------------------
-  - id: STR_SAT_UP_NET
+  - id: STR_GLOBAL_RADAR_SYSTEM
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
-      - STR_GLOBAL_RADAR
-    text: STR_SAT_UP_NET_UFOPEDIA
+      - STR_GLOBAL_DETECTION_COVERAGE
+    text: STR_GLOBAL_RADAR_SYSTEM_UFOPEDIA
   - id: STR_ALIEN_CONTAINMENT
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_ALIEN_CONTAINMENT
-  - id: STR_HYP_UP_NET
+  - id: STR_HYPER_WAVE_GLOBAL_NETWORK
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
-      - STR_HYP_UP_NET
-    text: STR_HYP_UP_NET_UFOPEDIA
+      - STR_HYPER_WAVE_GLOBAL_NETWORK
+    text: STR_HYPER_WAVE_GLOBAL_NETWORK_UFOPEDIA
   - id: STR_GYM
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_GYM_UFOPEDIA
     listOrder: 6960
-  - id: STR_LIVING_QUARTERS_2
+  - id: STR_LARGE_LIVING_QUARTERS
     type_id: 6
     section: STR_BASE_FACILITIES
-    text: STR_LIVING_QUARTERS_2_UFOPEDIA
-  - id: STR_GENERAL_STORES_2
+    text: STR_LARGE_LIVING_QUARTERS_UFOPEDIA
+  - id: STR_LARGE_GENERAL_STORES
     type_id: 6
     section: STR_BASE_FACILITIES
-    text: STR_GENERAL_STORES_2_UFOPEDIA
+    text: STR_LARGE_GENERAL_STORES_UFOPEDIA
   - id: STR_CORRIDOR
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_CORRIDOR_UFOPEDIA
-  - id: STR_SEC_CORRIDOR
+  - id: STR_SECURITY_ROOM
     type_id: 6
     section: STR_BASE_FACILITIES
-    text: STR_SEC_CORRIDOR_UFOPEDIA
+    text: STR_SECURITY_ROOM_UFOPEDIA
   - id: STR_LARGE_WORKSHOP
     type_id: 6
     section: STR_BASE_FACILITIES
@@ -2326,14 +2326,14 @@ ufopaedia:
       - STR_ALIEN_ALLOYS
       - STR_UFO_POWER_SOURCE
     text: STR_LARGE_WORKSHOP_UFOPEDIA
-  - id: STR_LARGE_LAB
+  - id: STR_LARGE_LABORATORY
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_ELERIUM_115
       - STR_ALIEN_ALLOYS
       - STR_UFO_POWER_SOURCE
-    text: STR_LARGE_LAB_UFOPEDIA
+    text: STR_LARGE_LABORATORY_UFOPEDIA
   - id: STR_PSIONIC_LABORATORY_LARGE
     type_id: 6
     section: STR_BASE_FACILITIES
