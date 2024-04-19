@@ -102,19 +102,20 @@ facilities:
       - STR_ELERIUM_115
       - STR_ALIEN_ALLOYS
       - STR_UFO_POWER_SOURCE
+      - STR_UFO_NAVIGATION
     buildCostItems:
       STR_ELERIUM_115:
-        build: 20
+        build: 15
         refund: 5
       STR_ALIEN_ALLOYS:
-        build: 50
-        refund: 25
+        build: 25
+        refund: 15
       STR_UFO_POWER_SOURCE:
         build: 2
-        refund: 0
+        refund: 1
       STR_UFO_NAVIGATION:
         build: 4
-        refund: 0
+        refund: 2
     buildCost: 3300000
     buildTime: 40
     monthlyCost: 130000
@@ -148,19 +149,20 @@ facilities:
       - STR_ELERIUM_115
       - STR_ALIEN_ALLOYS
       - STR_UFO_POWER_SOURCE
+      - STR_UFO_NAVIGATION
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
         refund: 10
       STR_ALIEN_ALLOYS:
-        build: 100
-        refund: 50
+        build: 40
+        refund: 25
       STR_UFO_POWER_SOURCE:
         build: 2
-        refund: 0
+        refund: 1
       STR_UFO_NAVIGATION:
         build: 2
-        refund: 0
+        refund: 1
     buildCost: 3800000
     buildTime: 45
     monthlyCost: 140000
@@ -187,6 +189,16 @@ facilities:
     listOrder: 132
   - type: STR_HYPER_WAVE_DECODER    #ojito luego cambiar nombre para mantener nomenclatura
     spriteShape: 1
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 30
+        refund: 10
+      STR_ALIEN_ALLOYS:
+        build: 40
+        refund: 25
+      STR_UFO_NAVIGATION:
+        build: 2
+        refund: 1
     listOrder: 133
   - type: STR_HYPER_WAVE_GLOBAL_NETWORK
     requires:
@@ -197,6 +209,19 @@ facilities:
     size: 2
     buildCost: 11200000
     buildTime: 52
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 30
+        refund: 10
+      STR_ALIEN_ALLOYS:
+        build: 40
+        refund: 25
+      STR_UFO_POWER_SOURCE:
+        build: 2
+        refund: 1
+      STR_UFO_NAVIGATION:
+        build: 4
+        refund: 2
     monthlyCost: 700000
     radarRange: 10850
     radarChance: 100
@@ -208,19 +233,28 @@ facilities:
     listOrder: 140
   - type: STR_LASER_DEFENSES    #ojito luego cambiar nombre para mantener nomenclatura
     spriteShape: 1
-#    buildCostItems:
-#      STR_ELERIUM_115:
-#        build: 30
-#        refund: 10
-#      STR_ALIEN_ALLOYS:
-#        build: 100
-#        refund: 50
-#      STR_UFO_POWER_SOURCE:
-#        build: 1
-#        refund: 0
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 5
+        refund: 0
+      STR_ALIEN_ALLOYS:
+        build: 5
+        refund: 3
+    buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_PLASMA_DEFENSES, STR_FUSION_BALL_DEFENSES ]
     listOrder: 141
   - type: STR_PLASMA_DEFENSES    #ojito luego cambiar nombre para mantener nomenclatura
     spriteShape: 1
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 10
+        refund: 5
+      STR_ALIEN_ALLOYS:
+        build: 10
+        refund: 5
+      STR_UFO_NAVIGATION:
+        build: 1
+        refund: 0
+    buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_LASER_DEFENSES, STR_FUSION_BALL_DEFENSES ]
     listOrder: 142
   - type: STR_FUSION_BALL_DEFENSES    #ojito luego cambiar nombre para mantener nomenclatura
     spriteShape: 1
@@ -234,13 +268,37 @@ facilities:
       STR_UFO_POWER_SOURCE:
         build: 1
         refund: 0
+      STR_UFO_NAVIGATION:
+        build: 2
+        refund: 1
+    buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_LASER_DEFENSES, STR_PLASMA_DEFENSES ]
     listOrder: 143
   - type: STR_GRAV_SHIELD    #ojito luego cambiar nombre para mantener nomenclatura
     spriteShape: 1
     listOrder: 144
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 10
+        refund: 5
+      STR_ALIEN_ALLOYS:
+        build: 10
+        refund: 5
+      STR_UFO_NAVIGATION:
+        build: 1
+        refund: 0
   - type: STR_MIND_SHIELD    #ojito luego cambiar nombre para mantener nomenclatura
     spriteShape: 1
     listOrder: 145
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 10
+        refund: 5
+      STR_ALIEN_ALLOYS:
+        build: 10
+        refund: 5
+      STR_UFO_NAVIGATION:
+        build: 1
+        refund: 0
 #----- Services and extra base Buildings -----#
   - type: STR_GYM
     spriteShape: 1
@@ -248,52 +306,69 @@ facilities:
     buildCost: 350000
     buildTime: 20
     monthlyCost: 35000
+    buildOverFacilities: [ STR_ADVANCED_SICK_BAY ]
     trainingRooms: 10
     mapName: XBASS_23
     listOrder: 150
-################ el avanzado sickbay de xfiles para copiarme:
-  # - type: STR_SICK_BAY
-  #   spriteShape: 1
-  #   spriteFacility: 868
-  #   maxAllowedPerBase: 1
-  #   buildCost: 750000
-  #   buildTime: 22
-  #   monthlyCost: 50000
-  #   sickBayAbsoluteBonus: 0.25
-  #   sickBayRelativeBonus: 1.0
-  #   mapName: XBSB_01
-  #   listOrder: 151
+  - type: STR_SICK_BAY
+    spriteShape: 1
+    spriteFacility: 868
+    maxAllowedPerBase: 1
+    buildCost: 750000
+    buildTime: 22
+    monthlyCost: 50000
+    sickBayAbsoluteBonus: 0.25
+    sickBayRelativeBonus: 1.0
+    mapName: XBASS_25
+    listOrder: 151
 #####################
-  # - type: STR_ADVANCED_SICK_BAY
-  #   requires:
-  #     - STR_ADVANCED_SICK_BAY
-  #   spriteShape: 1
-  #   spriteFacility: 346
-  #   buildCost: 750000
-  #   buildTime: 25
-  #   monthlyCost: 45000
-  #   buildOverFacilities: [ STR_SICK_BAY ]
-  #   maxAllowedPerBase: 1
-  #   sickBayAbsoluteBonus: 0.50
-  #   sickBayRelativeBonus: 2.0
-  #   manaRecoveryPerDay: 5
-  #   mapName: XBASS_60
-  #   provideBaseFunc: [MEDBAY]
-  #   forbiddenBaseFunc: [ MEDBAY ]
-  #   buildCostItems:
-  #     STR_ALIEN_SURGERY:
-  #       build: 4
-  #       refund: 4
-  #     STR_ALIEN_REPRODUCTION:
-  #       build: 2
-  #       refund: 2
-  #     STR_EXAMINATION_ROOM:
-  #       build: 1
-  #       refund: 1
-  #   listOrder: 152
+
+  - type: STR_ADVANCED_SICK_BAY
+    requires:
+      - STR_ADVANCED_SICK_BAY
+    spriteShape: 1
+    spriteFacility: 346
+    buildCost: 750000
+    buildTime: 25
+    monthlyCost: 45000
+    buildOverFacilities: [ STR_SICK_BAY ]
+    maxAllowedPerBase: 1
+    sickBayAbsoluteBonus: 0.50
+    sickBayRelativeBonus: 2.0
+    manaRecoveryPerDay: 5
+    mapName: XBASS_60
+    provideBaseFunc: [MEDBAY]
+    forbiddenBaseFunc: [ MEDBAY ]
+    buildCostItems:
+      STR_ALIEN_REPRODUCTION:
+        build: 4
+        refund: 4
+      STR_ALIEN_HABITAT:
+        build: 2
+        refund: 2
+      STR_ELERIUM_115:
+        build: 10
+        refund: 5
+      STR_ALIEN_ALLOYS:
+        build: 10
+        refund: 5
+#      STR: OJITO alguno de los productos medicos q cargan encima los aliens????
+#        build: 1
+#       refund: 1
+    listOrder: 152
 ###################################
   - type: STR_PSIONIC_LABORATORY    #ojito luego cambiar nombre para mantener nomenclatura
     psiLabs: 5
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 30
+        refund: 10
+      STR_ALIEN_ALLOYS:
+        build: 40
+        refund: 25
+      STR_UFO_NAVIGATION:
+        build: 2
+        refund: 1
     listOrder: 153
   - type: STR_PSIONIC_LABORATORY_LARGE
     requires:
@@ -303,6 +378,19 @@ facilities:
     size: 2
     buildCost: 3200000
     buildTime: 37
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 30
+        refund: 10
+      STR_ALIEN_ALLOYS:
+        build: 40
+        refund: 25
+      STR_UFO_POWER_SOURCE:
+        build: 2
+        refund: 1
+      STR_UFO_NAVIGATION:
+        build: 6
+        refund: 3
     monthlyCost: 67000
     psiLabs: 20
     mapName: XOPSXBASE20
@@ -310,48 +398,4 @@ facilities:
 
 
 
-###################EXTRA FOR SICKBAYS OJITO
-
-
-# terrains:
-#   - name: XBASE
-#     addOnly: true
-#     mapDataSets:
-#       - BLANKS
-#       - XBASE1
-#       - XBASE2
-#       - XCOMWALL
-#       - XCOMBITS
-#     mapBlocks:
-#       - name: XBSB_01
-#         width: 10
-#         length: 10
-
-# ufopaedia:
-#   - id: STR_SICK_BAY
-#     type_id: 6
-#     section: STR_BASE_FACILITIES
-#     text: STR_SICK_BAY_UFOPEDIA
-#     listOrder: 6920
-# extraStrings:
-#   - type: en-US
-#     strings:
-#       STR_SICK_BAY: "Medical Bay"
-#       STR_SICK_BAY_UFOPEDIA: "The Medical Bay allows for agents' hospitalization right in the base, which shortens recovery time."
-#   - type: en-GB
-#     strings:
-#       STR_SICK_BAY: "Medical Bay"
-#       STR_SICK_BAY_UFOPEDIA: "The Medical Bay allows for agents' hospitalization right in the base, which shortens recovery time."
-#   - type: es
-#     strings:
-#       STR_SICK_BAY: "Enfermería"
-#       STR_SICK_BAY_UFOPEDIA: "La Enfermería permite tratar a los agentes en necesidad de cuidados médicos dentro de la base, acelerando el proceso de recuperación."
-#   - type: es-419
-#     strings:
-#       STR_SICK_BAY: "Enfermería"
-#       STR_SICK_BAY_UFOPEDIA: "La Enfermería permite tratar a los agentes en necesidad de cuidados médicos dentro de la base, acelerando el proceso de recuperación."  
-# extraSprites:
-#   - type: BASEBITS.PCK
-#     files:
-#       868: Resources/Sick_Bay.png
 

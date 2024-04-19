@@ -773,10 +773,13 @@
       STR_FIREFLY_UFOPEDIA: "The ATU-760X 'Firefly' emerged victorious in the bid submitted to the X-Com project for an enhanced transport aircraft. Developed through a collaborative partnership between the Russian OAK conglomerate and the Ukrainian UOP Group, this versatile vessel boasts VTOL (Vertical Takeoff and Landing) capabilities. It can efficiently transport up to 14 agents and accommodate up to three heavier weapons platforms, delivering them directly to the operational site."
       STR_DRAGONFLY_UFOPEDIA: "The Bell Valor 280, codenamed DRAGONFLY, is a Boeing creation designed for rapid troop transport. This versatile aircraft can comfortably accommodate up to 12 troops but is unable to carry heavy support units. Its agility and speed make it a valuable asset for swift deployment and extraction during critical operations."
       STR_SCARAB_UFOPEDIA: "wip based on dr4-viking, tons of troops capacity, but cant haul any hwp." #ojito
-
-
       STR_GYM: "Gym"
       STR_GYM_UFOPEDIA: "This facility is a training room for X-Com agents. It can accommodate up to 10 people at a time."
+      STR_SICK_BAY: "Medical Bay"   # OJITO
+      STR_SICK_BAY_UFOPEDIA: "WIP The Medical Bay allows for troops hospitalization right in the base, which shortens recovery time."   # OJITO
+      STR_ADVANCED_SICK_BAY: "Advanced Medical Bay"    # OJITO
+      STR_ADVANCED_SICK_BAY_UFOPEDIA: "WIP The Medical Bay allows for troops hospitalization right in the base, using advanced alien    # OJITOtechnologies which shortens recovery time."
+
       STR_DOGE_TRACK: "Track"
       STR_DOGE_TRACK_UFOPEDIA: "Dogs can be commanded to Track nearby units. Tracking reveals all targets moving nearby, but also makes the dog agitated, which is represented by 10 Morale loss."
       STR_DOGE_BARK: "Dog Bark"
@@ -1070,7 +1073,7 @@
       STR_SECURITY_ROOM: Security Station
       STR_PSIONIC_LABORATORY_LARGE: Large Psi Laboratory
       STR_GLOBAL_RADAR_SYSTEM: Satellite Network
-      STR_HYPER_WAVE_GLOBAL_NETWORK: Hyperwave Network
+      STR_HYPER_WAVE_GLOBAL_NETWORK: Hyper-wave Network
       STR_LARGE_GENERAL_STORES_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
       STR_CORRIDOR_UFOPEDIA: A cheap facility designed to connect other facilities.
       STR_SECURITY_ROOM_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
@@ -1080,7 +1083,7 @@
       STR_WORKSHOP_UFOPEDIA: A workshop contains all the equipment necessary to manufacture equipment based on designs from the science labs. Up to 25 engineers can occupy a workshop, although items under construction will also consume some space.
       STR_LARGE_LABORATORY_UFOPEDIA: This Large Lab contains numerous state of the art research equipment and can host a larger number of staff than the small version. It provides space for up to 100 scientists.
       STR_GLOBAL_RADAR_SYSTEM_UFOPEDIA: This facility uses a network of both military and civilian orbital satellites along with advanced computer systems that link into surveillance networks from around the world to establish a global radar detection system. It has a small chance to discover any UFO on Earth.
-      STR_HYPER_WAVE_GLOBAL_NETWORK_UFOPEDIA: By bouncing an amplified hyperwave signal off of a network of satellites, XCom can achieve global hyperwave converge, though the energy costs will be rather high.
+      STR_HYPER_WAVE_GLOBAL_NETWORK_UFOPEDIA: By bouncing an amplified Hyper-wave signal off of a network of satellites, XCom can achieve global Hyper-wave converge, though the energy costs will be rather high.
       STR_PSIONIC_LABORATORY_LARGE_UFOPEDIA: The large Psionic Laboratory has space to train and test up to 50 soldiers.
 #-----HWP
       STR_UAV: UAV SHURIKEN
@@ -1227,13 +1230,13 @@
       STR_GOODS_2: Auto Printers>$$
       STR_GOODS_3: AI Cores>$$$
       STR_GOODS_4: Holographic Emitters>$$$$
-      STR_GOODS_5: Hyperwave Receivers>$$$$$
+      STR_GOODS_5: Hyper-wave Receivers>$$$$$
       STR_GOODS_6: Nano Immune Cells>$$$$$$
       STR_GOODS_7: Economy Control>$$$$$$$
       STR_GOODS_2_U: Auto Printers
       STR_GOODS_3_U: AI Cores
       STR_GOODS_4_U: Holographic Emitters
-      STR_GOODS_5_U: Hyperwave Receivers
+      STR_GOODS_5_U: Hyper-wave Receivers
       STR_GOODS_6_U: Nano Immune Cells
       STR_GOODS_7_U: Economy Control
 #------Aliens
@@ -1787,7 +1790,7 @@
       STR_AW_DEMOLITION_EXPLOSIVE_UFOPEDIA: The Alien High Explosive is built around an Elerium core. When activated, it generates an antimatter reaction powerful enough to level a city block. Caution is strongly suggested when deploying this weapon as its destructive range is quite large. This weapon could also be useful for breaching UFO hulls. A high level lock prevents human use of this device and the technological components of this explosive are too advanced for XCom to manufacture.
       STR_EX_HOLO_PROJECTOR_UFOPEDIA: This device appears to be a simple holographic projector. The projections are not particularly realistic however. It seems to have a few set projections, but was likely intended to interface with another device like a computer. This technology while interesting in its potential, has little in the way of military applications beyond potential computer interfaces. However it will probably sell very well on the civilian market. It can also be taken apart by our engineers for useful components.
       STR_EX_SYRINGE_SAMPLE_UFOPEDIA: This Injector is filled with a nano robot solution designed to repair damaged tissue and eliminate harmful pathogens. Traces of this solution can be found in most Alien lifeforms encountered so far and would explain why they haven't caught any earth borne diseases yet. Unfortunately it seems the aliens remembered their inoculations this time. While a marvelous technology, it would take decades to adapt the nano technology to human physiology. None the less it will sell high to any number of medical and research companies.
-      STR_EX_PORTABLE_HYPERWAVE_UFOPEDIA: This device appears to be a simple alien communication device. It links with other communication devices via a hyperwave signal that cannot be detected or scrambled by traditional radio technology. Unfortunately the device is too miniaturized and specialized to give us a good idea of how to construct a larger facility capable of intercepting such a signal. Perhaps an Alien that specialized in navigation might have the knowledge to build such a facility? Regardless this small device is useless to XCom, but telecommunication companies would pay a lot to get their hands on this machine. It can also be taken apart by our engineers for useful components.
+      STR_EX_PORTABLE_HYPERWAVE_UFOPEDIA: This device appears to be a simple alien communication device. It links with other communication devices via a Hyper-wave signal that cannot be detected or scrambled by traditional radio technology. Unfortunately the device is too miniaturized and specialized to give us a good idea of how to construct a larger facility capable of intercepting such a signal. Perhaps an Alien that specialized in navigation might have the knowledge to build such a facility? Regardless this small device is useless to XCom, but telecommunication companies would pay a lot to get their hands on this machine. It can also be taken apart by our engineers for useful components.
       STR_AW_PLASMA_BLADE_UFOPEDIA: The Plasma Sword uses an Elerium generated containment field to encase a super heated gas core in the shape of a blade. This super heated blade burns hot enough to slice through most known materials with ease. This makes this device a deadly close combat weapon without any rival. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_AW_PROXY_GRENADE_UFOPEDIA: This curious device is a proximity mine. It detects particle motion and activates detonating a small antimatter reaction powered by a tiny bit of Elerium. It is far more powerful than our Proximity Grenade. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_EX_PORTABLE_HYPERSENSORY_UFOPEDIA: After careful study, our science teams have concluded that this is simply a smaller version of the Alien Entertainment module. It does not appear to be as potent as the larger versions aboard UFOs, but it produces a hallucinogenic effect when activated all the same. We theorized that the Aliens carry these around much like how our soldiers carry around cigars. Given our soldiers prefer cigars and scotch, the Alien Entertainment device is worthless to XCom. However we could probably sell the device at a high price so long as we make it clear that no questions will be asked on our part. It can also be taken apart by our engineers for useful components.
@@ -1903,7 +1906,7 @@
       STR_GOODS_2_UFOPEDIA: All Codex technology contains detailed instructions on replication. It is assumed that this a redundant system designed to let nearly any civilization utilize and improve the Codex until it reaches its completed stage. Even the smallest Codex fragment contains details for a device called an automated printer. This device functions like a 3D printer though far more advanced and versatile. A smaller version could be manufactured and sold without the need for more advanced components.
       STR_GOODS_3_UFOPEDIA: Analysis of the AI of the Codex has allowed us to create a crude replication of this machine intelligence. While not useful to XCom, these AI cores could find numerous applications in civilian industries. Each AI core could be sold for a significant profit.
       STR_GOODS_4_UFOPEDIA: Codex schematics detail a complex holographic emitter. Unlike most Codex technology, these emitters require no special materials to construct. Despite their limited application in the Alien war, these holo emitters could be sold for a fair profit.
-      STR_GOODS_5_UFOPEDIA: Hyperwave Receivers allow for instant communication that is far more secure and faster than radio waves. They are basically a scaled down version of a hyperwave decoder. While not useful to XCom, it could revolutionize communications in civilian markets. Each hyperwave receiver could be sold for a sizable profit.
+      STR_GOODS_5_UFOPEDIA: Hyper-wave Receivers allow for instant communication that is far more secure and faster than radio waves. They are basically a scaled down version of a Hyper-wave decoder. While not useful to XCom, it could revolutionize communications in civilian markets. Each Hyper-wave receiver could be sold for a sizable profit.
       STR_GOODS_6_UFOPEDIA: Nano Immune Cells are a replication of alien medical technology without the special material cost. These cells could heal nearly any disease and would fetch a significant profit on the medical market.
       STR_ALLOY_AMMUNITION_UFOPEDIA: Once the machining processes for working with Alien Alloys is established, it is possible to use a coating of Alien Alloys on conventional bullets. The light weight and high toughness make it an excellent armor piercing coating for our bullets.
 #-----UFOPaedia Alien Lifeforms
@@ -1972,8 +1975,8 @@
       STR_HYBRID_CRAFT_UFOPEDIA: UFO technology is understood well enough and XCom aeronautics is at a point where hybrid designs are within the realm of possibility. While UFO components have been used in X-Com designs before, further integration with alien technology will be essential to bridge the gap in the air war. This may also lead to craft capable of interplanetary flight.
       STR_ELERIUM_POWERED_SERVOS: Elerium Powered Servos
       STR_ELERIUM_POWERED_SERVOS_UFOPEDIA: Codex data has provided schematics for complex powered servosystems. These servos are small enough to be integrated into new armor designs that could be powered by Elerium-115 cells.
-      STR_CODEX_HYPERWAVE_THEORY: Hyperwave Theory
-      STR_CODEX_HYPERWAVE_THEORY_UFOPEDIA: Recovered Codex data has revealed the secrets of Hyperwaves. Codex data reveals the core theory behind hyperwaves as well as the engineering principles to design a machine that may be able to intercept and send hyperwave signals. Before a hyperwave can be built, the alien cipher must be understood. Alien navigators may have this knowledge.
+      STR_CODEX_HYPERWAVE_THEORY: Hyper-wave Theory
+      STR_CODEX_HYPERWAVE_THEORY_UFOPEDIA: Recovered Codex data has revealed the secrets of Hyper-waves. Codex data reveals the core theory behind Hyper-waves as well as the engineering principles to design a machine that may be able to intercept and send Hyper-wave signals. Before a Hyper-wave can be built, the alien cipher must be understood. Alien navigators may have this knowledge.
       STR_ELERIUM_EXPLOSIVES: Elerium Explosives
       STR_ELERIUM_EXPLOSIVES_UFOPEDIA: Elerium-115 crystals release significant amounts of antimatter when bombarded by certain forms of radiation. This can be used to greatly enhance the power of explosive devices without adding significant weight. By using alien explosive devices as a model, XCom could produce its own versions of these destructive demolition weapons.
       STR_HYPERVELOCITY_PROJECTILES: Hypervelocity Projectiles
@@ -2001,7 +2004,7 @@
       STR_MICRO_FUSION: Micro Fusion
       STR_MICRO_FUSION_UFOPEDIA: Micro fusion technology makes controlling a fusion reaction possible on nearly any scale. This opens up a wealth of possibility regarding fusion based weapons.
       STR_DIMENSIONAL_FATIGUE: Dimensional Fatigue
-      STR_DIMENSIONAL_FATIGUE_UFOPEDIA: Hyperwaves function by being trans-dimensional in nature. This effect creates dimensional fatigue. Using this dimensional fatigue effect, it may be possible to greatly amplify the hyperwave effect, dramatically increase the hyperwave's range.
+      STR_DIMENSIONAL_FATIGUE_UFOPEDIA: Hyper-waves function by being trans-dimensional in nature. This effect creates dimensional fatigue. Using this dimensional fatigue effect, it may be possible to greatly amplify the Hyper-wave effect, dramatically increase the Hyper-wave's range.
       STR_PSIONIC_DOMINATION: Psionic Domination
       STR_PSIONIC_DOMINATION_UFOPEDIA: Codex schematics show a scaled up version of the psionic amplification technology. This new prototype could easily allow an operative to use psionic abilities at any range without requiring a line of sight.
       STR_FRAGMENT_REPLICATION: Codex Fragment Replication

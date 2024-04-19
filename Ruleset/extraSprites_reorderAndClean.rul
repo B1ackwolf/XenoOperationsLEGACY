@@ -995,6 +995,8 @@ extraSprites:
       32: Resources/UxUI/BaseBits/BuildingSprites/HYPERWAVE_BASEBITS.png
 ####
       700: Resources/UxUI/BaseBits/BuildingSprites/Gym.png
+      868: Resources/UxUI/BaseBits/BuildingSprites/SICK_BAY.png
+      346: Resources/UxUI/BaseBits/BuildingSprites/SICK_BAY_ADVANCED.png
       104: Resources/UxUI/BaseBits/BuildingSprites/SecurityCheckpoint.gif
       105: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP1.gif
       106: Resources/UxUI/BaseBits/BuildingSprites/LargeWorkshopP2.gif

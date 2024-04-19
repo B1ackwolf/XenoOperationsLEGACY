@@ -110,7 +110,7 @@ gameplay changes:
 
 QOL CHANGES:
  - reordenado totalmente como aparecen los edificios en la lista de una manera mas logica y coherente.
-  - added two new buildings, the sickbay and the advanced sickbay (culminar esto)
+  - added two new buildings, the sickbay and the advanced sickbay.
  - tambien modificado distintos valores, precios y requisitos necesarios para construir las facilities.
  - (TERMINAR DE IMPLEMENTAR) agregado la posibilidad de construir edificios directamente por encima de otros.
  - (TERMINAR DE AGREGAR) ahora los edificios necesitan tiempo para ser desensamblados, ya no desaparecen instantaneamente por arte de magia 

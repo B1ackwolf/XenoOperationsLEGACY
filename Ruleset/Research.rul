@@ -108,6 +108,11 @@ research:
     cost: 0
     points: 20
     needItem: true
+  - name: STR_ADVANCED_SICK_BAY #OJITO Q ESTE DEBE SER ESTRUCTURADO MEJOR
+    cost: 20
+    points: 10
+    dependencies:
+      - STR_MEDI_KIT
 #--Medi Kit and Motion Tracker--------------------END
 #--New Ballistic Tech Tree--------------------
   - name: STR_NEXT_GEN_BALLISTICS
