@@ -1589,6 +1589,9 @@ terrains:
         width: 10
         length: 10
 # XCom Base blocks , expanded by other users
+      - name: XBASS_00 # Empty Room
+        width: 10
+        length: 10
       - name: XBASS_02 # Large Living Quarters NW Block
         width: 10
         length: 10
@@ -1616,15 +1619,16 @@ terrains:
       - name: XBASS_23 # Gym
         width: 10
         length: 10
+      - name: XBASS_24 # Corridor
+        width: 10
+        length: 10
       - name: XBASS_25 # SickBay
         width: 10
         length: 10
       - name: XBASS_60 # Advanced Sickbay
         width: 10
         length: 10
-      - name: XOPSXBASE01 # Corridor
-        width: 10
-        length: 10
+# Xops made facilities
       - name: XOPSXBASE02 # Large Laboratory NW Block
         width: 10
         length: 10

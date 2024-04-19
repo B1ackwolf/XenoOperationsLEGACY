@@ -2327,6 +2327,10 @@ ufopaedia:
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_CORRIDOR_UFOPEDIA
+  - id: STR_EMPTY_ROOM
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_EMPTY_ROOM_UFOPEDIA
   - id: STR_SECURITY_ROOM
     type_id: 6
     section: STR_BASE_FACILITIES
@@ -2347,12 +2351,12 @@ ufopaedia:
       - STR_ALIEN_ALLOYS
       - STR_UFO_POWER_SOURCE
     text: STR_LARGE_LABORATORY_UFOPEDIA
-  - id: STR_PSIONIC_LABORATORY_LARGE
+  - id: STR_LARGE_PSIONIC_LABORATORY
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_PSI_LAB
-    text: STR_PSIONIC_LABORATORY_LARGE_UFOPEDIA
+    text: STR_LARGE_PSIONIC_LABORATORY_UFOPEDIA
 #---Base Facilities----------------------------------END
 #---Alien Life Forms----------------------------------
   - id: STR_SECTOID

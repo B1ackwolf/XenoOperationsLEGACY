@@ -1070,8 +1070,10 @@
       STR_LARGE_WORKSHOP: Large Workshop
       STR_LARGE_LABORATORY: Large Laboratory
       STR_CORRIDOR: Corridor
+      STR_EMPTY_ROOM: Prefabricated Module
+      STR_EMPTY_ROOM_UFOPEDIA: A cheap facility designed to connect other facilities.
       STR_SECURITY_ROOM: Security Station
-      STR_PSIONIC_LABORATORY_LARGE: Large Psi Laboratory
+      STR_LARGE_PSIONIC_LABORATORY: Large Psi Laboratory
       STR_GLOBAL_RADAR_SYSTEM: Satellite Network
       STR_HYPER_WAVE_GLOBAL_NETWORK: Hyper-wave Network
       STR_LARGE_GENERAL_STORES_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
@@ -1084,7 +1086,7 @@
       STR_LARGE_LABORATORY_UFOPEDIA: This Large Lab contains numerous state of the art research equipment and can host a larger number of staff than the small version. It provides space for up to 100 scientists.
       STR_GLOBAL_RADAR_SYSTEM_UFOPEDIA: This facility uses a network of both military and civilian orbital satellites along with advanced computer systems that link into surveillance networks from around the world to establish a global radar detection system. It has a small chance to discover any UFO on Earth.
       STR_HYPER_WAVE_GLOBAL_NETWORK_UFOPEDIA: By bouncing an amplified Hyper-wave signal off of a network of satellites, XCom can achieve global Hyper-wave converge, though the energy costs will be rather high.
-      STR_PSIONIC_LABORATORY_LARGE_UFOPEDIA: The large Psionic Laboratory has space to train and test up to 50 soldiers.
+      STR_LARGE_PSIONIC_LABORATORY_UFOPEDIA: The large Psionic Laboratory has space to train and test up to 50 soldiers.
 #-----HWP
       STR_UAV: UAV SHURIKEN
       STR_UCAV_ROCKET_LAUNCHER: UCAV LONGBOW

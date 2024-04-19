@@ -106,11 +106,33 @@ gameplay changes:
      ~ una espada alloy
 	 ~ un cuchillo laser
 	 ~ un cuchillo plasma
- - aumentado la cantidad de meses necesarios para recibir medalla de longevidad, ahora es cada seis meses
+ - completamente nuevas mecanicas para el manejo y construccion de modulos de las bases:
+   * nuevo edificio agregado: empty room
+     ~ un edificio vacio que sirve como plantilla para los demas edificios
+	 ~ se pueden construir practicamente todos los demas tipos de edificios encima
+   * las desconstrucciones ya no son inmediatas	, en cambio ahora tienen un costo economico y requiere tiempo
+     ~ en su lugar aparece un empty room
+   * construir edificaciones encima de otras hace que el tiempo que se gasto en construirla se reste del edificio final (solo el tiempo, el coste economico se mantiene)
+     ~ especialmente util para upgradear tus bases sin necesidad de desperdiciar tiempo adicional construyendo en otros espacios o teniendo q perder el layout defensivo si esto habia sido tomado en cuenta
+     ~ tener en consideracion q mientras se construye un edificio encima de otro ESTE QUEDA TEMPORALMENTE DESHABILITADO. recuerden tomar precauciones en este aspecto.
+       ° example: tienes un radar basico, quieres mejorarlo a un radar largo, aunque el tiempo de construccion se vera reducido, durante el tiempo de construccion el original se desactiva, asi que quedarias sin cobertura hasta q este termine	 
+ - todos los edificios pueden construirse encima de los bloques basicos (corredores y salas vacias) pero el resto de edificaciones tiene restricciones relativamente straightforward, tienen un patron relativamente logico y fueron divididos en grandes rasgos entre:
+   * edificios de deteccion (radars y hyperwave) pueden ser upgradeados encima de los otros del mismo tipo
+   * edificios residenciales y de almacenamiento.
+   * edificios de funciones (laboratorios y workshops por ejemplo), aunque cada "linea" de edificios solo puede construirse entre si 
+     ~(no se puede colocar un workshop encima de un laboratory, pero si un LARGE laboratory encima de 4 labs estandar y/o alien containtment)   
+   * edificios defensivos (contra incursiones de platillos, no confundir con la estacion de seguridad)
+   * servicios y extras , digase cualquiera q no entre en los anteriores, en general donde los soldados mejoren sus stats. ejemplo gyms y psi labs, adicionalmente dos edificios nuevos (explicados a continuacion)
+ - added two new buildings, the sickbay and the advanced sickbay. 
+   * aumentan el tiempo q tarda en recuperarse un soldado herido, solo se puede tener uno por base y solo uno de cualquiera de ambos niveles (no se puede tener un sick bay y un advanced sick bay at the same time)
+   * la version upgradeada requiere una investigacion adicional.
+   * custom made resources, including new battlescape maps, base sprites
+       ° as an extra note, these desings will be added into my base uplift standalone mod, so any other medical buildings added from mods like FMP will be compatible.	 
+
 
 QOL CHANGES:
  - reordenado totalmente como aparecen los edificios en la lista de una manera mas logica y coherente.
-  - added two new buildings, the sickbay and the advanced sickbay.
+
  - tambien modificado distintos valores, precios y requisitos necesarios para construir las facilities.
  - (TERMINAR DE IMPLEMENTAR) agregado la posibilidad de construir edificios directamente por encima de otros.
  - (TERMINAR DE AGREGAR) ahora los edificios necesitan tiempo para ser desensamblados, ya no desaparecen instantaneamente por arte de magia 
@@ -125,7 +147,9 @@ QOL CHANGES:
    * el mas pesado ahora es bazooka y tiene menos municion por cartucho 
    * ahora la carbine plasma es mas un bullpup, modificado la sprite para reflejar esto
 
- 
+TWEAKS AND BALANCE:
+ - aumentado la cantidad de meses necesarios para recibir medalla de longevidad, ahora es cada seis meses
+ - modificado todos los tiempos, costos y requisitos necesarios para las 
  - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.
    * Change the requeriments for some projects to balance this.
    * The ammunition manufacture should be managed in "blocks" therefore, numbers should be more realist and intuitive.
