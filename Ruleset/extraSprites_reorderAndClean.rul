@@ -4547,9 +4547,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_20mPp.gif
   - typeSingle: PERSONAL_ARMOR_PILOT__8__PERSONAL_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_20fPp.gif
-  - typeSingle: PERSONAL_ARMOR__8__PERSONAL_ARMOR_M
+  - typeSingle: PERSONAL_ARMOR_TAN__8__PERSONAL_ARMOR_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_21mPz.gif
-  - typeSingle: PERSONAL_ARMOR__8__PERSONAL_ARMOR_F
+  - typeSingle: PERSONAL_ARMOR_TAN__8__PERSONAL_ARMOR_TAN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_21fPz.gif
   - typeSingle: PERSONAL_ARMOR_BLACK__8__PERSONAL_ARMOR_BLACK_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_22mPb.gif
