@@ -4571,9 +4571,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_30uAp.gif
   - typeSingle: ALLOY_ARMOR_PILOT__8__ALLOY_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_30uAp.gif
-  - typeSingle: ALLOY_ARMOR__8__ALLOY_ARMOR_M
+  - typeSingle: ALLOY_ARMOR_TAN__8__ALLOY_ARMOR_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_31uAz.gif
-  - typeSingle: ALLOY_ARMOR__8__ALLOY_ARMOR_F
+  - typeSingle: ALLOY_ARMOR_TAN__8__ALLOY_ARMOR_TAN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_31uAz.gif
   - typeSingle: ALLOY_ARMOR_BLACK__8__ALLOY_ARMOR_BLACK_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_32uAb.gif
@@ -4595,9 +4595,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_40uSSp.gif
   - typeSingle: SKY_STRIKE_ARMOR_PILOT__8__SKY_STRIKE_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_40uSSp.gif
-  - typeSingle: SKY_STRIKE_ARMOR__8__SKY_STRIKE_ARMOR_M
+  - typeSingle: SKY_STRIKE_ARMOR_TAN__8__SKY_STRIKE_ARMOR_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_41uSSz.gif
-  - typeSingle: SKY_STRIKE_ARMOR__8__SKY_STRIKE_ARMOR_F
+  - typeSingle: SKY_STRIKE_ARMOR_TAN__8__SKY_STRIKE_ARMOR_TAN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_41uSSz.gif
   - typeSingle: SKY_STRIKE_ARMOR_BLACK__8__SKY_STRIKE_ARMOR_BLACK_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_42uSSb.gif
@@ -4611,17 +4611,17 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_44uSSw.gif
   - typeSingle: SKY_STRIKE_ARMOR_WHITE__8__SKY_STRIKE_ARMOR_WHITE_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_44uSSw.gif
-  - typeSingle: STR_SKY_STRIKE_ARMOR_CLOUD__8__STR_SKY_STRIKE_ARMOR_CLOUD_M
+  - typeSingle: SKY_STRIKE_ARMOR_CLOUD__8__SKY_STRIKE_ARMOR_CLOUD_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
-  - typeSingle: STR_SKY_STRIKE_ARMOR_CLOUD__8__STR_SKY_STRIKE_ARMOR_CLOUD_F
+  - typeSingle: SKY_STRIKE_ARMOR_CLOUD__8__SKY_STRIKE_ARMOR_CLOUD_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
   - typeSingle: XOPS_POWER_ARMOR_PILOT__8__XOPS_POWER_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_50uPAp.gif
   - typeSingle: XOPS_POWER_ARMOR_PILOT__8__XOPS_POWER_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_50uPAp.gif
-  - typeSingle: XOPS_POWER_ARMOR__8__XOPS_POWER_ARMOR_M
+  - typeSingle: XOPS_POWER_ARMOR_TAN__8__XOPS_POWER_ARMOR_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_51uPAz.gif
-  - typeSingle: XOPS_POWER_ARMOR__8__XOPS_POWER_ARMOR_F
+  - typeSingle: XOPS_POWER_ARMOR_TAN__8__XOPS_POWER_ARMOR_TAN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_51uPAz.gif
   - typeSingle: XOPS_POWER_ARMOR_BLACK__8__XOPS_POWER_ARMOR_BLACK_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_52uPAb.gif
@@ -4643,9 +4643,9 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_60mNp.gif
   - typeSingle: NERVE_ARMOR_PILOT__8__NERVE_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_60fNp.gif
-  - typeSingle: NERVE_ARMOR__8__NERVE_ARMOR_M
+  - typeSingle: NERVE_ARMOR_TAN__8__NERVE_ARMOR_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_61mNz.gif
-  - typeSingle: NERVE_ARMOR__8__NERVE_ARMOR_F
+  - typeSingle: NERVE_ARMOR_TAN__8__NERVE_ARMOR_TAN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_61fNz.gif
   - typeSingle: NERVE_ARMOR_BLACK__8__NERVE_ARMOR_BLACK_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_62mNb.gif

@@ -184,7 +184,7 @@ TWEAKS AND BALANCE:
 
 Sprite tweaks:
  - cambios menores en las texturas del mapa mundi, "suavizado la diferencia de sombreado en el agua, evitando cierto efecto puntillista q era demasiado pesado en ciertas iluminaciones                                  
- - increased the total ammount of faces for the paperdolls by 17 per gender
+ - increased the total ammount of faces for the paperdolls by 17 per gender (para un total de 72 por sexo)
  - Reduced size of grenade launcher ammo a bit.
  - reajusted the position of the weapons in the first tier (continuar con esto)
  - "suavizado" la apariencia de los perritos.
