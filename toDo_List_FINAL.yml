@@ -34,22 +34,32 @@ TL;DR VERSION:
  - Base defense = 75X / 20e + 180 supplies
 
 + hoja de ruta para 0.98.1:
- - modificar y balancear tiempos de construccion, precios y requerimientos a todos los edificios . . mañana agregar cuchillos nuevos, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar la conclusion de agregar los rostros nuevos de armaduras y terminar el rediseño de esas armaduras nivel 2? y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de worldmarkers, una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree y ademas balancear todo en manufactures, para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo) de este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
+ - modificar y balancear tiempos de construccion, precios y requerimientos a todos los edificios. mañana agregar cuchillos nuevos, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2? y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
+ 
+ - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
 
-+ PRIORITIES FIXES:
- - OJITO IMPLEMENTAR CORRECTAMENTE EL SCARAB Y EL xcf1
-   * el scarab aparece en la ufopaedia al inicio, resolver el tema bien de su investigacion y articulo, etc
- - PERRITOS MATAN A CYBERDISC. bug o feature?
- - OJO, en los ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO, no estan asignados a ninguna especie
-
+ - siguiente parche tendra el revamp del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
++ PETICIONES A OXCE:
  - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
-
  - pedir una opcion para reordenar bases, sea con flechitas o lo q sea, comentar el hecho q se mueven automaticamente por ejemplo cuando se elimina por completo una base.
    * un ejemplo de mi uso es q yo siempre intento mantener una base principal > base de investigaciones > dos bases fabricadoras > una base de satelite
    * pero si necesitara implementar bases de intercepcion, seria bueno poder mantener el orden de la satelital al final de todas
+   * hacer referencia que se puede re ordenar copiando y pegando manualmente dentro del savefile, pero desearia una manera menos engorrosa.
+ - pedir la posibilidad de guardar los loadouts directamente dentro de tus rulesets en lugar de solo dentro del archivo de guardado.
 
- - checar que onda con el data recovery y el anomalous equation para las naves de transporte
-   * resuelto, pero tengo q ver donde meto esto quizas usarlo como requisito del ultimo paso para completar el codex
++ PRIORITIES FIXES:
+ - Ojito q cuando restructure los layers de los cascos, tengo q cambiarle el nombre al casco kevlar, al casco xops y al nerve cap y agregarle el sufijo TAN
+ - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
+ - PERRITOS MATAN A CYBERDISC. bug o feature?
+ - Review the changes made to alien species and reclassify their STR_ reference names accurately.
+   * Pay special attention to Muton Commanders and Muton Warlords.
+   * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
+     ~ Should be a new project that need an X ammount of bodies for testing and exploring any weaknesses.
+   * Every race should consist of these projects
+     ~ A live study discussing the behavior and characteristics of the species.
+     ~ An autopsy establishing generalities and the functioning of the species.
+     ~ A combat analysis showing weaknesses and exploiting qualities, giving a damage bonus. (Check Xenonauts 1 posters entries for inspiration to the artwork).
+ - OJO, en los ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO, no estan asignados a ninguna especie
  - revisar enteramente arbol de investigaciones dandole enfasis a los siguientes proyectos
    * STR_CODEX_COMPLETE
    * STR_DATA_RECOVERY
@@ -58,6 +68,39 @@ TL;DR VERSION:
    * STR_HISTORICAL_ARCHIVES_ANALYSIS
    * STR_ANOMALOUS_EQUATION
    * STR_SOLVE_ANOMALOUS_EQUATION
+ - agregar data corrupta en todos los niveles, para q siempre haya posibilidad de fallos. 
+ - Checar que onda que hacer con elerium CELL que es la municion del cañon plasma de aviones
+ - Resolve the Suppressed Error for STR_SECTOPOD_ELITE_TERRORIST.
+   * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
+ - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
+   * No matter how I modify the problem in the alien deployments tab, it still gives an error.
+   * Continue investigating with EfrenEspartano to see what's going on.
+ - Investigate how to resolve the following error
+   * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
+   *[revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima]
+       ~ esto se resolvio con brutal IA, igual seguir investigando
+ - Download CMP and ensure maps and everything else is up-to-date to prevent CTDs.
+ - Error in the new "inventory" image for enemies.
+   * Firstly, add remaining images of enemy inventory.
+   * Review the size of the "slots" position for 2x2 units.
+
+IMPORTANTE PARA LORE:
+ - xelloy esta compuesto de aleaciones complejas de materiales conocidos, aunque algunos tengamos en muy bajas cantidades, tambien tiene mundanas cantidades de elementos aun no conocidos para nosotros.
+ - los ufos no estan enteramente construidos de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
+ - el iridio tiene la ventaja sobre el titanio q mantiene su dureza incluso en altas temperaturas
+ - la municion toxica es a base de POLONIO
+ - usar municion mas densa hecha de paladio,titanio, tugsteno
+ - municion de cañon de riel hecho de platino?, la ultra densa y rara hecha a base de osmio
+ - mantener el sufijo "caballero" para las armaduras mechas, tanques y demas?
+   * usando nombres como "pattern X"
+     ~ squire
+     ~ lancer
+     ~ knight
+     ~ warden
+     ~ paladin
+     ~ sentinel
+ - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
+ - directamente revisar todos los "ojitos"
  - aprovechar los extras aliens objects para hacer requisitos de tecnologia
    * ejemplo el communicador y el hypersensory para el Hyper-wave relay
    * todos los q son cosas de medico para las clinicas
@@ -67,9 +110,6 @@ TL;DR VERSION:
    * eliminar q ganen stats segun el nivel de dificultad, por lo tanto ahora regularizar mejor los stats a un promedio
    * se modificaran las cantidades totales de aliens
    * quizas modificar los parametros de BRUTAL IA en base al nivel (siempre sin hacer trampa)
- - acomodar el orden de los facilities TODOS
-   * se hace con el "listOrder" en cada edificio
-   * parece q es lo mismo con las armaduras, aunque me salte error
  - crear medalla para perros
  - modificar totalmente como funcionan los articulos medicos.
    * buscar agregarle soniditos a los articulos medicos cuando se usen
@@ -78,7 +118,7 @@ TL;DR VERSION:
    * nivel 2 el field surgery kit, una version mejorada.
      ~ requerira la investigacion del life support? (proporcionaria mejoras en el tratamiento de celulas madre blablabla)
      ~ quizas tambien el de alien physiology
-       ° nota, recordatorio de agregar pistas de q se necesita el life support para poder tener el alien containtment.
+       ° nota, recordatorio de agregar pistas dentro del research de alien psynionomy de q se necesita el life support para poder tener el alien containtment.
    * nivel 3 el medi-kit de vainilla q es dispensador de medi-gel, explicaria todo lo avanzado de la medicina, cosas de reparar heridas y tejido casi al instante blablabla
      ~ requeriria quizas nivel 3 del codex? (2 como minimo)
      ~ estaria atado a la mejora del edificio de la base de la clinica mejorada.    
@@ -86,43 +126,6 @@ TL;DR VERSION:
    * rehacerle la imagen al f35 mejorado con el coffin, foto en nuevo angulo
      ~ tambien al nuevo empress q sera el avion definitivo de XCOM.
    * revisar las descripciones y q nombres coincidan
- - mantener el sufijo "caballero" para las armaduras y tanques y demas?
-   * usando nombres como
-     ~ squire
-     ~ knight
-     ~ warden
-     ~ paladin
-
-IMPORTANTE PARA LORE:
- - xelloy esta compuesto de aleaciones complejas de materiales conocidos, aunque algunos tengamos en muy bajas cantidades, tambien tiene mundanas cantidades de elementos aun no conocidos para nosotros.
- - los ufos no estan enteramente construidos de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
- - el iridio tiene la ventaja sobre el titanio q mantiene su dureza incluso en altas temperaturas
- - la municion toxica es a base de POLONIO
- - usar municion mas densa hecha de paladio,titanio, tugsteno
- - municion de cañon de riel hecho de platino?, la ultra densa y rara hecha a base de osmio
-
-
- - revisar si hay otros rangos de medics de las otras razas ademas del floater y sectoid
-   * resuelto esto, pero confirmado que el research tree necesita una revision EXHAUSTIVA.
- - checar que onda con el temita del need-item
-
- - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
-
- - Checar que onda con elerium CELL
-   * directamente revisar todos los "ojitos"
-  [revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima]
-     ~ esto se resolvio con brutal IA, igual seguir investigando
- - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
-   * No matter how I modify the problem in the alien deployments tab, it still gives an error.
-   * Continue investigating with EfrenEspartano to see what's going on.
- - Investigate how to resolve the following error
-   * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
- - Download CMP and ensure maps and everything else is up-to-date to prevent CTDs.
- - Resolve the Suppressed Error for STR_SECTOPOD_ELITE_TERRORIST.
-   * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
- - Error in the new "inventory" image for enemies.
-   * Firstly, add remaining images of enemy inventory.
-   * Review the size of the "slots" position for 2x2 units.
 
 + impending changes: 
  - implementar YA cambios al xelloy
@@ -142,62 +145,39 @@ IMPORTANTE PARA LORE:
    * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
      ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
  - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
-   * aun no defino si usaran trajes kakhis o rojos
- - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets?  
+   * usaran trajes azules
+ - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets? 
+   * recolorizar TODAS LAS TIERS para implementar pilotos en rojo 
+   * modificar el rank sprite sheet
+   * pintar nuevamente imagen de piloto de la ufopaedia a color rojo
+   * modificar el casco del piloto basico
  - crear unidad parecida a perro pero q sea "drone core"
    * aprovechar y explicar lo del drone q se conecta desde la base
    * aprovechar texto del edificio radar para completar la explicacion
    * crearles sus respectivos armor previews
  - agregar efecto purpura psionico pero solo a los ethereals
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
- - aprovechar lanza cohetes matador y reemplazarlo por primer smaw
+ - aprovechar lanza cohetes matador y reemplazarlo por primer smaw del into the abyss
    * retocar color
-
- - BALANCEAR TODOS LOS PRECIOS RELACIONADOS CON XELLOYS.
-#   
- - with the "producedItems:" command
-   * modificar costos y tiempos requeridos para producir un lote de municion
-     ~ 2 xelloys por lote de municion?
-   * revisar que puse un articulo dummy mientras
-   * revisar cohetes y granadas
  - conseguir explosiones diferentes para efectos de granadas 
-#
- - concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius
+ - concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius y remplazar con el que tipea recomendado el ruleset
 
 #MISC
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.
  - Clean up and correct all newlines (and double newlines).
-   * Indent only at the beginning of the text, not at the beginning of a new paragraph.
-
- - Enhance ufopaedia descriptions for all buildings.
-     ~ Also, allow buildings to be upgraded by building things on top of them.
-     ~ And to have a descontruction timer.
- - Thoroughly check the entire research tree; there seem to be many dead ends in important research.
-   * Prioritize "UFO Components."
-
- - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
-
- - Review the changes made to alien species and reclassify their STR_ reference names accurately.
-   * Pay special attention to Muton Commanders and Muton Warlords.
-   * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
-     ~ Should be a new project that need an X ammount of bodies for testing and exploring any weaknesses.
-   * Every race should consist of these projects
-     ~ A live study discussing the behavior and characteristics of the species.
-     ~ An autopsy establishing generalities and the functioning of the species.
-     ~ A combat analysis showing weaknesses and exploiting qualities, giving a damage bonus. (Check Xenonauts 1 posters entries for inspiration to the artwork).
-
- - Finish the Audio enhancement
-   * Confirmar todas las carpetas
-
-#####
+   * Indent (-) only at the beginning of the text, not at the beginning of a new paragraph.
 
 + FINISH REORGANIZING FOLDERS:
  - Fix all relative routes inside extrasprites.rul for this.
    * Be cautious, CHECK and modify the names of ALL sprites in "unitSprites" folders.
    * Rename all files within ufopaedia folder.
  - Delete the extras sound folder as I test the new sounds.
+ - Finish the Audio enhancement
+   * Confirmar todas las carpetas quedan correctamente utilizadas
+   * aprovechar carpeta de into the abyss que tiene sonidos buenos, en especial para primeros dos tiers.
+
 #####
 
 + EFRENESPARTANO HELP IN PLANES CHANGES:
@@ -219,6 +199,7 @@ IMPORTANTE PARA LORE:
  - Reorder every Ufopedia and create new sections.
  - Rewrite all alien races Ufopedia entries.
  - Provide realistic equivalents for all weapon descriptions.
+   * first tier partially done, the rest is up to go.
  - Modify Ancient Abomination autopsy picture to be more detailed and bloody.
  - Consider creating a new interrogation project for advanced races.
  - Center and align ALL WEAPONS in the Ufopedia.
@@ -244,12 +225,11 @@ IMPORTANTE PARA LORE:
 #####
 
 + ARMOR CHANGES:
-
  - Confirm if more insignias can be added to the paperdoll based on the soldier's rank.
+   * confirmed i can, raven found a way, i need to found how to apply considering the colors of my armors
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
-   * Rename how all armor colors are referred to in "STR_" and strings references.
    * Focus especially on renaming the bodies and corpses png and gif files.
    * Increase the Size of frontal pockets to 2x2 squares.
    * Rename the "backpack" category to something more generic.
@@ -260,6 +240,8 @@ IMPORTANTE PARA LORE:
    * Create different versions based on soldier sizes.
    * Ensure advanced versions cover ALL skin (test with a black background as I update).
    * Use the belly from female personal armor for non-muscular men.
+ - Add raised quad-lenses to tier 1 soldier sprites, then add lower quad-lenses and find out if configuration is possible.
+   * Inquire about making day and night sprites different for implementation in the first tier.
  - Add bulbs on hands, hips in the battlescape sprites of nerve armors.
  - Implement a new pocket configuration.
    * Add a new pocket where only "armor modules" can be placed.
@@ -278,6 +260,7 @@ IMPORTANTE PARA LORE:
          ° Armadura Power = Myrmidon
          ° Armadura Psionica = Gorgon
 
+#####
 
 + sacar de into the abbyss:
  - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
@@ -289,7 +272,6 @@ IMPORTANTE PARA LORE:
 ######
 
 + Weapons Changes:
-
  - Check that by eliminating certain shot types, weapons now have different maximum ranges in some instances.
    * Consider all balance issues this could create.
  - Create a better handob sprite for the Milkor AGL.
@@ -347,11 +329,9 @@ IMPORTANTE PARA LORE:
  - Rename the weapon of the tank plasma cannon.
  - Rename plane's plasma cannon.
 
-
 #####
 
 + Doggos Changes:
-
  - Create more sprites for dog paper dolls.
    * Introduce more breeds?
    * Provide a wide variety of fur patterns for different species.
@@ -384,8 +364,7 @@ IMPORTANTE PARA LORE:
  - Create new lore for the bishop (Interceptor improved xcf1).
    * in short, its an xelloy plated f35, renamed to xyf-36b
  - Improve the rider and rook ufopaedia lore. 
- - Change the full name, lore, and description of the SR-71 to something cooler.
-   * Change the nickname from Blackbird to something better. DONE, CORMORANT
+ - Change the lore and description of the SR-71 to something cooler.
    * new ideas for improved planes.
      ~ Shearwater?
      ~ Albatross
@@ -394,6 +373,7 @@ IMPORTANTE PARA LORE:
  - Attempt to resolve the issue that drones can no longer carry things.
  - Resolve HWP sprite using the Coelacanth spritesheet to have a movable wheel and turret.
    * se achican imagenes que tengo al 33% y hovers al 32%
+   * aplicar el tanque sobre el Coelacanth y usar la posicion de las orugas anguladas sobre la punta (como los tanques de helldivers 2)
  - Classic tanks will be armed with
    * A 25mm AP cannon
    * A HyperVelocity Ap cannon
@@ -426,8 +406,6 @@ IMPORTANTE PARA LORE:
  - Solve all missing and improve inventory aliens sprites significantly.
  - Change Carcharodons sprites to gray.
    * Perhaps Only leaders should be gray, or a darker shade of gray?
- - Modify Berserker to have built-in weapons instead of basic daggers.
-   * Create handobs for double daggers like those of Wolverine/Shredder/Predator.
  - Improve Commander Sectoid sprites.
    * Add spikes like Aquatoids.
    * Make their heads shine?
@@ -447,16 +425,10 @@ IMPORTANTE PARA LORE:
 #####
 
 + Sprites Changes:
-
  - Improve the sprites of the Mindprobe (a sphere with notches, like the map in planet of the Treasure or the Eden's apple from Assasins creed).
  - Review tier by tier.
-   * Identify missing handobs, floorobs, and bigobs (priority for the first two).
+   * Identify missing handobs, floorobs, and bigobs, of both weapons and ammunition (priority for the first two).
  - Add underwear and/or T-shirts to sprites like the new ones in the US Army (keep it SFW).
- - Continue finalizing improved handobs for certain items.
-   * Use pistol and rifle clip handobs for the first tier.
-   * Review and create handobs for all remaining items (there are many).
- - Add raised quad-lenses to tier 1 soldier sprites, then add lower quad-lenses and find out if configuration is possible.
-   * Inquire about making day and night sprites different for implementation in the first tier.
  - Sectopod aliens are xelloy blue; in contrast, human sectopods will be brown. Confirm this.
    * Blue color has already been changed; only need to create the human sectopods.
  - hacer cambios en globemarkers
@@ -478,7 +450,6 @@ IMPORTANTE PARA LORE:
 #####
 
 + Minor Changes:
-
  - Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
    * Consists of high-entropy alloys of known and other alien elements.
    * The real problem is not knowing the elements but the proportion for the correct mix to obtain desired properties.
@@ -486,23 +457,17 @@ IMPORTANTE PARA LORE:
    * "#----- topic -----#" should be the correct format.
    * Eliminate all that have an excess of dashes.
    * Check all the "ojito" notifications.
-
- - Add filters to manufacturers to make it more granular.
+ - Add filters and categories to manufacturers to make it more granular.
+ - Add filters and categories to items so it can be searched more granular.
  - Does the Alien Disassemble from alien entertainment give a Mind Probe?
    * If so, significantly reduce the price of the probe.
    * Increase the necessary hours.
 
-
 #####
 
 + Major Changes:
- - include xcom npcs in base defenses
- - (new, in actual patch  ) Reduce numbers of NCP needed by xcom
-   * perhaps reduce the engineers by a third
-     ~ this then needs to be translated in tweaks to projects and buildings balance
-   * maybe one fith of the scientist
-     ~ researches, salaries, living and labs balances should be taken into consideration.   
- - Implement daytime and nighttime camouflage.
+ - include xcom npcs in base defenses  
+ - Implement daytime and nighttime camouflage stat to armors and enemies.
    * Balance total vision and ranges.
  - Tanks, UFOs, and Sectopods use pilots.
    * Create a new soldier transformation to train them; they will now be armor instead of units.
@@ -544,7 +509,6 @@ IMPORTANTE PARA LORE:
 #####
 
 + Long Term Changes:
-
  - Add new types of missions similar to EU2012.
    * Landed UFO (already implemented).
    * Crashed UFO (already implemented).
@@ -589,7 +553,6 @@ IMPORTANTE PARA LORE:
 #####
 
 + Possible Unattainable Changes:
-
  - Create videos like in the PS1 assets.
  - Rearrange mission lists to something more coherent.
  - Add a "voices" system with dialogues for responses and more (not so sure about this, tho).
@@ -598,12 +561,7 @@ IMPORTANTE PARA LORE:
 
 #####
 
-
-   
-#####
-
 + This should be the new ListOrder of the item/weapon:
-
  - This is roughly the new listorder in equip weapon window and ufopaedia.
    * Basic weaponry.
    * Xperimental weaponry.
@@ -619,7 +577,6 @@ IMPORTANTE PARA LORE:
    * Alien Misc items.
 
 + This should be the new order in the ufopaedia:
-
  - This is the listorder of categories.
    * 0= dossiers and background info
    * 100= alien research
@@ -632,26 +589,17 @@ IMPORTANTE PARA LORE:
    * 1100= Faciities
    * last one=> commendations
 
-Posibles descripciones mutones:
+#####
 
++Posibles descripciones mutones:
 Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
-
 Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
-
 Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
- 
-
 Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
- 
-
 Warchief:  they are veterans of a hundred battles at least, only few sebilians show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
- 
-
 Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
- 
-
 Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
 
+#####
 
- - Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
-
+extra posible names: Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)

@@ -184,7 +184,7 @@ TWEAKS AND BALANCE:
 
 Sprite tweaks:
  - cambios menores en las texturas del mapa mundi, "suavizado la diferencia de sombreado en el agua, evitando cierto efecto puntillista q era demasiado pesado en ciertas iluminaciones                                  
- - increased the total ammount of faces for the paperdolls by 17 per gender
+ - increased the total ammount of faces for the paperdolls by 17 per gender (para un total de 72 por sexo)
  - Reduced size of grenade launcher ammo a bit.
  - reajusted the position of the weapons in the first tier (continuar con esto)
  - "suavizado" la apariencia de los perritos.
@@ -192,7 +192,7 @@ Sprite tweaks:
  - pequeños retoques al
    * cuchillo alloy humano
    * cuchillo basico humano
-
+ - agregados sprites para cargadores de pistola y rifle de la primera generacion
    * espada laser humana
      ~ tambien recibio cambios en floorsprite y handsprite
    * espada plasma humana
@@ -200,11 +200,12 @@ Sprite tweaks:
    * cuchillo alloy alien rediseñado por completo
      ~ cambiado handsprite y floorsprite	 
    * espada plasma alien modificada ligeramente	 
-	 
+ - agregado sprites para los cargadores de pistola y rifle de tier inicial	 
 craft changes
  - todas las naves de xcom recibieron mejoras significativas sea en funcionalidad o en apariencia, ademas de retoques en estadisticas (ojito hacer esto)
    *dragonfly recibio correcciones menores con los LoS desde adentro del avion. velocidad mas baja
    * firefly recibio ligeras menoras esteticas, ademas de una escalera en la puerta lateral, de modo q tambien podra ingresarse a la aeronave usando esta puerta.
+   * cambiado el nombre del sr-71 , ahora es cormorant
    * modificado el orden de las aeronaves finales, primero se agrega un avion de transporte extra llamado SCARAB
      ~ funcion principal de movimiento de tropas
 	 ~ estadisticas aqui
@@ -231,7 +232,7 @@ craft changes
    * cuarto y avion final sera el caza definitivo, tambien requerira combustible especial, requerira una inversion importante de recursos para desplegarse. 
  - en consecuencia tambien los UFOs recibieron modificaciones menores tanto en velocidad como en resistencia para ajustarse a los nuevos parametros   
  - todas las aeronaves recibieron cambios esteticos tanto en los basebits como en las ufopaedias
- - modificada la descripcion de tamaño del labship, ahora es medium size.	 
+ - modificada la descripcion de tamaño del UFO labship, ahora es medium size.	 
 	 
 	 
 	 

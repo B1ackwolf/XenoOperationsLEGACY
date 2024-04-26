@@ -2395,7 +2395,6 @@ research:
     needItem: true
 #    lookup: STR_CODEX_1
     getOneFree:
-      - STR_MEDI_KIT
       - STR_MOTION_SCANNER
       - STR_ALLOY_MESH #Personal Armor
       - STR_ALLOY_AERODYNAMICS #Interceptor + transport here?
@@ -2413,6 +2412,7 @@ research:
     points: 500
     needItem: true
     getOneFree:
+      - STR_MEDI_KIT
       - STR_LASER_WEAPONIZATION
       - STR_PLASMA_REACTIVE_PLATING
       - STR_ANTI_GRAV_DEVICE
