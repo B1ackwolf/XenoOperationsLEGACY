@@ -2,15 +2,11 @@
 
 # cambios q faltan:
 
-#buildtime
-#removaltime
 #buildcost
 #buildcostitems
 #refundValue
 #monthlycost
 
-
-#agregar el parametro mapname: a todas las q faltan
 #revisar si el corridor tiene cositos en los otros mods para saber como activarselo
 #igualmente algun cuadrado, asi se lo pongo a la base de seguridad
 facilities:
@@ -21,21 +17,21 @@ facilities:
     spriteShape: 1
     spriteFacility: 1
     buildCost: 50000
+    monthlyCost: 2000
     buildTime: 4
     removalTime: 2
-    monthlyCost: 2000
-    canBeBuiltOver: true
     refundValue: 40000
+    canBeBuiltOver: true
     listOrder: 101
   - type: STR_CORRIDOR
     mapName: XBASS_24
     spriteShape: 3
     spriteFacility: 3
     buildCost: 10000
+    monthlyCost: 2000
     buildTime: 7
     removalTime: 3
     refundValue: 40000
-    monthlyCost: 2000
     canBeBuiltOver: true
     listOrder: 102
   - type: STR_SECURITY_ROOM
@@ -43,12 +39,12 @@ facilities:
     spriteShape: 1
     spriteFacility: 104
     buildCost: 100000
+    monthlyCost: 7000
     buildTime: 7
     removalTime: 3
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    monthlyCost: 7000
     listOrder: 103
   - type: STR_HANGAR    #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_16
@@ -57,7 +53,7 @@ facilities:
     size: 2
     buildCost: 200000
     buildTime: 28
-    removalTime: 10
+    removalTime: 7
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
@@ -89,7 +85,7 @@ facilities:
     size: 2
     buildCost: 2250000
     buildTime: 28
-    removalTime: 10
+    removalTime: 7
     monthlyCost: 70000
     refundValue: 40000
     buildOverFacilities: [ STR_LIVING_QUARTERS, STR_GENERAL_STORES ]
@@ -104,31 +100,33 @@ facilities:
       - [17, 7, 0]
     listOrder: 111
   - type: STR_GENERAL_STORES    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_07
     storageTiles:
       - [5, 5, 1]
       - [7, 5, 1]
       - [2, 1, 1]
       - [1, 7, 0]
-    listOrder: 112
     buildCost: 50000
     monthlyCost: 2000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
+    buildTime: 7
     removalTime: 3
-    buildTime: 4
     storage: 20
+    listOrder: 112
   - type: STR_LARGE_GENERAL_STORES
+    mapName: XBASS_06
     spriteShape: 309
     spriteFacility: 309
     size: 2
     buildCost: 1000000
-    buildTime: 20
+    buildTime: 21
+    removalTime: 5
     monthlyCost: 30000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
     buildOverFacilities: [ STR_GENERAL_STORES ]
     storage: 275
     storageTiles:
@@ -145,21 +143,21 @@ facilities:
       - [3, 1, 1]
       - [4, 1, 1]
       - [5, 1, 1]
-    mapName: XBASS_06
     listOrder: 113
 #----- Functional base Buildings -----#
   - type: STR_LABORATORY    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_02
     labs: 10
     buildCost: 50000
     monthlyCost: 45000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
+    buildTime: 28
+    removalTime: 7
     listOrder: 120
   - type: STR_LARGE_LABORATORY
+    mapName: XOPSXBASE02
     spriteShape: 114
     spriteFacility: 114
     size: 2
@@ -182,18 +180,18 @@ facilities:
         build: 4
         refund: 2
     buildCost: 3300000
-    buildTime: 40
+    buildTime: 42
+    removalTime: 10
     monthlyCost: 130000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
     buildOverFacilities: [ STR_LABORATORY, STR_ALIEN_CONTAINMENT ]
     labs: 50
     aliens: 5
-    mapName: XOPSXBASE02
     listOrder: 121
   - type: STR_ALIEN_CONTAINMENT    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_08
     requires:
       - STR_ALIEN_CONTAINMENT
     buildCostItems:
@@ -203,28 +201,27 @@ facilities:
     spriteShape: 1
     spriteFacility: 25
     buildCost: 400000
-    buildTime: 18
+    buildTime: 16
+    removalTime: 4
     monthlyCost: 15000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-
     aliens: 10
-    mapName: XBASE_08
     listOrder: 122
   - type: STR_WORKSHOP    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_03
     workshops: 20
     buildCost: 50000
     monthlyCost: 2000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
+    buildTime: 28
+    removalTime: 7
     listOrder: 123
   - type: STR_LARGE_WORKSHOP
+    mapName: XOPSXBASE07
     spriteShape: 105
     spriteFacility: 105
     size: 2
@@ -247,58 +244,57 @@ facilities:
         build: 2
         refund: 1
     buildCost: 3800000
-    buildTime: 45
+    buildTime: 42
+    removalTime: 10
     monthlyCost: 140000
     refundValue: 40000
     buildOverFacilities: [ STR_WORKSHOP]
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-
     workshops: 100
-    mapName: XOPSXBASE07
     listOrder: 124
 #----- Detection base Buildings -----#
   - type: STR_SMALL_RADAR_SYSTEM   #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_04
+    buildCost: 50000
+    monthlyCost: 2000
+    refundValue: 40000
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    buildTime: 14
+    removalTime: 4
     listOrder: 130
-    buildCost: 50000
-    monthlyCost: 2000
-    refundValue: 40000
-    leavesBehindOnSell:
-      - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
   - type: STR_LARGE_RADAR_SYSTEM   #ojito luego cambiar nombre para mantener nomenclatura
-    listOrder: 131
+    mapName: XBASE_05
     buildCost: 50000
     monthlyCost: 2000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
+    buildTime: 21
+    removalTime: 5
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM ]
+    listOrder: 131
   - type: STR_GLOBAL_RADAR_SYSTEM
+    mapName: XOPSXBASE11
     requires:
       - STR_GLOBAL_DETECTION_COVERAGE
     spriteShape: 130
     spriteFacility: 130
     buildCost: 4700000
     size: 2
-    buildTime: 40
+    buildTime: 35
+    removalTime: 8
     monthlyCost: 300000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM, STR_LARGE_RADAR_SYSTEM ]
-
     radarRange: 10850
     radarChance: 8
-    mapName: XOPSXBASE11
     listOrder: 132
   - type: STR_HYPER_WAVE_DECODER    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_15
     spriteShape: 1
     buildCost: 50000
     buildCostItems:
@@ -311,17 +307,16 @@ facilities:
       STR_UFO_NAVIGATION:
         build: 2
         refund: 1
-    listOrder: 133
     monthlyCost: 2000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
+    buildTime: 28
+    removalTime: 7
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM, STR_LARGE_RADAR_SYSTEM ]
-
-
+    listOrder: 133
   - type: STR_HYPER_WAVE_GLOBAL_NETWORK
+    mapName: XOPSXBASE16
     requires:
       - STR_HYPER_WAVE_GLOBAL_NETWORK
     hyper: true
@@ -329,7 +324,8 @@ facilities:
     spriteFacility: 122
     size: 2
     buildCost: 11200000
-    buildTime: 52
+    buildTime: 56
+    removalTime: 12
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
@@ -347,29 +343,29 @@ facilities:
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM, STR_LARGE_RADAR_SYSTEM, STR_GLOBAL_RADAR_SYSTEM ]
-
     radarRange: 10850
     radarChance: 100
-    mapName: XOPSXBASE16
     listOrder: 134
 #----- Defenses base Buildings -----#
   - type: STR_MISSILE_DEFENSES    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_06
     spriteShape: 1
     buildCost: 50000
     monthlyCost: 2000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
+    buildTime: 14
+    removalTime: 4
     listOrder: 140
   - type: STR_LASER_DEFENSES    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_09
     spriteShape: 1
     buildCost: 50000
     monthlyCost: 2000
+    buildTime: 21
+    removalTime: 5
     buildCostItems:
       STR_ELERIUM_115:
         build: 5
@@ -378,14 +374,12 @@ facilities:
         build: 5
         refund: 3
     buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_PLASMA_DEFENSES, STR_FUSION_BALL_DEFENSES ]
-    listOrder: 141
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
+    listOrder: 141
   - type: STR_PLASMA_DEFENSES    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_10
     spriteShape: 1
     buildCost: 50000
     monthlyCost: 2000
@@ -400,14 +394,14 @@ facilities:
         build: 1
         refund: 0
     buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_LASER_DEFENSES, STR_FUSION_BALL_DEFENSES ]
-    listOrder: 142
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
+    buildTime: 28
+    removalTime: 7
+    listOrder: 142
   - type: STR_FUSION_BALL_DEFENSES    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_11
     spriteShape: 1
     buildCost: 50000
     monthlyCost: 2000
@@ -425,45 +419,43 @@ facilities:
         build: 2
         refund: 1
     buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_LASER_DEFENSES, STR_PLASMA_DEFENSES ]
+    refundValue: 40000
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    buildTime: 28
+    removalTime: 7
     listOrder: 143
-    refundValue: 40000
-    leavesBehindOnSell:
-      - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
   - type: STR_GRAV_SHIELD    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_12
     spriteShape: 1
+    buildCost: 50000
+    monthlyCost: 2000
+    refundValue: 40000
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    buildTime: 35
+    removalTime: 8
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 10
+        refund: 5
+      STR_ALIEN_ALLOYS:
+        build: 10
+        refund: 5
+      STR_UFO_NAVIGATION:
+        build: 1
+        refund: 0
     listOrder: 144
-    buildCost: 50000
-    monthlyCost: 2000
-    refundValue: 40000
-    leavesBehindOnSell:
-      - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
-    buildCostItems:
-      STR_ELERIUM_115:
-        build: 10
-        refund: 5
-      STR_ALIEN_ALLOYS:
-        build: 10
-        refund: 5
-      STR_UFO_NAVIGATION:
-        build: 1
-        refund: 0
   - type: STR_MIND_SHIELD    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_13
     spriteShape: 1
-    listOrder: 145
     buildCost: 50000
     monthlyCost: 2000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
+    buildTime: 35
+    removalTime: 8
     buildCostItems:
       STR_ELERIUM_115:
         build: 10
@@ -474,57 +466,55 @@ facilities:
       STR_UFO_NAVIGATION:
         build: 1
         refund: 0
+    listOrder: 145
 #----- Services and extra base Buildings -----#
   - type: STR_GYM
+    mapName: XBASS_23
     spriteShape: 1
     spriteFacility: 700
     buildCost: 350000
-    buildTime: 20
+    buildTime: 21
+    removalTime: 5
     monthlyCost: 35000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
     trainingRooms: 10
-    mapName: XBASS_23
     listOrder: 150
   - type: STR_SICK_BAY
+    mapName: XBASS_25
     spriteShape: 1
     spriteFacility: 868
     maxAllowedPerBase: 1
     buildCost: 750000
-    buildTime: 22
+    buildTime: 21
+    removalTime: 5
     monthlyCost: 50000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
     buildOverFacilities: [ STR_ADVANCED_SICK_BAY ]
     sickBayAbsoluteBonus: 0.25
     sickBayRelativeBonus: 1.0
-    mapName: XBASS_25
     listOrder: 151
-#####################
-
   - type: STR_ADVANCED_SICK_BAY
+    mapName: XBASS_60
     requires:
       - STR_ADVANCED_SICK_BAY
     spriteShape: 1
     spriteFacility: 346
     buildCost: 750000
-    buildTime: 25
+    buildTime: 28
+    removalTime: 7
     monthlyCost: 45000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-
     buildOverFacilities: [ STR_SICK_BAY ]
     maxAllowedPerBase: 1
     sickBayAbsoluteBonus: 0.50
     sickBayRelativeBonus: 2.0
     manaRecoveryPerDay: 5
-    mapName: XBASS_60
     provideBaseFunc: [ MEDBAY] #OJITO SI HACE FALTA EN MEDBAY BASICA
     forbiddenBaseFunc: [ MEDBAY ] #OJITO MISMO DE ARRIBA
     buildCostItems:
@@ -546,15 +536,15 @@ facilities:
     listOrder: 152
 ###################################
   - type: STR_PSIONIC_LABORATORY    #ojito luego cambiar nombre para mantener nomenclatura
+    mapName: XBASE_14
     psiLabs: 5
     buildCost: 50000
     monthlyCost: 2000
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
-    buildTime: 4
-
+    buildTime: 28
+    removalTime: 7
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
@@ -567,6 +557,7 @@ facilities:
         refund: 1
     listOrder: 153
   - type: STR_LARGE_PSIONIC_LABORATORY
+    mapName: XOPSXBASE20
     requires:
       - STR_PSI_LAB
     spriteShape: 138
@@ -576,12 +567,9 @@ facilities:
     refundValue: 40000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    buildTime: 42
+    removalTime: 8
     buildOverFacilities: [ STR_PSIONIC_LABORATORY ]
-
-
-
-    buildTime: 37
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
@@ -597,5 +585,4 @@ facilities:
         refund: 3
     monthlyCost: 67000
     psiLabs: 20
-    mapName: XOPSXBASE20
     listOrder: 154
