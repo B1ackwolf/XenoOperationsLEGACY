@@ -34,13 +34,14 @@ TL;DR VERSION:
  - Base defense = 75X / 20e + 180 supplies
 
 + hoja de ruta para 0.98.1:
- - modificar y balancear tiempos de construccion, precios y requerimientos a todos los edificios. mañana agregar cuchillos nuevos, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2? y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
+ - modificar y balancear tiempos de construccion, precios y requerimientos a todos los edificios. cuchillos nuevos resolverle los handobs, considerar retocar el pomo cuchillo laser, invertir el borde de acero de la espada plasma, y alargar un pixel el cuerpo del cuchillo y los dos puntos grises claros hacia el borde de la hoja , hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2? y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
  
  - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
 
  - siguiente parche tendra el revamp del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
 + PETICIONES A OXCE:
  - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
+   * mostrar cuchillos y considerar una consulta popular al respecto. 
  - pedir una opcion para reordenar bases, sea con flechitas o lo q sea, comentar el hecho q se mueven automaticamente por ejemplo cuando se elimina por completo una base.
    * un ejemplo de mi uso es q yo siempre intento mantener una base principal > base de investigaciones > dos bases fabricadoras > una base de satelite
    * pero si necesitara implementar bases de intercepcion, seria bueno poder mantener el orden de la satelital al final de todas
@@ -48,7 +49,6 @@ TL;DR VERSION:
  - pedir la posibilidad de guardar los loadouts directamente dentro de tus rulesets en lugar de solo dentro del archivo de guardado.
 
 + PRIORITIES FIXES:
- - Ojito q cuando restructure los layers de los cascos, tengo q cambiarle el nombre al casco kevlar, al casco xops y al nerve cap y agregarle el sufijo TAN
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
  - PERRITOS MATAN A CYBERDISC. bug o feature?
  - Review the changes made to alien species and reclassify their STR_ reference names accurately.
@@ -134,14 +134,19 @@ IMPORTANTE PARA LORE:
    * resultando en numero total de cientificos aproximadamente 1/5 parte idealmente
  - ingenieros no, por ahora?
    * triplicar precio de proyectos de generacion de dinero
-   * reducir costo de proyectos un 1/3
+   * reducir costo de horas proyectos un 1/3
    * resultando en numero total de ingenieros, la mitad aproximadamente 
- - agregar nuevos sprites para q sean 71 caras por sexo
-   * VA APENAS UN TERCIO, CONTINUAR EN CASA
+ - agregar nuevos sprites a las armaduras
+   * darle prioridar al formato de los chalecos
+     ~ solamente agrandar y achicar segun los talles LA CAPA PRINCIPAL DEL CHALECO
+     ~ las capas q contienen los bolsillos deben quedar igual, de este modo todos los tamaños poseeran los mismos bolsillos, ajustado al tamaño de los soldados
+       ° evitar entrar en la situacion de firaxis 2012 xcom que las mujeres deben tener cartuchos mas chikitos
+   * importante crear talles distintos de los mamelucos
+     ~ recordar recortar y ajustar ligeramente mas al cuerpo el traje basico a la sprite medium
+     ~ luego ir agrandando para los distintos talles
+       ° usar esos tamaños de plantillas para el resto de las versiones de colores
    * separar mascaras de cascos en versiones oscuras black ops.
    * raparle pelo a "heads" nuevas para que calse con los cascos
-   * primero copiar una linea de codigo y luego agregar el formato de dividir texto en columna, ir reemplazando segun sea necesario letras y demas
-   * hacerlo usando la siguiente formula en excel [=B2&C2&D2&" "&E2&" "&F2&" "&G2&" "&H2&" "&I2&" "&J2&" "&K2&" "&L2&" "&M2&" "&N2&" "&O2&P2&Q2&R2]
    * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
      ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
  - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
@@ -466,6 +471,8 @@ IMPORTANTE PARA LORE:
 #####
 
 + Major Changes:
+ - make base facilities needs ammunition to fire defenses and stuff
+   * search "ammoneeded"
  - include xcom npcs in base defenses  
  - Implement daytime and nighttime camouflage stat to armors and enemies.
    * Balance total vision and ranges.

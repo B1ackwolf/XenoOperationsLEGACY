@@ -262,7 +262,10 @@ extraSprites:
       316: Resources/WeaponrySprites/8thMelee/BigOb/1HumanBrassKnuckles.gif
       315: Resources/WeaponrySprites/8thMelee/BigOb/2HumanKnife.gif
       430: Resources/WeaponrySprites/8thMelee/BigOb/3HumanAlloyKnife.gif
+      432: Resources/WeaponrySprites/8thMelee/BigOb/4HumanAlloySword.png
+      324: Resources/WeaponrySprites/8ThMelee/BigOb/5HumanLaserKnife.png
       325: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword.gif
+      326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife.png
       431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword.gif
       372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade.gif
       369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade.gif
@@ -616,7 +619,10 @@ extraSprites:
       316: Resources/WeaponrySprites/8thMelee/FloorOb/1HumanBrassKnuckles_floor.gif
       315: Resources/WeaponrySprites/8thMelee/FloorOb/2HumanKnife_floor.gif
       430: Resources/WeaponrySprites/8ThMelee/FloorOb/3HumanAlloyKnife_floor.gif
+      432: Resources/WeaponrySprites/8ThMelee/FloorOb/4HumanAlloySword_floor.png
+      324: Resources/WeaponrySprites/8ThMelee/FloorOb/5HumanLaserKnife_floor.png
       325: Resources/WeaponrySprites/8thMelee/FloorOb/6HumanLaserSword_floor.gif
+      326: Resources/WeaponrySprites/8ThMelee/FloorOb/7HumanPlasmaKnife_floor.png
       431: Resources/WeaponrySprites/8thMelee/FloorOb/8HumanPlasmaSword_floor.png
       372: Resources/WeaponrySprites/8thMelee/FloorOb/15AlienAlloyBlade_floor.gif
       369: Resources/WeaponrySprites/8thMelee/FloorOb/16AlienPlasmaBlade_floor.gif
@@ -793,7 +799,10 @@ extraSprites:
       470: Resources/WeaponrySprites/8thMelee/HandOb/1HumanBrassKnuckles_hand.png
       460: Resources/WeaponrySprites/8thMelee/HandOb/2HumanKnife_hand.png
       1060: Resources/WeaponrySprites/8thMelee/HandOb/3HumanAlloyKnife_hand.png
+      2060: Resources/WeaponrySprites/8thMelee/HandOb/4HumanAlloySword_hand.png
+      1432: Resources/WeaponrySprites/8ThMelee/HandOb/5HumanLaserKnife_hand.png
       520: Resources/WeaponrySprites/8thMelee/HandOb/6HumanLaserSword_hand.png
+      2815: Resources/WeaponrySprites/8ThMelee/HandOb/7HumanPlasmaKnife_hand.png
       1070: Resources/WeaponrySprites/8thMelee/HandOb/8HumanPlasmaSword_hand.png
       930: Resources/WeaponrySprites/8thMelee/HandOb/15AlienAlloyBlade_hand.png
       800: Resources/WeaponrySprites/8thMelee/HandOb/16AlienPlasmaBlade_hand.gif

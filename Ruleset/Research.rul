@@ -1069,12 +1069,12 @@ research:
       - STR_ELERIUM_EXPLOSIVES
       - STR_AW_DEMOLITION_EXPLOSIVE
       - STR_CODEX_3
-  - name: STR_ME_ALLOY_KNIFE
+  - name: STR_ME_ALLOY_KNIFE #ojito mejorar totalmente
     cost: 40
     points: 10
     dependencies:
       - STR_AW_ALLOY_BLADE
-  - name: STR_ME_PLASMA_SWORD
+  - name: STR_ME_PLASMA_SWORD #ojito mejorar
     cost: 40
     points: 10
     dependencies:

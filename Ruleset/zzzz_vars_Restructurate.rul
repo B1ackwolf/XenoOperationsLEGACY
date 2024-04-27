@@ -63,6 +63,7 @@ fixedUserOptions:
   #battleRealisticDisplayRolls: true
   battleRealisticImprovedSnap: true
   battleRealisticShotDispersion: 0
+  oxcePediaShowClipSize: true
 #AI
   brutalAI: true
   brutalCivilians: true

@@ -1566,6 +1566,13 @@ ufopaedia:
       - STR_ELERIUM_LASER_BATTERY
 #####ojito ordenar esto
 #####ojito pasar a grupo melee
+  - id: STR_ME_LASER_KNIFE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ME_LASER_KNIFE_UFOPEDIA
+    listOrder: 2805
+    requires:
+      - STR_LIGHT_LASER_WEAPONS
   - id: STR_ME_LASER_SWORD
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1939,21 +1946,36 @@ ufopaedia:
     listOrder: 2708
     requires:
       - STR_SH_GRENADE
-#######OJITO ordenar despues de esto
+#######OJITO ordenar y poner bien los proyectos despues de esto
   - id: STR_ME_ALLOY_KNIFE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ME_ALLOY_KNIFE
     text: STR_ME_ALLOY_KNIFE_UFOPEDIA
+  - id: STR_ME_ALLOY_SWORD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_ME_ALLOY_KNIFE
+    text: STR_ME_ALLOY_SWORD_UFOPEDIA
     listOrder: 3840
+  - id: STR_ME_PLASMA_KNIFE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_ME_PLASMA_SWORD
+    text: STR_ME_PLASMA_KNIFE_UFOPEDIA
+    listOrder: 3841
   - id: STR_ME_PLASMA_SWORD
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ME_PLASMA_SWORD
     text: STR_ME_PLASMA_SWORD_UFOPEDIA
-    listOrder: 3841
+    listOrder: 3842
+###### ojito prioridar armas melee
+
   - id: STR_ELERIUM_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

@@ -1057,9 +1057,9 @@
       # STR_XCF4_FUEL: XCF-4 Aegis Fuel ###ojito
       STR_ELERIUM_CELL: Elerium Cell
 #-----Facilities
-      STR_SMALL_RADAR_SYSTEM: Regional Radar System.
+      STR_SMALL_RADAR_SYSTEM: Regional Radar System
       STR_SMALL_RADAR_SYSTEM_UFOPEDIA: This advanced detection system has a range of 1700 nautical miles (3150 KM), operating on a 30-minute cycle and holding a 10% chance of detecting a UFO. The unique challenge posed by the evasive nature of UFOs necessitates constant fine-tuning, requiring a specialized frequency meticulously modulated to detect objects with a materials profile similar to those found in previous UFO reports and encounters.{NEWLINE}{NEWLINE}Seamlessly integrated with local satellite systems, this facility monitors UFO activities in real-time, generating substantial data traffic. #Strategic considerations for the secrecy of our base locations mandate a singular deployment of each system per base, so exceeding this limit would render additional units redundant.
-      STR_LARGE_RADAR_SYSTEM: Continental Radar System.
+      STR_LARGE_RADAR_SYSTEM: Continental Radar System
       STR_LARGE_RADAR_SYSTEM_UFOPEDIA: Special measures were taken to increase the range of the standard installation . Now, the system boasts an impressive effective range of 2600 nautical miles (4815 KM), operating on a 30-minute cycle and holding a 20% chance of detecting a UFO. The unique challenge posed by the evasive nature of UFOs necessitates constant fine-tuning, requiring a specialized frequency meticulously modulated to detect objects with a materials profile similar to those found in previous UFO reports and encounters. #{NEWLINE}{NEWLINE}Seamlessly integrated with an even larger array of satellite systems, this facility monitors UFO activities in real-time, generating substantial data traffic. Strategic considerations for the secrecy of our base locations mandate a singular deployment of each system per base, so exceeding this limit would render additional units redundant.
       STR_HYPER_WAVE_DECODER: Hyper-wave Decoder
       STR_HYPER_WAVE_DECODER_UFOPEDIA: Alien communications rely on a supre-dimensional wave which travels instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity. it has a range of 2800 nautical miles (5185 KM) and has 100% detection chance.
@@ -1532,7 +1532,6 @@
       STR_LA_HEAVY_CANNON_BATTERY1: Giga-Battery
       STR_LA_HEAVY_CANNON_BATTERY2: Overloaded Giga-Battery
       STR_LA_HEAVY_CANNON_BATTERY3: Elerium Giga-Battery
-      STR_ME_LASER_SWORD: Laser Sword #ojito
 #-----Human Hypervelocity Weapons
       STR_RL_MAIN_PISTOL: Rail Pistol
       STR_RL_SMG: Rail Assaulter
@@ -1599,8 +1598,12 @@
       STR_PM_HEAVY_CANNON_CLIP2: Overcharged Large Cell
       STR_PM_HEAVY_CANNON_CLIP3: Large Antimatter Cell
 #----- Ojito re ordenar todo esto
-      STR_ME_PLASMA_SWORD: Plasma Sword
       STR_ME_ALLOY_KNIFE: Alloy Knife
+      STR_ME_ALLOY_SWORD: Alloy Sword
+      STR_ME_LASER_KNIFE: Laser Knife #ojito
+      STR_ME_LASER_SWORD: Laser Sword #ojito
+      STR_ME_PLASMA_KNIFE: Plasma Knife #ojito
+      STR_ME_PLASMA_SWORD: Plasma Sword
       STR_BO_ANTIMATTER_EXPLOSIVE: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
       STR_BO_ELERIUM_MINE: Elerium Mine
@@ -1850,6 +1853,8 @@
       STR_LA_SMG_UFOPEDIA: The Assault Laser is a more offensive focused redesign of the Laser Pistol. Its high rate of fire is useful for close quarters assault.
       STR_LA_SHOTGUN_UFOPEDIA: The Bloom Laser splits the laser beam into numerous smaller beams creating a spread effect not unlike a shotgun.
       STR_LA_LMG_UFOPEDIA: The Pulse Laser as its name implies pulses a high focused laser emitter. This gives the Pulse Laser a very high rate of fire.
+      STR_ME_LASER_KNIFE_UFOPEDIA: (WIP) The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
+
       STR_ME_LASER_SWORD_UFOPEDIA: The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
       STR_CHARGED_CELLS_UFOPEDIA: New advancements in battery technology has allowed our engineers to design and build Charged Cell batteries for our laser weapons. These cells greatly increase the damage output of our laser weapons, but drain more quickly than normal laser batteries.
       STR_ELERIUM_LASER_BATTERY_UFOPEDIA: By adapting a micro Elerium battery into our laser weapons it can greatly boost both their power and battery life.
@@ -1874,7 +1879,10 @@
       STR_EX_IMPROVED_MEDI_KIT_UFOPEDIA: This Field Surgery Kit allows to administer life saving care in combat conditions. Bulkier and expensive compared con other versions, its more space efficient. Has access to painkillers pills and adrenaline doses, also recovers extra life points per use.{NEWLINE} In order to use it you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the First Aid Kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.
       STR_BO_STICK_GRENADE_UFOPEDIA: The Force Grenade uses a double layered chemical solution that greatly increases the explosive force. It is far superior to a conventional grenade though it lags behind in explosive force compared to the alien version.
       STR_ME_PLASMA_SWORD_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
+      STR_ME_PLASMA_KNIFE_UFOPEDIA: This plasma sword uses a containment field to focus a deadly stream of plasma into a blade. This weapon is ideal for close combat being able to cut through most materials with ease. The Wielder's skill determines accuracy. Strength is not applied to this weapon.
+
       STR_ME_ALLOY_KNIFE_UFOPEDIA: This knife is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
+      STR_ME_ALLOY_SWORD_UFOPEDIA: (WIP) This sword is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
       STR_BO_ANTIMATTER_EXPLOSIVE_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
       STR_BO_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.

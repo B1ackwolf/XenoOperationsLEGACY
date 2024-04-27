@@ -4915,7 +4915,7 @@ items:
     damageType: 7
     clipSize: -1
     tuMelee: 15
-    accuracyMelee: 90
+    accuracyMelee: 80
     battleType: 3
     invWidth: 2
     invHeight: 1
@@ -4934,7 +4934,7 @@ items:
     power: 40
     strengthApplied: true #ojito change to damageBonus
     damageType: 7
-    accuracyMelee: 80
+    accuracyMelee: 90
     tuMelee: 12
     battleType: 3
     clipSize: -1
@@ -4948,6 +4948,54 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 2803
+  - type: STR_ME_ALLOY_SWORD
+    size: 0.1
+    costSell: 12000
+    weight: 5
+    bigSprite: 432
+    floorSprite: 430
+    handSprite: 2060
+    power: 65
+    strengthApplied: true #ojito change to damageBonus
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 16
+    battleType: 3
+    clipSize: -1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 65
+    meleeSound: 87
+    meleeHitSound: 88
+    meleeAnimation: 4
+    skillApplied: true
+    attraction: 10
+    listOrder: 2804
+  - type: STR_ME_LASER_KNIFE
+    size: 0.1
+    costSell: 5000
+    weight: 2
+    bigSprite: 324
+    floorSprite: 324
+    handSprite: 1432
+    power: 60
+    strengthApplied: false #ojito change to damageBonus
+    damageType: 4
+    accuracyMelee: 80
+    tuMelee: 12
+    battleType: 3
+    clipSize: -1
+    twoHanded: false
+    invWidth: 2
+    invHeight: 1
+    armor: 65
+    meleeSound: 87
+    meleeHitSound: 88
+    meleeAnimation: 40
+    skillApplied: true
+    attraction: 10
+    listOrder: 2805
   - type: STR_ME_LASER_SWORD
     size: 0.1
     costSell: 37500
@@ -4958,6 +5006,7 @@ items:
     power: 80
     damageType: 4
     clipSize: -1
+    twoHanded: true
     tuMelee: 15
     accuracyMelee: 90
     battleType: 3
@@ -4968,6 +5017,30 @@ items:
     meleeAnimation: 40
     skillApplied: true
     listOrder: 2806
+  - type: STR_ME_PLASMA_KNIFE
+    size: 0.1
+    costSell: 5000
+    weight: 2
+    bigSprite: 326
+    floorSprite: 326
+    handSprite: 2815
+    power: 95
+    strengthApplied: false #ojito change to damageBonus
+    damageType: 5
+    accuracyMelee: 80
+    tuMelee: 12
+    battleType: 3
+    clipSize: -1
+    twoHanded: false
+    invWidth: 2
+    invHeight: 1
+    armor: 65
+    meleeSound: 94
+    meleeHitSound: 95
+    meleeAnimation: 88
+    skillApplied: true
+    attraction: 10
+    listOrder: 2807
   - type: STR_ME_PLASMA_SWORD
     size: 0.2
     costSell: 20000
@@ -4975,7 +5048,7 @@ items:
     bigSprite: 431
     floorSprite: 431
     handSprite: 1070
-    power: 140
+    power: 130
     strengthApplied: false #ojito change to damageBonus
     damageType: 5
     clipSize: -1

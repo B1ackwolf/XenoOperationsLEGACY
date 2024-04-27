@@ -1751,18 +1751,7 @@ manufacture:
       STR_LA_HEAVY_CANNON_BATTERY3: 10
     listOrder: 2425
 #### ojito, ordenar luego en caTEGORIA propia de melee
-  - name: STR_ME_LASER_SWORD
-    category: STR_LASER_WEAPONS
-    requires:
-      - STR_LIGHT_LASER_WEAPONS
-    space: 1
-    time: 48
-    cost: 30000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 5
-      STR_CODEX_FRAGMENT: 5
-      STR_ELERIUM_115: 1
-    listOrder: 2426
+
 #--- Laser Weapons ----------------------------------
 #--- Fith Tier Hypervelocity Weapons ----------------------------------
   - name: STR_RL_MAIN_PISTOL
@@ -2586,6 +2575,52 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     listOrder: 1465
+  - name: STR_ME_ALLOY_SWORD
+    category: STR_PLASMA_WEAPONS
+    requires:
+      - STR_ME_ALLOY_KNIFE
+    space: 1
+    time: 20
+    cost: 8000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 1465
+  - name: STR_ME_LASER_KNIFE
+    category: STR_LASER_WEAPONS
+    requires:
+      - STR_LIGHT_LASER_WEAPONS
+    space: 1
+    time: 48
+    cost: 30000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_CODEX_FRAGMENT: 5
+      STR_ELERIUM_115: 1
+    listOrder: 2426
+  - name: STR_ME_LASER_SWORD
+    category: STR_LASER_WEAPONS
+    requires:
+      - STR_LIGHT_LASER_WEAPONS
+    space: 1
+    time: 48
+    cost: 30000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_CODEX_FRAGMENT: 5
+      STR_ELERIUM_115: 1
+    listOrder: 2427
+  - name: STR_ME_PLASMA_KNIFE
+    category: STR_PLASMA_WEAPONS
+    requires:
+      - STR_LIGHT_PLASMA_WEAPONS
+    space: 1
+    time: 100
+    cost: 25000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_CODEX_FRAGMENT: 15
+      STR_ELERIUM_115: 5
+    listOrder: 1466
   - name: STR_ME_PLASMA_SWORD
     category: STR_PLASMA_WEAPONS
     requires:
