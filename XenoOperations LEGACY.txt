@@ -110,7 +110,7 @@ gameplay changes:
    * nuevo edificio agregado: empty room
      ~ un edificio vacio que sirve como plantilla para los demas edificios
 	 ~ se pueden construir practicamente todos los demas tipos de edificios encima
-   * las desconstrucciones ya no son inmediatas	, en cambio ahora tienen un costo economico y requiere tiempo
+   * las desconstrucciones ya no son inmediatas	, en cambio ahora tienen una devolucion del coste economico pero este proceso requiere requiere tiempo
      ~ en su lugar aparece un empty room
    * construir edificaciones encima de otras hace que el tiempo que se gasto en construirla se reste del edificio final (solo el tiempo, el coste economico se mantiene)
      ~ especialmente util para upgradear tus bases sin necesidad de desperdiciar tiempo adicional construyendo en otros espacios o teniendo q perder el layout defensivo si esto habia sido tomado en cuenta
@@ -128,15 +128,12 @@ gameplay changes:
    * la version upgradeada requiere una investigacion adicional.
    * custom made resources, including new battlescape maps, base sprites
        ° as an extra note, these desings will be added into my base uplift standalone mod, so any other medical buildings added from mods like FMP will be compatible.	 
-
+ - el coste total de la construccion, mantenimiento, materiales necesarios y demas fueron totalmente balanceados principalmente aumentado ( otras fuentes de ingresos fueron aumentadas para balancear, aunque cabe destacar que xcom siempre tuvo acceso a diferentes fuentes dinero, asi q el dinero nunca fue realmente un problema, se intenta balancear para estabilizar mejor la curva de cuando este deja de ser una preocupacion)
 
 QOL CHANGES:
  - reordenado totalmente como aparecen los edificios en la lista de una manera mas logica y coherente.
 
- - tambien modificado distintos valores, precios y requisitos necesarios para construir las facilities.
- - (TERMINAR DE IMPLEMENTAR) agregado la posibilidad de construir edificios directamente por encima de otros.
- - (TERMINAR DE AGREGAR) ahora los edificios necesitan tiempo para ser desensamblados, ya no desaparecen instantaneamente por arte de magia 
-   * (TERMINAR DE AGREGAR) en estos casos aparece temporalmente un EMPTY ROOM, mientras termina la desconstruccion.
+
 
  - cambiado nombre de apex launcher a devastator launcher
  - cambiado los nombres de referencia de los medikits
@@ -148,6 +145,10 @@ QOL CHANGES:
    * ahora la carbine plasma es mas un bullpup, modificado la sprite para reflejar esto
 
 TWEAKS AND BALANCE:
+ - increased starting funding money (from 6M to 8M )
+ - modificado totalmente los funding levels de todos los paises, luego se explicara en el lore, no se basa implicitamente en el poder economico de cada pais, sino estuvo mas bien derivado de la "cantidad de fe en el proyecto"
+   * por eso paises como china tienen un nivel tan bajo, mientras q paises como argentina en busqueda de ser mas competitivos y arriesgarse con tal de obtener mejor posicion geopolitica, puede empezar con "tanto" a pesar del estado de su economia
+   * si bien algunos recibieron aumentos y otros reducciones, todos aumentaron totalmente el TOPE TOTAL, dejando al menos un powerhouse entre cada macrocontinente (uno en asia, uno en europa y uno en america) 
  - aumentado la cantidad de meses necesarios para recibir medalla de longevidad, ahora es cada seis meses
  - modificado todos los tiempos, costos y requisitos necesarios para las 
  - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.
