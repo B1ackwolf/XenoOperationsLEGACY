@@ -334,6 +334,7 @@ extraSprites:
       997: Resources/WeaponrySprites/11thMisc/Medicals/BigOb/FirstAidkit.png
       998: Resources/WeaponrySprites/11thMisc/Medicals/BigOb/BasicMedikit.png
       999: Resources/WeaponrySprites/11thMisc/Medicals/BigOb/ImprovedMedikit.gif
+      29: Resources/WeaponrySprites/11thMisc/Others/BigOb/Mindprobe.png
       671: Resources/WeaponrySprites/11thMisc/Others/BigOb/PsiAmpLarge.gif
       672: Resources/WeaponrySprites/11thMisc/Others/BigOb/PsiAmpSmall.gif
       673: Resources/WeaponrySprites/11thMisc/Others/BigOb/HumanEleriumLamp.gif
@@ -687,7 +688,7 @@ extraSprites:
       952: Resources/WeaponrySprites/11thMisc/AlienStuff/FloorOb/KeyOracle_floor.gif
       953: Resources/WeaponrySprites/11thMisc/AlienStuff/FloorOb/KeyCodexBig_floor.gif
       37: Resources/WeaponrySprites/11thMisc/Others/FloorOb/Elerium_floor.png #ojito este es el nuevo
-     # 37: Resources/WeaponrySprites/11thMisc/Others/FloorOb/eZrbite_floor.png #ojito este es el nuevo
+#      28: Resources/WeaponrySprites/11thMisc/Others/FloorOb/MindProbe_floor.png #ojito este es el nuevo
       671: Resources/WeaponrySprites/11thMisc/Others/FloorOb/PsiAmpLarge_floor.gif
       672: Resources/WeaponrySprites/11thMisc/Others/FloorOb/PsiAmpSmall_floor.gif
       673: Resources/WeaponrySprites/11thMisc/Others/FloorOb/HumanEleriumLamp_floor.gif
@@ -835,10 +836,10 @@ extraSprites:
 #----- Tier 10b Alien Ordnance ends here -----#
 #----- Tier 11 Miscellaneous -----#
     #  664: Resources/WeaponrySprites/11thMisc/HandOb/Elerium.png #ojito, asignar luego
-      248: Resources/WeaponrySprites/11thMisc/AlienStuff/HandOb/MindProbe_hand.png
       2980: Resources/WeaponrySprites/11thMisc/Medicals/HandOb/BasicMedikit_hand.png
       2990: Resources/WeaponrySprites/11thMisc/Medicals/HandOb/ImprovedMedikit_hand.png
       208: Resources/WeaponrySprites/11thMisc/Medicals/HandOb/AdvancedMediKit_hand.png
+      248: Resources/WeaponrySprites/11thMisc/Others/HandOb/MindProbe_hand.png
       240: Resources/WeaponrySprites/11thMisc/Others/HandOb/ElectroFlare_hand.png
       1224: Resources/WeaponrySprites/11thMisc/Others/HandOb/MoveScanner_hand.png
       2240: Resources/WeaponrySprites/11thMisc/Others/HandOb/PsiAmpSmall_hand.gif

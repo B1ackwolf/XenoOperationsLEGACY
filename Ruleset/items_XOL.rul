@@ -616,7 +616,6 @@ items:
     requires:
       - STR_TAC_INF_TECH
     size: 0.5
-    costBuy: 0
     costSell: 4000
     listOrder: 10490
   - type: STR_DOGE_DURATHREAD_VEST
@@ -6375,42 +6374,34 @@ items:
 # Initial Tier #
   - type: STR_FLIGHT_JUMPSUIT
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2000
   - type: STR_KEVLAR_VEST_ARMOR_TAN
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2001
   - type: STR_KEVLAR_VEST_ARMOR_BLACK
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2002
   - type: STR_KEVLAR_VEST_ARMOR_GRAY
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2003
   - type: STR_KEVLAR_VEST_ARMOR_WHITE
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2004
   - type: STR_KEVLAR_VEST_ARMOR_GREEN
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2005
   - type: STR_KEVLAR_VEST_ARMOR_BERET
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2006
   - type: STR_VEST_HEC_ARMOR
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2008
 # Corpses
@@ -6487,32 +6478,26 @@ items:
 # First Tier #
   - type: STR_XOPS_ARMOR_PILOT
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2010
   - type: STR_XOPS_ARMOR_TAN
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2011
   - type: STR_XOPS_ARMOR_BLACK
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2012
   - type: STR_XOPS_ARMOR_GRAY
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2013
   - type: STR_XOPS_ARMOR_WHITE
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2014
   - type: STR_XOPS_ARMOR_GREEN
     size: 0.5
-    costBuy: 0
     costSell: 18000
     listOrder: 2015
 # Corpses
@@ -6665,32 +6650,26 @@ items:
 # Third Tier #
   - type: STR_ALLOY_ARMOR_PILOT
     size: 0.7
-    costBuy: 0
     costSell: 60000
     listOrder: 2030
   - type: STR_ALLOY_ARMOR_TAN
     size: 0.7
-    costBuy: 0
     costSell: 60000
     listOrder: 2031
   - type: STR_ALLOY_ARMOR_BLACK
     size: 0.7
-    costBuy: 0
     costSell: 60000
     listOrder: 2032
   - type: STR_ALLOY_ARMOR_GRAY
     size: 0.7
-    costBuy: 0
     costSell: 54000
     listOrder: 2033
   - type: STR_ALLOY_ARMOR_WHITE
     size: 0.7
-    costBuy: 0
     costSell: 60000
     listOrder: 2034
   - type: STR_ALLOY_ARMOR_GREEN
     size: 0.7
-    costBuy: 0
     costSell: 60000
     listOrder: 2035
 # Corpses
@@ -6757,32 +6736,26 @@ items:
 # Fourth Tier #
   - type: STR_SKY_STRIKE_ARMOR_PILOT
     size: 0.6
-    costBuy: 0
     costSell: 57000
     listOrder: 2040
   - type: STR_SKY_STRIKE_ARMOR_TAN
     size: 0.6
-    costBuy: 0
     costSell: 57000
     listOrder: 2041
   - type: STR_SKY_STRIKE_ARMOR_BLACK
     size: 0.6
-    costBuy: 0
     costSell: 57000
     listOrder: 2042
   - type: STR_SKY_STRIKE_ARMOR_GRAY
     size: 0.6
-    costBuy: 0
     costSell: 57000
     listOrder: 2043
   - type: STR_SKY_STRIKE_ARMOR_WHITE
     size: 0.6
-    costBuy: 0
     costSell: 57000
     listOrder: 2044
   - type: STR_SKY_STRIKE_ARMOR_CLOUD
     size: 0.6
-    costBuy: 0
     costSell: 57000
     listOrder: 2045
 # Corpses
@@ -6849,32 +6822,26 @@ items:
 # Fifth Tier #
   - type: STR_XOPS_POWER_ARMOR_PILOT
     size: 1
-    costBuy: 0
     costSell: 180000
     listOrder: 2050
   - type: STR_XOPS_POWER_ARMOR
     size: 1
-    costBuy: 0
     costSell: 180000
     listOrder: 2051
   - type: STR_XOPS_POWER_ARMOR_BLACK
     size: 1
-    costBuy: 0
     costSell: 180000
     listOrder: 2052
   - type: STR_XOPS_POWER_ARMOR_GRAY
     size: 1
-    costBuy: 0
     costSell: 180000
     listOrder: 2053
   - type: STR_XOPS_POWER_ARMOR_WHITE
     size: 1
-    costBuy: 0
     costSell: 180000
     listOrder: 2054
   - type: STR_XOPS_POWER_ARMOR_GREEN
     size: 1
-    costBuy: 0
     costSell: 180000
     listOrder: 2055
 # Corpses
@@ -6941,32 +6908,26 @@ items:
 # Sixth Tier #
   - type: STR_PSI_ARMOR_PILOT
     size: 0.5
-    costBuy: 0
     costSell: 90000
     listOrder: 2060
   - type: STR_PSI_ARMOR
     size: 0.5
-    costBuy: 0
     costSell: 90000
     listOrder: 2061
   - type: STR_PSI_ARMOR_BLACK
     size: 0.5
-    costBuy: 0
     costSell: 90000
     listOrder: 2062
   - type: STR_PSI_ARMOR_GRAY
     size: 0.5
-    costBuy: 0
     costSell: 90000
     listOrder: 2063
   - type: STR_PSI_ARMOR_WHITE
     size: 0.5
-    costBuy: 0
     costSell: 90000
     listOrder: 2064
   - type: STR_PSI_ARMOR_GREEN
     size: 0.5
-    costBuy: 0
     costSell: 90000
     listOrder: 2065
 # Corpses

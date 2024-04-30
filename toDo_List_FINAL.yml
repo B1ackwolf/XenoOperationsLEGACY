@@ -1,20 +1,12 @@
 #ideas for the mod, in any specific order:
 
 TL;DR VERSION:
- - confirmar y cambiar tanto nombres como referencias a los distintos mutons
-   * modificar tambien nombre de los rangos
- 
- - verdes  > brutes  >
-                      members of the hunters caste
- - morados > warrior >
 
- - negros  > prime
-                      members of the champion caste
- - azules  > Apex
-
- - rojos   > warchief
-                      members of the elder caste
- - dorados > warlord
+ - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
+ - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
+ - nombres nuevos a considerar para otras especies
+  * psion, archon, elder, apex, hunter, stalker, broodmother, drone(insect)
+  * Brute,,Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
 
 + cantidad de xelloys / elerium aprox, tener en cuenta para balancear:
  - survey skiff = 6x / 10e
@@ -34,15 +26,16 @@ TL;DR VERSION:
  - Base defense = 75X / 20e + 180 supplies
 
 + hoja de ruta para 0.98.1:
- - reducir el precio de todas las cosas iniciales YA
- - modificar y balancear precios y requerimientos a todos los edificios. cuchillos nuevos resolverle los handobs, considerar retocar el pomo cuchillo laser, invertir el borde de acero de la espada plasma, y alargar un pixel el cuerpo del cuchillo y los dos puntos grises claros hacia el borde de la hoja del cuchillo plasma , hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2? y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
+ - reducir el precio de todas las cosas iniciales YA reducir entre 100 y ajustar a precios relativos coherentes revisar costbuy y agregar los q hagan faltan
+ - balancear requerimientos de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
  
  - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
 
  - siguiente parche tendra el revamp del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
 + PETICIONES A OXCE:
  - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
-   * mostrar cuchillos y considerar una consulta popular al respecto. 
+ - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
+  * reducir sueldos a soldados, ir incrementandolo en base al rango
  - pedir una opcion para reordenar bases, sea con flechitas o lo q sea, comentar el hecho q se mueven automaticamente por ejemplo cuando se elimina por completo una base.
    * un ejemplo de mi uso es q yo siempre intento mantener una base principal > base de investigaciones > dos bases fabricadoras > una base de satelite
    * pero si necesitara implementar bases de intercepcion, seria bueno poder mantener el orden de la satelital al final de todas
@@ -50,10 +43,14 @@ TL;DR VERSION:
  - pedir la posibilidad de guardar los loadouts directamente dentro de tus rulesets en lugar de solo dentro del archivo de guardado.
 
 + PRIORITIES FIXES:
+ - cambiar colores de las battlescape sprites de pilotos a rojo, la power armor cambiarle ojos de rojo a amarillo en ese modelo, cambiar colores de paperdolls de cascos tambien.
+ - rehacer todas las armaduras de vuelta de tier 1 , rehacer como habia planteado las armaduras femeninas para q los bolsillos sean iguales en tamaño, se cambia solo el coso del chaleco principal. recordatorio, cuando achico armadura femenina se hace al 96% en sprite resize
+   * ya casi, solo falta en gris claro q se usa para la armadura negra y en blanco para la armadura artifacts
+   * luego quedaria por hacer las versiones por distintos tamaños para cada genero
+   * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
  - PERRITOS MATAN A CYBERDISC. bug o feature?
  - Review the changes made to alien species and reclassify their STR_ reference names accurately.
-   * Pay special attention to Muton Commanders and Muton Warlords.
    * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
      ~ Should be a new project that need an X ammount of bodies for testing and exploring any weaknesses.
    * Every race should consist of these projects
@@ -612,4 +609,3 @@ Warlord:    the only and true leader of the seb-folk ,one only the most though,s
 
 #####
 
-extra posible names: Brute,,Myrmidon(???),Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)

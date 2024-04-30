@@ -4,13 +4,7 @@
 
 # cambios q faltan:
 
-
-#refundValue
-#monthlycost
-
-
 #buildcostitems, revisar todos y definir que se necesita como articulos q tengan sentido
-
 #revisar requerimientos investigativos de las distintas defensas
 #revisar si el corridor tiene cositos en los otros mods para saber como activarselo
 #igualmente algun cuadrado, asi se lo pongo a la base de seguridad
@@ -22,9 +16,8 @@ facilities:
     spriteShape: 1
     spriteFacility: 1
     buildCost: 50000
-    monthlyCost: 2000
+    monthlyCost: 2500
     buildTime: 4
-    removalTime: 2
     refundValue: 15000
     canBeBuiltOver: true
     listOrder: 101
@@ -34,19 +27,20 @@ facilities:
     spriteShape: 3
     spriteFacility: 3
     buildCost: 90000
-    monthlyCost: 2000
+    monthlyCost: 4500
+    buildOverFacilities: [ STR_SECURITY_STATION ]
+
     buildTime: 7
-    removalTime: 3
     refundValue: 30000
     canBeBuiltOver: true
     listOrder: 102
 #
-  - type: STR_SECURITY_ROOM
+  - type: STR_SECURITY_STATION
     mapName: XOPSXBASE06
     spriteShape: 1
     spriteFacility: 104
     buildCost: 200000
-    monthlyCost: 7000
+    monthlyCost: 10000
     buildTime: 7
     removalTime: 3
     refundValue: 70000
@@ -59,7 +53,7 @@ facilities:
     spriteFacility: 9
     size: 2
     buildCost: 500000
-    monthlyCost: 25000
+    monthlyCost: 50000
     buildTime: 28
     removalTime: 7
     refundValue: 170000
@@ -75,10 +69,8 @@ facilities:
 #----- Residential base Buildings -----#
   - type: STR_LIVING_QUARTERS   #ojito luego cambiar nombre para mantener nomenclatura 
     mapName: XBASE_01
-    spriteShape: 301
-    spriteFacility: 301
     buildCost: 400000
-    monthlyCost: 10000
+    monthlyCost: 30000
     buildTime: 14
     removalTime: 4
     refundValue: 135000
@@ -92,7 +84,7 @@ facilities:
     spriteFacility: 301
     size: 2
     buildCost: 2100000
-    monthlyCost: 70000
+    monthlyCost: 100000
     buildOverFacilities: [ STR_LIVING_QUARTERS, STR_GENERAL_STORES ]
     buildTime: 28
     removalTime: 7
@@ -110,7 +102,7 @@ facilities:
   - type: STR_GENERAL_STORES   #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_07
     buildCost: 200000
-    monthlyCost: 5000
+    monthlyCost: 10000
     buildTime: 7
     removalTime: 3
     refundValue: 70000
@@ -154,10 +146,8 @@ facilities:
 #----- Functional base Buildings -----#
   - type: STR_LABORATORY   #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_02
-    spriteShape: 114
-    spriteFacility: 114
     buildCost: 1200000
-    monthlyCost: 30000
+    monthlyCost: 50000
     buildTime: 28
     removalTime: 7
     refundValue: 400000
@@ -171,7 +161,7 @@ facilities:
     spriteFacility: 114
     size: 2
     buildCost: 5000000
-    monthlyCost: 130000
+    monthlyCost: 150000
     buildCostItems:
       STR_ELERIUM_115:
         build: 15
@@ -204,7 +194,7 @@ facilities:
     spriteShape: 1
     spriteFacility: 25
     buildCost: 600000
-    monthlyCost: 15000
+    monthlyCost: 25000
     buildCostItems:
       STR_ALIEN_HABITAT:
         build: 3
@@ -224,7 +214,7 @@ facilities:
   - type: STR_WORKSHOP   #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_03
     buildCost: 900000
-    monthlyCost: 35000
+    monthlyCost: 45000
     buildTime: 28
     removalTime: 7
     refundValue: 300000
@@ -268,21 +258,21 @@ facilities:
   - type: STR_SMALL_RADAR_SYSTEM   #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_04
     buildCost: 550000
-    monthlyCost: 10000
+    monthlyCost: 25000
     buildTime: 14
     removalTime: 4
-    refundValue: 40000
+    refundValue: 190000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 130
 #
   - type: STR_LARGE_RADAR_SYSTEM   #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_05
     buildCost: 900000
-    monthlyCost: 15000
+    monthlyCost: 45000
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM ]
     buildTime: 21
     removalTime: 5
-    refundValue: 40000
+    refundValue: 300000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 131
 #
@@ -296,7 +286,7 @@ facilities:
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM, STR_LARGE_RADAR_SYSTEM ]
     buildTime: 35
     removalTime: 8
-    refundValue: 40000
+    refundValue: 170000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     requires:
       - STR_GLOBAL_DETECTION_COVERAGE
@@ -308,7 +298,7 @@ facilities:
     mapName: XBASE_15
     spriteShape: 1
     buildCost: 4500000
-    monthlyCost: 35000
+    monthlyCost: 200000
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
@@ -322,7 +312,7 @@ facilities:
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM, STR_LARGE_RADAR_SYSTEM ]
     buildTime: 28
     removalTime: 7
-    refundValue: 40000
+    refundValue: 150000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 133
 #
@@ -332,7 +322,7 @@ facilities:
     spriteFacility: 122
     size: 2
     buildCost: 15000000
-    monthlyCost: 700000
+    monthlyCost: 750000
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
@@ -349,7 +339,7 @@ facilities:
     buildOverFacilities: [ STR_SMALL_RADAR_SYSTEM, STR_LARGE_RADAR_SYSTEM, STR_GLOBAL_RADAR_SYSTEM ]
     buildTime: 56
     removalTime: 14
-    refundValue: 40000
+    refundValue: 5000000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     requires:
       - STR_HYPER_WAVE_GLOBAL_NETWORK
@@ -362,10 +352,10 @@ facilities:
     mapName: XBASE_06
     spriteShape: 1
     buildCost: 350000
-    monthlyCost: 5000
+    monthlyCost: 12000
     buildTime: 14
     removalTime: 4
-    refundValue: 40000
+    refundValue: 120000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 140
 #
@@ -373,7 +363,7 @@ facilities:
     mapName: XBASE_09
     spriteShape: 1
     buildCost: 500000
-    monthlyCost: 10000
+    monthlyCost: 25000
     buildCostItems:
       STR_ELERIUM_115:
         build: 5
@@ -384,7 +374,7 @@ facilities:
     buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_PLASMA_DEFENSES, STR_FUSION_BALL_DEFENSES ]
     buildTime: 21
     removalTime: 5
-    refundValue: 40000
+    refundValue: 170000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 141
 #
@@ -392,7 +382,7 @@ facilities:
     mapName: XBASE_10
     spriteShape: 1
     buildCost: 900000
-    monthlyCost: 12000
+    monthlyCost: 35000
     buildCostItems:
       STR_ELERIUM_115:
         build: 10
@@ -406,7 +396,7 @@ facilities:
     buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_LASER_DEFENSES, STR_FUSION_BALL_DEFENSES ]
     buildTime: 28
     removalTime: 7
-    refundValue: 40000
+    refundValue: 300000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 142
 #
@@ -414,7 +404,7 @@ facilities:
     mapName: XBASE_11
     spriteShape: 1
     buildCost: 1200000
-    monthlyCost: 14000
+    monthlyCost: 60000
     buildCostItems:
       STR_ELERIUM_115:
         build: 10
@@ -431,7 +421,7 @@ facilities:
     buildOverFacilities: [ STR_MISSILE_DEFENSES, STR_LASER_DEFENSES, STR_PLASMA_DEFENSES ]
     buildTime: 28
     removalTime: 7
-    refundValue: 40000
+    refundValue: 400000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 143
 #
@@ -439,7 +429,7 @@ facilities:
     mapName: XBASE_12
     spriteShape: 1
     buildCost: 1800000
-    monthlyCost: 15000
+    monthlyCost: 90000
     buildCostItems:
       STR_ELERIUM_115:
         build: 10
@@ -452,7 +442,7 @@ facilities:
         refund: 0
     buildTime: 35
     removalTime: 8
-    refundValue: 40000
+    refundValue: 600000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 144
 #
@@ -460,7 +450,7 @@ facilities:
     mapName: XBASE_13
     spriteShape: 1
     buildCost: 2000000
-    monthlyCost: 5000
+    monthlyCost: 100000
     buildCostItems:
       STR_ELERIUM_115:
         build: 10
@@ -473,7 +463,7 @@ facilities:
         refund: 0
     buildTime: 35
     removalTime: 8
-    refundValue: 40000
+    refundValue: 700000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     listOrder: 145
 #----- Services and extra base Buildings -----#
@@ -482,10 +472,10 @@ facilities:
     spriteShape: 1
     spriteFacility: 700
     buildCost: 250000
-    monthlyCost: 35000
+    monthlyCost: 12000
     buildTime: 21
     removalTime: 5
-    refundValue: 40000
+    refundValue: 90000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     trainingRooms: 10
     listOrder: 150
@@ -495,11 +485,11 @@ facilities:
     spriteShape: 1
     spriteFacility: 868
     buildCost: 350000
-    monthlyCost: 50000
+    monthlyCost: 15000
     buildOverFacilities: [ STR_ADVANCED_SICK_BAY ]
     buildTime: 21
     removalTime: 5
-    refundValue: 40000
+    refundValue: 120000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     maxAllowedPerBase: 1
     sickBayAbsoluteBonus: 0.25
@@ -511,7 +501,7 @@ facilities:
     spriteShape: 1
     spriteFacility: 346
     buildCost: 700000
-    monthlyCost: 45000
+    monthlyCost: 30000
     buildCostItems:
       STR_ALIEN_REPRODUCTION:
         build: 4
@@ -531,7 +521,7 @@ facilities:
     buildOverFacilities: [ STR_SICK_BAY ]
     buildTime: 28
     removalTime: 7
-    refundValue: 40000
+    refundValue: 240000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     requires:
       - STR_ADVANCED_SICK_BAY
@@ -545,7 +535,7 @@ facilities:
   - type: STR_PSIONIC_LABORATORY   #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_14
     buildCost: 1500000
-    monthlyCost: 16000
+    monthlyCost: 70000
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
@@ -557,9 +547,15 @@ facilities:
         build: 2
         refund: 1
       # mas bien meterle cosas sensoriales y demas
+      STR_ALIEN_ENTERTAINMENT:
+        build: 2
+        refund: 1
+      STR_MIND_PROBE:
+        build: 2
+        refund: 1
     buildTime: 28
     removalTime: 7
-    refundValue: 40000
+    refundValue: 500000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     psiLabs: 5
     listOrder: 153
@@ -570,7 +566,7 @@ facilities:
     spriteFacility: 138
     size: 2
     buildCost: 4000000
-    monthlyCost: 67000
+    monthlyCost: 180000
     buildCostItems:
       STR_ELERIUM_115:
         build: 30
@@ -585,10 +581,17 @@ facilities:
         build: 6
         refund: 3
       # mismo que con el psilab estandar, algo de los sensoriales
+      STR_ALIEN_ENTERTAINMENT:
+        build: 2
+        refund: 1
+      STR_MIND_PROBE:
+        build: 2
+        refund: 1
+
     buildOverFacilities: [ STR_PSIONIC_LABORATORY ]
     buildTime: 42
     removalTime: 8
-    refundValue: 40000
+    refundValue: 1400000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     requires:
       - STR_PSI_LAB

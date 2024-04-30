@@ -3,8 +3,8 @@
 soldiers:
   - delete: STR_SOLDIER
   - type: STR_DOG
-    costBuy: 60000
-    costSalary: 20000
+    costBuy: 15000
+    costSalary: 3000
     minStats:
       tu: 60
       stamina: 80
@@ -79,8 +79,13 @@ soldiers:
     deathMale: [994, 680, 681]
     deathFemale: [994, 680, 681]
   - type: STR_SOLDIER
-    costBuy: 40000
-    costSalary: 20000
+    costBuy: 25000
+    costSalary: 4000
+    costSalarySquaddie: 1000
+    costSalarySergeant: 2000
+    costSalaryCaptain: 4000
+    costSalaryColonel: 6000
+    costSalaryCommander: 16000
     minStats:
       tu: 35
       stamina: 40
@@ -130,7 +135,12 @@ soldiers:
     allowPiloting: false
   - type: STR_ELITE_SOLDIER
     costBuy: 200000
-    costSalary: 55000
+    costSalary: 7000
+    costSalarySquaddie: 1000
+    costSalarySergeant: 3000
+    costSalaryCaptain: 5000
+    costSalaryColonel: 8000
+    costSalaryCommander: 13000
     minStats:
       tu: 55
       stamina: 50
@@ -179,7 +189,12 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
   - type: STR_SOLDIER_OFFICER
-    costSalary: 60000
+    costSalary: 12000
+    costSalarySquaddie: 3000
+    costSalarySergeant: 8000
+    costSalaryCaptain: 13000
+    costSalaryColonel: 18000
+    costSalaryCommander: 38000
     minStats:
       tu: 50
       stamina: 40
@@ -239,7 +254,12 @@ soldiers:
     - STR_ARMY_LT_COLONEL
   - type: STR_PILOT
     costBuy: 60000
-    costSalary: 30000
+    costSalary: 15000
+    costSalarySquaddie: 5000
+    costSalarySergeant: 10000
+    costSalaryCaptain: 15000
+    costSalaryColonel: 20000
+    costSalaryCommander: 35000
     minStats:
       tu: 55
       stamina: 50

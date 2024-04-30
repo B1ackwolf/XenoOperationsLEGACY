@@ -2352,10 +2352,10 @@ ufopaedia:
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_EMPTY_ROOM_UFOPEDIA
-  - id: STR_SECURITY_ROOM
+  - id: STR_SECURITY_STATION
     type_id: 6
     section: STR_BASE_FACILITIES
-    text: STR_SECURITY_ROOM_UFOPEDIA
+    text: STR_SECURITY_STATION_UFOPEDIA
   - id: STR_LARGE_WORKSHOP
     type_id: 6
     section: STR_BASE_FACILITIES

@@ -1076,13 +1076,13 @@ extraStrings:
       STR_CORRIDOR: Corridor
       STR_EMPTY_ROOM: Prefabricated Module
       STR_EMPTY_ROOM_UFOPEDIA: A cheap facility designed to connect other facilities.
-      STR_SECURITY_ROOM: Security Station
+      STR_SECURITY_STATION: Security Station
       STR_LARGE_PSIONIC_LABORATORY: Large Psi Laboratory
       STR_GLOBAL_RADAR_SYSTEM: Satellite Network
       STR_HYPER_WAVE_GLOBAL_NETWORK: Hyper-wave Network
       STR_LARGE_GENERAL_STORES_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
       STR_CORRIDOR_UFOPEDIA: A cheap facility designed to connect other facilities.
-      STR_SECURITY_ROOM_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
+      STR_SECURITY_STATION_UFOPEDIA: Security Stations provide key defensive points within a base. Soldiers will rally here in event of an attack and the lower and upper parts provide cover for overhead snipers. Doors slow invaders into the base as well buying crucial time for defenders to get into position.
       STR_LIVING_QUARTERS_UFOPEDIA: Each accommodation block provides for up to 20 personnel. The facility provides basic recreation, food and sleeping areas.
       STR_LARGE_WORKSHOP_UFOPEDIA: This Large Workshop hosts expensive, but expansive infrastructure for manufacturing on a large scale. It provides up to 125 workshop space.
       STR_LABORATORY_UFOPEDIA: Up to 20 scientists can work in a laboratory facility. Laboratories are equipped with the latest technology for research into materials, biochemistry and cosmology. There is privileged access to the best research labs throughout the world, including military establishments.
@@ -1249,21 +1249,22 @@ extraStrings:
       STR_SECTOPOD_ELITE_TERRORIST: Elite Sectopod
       STR_CYDONIA_ELITE_GUARD: Cydonia Elite Guard
       STR_CYDONIA_LANDING_GUARD: Cydonia Landing Guard
-      STR_MUTON_BERSERKER: Muton Berserker
-      STR_MUTON: Muton quecarajos?
+      STR_MUTON_BERSERKER: Muton Thrall
+      STR_MUTON: Muton Warriors
       STR_MUTON_SOLDIER: Muton Brute
-      STR_MUTON_NAVIGATOR: Muton Pathfinder
-      STR_MUTON_ENGINEER: Muton inteligente
-      STR_ARMORED_MUTON: Muton cualquierverga
+      STR_MUTON_NAVIGATOR: Muton Marauder
+      STR_MUTON_ENGINEER: Muton Savant
+      STR_ARMORED_MUTON: Muton Veterans
       STR_ARMORED_MUTON_SOLDIER: Muton Warrior
-      STR_ARMORED_MUTON_NAVIGATOR: Muton Veteran Navigator
-      STR_ARMORED_MUTON_ENGINEER: Muton Veteran Engineer
-      STR_MUTON_COMMANDO: Muton Champion
+      STR_ARMORED_MUTON_NAVIGATOR: Muton Pathfinder
+      STR_ARMORED_MUTON_ENGINEER: Muton Overseer
+      STR_MUTON_COMMANDO: Muton Elites
+      STR_MUTON_COMMANDO_SOLDIER: Muton Champion
       STR_MUTON_CHIEFTAIN: Muton Chieftain
-      STR_MUTON_GUARD: Muton Broodguard
+      STR_MUTON_GUARD: Muton Prime
       STR_MUTON_WARLORD: Muton Warlord
       STR_ARMORED_SECTOID: Armored Sectoid
-      STR_SNAKEMAN: Serpentoid
+      STR_SNAKEMAN: Serpentoids
       STR_SNAKEMAN_SOLDIER: Serpentoid Soldier
       STR_SNAKEMAN_NAVIGATOR: Serpentoid Navigator
       STR_SNAKEMAN_ENGINEER: Serpentoid Engineer
@@ -1290,14 +1291,14 @@ extraStrings:
       STR_ANCIENT_SPAWN_TERRORIST: Spawn
       STR_JAWS: Carcharodon Attack
 #-----Alien Corpses and Autopsies
-      STR_MUTON_COMMANDO_AUTOPSY: Muton Veteran autopsy
+      STR_MUTON_COMMANDO_AUTOPSY: Muton Elite autopsy
       STR_MUTON_CHIEFTAIN_AUTOPSY: Muton Leader autopsy
       STR_SNAKEMAN_CORPSE: Serpentoid Corpse
       STR_SNAKEMAN_AUTOPSY: Serpentoid autopsy
       STR_ABOMINATION_CORPSE: Abomination Corpse
       STR_ABOMINATION_AUTOPSY: Abomination autopsy
       STR_MUTON_COMMANDO_CORPSE: Muton Enforcer Corpse
-      STR_MUTON_GUARD_CORPSE: Muton Elite Corpse
+      STR_MUTON_GUARD_CORPSE: Muton sssss Corpse
       STR_MUTON_CHIEFTAIN_CORPSE: Muton Chieftain Corpse
       STR_SOVEREIGN_CORPSE: Sovereign Shards
       STR_ENERGYALIEN_CORPSE: Solarite Residue
@@ -1308,7 +1309,7 @@ extraStrings:
       STR_ARMORED_SECTOID_CORPSE: Armored Sectoid Corpse
       STR_ARMORED_SECTOID_AUTOPSY: Armored Sectoid autopsy
       STR_ARMORED_MUTON_CORPSE: Muton Warrior Corpse
-      STR_MUTON_BERSERKER_CORPSE: Muton Berserker Corpse
+      STR_MUTON_BERSERKER_CORPSE: Muton Thrall Corpse
       STR_MUTON_WARLORD_CORPSE: Muton Warlord Corpse
       STR_ANCIENT_SPAWN_CORPSE: Spawn Corpse
       STR_CARCHARODON_CORPSE: Carcharodon Corpse
@@ -1638,25 +1639,25 @@ extraStrings:
 #OJITO LIMPIAR ARMADURAS REMANENTES
       STR_XOPS_ARMOR_TAN: Xeno Operations Armor
       STR_XOPS_ARMOR_BLACK: Xeno Operations Armor Black
-      STR_XOPS_ARMOR_PILOT: Xeno Operations Armor Blue
+      STR_XOPS_ARMOR_PILOT: Xeno Operations Armor Pilot
       STR_XOPS_ARMOR_GREEN: Xeno Operations Armor Green
       STR_XOPS_ARMOR_GRAY: Xeno Operations Armor Grey
       STR_XOPS_ARMOR_WHITE: Xeno Operations Armor White
       STR_XOPS_ARMOR_UC: XOPS ARMOR
       STR_XOPS_ARMOR_BLACK_UC: XOPS ARMOR BLACK
-      STR_XOPS_ARMOR_PILOT_UC: XOPS ARMOR BLUE
+      STR_XOPS_ARMOR_PILOT_UC: XOPS Armor Pilot
       STR_XOPS_ARMOR_GREEN_UC: XOPS ARMOR GREEN
       STR_XOPS_ARMOR_GRAY_UC: XOPS ARMOR GREY
       STR_XOPS_ARMOR_WHITE_UC: XOPS ARMOR WHITE
       STR_ALLOY_ARMOR_TAN: Alloy Armor
       STR_ALLOY_ARMOR_BLACK: Alloy Armor Black
-      STR_ALLOY_ARMOR_PILOT: Alloy Armor Blue
+      STR_ALLOY_ARMOR_PILOT: Alloy Armor Pilot
       STR_ALLOY_ARMOR_GREEN: Alloy Armor Green
       STR_ALLOY_ARMOR_GRAY: Alloy Armor Grey
       STR_ALLOY_ARMOR_WHITE: Alloy Armor White
       STR_ALLOY_ARMOR_UC: ALLOY ARMOR
       STR_ALLOY_ARMOR_BLACK_UC: ALLOY ARMOR BLACK
-      STR_ALLOY_ARMOR_PILOT_UC: ALLOY ARMOR BLUE
+      STR_ALLOY_ARMOR_PILOT_UC: ALLOY Armor Pilot
       STR_ALLOY_ARMOR_GRAY_UC: ALLOY ARMOR GREY
       STR_ALLOY_ARMOR_GREEN_UC: ALLOY ARMOR GREEN
       STR_ALLOY_ARMOR_WHITE_UC: ALLOY ARMOR WHITE
@@ -1666,8 +1667,8 @@ extraStrings:
       STR_SKY_STRIKE_ARMOR_UC: Skystrike ARMOR
       STR_SKY_STRIKE_ARMOR_CLOUD: Skystrike Armor Sky Blue
       STR_SKY_STRIKE_ARMOR_CLOUD_UC: Skystrike ARMOR SKY BLUE
-      STR_SKY_STRIKE_ARMOR_PILOT: Skystrike Armor Blue
-      STR_SKY_STRIKE_ARMOR_PILOT_UC: Skystrike ARMOR BLUE
+      STR_SKY_STRIKE_ARMOR_PILOT: Skystrike Armor Pilot
+      STR_SKY_STRIKE_ARMOR_PILOT_UC: Skystrike Armor Pilot
       STR_SKY_STRIKE_ARMOR_WHITE: Skystrike Armor White
       STR_SKY_STRIKE_ARMOR_WHITE_UC: Skystrike ARMOR WHITE
       STR_SKY_STRIKE_ARMOR_GRAY: Skystrike Armor Grey
@@ -1696,8 +1697,8 @@ extraStrings:
       STR_VEST_HEC_ARMOR_UC: H.E.C SUIT
       STR_PSI_ARMOR: Nerve Suit
       STR_PSI_ARMOR_UC: NERVE SUIT
-      STR_PSI_ARMOR_PILOT: Nerve Suit Blue
-      STR_PSI_ARMOR_PILOT_UC: NERVE SUIT BLUE
+      STR_PSI_ARMOR_PILOT: Nerve Suit Pilot
+      STR_PSI_ARMOR_PILOT_UC: NERVE SUIT PILOT
       STR_PSI_ARMOR_GRAY: Nerve Suit Grey
       STR_PSI_ARMOR_GRAY_UC: NERVE SUIT GREY
       STR_PSI_ARMOR_GREEN: Nerve Suit Green
@@ -1708,8 +1709,8 @@ extraStrings:
       STR_PSI_ARMOR_BLACK_UC: NERVE SUIT BLACK
       STR_XOPS_POWER_ARMOR: Power Armor
       STR_XOPS_POWER_ARMOR_UC: POWER ARMOR
-      STR_XOPS_POWER_ARMOR_PILOT: Power Armor Blue
-      STR_XOPS_POWER_ARMOR_PILOT_UC: POWER ARMOR BLUE
+      STR_XOPS_POWER_ARMOR_PILOT: Power Armor Pilot
+      STR_XOPS_POWER_ARMOR_PILOT_UC: POWER Armor Pilot
       STR_XOPS_POWER_ARMOR_GREEN: Power Armor Green
       STR_XOPS_POWER_ARMOR_GREEN_UC: POWER ARMOR GREEN
       STR_XOPS_POWER_ARMOR_WHITE: Power Armor White
@@ -1720,8 +1721,8 @@ extraStrings:
       STR_XOPS_POWER_ARMOR_BLACK_UC: POWER ARMOR BLACK
       STR_PERSONAL_ARMOR_TAN: Personal Armor
       STR_PERSONAL_ARMOR_TAN_UC: PERSONAL ARMOR
-      STR_PERSONAL_ARMOR_PILOT: Personal Armor Blue
-      STR_PERSONAL_ARMOR_PILOT_UC: PERSONAL ARMOR BLUE
+      STR_PERSONAL_ARMOR_PILOT: Personal Armor Pilot
+      STR_PERSONAL_ARMOR_PILOT_UC: PERSONAL Armor Pilot
       STR_PERSONAL_ARMOR_WHITE: Personal Armor White
       STR_PERSONAL_ARMOR_WHITE_UC: PERSONAL ARMOR WHITE
       STR_PERSONAL_ARMOR_GREEN: Personal Armor Green
@@ -1753,6 +1754,7 @@ extraStrings:
       STR_UFO_CONSTRUCTION: UFO Plasma Projector
       STR_ALIEN_FOOD: Alien Supplies
       STR_ALIEN_REPRODUCTION: Alien Cloner
+      STR_ALIEN_ENTERTAINMENT: Alien Hypersensory Pod
       # STR_ALIEN_SURGERY: Sir not appearing is this mod
       STR_EXAMINATION_ROOM: UFO Sensor
       STR_ALIEN_HABITAT: UFO Life Support

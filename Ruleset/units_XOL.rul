@@ -524,7 +524,7 @@ units:
     intelligence: 4
     aggression: 2
     energyRecovery: 40
-  - type: STR_MUTON_COMMANDO
+  - type: STR_MUTON_COMMANDO_SOLDIER
     race: STR_MUTON_COMMANDO
     rank: STR_LIVE_SOLDIER
     stats:
@@ -573,7 +573,7 @@ units:
     aggression: 2
     energyRecovery: 50
   - type: STR_MUTON_CHIEFTAIN
-    race: STR_MUTON_COMMANDO
+    race: STR_ARMORED_MUTON
     rank: STR_LIVE_COMMANDER
     stats:
       tu: 80
@@ -597,7 +597,7 @@ units:
     aggression: 2
     energyRecovery: 50
   - type: STR_MUTON_WARLORD
-    race: STR_ARMORED_MUTON
+    race: STR_MUTON_COMMANDO
     rank: STR_LIVE_COMMANDER
     stats:
       tu: 80

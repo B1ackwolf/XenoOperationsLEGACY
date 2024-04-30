@@ -25,7 +25,7 @@ crafts:
     maxItems: 250
     costBuy: 600000
     costSell: 250000
-    costRent: 100000
+    costRent: 60000
     refuelRate: 20
     radarRange: 350
     radarChance: 100
@@ -312,7 +312,7 @@ crafts:
     pilots: 1
     allowLanding: false
     costBuy: 600000
-    costRent: 150000
+    costRent: 90000
     refuelRate: 50
     transferTime: 96
     score: 100

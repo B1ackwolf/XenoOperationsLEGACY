@@ -14,7 +14,7 @@ startingBase:
     - type: STR_HANGAR #done
       x: 4
       y: 0
-    - type: STR_SECURITY_ROOM
+    - type: STR_SECURITY_STATION
       x: 2
       y: 3
     - type: STR_LABORATORY #done
