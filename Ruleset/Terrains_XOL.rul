@@ -2,1802 +2,8 @@
 # Status:Reorder and clean
 terrains:
 ####### COMMNITY MAPS BELOW #####
-  - name: CULTA
-    script: DEFAULT
-    mapDataSets:
-      - BLANKS
-      - CULTIVAT
-      - BARN
-    mapBlocks:
-      - name: CULTA00
-        width: 10
-        length: 10
-        groups: 1
-      - name: CULTA01
-        width: 10
-        length: 10
-      - name: CULTA02
-        width: 10
-        length: 10
-      - name: CULTA03
-        width: 10
-        length: 10
-      - name: CULTA04
-        width: 10
-        length: 10
-      - name: CULTA05
-        width: 10
-        length: 10
-      - name: CULTA06
-        width: 10
-        length: 10
-      - name: CULTA07
-        width: 10
-        length: 10
-        groups: 1
-      - name: CULTA08
-        width: 10
-        length: 10
-      - name: CULTA09
-        width: 10
-        length: 10
-      - name: CULTA10
-        width: 10
-        length: 10
-      - name: CULTA11
-        width: 10
-        length: 10
-        groups: 1
-      - name: CULTA12
-        width: 10
-        length: 10
-      - name: CULTA13
-        width: 10
-        length: 10
-      - name: CULTA14
-        width: 10
-        length: 10
-      - name: CULTA15
-        width: 10
-        length: 10
-      - name: CULTA16
-        width: 10
-        length: 10
-      - name: CULTA17
-        width: 10
-        length: 10
-      - name: CULTA18
-        width: 10
-        length: 10
-      - name: CULTAFARM00
-        width: 20
-        length: 20
-      - name: CULTAFARM01
-        width: 10
-        length: 10
-#      - name: CULTAFARM02
-#        width: 10
-#        length: 10
-      - name: CULTAFARM03
-        width: 10
-        length: 10
-      - name: CULTAFARM04
-        width: 10
-        length: 10
-      - name: CULTAFARM05
-        width: 10
-        length: 10
-      - name: CULTAFARM06
-        width: 10
-        length: 10
-      - name: CULTAFARM07
-        width: 20
-        length: 20
-      - name: CULTAFARM08
-        width: 20
-        length: 20
-      - name: CULTAFARM09
-        width: 20
-        length: 20
-      - name: CULTAFARM10
-        width: 10
-        length: 10
-      - name: CULTAFARM11
-        width: 10
-        length: 10
-      - name: CULTAFARM12
-        width: 10
-        length: 10
-      - name: CULTAFARM13
-        width: 10
-        length: 10
-      - name: CULTAFARM14
-        width: 20
-        length: 20
-      - name: CULTAFARM15
-        width: 20
-        length: 20
-      - name: CULTAFARM16
-        width: 10
-        length: 10
-      - name: CULTAFARM17
-        width: 20
-        length: 20
-      - name: CULTAFARM18
-        width: 20
-        length: 20
-      - name: CULTAFARM19
-        width: 10
-        length: 10
-      - name: CULTAFARM20
-        width: 10
-        length: 10
-      - name: CULTAFARM21
-        width: 10
-        length: 10
-      - name: CULTAFARM22
-        width: 20
-        length: 20
-  - name: CODEXJUNGLE
-    mapDataSets:
-      - BLANKS
-      - MUJUNGLE
-      - XOPSMUJUNGLEADDON
-      - XOPSUPLINK
-    script: CODEX
-    mapBlocks:
-      - name: XOPSCODEXJUNGLE01
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: XOPSCODEXJUNGLE02
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE03
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE04
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE05
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE06
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE07
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE08
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE09
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE10
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSCODEXJUNGLE11
-        width: 20
-        length: 20
-        groups: 3
-        items:
-          STR_CODEX_KEY:
-            - [9, 9, 0]
-      - name: XOPSCODEXJUNGLE12
-        width: 20
-        length: 20
-      - name: XOPSCODEXJUNGLE13
-        width: 20
-        length: 20
-      - name: XOPSCODEXJUNGLE14
-        width: 20
-        length: 20
-  - name: CODEXARCTIC
-    mapDataSets:
-      - BLANKS
-      - MUICE
-      - XOPSMUICEADDON
-      - XOPSUPLINK
-    script: CODEX
-    mapBlocks:
-      - name: XOPSCODEXJUNGLE01
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: XOPSCODEXJUNGLE02
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE03
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE04
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE05
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE06
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE07
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE08
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE09
-        width: 10
-        length: 10
-      - name: XOPSCODEXJUNGLE10
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSCODEXJUNGLE11
-        width: 20
-        length: 20
-        groups: 3
-        items:
-          STR_CODEX_KEY:
-            - [9, 9, 0]
-      - name: XOPSCODEXJUNGLE12
-        width: 20
-        length: 20
-      - name: XOPSCODEXJUNGLE13
-        width: 20
-        length: 20
-      - name: XOPSCODEXJUNGLE14
-        width: 20
-        length: 20
-  - name: DAWNURBANA
-    mapDataSets:
-      - BLANKS
-      - DAWNROADS
-      - DAWNURBITS
-      - DAWNURBAN
-      - DAWNFRNITURE
-      - DAWNDECOR
-    civilianTypes:
-      - MALE_CIVILIAN
-      - FEMALE_CIVILIAN
-#      - NPC_SOLDIER
-    script: DAWNURBANA
-    mapBlocks:
-      - name: DAWNURBAN00
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN01
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN02
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN03
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN04
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN05
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN06
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN07
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN08
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN09
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN10
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN11
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN12
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN13
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN14
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN15
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN16
-        width: 10
-        length: 10
-        groups: 4
-      - name: DAWNURBAN17
-        width: 10
-        length: 10
-        groups: 4
-      - name: DAWNURBAN18
-        width: 10
-        length: 10
-        groups: 4
-      - name: DAWNURBAN19
-        width: 10
-        length: 10
-        groups: 4
-      - name: DAWNURBAN20
-        width: 20
-        length: 20
-      - name: DAWNURBAN21
-        width: 20
-        length: 20
-      - name: DAWNURBAN22
-        width: 20
-        length: 20
-      - name: DAWNURBAN23
-        width: 20
-        length: 20
-      - name: DAWNURBAN24
-        width: 20
-        length: 20
-      - name: DAWNURBAN25
-        width: 20
-        length: 20
-      - name: DAWNURBAN26
-        width: 20
-        length: 20
-      - name: DAWNURBAN27
-        width: 20
-        length: 20
-      - name: DAWNURBAN28
-        width: 10
-        length: 10
-        groups: 1
-      - name: DAWNURBAN29
-        width: 10
-        length: 10
-        groups: 1
-      - name: DAWNURBAN30
-        width: 10
-        length: 10
-      - name: DAWNURBAN31
-        width: 10
-        length: 10
-      - name: DAWNURBAN32
-        width: 10
-        length: 10
-      - name: DAWNURBAN33
-        width: 10
-        length: 10
-      - name: DAWNURBAN34
-        width: 10
-        length: 10
-      - name: DAWNURBAN35
-        width: 10
-        length: 10
-      - name: DAWNURBAN36
-        width: 10
-        length: 10
-      - name: DAWNURBAN37
-        width: 10
-        length: 10
-      - name: DAWNURBAN38
-        width: 10
-        length: 10
-      - name: DAWNURBAN39
-        width: 10
-        length: 10
-  - name: DAWNURBANB
-    mapDataSets:
-      - BLANKS
-      - DAWNROADS
-      - DAWNURBITS
-      - DAWNURBAN
-      - DAWNFRNITURE
-      - DAWNDECOR
-    civilianTypes:
-      - MALE_CIVILIAN
-      - FEMALE_CIVILIAN
-#      - NPC_SOLDIER
-    script: DAWNURBANB
-    mapBlocks:
-      - name: DAWNURBAN40
-        width: 10
-        length: 10
-        groups: 4
-      - name: DAWNURBAN41
-        width: 10
-        length: 10
-        groups: 4
-      - name: DAWNURBAN42
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN43
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN44
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN45
-        width: 10
-        length: 10
-        groups: 2
-      - name: DAWNURBAN46
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN47
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN48
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN49
-        width: 10
-        length: 10
-        groups: 3
-      - name: DAWNURBAN50
-        width: 10
-        length: 10
-        groups: 1
-      - name: DAWNURBAN51
-        width: 10
-        length: 10
-        groups: 1
-      - name: DAWNURBAN52
-        width: 10
-        length: 10
-        groups: 1
-      - name: DAWNURBAN53
-        width: 10
-        length: 10
-      - name: DAWNURBAN54
-        width: 10
-        length: 10
-      - name: DAWNURBAN55
-        width: 10
-        length: 10
-      - name: DAWNURBAN56
-        width: 10
-        length: 10
-      - name: DAWNURBAN57
-        width: 10
-        length: 10
-      - name: DAWNURBAN58
-        width: 10
-        length: 10
-      - name: DAWNURBAN59
-        width: 10
-        length: 10
-      - name: DAWNURBAN60
-        width: 20
-        length: 20
-      - name: DAWNURBAN61
-        width: 20
-        length: 20
-      - name: DAWNURBAN62
-        width: 20
-        length: 20
-      - name: DAWNURBAN63
-        width: 20
-        length: 20
-      - name: DAWNURBAN64
-        width: 20
-        length: 20
-      - name: DAWNURBAN65
-        width: 20
-        length: 20
-      - name: DAWNURBAN66
-        width: 20
-        length: 20
-      - name: DAWNURBAN67
-        width: 20
-        length: 20
-  - name: DESERT
-    mapDataSets:
-      - BLANKS
-      - XOPSDESERT
-  - name: DESERTMOUNT
-    mapDataSets:
-      - BLANKS
-      - DESERTMOUNT
-      - XOPSDESERT
-    script: DESERT
-    mapBlocks:
-      - name: DESERTMOUNT00
-        width: 10
-        length: 10
-        groups: 1
-      - name: DESERTMOUNT01
-        width: 10
-        length: 10
-        groups: 1
-      - name: DESERTMOUNT02
-        width: 10
-        length: 10
-        groups: 1
-      - name: DESERTMOUNT03
-        width: 10
-        length: 10
-      - name: DESERTMOUNT04
-        width: 10
-        length: 10
-      - name: DESERTMOUNT05
-        width: 10
-        length: 10
-      - name: DESERTMOUNT06
-        width: 10
-        length: 10
-      - name: DESERTMOUNT07
-        width: 10
-        length: 10
-      - name: DESERTMOUNT08
-        width: 10
-        length: 10
-      - name: DESERTMOUNT09
-        width: 10
-        length: 10
-      - name: DESERTMOUNT10
-        width: 10
-        length: 10
-      - name: DESERTMOUNT11
-        width: 20
-        length: 20
-      - name: DESERTMOUNT12
-        width: 20
-        length: 20
-      - name: DESERTMOUNT13
-        width: 20
-        length: 20
-      - name: DESERTMOUNT14
-        width: 20
-        length: 20
-      - name: DESERTMOUNT15
-        width: 10
-        length: 10
-      - name: DESERTMOUNT16
-        width: 10
-        length: 10
-      - name: DESERTMOUNT17
-        width: 10
-        length: 10
-  - name: DESERTTEMPLE
-    mapDataSets:
-      - BLANKS
-      - SANDS
-      - ATLANTDESERT
-      - XOPSDESERT
-    script: DESERT
-    mapBlocks:
-      - name: ATLANTDESERT00
-        width: 10
-        length: 10
-        groups: 1
-      - name: ATLANTDESERT01
-        width: 10
-        length: 10
-        groups: 1
-      - name: ATLANTDESERT02
-        width: 10
-        length: 10
-      - name: ATLANTDESERT03
-        width: 10
-        length: 10
-      - name: ATLANTDESERT04
-        width: 10
-        length: 10
-      - name: ATLANTDESERT05
-        width: 10
-        length: 10
-      - name: ATLANTDESERT06
-        width: 10
-        length: 10
-      - name: ATLANTDESERT07
-        width: 10
-        length: 10
-      - name: ATLANTDESERT08
-        width: 10
-        length: 10
-      - name: ATLANTDESERT09
-        width: 10
-        length: 10
-      - name: ATLANTDESERT10
-        width: 20
-        length: 20
-      - name: ATLANTDESERT11
-        width: 20
-        length: 20
-      - name: ATLANTDESERT12
-        width: 20
-        length: 20
-  - name: FORESTMOUNT
-    mapDataSets:
-      - BLANKS
-      - FORESTMOUNT
-      - FOREST
-      - FORESTMOUNTBITS
-    script: DESERT
-    mapBlocks:
-      - name: FORESTMOUNT00
-        width: 10
-        length: 10
-        groups: 1
-      - name: FORESTMOUNT01
-        width: 10
-        length: 10
-        groups: 1
-      - name: FORESTMOUNT02
-        width: 10
-        length: 10
-      - name: FORESTMOUNT03
-        width: 10
-        length: 10
-      - name: FORESTMOUNT04
-        width: 10
-        length: 10
-      - name: FORESTMOUNT05
-        width: 10
-        length: 10
-      - name: FORESTMOUNT06
-        width: 10
-        length: 10
-      - name: FORESTMOUNT07
-        width: 10
-        length: 10
-      - name: FORESTMOUNT08
-        width: 10
-        length: 10
-      - name: FORESTMOUNT09
-        width: 10
-        length: 10
-      - name: FORESTMOUNT10
-        width: 10
-        length: 10
-      - name: FORESTMOUNT11
-        width: 20
-        length: 20
-      - name: FORESTMOUNT12
-        width: 20
-        length: 20
-      - name: FORESTMOUNT13
-        width: 20
-        length: 20
-      - name: FORESTMOUNT14
-        width: 20
-        length: 20
-      - name: FORESTMOUNT15
-        width: 10
-        length: 10
-      - name: FORESTMOUNT16
-        width: 10
-        length: 10
-      - name: FORESTMOUNT17
-        width: 10
-        length: 10
-      - name: FORESTMOUNT18
-        width: 10
-        length: 10
-      - name: FORESTMOUNT19
-        width: 10
-        length: 10
-      - name: FORESTMOUNT20
-        width: 10
-        length: 10
-      - name: FORESTMOUNT21
-        width: 10
-        length: 10
-      - name: FORESTMOUNT22
-        width: 10
-        length: 10
-      - name: FORESTMOUNT23
-        width: 10
-        length: 10
-      - name: FORESTMOUNT24
-        width: 10
-        length: 10
-      - name: FORESTMOUNT25
-        width: 20
-        length: 20
-      - name: FORESTMOUNT26
-        width: 20
-        length: 20
-  - name: INDUSTRIALURBAN
-    mapDataSets:
-      - BLANKS
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-    civilianTypes:
-      - MALE_CIVILIAN
-      - FEMALE_CIVILIAN
-#      - NPC_SOLDIER
-    script: INDUSTRIALURBAN
-    mapBlocks:
-      - name: INDUSTRIALURBAN00
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN01
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN02
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN03
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN04
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN05
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN06
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN07
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN08
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN09
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN10
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN11
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN12
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN13
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN14
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN15
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN16
-        width: 10
-        length: 10
-        groups: 1
-      - name: INDUSTRIALURBAN17
-        width: 10
-        length: 10
-        groups: 1
-  - name: INDUSTRIALUFO
-    mapDataSets:
-      - BLANKS
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-    script: INDUSTRIALUFO
-    mapBlocks:
-      - name: INDUSTRIALURBAN00
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN01
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN02
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN03
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN04
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN05
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN06
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN07
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN08
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN09
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN10
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN11
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN12
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN13
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN14
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN15
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN16
-        width: 10
-        length: 10
-        groups: 1
-      - name: INDUSTRIALURBAN17
-        width: 10
-        length: 10
-        groups: 1
-  - name: JUNGLEMOUNT
-    mapDataSets:
-      - BLANKS
-      - JUNGLEMOUNT
-      - JUNGLEBITS
-    script: DESERT
-    mapBlocks:
-      - name: JUNGLEMOUNT00
-        width: 10
-        length: 10
-        groups: 1
-      - name: JUNGLEMOUNT01
-        width: 10
-        length: 10
-        groups: 1
-      - name: JUNGLEMOUNT02
-        width: 10
-        length: 10
-        groups: 1
-      - name: JUNGLEMOUNT03
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT04
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT05
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT06
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT07
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT08
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT09
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT10
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT11
-        width: 20
-        length: 20
-      - name: JUNGLEMOUNT12
-        width: 20
-        length: 20
-  - name: JUNGLETEMPLE
-    mapDataSets:
-      - BLANKS
-      - SANDS
-      - MUJUNGLE
-      - JUNGLEBITS
-    script: DESERT
-    mapBlocks:
-      - name: MUJUNGLE00
-        width: 10
-        length: 10
-        groups: 1
-      - name: MUJUNGLE01
-        width: 10
-        length: 10
-        groups: 1
-      - name: MUJUNGLE02
-        width: 10
-        length: 10
-      - name: MUJUNGLE03
-        width: 10
-        length: 10
-      - name: MUJUNGLE04
-        width: 10
-        length: 10
-      - name: MUJUNGLE05
-        width: 10
-        length: 10
-      - name: MUJUNGLE06
-        width: 10
-        length: 10
-      - name: MUJUNGLE07
-        width: 10
-        length: 10
-      - name: MUJUNGLE08
-        width: 10
-        length: 10
-      - name: MUJUNGLE09
-        width: 20
-        length: 20
-      - name: MUJUNGLE10
-        width: 20
-        length: 20
-      - name: MUJUNGLE11
-        width: 20
-        length: 20
-      - name: MUJUNGLE12
-        width: 20
-        length: 20
-      - name: MUJUNGLE13
-        width: 20
-        length: 20
-      - name: MUJUNGLE14
-        width: 20
-        length: 20
-  - name: URBAN
-    mapDataSets:
-      - BLANKS
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
-    civilianTypes:
-      - MALE_CIVILIAN
-      - FEMALE_CIVILIAN
-#      - NPC_SOLDIER
-    script: URBAN
-    mapBlocks:
-      - name: URBAN00
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBAN01
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBAN02
-        width: 10
-        length: 10
-        groups: 4
-      - name: URBAN03
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBAN04
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: URBAN05
-        width: 20
-        length: 20
-      - name: URBAN06
-        width: 20
-        length: 20
-      - name: URBAN07
-        width: 20
-        length: 20
-      - name: URBAN08
-        width: 20
-        length: 20
-      - name: URBAN09
-        width: 20
-        length: 20
-      - name: URBAN14
-        width: 10
-        length: 10
-      - name: URBAN15
-        width: 10
-        length: 10
-      - name: URBAN16
-        width: 10
-        length: 10
-      - name: URBAN17
-        width: 10
-        length: 10
-      - name: URBAN18
-        width: 10
-        length: 10
-      - name: MADURBAN10
-        width: 10
-        length: 10
-      - name: MADURBAN11
-        width: 20
-        length: 20
-      - name: MADURBAN12
-        width: 20
-        length: 20
-      - name: MADURBAN13
-        width: 20
-        length: 20
-      - name: MADURBAN19
-        width: 10
-        length: 10
-      - name: MADURBAN20
-        width: 10
-        length: 10
-      - name: MADURBAN21
-        width: 10
-        length: 10
-      - name: MADURBAN22
-        width: 10
-        length: 10
-      - name: MADURBAN23
-        width: 10
-        length: 10
-      - name: MADURBAN24
-        width: 10
-        length: 10
-      - name: MADURBAN25
-        width: 10
-        length: 10
-      - name: MADURBAN26
-        width: 10
-        length: 10
-      - name: MADURBAN27
-        width: 20
-        length: 20
-      - name: MADURBAN28
-        width: 20
-        length: 20
-      - name: MADURBAN29
-        width: 20
-        length: 20
-      - name: MADURBAN30
-        width: 20
-        length: 20
-      - name: MADURBAN31
-        width: 20
-        length: 20
-      - name: MADURBAN32
-        width: 20
-        length: 20
-      - name: MADURBAN33
-        width: 20
-        length: 20
-      - name: MADURBAN34
-        width: 20
-        length: 20
-      - name: MADURBAN35
-        width: 20
-        length: 20
-      - name: MADURBAN36
-        width: 10
-        length: 10
-      - name: MADURBAN37
-        width: 10
-        length: 10
-      - name: MADURBAN38
-        width: 10
-        length: 10
-  - name: NATIVEURBAN
-    mapDataSets:
-      - BLANKS
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
-    script: NATIVEURBAN
-    civilianTypes:
-      - MALE_CIVILIAN
-      - FEMALE_CIVILIAN
-#      - NPC_SOLDIER
-    mapBlocks:
-      - name: NATIVEURBAN00
-        width: 10
-        length: 10
-      - name: NATIVEURBAN01
-        width: 10
-        length: 10
-      - name: NATIVEURBAN02
-        width: 10
-        length: 10
-      - name: NATIVEURBAN03
-        width: 10
-        length: 10
-      - name: NATIVEURBAN04
-        width: 10
-        length: 10
-      - name: NATIVEURBAN05
-        width: 10
-        length: 10
-      - name: NATIVEURBAN06
-        width: 10
-        length: 10
-      - name: NATIVEURBAN07
-        width: 10
-        length: 10
-      - name: NATIVEURBAN08
-        width: 10
-        length: 10
-      - name: NATIVEURBAN09
-        width: 10
-        length: 10
-      - name: NATIVEURBAN10
-        width: 10
-        length: 10
-      - name: NATIVEURBAN11
-        width: 10
-        length: 10
-      - name: NATIVEURBAN12
-        width: 10
-        length: 10
-      - name: NATIVEURBAN13
-        width: 10
-        length: 10
-      - name: NATIVEURBAN14
-        width: 10
-        length: 10
-      - name: NATIVEURBAN15
-        width: 10
-        length: 10
-      - name: NATIVEURBAN16
-        width: 10
-        length: 10
-      - name: NATIVEURBAN17
-        width: 10
-        length: 10
-      - name: NATIVEURBAN18
-        width: 10
-        length: 10
-      - name: NATIVEURBAN19
-        width: 10
-        length: 10
-      - name: NATIVEURBAN20
-        width: 10
-        length: 10
-      - name: NATIVEURBAN21
-        width: 20
-        length: 20
-      - name: NATIVEURBAN22
-        width: 20
-        length: 20
-      - name: NATIVEURBAN23
-        width: 20
-        length: 20
-      - name: NATIVEURBAN24
-        width: 20
-        length: 20
-      - name: NATIVEURBAN25
-        width: 20
-        length: 20
-      - name: NATIVEURBAN26
-        width: 20
-        length: 20
-      - name: NATIVEURBAN27
-        width: 20
-        length: 20
-      - name: NATIVEURBAN28
-        width: 20
-        length: 20
-      - name: NATIVEURBAN29
-        width: 20
-        length: 20
-      - name: NATIVEURBAN30
-        width: 20
-        length: 20
-      - name: NATIVEURBAN31
-        width: 20
-        length: 20
-      - name: NATIVEURBAN32
-        width: 10
-        length: 10
-      - name: NATIVEURBAN33
-        width: 10
-        length: 10
-      - name: NATIVEURBAN34
-        width: 10
-        length: 10
-      - name: NATIVEURBAN35
-        width: 10
-        length: 10
-      - name: NATIVEURBAN36
-        width: 10
-        length: 10
-      - name: NATIVEURBAN37
-        width: 20
-        length: 20
-      - name: NATIVEURBAN38
-        width: 20
-        length: 20
-      - name: NATIVEURBAN39
-        width: 20
-        length: 20
-      - name: NATIVEURBAN40
-        width: 20
-        length: 20
-      - name: NATIVEURBAN41
-        width: 20
-        length: 20
-      - name: NATIVEURBAN42
-        width: 20
-        length: 20
-      - name: NATIVEURBAN43
-        width: 20
-        length: 20
-      - name: NATIVEURBAN44
-        width: 20
-        length: 20
-      - name: NATIVEURBAN45
-        width: 10
-        length: 10
-      - name: NATIVEURBAN46
-        width: 10
-        length: 10
-        groups: 1
-  - name: NATIVEUFO
-    mapDataSets:
-      - BLANKS
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
-    script: NATIVEUFO
-    mapBlocks:
-      - name: NATIVEURBAN00
-        width: 10
-        length: 10
-      - name: NATIVEURBAN01
-        width: 10
-        length: 10
-      - name: NATIVEURBAN02
-        width: 10
-        length: 10
-      - name: NATIVEURBAN03
-        width: 10
-        length: 10
-      - name: NATIVEURBAN04
-        width: 10
-        length: 10
-      - name: NATIVEURBAN05
-        width: 10
-        length: 10
-      - name: NATIVEURBAN06
-        width: 10
-        length: 10
-      - name: NATIVEURBAN07
-        width: 10
-        length: 10
-      - name: NATIVEURBAN08
-        width: 10
-        length: 10
-      - name: NATIVEURBAN09
-        width: 10
-        length: 10
-      - name: NATIVEURBAN10
-        width: 10
-        length: 10
-      - name: NATIVEURBAN11
-        width: 10
-        length: 10
-      - name: NATIVEURBAN12
-        width: 10
-        length: 10
-      - name: NATIVEURBAN13
-        width: 10
-        length: 10
-      - name: NATIVEURBAN14
-        width: 10
-        length: 10
-      - name: NATIVEURBAN15
-        width: 10
-        length: 10
-      - name: NATIVEURBAN16
-        width: 10
-        length: 10
-      - name: NATIVEURBAN17
-        width: 10
-        length: 10
-      - name: NATIVEURBAN18
-        width: 10
-        length: 10
-      - name: NATIVEURBAN19
-        width: 10
-        length: 10
-      - name: NATIVEURBAN20
-        width: 10
-        length: 10
-      - name: NATIVEURBAN21
-        width: 20
-        length: 20
-      - name: NATIVEURBAN22
-        width: 20
-        length: 20
-      - name: NATIVEURBAN23
-        width: 20
-        length: 20
-      - name: NATIVEURBAN24
-        width: 20
-        length: 20
-      - name: NATIVEURBAN25
-        width: 20
-        length: 20
-      - name: NATIVEURBAN26
-        width: 20
-        length: 20
-      - name: NATIVEURBAN27
-        width: 20
-        length: 20
-      - name: NATIVEURBAN28
-        width: 20
-        length: 20
-      - name: NATIVEURBAN29
-        width: 20
-        length: 20
-      - name: NATIVEURBAN30
-        width: 20
-        length: 20
-      - name: NATIVEURBAN31
-        width: 20
-        length: 20
-      - name: NATIVEURBAN32
-        width: 10
-        length: 10
-      - name: NATIVEURBAN33
-        width: 10
-        length: 10
-      - name: NATIVEURBAN34
-        width: 10
-        length: 10
-      - name: NATIVEURBAN35
-        width: 10
-        length: 10
-      - name: NATIVEURBAN36
-        width: 10
-        length: 10
-      - name: NATIVEURBAN37
-        width: 20
-        length: 20
-      - name: NATIVEURBAN38
-        width: 20
-        length: 20
-      - name: NATIVEURBAN39
-        width: 20
-        length: 20
-      - name: NATIVEURBAN40
-        width: 20
-        length: 20
-      - name: NATIVEURBAN41
-        width: 20
-        length: 20
-      - name: NATIVEURBAN42
-        width: 20
-        length: 20
-      - name: NATIVEURBAN43
-        width: 20
-        length: 20
-      - name: NATIVEURBAN44
-        width: 20
-        length: 20
-      - name: NATIVEURBAN45
-        width: 10
-        length: 10
-      - name: NATIVEURBAN46
-        width: 10
-        length: 10
-        groups: 1
-  - name: RAILYARDURBAN
-    mapDataSets:
-      - BLANKS
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
-    civilianTypes:
-      - MALE_CIVILIAN
-      - FEMALE_CIVILIAN
-#      - NPC_SOLDIER
-    script: RAILYARDURBAN
-    mapBlocks:
-      - name: RAILYARDURBAN00
-        width: 10
-        length: 10
-        groups: 1
-      - name: RAILYARDURBAN01
-        width: 10
-        length: 10
-        groups: 2
-      - name: RAILYARDURBAN02
-        width: 10
-        length: 10
-        groups: 3
-      - name: RAILYARDURBAN03
-        width: 10
-        length: 10
-        groups: 3
-      - name: RAILYARDURBAN04
-        width: 10
-        length: 10
-        groups: 3
-      - name: RAILYARDURBAN05
-        width: 10
-        length: 10
-        groups: 4
-      - name: RAILYARDURBAN06
-        width: 10
-        length: 10
-        groups: 4
-      - name: RAILYARDURBAN07
-        width: 10
-        length: 10
-        groups: 4
-      - name: RAILYARDURBAN08
-        width: 10
-        length: 10
-        groups: 2
-      - name: RAILYARDURBAN09
-        width: 10
-        length: 10
-        groups: 2
-      - name: RAILYARDURBAN11
-        width: 20
-        length: 20
-      - name: RAILYARDURBAN12
-        width: 20
-        length: 20
-      - name: RAILYARDURBAN13
-        width: 20
-        length: 20
-      - name: RAILYARDURBAN14
-        width: 20
-        length: 20
-      - name: RAILYARDURBAN15
-        width: 20
-        length: 20
-      - name: RAILYARDURBAN16
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN17
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN18
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN19
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN20
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN21
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN22
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN23
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN24
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN25
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN26
-        width: 10
-        length: 10
-      - name: RAILYARDURBAN27
-        width: 10
-        length: 10
-# XCom Base tiles, vainilla blocks, trying to be improved by blackwolf        
-  - name: XBASE
-    mapDataSets:
-      - BLANKS
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-    # civilianTypes:  #ojito q esto sera luego
-    #   - STR_CIV_SCIENTIST_M
-    #   - STR_CIV_SCIENTIST_F
-    mapBlocks:
-      - name: XBASE_00 # Access Lift
-        width: 10
-        length: 10
-      - name: XBASE_01 # Living Quarters
-        width: 10
-        length: 10
-      - name: XBASE_02 # Laboratory
-        width: 10
-        length: 10
-      - name: XBASE_03 # Workshop
-        width: 10
-        length: 10
-      - name: XBASE_04 # Small Radar
-        width: 10
-        length: 10
-      - name: XBASE_05 # Large Radar
-        width: 10
-        length: 10
-      - name: XBASE_06 # Missiles Defence
-        width: 10
-        length: 10
-      - name: XBASE_07 # General Stores
-        width: 10
-        length: 10
-      - name: XBASE_08 # Alien Containment
-        width: 10
-        length: 10
-      - name: XBASE_09 # Laser Defence
-        width: 10
-        length: 10
-      - name: XBASE_10 # Plasma Defence
-        width: 10
-        length: 10
-      - name: XBASE_11 # Fusion Ball Defence
-        width: 10
-        length: 10
-      - name: XBASE_12 # Grav Shield
-        width: 10
-        length: 10
-      - name: XBASE_13 # Mind Shield
-        width: 10
-        length: 10
-      - name: XBASE_14 # Psi- Lab
-        width: 10
-        length: 10
-      - name: XBASE_15 # Hyper-Wave Decoder
-        width: 10
-        length: 10
-      - name: XBASE_16 # Hangar NW Block
-        width: 10
-        length: 10
-      - name: XBASE_17 # Hangar NE Block
-        width: 10
-        length: 10
-      - name: XBASE_18 # Hangar SW Block
-        width: 10
-        length: 10
-      - name: XBASE_19 # Hangar SE Block
-        width: 10
-        length: 10
-      - name: XBASE_20 # Dirt Fill block
-        width: 10
-        length: 10
-# XCom Base blocks , expanded by other users
-      - name: XBASS_00 # Empty Room
-        width: 10
-        length: 10
-      - name: XBASS_02 # Large Living Quarters NW Block
-        width: 10
-        length: 10
-      - name: XBASS_03 # Large Living Quarters NE Block
-        width: 10
-        length: 10
-      - name: XBASS_04 # Large Living Quarters SW Block
-        width: 10
-        length: 10
-      - name: XBASS_05 # Large Living Quarters SE Block
-        width: 10
-        length: 10
-      - name: XBASS_06 # Large Storage Facility NW Block
-        width: 10
-        length: 10
-      - name: XBASS_07 # Large Storage Facility NE Block
-        width: 10
-        length: 10
-      - name: XBASS_08 # Large Storage Facility SW Block
-        width: 10
-        length: 10
-      - name: XBASS_09 # Large Storage Facility SE Block
-        width: 10
-        length: 10
-      - name: XBASS_23 # Gym
-        width: 10
-        length: 10
-      - name: XBASS_24 # Corridor
-        width: 10
-        length: 10
-      - name: XBASS_25 # SickBay
-        width: 10
-        length: 10
-      - name: XBASS_60 # Advanced Sickbay
-        width: 10
-        length: 10
-# Xops made facilities
-      - name: XOPSXBASE02 # Large Laboratory NW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE03 # Large Laboratory NE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE04 # Large Laboratory SW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE05 # Large Laboratory SE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE06 # Security Station
-        width: 10
-        length: 10
-      - name: XOPSXBASE07 # Large Workshop NW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE08 # Large Workshop NE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE09 # Large Workshop SW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE10 # Large Workshop SE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE11 # Satellite Network NW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE12 # Satellite Network NE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE13 # Satellite Network SW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE14 # Satellite Network SE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE16 # Hyper-Wave Network NW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE17 # Hyper-Wave Network NE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE18 # Hyper-Wave Network SW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE19 #Hyper-Wave Network SE Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE20 # Large Psy Lab NW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE21 # Large Psy Lab NW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE22 # Large Psy Lab SW Block
-        width: 10
-        length: 10
-      - name: XOPSXBASE23 # Large Psy Lab SE Block
-        width: 10
-        length: 10
-##### end of experimentation
-
-  - name: XOPSALIENBASE
-    ambience: 300
-    ambientVolume: 3
-    mapDataSets:
-      - BLANKS
-      - XOPSUFOFLOOR
-      - XOPSUFOWALLS
-      - XOPSUFOITEMS1
-      - XOPSUFOITEMS2
-      - XOPSUFOABDUCTION
-      - XOPSUFOHARVEST
-      - XOPSUFOSUPPLY
-      - XOPSUFORESEARCH
-      - XOPSUFOCLONES
-      - XOPSALIENBASE1
-    mapBlocks:
-      - name: XOPSALIENBASE01
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE02
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: [1, 2]
-      - name: XOPSALIENBASE03
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE04
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE05
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE06
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE07
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE08
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE09
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE10
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE11
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE12
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE13
-        width: 10
-        length: 10
-        groups: 1
-      - name: XOPSALIENBASE14
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE15
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE16
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE17
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE18
-        width: 10
-        length: 10
-      - name: XOPSALIENBASE19
-        width: 20
-        length: 20
-      - name: XOPSALIENBASE20
-        width: 20
-        length: 20
-      - name: XOPSALIENBASE21
-        width: 20
-        length: 20
-      - name: XOPSALIENBASE22
-        width: 20
-        length: 20
-      - name: XOPSALIENBASE25
-        width: 20
-        length: 20
-      - name: XOPSALIENBASE26
-        width: 20
-        length: 20
-        groups: 3
   - name: IDT_AIRPORT # by IDT - Luke83 & efrenespartano
     script: OLD_PORT_SCRIPT
-    # enviroEffects: STR_LAND
     mapDataSets:
       - BLANKS
       - IDT_PLANE_2
@@ -1867,9 +73,9 @@ terrains:
       - name: AIRBASE17
         width: 20
         length: 20
-      - name: AIRBASE18
-        width: 20
-        length: 20
+      #- name: AIRBASE18
+      #  width: 20
+      #  length: 20
       - name: AIRBASE19
         width: 20
         length: 20
@@ -1978,10 +184,10 @@ terrains:
         width: 10
         length: 10
         # groups: 2 # rice
-      # - name: ALT_BARN_19
-      #   width: 10
-      #   length: 10
-      #   groups: 4 # HILLS
+      - name: ALT_BARN_19 #estaba desactivado, lo active para checar el mod, ojito
+        width: 10
+        length: 10
+        groups: 4 # HILLS
 
   - name: IDT_RED_FARM # By efrenespartano, Luke83 & Solarius Scorch
     script: FARM_RED
@@ -2129,6 +335,7 @@ terrains:
         width: 10
         length: 10
         groups: 7
+
 
   - name: EXPANDED_TERROR #Thanks to HellRazor
     mapDataSets:
@@ -2633,219 +840,219 @@ terrains:
         length: 20
 #END EXPANDED UBASE
 
-  # - name: ACULTA   # by bulletdesigner
-  #   script: FARM
-  #   mapDataSets:
-  #     - BLANKS
-  #     - GOTHIC
-  #     - ACHURCH
-  #     - ACHURCH2
-  #     - ACHURCH3
-  #     - AGROUND
-  #     - ACHURCH4
-  #   mapBlocks:
-  #     - name: AULTA00
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA01
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA02
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA03
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA04
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA05
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA06
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA07
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA08
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA09
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA10
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA11
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA12
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA13
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA14
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA15
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA16
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA17
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA18
-  #       width: 10
-  #       length: 10
-  # - name: ACULTASAND  # by bulletdesigner
-  #   script: FARM
-  #   mapDataSets:
-  #     - BLANKS
-  #     - GOTHICSAND
-  #     - ACHURCH
-  #     - ACHURCH2
-  #     - ACHURCH3
-  #     - AGROUND
-  #     - ACHURCH4
-  #   mapBlocks:
-  #     - name: AULTA00
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA01
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA02
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA03
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA04
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA05
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA06
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA07
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA08
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA09
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA10
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA11
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA12
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA13
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA14
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA15
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA16
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA17
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA18
-  #       width: 10
-  #       length: 10
-  # - name: ACULTASNOW  # by bulletdesigner
-  #   script: FARM
-  #   mapDataSets:
-  #     - BLANKS
-  #     - GOTHICSNOW
-  #     - ACHURCH
-  #     - ACHURCH2
-  #     - ACHURCH3
-  #     - AGROUND
-  #     - ACHURCH4
-  #   mapBlocks:
-  #     - name: AULTA00
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA01
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA02
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA03
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA04
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA05
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA06
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA07
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA08
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA09
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA10
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA11
-  #       width: 10
-  #       length: 10
-  #       groups: 1
-  #     - name: AULTA12
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA13
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA14
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA15
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA16
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA17
-  #       width: 10
-  #       length: 10
-  #     - name: AULTA18
-  #       width: 10
-  #       length: 10
+  - name: ACULTA   # by bulletdesigner
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - GOTHIC
+      - ACHURCH
+      - ACHURCH2
+      - ACHURCH3
+      - AGROUND
+      - ACHURCH4
+    mapBlocks:
+      - name: AULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA01
+        width: 10
+        length: 10
+      - name: AULTA02
+        width: 10
+        length: 10
+      - name: AULTA03
+        width: 10
+        length: 10
+      - name: AULTA04
+        width: 10
+        length: 10
+      - name: AULTA05
+        width: 10
+        length: 10
+      - name: AULTA06
+        width: 10
+        length: 10
+      - name: AULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA08
+        width: 10
+        length: 10
+      - name: AULTA09
+        width: 10
+        length: 10
+      - name: AULTA10
+        width: 10
+        length: 10
+      - name: AULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA12
+        width: 10
+        length: 10
+      - name: AULTA13
+        width: 10
+        length: 10
+      - name: AULTA14
+        width: 10
+        length: 10
+      - name: AULTA15
+        width: 10
+        length: 10
+      - name: AULTA16
+        width: 10
+        length: 10
+      - name: AULTA17
+        width: 10
+        length: 10
+      - name: AULTA18
+        width: 10
+        length: 10
+  - name: ACULTASAND  # by bulletdesigner
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - GOTHICSAND
+      - ACHURCH
+      - ACHURCH2
+      - ACHURCH3
+      - AGROUND
+      - ACHURCH4
+    mapBlocks:
+      - name: AULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA01
+        width: 10
+        length: 10
+      - name: AULTA02
+        width: 10
+        length: 10
+      - name: AULTA03
+        width: 10
+        length: 10
+      - name: AULTA04
+        width: 10
+        length: 10
+      - name: AULTA05
+        width: 10
+        length: 10
+      - name: AULTA06
+        width: 10
+        length: 10
+      - name: AULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA08
+        width: 10
+        length: 10
+      - name: AULTA09
+        width: 10
+        length: 10
+      - name: AULTA10
+        width: 10
+        length: 10
+      - name: AULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA12
+        width: 10
+        length: 10
+      - name: AULTA13
+        width: 10
+        length: 10
+      - name: AULTA14
+        width: 10
+        length: 10
+      - name: AULTA15
+        width: 10
+        length: 10
+      - name: AULTA16
+        width: 10
+        length: 10
+      - name: AULTA17
+        width: 10
+        length: 10
+      - name: AULTA18
+        width: 10
+        length: 10
+  - name: ACULTASNOW  # by bulletdesigner
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - GOTHICSNOW
+      - ACHURCH
+      - ACHURCH2
+      - ACHURCH3
+      - AGROUND
+      - ACHURCH4
+    mapBlocks:
+      - name: AULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA01
+        width: 10
+        length: 10
+      - name: AULTA02
+        width: 10
+        length: 10
+      - name: AULTA03
+        width: 10
+        length: 10
+      - name: AULTA04
+        width: 10
+        length: 10
+      - name: AULTA05
+        width: 10
+        length: 10
+      - name: AULTA06
+        width: 10
+        length: 10
+      - name: AULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA08
+        width: 10
+        length: 10
+      - name: AULTA09
+        width: 10
+        length: 10
+      - name: AULTA10
+        width: 10
+        length: 10
+      - name: AULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA12
+        width: 10
+        length: 10
+      - name: AULTA13
+        width: 10
+        length: 10
+      - name: AULTA14
+        width: 10
+        length: 10
+      - name: AULTA15
+        width: 10
+        length: 10
+      - name: AULTA16
+        width: 10
+        length: 10
+      - name: AULTA17
+        width: 10
+        length: 10
+      - name: AULTA18
+        width: 10
+        length: 10
   - name: POLAR_BD # by bulletdesigner
     mapDataSets:
       - BLANKS
@@ -5115,6 +3322,7 @@ terrains:
       - name: ISLANDURBAN14
         width: 10
         length: 10
+
   - name: NOOBERIA # by Dioxine, Solarius Scorch & Brain_322
     mapDataSets:
       - BLANKS
@@ -5210,9 +3418,9 @@ terrains:
       - name: NOOBERIA29
         width: 10
         length: 10
-#########################################
-#### CRUISE LINER BY SOLARIUS SCORCH ####
-#########################################
+############################################
+###### CRUISE LINER BY SOLARIUS SCORCH ####
+##########################################
   - name: CRUISE_LINER
     mapDataSets:
       - BLANKS
@@ -5951,3 +4159,1803 @@ terrains:
       - name: URBAN18
         width: 10
         length: 10
+
+########################
+########################
+##### originales de xops
+########################
+########################
+
+
+  - name: CULTA
+    script: DEFAULT
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+      - name: CULTAFARM00
+        width: 20
+        length: 20
+      - name: CULTAFARM01
+        width: 10
+        length: 10
+#      - name: CULTAFARM02
+#        width: 10
+#        length: 10
+      - name: CULTAFARM03
+        width: 10
+        length: 10
+      - name: CULTAFARM04
+        width: 10
+        length: 10
+      - name: CULTAFARM05
+        width: 10
+        length: 10
+      - name: CULTAFARM06
+        width: 10
+        length: 10
+      - name: CULTAFARM07
+        width: 20
+        length: 20
+      - name: CULTAFARM08
+        width: 20
+        length: 20
+      - name: CULTAFARM09
+        width: 20
+        length: 20
+      - name: CULTAFARM10
+        width: 10
+        length: 10
+      - name: CULTAFARM11
+        width: 10
+        length: 10
+      - name: CULTAFARM12
+        width: 10
+        length: 10
+      - name: CULTAFARM13
+        width: 10
+        length: 10
+      - name: CULTAFARM14
+        width: 20
+        length: 20
+      - name: CULTAFARM15
+        width: 20
+        length: 20
+      - name: CULTAFARM16
+        width: 10
+        length: 10
+      - name: CULTAFARM17
+        width: 20
+        length: 20
+      - name: CULTAFARM18
+        width: 20
+        length: 20
+      - name: CULTAFARM19
+        width: 10
+        length: 10
+      - name: CULTAFARM20
+        width: 10
+        length: 10
+      - name: CULTAFARM21
+        width: 10
+        length: 10
+      - name: CULTAFARM22
+        width: 20
+        length: 20
+  - name: CODEXJUNGLE
+    mapDataSets:
+      - BLANKS
+      - MUJUNGLE
+      - XOPSMUJUNGLEADDON
+      - XOPSUPLINK
+    script: CODEX
+    mapBlocks:
+      - name: XOPSCODEXJUNGLE01
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: XOPSCODEXJUNGLE02
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE03
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE04
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE05
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE06
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE07
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE08
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE09
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE10
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSCODEXJUNGLE11
+        width: 20
+        length: 20
+        groups: 3
+        items:
+          STR_CODEX_KEY:
+            - [9, 9, 0]
+      - name: XOPSCODEXJUNGLE12
+        width: 20
+        length: 20
+      - name: XOPSCODEXJUNGLE13
+        width: 20
+        length: 20
+      - name: XOPSCODEXJUNGLE14
+        width: 20
+        length: 20
+  - name: CODEXARCTIC
+    mapDataSets:
+      - BLANKS
+      - MUICE
+      - XOPSMUICEADDON
+      - XOPSUPLINK
+    script: CODEX
+    mapBlocks:
+      - name: XOPSCODEXJUNGLE01
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: XOPSCODEXJUNGLE02
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE03
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE04
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE05
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE06
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE07
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE08
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE09
+        width: 10
+        length: 10
+      - name: XOPSCODEXJUNGLE10
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSCODEXJUNGLE11
+        width: 20
+        length: 20
+        groups: 3
+        items:
+          STR_CODEX_KEY:
+            - [9, 9, 0]
+      - name: XOPSCODEXJUNGLE12
+        width: 20
+        length: 20
+      - name: XOPSCODEXJUNGLE13
+        width: 20
+        length: 20
+      - name: XOPSCODEXJUNGLE14
+        width: 20
+        length: 20
+  - name: DAWNURBANA
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+#      - NPC_SOLDIER
+    script: DAWNURBANA
+    mapBlocks:
+      - name: DAWNURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN07
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN09
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN10
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN11
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN12
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN14
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN16
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN17
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN18
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN19
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN20
+        width: 20
+        length: 20
+      - name: DAWNURBAN21
+        width: 20
+        length: 20
+      - name: DAWNURBAN22
+        width: 20
+        length: 20
+      - name: DAWNURBAN23
+        width: 20
+        length: 20
+      - name: DAWNURBAN24
+        width: 20
+        length: 20
+      - name: DAWNURBAN25
+        width: 20
+        length: 20
+      - name: DAWNURBAN26
+        width: 20
+        length: 20
+      - name: DAWNURBAN27
+        width: 20
+        length: 20
+      - name: DAWNURBAN28
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN29
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN30
+        width: 10
+        length: 10
+      - name: DAWNURBAN31
+        width: 10
+        length: 10
+      - name: DAWNURBAN32
+        width: 10
+        length: 10
+      - name: DAWNURBAN33
+        width: 10
+        length: 10
+      - name: DAWNURBAN34
+        width: 10
+        length: 10
+      - name: DAWNURBAN35
+        width: 10
+        length: 10
+      - name: DAWNURBAN36
+        width: 10
+        length: 10
+      - name: DAWNURBAN37
+        width: 10
+        length: 10
+      - name: DAWNURBAN38
+        width: 10
+        length: 10
+      - name: DAWNURBAN39
+        width: 10
+        length: 10
+  - name: DAWNURBANB
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+#      - NPC_SOLDIER
+    script: DAWNURBANB
+    mapBlocks:
+      - name: DAWNURBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN41
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN42
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN43
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN44
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN45
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN46
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN47
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN48
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN49
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN50
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN51
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN52
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN53
+        width: 10
+        length: 10
+      - name: DAWNURBAN54
+        width: 10
+        length: 10
+      - name: DAWNURBAN55
+        width: 10
+        length: 10
+      - name: DAWNURBAN56
+        width: 10
+        length: 10
+      - name: DAWNURBAN57
+        width: 10
+        length: 10
+      - name: DAWNURBAN58
+        width: 10
+        length: 10
+      - name: DAWNURBAN59
+        width: 10
+        length: 10
+      - name: DAWNURBAN60
+        width: 20
+        length: 20
+      - name: DAWNURBAN61
+        width: 20
+        length: 20
+      - name: DAWNURBAN62
+        width: 20
+        length: 20
+      - name: DAWNURBAN63
+        width: 20
+        length: 20
+      - name: DAWNURBAN64
+        width: 20
+        length: 20
+      - name: DAWNURBAN65
+        width: 20
+        length: 20
+      - name: DAWNURBAN66
+        width: 20
+        length: 20
+      - name: DAWNURBAN67
+        width: 20
+        length: 20
+  - name: DESERT
+    mapDataSets:
+      - BLANKS
+      - XOPSDESERT
+  - name: DESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - DESERTMOUNT
+      - XOPSDESERT
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+  - name: DESERTTEMPLE
+    mapDataSets:
+      - BLANKS
+      - SANDS
+      - ATLANTDESERT
+      - XOPSDESERT
+    script: DESERT
+    mapBlocks:
+      - name: ATLANTDESERT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ATLANTDESERT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: ATLANTDESERT02
+        width: 10
+        length: 10
+      - name: ATLANTDESERT03
+        width: 10
+        length: 10
+      - name: ATLANTDESERT04
+        width: 10
+        length: 10
+      - name: ATLANTDESERT05
+        width: 10
+        length: 10
+      - name: ATLANTDESERT06
+        width: 10
+        length: 10
+      - name: ATLANTDESERT07
+        width: 10
+        length: 10
+      - name: ATLANTDESERT08
+        width: 10
+        length: 10
+      - name: ATLANTDESERT09
+        width: 10
+        length: 10
+      - name: ATLANTDESERT10
+        width: 20
+        length: 20
+      - name: ATLANTDESERT11
+        width: 20
+        length: 20
+      - name: ATLANTDESERT12
+        width: 20
+        length: 20
+  - name: FORESTMOUNT
+    mapDataSets:
+      - BLANKS
+      - FORESTMOUNT
+      - FOREST
+      - FORESTMOUNTBITS
+    script: DESERT
+    mapBlocks:
+      - name: FORESTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTMOUNT02
+        width: 10
+        length: 10
+      - name: FORESTMOUNT03
+        width: 10
+        length: 10
+      - name: FORESTMOUNT04
+        width: 10
+        length: 10
+      - name: FORESTMOUNT05
+        width: 10
+        length: 10
+      - name: FORESTMOUNT06
+        width: 10
+        length: 10
+      - name: FORESTMOUNT07
+        width: 10
+        length: 10
+      - name: FORESTMOUNT08
+        width: 10
+        length: 10
+      - name: FORESTMOUNT09
+        width: 10
+        length: 10
+      - name: FORESTMOUNT10
+        width: 10
+        length: 10
+      - name: FORESTMOUNT11
+        width: 20
+        length: 20
+      - name: FORESTMOUNT12
+        width: 20
+        length: 20
+      - name: FORESTMOUNT13
+        width: 20
+        length: 20
+      - name: FORESTMOUNT14
+        width: 20
+        length: 20
+      - name: FORESTMOUNT15
+        width: 10
+        length: 10
+      - name: FORESTMOUNT16
+        width: 10
+        length: 10
+      - name: FORESTMOUNT17
+        width: 10
+        length: 10
+      - name: FORESTMOUNT18
+        width: 10
+        length: 10
+      - name: FORESTMOUNT19
+        width: 10
+        length: 10
+      - name: FORESTMOUNT20
+        width: 10
+        length: 10
+      - name: FORESTMOUNT21
+        width: 10
+        length: 10
+      - name: FORESTMOUNT22
+        width: 10
+        length: 10
+      - name: FORESTMOUNT23
+        width: 10
+        length: 10
+      - name: FORESTMOUNT24
+        width: 10
+        length: 10
+      - name: FORESTMOUNT25
+        width: 20
+        length: 20
+      - name: FORESTMOUNT26
+        width: 20
+        length: 20
+  - name: INDUSTRIALURBAN
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+#      - NPC_SOLDIER
+    script: INDUSTRIALURBAN
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+  - name: INDUSTRIALUFO
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+    script: INDUSTRIALUFO
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+  - name: JUNGLEMOUNT
+    mapDataSets:
+      - BLANKS
+      - JUNGLEMOUNT
+      - JUNGLEBITS
+    script: DESERT
+    mapBlocks:
+      - name: JUNGLEMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLEMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLEMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLEMOUNT03
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT04
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT05
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT06
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT07
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT08
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT09
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT10
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT11
+        width: 20
+        length: 20
+      - name: JUNGLEMOUNT12
+        width: 20
+        length: 20
+  - name: JUNGLETEMPLE
+    mapDataSets:
+      - BLANKS
+      - SANDS
+      - MUJUNGLE
+      - JUNGLEBITS
+    script: DESERT
+    mapBlocks:
+      - name: MUJUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MUJUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MUJUNGLE02
+        width: 10
+        length: 10
+      - name: MUJUNGLE03
+        width: 10
+        length: 10
+      - name: MUJUNGLE04
+        width: 10
+        length: 10
+      - name: MUJUNGLE05
+        width: 10
+        length: 10
+      - name: MUJUNGLE06
+        width: 10
+        length: 10
+      - name: MUJUNGLE07
+        width: 10
+        length: 10
+      - name: MUJUNGLE08
+        width: 10
+        length: 10
+      - name: MUJUNGLE09
+        width: 20
+        length: 20
+      - name: MUJUNGLE10
+        width: 20
+        length: 20
+      - name: MUJUNGLE11
+        width: 20
+        length: 20
+      - name: MUJUNGLE12
+        width: 20
+        length: 20
+      - name: MUJUNGLE13
+        width: 20
+        length: 20
+      - name: MUJUNGLE14
+        width: 20
+        length: 20
+  - name: URBAN
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+#      - NPC_SOLDIER
+    script: URBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: MADURBAN10
+        width: 10
+        length: 10
+      - name: MADURBAN11
+        width: 20
+        length: 20
+      - name: MADURBAN12
+        width: 20
+        length: 20
+      - name: MADURBAN13
+        width: 20
+        length: 20
+      - name: MADURBAN19
+        width: 10
+        length: 10
+      - name: MADURBAN20
+        width: 10
+        length: 10
+      - name: MADURBAN21
+        width: 10
+        length: 10
+      - name: MADURBAN22
+        width: 10
+        length: 10
+      - name: MADURBAN23
+        width: 10
+        length: 10
+      - name: MADURBAN24
+        width: 10
+        length: 10
+      - name: MADURBAN25
+        width: 10
+        length: 10
+      - name: MADURBAN26
+        width: 10
+        length: 10
+      - name: MADURBAN27
+        width: 20
+        length: 20
+      - name: MADURBAN28
+        width: 20
+        length: 20
+      - name: MADURBAN29
+        width: 20
+        length: 20
+      - name: MADURBAN30
+        width: 20
+        length: 20
+      - name: MADURBAN31
+        width: 20
+        length: 20
+      - name: MADURBAN32
+        width: 20
+        length: 20
+      - name: MADURBAN33
+        width: 20
+        length: 20
+      - name: MADURBAN34
+        width: 20
+        length: 20
+      - name: MADURBAN35
+        width: 20
+        length: 20
+      - name: MADURBAN36
+        width: 10
+        length: 10
+      - name: MADURBAN37
+        width: 10
+        length: 10
+      - name: MADURBAN38
+        width: 10
+        length: 10
+  - name: NATIVEURBAN
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN
+      - FRNITURE
+      - URBITS
+      - CULTIVAT
+    script: NATIVEURBAN
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+#      - NPC_SOLDIER
+    mapBlocks:
+      - name: NATIVEURBAN00
+        width: 10
+        length: 10
+      - name: NATIVEURBAN01
+        width: 10
+        length: 10
+      - name: NATIVEURBAN02
+        width: 10
+        length: 10
+      - name: NATIVEURBAN03
+        width: 10
+        length: 10
+      - name: NATIVEURBAN04
+        width: 10
+        length: 10
+      - name: NATIVEURBAN05
+        width: 10
+        length: 10
+      - name: NATIVEURBAN06
+        width: 10
+        length: 10
+      - name: NATIVEURBAN07
+        width: 10
+        length: 10
+      - name: NATIVEURBAN08
+        width: 10
+        length: 10
+      - name: NATIVEURBAN09
+        width: 10
+        length: 10
+      - name: NATIVEURBAN10
+        width: 10
+        length: 10
+      - name: NATIVEURBAN11
+        width: 10
+        length: 10
+      - name: NATIVEURBAN12
+        width: 10
+        length: 10
+      - name: NATIVEURBAN13
+        width: 10
+        length: 10
+      - name: NATIVEURBAN14
+        width: 10
+        length: 10
+      - name: NATIVEURBAN15
+        width: 10
+        length: 10
+      - name: NATIVEURBAN16
+        width: 10
+        length: 10
+      - name: NATIVEURBAN17
+        width: 10
+        length: 10
+      - name: NATIVEURBAN18
+        width: 10
+        length: 10
+      - name: NATIVEURBAN19
+        width: 10
+        length: 10
+      - name: NATIVEURBAN20
+        width: 10
+        length: 10
+      - name: NATIVEURBAN21
+        width: 20
+        length: 20
+      - name: NATIVEURBAN22
+        width: 20
+        length: 20
+      - name: NATIVEURBAN23
+        width: 20
+        length: 20
+      - name: NATIVEURBAN24
+        width: 20
+        length: 20
+      - name: NATIVEURBAN25
+        width: 20
+        length: 20
+      - name: NATIVEURBAN26
+        width: 20
+        length: 20
+      - name: NATIVEURBAN27
+        width: 20
+        length: 20
+      - name: NATIVEURBAN28
+        width: 20
+        length: 20
+      - name: NATIVEURBAN29
+        width: 20
+        length: 20
+      - name: NATIVEURBAN30
+        width: 20
+        length: 20
+      - name: NATIVEURBAN31
+        width: 20
+        length: 20
+      - name: NATIVEURBAN32
+        width: 10
+        length: 10
+      - name: NATIVEURBAN33
+        width: 10
+        length: 10
+      - name: NATIVEURBAN34
+        width: 10
+        length: 10
+      - name: NATIVEURBAN35
+        width: 10
+        length: 10
+      - name: NATIVEURBAN36
+        width: 10
+        length: 10
+      - name: NATIVEURBAN37
+        width: 20
+        length: 20
+      - name: NATIVEURBAN38
+        width: 20
+        length: 20
+      - name: NATIVEURBAN39
+        width: 20
+        length: 20
+      - name: NATIVEURBAN40
+        width: 20
+        length: 20
+      - name: NATIVEURBAN41
+        width: 20
+        length: 20
+      - name: NATIVEURBAN42
+        width: 20
+        length: 20
+      - name: NATIVEURBAN43
+        width: 20
+        length: 20
+      - name: NATIVEURBAN44
+        width: 20
+        length: 20
+      - name: NATIVEURBAN45
+        width: 10
+        length: 10
+      - name: NATIVEURBAN46
+        width: 10
+        length: 10
+        groups: 1
+  - name: NATIVEUFO
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN
+      - FRNITURE
+      - URBITS
+      - CULTIVAT
+    script: NATIVEUFO
+    mapBlocks:
+      - name: NATIVEURBAN00
+        width: 10
+        length: 10
+      - name: NATIVEURBAN01
+        width: 10
+        length: 10
+      - name: NATIVEURBAN02
+        width: 10
+        length: 10
+      - name: NATIVEURBAN03
+        width: 10
+        length: 10
+      - name: NATIVEURBAN04
+        width: 10
+        length: 10
+      - name: NATIVEURBAN05
+        width: 10
+        length: 10
+      - name: NATIVEURBAN06
+        width: 10
+        length: 10
+      - name: NATIVEURBAN07
+        width: 10
+        length: 10
+      - name: NATIVEURBAN08
+        width: 10
+        length: 10
+      - name: NATIVEURBAN09
+        width: 10
+        length: 10
+      - name: NATIVEURBAN10
+        width: 10
+        length: 10
+      - name: NATIVEURBAN11
+        width: 10
+        length: 10
+      - name: NATIVEURBAN12
+        width: 10
+        length: 10
+      - name: NATIVEURBAN13
+        width: 10
+        length: 10
+      - name: NATIVEURBAN14
+        width: 10
+        length: 10
+      - name: NATIVEURBAN15
+        width: 10
+        length: 10
+      - name: NATIVEURBAN16
+        width: 10
+        length: 10
+      - name: NATIVEURBAN17
+        width: 10
+        length: 10
+      - name: NATIVEURBAN18
+        width: 10
+        length: 10
+      - name: NATIVEURBAN19
+        width: 10
+        length: 10
+      - name: NATIVEURBAN20
+        width: 10
+        length: 10
+      - name: NATIVEURBAN21
+        width: 20
+        length: 20
+      - name: NATIVEURBAN22
+        width: 20
+        length: 20
+      - name: NATIVEURBAN23
+        width: 20
+        length: 20
+      - name: NATIVEURBAN24
+        width: 20
+        length: 20
+      - name: NATIVEURBAN25
+        width: 20
+        length: 20
+      - name: NATIVEURBAN26
+        width: 20
+        length: 20
+      - name: NATIVEURBAN27
+        width: 20
+        length: 20
+      - name: NATIVEURBAN28
+        width: 20
+        length: 20
+      - name: NATIVEURBAN29
+        width: 20
+        length: 20
+      - name: NATIVEURBAN30
+        width: 20
+        length: 20
+      - name: NATIVEURBAN31
+        width: 20
+        length: 20
+      - name: NATIVEURBAN32
+        width: 10
+        length: 10
+      - name: NATIVEURBAN33
+        width: 10
+        length: 10
+      - name: NATIVEURBAN34
+        width: 10
+        length: 10
+      - name: NATIVEURBAN35
+        width: 10
+        length: 10
+      - name: NATIVEURBAN36
+        width: 10
+        length: 10
+      - name: NATIVEURBAN37
+        width: 20
+        length: 20
+      - name: NATIVEURBAN38
+        width: 20
+        length: 20
+      - name: NATIVEURBAN39
+        width: 20
+        length: 20
+      - name: NATIVEURBAN40
+        width: 20
+        length: 20
+      - name: NATIVEURBAN41
+        width: 20
+        length: 20
+      - name: NATIVEURBAN42
+        width: 20
+        length: 20
+      - name: NATIVEURBAN43
+        width: 20
+        length: 20
+      - name: NATIVEURBAN44
+        width: 20
+        length: 20
+      - name: NATIVEURBAN45
+        width: 10
+        length: 10
+      - name: NATIVEURBAN46
+        width: 10
+        length: 10
+        groups: 1
+  - name: RAILYARDURBAN
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - FRNITURE
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+#      - NPC_SOLDIER
+    script: RAILYARDURBAN
+    mapBlocks:
+      - name: RAILYARDURBAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: RAILYARDURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN02
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN03
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN05
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN06
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN07
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN08
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN09
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN11
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN12
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN13
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN14
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN15
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN16
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN17
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN18
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN19
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN20
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN21
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN22
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN23
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN24
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN25
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN26
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN27
+        width: 10
+        length: 10
+  - name: XOPSALIENBASE
+    ambience: 300
+    ambientVolume: 2
+    mapDataSets:
+      - BLANKS
+      - XOPSUFOFLOOR
+      - XOPSUFOWALLS
+      - XOPSUFOITEMS1
+      - XOPSUFOITEMS2
+      - XOPSUFOABDUCTION
+      - XOPSUFOHARVEST
+      - XOPSUFOSUPPLY
+      - XOPSUFORESEARCH
+      - XOPSUFOCLONES
+      - XOPSALIENBASE1
+    mapBlocks:
+      - name: XOPSALIENBASE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE02
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [1, 2]
+      - name: XOPSALIENBASE03
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE04
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE05
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE06
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE07
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE08
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE09
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE10
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE11
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE12
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE13
+        width: 10
+        length: 10
+        groups: 1
+      - name: XOPSALIENBASE14
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE15
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE16
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE17
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE18
+        width: 10
+        length: 10
+      - name: XOPSALIENBASE19
+        width: 20
+        length: 20
+      - name: XOPSALIENBASE20
+        width: 20
+        length: 20
+      - name: XOPSALIENBASE21
+        width: 20
+        length: 20
+      - name: XOPSALIENBASE22
+        width: 20
+        length: 20
+      - name: XOPSALIENBASE25
+        width: 20
+        length: 20
+      - name: XOPSALIENBASE26
+        width: 20
+        length: 20
+        groups: 3
+# XCom Base tiles, vainilla blocks, trying to be improved by blackwolf        
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+    # civilianTypes:  #ojito q esto sera luego
+    #   - STR_CIV_SCIENTIST_M
+    #   - STR_CIV_SCIENTIST_F
+    mapBlocks:
+      - name: XBASE_00 # Access Lift
+        width: 10
+        length: 10
+      - name: XBASE_01 # Living Quarters
+        width: 10
+        length: 10
+      - name: XBASE_02 # Laboratory
+        width: 10
+        length: 10
+      - name: XBASE_03 # Workshop
+        width: 10
+        length: 10
+      - name: XBASE_04 # Small Radar
+        width: 10
+        length: 10
+      - name: XBASE_05 # Large Radar
+        width: 10
+        length: 10
+      - name: XBASE_06 # Missiles Defence
+        width: 10
+        length: 10
+      - name: XBASE_07 # General Stores
+        width: 10
+        length: 10
+      - name: XBASE_08 # Alien Containment
+        width: 10
+        length: 10
+      - name: XBASE_09 # Laser Defence
+        width: 10
+        length: 10
+      - name: XBASE_10 # Plasma Defence
+        width: 10
+        length: 10
+      - name: XBASE_11 # Fusion Ball Defence
+        width: 10
+        length: 10
+      - name: XBASE_12 # Grav Shield
+        width: 10
+        length: 10
+      - name: XBASE_13 # Mind Shield
+        width: 10
+        length: 10
+      - name: XBASE_14 # Psi- Lab
+        width: 10
+        length: 10
+      - name: XBASE_15 # Hyper-Wave Decoder
+        width: 10
+        length: 10
+      - name: XBASE_16 # Hangar NW Block
+        width: 10
+        length: 10
+      - name: XBASE_17 # Hangar NE Block
+        width: 10
+        length: 10
+      - name: XBASE_18 # Hangar SW Block
+        width: 10
+        length: 10
+      - name: XBASE_19 # Hangar SE Block
+        width: 10
+        length: 10
+      - name: XBASE_20 # Dirt Fill block
+        width: 10
+        length: 10
+# XCom Base blocks , expanded by other users
+      - name: XBASS_00 # Empty Room
+        width: 10
+        length: 10
+      - name: XBASS_02 # Large Living Quarters NW Block
+        width: 10
+        length: 10
+      - name: XBASS_03 # Large Living Quarters NE Block
+        width: 10
+        length: 10
+      - name: XBASS_04 # Large Living Quarters SW Block
+        width: 10
+        length: 10
+      - name: XBASS_05 # Large Living Quarters SE Block
+        width: 10
+        length: 10
+      - name: XBASS_06 # Large Storage Facility NW Block
+        width: 10
+        length: 10
+      - name: XBASS_07 # Large Storage Facility NE Block
+        width: 10
+        length: 10
+      - name: XBASS_08 # Large Storage Facility SW Block
+        width: 10
+        length: 10
+      - name: XBASS_09 # Large Storage Facility SE Block
+        width: 10
+        length: 10
+      - name: XBASS_23 # Gym
+        width: 10
+        length: 10
+      - name: XBASS_24 # Corridor
+        width: 10
+        length: 10
+      - name: XBASS_25 # SickBay
+        width: 10
+        length: 10
+      - name: XBASS_60 # Advanced Sickbay
+        width: 10
+        length: 10
+# Xops made facilities
+      - name: XOPSXBASE02 # Large Laboratory NW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE03 # Large Laboratory NE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE04 # Large Laboratory SW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE05 # Large Laboratory SE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE06 # Security Station
+        width: 10
+        length: 10
+      - name: XOPSXBASE07 # Large Workshop NW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE08 # Large Workshop NE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE09 # Large Workshop SW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE10 # Large Workshop SE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE11 # Satellite Network NW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE12 # Satellite Network NE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE13 # Satellite Network SW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE14 # Satellite Network SE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE16 # Hyper-Wave Network NW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE17 # Hyper-Wave Network NE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE18 # Hyper-Wave Network SW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE19 #Hyper-Wave Network SE Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE20 # Large Psy Lab NW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE21 # Large Psy Lab NW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE22 # Large Psy Lab SW Block
+        width: 10
+        length: 10
+      - name: XOPSXBASE23 # Large Psy Lab SE Block
+        width: 10
+        length: 10
+##### end of experimentation

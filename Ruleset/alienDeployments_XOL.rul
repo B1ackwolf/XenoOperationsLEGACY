@@ -5081,23 +5081,23 @@ alienDeployments:
             []
     width: 50
     length: 50
-    height: 9 #previously 7
+    height: 7 #previously 9
     civilians: 16
     terrains:
       - URBAN
-      - DAWNURBANA
-      - DAWNURBANB
-      - INDUSTRIALURBAN
-      - NATIVEURBAN
+     # - DAWNURBANA  #ojito en nuevo parche de cmp esta desactivado
+     # - DAWNURBANB  #ojito en nuevo parche de cmp esta desactivado
+     # - INDUSTRIALURBAN  #ojito en nuevo parche de cmp esta desactivado
+     # - NATIVEURBAN  #ojito en nuevo parche de cmp esta desactivado
       - EXPANDED_TERROR
       - COMRCURBAN
       - INDUSTRIALSLUM
-      # - TMURBAN #ojito error del mapa
-#      - RAILYARDURBAN
+      - TMURBAN  #ojito posible error del mapa
     alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
     briefing:
       palette: 2
-      music: GMENBASE    
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1000
@@ -5125,7 +5125,7 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 9 #previously 7
+    height: 7 #previously 9
     civilians: 16
     terrains:
       - IDT_VILLAGE
@@ -5143,11 +5143,11 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 9 #previously 7
+    height: 7 #previously 9
     civilians: 16
     terrains:
       - IDT_SNOWVILLAGE
-      # - TPURBAN # ojito error del mapa
+      - TPURBAN # ojito error del mapa
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -5161,14 +5161,14 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 9 #previously 7
+    height: 7 #previously 9
     civilians: 16
     terrains:
       - ISLANDURBAN
-      # - TJURBAN #ojito error del mapa
-      # - TMURBAN #ojito error del mapa
-      - EXPANDED_TERROR
-      - IDT_AIRPORT
+    #  - EXPANDED_TERROR  #ojito en nuevo parche de cmp esta desactivado
+    #  - IDT_AIRPORT  #ojito en nuevo parche de cmp esta desactivado
+      - TJURBAN #ojito error del mapa
+      - TMURBAN #ojito error del mapa
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -5199,7 +5199,7 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 9 #previously 7
+    height: 7 #previously 9
     civilians: 16
     terrains:
       - URBAN

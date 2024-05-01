@@ -256,6 +256,7 @@ craft changes
    * el hangar recibio algunos cambios para permitir mayor movilidad de las unidades HWP desde ciertos angulos, gracias reporte de (revisar en el foro quien me comento esto)   
 	 
 under da hood changes:
+ - limpieza de archivos relacionados con los mapas usando las versiones nuevas de CMP, la primera vez use metodos muy ordinarios, por la falta de experiencia. esta ves use un planteo mas metodico confirmando que no habrian errores, faltaria reordenar y luego 
  -  modificado el nombre de todos los archivos RULESET, las notaciones de los cambios q necesitan y el estado actual de cada uno fue anotado internamente, ayuda a la pulcritud del mod.
  - modificado como se referencian un monton de objetos dentro de los rulesets, si bien no reflejan un cambio apreciable en la jugabilidad, permite tener una mejor nomenclatura de los articulos, como contraparte, deja de ser compatible con el parche anterior
  - corregido un monton de errores en el pacing del arbol de investigaciones. deberian reducirse la cantidad de puntos muertos causados por investigaciones fantasmas  remanentes del mod original

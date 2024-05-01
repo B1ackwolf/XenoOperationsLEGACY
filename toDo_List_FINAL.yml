@@ -7,6 +7,7 @@ TL;DR VERSION:
  - nombres nuevos a considerar para otras especies
   * psion, archon, elder, apex, hunter, stalker, broodmother, drone(insect)
   * Brute,,Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
+  * revisar nombres de rangos especies y criaturas de gears of war (ejem, scion.)
 
 + cantidad de xelloys / elerium aprox, tener en cuenta para balancear:
  - survey skiff = 6x / 10e
@@ -26,8 +27,17 @@ TL;DR VERSION:
  - Base defense = 75X / 20e + 180 supplies
 
 + hoja de ruta para 0.98.1:
+ - hacer siguiente armadura de perritos, si puedo, confio en mi.
+ - acomodar colores de las imagenes basebits.
+   * las clinicas cambiarle de color a la camas basica a verde
+   * el piso de la clinica basica modificarlo a las losas grises estandares
+   * rehacer enteramente la caseta de defensa (usar pedazos del hangar para lo metalico)
+   * revisar si puedo hacer los de las de 4 pedazos.
+
+ - cuando llegue revisar bien el orden de las misiones en new battle, asi confirmo si cambio algo mas
  - reducir el precio de todas las cosas iniciales YA reducir entre 100 y ajustar a precios relativos coherentes revisar costbuy y agregar los q hagan faltan
- - balancear requerimientos de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso, ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
+ - balancear requerimientos de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
+ - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
  
  - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
 
@@ -50,6 +60,8 @@ TL;DR VERSION:
    * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
  - PERRITOS MATAN A CYBERDISC. bug o feature?
+   * de hecho matan a demasiados alienes q no deberian
+   * deberia considerarse si tienen o no armadura, a partir de alli haran daño o no
  - Review the changes made to alien species and reclassify their STR_ reference names accurately.
    * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
      ~ Should be a new project that need an X ammount of bodies for testing and exploring any weaknesses.
@@ -151,8 +163,7 @@ IMPORTANTE PARA LORE:
  - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
    * usaran trajes azules
  - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets? 
-   * recolorizar TODAS LAS TIERS para implementar pilotos en rojo 
-   * modificar el rank sprite sheet
+   * modificar el rank sprite sheet a rojo
    * pintar nuevamente imagen de piloto de la ufopaedia a color rojo
    * modificar el casco del piloto basico
  - crear unidad parecida a perro pero q sea "drone core"
@@ -369,7 +380,7 @@ IMPORTANTE PARA LORE:
  - Create new lore for the bishop (Interceptor improved xcf1).
    * in short, its an xelloy plated f35, renamed to xyf-36b
  - Improve the rider and rook ufopaedia lore. 
- - Change the lore and description of the SR-71 to something cooler.
+ - Change the lore and description of the SR-71 CORMORANT to something cooler.
    * new ideas for improved planes.
      ~ Shearwater?
      ~ Albatross
@@ -436,9 +447,9 @@ IMPORTANTE PARA LORE:
  - Add underwear and/or T-shirts to sprites like the new ones in the US Army (keep it SFW).
  - Sectopod aliens are xelloy blue; in contrast, human sectopods will be brown. Confirm this.
    * Blue color has already been changed; only need to create the human sectopods.
- - hacer cambios en globemarkers
  - Explore sources for improved versions of map and globe symbols.
    * Check TFTD+ or Unexcom to understand how the ruleset works for this.
+     ~ must define using globemarkers.
      ~ Use the "marker" command assigned to each aircraft.
  - Change background sprites for some screens on the base.
    * Background02 (soldier tab)/ Something more fitting and militarish, perhaps some soldiers formed saluting?
@@ -508,14 +519,13 @@ IMPORTANTE PARA LORE:
  - Total change in the price of items and all projects.
    * To make the numbers more coherent, or at least, as a minimum, reduce the cost of all initial weapons to say that it is scientific notation and is actually divided by a hundreth
    * reducir cost en manufacture
-   * reducir funding de paises
-   * reducir sueldos
    * reducir costes de aeronave
-   * reducir precios de facilities
- - (NEW) Review the file Scang.DAT and check which maps should get their MCD file modified to improve the mapview.
+
 #####
 
 + Long Term Changes:
+ - (NEW) Review the file Scang.DAT and check which maps should get their MCD file modified to improve the mapview.
+   * Priority in cruiser and cargo ship missions.
  - Add new types of missions similar to EU2012.
    * Landed UFO (already implemented).
    * Crashed UFO (already implemented).
@@ -530,18 +540,12 @@ IMPORTANTE PARA LORE:
  - Improve the pacing of missions escalation entirely.
    * Delay terror in major cities by a couple of months.
    * Definitely correct the spawning in cruise ship and boat missions (these might be the first terrors, then remote places like bases/facilities, then major cities).
-   * Avoid key missions appearing in nonsensical locations (Europe, for example).
+   * Avoid ancient key missions appearing in nonsensical locations (Europe, for example).
  - Find out how to make dynamic global reports.
  - Add lore to the previous world, North Korea nuked (paint it red?), Cape of Good Hope nuked (also red?), Haiti, and the Netherlands?, Israel?
- - Create medical technologies to recover wounds for humans (create a medbay and a base with a medbay included?).
- - Improve buildings so that they can be upgraded by building on top.
-   * Priority to defense systems.
  - Completely improve the air game, interception, patrols, etc.
  - Organize and overhaul alien deployments.
  - Adjust the position of the Russian peninsula above the Kuril Islands, finalize changes to the world map.
- - Change all references from "STR_" to all items.
-   * Focusing on chargers and weapons.
-   * Eliminating those that do not exist and focusing them correctly on their new identity.
  - Each council country must have at least 4 cities on the map.
  - Later add ambient music to different maps.
  - Completely improve the sound database.
@@ -564,7 +568,6 @@ IMPORTANTE PARA LORE:
  - Rearrange mission lists to something more coherent.
  - Add a "voices" system with dialogues for responses and more (not so sure about this, tho).
  - Check how the callsings of Vigilo Confido work (ask EfrenEspartano).
- - Pedirles a oxce que los loadouts sean algo definible en un RUL para q pase de partida a partida?
 
 #####
 

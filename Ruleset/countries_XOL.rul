@@ -2,7 +2,7 @@
 # Status: improve "#" notations
 # OJITO
 ###This File contain all new contries,diferent funding levels and surface area
-###ojito, retocar fronteras,posicion de ciudades, ademas de financiacion
+# need to improve the area that covers each countrie
 countries:
 #BEGIN DELETE
   - delete: STR_USA
@@ -31,7 +31,7 @@ countries:
     areas:
       - [289, 306, 22, 39] #Central Argentina
       - [288, 298, 39, 52] #Patagonia
-      - [291.5, 295.5, 52.5, 55.5] #Ziemia Ognista
+      - [291.5, 295.5, 52.5, 55.5] #Tierra del Fuego
 #END ARGENTINA
 #BEGIN AUSTRALIA
   - type: STR_AUSTRALIA

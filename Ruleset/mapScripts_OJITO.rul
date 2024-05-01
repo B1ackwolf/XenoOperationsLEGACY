@@ -16,211 +16,14 @@ mapScripts:
       size: 2
       executions: 2
     - type: fillArea
-  - type: DESERT
+  - type: FARM
     commands:
     - type: addUFO
     - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 3
     - type: fillArea
-  - type: DAWNURBANA
-    commands:
-    - type: addCraft
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 50
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
-      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
-  - type: DAWNURBANB
-    commands:
-    - type: addCraft
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 50
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [11, 12, 13, 14, 15, 16, 17, 18, 19]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: INDUSTRIALURBAN
-    commands:
-    - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: INDUSTRIALUFO
-    commands:
-    - type: addUFO
-    - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: NATIVEURBAN
-    commands:
-    - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: NATIVEUFO
-    commands:
-    - type: addUFO
-    - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: RAILYARDURBAN
-    commands:
-    - type: addCraft
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 50
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: XENOALIENBASE
-    commands:
-    - type: addBlock
-      groups: 2
-      executions: 2
-    - type: addBlock
-      size: 2
-      groups: 3
-    - type: addBlock
-      size: 2
-      executions: 3
-    - type: fillArea
-      groups: [0, 1]
-      freqs: [3, 2]
-    - type: digTunnel
-      direction: both
-      tunnelData:
-        level: 0
-        MCDReplacements:
-          - type: westWall
-            set: 2
-            entry: 15
-          - type: northWall
-            set: 2
-            entry: 14
-#          - type: corner
-#            set: 2
-#            entry: 16
-          - type: floor
-            set: 1
-            entry: 13
-    - type: digTunnel
-      direction: both
-      tunnelData:
-        level: 3
-        MCDReplacements:
-          - type: westWall
-            set: 2
-            entry: 15
-          - type: northWall
-            set: 2
-            entry: 14
-#          - type: corner
-#            set: 2
-#            entry: 16
-          - type: floor
-            set: 1
-            entry: 13
-  - type: CODEX
-    commands:
-    - type: addBlock
-      groups: 2
-      executions: 2
-    - type: addBlock
-      size: 2
-      groups: 3
-    - type: addBlock
-      size: 2
-      executions: 3
-    - type: fillArea
-      groups: [0, 1]
-      freqs: [3, 2]
-    - type: digTunnel
-      direction: both
-      tunnelData:
-        level: 0
-        MCDReplacements:
-          - type: westWall
-            set: 1
-            entry: 46
-          - type: northWall
-            set: 1
-            entry: 40
-          - type: corner
-            set: 1
-            entry: 38
-          - type: floor
-            set: 1
-            entry: 0
-    - type: digTunnel
-      direction: both
-      tunnelData:
-        level: 2
-        MCDReplacements:
-          - type: westWall
-            set: 1
-            entry: 46
-          - type: northWall
-            set: 1
-            entry: 40
-          - type: corner
-            set: 1
-            entry: 38
-          - type: floor
-            set: 1
-            entry: 0
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+
   - type: FARM_RED
     commands:
     - type: addUFO
@@ -238,14 +41,15 @@ mapScripts:
     - type: fillArea
       groups: [0, 1, 5, 6, 7]
       freqs: [2, 2, 2, 3, 4]
-#######
-  - type: FARM
+
+  - type: DESERT
     commands:
     - type: addUFO
     - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 3
     - type: fillArea
-      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
   - type: JUNGLE
     commands:
     - type: addUFO
@@ -295,6 +99,68 @@ mapScripts:
     - type: addBlock
       groups: 2
     - type: fillArea
+  - type: ALIENBASE
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      size: 2
+      groups: 3
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+  - type: BOSSBATTLE
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      groups: 4
+      size: 2
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
   - type: XBASE
     commands:
     - type: digTunnel
@@ -310,8 +176,6 @@ mapScripts:
             entry: 14
     - type: fillArea
       blocks: 20
-
-####### COMMNITY MAPS BELOW #####
 
 ####################################
 ###### AIRPORT WITHOUT UFO ######
@@ -329,20 +193,20 @@ mapScripts:
       groups: 3
       label: 1
       direction: vertical
-      executionChances: 35
+      executionChances: 75
       rects:
         - [1, 1, 4, 1]
     - type: addLine # Trying to add Roads to map
       groups: 2
       label: 2
       conditionals: -1
-      executionChances: 35
+      executionChances: 75
       direction: horizontal
       rects:
         - [1, 1, 1, 4]
     - type: addLine # Trying to add Roads to map
       groups: 4
-      executionChances: 55
+      executionChances: 95
       conditionals: [-1, -2]
       direction: both
     - type: addBlock
@@ -360,36 +224,6 @@ mapScripts:
       size: 2
       executions: 1
       executionChances: 85
-    - type: fillArea
-### RICE FARM ###
-  - type: RICE_FARM_SCRIPT
-    commands:
-    - type: addUFO
-      executions: 1
-      groups: 1
-    - type: addCraft
-      executions: 1
-      groups: 1
-    - type: addBlock
-      # executionChances: 50
-      size: 2
-      executions: 1
-    - type: addBlock
-      # executionChances: 50
-      size: [2, 1]
-      executions: 2
-    - type: addBlock
-      # executionChances: 50
-      size: [1, 2]
-      executions: 2
-    - type: addBlock
-      executions: 2
-      groups: 5 #OJITO corregido?
-    - type: addBlock
-      executions: 2
-      groups: 5
-    - type: addBlock
-      executions: 2
     - type: fillArea
 
   - type: EXPANDED_TERROR  # Thanks to HellRazor 
@@ -426,140 +260,6 @@ mapScripts:
       blocks: [0, 1, 2, 13, 14, 15, 16, 32, 33, 34, 35, 36]
       freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
       maxUses: [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3]
-  - type: ALIENBASE  # Thanks to HellRazor 
-    commands:
-    - type: addBlock #Add Entrances
-      groups: 2
-      executions: 2
-    - type: addBlock #Add Command Center
-      size: 2
-      groups: 3
-    - type: addBlock #Add 20x20 Map Blocks
-      size: 2
-      executions: 4
-    - type: addBlock #Add Entertaiment Room
-      groups: 7
-    - type: addBlock #Add Impassable Power Source Block
-      groups: 9
-    - type: fillArea
-      groups: [0, 1]
-      freqs: [3, 2]
-    - type: digTunnel
-      direction: both
-      tunnelData:
-        level: 0
-        MCDReplacements:
-          - type: westWall
-            set: 2
-            entry: 18
-          - type: northWall
-            set: 2
-            entry: 17
-          - type: corner
-            set: 2
-            entry: 19
-          - type: floor
-            set: 1
-            entry: 63
-#END ALIEN UBASE
-
-#BEGIN BOSSBATTLE
-  - type: BOSSBATTLE  # Thanks to HellRazor 
-    commands:
-    - type: addBlock #Add Alien Brain West
-      label: 1
-      size: 2
-      groups: 4
-      executionChances: 20
-      rects:
-        - [0, 0, 3, 8]
-    - type: addBlock #Add Alien Brain North
-      label: 2
-      conditionals: -1
-      size: 2
-      groups: 4
-      executionChances: 25
-      rects:
-        - [0, 0, 8, 3]
-    - type: addBlock #Add Alien Brain East
-      label: 3
-      conditionals: [-1, -2]
-      size: 2
-      groups: 4
-      executionChances: 33
-      rects:
-        - [5, 0, 3, 8]
-    - type: addBlock #Add Alien Brain South
-      label: 4
-      conditionals: [-1, -2, -3]
-      size: 2
-      groups: 4
-      executionChances: 50
-      rects:
-        - [0, 5, 8, 3]
-    - type: addBlock #Add Brain Vanilla Spawn
-      conditionals: [-1, -2, -3, -4]
-      size: 2
-      groups: 4
-    - type: addBlock #Add Entrances East
-      conditionals: [1, -2, -3, -4]
-      groups: 2
-      executions: 2
-      rects:
-        - [5, 0, 3, 8]
-    - type: addBlock #Add Entrances South
-      conditionals: [-1, 2, -3, -4]
-      groups: 2
-      executions: 2
-      rects:
-        - [0, 5, 8, 3]
-    - type: addBlock #Add Entrances West
-      conditionals: [-1, -2, 3, -4]
-      groups: 2
-      executions: 2
-      rects:
-        - [0, 0, 3, 8]
-    - type: addBlock #Add Entrances North
-      conditionals: [4]
-      groups: 2
-      executions: 2
-      rects:
-        - [0, 0, 8, 3]
-    - type: addBlock #Add Entrances Vanilla Spawn
-      conditionals: [-1, -2, -3, -4]
-      groups: 2
-      executions: 2
-    - type: addBlock #Add Fake Brains
-      size: 2
-      groups: 5
-      executions: 2
-    - type: addBlock #Add 20x20 Blocks
-      size: 2
-      executions: 7
-    - type: addBlock #Add Impassable Power Source Block
-      groups: 9
-      executions: 3
-    - type: fillArea
-      groups: [0, 1, 7, 8]
-      freqs: [4, 2, 1, 2]
-    - type: digTunnel
-      direction: both
-      tunnelData:
-        level: 0
-        MCDReplacements:
-          - type: westWall
-            set: 2
-            entry: 18
-          - type: northWall
-            set: 2
-            entry: 17
-          - type: corner
-            set: 2
-            entry: 19
-          - type: floor
-            set: 1
-            entry: 63
-#END BOSSBATTLE
 
   - type: REFINERYS  # Thanks to BulletDesigner
     commands:
@@ -580,7 +280,7 @@ mapScripts:
       size: 1
       executions: 1
       executionChances: 100
-      UFOName: STR_CONSTRUCTOR #ojito
+      UFOName: STR_CONSTRUCTOR
     - type: addBlock
       size: 2
       executions: 4
@@ -588,6 +288,37 @@ mapScripts:
       blocks: [3, 4, 5, 6, 7, 8, 13, 14, 15, 16, 17]
       freqs: [2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2]
       maxUses: [1, 1, 1, 1, 1, 2, 1, 2, 2, 1, 2]
+    - type: fillArea
+
+### RICE FARM ###
+  - type: RICE_FARM_SCRIPT
+    commands:
+    - type: addUFO
+      executions: 1
+      groups: 1
+    - type: addCraft
+      executions: 1
+      groups: 1
+    - type: addBlock
+      # executionChances: 50
+      size: 2
+      executions: 1
+    - type: addBlock
+      # executionChances: 50
+      size: [2, 1]
+      executions: 2
+    - type: addBlock
+      # executionChances: 50
+      size: [1, 2]
+      executions: 2
+    - type: addBlock
+      executions: 2
+      groups: 4
+    - type: addBlock
+      executions: 2
+      groups: 5
+    - type: addBlock
+      executions: 2
     - type: fillArea
 
   - type: S_IDT_VILLAGE
@@ -687,7 +418,7 @@ mapScripts:
       conditionals: [-1, -2, -3]
       direction: vertical
       executionChances: 50
-      # verticalGroup: 7
+      #verticalGroup: 7
       rects:
         - [1, 1, 4, 1]
     - type: addLine
@@ -695,8 +426,8 @@ mapScripts:
       conditionals: [-1, -2, -3, -4]
       executionChances: 50
       direction: both
-      # verticalGroup: 7
-      # crossingGroup: 8
+      #verticalGroup: 7
+      #crossingGroup: 8
       rects:
         - [1, 1, 4, 4]
     - type: addBlock
@@ -953,3 +684,205 @@ mapScripts:
       # because these are references to the block numbers within the sets, not the file names.
       blocks: [3, 4, 10, 11, 12, 13, 14]
       freqs: [3, 3, 2, 2, 2, 2, 2]
+
+
+##################
+#ojito esto venia del xops original
+
+  - type: DAWNURBANA
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+  - type: DAWNURBANB
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [11, 12, 13, 14, 15, 16, 17, 18, 19]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+  - type: INDUSTRIALURBAN
+    commands:
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  - type: INDUSTRIALUFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  - type: NATIVEURBAN
+    commands:
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  - type: NATIVEUFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  - type: RAILYARDURBAN
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  - type: XENOALIENBASE
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      size: 2
+      groups: 3
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 15
+          - type: northWall
+            set: 2
+            entry: 14
+#          - type: corner
+#            set: 2
+#            entry: 16
+          - type: floor
+            set: 1
+            entry: 13
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 3
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 15
+          - type: northWall
+            set: 2
+            entry: 14
+#          - type: corner
+#            set: 2
+#            entry: 16
+          - type: floor
+            set: 1
+            entry: 13
+  - type: CODEX
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      size: 2
+      groups: 3
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 1
+            entry: 46
+          - type: northWall
+            set: 1
+            entry: 40
+          - type: corner
+            set: 1
+            entry: 38
+          - type: floor
+            set: 1
+            entry: 0
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 2
+        MCDReplacements:
+          - type: westWall
+            set: 1
+            entry: 46
+          - type: northWall
+            set: 1
+            entry: 40
+          - type: corner
+            set: 1
+            entry: 38
+          - type: floor
+            set: 1
+            entry: 0
