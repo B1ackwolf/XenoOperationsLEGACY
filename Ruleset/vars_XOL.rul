@@ -396,6 +396,47 @@ interfaces:
       #- id: ammoColorDT19
       #  color: 32    # red
 
+  - type: geoscape
+    elements:
+      - id: slackingIndicator
+        color: 244   # even lighter blue
+        color2: 133  # minty green
+        custom: -22  # above Intercept button
+  - type: ufopaedia
+    elements:
+      - id: palette
+        color: 7
+      - id: window
+        color: 138
+      - id: text
+        color: 89
+      - id: list
+        color: 133
+        color2: 80
+        border: 239
+      - id: button1
+        color: 138
+      - id: button2
+        color: 138
+  - type: inventory
+    elements:
+      - id: textStatLine1
+        custom: 11
+        color: 64
+        color2: 16
+      - id: textStatLine2
+        custom: 12
+        color: 64
+        color2: 16
+      - id: textStatLine3
+        custom: 13
+        color: 64
+        color2: 16
+      - id: textStatLine4
+        custom: 14
+        color: 64
+        color2: 16
+
 ####################
 invs:
   - id: STR_GROUND

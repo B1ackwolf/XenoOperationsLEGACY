@@ -268,7 +268,7 @@ bugfixes:
 - resuelto error q mostraba ciertos edificios avanzados en la ufopedia desde el principio de la campaña 
 - corregido un problema q impidia q el abomination y el ancient spawn usaran sus armas q venian incorporadas.
 - corregido un error en la sprite de los sectoides en la ufopaedia, habian pixeles coloreados erroneamente generando mucho contraste en su carita.
-
+- corregido un error producido durante el merging de mapas del CMP,en ciertas circustancias se podian producir CTDs relacionados con los ACULTA (gothic terrain), al fin pudo ser resuelto, gracias crazedHarpooner por el insight. 
 
 - solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely (thanks scamps for the report).
 - solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)

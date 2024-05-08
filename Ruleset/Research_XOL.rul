@@ -785,7 +785,7 @@ research:
 ###### aviones de combate
 
 
-  - name: STR_UPDATED_INTERCEPTOR #ojito este es el f1 bishop f35 mejorado
+  - name: STR_UPDATED_INTERCEPTOR # bishop is f35 upgraded
     cost: 40
     points: 15
     dependencies:
@@ -797,7 +797,7 @@ research:
       - STR_ALIEN_ALLOYS
 
 
-  - name: STR_XCF2 #ojito este se cambia por el xf2 rider
+  - name: STR_XCF2 #xf2 rider
     cost: 40
     points: 25
     dependencies:
@@ -807,7 +807,7 @@ research:
     points: 25
     needItem: true
 
-  - name: STR_XCF3 #ojito este se cambia por el xf3 rook
+  - name: STR_XCF3 #xf3 rook
     cost: 70
     points: 25
     dependencies:
@@ -817,7 +817,7 @@ research:
     points: 25
     needItem: true
 
-  - name: STR_XCF4 #ojito este se cambia por el xf4 empress
+  - name: STR_XCF4 #xf4 empress
     cost: 320
     points: 25
     dependencies:
@@ -835,7 +835,7 @@ research:
     dependencies:
       - STR_NEW_FIGHTER_PROGRAM
 
-  - name: STR_SCARAB #cambiar a scarab
+  - name: STR_SCARAB 
     cost: 40
     points: 30
     dependencies:
@@ -846,7 +846,7 @@ research:
     needItem: true
 
 
-  - name: STR_GOLIATHUS #cambiar a goliathus
+  - name: STR_GOLIATHUS 
     cost: 200
     points: 25
     dependencies:
@@ -861,7 +861,7 @@ research:
   - name: STR_UFO_MASTERY
     points: 25
     needItem: true
-  - name: STR_HERCULES #cambiar a hercules
+  - name: STR_HERCULES 
     cost: 800
     points: 25
     dependencies:
@@ -1069,6 +1069,28 @@ research:
       - STR_ELERIUM_EXPLOSIVES
       - STR_AW_DEMOLITION_EXPLOSIVE
       - STR_CODEX_3
+######ojito este son los bangalores, prioridad, revisar todos los bangalores e implementarlos mejor al techtree
+  - name: STR_BO_BANGALORE_CHARGE
+    cost: 100
+    points: 5
+    listOrder: 168
+    dependencies:
+      - STR_ALIEN_ALLOYS
+  - name: STR_BO_BANGALORE_ELERIUM
+    cost: 100
+    points: 5
+    listOrder: 168
+    dependencies:
+      - STR_ALIEN_ALLOYS
+
+
+  - name: STR_BO_BANGALORE_ANTIMATTER
+    cost: 100
+    points: 5
+    listOrder: 168
+    dependencies:
+      - STR_ALIEN_ALLOYS
+#####
   - name: STR_ME_ALLOY_KNIFE #ojito mejorar totalmente
     cost: 40
     points: 10

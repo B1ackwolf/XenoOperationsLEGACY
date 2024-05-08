@@ -1,6 +1,7 @@
 #ideas for the mod, in any specific order:
 
 TL;DR VERSION:
+ - primero actualizar tiempo de duracion de los researches antes de re ordenar OJO
 
  - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
  - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
@@ -10,6 +11,7 @@ TL;DR VERSION:
   * revisar nombres de rangos especies y criaturas de gears of war (ejem, scion.)
  - nombres a considerar para nombres clave de naves , animales mitologicos
   * scylla, behemoth, etc
+
 + cantidad de xelloys / elerium aprox, tener en cuenta para balancear:
  - survey skiff = 6x / 10e
  - raider gunship = 10x / 10e
@@ -28,6 +30,7 @@ TL;DR VERSION:
  - Base defense = 75X / 20e + 180 supplies
 
 + hoja de ruta para 0.98.1:
+####
  - hacer siguiente armadura de perritos, si puedo, confio en mi.
  - acomodar colores de las imagenes basebits.
    * las clinicas cambiarle de color a la camas basica a verde
@@ -35,17 +38,45 @@ TL;DR VERSION:
    * rehacer enteramente la caseta de defensa (usar pedazos del hangar para lo metalico)
    * revisar si puedo hacer los de las de 4 pedazos.
  - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
+
+####
  - actualizar el interfaces y modificar los colres de los elementos de la ufopaedia
    * daño de las armas variaran en base al tipo de dañon
    * el texto sera ligeramente mas oscuro para no cansar tanto la vista
      ~ revisar para q sea todo el texto en general de la ufopaedia.
-   * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)    
- - ojito revisar el sonido de aggro de los carcharodones
+   * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)  
+
+ - al sprite de la multilauncher naranja sera el bangalore basico
+   * eliminarle los mangos y hacerlo parecer mas un explosivo improvisado
+   * girarlo y que quede verticalmente
+   * modificar caracteristicas de items pa q sea 3x2
+ - el tanke de flamer sera modernizado y sera la segunda bangalore de elerium
+ - el tercero sera el high explosive
+ - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
+ - usar el item EScudo
+   * ya consegui los sprites
+   * tengo q recolorizarlos y adaptarlos mejor
+     ~ hacerle floorsprite
+   * usar el script de halo del kin-yar gauntlet
+     ~ recordar darle creditos a filip-H  
+ - copiar el tipo de daño de xfiles?
+   * separar el cutting del melee
+####   
+
  - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
  - usar EL soldado IA para del drone core
  - recordar sacar de xfiles todas las cosas q necesito para los bangalores.
-
  - reducir el precio de todas las cosas iniciales YA reducir entre 100 y ajustar a precios relativos coherentes revisar costbuy y agregar los q hagan faltan
+ - cambiar colores de las battlescape sprites de pilotos a rojo y oscurecer el paperdoll del inventario de la xops un tono mas oscuro tambien, la power armor cambiarle ojos de rojo a amarillo en ese modelo, cambiar colores de paperdolls de cascos tambien.
+ - rehacer todas las armaduras de vuelta de tier 1 , rehacer como habia planteado las armaduras femeninas para q los bolsillos sean iguales en tamaño, se cambia solo el coso del chaleco principal. recordatorio, cuando achico armadura femenina se hace al 96% en sprite resize
+   * luego quedaria por hacer las versiones por distintos tamaños para cada genero
+   * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
+ - hacer q la armadura que sale en el ARMOR for avatar (aprovechar la q se pone en la ufopaedia)
+   * sea distinta, no se pueda usar en el inventario
+   * sin el chaleco pesado pero q posea la boina
+   * con boina distinta segun el tipo de soldado q sea,   
+ - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
+######### 
  - balancear requerimientos de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun y los tubos de demolicion bangalore. asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
  - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
  
@@ -56,16 +87,7 @@ TL;DR VERSION:
  - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
 
 + PRIORITIES FIXES:
- - cambiar colores de las battlescape sprites de pilotos a rojo y oscurecer el paperdoll del inventario de la xops un tono mas oscuro tambien, la power armor cambiarle ojos de rojo a amarillo en ese modelo, cambiar colores de paperdolls de cascos tambien.
-   * recordar hacer backup de la base de la armadura vieja en rojo, para q quede como plantilla para las de mas adelante
- - rehacer todas las armaduras de vuelta de tier 1 , rehacer como habia planteado las armaduras femeninas para q los bolsillos sean iguales en tamaño, se cambia solo el coso del chaleco principal. recordatorio, cuando achico armadura femenina se hace al 96% en sprite resize
-   * luego quedaria por hacer las versiones por distintos tamaños para cada genero
-   * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
- - hacer q la armadura que sale en el ARMOR for avatar (aprovechar la q se pone en la ufopaedia)
-   * sea distinta, no se pueda usar en el inventario
-   * sin el chaleco pesado pero q posea la boina
-   * con boina distinta segun el tipo de soldado q sea,   
- - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
+ - ojito revisar el sonido de aggro de los carcharodones
  - PERRITOS MATAN A CYBERDISC. bug o feature?
    * de hecho matan a demasiados alienes q no deberian
    * deberia considerarse si tienen o no armadura, a partir de alli haran daño o no
@@ -596,15 +618,21 @@ IMPORTANTE PARA LORE:
 
 + This should be the new order in the ufopaedia:
  - This is the listorder of categories.
-   * 0= dossiers and background info
-   * 100= alien research
-   * 200= alien artifacts
-   * 300= ufo components
-   * 400= ufos
-   * 500= alien life forms
-   * 600= codex techs
+   * 0= dossiers and background info (move xcom personnel here?)
+   * 100= reports(???)
+   * 200= alien research
+   * 300= alien artifacts
+   * 400= ufo components
+   * 500= ufos
+   * 600= alien life forms
+   * 700= codex specific and related info, reports and levels
+   * 800= human tech (should recieve a roman number to determine tier in case of being codex related ie "(IV)")
+   * 900= xcom personnel
+   * 1000= xcom vehicles (crafts and tanks)
+   * 1100= xcom equiptment (armors and weapons) 
+
    * (????)= the rest
-   * 1100= Faciities
+   * 1500= Faciities
    * last one=> commendations
 
 #####

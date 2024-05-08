@@ -889,6 +889,7 @@ alienDeployments:
             - STR_EX_ALIEN_ELERIUM_LAMP
             - STR_AW_DEMOLITION_EXPLOSIVE
             - STR_EX_PORTABLE_COMPUTER
+    height: 9 #previously 9
 #----- Cloner Frigate
   - type: STR_CLONER
     data:
@@ -3779,6 +3780,7 @@ alienDeployments:
             []
           -
             []
+    height: 9 #previously 9
 #----- Dreadnought
   - type: STR_BATTLESHIP
     data:
@@ -4686,6 +4688,7 @@ alienDeployments:
             []
           -
             []
+    height: 2 #previously 9
 #----- XCom Base defense finishes -----#
 #----- Terror Mission Deployment begins -----#
   - type: STR_TERROR_MISSION
@@ -5081,7 +5084,7 @@ alienDeployments:
             []
     width: 50
     length: 50
-    height: 7 #previously 9
+    height: 9 #previously 9
     civilians: 16
     terrains:
       - URBAN
@@ -5125,7 +5128,7 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 7 #previously 9
+    height: 9 #previously 9
     civilians: 16
     terrains:
       - IDT_VILLAGE
@@ -5143,7 +5146,7 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 7 #previously 9
+    height: 9 #previously 9
     civilians: 16
     terrains:
       - IDT_SNOWVILLAGE
@@ -5161,7 +5164,7 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 7 #previously 9
+    height: 9 #previously 9
     civilians: 16
     terrains:
       - ISLANDURBAN
@@ -5199,7 +5202,7 @@ alienDeployments:
     data: *TERROR_MISSION_ALIEN_RANKS 
     width: 50
     length: 50
-    height: 7 #previously 9
+    height: 9 #previously 9
     civilians: 16
     terrains:
       - URBAN

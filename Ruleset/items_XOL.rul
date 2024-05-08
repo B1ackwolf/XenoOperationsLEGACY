@@ -5139,6 +5139,7 @@ items:
   - type: STR_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     listOrder: 2903
     blastRadius: 3
+    damageType: 3
     weight: 3
     fuseType: -2
   - type: STR_BO_STICK_GRENADE
@@ -5208,6 +5209,7 @@ items:
     listOrder: 2909
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
     handSprite: 216
+    damageType: 3
     listOrder: 2911
   - type: STR_BO_ELERIUM_MINE #ojito cambiar nombre q esta es humana
     size: 0.025
@@ -5239,6 +5241,142 @@ items:
     twoHanded: true
     attraction: 6
     listOrder: 2913
+#####Ojito Prueba Bangalores
+  - type: STR_BO_BANGALORE_CHARGE
+    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
+    size: 0.2
+    requiresBuy:
+     - STR_BO_BANGALORE_CHARGE
+    costBuy: 1600
+    costSell: 1200
+    weight: 7
+    bigSprite: 250
+    floorSprite: 250
+    handSprite: 250
+    power: 150
+    hitSound: 0
+    hitAnimation: 0
+    #blastRadius: 1
+    damageType: 3
+    damageAlter:
+      RandomType: 2
+      FixRadius: 3
+      ToTile: 1
+      RandomTile: true
+      TileDamageMethod: 2
+      RadiusReduction: 65
+    battleType: 4
+    tuPrime: 50
+    tuThrow: 40
+    tuUnprime: 15
+    primeActionName: STR_PRIME_CHARGE
+    primeActionMessage: STR_CHARGE_IS_ACTIVATED
+    unprimeActionName: STR_UNPRIME_CHARGE
+    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
+    fuseType: -1
+    fuseTriggerEvents:
+      defaultBehavior: true
+      throwTrigger: false
+      throwExplode: false
+      proximityTrigger: false
+      proximityExplode: false
+    armor: 50
+    attraction: 6
+    invWidth: 2
+    invHeight: 1
+    listOrder: 4169
+#######
+
+  - type: STR_BO_BANGALORE_ELERIUM
+    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
+    size: 0.2
+    requiresBuy:
+     - STR_BO_BANGALORE_ELERIUM
+    costBuy: 1600
+    costSell: 1200
+    weight: 7
+    bigSprite: 250
+    floorSprite: 250
+    handSprite: 250
+    power: 150
+    hitSound: 0
+    hitAnimation: 0
+    #blastRadius: 1
+    damageType: 3
+    damageAlter:
+      RandomType: 2
+      FixRadius: 3
+      ToTile: 1
+      RandomTile: true
+      TileDamageMethod: 2
+      RadiusReduction: 65
+    battleType: 4
+    tuPrime: 50
+    tuThrow: 40
+    tuUnprime: 15
+    primeActionName: STR_PRIME_CHARGE
+    primeActionMessage: STR_CHARGE_IS_ACTIVATED
+    unprimeActionName: STR_UNPRIME_CHARGE
+    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
+    fuseType: -1
+    fuseTriggerEvents:
+      defaultBehavior: true
+      throwTrigger: false
+      throwExplode: false
+      proximityTrigger: false
+      proximityExplode: false
+    armor: 50
+    attraction: 6
+    invWidth: 2
+    invHeight: 1
+    listOrder: 4169
+
+#######3
+  - type: STR_BO_BANGALORE_ANTIMATTER
+    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
+    size: 0.2
+    requiresBuy:
+     - STR_BO_BANGALORE_ANTIMATTER
+    costBuy: 1600
+    costSell: 1200
+    weight: 7
+    bigSprite: 250
+    floorSprite: 250
+    handSprite: 250
+    power: 150
+    hitSound: 0
+    hitAnimation: 0
+    #blastRadius: 1
+    damageType: 3
+    damageAlter:
+      RandomType: 2
+      FixRadius: 3
+      ToTile: 1
+      RandomTile: true
+      TileDamageMethod: 2
+      RadiusReduction: 65
+    battleType: 4
+    tuPrime: 50
+    tuThrow: 40
+    tuUnprime: 15
+    primeActionName: STR_PRIME_CHARGE
+    primeActionMessage: STR_CHARGE_IS_ACTIVATED
+    unprimeActionName: STR_UNPRIME_CHARGE
+    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
+    fuseType: -1
+    fuseTriggerEvents:
+      defaultBehavior: true
+      throwTrigger: false
+      throwExplode: false
+      proximityTrigger: false
+      proximityExplode: false
+    armor: 50
+    attraction: 6
+    invWidth: 2
+    invHeight: 1
+    listOrder: 4169
+
+
 #----- Tenth tier Alien Weaponry -----#
   - type: STR_AW_MAIN_PISTOL
     requires:

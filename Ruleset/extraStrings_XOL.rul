@@ -1389,7 +1389,20 @@ extraStrings:
       STR_ME_BASIC_KNIFE: Combat Knife
       STR_ME_KNUCKLES: Brass Knuckles
       STR_BO_STICK_GRENADE: X Force Grenade
+####ojito bangalores
+      STR_BO_BANGALORE_ANTIMATTER: "Bangalore Charge"
+      STR_BO_BANGALORE_ANTIMATTER_UFOPEDIA: "WIP After our first encounters with UFOs on the ground, it became evident how strong their hulls are. Not even our most powerful explosives could dent their outer shell. With the knowledge of the alloys that are used to build them, we have requested our suppliers to manufacture an explosive charge following our specifications so it is able to breach the UFOs. It uses a focused charge to deliver an extremely powerful explosion in a very small area."
+      STR_BO_BANGALORE_ELERIUM: "Elerium Bangalore Charge"
+      STR_BO_BANGALORE_ELERIUM_UFOPEDIA: "WIP After our first encounters with UFOs on the ground, it became evident how strong their hulls are. Not even our most powerful explosives could dent their outer shell. With the knowledge of the alloys that are used to build them, we have requested our suppliers to manufacture an explosive charge following our specifications so it is able to breach the UFOs. It uses a focused charge to deliver an extremely powerful explosion in a very small area."
 
+      STR_BO_BANGALORE_CHARGE: "Antimatter Demolition Charge"
+      STR_BO_BANGALORE_CHARGE_UFOPEDIA: "WIP After our first encounters with UFOs on the ground, it became evident how strong their hulls are. Not even our most powerful explosives could dent their outer shell. With the knowledge of the alloys that are used to build them, we have requested our suppliers to manufacture an explosive charge following our specifications so it is able to breach the UFOs. It uses a focused charge to deliver an extremely powerful explosion in a very small area."
+
+      STR_PRIME_CHARGE: "Prime Charge"
+      STR_CHARGE_IS_ACTIVATED: "Demolition Charge is activated!"
+      STR_UNPRIME_CHARGE: "Unprime Charge"
+      STR_CHARGE_IS_DEACTIVATED: "Demolition Charge is deactivated!"
+      STR_HIGH_EXPLOSIVE_UFOPEDIA: "This explosive charge is designed to be used against fortified targets. Keep all personnel at a considerable distance of the expected detonation point."
 #ojito reordenar arriba y dividir en dos tiers
 #-----Human Tier 1 Ballistic   {NEWLINE}{NEWLINE}
       STR_ST_SMALL_PISTOL: Compact Pistol

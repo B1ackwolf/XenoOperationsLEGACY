@@ -279,6 +279,7 @@ extraSprites:
       675: Resources/WeaponrySprites/9thOrdnance/BigOb/7HybGrenade2.gif
       433: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanEleriumMine.gif
       434: Resources/WeaponrySprites/9thOrdnance/BigOb/11HumaAntiMatterCharge.gif
+      250: Resources/BigOb_DemolitionCharge.gif
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma BigOb -----#
       350: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol.gif
@@ -637,6 +638,7 @@ extraSprites:
       675: Resources/WeaponrySprites/9thOrdnance/FloorOb/7HybGrenade2_floor.gif
       433: Resources/WeaponrySprites/9thOrdnance/FloorOb/10HumanEleriumMine_floor.gif
       434: Resources/WeaponrySprites/9thOrdnance/FloorOb/11HumanAntimatterCharge_floor.gif
+      250: Resources/FloorOb_DemolitionCharge.gif
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma FloorObs -----#
       350: Resources/WeaponrySprites/10thAlien/FloorOb/1AlienPlasmaPistol_floor.gif
