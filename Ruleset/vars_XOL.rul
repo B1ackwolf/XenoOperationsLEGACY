@@ -288,138 +288,49 @@ interfaces:
         color2: 32
       - id: grid
         color: 248
-############## todo lo siguiente va a ser modificado completamente
-  - type: geoscapeMenu
-    elements:
-      - id: text
-        color: 90   # yellow
-      - id: button
-        color: 39   # bright green
-  - type: geoscape
-    backgroundImage: BACK01.SCR
-    elements:
-      - id: textLoad
-        color: 133   # minty green
-      - id: button
-        color: 39   # main button color
-        color2: 31  # letter color
-      - id: text # Clock and date, requires to have 5 colors in the shade
-        color: 90   # 90
-      - id: slackingIndicator
-        color: 244   # even lighter blue
-        color2: 133  # minty green
-        custom: -12  # above Intercept button
-      - id: genericWindow
-        color: 33   # bright green
-      - id: genericText
-        color: 90   # bright green
-        color2: 138  # 138
-        border: 22  # 22
-      - id: genericButton1
-        color: 147   # minty green
-      - id: genericButton2
-        color: 33   # bright green
-      - id: errorPalette
-        color: 6     # brown
-      - id: errorMessage
-        color: 33   # bright green
-
-  - type: articleArmor
-    elements:
-      - id: button
-        color: 66    # orange
-      - id: text
-        color: 8   # 239 grey
-        color2: 71  # 244 light blue
-      - id: list
-        color: 6   # 55 seems good green
-        color2: 71  # light blue
-  - type: articleCraftWeapon
-    elements:
-      - id: button
-        color: 66    # orange
-      - id: text
-        color: 8   # 239 grey
-        color2: 71  # 244 light blue
-      - id: list
-        color: 6   # 55 seems good green
-        color2: 71  # light blue
-
-  - type: articleItem
-    elements:
-      - id: button
-        color: 66   # 144 orange
-      - id: text
-        color: 8   # 239 grey
-        color2: 71  # 244 light blue
-      - id: list
-        color: 6   # 55 seems good green
-        color2: 71  # light blue
-      - id: ammoColor
-        color: 32    # red
-      - id: ammoColorDTAP
-        color: 161     #gray # 112 steely blue, AP
-      - id: ammoColorDTIN
-        color: 147    # orange, Incendiary
-      - id: ammoColorDTHE
-        color: 100    # dark orange, HE
-      - id: ammoColorDTLaser
-        color: 34    # 32 red
-      - id: ammoColorDTPlasma
-        color: 67    # green, Plasma
-      - id: ammoColorDTStun
-        color: 195    # purple, Stun
-      - id: ammoColorDTMelee
-        color: 176    # fleshy pink, Melee
-      - id: ammoColorDTAcid
-        color: 64    # lime green, Acid
-      - id: ammoColorDTSmoke
-        color: 84    # 80 soap, Smoke
-      - id: ammoColorDT10
-        color: 17    # golden, Elerium Fusion
-      #- id: ammoColorDT11
-      #  color: 32    # red
-      #- id: ammoColorDT12
-      #  color: 32    # red
-      #- id: ammoColorDT13
-      #  color: 32    # red
-      #- id: ammoColorDT14
-      #  color: 32    # red
-      #- id: ammoColorDT15
-      #  color: 32    # red
-      #- id: ammoColorDT16
-      #  color: 32    # red
-      #- id: ammoColorDT17
-      #  color: 32    # red
-      #- id: ammoColorDT18
-      #  color: 32    # red
-      #- id: ammoColorDT19
-      #  color: 32    # red
-
-  - type: geoscape
-    elements:
-      - id: slackingIndicator
-        color: 244   # even lighter blue
-        color2: 133  # minty green
-        custom: -22  # above Intercept button
-  - type: ufopaedia
-    elements:
-      - id: palette
-        color: 7
-      - id: window
-        color: 138
-      - id: text
-        color: 89
-      - id: list
-        color: 133
-        color2: 80
-        border: 239
-      - id: button1
-        color: 138
-      - id: button2
-        color: 138
-  - type: inventory
-    elements:
+########## posible duplicados
+      - id: textName
+        color: 64
+      - id: textTUs
+        color: 64
+        color2: 16
+      - id: textWeight
+        color: 64
+        color2: 16
+      - id: textStatLine1
+        custom: 1
+        color: 64
+        color2: 16
+      - id: textStatLine2
+        custom: 2
+        color: 64
+        color2: 16
+      - id: textStatLine3
+        custom: 3
+        color: 64
+        color2: 16
+      - id: textStatLine4
+        custom: 4
+        color: 64
+        color2: 16
+      - id: textItem
+        color: 48
+        color2: 16
+      - id: textAmmo
+        color: 64
+        color2: 16
+      # required
+      - id: textSlots
+        color: 63
+      - id: weight
+        color: 16     # gold (acceptable)
+        color2: 32    # red (overweight)
+      - id: grid
+        color: 8
+      - id: numStack
+        color: 66
+        color2: 32
+######## mas duplicados
       - id: textStatLine1
         custom: 11
         color: 64
@@ -436,6 +347,8 @@ interfaces:
         custom: 14
         color: 64
         color2: 16
+
+############## todo lo siguiente va a ser modificado completamente que son los interfaces?
 
 ####################
 invs:

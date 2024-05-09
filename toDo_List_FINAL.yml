@@ -2,6 +2,8 @@
 
 TL;DR VERSION:
  - primero actualizar tiempo de duracion de los researches antes de re ordenar OJO
+ - separar armas q estan en el mismo png
+ - implementar script de armas q varian en base al cartucho de filip h en jeilo
 
  - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
  - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
@@ -40,11 +42,19 @@ TL;DR VERSION:
  - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
 
 ####
+ - duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
+   * luego duplicar el piloto y q sea el tanquero
+   * duplicar el soldier transformation
+   * duplicar los layers de las armaduras usando los layers de personalitem
+   * luego crear las armaduras de tanque copiando todos los del sidecard de GWoTW.
+     ~ la armadura tendria el mismo sistema de layer pero en la capa mas baja estaria una imagen dos de del tanque de fondo.
  - actualizar el interfaces y modificar los colres de los elementos de la ufopaedia
    * daño de las armas variaran en base al tipo de dañon
    * el texto sera ligeramente mas oscuro para no cansar tanto la vista
      ~ revisar para q sea todo el texto en general de la ufopaedia.
-   * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)  
+   * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)
+     ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
+   
 
  - al sprite de la multilauncher naranja sera el bangalore basico
    * eliminarle los mangos y hacerlo parecer mas un explosivo improvisado
@@ -53,6 +63,7 @@ TL;DR VERSION:
  - el tanke de flamer sera modernizado y sera la segunda bangalore de elerium
  - el tercero sera el high explosive
  - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
+   * probar pintando ambas en plateado y detalles en verde?
  - usar el item EScudo
    * ya consegui los sprites
    * tengo q recolorizarlos y adaptarlos mejor
