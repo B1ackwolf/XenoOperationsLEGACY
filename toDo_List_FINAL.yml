@@ -1,10 +1,11 @@
 #ideas for the mod, in any specific order:
 
 TL;DR VERSION:
+ - ahi el bangalore elerium deberia ser amarillo
+   * aprovechar y mejorar las sprites de las armas explosivas humanas, hacerlas mas intrincadas
  - primero actualizar tiempo de duracion de los researches antes de re ordenar OJO
  - separar armas q estan en el mismo png
  - implementar script de armas q varian en base al cartucho de filip h en jeilo
-
  - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
  - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
  - nombres nuevos a considerar para rangos otras especies
@@ -35,19 +36,17 @@ TL;DR VERSION:
 ####
  - hacer siguiente armadura de perritos, si puedo, confio en mi.
  - acomodar colores de las imagenes basebits.
-   * las clinicas cambiarle de color a la camas basica a verde
-   * el piso de la clinica basica modificarlo a las losas grises estandares
-   * rehacer enteramente la caseta de defensa (usar pedazos del hangar para lo metalico)
-   * revisar si puedo hacer los de las de 4 pedazos.
+   * revisar si puedo hacer q aparezcan las puerticas como en los de las de 4 pedazos.
  - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
 
 ####
- - duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
-   * luego duplicar el piloto y q sea el tanquero
-   * duplicar el soldier transformation
-   * duplicar los layers de las armaduras usando los layers de personalitem
+ - respecto al tanquero .duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
+   * crear todos los articulos en ufopaedia usando el pilot como ejemplo
+   * duplicar los layers de las armaduras usando los layers de personalarmor
    * luego crear las armaduras de tanque copiando todos los del sidecard de GWoTW.
      ~ la armadura tendria el mismo sistema de layer pero en la capa mas baja estaria una imagen dos de del tanque de fondo.
+   * hacerle el tinyrank y sus rank sprites en azul  
+
  - actualizar el interfaces y modificar los colres de los elementos de la ufopaedia
    * daño de las armas variaran en base al tipo de dañon
    * el texto sera ligeramente mas oscuro para no cansar tanto la vista
@@ -56,11 +55,9 @@ TL;DR VERSION:
      ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
    
 
- - al sprite de la multilauncher naranja sera el bangalore basico
-   * eliminarle los mangos y hacerlo parecer mas un explosivo improvisado
-   * girarlo y que quede verticalmente
-   * modificar caracteristicas de items pa q sea 3x2
+ - al sprite de la multilauncher naranja sera el bangalore basico, terminar de concretar las caracteristicas
  - el tanke de flamer sera modernizado y sera la segunda bangalore de elerium
+   * sera 2 x 1
  - el tercero sera el high explosive
  - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
    * probar pintando ambas en plateado y detalles en verde?
@@ -308,13 +305,13 @@ IMPORTANTE PARA LORE:
  - Aun NO encontre el orden de las armaduras , no es el de items.rul ni armors.rul
     * Ordenar todo lo relacionado a las armaduras dentro del extrastrings, crearle su respectivo lore   
       ~ aprovechar y cambiar el nombre a las armaduras
-         ° armadura basica = Legionnaire
-         ° armadura xops = Centurion
-         ° Armadura personal = Ulfsark
-         ° Armadura alloy = Spartan 
-         ° Armadura Voladora = cuāuhpilli
-         ° Armadura Power = Myrmidon
-         ° Armadura Psionica = Gorgon
+         ° armadura basica = Legionnaire / pilot=AUXILIA
+         ° armadura xops = Centurion / pilot=LEGATE
+         ° Armadura personal = Ulfsark / pilot=HUSCARL
+         ° Armadura alloy = Spartan / pilot=???
+         ° Armadura Voladora = cuāuhpilli / pilot=??
+         ° Armadura Power = Myrmidon / pilot=???
+         ° Armadura Psionica = Gorgon / pilot=????
 
 #####
 

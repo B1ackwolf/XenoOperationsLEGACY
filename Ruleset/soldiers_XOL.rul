@@ -86,6 +86,13 @@ soldiers:
     costSalaryCaptain: 4000
     costSalaryColonel: 6000
     costSalaryCommander: 16000
+    rankStrings:
+    - STR_ARMY_RECRUIT
+    - STR_ARMY_PRIVATE
+    - STR_ARMY_CORPORAL
+    - STR_ARMY_SERGEANT
+    - STR_ARMY_STAFF_SERGEANT
+    - STR_ARMY_FIRST_SERGEANT
     minStats:
       tu: 35
       stamina: 40
@@ -126,7 +133,7 @@ soldiers:
     armorForAvatar: STR_KEVLAR_VEST_ARMOR_BERET_UC
     standHeight: 22
     kneelHeight: 14
-    femaleFrequency: 20
+    femaleFrequency: 30
     soldierNames:
       - delete
       - Ruleset/SoldierNames/
@@ -181,7 +188,7 @@ soldiers:
     armorForAvatar: STR_KEVLAR_VEST_ARMOR_BERET_UC
     standHeight: 22
     kneelHeight: 14
-    femaleFrequency: 15
+    femaleFrequency: 10
     soldierNames:
       - delete
       - Ruleset/SoldierNames/
@@ -238,7 +245,7 @@ soldiers:
     rankTinySprite: 6 
     rankSprite: 800         # default 42 # basebits.pck
     rankBattleSprite: 800   # default 20 # smoke.pck
-    femaleFrequency: 25
+#    femaleFrequency: 25
     soldierNames:
       - delete
       - Ruleset/SoldierNames/
@@ -246,8 +253,8 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_DEPUTY_OFICER
-    - STR_3RD_LIEUTENANT
+    - STR_ARMY_DEPUTY_OFICER
+    - STR_ARMY_SUB_LIEUTENANT
     - STR_ARMY_LIEUTENANT
     - STR_ARMY_CAPTAIN
     - STR_ARMY_MAJOR
@@ -315,12 +322,78 @@ soldiers:
       reactions: 75
       firing: 100
     rankStrings:
-    - STR_2ND_LIEUTENANT
-    - STR_1ST_LIEUTENANT
+    - STR_AIR_3RD_LIEUTENANT
+    - STR_AIR_LIEUTENANT
     - STR_AIR_CAPTAIN
     - STR_AIR_MAJOR
     - STR_AIR_COLONEL
-    - STR_BRIGADIER
+    - STR_AIR_BRIGADIER
+##########ojito tanquero
+  - type: STR_DRIVER
+    costBuy: 60000
+    costSalary: 15000
+    costSalarySquaddie: 5000
+    costSalarySergeant: 10000
+    costSalaryCaptain: 15000
+    costSalaryColonel: 20000
+    costSalaryCommander: 35000
+    minStats:
+      tu: 55
+      stamina: 50
+      health: 30
+      bravery: 40
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 65
+      stamina: 80
+      health: 45
+      bravery: 70
+      reactions: 70
+      firing: 70
+      throwing: 50
+      strength: 35
+      psiStrength: 100
+      psiSkill: 16
+      melee: 25
+    statCaps:
+      tu: 100
+      stamina: 100
+      health: 70
+      bravery: 120
+      reactions: 120
+      firing: 120
+      throwing: 120
+      strength: 60
+      psiStrength: 100
+      psiSkill: 100
+      melee: 40
+    armor: STR_MECH_DRIFTSUIT
+    armorForAvatar: STR_MECH_DRIFTSUIT
+    rankTinySprite: 12      # este se modifica
+    rankSprite: 900         # estos se modifican
+    rankBattleSprite: 900   # estos se modifican
+    standHeight: 22
+    kneelHeight: 14
+#    femaleFrequency: 50
+    soldierNames:
+      - delete
+      - Ruleset/SoldierNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+    rankStrings:
+    - STR_MECH_CADET
+    - STR_MECH_LANCE_CORPORAL
+    - STR_MECH_SPECIALIST
+    - STR_MECH_TECHNICAL_SERGEANT
+    - STR_MECH_GUNNERY_SERGEANT
+    - STR_MECH_MASTER_GUNNERY_OFFICER
 ######Soldier Transformation
 soldierTransformation:
   - name: STR_OFFICER_PROMOTION
@@ -335,6 +408,7 @@ soldierTransformation:
     allowedSoldierTypes:
       - STR_SOLDIER
       - STR_ELITE_SOLDIER
+      - STR_DRIVER
     lowerBoundAtMinStats: false
     upperBoundAtMaxStats: false 
     upperBoundAtStatCaps: true
@@ -347,6 +421,34 @@ soldierTransformation:
       firing: 4
       throwing: 2
       melee: 2
+  - name: STR_TANK_TRAINING_PROGRAM
+    cost: 20000
+    requires: [ STR_TANKS_UNITS ]
+    requiresBaseFunc: [ TROOPERS_SCHOOL ]
+    producedSoldierType: STR_DRIVER
+    keepSoldierArmor: true
+    minRank: 2
+    transferTime: 168
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    createsClone: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_ELITE_SOLDIER
+      - STR_SOLDIER_OFFICER
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false 
+    upperBoundAtStatCaps: true
+    resetRank: true
+    flatOverallStatChange: 
+      bravery: 10
+      health: 5
+      strength: 2
+      reactions: 2
+      firing: 4
+      throwing: 2
+      melee: 2
+
 
 
 

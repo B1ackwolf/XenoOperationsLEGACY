@@ -8133,7 +8133,196 @@ armors:
       - 2.0
       - 1.4
       - 1.0
-# dogs
+###### ojito tankers 
+  - type: STR_MECH_DRIFTSUIT
+    spriteSheet: XOPS_XCOM_0.PCK
+    layersDefaultPrefix: HUMAN
+    layersSpecificPrefix:
+      8: MECH_DRIFTSUIT
+    layersDefinition:
+      M0: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M0_HEAD"]
+      M1: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M1_HEAD"]
+      M2: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M2_HEAD"]
+      M3: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M3_HEAD"]
+      M4: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M4_HEAD"]
+      M5: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M5_HEAD"]
+      M6: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M6_HEAD"]
+      M7: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M7_HEAD"]
+      M8: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M8_HEAD"]
+      M9: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M9_HEAD"]
+      M10: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M10_HEAD"]
+      M11: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M11_HEAD"]
+      M12: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M12_HEAD"]
+      M13: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M13_HEAD"]
+      M14: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M14_HEAD"]
+      M15: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M15_HEAD"]
+      M16: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M16_HEAD"]
+      M17: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M17_HEAD"]
+      M18: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M18_HEAD"]
+      M19: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M19_HEAD"]
+      M20: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M20_HEAD"]
+      M21: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M21_HEAD"]
+      M22: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M22_HEAD"]
+      M23: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M23_HEAD"]
+      M24: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M24_HEAD"]
+      M25: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M25_HEAD"]
+      M26: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M26_HEAD"]
+      M27: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M27_HEAD"]
+      M28: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M28_HEAD"]
+      M29: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M29_HEAD"]
+      M30: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M30_HEAD"]
+      M31: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M31_HEAD"]
+      M32: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M32_HEAD"]
+      M33: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M33_HEAD"]
+      M34: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M34_HEAD"]
+      M35: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M35_HEAD"]
+      M36: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M36_HEAD"]
+      M37: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M37_HEAD"]
+      M38: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M38_HEAD"]
+      M39: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M39_HEAD"]
+      M40: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M40_HEAD"]
+      M41: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M41_HEAD"]
+      M42: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M42_HEAD"]
+      M43: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M43_HEAD"]
+      M44: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M44_HEAD"]
+      M45: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M45_HEAD"]
+      M46: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M46_HEAD"]
+      M47: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M47_HEAD"]
+      M48: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M48_HEAD"]
+      M49: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M49_HEAD"]
+      M50: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M50_HEAD"]
+      M51: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M51_HEAD"]
+      M52: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M52_HEAD"]
+      M53: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M53_HEAD"]
+      M54: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M54_HEAD"]
+      M55: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M55_HEAD"]
+      M56: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M56_HEAD"]
+      M57: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M57_HEAD"]
+      M58: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M58_HEAD"]
+      M59: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M59_HEAD"]
+      M60: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M60_HEAD"]
+      M61: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M61_HEAD"]
+      M62: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M62_HEAD"]
+      M63: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M63_HEAD"]
+      M64: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M64_HEAD"]
+      M65: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M65_HEAD"]
+      M66: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M66_HEAD"]
+      M67: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M67_HEAD"]
+      M68: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M68_HEAD"]
+      M69: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M69_HEAD"]
+      M70: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M70_HEAD"]
+      M71: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "M71_HEAD"]
+      F0: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F0_HEAD"]
+      F1: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F1_HEAD"]
+      F2: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F2_HEAD"]
+      F3: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F3_HEAD"]
+      F4: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F4_HEAD"]
+      F5: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F5_HEAD"]
+      F6: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F6_HEAD"]
+      F7: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F7_HEAD"]
+      F8: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F8_HEAD"]
+      F9: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F9_HEAD"]
+      F10: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F10_HEAD"]
+      F11: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F11_HEAD"]
+      F12: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F12_HEAD"]
+      F13: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F13_HEAD"]
+      F14: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F14_HEAD"]
+      F15: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F15_HEAD"]
+      F16: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F16_HEAD"]
+      F17: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F17_HEAD"]
+      F18: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F18_HEAD"]
+      F19: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F19_HEAD"]
+      F20: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F20_HEAD"]
+      F21: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F21_HEAD"]
+      F22: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F22_HEAD"]
+      F23: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F23_HEAD"]
+      F24: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F24_HEAD"]
+      F25: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F25_HEAD"]
+      F26: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F26_HEAD"]
+      F27: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F27_HEAD"]
+      F28: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F28_HEAD"]
+      F29: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F29_HEAD"]
+      F30: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F30_HEAD"]
+      F31: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F31_HEAD"]
+      F32: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F32_HEAD"]
+      F33: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F33_HEAD"]
+      F34: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F34_HEAD"]
+      F35: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F35_HEAD"]
+      F36: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F36_HEAD"]
+      F37: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F37_HEAD"]
+      F38: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F38_HEAD"]
+      F39: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F39_HEAD"]
+      F40: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F40_HEAD"]
+      F41: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F41_HEAD"]
+      F42: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F42_HEAD"]
+      F43: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F43_HEAD"]
+      F44: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F44_HEAD"]
+      F45: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F45_HEAD"]
+      F46: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F46_HEAD"]
+      F47: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F47_HEAD"]
+      F48: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F48_HEAD"]
+      F49: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F49_HEAD"]
+      F50: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F50_HEAD"]
+      F51: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F51_HEAD"]
+      F52: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F52_HEAD"]
+      F53: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F53_HEAD"]
+      F54: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F54_HEAD"]
+      F55: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "F55_HEAD"]
+      F56: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F56_HEAD"]
+      F57: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F57_HEAD"]
+      F58: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F58_HEAD"]
+      F59: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F59_HEAD"]
+      F60: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F60_HEAD"]
+      F61: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F61_HEAD"]
+      F62: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F62_HEAD"]
+      F63: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F63_HEAD"]
+      F64: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F64_HEAD"]
+      F65: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F65_HEAD"]
+      F66: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F66_HEAD"]
+      F67: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F67_HEAD"]
+      F68: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F68_HEAD"]
+      F69: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F69_HEAD"]
+      F70: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F70_HEAD"]
+      F71: ["", "", "", "", "", "", "", "", "MECH_DRIFTSUIT_F", "","F71_HEAD"]
+    spriteFaceGroup: 6
+    spriteFaceColor: &SpriteFaceColorAgent [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 95, 163, 160, 176, 96, 98, 96, 160, 95, 163, 163, 97, 96, 97, 96, 159, 95, 161, 161, 96, 96, 16, 96, 160, 160, 161, 161, 96, 96, 96, 98, 99, 101, 160, 163, 100, 101, 99, 98, 160, 101, 161, 162, 144, 146, 99, 96, 160, 96, 161, 163, 96, 176, 96, 95, 163, 163, 161, 163, 96, 96, 96, 177, 163, 101, 163, 163, 96, 96, 96, 96, 161, 163, 163, 163, 96, 176, 96, 96, 160, 95, 163, 160, 176, 96, 96, 177, 160, 160, 163, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: &SpriteHairColorAgent [144, 144, 160, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225, 82, 144, 98, 246, 246, 246, 163, 246, 246, 146, 147, 20, 4, 164, 246, 246, 246, 224, 96, 159, 246, 246, 164, 246, 160, 33, 81, 163, 99, 23, 161, 213, 84, 144, 99, 197, 98, 246, 246, 246, 98, 144, 246, 96, 246, 246, 5, 246, 144, 146, 37, 144, 164, 245, 164, 245, 86, 80, 86, 85, 53, 86, 80, 246, 86, 86, 86, 198, 80, 246, 246, 246, 88, 100, 96, 245, 245, 245, 163, 164, 160, 144, 3, 160, 160, 37, 88, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 0 
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    frontArmor: 6
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    stats:
+      tu: 5
+      stamina: 10
+      health: 0
+      bravery: 3
+      reactions: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.6
+      - 1.1
+    builtInWeapons:
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS 
+    units:
+      - STR_DRIVER
+
+# ojito doggos
   - type: STR_DOGE_ARMOR
     spriteSheet: DOGE.PCK
     # spriteInv: MAN_100

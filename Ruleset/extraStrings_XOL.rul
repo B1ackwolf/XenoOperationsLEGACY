@@ -597,29 +597,43 @@ extraStrings:
 #END CITY NAMES
 ###########################ojito reordenar
       STR_EX_FIST_AID_KIT: "First Aid Kit"
+      STR_ARMY_RECRUIT: Recruit
+      STR_ARMY_PRIVATE: Private
+      STR_ARMY_CORPORAL: Corporal
+      STR_ARMY_SERGEANT: Sergeant
+      STR_ARMY_STAFF_SERGEANT: Staff Sergeant
+      STR_ARMY_FIRST_SERGEANT: First Sergeant
+      STR_ARMY_DEPUTY_OFICER: Deputy Officer
+      STR_ARMY_SUB_LIEUTENANT: 2nd. Lieutenant
+      STR_ARMY_LIEUTENANT: 1st. Lieutenant
+      STR_ARMY_CAPTAIN: Captain
+      STR_ARMY_MAJOR: Major
+      STR_ARMY_LT_COLONEL: Lt. Colonel
+      STR_AIR_3RD_LIEUTENANT: 3rd. Lieutenant
+      STR_AIR_LIEUTENANT: Lieutenant
+      STR_AIR_CAPTAIN: Captain
+      STR_AIR_MAJOR: Major
+      STR_AIR_COLONEL: Colonel
+      STR_AIR_BRIGADIER: Brigadier
+      STR_MECH_CADET: Cadet
+      STR_MECH_LANCE_CORPORAL: Lance Corporal
+      STR_MECH_SPECIALIST: Specialist
+      STR_MECH_TECHNICAL_SERGEANT: Technical Sergeant
+      STR_MECH_GUNNERY_SERGEANT: Gunnery Sergeant
+      STR_MECH_MASTER_GUNNERY_OFFICER: Master Gunnery Sergeant
       STR_EX_BASIC_MEDI_KIT: "Standard Medikit"
       STR_EX_IMPROVED_MEDI_KIT: "Field Surgery kit"
       STR_MEDI_KIT: "Medi-Gel kit"
       STR_PILOT: Pilot
+      STR_DRIVER: Tank Driver
       STR_ELITE_SOLDIER: Elite Soldier
       STR_SOLDIER_OFFICER: Officer
       STR_FLIGHT_JUMPSUIT: FLIGHT SUIT
       STR_FLIGHT_JUMPSUIT_UC: FLIGHT SUIT
       STR_PILOT_UFOPEDIA_DISPLAY: Flight Suit
       STR_FLIGHT_JUMPSUIT_UFOPEDIA: Standard G-suit used by X-Com combat pilots. Made to resist high levels of acceleration forces, lightweight yet durable (includes fire retardant clothing). Its appearance is usually similar to a jumpsuit.
-      STR_2ND_LIEUTENANT: 3rd Lieutenant
-      STR_1ST_LIEUTENANT: Lieutenant
-      STR_AIR_CAPTAIN: Captain
-      STR_AIR_MAJOR: Major
-      STR_AIR_COLONEL: Colonel
-      STR_BRIGADIER: Brigadier
-      STR_DEPUTY_OFICER: Deputy Officer
-      STR_3RD_LIEUTENANT: 2nd Lieutenant 
-      STR_ARMY_LIEUTENANT: 1st Lieutenant
-      STR_ARMY_CAPTAIN: Captain
-      STR_ARMY_MAJOR: Major
-      STR_ARMY_LT_COLONEL: Lt. Colonel
       STR_OFFICER_PROMOTION: Officer Promotion
+      STR_TANK_TRAINING_PROGRAM: Armored training program
       STR_AVATAR_NAME_1: "Male 0"
       STR_AVATAR_NAME_2: "Male 1"
       STR_AVATAR_NAME_3: "Male 2"
@@ -768,12 +782,6 @@ extraStrings:
       STR_RECOVERY_TIME: "Recovery Time>{ALT}{0}"
       STR_CURRENT_STATS: "Current stats"
       STR_CHANGES: "Changes" 
-      STR_COMMANDER: "Master Sergeant"
-      STR_COLONEL: "Staff Sergeant"
-      STR_CAPTAIN: "Sergeant"
-      STR_SERGEANT: "Corporal"
-      STR_SQUADDIE: "Private"
-      STR_ROOKIE: "Recruit"
       STR_FIREFLY_UFOPEDIA: "The ATU-760X 'Firefly' emerged victorious in the bid submitted to the X-Com project for an enhanced transport aircraft. Developed through a collaborative partnership between the Russian OAK conglomerate and the Ukrainian UOP Group, this versatile vessel boasts VTOL (Vertical Takeoff and Landing) capabilities. It can efficiently transport up to 14 agents and accommodate up to three heavier weapons platforms, delivering them directly to the operational site."
       STR_DRAGONFLY_UFOPEDIA: "The Bell Valor 280, codenamed DRAGONFLY, is a Boeing creation designed for rapid troop transport. This versatile aircraft can comfortably accommodate up to 12 troops but is unable to carry heavy support units. Its agility and speed make it a valuable asset for swift deployment and extraction during critical operations."
       STR_SCARAB_UFOPEDIA: "wip based on dr4-viking, tons of troops capacity, but cant haul any hwp." #ojito
@@ -1061,9 +1069,9 @@ extraStrings:
       # STR_XCF4_FUEL: XCF-4 Aegis Fuel ###ojito
       STR_ELERIUM_CELL: Elerium Cell
 #-----Facilities
-      STR_SMALL_RADAR_SYSTEM: Regional Radar System
+      STR_SMALL_RADAR_SYSTEM: Local Radar System
       STR_SMALL_RADAR_SYSTEM_UFOPEDIA: This advanced detection system has a range of 1700 nautical miles (3150 KM), operating on a 30-minute cycle and holding a 10% chance of detecting a UFO. The unique challenge posed by the evasive nature of UFOs necessitates constant fine-tuning, requiring a specialized frequency meticulously modulated to detect objects with a materials profile similar to those found in previous UFO reports and encounters.{NEWLINE}{NEWLINE}Seamlessly integrated with local satellite systems, this facility monitors UFO activities in real-time, generating substantial data traffic. #Strategic considerations for the secrecy of our base locations mandate a singular deployment of each system per base, so exceeding this limit would render additional units redundant.
-      STR_LARGE_RADAR_SYSTEM: Continental Radar System
+      STR_LARGE_RADAR_SYSTEM: Regional Radar System
       STR_LARGE_RADAR_SYSTEM_UFOPEDIA: Special measures were taken to increase the range of the standard installation . Now, the system boasts an impressive effective range of 2600 nautical miles (4815 KM), operating on a 30-minute cycle and holding a 20% chance of detecting a UFO. The unique challenge posed by the evasive nature of UFOs necessitates constant fine-tuning, requiring a specialized frequency meticulously modulated to detect objects with a materials profile similar to those found in previous UFO reports and encounters. #{NEWLINE}{NEWLINE}Seamlessly integrated with an even larger array of satellite systems, this facility monitors UFO activities in real-time, generating substantial data traffic. Strategic considerations for the secrecy of our base locations mandate a singular deployment of each system per base, so exceeding this limit would render additional units redundant.
       STR_HYPER_WAVE_DECODER: Hyper-wave Decoder
       STR_HYPER_WAVE_DECODER_UFOPEDIA: Alien communications rely on a supre-dimensional wave which travels instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity. it has a range of 2800 nautical miles (5185 KM) and has 100% detection chance.
@@ -1390,12 +1398,12 @@ extraStrings:
       STR_ME_KNUCKLES: Brass Knuckles
       STR_BO_STICK_GRENADE: X Force Grenade
 ####ojito bangalores
-      STR_BO_BANGALORE_ANTIMATTER: "Bangalore Charge"
+      STR_BO_BANGALORE_ANTIMATTER: "Antimatter Demolition Charge"
       STR_BO_BANGALORE_ANTIMATTER_UFOPEDIA: "WIP After our first encounters with UFOs on the ground, it became evident how strong their hulls are. Not even our most powerful explosives could dent their outer shell. With the knowledge of the alloys that are used to build them, we have requested our suppliers to manufacture an explosive charge following our specifications so it is able to breach the UFOs. It uses a focused charge to deliver an extremely powerful explosion in a very small area."
       STR_BO_BANGALORE_ELERIUM: "Elerium Bangalore Charge"
       STR_BO_BANGALORE_ELERIUM_UFOPEDIA: "WIP After our first encounters with UFOs on the ground, it became evident how strong their hulls are. Not even our most powerful explosives could dent their outer shell. With the knowledge of the alloys that are used to build them, we have requested our suppliers to manufacture an explosive charge following our specifications so it is able to breach the UFOs. It uses a focused charge to deliver an extremely powerful explosion in a very small area."
 
-      STR_BO_BANGALORE_CHARGE: "Antimatter Demolition Charge"
+      STR_BO_BANGALORE_CHARGE: "Bangalore Charge"
       STR_BO_BANGALORE_CHARGE_UFOPEDIA: "WIP After our first encounters with UFOs on the ground, it became evident how strong their hulls are. Not even our most powerful explosives could dent their outer shell. With the knowledge of the alloys that are used to build them, we have requested our suppliers to manufacture an explosive charge following our specifications so it is able to breach the UFOs. It uses a focused charge to deliver an extremely powerful explosion in a very small area."
 
       STR_PRIME_CHARGE: "Prime Charge"

@@ -279,7 +279,7 @@ extraSprites:
       675: Resources/WeaponrySprites/9thOrdnance/BigOb/7HybGrenade2.gif
       433: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanEleriumMine.gif
       434: Resources/WeaponrySprites/9thOrdnance/BigOb/11HumaAntiMatterCharge.gif
-      250: Resources/BigOb_DemolitionCharge.gif
+      250: Resources/WeaponrySprites/9thOrdnance/BigOb/15BangaloreCharge.png
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma BigOb -----#
       350: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol.gif
@@ -4505,6 +4505,12 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_0uP.png
   - typeSingle: FLIGHT_JUMPSUIT__8__FLIGHT_JUMPSUIT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_0uP.png
+  - typeSingle: MECH_DRIFTSUIT__8__MECH_DRIFTSUIT_M
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_0uT.png
+  - typeSingle: MECH_DRIFTSUIT__8__MECH_DRIFTSUIT_F
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_0uT.png
+
+
   - typeSingle: VEST_TAN__8__VEST_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_1mkz.gif
   - typeSingle: VEST_TAN__8__VEST_TAN_F

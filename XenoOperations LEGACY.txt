@@ -106,6 +106,10 @@ gameplay changes:
      ~con esto se evita ser usado como granadas, tampoco tienen mucho rango para ser arrojados.  
      ~ existen de tres niveles, cada vez mas livianos y portatiles
    * sprites retocadas de articulos pertenecientes a otros mods (MAYORITARIAMENTE XFILES)
+ - agregado un nuevo tipo de soldier transformation:
+   * entrenamiento para conduccion de tanqueros
+ - adicionalmente esas transformaciones requieren de un large living quarters en la base para poder conseguirse.
+   * afecta tanto a la promocion a oficiales como el entraniemto de tanqueros
 
    
  - creada nuevas armas de distintos tiers
@@ -220,7 +224,7 @@ Sprite tweaks:
      ~ cambiado handsprite y floorsprite	 
    * espada plasma alien modificada ligeramente	 
  - agregado handsprites para los cargadores de pistola y rifle de tier inicial	
-
+ - modificada ligeramente las insignias de first sergeants ahora tienen doble chevron en la parte de abajo
 
  
 craft changes
@@ -263,11 +267,13 @@ craft changes
    * el hangar recibio algunos cambios para permitir mayor movilidad de las unidades HWP desde ciertos angulos, gracias reporte de (revisar en el foro quien me comento esto)   
 	 
 under da hood changes:
+ - corregido ciertas definiciones erradas relacionada a los distintos rangos de los soldados, se supone q esto debio hacerse hace varios parches pero nunca lo habia inmplementado, ahora es mucho mas clarificado
  - limpieza de archivos relacionados con los mapas usando las versiones nuevas de CMP, la primera vez use metodos muy ordinarios, por la falta de experiencia. esta ves use un planteo mas metodico confirmando que no habrian errores, faltaria reordenar y luego 
  -  modificado el nombre de todos los archivos RULESET, las notaciones de los cambios q necesitan y el estado actual de cada uno fue anotado internamente, ayuda a la pulcritud del mod.
  - modificado como se referencian un monton de objetos dentro de los rulesets, si bien no reflejan un cambio apreciable en la jugabilidad, permite tener una mejor nomenclatura de los articulos, como contraparte, deja de ser compatible con el parche anterior
  - corregido un monton de errores en el pacing del arbol de investigaciones. deberian reducirse la cantidad de puntos muertos causados por investigaciones fantasmas  remanentes del mod original
  - corregido un monton de nombres e inconcistencias en los nombres de algunas especies.
+
 bugfixes:
 
 - corregido un problema en el archivo metadata, ahora tiene un identificador propio, en caso q si quisieran instalar el Xenoperations original, podrian interferir entre si, ahora usa la etiqueta XOPSLegacy como corresponde.

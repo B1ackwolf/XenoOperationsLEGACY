@@ -5282,8 +5282,8 @@ items:
       proximityExplode: false
     armor: 50
     attraction: 6
-    invWidth: 2
-    invHeight: 1
+    invWidth: 1
+    invHeight: 3
     listOrder: 4169
 #######
 
@@ -6511,6 +6511,10 @@ items:
 #----- Human armors and corpses-----#
 # Initial Tier #
   - type: STR_FLIGHT_JUMPSUIT
+    size: 0.5
+    costSell: 18000
+    listOrder: 2000
+  - type: STR_MECH_DRIFTSUIT
     size: 0.5
     costSell: 18000
     listOrder: 2000

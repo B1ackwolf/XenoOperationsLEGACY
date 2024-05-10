@@ -90,6 +90,7 @@ facilities:
     removalTime: 7
     refundValue: 700000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
+    provideBaseFunc: [ TROOPERS_SCHOOL ]
     personnel: 80
     storage: 30
     storageTiles:
@@ -526,8 +527,8 @@ facilities:
     requires:
       - STR_ADVANCED_SICK_BAY
     maxAllowedPerBase: 1
-    provideBaseFunc: [ MEDBAY] #OJITO SI HACE FALTA EN MEDBAY BASICA
-    forbiddenBaseFunc: [ MEDBAY ] #OJITO MISMO DE ARRIBA
+    provideBaseFunc: [ MEDBAY] #OJITO SI HACE FALTA EN MEDBAY BASICA, esto es para operar perritos y humanos luego
+#    forbiddenBaseFunc: [ MEDBAY ] #OJITO MISMO DE ARRIBA
     sickBayAbsoluteBonus: 0.50
     sickBayRelativeBonus: 2.0
     listOrder: 152
