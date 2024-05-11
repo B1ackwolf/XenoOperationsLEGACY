@@ -280,6 +280,8 @@ extraSprites:
       433: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanEleriumMine.gif
       434: Resources/WeaponrySprites/9thOrdnance/BigOb/11HumaAntiMatterCharge.gif
       250: Resources/WeaponrySprites/9thOrdnance/BigOb/15BangaloreCharge.png
+      251: Resources/WeaponrySprites/9thOrdnance/BigOb/16BreachingElerium.png
+      252: Resources/WeaponrySprites/9thOrdnance/BigOb/17BreachingAntimatter.gif
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma BigOb -----#
       350: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol.gif
@@ -638,7 +640,10 @@ extraSprites:
       675: Resources/WeaponrySprites/9thOrdnance/FloorOb/7HybGrenade2_floor.gif
       433: Resources/WeaponrySprites/9thOrdnance/FloorOb/10HumanEleriumMine_floor.gif
       434: Resources/WeaponrySprites/9thOrdnance/FloorOb/11HumanAntimatterCharge_floor.gif
-      250: Resources/FloorOb_DemolitionCharge.gif
+      250: Resources/WeaponrySprites/9thOrdnance/FloorOb/15BangaloreCharge_floor.png
+      251: Resources/WeaponrySprites/9thOrdnance/FloorOb/16BreachingElerium_floor.png
+      252: Resources/WeaponrySprites/9thOrdnance/FloorOb/17BreachingAntimatter_floor.gif
+
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma FloorObs -----#
       350: Resources/WeaponrySprites/10thAlien/FloorOb/1AlienPlasmaPistol_floor.gif
@@ -817,6 +822,9 @@ extraSprites:
       232: Resources/WeaponrySprites/9thOrdnance/HandOb/4Proxgrenade_hand.png
       216: Resources/WeaponrySprites/9thOrdnance/HandOb/9HighExplosive_hand.png
       1050: Resources/WeaponrySprites/9thOrdnance/HandOb/11HumanAntimatterCharge_hand.gif
+      250: Resources/WeaponrySprites/9thOrdnance/HandOb/15BangaloreCharge_hand.png
+      251: Resources/WeaponrySprites/9thOrdnance/HandOb/16BreachingElerium_hand.gif
+      252: Resources/WeaponrySprites/9thOrdnance/HandOb/17BreachingAntimatter_hand.gif
      # 1335: Resources/WeaponrySprites/9thOrdnance/HandOb/8EleriumGrenade_hand.png ####ojito usar para granada humana de elerium, mejorar sprite
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma HandObs -----#

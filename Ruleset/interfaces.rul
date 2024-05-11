@@ -139,11 +139,11 @@ interfaces:
       - id: palette
         color: 0     # brown
       - id: window
-        color: 244   # minty green
+        color: 242   # minty green
       - id: text
         color: 138   # yellow
       - id: button
-        color: 133   # minty green
+        color: 244   # minty green
       - id: battlescapeTheme
         color: -1
         color2: -1

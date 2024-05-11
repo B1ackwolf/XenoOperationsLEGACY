@@ -104,7 +104,7 @@ gameplay changes:
    * cargas bangalore diseñadas para perforar los ufos y crear distintos angulos de ingreso.
    * tienen un alto daño contra el terreno.
      ~con esto se evita ser usado como granadas, tampoco tienen mucho rango para ser arrojados.  
-     ~ existen de tres niveles, cada vez mas livianos y portatiles
+     ~ existen de tres niveles, cada vez mas livianos y portatiles, consideracion q el modelo inicial no puede ser arrojado
    * sprites retocadas de articulos pertenecientes a otros mods (MAYORITARIAMENTE XFILES)
  - agregado un nuevo tipo de soldier transformation:
    * entrenamiento para conduccion de tanqueros

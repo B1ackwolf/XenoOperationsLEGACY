@@ -5242,14 +5242,15 @@ items:
     attraction: 6
     listOrder: 2913
 #####Ojito Prueba Bangalores
-  - type: STR_BO_BANGALORE_CHARGE
+  - type: STR_BO_BREACHING_BANGALORE
 #    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
     size: 0.2
     requiresBuy:
-     - STR_BO_BANGALORE_CHARGE
+     - STR_BO_BREACHING_BANGALORE
     costBuy: 1600
     costSell: 1200
-    weight: 7
+    weight: 25
+    throwRange: 2
     bigSprite: 250
     floorSprite: 250
     handSprite: 250
@@ -5282,22 +5283,23 @@ items:
       proximityExplode: false
     armor: 50
     attraction: 6
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
-    listOrder: 4169
+    listOrder: 2915
 #######
 
-  - type: STR_BO_BANGALORE_ELERIUM
+  - type: STR_BO_BREACHING_ELERIUM
 #    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
     size: 0.2
     requiresBuy:
-     - STR_BO_BANGALORE_ELERIUM
+     - STR_BO_BREACHING_ELERIUM
     costBuy: 1600
     costSell: 1200
-    weight: 7
-    bigSprite: 250
-    floorSprite: 250
-    handSprite: 250
+    throwRange: 5
+    weight: 14
+    bigSprite: 251
+    floorSprite: 251
+    handSprite: 251
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -5328,21 +5330,21 @@ items:
     armor: 50
     attraction: 6
     invWidth: 2
-    invHeight: 1
-    listOrder: 4169
+    invHeight: 2
+    listOrder: 2916
 
 #######3
-  - type: STR_BO_BANGALORE_ANTIMATTER
+  - type: STR_BO_BREACHING_ANTIMATTER
 #    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
     size: 0.2
     requiresBuy:
-     - STR_BO_BANGALORE_ANTIMATTER
+     - STR_BO_BREACHING_ANTIMATTER
     costBuy: 1600
     costSell: 1200
-    weight: 7
-    bigSprite: 250
-    floorSprite: 250
-    handSprite: 250
+    weight: 8
+    bigSprite: 252
+    floorSprite: 252
+    handSprite: 252
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -5374,9 +5376,7 @@ items:
     attraction: 6
     invWidth: 2
     invHeight: 1
-    listOrder: 4169
-
-
+    listOrder: 2917
 #----- Tenth tier Alien Weaponry -----#
   - type: STR_AW_MAIN_PISTOL
     requires:
