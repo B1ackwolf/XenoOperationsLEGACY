@@ -82,9 +82,10 @@ TL;DR VERSION:
    * luego quedaria por hacer las versiones por distintos tamaños para cada genero
    * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
  - hacer q la armadura que sale en el ARMOR for avatar (aprovechar la q se pone en la ufopaedia)
+   * la q se llama "no se que display", aprovecharme del parametro q repite el codigo usando "&" para acortar espacio
    * sea distinta, no se pueda usar en el inventario
    * sin el chaleco pesado pero q posea la boina
-   * con boina distinta segun el tipo de soldado q sea,   
+   * con boina distinta segun el tipo de soldado q sea   
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
 ######### 
  - balancear requerimientos de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun . asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.

@@ -5253,7 +5253,7 @@ items:
     throwRange: 2
     bigSprite: 250
     floorSprite: 250
-    handSprite: 250
+    handSprite: 190
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -5273,7 +5273,7 @@ items:
     primeActionName: STR_PRIME_CHARGE
     primeActionMessage: STR_CHARGE_IS_ACTIVATED
     unprimeActionName: STR_UNPRIME_CHARGE
-    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
+#    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
     fuseType: -1
     fuseTriggerEvents:
       defaultBehavior: true
@@ -5299,7 +5299,7 @@ items:
     weight: 14
     bigSprite: 251
     floorSprite: 251
-    handSprite: 251
+    handSprite: 1245
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -5319,7 +5319,7 @@ items:
     primeActionName: STR_PRIME_CHARGE
     primeActionMessage: STR_CHARGE_IS_ACTIVATED
     unprimeActionName: STR_UNPRIME_CHARGE
-    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
+#    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
     fuseType: -1
     fuseTriggerEvents:
       defaultBehavior: true
@@ -5344,7 +5344,7 @@ items:
     weight: 8
     bigSprite: 252
     floorSprite: 252
-    handSprite: 252
+    handSprite: 1290
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -5364,7 +5364,7 @@ items:
     primeActionName: STR_PRIME_CHARGE
     primeActionMessage: STR_CHARGE_IS_ACTIVATED
     unprimeActionName: STR_UNPRIME_CHARGE
-    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
+#    unprimeActionMessage: STR_CHARGE_IS_DEACTIVATED
     fuseType: -1
     fuseTriggerEvents:
       defaultBehavior: true

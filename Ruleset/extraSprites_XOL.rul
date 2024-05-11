@@ -822,9 +822,9 @@ extraSprites:
       232: Resources/WeaponrySprites/9thOrdnance/HandOb/4Proxgrenade_hand.png
       216: Resources/WeaponrySprites/9thOrdnance/HandOb/9HighExplosive_hand.png
       1050: Resources/WeaponrySprites/9thOrdnance/HandOb/11HumanAntimatterCharge_hand.gif
-      250: Resources/WeaponrySprites/9thOrdnance/HandOb/15BangaloreCharge_hand.png
-      251: Resources/WeaponrySprites/9thOrdnance/HandOb/16BreachingElerium_hand.gif
-      252: Resources/WeaponrySprites/9thOrdnance/HandOb/17BreachingAntimatter_hand.gif
+      190: Resources/WeaponrySprites/9thOrdnance/HandOb/15BangaloreCharge_hand.png
+      1245: Resources/WeaponrySprites/9thOrdnance/HandOb/16BreachingElerium_hand.gif
+      1290: Resources/WeaponrySprites/9thOrdnance/HandOb/17BreachingAntimatter_hand.gif
      # 1335: Resources/WeaponrySprites/9thOrdnance/HandOb/8EleriumGrenade_hand.png ####ojito usar para granada humana de elerium, mejorar sprite
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma HandObs -----#
