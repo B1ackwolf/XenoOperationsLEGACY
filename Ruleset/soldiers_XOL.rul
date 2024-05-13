@@ -79,7 +79,7 @@ soldiers:
     deathMale: [994, 680, 681]
     deathFemale: [994, 680, 681]
   - type: STR_SOLDIER
-    costBuy: 25000
+    costBuy: 20000
     costSalary: 4000
     costSalarySquaddie: 1000
     costSalarySergeant: 2000
@@ -141,7 +141,7 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
   - type: STR_ELITE_SOLDIER
-    costBuy: 200000
+    costBuy: 180000
     costSalary: 7000
     costSalarySquaddie: 1000
     costSalarySergeant: 3000
@@ -260,7 +260,7 @@ soldiers:
     - STR_ARMY_MAJOR
     - STR_ARMY_LT_COLONEL
   - type: STR_PILOT
-    costBuy: 60000
+    costBuy: 50000
     costSalary: 15000
     costSalarySquaddie: 5000
     costSalarySergeant: 10000
@@ -330,7 +330,6 @@ soldiers:
     - STR_AIR_BRIGADIER
 ##########ojito tanquero
   - type: STR_DRIVER
-    costBuy: 60000
     costSalary: 15000
     costSalarySquaddie: 5000
     costSalarySergeant: 10000

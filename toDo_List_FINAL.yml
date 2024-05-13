@@ -1,17 +1,13 @@
 #ideas for the mod, in any specific order:
-
+#checar los ojitos siguientes
 TL;DR VERSION:
- - balancear breaching charges
-   * darle credits a dbrizo por inspirarme para breaching charge
-   * aprovechar el comando "throwRange" para definir todos los objetos demasiado pesados o delicados para arrojarse
-   * ahi el bangalore elerium deberia ser con detalles en amarillo
-   * aprovechar y mejorar las sprites de las armas explosivas humanas, hacerlas mas intrincadas
+ - OJITOOOOOOOOOOO revisar el tema del inventario q muestra desglosado si ejemplo las granadas en el avion, las granadas equipadas y las excedentes. eso se ve en el modo oxce, confirmar si se puede en BAIOXCE tambien al llegar
 
 
- - primero actualizar tiempo de duracion de los researches antes de re ordenar OJO (dividr entre un 4 aprox)
- - no he tocado los tiempos de manufactura, hacer esto antes de seguir agregando proyectos (dividir posiblemente a<s la mitad?)
- - separar armas q estan en el mismo png
- - implementar script de armas q varian en base al cartucho de filip h en jeilo
+ - presupuesto anual gringo total aprox 841.000.000.000, igual a 70.083.333.333 mensual
+ - presupuesto anual otan total aprox 380.000.000.000,   igual a 31.666.666.666 mensual
+ - para q ajuste precios, tendrian q ser entre mil?
+
  - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
  - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
  - nombres nuevos a considerar para rangos otras especies
@@ -41,19 +37,26 @@ TL;DR VERSION:
 + hoja de ruta para 0.98.1:
 ####
  - hacer siguiente armadura de perritos, si puedo, confio en mi.
- - acomodar colores de las imagenes basebits.
-   * revisar si puedo hacer q aparezcan las puerticas como en los de las de 4 pedazos.
+
  - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
 
 ####
+ - balancear breaching charges
+   * darle credits a dbrizo por inspirarme para breaching charge
+   * aprovechar el comando "throwRange" para definir todos los objetos demasiado pesados o delicados para arrojarse
+   * ahi el bangalore elerium deberia ser con detalles en amarillo
+   * aprovechar y mejorar las sprites de las armas explosivas humanas, hacerlas mas intrincadas
+
+ - no he tocado los tiempos de manufactura, hacer esto antes de seguir agregando proyectos (dividir posiblemente a<s la mitad?)
+ - separar armas q estan en el mismo png
+ - implementar script de armas q varian en base al cartucho de filip h en jeilo
+
  - respecto al tanquero .duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
    * crear todos los articulos en ufopaedia usando el pilot como ejemplo
    * duplicar los layers de las armaduras usando los layers de personalarmor
    * luego crear las armaduras de tanque copiando todos los del sidecard de GWoTW.
      ~ la armadura tendria el mismo sistema de layer pero en la capa mas baja estaria una imagen dos de del tanque de fondo.
    * hacerle el tinyrank y sus rank sprites en azul  
-
-
 
  - actualizar el interfaces y modificar los colres de los elementos de la ufopaedia
    * daño de las armas variaran en base al tipo de daño
@@ -64,52 +67,82 @@ TL;DR VERSION:
    
  - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
    * probar pintando ambas en plateado y detalles en verde?
- - usar el item EScudo
+
+ - implementar el item EScudo
    * ya consegui los sprites
    * tengo q recolorizarlos y adaptarlos mejor
-     ~ hacerle floorsprite
    * usar el script de halo del kin-yar gauntlet
      ~ recordar darle credits a filip-H  
- - copiar el tipo de daño de xfiles?
+ - copiar los tipos de daño de xfiles?
    * separar el cutting del melee
-####   
+####OJITO AQUI SIGUIENTES 
 
  - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
  - usar EL soldado IA para del drone core
- - reducir el precio de todas las cosas iniciales YA reducir entre 100 y ajustar a precios relativos coherentes revisar costbuy y agregar los q hagan faltan
+ - concretar el tema de las explosiones que pierdan daño segun el area de impacto
+   * eliminando el comando blastradius y remplazar con el que tipea recomendado el ruleset que es damage alter
  - cambiar colores de las battlescape sprites de pilotos a rojo y oscurecer el paperdoll del inventario de la xops un tono mas oscuro tambien, la power armor cambiarle ojos de rojo a amarillo en ese modelo, cambiar colores de paperdolls de cascos tambien.
  - rehacer todas las armaduras de vuelta de tier 1 , rehacer como habia planteado las armaduras femeninas para q los bolsillos sean iguales en tamaño, se cambia solo el coso del chaleco principal. recordatorio, cuando achico armadura femenina se hace al 96% en sprite resize
    * luego quedaria por hacer las versiones por distintos tamaños para cada genero
    * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
+ - agregar nuevos sprites a las armaduras
+   * darle prioridar al formato de los chalecos
+     ~ solamente agrandar y achicar segun los talles LA CAPA PRINCIPAL DEL CHALECO
+     ~ las capas q contienen los bolsillos deben quedar igual, de este modo todos los tamaños poseeran los mismos bolsillos, ajustado al tamaño de los soldados
+       ° evitar entrar en la situacion de firaxis 2012 xcom que las mujeres deben tener cartuchos mas chikitos
+   * importante crear talles distintos de los mamelucos
+     ~ recordar recortar y ajustar ligeramente mas al cuerpo el traje basico a la sprite medium
+     ~ luego ir agrandando para los distintos talles
+       ° usar esos tamaños de plantillas para el resto de las versiones de colores
+   * separar mascaras de cascos en versiones oscuras black ops.
+   * raparle pelo a "heads" nuevas para que calse con los cascos
+   * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
+     ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
+ - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
+   * usaran trajes azules
+ - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets? 
+   * modificar el rank sprite sheet a rojo
+   * pintar nuevamente imagen de piloto de la ufopaedia a color rojo
+   * modificar el casco del piloto basico
+ - crear unidad parecida a perro pero q sea "drone core"
+   * aprovechar y explicar lo del drone q se conecta desde la base
+   * aprovechar texto del edificio radar para completar la explicacion
+   * crearles sus respectivos armor previews
  - hacer q la armadura que sale en el ARMOR for avatar (aprovechar la q se pone en la ufopaedia)
    * la q se llama "no se que display", aprovecharme del parametro q repite el codigo usando "&" para acortar espacio
    * sea distinta, no se pueda usar en el inventario
    * sin el chaleco pesado pero q posea la boina
-   * con boina distinta segun el tipo de soldado q sea   
+   * con boina distinta segun el tipo de soldado q sea
+ - Remake the FLUFF TEXT for the armors.
+   * Consider renaming tiers.
+   * Rename each armor individually.
+      ~ aprovechar y cambiar el nombre a las armaduras
+         ° armadura basica = Legionnaire / pilot=AUXILIA
+         ° armadura xops = Centurion / pilot=LEGATE
+         ° Armadura personal = Ulfsark / pilot=HUSCARL
+         ° Armadura alloy = Spartan / pilot=???
+         ° Armadura Voladora = cuāuhpilli / pilot=??
+         ° Armadura Power = Myrmidon / pilot=???
+         ° Armadura Psionica = Gorgon / pilot=????
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
+ - Improve armor sprites.
+   * hacer mas bulkies el battle sprite
+   * poner chalequitos verdes al battle sprite camo
+   * usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
+   * Create new sprites with cool visors for every pilot version.
+     ~ copiar el casco de exosuits para pilotos de aviones
+   * Create different versions based on soldier sizes.
+   * Ensure advanced versions cover ALL skin (test with a black background as I update).
+   * Use the belly from female personal armor for non-muscular men.
+ - Add raised quad-lenses to tier 1 soldier sprites, then add lower quad-lenses and find out if configuration is possible.
+ - Explore sources for improved versions of map and globe symbols.
+   * Check TFTD+ or Unexcom to understand how the ruleset works for this.
+     ~ must define using globemarkers.
+     ~ Use the "marker" command assigned to each aircraft.
+
 ######### 
  - balancear requerimientos de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun . asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
  - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
- 
- - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
-
- - siguiente parche tendra el revamp del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
-+ PETICIONES A OXCE:
- - hacer mañana un reporte de avances, explicar todos los cambios q he hecho. decir q tardare maximo un mes mas.
-
-+ PRIORITIES FIXES:
- - ojito revisar el sonido de aggro de los carcharodones
- - PERRITOS MATAN A CYBERDISC. bug o feature?
-   * de hecho matan a demasiados alienes q no deberian
-   * deberia considerarse si los aliens q atacan tienen o no armadura, a partir de alli haran daño o no
- - Review the changes made to alien species and reclassify their STR_ reference names accurately.
-   * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
-     ~ Should be a new project that need an X ammount of bodies for testing and exploring any weaknesses.
-   * Every race should consist of these projects
-     ~ A live study discussing the behavior and characteristics of the species.
-     ~ An autopsy establishing generalities and the functioning of the species.
-     ~ A combat analysis showing weaknesses and exploiting qualities, giving a damage bonus. (Check Xenonauts 1 posters entries for inspiration to the artwork).
- - OJO, en los ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO, no estan asignados a ninguna especie
  - revisar enteramente arbol de investigaciones dandole enfasis a los siguientes proyectos
    * STR_CODEX_COMPLETE
    * STR_DATA_RECOVERY
@@ -122,11 +155,67 @@ TL;DR VERSION:
    * esto funciona aplicandole el lookup propiedad.
  - a partir del 4 , se reemplaza con el anomalous equation y data fragments.
  - Checar que onda que hacer con elerium CELL que es la municion del cañon plasma de aviones
+ - hacer que "STR_XENO_PHYSIOLOGY" requiera distintas especies antes de desbloquearse
  - Resolve the Suppressed Error for STR_SECTOPOD_ELITE_TERRORIST.
    * This unit can be recovered (in theory), but there is no corresponding 'liveAlien:' or 'civilianRecoveryType:' to recover.
- - (FATAL) OpenXcom has crashed Height of map MAPS/AULTA10.MAP too big for this mission, block is 9, expected 4.
-   * No matter how I modify the problem in the alien deployments tab, it still gives an error.
-   * Continue investigating with EfrenEspartano to see what's going on.
+ - Review the changes made to alien species and reclassify their STR_ reference names accurately.
+   * Perhaps create an extra investigation that provides reports on the weaknesses of aliens.
+     ~ Should be a new project that need an X ammount of bodies for testing and exploring any weaknesses.
+   * Every race should consist of these projects
+     ~ A live study discussing the behavior and characteristics of the species.
+     ~ An autopsy establishing generalities and the functioning of the species.
+     ~ A combat analysis showing weaknesses and exploiting qualities, giving a damage bonus. (Check Xenonauts 1 posters entries for inspiration to the artwork).
+  - aprovechar los extras aliens objects para hacer requisitos de tecnologia
+   * ejemplo el communicador y el hypersensory para el Hyper-wave relay
+   * todos los q son cosas de medico para las clinicas
+   * etc
+   * tambien para los manufactures for profit goods
+ - modificar totalmente como funcionan los articulos medicos.
+   * buscar agregarle soniditos a los articulos medicos cuando se usen
+   * nivel 0 la jeringa de adreno y el pouch individual y descartable
+   * nivel 1 el bolsito medico, pensado para unidades especializadas en curar.
+   * nivel 2 el field surgery kit, una version mejorada.
+     ~ tambien requerira un manufacture project
+     ~ requerira la investigacion del life support? (proporcionaria mejoras en el tratamiento de celulas madre blablabla)
+     ~ quizas tambien el de alien physiology
+       ° nota, recordatorio de agregar pistas dentro del research de alien psynionomy de q se necesita el life support para poder tener el alien containtment.
+   * nivel 3 el medi-kit de vainilla q es dispensador de medi-gel, explicaria todo lo avanzado de la medicina, cosas de reparar heridas y tejido casi al instante blablabla
+     ~ requeriria quizas nivel 3 del codex? (2 como minimo)
+     ~ estaria atado a la mejora del edificio de la base de la clinica mejorada. 
+
+
+
+
+ - Change background sprites for some screens on the base.
+   * Background02 (soldier tab)/ Something more fitting and militarish, perhaps some soldiers formed saluting?
+     ~ Inquire if there is a way to add a background specifically TO THE MEMORIAL tab, then add some kind of memorial wall, like in Firaxis or Mass Effect.
+     ~ confirmado que se puede, modificando el archivo interfaces. esto esta en proceso
+   * Background03 (terror tab)/ Create something more fitting, perhaps a city burning?
+     ~ Differentiate different missions with different tabs (so all different terror types, either liners, islands, small towns, etc., have a different background).
+   * Background04 (base defense)/ Something showing either soldiers fighting in a hallway (like Xenonauts vs. Androns), or some kind of missile batteries shooting at an incoming UFO.
+     ~ the same file applies to base equiptment preview, some kind of armory view
+   * Background13 (selling screen)/ I always liked the TFTD version of this a lot more (try to add the money suitcase too?).
+   * Background14 (plane equipment)/ Im okay with the current version, might only retouch the silhouette to not be so dark, so all the changes made to plane basebits shadows stand out more.
+   * Background16 (UFO related mission start)/ Some kind of POV over the shoulder inside the cockpit of our plane, flying over a crashed UFO.
+     ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
+
+
+     
+       
+##################################### arriba es el desastre
+
+ - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
+
+ - siguiente parche tendra el revamp del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
+##################################################### pasos del siguiente parche
+
++ PRIORITIES FIXES:
+ - ojito revisar el sonido de aggro de los carcharodones
+ - PERRITOS MATAN A CYBERDISC. bug o feature?
+   * de hecho matan a demasiados alienes q no deberian
+   * deberia considerarse si los aliens q atacan tienen o no armadura, a partir de alli haran daño o no
+
+ - OJO, en los ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO, no estan asignados a ninguna especie
  - Investigate how to resolve the following error
    * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
    *[revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima]
@@ -153,27 +242,11 @@ IMPORTANTE PARA LORE:
      ~ sentinel
  - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
  - directamente revisar todos los "ojitos"
- - aprovechar los extras aliens objects para hacer requisitos de tecnologia
-   * ejemplo el communicador y el hypersensory para el Hyper-wave relay
-   * todos los q son cosas de medico para las clinicas
-   * etc
-   * tambien para los manufactures for profit goods
  - modificar unidades alienigenas para darles una dificultad mas estable
    * eliminar q ganen stats segun el nivel de dificultad, por lo tanto ahora regularizar mejor los stats a un promedio
    * se modificaran las cantidades totales de aliens
    * quizas modificar los parametros de BRUTAL IA en base al nivel (siempre sin hacer trampa)
- - crear medalla para perros
- - modificar totalmente como funcionan los articulos medicos.
-   * buscar agregarle soniditos a los articulos medicos cuando se usen
-   * nivel 0 la jeringa de adreno y el pouch individual y descartable
-   * nivel 1 el bolsito medico, pensado para unidades especializadas en curar.
-   * nivel 2 el field surgery kit, una version mejorada.
-     ~ requerira la investigacion del life support? (proporcionaria mejoras en el tratamiento de celulas madre blablabla)
-     ~ quizas tambien el de alien physiology
-       ° nota, recordatorio de agregar pistas dentro del research de alien psynionomy de q se necesita el life support para poder tener el alien containtment.
-   * nivel 3 el medi-kit de vainilla q es dispensador de medi-gel, explicaria todo lo avanzado de la medicina, cosas de reparar heridas y tejido casi al instante blablabla
-     ~ requeriria quizas nivel 3 del codex? (2 como minimo)
-     ~ estaria atado a la mejora del edificio de la base de la clinica mejorada.    
+ - crear medalla para perros 
  - acomodar sprites de aviones en ufopaedia
    * rehacerle la imagen al f35 mejorado con el coffin, foto en nuevo angulo
      ~ tambien al nuevo empress q sera el avion definitivo de XCOM.
@@ -182,47 +255,22 @@ IMPORTANTE PARA LORE:
 + impending changes: 
 
  - implementar YA cambios al xelloy
- - reajustar todo lo relacionado con cientificos
-   * reducir cantidad de horas los proyectos ÷ 4
-   * resultando en numero total de cientificos aproximadamente 1/5 parte idealmente
- - ingenieros no, por ahora?
+ - reajustar todo lo relacionado con ingenieros?
    * triplicar precio de proyectos de generacion de dinero
    * reducir costo de horas proyectos un 1/3
    * resultando en numero total de ingenieros, la mitad aproximadamente 
- - agregar nuevos sprites a las armaduras
-   * darle prioridar al formato de los chalecos
-     ~ solamente agrandar y achicar segun los talles LA CAPA PRINCIPAL DEL CHALECO
-     ~ las capas q contienen los bolsillos deben quedar igual, de este modo todos los tamaños poseeran los mismos bolsillos, ajustado al tamaño de los soldados
-       ° evitar entrar en la situacion de firaxis 2012 xcom que las mujeres deben tener cartuchos mas chikitos
-   * importante crear talles distintos de los mamelucos
-     ~ recordar recortar y ajustar ligeramente mas al cuerpo el traje basico a la sprite medium
-     ~ luego ir agrandando para los distintos talles
-       ° usar esos tamaños de plantillas para el resto de las versiones de colores
-   * separar mascaras de cascos en versiones oscuras black ops.
-   * raparle pelo a "heads" nuevas para que calse con los cascos
-   * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
-     ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
- - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
-   * usaran trajes azules
- - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets? 
-   * modificar el rank sprite sheet a rojo
-   * pintar nuevamente imagen de piloto de la ufopaedia a color rojo
-   * modificar el casco del piloto basico
- - crear unidad parecida a perro pero q sea "drone core"
-   * aprovechar y explicar lo del drone q se conecta desde la base
-   * aprovechar texto del edificio radar para completar la explicacion
-   * crearles sus respectivos armor previews
  - agregar efecto purpura psionico pero solo a los ethereals
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - aprovechar lanza cohetes matador y reemplazarlo por primer smaw del into the abyss
    * retocar color
  - conseguir explosiones diferentes para efectos de granadas 
- - concretar el tema de las explosiones que pierdan daño segun el area de impacto, eliminando el comando blastradius y remplazar con el que tipea recomendado el ruleset
+
 
 #MISC
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.
+
  - Clean up and correct all newlines (and double newlines).
    * Indent (-) only at the beginning of the text, not at the beginning of a new paragraph.
 
@@ -234,12 +282,28 @@ IMPORTANTE PARA LORE:
  - Finish the Audio enhancement
    * Confirmar todas las carpetas quedan correctamente utilizadas
    * aprovechar carpeta de into the abyss que tiene sonidos buenos, en especial para primeros dos tiers.
++ sacar de into the abbyss:
+ - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
+  ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
+ - lore de algunas armas
+ - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
+   * sacar de apoc tambien, sobre todo sonido de swarmids para dron
+ - sacar de vigilo confido
+   * verificar que onda todas las distintas alternativas de granadas, en especial las acidas, a ver q funca de ahi
+###################################################################################################################################
+###################################################################################################################################
+###################################################################################################################################
+###################################################################################################################################
+###################################################################################################################################
 
-###################################################################################################################################
-###################################################################################################################################
-###################################################################################################################################
-###################################################################################################################################
-###################################################################################################################################
++ PETICIONES A OXCE:
+
+ - Inquire about making day and night sprites differentiation for armors sprites
+   * for implementation in the first tier with lenses going up and down.
+ - acomodar colores de las imagenes basebits.
+   * revisar si puedo hacer q aparezcan las puerticas como en los de las de 4 pedazos.
+ - crear alguna especie de "CURRENT OBJECTIVE"
+#####
 
 + EFRENESPARTANO HELP IN PLANES CHANGES:
  - Firefly
@@ -288,59 +352,28 @@ IMPORTANTE PARA LORE:
    * confirmed i can, raven found a way, i need to found how to apply considering the colors of my armors.
    * specialy if i can change them using the same color varying for ranks.
      ~ something like "for rank 1, change color X, for rank 2  changes color Y instead"
- - Remake the FLUFF TEXT for the armors.
-   * Consider renaming tiers.
-   * Rename each armor individually.
-      ~ aprovechar y cambiar el nombre a las armaduras
-         ° armadura basica = Legionnaire / pilot=AUXILIA
-         ° armadura xops = Centurion / pilot=LEGATE
-         ° Armadura personal = Ulfsark / pilot=HUSCARL
-         ° Armadura alloy = Spartan / pilot=???
-         ° Armadura Voladora = cuāuhpilli / pilot=??
-         ° Armadura Power = Myrmidon / pilot=???
-         ° Armadura Psionica = Gorgon / pilot=????
    * Focus especially to restablish the nomenclatures on the bodies and corpses png and gif files.
    * Perhaps increase the Size of frontal pockets to 2x2 squares?.
    * Rename the "backpack" category to something more generic.
  - I havent found the way to alter armor order yet, i need to keep investigating about it.
-
-
- - Improve armor sprites.
-   * usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
-   * Create new sprites with cool visors for every pilot version.
-     ~ copiar el casco de exosuits para pilotos de aviones
-   * Create different versions based on soldier sizes.
-   * Ensure advanced versions cover ALL skin (test with a black background as I update).
-   * Use the belly from female personal armor for non-muscular men.
- - Add raised quad-lenses to tier 1 soldier sprites, then add lower quad-lenses and find out if configuration is possible.
-   * Inquire about making day and night sprites different for implementation in the first tier.
  - Add bulbs on hands, hips in the battlescape sprites of nerve armors.
  - Implement a new pocket configuration.
    * Add a new pocket where only "armor modules" can be placed.
      ~ Metal protection plates.
      ~ Communication nodes.
      ~ For aiming improvement.
- - Perhaps remove pockets from personal armor.
-
+   * Perhaps remove pockets from personal armor.
 
 #####
-
-+ sacar de into the abbyss:
- - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
-  ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
- - lore de algunas armas
- - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
-   * sacar de apoc tambien, sobre todo sonido de swarmids para dron
- - sacar de vigilo confido
-   * verificar que onda todas las distintas alternativas de granadas, en especial las acidas, a ver q funca de ahi
-######
 
 + Weapons Changes:
  - Check that by eliminating certain shot types, weapons now have different maximum ranges in some instances.
    * Consider all balance issues this could create.
  - Create a better handob sprite for the Milkor AGL.
    * Slightly reduce the size of drum magazines.
- - Increase the weight of the XX cannon.
+#ojito SIGUIENTE, aqui de esto varios puedo terminar para el 0.98
+
+
  - Create a breaching charge to perforate UFO walls and thus assault from different angles (check Xenonauts1 example).
    * Later, create some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
      ~ Give this "terrain damage" sub-property to the plasma sword and knife?
@@ -383,7 +416,6 @@ IMPORTANTE PARA LORE:
    * Use metalhit.ogg as the sound.
  - Confirm the issue with the bullet sprite of the pistol taser.
  - Create a new handob and floorob sprite in the new Kriss Vector style for the Xsmg.
- - Reuse all the effects from into the abbyss.
  - Rename XX assault cannon to something 20mm flak.
  - Rename tank AP cannon to 25 mm Bushmaster.
  - Plane cannon is now a 30 mm GAU-8/A Avenger.
@@ -495,21 +527,7 @@ IMPORTANTE PARA LORE:
  - Add underwear and/or T-shirts to sprites like the new ones in the US Army (keep it SFW).
  - Sectopod aliens are xelloy blue; in contrast, human sectopods will be brown. Confirm this.
    * Blue color has already been changed; only need to create the human sectopods.
- - Explore sources for improved versions of map and globe symbols.
-   * Check TFTD+ or Unexcom to understand how the ruleset works for this.
-     ~ must define using globemarkers.
-     ~ Use the "marker" command assigned to each aircraft.
- - Change background sprites for some screens on the base.
-   * Background02 (soldier tab)/ Something more fitting and militarish, perhaps some soldiers formed saluting?
-     ~ Inquire if there is a way to add a background specifically TO THE MEMORIAL tab, then add some kind of memorial wall, like in Firaxis or Mass Effect.
-   * Background03 (terror tab)/ Create something more fitting, perhaps a city burning?
-     ~ Differentiate different missions with different tabs (so all different terror types, either liners, islands, small towns, etc., have a different background).
-   * Background04 (base defense)/ Something showing either soldiers fighting in a hallway (like Xenonauts vs. Androns), or some kind of missile batteries shooting at an incoming UFO.
-     ~ the same file applies to base equiptment preview, some kind of armory view
-   * Background13 (selling screen)/ I always liked the TFTD version of this a lot more (try to add the money suitcase too?).
-   * Background14 (plane equipment)/ Im okay with the current version, might only retouch the silhouette to not be so dark, so all the changes made to plane basebits shadows stand out more.
-   * Background16 (UFO related mission start)/ Some kind of POV over the shoulder inside the cockpit of our plane, flying over a crashed UFO.
-     ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
+   * or use alternative sprites from mech as jagers and such
 
 #####
 
@@ -609,6 +627,7 @@ IMPORTANTE PARA LORE:
  - Convert all images to PNG.
    * This way, I can establish transparent alpha correctly.
  - Improve the entire ufopedia implementing this line of code of "removedBy" (https://openxcom.org/forum/index.php/topic,7639.msg0.html#new)
+
 #####
 
 + Possible Unattainable Changes:

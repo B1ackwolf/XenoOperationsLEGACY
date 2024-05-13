@@ -1354,8 +1354,8 @@ extraStrings:
       STR_LABSHIP_UFOPEDIA: This large ship contains numerous research facilities and has a large staff. Its weapons and armor are sub par for a UFO of its size and its crew are lightly armed.
 #-----Human Weapons
 
-      STR_STR_SH_SMALL_PISTOL: Taser Pistol
-      STR_STR_SH_SMALL_PISTOL_CLIP: Taser Shock Clip
+      STR_SH_SMALL_PISTOL: Taser Pistol
+      STR_SH_SMALL_PISTOL_CLIP: Taser Shock Clip
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
       STR_XP_AUTO_PISTOL: X1 Machine Pistol
       STR_XP_SMALL_PISTOL_CLIP2: 9mm Alloys Magazine
@@ -1858,7 +1858,7 @@ extraStrings:
       STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY: Power Suit
       STR_FLYING_SUIT_ARMOR_UFOPEDIA_DISPLAY: Flying Suit
       STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY: Personal Armor
-      STR_STR_SH_SMALL_PISTOL_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
+      STR_SH_SMALL_PISTOL_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
 
 
 
@@ -2192,7 +2192,7 @@ extraStrings:
       STR_TANKS_UNITS: Heavy Weapons Platforms
       STR_HEAVY_TANKS_UNITS_UFOPEDIA: "As access to new materials and advanced technologies, such as the enigmatic alien alloys, became available, the imperative to deploy heavier and more formidable units on the battlefield grew exponentially. To meet this demand, our dedicated Research teams embarked on an ambitious endeavor, focusing on the creation of groundbreaking models characterized by a drastic reduction in weight and increased mobility. The primary objective was to engineer units so lightweight that they could be safely transported and swiftly deployed by our enhanced transport ships equipped with VTOL (Vertical Takeoff and Landing) capabilities. {NEWLINE}This engineering feat signifies a pivotal advancement, enabling us to rapidly respond to emerging threats and engage the alien menace with unparalleled agility. These innovative designs are a testament to the relentless pursuit of progress and efficiency in our mission to safeguard humanity against the looming extraterrestrial threat."
       STR_EX_ADRENO_KIT_UFOPEDIA: WIP{NEWLINE} gives 1 dose to revive stun soldiers (get discarded after use)
-      STR_STR_EX_FIST_AID_KIT_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits
+      STR_EX_FIST_AID_KIT_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits
       STR_EX_BASIC_MEDI_KIT_UFOPEDIA: heal 1 point of bleeding and have 5 charges, useful for dedicated medic units, its expensive and heavier but heals more quickly and recharge freely after missions
       STR_DOG_EQUIPMENT: Dog Armors and Equipment
       STR_SUPPORT_UNITS: Supporting Units

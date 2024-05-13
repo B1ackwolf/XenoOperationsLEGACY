@@ -603,7 +603,7 @@ items:
     hitAnimation: 0
     listOrder: 9000
 ##########DOGGOS##########
-  - type: STR_DOGE
+  - type: STR_DOGE #ojito, posiblemente borrar este?
     # categories: [STR_BEASTS]
     size: 0.0
     recover: true
@@ -765,8 +765,8 @@ items:
 ###-----Human first tier Ballistic terran weapons-----###
   - type: STR_ST_SMALL_PISTOL
     size: 0.1
-    costBuy: 700
-    costSell: 500
+    costBuy: 1
+    costSell: 0
     weight: 3
     bigSprite: 600
     floorSprite: 600
@@ -791,8 +791,8 @@ items:
     listOrder: 2101
   - type: STR_ST_AUTO_PISTOL
     size: 0.1
-    costBuy: 875
-    costSell: 625
+    costBuy: 1
+    costSell: 0
     weight: 6
     bigSprite: 345
     floorSprite: 345
@@ -819,8 +819,8 @@ items:
     listOrder: 2102
   - type: STR_ST_SMALL_PISTOL_CLIP
     size: 0.025
-    costBuy: 90
-    costSell: 72
+    costBuy: 1
+    costSell: 0
     weight: 2
     bigSprite: 346
     floorSprite: 346
@@ -836,8 +836,8 @@ items:
     listOrder: 2103
   - type: STR_ST_MAIN_PISTOL
     size: 0.1
-    costBuy: 800
-    costSell: 600
+    costBuy: 1
+    costSell: 0
     weight: 6
     bigSprite: 306
     floorSprite: 306
@@ -862,8 +862,8 @@ items:
     listOrder: 2104
   - type: STR_ST_MAIN_PISTOL_CLIP
     size: 0.025
-    costBuy: 70
-    costSell: 52
+    costBuy: 1
+    costSell: 0
     weight: 3
     bigSprite: 344
     floorSprite: 344
@@ -879,8 +879,8 @@ items:
     listOrder: 2105
   - type: STR_ST_HEAVY_PISTOL
     size: 0.1
-    costBuy: 1200
-    costSell: 800
+    costBuy: 1
+    costSell: 0
     weight: 7
     bigSprite: 347
     floorSprite: 347
@@ -905,8 +905,8 @@ items:
     listOrder: 2106
   - type: STR_ST_HEAVY_PISTOL_CLIP
     size: 0.025
-    costBuy: 120
-    costSell: 80
+    costBuy: 1
+    costSell: 0
     weight: 3
     bigSprite: 348
     floorSprite: 348
@@ -922,8 +922,8 @@ items:
     listOrder: 2107
   - type: STR_ST_UZI
     size: 0.1
-    costBuy: 1000
-    costSell: 800
+    costBuy: 2
+    costSell: 0
     weight: 5
     bigSprite: 602
     floorSprite: 602
@@ -951,8 +951,8 @@ items:
     listOrder: 2108
   - type: STR_ST_SMG
     size: 0.2
-    costBuy: 2000
-    costSell: 1750
+    costBuy: 2
+    costSell: 1
     weight: 6
     bigSprite: 309
     floorSprite: 309
@@ -980,8 +980,8 @@ items:
     listOrder: 2109
   - type: STR_ST_SMG_CLIP
     size: 0.025
-    costBuy: 100
-    costSell: 75
+    costBuy: 1
+    costSell: 0
     weight: 3
     bigSprite: 603
     floorSprite: 603
@@ -997,8 +997,8 @@ items:
     listOrder: 2110
   - type: STR_ST_SHOTGUN
     size: 0.2
-    costBuy: 3200
-    costSell: 2500
+    costBuy: 2
+    costSell: 1
     weight: 8
     bigSprite: 307
     floorSprite: 307
@@ -1024,8 +1024,8 @@ items:
     listOrder: 2111
   - type: STR_ST_SHOTGUN_SHELLS1
     size: 0.025
-    costBuy: 225
-    costSell: 175
+    costBuy: 1
+    costSell: 0
     weight: 4
     bigSprite: 308
     floorSprite: 308
@@ -1039,8 +1039,8 @@ items:
     listOrder: 2112
   - type: STR_ST_SHOTGUN_SHELLS2
     size: 0.025
-    costBuy: 275
-    costSell: 200
+    costBuy: 1
+    costSell: 0
     weight: 5
     bigSprite: 314
     floorSprite: 314
@@ -1053,8 +1053,8 @@ items:
     listOrder: 2113
   - type: STR_ST_BULLPUP
     size: 0.1
-    costBuy: 2600
-    costSell: 1850
+    costBuy: 4
+    costSell: 2
     weight: 6
     bigSprite: 328
     floorSprite: 328
@@ -1082,8 +1082,8 @@ items:
     listOrder: 2114
   - type: STR_ST_RIFLE
     size: 0.2
-    costBuy: 3000
-    costSell: 2250
+    costBuy: 4
+    costSell: 2
     weight: 8
     bigSprite: 281
     floorSprite: 281
@@ -1111,8 +1111,8 @@ items:
     listOrder: 2115
   - type: STR_ST_RIFLE_CLIP
     size: 0.025
-    costBuy: 200
-    costSell: 150
+    costBuy: 1
+    costSell: 0
     weight: 3
     bigSprite: 282
     floorSprite: 282
@@ -1126,8 +1126,8 @@ items:
     listOrder: 2116
   - type: STR_ST_LMG
     size: 0.2
-    costBuy: 6500
-    costSell: 4250
+    costBuy: 7
+    costSell: 3
     weight: 12
     bigSprite: 302
     floorSprite: 302
@@ -1153,8 +1153,8 @@ items:
     listOrder: 2117
   - type: STR_ST_LMG_BELT
     size: 0.1
-    costBuy: 400
-    costSell: 250
+    costBuy: 1
+    costSell: 0
     weight: 5
     bigSprite: 303
     floorSprite: 303
@@ -1169,8 +1169,8 @@ items:
     listOrder: 2118
   - type: STR_ST_SNIPER
     size: 0.2
-    costBuy: 7500
-    costSell: 4125
+    costBuy: 8
+    costSell: 4
     weight: 9
     bigSprite: 311
     floorSprite: 311
@@ -1195,8 +1195,8 @@ items:
     listOrder: 2119
   - type: STR_ST_SNIPER_CLIP
     size: 0.025
-    costBuy: 500
-    costSell: 275
+    costBuy: 1
+    costSell: 0
     weight: 4
     bigSprite: 312
     floorSprite: 312
@@ -1210,8 +1210,8 @@ items:
     listOrder: 2120
   - type: STR_ST_ANTI_MATERIEL
     size: 0.3
-    costBuy: 8000
-    costSell: 5000
+    costBuy: 10
+    costSell: 5
     weight: 20
     bigSprite: 278
     floorSprite: 278
@@ -1236,8 +1236,8 @@ items:
     listOrder: 2121
   - type: STR_ST_ANTI_MATERIEL_CLIP
     size: 0.025
-    costBuy: 800
-    costSell: 440
+    costBuy: 1
+    costSell: 0
     weight: 4
     bigSprite: 279
     floorSprite: 279
@@ -1251,8 +1251,8 @@ items:
     listOrder: 2122
   - type: STR_ST_MINIGUN
     size: 0.3
-    costBuy: 16000
-    costSell: 14000
+    costBuy: 500
+    costSell: 200
     weight: 27
     bigSprite: 304
     floorSprite: 304
@@ -1277,8 +1277,8 @@ items:
     listOrder: 2123
   - type: STR_ST_MINIGUN_BELT
     size: 0.1
-    costBuy: 5000
-    costSell: 4000
+    costBuy: 40
+    costSell: 20
     weight: 9
     bigSprite: 305
     floorSprite: 305
@@ -1299,24 +1299,32 @@ items:
       - STR_HC_I_AMMO
       - STR_HC_AP_AMMO
     arcingShot: true
+    costBuy: 25
+    costSell: 10
     fireSound: 114
     # handSprite: 90 ojito. acomodar sprite
     listOrder: 2125
   - type: STR_HC_HE_AMMO
     power: 45
     bigSprite: 12
+    costBuy: 5
+    costSell: 2
     floorSprite: 12
  #   handSprite: 320    
     listOrder: 2126
   - type: STR_HC_I_AMMO
     power: 55
+    costBuy: 5
+    costSell: 2
     bigSprite: 13
     floorSprite: 12
  #   handSprite: 328
     listOrder: 2127
-  - type: STR_HC_AP_AMMO
+  - type: STR_HC_AP_AMMO #its smoke grenade
     damageType: 9
     power: 65
+    costBuy: 5
+    costSell: 2
     bigSprite: 14
     floorSprite: 12
   #  handSprite: 312
@@ -1324,14 +1332,20 @@ items:
 # ojito mejorar    
   - type: STR_ROCKET_LAUNCHER
     size: 0.4
-    costBuy: 4000
-    costSell: 3000
+    costBuy: 150
+    costSell: 80
     listOrder: 2129
   - type: STR_SMALL_ROCKET
+    costBuy: 60
+    costSell: 30
     listOrder: 2130
   - type: STR_LARGE_ROCKET
     listOrder: 2131
+    costBuy: 80
+    costSell: 40
   - type: STR_INCENDIARY_ROCKET
+    costBuy: 40
+    costSell: 20
     listOrder: 2132
 ###-----Human second tier Ballistic eXperimental weapons-----###
   - type: STR_XP_SMALL_PISTOL
@@ -1954,7 +1968,7 @@ items:
   - type: STR_XP_AUTO_CANNON
     size: 0.3
     costSell: 15000
-    weight: 17
+    weight: 26
     bigSprite: 676
     floorSprite: 676
     handSprite: 2270
@@ -4700,15 +4714,17 @@ items:
     listOrder: 2638
 ###-----Human Stun Weapons Tier -----###
   - type: STR_STUN_ROD   #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_XENO_PHYSIOLOGY
     size: 0.1
-    costBuy: 1260
-    costSell: 945
+    costBuy: 10
+    costSell: 5
     weight: 6
     bigSprite: 26
     floorSprite: 26
     handSprite: 80
     meleeSound: 90
-    power: 65
+    power: 60
     damageType: 6
     clipSize: -1
     accuracyMelee: 100
@@ -4720,9 +4736,8 @@ items:
     invHeight: 3
     skillApplied: false
     listOrder: 2701
-  - type: STR_STR_SH_SMALL_PISTOL
+  - type: STR_SH_SMALL_PISTOL
     size: 0.2
-    costBuy: 1800
     costSell: 600
     weight: 5
     bigSprite: 1113
@@ -4731,7 +4746,7 @@ items:
     bulletSprite: 25 #ojito resolver quilombo del taser
     fireSound: 61
     compatibleAmmo:
-      - STR_STR_SH_SMALL_PISTOL_CLIP
+      - STR_SH_SMALL_PISTOL_CLIP
     accuracySnap: 40
     accuracyAimed: 70
     tuSnap: 18
@@ -4744,9 +4759,8 @@ items:
     maxRange: 4
     attraction: 6
     listOrder: 2704
-  - type: STR_STR_SH_SMALL_PISTOL_CLIP
+  - type: STR_SH_SMALL_PISTOL_CLIP
     size: 0.1
-    costBuy: 200
     costSell: 100
     weight: 2
     bigSprite: 1114
@@ -4754,7 +4768,7 @@ items:
     hitSound: 54
     hitAnimation: 56
     blastRadius: 0
-    power: 40
+    power: 30
     damageType: 6
     clipSize: 2
     battleType: 2
@@ -4881,8 +4895,8 @@ items:
 ###-----Human Melee tier weapons-----###
   - type: STR_ME_KNUCKLES
     size: 0.01
-    costBuy: 20
-    costSell: 15
+    costBuy: 1
+    costSell: 0
     weight: 1
     bigSprite: 316
     floorSprite: 316
@@ -4903,8 +4917,8 @@ items:
     listOrder: 2801
   - type: STR_ME_BASIC_KNIFE
     size: 0.02
-    costBuy: 75
-    costSell: 50
+    costBuy: 1
+    costSell: 0
     weight: 2
     bigSprite: 315
     floorSprite: 315
@@ -5121,12 +5135,14 @@ items:
     listOrder: 2816
 ###-----Human Ordnance tier-----###
   - type: STR_SMOKE_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
+    costBuy: 1
+    costSell: 0
     handSprite: 1340
     listOrder: 2816
   - type: STR_BO_FIERY_GRENADE 
     size: 0.05
-    costBuy: 380
-    costSell: 270
+    costBuy: 1
+    costSell: 0
     weight: 3
     bigSprite: 301
     floorSprite: 301
@@ -5137,11 +5153,13 @@ items:
     fuseType: -2
     listOrder: 2902
   - type: STR_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
-    listOrder: 2903
+    costBuy: 1
+    costSell: 0
     blastRadius: 3
     damageType: 3
     weight: 3
     fuseType: -2
+    listOrder: 2903
   - type: STR_BO_STICK_GRENADE
     size: 0.05
     costSell: 5000
@@ -5208,6 +5226,8 @@ items:
     fuseType: -1
     listOrder: 2909
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
+    costBuy: 3
+    costSell: 1
     handSprite: 216
     damageType: 3
     listOrder: 2911
@@ -6085,8 +6105,8 @@ items:
 # Medicals items
   - type: STR_EX_ADRENO_KIT
     size: 0.1
-    costBuy: 900
-    costSell: 400
+    costBuy: 1
+    costSell: 0
     weight: 2
     bigSprite: 996
     floorSprite: 996
@@ -6105,8 +6125,8 @@ items:
     listOrder: 3101
   - type: STR_EX_FIST_AID_KIT
     size: 0.2
-    costBuy: 800
-    costSell: 250
+    costBuy: 1
+    costSell: 0
     weight: 2
     bigSprite: 997
     floorSprite: 997
@@ -6126,8 +6146,8 @@ items:
     listOrder: 3102
   - type: STR_EX_BASIC_MEDI_KIT
     size: 0.5
-    costBuy: 7000
-    costSell: 2000
+    costBuy: 10
+    costSell: 4
     weight: 8
     bigSprite: 998
     floorSprite: 998
@@ -6147,9 +6167,8 @@ items:
     flatRate: false
     attraction: 5
     listOrder: 3103
-  - type: STR_EX_IMPROVED_MEDI_KIT
+  - type: STR_EX_IMPROVED_MEDI_KIT #leer to-do LISTO
     size: 0.6
-    costBuy: 9500
     costSell: 1250
     weight: 12
     bigSprite: 999
@@ -6173,6 +6192,8 @@ items:
     listOrder: 3105
 # Ilumination items
   - type: STR_ELECTRO_FLARE   #ojito luego cambiar nombre para mantener nomenclatura
+    costBuy: 2
+    costSell: 1
     handSprite: 240
     listOrder: 3110
   - type: STR_EX_ELERIUM_LAMP

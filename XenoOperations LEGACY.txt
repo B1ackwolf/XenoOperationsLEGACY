@@ -168,7 +168,11 @@ TWEAKS AND BALANCE:
    * Change the requeriments for some projects to balance this.
    * The ammunition manufacture should be managed in "blocks" therefore, numbers should be more realist and intuitive.
      ~ no more 1 Xelloy to produce one cartridge, and 3 to produce a rifle.
-
+ - increased the weight of some weapons:
+   * the XX autocannon goes to 26 from 17
+ 
+ - the stun rods become aviable to buying only after unlocking xeno physiology research
+ - the stun pistols nows requires xeno physiology and its an manufacture project 
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
  - tiempo de espera de arribo de contratos nuevos reducidos a 48h
 
@@ -267,6 +271,21 @@ craft changes
    * el hangar recibio algunos cambios para permitir mayor movilidad de las unidades HWP desde ciertos angulos, gracias reporte de (revisar en el foro quien me comento esto)   
 	 
 under da hood changes:
+ - implementados cambios a la esquema general de precios
+ - todos los articulos que podian ser comprados al inicio de la invasion fueron reducidos en costo (en casos a precios casi insignificantes y hasta simbolicos)
+ - esto debido al nuevo lore relacionado al concepto del dinero ahora llamado "credits units"
+   * primeramente se necesita considerar que el "precio" q marca en sistema esta resumido en orden de facilitar las cifras
+   * el verdadero coste real de todo tendrian q multiplicar mentalmente los precios por un factor de 1000
+     ~ esto significa que un misil spear costaria al rededor de 3 millones, parecido a un storm shadow moderno.
+     ~ el presupuesto inicial de xcom es aproximadamente 8 billones, bastante decente comparado con el de otras organizaciones como la NATO
+     ~ con este nuevo esquema no ocurriran escenarios graciosos donde al parecer comprar un misil balistico con ojiva nuclear cueste lo mismo q un prius sin necesidad de hacer tan abstracto el concepto de dinero
+     ~ cualquier escenario adicional donde por cuestiones de jugabilidad y balance los precios deban resultar mucho mas altos de lo esperado, seran explicados por el lore y por entries en la ufopaedia
+       ° un ejemplo de esto seria q un soldado promedio ganaria aproximadamente 2 millones al mes, un salario ampliamente superior al de cualquier ministro de defensa actual
+       ° la explicacion es que realmente la expectativa de vida de los soldados no es mayor a un mes, esto es mas bien el equivalente a un seguro de vida para sus familiares, considerando que no recibiran conceptos como pensiones vitalicias por servicios. hace q el precio sea relativamente justo.
+       ° adicionalmente por loopholes en las clausulas del contrato, aunque un cientifico vaya a recibir una pequeña fortuna mensual, ese dinero no podra ser utilizado HASTA Q ACABE EL CONFLICTO. efectivamente congelando todo sus activos hasta la victoria en la guerra, de nuevo haciendo que el "salario" neto sea irrelevante considerado el estatus actual del planeta.
+       ° esto tambien generaria posibles caminos argumentales interesantes para ser explorados mas adelantes, haciendo q las tramas de traiciones a cambio de compesacion economicas o disgusto con el sistema de pago sea mas creible.
+
+      
  - corregido ciertas definiciones erradas relacionada a los distintos rangos de los soldados, se supone q esto debio hacerse hace varios parches pero nunca lo habia inmplementado, ahora es mucho mas clarificado
  - limpieza de archivos relacionados con los mapas usando las versiones nuevas de CMP, la primera vez use metodos muy ordinarios, por la falta de experiencia. esta ves use un planteo mas metodico confirmando que no habrian errores, faltaria reordenar y luego 
  -  modificado el nombre de todos los archivos RULESET, las notaciones de los cambios q necesitan y el estado actual de cada uno fue anotado internamente, ayuda a la pulcritud del mod.

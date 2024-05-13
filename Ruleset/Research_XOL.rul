@@ -390,7 +390,7 @@ research:
     dependencies:
     ### ojito, aqui agregare a los soberanos para el trasquilamiento de elerium
       - STR_MATTER_CREATION
-      - STR_CODEX_COMPLETE
+      - STR_CODEX_COMPLETE #ojito reducir a codex 5
       - STR_ELERIUM_115
 #  - name: STR_ELERIUM_PROCESSING_2_UNLOCK
 #    points: 50
@@ -1466,82 +1466,82 @@ research:
   - name: STR_ANCIENT_SPAWN_AUTOPSY
     points: 50
     needItem: true
-#--Live Alien Terrorists -------------------- #hasta aqui quedo hoy, continuar mañana
+#--Live Alien Terrorists --------------------#
   - name: STR_ABOMINATION
-    cost: 10
+    cost: 25
     points: 50
     lookup: STR_ABOMINATION
     needItem: true
     destroyItem: true
   - name: STR_ENERGYALIEN
-    cost: 10
+    cost: 25
     points: 50
     lookup: STR_ENERGYALIEN
     needItem: true
     destroyItem: true
   - name: STR_CYBERDISC_TERRORIST
-    cost: 10
+    cost: 30
     points: 50
     lookup: STR_CYBERDISC
     needItem: true
     destroyItem: true
   - name: STR_REAPER_TERRORIST
-    cost: 10
+    cost: 20
     points: 50
     lookup: STR_REAPER
     needItem: true
     destroyItem: true
   - name: STR_CHRYSSALID_TERRORIST
-    cost: 10
+    cost: 30
     points: 50
     lookup: STR_CHRYSSALID
     needItem: true
     destroyItem: true
   - name: STR_SILACOID_TERRORIST
-    cost: 10
+    cost: 15
     points: 50
     lookup: STR_SILACOID
     needItem: true
     destroyItem: true
   - name: STR_CELATID_TERRORIST
-    cost: 10
+    cost: 15
     points: 50
     lookup: STR_CELATID
     needItem: true
     destroyItem: true
   - name: STR_SECTOPOD_TERRORIST
-    cost: 10
+    cost: 40
     points: 50
     lookup: STR_SECTOPOD
     needItem: true
     destroyItem: true
-  - name: STR_ARMORED_MUTON #ojito quizas mover a otro sitio
-    cost: 10
+  - name: STR_ARMORED_MUTON #ojito quizas mover a otro sitio ojito mover a otro lado
+    cost: 25
     points: 50
-    lookup: STR_ARMORED_MUTON
+    lookup: STR_ARMORED_MUTON 
     needItem: true
     destroyItem: true
   - name: STR_MUTON_BERSERKER
-    cost: 10
+    cost: 15
     points: 50
     lookup: STR_MUTON_BERSERKER
     needItem: true
     destroyItem: true
   - name: STR_MUTON_WARLORD #ojito quizas mover a otro sitio, acomodar en el techtree relacionado a los mutones y el desbloqueo final, falta el muton chieftaim?
-    cost: 10
+    cost: 30
     points: 50
     lookup: STR_MUTON_WARLORD
     needItem: true
     destroyItem: true 
   - name: STR_ANCIENT_SPAWN_TERRORIST
-    cost: 10
+    cost: 50
     points: 50
     lookup: STR_ANCIENT_SPAWN
     needItem: true
     destroyItem: true
 #--Live Alien Soldiers --------------------
   - name: STR_SECTOID_SOLDIER
-    cost: 10
+    cost: 20
     points: 50
     lookup: STR_SECTOID
     unlocks:
@@ -1549,7 +1549,7 @@ research:
     needItem: true
     destroyItem: true
   - name: STR_SOVEREIGN
-    cost: 10
+    cost: 40
     points: 50
     lookup: STR_SOVEREIGN
     needItem: true
@@ -1557,7 +1557,7 @@ research:
     unlocks:
       - STR_THREAT_UNLOCK
   - name: STR_ARMORED_SECTOID_SOLDIER
-    cost: 10
+    cost: 20
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
@@ -1565,7 +1565,7 @@ research:
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_MUTON_COMMANDO
-    cost: 10
+    cost: 30
     points: 50
     lookup: STR_MUTON_COMMANDO
     needItem: true
@@ -1574,7 +1574,7 @@ research:
       - STR_THREAT_UNLOCK
       - STR_THE_ALIEN_MIND
   - name: STR_FLOATER_SOLDIER
-    cost: 10
+    cost: 30
     points: 50
     lookup: STR_FLOATER
     needItem: true
@@ -1582,7 +1582,7 @@ research:
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_SNAKEMAN_SOLDIER
-    cost: 10
+    cost: 25
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
@@ -1590,7 +1590,7 @@ research:
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_MUTON_SOLDIER
-    cost: 10
+    cost: 30
     points: 50
     lookup: STR_MUTON
     needItem: true
@@ -1598,7 +1598,7 @@ research:
     unlocks:
       - STR_THE_ALIEN_MIND
   - name: STR_ETHEREAL_SOLDIER
-    cost: 10
+    cost: 100
     points: 50
     lookup: STR_ETHEREAL
     needItem: true
@@ -1608,20 +1608,20 @@ research:
       - STR_PSIONIC_UNLOCK
       - STR_THE_ALIEN_MIND
   - name: STR_FORMIC
-    cost: 10
+    cost: 20
     points: 50
     lookup: STR_FORMIC
     needItem: true
     destroyItem: true
   - name: STR_CARCHARODON_SOLDIER
-    cost: 10
+    cost: 15
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
     destroyItem: true
 #--Live Alien Navigators --------------------
   - name: STR_SECTOID_NAVIGATOR
-    cost: 12
+    cost: 20
     points: 50
     lookup: STR_SECTOID
     needItem: true
@@ -1642,7 +1642,7 @@ research:
       - STR_ALIEN_SUPPLY
       #- STR_CODEX_RECOVERY #ojito
   - name: STR_ARMORED_SECTOID_NAVIGATOR
-    cost: 12
+    cost: 25
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
@@ -1663,7 +1663,7 @@ research:
       - STR_ALIEN_SUPPLY
       #- STR_CODEX_RECOVERY
   - name: STR_FLOATER_NAVIGATOR
-    cost: 12
+    cost: 20
     points: 50
     lookup: STR_FLOATER
     needItem: true
@@ -1684,7 +1684,7 @@ research:
       - STR_ALIEN_SUPPLY
       #- STR_CODEX_RECOVERY
   - name: STR_SNAKEMAN_NAVIGATOR
-    cost: 12
+    cost: 20
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
@@ -1705,7 +1705,7 @@ research:
       - STR_ALIEN_SUPPLY
       #- STR_CODEX_RECOVERY
   - name: STR_MUTON_NAVIGATOR
-    cost: 12
+    cost: 20
     points: 50
     lookup: STR_MUTON
     needItem: true
@@ -1726,7 +1726,7 @@ research:
       - STR_ALIEN_SUPPLY
       #- STR_CODEX_RECOVERY
   - name: STR_CARCHARODON_NAVIGATOR
-    cost: 12
+    cost: 20
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
@@ -1748,7 +1748,7 @@ research:
       #- STR_CODEX_RECOVERY
 #--Live Alien Medics --------------------
   - name: STR_SECTOID_MEDIC
-    cost: 14
+    cost: 25
     points: 50
     needItem: true
     destroyItem: true
@@ -1797,7 +1797,7 @@ research:
       - STR_SECTOPOD
       - STR_SECTOPOD_CORPSE
   - name: STR_ARMORED_SECTOID_MEDIC
-    cost: 14
+    cost: 25
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
@@ -1846,7 +1846,7 @@ research:
       - STR_SECTOPOD
       - STR_SECTOPOD_CORPSE
   - name: STR_FLOATER_MEDIC
-    cost: 14
+    cost: 25
     points: 50
     lookup: STR_FLOATER
     needItem: true
@@ -1896,7 +1896,7 @@ research:
       - STR_SECTOPOD_CORPSE
 #--Live Alien Engineers --------------------
   - name: STR_SECTOID_ENGINEER
-    cost: 16
+    cost: 25
     points: 50
     needItem: true
     destroyItem: true
@@ -1919,7 +1919,7 @@ research:
       - STR_DESTROYER
       - STR_CONSTRUCTOR
   - name: STR_ARMORED_SECTOID_ENGINEER
-    cost: 16
+    cost: 25
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
@@ -1942,7 +1942,7 @@ research:
       - STR_DESTROYER
       - STR_CONSTRUCTOR
   - name: STR_FLOATER_ENGINEER
-    cost: 16
+    cost: 25
     points: 50
     lookup: STR_FLOATER
     needItem: true
@@ -1965,7 +1965,7 @@ research:
       - STR_DESTROYER
       - STR_CONSTRUCTOR
   - name: STR_SNAKEMAN_ENGINEER
-    cost: 16
+    cost: 25
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
@@ -1988,7 +1988,7 @@ research:
       - STR_DESTROYER
       - STR_CONSTRUCTOR
   - name: STR_MUTON_ENGINEER
-    cost: 16
+    cost: 25
     points: 50
     lookup: STR_MUTON
     needItem: true
@@ -2011,7 +2011,7 @@ research:
       - STR_DESTROYER
       - STR_CONSTRUCTOR
   - name: STR_CARCHARODON_ENGINEER
-    cost: 16
+    cost: 20
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
@@ -2035,7 +2035,7 @@ research:
       - STR_CONSTRUCTOR
 #--Live Alien Leaders --------------------
   - name: STR_SECTOID_LEADER
-    cost: 20
+    cost: 40
     points: 50
     needItem: true
     destroyItem: true
@@ -2047,7 +2047,7 @@ research:
       - STR_PSIONIC_UNLOCK
     lookup: STR_SECTOID
   - name: STR_ARMORED_SECTOID_LEADER
-    cost: 20
+    cost: 40
     points: 50
     lookup: STR_ARMORED_SECTOID
     dependencies:
@@ -2059,7 +2059,7 @@ research:
     needItem: true
     destroyItem: true
   - name: STR_FLOATER_LEADER
-    cost: 20
+    cost: 30
     points: 50
     lookup: STR_FLOATER
     dependencies:
@@ -2070,7 +2070,7 @@ research:
     needItem: true
     destroyItem: true
   - name: STR_SNAKEMAN_LEADER
-    cost: 20
+    cost: 30
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
@@ -2081,7 +2081,7 @@ research:
       - STR_LEADER_UNLOCK
       - STR_THREAT_UNLOCK
   - name: STR_ETHEREAL_LEADER
-    cost: 20
+    cost: 100
     points: 50
     lookup: STR_ETHEREAL
     needItem: true
@@ -2093,7 +2093,7 @@ research:
       - STR_THREAT_UNLOCK
       - STR_PSIONIC_UNLOCK
   - name: STR_CARCHARODON_LEADER
-    cost: 20
+    cost: 25
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
@@ -2105,7 +2105,7 @@ research:
       - STR_THREAT_UNLOCK
 #--Live Aliens Commanders --------------------
   - name: STR_SECTOID_COMMANDER
-    cost: 32
+    cost: 60
     points: 50
     needItem: true
     destroyItem: true
@@ -2118,7 +2118,7 @@ research:
       - STR_COMMANDER_UNLOCK
       - STR_PSIONIC_UNLOCK
   - name: STR_ARMORED_SECTOID_COMMANDER
-    cost: 32
+    cost: 60
     points: 50
     lookup: STR_ARMORED_SECTOID
     needItem: true
@@ -2131,7 +2131,7 @@ research:
       - STR_COMMANDER_UNLOCK
       - STR_PSIONIC_UNLOCK
   - name: STR_FLOATER_COMMANDER
-    cost: 32
+    cost: 40
     points: 50
     lookup: STR_FLOATER
     needItem: true
@@ -2143,7 +2143,7 @@ research:
       - STR_COMMANDER_UNLOCK
       - STR_THREAT_UNLOCK
   - name: STR_SNAKEMAN_COMMANDER
-    cost: 32
+    cost: 40
     points: 50
     lookup: STR_SNAKEMAN
     needItem: true
@@ -2155,7 +2155,7 @@ research:
       - STR_COMMANDER_UNLOCK
       - STR_THREAT_UNLOCK
   - name: STR_ETHEREAL_COMMANDER
-    cost: 40
+    cost: 120
     points: 50
     lookup: STR_ETHEREAL
     needItem: true
@@ -2169,7 +2169,7 @@ research:
       - STR_THREAT_UNLOCK
       - STR_PSIONIC_UNLOCK
   - name: STR_MUTON_CHIEFTAIN
-    cost: 40
+    cost: 55
     points: 50
     lookup: STR_MUTON_CHIEFTAIN
     needItem: true
@@ -2194,7 +2194,7 @@ research:
       - STR_COMMANDER_UNLOCK
       - STR_THREAT_UNLOCK
   - name: STR_CARCHARODON_COMMANDER
-    cost: 32
+    cost: 40
     points: 50
     lookup: STR_CARCHARODON
     needItem: true
@@ -2255,58 +2255,58 @@ research:
     cost: 0
     points: 0
     needItem: true
-#--Goods --------------------
+#--Goods -------------------- #ojito luego meterle tiempo?
   - name: STR_GOODS_2
-    cost: 0
+    cost: 10
     points: 5
     needItem: true
   - name: STR_GOODS_3
-    cost: 0
+    cost: 20
     points: 5
     needItem: true
   - name: STR_GOODS_4
-    cost: 0
+    cost: 30
     points: 5
     needItem: true
   - name: STR_GOODS_5
-    cost: 0
+    cost: 40
     points: 5
     needItem: true
   - name: STR_GOODS_6
-    cost: 0
+    cost: 50
     points: 5
     needItem: true
   - name: STR_GOODS_7
-    cost: 800
+    cost: 600
     points: 200
     dependencies:
       - STR_GOODS_UNLOCK_6
-      - STR_CODEX_COMPLETE
+      - STR_CODEX_COMPLETE # ojito reducir a codex 5
 #--Goods --------------------END
 #--Goods Tech Tree --------------------END
 #--Alien Gear Tech Tree --------------------
   - name: STR_LIGHT_ALIEN_WEAPONS
-    cost: 0
+    cost: 10
     points: 0
     needItem: true
   - name: STR_MEDIUM_ALIEN_WEAPONS
-    cost: 0
+    cost: 10
     points: 0
     needItem: true
   - name: STR_HEAVY_ALIEN_WEAPONS
-    cost: 0
+    cost: 15
     points: 0
     needItem: true
   - name: STR_SPECIAL_ALIEN_WEAPONS
-    cost: 0
+    cost: 15
     points: 0
     needItem: true
   - name: STR_ELITE_ALIEN_WEAPONS
-    cost: 0
+    cost: 20
     points: 0
     needItem: true
 #--Alien Gear Tech Tree --------------------END
-#--Dead Techs -------------------------
+#--Dead Techs ------------------------- ojito corregir esto, aumentar la cantidad de corrupted datas a 14 minimo
   - name: STR_CORRUPTED_DATA
     cost: 0
     points: 0
@@ -2336,7 +2336,7 @@ research:
     points: 0
     lookup: STR_CORRUPTED_DATA
     needItem: true
-  - name: STR_DATA_RECOVERY #Shock Weapons
+  - name: STR_DATA_RECOVERY #Shock Weapons ojito corregir esto
     cost: 200
     points: 150
     dependencies:
@@ -2369,7 +2369,7 @@ research:
     points: 0
     lookup: STR_DATA_FRAGMENT
     needItem: true
-  - name: STR_DATA_FRAGMENT_SORTING
+  - name: STR_DATA_FRAGMENT_SORTING #ojito corregir esto
     cost: 200
     points: 150
     dependencies:
@@ -2377,7 +2377,7 @@ research:
       - STR_DATA_FRAGMENT_2
       - STR_DATA_FRAGMENT_3
       - STR_DATA_FRAGMENT_4
-  - name: STR_ANOMOLOUS_EQUATION
+  - name: STR_ANOMOLOUS_EQUATION #ojito darle mejor uso a esto, checar to-do list
     cost: 0
     points: 0
     needItem: true
@@ -2406,7 +2406,7 @@ research:
 #--Dead Techs -------------------------END
 #--Codex Tech Tree --------------------
   - name: STR_CODEX_FRAGMENT
-    cost: 20
+    cost: 15
     points: 50
     needItem: true
   - name: STR_CODEX_KEY
@@ -2416,7 +2416,7 @@ research:
     dependencies:
       - STR_CODEX_FRAGMENT
   - name: STR_CODEX_1
-    cost: 100
+    cost: 30 # antes 100
     points: 500
     needItem: true
 #    lookup: STR_CODEX_1
@@ -2434,7 +2434,7 @@ research:
       - STR_GOODS_2
       - STR_LIGHT_ALIEN_WEAPONS
   - name: STR_CODEX_2
-    cost: 500
+    cost: 125 #antes 500
     points: 500
     needItem: true
     getOneFree:
@@ -2451,7 +2451,7 @@ research:
       - STR_GOODS_3
       - STR_MEDIUM_ALIEN_WEAPONS
   - name: STR_CODEX_3
-    cost: 1000
+    cost: 320 #antes 1000
     points: 500
     needItem: true
     getOneFree:
@@ -2467,7 +2467,7 @@ research:
       - STR_GOODS_4
       - STR_HEAVY_ALIEN_WEAPONS
   - name: STR_CODEX_4
-    cost: 3000
+    cost: 800 #antes 3000
     points: 500
     needItem: true
     getOneFree:
@@ -2483,7 +2483,7 @@ research:
       - STR_SPECIAL_ALIEN_WEAPONS
 #Another possible resource to build
   - name: STR_CODEX_5
-    cost: 5000
+    cost: 1350 #antes 5000
     points: 500
     needItem: true
     getOneFree:
@@ -2494,7 +2494,7 @@ research:
       - STR_FRAGMENT_REPLICATION
       - STR_ELITE_ALIEN_WEAPONS
   - name: STR_CODEX_COMPLETE
-    cost: 10000
+    cost: 5000 #antes 10000
     points: 500
     needItem: true
     getOneFree:

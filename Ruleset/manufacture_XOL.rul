@@ -2635,6 +2635,24 @@ manufacture:
     listOrder: 1466
 #--- Plasma Weapons ----------------------------------END
 #--- Shock Weapons ----------------------------------
+  - name: STR_SH_SMALL_PISTOL
+    category: STR_SHOCK_WEAPONS
+    requires:
+      - STR_XENO_PHYSIOLOGY
+    space: 2
+    time: 150
+    cost: 20000
+    listOrder: 2707
+  - name: STR_SH_SMALL_PISTOL_CLIP
+    category: STR_SHOCK_WEAPONS
+    requires:
+      - STR_XENO_PHYSIOLOGY
+    space: 1
+    time: 50
+    cost: 1200
+    producedItems:
+      STR_SH_SMALL_PISTOL_CLIP: 10
+    listOrder: 2708
   - name: STR_SH_MAIN_PISTOL
     category: STR_SHOCK_WEAPONS
     requires:
@@ -2645,7 +2663,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 10
       STR_CODEX_FRAGMENT: 10
-    listOrder: 2704
+    listOrder: 2706
   - name: STR_SH_RIFLE
     category: STR_SHOCK_WEAPONS
     requires:
@@ -2656,7 +2674,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 20
       STR_CODEX_FRAGMENT: 20
-    listOrder: 2705
+    listOrder: 2707
   - name: STR_SH_MAIN_PISTOL_BATTERY
     category: STR_SHOCK_WEAPONS
     requires:
@@ -2669,7 +2687,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 2
     producedItems:
       STR_SH_MAIN_PISTOL_BATTERY: 10
-    listOrder: 2706
+    listOrder: 2708
   - name: STR_SH_HEAVY_CANNON
     category: STR_SHOCK_WEAPONS
     requires:
@@ -2680,7 +2698,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 30
       STR_CODEX_FRAGMENT: 30
-    listOrder: 2707
+    listOrder: 2709
   - name: STR_SH_HEAVY_CANNON_BATTERY
     category: STR_SHOCK_WEAPONS
     requires:
@@ -2693,7 +2711,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 3
     producedItems:
       STR_SH_HEAVY_CANNON_BATTERY: 10
-    listOrder: 2708
+    listOrder: 2710
 #####ojito agregar a ordnance
   - name: STR_SH_GRENADE
     category: STR_SHOCK_WEAPONS
@@ -2702,7 +2720,7 @@ manufacture:
     space: 1
     time: 60
     cost: 6000
-    listOrder: 2709
+    listOrder: 2711
 #--- Shock Weapons ----------------------------------END
 #--- Elerium and Antimatter Explosives ----------------------------------
   - name: STR_ELERIUM_GRENADE
