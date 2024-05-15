@@ -9059,6 +9059,88 @@ armors:
       - STR_NULL_POCKET_LL
     # specialWeapon: STR_HWP_RANGEFINDER
     loftempsSet: [ 5 ]
+#----- Tanks armors, ojito luego mover despues de mechs driftsuit -----#
+  - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
+    spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET
+    spriteInv: SIDECAR_MOTORCYCLE_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: true
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_SIDECAR_MOTORCYCLE_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_SIDECAR_MOTORCYCLE_RECOVER
+    storeItem: STR_SIDECAR_MOTORCYCLE_ITEM
+    #weight: -200
+    frontArmor: 20
+    sideArmor: 22
+    rearArmor: 15
+    underArmor: 10
+    moveSound: 817
+    drawingRoutine: 2
+    size: 2
+    #overKill: 3.0
+    stats: &SECTION_LIGHT_TANK_STATS
+       bravery: 20
+       tu: 175
+       stamina: 700
+       reactions: -15
+    recovery:  &SECTION_LIGHT_TANK_RECOVERY
+      energy:
+        flatHundred: 7.5
+      morale:
+        moraleCurrent: -0.1333
+        bravery: 0.0666
+      stun:
+        stunCurrent: 0.09
+    psiDefence:  &SECTION_TANK_PSIDEF
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.25
+      flatHundred: -0.15
+    damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
+      - 1.0 #0 None
+      - 0.5 #1 Armor Piercing
+      - 1.2 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.1 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.3 #10 Super AP
+      - 1.5 #11 Tesla
+      - 1.1 #12 Electromagnetic
+      - 1.2 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+      - 1.0 #15 ???
+      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.2 #18 Flames
+    units:
+      - STR_PILOT
+      - STR_DRIVER
+      #- STR_GERMAN_SOLDIER
+    builtInWeapons:
+  #    - ojito, aqui ira el cañon principal, tengo q sacarlos del objeto tanks, cualquier cosa usar ejemplo del sidecar de vuelta
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+
+
+############# OJITO BORRAR DESPUES Q VIENE LOS TANKS    
   - type: HEAVY_TANK_AP_ARMOR
     spriteSheet: HEAVYTANK1.PCK
 #    spriteInv: LEGIONNAIRE

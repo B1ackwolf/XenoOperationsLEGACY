@@ -328,6 +328,14 @@ ufopaedia:
     text: STR_LAND_DRONE_UFOPEDIA
     weapon: STR_NONE
     image_id: LANDDRONEUFO
+
+######## REORDENAR
+  - id: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
+    type_id: 5
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_SIDECAR_MOTORCYCLE_ARMOR_UC_UFOPEDIA
+    listOrder: 10262
+
   - id: STR_HEAVY_TANK_AP
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT

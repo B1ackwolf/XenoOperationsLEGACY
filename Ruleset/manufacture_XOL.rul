@@ -417,6 +417,23 @@ manufacture:
     time: 250
     cost: 110000
     listOrder: 488
+####### ojito, en realidad es la manufactura de una armadura de tanques, reordenar
+
+  - name: STR_REPAIR_SIDECAR_MOTORCYCLE
+    category: STR_ARMOR_REPAIR
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_SIDECAR_MOTORCYCLE_RECOVER: 1
+    producedItems:
+      STR_SIDECAR_MOTORCYCLE_ITEM: 1
+    listOrder: 2701
+
+
+
+
+
   - name: STR_HEAVY_TANK_AP
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:

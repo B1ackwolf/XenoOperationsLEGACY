@@ -442,6 +442,27 @@ items:
     invHeight: 3
     listOrder: 1511
 #######----TANKS WIP
+
+##### ojito luego moverlo hacia donde las armaduras para mantener el orden de mi lista
+  - type: STR_SIDECAR_MOTORCYCLE_ITEM # Item for the armor
+    # categories:[STR_TANKS, STR_LIGHT_TANKS]
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+
+# tanks repair    
+  - type: STR_SIDECAR_MOTORCYCLE_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601
+
+
+
+############## ojito borrar esto de abajo seguramente
   - type: STR_HEAVY_TANK_AP
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
     size: 5
@@ -5078,6 +5099,23 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 2808
+#### OJITO MELEE SHIELDS
+  - type: STR_MINOR_SHIELD_GAUNTLET
+#    categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
+    size: 0.5
+    weight: 10
+    costSell: 12000
+    bigSprite: 1078
+    handSprite: 2078
+    floorSprite: 1078
+    flatRate: true
+    hidePower: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+
+
 # Alien melee weaponry
   - type: STR_AW_ALLOY_BLADE
     requires:

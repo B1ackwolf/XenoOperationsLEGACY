@@ -269,6 +269,7 @@ extraSprites:
       325: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword.gif
       326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife.png
       431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword.gif
+      1078: Resources/WeaponrySprites/8thMelee/BigOb/10HumanBasicShield.png
       372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade.gif
       369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade.gif
 #----- Tier 8 Melee ends here -----#
@@ -630,6 +631,7 @@ extraSprites:
       325: Resources/WeaponrySprites/8thMelee/FloorOb/6HumanLaserSword_floor.gif
       326: Resources/WeaponrySprites/8ThMelee/FloorOb/7HumanPlasmaKnife_floor.png
       431: Resources/WeaponrySprites/8thMelee/FloorOb/8HumanPlasmaSword_floor.png
+      1078: Resources/WeaponrySprites/8thMelee/FloorOb/10HumanBasicShield_floor.png
       372: Resources/WeaponrySprites/8thMelee/FloorOb/15AlienAlloyBlade_floor.gif
       369: Resources/WeaponrySprites/8thMelee/FloorOb/16AlienPlasmaBlade_floor.gif
 #----- Tier 8 Melee ends here -----#
@@ -814,6 +816,7 @@ extraSprites:
       520: Resources/WeaponrySprites/8thMelee/HandOb/6HumanLaserSword_hand.png
       2815: Resources/WeaponrySprites/8ThMelee/HandOb/7HumanPlasmaKnife_hand.png
       1070: Resources/WeaponrySprites/8thMelee/HandOb/8HumanPlasmaSword_hand.png
+      2078: Resources/WeaponrySprites/8thMelee/HandOb/10HumanBasicShield_hand.png
       930: Resources/WeaponrySprites/8thMelee/HandOb/15AlienAlloyBlade_hand.png
       800: Resources/WeaponrySprites/8thMelee/HandOb/16AlienPlasmaBlade_hand.gif
 #----- Tier 8 Melee ends here -----#
@@ -3032,6 +3035,19 @@ extraSprites:
     files:
       0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE_ALLOY_VEST.png
 #-----TANKS WIP, REORDER LATER OJITO
+  - type: SIDECAR_MOTORCYCLE_SPRITESHEET
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/HWP_AP.png
+  - type: SIDECAR_MOTORCYCLE_INV
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankInv.png
+
+
   - type: HEAVYTANK1.PCK
     width: 256
     height: 160
