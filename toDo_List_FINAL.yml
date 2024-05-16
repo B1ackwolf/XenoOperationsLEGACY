@@ -1,8 +1,6 @@
 #ideas for the mod, in any specific order:
 #checar los ojitos siguientes
 TL;DR VERSION:
- - OJITOOOOOOOOOOO revisar el tema del inventario q muestra desglosado si ejemplo las granadas en el avion, las granadas equipadas y las excedentes. eso se ve en el modo oxce, confirmar si se puede en BAIOXCE tambien al llegar
-
 
  - presupuesto anual gringo total aprox 841.000.000.000, igual a 70.083.333.333 mensual
  - presupuesto anual otan total aprox 380.000.000.000,   igual a 31.666.666.666 mensual
@@ -66,13 +64,24 @@ TL;DR VERSION:
      ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
    
  - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
-   * probar pintando ambas en plateado y detalles en verde?
-
+   * recolorizada, falta implementar los sprites
  - implementar el item EScudo
    * ya consegui los sprites
    * tengo q recolorizarlos y adaptarlos mejor
    * usar el script de halo del kin-yar gauntlet
-     ~ recordar darle credits a filip-H  
+     ~ recordar darle credits a filip-H
+     ~ editar para q cada escudo reciba menos daño q el anterior
+     ~ principal diferencia entrara en el peso
+   * tendran un peso de aproximadamente 10 mil dolares(pasar a conversion)
+   * posibles nombres
+     ~ Scutum/testudo el basico
+     ~ Hoplite el mas avanzado q es de alloys (haria juego con spartan armor)
+     ~ no se me ocurre para el escudo plasma
+   * agregar las dos variedades la azul y la dorada de plasma a alos alienigenas?
+     ~ sectoides buen candidato para esto
+
+
+
  - copiar los tipos de daño de xfiles?
    * separar el cutting del melee
 ####OJITO AQUI SIGUIENTES 
