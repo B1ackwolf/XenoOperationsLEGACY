@@ -90,9 +90,6 @@ TL;DR VERSION:
      ~ sectoides buen candidato para esto
 
 ####OJITO AQUI SIGUIENTES 
- - hacer un poquit mas oscurita la granada plasma en el inventario
- - resaltar mejor el borde del cuchillo de plasma en el inventario
- - achicar la granada basica ademas pintar de verdecito o sepia en todas las sprites
  - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
  - usar EL soldado IA para del drone core
  - concretar el tema de las explosiones que pierdan daño segun el area de impacto
