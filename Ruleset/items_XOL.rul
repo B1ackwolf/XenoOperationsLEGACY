@@ -5175,6 +5175,8 @@ items:
   - type: STR_SMOKE_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 1
     costSell: 0
+    bigSprite: 2650
+    floorSprite: 2659
     handSprite: 1340
     listOrder: 2816
   - type: STR_BO_FIERY_GRENADE 
@@ -5184,6 +5186,7 @@ items:
     weight: 3
     bigSprite: 301
     floorSprite: 301
+    handSprite: 1348
     power: 70
     damageType: 2
     battleType: 4
@@ -5193,6 +5196,9 @@ items:
   - type: STR_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 1
     costSell: 0
+    bigSprite: 2651
+    floorSprite: 2651
+    handSprite: 2651
     blastRadius: 3
     damageType: 3
     weight: 3
@@ -5204,6 +5210,7 @@ items:
     weight: 2
     bigSprite: 313
     floorSprite: 313
+   # handSprite: 1340 OJITO
     power: 65
     damageType: 3
     battleType: 4
@@ -5216,6 +5223,9 @@ items:
     handSprite: 232
     size: 0.05
     costSell: 2200
+   # bigSprite: 301
+   # floorSprite: 301
+   # handSprite: 1340 OJITO
     weight: 3
     power: 60
     damageType: 3
@@ -5229,6 +5239,7 @@ items:
     weight: 2
     bigSprite: 674
     floorSprite: 674
+   # handSprite: 1340 OJITO
     power: 75
     damageType: 3
     battleType: 4
@@ -5243,6 +5254,7 @@ items:
     weight: 2
     bigSprite: 675
     floorSprite: 675
+   # handSprite: 1340 OJITO
     power: 80
     damageType: 2
     battleType: 4
@@ -5251,12 +5263,29 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2907
+
+#####
+#  - type: STR_BO_AP_GRENADE   #ojito copiarme de la tritanium grenade de xfiles
+#    size: 0.1
+#    costSell: 14850
+#    weight: 3
+#    bigSprite: 2652
+#    floorSprite: 2652
+#   # handSprite: 2662
+#    power: 85
+#    damageType: 3
+#    battleType: 4
+#    blastRadius: 4
+#    fuseType: -1
+#    listOrder: 2909
+######
   - type: STR_ELERIUM_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
     costSell: 14850
     weight: 3
-    bigSprite: 39
+    bigSprite: 2653
     floorSprite: 38
+    handSprite: 2672
     power: 85
     damageType: 3
     battleType: 4
@@ -5266,6 +5295,8 @@ items:
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 3
     costSell: 1
+   # bigSprite: 301
+   # floorSprite: 301
     handSprite: 216
     damageType: 3
     listOrder: 2911
@@ -5275,6 +5306,7 @@ items:
     weight: 3
     bigSprite: 433
     floorSprite: 433
+   # handSprite: 1340 OJITO
     power: 90
     damageType: 3
     battleType: 5

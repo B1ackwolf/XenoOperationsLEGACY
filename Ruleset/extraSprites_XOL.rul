@@ -86,7 +86,7 @@ extraSprites:
       811: Resources/UnitSprites/AlienFaction/BigOb/CarcharodonInventoryCorpse.gif
       813: Resources/UnitSprites/AlienFaction/InvAlien/AlienAttacks/SharkBite.gif
 #----- Unit sprites for ALIENS ends here -----#  
-#----- Tier 1 Ballistic tier BigOb -----#
+#----- Tier 1 Ballistic tier BigObs -----#
       600: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.gif
       345: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol.gif
       346: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol_mag.gif
@@ -117,7 +117,7 @@ extraSprites:
       14: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_smoke.png
       15: Resources/WeaponrySprites/1stBallistic/BigOb/15RocketLauncher.png
 #----- Tier 1 ends here -----#
-#----- Tier 2 X ballistic BigOb -----#
+#----- Tier 2 X ballistic BigObs -----#
       613: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.gif
       604: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol.gif
       606: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol_mag2.gif
@@ -158,7 +158,7 @@ extraSprites:
       649: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XRocketLauncher_rocket2.gif
       280: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XRocketLauncher_rocket3.gif
 #----- Tier 2 X ballistic ends here-----#
-#----- Tier 4 Laser BigOb -----#
+#----- Tier 4 Laser BigObs -----#
       270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol.gif
       317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg.gif
       271: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat1.gif
@@ -185,7 +185,7 @@ extraSprites:
       330: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat2.gif
       331: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat3.gif
 #----- Tier 4 Laser ends here-----#
-#----- Tier 5 Hypervelocity  BigOb -----#
+#----- Tier 5 Hypervelocity  BigObs -----#
       619: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol.gif
       621: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg.gif
       620: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip1.gif
@@ -216,7 +216,7 @@ extraSprites:
       639: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip2.gif
       657: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip3.gif
 #----- Tier 5 Hypervelocity ends here -----#
-#----- Tier 6 Terran plasma BigOb -----#
+#----- Tier 6 Terran plasma BigObs -----#
       508: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol.gif
       378: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip1.gif
       412: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip2.gif
@@ -256,11 +256,11 @@ extraSprites:
       645: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb2.gif
       646: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb3.gif
 #----- Tier 6 Terran plasma ends here -----#
-#----- Tier 7 Stun BigOb -----#
+#----- Tier 7 Stun BigObs -----#
       1113: Resources/WeaponrySprites/7thStun/BigOb/TaserPistol.png
       1114: Resources/WeaponrySprites/7thStun/BigOb/TaserPistol_clip.png
 #----- Tier 7 Stun ends here -----#
-#----- Tier 8 Melee BigOb -----#
+#----- Tier 8 Melee BigObs -----#
       316: Resources/WeaponrySprites/8thMelee/BigOb/1HumanBrassKnuckles.gif
       315: Resources/WeaponrySprites/8thMelee/BigOb/2HumanKnife.gif
       430: Resources/WeaponrySprites/8thMelee/BigOb/3HumanAlloyKnife.gif
@@ -273,18 +273,22 @@ extraSprites:
       372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade.gif
       369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade.gif
 #----- Tier 8 Melee ends here -----#
-#----- Tier 9 Ordnance BigOb -----#
+#----- Tier 9 Ordnance BigObs -----#
+      2650: Resources/WeaponrySprites/9thOrdnance/BigOb/1SmokeGrenade.png
       301: Resources/WeaponrySprites/9thOrdnance/BigOb/2IncGrenade.gif
-      313: Resources/WeaponrySprites/9thOrdnance/BigOb/5XGrenade.gif
+      2651: Resources/WeaponrySprites/9thOrdnance/BigOb/3BasicGrenade.png
+      313: Resources/WeaponrySprites/9thOrdnance/BigOb/4StickGrenade.gif
       674: Resources/WeaponrySprites/9thOrdnance/BigOb/6HybGrenade1.gif
       675: Resources/WeaponrySprites/9thOrdnance/BigOb/7HybGrenade2.gif
+      2652: Resources/WeaponrySprites/9thOrdnance/BigOb/8ApGrenade.png
+      2653: Resources/WeaponrySprites/9thOrdnance/BigOb/9HumanPlasmaGrenade.png
       433: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanEleriumMine.gif
       434: Resources/WeaponrySprites/9thOrdnance/BigOb/11HumaAntiMatterCharge.gif
       250: Resources/WeaponrySprites/9thOrdnance/BigOb/15BangaloreCharge.png
       251: Resources/WeaponrySprites/9thOrdnance/BigOb/16BreachingElerium.png
       252: Resources/WeaponrySprites/9thOrdnance/BigOb/17BreachingAntimatter.gif
 #----- Tier 9 Ordnance ends here -----#
-#----- Tier 10 Alien Plasma BigOb -----#
+#----- Tier 10 Alien Plasma BigObs -----#
       350: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol.gif
       351: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol_clip1.gif #eliminar esta?
       352: Resources/WeaponrySprites/10thAlien/BigOb/2AlienPlasmaSmg.gif
@@ -314,7 +318,7 @@ extraSprites:
       35: Resources/WeaponrySprites/10thAlien/BigOb/17AlienBlasterLauncher.gif
       373: Resources/WeaponrySprites/10thAlien/BigOb/17AlienBlasterLauncher_bomb1.gif
 #----- Tier 10 Alien plasma ends here -----#
-#----- Tier 10b Alien Ordnance BigOb -----#
+#----- Tier 10b Alien Ordnance BigObs -----#
       364: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienGrenade.gif
       370: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienProxGrenade.gif
       366: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienExplosivePack.gif
@@ -355,7 +359,7 @@ extraSprites:
       2996: Resources/UxUI/InvBlockers/Null_PocketLL.png
       2997: Resources/UxUI/InvBlockers/Null_Holster.png
 #----- Inventory Nullifying slots ends here -----#
-#----- Tier 3 Hybrid BigOb -----#
+#----- Tier 3 Hybrid BigObs -----#
   - type: BIGOBS.PCK
     subX: 32
     subY: 48
@@ -364,7 +368,7 @@ extraSprites:
     files:
       450: Resources/WeaponrySprites/3rdHybrid/BigOb/HybridWeaponsTier.gif
 #----- Tier 3 Hybrid ends here -----#
-#----- Tier 7 Stun BigOb -----#
+#----- Tier 7 Stun BigObs -----#
   - type: BIGOBS.PCK
     subX: 32
     subY: 48
@@ -636,10 +640,14 @@ extraSprites:
       369: Resources/WeaponrySprites/8thMelee/FloorOb/16AlienPlasmaBlade_floor.gif
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance FloorObs -----#
+      2659: Resources/WeaponrySprites/9thOrdnance/FloorOb/1SmokeGrenade_floor.png
       301: Resources/WeaponrySprites/9thOrdnance/FloorOb/2IncGrenade_floor.gif
-      313: Resources/WeaponrySprites/9thOrdnance/FloorOb/5XGrenade_floor.gif
+      2651: Resources/WeaponrySprites/9thOrdnance/FloorOb/3BasicGrenade_floor.png
+      313: Resources/WeaponrySprites/9thOrdnance/FloorOb/4StickGrenade_floor.gif
       674: Resources/WeaponrySprites/9thOrdnance/FloorOb/6HybGrenade1_floor.gif
       675: Resources/WeaponrySprites/9thOrdnance/FloorOb/7HybGrenade2_floor.gif
+      2652: Resources/WeaponrySprites/9thOrdnance/FloorOb/8ApGrenade_floor.png
+      38: Resources/WeaponrySprites/9thOrdnance/FloorOb/9HumanPlasmaGrenade_floor.png
       433: Resources/WeaponrySprites/9thOrdnance/FloorOb/10HumanEleriumMine_floor.gif
       434: Resources/WeaponrySprites/9thOrdnance/FloorOb/11HumanAntimatterCharge_floor.gif
       250: Resources/WeaponrySprites/9thOrdnance/FloorOb/15BangaloreCharge_floor.png
@@ -822,9 +830,13 @@ extraSprites:
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance HandObs -----#
       1340: Resources/WeaponrySprites/9thOrdnance/HandOb/1SmokeGrenade_hand.png
-      232: Resources/WeaponrySprites/9thOrdnance/HandOb/4Proxgrenade_hand.png
-      216: Resources/WeaponrySprites/9thOrdnance/HandOb/9HighExplosive_hand.png
-      1050: Resources/WeaponrySprites/9thOrdnance/HandOb/11HumanAntimatterCharge_hand.gif
+      1348: Resources/WeaponrySprites/9thOrdnance/HandOb/2IncGrenade_hand.png
+      2651: Resources/WeaponrySprites/9thOrdnance/HandOb/3BasicGrenade_hand.png
+      232: Resources/WeaponrySprites/9thOrdnance/HandOb/5Proxgrenade_hand.png
+      2662: Resources/WeaponrySprites/9thOrdnance/HandOb/8ApGrenade_hand.png
+      2672: Resources/WeaponrySprites/9thOrdnance/HandOb/9PlasmaGrenade_hand.png
+      216: Resources/WeaponrySprites/9thOrdnance/HandOb/11HighExplosive_hand.png
+      1050: Resources/WeaponrySprites/9thOrdnance/HandOb/13HumanAntimatterCharge_hand.gif
       190: Resources/WeaponrySprites/9thOrdnance/HandOb/15BangaloreCharge_hand.png
       1245: Resources/WeaponrySprites/9thOrdnance/HandOb/16BreachingElerium_hand.gif
       1290: Resources/WeaponrySprites/9thOrdnance/HandOb/17BreachingAntimatter_hand.gif

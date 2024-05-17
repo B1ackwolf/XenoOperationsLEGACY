@@ -48,6 +48,10 @@ TL;DR VERSION:
  - no he tocado los tiempos de manufactura, hacer esto antes de seguir agregando proyectos (dividir posiblemente a<s la mitad?)
  - separar armas q estan en el mismo png
  - implementar script de armas q varian en base al cartucho de filip h en jeilo
+   * separarle el cargador a las armas
+   * en caso de las pistolas, hacerlas gatilladas la corredera
+   * las armas de rieles tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
+   * las armas de plasma tambien tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
 
  - respecto al tanquero .duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
    * crear todos los articulos en ufopaedia usando el pilot como ejemplo
@@ -62,8 +66,13 @@ TL;DR VERSION:
      ~ revisar para q sea todo el texto en general de la ufopaedia.
    * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)
      ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
-   
+ - acomodar todos los rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
+   * a la granada quimica pintar el humo de verde y usarlo para eso.
+     ~ tambien para el cohete chem
+ - copiar muchos efectos y daños de las granadas desde el xfiles    
  - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
+   * la granada de plasma sera la emp
+   * la granada ap nails sera el sonic pulsar, recolorizar igual q los rifles de rieles  
    * recolorizada, falta implementar los sprites
  - implementar el item EScudo
    * ya consegui los sprites
@@ -80,12 +89,10 @@ TL;DR VERSION:
    * agregar las dos variedades la azul y la dorada de plasma a alos alienigenas?
      ~ sectoides buen candidato para esto
 
-
-
- - copiar los tipos de daño de xfiles?
-   * separar el cutting del melee
 ####OJITO AQUI SIGUIENTES 
-
+ - hacer un poquit mas oscurita la granada plasma en el inventario
+ - resaltar mejor el borde del cuchillo de plasma en el inventario
+ - achicar la granada basica ademas pintar de verdecito o sepia en todas las sprites
  - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
  - usar EL soldado IA para del drone core
  - concretar el tema de las explosiones que pierdan daño segun el area de impacto
@@ -150,7 +157,7 @@ TL;DR VERSION:
      ~ Use the "marker" command assigned to each aircraft.
 
 ######### 
- - balancear requerimientos de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun . asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
+ - balancear requerimientos en materiales de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun . asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
  - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
  - revisar enteramente arbol de investigaciones dandole enfasis a los siguientes proyectos
    * STR_CODEX_COMPLETE

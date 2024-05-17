@@ -144,8 +144,12 @@ gameplay changes:
    * ademas cada tipo de soldado gana un bono en salario en base a su rango
  - reducido el costo inicial de mantenimiento y alquiler de los dragonfly e interceptor inicial.  
 QOL CHANGES:
- - reordenado totalmente como aparecen los edificios en la lista de una manera mas logica y coherente.
+ - comenzado el proceso de recoloracion de todAS LAS INTERFACES, por ahora hice solo menus , de partidas guardadas, de opciones, de mods, etc.
+   * esperare a ver que opinion tienen al respecto, requiere bastante trabajo por lo q no quiero meterle 10 horas mas a editar esos parametros para luego descubrir que es un cambio impopular y seguramente requiera rollback y tener un monton de esfuerzo desperdiciado.
 
+ - reordenado totalmente como aparecen los edificios en la lista de una manera mas logica y coherente.
+ - renombrado todos los tipos de daño dentro de la Ufopedia
+   * adicionalmente incluido que el numero del daño varia de color en base al tipo de daño 
 
 
  - cambiado nombre de apex launcher a devastator launcher
@@ -229,7 +233,8 @@ Sprite tweaks:
    * espada plasma alien modificada ligeramente	 
  - agregado handsprites para los cargadores de pistola y rifle de tier inicial	
  - modificada ligeramente las insignias de first sergeants ahora tienen doble chevron en la parte de abajo
-
+ - modifcadas y mejoradas practicamente todas las granadas
+   * recibieron mejoras visuales al inv sprite, al floor sprite y al handsprite
  
 craft changes
  - todas las naves de xcom recibieron mejoras significativas sea en funcionalidad o en apariencia, ademas de retoques en estadisticas (ojito hacer esto)
@@ -269,7 +274,7 @@ craft changes
  - cambios en los mapas
    * algunas modificaciones a edificios de la base tanto en estadisticas y precios
    * el hangar recibio algunos cambios para permitir mayor movilidad de las unidades HWP desde ciertos angulos, gracias reporte de (revisar en el foro quien me comento esto)   
-	 
+	 * agregado fuentes de iluminacion extras en la pared lejana con lockers en el living quarters grande
 under da hood changes:
  - implementados cambios a la esquema general de precios
  - todos los articulos que podian ser comprados al inicio de la invasion fueron reducidos en costo (en casos a precios casi insignificantes y hasta simbolicos)

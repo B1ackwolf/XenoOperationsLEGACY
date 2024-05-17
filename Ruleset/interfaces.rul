@@ -8,25 +8,25 @@ interfaces:
 # letras de menues seran en gris medio (247)
 # letras principales seran color blanco (6)
 
-  - type: mainMenu   # The main menu after you load your game
-    backgroundImage: BACK01.SCR
+  - type: mainMenu   # The main menu after launching the game
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     music: GMSTORY
     palette: PAL_BATTLESCAPE
     elements:
       - id: palette  # main "offset palette"
         color: 6     # yellow oxide # just like in others screens
       - id: window   
-        color: 248   # Darker gray # The margin borders of the window
+        color: 248   # Even Darker gray # The margin borders of the entire window
       - id: text
-        color: 6     # white # Main Title text color 
+        color: 6     # white # Main Title and number version text color 
       - id: button
         color: 245   # dark gray main tone # the main menu buttons
-      - id: battlescapeTheme
+      - id: battlescapeTheme #?
         color: -1
         color2: -1
         border: 0
 #
-  - type: tests #NO IDEA
+  - type: tests     #NO IDEA WHAT IT DOES (?)
     backgroundImage: BACK05.SCR
     palette: PAL_BATTLESCAPE
     elements:
@@ -45,82 +45,82 @@ interfaces:
       - id: button2
         color: 133   # prueba
 #
-  - type: newBattleMenu # BattleTest mission generator
-    backgroundImage: BACK01.SCR
+  - type: newBattleMenu # BattleTest quick mission generator menu
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BATTLESCAPE
     elements:
       - id: palette
-        color: 6     # yellowish just like in others screens
+        color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 248   # Darker gray # The margin border of the entire window
+        color: 248   # even Darker gray # The margin borders of the entire window
       - id: heading
-        color: 6     # White # Main titles color
+        color: 6     # White # Main categories letters color
       - id: text
         color: 243   # lighter gray # Small text
       - id: frames
-        color: 248   # frames of small windows
+        color: 248   # even darker gray # frames of small sections dividers
       - id: button1
         color: 245   # dark gray main tone # majority of buttons
       - id: button2
         color: 245   # dark gray main tone # bottom three buttons
       - id: list
         color: 247   # darker gray # name in the list
-        color2: 245  # dark gray main tone # no idea what it does
+        color2: 245  # dark gray main tone # no idea what it does (?)
         border: 245  # dark gray main tone # slider on the list
 #
-  - type: newGameMenu
-    backgroundImage: BACK01.SCR
+  - type: newGameMenu  # The pop up after selecting new game
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BATTLESCAPE
     elements:
       - id: palette
         color: 6     # yellow oxide
       - id: window
-        color: 248   # Darker gray # The margin border of the entire window
+        color: 248   # even Darker gray # The margin borders of the entire window
       - id: text
-        color: 6     # white # Title text color 
+        color: 6     # white # "select difficulty" text color 
       - id: ironman
-        color: 40   # Red # Ironman alert button
+        color: 39   # Red # Ironman mode selection button
       - id: button
-        color: 245   # dark gray main tone # the main menu buttons
+        color: 245   # dark gray main tone # all buttons in this screen
 #
   - type: endGameStatistics
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BATTLESCAPE
     elements:
       - id: palette
-        color: 6     # yellow oxide
+        color: 6     # yellow oxide # just like in others 
       - id: window
-        color: 248   # Darker gray # The margin border of the entire window
+        color: 248   # Even Darker gray # The margin borders of the entire window
       - id: text
-        color: 6     # white # main page title color
-        color2: 247   # slighty clearer gray # Small text
+        color: 6     # white # "defeat and date" title
+        color2: 39   # red # no idea what it does (?)
       - id: list
-        color: 247   # slighty clearer gray # name in the list
-        color2: 245  # dark gray main tone # no idea what it does
-        border: 245  # dark gray main tone # slider on the list
+        color: 243   # slighty clearer gray # name in the list
+        color2: 245  # dark gray main tone # no idea what it does (?)
+        border: 245  # dark gray main tone # slider on the right of the list
       - id: button
-        color: 245   # dark gray main tone # majority of buttons
+        color: 245   # dark gray main tone # all the buttons in this screen
 #
-  - type: optionsMenu
-    backgroundImage: BACK01.SCR
+  - type: optionsMenu # Main menu , options screen
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BATTLESCAPE
     elements:
       - id: palette
         color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 248   # Darker gray # The margin borders of the window
+        color: 248   # even Darker gray # The margin borders of the window
       - id: tooltip
-        color: 243   # slighty clearer gray # name in the list
+        color: 243   # slighty clearer gray # color of the appearing tooltip letters
       - id: button
-        color: 245   # dark gray main tone # the main menu buttons
+        color: 245   # dark gray main tone # the bottom buttons
       - id: confirmDefaults
-        color: 138   # yellow
+        color: 138   # Royal Blue # probably the "confirm to default" pop up
       - id: confirmVideo
-        color: 245   # dark gray main tone # the main menu buttons
+        color: 245   # dark gray main tone # the "confirm changes" when changing video configuration
   - type: videoMenu
     elements:
       - id: text
-        color: 6     # white# name in the list
+        color: 6     # white# categories letter colors
       - id: resolution
         color: 243   # slighty clearer gray  # headers number color
       - id: button
@@ -153,14 +153,14 @@ interfaces:
     elements:
       - id: optionLists
         color: 247   # slighty clearer gray # name in the list
-        color2: 6    # dark gray main tone # the main menu buttons
+        color2: 243    # dark gray main tone # the main menu buttons
         border: 245  # dark gray main tone # slider
       - id: disabledUserOption
         color: 134   # blue
   - type: foldersMenu
     elements:
       - id: text1
-        color: 6     # white # resolution number color
+        color: 136     # white # resolution number color
       - id: text2
         color: 247   # slighty clearer gray # name in the list
 
@@ -168,7 +168,7 @@ interfaces:
 
 
   - type: modsMenu
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -200,7 +200,7 @@ interfaces:
       - id: button2
         color: 133   # minty green
   - type: saveMenus
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 6     # oxide
@@ -220,7 +220,7 @@ interfaces:
       - id: confirmDelete
         color: 138   # yellow
   - type: pauseMenu
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -231,7 +231,7 @@ interfaces:
       - id: button
         color: 239   # bright green
   - type: noteMenu
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 6     # oxide
@@ -283,7 +283,7 @@ interfaces:
         color2: 138  # yellow
         border: 133  # minty green
   - type: selectMusicTrack
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -298,7 +298,7 @@ interfaces:
       - id: button
         color: 133   # minty green
   - type: dogfightExperience
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -405,7 +405,7 @@ interfaces:
       - id: button
         color: 133   # minty green
   - type: targetInfo
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -750,7 +750,7 @@ interfaces:
         pos: [0, 140]
         size: [160, 52]
   - type: baseNaming
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -776,7 +776,7 @@ interfaces:
       - id: button
         color: 239   # bright green
   - type: psiTraining
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BASESCAPE
     elements:
       - id: palette
@@ -804,7 +804,7 @@ interfaces:
       - id: button2
         color: 218   # light blue
   - type: allocatePsi
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BASESCAPE
     elements:
       - id: palette
@@ -854,7 +854,7 @@ interfaces:
       - id: button
         color: 239   # bright green
   - type: oxceLinks
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -918,7 +918,7 @@ interfaces:
 
 
   - type: ufopaedia
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -935,7 +935,7 @@ interfaces:
       - id: button2
         color: 239   # bright green
   - type: promotions
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -950,7 +950,7 @@ interfaces:
       - id: button
         color: 239   # bright green
   - type: cannotReequip
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -965,7 +965,7 @@ interfaces:
       - id: button
         color: 133   # minty green
   - type: debriefing
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -987,7 +987,7 @@ interfaces:
       - id: errorMessage
         color: 133   # minty green
   - type: commendations
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -1019,7 +1019,7 @@ interfaces:
       - id: button
         color: 218   # blue
   - type: geoscape
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
         color: 0     # brown
@@ -1051,7 +1051,7 @@ interfaces:
         color: 239   # bright green
 
   # - type: geoscape
-  #   backgroundImage: BACK01.SCR
+  #   backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
   #   elements:
   #     - id: textLoad
   #       color: 133   # minty green
@@ -1246,7 +1246,7 @@ interfaces:
         color: 213   # gold
         color2: 208  # white
   - type: placeFacility
-    backgroundImage: BACK01.SCR
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BASESCAPE
     elements:
       - id: palette
@@ -2230,6 +2230,7 @@ interfaces:
   #     #  color: 32    # red
 
   - type: articleItem
+    palette: PAL_BATTLESCAPE
     elements:
       - id: button
         color: 144   # orange
@@ -2241,38 +2242,36 @@ interfaces:
         color2: 244  # light blue
       - id: ammoColor
         color: 32    # red
-      #- id: ammoColorDTNone
-      #  color: 32    # red
-      #- id: ammoColorDTAP
-      #  color: 32    # red
-      #- id: ammoColorDTIN
-      #  color: 32    # red
-      #- id: ammoColorDTHE
-      #  color: 32    # red
-      #- id: ammoColorDTLaser
-      #  color: 32    # red
-      #- id: ammoColorDTPlasma
-      #  color: 32    # red
-      #- id: ammoColorDTStun
-      #  color: 32    # red
-      #- id: ammoColorDTMelee
-      #  color: 32    # red
-      #- id: ammoColorDTAcid
-      #  color: 32    # red
-      #- id: ammoColorDTSmoke
-      #  color: 32    # red
+      - id: ammoColorDTAP
+        color: 112    # steely blue, AP
+      - id: ammoColorDTIN
+        color: 16    # orange, Incendiary
+      - id: ammoColorDTHE
+        color: 35    # tame red, High Explosive
+      - id: ammoColorDTLaser
+        color: 97    # orange, Laser
+      - id: ammoColorDTPlasma
+        color: 49    # green, Plasma
+      - id: ammoColorDTStun
+        color: 84    # soap, Stun
+      - id: ammoColorDTMelee
+        color: 2    # pale blue, Melee
+      - id: ammoColorDTAcid
+        color: 64    # lime green, Acid
+      - id: ammoColorDTSmoke
+        color: 161    # shitty brown, Smoke
       #- id: ammoColorDT10
-      #  color: 32    # red
+      #  color: 32    #red 
       #- id: ammoColorDT11
-      #  color: 32    # red
+      #  color: 32    #red 
       #- id: ammoColorDT12
-      #  color: 32    # red
+      #  color: 32    #red 
       #- id: ammoColorDT13
-      #  color: 32    # red
+      #  color: 32    #red 
       #- id: ammoColorDT14
-      #  color: 32    # red
+      #  color: 32    #red 
       #- id: ammoColorDT15
-      #  color: 32    # red
+      #  color: 32    #red 
       #- id: ammoColorDT16
       #  color: 32    # red
       #- id: ammoColorDT17
