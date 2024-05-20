@@ -8321,6 +8321,525 @@ armors:
       - STR_NULL_POCKET_LS 
     units:
       - STR_DRIVER
+#----- Tanks armors, ojito luego mover despues de mechs driftsuit -----#
+  - type: STR_BASIC_TANK_AP_ARMOR_UC
+    spriteSheet: BASIC_TANK_AP_SPRITESHEET
+    layersDefaultPrefix: HUMAN
+    layersSpecificPrefix:
+      8: MECH_DRIFTSUIT
+    layersDefinition:
+      M0: ["", "MECH_BASIC_TANK_AP_M", "M0_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M0_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M1: ["", "MECH_BASIC_TANK_AP_M", "M1_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M1_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M2: ["", "MECH_BASIC_TANK_AP_M", "M2_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M2_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M3: ["", "MECH_BASIC_TANK_AP_M", "M3_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M3_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M4: ["", "MECH_BASIC_TANK_AP_M", "M4_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M4_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M5: ["", "MECH_BASIC_TANK_AP_M", "M5_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M5_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M6: ["", "MECH_BASIC_TANK_AP_M", "M6_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M6_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M7: ["", "MECH_BASIC_TANK_AP_M", "M7_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M7_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M8: ["", "MECH_BASIC_TANK_AP_M", "M8_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M8_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M9: ["", "MECH_BASIC_TANK_AP_M", "M9_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M9_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M10: ["", "MECH_BASIC_TANK_AP_M", "M10_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M10_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M11: ["", "MECH_BASIC_TANK_AP_M", "M11_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M11_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M12: ["", "MECH_BASIC_TANK_AP_M", "M12_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M12_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M13: ["", "MECH_BASIC_TANK_AP_M", "M13_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M13_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M14: ["", "MECH_BASIC_TANK_AP_M", "M14_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M14_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M15: ["", "MECH_BASIC_TANK_AP_M", "M15_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M15_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M16: ["", "MECH_BASIC_TANK_AP_M", "M16_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M16_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M17: ["", "MECH_BASIC_TANK_AP_M", "M17_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M17_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M18: ["", "MECH_BASIC_TANK_AP_M", "M18_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M18_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M19: ["", "MECH_BASIC_TANK_AP_M", "M19_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M19_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M20: ["", "MECH_BASIC_TANK_AP_M", "M20_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M20_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M21: ["", "MECH_BASIC_TANK_AP_M", "M21_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M21_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M22: ["", "MECH_BASIC_TANK_AP_M", "M22_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M22_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M23: ["", "MECH_BASIC_TANK_AP_M", "M23_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M23_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M24: ["", "MECH_BASIC_TANK_AP_M", "M24_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M24_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M25: ["", "MECH_BASIC_TANK_AP_M", "M25_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M25_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M26: ["", "MECH_BASIC_TANK_AP_M", "M26_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M26_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M27: ["", "MECH_BASIC_TANK_AP_M", "M27_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M27_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M28: ["", "MECH_BASIC_TANK_AP_M", "M28_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M28_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M29: ["", "MECH_BASIC_TANK_AP_M", "M29_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M29_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M30: ["", "MECH_BASIC_TANK_AP_M", "M30_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M30_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M31: ["", "MECH_BASIC_TANK_AP_M", "M31_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M31_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M32: ["", "MECH_BASIC_TANK_AP_M", "M32_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M32_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M33: ["", "MECH_BASIC_TANK_AP_M", "M33_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M33_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M34: ["", "MECH_BASIC_TANK_AP_M", "M34_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M34_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M35: ["", "MECH_BASIC_TANK_AP_M", "M35_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M35_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M36: ["", "MECH_BASIC_TANK_AP_M", "M36_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M36_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M37: ["", "MECH_BASIC_TANK_AP_M", "M37_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M37_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M38: ["", "MECH_BASIC_TANK_AP_M", "M38_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M38_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M39: ["", "MECH_BASIC_TANK_AP_M", "M39_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M39_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M40: ["", "MECH_BASIC_TANK_AP_M", "M40_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M40_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M41: ["", "MECH_BASIC_TANK_AP_M", "M41_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M41_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M42: ["", "MECH_BASIC_TANK_AP_M", "M42_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M42_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M43: ["", "MECH_BASIC_TANK_AP_M", "M43_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M43_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M44: ["", "MECH_BASIC_TANK_AP_M", "M44_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M44_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M45: ["", "MECH_BASIC_TANK_AP_M", "M45_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M45_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M46: ["", "MECH_BASIC_TANK_AP_M", "M46_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M46_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M47: ["", "MECH_BASIC_TANK_AP_M", "M47_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M47_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M48: ["", "MECH_BASIC_TANK_AP_M", "M48_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M48_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M49: ["", "MECH_BASIC_TANK_AP_M", "M49_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M49_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M50: ["", "MECH_BASIC_TANK_AP_M", "M50_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M50_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M51: ["", "MECH_BASIC_TANK_AP_M", "M51_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M51_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M52: ["", "MECH_BASIC_TANK_AP_M", "M52_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M52_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M53: ["", "MECH_BASIC_TANK_AP_M", "M53_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M53_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M54: ["", "MECH_BASIC_TANK_AP_M", "M54_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M54_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M55: ["", "MECH_BASIC_TANK_AP_M", "M55_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M55_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M56: ["", "MECH_BASIC_TANK_AP_M", "M56_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M56_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M57: ["", "MECH_BASIC_TANK_AP_M", "M57_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M57_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M58: ["", "MECH_BASIC_TANK_AP_M", "M58_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M58_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M59: ["", "MECH_BASIC_TANK_AP_M", "M59_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M59_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M60: ["", "MECH_BASIC_TANK_AP_M", "M60_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M60_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M61: ["", "MECH_BASIC_TANK_AP_M", "M61_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M61_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M62: ["", "MECH_BASIC_TANK_AP_M", "M62_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M62_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M63: ["", "MECH_BASIC_TANK_AP_M", "M63_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M63_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M64: ["", "MECH_BASIC_TANK_AP_M", "M64_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M64_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M65: ["", "MECH_BASIC_TANK_AP_M", "M65_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M65_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M66: ["", "MECH_BASIC_TANK_AP_M", "M66_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M66_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M67: ["", "MECH_BASIC_TANK_AP_M", "M67_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M67_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M68: ["", "MECH_BASIC_TANK_AP_M", "M68_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M68_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M69: ["", "MECH_BASIC_TANK_AP_M", "M69_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M69_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M70: ["", "MECH_BASIC_TANK_AP_M", "M70_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M70_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M71: ["", "MECH_BASIC_TANK_AP_M", "M71_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M71_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F0: ["", "MECH_BASIC_TANK_AP_F", "F0_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F0_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F1: ["", "MECH_BASIC_TANK_AP_F", "F1_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F1_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F2: ["", "MECH_BASIC_TANK_AP_F", "F2_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F2_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F3: ["", "MECH_BASIC_TANK_AP_F", "F3_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F3_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F4: ["", "MECH_BASIC_TANK_AP_F", "F4_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F4_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F5: ["", "MECH_BASIC_TANK_AP_F", "F5_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F5_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F6: ["", "MECH_BASIC_TANK_AP_F", "F6_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F6_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F7: ["", "MECH_BASIC_TANK_AP_F", "F7_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F7_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F8: ["", "MECH_BASIC_TANK_AP_F", "F8_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F8_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F9: ["", "MECH_BASIC_TANK_AP_F", "F9_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F9_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F10: ["", "MECH_BASIC_TANK_AP_F", "F10_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F10_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F11: ["", "MECH_BASIC_TANK_AP_F", "F11_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F11_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F12: ["", "MECH_BASIC_TANK_AP_F", "F12_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F12_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F13: ["", "MECH_BASIC_TANK_AP_F", "F13_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F13_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F14: ["", "MECH_BASIC_TANK_AP_F", "F14_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F14_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F15: ["", "MECH_BASIC_TANK_AP_F", "F15_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F15_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F16: ["", "MECH_BASIC_TANK_AP_F", "F16_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F16_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F17: ["", "MECH_BASIC_TANK_AP_F", "F17_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F17_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F18: ["", "MECH_BASIC_TANK_AP_F", "F18_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F18_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F19: ["", "MECH_BASIC_TANK_AP_F", "F19_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F19_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F20: ["", "MECH_BASIC_TANK_AP_F", "F20_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F20_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F21: ["", "MECH_BASIC_TANK_AP_F", "F21_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F21_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F22: ["", "MECH_BASIC_TANK_AP_F", "F22_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F22_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F23: ["", "MECH_BASIC_TANK_AP_F", "F23_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F23_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F24: ["", "MECH_BASIC_TANK_AP_F", "F24_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F24_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F25: ["", "MECH_BASIC_TANK_AP_F", "F25_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F25_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F26: ["", "MECH_BASIC_TANK_AP_F", "F26_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F26_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F27: ["", "MECH_BASIC_TANK_AP_F", "F27_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F27_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F28: ["", "MECH_BASIC_TANK_AP_F", "F28_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F28_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F29: ["", "MECH_BASIC_TANK_AP_F", "F29_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F29_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F30: ["", "MECH_BASIC_TANK_AP_F", "F30_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F30_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F31: ["", "MECH_BASIC_TANK_AP_F", "F31_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F31_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F32: ["", "MECH_BASIC_TANK_AP_F", "F32_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F32_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F33: ["", "MECH_BASIC_TANK_AP_F", "F33_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F33_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F34: ["", "MECH_BASIC_TANK_AP_F", "F34_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F34_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F35: ["", "MECH_BASIC_TANK_AP_F", "F35_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F35_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F36: ["", "MECH_BASIC_TANK_AP_F", "F36_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F36_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F37: ["", "MECH_BASIC_TANK_AP_F", "F37_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F37_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F38: ["", "MECH_BASIC_TANK_AP_F", "F38_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F38_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F39: ["", "MECH_BASIC_TANK_AP_F", "F39_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F39_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F40: ["", "MECH_BASIC_TANK_AP_F", "F40_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F40_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F41: ["", "MECH_BASIC_TANK_AP_F", "F41_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F41_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F42: ["", "MECH_BASIC_TANK_AP_F", "F42_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F42_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F43: ["", "MECH_BASIC_TANK_AP_F", "F43_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F43_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F44: ["", "MECH_BASIC_TANK_AP_F", "F44_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F44_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F45: ["", "MECH_BASIC_TANK_AP_F", "F45_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F45_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F46: ["", "MECH_BASIC_TANK_AP_F", "F46_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F46_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F47: ["", "MECH_BASIC_TANK_AP_F", "F47_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F47_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F48: ["", "MECH_BASIC_TANK_AP_F", "F48_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F48_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F49: ["", "MECH_BASIC_TANK_AP_F", "F49_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F49_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F50: ["", "MECH_BASIC_TANK_AP_F", "F50_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F50_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F51: ["", "MECH_BASIC_TANK_AP_F", "F51_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F51_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F52: ["", "MECH_BASIC_TANK_AP_F", "F52_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F52_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F53: ["", "MECH_BASIC_TANK_AP_F", "F53_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F53_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F54: ["", "MECH_BASIC_TANK_AP_F", "F54_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F54_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F55: ["", "MECH_BASIC_TANK_AP_F", "F55_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F55_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F56: ["", "MECH_BASIC_TANK_AP_F", "F56_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F56_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F57: ["", "MECH_BASIC_TANK_AP_F", "F57_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F57_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F58: ["", "MECH_BASIC_TANK_AP_F", "F58_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F58_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F59: ["", "MECH_BASIC_TANK_AP_F", "F59_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F59_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F60: ["", "MECH_BASIC_TANK_AP_F", "F60_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F60_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F61: ["", "MECH_BASIC_TANK_AP_F", "F61_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F61_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F62: ["", "MECH_BASIC_TANK_AP_F", "F62_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F62_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F63: ["", "MECH_BASIC_TANK_AP_F", "F63_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F63_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F64: ["", "MECH_BASIC_TANK_AP_F", "F64_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F64_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F65: ["", "MECH_BASIC_TANK_AP_F", "F65_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F65_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F66: ["", "MECH_BASIC_TANK_AP_F", "F66_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F66_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F67: ["", "MECH_BASIC_TANK_AP_F", "F67_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F67_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F68: ["", "MECH_BASIC_TANK_AP_F", "F68_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F68_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F69: ["", "MECH_BASIC_TANK_AP_F", "F69_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F69_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F70: ["", "MECH_BASIC_TANK_AP_F", "F70_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F70_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F71: ["", "MECH_BASIC_TANK_AP_F", "F71_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: true
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_BASIC_TANK_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_BASIC_TANK_RECOVER
+    storeItem: STR_BASIC_TANK_AP_ITEM
+    #weight: -200
+    frontArmor: 120
+    sideArmor: 80
+    rearArmor: 80
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    moveSound: 817
+    #overKill: 3.0
+############# ojito revisar stats
+
+    stats: &SECTION_LIGHT_TANK_STATS
+       bravery: 20
+       tu: 175
+       stamina: 700
+       reactions: -15
+    recovery:  &SECTION_LIGHT_TANK_RECOVERY
+      energy:
+        flatHundred: 7.5
+      morale:
+        moraleCurrent: -0.1333
+        bravery: 0.0666
+      stun:
+        stunCurrent: 0.09
+    psiDefence:  &SECTION_TANK_PSIDEF
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.25
+      flatHundred: -0.15
+    damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
+      - 1.0 #0 None
+      - 0.3 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 0.5 #3 High Explosive
+      - 0.7 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.0 #6 Stun
+      - 0.2 #7 Melee
+      - 0.8 #8 Acid
+      - 0.0 #9 Smoke
+
+    units:
+      - STR_DRIVER
+    builtInWeapons:
+      - STR_TANK_105MM_CANNON
+      - STR_TANK_SMOKE_LAUNCHER
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    loftempsSet: [ 92, 89, 90, 91 ]
+########
+  - type: STR_BASIC_TANK_HE_ARMOR_UC
+    spriteSheet: BASIC_TANK_HE_SPRITESHEET
+    layersDefaultPrefix: HUMAN
+    layersSpecificPrefix:
+      8: MECH_DRIFTSUIT
+    layersDefinition:
+      M0: ["", "MECH_BASIC_TANK_HE_M", "M0_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M0_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M1: ["", "MECH_BASIC_TANK_HE_M", "M1_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M1_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M2: ["", "MECH_BASIC_TANK_HE_M", "M2_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M2_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M3: ["", "MECH_BASIC_TANK_HE_M", "M3_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M3_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M4: ["", "MECH_BASIC_TANK_HE_M", "M4_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M4_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M5: ["", "MECH_BASIC_TANK_HE_M", "M5_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M5_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M6: ["", "MECH_BASIC_TANK_HE_M", "M6_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M6_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M7: ["", "MECH_BASIC_TANK_HE_M", "M7_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M7_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M8: ["", "MECH_BASIC_TANK_HE_M", "M8_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M8_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M9: ["", "MECH_BASIC_TANK_HE_M", "M9_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M9_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M10: ["", "MECH_BASIC_TANK_HE_M", "M10_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M10_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M11: ["", "MECH_BASIC_TANK_HE_M", "M11_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M11_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M12: ["", "MECH_BASIC_TANK_HE_M", "M12_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M12_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M13: ["", "MECH_BASIC_TANK_HE_M", "M13_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M13_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M14: ["", "MECH_BASIC_TANK_HE_M", "M14_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M14_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M15: ["", "MECH_BASIC_TANK_HE_M", "M15_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M15_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M16: ["", "MECH_BASIC_TANK_HE_M", "M16_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M16_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M17: ["", "MECH_BASIC_TANK_HE_M", "M17_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M17_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M18: ["", "MECH_BASIC_TANK_HE_M", "M18_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M18_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M19: ["", "MECH_BASIC_TANK_HE_M", "M19_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M19_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M20: ["", "MECH_BASIC_TANK_HE_M", "M20_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M20_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M21: ["", "MECH_BASIC_TANK_HE_M", "M21_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M21_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M22: ["", "MECH_BASIC_TANK_HE_M", "M22_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M22_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M23: ["", "MECH_BASIC_TANK_HE_M", "M23_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M23_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M24: ["", "MECH_BASIC_TANK_HE_M", "M24_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M24_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M25: ["", "MECH_BASIC_TANK_HE_M", "M25_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M25_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M26: ["", "MECH_BASIC_TANK_HE_M", "M26_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M26_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M27: ["", "MECH_BASIC_TANK_HE_M", "M27_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M27_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M28: ["", "MECH_BASIC_TANK_HE_M", "M28_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M28_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M29: ["", "MECH_BASIC_TANK_HE_M", "M29_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M29_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M30: ["", "MECH_BASIC_TANK_HE_M", "M30_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M30_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M31: ["", "MECH_BASIC_TANK_HE_M", "M31_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M31_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M32: ["", "MECH_BASIC_TANK_HE_M", "M32_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M32_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M33: ["", "MECH_BASIC_TANK_HE_M", "M33_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M33_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M34: ["", "MECH_BASIC_TANK_HE_M", "M34_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M34_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M35: ["", "MECH_BASIC_TANK_HE_M", "M35_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M35_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M36: ["", "MECH_BASIC_TANK_HE_M", "M36_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M36_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M37: ["", "MECH_BASIC_TANK_HE_M", "M37_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M37_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M38: ["", "MECH_BASIC_TANK_HE_M", "M38_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M38_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M39: ["", "MECH_BASIC_TANK_HE_M", "M39_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M39_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M40: ["", "MECH_BASIC_TANK_HE_M", "M40_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M40_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M41: ["", "MECH_BASIC_TANK_HE_M", "M41_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M41_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M42: ["", "MECH_BASIC_TANK_HE_M", "M42_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M42_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M43: ["", "MECH_BASIC_TANK_HE_M", "M43_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M43_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M44: ["", "MECH_BASIC_TANK_HE_M", "M44_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M44_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M45: ["", "MECH_BASIC_TANK_HE_M", "M45_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M45_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M46: ["", "MECH_BASIC_TANK_HE_M", "M46_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M46_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M47: ["", "MECH_BASIC_TANK_HE_M", "M47_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M47_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M48: ["", "MECH_BASIC_TANK_HE_M", "M48_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M48_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M49: ["", "MECH_BASIC_TANK_HE_M", "M49_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M49_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M50: ["", "MECH_BASIC_TANK_HE_M", "M50_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M50_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M51: ["", "MECH_BASIC_TANK_HE_M", "M51_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M51_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M52: ["", "MECH_BASIC_TANK_HE_M", "M52_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M52_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M53: ["", "MECH_BASIC_TANK_HE_M", "M53_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M53_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M54: ["", "MECH_BASIC_TANK_HE_M", "M54_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M54_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M55: ["", "MECH_BASIC_TANK_HE_M", "M55_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M55_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M56: ["", "MECH_BASIC_TANK_HE_M", "M56_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M56_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M57: ["", "MECH_BASIC_TANK_HE_M", "M57_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M57_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M58: ["", "MECH_BASIC_TANK_HE_M", "M58_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M58_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M59: ["", "MECH_BASIC_TANK_HE_M", "M59_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M59_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M60: ["", "MECH_BASIC_TANK_HE_M", "M60_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M60_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M61: ["", "MECH_BASIC_TANK_HE_M", "M61_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M61_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M62: ["", "MECH_BASIC_TANK_HE_M", "M62_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M62_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M63: ["", "MECH_BASIC_TANK_HE_M", "M63_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M63_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M64: ["", "MECH_BASIC_TANK_HE_M", "M64_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M64_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M65: ["", "MECH_BASIC_TANK_HE_M", "M65_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M65_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M66: ["", "MECH_BASIC_TANK_HE_M", "M66_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M66_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M67: ["", "MECH_BASIC_TANK_HE_M", "M67_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M67_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M68: ["", "MECH_BASIC_TANK_HE_M", "M68_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M68_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M69: ["", "MECH_BASIC_TANK_HE_M", "M69_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M69_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M70: ["", "MECH_BASIC_TANK_HE_M", "M70_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M70_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      M71: ["", "MECH_BASIC_TANK_HE_M", "M71_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M71_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+
+
+
+      F0: ["", "MECH_BASIC_TANK_HE_F", "F0_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F0_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F1: ["", "MECH_BASIC_TANK_HE_F", "F1_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F1_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F2: ["", "MECH_BASIC_TANK_HE_F", "F2_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F2_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F3: ["", "MECH_BASIC_TANK_HE_F", "F3_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F3_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F4: ["", "MECH_BASIC_TANK_HE_F", "F4_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F4_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F5: ["", "MECH_BASIC_TANK_HE_F", "F5_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F5_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F6: ["", "MECH_BASIC_TANK_HE_F", "F6_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F6_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F7: ["", "MECH_BASIC_TANK_HE_F", "F7_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F7_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F8: ["", "MECH_BASIC_TANK_HE_F", "F8_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F8_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F9: ["", "MECH_BASIC_TANK_HE_F", "F9_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F9_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F10: ["", "MECH_BASIC_TANK_HE_F", "F10_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F10_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F11: ["", "MECH_BASIC_TANK_HE_F", "F11_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F11_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F12: ["", "MECH_BASIC_TANK_HE_F", "F12_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F12_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F13: ["", "MECH_BASIC_TANK_HE_F", "F13_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F13_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F14: ["", "MECH_BASIC_TANK_HE_F", "F14_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F14_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F15: ["", "MECH_BASIC_TANK_HE_F", "F15_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F15_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F16: ["", "MECH_BASIC_TANK_HE_F", "F16_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F16_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F17: ["", "MECH_BASIC_TANK_HE_F", "F17_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F17_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F18: ["", "MECH_BASIC_TANK_HE_F", "F18_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F18_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F19: ["", "MECH_BASIC_TANK_HE_F", "F19_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F19_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F20: ["", "MECH_BASIC_TANK_HE_F", "F20_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F20_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F21: ["", "MECH_BASIC_TANK_HE_F", "F21_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F21_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F22: ["", "MECH_BASIC_TANK_HE_F", "F22_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F22_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F23: ["", "MECH_BASIC_TANK_HE_F", "F23_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F23_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F24: ["", "MECH_BASIC_TANK_HE_F", "F24_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F24_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F25: ["", "MECH_BASIC_TANK_HE_F", "F25_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F25_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F26: ["", "MECH_BASIC_TANK_HE_F", "F26_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F26_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F27: ["", "MECH_BASIC_TANK_HE_F", "F27_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F27_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F28: ["", "MECH_BASIC_TANK_HE_F", "F28_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F28_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F29: ["", "MECH_BASIC_TANK_HE_F", "F29_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F29_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F30: ["", "MECH_BASIC_TANK_HE_F", "F30_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F30_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F31: ["", "MECH_BASIC_TANK_HE_F", "F31_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F31_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F32: ["", "MECH_BASIC_TANK_HE_F", "F32_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F32_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F33: ["", "MECH_BASIC_TANK_HE_F", "F33_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F33_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F34: ["", "MECH_BASIC_TANK_HE_F", "F34_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F34_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F35: ["", "MECH_BASIC_TANK_HE_F", "F35_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F35_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F36: ["", "MECH_BASIC_TANK_HE_F", "F36_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F36_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F37: ["", "MECH_BASIC_TANK_HE_F", "F37_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F37_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F38: ["", "MECH_BASIC_TANK_HE_F", "F38_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F38_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F39: ["", "MECH_BASIC_TANK_HE_F", "F39_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F39_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F40: ["", "MECH_BASIC_TANK_HE_F", "F40_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F40_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F41: ["", "MECH_BASIC_TANK_HE_F", "F41_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F41_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F42: ["", "MECH_BASIC_TANK_HE_F", "F42_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F42_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F43: ["", "MECH_BASIC_TANK_HE_F", "F43_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F43_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F44: ["", "MECH_BASIC_TANK_HE_F", "F44_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F44_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F45: ["", "MECH_BASIC_TANK_HE_F", "F45_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F45_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F46: ["", "MECH_BASIC_TANK_HE_F", "F46_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F46_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F47: ["", "MECH_BASIC_TANK_HE_F", "F47_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F47_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F48: ["", "MECH_BASIC_TANK_HE_F", "F48_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F48_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F49: ["", "MECH_BASIC_TANK_HE_F", "F49_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F49_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F50: ["", "MECH_BASIC_TANK_HE_F", "F50_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F50_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F51: ["", "MECH_BASIC_TANK_HE_F", "F51_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F51_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F52: ["", "MECH_BASIC_TANK_HE_F", "F52_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F52_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F53: ["", "MECH_BASIC_TANK_HE_F", "F53_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F53_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F54: ["", "MECH_BASIC_TANK_HE_F", "F54_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F54_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F55: ["", "MECH_BASIC_TANK_HE_F", "F55_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F55_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F56: ["", "MECH_BASIC_TANK_HE_F", "F56_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F56_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F57: ["", "MECH_BASIC_TANK_HE_F", "F57_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F57_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F58: ["", "MECH_BASIC_TANK_HE_F", "F58_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F58_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F59: ["", "MECH_BASIC_TANK_HE_F", "F59_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F59_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F60: ["", "MECH_BASIC_TANK_HE_F", "F60_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F60_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F61: ["", "MECH_BASIC_TANK_HE_F", "F61_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F61_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F62: ["", "MECH_BASIC_TANK_HE_F", "F62_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F62_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F63: ["", "MECH_BASIC_TANK_HE_F", "F63_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F63_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F64: ["", "MECH_BASIC_TANK_HE_F", "F64_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F64_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F65: ["", "MECH_BASIC_TANK_HE_F", "F65_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F65_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F66: ["", "MECH_BASIC_TANK_HE_F", "F66_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F66_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F67: ["", "MECH_BASIC_TANK_HE_F", "F67_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F67_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F68: ["", "MECH_BASIC_TANK_HE_F", "F68_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F68_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F69: ["", "MECH_BASIC_TANK_HE_F", "F69_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F69_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F70: ["", "MECH_BASIC_TANK_HE_F", "F70_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F70_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+      F71: ["", "MECH_BASIC_TANK_HE_F", "F71_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
+
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: true
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_BASIC_TANK_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_BASIC_TANK_RECOVER
+    storeItem: STR_BASIC_TANK_AP_ITEM
+    #weight: -200
+    frontArmor: 120
+    sideArmor: 80
+    rearArmor: 80
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    moveSound: 817
+    #overKill: 3.0
+############# ojito revisar stats
+
+    stats: &SECTION_LIGHT_TANK_STATS
+       bravery: 20
+       tu: 175
+       stamina: 700
+       reactions: -15
+    recovery:  &SECTION_LIGHT_TANK_RECOVERY
+      energy:
+        flatHundred: 7.5
+      morale:
+        moraleCurrent: -0.1333
+        bravery: 0.0666
+      stun:
+        stunCurrent: 0.09
+    psiDefence:  &SECTION_TANK_PSIDEF
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.25
+      flatHundred: -0.15
+    damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
+      - 1.0 #0 None
+      - 0.3 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 0.5 #3 High Explosive
+      - 0.7 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.0 #6 Stun
+      - 0.2 #7 Melee
+      - 0.8 #8 Acid
+      - 0.0 #9 Smoke
+
+    units:
+      - STR_DRIVER
+    builtInWeapons:
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+############# OJITO BORRAR DESPUES Q VIENE LOS TANKS    
+  - type: HEAVY_TANK_AP_ARMOR
+    spriteSheet: HEAVYTANK1.PCK
+#    spriteInv: LEGIONNAIRE
+#    allowInv: true
+#    customArmorPreviewIndex: 28
+    corpseBattle:
+     - TANK_CORPSE_1
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    frontArmor: 120
+    sideArmor: 80
+    rearArmor: 80
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    builtInWeapons:
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    damageModifier:
+     - 1.0 # None
+     - 0.3 # AP
+     - 0.6 # Incendiary
+     - 0.5 # HE
+     - 0.7 # Laser
+     - 1.0 # Plasma
+     - 0.0 # Stun
+     - 0.0 # Melee
+     - 0.4 # Acid
+     - 0.0 # Smoke
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HEAVY_TANK_HE_ARMOR
+    spriteSheet: HEAVYTANK2.PCK
+#    spriteInv: LEGIONNAIRE
+#    allowInv: true
+#    customArmorPreviewIndex: 28
+    corpseBattle:
+     - TANK_CORPSE_1
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    frontArmor: 120
+    sideArmor: 80
+    rearArmor: 80
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    builtInWeapons:
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    damageModifier:
+     - 1.0 # None
+     - 0.3 # AP
+     - 0.6 # Incendiary
+     - 0.5 # HE
+     - 0.7 # Laser
+     - 1.0 # Plasma
+     - 0.0 # Stun
+     - 0.0 # Melee
+     - 0.4 # Acid
+     - 0.0 # Smoke
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+
+########################################
+############# OJITO BORRAR DESPUES Q VIENE LOS TANKS    
+
+
+##########################################################################################
 
 # ojito doggos
   - type: STR_DOGE_ARMOR
@@ -9059,160 +9578,7 @@ armors:
       - STR_NULL_POCKET_LL
     # specialWeapon: STR_HWP_RANGEFINDER
     loftempsSet: [ 5 ]
-#----- Tanks armors, ojito luego mover despues de mechs driftsuit -----#
-  - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
-    spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET
-    spriteInv: SIDECAR_MOTORCYCLE_INV
-#    customArmorPreviewIndex: [144, 145]
-    allowInv: true
-    allowsRunning: true
-    allowsStrafing: false
-    allowsKneeling: false
-    fearImmune: false
-    corpseBattle:
-     - STR_SIDECAR_MOTORCYCLE_RECOVER
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
-    corpseGeo: STR_SIDECAR_MOTORCYCLE_RECOVER
-    storeItem: STR_SIDECAR_MOTORCYCLE_ITEM
-    #weight: -200
-    frontArmor: 20
-    sideArmor: 22
-    rearArmor: 15
-    underArmor: 10
-    moveSound: 817
-    drawingRoutine: 2
-    size: 2
-    #overKill: 3.0
-    stats: &SECTION_LIGHT_TANK_STATS
-       bravery: 20
-       tu: 175
-       stamina: 700
-       reactions: -15
-    recovery:  &SECTION_LIGHT_TANK_RECOVERY
-      energy:
-        flatHundred: 7.5
-      morale:
-        moraleCurrent: -0.1333
-        bravery: 0.0666
-      stun:
-        stunCurrent: 0.09
-    psiDefence:  &SECTION_TANK_PSIDEF
-      psiStrength: 1.0
-      psiSkill: 0.2
-      moraleCurrent: 0.25
-      flatHundred: -0.15
-    damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
-      - 1.0 #0 None
-      - 0.5 #1 Armor Piercing
-      - 1.2 #2 Incendiary
-      - 1.0 #3 High Explosive
-      - 1.0 #4 Laser
-      - 1.0 #5 Plasma
-      - 1.2 #6 Stun
-      - 1.0 #7 Melee
-      - 1.1 #8 Acid
-      - 0.0 #9 Smoke
-      - 1.3 #10 Super AP
-      - 1.5 #11 Tesla
-      - 1.1 #12 Electromagnetic
-      - 1.2 #13 Heat-Ray
-      - 0.0 #14 Black Smoke
-      - 1.0 #15 ???
-      - 1.0 #16 Cold
-      - 1.6 #17 Toxic
-      - 1.2 #18 Flames
-    units:
-      - STR_PILOT
-      - STR_DRIVER
-      #- STR_GERMAN_SOLDIER
-    builtInWeapons:
-  #    - ojito, aqui ira el cañon principal, tengo q sacarlos del objeto tanks, cualquier cosa usar ejemplo del sidecar de vuelta
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    loftempsSet: [ 92, 89, 90, 91 ]
 
-
-
-############# OJITO BORRAR DESPUES Q VIENE LOS TANKS    
-  - type: HEAVY_TANK_AP_ARMOR
-    spriteSheet: HEAVYTANK1.PCK
-#    spriteInv: LEGIONNAIRE
-#    allowInv: true
-#    customArmorPreviewIndex: 28
-    corpseBattle:
-     - TANK_CORPSE_1
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
-    frontArmor: 120
-    sideArmor: 80
-    rearArmor: 80
-    underArmor: 60
-    drawingRoutine: 2
-    size: 2
-    builtInWeapons:
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    damageModifier:
-     - 1.0 # None
-     - 0.3 # AP
-     - 0.6 # Incendiary
-     - 0.5 # HE
-     - 0.7 # Laser
-     - 1.0 # Plasma
-     - 0.0 # Stun
-     - 0.0 # Melee
-     - 0.4 # Acid
-     - 0.0 # Smoke
-    loftempsSet: [ 92, 89, 90, 91 ]
-  - type: HEAVY_TANK_HE_ARMOR
-    spriteSheet: HEAVYTANK2.PCK
-#    spriteInv: LEGIONNAIRE
-#    allowInv: true
-#    customArmorPreviewIndex: 28
-    corpseBattle:
-     - TANK_CORPSE_1
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
-    frontArmor: 120
-    sideArmor: 80
-    rearArmor: 80
-    underArmor: 60
-    drawingRoutine: 2
-    size: 2
-    builtInWeapons:
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    damageModifier:
-     - 1.0 # None
-     - 0.3 # AP
-     - 0.6 # Incendiary
-     - 0.5 # HE
-     - 0.7 # Laser
-     - 1.0 # Plasma
-     - 0.0 # Stun
-     - 0.0 # Melee
-     - 0.4 # Acid
-     - 0.0 # Smoke
-    loftempsSet: [ 92, 89, 90, 91 ]
 #---Alien Armors ---------------------------
   - type: CELATID_ARMOR
     spriteInv: Inventory_CELATID

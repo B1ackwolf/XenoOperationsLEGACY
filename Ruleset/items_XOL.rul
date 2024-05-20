@@ -444,7 +444,7 @@ items:
 #######----TANKS WIP
 
 ##### ojito luego moverlo hacia donde las armaduras para mantener el orden de mi lista
-  - type: STR_SIDECAR_MOTORCYCLE_ITEM # Item for the armor
+  - type: STR_BASIC_TANK_AP_ITEM # Item for the armor
     # categories:[STR_TANKS, STR_LIGHT_TANKS]
     size: 6
     costBuy: 12000
@@ -452,16 +452,13 @@ items:
     transferTime: 96
 
 # tanks repair    
-  - type: STR_SIDECAR_MOTORCYCLE_RECOVER
+  - type: STR_BASIC_TANK_RECOVER
     recover: true
     battleType: 11
     costSell: 8000
     size: 0.8
     weight: 100
     listOrder: 10601
-
-
-
 ############## ojito borrar esto de abajo seguramente
   - type: STR_HEAVY_TANK_AP
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
@@ -500,7 +497,7 @@ items:
     turretType: -1
     bulletSpeed: 4
     listOrder: 1414
-  - type: STR_HEAVY_TANK_HE
+  - type: STR_TANK_105MM_CANNON
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
     size: 5
     costSell: 600000
@@ -511,17 +508,8 @@ items:
     handSprite: 0
     bulletSprite: 4
     fireSound: 1330
-    hitSound: 1332
-    hitAnimation: 26
-    power: 100
-    damageType: 3
-    damageAlter:
-      RandomType: 2
-#      IgnoreOverKill: false
-      ToTile: 0.66
-      FixRadius: -1
-      RadiusReduction: 50
-    clipSize: 20
+    compatibleAmmo:
+      - STR_105MM_CANNON_SHELLS
     accuracySnap: 50
     tuSnap: 35
     accuracyAimed: 90
@@ -548,9 +536,9 @@ items:
     costSell: 800
     transferTime: 48
     weight: 1
-    bigSprite: -1
+    bigSprite: 2502
     floorSprite: 12
-#    hitSound: 4332
+    hitSound: 1332
     hitAnimation: 26
     power: 100
     damageType: 3
@@ -562,9 +550,9 @@ items:
       RadiusReduction: 50
     clipSize: 20
     battleType: 2
-    invWidth: 2
-    invHeight: 1
-    listOrder: 1402
+    invWidth: 1
+    invHeight: 2
+    listOrder: 9002
   - type: STR_25MM_CHAIN_BOX
 #    categories: [STR_TANKS, STR_NATO_TECH, STR_TANK_AMMO, STR_LIGHT_TANKS]
     requires:
@@ -606,8 +594,8 @@ items:
     maxRange: 2
     arcingShot: true
     fixedWeapon: true
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
+#    ignoreInCraftEquip: true
+#    ignoreInBaseDefense: true
     invWidth: 2
     invHeight: 3
     listOrder: 3411
@@ -618,8 +606,8 @@ items:
     damageType: 9
     clipSize: 6
     battleType: 0
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
+#    ignoreInCraftEquip: true
+#    ignoreInBaseDefense: true
     hitSound: 0
     hitAnimation: 0
     listOrder: 9000

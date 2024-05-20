@@ -935,25 +935,32 @@ extraSprites:
       96: Resources/WeaponrySprites/WeaponFx/HitFx/ShockHit.gif
       56: Resources/WeaponrySprites/WeaponFx/HitFx/Taserhit.png
 ###### Ranks, mover a un smoke separado para mantener ordenado ######      
-      20: Resources/UxUI/RankSprites/inBattlescape/Army0recruit.png
-      21: Resources/UxUI/RankSprites/inBattlescape/Army1private.png
-      22: Resources/UxUI/RankSprites/inBattlescape/Army2corporal.png
-      23: Resources/UxUI/RankSprites/inBattlescape/Army3sergeant.png
-      24: Resources/UxUI/RankSprites/inBattlescape/Army4staffsergeant.png
-      25: Resources/UxUI/RankSprites/inBattlescape/Army5mastersergeant.png
-      800: Resources/UxUI/RankSprites/inBattlescape/Army10deputy.png
-      801: Resources/UxUI/RankSprites/inBattlescape/Army11lieutenant.png
-      802: Resources/UxUI/RankSprites/inBattlescape/Army12lieutenant.png
-      803: Resources/UxUI/RankSprites/inBattlescape/Army13captain.png
-      804: Resources/UxUI/RankSprites/inBattlescape/Army14major.png
-      805: Resources/UxUI/RankSprites/inBattlescape/Army15ltcolonel.png
-      900: Resources/UxUI/RankSprites/inBattlescape/Pilot1lieutenant.png
-      901: Resources/UxUI/RankSprites/inBattlescape/Pilot2Lieutenant.png
-      902: Resources/UxUI/RankSprites/inBattlescape/Pilot3captain.png
-      903: Resources/UxUI/RankSprites/inBattlescape/Pilot4major.png
-      904: Resources/UxUI/RankSprites/inBattlescape/Pilot5colonel.png
-      905: Resources/UxUI/RankSprites/inBattlescape/Pilot6brigadier.png
+      20: Resources/UxUI/RankSprites/inBattlescape/Army0.png
+      21: Resources/UxUI/RankSprites/inBattlescape/Army1.png
+      22: Resources/UxUI/RankSprites/inBattlescape/Army2.png
+      23: Resources/UxUI/RankSprites/inBattlescape/Army3.png
+      24: Resources/UxUI/RankSprites/inBattlescape/Army4.png
+      25: Resources/UxUI/RankSprites/inBattlescape/Army5.png
+      800: Resources/UxUI/RankSprites/inBattlescape/Army10.png
+      801: Resources/UxUI/RankSprites/inBattlescape/Army11.png
+      802: Resources/UxUI/RankSprites/inBattlescape/Army12.png
+      803: Resources/UxUI/RankSprites/inBattlescape/Army13.png
+      804: Resources/UxUI/RankSprites/inBattlescape/Army14.png
+      805: Resources/UxUI/RankSprites/inBattlescape/Army15.png
+      900: Resources/UxUI/RankSprites/inBattlescape/Pilot0.png
+      901: Resources/UxUI/RankSprites/inBattlescape/Pilot1.png
+      902: Resources/UxUI/RankSprites/inBattlescape/Pilot2.png
+      903: Resources/UxUI/RankSprites/inBattlescape/Pilot3.png
+      904: Resources/UxUI/RankSprites/inBattlescape/Pilot4.png
+      905: Resources/UxUI/RankSprites/inBattlescape/Pilot5.png
       910: Resources/UxUI/RankSprites/inBattlescape/Doggorank.png
+      911: Resources/UxUI/RankSprites/inBattlescape/Driver0.png
+      912: Resources/UxUI/RankSprites/inBattlescape/Driver1.png
+      913: Resources/UxUI/RankSprites/inBattlescape/Driver2.png
+      914: Resources/UxUI/RankSprites/inBattlescape/Driver3.png
+      915: Resources/UxUI/RankSprites/inBattlescape/Driver4.png
+      916: Resources/UxUI/RankSprites/inBattlescape/Driver5.png
+
   - type: PCK #Thanks robin for sharing this
     height: 40
     width: 384
@@ -1093,25 +1100,31 @@ extraSprites:
       315: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_3.gif
       316: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_4.gif
 ##### reorder en otro separado, para mantener el orden correcto #####
-      42: Resources/UxUi/RankSprites/inGeoscape/Army0recruit.png
-      43: Resources/UxUi/RankSprites/inGeoscape/Army1private.png
-      44: Resources/UxUi/RankSprites/inGeoscape/Army2corporal.png
-      45: Resources/UxUi/RankSprites/inGeoscape/Army3sergeant.png
-      46: Resources/UxUi/RankSprites/inGeoscape/Army4staffsergeant.png
-      47: Resources/UxUi/RankSprites/inGeoscape/Army5mastersergeant.png
-      800: Resources/UxUi/RankSprites/inGeoscape/Army10deputy.png
-      801: Resources/UxUi/RankSprites/inGeoscape/Army11lieutenant.png
-      802: Resources/UxUi/RankSprites/inGeoscape/Army12lieutenant.png
-      803: Resources/UxUi/RankSprites/inGeoscape/Army13captain.png
-      804: Resources/UxUi/RankSprites/inGeoscape/Army14major.png
-      805: Resources/UxUi/RankSprites/inGeoscape/Army15ltcolonel.png
-      900: Resources/UxUi/RankSprites/inGeoscape/Pilot1lieutenant.png
-      901: Resources/UxUi/RankSprites/inGeoscape/Pilot2Lieutenant.png
-      902: Resources/UxUi/RankSprites/inGeoscape/Pilot3captain.png
-      903: Resources/UxUi/RankSprites/inGeoscape/Pilot4major.png
-      904: Resources/UxUi/RankSprites/inGeoscape/Pilot5colonel.png
-      905: Resources/UxUi/RankSprites/inGeoscape/Pilot6brigadier.png
-      910: Resources/UxUi/RankSprites/inGeoscape/Doggorank.png
+      42: Resources/UxUI/RankSprites/inBattlescape/Army0.png
+      43: Resources/UxUI/RankSprites/inBattlescape/Army1.png
+      44: Resources/UxUI/RankSprites/inBattlescape/Army2.png
+      45: Resources/UxUI/RankSprites/inBattlescape/Army3.png
+      46: Resources/UxUI/RankSprites/inBattlescape/Army4.png
+      47: Resources/UxUI/RankSprites/inBattlescape/Army5.png
+      800: Resources/UxUI/RankSprites/inBattlescape/Army10.png
+      801: Resources/UxUI/RankSprites/inBattlescape/Army11.png
+      802: Resources/UxUI/RankSprites/inBattlescape/Army12.png
+      803: Resources/UxUI/RankSprites/inBattlescape/Army13.png
+      804: Resources/UxUI/RankSprites/inBattlescape/Army14.png
+      805: Resources/UxUI/RankSprites/inBattlescape/Army15.png
+      900: Resources/UxUI/RankSprites/inBattlescape/Pilot0.png
+      901: Resources/UxUI/RankSprites/inBattlescape/Pilot1.png
+      902: Resources/UxUI/RankSprites/inBattlescape/Pilot2.png
+      903: Resources/UxUI/RankSprites/inBattlescape/Pilot3.png
+      904: Resources/UxUI/RankSprites/inBattlescape/Pilot4.png
+      905: Resources/UxUI/RankSprites/inBattlescape/Pilot5.png
+      910: Resources/UxUI/RankSprites/inBattlescape/Doggorank.png
+      911: Resources/UxUI/RankSprites/inBattlescape/Driver0.png
+      912: Resources/UxUI/RankSprites/inBattlescape/Driver1.png
+      913: Resources/UxUI/RankSprites/inBattlescape/Driver2.png
+      914: Resources/UxUI/RankSprites/inBattlescape/Driver3.png
+      915: Resources/UxUI/RankSprites/inBattlescape/Driver4.png
+      916: Resources/UxUI/RankSprites/inBattlescape/Driver5.png
 #-----CRAFT INTECEPTION IMAGES-----#
   - type: INTICON.PCK
     files:
@@ -2056,7 +2069,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UPediaArmors/KevlarArmor.gif
+      0: Resources/UfopediaImages/UPediaArmors/ufopaediaTier1armor.gif
   - type: PILOTUFOPEDIA.SPK
     singleImage: true
     width: 320
@@ -3047,17 +3060,29 @@ extraSprites:
     files:
       0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE_ALLOY_VEST.png
 #-----TANKS WIP, REORDER LATER OJITO
-  - type: SIDECAR_MOTORCYCLE_SPRITESHEET
+  - type: BASIC_TANK_AP_SPRITESHEET
     width: 256
     height: 160
     subX: 32
     subY: 40
     files:
       0: Resources/UnitSprites/XcomFaction/XcomMech/HWP_AP.png
-  - type: SIDECAR_MOTORCYCLE_INV
+  - type: BASIC_TANK_AP_INV
     singleImage: true
     files:
-      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankInv.png
+      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankBasicAP.png
+  - type: BASIC_TANK_HE_SPRITESHEET
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/HWP_HE.png
+  - type: BASIC_TANK_HE_INV
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankBasicHE.png
+
 
 
   - type: HEAVYTANK1.PCK
@@ -4536,7 +4561,19 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Hair_front/HAIR_FRONT_F70.png
   - typeSingle: HUMAN__13__F71_HAIR_FRONT
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Hair_front/HAIR_FRONT_F71.png
-#----- armors -----# #ojito corregir borrar duplicados por sexo de armaduras avanzadas desde alloy, cambiar M y F por U
+#----- Tanks versions -----#
+  - typeSingle: HUMAN__1__MECH_BASIC_TANK_AP_M
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankBasicAp.png
+  - typeSingle: HUMAN__1__MECH_BASIC_TANK_AP_F
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankBasicAp.png
+  - typeSingle: HUMAN__1__MECH_BASIC_TANK_HE_M
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankBasicHE.png
+  - typeSingle: HUMAN__1__MECH_BASIC_TANK_HE_F
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/TankBasicHE.png
+
+
+#----- armors -----#
+
   - typeSingle: FLIGHT_JUMPSUIT__8__FLIGHT_JUMPSUIT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_0uP.png
   - typeSingle: FLIGHT_JUMPSUIT__8__FLIGHT_JUMPSUIT_F

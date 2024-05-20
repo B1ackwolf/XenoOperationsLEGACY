@@ -419,15 +419,15 @@ manufacture:
     listOrder: 488
 ####### ojito, en realidad es la manufactura de una armadura de tanques, reordenar
 
-  - name: STR_REPAIR_SIDECAR_MOTORCYCLE
+  - name: STR_REPAIR_BASIC_TANK
     category: STR_ARMOR_REPAIR
     space: 12
     time: 200
     cost: 5000
     requiredItems:
-      STR_SIDECAR_MOTORCYCLE_RECOVER: 1
+      STR_BASIC_TANK_RECOVER: 1
     producedItems:
-      STR_SIDECAR_MOTORCYCLE_ITEM: 1
+      STR_BASIC_TANK_AP_ITEM: 1
     listOrder: 2701
 
 
@@ -444,7 +444,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 20
     listOrder: 498
-  - name: STR_HEAVY_TANK_HE
+  - name: STR_BASIC_TANK_AP_ITEM
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_TANKS_UNITS

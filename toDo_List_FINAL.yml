@@ -1,21 +1,15 @@
 #ideas for the mod, in any specific order:
 #checar los ojitos siguientes
-TL;DR VERSION:
 
+
+
++ datos importantes para considerar cuando balancee ciertos gastos :
+
+#estos son notaciones para tener en cuenta respecto a la eliminacion de ceros dentro del juego
  - presupuesto anual gringo total aprox 841.000.000.000, igual a 70.083.333.333 mensual
  - presupuesto anual otan total aprox 380.000.000.000,   igual a 31.666.666.666 mensual
  - para q ajuste precios, tendrian q ser entre mil?
-
- - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
- - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
- - nombres nuevos a considerar para rangos otras especies
-  * psion, archon, elder, apex, hunter, stalker, broodmother, drone(insect)
-  * Brute,,Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
-  * revisar nombres de rangos especies y criaturas de gears of war (ejem, scion.)
- - nombres a considerar para nombres clave de naves , animales mitologicos
-  * scylla, behemoth, etc
-
-+ cantidad de xelloys / elerium aprox, tener en cuenta para balancear:
+#Dropeo de materiales
  - survey skiff = 6x / 10e
  - raider gunship = 10x / 10e
  - scanner boat = 10x / 10e
@@ -32,26 +26,50 @@ TL;DR VERSION:
  - dreagnought = 203x / 40e + 15 supplies
  - Base defense = 75X / 20e + 180 supplies
 
-+ hoja de ruta para 0.98.1:
-####
- - hacer siguiente armadura de perritos, si puedo, confio en mi.
+#######
+####### Esto para hacer principalmente en la chamba
+#######
 
- - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
+ - eliminar los tanques de plasma para integrarlos al nuevo sistema
+ - agregar alternativas adicionales a los tanques de tierra
+   * laser, hyper velocidad , plasma 
+ - encontrar una manera de que se ilumine la torreta al momento de disparar los tanques?
 
-####
+
+ - respecto al tanquero .duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
+ - balancear TODOS LOS ITEMS q sean explosivos y/o con rango
+   * meterle al tema del ataque en area acido
  - balancear breaching charges
    * darle credits a dbrizo por inspirarme para breaching charge
    * aprovechar el comando "throwRange" para definir todos los objetos demasiado pesados o delicados para arrojarse
+#######
+####### Esto solo puedo hacerlo en casa
+#######
+
+ - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
+
+ - mejorar el breaching charge
    * ahi el bangalore elerium deberia ser con detalles en amarillo
    * aprovechar y mejorar las sprites de las armas explosivas humanas, hacerlas mas intrincadas
+  
 
- - no he tocado los tiempos de manufactura, hacer esto antes de seguir agregando proyectos (dividir posiblemente a<s la mitad?)
  - separar armas q estan en el mismo png
+ - revisar CTO para ver como se implementaron el tema de las armas con multiples cargadores
  - implementar script de armas q varian en base al cartucho de filip h en jeilo
-   * separarle el cargador a las armas
+   * separarle el cargador del sprite a las armas
    * en caso de las pistolas, hacerlas gatilladas la corredera
    * las armas de rieles tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
    * las armas de plasma tambien tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
+
+
+ - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
+###################################################################################################################################
+###################################################################################################################################
+###################################################################################################################################
+###################################################################################################################################
+###################################################################################################################################
++ hoja de ruta para 0.98.1:
+####
 
  - respecto al tanquero .duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
    * crear todos los articulos en ufopaedia usando el pilot como ejemplo
@@ -67,13 +85,11 @@ TL;DR VERSION:
    * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)
      ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
  - acomodar todos los rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
-   * a la granada quimica pintar el humo de verde y usarlo para eso.
+   * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
      ~ tambien para el cohete chem
  - copiar muchos efectos y daños de las granadas desde el xfiles    
  - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
-   * la granada de plasma sera la emp
    * la granada ap nails sera el sonic pulsar, recolorizar igual q los rifles de rieles  
-   * recolorizada, falta implementar los sprites
  - implementar el item EScudo
    * ya consegui los sprites
    * tengo q recolorizarlos y adaptarlos mejor
@@ -213,9 +229,32 @@ TL;DR VERSION:
      ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
 
 
+
++ cosas de nombres de especies:
+
+ - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
+ - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
+ - nombres nuevos a considerar para rangos otras especies
+  * psion, archon, elder, apex, hunter, stalker, broodmother, drone(insect)
+  * Brute,,Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
+  * revisar nombres de rangos especies y criaturas de gears of war (ejem, scion.)
+ - nombres a considerar para nombres clave de naves , animales mitologicos
+  * scylla, behemoth, etc
+ - Posibles descripciones mutones
+Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
+Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
+Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
+Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
+Warchief:  they are veterans of a hundred battles at least, only few sebilians show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
+Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
+Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
+
+
+
      
        
 ##################################### arriba es el desastre
++ Cosas pendientes:
 
  - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
 
@@ -313,7 +352,7 @@ IMPORTANTE PARA LORE:
 
  - Inquire about making day and night sprites differentiation for armors sprites
    * for implementation in the first tier with lenses going up and down.
- - acomodar colores de las imagenes basebits.
+ - acomodar las imagenes basebits.
    * revisar si puedo hacer q aparezcan las puerticas como en los de las de 4 pedazos.
  - crear alguna especie de "CURRENT OBJECTIVE"
 #####
@@ -686,14 +725,4 @@ IMPORTANTE PARA LORE:
 
 #####
 
-+Posibles descripciones mutones:
-Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
-Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
-Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
-Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
-Warchief:  they are veterans of a hundred battles at least, only few sebilians show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
-Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
-Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
-
-#####
 
