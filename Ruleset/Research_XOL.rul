@@ -2336,7 +2336,7 @@ research:
     points: 0
     lookup: STR_CORRUPTED_DATA
     needItem: true
-  - name: STR_DATA_RECOVERY #Shock Weapons ojito corregir esto
+  - name: STR_DATA_RECOVERY #Shock Weapons ojito corregir esto y hacerle su propia articulo, ademas esto servira como buffers de informacion para hacer perder el tiempo
     cost: 200
     points: 150
     dependencies:

@@ -2,12 +2,13 @@ interfaces:
 
 # recordar agregar primero el parametro de palette aqui abajo para ponerle los colores correctos
 #    palette: PAL_BATTLESCAPE
-# los botones usaran el tono principal de gris (245) 
-# bordes y marcos seran gris mas oscuro (248)
-# letras de headers seran (243)
-# letras de menues seran en gris medio (247)
+# OJITO REVISAR LOS NUEVOS COLORES
+# los botones usaran el tono principal de gris (244) (NUEVO COLOR, antes 245)
+# bordes y marcos seran gris mas oscuro (247) (NUEVO COLOR, antes 248)
+# letras de headers seran (242) (NUEVO COLOR, antes 243)
+# letras de menues seran en gris medio (245) (NUEVO COLOR, antes 247)
 # letras principales seran color blanco (6)
-
+# los bordes negros se hacen con (-1) pero me cuesta aplicarlo dentro de los menus, investigar alternativas con numeros negativas y ver q puedo sacar
   - type: mainMenu   # The main menu after launching the game
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     music: GMSTORY
@@ -110,7 +111,7 @@ interfaces:
       - id: window
         color: 248   # even Darker gray # The margin borders of the window
       - id: tooltip
-        color: 243   # slighty clearer gray # color of the appearing tooltip letters
+        color: 242   # slighty clearer gray # color of the appearing tooltip letters
       - id: button
         color: 245   # dark gray main tone # the bottom buttons
       - id: confirmDefaults
@@ -120,39 +121,39 @@ interfaces:
   - type: videoMenu
     elements:
       - id: text
-        color: 6     # white# categories letter colors
+        color: 6     # white# resolution number color
       - id: resolution
-        color: 243   # slighty clearer gray  # headers number color
+        color: 243   # slighty clearer gray  # headers leters color
       - id: button
         color: 245   # dark gray main tone # the main menu buttons
   - type: audioMenu
     elements:
       - id: text
-        color: 6     # white # headers number color
+        color: 6     # white# categories header letter color
       - id: button
         color: 245   # dark gray main tone # the main menu buttons
   - type: controlsMenu
     elements:
       - id: optionLists
-        color: 247   # slighty clearer gray # name in the list
-        color2: 6     # white # resolution number color
+        color: 246   # slighty darker gray # name in the list
+        color2: 6     # white# categories header letter color
         border: 245   # dark gray main tone # slider
   - type: geoscapeMenu
     elements:
       - id: text
-        color: 6     # white # resolution number color
+        color: 6     # white# categories header letter color
       - id: button
         color: 245   # dark gray main tone # slider
   - type: battlescapeMenu
     elements:
       - id: text
-        color: 6     # white # resolution number color
+        color: 6     # white# categories header letter color
       - id: button
         color: 245   # dark gray main tone # slider
   - type: advancedMenu
     elements:
       - id: optionLists
-        color: 247   # slighty clearer gray # name in the list
+        color: 246   # slighty darker gray # name in the list
         color2: 243    # dark gray main tone # the main menu buttons
         border: 245  # dark gray main tone # slider
       - id: disabledUserOption
@@ -160,45 +161,48 @@ interfaces:
   - type: foldersMenu
     elements:
       - id: text1
-        color: 136     # white # resolution number color
+        color: 6     # white# categories header letter color
       - id: text2
         color: 247   # slighty clearer gray # name in the list
-
-#####################
-
-
-  - type: modsMenu
+#        
+  - type: modsMenu # Mods Window in the main menu
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
+    palette: PAL_BATTLESCAPE
     elements:
       - id: palette
-        color: 0     # brown
+        color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 133   # minty green
+        color: 248   # even Darker gray # The margin borders of the window
       - id: optionLists
-        color: 138   # yellow
-        border: 133  # minty green
+        color: 246   # slighty darker gray # name in the list
+        border: 245   # dark gray main tone # slider
       - id: text
-        color: 138   # yellow
+        color: 6     # white# categories header letter color
       - id: tooltip
-        color: 133   # minty green
+        color: 242   # slighty clearer gray # color of the appearing tooltip letters
       - id: button1
-        color: 239   # bright green
+        color: 245   # dark gray main tone # the game selector button
       - id: button2
-        color: 133   # minty green
-  - type: modsWindow
+        color: 245   # dark gray main tone # the bottom buttons
+  - type: modsWindow #NO IDEA, perhaps a notification validation pop up when a invalid version is launched?
+    palette: PAL_BATTLESCAPE
     elements:
       - id: palette
-        color: 0     # brown
+        color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 239   # bright green
+        color: 248   # even Darker gray # The margin borders of the window
       - id: heading
-        color: 239   # bright green
+        color: 6     # White # Main categories letters color
       - id: text
         color: 138   # yellow
       - id: button1
-        color: 239   # bright green
+        color: 245   # dark gray main tone # the game selector button
       - id: button2
-        color: 133   # minty green
+        color: 245   # dark gray main tone # the game selector button
+#
+
+###############################aqui voy
+
   - type: saveMenus
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
@@ -256,6 +260,7 @@ interfaces:
         color: 138   # yellow
       - id: battlescapeColor
         color: 0    # white
+#
   - type: geoCraft
     backgroundImage: BACK12.SCR
     elements:
@@ -282,6 +287,7 @@ interfaces:
         color: 239   # bright green
         color2: 138  # yellow
         border: 133  # minty green
+#
   - type: selectMusicTrack
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
@@ -318,6 +324,7 @@ interfaces:
         color: 239   # bright green
         color2: 138  # yellow
         border: 133  # minty green
+#
   - type: intercept
     backgroundImage: BACK12.SCR
     elements:
@@ -878,17 +885,17 @@ interfaces:
         color2: 133  # minty green
       - id: button
         color: 239   # bright green
-  - type: graphs
+  - type: graphs ####ojito importante este, copiar colores de tftd
     palette: PAL_GRAPHS
     elements:
       - id: text
-        color: 135   # red
+        color: 135   # red # name of the current screen title color
       - id: scale
-        color: 103   # minty green
+        color: 103   # minty green # color of the numbers on the side of the graph
       - id: graph
         color: 160   # green
       - id: button
-        color: 151   # grey
+        color: 151   # grey # sidebar elements button
       - id: regionTotal
         color: 133    # salmon (inverted button offset)
         color2: 136  # also salmon (the line itself)
@@ -1018,11 +1025,13 @@ interfaces:
         border: 218  # blue
       - id: button
         color: 218   # blue
-  - type: geoscape
+  - type: geoscape #ojito a ver si es esto
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
+    palette: PAL_BATTLESCAPE
+
     elements:
       - id: palette
-        color: 0     # brown
+        color: 6     # yellow oxide
         color2: 6
       - id: textLoad
         color: 133   # minty green
@@ -1078,15 +1087,6 @@ interfaces:
   #       color: 6     # brown
   #     - id: errorMessage
   #       color: 33   # bright green
-
-
-  # - type: geoscape
-  #   elements:
-  #     - id: slackingIndicator
-  #       color: 244   # even lighter blue
-  #       color2: 133  # minty green
-  #       custom: -22  # above Intercept button
-
 
   - type: sellMenu
     backgroundImage: BACK13.SCR
@@ -1918,7 +1918,7 @@ interfaces:
         color: 48    # green
         color2: 32   # red
         border: 218  # blue
-  - type: battlescape
+  - type: battlescape ####ojito de aqui intentar sacar el color blanco con bordes negros
     palette: PAL_BATTLESCAPE
     elements:
       - id: textLoad
