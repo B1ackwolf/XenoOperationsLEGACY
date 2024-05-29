@@ -614,28 +614,29 @@ extraStrings:
       STR_ARMY_STAFF_SERGEANT: Staff Sergeant
       STR_ARMY_FIRST_SERGEANT: First Sergeant
       STR_ARMY_DEPUTY_OFICER: Deputy Officer
-      STR_ARMY_SUB_LIEUTENANT: 2nd. Lieutenant
-      STR_ARMY_LIEUTENANT: 1st. Lieutenant
+      STR_ARMY_SUB_LIEUTENANT: Sub-Lieutenant
+      STR_ARMY_LIEUTENANT: Lieutenant
       STR_ARMY_CAPTAIN: Captain
       STR_ARMY_MAJOR: Major
       STR_ARMY_LT_COLONEL: Lt. Colonel
-      STR_AIR_3RD_LIEUTENANT: 3rd. Lieutenant
-      STR_AIR_LIEUTENANT: Lieutenant
+      STR_AIR_SUB_LIEUTENANT: 3rd. Lieutenant
+      STR_AIR_LIEUTENANT: 1st. Lieutenant
       STR_AIR_CAPTAIN: Captain
       STR_AIR_MAJOR: Major
       STR_AIR_COLONEL: Colonel
       STR_AIR_BRIGADIER: Brigadier
-      STR_MECH_CADET: Cadet
-      STR_MECH_LANCE_CORPORAL: Lance Corporal
       STR_MECH_SPECIALIST: Specialist
       STR_MECH_TECHNICAL_SERGEANT: Technical Sergeant
       STR_MECH_GUNNERY_SERGEANT: Gunnery Sergeant
       STR_MECH_MASTER_GUNNERY_OFFICER: Master Gunnery Sergeant
+      STR_MECH_LIEUTENANT: 2nd. Lieutenant
+      STR_MECH_RANGER: Armored Ranger
       STR_EX_BASIC_MEDI_KIT: "Standard Medikit"
       STR_EX_IMPROVED_MEDI_KIT: "Field Surgery kit"
       STR_MEDI_KIT: "Medi-Gel kit"
       STR_PILOT: Pilot
       STR_DRIVER: Tank Driver
+      STR_BASIC_SOLDIER: Soldier
       STR_ELITE_SOLDIER: Elite Soldier
       STR_SOLDIER_OFFICER: Officer
       STR_MECH_DRIFTSUIT: MECH DRIFTSUIT

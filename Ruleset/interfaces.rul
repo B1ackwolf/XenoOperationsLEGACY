@@ -154,7 +154,7 @@ interfaces:
     elements:
       - id: optionLists
         color: 246   # slighty darker gray # name in the list
-        color2: 243    # dark gray main tone # the main menu buttons
+        color2: 6    # white # the main menu buttons
         border: 245  # dark gray main tone # slider
       - id: disabledUserOption
         color: 134   # blue
@@ -1027,7 +1027,7 @@ interfaces:
         color: 218   # blue
   - type: geoscape #ojito a ver si es esto
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
-    palette: PAL_BATTLESCAPE
+#    palette: PAL_BATTLESCAPE
 
     elements:
       - id: palette
@@ -2210,24 +2210,6 @@ interfaces:
   #       color: 84    # 80 soap, Smoke
   #     - id: ammoColorDT10
   #       color: 17    # golden, Elerium Fusion
-  #     #- id: ammoColorDT11
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT12
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT13
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT14
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT15
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT16
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT17
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT18
-  #     #  color: 32    # red
-  #     #- id: ammoColorDT19
-  #     #  color: 32    # red
 
   - type: articleItem
     palette: PAL_BATTLESCAPE
@@ -2242,24 +2224,25 @@ interfaces:
         color2: 244  # light blue
       - id: ammoColor
         color: 32    # red
+#
       - id: ammoColorDTAP
-        color: 112    # steely blue, AP
+        color: 112    # steely blue, AP # deberia ser medio azuladito?
       - id: ammoColorDTIN
-        color: 16    # orange, Incendiary
+        color: 18    # yellow ?, Incendiary  # (DECIDIDO) el fuego es amarillo asi q deberia ser de este color
       - id: ammoColorDTHE
-        color: 35    # tame red, High Explosive
+        color: 88    # marroncito ?, High Explosive  # (?) explosivo podria ser naranja oscuro, o mas bien marroncito
       - id: ammoColorDTLaser
-        color: 97    # orange, Laser
+        color: 34    # rojito , Laser  # (DECIDIDO) laser si o si debe ser rojo oscuro
       - id: ammoColorDTPlasma
-        color: 49    # green, Plasma
+        color: 53   # Deep green # Plasma damage # (DONE)
       - id: ammoColorDTStun
-        color: 84    # soap, Stun
+        color: 132    # Light Blue, Electrical (Stun) damage  # (DONE)
       - id: ammoColorDTMelee
-        color: 2    # pale blue, Melee
+        color: 65    # pale blue, Melee  # (?) este debe ser grisaceo
       - id: ammoColorDTAcid
-        color: 64    # lime green, Acid
+        color: 66    # lime green, Acid # (DECIDIDO) este tiene q ser verde brillantoso
       - id: ammoColorDTSmoke
-        color: 161    # shitty brown, Smoke
+        color: 212    # gray , Smoke  # deberia ser gris plomito?
       #- id: ammoColorDT10
       #  color: 32    #red 
       #- id: ammoColorDT11

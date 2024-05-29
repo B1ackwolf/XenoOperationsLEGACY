@@ -29,7 +29,7 @@
 #######
 ####### Esto para hacer principalmente en la chamba
 #######
-
+ - describir que la barraca grande tambien proporciona el trooper scool y es necesario para poder hacer el upgrade a oficiales y demas
  - eliminar los tanques de plasma para integrarlos al nuevo sistema
  - agregar alternativas adicionales a los tanques de tierra
    * laser, hyper velocidad , plasma 
@@ -168,7 +168,7 @@
    * Check TFTD+ or Unexcom to understand how the ruleset works for this.
      ~ must define using globemarkers.
      ~ Use the "marker" command assigned to each aircraft.
-
+   * Perhaps remove pockets from personal armor.
 ######### 
  - balancear requerimientos en materiales de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun . asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
  - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
@@ -379,7 +379,6 @@ IMPORTANTE PARA LORE:
    * first tier partially done, the rest is up to go.
  - Modify Ancient Abomination autopsy picture to be more detailed and bloody.
  - Consider creating a new interrogation project for advanced races.
- - Center and align ALL WEAPONS in the Ufopedia.
  - Remove articles about alien Elerium magazines from Ufopedia.
  - Conduct a thorough review and correction of medal articles.
    * Correct and improve all texts.
@@ -414,7 +413,7 @@ IMPORTANTE PARA LORE:
      ~ Metal protection plates.
      ~ Communication nodes.
      ~ For aiming improvement.
-   * Perhaps remove pockets from personal armor.
+
 
 #####
 
@@ -429,13 +428,14 @@ IMPORTANTE PARA LORE:
  - Create a breaching charge to perforate UFO walls and thus assault from different angles (check Xenonauts1 example).
    * Later, create some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
      ~ Give this "terrain damage" sub-property to the plasma sword and knife?
+# OJITO ESTO     
  - Ensure all grenades have an implemented fuse type.
    * This would differentiate three types of heavy explosives
      ~ C4/Semtex as vanilla.
      ~ A lighter satchel charge without a counting fuse that could be created.
      ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
  - Completely rebalance plasma weapons, especially weights.
- - Change the Elerium grenade sprite to the classic alien and possibly enhance it (note; this might not be feasible, check this later if possible).
+ - Change the Elerium grenade sprite to the classic alien and possibly enhance it .
  - Rebalance the minigun to be "lighter" in the weapon itself but heavier overall, requiring a special ammo and battery backpack, which will be upgraded in the Xtier.
    * Use a belt box of ammo as a fixed backpack for the battery and bullets (Black Ops minigun box sprite in X-Files could be used).
      ~ [(currently impossible to add "backpack related to weapons")]

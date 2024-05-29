@@ -126,7 +126,7 @@ startingBase:
   scientists: 2
   engineers: 5
   randomSoldiers:
-    STR_SOLDIER: 7
+    STR_BASIC_SOLDIER: 7
     STR_ELITE_SOLDIER: 2
     STR_PILOT: 5
     STR_SOLDIER_OFFICER: 1

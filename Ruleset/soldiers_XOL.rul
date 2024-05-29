@@ -78,7 +78,7 @@ soldiers:
     femaleFrequency: 50
     deathMale: [994, 680, 681]
     deathFemale: [994, 680, 681]
-  - type: STR_SOLDIER
+  - type: STR_BASIC_SOLDIER
     costBuy: 20000
     costSalary: 4000
     costSalarySquaddie: 1000
@@ -322,7 +322,7 @@ soldiers:
       reactions: 75
       firing: 100
     rankStrings:
-    - STR_AIR_3RD_LIEUTENANT
+    - STR_AIR_SUB_LIEUTENANT
     - STR_AIR_LIEUTENANT
     - STR_AIR_CAPTAIN
     - STR_AIR_MAJOR
@@ -387,12 +387,12 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_MECH_CADET
-    - STR_MECH_LANCE_CORPORAL
     - STR_MECH_SPECIALIST
     - STR_MECH_TECHNICAL_SERGEANT
     - STR_MECH_GUNNERY_SERGEANT
     - STR_MECH_MASTER_GUNNERY_OFFICER
+    - STR_MECH_LIEUTENANT
+    - STR_MECH_RANGER
 ######Soldier Transformation
 soldierTransformation:
   - name: STR_OFFICER_PROMOTION
@@ -405,7 +405,7 @@ soldierTransformation:
     allowsLiveSoldiers: true
     createsClone: false
     allowedSoldierTypes:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_ELITE_SOLDIER
       - STR_DRIVER
     lowerBoundAtMinStats: false
@@ -432,7 +432,7 @@ soldierTransformation:
     allowsLiveSoldiers: true
     createsClone: false
     allowedSoldierTypes:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_ELITE_SOLDIER
       - STR_SOLDIER_OFFICER
     lowerBoundAtMinStats: false
@@ -447,7 +447,3 @@ soldierTransformation:
       firing: 4
       throwing: 2
       melee: 2
-
-
-
-

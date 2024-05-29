@@ -1100,31 +1100,31 @@ extraSprites:
       315: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_3.gif
       316: Resources/UxUI/BaseBits/BuildingSprites/GS2_b_4.gif
 ##### reorder en otro separado, para mantener el orden correcto #####
-      42: Resources/UxUI/RankSprites/inBattlescape/Army0.png
-      43: Resources/UxUI/RankSprites/inBattlescape/Army1.png
-      44: Resources/UxUI/RankSprites/inBattlescape/Army2.png
-      45: Resources/UxUI/RankSprites/inBattlescape/Army3.png
-      46: Resources/UxUI/RankSprites/inBattlescape/Army4.png
-      47: Resources/UxUI/RankSprites/inBattlescape/Army5.png
-      800: Resources/UxUI/RankSprites/inBattlescape/Army10.png
-      801: Resources/UxUI/RankSprites/inBattlescape/Army11.png
-      802: Resources/UxUI/RankSprites/inBattlescape/Army12.png
-      803: Resources/UxUI/RankSprites/inBattlescape/Army13.png
-      804: Resources/UxUI/RankSprites/inBattlescape/Army14.png
-      805: Resources/UxUI/RankSprites/inBattlescape/Army15.png
-      900: Resources/UxUI/RankSprites/inBattlescape/Pilot0.png
-      901: Resources/UxUI/RankSprites/inBattlescape/Pilot1.png
-      902: Resources/UxUI/RankSprites/inBattlescape/Pilot2.png
-      903: Resources/UxUI/RankSprites/inBattlescape/Pilot3.png
-      904: Resources/UxUI/RankSprites/inBattlescape/Pilot4.png
-      905: Resources/UxUI/RankSprites/inBattlescape/Pilot5.png
-      910: Resources/UxUI/RankSprites/inBattlescape/Doggorank.png
-      911: Resources/UxUI/RankSprites/inBattlescape/Driver0.png
-      912: Resources/UxUI/RankSprites/inBattlescape/Driver1.png
-      913: Resources/UxUI/RankSprites/inBattlescape/Driver2.png
-      914: Resources/UxUI/RankSprites/inBattlescape/Driver3.png
-      915: Resources/UxUI/RankSprites/inBattlescape/Driver4.png
-      916: Resources/UxUI/RankSprites/inBattlescape/Driver5.png
+      42: Resources/UxUI/RankSprites/inGeoscape/Army0.png
+      43: Resources/UxUI/RankSprites/inGeoscape/Army1.png
+      44: Resources/UxUI/RankSprites/inGeoscape/Army2.png
+      45: Resources/UxUI/RankSprites/inGeoscape/Army3.png
+      46: Resources/UxUI/RankSprites/inGeoscape/Army4.png
+      47: Resources/UxUI/RankSprites/inGeoscape/Army5.png
+      800: Resources/UxUI/RankSprites/inGeoscape/Army10.png
+      801: Resources/UxUI/RankSprites/inGeoscape/Army11.png
+      802: Resources/UxUI/RankSprites/inGeoscape/Army12.png
+      803: Resources/UxUI/RankSprites/inGeoscape/Army13.png
+      804: Resources/UxUI/RankSprites/inGeoscape/Army14.png
+      805: Resources/UxUI/RankSprites/inGeoscape/Army15.png
+      900: Resources/UxUI/RankSprites/inGeoscape/Pilot0.png
+      901: Resources/UxUI/RankSprites/inGeoscape/Pilot1.png
+      902: Resources/UxUI/RankSprites/inGeoscape/Pilot2.png
+      903: Resources/UxUI/RankSprites/inGeoscape/Pilot3.png
+      904: Resources/UxUI/RankSprites/inGeoscape/Pilot4.png
+      905: Resources/UxUI/RankSprites/inGeoscape/Pilot5.png
+      910: Resources/UxUI/RankSprites/inGeoscape/Doggorank.png
+      911: Resources/UxUI/RankSprites/inGeoscape/Driver0.png
+      912: Resources/UxUI/RankSprites/inGeoscape/Driver1.png
+      913: Resources/UxUI/RankSprites/inGeoscape/Driver2.png
+      914: Resources/UxUI/RankSprites/inGeoscape/Driver3.png
+      915: Resources/UxUI/RankSprites/inGeoscape/Driver4.png
+      916: Resources/UxUI/RankSprites/inGeoscape/Driver5.png
 #-----CRAFT INTECEPTION IMAGES-----#
   - type: INTICON.PCK
     files:
@@ -1159,12 +1159,12 @@ extraSprites:
       511: Resources/UxUi/InterWin/CraftIcons/XCF0_dogfight.gif
       550: Resources/UxUi/InterWin/CraftIcons/XCF1_min.gif #ojito recolorizar y crear uno nuevo
       561: Resources/UxUi/InterWin/CraftIcons/XCF1_dogfight.gif #ojito luego recolorizar y mejorar
-      600: Resources/UxUi/InterWin/CraftIcons/XCF2_min.gif
-      611: Resources/UxUi/InterWin/CraftIcons/XCF2_dogfight.gif
+      600: Resources/UxUi/InterWin/CraftIcons/XCF2_min.png
+      611: Resources/UxUi/InterWin/CraftIcons/XCF2_dogfight.png
       650: Resources/UxUi/InterWin/CraftIcons/XCF3_min.gif
       661: Resources/UxUi/InterWin/CraftIcons/XCF3_dogfight.gif
-      700: Resources/UxUi/InterWin/CraftIcons/XCF4_min.gif #es el 4
-      711: Resources/UxUi/InterWin/CraftIcons/XCF4_dogfight.gif #es el 4
+      700: Resources/UxUi/InterWin/CraftIcons/XCF4_min.gif
+      711: Resources/UxUi/InterWin/CraftIcons/XCF4_dogfight.gif
 #----- Patrolling craft interception sprites -----#
       900: Resources/UxUi/InterWin/CraftIcons/SR71_min.gif
       911: Resources/UxUi/InterWin/CraftIcons/SR71_dogfight.gif

@@ -362,7 +362,7 @@ armors:
     # builtInWeapons:
     #   - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -543,7 +543,7 @@ armors:
     # builtInWeapons:
     #   - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -723,7 +723,7 @@ armors:
     # builtInWeapons:
     #   - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -903,7 +903,7 @@ armors:
     # builtInWeapons:
     #   - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -1083,7 +1083,7 @@ armors:
     # builtInWeapons:
     #   - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -1263,7 +1263,7 @@ armors:
     # builtInWeapons:
     #   - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -1448,7 +1448,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -1816,7 +1816,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -2001,7 +2001,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -2188,7 +2188,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -2373,7 +2373,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -2558,7 +2558,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -2923,7 +2923,7 @@ armors:
     visibilityAtDark: 12
     heatVision: 40
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -3107,7 +3107,7 @@ armors:
     visibilityAtDark: 12
     heatVision: 40
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -3290,7 +3290,7 @@ armors:
     visibilityAtDark: 12
     heatVision: 40
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -3474,7 +3474,7 @@ armors:
     visibilityAtDark: 12
     heatVision: 40
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -3658,7 +3658,7 @@ armors:
     visibilityAtDark: 12
     heatVision: 40
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -4015,7 +4015,7 @@ armors:
       - STR_NULL_BACKPACK
       - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -4194,7 +4194,7 @@ armors:
       - STR_NULL_BACKPACK
       - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -4373,7 +4373,7 @@ armors:
       - STR_NULL_BACKPACK
       - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -4552,7 +4552,7 @@ armors:
       - STR_NULL_BACKPACK
       - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -4731,7 +4731,7 @@ armors:
       - STR_NULL_BACKPACK
       - STR_NULL_POCKET_RS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -5095,7 +5095,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -5276,7 +5276,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -5459,7 +5459,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -5642,7 +5642,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -5825,7 +5825,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -6203,7 +6203,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -6393,7 +6393,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -6583,7 +6583,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -6773,7 +6773,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -6963,7 +6963,7 @@ armors:
       - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -7347,7 +7347,7 @@ armors:
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -7540,7 +7540,7 @@ armors:
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -7733,7 +7733,7 @@ armors:
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -7926,7 +7926,7 @@ armors:
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
@@ -8119,7 +8119,7 @@ armors:
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     units:
-      - STR_SOLDIER
+      - STR_BASIC_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
     damageModifier:
