@@ -8618,9 +8618,6 @@ armors:
       M69: ["", "MECH_BASIC_TANK_HE_M", "M69_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M69_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
       M70: ["", "MECH_BASIC_TANK_HE_M", "M70_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M70_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
       M71: ["", "MECH_BASIC_TANK_HE_M", "M71_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_M", "", "", "CAP_ONESUIT_C", "", "M71_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
-
-
-
       F0: ["", "MECH_BASIC_TANK_HE_F", "F0_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F0_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
       F1: ["", "MECH_BASIC_TANK_HE_F", "F1_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F1_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
       F2: ["", "MECH_BASIC_TANK_HE_F", "F2_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F2_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
@@ -8693,7 +8690,6 @@ armors:
       F69: ["", "MECH_BASIC_TANK_HE_F", "F69_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F69_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
       F70: ["", "MECH_BASIC_TANK_HE_F", "F70_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F70_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
       F71: ["", "MECH_BASIC_TANK_HE_F", "F71_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
-
 #    customArmorPreviewIndex: [144, 145]
     allowInv: true
     allowsRunning: true

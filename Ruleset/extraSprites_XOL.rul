@@ -159,28 +159,28 @@ extraSprites:
       280: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XRocketLauncher_rocket3.gif
 #----- Tier 2 X ballistic ends here-----#
 #----- Tier 4 Laser BigObs -----#
-      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol.gif
-      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg.gif
+      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_off.gif
+      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_off.gif
       271: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat1.gif
       336: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat2.gif
       337: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat3.gif
-      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun.gif
+      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_off.gif
       320: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat1.gif
       338: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat2.gif
       339: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat3.gif
-      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle.gif
+      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_off.gif
       273: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat1.gif
       332: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat2.gif
       333: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat3.gif
-      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg.gif
+      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_off.gif
       322: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat1.gif
       334: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat2.gif
       335: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat3.gif
-      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper.gif
+      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_off.gif
       275: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat1.gif
       342: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat2.gif
       343: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat3.gif
-      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon.gif
+      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_off.gif
       277: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat1.gif
       330: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat2.gif
       331: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat3.gif
@@ -1829,7 +1829,7 @@ extraSprites:
 #----- Flags Ending -----#
 #----- MISC Ojito -----#
   - type: TinyRanks
-    width: 133
+    width: 175
     height: 7
     subX: 7
     subY: 7

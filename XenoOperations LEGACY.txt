@@ -146,10 +146,11 @@ gameplay changes:
 QOL CHANGES:
  - comenzado el proceso de recoloracion de todAS LAS INTERFACES, por ahora hice solo menus , de partidas guardadas, de opciones, de mods, etc.
    * esperare a ver que opinion tienen al respecto, requiere bastante trabajo por lo q no quiero meterle 10 horas mas a editar esos parametros para luego descubrir que es un cambio impopular y seguramente requiera rollback y tener un monton de esfuerzo desperdiciado.
-
+  * las letras dentro de los articulos de la ufopaedia pasaron a ser mas oscuras para no cansar tanto la vision
  - reordenado totalmente como aparecen los edificios en la lista de una manera mas logica y coherente.
+
  - renombrado todos los tipos de daño dentro de la Ufopedia
-   * adicionalmente incluido que el numero del daño varia de color en base al tipo de daño 
+   * adicionalmente incluido que el numero del daño varia de color en base al tipo de daño dentro de la ufopaedia
 
 
  - cambiado nombre de apex launcher a devastator launcher
@@ -175,6 +176,13 @@ TWEAKS AND BALANCE:
  - increased the weight of some weapons:
    * the XX autocannon goes to 26 from 17
  
+ - balanceado finalmente implementado el tema del area de las explosiones cuyo daño varia en base a la distancia del centro de la explosiones
+   * algunas armas tendran el mismo daño en todo el rango, esto para darle distincion
+   * restaurado el daño en area tipo quimico a algunos explosivos que anteriormente no funcionaban correctamente
+     ~ el cohete quimico y la granada hybrida quimica ya no hacen incendiary sino quimico, debido a limitaciones del juego original no habian podido ser instauradas correctamente.
+       ° con este nuevo sistema funcionan como esperado.
+   * los knuckles hacen daño concussive ahora
+
  - the stun rods become aviable to buying only after unlocking xeno physiology research
  - the stun pistols nows requires xeno physiology and its an manufacture project 
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost

@@ -29,19 +29,24 @@
 #######
 ####### Esto para hacer principalmente en la chamba
 #######
- - describir que la barraca grande tambien proporciona el trooper scool y es necesario para poder hacer el upgrade a oficiales y demas
- - eliminar los tanques de plasma para integrarlos al nuevo sistema
+ - describir que la barraca grande tambien proporciona el trooper school y es necesario para poder hacer el upgrade a oficiales y demas
+ - eliminar los tanques de plasma y flotantes para integrarlos al nuevo sistema
  - agregar alternativas adicionales a los tanques de tierra
    * laser, hyper velocidad , plasma 
  - encontrar una manera de que se ilumine la torreta al momento de disparar los tanques?
-
-
  - respecto al tanquero .duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
+# 
  - balancear TODOS LOS ITEMS q sean explosivos y/o con rango
    * meterle al tema del ataque en area acido
  - balancear breaching charges
    * darle credits a dbrizo por inspirarme para breaching charge
    * aprovechar el comando "throwRange" para definir todos los objetos demasiado pesados o delicados para arrojarse
+ - Explore sources for improved versions of map and globe symbols.
+   * Check TFTD+ or Unexcom to understand how the ruleset works for this.
+     ~ must define using globemarkers.
+     ~ Use the "marker" command assigned to each aircraft.
+   * Perhaps remove pockets from personal armor.
+
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
@@ -50,7 +55,7 @@
 
  - mejorar el breaching charge
    * ahi el bangalore elerium deberia ser con detalles en amarillo
-   * aprovechar y mejorar las sprites de las armas explosivas humanas, hacerlas mas intrincadas
+   * aprovechar y mejorar las sprites de los componentes y explosivos humanas, hacerlas mas intrincadas
   
 
  - separar armas q estan en el mismo png
@@ -70,26 +75,14 @@
 ###################################################################################################################################
 + hoja de ruta para 0.98.1:
 ####
-
- - respecto al tanquero .duplicar el flightsuit  pero cambiarlo a q sea la armadura de tanqueros
-   * crear todos los articulos en ufopaedia usando el pilot como ejemplo
-   * duplicar los layers de las armaduras usando los layers de personalarmor
-   * luego crear las armaduras de tanque copiando todos los del sidecard de GWoTW.
-     ~ la armadura tendria el mismo sistema de layer pero en la capa mas baja estaria una imagen dos de del tanque de fondo.
-   * hacerle el tinyrank y sus rank sprites en azul  
-
- - actualizar el interfaces y modificar los colres de los elementos de la ufopaedia
-   * daño de las armas variaran en base al tipo de daño
-   * el texto sera ligeramente mas oscuro para no cansar tanto la vista
-     ~ revisar para q sea todo el texto en general de la ufopaedia.
-   * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)
-     ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
- - acomodar todos los rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
+ - copiar muchos efectos y daños de las granadas desde el xfiles  
+ - concretar el tema de las explosiones que pierdan daño segun el area de impacto
+   * eliminando el comando blastradius y remplazar con el que tipea recomendado el ruleset que es damage alter
+ - acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
      ~ tambien para el cohete chem
- - copiar muchos efectos y daños de las granadas desde el xfiles    
- - consegui posibles reemplazos a la granada plasma, puede ser el sonic pulsar o la granada emp
-   * la granada ap nails sera el sonic pulsar, recolorizar igual q los rifles de rieles  
+     ~ confirmar todo los tipos de daños de las armas
+  
  - implementar el item EScudo
    * ya consegui los sprites
    * tengo q recolorizarlos y adaptarlos mejor
@@ -97,7 +90,7 @@
      ~ recordar darle credits a filip-H
      ~ editar para q cada escudo reciba menos daño q el anterior
      ~ principal diferencia entrara en el peso
-   * tendran un peso de aproximadamente 10 mil dolares(pasar a conversion)
+   * tendran un precio de aproximadamente 10 mil dolares(pasar a conversion)
    * posibles nombres
      ~ Scutum/testudo el basico
      ~ Hoplite el mas avanzado q es de alloys (haria juego con spartan armor)
@@ -108,12 +101,12 @@
 ####OJITO AQUI SIGUIENTES 
  - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
  - usar EL soldado IA para del drone core
- - concretar el tema de las explosiones que pierdan daño segun el area de impacto
-   * eliminando el comando blastradius y remplazar con el que tipea recomendado el ruleset que es damage alter
- - cambiar colores de las battlescape sprites de pilotos a rojo y oscurecer el paperdoll del inventario de la xops un tono mas oscuro tambien, la power armor cambiarle ojos de rojo a amarillo en ese modelo, cambiar colores de paperdolls de cascos tambien.
- - rehacer todas las armaduras de vuelta de tier 1 , rehacer como habia planteado las armaduras femeninas para q los bolsillos sean iguales en tamaño, se cambia solo el coso del chaleco principal. recordatorio, cuando achico armadura femenina se hace al 96% en sprite resize
-   * luego quedaria por hacer las versiones por distintos tamaños para cada genero
-   * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
+ - crear unidad parecida a perro pero q sea "drone core"
+   * aprovechar y explicar lo del drone q se conecta desde la base
+   * aprovechar texto del edificio radar para completar la explicacion
+   * crearles sus respectivos armor previews
+
+###
  - agregar nuevos sprites a las armaduras
    * darle prioridar al formato de los chalecos
      ~ solamente agrandar y achicar segun los talles LA CAPA PRINCIPAL DEL CHALECO
@@ -129,19 +122,6 @@
      ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
  - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
    * usaran trajes azules
- - pilotos se pasarian a ser color rojo aprovechando neoworm y ps1 sprites and assets? 
-   * modificar el rank sprite sheet a rojo
-   * pintar nuevamente imagen de piloto de la ufopaedia a color rojo
-   * modificar el casco del piloto basico
- - crear unidad parecida a perro pero q sea "drone core"
-   * aprovechar y explicar lo del drone q se conecta desde la base
-   * aprovechar texto del edificio radar para completar la explicacion
-   * crearles sus respectivos armor previews
- - hacer q la armadura que sale en el ARMOR for avatar (aprovechar la q se pone en la ufopaedia)
-   * la q se llama "no se que display", aprovecharme del parametro q repite el codigo usando "&" para acortar espacio
-   * sea distinta, no se pueda usar en el inventario
-   * sin el chaleco pesado pero q posea la boina
-   * con boina distinta segun el tipo de soldado q sea
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
@@ -159,16 +139,22 @@
    * poner chalequitos verdes al battle sprite camo
    * usar los cascos de CTO y girarle los lentes de NV 90° para que queden arriba.
    * Create new sprites with cool visors for every pilot version.
-     ~ copiar el casco de exosuits para pilotos de aviones
    * Create different versions based on soldier sizes.
    * Ensure advanced versions cover ALL skin (test with a black background as I update).
    * Use the belly from female personal armor for non-muscular men.
  - Add raised quad-lenses to tier 1 soldier sprites, then add lower quad-lenses and find out if configuration is possible.
- - Explore sources for improved versions of map and globe symbols.
-   * Check TFTD+ or Unexcom to understand how the ruleset works for this.
-     ~ must define using globemarkers.
-     ~ Use the "marker" command assigned to each aircraft.
-   * Perhaps remove pockets from personal armor.
+ - cambiar colores de paperdolls de cascos a rojo tambien para pílotos.
+ - rehacer todas las armaduras de vuelta de tier 1 , rehacer como habia planteado las armaduras femeninas para q los bolsillos sean iguales en tamaño, se cambia solo el coso del chaleco principal. recordatorio, cuando achico armadura femenina se hace al 96% en sprite resize
+   * luego quedaria por hacer las versiones por distintos tamaños para cada genero
+   * confirmar todos los detalles restantes de los battlescape, incluyendo casco y visores.
+   * el xops armor tendra la burbuja del skystrike, agregarselo al battlesprite y eliminarle la recoloracion automatica en base a la piel
+   * el battlestrike tendra un casco distinto hecho a medida mas adelante
+ - hacer q la armadura que sale en el ARMOR for avatar (aprovechar la q se pone en la ufopaedia)
+   * la q se llama "no se que display", aprovecharme del parametro q repite el codigo usando "&" para acortar espacio
+   * sea distinta, no se pueda usar en el inventario
+   * sin el chaleco pesado pero q posea la boina
+   * con boina distinta segun el tipo de soldado q sea
+
 ######### 
  - balancear requerimientos en materiales de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun . asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
  - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
@@ -211,10 +197,7 @@
    * nivel 3 el medi-kit de vainilla q es dispensador de medi-gel, explicaria todo lo avanzado de la medicina, cosas de reparar heridas y tejido casi al instante blablabla
      ~ requeriria quizas nivel 3 del codex? (2 como minimo)
      ~ estaria atado a la mejora del edificio de la base de la clinica mejorada. 
-
-
-
-
+#####
  - Change background sprites for some screens on the base.
    * Background02 (soldier tab)/ Something more fitting and militarish, perhaps some soldiers formed saluting?
      ~ Inquire if there is a way to add a background specifically TO THE MEMORIAL tab, then add some kind of memorial wall, like in Firaxis or Mass Effect.
@@ -227,7 +210,6 @@
    * Background14 (plane equipment)/ Im okay with the current version, might only retouch the silhouette to not be so dark, so all the changes made to plane basebits shadows stand out more.
    * Background16 (UFO related mission start)/ Some kind of POV over the shoulder inside the cockpit of our plane, flying over a crashed UFO.
      ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
-
 
 
 + cosas de nombres de especies:
@@ -249,10 +231,6 @@ Warchief:  they are veterans of a hundred battles at least, only few sebilians s
 Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
 Warlord:    the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
 
-
-
-     
-       
 ##################################### arriba es el desastre
 + Cosas pendientes:
 
@@ -596,15 +574,22 @@ IMPORTANTE PARA LORE:
  - Does the Alien Disassemble from alien entertainment give a Mind Probe?
    * If so, significantly reduce the price of the probe.
    * Increase the necessary hours.
+ - actualizar el interfaces y modificar los colres de los elementos de la ufopaedia
+   * adicionalmente revisar si puedo seguir modificando el resto de los elementos de la UI para hacerlos unificados (ejemplo la barra del geoescape cambiarla de azul al gris del battlescape menu)
+     ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
+
 
 #####
 
 + Major Changes:
+
  - make base facilities needs ammunition to fire defenses and stuff
    * search "ammoneeded"
  - include xcom npcs in base defenses  
  - Implement daytime and nighttime camouflage stat to armors and enemies.
    * Balance total vision and ranges.
+
+#OJITO esto esta siendo cambiado ya   
  - Tanks, UFOs, and Sectopods use pilots.
    * Create a new soldier transformation to train them; they will now be armor instead of units.
    * Training requires overcoming claustrophobia, thus requiring a minimum bravery.
@@ -634,10 +619,6 @@ IMPORTANTE PARA LORE:
    * "Take into consideration that, since OXCE v6.2, the OXCE behavior is now turned off by default. It can be enabled using the extendedItemReloadCost setting."
  - Rebalance the weight of all objects for more intuitive values.
    * Would a total rebalancing of the soldiers' strength be needed to maintain coherent values?
- - Total change in the price of items and all projects.
-   * To make the numbers more coherent, or at least, as a minimum, reduce the cost of all initial weapons to say that it is scientific notation and is actually divided by a hundreth
-   * reducir cost en manufacture
-   * reducir costes de aeronave
 
 #####
 

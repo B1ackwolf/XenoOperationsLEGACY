@@ -4912,7 +4912,7 @@ items:
     handSprite: 470
     power: 8
     strengthApplied: true #ojito change to damageBonus
-    damageType: 6
+    damageType: 3
     clipSize: -1
     tuMelee: 12
     accuracyMelee: 100

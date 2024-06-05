@@ -374,7 +374,7 @@ soldiers:
       melee: 40
     armor: STR_MECH_DRIFTSUIT
     armorForAvatar: STR_MECH_DRIFTSUIT
-    rankTinySprite: 12      # este se modifica
+    rankTinySprite: 19      # este se modifica
     rankSprite: 911         # estos se modifican
     rankBattleSprite: 911   # estos se modifican
     standHeight: 22

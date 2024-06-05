@@ -223,6 +223,30 @@ interfaces:
         color: 239   # bright green
       - id: confirmDelete
         color: 138   # yellow
+
+#   - type: saveMenus
+#     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
+# #    palette: PAL_BATTLESCAPE
+#     elements:
+#       - id: palette
+#         color: 6     # yellow oxide # just like in others screens
+#       - id: window
+#         color: 248   # even Darker gray # The margin borders of the window
+#       - id: text
+#         color: 6     # white #  title
+#         color2: 39   # red # no idea what it does (?)
+#       - id: list
+#         color: 243   # slighty clearer gray # name in the list
+#         color2: 245  # dark gray main tone # no idea what it does (?)
+#         border: 245  # dark gray main tone # slider on the right of the list
+#       - id: button
+#         color: 245   # dark gray main tone # all the buttons in this screen
+#       - id: confirmLoad
+#         color: 245   # dark gray main tone # all the buttons in this screen
+#       - id: confirmDelete
+#         color: 245   # dark gray main tone # all the buttons in this screen
+#
+
   - type: pauseMenu
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
@@ -885,26 +909,25 @@ interfaces:
         color2: 133  # minty green
       - id: button
         color: 239   # bright green
-  - type: graphs ####ojito importante este, copiar colores de tftd
+#
+  - type: graphs # Graphs menu in the geoscape
     palette: PAL_GRAPHS
     elements:
       - id: text
-        color: 135   # red # name of the current screen title color
+        color: 95   # White # name of the current screen title color
       - id: scale
-        color: 103   # minty green # color of the numbers on the side of the graph
+        color: 98   # gray # color of the numbers on the side of the graph
       - id: graph
-        color: 160   # green
+        color: 189   # aqua # color for SCORE in the Finance Graphic
       - id: button
-        color: 151   # grey # sidebar elements button
+        color: 10   # darker gray # sidebar elements button
       - id: regionTotal
         color: 133    # salmon (inverted button offset)
         color2: 136  # also salmon (the line itself)
       - id: countryTotal
         color: 141    # magenta (inverted button offset)
         color2: 144  # also magenta (the line itself)
-
-
-
+#
 
   # - type: ufopaedia
   #   elements:
@@ -1025,40 +1048,7 @@ interfaces:
         border: 218  # blue
       - id: button
         color: 218   # blue
-  - type: geoscape #ojito a ver si es esto
-    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
-#    palette: PAL_BATTLESCAPE
-
-    elements:
-      - id: palette
-        color: 6     # yellow oxide
-        color2: 6
-      - id: textLoad
-        color: 133   # minty green
-      - id: button
-        color: 246   # light blue
-        color2: 245  # slightly lighter blue
-      - id: text
-        color: 244   # even lighter blue
-      - id: slackingIndicator
-        color: 244   # even lighter blue
-        color2: 133  # minty green
-        custom: -12  # above Intercept button
-      - id: genericWindow
-        color: 239   # bright green
-      - id: genericText
-        color: 239   # bright green
-        color2: 138  # yellow
-        border: 133  # minty green
-      - id: genericButton1
-        color: 133   # minty green
-      - id: genericButton2
-        color: 239   # bright green
-      - id: errorPalette
-        color: 6     # brown
-      - id: errorMessage
-        color: 239   # bright green
-
+#   
   # - type: geoscape
   #   backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
   #   elements:
@@ -1088,6 +1078,39 @@ interfaces:
   #     - id: errorMessage
   #       color: 33   # bright green
 
+  - type: geoscape #ojito a ver si es esto
+    backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
+#    palette: PAL_BATTLESCAPE
+    elements:
+      - id: palette
+        color: 6     # yellow oxide
+        color2: 6
+      - id: textLoad
+        color: 133   # minty green
+      - id: button
+        color: 246   # light blue
+        color2: 245  # slightly lighter blue
+      - id: text
+        color: 244   # even lighter blue
+      - id: slackingIndicator
+        color: 244   # even lighter blue
+        color2: 133  # minty green
+        custom: -12  # above Intercept button
+      - id: genericWindow
+        color: 239   # bright green
+      - id: genericText
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: genericButton1
+        color: 133   # minty green
+      - id: genericButton2
+        color: 239   # bright green
+      - id: errorPalette
+        color: 6     # brown
+      - id: errorMessage
+        color: 239   # bright green
+#
   - type: sellMenu
     backgroundImage: BACK13.SCR
     palette: PAL_BASESCAPE
@@ -2122,6 +2145,7 @@ interfaces:
       - id: text
         color: 239   # grey
         color2: 244  # light blue
+#        
   - type: articleTextImage
     elements:
       - id: button
@@ -2131,118 +2155,61 @@ interfaces:
       - id: text
         color: 239   # grey
         color2: 244  # light blue
-  # - type: articleArmor
-  #   elements:
-  #     - id: button
-  #       color: 66    # orange
-  #     - id: text
-  #       color: 8   # 239 grey
-  #       color2: 71  # 244 light blue
-  #     - id: list
-  #       color: 6   # 55 seems good green
-  #       color2: 71  # light blue
-
+#
   - type: articleArmor
     elements:
       - id: button
-        color: 15    # orange
+        color: 239    # orange
       - id: text
-        color: 239   # grey
-        color2: 244  # light blue
+        color: 8   # grey
+        color2: 71  # green
       - id: list
-        color: 239   # grey
-        color2: 244  # light blue
-
-
-
-  # - type: articleCraftWeapon
-  #   elements:
-  #     - id: button
-  #       color: 66    # orange
-  #     - id: text
-  #       color: 8   # 239 grey
-  #       color2: 71  # 244 light blue
-  #     - id: list
-  #       color: 6   # 55 seems good green
-  #       color2: 71  # light blue
-
+        color: 6   # grey
+        color2: 71  # green
+#
   - type: articleCraftWeapon
     elements:
       - id: button
-        color: 16    # orange
+        color: 239    # orange
       - id: text
-        color: 239   # grey
-        color2: 244  # light blue
+        color: 8   # grey
+        color2: 71  # light blue
       - id: list
-        color: 239   # grey
-        color2: 244  # light blue
-
-
-  # - type: articleItem
-  #   elements:
-  #     - id: button
-  #       color: 66   # 144 orange
-  #     - id: text
-  #       color: 8   # 239 grey
-  #       color2: 71  # 244 light blue
-  #     - id: list
-  #       color: 6   # 55 seems good green
-  #       color2: 71  # light blue
-  #     - id: ammoColor
-  #       color: 32    # red
-  #     - id: ammoColorDTAP
-  #       color: 161     #gray # 112 steely blue, AP
-  #     - id: ammoColorDTIN
-  #       color: 147    # orange, Incendiary
-  #     - id: ammoColorDTHE
-  #       color: 100    # dark orange, HE
-  #     - id: ammoColorDTLaser
-  #       color: 34    # 32 red
-  #     - id: ammoColorDTPlasma
-  #       color: 67    # green, Plasma
-  #     - id: ammoColorDTStun
-  #       color: 195    # purple, Stun
-  #     - id: ammoColorDTMelee
-  #       color: 176    # fleshy pink, Melee
-  #     - id: ammoColorDTAcid
-  #       color: 64    # lime green, Acid
-  #     - id: ammoColorDTSmoke
-  #       color: 84    # 80 soap, Smoke
-  #     - id: ammoColorDT10
-  #       color: 17    # golden, Elerium Fusion
-
+        color: 6   # grey
+        color2: 71  # green
+#
   - type: articleItem
     palette: PAL_BATTLESCAPE
     elements:
       - id: button
-        color: 144   # orange
+        color: 239   # orange (era 144)
       - id: text
-        color: 239   # grey
-        color2: 244  # light blue
+        color: 8   # main grey? (239)
+        color2: 33  # yellow (244)
       - id: list
-        color: 239   # grey
-        color2: 244  # light blue
+        color: 3   # grey (239)
+        color2: 5  # light blue (244)
       - id: ammoColor
-        color: 32    # red
+        color: 16    # red
 #
       - id: ammoColorDTAP
-        color: 112    # steely blue, AP # deberia ser medio azuladito?
+        color: 97    # brass, AP # deberia ser medio azuladito?
       - id: ammoColorDTIN
-        color: 18    # yellow ?, Incendiary  # (DECIDIDO) el fuego es amarillo asi q deberia ser de este color
+        color: 15    # yellow, Incendiary  # (DONE)
       - id: ammoColorDTHE
-        color: 88    # marroncito ?, High Explosive  # (?) explosivo podria ser naranja oscuro, o mas bien marroncito
+        color: 165    # brownish, High Explosive  # (DONE)
       - id: ammoColorDTLaser
-        color: 34    # rojito , Laser  # (DECIDIDO) laser si o si debe ser rojo oscuro
+        color: 38    # dark red, Laser  # (DONE)
       - id: ammoColorDTPlasma
-        color: 53   # Deep green # Plasma damage # (DONE)
+        color: 53   # Deep green, Plasma damage # (DONE)
       - id: ammoColorDTStun
-        color: 132    # Light Blue, Electrical (Stun) damage  # (DONE)
+        color: 244    # Light Blue, Electrical (Stun) damage  # (DONE)
       - id: ammoColorDTMelee
-        color: 65    # pale blue, Melee  # (?) este debe ser grisaceo
+        color: 239    # pale blue, Melee  # (?) este debe ser grisaceo, aun no me decido
       - id: ammoColorDTAcid
-        color: 66    # lime green, Acid # (DECIDIDO) este tiene q ser verde brillantoso
+        color: 49    # lime green, Acid # (DONE)
       - id: ammoColorDTSmoke
-        color: 212    # gray , Smoke  # deberia ser gris plomito?
+        color: 7    # gray, Smoke  # (DONE)
       #- id: ammoColorDT10
       #  color: 32    #red 
       #- id: ammoColorDT11
