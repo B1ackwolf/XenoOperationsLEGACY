@@ -270,6 +270,10 @@ extraSprites:
       326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife.png
       431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword.gif
       1078: Resources/WeaponrySprites/8thMelee/BigOb/10HumanBasicShield.png
+      1079: Resources/WeaponrySprites/8thMelee/BigOb/11HumanAlloyShield.png
+      1080: Resources/WeaponrySprites/8thMelee/BigOb/12HumanHoloShield.png
+      1081: Resources/WeaponrySprites/8thMelee/BigOb/20AlienHoloShield.png
+      1082: Resources/WeaponrySprites/8thMelee/BigOb/21AlienAdvHoloShield.png
       372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade.gif
       369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade.gif
 #----- Tier 8 Melee ends here -----#
@@ -636,6 +640,10 @@ extraSprites:
       326: Resources/WeaponrySprites/8ThMelee/FloorOb/7HumanPlasmaKnife_floor.png
       431: Resources/WeaponrySprites/8thMelee/FloorOb/8HumanPlasmaSword_floor.png
       1078: Resources/WeaponrySprites/8thMelee/FloorOb/10HumanBasicShield_floor.png
+      1079: Resources/WeaponrySprites/8thMelee/FloorOb/11HumanAlloyShield_floor.png
+      1080: Resources/WeaponrySprites/8thMelee/FloorOb/12HumanHoloShield_floor.png
+      1081: Resources/WeaponrySprites/8thMelee/FloorOb/20AlienHoloShield_floor.png
+      1082: Resources/WeaponrySprites/8thMelee/FloorOb/21AlienAdvHoloShield_floor.png
       372: Resources/WeaponrySprites/8thMelee/FloorOb/15AlienAlloyBlade_floor.gif
       369: Resources/WeaponrySprites/8thMelee/FloorOb/16AlienPlasmaBlade_floor.gif
 #----- Tier 8 Melee ends here -----#
@@ -825,6 +833,10 @@ extraSprites:
       2815: Resources/WeaponrySprites/8ThMelee/HandOb/7HumanPlasmaKnife_hand.png
       1070: Resources/WeaponrySprites/8thMelee/HandOb/8HumanPlasmaSword_hand.png
       2078: Resources/WeaponrySprites/8thMelee/HandOb/10HumanBasicShield_hand.png
+      2088: Resources/WeaponrySprites/8thMelee/HandOb/11HumanAlloyShield_hand.png
+      2098: Resources/WeaponrySprites/8thMelee/HandOb/12HumanHoloShield_hand.png
+      2108: Resources/WeaponrySprites/8thMelee/HandOb/20AlienHoloShield_hand.png
+      2118: Resources/WeaponrySprites/8thMelee/HandOb/21AlienAdvHoloShield_hand.png
       930: Resources/WeaponrySprites/8thMelee/HandOb/15AlienAlloyBlade_hand.png
       800: Resources/WeaponrySprites/8thMelee/HandOb/16AlienPlasmaBlade_hand.gif
 #----- Tier 8 Melee ends here -----#

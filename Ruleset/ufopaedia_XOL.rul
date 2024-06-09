@@ -992,6 +992,14 @@ ufopaedia:
     requires:
       - STR_BO_STICK_GRENADE
     listOrder: 4106
+  - id: STR_BO_AP_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BO_AP_GRENADE_UFOPEDIA
+    requires:
+      - STR_MEDIUM_HYPERVELOCITY_WEAPONS
+    listOrder: 4106
+
   - id: STR_EX_ADRENO_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

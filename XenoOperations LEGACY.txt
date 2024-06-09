@@ -115,8 +115,14 @@ gameplay changes:
  - creada nuevas armas de distintos tiers
    * nuevas armas melee agregadas para rellenar los gaps
      ~ una espada alloy
-	 ~ un cuchillo laser
-	 ~ un cuchillo plasma
+	   ~ un cuchillo laser
+	   ~ un cuchillo plasma
+   * nuevos escudos portatiles
+     ~ Escudo balistico inicial
+     ~ version mejorada hecha de xelloys, mucho mas livianos
+     ~ version hecha de energia (holo shield)
+       ° tengo planificada dos versiones para los aliens, pero primero necesito tantear los aliens equipment deployment antes de siquiera hacerlos aparecer.
+
  - completamente nuevas mecanicas para el manejo y construccion de modulos de las bases:
    * nuevo edificio agregado: empty room
      ~ un edificio vacio que sirve como plantilla para los demas edificios
@@ -317,7 +323,7 @@ bugfixes:
 
 - solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely (thanks scamps for the report).
 - solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)
-- solved an error related with the price and research cost of the mind shield facilitie.
+- solved an error related with the price and research cost of the mind shield facility.
 - solved some issues with the null items that blocked some pockets not working as intended, thanks scamps for the report.
 - solved an incorrect price in the construction of the laser defense facility, the fusion ball requirements was duplicated.
 - Solved an instance that persisted about the final mission unlocking incorrectly, still giving an eye to this.

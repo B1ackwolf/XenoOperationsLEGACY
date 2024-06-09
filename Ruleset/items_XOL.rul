@@ -433,7 +433,23 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 70
+# ojito esto va a ser replicado en todos y cada uno de los blast radius en mayor o menor medida
+# doble ojito recordatorio agregar el ignore overkill en practicamente todos
     damageType: 3
+    blastRadius: 3
+    damageAlter:
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#ojito hasta aqui es q copio los parametros      
+
     clipSize: 4
     # ignoreInCraftEquip: true
     # ignoreInBaseDefense: true
@@ -542,6 +558,7 @@ items:
     hitAnimation: 26
     power: 100
     damageType: 3
+    blastRadius: 3
     damageAlter:
       RandomType: 2
 #      IgnoreOverKill: false
@@ -568,6 +585,8 @@ items:
     hitAnimation: 0
     power: 80
     damageType: 3
+    blastRadius: 3
+
     bulletSpeed: 10
     damageAlter:
       RandomType: 6
@@ -2013,6 +2032,7 @@ items:
     hitAnimation: 0
     power: 53
     damageType: 3
+    blastRadius: 3
     clipSize: 10
     battleType: 2
     invWidth: 2
@@ -2083,6 +2103,7 @@ items:
     hitAnimation: 0
     power: 85
     damageType: 3
+    blastRadius: 3
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -2098,6 +2119,7 @@ items:
     hitAnimation: 0
     power: 115
     damageType: 3
+    blastRadius: 3
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -2838,7 +2860,8 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 64
-    damageType: 2
+    damageType: 8
+    blastRadius: 3
     clipSize: 14
     battleType: 2
     invWidth: 2
@@ -2854,6 +2877,7 @@ items:
     hitAnimation: 0
     power: 70
     damageType: 3
+    blastRadius: 3
     clipSize: 14
     battleType: 2
     invWidth: 2
@@ -2896,6 +2920,7 @@ items:
     hitAnimation: 0
     power: 144
     damageType: 3
+    blastRadius: 3
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -2910,7 +2935,8 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 115
-    damageType: 2
+    damageType: 8
+    blastRadius: 3
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -4778,7 +4804,22 @@ items:
     hitAnimation: 56
     blastRadius: 0
     power: 30
-    damageType: 6
+
+#ojito q esto se modifica, son los parametros para las cosas q sean stun electrico
+    damageType: 6 # ojito este se vuelve tipo 3
+    damageAlter:
+      ResistType: 6
+      IgnorePainImmunity: true
+      IgnoreSelfDestruct: true
+      RandomWound: false
+      ArmorEffectiveness: 0.25
+      ToStun: 4.0
+      ToArmor: 0
+      ToTile: 0
+      ToItem: 0
+      ToWound: 0
+      FixRadius: 5
+
     clipSize: 2
     battleType: 2
     armor: 65
@@ -4913,6 +4954,11 @@ items:
     power: 8
     strengthApplied: true #ojito change to damageBonus
     damageType: 3
+    damageAlter:
+      RandomType: 2
+      ToStun: 1.5
+      FixRadius: 0
+      ToArmorPre: 0.1
     clipSize: -1
     tuMelee: 12
     accuracyMelee: 100
@@ -5088,11 +5134,12 @@ items:
     attraction: 10
     listOrder: 2808
 #### OJITO MELEE SHIELDS
-  - type: STR_MINOR_SHIELD_GAUNTLET
-#    categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
+  - type: STR_ME_HUMAN_BASIC_SHIELD
+#    categories: [STR_WEAPONS, STR_MELEE, ]
     size: 0.5
-    weight: 10
-    costSell: 12000
+    weight: 40
+    costBuy: 5
+    costSell: 2
     bigSprite: 1078
     handSprite: 2078
     floorSprite: 1078
@@ -5102,8 +5149,68 @@ items:
     clipSize: -1
     invWidth: 2
     invHeight: 3
-
-
+    listOrder: 2810
+  - type: STR_ME_HUMAN_ALLOY_SHIELD
+#    categories: [STR_WEAPONS, STR_MELEE, ]
+    size: 0.5
+    weight: 15
+    costSell: 12000
+    bigSprite: 1079
+    handSprite: 2088
+    floorSprite: 1079
+    flatRate: true
+    hidePower: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 2811
+  - type: STR_ME_HUMAN_HOLO_SHIELD
+#    categories: [STR_WEAPONS, STR_MELEE, ]
+    size: 0.5
+    weight: 8
+    costSell: 12000
+    bigSprite: 1080
+    handSprite: 2098
+    floorSprite: 1080
+    flatRate: true
+    hidePower: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 2812
+# Alien portable Shields
+  - type: STR_AW_HOLO_SHIELD
+#    categories: [STR_WEAPONS, STR_MELEE, ]
+    size: 0.5
+    weight: 8
+    costSell: 12000
+    bigSprite: 1081
+    handSprite: 2108
+    floorSprite: 1081
+    flatRate: true
+    hidePower: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 2820
+  - type: STR_AW_ADVANCED_HOLO_SHIELD
+#    categories: [STR_WEAPONS, STR_MELEE, ]
+    size: 0.5
+    weight: 4
+    costSell: 12000
+    bigSprite: 1082
+    handSprite: 2118
+    floorSprite: 1082
+    flatRate: true
+    hidePower: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 2821
 # Alien melee weaponry
   - type: STR_AW_ALLOY_BLADE
     requires:
@@ -5244,28 +5351,47 @@ items:
     floorSprite: 675
    # handSprite: 1340 OJITO
     power: 80
-    damageType: 2
+    damageType: 8
     battleType: 4
     blastRadius: 3
     fuseType: -1
     invWidth: 1
     invHeight: 1
     listOrder: 2907
-
-#####
-#  - type: STR_BO_AP_GRENADE   #ojito copiarme de la tritanium grenade de xfiles
-#    size: 0.1
-#    costSell: 14850
-#    weight: 3
-#    bigSprite: 2652
-#    floorSprite: 2652
-#   # handSprite: 2662
-#    power: 85
-#    damageType: 3
-#    battleType: 4
-#    blastRadius: 4
-#    fuseType: -1
-#    listOrder: 2909
+  - type: STR_BO_AP_GRENADE
+   # categories: [STR_XCOM_TECH, STR_EXPLOSIVES, STR_GRENADES, STR_SPACE, STR_LAND]
+    size: 0.12
+    costSell: 16000
+    weight: 4
+    bigSprite: 2652
+    floorSprite: 2652
+    handSprite: 2662
+    power: 80
+    damageAlter:
+      ResistType: 1
+      FixRadius: 5
+      RadiusReduction: 5
+      ArmorEffectiveness: 1.25
+      FireThreshold: 1000
+      ToMorale: 3.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+    damageType: 3
+    costThrow:
+      energy: 8
+    costPrime:
+      time: 30
+    costUnprime:
+      time: 15
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    invWidth: 1
+    invHeight: 1
+    blastRadius: 5
+    fuseType: -1
+    attraction: 15
+    listOrder: 2908
 ######
   - type: STR_ELERIUM_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
@@ -5287,6 +5413,7 @@ items:
    # floorSprite: 301
     handSprite: 216
     damageType: 3
+    blastRadius: 3
     listOrder: 2911
   - type: STR_BO_ELERIUM_MINE #ojito cambiar nombre q esta es humana
     size: 0.025
@@ -5339,7 +5466,7 @@ items:
     damageType: 3
     damageAlter:
       RandomType: 2
-      FixRadius: 3
+      FixRadius: 1
       ToTile: 1
       RandomTile: true
       TileDamageMethod: 2
@@ -5385,7 +5512,7 @@ items:
     damageType: 3
     damageAlter:
       RandomType: 2
-      FixRadius: 3
+      FixRadius: 1
       ToTile: 1
       RandomTile: true
       TileDamageMethod: 2
@@ -5430,7 +5557,7 @@ items:
     damageType: 3
     damageAlter:
       RandomType: 2
-      FixRadius: 3
+      FixRadius: 1
       ToTile: 1
       RandomTile: true
       TileDamageMethod: 2
@@ -6029,6 +6156,7 @@ items:
     hitAnimation: 0
     power: 90
     damageType: 6
+    blastRadius: 3
     clipSize: 6
     battleType: 2
     invWidth: 2
@@ -6049,6 +6177,7 @@ items:
     hitAnimation: 0
     power: 90
     damageType: 8
+    blastRadius: 3
     clipSize: 6
     battleType: 2
     invWidth: 2
@@ -6069,6 +6198,8 @@ items:
     hitAnimation: 0
     power: 90
     damageType: 3
+    blastRadius: 3
+
     clipSize: 6
     battleType: 2
     invWidth: 2

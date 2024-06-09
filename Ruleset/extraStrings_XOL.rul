@@ -1285,7 +1285,7 @@ extraStrings:
       STR_MUTON_GUARD: Muton Prime
       STR_MUTON_WARLORD: Muton Warlord
       STR_ARMORED_SECTOID: Armored Sectoid
-      STR_SNAKEMAN: Serpentoids
+      STR_SNAKEMAN: Serpentoid
       STR_SNAKEMAN_SOLDIER: Serpentoid Soldier
       STR_SNAKEMAN_NAVIGATOR: Serpentoid Navigator
       STR_SNAKEMAN_ENGINEER: Serpentoid Engineer
@@ -1545,6 +1545,7 @@ extraStrings:
       STR_BO_HYBRID_GRENADE_UFOPEDIA: This grenade uses alien alloys to greatly enhance its explosive power while reducing its weight.
       STR_BO_HYBRID_GRENADE2: Hybrid Chem Grenade
       STR_BO_HYBRID_GRENADE2_UFOPEDIA: This grenade uses codex replication technology to create highly flammable chemicals.
+      STR_BO_AP_GRENADE: Saw Grenade
 #-----Human Laser Weapons
       STR_LA_MAIN_PISTOL: Laser Pistol
       STR_LA_SMG: Laser Assaulter
@@ -1639,10 +1640,15 @@ extraStrings:
 #----- Ojito re ordenar todo esto
       STR_ME_ALLOY_KNIFE: Alloy Knife
       STR_ME_ALLOY_SWORD: Alloy Sword
-      STR_ME_LASER_KNIFE: Laser Knife #ojito
+      STR_ME_LASER_KNIFE: Progressive Knife #ojito
       STR_ME_LASER_SWORD: Laser Sword #ojito
       STR_ME_PLASMA_KNIFE: Plasma Knife #ojito
       STR_ME_PLASMA_SWORD: Plasma Sword
+      STR_ME_HUMAN_BASIC_SHIELD: Ballistic Shield
+      STR_ME_HUMAN_ALLOY_SHIELD: Xelloy Shield 
+      STR_ME_HUMAN_HOLO_SHIELD: Energy Shield #ojito mejorar nombre
+      STR_AW_HOLO_SHIELD: Alien Energy Shield # Ojito mejorar nombre
+      STR_AW_ADVANCED_HOLO_SHIELD: Alien Advanced Energy Shield #ojito mejorar nombre
       STR_BO_ANTIMATTER_EXPLOSIVE: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
       STR_BO_ELERIUM_MINE: Elerium Mine
@@ -1893,7 +1899,7 @@ extraStrings:
       STR_LA_SMG_UFOPEDIA: The Assault Laser is a more offensive focused redesign of the Laser Pistol. Its high rate of fire is useful for close quarters assault.
       STR_LA_SHOTGUN_UFOPEDIA: The Bloom Laser splits the laser beam into numerous smaller beams creating a spread effect not unlike a shotgun.
       STR_LA_LMG_UFOPEDIA: The Pulse Laser as its name implies pulses a high focused laser emitter. This gives the Pulse Laser a very high rate of fire.
-      STR_ME_LASER_KNIFE_UFOPEDIA: (WIP) The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
+      STR_ME_LASER_KNIFE_UFOPEDIA: This portable tool serves as an improvement for close quarters combat. The blade of the knife vibrates at an extremely high frequency, increasing its cutting sharpness to the point that it can cut through the target at a molecular level.
 
       STR_ME_LASER_SWORD_UFOPEDIA: The soldiers insisted we make this thing. No it doesn't hum or buzz. Due to the nature of the laser cutter, the wielder's strength is not added to the weapon, but the cutting damage is very high regardless.
       STR_CHARGED_CELLS_UFOPEDIA: New advancements in battery technology has allowed our engineers to design and build Charged Cell batteries for our laser weapons. These cells greatly increase the damage output of our laser weapons, but drain more quickly than normal laser batteries.

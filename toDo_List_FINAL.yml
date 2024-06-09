@@ -47,6 +47,21 @@
      ~ Use the "marker" command assigned to each aircraft.
    * Perhaps remove pockets from personal armor.
 
+
+ - acomodar los escudos para q en la mano se enciendan y en la mochila sean 2x2 o 2x1 segun dependa
+   * integrar correctamente en el arbol de tecnologias
+   * Use metalhit.ogg as effect sound
+   * confirmar todos los handobs que esten habilitados correctamente y recolorizar la version holo humana
+   * usar el script de halo del kin-yar gauntlet
+     ~ recordar darle credits a filip-H
+       ° confirmar como editar para q cada escudo reciba menos daño q el anterior?
+     ~ Scutum/testudo el basico
+     ~ Hoplite el mas avanzado q es de alloys (haria juego con spartan armor)
+     ~ no se me ocurre para el escudo plasma
+   * agregar las dos variedades la azul y la dorada de plasma a alos alienigenas?
+     ~ sectoides buen candidato para esto
+   * hacerles sus respectivos articulos en la ufopaedia
+
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
@@ -80,23 +95,8 @@
    * eliminando el comando blastradius y remplazar con el que tipea recomendado el ruleset que es damage alter
  - acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
-     ~ tambien para el cohete chem
-     ~ confirmar todo los tipos de daños de las armas
   
- - implementar el item EScudo
-   * ya consegui los sprites
-   * tengo q recolorizarlos y adaptarlos mejor
-   * usar el script de halo del kin-yar gauntlet
-     ~ recordar darle credits a filip-H
-     ~ editar para q cada escudo reciba menos daño q el anterior
-     ~ principal diferencia entrara en el peso
-   * tendran un precio de aproximadamente 10 mil dolares(pasar a conversion)
-   * posibles nombres
-     ~ Scutum/testudo el basico
-     ~ Hoplite el mas avanzado q es de alloys (haria juego con spartan armor)
-     ~ no se me ocurre para el escudo plasma
-   * agregar las dos variedades la azul y la dorada de plasma a alos alienigenas?
-     ~ sectoides buen candidato para esto
+
 
 ####OJITO AQUI SIGUIENTES 
  - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
@@ -294,7 +294,35 @@ IMPORTANTE PARA LORE:
  - aprovechar lanza cohetes matador y reemplazarlo por primer smaw del into the abyss
    * retocar color
  - conseguir explosiones diferentes para efectos de granadas 
+#ojito SIGUIENTE, aqui de esto varios puedo terminar para el 0.98
 
+
+ - Create a breaching charge to perforate UFO walls and thus assault from different angles (check Xenonauts1 example).
+   * Later, create some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
+     ~ Give this "terrain damage" sub-property to the plasma sword and knife?
+ - Ensure all grenades have an implemented fuse type.
+   * This would differentiate three types of heavy explosives
+     ~ C4/Semtex as vanilla.
+     ~ A lighter satchel charge without a counting fuse that could be created.
+     ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
+ - Completely rebalance plasma weapons, especially weights.
+ - Change the Elerium grenade sprite to the classic alien and possibly enhance it .
+ - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
+ - Finalize the sprite change for melee weapons using Woofington files.
+   * Modify the handobs of the laser knife, plasma knife (both using the xelloy knife as example), alloy sword and plasma sword (using laser sword as an guide).
+     ~ also improve the laser sword handob slighty.
+   * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
+   * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out.
+ - Create a new handob and floorob sprite in the new Kriss Vector style for the Xsmg.
+ - Rename XX assault cannon to something 20mm flak.
+ - Rename tank AP cannon to 25 mm Bushmaster.
+ - Plane cannon is now a 30 mm GAU-8/A Avenger.
+   * Create an improved version that unlocks after researching xelloys?.
+ - Rename the entirety of weapons for planes.
+   * Almost done.
+ - Rename the weapon of the tank plasma cannon.
+ - Rename plane's plasma cannon.
+# OJITO ESTO arriba
 
 #MISC
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
@@ -356,7 +384,7 @@ IMPORTANTE PARA LORE:
  - Provide realistic equivalents for all weapon descriptions.
    * first tier partially done, the rest is up to go.
  - Modify Ancient Abomination autopsy picture to be more detailed and bloody.
- - Consider creating a new interrogation project for advanced races.
+#being worked this patch - Consider creating a new interrogation project for advanced races.
  - Remove articles about alien Elerium magazines from Ufopedia.
  - Conduct a thorough review and correction of medal articles.
    * Correct and improve all texts.
@@ -400,27 +428,12 @@ IMPORTANTE PARA LORE:
    * Consider all balance issues this could create.
  - Create a better handob sprite for the Milkor AGL.
    * Slightly reduce the size of drum magazines.
-#ojito SIGUIENTE, aqui de esto varios puedo terminar para el 0.98
-
-
- - Create a breaching charge to perforate UFO walls and thus assault from different angles (check Xenonauts1 example).
-   * Later, create some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
-     ~ Give this "terrain damage" sub-property to the plasma sword and knife?
-# OJITO ESTO     
- - Ensure all grenades have an implemented fuse type.
-   * This would differentiate three types of heavy explosives
-     ~ C4/Semtex as vanilla.
-     ~ A lighter satchel charge without a counting fuse that could be created.
-     ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
- - Completely rebalance plasma weapons, especially weights.
- - Change the Elerium grenade sprite to the classic alien and possibly enhance it .
  - Rebalance the minigun to be "lighter" in the weapon itself but heavier overall, requiring a special ammo and battery backpack, which will be upgraded in the Xtier.
    * Use a belt box of ammo as a fixed backpack for the battery and bullets (Black Ops minigun box sprite in X-Files could be used).
      ~ [(currently impossible to add "backpack related to weapons")]
    * Add vapor trails and reduce bullet speed.
    * Add a delay to "load the gun from the ground to the hands" as it involves "putting on the special backpack."
  - Perhaps add a cylinder to the plasma handcannon to make it a heavy revolver?.
- - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
  - Integrate functional flamethrowers (taking example from X-Files).
    * First version with fuel tanks on the back.
      ~ [(currently impossible to add "backpack related to weapons")]
@@ -428,32 +441,12 @@ IMPORTANTE PARA LORE:
    * Third version with gelatinized Elerium.
      ~ Some tank-like weapon, perhaps a "Kokodrile"?
  - Use "onehandpenalty" to define holographic swords like those in Mass Effect.
- - Finalize the sprite change for melee weapons using Woofington files.
-   * Modify the handobs of the laser knife, plasma knife (both using the xelloy knife as example), alloy sword and plasma sword (using laser sword as an guide).
-     ~ also improve the laser sword handob slighty.
-   * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
-   * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out.
  - Implement a recoil system.
    * Each consecutive shot with a weapon in the same turn generates an accuracy debuff.
      ~ Mitigated by the soldier's accuracy and strength stats.
    * This additional parameter could help in better balancing weapons (e.g., the PDW having little recoil but longer reload times).
- - Finally, implement a shield system similar to Xenonauts.
-   * Different levels and materials.
-     ~ A simple one in dark gray.
-     ~ One made of xelloys.
-     ~ One of hyper-heavy material.
-     ~ One "holographic"/energy-based.
-   * Use metalhit.ogg as the sound.
  - Confirm the issue with the bullet sprite of the pistol taser.
- - Create a new handob and floorob sprite in the new Kriss Vector style for the Xsmg.
- - Rename XX assault cannon to something 20mm flak.
- - Rename tank AP cannon to 25 mm Bushmaster.
- - Plane cannon is now a 30 mm GAU-8/A Avenger.
-   * Create an improved version that unlocks after researching xelloys?.
- - Rename the entirety of weapons for planes.
-   * Almost done.
- - Rename the weapon of the tank plasma cannon.
- - Rename plane's plasma cannon.
+
 
 #####
 
@@ -463,10 +456,15 @@ IMPORTANTE PARA LORE:
    * Provide a wide variety of fur patterns for different species.
      ~ At least 20 different sprites for each.
      ~ Rottweilers and Dobermans could be additional species, considering they don't have much variety in fur patterns.
- - Develop technology to uplift dogs to sapience.
-   * Utilize a soldier transformation.
-   * They would gain intelligence improvements and access to more abilities.
-   * The lore should explain all ethical and moral implications.
+ - Create accurate battle sprites (currently beyond my abilities; seek assistance).
+ - Slow down the walking animation speed of dogs to ensure all frames are activated.
+ - Resolve the issue with the zombification of dogs (from xfiles).
+
+
+#currently being worked on - Develop technology to uplift dogs to sapience.
+#currently being worked on   * Utilize a soldier transformation.
+#currently being worked on   * They would gain intelligence improvements and access to more abilities.
+#currently being worked on   * The lore should explain all ethical and moral implications.
  - Modify dog armor.
    * No pockets initially; perhaps add pockets to advanced versions to serve as mini-inventories.
    * Restore the strength stat.
@@ -480,10 +478,6 @@ IMPORTANTE PARA LORE:
      ~ Could equip weapons like Zoid ligers, medkits?
      ~ Turn dogs into better support units.
      ~ Turn dogs into the equivalent of a "terror unit" for humans.
- - Create accurate battle sprites (currently beyond my abilities; seek assistance).
- - Slow down the walking animation speed of dogs to ensure all frames are activated.
- - Resolve the issue with the zombification of dogs (from xfiles).
-
 #####
 
 + Vehicles Changes:
@@ -608,6 +602,8 @@ IMPORTANTE PARA LORE:
    * These changes would provide much more longevity to the use of drones by XCOM.
  - Add inventory sprites for civilians and a variety of civilians as well (possibly from XFILES).
  - Clearly add the recommendation for the song mod.
+#ojito esto aqui arriba
+
  - Implement a possible Armor chipping and degradation system.
  - Check all reloading TUs for every weapon.
    * Modify reload times, balance transfer times of items from one pocket to another.
