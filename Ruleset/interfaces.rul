@@ -2182,22 +2182,22 @@ interfaces:
     palette: PAL_BATTLESCAPE
     elements:
       - id: button
-        color: 239   # orange (era 144)
+        color: 239   # blueish (was 144)
       - id: text
-        color: 8   # main grey? (239)
-        color2: 33  # yellow (244)
+        color: 8   # main grey? (was 239)
+        color2: 33  # yellow (was 244)
       - id: list
-        color: 3   # grey (239)
-        color2: 5  # light blue (244)
+        color: 3   # grey (was 239)
+        color2: 5  # light blue (was 244)
       - id: ammoColor
         color: 16    # red
 #
       - id: ammoColorDTAP
-        color: 97    # brass, AP # deberia ser medio azuladito?
+        color: 239    # brass, AP # (?) deberia ser medio azuladito
       - id: ammoColorDTIN
         color: 15    # yellow, Incendiary  # (DONE)
       - id: ammoColorDTHE
-        color: 165    # brownish, High Explosive  # (DONE)
+        color: 163    # purple, High Explosive  # (DONE)
       - id: ammoColorDTLaser
         color: 38    # dark red, Laser  # (DONE)
       - id: ammoColorDTPlasma
@@ -2205,7 +2205,7 @@ interfaces:
       - id: ammoColorDTStun
         color: 244    # Light Blue, Electrical (Stun) damage  # (DONE)
       - id: ammoColorDTMelee
-        color: 239    # pale blue, Melee  # (?) este debe ser grisaceo, aun no me decido
+        color: 227    # pale purple, Melee  # (?) este debe ser grisaceo, aun no me decido
       - id: ammoColorDTAcid
         color: 49    # lime green, Acid # (DONE)
       - id: ammoColorDTSmoke

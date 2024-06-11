@@ -424,6 +424,11 @@ IMPORTANTE PARA LORE:
 #####
 
 + Weapons Changes:
+ - Implement correctly the damage alter parameters to basically all the weapons
+   * explosives are mostly done
+   * confirm which ones can be marked to avoid overkill
+   * add differents characteristics to other weeapons in order to get more interesting behaviours.
+     ~ all this using the "damageAlter" parameters.
  - Check that by eliminating certain shot types, weapons now have different maximum ranges in some instances.
    * Consider all balance issues this could create.
  - Create a better handob sprite for the Milkor AGL.

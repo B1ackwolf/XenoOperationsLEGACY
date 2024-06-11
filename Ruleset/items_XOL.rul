@@ -436,23 +436,19 @@ items:
 # ojito esto va a ser replicado en todos y cada uno de los blast radius en mayor o menor medida
 # doble ojito recordatorio agregar el ignore overkill en practicamente todos
     damageType: 3
-    blastRadius: 3
     damageAlter:
       RandomType: 2
-      ResistType: 7
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FixRadius: 4
+      RadiusReduction: 20
+      FireThreshold: 100
+      ToHealth: 1.2
+      ToMorale: 0.5
       ToArmorPre: 0.05
-      ToStun: 0.7
-      ToTile: 0.25
-#ojito hasta aqui es q copio los parametros      
-
+      ToStun: 0.5
+      ToTile: 0.45   
     clipSize: 4
-    # ignoreInCraftEquip: true
-    # ignoreInBaseDefense: true
+    # ignoreInCraftEquip: true #ojito cuando implemente los nuevos IAs basados en unidades estandar esto va a eliminarse posiblemente
+    # ignoreInBaseDefense: true # idem arriba
     battleType: 2
     invWidth: 2
     invHeight: 3
@@ -476,7 +472,7 @@ items:
     weight: 100
     listOrder: 10601
 ############## ojito borrar esto de abajo seguramente
-  - type: STR_HEAVY_TANK_AP
+  - type: STR_HEAVY_TANK_AP 
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
     size: 5
     costSell: 575000
@@ -558,13 +554,17 @@ items:
     hitAnimation: 26
     power: 100
     damageType: 3
-    blastRadius: 3
-    damageAlter:
+    damageAlter: 
       RandomType: 2
+      FixRadius: 4
+      RadiusReduction: 20
+      FireThreshold: 100
+      ToHealth: 1.0
+      ToMorale: 2.0
+      ToArmorPre: 0.05
+      ToStun: 0.5
+      ToTile: 0.35
 #      IgnoreOverKill: false
-      ToTile: 0.66
-      FixRadius: -1
-      RadiusReduction: 50
     clipSize: 20
     battleType: 2
     invWidth: 1
@@ -584,16 +584,13 @@ items:
     hitSound: 4
     hitAnimation: 0
     power: 80
-    damageType: 3
-    blastRadius: 3
-
-    bulletSpeed: 10
+    damageType: 1
     damageAlter:
+      ArmorEffectiveness: 0.85
+      IgnoreOverKill: false #ojito checar luego
       RandomType: 6
-#      IgnoreOverKill: false
       ToTile: 1.4
-      FixRadius: 2
-      RadiusReduction: 40
+    bulletSpeed: 10
     clipSize: 30
     battleType: 2
     invWidth: 2
@@ -1338,7 +1335,19 @@ items:
     costBuy: 5
     costSell: 2
     floorSprite: 12
- #   handSprite: 320    
+     #   handSprite: 320
+    damageType: 3
+    damageAlter: 
+      RandomType: 6
+      FixRadius: 4
+      RadiusReduction: 15
+      FireThreshold: 1000
+      ToHealth: 1.2
+      ToMorale: 2.0
+      ToArmorPre: 0.05
+      ToStun: 0.6
+      ToTile: 0.35
+#      IgnoreOverKill: false 
     listOrder: 2126
   - type: STR_HC_I_AMMO
     power: 55
@@ -1346,7 +1355,19 @@ items:
     costSell: 2
     bigSprite: 13
     floorSprite: 12
- #   handSprite: 328
+#   handSprite: 328
+    damageType: 3
+    damageAlter: 
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 4
+      RadiusReduction: 10
+      FireThreshold: 40 #ojito confirmar bien este
+      ToHealth: 1.5
+      ToMorale: 3.0
+      ToArmorPre: 0.05
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2127
   - type: STR_HC_AP_AMMO #its smoke grenade
     damageType: 9
@@ -1356,6 +1377,18 @@ items:
     bigSprite: 14
     floorSprite: 12
   #  handSprite: 312
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2128
 # ojito mejorar    
   - type: STR_ROCKET_LAUNCHER
@@ -1366,14 +1399,50 @@ items:
   - type: STR_SMALL_ROCKET
     costBuy: 60
     costSell: 30
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2130
   - type: STR_LARGE_ROCKET
     listOrder: 2131
     costBuy: 80
     costSell: 40
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
   - type: STR_INCENDIARY_ROCKET
     costBuy: 40
     costSell: 20
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2132
 ###-----Human second tier Ballistic eXperimental weapons-----###
   - type: STR_XP_SMALL_PISTOL
@@ -2032,7 +2101,18 @@ items:
     hitAnimation: 0
     power: 53
     damageType: 3
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 10
     battleType: 2
     invWidth: 2
@@ -2103,7 +2183,18 @@ items:
     hitAnimation: 0
     power: 85
     damageType: 3
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -2119,7 +2210,18 @@ items:
     hitAnimation: 0
     power: 115
     damageType: 3
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -2861,7 +2963,18 @@ items:
     hitAnimation: 0
     power: 64
     damageType: 8
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 14
     battleType: 2
     invWidth: 2
@@ -2877,7 +2990,18 @@ items:
     hitAnimation: 0
     power: 70
     damageType: 3
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 14
     battleType: 2
     invWidth: 2
@@ -2920,7 +3044,18 @@ items:
     hitAnimation: 0
     power: 144
     damageType: 3
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -2936,7 +3071,18 @@ items:
     hitAnimation: 0
     power: 115
     damageType: 8
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -3542,7 +3688,18 @@ items:
 #    hitAnimation: 26
     power: 37
     damageType: 3
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 15
     battleType: 2
     armor: 65
@@ -3615,7 +3772,18 @@ items:
 #    hitAnimation: 26
     power: 36
     damageType: 3
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 6
     shotgunPellets: 5
     battleType: 2
@@ -3688,7 +3856,18 @@ items:
 #    hitAnimation: 26
     power: 48
     damageType: 3
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 15
     battleType: 2
     listOrder: 2513
@@ -3762,7 +3941,18 @@ items:
 #    hitAnimation: 26
     power: 56
     damageType: 3
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 20
     battleType: 2
     invWidth: 1
@@ -3833,7 +4023,18 @@ items:
 #    hitAnimation: 26
     power: 57
     damageType: 3
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 5
     battleType: 2
     listOrder: 2521
@@ -3909,7 +4110,18 @@ items:
 #    hitAnimation: 26
     power: 66
     damageType: 3
-    blastRadius: 2
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 8
     battleType: 2
     invWidth: 1
@@ -3984,7 +4196,18 @@ items:
 #    hitAnimation: 26
     power: 90
     damageType: 3
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 2
     battleType: 2
     invWidth: 1
@@ -4063,7 +4286,18 @@ items:
     damageType: 3
     clipSize: 6
     battleType: 2
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     attraction: 1
     listOrder: 2604
   - type: STR_PM_MAIN_PISTOL
@@ -4166,7 +4400,18 @@ items:
     damageType: 3
     clipSize: 9
     battleType: 2
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     attraction: 1
     listOrder: 2609
   - type: STR_PM_HEAVY_PISTOL
@@ -4269,7 +4514,18 @@ items:
     damageType: 3
     clipSize: 5
     battleType: 2
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     attraction: 1
     listOrder: 2614
   - type: STR_PM_SHOTGUN
@@ -4349,7 +4605,18 @@ items:
     shotgunPellets: 3
     battleType: 2
     attraction: 1
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2618
   - type: STR_PM_RIFLE
     size: 0.2
@@ -4426,7 +4693,18 @@ items:
     clipSize: 10
     battleType: 2
     attraction: 1
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2622
   - type: STR_PM_LMG
     size: 0.2
@@ -4508,7 +4786,18 @@ items:
     clipSize: 14
     battleType: 2
     attraction: 1
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     invWidth: 2
     invHeight: 1
     listOrder: 2626
@@ -4586,7 +4875,18 @@ items:
     clipSize: 5
     battleType: 2
     attraction: 1
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2630
   - type: STR_PM_HEAVY_CANNON
     size: 0.2
@@ -4666,7 +4966,18 @@ items:
     invWidth: 2
     invHeight: 1
     attraction: 1
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2634
   - type: STR_PM_ANTIMATTER_LAUNCHER
     requires:
@@ -4708,7 +5019,18 @@ items:
     invWidth: 2
     invHeight: 1
     waypoints: 5
-    blastRadius: 3
+    damageAlter: # continuar este , ojito, hacerlo daño plasma?
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2636
   - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB2
     requires:
@@ -4726,7 +5048,18 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    blastRadius: 10
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2637
   - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB3
     requires:
@@ -4745,7 +5078,18 @@ items:
     invWidth: 2
     invHeight: 1
     waypoints: 5
-    blastRadius: 10
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2638
 ###-----Human Stun Weapons Tier -----###
   - type: STR_STUN_ROD   #ojito luego cambiar nombre para mantener nomenclatura
@@ -4802,14 +5146,11 @@ items:
     floorSprite: 91
     hitSound: 54
     hitAnimation: 56
-    blastRadius: 0
     power: 30
-
-#ojito q esto se modifica, son los parametros para las cosas q sean stun electrico
-    damageType: 6 # ojito este se vuelve tipo 3
-    damageAlter:
+    damageType: 6
+    damageAlter: #ojito continuar este, tenia blastradius 0, investigar si era por algo en especifico?
       ResistType: 6
-      IgnorePainImmunity: true
+      IgnorePainImmunity: true 
       IgnoreSelfDestruct: true
       RandomWound: false
       ArmorEffectiveness: 0.25
@@ -4819,7 +5160,13 @@ items:
       ToItem: 0
       ToWound: 0
       FixRadius: 5
-
+      RandomType: 2
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+#      IgnoreOverKill: false
     clipSize: 2
     battleType: 2
     armor: 65
@@ -4886,7 +5233,18 @@ items:
     hitAnimation: 96
     power: 70
     damageType: 6
-    blastRadius: 0
+    damageAlter: # continuar este, su rango era 0, investigar luego xq?
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 12
     battleType: 2
     listOrder: 2708
@@ -4926,7 +5284,18 @@ items:
     hitAnimation: 96
     power: 120
     damageType: 6
-    blastRadius: 0
+    damageAlter: # continuar este, investigar xq rango era 0
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 10
     battleType: 2
     listOrder: 2710
@@ -4940,10 +5309,21 @@ items:
     power: 90
     damageType: 6
     battleType: 4
-    blastRadius: 4
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2711
 ###-----Human Melee tier weapons-----###
-  - type: STR_ME_KNUCKLES
+  - type: STR_ME_KNUCKLES #revisar el nudillo en xfiles
     size: 0.01
     costBuy: 1
     costSell: 0
@@ -4970,7 +5350,7 @@ items:
     meleeAnimation: 0
     skillApplied: true
     listOrder: 2801
-  - type: STR_ME_BASIC_KNIFE
+  - type: STR_ME_BASIC_KNIFE #revisar y copiar cuchillos de xfiles
     size: 0.02
     costBuy: 1
     costSell: 0
@@ -4992,7 +5372,7 @@ items:
     meleeAnimation: 4
     skillApplied: true
     listOrder: 2802
-  - type: STR_ME_ALLOY_KNIFE
+  - type: STR_ME_ALLOY_KNIFE #idem arriba
     size: 0.1
     costSell: 5000
     weight: 2
@@ -5016,7 +5396,7 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 2803
-  - type: STR_ME_ALLOY_SWORD
+  - type: STR_ME_ALLOY_SWORD #revisar arriba
     size: 0.1
     costSell: 12000
     weight: 5
@@ -5040,7 +5420,7 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 2804
-  - type: STR_ME_LASER_KNIFE
+  - type: STR_ME_LASER_KNIFE #revisar arriba
     size: 0.1
     costSell: 5000
     weight: 2
@@ -5064,7 +5444,7 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 2805
-  - type: STR_ME_LASER_SWORD
+  - type: STR_ME_LASER_SWORD #revisar arriba
     size: 0.1
     costSell: 37500
     weight: 4
@@ -5085,7 +5465,7 @@ items:
     meleeAnimation: 40
     skillApplied: true
     listOrder: 2806
-  - type: STR_ME_PLASMA_KNIFE
+  - type: STR_ME_PLASMA_KNIFE #revisar arriba
     size: 0.1
     costSell: 5000
     weight: 2
@@ -5109,7 +5489,7 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 2807
-  - type: STR_ME_PLASMA_SWORD
+  - type: STR_ME_PLASMA_SWORD #revisar arrriba
     size: 0.2
     costSell: 20000
     weight: 4
@@ -5273,6 +5653,18 @@ items:
     bigSprite: 2650
     floorSprite: 2659
     handSprite: 1340
+    damageAlter: # continuar este revisar en xfiles la granada de humo
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2816
   - type: STR_BO_FIERY_GRENADE 
     size: 0.05
@@ -5285,7 +5677,18 @@ items:
     power: 70
     damageType: 2
     battleType: 4
-    blastRadius: 3
+    damageAlter: # continuar este, revisar granadas incendiarias de xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -2
     listOrder: 2902
   - type: STR_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
@@ -5294,7 +5697,18 @@ items:
     bigSprite: 2651
     floorSprite: 2651
     handSprite: 2651
-    blastRadius: 3
+    damageAlter: # continuar este, revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     damageType: 3
     weight: 3
     fuseType: -2
@@ -5309,7 +5723,18 @@ items:
     power: 65
     damageType: 3
     battleType: 4
-    blastRadius: 3
+    damageAlter: # continuar este, revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -2
     listOrder: 2904
   - type: STR_PROXIMITY_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
@@ -5325,7 +5750,18 @@ items:
     power: 60
     damageType: 3
     battleType: 5
-    blastRadius: 2
+    damageAlter: # continuar este revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     listOrder: 2905
   - type: STR_BO_HYBRID_GRENADE
@@ -5338,7 +5774,18 @@ items:
     power: 75
     damageType: 3
     battleType: 4
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     invWidth: 1
     invHeight: 1
@@ -5353,7 +5800,18 @@ items:
     power: 80
     damageType: 8
     battleType: 4
-    blastRadius: 3
+    damageAlter: # continuar este, revisar algun equivalente granada quimica xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     invWidth: 1
     invHeight: 1
@@ -5367,7 +5825,7 @@ items:
     floorSprite: 2652
     handSprite: 2662
     power: 80
-    damageAlter:
+    damageAlter: # ojito revisar mejor equivalente de xfiles
       ResistType: 1
       FixRadius: 5
       RadiusReduction: 5
@@ -5388,7 +5846,6 @@ items:
     battleType: 4
     invWidth: 1
     invHeight: 1
-    blastRadius: 5
     fuseType: -1
     attraction: 15
     listOrder: 2908
@@ -5403,7 +5860,18 @@ items:
     power: 85
     damageType: 3
     battleType: 4
-    blastRadius: 4
+    damageAlter: # continuar este revisar equivalente a xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     listOrder: 2909
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
@@ -5413,7 +5881,18 @@ items:
    # floorSprite: 301
     handSprite: 216
     damageType: 3
-    blastRadius: 3
+    damageAlter: # continuar este, revisar xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 2911
   - type: STR_BO_ELERIUM_MINE #ojito cambiar nombre q esta es humana
     size: 0.025
@@ -5425,7 +5904,18 @@ items:
     power: 90
     damageType: 3
     battleType: 5
-    blastRadius: 4
+    damageAlter: # continuar este, revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     attraction: 6
     listOrder: 2912
@@ -5441,7 +5931,18 @@ items:
     battleType: 4
     invWidth: 2
     invHeight: 1
-    blastRadius: 8
+    damageAlter: # continuar este revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     twoHanded: true
     attraction: 6
@@ -5462,7 +5963,6 @@ items:
     power: 150
     hitSound: 0
     hitAnimation: 0
-    #blastRadius: 1
     damageType: 3
     damageAlter:
       RandomType: 2
@@ -5508,7 +6008,6 @@ items:
     power: 150
     hitSound: 0
     hitAnimation: 0
-    #blastRadius: 1
     damageType: 3
     damageAlter:
       RandomType: 2
@@ -5553,7 +6052,6 @@ items:
     power: 150
     hitSound: 0
     hitAnimation: 0
-    #blastRadius: 1
     damageType: 3
     damageAlter:
       RandomType: 2
@@ -5830,7 +6328,18 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    blastRadius: 1
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 3010
   - type: STR_AW_LMG
     requires:
@@ -5925,7 +6434,18 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    blastRadius: 2
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 3014
   - type: STR_AW_SNIPER
     requires:
@@ -6065,7 +6585,18 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    blastRadius: 3
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     listOrder: 3021
 # Elite alien weaponry    
   - type: STR_AW_ELITE_RIFLE
@@ -6156,7 +6687,18 @@ items:
     hitAnimation: 0
     power: 90
     damageType: 6
-    blastRadius: 3
+    damageAlter: # continuar este revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 6
     battleType: 2
     invWidth: 2
@@ -6177,7 +6719,18 @@ items:
     hitAnimation: 0
     power: 90
     damageType: 8
-    blastRadius: 3
+    damageAlter: # continuar este revisar explosivos quimicos xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 6
     battleType: 2
     invWidth: 2
@@ -6198,8 +6751,18 @@ items:
     hitAnimation: 0
     power: 90
     damageType: 3
-    blastRadius: 3
-
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     clipSize: 6
     battleType: 2
     invWidth: 2
@@ -6247,7 +6810,18 @@ items:
       - STR_ALIEN_GRENADE
       - STR_LIGHT_ALIEN_WEAPONS
     bigSprite: 364
-    blastRadius: 3
+    damageAlter: # continuar este revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     floorSprite: 364
     handSprite: 850
@@ -6265,7 +6839,18 @@ items:
     power: 95
     damageType: 3
     battleType: 5
-    blastRadius: 4
+    damageAlter: # continuar este revisar algun proxy alienigena de xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -2
     recoveryPoints: 1
     attraction: 6
@@ -6285,7 +6870,18 @@ items:
     battleType: 4
     invWidth: 1
     invHeight: 2
-    blastRadius: 8
+    damageAlter: # continuar este
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
     fuseType: -1
     recoveryPoints: 1
     attraction: 6
