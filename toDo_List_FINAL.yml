@@ -303,8 +303,8 @@ IMPORTANTE PARA LORE:
  - Ensure all grenades have an implemented fuse type.
    * This would differentiate three types of heavy explosives
      ~ C4/Semtex as vanilla.
-     ~ A lighter satchel charge without a counting fuse that could be created.
-     ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
+     ~ A lighter satchel charge without a counting fuse that could be created. (modificar los tubos de dinamita para q parezcan mas un bloque de explosivo plastico)
+     ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls. (ojito, usar el sprite 17B y meterle esos detallitos al breaching charge mejorado, incluyendo los cambios en el color)
  - Completely rebalance plasma weapons, especially weights.
  - Change the Elerium grenade sprite to the classic alien and possibly enhance it .
  - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
