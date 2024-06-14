@@ -568,7 +568,7 @@ items:
     clipSize: 20
     battleType: 2
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     listOrder: 9002
   - type: STR_25MM_CHAIN_BOX
 #    categories: [STR_TANKS, STR_NATO_TECH, STR_TANK_AMMO, STR_LIGHT_TANKS]
