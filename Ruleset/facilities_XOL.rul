@@ -29,7 +29,6 @@ facilities:
     buildCost: 90000
     monthlyCost: 4500
     buildOverFacilities: [ STR_SECURITY_STATION ]
-
     buildTime: 7
     refundValue: 30000
     canBeBuiltOver: true

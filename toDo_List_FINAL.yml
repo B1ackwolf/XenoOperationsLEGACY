@@ -2,7 +2,6 @@
 #checar los ojitos siguientes
 
 
-
 + datos importantes para considerar cuando balancee ciertos gastos :
 
 #estos son notaciones para tener en cuenta respecto a la eliminacion de ceros dentro del juego
@@ -29,6 +28,23 @@
 #######
 ####### Esto para hacer principalmente en la chamba
 #######
+ - sacar baseprites para edificios del tftd twots y tftd+
+ - modificar ligeramente el mapa del security station para q encaje con el octagonal
+ - cambiarle el nombre a las armas de aviones
+   * checar el archivo excel de la pagina para mas info
+ - reordenar el tema de los tipos de unidades
+   * 1 seran los soldados clasicos
+   * 2 seran los soldados elite
+   * 3 seran los tanqueros
+   * 4 seran los mech pilots
+   * 5 seran los oficiales
+   * 6 seran los drones uplink
+   * 7 seran los perritos
+   * 8 seran los perritos smarter
+   * 9 seran los perritos sapiens
+     ~ explicar q aunque los drones no son humanos, necesitan de uno para manejarse y espacio en las instalaciones, ya despues aunque sean semi automaticos, igual requieren human input 
+ - el lore de los spawns sera como leliel
+   * internamente son un mar dirac infinito blablabla
  - describir que la barraca grande tambien proporciona el trooper school y es necesario para poder hacer el upgrade a oficiales y demas
  - eliminar los tanques de plasma y flotantes para integrarlos al nuevo sistema
  - agregar alternativas adicionales a los tanques de tierra
@@ -432,8 +448,6 @@ IMPORTANTE PARA LORE:
      ~ all this using the "damageAlter" parameters.
  - Check that by eliminating certain shot types, weapons now have different maximum ranges in some instances.
    * Consider all balance issues this could create.
- - Create a better handob sprite for the Milkor AGL.
-   * Slightly reduce the size of drum magazines.
  - Rebalance the minigun to be "lighter" in the weapon itself but heavier overall, requiring a special ammo and battery backpack, which will be upgraded in the Xtier.
    * Use a belt box of ammo as a fixed backpack for the battery and bullets (Black Ops minigun box sprite in X-Files could be used).
      ~ [(currently impossible to add "backpack related to weapons")]
@@ -518,8 +532,9 @@ IMPORTANTE PARA LORE:
  - Maintain the blades of the Shuriken, add a portion of central blades to the Longbow.
    * Completely redesign the Longbow sprite.
  - Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
+   * uses three designs, small, medium and large drones
    * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
-     ~ temptative names will be the crossbow and ARBALEST.
+     ~ temptative names will be the chu-ko-nu, ARBALEST and ballista.
    * Create alien drone equivalents of drones using XFILES ROBOSPHERE
 
 #####

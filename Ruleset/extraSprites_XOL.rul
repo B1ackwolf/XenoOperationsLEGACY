@@ -279,18 +279,18 @@ extraSprites:
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance BigObs -----#
       2650: Resources/WeaponrySprites/9thOrdnance/BigOb/1SmokeGrenade.png
-      301: Resources/WeaponrySprites/9thOrdnance/BigOb/2IncGrenade.gif
-      2651: Resources/WeaponrySprites/9thOrdnance/BigOb/3BasicGrenade.png
-      313: Resources/WeaponrySprites/9thOrdnance/BigOb/4StickGrenade.gif
-      674: Resources/WeaponrySprites/9thOrdnance/BigOb/6HybGrenade1.gif
-      675: Resources/WeaponrySprites/9thOrdnance/BigOb/7HybGrenade2.gif
-      2652: Resources/WeaponrySprites/9thOrdnance/BigOb/8ApGrenade.png
-      2653: Resources/WeaponrySprites/9thOrdnance/BigOb/9HumanPlasmaGrenade.png
-      433: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanEleriumMine.gif
-      434: Resources/WeaponrySprites/9thOrdnance/BigOb/11HumaAntiMatterCharge.gif
-      250: Resources/WeaponrySprites/9thOrdnance/BigOb/15BangaloreCharge.png
-      251: Resources/WeaponrySprites/9thOrdnance/BigOb/16BreachingElerium.png
-      252: Resources/WeaponrySprites/9thOrdnance/BigOb/17BreachingAntimatter.png
+      301: Resources/WeaponrySprites/9thOrdnance/BigOb/3IncGrenade.gif
+      2651: Resources/WeaponrySprites/9thOrdnance/BigOb/4BasicGrenade.png
+      313: Resources/WeaponrySprites/9thOrdnance/BigOb/5StickGrenade.gif
+      674: Resources/WeaponrySprites/9thOrdnance/BigOb/7HybGrenade1.gif
+      675: Resources/WeaponrySprites/9thOrdnance/BigOb/8HybGrenade2.gif
+      2652: Resources/WeaponrySprites/9thOrdnance/BigOb/9ApGrenade.png
+      2653: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanPlasmaGrenade.png
+      433: Resources/WeaponrySprites/9thOrdnance/BigOb/11EleriumSeismicMine.gif
+      434: Resources/WeaponrySprites/9thOrdnance/BigOb/15HumaAntiMatterCharge.gif
+      250: Resources/WeaponrySprites/9thOrdnance/BigOb/16BangaloreCharge.png
+      251: Resources/WeaponrySprites/9thOrdnance/BigOb/17BreachingElerium.png
+      252: Resources/WeaponrySprites/9thOrdnance/BigOb/18BreachingAntimatter.png
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma BigObs -----#
       350: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol.gif
@@ -649,18 +649,18 @@ extraSprites:
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance FloorObs -----#
       2659: Resources/WeaponrySprites/9thOrdnance/FloorOb/1SmokeGrenade_floor.png
-      301: Resources/WeaponrySprites/9thOrdnance/FloorOb/2IncGrenade_floor.gif
-      2651: Resources/WeaponrySprites/9thOrdnance/FloorOb/3BasicGrenade_floor.png
-      313: Resources/WeaponrySprites/9thOrdnance/FloorOb/4StickGrenade_floor.gif
-      674: Resources/WeaponrySprites/9thOrdnance/FloorOb/6HybGrenade1_floor.gif
-      675: Resources/WeaponrySprites/9thOrdnance/FloorOb/7HybGrenade2_floor.gif
-      2652: Resources/WeaponrySprites/9thOrdnance/FloorOb/8ApGrenade_floor.png
-      38: Resources/WeaponrySprites/9thOrdnance/FloorOb/9HumanPlasmaGrenade_floor.png
-      433: Resources/WeaponrySprites/9thOrdnance/FloorOb/10HumanEleriumMine_floor.gif
-      434: Resources/WeaponrySprites/9thOrdnance/FloorOb/11HumanAntimatterCharge_floor.gif
-      250: Resources/WeaponrySprites/9thOrdnance/FloorOb/15BangaloreCharge_floor.png
-      251: Resources/WeaponrySprites/9thOrdnance/FloorOb/16BreachingElerium_floor.png
-      252: Resources/WeaponrySprites/9thOrdnance/FloorOb/17BreachingAntimatter_floor.gif
+      301: Resources/WeaponrySprites/9thOrdnance/FloorOb/3IncGrenade_floor.gif
+      2651: Resources/WeaponrySprites/9thOrdnance/FloorOb/4BasicGrenade_floor.png
+      313: Resources/WeaponrySprites/9thOrdnance/FloorOb/5StickGrenade_floor.gif
+      674: Resources/WeaponrySprites/9thOrdnance/FloorOb/7HybGrenade1_floor.gif
+      675: Resources/WeaponrySprites/9thOrdnance/FloorOb/8HybGrenade2_floor.gif
+      2652: Resources/WeaponrySprites/9thOrdnance/FloorOb/9ApGrenade_floor.png
+      38: Resources/WeaponrySprites/9thOrdnance/FloorOb/10HumanPlasmaGrenade_floor.png
+      433: Resources/WeaponrySprites/9thOrdnance/FloorOb/11EleriumSeismicMine_floor.gif
+      434: Resources/WeaponrySprites/9thOrdnance/FloorOb/15HumanAntimatterCharge_floor.gif
+      250: Resources/WeaponrySprites/9thOrdnance/FloorOb/16BangaloreCharge_floor.png
+      251: Resources/WeaponrySprites/9thOrdnance/FloorOb/17BreachingElerium_floor.png
+      252: Resources/WeaponrySprites/9thOrdnance/FloorOb/18BreachingAntimatter_floor.gif
 
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma FloorObs -----#
@@ -768,7 +768,7 @@ extraSprites:
       256: Resources/WeaponrySprites/1stBallistic/HandOb/SmallRocket_hand.png
       1264: Resources/WeaponrySprites/1stBallistic/HandOb/LargeRocket_hand.png
       1272: Resources/WeaponrySprites/1stBallistic/HandOb/INRocket_hand.png
-     # 90: Resources/WeaponrySprites/1stBallistic/HandOb/14GrenadeLauncher_hand.png # ojito hacer a dos manos
+      90: Resources/WeaponrySprites/1stBallistic/HandOb/14GrenadeLauncher_hand.png
      # 1352: Resources/WeaponrySprites/1stBallistic/HandOb/RifleClip_hand.png # ojito usar para cartuchos grandes de este tier
      # 1366: Resources/WeaponrySprites/1stBallistic/HandOb/PistolClip_hand.png #ojito usar para todos los cartuchos chikitos de este tier
 #----- Tier 1 ends here -----#
@@ -842,15 +842,15 @@ extraSprites:
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance HandObs -----#
       1340: Resources/WeaponrySprites/9thOrdnance/HandOb/1SmokeGrenade_hand.png
-      1348: Resources/WeaponrySprites/9thOrdnance/HandOb/2IncGrenade_hand.png
-      2651: Resources/WeaponrySprites/9thOrdnance/HandOb/3BasicGrenade_hand.png
-      232: Resources/WeaponrySprites/9thOrdnance/HandOb/5Proxgrenade_hand.png
-      2662: Resources/WeaponrySprites/9thOrdnance/HandOb/8ApGrenade_hand.png
-      2672: Resources/WeaponrySprites/9thOrdnance/HandOb/9PlasmaGrenade_hand.png
-      216: Resources/WeaponrySprites/9thOrdnance/HandOb/11HighExplosive_hand.png
+      1348: Resources/WeaponrySprites/9thOrdnance/HandOb/3IncGrenade_hand.png
+      2651: Resources/WeaponrySprites/9thOrdnance/HandOb/4BasicGrenade_hand.png
+      232: Resources/WeaponrySprites/9thOrdnance/HandOb/6Proxgrenade_hand.png
+      2662: Resources/WeaponrySprites/9thOrdnance/HandOb/9ApGrenade_hand.png
+      2672: Resources/WeaponrySprites/9thOrdnance/HandOb/10PlasmaGrenade_hand.png
+      216: Resources/WeaponrySprites/9thOrdnance/HandOb/18HighExplosive_hand.png
       1050: Resources/WeaponrySprites/9thOrdnance/HandOb/13HumanAntimatterCharge_hand.gif
-      190: Resources/WeaponrySprites/9thOrdnance/HandOb/15BangaloreCharge_hand.png
-      1245: Resources/WeaponrySprites/9thOrdnance/HandOb/16BreachingElerium_hand.gif
+      190: Resources/WeaponrySprites/9thOrdnance/HandOb/16BangaloreCharge_hand.png
+      1245: Resources/WeaponrySprites/9thOrdnance/HandOb/17BreachingElerium_hand.gif
       1290: Resources/WeaponrySprites/9thOrdnance/HandOb/17BreachingAntimatter_hand.gif
      # 1335: Resources/WeaponrySprites/9thOrdnance/HandOb/8EleriumGrenade_hand.png ####ojito usar para granada humana de elerium, mejorar sprite
 #----- Tier 9 Ordnance ends here -----#
@@ -1095,14 +1095,14 @@ extraSprites:
       143: Resources/UxUI/BaseBits/BuildingSprites/LargePsiPC2.gif
       144: Resources/UxUI/BaseBits/BuildingSprites/LargePsiPC3.gif
       145: Resources/UxUI/BaseBits/BuildingSprites/LargePsiPC4.gif
-      301: Resources/UxUI/BaseBits/BuildingSprites/LQ2_1.gif
-      302: Resources/UxUI/BaseBits/BuildingSprites/LQ2_2.gif
-      303: Resources/UxUI/BaseBits/BuildingSprites/LQ2_3.gif
-      304: Resources/UxUI/BaseBits/BuildingSprites/LQ2_4.gif
-      305: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_1.gif
-      306: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_2.gif
-      307: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_3.gif
-      308: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_4.gif
+      301: Resources/UxUI/BaseBits/BuildingSprites/LQ2_1.png
+      302: Resources/UxUI/BaseBits/BuildingSprites/LQ2_2.png
+      303: Resources/UxUI/BaseBits/BuildingSprites/LQ2_3.png
+      304: Resources/UxUI/BaseBits/BuildingSprites/LQ2_4.png
+      305: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_1.png
+      306: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_2.png
+      307: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_3.png
+      308: Resources/UxUI/BaseBits/BuildingSprites/LQ2_b_4.png
       309: Resources/UxUI/BaseBits/BuildingSprites/GS2_1.gif
       310: Resources/UxUI/BaseBits/BuildingSprites/GS2_2.gif
       311: Resources/UxUI/BaseBits/BuildingSprites/GS2_3.gif

@@ -193,7 +193,7 @@ TWEAKS AND BALANCE:
  - the stun pistols nows requires xeno physiology and its an manufacture project 
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
  - tiempo de espera de arribo de contratos nuevos reducidos a 48h
-
+ - la ametralladora ligera, el lanzagranadas y el rifle antimaterial ahora ocupan un espacio de 2x3 en el inventario
  - Reajusted some numbers related to scientist and research:
    * Salaries increased to 450k (from 75k)
    * small laboratories space reduced to 10
@@ -249,7 +249,17 @@ Sprite tweaks:
  - modificada ligeramente las insignias de first sergeants ahora tienen doble chevron en la parte de abajo
  - modifcadas y mejoradas practicamente todas las granadas
    * recibieron mejoras visuales al inv sprite, al floor sprite y al handsprite
- 
+ - finalizado (for real this time, i swear) el sprite del grenade launcher, ahora si parece verdaderamente un milkor MGL
+   * reducido el tamaño de los sprites de sus municiones para mantener el estilo
+   * cambios hechos tambien al floorsprite y el handsprite para q coincidan con estos cambios
+ - pequeños retoques al LMG standar, para que parezca mas a la m249 en la q esta basada
+ - rediseño completo al sprite del devastator launcher (human blaster launcher), preparandolo para cuando se implemente el nuevo sistema de sprites
+ - algunas base sprites fueron mejoradas
+   * el gym
+   * seciroty station
+   * large living quarters
+
+
 craft changes
  - todas las naves de xcom recibieron mejoras significativas sea en funcionalidad o en apariencia, ademas de retoques en estadisticas (ojito hacer esto)
    *dragonfly recibio correcciones menores con los LoS desde adentro del avion. velocidad mas baja

@@ -1168,7 +1168,7 @@ items:
     autoShots: 6
     battleType: 1
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     maxRange: 200
     snapRange: 25
@@ -1251,7 +1251,7 @@ items:
     tuAimed: 90
     battleType: 1
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     maxRange: 200
     aimRange: 200
@@ -1327,7 +1327,7 @@ items:
     costBuy: 25
     costSell: 10
     fireSound: 114
-    # handSprite: 90 ojito. acomodar sprite
+    handSprite: 90
     listOrder: 2125
   - type: STR_HC_HE_AMMO
     power: 45
