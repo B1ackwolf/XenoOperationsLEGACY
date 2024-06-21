@@ -279,18 +279,23 @@ extraSprites:
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance BigObs -----#
       2650: Resources/WeaponrySprites/9thOrdnance/BigOb/1SmokeGrenade.png
+      ###: Resources/WeaponrySprites/9thOrdnance/BigOb/2FlashGrenade.png
       301: Resources/WeaponrySprites/9thOrdnance/BigOb/3IncGrenade.gif
       2651: Resources/WeaponrySprites/9thOrdnance/BigOb/4BasicGrenade.png
       313: Resources/WeaponrySprites/9thOrdnance/BigOb/5StickGrenade.gif
+      #21: Resources/WeaponrySprites/9thOrdnance/BigOb/6ProxyGrenade.png
       674: Resources/WeaponrySprites/9thOrdnance/BigOb/7HybGrenade1.gif
       675: Resources/WeaponrySprites/9thOrdnance/BigOb/8HybGrenade2.gif
       2652: Resources/WeaponrySprites/9thOrdnance/BigOb/9ApGrenade.png
       2653: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanPlasmaGrenade.png
       433: Resources/WeaponrySprites/9thOrdnance/BigOb/11EleriumSeismicMine.gif
-      434: Resources/WeaponrySprites/9thOrdnance/BigOb/15HumaAntiMatterCharge.gif
-      250: Resources/WeaponrySprites/9thOrdnance/BigOb/16BangaloreCharge.png
-      251: Resources/WeaponrySprites/9thOrdnance/BigOb/17BreachingElerium.png
-      252: Resources/WeaponrySprites/9thOrdnance/BigOb/18BreachingAntimatter.png
+      21: Resources/WeaponrySprites/9thOrdnance/BigOb/15SemtexSatchel.png
+      22: Resources/WeaponrySprites/9thOrdnance/BigOb/16c4Block.png
+      ###: Resources/WeaponrySprites/9thOrdnance/BigOb/17.png #otro explosivo 
+      434: Resources/WeaponrySprites/9thOrdnance/BigOb/18HumaAntiMatterCharge.gif
+      250: Resources/WeaponrySprites/9thOrdnance/BigOb/20BangaloreCharge.png
+      251: Resources/WeaponrySprites/9thOrdnance/BigOb/21BreachingElerium.png
+      252: Resources/WeaponrySprites/9thOrdnance/BigOb/22BreachingAntimatter.png
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma BigObs -----#
       350: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol.gif

@@ -5894,7 +5894,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     listOrder: 2911
-  - type: STR_BO_ELERIUM_MINE #ojito cambiar nombre q esta es humana
+  - type: STR_BO_ELERIUM_PROXY_MINE #ojito cambiar nombre q esta es humana
     size: 0.025
     costSell: 17500
     weight: 3
@@ -5955,7 +5955,7 @@ items:
      - STR_BO_BREACHING_BANGALORE
     costBuy: 1600
     costSell: 1200
-    weight: 25
+    weight: 40
     throwRange: 2
     bigSprite: 250
     floorSprite: 250
@@ -6001,7 +6001,7 @@ items:
     costBuy: 1600
     costSell: 1200
     throwRange: 5
-    weight: 14
+    weight: 22
     bigSprite: 251
     floorSprite: 251
     handSprite: 1245

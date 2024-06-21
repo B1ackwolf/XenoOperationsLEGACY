@@ -2750,10 +2750,10 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     listOrder: 1473
-  - name: STR_BO_ELERIUM_MINE
+  - name: STR_BO_ELERIUM_PROXY_MINE
     category: STR_PLASMA_WEAPONS
     requires:
-      - STR_BO_ELERIUM_MINE
+      - STR_BO_ELERIUM_PROXY_MINE
     space: 1
     time: 80
     cost: 8000

@@ -141,14 +141,15 @@
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
-      ~ aprovechar y cambiar el nombre a las armaduras
-         ° armadura basica = Legionnaire / pilot=AUXILIA
-         ° armadura xops = Centurion / pilot=LEGATE
-         ° Armadura personal = Ulfsark / pilot=HUSCARL
-         ° Armadura alloy = Spartan / pilot=???
-         ° Armadura Voladora = cuāuhpilli / pilot=??
-         ° Armadura Power = Myrmidon / pilot=???
-         ° Armadura Psionica = Gorgon / pilot=????
+      ~ aprovechar y cambiar el nombre(pattern) a las armaduras
+         ° armadura basica = Legionnaire / pilot = zero g suit
+         ° armadura xops = praetorian / pilot = equite
+         ° Armadura personal = Ulfsark / pilot= ???
+         ° Armadura alloy = Spartan / pilot=ithacan
+         ° Armadura Voladora = cuāuhpilli / pilot= Quetzalcóatl 
+         ° Armadura Power = Myrmidon / pilot=argonaut
+         ° Armadura Psionica = Gorgon / pilot= cyclops
+         
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
  - Improve armor sprites.
    * hacer mas bulkies el battle sprite

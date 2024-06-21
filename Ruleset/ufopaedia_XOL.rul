@@ -1998,12 +1998,12 @@ ufopaedia:
       - STR_ELERIUM_GRENADE
     text: STR_ELERIUM_GRENADE_UFOPEDIA
     listOrder: 3842
-  - id: STR_BO_ELERIUM_MINE
+  - id: STR_BO_ELERIUM_PROXY_MINE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_BO_ELERIUM_MINE
-    text: STR_BO_ELERIUM_MINE_UFOPEDIA
+      - STR_BO_ELERIUM_PROXY_MINE
+    text: STR_BO_ELERIUM_PROXY_MINE_UFOPEDIA
     listOrder: 3843
   - id: STR_BO_ANTIMATTER_EXPLOSIVE
     type_id: 4

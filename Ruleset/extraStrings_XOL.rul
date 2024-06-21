@@ -1651,7 +1651,7 @@ extraStrings:
       STR_AW_ADVANCED_HOLO_SHIELD: Alien Advanced Energy Shield #ojito mejorar nombre
       STR_BO_ANTIMATTER_EXPLOSIVE: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
-      STR_BO_ELERIUM_MINE: Elerium Mine
+      STR_BO_ELERIUM_PROXY_MINE: Elerium Mine
       STR_HUMAN_SMALL_LAUNCHER: Small Launcher
       STR_HUMAN_STUN_BOMB: Stun Bomb
       STR_PM_ANTIMATTER_LAUNCHER: Devastator Launcher
@@ -1931,7 +1931,7 @@ extraStrings:
       STR_ME_ALLOY_SWORD_UFOPEDIA: (WIP) This sword is made of alien alloys and is sharpened to only single molecule on the tip. This makes this weapon deadly in the hands of an agent skilled in hand to hand combat. The Wielder's skill determines accuracy. Strength is applied to this weapon.
       STR_BO_ANTIMATTER_EXPLOSIVE_UFOPEDIA: This explosive is built around an antimatter containment field. When activated, the field dissipates letting the antimatter touch normal matter.
       STR_ELERIUM_GRENADE_UFOPEDIA: This grenade is powered by Elerium 115 greatly amplifying its destructive potential.
-      STR_BO_ELERIUM_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
+      STR_BO_ELERIUM_PROXY_MINE_UFOPEDIA: This grenade operates just like the proximity grenade however the Elerium 115 greatly increases its explosive power.
       STR_PM_ANTIMATTER_LAUNCHER_UFOPEDIA: The Devastator Launcher is a human conversion of the Alien Blaster Launcher. The human version features 3 different types of missiles. Both the Plasma Warhead and Inferno Warhead are guided by waypoints. With the Antimatter Payload being a devastating single shot round capable of killing any lifeform in the explosion area.
       STR_PM_ANTIMATTER_LAUNCHER_BOMB_UFOPEDIA:
       STR_PM_ANTIMATTER_LAUNCHER_BOMB2_UFOPEDIA:
