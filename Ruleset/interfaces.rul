@@ -1078,7 +1078,7 @@ interfaces:
   #     - id: errorMessage
   #       color: 33   # bright green
 
-  - type: geoscape #ojito a ver si es esto
+  - type: geoscape #ojito este es el importante para el geoscape la barra lateral
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
 #    palette: PAL_BATTLESCAPE
     elements:

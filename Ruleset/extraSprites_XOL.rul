@@ -534,28 +534,28 @@ extraSprites:
       280: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_rocket3_floor.gif
 #----- Tier 2 X ballistic ends here -----#
 #----- Tier 4 Laser FloorObs -----#
-      270: Resources/WeaponrySprites/4thLaser/FloorOb/1LaserPistol_floor.gif
-      317: Resources/WeaponrySprites/4thLaser/FloorOb/2LaserSmg_floor.gif
+      270: Resources/WeaponrySprites/4thLaser/FloorOb/1LaserPistol_b1_floor.gif
+      317: Resources/WeaponrySprites/4thLaser/FloorOb/2LaserSmg_b1_floor.gif
       271: Resources/WeaponrySprites/4thLaser/FloorOb/2Micro_bat1_floor.gif
       336: Resources/WeaponrySprites/4thLaser/FloorOb/2Micro_bat2_floor.gif
       337: Resources/WeaponrySprites/4thLaser/FloorOb/2Micro_bat3_floor.gif
-      319: Resources/WeaponrySprites/4thLaser/FloorOb/3LaserShotgun_floor.gif
+      319: Resources/WeaponrySprites/4thLaser/FloorOb/3LaserShotgun_b1_floor.gif
       320: Resources/WeaponrySprites/4thLaser/FloorOb/3Shotgun_bat1_floor.gif
       338: Resources/WeaponrySprites/4thLaser/FloorOb/3Shotgun_bat2_floor.gif
       339: Resources/WeaponrySprites/4thLaser/FloorOb/3Shotgun_bat3_floor.gif
-      272: Resources/WeaponrySprites/4thLaser/FloorOb/4LaserRifle_floor.gif
+      272: Resources/WeaponrySprites/4thLaser/FloorOb/4LaserRifle_b1_floor.gif
       273: Resources/WeaponrySprites/4thLaser/FloorOb/4Small_bat1_floor.gif
       332: Resources/WeaponrySprites/4thLaser/FloorOb/4Small_bat2_floor.gif
       333: Resources/WeaponrySprites/4thLaser/FloorOb/4Small_bat3_floor.gif
-      321: Resources/WeaponrySprites/4thLaser/FloorOb/5LaserLmg_floor.gif
+      321: Resources/WeaponrySprites/4thLaser/FloorOb/5LaserLmg_b1_floor.gif
       322: Resources/WeaponrySprites/4thLaser/FloorOb/5Large_bat1_floor.gif
       334: Resources/WeaponrySprites/4thLaser/FloorOb/5Large_bat2_floor.gif
       335: Resources/WeaponrySprites/4thLaser/FloorOb/5Large_bat3_floor.gif
-      274: Resources/WeaponrySprites/4thLaser/FloorOb/6LaserSniper_floor.gif
+      274: Resources/WeaponrySprites/4thLaser/FloorOb/6LaserSniper_b1_floor.gif
       275: Resources/WeaponrySprites/4thLaser/FloorOb/6Medium_bat1_floor.gif
       342: Resources/WeaponrySprites/4thLaser/FloorOb/6Medium_bat2_floor.gif
       343: Resources/WeaponrySprites/4thLaser/FloorOb/6Medium_bat3_floor.gif
-      276: Resources/WeaponrySprites/4thLaser/FloorOb/7LaserCannon_floor.gif
+      276: Resources/WeaponrySprites/4thLaser/FloorOb/7LaserCannon_b1_floor.gif
       277: Resources/WeaponrySprites/4thLaser/FloorOb/7Giga_bat1_floor.gif
       330: Resources/WeaponrySprites/4thLaser/FloorOb/7Giga_bat2_floor.gif
       331: Resources/WeaponrySprites/4thLaser/FloorOb/7Giga_bat3_floor.gif

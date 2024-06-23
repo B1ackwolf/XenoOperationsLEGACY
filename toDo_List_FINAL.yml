@@ -62,7 +62,7 @@
      ~ must define using globemarkers.
      ~ Use the "marker" command assigned to each aircraft.
    * Perhaps remove pockets from personal armor.
-
+ - acomodar colores del bulletsprite q coincidan con el color del arma
 
  - acomodar los escudos para q en la mano se enciendan y en la mochila sean 2x2 o 2x1 segun dependa
    * integrar correctamente en el arbol de tecnologias
@@ -81,7 +81,7 @@
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
- - Cambiar la imagen de fondo del graph de ser el soldado disparando a algo mas....fittin?, algo como stonks? 
+ 
  - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
 
  - mejorar el breaching charge
@@ -227,8 +227,7 @@
    * Background14 (plane equipment)/ Im okay with the current version, might only retouch the silhouette to not be so dark, so all the changes made to plane basebits shadows stand out more.
    * Background16 (UFO related mission start)/ Some kind of POV over the shoulder inside the cockpit of our plane, flying over a crashed UFO.
      ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
-
-
+   * Cambiar la imagen de fondo del graph de ser el soldado disparando a algo mas....fittin?, algo como stonks?
 + cosas de nombres de especies:
 
  - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
