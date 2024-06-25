@@ -794,13 +794,13 @@ extraSprites:
       1090: Resources/WeaponrySprites/2ndXBallistic/HandOb/14XRocketLauncher_hand.gif
 #----- Tier 2 X ballistic ends here -----#
 #----- Tier 4 Laser HandObs -----#
-      270: Resources/WeaponrySprites/4thLaser/HandOb/1LaserPistol_hand.png
-      480: Resources/WeaponrySprites/4thLaser/HandOb/2LaserSmg_hand.png
-      490: Resources/WeaponrySprites/4thLaser/HandOb/3LaserShotgun_hand.png
-      280: Resources/WeaponrySprites/4thLaser/HandOb/4LaserRifle_hand.png
-      500: Resources/WeaponrySprites/4thLaser/HandOb/5LaserLmg_hand.png
-      290: Resources/WeaponrySprites/4thLaser/HandOb/6LaserSniper_hand.png
-      300: Resources/WeaponrySprites/4thLaser/HandOb/7LaserCannon_hand.png
+      270: Resources/WeaponrySprites/4thLaser/HandOb/1LaserPistol_b1_hand.png
+      480: Resources/WeaponrySprites/4thLaser/HandOb/2LaserSmg_b1_hand.png
+      490: Resources/WeaponrySprites/4thLaser/HandOb/3LaserShotgun_b1_hand.png
+      280: Resources/WeaponrySprites/4thLaser/HandOb/4LaserRifle_b1_hand.png
+      500: Resources/WeaponrySprites/4thLaser/HandOb/5LaserLmg_b1_hand.png
+      290: Resources/WeaponrySprites/4thLaser/HandOb/6LaserSniper_b1_hand.png
+      300: Resources/WeaponrySprites/4thLaser/HandOb/7LaserCannon_b1_hand.png
 #----- Tier 4 Laser ends here-----#
 #----- Tier 5 Hypervelocity  HandObs -----#
       630: Resources/WeaponrySprites/5thRail/HandOb/1RailPistol_hand.gif

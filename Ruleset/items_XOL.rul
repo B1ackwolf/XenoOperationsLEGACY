@@ -1370,7 +1370,7 @@ items:
 #      IgnoreOverKill: false
     listOrder: 2127
   - type: STR_HC_AP_AMMO #its smoke grenade
-    damageType: 9
+    damageType: 3
     power: 65
     costBuy: 5
     costSell: 2
@@ -1379,7 +1379,7 @@ items:
   #  handSprite: 312
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 9
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -1401,7 +1401,7 @@ items:
     costSell: 30
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -1418,7 +1418,7 @@ items:
     costSell: 40
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -1433,7 +1433,7 @@ items:
     costSell: 20
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 2
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -2103,7 +2103,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -2185,7 +2185,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -2212,7 +2212,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -2962,10 +2962,10 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 64
-    damageType: 8
+    damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 8
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -2992,7 +2992,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -3046,7 +3046,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -3070,10 +3070,10 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 115
-    damageType: 8
+    damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 8
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -3690,7 +3690,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -3774,7 +3774,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -3858,7 +3858,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -3943,7 +3943,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4025,7 +4025,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: e
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4112,7 +4112,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4198,7 +4198,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30

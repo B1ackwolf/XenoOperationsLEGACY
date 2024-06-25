@@ -640,6 +640,8 @@ IMPORTANTE PARA LORE:
 #####
 
 + Long Term Changes:
+ - improve ALL THE FloorObs and HandObs of ALL tiers.
+   * specially in terms of clips and magazines.
  - (NEW) Review the file Scang.DAT and check which maps should get their MCD file modified to improve the mapview.
    * Priority in cruiser and cargo ship missions.
  - Add new types of missions similar to EU2012.

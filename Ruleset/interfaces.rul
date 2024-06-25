@@ -1078,20 +1078,20 @@ interfaces:
   #     - id: errorMessage
   #       color: 33   # bright green
 
-  - type: geoscape #ojito este es el importante para el geoscape la barra lateral
+  - type: geoscape #ojito este es el importante para el geoscape la barra lateral, Importante, hay desfaz de color de unos 5 puntos
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
 #    palette: PAL_BATTLESCAPE
     elements:
       - id: palette
-        color: 6     # yellow oxide
+        color: 6     # yellow oxide # just like in others screens
         color2: 6
-      - id: textLoad
-        color: 133   # minty green
-      - id: button
-        color: 246   # light blue
-        color2: 245  # slightly lighter blue
-      - id: text
-        color: 244   # even lighter blue
+      - id: textLoad # no idea what it does (?)
+        color: 129   # PRUEBA EN ROJO / minty green (133)
+      - id: button   # }Lateral Bar
+        color: 170   # Colors of the button in the lateral bar
+        color2: 170  # colors of the LETTERS INSIDE the bar
+      - id: text     # color of the letters with the date and funding, this is dynamic text.
+        color: 170   # prueba gris / even lighter blue (244)
       - id: slackingIndicator
         color: 244   # even lighter blue
         color2: 133  # minty green
@@ -2209,7 +2209,7 @@ interfaces:
       - id: ammoColorDTAcid
         color: 49    # lime green, Acid # (DONE)
       - id: ammoColorDTSmoke
-        color: 7    # gray, Smoke  # (DONE)
+        color: 6    # gray, Smoke  # (DONE)
       #- id: ammoColorDT10
       #  color: 32    #red 
       #- id: ammoColorDT11
