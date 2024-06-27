@@ -186,96 +186,96 @@ extraSprites:
       331: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat3.gif
 #----- Tier 4 Laser ends here-----#
 #----- Tier 5 Hypervelocity  BigObs -----#
-      619: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol.gif
-      621: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg.gif
+      619: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol_c1.gif
+      621: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg_c1.gif
       620: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip1.gif
       633: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip2.gif
       650: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip3.gif
-      625: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun.gif
+      625: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_c1.gif
       626: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip1.gif
       636: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip2.gif
       653: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip3.gif
-      623: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle.gif
+      623: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_c1.gif
       624: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip1.gif
       635: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip2.gif
       652: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip3.gif
-      629: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg.gif
+      629: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_c1.gif
       630: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box1.gif
       638: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box2.gif
       655: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box3.gif
-      627: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper.gif
+      627: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_c1.gif
       628: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag1.gif
       637: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag2.gif
       654: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag3.gif
-      640: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy.gif
+      640: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_c1.gif
       641: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip1.gif
       642: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip2.gif
       656: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip3.gif
-      631: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon.gif
+      631: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_c1.gif
       632: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip1.gif
       639: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip2.gif
       657: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip3.gif
 #----- Tier 5 Hypervelocity ends here -----#
 #----- Tier 6 Terran plasma BigObs -----#
-      508: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol.gif
+      508: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_c1.gif
       378: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip1.gif
       412: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip2.gif
       413: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip3.gif
-      377: Resources/WeaponrySprites/6thPlasma/BigOb/2HumanPlasmaServicePistol.gif
-      379: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg.gif
+      377: Resources/WeaponrySprites/6thPlasma/BigOb/2HumanPlasmaServicePistol_c1.gif
+      379: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_c1.gif
       513: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip1.gif
       514: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip2.gif
       515: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip3.gif
-      512: Resources/WeaponrySprites/6thPlasma/BigOb/4HumanPlasmaHeavyPistol.gif
-      516: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine.gif
+      512: Resources/WeaponrySprites/6thPlasma/BigOb/4HumanPlasmaHeavyPistol_c1.gif
+      516: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_c1.gif
       517: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip1.gif
       518: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip2.gif
       519: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip3.gif
-      383: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun.gif
+      383: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_c1.gif
       384: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip1.gif
       418: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip2.gif
       419: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip3.gif
-      381: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle.gif
+      381: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_c1.gif
       382: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip1.gif
       416: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip2.gif
       417: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip3.gif
-      387: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg.gif
+      387: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_c1.gif
       388: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt1.gif
       422: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt2.gif
       423: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt3.gif
-      385: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper.gif
+      385: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_c1.gif
       386: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip1.gif
       420: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip2.gif
       421: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip3.gif
-      389: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon.gif
+      389: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_c1.gif
       390: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip1.gif
       424: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip2.gif
       425: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip3.gif
-      643: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher.gif
+      643: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_c1.gif
       644: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb1.gif
       645: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb2.gif
       646: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb3.gif
 #----- Tier 6 Terran plasma ends here -----#
 #----- Tier 7 Stun BigObs -----#
-      1113: Resources/WeaponrySprites/7thStun/BigOb/TaserPistol.png
-      1114: Resources/WeaponrySprites/7thStun/BigOb/TaserPistol_clip.png
+      1113: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol.png
+      1114: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol_clip.png
 #----- Tier 7 Stun ends here -----#
 #----- Tier 8 Melee BigObs -----#
       316: Resources/WeaponrySprites/8thMelee/BigOb/1HumanBrassKnuckles.gif
       315: Resources/WeaponrySprites/8thMelee/BigOb/2HumanKnife.gif
       430: Resources/WeaponrySprites/8thMelee/BigOb/3HumanAlloyKnife.gif
       432: Resources/WeaponrySprites/8thMelee/BigOb/4HumanAlloySword.png
-      324: Resources/WeaponrySprites/8ThMelee/BigOb/5HumanLaserKnife.png
-      325: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword.gif
-      326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife.png
-      431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword.gif
+      324: Resources/WeaponrySprites/8ThMelee/BigOb/5HumanLaserKnife_act.png
+      325: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword_act.gif
+      326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife_act.png
+      431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword_act.gif
       1078: Resources/WeaponrySprites/8thMelee/BigOb/10HumanBasicShield.png
       1079: Resources/WeaponrySprites/8thMelee/BigOb/11HumanAlloyShield.png
       1080: Resources/WeaponrySprites/8thMelee/BigOb/12HumanHoloShield.png
       1081: Resources/WeaponrySprites/8thMelee/BigOb/20AlienHoloShield.png
       1082: Resources/WeaponrySprites/8thMelee/BigOb/21AlienAdvHoloShield.png
-      372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade.gif
-      369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade.gif
+      372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade_act.gif
+      369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade_act.gif
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance BigObs -----#
       2650: Resources/WeaponrySprites/9thOrdnance/BigOb/1SmokeGrenade.png
@@ -289,9 +289,9 @@ extraSprites:
       2652: Resources/WeaponrySprites/9thOrdnance/BigOb/9ApGrenade.png
       2653: Resources/WeaponrySprites/9thOrdnance/BigOb/10HumanPlasmaGrenade.png
       433: Resources/WeaponrySprites/9thOrdnance/BigOb/11EleriumSeismicMine.gif
-      21: Resources/WeaponrySprites/9thOrdnance/BigOb/15SemtexSatchel.png
+      210: Resources/WeaponrySprites/9thOrdnance/BigOb/15SemtexSatchel.png
       22: Resources/WeaponrySprites/9thOrdnance/BigOb/16c4Block.png
-      ###: Resources/WeaponrySprites/9thOrdnance/BigOb/17.png #otro explosivo 
+      439: Resources/WeaponrySprites/9thOrdnance/BigOb/17HumanEleriumCharge.png #otro explosivo 
       434: Resources/WeaponrySprites/9thOrdnance/BigOb/18HumaAntiMatterCharge.gif
       250: Resources/WeaponrySprites/9thOrdnance/BigOb/20BangaloreCharge.png
       251: Resources/WeaponrySprites/9thOrdnance/BigOb/21BreachingElerium.png
@@ -561,32 +561,32 @@ extraSprites:
       331: Resources/WeaponrySprites/4thLaser/FloorOb/7Giga_bat3_floor.gif
 #----- Tier 4 Laser ends here-----#
 #----- Tier 5 Hypervelocity  FloorObs -----#
-      619: Resources/WeaponrySprites/5thRail/FloorOb/1RailPistol_floor.gif
-      621: Resources/WeaponrySprites/5thRail/FloorOb/2RailSmg_floor.gif
+      619: Resources/WeaponrySprites/5thRail/FloorOb/1RailPistol_c1_floor.gif
+      621: Resources/WeaponrySprites/5thRail/FloorOb/2RailSmg_c1_floor.gif
       620: Resources/WeaponrySprites/5thRail/FloorOb/2RailPistol_clip1_floor.gif
       633: Resources/WeaponrySprites/5thRail/FloorOb/2RailPistol_clip2_floor.gif
       650: Resources/WeaponrySprites/5thRail/FloorOb/2RailPistol_clip3_floor.gif
-      625: Resources/WeaponrySprites/5thRail/FloorOb/3RailShotgun_floor.gif
+      625: Resources/WeaponrySprites/5thRail/FloorOb/3RailShotgun_c1_floor.gif
       626: Resources/WeaponrySprites/5thRail/FloorOb/3RailShotgun_clip1_floor.gif
       636: Resources/WeaponrySprites/5thRail/FloorOb/3RailShotgun_clip2_floor.gif
       653: Resources/WeaponrySprites/5thRail/FloorOb/3RailShotgun_clip3_floor.gif
-      623: Resources/WeaponrySprites/5thRail/FloorOb/4RailRifle_floor.gif
+      623: Resources/WeaponrySprites/5thRail/FloorOb/4RailRifle_c1_floor.gif
       624: Resources/WeaponrySprites/5thRail/FloorOb/4RailRifle_clip1_floor.gif
       635: Resources/WeaponrySprites/5thRail/FloorOb/4RailRifle_clip2_floor.gif
       652: Resources/WeaponrySprites/5thRail/FloorOb/4RailRifle_clip3_floor.gif
-      629: Resources/WeaponrySprites/5thRail/FloorOb/5RailLmg_floor.gif
+      629: Resources/WeaponrySprites/5thRail/FloorOb/5RailLmg_c1_floor.gif
       630: Resources/WeaponrySprites/5thRail/FloorOb/5RailLmg_box1_floor.gif
       638: Resources/WeaponrySprites/5thRail/FloorOb/5RailLmg_box2_floor.gif
       655: Resources/WeaponrySprites/5thRail/FloorOb/5RailLmg_box3_floor.gif
-      627: Resources/WeaponrySprites/5thRail/FloorOb/6RailSniper_floor.gif
+      627: Resources/WeaponrySprites/5thRail/FloorOb/6RailSniper_c1_floor.gif
       628: Resources/WeaponrySprites/5thRail/FloorOb/6RailSniper_mag1_floor.gif
       637: Resources/WeaponrySprites/5thRail/FloorOb/6RailSniper_mag2_floor.gif
       654: Resources/WeaponrySprites/5thRail/FloorOb/6RailSniper_mag3_floor.gif
-      640: Resources/WeaponrySprites/5thRail/FloorOb/7RailHeavy_floor.gif
+      640: Resources/WeaponrySprites/5thRail/FloorOb/7RailHeavy_c1_floor.gif
       641: Resources/WeaponrySprites/5thRail/FloorOb/7RailHeavy_clip1_floor.gif
       642: Resources/WeaponrySprites/5thRail/FloorOb/7RailHeavy_clip2_floor.gif
       656: Resources/WeaponrySprites/5thRail/FloorOb/7RailHeavy_clip3_floor.gif
-      631: Resources/WeaponrySprites/5thRail/FloorOb/8RailCannon_floor.gif
+      631: Resources/WeaponrySprites/5thRail/FloorOb/8RailCannon_c1_floor.gif
       632: Resources/WeaponrySprites/5thRail/FloorOb/8RailCannon_clip1_floor.gif
       639: Resources/WeaponrySprites/5thRail/FloorOb/8RailCannon_clip2_floor.gif
       657: Resources/WeaponrySprites/5thRail/FloorOb/8RailCannon_clip3_floor.gif
@@ -632,8 +632,8 @@ extraSprites:
       646: Resources/WeaponrySprites/6thPlasma/FloorOb/11HumanBlasterLauncher_bomb3_floor.gif
 #----- Tier 6 Terran plasma ends here -----#
 #----- Tier 7 Stun FloorObs -----#
-      83: Resources/WeaponrySprites/7thStun/FloorOb/TaserPistol_floor.png
-      91: Resources/WeaponrySprites/7thStun/FloorOb/TaserPistol_clip_floor.png
+      83: Resources/WeaponrySprites/7thStun/FloorOb/4TaserPistol_floor.png
+      91: Resources/WeaponrySprites/7thStun/FloorOb/4TaserPistol_clip_floor.png
 #----- Tier 7 Stun ends here -----#
 #----- Tier 8 Melee FloorObs -----#
       316: Resources/WeaponrySprites/8thMelee/FloorOb/1HumanBrassKnuckles_floor.gif
@@ -803,14 +803,14 @@ extraSprites:
       300: Resources/WeaponrySprites/4thLaser/HandOb/7LaserCannon_b1_hand.png
 #----- Tier 4 Laser ends here-----#
 #----- Tier 5 Hypervelocity  HandObs -----#
-      630: Resources/WeaponrySprites/5thRail/HandOb/1RailPistol_hand.gif
-      640: Resources/WeaponrySprites/5thRail/HandOb/2RailSmg_hand.gif
-      660: Resources/WeaponrySprites/5thRail/HandOb/3RailShotgun_hand.gif
-      650: Resources/WeaponrySprites/5thRail/HandOb/4RailRifle_hand.gif
-      680: Resources/WeaponrySprites/5thRail/HandOb/5RailLmg_hand.gif
-      670: Resources/WeaponrySprites/5thRail/HandOb/6RailSniper_hand.gif
-      700: Resources/WeaponrySprites/5thRail/HandOb/7RailHeavy_hand.gif
-      690: Resources/WeaponrySprites/5thRail/HandOb/8RailCannon_hand.gif
+      630: Resources/WeaponrySprites/5thRail/HandOb/1RailPistol_c1_hand.gif
+      640: Resources/WeaponrySprites/5thRail/HandOb/2RailSmg_c1_hand.gif
+      660: Resources/WeaponrySprites/5thRail/HandOb/3RailShotgun_c1_hand.gif
+      650: Resources/WeaponrySprites/5thRail/HandOb/4RailRifle_c1_hand.gif
+      680: Resources/WeaponrySprites/5thRail/HandOb/5RailLmg_c1_hand.gif
+      670: Resources/WeaponrySprites/5thRail/HandOb/6RailSniper_c1_hand.gif
+      700: Resources/WeaponrySprites/5thRail/HandOb/7RailHeavy_c1_hand.gif
+      690: Resources/WeaponrySprites/5thRail/HandOb/8RailCannon_c1_hand.gif
 #----- Tier 5 Hypervelocity ends here -----#
 #----- Tier 6 Terran plasma HandObs -----#
       810: Resources/WeaponrySprites/6thPlasma/HandOb/1HumanPlasmaCompactPistol_hand.gif
@@ -826,7 +826,7 @@ extraSprites:
       1080: Resources/WeaponrySprites/6thPlasma/HandOb/11HumanBlasterLauncher_hand.gif
 #----- Tier 6 Terran plasma ends here -----#
 #----- Tier 7 Stun HandObs -----#
-      200: Resources/WeaponrySprites/7thStun/HandOb/TaserPistol_hand.png
+      200: Resources/WeaponrySprites/7thStun/HandOb/4TaserPistol_hand.png
 #----- Tier 7 Stun ends here -----#
 #----- Tier 8 Melee HandObs -----#
       470: Resources/WeaponrySprites/8thMelee/HandOb/1HumanBrassKnuckles_hand.png

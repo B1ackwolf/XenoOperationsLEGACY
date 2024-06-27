@@ -5665,7 +5665,11 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
-    listOrder: 2816
+    listOrder: 2901
+##############    
+#  - type: STR_BO_FLASH_GRENADE   #ojito luego implementarla correctanme
+#    listOrder: 2902
+##############
   - type: STR_BO_FIERY_GRENADE 
     size: 0.05
     costBuy: 1
@@ -5690,7 +5694,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     fuseType: -2
-    listOrder: 2902
+    listOrder: 2903
   - type: STR_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 1
     costSell: 0
@@ -5712,7 +5716,7 @@ items:
     damageType: 3
     weight: 3
     fuseType: -2
-    listOrder: 2903
+    listOrder: 2904
   - type: STR_BO_STICK_GRENADE
     size: 0.05
     costSell: 5000
@@ -5736,7 +5740,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     fuseType: -2
-    listOrder: 2904
+    listOrder: 2905
   - type: STR_PROXIMITY_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_PROXIMITY_GRENADE
@@ -5763,7 +5767,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     fuseType: -1
-    listOrder: 2905
+    listOrder: 2906
   - type: STR_BO_HYBRID_GRENADE
     size: 0.05
     costSell: 8000
@@ -5789,7 +5793,7 @@ items:
     fuseType: -1
     invWidth: 1
     invHeight: 1
-    listOrder: 2906
+    listOrder: 2907
   - type: STR_BO_HYBRID_GRENADE2
     size: 0.05
     costSell: 8500
@@ -5798,11 +5802,11 @@ items:
     floorSprite: 675
    # handSprite: 1340 OJITO
     power: 80
-    damageType: 8
+    damageType: 3
     battleType: 4
     damageAlter: # continuar este, revisar algun equivalente granada quimica xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 8
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5815,7 +5819,7 @@ items:
     fuseType: -1
     invWidth: 1
     invHeight: 1
-    listOrder: 2907
+    listOrder: 2908
   - type: STR_BO_AP_GRENADE
    # categories: [STR_XCOM_TECH, STR_EXPLOSIVES, STR_GRENADES, STR_SPACE, STR_LAND]
     size: 0.12
@@ -5825,8 +5829,9 @@ items:
     floorSprite: 2652
     handSprite: 2662
     power: 80
+    damageType: 3
     damageAlter: # ojito revisar mejor equivalente de xfiles
-      ResistType: 1
+      ResistType: 7
       FixRadius: 5
       RadiusReduction: 5
       ArmorEffectiveness: 1.25
@@ -5835,7 +5840,6 @@ items:
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
-    damageType: 3
     costThrow:
       energy: 8
     costPrime:
@@ -5848,7 +5852,7 @@ items:
     invHeight: 1
     fuseType: -1
     attraction: 15
-    listOrder: 2908
+    listOrder: 2909
 ######
   - type: STR_ELERIUM_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     size: 0.1
@@ -5873,7 +5877,69 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     fuseType: -1
-    listOrder: 2909
+    listOrder: 2910
+  - type: STR_BO_ELERIUM_PROXY_MINE #ojito es proxy mejorada
+    size: 0.025
+    costSell: 17500
+    weight: 3
+    bigSprite: 433
+    floorSprite: 433
+   # handSprite: 1340 OJITO
+    power: 90
+    damageType: 3
+    battleType: 5
+    damageAlter: # continuar este, revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 5
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
+    fuseType: -1
+    attraction: 6
+    listOrder: 2911
+  - type: STR_BO_SEMTEX_SATCHEL   #ojito luego editar para q tenga stats correctos
+    costBuy: 3
+    costSell: 1
+    bigSprite: 210
+   # floorSprite: 301
+    power: 65
+    handSprite: 216
+    damageType: 3
+    damageAlter: # continuar este, revisar xfiles
+      RandomType: 2
+      ResistType: 7
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
+    size: 0.25
+
+    weight: 6
+
+    floorSprite: 434
+
+
+    battleType: 4
+    invWidth: 1
+    invHeight: 1
+#      IgnoreOverKill: false
+    fuseType: -1
+    twoHanded: true
+    attraction: 6
+
+
+    listOrder: 2915
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 3
     costSell: 1
@@ -5893,18 +5959,15 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
-    listOrder: 2911
-  - type: STR_BO_ELERIUM_PROXY_MINE #ojito cambiar nombre q esta es humana
-    size: 0.025
-    costSell: 17500
-    weight: 3
-    bigSprite: 433
-    floorSprite: 433
-   # handSprite: 1340 OJITO
-    power: 90
+    listOrder: 2916
+  - type: STR_BO_ELERIUM_CHARGE   #ojito ordenar bien q onda los stats
+    costBuy: 3
+    costSell: 1
+    bigSprite: 439
+   # floorSprite: 301
+    handSprite: 216
     damageType: 3
-    battleType: 5
-    damageAlter: # continuar este, revisar equivalente xfiles
+    damageAlter: # continuar este, revisar xfiles
       RandomType: 2
       ResistType: 7
       FixRadius: 10
@@ -5916,9 +5979,17 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
+    size: 0.25
+    weight: 6
+    floorSprite: 434
+    power: 200
+    battleType: 4
+    invWidth: 2
+    invHeight: 2
     fuseType: -1
+    twoHanded: true
     attraction: 6
-    listOrder: 2912
+    listOrder: 2918
   - type: STR_BO_ANTIMATTER_EXPLOSIVE
     size: 0.25
     costSell: 20000
@@ -5946,7 +6017,7 @@ items:
     fuseType: -1
     twoHanded: true
     attraction: 6
-    listOrder: 2913
+    listOrder: 2918
 #####Ojito Prueba Bangalores
   - type: STR_BO_BREACHING_BANGALORE
 #    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
@@ -5990,9 +6061,8 @@ items:
     attraction: 6
     invWidth: 2
     invHeight: 3
-    listOrder: 2915
+    listOrder: 2920
 #######
-
   - type: STR_BO_BREACHING_ELERIUM
 #    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
     size: 0.2
@@ -6035,7 +6105,7 @@ items:
     attraction: 6
     invWidth: 2
     invHeight: 2
-    listOrder: 2916
+    listOrder: 2921
 
 #######3
   - type: STR_BO_BREACHING_ANTIMATTER
@@ -6079,7 +6149,7 @@ items:
     attraction: 6
     invWidth: 2
     invHeight: 1
-    listOrder: 2917
+    listOrder: 2922
 #----- Tenth tier Alien Weaponry -----#
   - type: STR_AW_MAIN_PISTOL
     requires:
