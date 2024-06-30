@@ -4283,12 +4283,12 @@ items:
 #    hitAnimation: 76
     bulletSprite: 12
     power: 38
-    damageType: 3
+    damageType: 5
     clipSize: 6
     battleType: 2
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4397,12 +4397,12 @@ items:
 #    hitAnimation: 76
     bulletSprite: 12
     power: 42
-    damageType: 3
+    damageType: 5
     clipSize: 9
     battleType: 2
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4511,12 +4511,12 @@ items:
 #    hitAnimation: 76
     bulletSprite: 12
     power: 60
-    damageType: 3
+    damageType: 5
     clipSize: 5
     battleType: 2
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4600,14 +4600,14 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 48
-    damageType: 3
+    damageType: 5
     clipSize: 6
     shotgunPellets: 3
     battleType: 2
     attraction: 1
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4689,13 +4689,13 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 66
-    damageType: 3
+    damageType: 5
     clipSize: 10
     battleType: 2
     attraction: 1
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4782,13 +4782,13 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 95
-    damageType: 3
+    damageType: 5
     clipSize: 14
     battleType: 2
     attraction: 1
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4871,13 +4871,13 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 80
-    damageType: 3
+    damageType: 5
     clipSize: 5
     battleType: 2
     attraction: 1
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -4960,7 +4960,7 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 120
-    damageType: 3
+    damageType: 5
     clipSize: 6
     battleType: 2
     invWidth: 2
@@ -4968,7 +4968,7 @@ items:
     attraction: 1
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5021,7 +5021,7 @@ items:
     waypoints: 5
     damageAlter: # continuar este , ojito, hacerlo daño plasma?
       RandomType: 2
-      ResistType: 7
+      ResistType: 5
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5050,7 +5050,7 @@ items:
     invHeight: 1
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5072,7 +5072,7 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 150
-    damageType: 2
+    damageType: 3
     clipSize: 1
     battleType: 2
     invWidth: 2
@@ -5080,7 +5080,7 @@ items:
     waypoints: 5
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 2
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5235,7 +5235,7 @@ items:
     damageType: 6
     damageAlter: # continuar este, su rango era 0, investigar luego xq?
       RandomType: 2
-      ResistType: 7
+      ResistType: 6
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5286,7 +5286,7 @@ items:
     damageType: 6
     damageAlter: # continuar este, investigar xq rango era 0
       RandomType: 2
-      ResistType: 7
+      ResistType: 6
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5307,11 +5307,11 @@ items:
     floorSprite: 1507
     handSprite: 2228
     power: 90
-    damageType: 6
+    damageType: 3
     battleType: 4
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 6
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5655,7 +5655,7 @@ items:
     handSprite: 1340
     damageAlter: # continuar este revisar en xfiles la granada de humo
       RandomType: 2
-      ResistType: 7
+      ResistType: 9
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5679,11 +5679,11 @@ items:
     floorSprite: 301
     handSprite: 1348
     power: 70
-    damageType: 2
+    damageType: 3
     battleType: 4
     damageAlter: # continuar este, revisar granadas incendiarias de xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 2
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5703,7 +5703,7 @@ items:
     handSprite: 2651
     damageAlter: # continuar este, revisar equivalente xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5729,7 +5729,7 @@ items:
     battleType: 4
     damageAlter: # continuar este, revisar equivalente xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5756,7 +5756,7 @@ items:
     battleType: 5
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5780,7 +5780,7 @@ items:
     battleType: 4
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5866,7 +5866,7 @@ items:
     battleType: 4
     damageAlter: # continuar este revisar equivalente a xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 5
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5913,7 +5913,7 @@ items:
     damageType: 3
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5949,7 +5949,7 @@ items:
     damageType: 3
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -5969,7 +5969,7 @@ items:
     damageType: 3
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 5
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6004,7 +6004,7 @@ items:
     invHeight: 1
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6037,6 +6037,7 @@ items:
     damageType: 3
     damageAlter:
       RandomType: 2
+      ResistType: 3
       FixRadius: 1
       ToTile: 1
       RandomTile: true
@@ -6081,6 +6082,7 @@ items:
     damageType: 3
     damageAlter:
       RandomType: 2
+      ResistType: 5
       FixRadius: 1
       ToTile: 1
       RandomTile: true
@@ -6125,7 +6127,8 @@ items:
     damageType: 3
     damageAlter:
       RandomType: 2
-      FixRadius: 1
+      ResistType: 10
+      FixRadius: 3
       ToTile: 1
       RandomTile: true
       TileDamageMethod: 2
@@ -6393,14 +6396,14 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 72
-    damageType: 3
+    damageType: 5
     clipSize: 10
     battleType: 2
     recoveryPoints: 1
     attraction: 10
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6499,14 +6502,14 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 104
-    damageType: 3
+    damageType: 5
     clipSize: 5
     battleType: 2
     recoveryPoints: 1
     attraction: 10
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6650,14 +6653,14 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 135
-    damageType: 3
+    damageType: 5
     clipSize: 3
     battleType: 2
     recoveryPoints: 1
     attraction: 10
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6709,7 +6712,7 @@ items:
     hitSound: 19
     hitAnimation: 46
     power: 125
-    damageType: 5
+    damageType: 4
     clipSize: 35
     battleType: 2
     recoveryPoints: 1
@@ -6756,10 +6759,10 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 90
-    damageType: 6
+    damageType: 3
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 6
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6788,10 +6791,10 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 90
-    damageType: 8
+    damageType: 3
     damageAlter: # continuar este revisar explosivos quimicos xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 8
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6823,7 +6826,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6882,7 +6885,7 @@ items:
     bigSprite: 364
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 5
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6911,7 +6914,7 @@ items:
     battleType: 5
     damageAlter: # continuar este revisar algun proxy alienigena de xfiles
       RandomType: 2
-      ResistType: 7
+      ResistType: 5
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
@@ -6942,7 +6945,7 @@ items:
     invHeight: 2
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 7
+      ResistType: 5
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30

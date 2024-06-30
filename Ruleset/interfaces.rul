@@ -2209,9 +2209,9 @@ interfaces:
       - id: ammoColorDTAcid
         color: 49    # lime green, Acid # (DONE)
       - id: ammoColorDTSmoke
-        color: 6    # gray, Smoke  # (DONE)
-      #- id: ammoColorDT10
-      #  color: 32    #red 
+        color: 5    # gray, Smoke  # (DONE)
+      - id: ammoColorDT10
+        color: 197    #red 
       #- id: ammoColorDT11
       #  color: 32    #red 
       #- id: ammoColorDT12

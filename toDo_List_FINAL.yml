@@ -28,6 +28,23 @@
 #######
 ####### Esto para hacer principalmente en la chamba
 #######
+ - OJITO SIGUIENTE PARCHE, CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
+   - desintegrara todo en el area de explosion.
+   - sera carisimo
+   - exotico 
+ - hacer algo respecto a la municion tech
+   * (meterle algun tipo de cambio de daño?)
+     ~ daño concussive? pero sin rango extra porq es explosion interna
+   * el cañon xx eliminar la municion base, dejar solo entonces una concussive (tech) y la de XELLOYS
+   * hacer sprites de las armas aliens con colores distintos igual q las humanas
+     ~ cambiarle el color a las overcharged por algun otro color exotico
+   * las armas elite seran daño laser porq son reliquias antiguas
+     ~ con esto podria hacerlas mas fuertes que el plasma sin hacerlas redundantes
+
+
+ - los explosivos alienigenas tendran las porciones ocultas y "subiran cuando se activen"
+
+
  - sacar baseprites para edificios del tftd twots y tftd+
  - modificar ligeramente el mapa del security station para q encaje con el octagonal
  - cambiarle el nombre a las armas de aviones
