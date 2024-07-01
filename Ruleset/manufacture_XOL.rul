@@ -2830,7 +2830,7 @@ manufacture:
     cost: 11000
     listOrder: 2001
   - name: STR_DOGE_COMBAT_VEST
-    category: STR_DOG_EQUIPMENT
+    category: STR_DOGE_EQUIPMENT
     requires:
       - STR_XOPS_ARMOR_TAN
     space: 3
@@ -2851,9 +2851,9 @@ manufacture:
       STR_CODEX_FRAGMENT: 2
     listOrder: 2002
   - name: STR_DOGE_DURATHREAD_VEST
-    category: STR_DOG_EQUIPMENT
+    category: STR_DOGE_EQUIPMENT
     requires:
-      - STR_DOG_RECRUITMENT
+      - STR_DOGE_RECRUITMENT
       - STR_PERSONAL_ARMOR_TAN #ojito aqui
     space: 4
     time: 350
@@ -2876,7 +2876,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 2
     listOrder: 2003
   - name: STR_DOGE_AA_VEST
-    category: STR_DOG_EQUIPMENT
+    category: STR_DOGE_EQUIPMENT
     requires:
       - STR_ALLOY_ARMOR_TAN
     space: 6

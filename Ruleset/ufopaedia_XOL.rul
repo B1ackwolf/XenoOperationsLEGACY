@@ -45,13 +45,13 @@ ufopaedia:
       - STR_SUPPORT_UNITS
     listOrder: 783
     text: STR_SUPPORT_UNITS_UFOPEDIA
-  - id: STR_DOG_RECRUITMENT
+  - id: STR_DOGE_RECRUITMENT
     type_id: 7
     section: STR_XCOM_PERSONNEL
     requires:
-      - STR_DOG_RECRUITMENT
+      - STR_DOGE_RECRUITMENT
     image_id: UFOPEDIA_IMG_DOG_RECRUITMENT
-    text: STR_DOG_RECRUITMENT_UFOPEDIA
+    text: STR_DOGE_RECRUITMENT_UFOPEDIA
     text_width: 308
     rect_text:
       x: 5

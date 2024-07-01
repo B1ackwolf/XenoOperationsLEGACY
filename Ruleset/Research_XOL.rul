@@ -76,7 +76,7 @@ research:
   - name: STR_SUPPORT_UNITS
     cost: 20
     points: 10
-  - name: STR_DOG_RECRUITMENT
+  - name: STR_DOGE_RECRUITMENT
     cost: 10
     points: 10
     dependencies:
@@ -2515,11 +2515,11 @@ research:
     # cost: 0
     # points: 0
     # dependencies:
-    #   - STR_DOG_RECRUITMENT
+    #   - STR_DOGE_RECRUITMENT
     # listOrder: 17580
 #  - name: STR_DOGE_TRACK
     # cost: 0
     # points: 0
     # dependencies:
-    #   - STR_DOG_RECRUITMENT
+    #   - STR_DOGE_RECRUITMENT
     # listOrder: 17512

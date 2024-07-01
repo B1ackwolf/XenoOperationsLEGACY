@@ -637,7 +637,7 @@ extraStrings:
       STR_MEDI_KIT: "Medi-Gel kit"
       STR_PILOT: Pilot
       STR_DRIVER: Tank Driver
-      STR_BASIC_SOLDIER: Soldier
+      STR_SOLDIER: Soldier
       STR_ELITE_SOLDIER: Elite Soldier
       STR_SOLDIER_OFFICER: Officer
       STR_MECH_DRIFTSUIT: MECH DRIFTSUIT
@@ -833,10 +833,10 @@ extraStrings:
       STR_DOGE_DURATHREAD_VEST: "Dog Durathread Vest"
       STR_DOGE_AA_VEST: "Dog Tritanium Gear"
       STR_DOGE_AA_VEST_ARMOR: "TRITANIUM GEAR"
-      STR_DOG: "Dog"
+      STR_DOGE: "Dog"
       STR_DOGE_ARMOR: "Dog Harness"
       STR_DOGE_ARMOR_UFOPEDIA: "Unarmored dogs have better effective stamina than those wearing armor."
-      STR_DOGE: "Attack Dog"
+#ojito      STR_DOGE: "Attack Dog"
       STR_DOGE_CORPSE: "Dead Dog"
       STR_DOGE_JAWS: "Bite"
       STR_DOGE_UFOPEDIA: "These highly trained dogs are fully capable of operating in battlefield conditions. Always obedient, they won't attack unless ordered to do so."
@@ -2205,16 +2205,16 @@ extraStrings:
       STR_XCOM_SOLDIERS_OFFICERS_UFOPEDIA: "Soldiers chosen for promotion are individuals who have distinguished themselves from the rank and file through acts of unparalleled bravery, unwavering determination, extraordinary gallantry, or simply their exceptional ability to get the job done. Elevating these exceptional soldiers to leadership positions sets a profound example that instills unwavering confidence and resilience within our combat units. The mere presence of these exceptional leaders on the battlefield serves as an invaluable source of inspiration, improving the morale of their comrades and fostering a sense of unity that is crucial in times of peril.{NEWLINE}{NEWLINE}However, the realities of war, the relentless brutality of the conflict, can occasionally claim even the bravest among us. The loss of one of these leaders in the heat of battle can deliver a blow that only the most resolute and unwavering spirits can endure."
        #ojito####### It is a harsh reality of the struggle we face, a reminder that our cause demands tremendous courage and resilience from all who serve. These leaders, having become symbols of valor and sacrifice, continue to motivate us to press on, to honor their memory by carrying forth the banner of hope and determination."#
       STR_SUPPORT_UNITS_UFOPEDIA: "The available data unequivocally indicates that the alien threat possesses an astounding technological superiority. As a result, our foremost priority should be the development of strategies and tactics to engage them more effectively until a time when we can engage them on more equal terms. To this end, our focus should shift towards asymmetric warfare and the implementation of combined arms doctrines. Delegating reconnaissance and exploration roles to mechanical assets and K9 support units becomes imperative to safeguard our precious human resources from unnecessary peril."
-      STR_DOG_RECRUITMENT_UFOPEDIA: "These loyal companions are a valuable addition to any X-Com squad. Highly trained dogs, also known as K9 Units, are fully capable of functioning effectively in battlefield conditions. Their unwavering obedience ensures they won't engage in combat unless specifically ordered to do so, swiftly neutralizing any unfortunate lifeforms caught within their powerful jaws.{NEWLINE}{NEWLINE}It's a fitting tribute that humanity's oldest friend stands ready for what could potentially be their final battle."
+      STR_DOGE_RECRUITMENT_UFOPEDIA: "These loyal companions are a valuable addition to any X-Com squad. Highly trained dogs, also known as K9 Units, are fully capable of functioning effectively in battlefield conditions. Their unwavering obedience ensures they won't engage in combat unless specifically ordered to do so, swiftly neutralizing any unfortunate lifeforms caught within their powerful jaws.{NEWLINE}{NEWLINE}It's a fitting tribute that humanity's oldest friend stands ready for what could potentially be their final battle."
       STR_DRONE_WARFARE_UFOPAEDIA: "Unmanned aerial vehicles (UAVs) have been employed in both combat and reconnaissance roles. Their capacity to conduct high-altitude scouting, well beyond the reach of ground-based threats, allows for precision strikes, including the deployment of various explosives, missiles, or even kamikaze-like missions directly onto intended targets, all of which greatly enhance our operational capabilities. {NEWLINE} Additionally, we can deploy compact autonomous Land Drones, equipped with short-range weaponry. These drones are ideal for breaching structures and confined spaces suspected of housing enemy troops, ensuring the safety of our personnel."
       STR_TANKS_UNITS: Heavy Weapons Platforms
       STR_HEAVY_TANKS_UNITS_UFOPEDIA: "As access to new materials and advanced technologies, such as the enigmatic alien alloys, became available, the imperative to deploy heavier and more formidable units on the battlefield grew exponentially. To meet this demand, our dedicated Research teams embarked on an ambitious endeavor, focusing on the creation of groundbreaking models characterized by a drastic reduction in weight and increased mobility. The primary objective was to engineer units so lightweight that they could be safely transported and swiftly deployed by our enhanced transport ships equipped with VTOL (Vertical Takeoff and Landing) capabilities. {NEWLINE}This engineering feat signifies a pivotal advancement, enabling us to rapidly respond to emerging threats and engage the alien menace with unparalleled agility. These innovative designs are a testament to the relentless pursuit of progress and efficiency in our mission to safeguard humanity against the looming extraterrestrial threat."
       STR_EX_ADRENO_KIT_UFOPEDIA: WIP{NEWLINE} gives 1 dose to revive stun soldiers (get discarded after use)
       STR_EX_FIST_AID_KIT_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits
       STR_EX_BASIC_MEDI_KIT_UFOPEDIA: heal 1 point of bleeding and have 5 charges, useful for dedicated medic units, its expensive and heavier but heals more quickly and recharge freely after missions
-      STR_DOG_EQUIPMENT: Dog Armors and Equipment
+      STR_DOGE_EQUIPMENT: Dog Armors and Equipment
       STR_SUPPORT_UNITS: Supporting Units
-      STR_DOG_RECRUITMENT: XCom Special Canine Units
+      STR_DOGE_RECRUITMENT: XCom Special Canine Units
       STR_LEADER_UNLOCK: Leader Unlock
       STR_COMMANDER_UNLOCK: Commander Unlock
       STR_NAVIGATOR_UNLOCK: Navigator Unlock

@@ -49,17 +49,21 @@
  - modificar ligeramente el mapa del security station para q encaje con el octagonal
  - cambiarle el nombre a las armas de aviones
    * checar el archivo excel de la pagina para mas info
+#esto ya se agrego, falta meterlo en el changelog   
  - reordenar el tema de los tipos de unidades
    * 1 seran los soldados clasicos
    * 2 seran los soldados elite
    * 3 seran los tanqueros
    * 4 seran los mech pilots
    * 5 seran los oficiales
-   * 6 seran los drones uplink
-   * 7 seran los perritos
-   * 8 seran los perritos smarter
-   * 9 seran los perritos sapiens
-     ~ explicar q aunque los drones no son humanos, necesitan de uno para manejarse y espacio en las instalaciones, ya despues aunque sean semi automaticos, igual requieren human input 
+   * 6 seran los pilotos
+   * 7 seran los drones uplink
+   * 8 seran los perritos
+   * 9 seran los perritos smarter
+   * 10 seran los perritos sapiens
+     ~ explicar q aunque los drones no son humanos, necesitan de uno para manejarse y espacio en las instalaciones, ya despues aunque sean semi automaticos, igual requieren human input
+#leer lo de arriba     
+
  - el lore de los spawns sera como leliel
    * internamente son un mar dirac infinito blablabla
  - describir que la barraca grande tambien proporciona el trooper school y es necesario para poder hacer el upgrade a oficiales y demas

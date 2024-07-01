@@ -4025,7 +4025,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: e
+      ResistType: 10
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30
