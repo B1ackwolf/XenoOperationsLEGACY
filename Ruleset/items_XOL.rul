@@ -1528,6 +1528,10 @@ items:
     bulletSprite: 29
     power: 37
     damageType: 1
+    damageAlter:  #ojito con esto, copiarselo al resto de las armas cuando confirme q pueda hacer andar el mod otra vez
+      RandomType: 2
+      ResistType: 3
+      FixRadius: 0
     clipSize: 14
     battleType: 2
     armor: 65

@@ -28,6 +28,8 @@
 #######
 ####### Esto para hacer principalmente en la chamba
 #######
+
+ - cambiar nombre de small launcher orbs, el tercero ya no es antimateria, sino elerium estandar, para q sea explosivo
  - OJITO SIGUIENTE PARCHE, CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
    - sera carisimo
@@ -102,7 +104,9 @@
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
- 
+ - terminar de hacer las bigobs de las armas elites
+   * mejorar detalles del color rojo y tambien al cargador
+ - hacer los bigobs de las armas plasma alien n° 5a, 5b, 5c, 5of, 6a, 6b, 6of, 7a, 7b, 7c, 7of, 17a, 17of  
  - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
 
  - mejorar el breaching charge
@@ -142,6 +146,11 @@
    * aprovechar y explicar lo del drone q se conecta desde la base
    * aprovechar texto del edificio radar para completar la explicacion
    * crearles sus respectivos armor previews
+
+ - las armaduras deberan tener una capa extra
+   * acomodar el uniforme q sea de vuelta una capa unica, de preferencia eliminar todo rastro del chaleco negro en low poly.
+   * arriba de ese una capa extra q sera referente al WEBBBING osea tirantes, chalecos y demas.
+   * asi puedo manipular mejor el tema de tamaños de la ropa y del chaleco encima.
 
 ###
  - agregar nuevos sprites a las armaduras
@@ -350,7 +359,6 @@ IMPORTANTE PARA LORE:
      ~ also improve the laser sword handob slighty.
    * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
    * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out.
- - Create a new handob and floorob sprite in the new Kriss Vector style for the Xsmg.
  - Rename XX assault cannon to something 20mm flak.
  - Rename tank AP cannon to 25 mm Bushmaster.
  - Plane cannon is now a 30 mm GAU-8/A Avenger.

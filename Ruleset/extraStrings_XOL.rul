@@ -1164,7 +1164,7 @@ extraStrings:
       STR_SMALL_LAUNCHER: Cluster Launcher
       STR_STUN_BOMB: Stun Orbs
       STR_STUN_BOMB2: Acid Orbs
-      STR_STUN_BOMB3: Antimatter Orbs
+      STR_STUN_BOMB3: Elerium Orbs
 #-----Alien Equipment
       STR_EX_PORTABLE_COMPUTER: Alien Computer
       STR_EX_BIO_SAMPLE: DNA Sample
