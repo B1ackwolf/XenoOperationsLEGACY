@@ -39,9 +39,9 @@ extraStrings:
       STR_ELERIUM_REACTOR: Elerium reactor #may delete this
       STR_DRONE_SHOTGUN: Kel-Tec KSG Shotgun
       STR_MEASURE_RANGE: Doppler Rangefinder
-      STR_105MM_CANNON_SHELLS: 105x617mmR Shell #UK originated
-      STR_25MM_CHAIN_BOX: 25x137mm Chain box
-      STR_TANK_SMOKE_LAUNCHER: Smoke Array Dischargers
+      STR_TANK_CANNON_HE_ROUNDS: 105x617mmR Shell #UK originated
+      STR_TANK_CANNON_AP_ROUNDS: 25x137mm Chain box
+      STR_TANK_LAUNCHER_SMOKE: Smoke Array Dischargers
       STR_TANK_SMOKE_GRENADE: 76mm Tank Smoke grenade
       ABOMINATION_WEAPON: Abomination Psychic ray
       ANCIENT_SPAWN_TERRORIST_WEAPON: Spawn disruptor beam
@@ -1121,8 +1121,8 @@ extraStrings:
       STR_DRONE_SHOTGUN_CLIP: Drone shotgun clips
       STR_UAV_CORPSE: Drone Debris
       STR_LAND_DRONE_CORPSE: Drone Debris
-      STR_HEAVY_TANK_AP: Heavy Tank RAPIER 
-      STR_HEAVY_TANK_HE: Heavy Tank LONGSWORD
+      STR_TANK_AP_CHASSIS: Heavy Tank RAPIER 
+      STR_TANK_HE_CHASSIS: Heavy Tank LONGSWORD
       STR_HWP_RANGEFINDER: Drone Movement Sensor
 #-----Alien Weapons
       STR_LIGHT_ALIEN_WEAPONS: Light Alien Weapons
@@ -1942,8 +1942,8 @@ extraStrings:
       STR_UCAV_ROCKET_LAUNCHER_UFOPEDIA: The MQ-X 'Longbow' is the result of a joint effort between the USAF and the X-Com Research team. Leveraging Alien Alloys accessibility, they've successfully created a downsized REAPER drone. Armed with four compact 'Arrow' rockets, effective for eliminating light targets. However, its primary advantage is also their major drawback-its considerably reduced fuselage severely limits its potential flight range and autonomy, restricting its use to local operations.
 
       STR_LAND_DRONE_UFOPEDIA: "The FMT-X3 'Dagger' designed by Qinetiq, stands as one of the swiftest robots in production, capable of traversing diverse and dificult terrains. Equipped with an advanced signal repeater that can be loaded into any of our transport ships, enabling remote control from the safety within our main base installation. Armed with a short-range, high-impact shotgun, designed to lead dangerous breach operations and flush out adversaries, providing troops a safe entry." #the DAGGER transmits in color, black and white, infrared, and night vision, offering versatile surveillance capabilities. This signal repeater 
-      STR_HEAVY_TANK_AP_UFOPEDIA: Tank with a small armour piercing Cannon.
-      STR_HEAVY_TANK_HE_UFOPEDIA: Tank with a BIG high explosive CANNON. 
+      STR_TANK_AP_CHASSIS_UFOPEDIA: Tank with a small armour piercing Cannon.
+      STR_TANK_HE_CHASSIS_UFOPEDIA: Tank with a BIG high explosive CANNON. 
       STR_STINGRAY_UFOPEDIA: This advanced air-to-air weapon, equipped with shielded electronics, stands as one of the premier choices for intercepting extraterrestrial threats. Renowned for its precision and reliability, it is the vanguard against alien incursions.
       STR_AVALANCHE_UFOPEDIA: Featuring a compact depleted uranium warhead, the SPEAR is a heavyweight air-to-air missile, offering superior stopping power in the fight against extraterrestrial threats. It's a potent asset for intercepting and neutralizing any menace from beyond the stars.
       STR_CANNON_UFOPEDIA: A robust upgrade to the renowned General Electric GAU-8/A Avenger, the SLING is a heavyweight automatic cannon. Its exceptional firepower, capable of penetrating 3 inches of steel, makes it a vital asset for intercepting any threat that dares to approach at close range.
@@ -2195,7 +2195,7 @@ extraStrings:
       STR_XCOM_PERSONNEL: X-Com Personnel and Technologies
       STR_DRONE_WARFARE: Drone Warfare
       STR_XCOM_PILOTS: X-Com Pilots
-      STR_HWP_POP_SMOKE: Deploy Smoke
+      STR_TANK_POP_SMOKE: Deploy Smoke screen
       STR_XCOM_PILOTS_UFOPEDIA: "Handpicked from the ranks of the world's most esteemed air forces, these exceptional individuals are chosen to helm every aircraft in our arsenal including cutting-edge vehicles at the forefront of mankind's technological advancements with unmatched finesse and precision. They represent the pinnacle of aerial prowess, having undergone rigorous selection processes to identify the most skilled and accomplished pilots across the planet. As they accumulate combat experience, their proficiency soar, growing with each successful UFO takedown, making them increasingly formidable adversaries against the extraterrestrial threat. Though they may not be conventional soldiers, pilots are not without defensive training. Equipped with the skills and knowledge needed to fend off adversaries in dire circumstances, ensuring their safety and ability to continue contributing to our mission."
       STR_XCOM_SOLDIERS: X-Com Soldiers
       STR_XCOM_SOLDIERS_UFOPEDIA: "These courageous individuals constitute the project's backbone, serving as both the first and last line of defense. Hailing from diverse backgrounds and origins, eligibility is not restricted to military or security forces alone. However, a common thread we've observed among most candidates is their prior encounters with what can now be classified as 'extraterrestrial phenomena'.{NEWLINE}{NEWLINE}All founding council members are obligated by a clause to provide a fixed number of candidates every month. These candidate names are then entered into a pool, where selections are made randomly whenever the need arises to recruit new personnel. This approach ensures that economic and military powerhouses do not gain an undue advantage, a practice that some concerned members have referred to as 'unfair distribution of power affiliation' within the project. Only time will reveal if these measures are sufficient to maintain unwavering allegiance to the Cause."

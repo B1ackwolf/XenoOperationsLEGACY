@@ -295,7 +295,7 @@ extraSprites:
       434: Resources/WeaponrySprites/9thOrdnance/BigOb/18HumaAntiMatterCharge_inv.gif
       250: Resources/WeaponrySprites/9thOrdnance/BigOb/20BangaloreCharge.png
       251: Resources/WeaponrySprites/9thOrdnance/BigOb/21BreachingElerium.png
-      252: Resources/WeaponrySprites/9thOrdnance/BigOb/22BreachingAntimatter.png
+      252: Resources/WeaponrySprites/9thOrdnance/BigOb/22BreachingAntimatter_primed.png
 #----- Tier 9 Ordnance ends here -----#
 #----- Tier 10 Alien Plasma BigObs -----#
       350: Resources/WeaponrySprites/10thAlien/BigOb/1AlienPlasmaPistol.gif
@@ -328,9 +328,9 @@ extraSprites:
       373: Resources/WeaponrySprites/10thAlien/BigOb/17AlienBlasterLauncher_bomb1.gif
 #----- Tier 10 Alien plasma ends here -----#
 #----- Tier 10b Alien Ordnance BigObs -----#
-      364: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienGrenade.gif
-      370: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienProxGrenade.gif
-      366: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienExplosivePack.gif
+      364: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienGrenade_primed.gif
+      370: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienProxGrenade_primed.gif
+      366: Resources/WeaponrySprites/10thAlienOrdnance/BigOb/AlienExplosivePack_primed.gif
 #----- Tier 10b Alien Ordnance ends here -----#
 #----- Tier 11 Miscellaneous -----#
       900: Resources/WeaponrySprites/11thMisc/AlienStuff/BigOb/EleriumCell.gif
@@ -592,37 +592,37 @@ extraSprites:
       657: Resources/WeaponrySprites/5thRail/FloorOb/8RailCannon_clip3_floor.gif
 #----- Tier 5 Hypervelocity ends here -----#
 #----- Tier 6 Terran plasma FloorObs -----#
-      508: Resources/WeaponrySprites/6thPlasma/FloorOb/1HumanPlasmaCompactPistol_floor.gif
+      508: Resources/WeaponrySprites/6thPlasma/FloorOb/1HumanPlasmaCompactPistol_c1_floor.gif
       378: Resources/WeaponrySprites/6thPlasma/FloorOb/1HumanPlasmaCompactPistol_clip1_floor.gif
       412: Resources/WeaponrySprites/6thPlasma/FloorOb/1HumanPlasmaCompactPistol_clip2_floor.gif
       413: Resources/WeaponrySprites/6thPlasma/FloorOb/1HumanPlasmaCompactPistol_clip3_floor.gif
       377: Resources/WeaponrySprites/6thPlasma/FloorOb/2HumanPlasmaServicePistol_floor.gif
-      379: Resources/WeaponrySprites/6thPlasma/FloorOb/3HumanPlasmaSmg_floor.gif
+      379: Resources/WeaponrySprites/6thPlasma/FloorOb/3HumanPlasmaSmg_c1_floor.gif
       513: Resources/WeaponrySprites/6thPlasma/FloorOb/3HumanPlasmaSmg_clip1_floor.gif
       514: Resources/WeaponrySprites/6thPlasma/FloorOb/3HumanPlasmaSmg_clip2_floor.gif
       515: Resources/WeaponrySprites/6thPlasma/FloorOb/3HumanPlasmaSmg_clip3_floor.gif
       512: Resources/WeaponrySprites/6thPlasma/FloorOb/4HumanPlasmaHeavyPistol_floor.gif
-      516: Resources/WeaponrySprites/6thPlasma/FloorOb/5HumanPlasmaCarbine_floor.gif
+      516: Resources/WeaponrySprites/6thPlasma/FloorOb/5HumanPlasmaCarbine_c1_floor.gif
       517: Resources/WeaponrySprites/6thPlasma/FloorOb/5HumanPlasmaCarbine_clip1_floor.gif
       518: Resources/WeaponrySprites/6thPlasma/FloorOb/5HumanPlasmaCarbine_clip2_floor.gif
       519: Resources/WeaponrySprites/6thPlasma/FloorOb/5HumanPlasmaCarbine_clip3_floor.gif
-      383: Resources/WeaponrySprites/6thPlasma/FloorOb/6HumanPlasmaShotgun_floor.gif
+      383: Resources/WeaponrySprites/6thPlasma/FloorOb/6HumanPlasmaShotgun_c1_floor.gif
       384: Resources/WeaponrySprites/6thPlasma/FloorOb/6HumanPlasmaShotgun_clip1_floor.gif
       418: Resources/WeaponrySprites/6thPlasma/FloorOb/6HumanPlasmaShotgun_clip2_floor.gif
       419: Resources/WeaponrySprites/6thPlasma/FloorOb/6HumanPlasmaShotgun_clip3_floor.gif
-      381: Resources/WeaponrySprites/6thPlasma/FloorOb/7HumanPlasmaRifle_floor.gif
+      381: Resources/WeaponrySprites/6thPlasma/FloorOb/7HumanPlasmaRifle_c1_floor.gif
       382: Resources/WeaponrySprites/6thPlasma/FloorOb/7HumanPlasmaRifle_clip1_floor.gif
       416: Resources/WeaponrySprites/6thPlasma/FloorOb/7HumanPlasmaRifle_clip2_floor.gif
       417: Resources/WeaponrySprites/6thPlasma/FloorOb/7HumanPlasmaRifle_clip3_floor.gif
-      387: Resources/WeaponrySprites/6thPlasma/FloorOb/8HumanPlasmaLmg_floor.gif
+      387: Resources/WeaponrySprites/6thPlasma/FloorOb/8HumanPlasmaLmg_c1_floor.gif
       388: Resources/WeaponrySprites/6thPlasma/FloorOb/8HumanPlasmaLmg_belt1_floor.gif
       422: Resources/WeaponrySprites/6thPlasma/FloorOb/8HumanPlasmaLmg_belt2_floor.gif
       423: Resources/WeaponrySprites/6thPlasma/FloorOb/8HumanPlasmaLmg_belt3_floor.gif
-      385: Resources/WeaponrySprites/6thPlasma/FloorOb/9HumanPlasmaSniper_floor.gif
+      385: Resources/WeaponrySprites/6thPlasma/FloorOb/9HumanPlasmaSniper_c1_floor.gif
       386: Resources/WeaponrySprites/6thPlasma/FloorOb/9HumanPlasmaSniper_clip1_floor.gif
       420: Resources/WeaponrySprites/6thPlasma/FloorOb/9HumanPlasmaSniper_clip2_floor.gif
       421: Resources/WeaponrySprites/6thPlasma/FloorOb/9HumanPlasmaSniper_clip3_floor.gif
-      389: Resources/WeaponrySprites/6thPlasma/FloorOb/10HumanPlasmaHeavyCannon_floor.gif
+      389: Resources/WeaponrySprites/6thPlasma/FloorOb/10HumanPlasmaHeavyCannon_c1_floor.gif
       390: Resources/WeaponrySprites/6thPlasma/FloorOb/10HumanPlasmaHeavyCannon_clip1_floor.gif
       424: Resources/WeaponrySprites/6thPlasma/FloorOb/10HumanPlasmaHeavyCannon_clip2_floor.gif
       425: Resources/WeaponrySprites/6thPlasma/FloorOb/10HumanPlasmaHeavyCannon_clip3_floor.gif
@@ -699,9 +699,9 @@ extraSprites:
       373: Resources/WeaponrySprites/10thAlien/FloorOb/17AlienBlasterLauncher_bomb1_floor.gif
 #----- Tier 10 Alien plasma ends here -----#
 #----- Tier 10b Alien Ordnance FloorObs -----#
-      364: Resources/WeaponrySprites/10thAlienOrdnance/FloorOb/AlienGrenade_floor.gif
-      370: Resources/WeaponrySprites/10thAlienOrdnance/FloorOb/AlienProxGrenade_floor.gif
-      366: Resources/WeaponrySprites/10thAlienOrdnance/FloorOb/AlienExplosivePack_floor.gif
+      364: Resources/WeaponrySprites/10thAlienOrdnance/FloorOb/AlienGrenade_primed_floor.gif
+      370: Resources/WeaponrySprites/10thAlienOrdnance/FloorOb/AlienProxGrenade_primed_floor.gif
+      366: Resources/WeaponrySprites/10thAlienOrdnance/FloorOb/AlienExplosivePack_primed_floor.gif
 #----- Tier 10b Alien Ordnance ends here -----#
 #----- Tier 11 Miscellaneous -----#
       393: Resources/WeaponrySprites/11thMisc/AlienStuff/FloorOb/AlienComputer_floor.gif
@@ -813,17 +813,17 @@ extraSprites:
       690: Resources/WeaponrySprites/5thRail/HandOb/8RailCannon_c1_hand.gif
 #----- Tier 5 Hypervelocity ends here -----#
 #----- Tier 6 Terran plasma HandObs -----#
-      810: Resources/WeaponrySprites/6thPlasma/HandOb/1HumanPlasmaCompactPistol_hand.gif
-      980: Resources/WeaponrySprites/6thPlasma/HandOb/2HumanPlasmaServicePistol_hand.gif
-      960: Resources/WeaponrySprites/6thPlasma/HandOb/3HumanPlasmaSmg_hand.gif
-      820: Resources/WeaponrySprites/6thPlasma/HandOb/4HumanPlasmaHeavyPistol_hand.gif
-      710: Resources/WeaponrySprites/6thPlasma/HandOb/5HumanPlasmaCarbine_hand.gif
-      970: Resources/WeaponrySprites/6thPlasma/HandOb/6HumanPlasmaShotgun_hand.gif
-      990: Resources/WeaponrySprites/6thPlasma/HandOb/7HumanPlasmaRifle_hand.gif
-      940: Resources/WeaponrySprites/6thPlasma/HandOb/8HumanPlasmaLmg_hand.gif
-      1000: Resources/WeaponrySprites/6thPlasma/HandOb/9HumanPlasmaSniper_hand.gif
-      950: Resources/WeaponrySprites/6thPlasma/HandOb/10HumanPlasmaHeavyCannon_hand.gif
-      1080: Resources/WeaponrySprites/6thPlasma/HandOb/11HumanBlasterLauncher_hand.gif
+      810: Resources/WeaponrySprites/6thPlasma/HandOb/1HumanPlasmaCompactPistol_c1_hand.gif
+      980: Resources/WeaponrySprites/6thPlasma/HandOb/2HumanPlasmaServicePistol_c1_hand.gif
+      960: Resources/WeaponrySprites/6thPlasma/HandOb/3HumanPlasmaSmg_c1_hand.gif
+      820: Resources/WeaponrySprites/6thPlasma/HandOb/4HumanPlasmaHeavyPistol_c1_hand.gif
+      710: Resources/WeaponrySprites/6thPlasma/HandOb/5HumanPlasmaCarbine_c1_hand.gif
+      970: Resources/WeaponrySprites/6thPlasma/HandOb/6HumanPlasmaShotgun_c1_hand.gif
+      990: Resources/WeaponrySprites/6thPlasma/HandOb/7HumanPlasmaRifle_c1_hand.gif
+      940: Resources/WeaponrySprites/6thPlasma/HandOb/8HumanPlasmaLmg_c1_hand.gif
+      1000: Resources/WeaponrySprites/6thPlasma/HandOb/9HumanPlasmaSniper_c1_hand.gif
+      950: Resources/WeaponrySprites/6thPlasma/HandOb/10HumanPlasmaHeavyCannon_c1_hand.gif
+      1080: Resources/WeaponrySprites/6thPlasma/HandOb/11HumanBlasterLauncher_c1_hand.gif
 #----- Tier 6 Terran plasma ends here -----#
 #----- Tier 7 Stun HandObs -----#
       200: Resources/WeaponrySprites/7thStun/HandOb/4TaserPistol_hand.png
@@ -874,7 +874,7 @@ extraSprites:
 #----- Tier 10 Alien plasma ends here -----#
 #----- Tier 10b Alien Ordnance HandObs -----#
       850: Resources/WeaponrySprites/10thAlienOrdnance/HandOb/AlienGrenade_hand.png
-      1040: Resources/WeaponrySprites/10thAlienOrdnance/HandOb/AlienExplosivePack_hand.gif
+      1040: Resources/WeaponrySprites/10thAlienOrdnance/HandOb/AlienExplosivePack_primed_hand.gif
 #----- Tier 10b Alien Ordnance ends here -----#
 #----- Tier 11 Miscellaneous -----#
     #  664: Resources/WeaponrySprites/11thMisc/HandOb/Elerium.png #ojito, asignar luego

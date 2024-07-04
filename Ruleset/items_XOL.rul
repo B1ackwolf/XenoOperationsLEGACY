@@ -115,32 +115,32 @@ items:
 #----- Codex related -----#
   - type: STR_CODEX_1
     size: .5
-    costSell: 1000000
+    costSell: 100000
     battleType: 0
     listOrder: 1
   - type: STR_CODEX_2
     size: 1
-    costSell: 3500000
+    costSell: 350000
     battleType: 0
     listOrder: 2
   - type: STR_CODEX_3
     size: 2
-    costSell: 5000000
+    costSell: 500000
     battleType: 0
     listOrder: 3
   - type: STR_CODEX_4
     size: 5
-    costSell: 10000000
+    costSell: 1000000
     battleType: 0
     listOrder: 4
   - type: STR_CODEX_5
     size: 10
-    costSell: 50000000
+    costSell: 5000000
     battleType: 0
     listOrder: 5
   - type: STR_CODEX_COMPLETE
     size: 20
-    costSell: 100000000
+    costSell: 10000000
     battleType: 0
     listOrder: 6
   - type: STR_CODEX_KEY
@@ -150,7 +150,7 @@ items:
     floorSprite: 953
     invWidth: 2
     invHeight: 3
-    costSell: 5500000
+    costSell: 550000
     battleType: 0
     recoveryPoints: 300
     listOrder: 7
@@ -455,14 +455,23 @@ items:
     listOrder: 1511
 #######----TANKS WIP
 
+
+
 ##### ojito luego moverlo hacia donde las armaduras para mantener el orden de mi lista
-  - type: STR_BASIC_TANK_AP_ITEM # Item for the armor
+  - type: STR_TANK_HE_CHASSIS # Item for the armor
     # categories:[STR_TANKS, STR_LIGHT_TANKS]
     size: 6
     costBuy: 12000
     costSell: 18000
     transferTime: 96
-
+    listOrder: 1414
+#
+  - type: STR_TANK_AP_CHASSIS 
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 1415
 # tanks repair    
   - type: STR_BASIC_TANK_RECOVER
     recover: true
@@ -471,57 +480,22 @@ items:
     size: 0.8
     weight: 100
     listOrder: 10601
-############## ojito borrar esto de abajo seguramente
-  - type: STR_HEAVY_TANK_AP 
-#    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
-    size: 5
-    costSell: 575000
-    transferTime: 96
-    weight: 1
-    bigSprite: 2504
-    floorSprite: 0
-    handSprite: 0
-    bulletSprite: 3
-    fireSound: 1333
-    hitSound: 1335
-    hitAnimation: 26
-    power: 70
-    damageType: 1
-    damageAlter:
-      RandomType: 6
-      ToArmor: 0.8
-      ToArmorPre: 0.7
-#      IgnoreOverKill: false
-    clipSize: 40
-    accuracySnap: 30
-    tuSnap: 25
-    accuracyAimed: 60
-    tuAimed: 55
-    maxRange: 200
-    aimRange: 125
-    snapRange: 25
-    minRange: 10
-    dropoff: 1
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    turretType: -1
-    bulletSpeed: 4
-    listOrder: 1414
-  - type: STR_TANK_105MM_CANNON
-#    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
+    
+#----- Tanks and Mech Weaponry -----#
+#
+  - type: STR_TANK_CANNON_HE
+#    categories: [STR_TANKS, STR_LIGHT_TANKS] ojito completar luego, ponersela a todos los items
     size: 5
     costSell: 600000
     transferTime: 96
-    weight: 1
-    bigSprite: 2502
+    weight: 40
+    bigSprite: 2502 #ojito cambiar a cañon de tanque
     floorSprite: 0
     handSprite: 0
     bulletSprite: 4
     fireSound: 1330
     compatibleAmmo:
-      - STR_105MM_CANNON_SHELLS
+      - STR_TANK_CANNON_HE_ROUNDS
     accuracySnap: 50
     tuSnap: 35
     accuracyAimed: 90
@@ -538,8 +512,8 @@ items:
     turretType: -1
     bulletSpeed: 4
     listOrder: 1409
-#armas tanques
-  - type: STR_105MM_CANNON_SHELLS
+#
+  - type: STR_TANK_CANNON_HE_ROUNDS
 #    categories: [STR_TANKS, STR_US_TECH, STR_TANK_AMMO, STR_LIGHT_TANKS]
     requires:
       - STR_TANKS_UNITS
@@ -550,6 +524,7 @@ items:
     weight: 1
     bigSprite: 2502
     floorSprite: 12
+    handSprite: 0
     hitSound: 1332
     hitAnimation: 26
     power: 100
@@ -570,7 +545,40 @@ items:
     invWidth: 1
     invHeight: 3
     listOrder: 9002
-  - type: STR_25MM_CHAIN_BOX
+#
+  - type: STR_TANK_CANNON_AP
+#    categories: [STR_TANKS, STR_LIGHT_TANKS] completar luego, ponersela a todos los items
+    size: 5
+    costSell: 575000
+    transferTime: 96
+    weight: 40
+    bigSprite: 2504 #ojito cambiar a cañon de tanque
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 3
+    fireSound: 1333
+    hitSound: 1335
+    hitAnimation: 26
+    compatibleAmmo:
+      - STR_TANK_CANNON_AP_ROUNDS
+    accuracySnap: 30
+    tuSnap: 25
+    accuracyAimed: 60
+    tuAimed: 55
+    maxRange: 200
+    aimRange: 125
+    snapRange: 25
+    minRange: 10
+    dropoff: 1
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: -1
+    bulletSpeed: 4
+    listOrder: 1414
+#
+  - type: STR_TANK_CANNON_AP_ROUNDS
 #    categories: [STR_TANKS, STR_NATO_TECH, STR_TANK_AMMO, STR_LIGHT_TANKS]
     requires:
       - STR_TANKS_UNITS
@@ -579,24 +587,28 @@ items:
     costSell: 800
     transferTime: 48
     weight: 1
-    bigSprite: -1
+    bigSprite: 2504
     floorSprite: 12
+    handSprite: 0
     hitSound: 4
     hitAnimation: 0
     power: 80
     damageType: 1
     damageAlter:
-      ArmorEffectiveness: 0.85
+      ArmorEffectiveness: 1.25
       IgnoreOverKill: false #ojito checar luego
       RandomType: 6
       ToTile: 1.4
+      ToArmor: 0.8
+      ToArmorPre: 0.7
     bulletSpeed: 10
-    clipSize: 30
+    clipSize: 50
     battleType: 2
     invWidth: 2
     invHeight: 1
-    listOrder: 1406
-  - type: STR_TANK_SMOKE_LAUNCHER
+    listOrder: 9001
+#
+  - type: STR_TANK_LAUNCHER_SMOKE
     weight: 0
     bigSprite: 2501
     fireSound: 114
@@ -605,7 +617,7 @@ items:
     accuracyAimed: 100
     tuAimed: 45
     confAimed:
-      name: STR_HWP_POP_SMOKE
+      name: STR_TANK_POP_SMOKE
     battleType: 1
     maxRange: 2
     arcingShot: true
@@ -615,6 +627,7 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 3411
+#
   - type: STR_TANK_SMOKE_GRENADE
     weight: 0
     bigSprite: 1209
@@ -627,6 +640,9 @@ items:
     hitSound: 0
     hitAnimation: 0
     listOrder: 9000
+
+
+#################################
 ##########DOGGOS##########
   - type: STR_DOGE #ojito, posiblemente borrar este?
     # categories: [STR_BEASTS]
@@ -5928,12 +5944,8 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     size: 0.25
-
     weight: 6
-
     floorSprite: 434
-
-
     battleType: 4
     invWidth: 1
     invHeight: 1
@@ -5941,9 +5953,8 @@ items:
     fuseType: -1
     twoHanded: true
     attraction: 6
-
-
     listOrder: 2915
+#
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 3
     costSell: 1
@@ -5965,7 +5976,6 @@ items:
 #      IgnoreOverKill: false
     listOrder: 2916
   - type: STR_BO_ELERIUM_CHARGE   #ojito ordenar bien q onda los stats
-    costBuy: 3
     costSell: 1
     bigSprite: 439
    # floorSprite: 301

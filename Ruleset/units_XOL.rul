@@ -68,7 +68,7 @@ units:
     moveSound: 1002
     energyRecovery: 50
 ####---- Tanks in progress
-  - type: STR_HEAVY_TANK_AP
+  - type: STR_TANK_AP_CHASSIS
     race: STR_HEAVY_TANK
     stats:
       tu: 110
@@ -91,8 +91,8 @@ units:
     energyRecovery: 50
     builtInWeaponSets:
       -
-        - STR_25MM_CHAIN_BOX
-        - STR_TANK_SMOKE_LAUNCHER
+        - STR_TANK_CANNON_AP_ROUNDS
+        - STR_TANK_LAUNCHER_SMOKE
         - STR_TANK_SMOKE_GRENADE
   - type: STR_HEAVY_TANK_HE
     race: STR_HEAVY_TANK
@@ -117,8 +117,8 @@ units:
     energyRecovery: 50
     builtInWeaponSets:
       -
-        - STR_105MM_CANNON_SHELLS
-        - STR_TANK_SMOKE_LAUNCHER
+        - STR_TANK_CANNON_HE_ROUNDS
+        - STR_TANK_LAUNCHER_SMOKE
         - STR_TANK_SMOKE_GRENADE
 ###-------End Tanks
 

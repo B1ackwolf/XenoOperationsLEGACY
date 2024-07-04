@@ -336,12 +336,12 @@ ufopaedia:
     text: STR_BASIC_TANK_ARMOR_UC_UFOPEDIA
     listOrder: 10262
 
-  - id: STR_HEAVY_TANK_AP
+  - id: STR_TANK_AP_CHASSIS
     type_id: 3
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_TANKS_UNITS
-    text: STR_HEAVY_TANK_AP_UFOPEDIA
+    text: STR_TANK_AP_CHASSIS_UFOPEDIA
     weapon: STR_25MM_TANK_CANNON
     image_id: APTANKUFO
   - id: STR_HEAVY_TANK_HE
