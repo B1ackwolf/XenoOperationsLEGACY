@@ -34,16 +34,7 @@
    - sera carisimo
    - exotico 
 
-   * hacer sprites de las armas aliens con colores distintos igual q las humanas
-     ~ cambiarle el color a las overcharged por algun otro color exotico
-   * las armas elite seran daño laser porq son reliquias antiguas
-     ~ con esto podria hacerlas mas fuertes que el plasma sin hacerlas redundantes
- - acomodar colores del bulletsprite q coincidan con el color del arma
 
- - los explosivos alienigenas tendran las porciones ocultas y "subiran cuando se activen"
-
-
- - sacar baseprites para edificios del tftd twots y tftd+
  - modificar ligeramente el mapa del security station para q encaje con el octagonal
  - cambiarle el nombre a las armas de aviones
    * checar el archivo excel de la pagina para mas info
@@ -90,16 +81,19 @@
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
- - terminar de hacer las bigobs de las armas elites
+ - terminar de hacer las bigobs de las armas elites alien
    * mejorar detalles del color rojo y tambien al cargador
- - hacer los bigobs de las armas plasma alien n° 5a, 5b, 5c, 5of, 6a, 6b, 6of, 7a, 7b, 7c, 7of, 17a, 17of  
+   * las armas elite seran daño laser porq son reliquias antiguas
+     ~ con esto podria hacerlas mas fuertes que el plasma sin hacerlas redundantes
+ - acomodar colores del bulletsprite q coincidan con el color del arma
+ - hacer los floorobs y handobs de las armas plasma alien
  - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
-
+ - sacar baseprites para edificios del tftd twots y tftd+
+   * hacer sprites de las armas aliens con colores distintos igual q las humanas
+     ~ cambiarle el color a las overcharged por algun otro color exotico
  - mejorar el breaching charge
    * ahi el bangalore elerium deberia ser con detalles en amarillo
    * aprovechar y mejorar las sprites de los componentes y explosivos humanas, hacerlas mas intrincadas
-  
-
  - separar armas q estan en el mismo png
  - revisar CTO para ver como se implementaron el tema de las armas con multiples cargadores
  - implementar script de armas q varian en base al cartucho de filip h en jeilo
@@ -107,8 +101,6 @@
    * en caso de las pistolas, hacerlas gatilladas la corredera
    * las armas de rieles tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
    * las armas de plasma tambien tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
-
-
  - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
 ###################################################################################################################################
 ###################################################################################################################################
@@ -122,9 +114,6 @@
    * eliminando el comando blastradius y remplazar con el que tipea recomendado el ruleset que es damage alter
  - acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
-  
-
-
 ####OJITO AQUI SIGUIENTES 
  - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
  - usar EL soldado IA para del drone core
@@ -132,12 +121,10 @@
    * aprovechar y explicar lo del drone q se conecta desde la base
    * aprovechar texto del edificio radar para completar la explicacion
    * crearles sus respectivos armor previews
-
  - las armaduras deberan tener una capa extra
    * acomodar el uniforme q sea de vuelta una capa unica, de preferencia eliminar todo rastro del chaleco negro en low poly.
    * arriba de ese una capa extra q sera referente al WEBBBING osea tirantes, chalecos y demas.
    * asi puedo manipular mejor el tema de tamaños de la ropa y del chaleco encima.
-
 ###
  - agregar nuevos sprites a las armaduras
    * darle prioridar al formato de los chalecos
@@ -164,8 +151,7 @@
          ° Armadura alloy = Spartan / pilot=ithacan
          ° Armadura Voladora = cuāuhpilli / pilot= Quetzalcóatl 
          ° Armadura Power = Myrmidon / pilot=argonaut
-         ° Armadura Psionica = Gorgon / pilot= cyclops
-         
+         ° Armadura Psionica = Gorgon / pilot= cyclops      
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
  - Improve armor sprites.
    * hacer mas bulkies el battle sprite
@@ -187,7 +173,6 @@
    * sea distinta, no se pueda usar en el inventario
    * sin el chaleco pesado pero q posea la boina
    * con boina distinta segun el tipo de soldado q sea
-
 ######### 
  - balancear requerimientos en materiales de todos los edificios. cuchillos nuevos resolverle los handobs, hacer sprites de armas elites, de cargadores de la minigun . asi queda todo listo para el jueves empezar y terminar el rediseño de esas armaduras nivel 2?,pintar de rojo TODOS lo relacionado a las sprites faltantes de pilotos (tanto en battlescapé como en accesorios de inventario) y empezar el proceso de implementacion de armaduras para "tanqueros" y para "drones cores", tambien agregar los grafiquitos de GLOBEmarkers, una vez concretado todo eso.
  - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
@@ -245,7 +230,6 @@
      ~ Learn if there is a way to add a custom-made version for the Cydonian assault.
    * Cambiar la imagen de fondo del graph de ser el soldado disparando a algo mas....fittin?, algo como stonks?
 + cosas de nombres de especies:
-
  - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
  - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
  - nombres nuevos a considerar para rangos otras especies
@@ -265,7 +249,6 @@ Warlord:    the only and true leader of the seb-folk ,one only the most though,s
 
 ##################################### arriba es el desastre
 + Cosas pendientes:
-
  - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
 
  - siguiente parche tendra el revamp del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
