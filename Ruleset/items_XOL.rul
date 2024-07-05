@@ -542,7 +542,7 @@ items:
 #      IgnoreOverKill: false
     clipSize: 20
     battleType: 2
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     listOrder: 9002
 #
@@ -605,7 +605,7 @@ items:
     clipSize: 50
     battleType: 2
     invWidth: 2
-    invHeight: 1
+    invHeight: 3
     listOrder: 9001
 #
   - type: STR_TANK_LAUNCHER_SMOKE
@@ -634,7 +634,7 @@ items:
     power: 60
     damageType: 9
     clipSize: 6
-    battleType: 0
+    battleType: 2
 #    ignoreInCraftEquip: true
 #    ignoreInBaseDefense: true
     hitSound: 0
@@ -1545,7 +1545,7 @@ items:
     power: 37
     damageType: 1
     damageAlter:  #ojito con esto, copiarselo al resto de las armas cuando confirme q pueda hacer andar el mod otra vez
-      RandomType: 2
+      RandomType: 3
       ResistType: 3
       FixRadius: 0
     clipSize: 14
@@ -1606,6 +1606,10 @@ items:
     hitAnimation: 26
     power: 40
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 12
     battleType: 2
     armor: 65
@@ -1665,6 +1669,10 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 9
     battleType: 2
     armor: 65
@@ -1757,6 +1765,10 @@ items:
     hitAnimation: 26
     power: 39
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 30
     battleType: 2
     armor: 65
@@ -1816,6 +1828,10 @@ items:
     hitAnimation: 26
     power: 35
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 8
     shotgunPellets: 5
     battleType: 2
@@ -1905,6 +1921,10 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 20
     battleType: 2
     listOrder: 2221
@@ -1963,6 +1983,10 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 40
     battleType: 2
     invWidth: 2
@@ -2020,6 +2044,10 @@ items:
     hitAnimation: 26
     power: 70
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 8
     battleType: 2
     listOrder: 2227
@@ -2076,6 +2104,10 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 40
     shotgunPellets: 10
     battleType: 2
@@ -2163,6 +2195,10 @@ items:
     hitAnimation: 26
     power: 73
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 3
+      ResistType: 3
+      FixRadius: 0
     clipSize: 10
     battleType: 2
     invWidth: 2
@@ -2360,6 +2396,10 @@ items:
     bulletSprite: 1
     power: 51
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 14
     battleType: 2
     armor: 65
@@ -2433,6 +2473,10 @@ items:
     hitAnimation: 26
     power: 50
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 12
     battleType: 2
     armor: 65
@@ -2507,6 +2551,10 @@ items:
     hitAnimation: 26
     power: 71
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 9
     battleType: 2
     armor: 65
@@ -2613,6 +2661,10 @@ items:
     hitAnimation: 26
     power: 47
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 25
     battleType: 2
     armor: 65
@@ -2682,6 +2734,10 @@ items:
     hitAnimation: 26
     power: 45
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 10
     shotgunPellets: 5
     battleType: 2
@@ -2783,6 +2839,10 @@ items:
     hitAnimation: 26
     power: 60
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 20
     battleType: 2
     listOrder: 2327
@@ -2856,6 +2916,10 @@ items:
     hitAnimation: 26
     power: 61
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 45
     battleType: 2
     invWidth: 2
@@ -2926,6 +2990,10 @@ items:
     hitAnimation: 26
     power: 78
     damageType: 1
+    damageAlter:  #ojito con esto, verificar si es funcional e util
+      RandomType: 7
+      ResistType: 2
+      FixRadius: 0
     clipSize: 10
     battleType: 2
     listOrder: 2335
@@ -4045,7 +4113,7 @@ items:
     damageType: 3
     damageAlter: # continuar este
       RandomType: 2
-      ResistType: 10
+      ResistType: 3
       FixRadius: 10
       RadiusReduction: 5
       FireThreshold: 30

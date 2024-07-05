@@ -101,17 +101,42 @@ these options are activated by default YET you can change them in case you found
 
 gameplay changes:
  - Modificado todos los nombres de los tipos de daño:
-   * Armor piercing ---> Kinect
+   * none= Special
+   * Armor piercing = Kinect
    * Incendiary = no changes
    * High explosive = concussive
    * Laser Beam = energy
    * Plasma beam = Plasma
-   (continuar agregado luego)
-
+   * stun = electric 
+   * melee = cutting
+   * acid = chemical
+   * smoke = no changes
+   * 10type(new) = Antimatter
  - agregado un nuevo tipo de daño de armas: ANTIMATTER
    * como el nombre dice esta diseñado para evaporar todo en su area de explosion
    * mucha precaucion requerida para su uso adecuado
-   * algunas armas y municiones q producian daño explosivo fueron cambiados a este tipo
+   * algunas granadas y explosivos tanto "humanos" como alienigena recibieron este tipo de daño.
+
+
+ - modificado el daño de algunos tipos de armas:
+   * el tier 2 (eXPerimental weapons) recibio un cambio en la municion tech
+     ~ ahora hace daño concussive, pero sin explosion o daño en area.
+     ~ el lore detras de este comportamiento es municion inteligente con sensores hechos de tecnologia codex, cuando determina q se encuentra dentro del objetivo, procede a estallar, produciendo una "explosion interna"
+     ~ el XX cannon tiene dos municiones concussive, una high explosive (explosion externa clasica) y la tech con el mismo concepto
+       ° cualquiera familiarizado con Gantz podra imaginarse el concepto.
+   * el tier 3 (HYbrid weapons)    
+     ~ implementado mejor el concepto de daño acido, en teoria deberia funcionar mejor
+     ~ la e115 tipped ammo hacen daño incendiario
+     ~ el lore detras de esto es que son balas creadas a base de virutas/escorias de e115 inertes luego de ser usadaas en otros sistemas. no son nada eficientes para producir energia pero producen una reaccion exotermica al dispararse.
+       ° produce una especie de elerio gelatinizado que una vez se adhiere al objetivo va carcomiendo el objetivo y es dificil de eliminar.
+   * el tier 5 (RaiL Weapons)
+     ~ la municion enriquecida produce daño concussive con explosion en area (aunque sea muy chica esta explosion y se disipe a unos cuadros de distancia), util cuando se encuentren enemigos inmunes a la municion kinetica.
+       ° como addemdun, esta en discusion si la municion empobrecida y la basica recibiran algun tipo de cambio de daño. el CUTTING es tentativo. quizas un poco de testeo y feedback adicional sea necesario.
+   * el tier   (PlasMa weapons)
+     ~ los primeros en recibir el nuevo tipo de daño antimateria.
+     ~ produce una pequeña explosion en un area pequeña alrededor de la zona de impacto.   
+
+
 
 
  - agregado un nuevo tipo de soldier transformation:

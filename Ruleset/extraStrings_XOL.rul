@@ -1401,12 +1401,12 @@ extraStrings:
       STR_XP_ROCKET2: X Heavy Rocket
       STR_XP_APROCKET: XAP Rocket
       STR_XP_MINIGUN: X9 Minigun
-      STR_XP_MINIGUN_BELT2: 5.56mm Minigun Alloy Box
-      STR_XP_MINIGUN_BELT3: 5.56mm Minigun Tech Box
+      STR_XP_MINIGUN_BELT2: 5.56mm Alloy Box
+      STR_XP_MINIGUN_BELT3: 5.56mm Tech Box
       STR_XP_AUTO_CANNON: XX Assault Cannon
-      STR_XP_AUTO_CANNON_BELT: 20mm Cannon Belt
-      STR_XP_AUTO_CANNON_BELT2: 20mm Cannon Alloy Belt
-      STR_XP_AUTO_CANNON_BELT3: 20mm Cannon Tech Belt
+      STR_XP_AUTO_CANNON_BELT: 20mm Belt
+      STR_XP_AUTO_CANNON_BELT2: 20mm Alloy Belt
+      STR_XP_AUTO_CANNON_BELT3: 20mm Tech Belt
       STR_BO_FIERY_GRENADE: Napalm Grenade
       STR_ME_BASIC_KNIFE: Combat Knife
       STR_ME_KNUCKLES: Brass Knuckles
@@ -1463,7 +1463,7 @@ extraStrings:
       STR_ST_ANTI_MATERIEL_CLIP: .50 BMG Magazine
       STR_ST_MINIGUN: Minigun
       STR_ST_MINIGUN_UFOPEDIA: "The General Electric XM214 Gatling Gun, a testament to XCom's relentless pursuit of high-rate-of-fire weaponry. This six-barreled, electrically operated rotary cannon unleashes an unrelenting storm of 5.56mm ammunition, it excels in obliterating enemy positions.{NEWLINE}{NEWLINE}Though its weight is a notable downside, the weapon's full-auto capability ensures superior suppressive fire. Countless redesigns were undertaken to preserve damage and rate of fire while achieving handheld portability. This overwhelming firepower places the XM214 among XCom's top choices for clearing hostile zones."
-      STR_ST_MINIGUN_BELT: 5.56mm Minigun Box
+      STR_ST_MINIGUN_BELT: 5.56mm Box
 #aqui me quede
       STR_HEAVY_CANNON: Grenade Launcher
       STR_HEAVY_CANNON_UFOPEDIA: "The Milkor Automatic Grenade Launcher, a formidable yet unwieldy addition to XCom's arsenal.{NEWLINE}{NEWLINE}Its true strength lies in its versatility, as it can unleash an array of 40mm grenades, including smoke, high explosive, and incendiary rounds, in a high-arcing trajectory."

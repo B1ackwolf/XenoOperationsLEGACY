@@ -439,8 +439,9 @@ soldiers:
     standHeight: 10
     kneelHeight: 10
     femaleFrequency: 0
-#    soldierNames:
-#      - crear archivo de nombre de robotitos?
+    soldierNames:
+      - delete
+      - Ruleset/SoldierNames/SupportNames/Cores.nam
     rankStrings:
     - STR_DRONE_CORE
     deathMale: 23
@@ -510,7 +511,7 @@ soldiers:
     avatarOffsetY: 59
     soldierNames:
       - delete
-      - Ruleset/SoldierNames/DogeNames/ZZDoges.nam
+      - Ruleset/SoldierNames/SupportNames/Doges.nam
     allowPiloting: false
     allowPromotion: false
     flagOffset: 500
@@ -586,7 +587,7 @@ soldiers:
     avatarOffsetY: 59
     soldierNames:
       - delete
-      - Ruleset/SoldierNames/DogeNames/ZZDoges.nam
+      - Ruleset/SoldierNames/SupportNames/Doges.nam
     allowPiloting: false
     allowPromotion: false
     flagOffset: 500
@@ -663,7 +664,7 @@ soldiers:
     avatarOffsetY: 59
     soldierNames:
       - delete
-      - Ruleset/SoldierNames/DogeNames/ZZDoges.nam
+      - Ruleset/SoldierNames/SupportNames/Doges.nam
     allowPiloting: false
     allowPromotion: false
     flagOffset: 500

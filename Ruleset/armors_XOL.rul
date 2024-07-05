@@ -8871,6 +8871,8 @@ armors:
     allowsRunning: false
     allowsKneeling: false
     instantWoundRecovery: true
+    units:
+      - STR_DRONE_CORE
     overKill: 1.5
     damageModifier:
       - 1.0
@@ -8900,10 +8902,105 @@ armors:
       - STR_NULL_POCKET_LL
     # specialWeapon: STR_HWP_RANGEFINDER
     loftempsSet: [ 5 ]
+  - type: STR_DRONE_QUADCOPTER_CHASSIS
+    spriteSheet: UAV.PCK
+    corpseBattle:
+      - STR_UAV_CORPSE
+    spriteInv: Inventory_UAV
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    drawingRoutine: 19
+    movementType: 1
+    visibilityAtDay: 15
+    visibilityAtDark: 15
+    camouflageAtDay: 7
+    camouflageAtDark: 7
+    personalLight: 5
+    heatVision: 50
+    antiCamouflageAtDay: 5
+    antiCamouflageAtDark: 5
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    units:
+      - STR_DRONE_CORE
+    size: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.4
+      - 0.0
+    builtInWeapons:
+      - STR_HWP_RANGEFINDER
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    loftempsSet: [ 5 ]
 
 
+  - type: STR_DRONE_UCAV_CHASSIS
+    spriteSheet: UAVROCKET.PCK
+#    spriteInv: inventory_HELI_DRONE2
+    corpseBattle:
+      - STR_UAV_CORPSE
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 25
+    drawingRoutine: 4
+    movementType: 1
+    visibilityAtDay: 15
+    visibilityAtDark: 15
+    camouflageAtDay: 7
+    camouflageAtDark: 7
+    personalLight: 5
+    heatVision: 100
+    antiCamouflageAtDay: 7
+    antiCamouflageAtDark: 7
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    units:
+      - STR_DRONE_CORE
+    size: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.4
+      - 0.0
+    builtInWeapons:
+      - STR_HWP_RANGEFINDER
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    loftempsSet: [ 5 ]
 
-######################
+
+###################### borrar todo esto de abajo
   - type: UAV_ARMOR
     spriteSheet: UAV.PCK
     corpseBattle:

@@ -29,20 +29,16 @@
 ####### Esto para hacer principalmente en la chamba
 #######
  - revisar los precios de TODOS LOS ARTICULOS
- - cambiar nombre de small launcher orbs, el tercero ya no es antimateria, sino elerium estandar, para q sea explosivo
  - OJITO SIGUIENTE PARCHE, CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
    - sera carisimo
    - exotico 
- - hacer algo respecto a la municion tech
-   * (meterle algun tipo de cambio de daño?)
-     ~ daño concussive? pero sin rango extra porq es explosion interna
-   * el cañon xx eliminar la municion base, dejar solo entonces una concussive (tech) y la de XELLOYS
+
    * hacer sprites de las armas aliens con colores distintos igual q las humanas
      ~ cambiarle el color a las overcharged por algun otro color exotico
    * las armas elite seran daño laser porq son reliquias antiguas
      ~ con esto podria hacerlas mas fuertes que el plasma sin hacerlas redundantes
-
+ - acomodar colores del bulletsprite q coincidan con el color del arma
 
  - los explosivos alienigenas tendran las porciones ocultas y "subiran cuando se activen"
 
@@ -53,16 +49,6 @@
    * checar el archivo excel de la pagina para mas info
 #esto ya se agrego, falta meterlo en el changelog   
  - reordenar el tema de los tipos de unidades
-   * 1 seran los soldados clasicos
-   * 2 seran los soldados elite
-   * 3 seran los tanqueros
-   * 4 seran los mech pilots
-   * 5 seran los oficiales
-   * 6 seran los pilotos
-   * 7 seran los drones uplink
-   * 8 seran los perritos
-   * 9 seran los perritos smarter
-   * 10 seran los perritos sapiens
      ~ explicar q aunque los drones no son humanos, necesitan de uno para manejarse y espacio en las instalaciones, ya despues aunque sean semi automaticos, igual requieren human input
 #leer lo de arriba     
 
@@ -85,7 +71,7 @@
      ~ must define using globemarkers.
      ~ Use the "marker" command assigned to each aircraft.
    * Perhaps remove pockets from personal armor.
- - acomodar colores del bulletsprite q coincidan con el color del arma
+
 
  - acomodar los escudos para q en la mano se enciendan y en la mochila sean 2x2 o 2x1 segun dependa
    * integrar correctamente en el arbol de tecnologias
