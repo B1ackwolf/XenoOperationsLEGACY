@@ -73,6 +73,13 @@ soldiers:
     costSalaryCaptain: 5000
     costSalaryColonel: 8000
     costSalaryCommander: 13000
+    rankStrings:
+    - STR_ARMY_RECRUIT
+    - STR_ARMY_PRIVATE
+    - STR_ARMY_CORPORAL
+    - STR_ARMY_SERGEANT
+    - STR_ARMY_STAFF_SERGEANT
+    - STR_ARMY_FIRST_SERGEANT
     minStats:
       tu: 55
       stamina: 50
@@ -432,7 +439,7 @@ soldiers:
       melee: 0
       mana: 0
 #    dogfightExperience: *AnchorHumanDogfightExperience
-    armor: STR_DRONE_ROVER_CHASSIS
+    armor: STR_DRONE_ROVER_CHASSIS_UC
 #    armorForAvatar: carita del dron?
     avatarOffsetX: 79
     avatarOffsetY: 62

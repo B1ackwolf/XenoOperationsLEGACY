@@ -28,6 +28,9 @@
 #######
 ####### Esto para hacer principalmente en la chamba
 #######
+ - revisar q ya aplique el tema de las armaduras de piloto y armadura xops, eliminar eso del todo para reducir blobs
+
+
  - revisar los precios de TODOS LOS ARTICULOS
  - OJITO SIGUIENTE PARCHE, CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
@@ -81,23 +84,19 @@
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
- - terminar de hacer las bigobs de las armas elites alien
+ - terminar de hacer las floorobs y handobs de las armas elites alien
    * mejorar detalles del color rojo y tambien al cargador
    * las armas elite seran daño laser porq son reliquias antiguas
      ~ con esto podria hacerlas mas fuertes que el plasma sin hacerlas redundantes
  - acomodar colores del bulletsprite q coincidan con el color del arma
- - hacer los floorobs y handobs de las armas plasma alien
  - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
  - sacar baseprites para edificios del tftd twots y tftd+
-   * hacer sprites de las armas aliens con colores distintos igual q las humanas
-     ~ cambiarle el color a las overcharged por algun otro color exotico
- - mejorar el breaching charge
-   * ahi el bangalore elerium deberia ser con detalles en amarillo
-   * aprovechar y mejorar las sprites de los componentes y explosivos humanas, hacerlas mas intrincadas
  - separar armas q estan en el mismo png
- - revisar CTO para ver como se implementaron el tema de las armas con multiples cargadores
+
+
+ # de esto se esta encargando primeramente efren, una vez q tenga el ejemplo empezare a proceder yo
  - implementar script de armas q varian en base al cartucho de filip h en jeilo
-   * separarle el cargador del sprite a las armas
+   * separarle el cargador del sprite a las armas balisticas
    * en caso de las pistolas, hacerlas gatilladas la corredera
    * las armas de rieles tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
    * las armas de plasma tambien tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
@@ -115,17 +114,21 @@
  - acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
 ####OJITO AQUI SIGUIENTES 
- - usar de ejemplo el sidecar motorcycle del GWotW para saber como implementar el coso de la armadura para tanques.
  - usar EL soldado IA para del drone core
  - crear unidad parecida a perro pero q sea "drone core"
    * aprovechar y explicar lo del drone q se conecta desde la base
    * aprovechar texto del edificio radar para completar la explicacion
    * crearles sus respectivos armor previews
- - las armaduras deberan tener una capa extra
+###
+ - las armaduras deberan tener una capa extra en todas sus versiones
    * acomodar el uniforme q sea de vuelta una capa unica, de preferencia eliminar todo rastro del chaleco negro en low poly.
    * arriba de ese una capa extra q sera referente al WEBBBING osea tirantes, chalecos y demas.
    * asi puedo manipular mejor el tema de tamaños de la ropa y del chaleco encima.
-###
+ - rehacer sistema de layers a algo mas o menos asi
+   * mameluco de colores (simple y sin nada)
+   * chaleco principal donde estaran la mayoria
+   * capas extras de webbing y aparejos, radios, distintas bandoleras, etc
+     ~ de este modo habra variedades de la misma armadura
  - agregar nuevos sprites a las armaduras
    * darle prioridar al formato de los chalecos
      ~ solamente agrandar y achicar segun los talles LA CAPA PRINCIPAL DEL CHALECO
@@ -139,8 +142,6 @@
    * raparle pelo a "heads" nuevas para que calse con los cascos
    * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
      ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
- - crear soldado tanquero y pasar cosas de tanques al sistema armadura (copiarme de xfiles)
-   * usaran trajes azules
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
@@ -442,8 +443,7 @@ IMPORTANTE PARA LORE:
  - Implement correctly the damage alter parameters to basically all the weapons
    * explosives are mostly done
    * confirm which ones can be marked to avoid overkill
-   * add differents characteristics to other weeapons in order to get more interesting behaviours.
-     ~ all this using the "damageAlter" parameters.
+
  - Check that by eliminating certain shot types, weapons now have different maximum ranges in some instances.
    * Consider all balance issues this could create.
  - Rebalance the minigun to be "lighter" in the weapon itself but heavier overall, requiring a special ammo and battery backpack, which will be upgraded in the Xtier.

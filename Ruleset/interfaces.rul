@@ -3,8 +3,8 @@ interfaces:
 # recordar agregar primero el parametro de palette aqui abajo para ponerle los colores correctos
 #    palette: PAL_BATTLESCAPE
 # OJITO REVISAR LOS NUEVOS COLORES
-# los botones usaran el tono principal de gris (244) (NUEVO COLOR, antes 245)
-# bordes y marcos seran gris mas oscuro (247) (NUEVO COLOR, antes 248)
+# los botones usaran el tono principal de gris (247) (NUEVO COLOR, antes 245)
+# bordes y marcos seran gris mas oscuro (249) (NUEVO COLOR, antes 247)
 # letras de headers seran (242) (NUEVO COLOR, antes 243)
 # letras de menues seran en gris medio (245) (NUEVO COLOR, antes 247)
 # letras principales seran color blanco (6)
@@ -17,11 +17,11 @@ interfaces:
       - id: palette  # main "offset palette"
         color: 6     # yellow oxide # just like in others screens
       - id: window   
-        color: 248   # Even Darker gray # The margin borders of the entire window
+        color: 249   # Even Darker gray # The margin borders of the entire window
       - id: text
         color: 6     # white # Main Title and number version text color 
       - id: button
-        color: 245   # dark gray main tone # the main menu buttons
+        color: 247   # dark gray main tone # the main menu buttons
       - id: battlescapeTheme #?
         color: -1
         color2: -1
@@ -34,7 +34,7 @@ interfaces:
       - id: palette
         color: 5     # purple prueba
       - id: window
-        color: 248   # Darker gray # The margin borders of the window
+        color: 249   # Darker gray # The margin borders of the window
       - id: heading
         color: 133   # prueba
       - id: text
@@ -53,19 +53,19 @@ interfaces:
       - id: palette
         color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 248   # even Darker gray # The margin borders of the entire window
+        color: 249   # even Darker gray # The margin borders of the entire window
       - id: heading
         color: 6     # White # Main categories letters color
       - id: text
         color: 243   # lighter gray # Small text
       - id: frames
-        color: 248   # even darker gray # frames of small sections dividers
+        color: 249   # even darker gray # frames of small sections dividers
       - id: button1
-        color: 245   # dark gray main tone # majority of buttons
+        color: 247   # dark gray main tone # majority of buttons
       - id: button2
-        color: 245   # dark gray main tone # bottom three buttons
+        color: 247   # dark gray main tone # bottom three buttons
       - id: list
-        color: 247   # darker gray # name in the list
+        color: 245   # darker gray # name in the list
         color2: 245  # dark gray main tone # no idea what it does (?)
         border: 245  # dark gray main tone # slider on the list
 #
@@ -76,13 +76,13 @@ interfaces:
       - id: palette
         color: 6     # yellow oxide
       - id: window
-        color: 248   # even Darker gray # The margin borders of the entire window
+        color: 249   # even Darker gray # The margin borders of the entire window
       - id: text
         color: 6     # white # "select difficulty" text color 
       - id: ironman
         color: 39   # Red # Ironman mode selection button
       - id: button
-        color: 245   # dark gray main tone # all buttons in this screen
+        color: 247   # dark gray main tone # all buttons in this screen
 #
   - type: endGameStatistics
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
@@ -91,7 +91,7 @@ interfaces:
       - id: palette
         color: 6     # yellow oxide # just like in others 
       - id: window
-        color: 248   # Even Darker gray # The margin borders of the entire window
+        color: 249   # Even Darker gray # The margin borders of the entire window
       - id: text
         color: 6     # white # "defeat and date" title
         color2: 39   # red # no idea what it does (?)
@@ -100,7 +100,7 @@ interfaces:
         color2: 245  # dark gray main tone # no idea what it does (?)
         border: 245  # dark gray main tone # slider on the right of the list
       - id: button
-        color: 245   # dark gray main tone # all the buttons in this screen
+        color: 247   # dark gray main tone # all the buttons in this screen
 #
   - type: optionsMenu # Main menu , options screen
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
@@ -109,15 +109,15 @@ interfaces:
       - id: palette
         color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 248   # even Darker gray # The margin borders of the window
+        color: 249   # even Darker gray # The margin borders of the window
       - id: tooltip
         color: 242   # slighty clearer gray # color of the appearing tooltip letters
       - id: button
-        color: 245   # dark gray main tone # the bottom buttons
+        color: 247   # dark gray main tone # the bottom buttons
       - id: confirmDefaults
         color: 138   # Royal Blue # probably the "confirm to default" pop up
       - id: confirmVideo
-        color: 245   # dark gray main tone # the "confirm changes" when changing video configuration
+        color: 247   # dark gray main tone # the "confirm changes" when changing video configuration
   - type: videoMenu
     elements:
       - id: text
@@ -125,31 +125,31 @@ interfaces:
       - id: resolution
         color: 243   # slighty clearer gray  # headers leters color
       - id: button
-        color: 245   # dark gray main tone # the main menu buttons
+        color: 247   # dark gray main tone # the main menu buttons
   - type: audioMenu
     elements:
       - id: text
         color: 6     # white# categories header letter color
       - id: button
-        color: 245   # dark gray main tone # the main menu buttons
+        color: 247   # dark gray main tone # the main menu buttons
   - type: controlsMenu
     elements:
       - id: optionLists
         color: 246   # slighty darker gray # name in the list
         color2: 6     # white# categories header letter color
-        border: 245   # dark gray main tone # slider
+        border: 247   # dark gray main tone # slider
   - type: geoscapeMenu
     elements:
       - id: text
         color: 6     # white# categories header letter color
       - id: button
-        color: 245   # dark gray main tone # slider
+        color: 247   # dark gray main tone # slider
   - type: battlescapeMenu
     elements:
       - id: text
         color: 6     # white# categories header letter color
       - id: button
-        color: 245   # dark gray main tone # slider
+        color: 247   # dark gray main tone # slider
   - type: advancedMenu
     elements:
       - id: optionLists
@@ -163,7 +163,7 @@ interfaces:
       - id: text1
         color: 6     # white# categories header letter color
       - id: text2
-        color: 247   # slighty clearer gray # name in the list
+        color: 245   # slighty clearer gray # name in the list
 #        
   - type: modsMenu # Mods Window in the main menu
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
@@ -172,33 +172,33 @@ interfaces:
       - id: palette
         color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 248   # even Darker gray # The margin borders of the window
+        color: 249   # even Darker gray # The margin borders of the window
       - id: optionLists
         color: 246   # slighty darker gray # name in the list
-        border: 245   # dark gray main tone # slider
+        border: 247   # dark gray main tone # slider
       - id: text
         color: 6     # white# categories header letter color
       - id: tooltip
         color: 242   # slighty clearer gray # color of the appearing tooltip letters
       - id: button1
-        color: 245   # dark gray main tone # the game selector button
+        color: 247   # dark gray main tone # the game selector button
       - id: button2
-        color: 245   # dark gray main tone # the bottom buttons
+        color: 247   # dark gray main tone # the bottom buttons
   - type: modsWindow #NO IDEA, perhaps a notification validation pop up when a invalid version is launched?
     palette: PAL_BATTLESCAPE
     elements:
       - id: palette
         color: 6     # yellow oxide # just like in others screens
       - id: window
-        color: 248   # even Darker gray # The margin borders of the window
+        color: 249   # even Darker gray # The margin borders of the window
       - id: heading
         color: 6     # White # Main categories letters color
       - id: text
         color: 138   # yellow
       - id: button1
-        color: 245   # dark gray main tone # the game selector button
+        color: 247   # dark gray main tone # the game selector button
       - id: button2
-        color: 245   # dark gray main tone # the game selector button
+        color: 247   # dark gray main tone # the game selector button
 #
 
 ###############################aqui voy
@@ -231,7 +231,7 @@ interfaces:
 #       - id: palette
 #         color: 6     # yellow oxide # just like in others screens
 #       - id: window
-#         color: 248   # even Darker gray # The margin borders of the window
+#         color: 249   # even Darker gray # The margin borders of the window
 #       - id: text
 #         color: 6     # white #  title
 #         color2: 39   # red # no idea what it does (?)

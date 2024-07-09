@@ -67,61 +67,6 @@ units:
     deathSound: 1003
     moveSound: 1002
     energyRecovery: 50
-####---- Tanks in progress
-  - type: STR_TANK_AP_CHASSIS
-    race: STR_HEAVY_TANK
-    stats:
-      tu: 110
-      stamina: 100
-      health: 125
-      bravery: 110
-      reactions: 45
-      firing: 100
-      throwing: 0
-      strength: 90
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: HEAVY_TANK_AP_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 1003
-    moveSound: 1002
-    energyRecovery: 50
-    builtInWeaponSets:
-      -
-        - STR_TANK_CANNON_AP_ROUNDS
-        - STR_TANK_LAUNCHER_SMOKE
-        - STR_TANK_SMOKE_GRENADE
-  - type: STR_HEAVY_TANK_HE
-    race: STR_HEAVY_TANK
-    stats:
-      tu: 110
-      stamina: 100
-      health: 125
-      bravery: 110
-      reactions: 45
-      firing: 100
-      throwing: 0
-      strength: 90
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: HEAVY_TANK_HE_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 1003
-    moveSound: 1002
-    energyRecovery: 50
-    builtInWeaponSets:
-      -
-        - STR_TANK_CANNON_HE_ROUNDS
-        - STR_TANK_LAUNCHER_SMOKE
-        - STR_TANK_SMOKE_GRENADE
-###-------End Tanks
-
 #####reordenar todo arriba de esto
 
 #----- Alien Races -----#

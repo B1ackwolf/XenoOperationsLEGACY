@@ -280,6 +280,38 @@ items:
     costSell: 1250
     listOrder: 1005
 ######----- Support units -----##### 
+
+  - type: STR_DRONE_ROVER_CHASSIS # Item for the armor
+    # categories:[STR_TANKS, STR_LIGHT_TANKS]
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 414
+#
+  - type: STR_DRONE_QUADCOPTER_CHASSIS 
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 415
+#
+  - type: STR_DRONE_UCAV_CHASSIS
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 416
+
+# tanks repair    
+  - type: STR_BASIC_DRONE_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 417
+
 # ojito quizas se borre luego q se migre al otro metodo de armaduras. revisar de vuelta XFILES.
   - type: STR_LAND_DRONE
     size: 1
@@ -482,6 +514,82 @@ items:
     listOrder: 10601
     
 #----- Tanks and Mech Weaponry -----#
+  - type: STR_LAND_DRONE
+    size: 1
+    costSell: 160000
+    requiresBuy:
+      - STR_DRONE_WARFARE
+    transferTime: 96
+    weight: 1
+    bigSprite: 961
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 4
+    fireSound: 12
+    compatibleAmmo:
+      - STR_DRONE_SHOTGUN_CLIP
+    accuracySnap: 40
+    accuracyAimed: 60
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 8
+    aimRange: 5
+    snapRange: 3
+    dropoff: 4
+    listOrder: 1505
+#    
+  - type: STR_DRONE_SHOTGUN
+    size: 6
+    costBuy: 0
+    bigSprite: 961
+    bulletSprite: 3
+    fireSound: 82
+    compatibleAmmo:
+      - STR_DRONE_SHOTGUN_CLIP
+    accuracyAimed: 150
+    tuAimed: 40
+    battleType: 0
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    aimRange: 5
+    snapRange: 3
+    dropoff: 4
+    # defaultInventorySlot: STR_RIGHT_HAND
+    ignoreInCraftEquip: true
+    ignoreInBaseDefense: true
+    listOrder: 10910
+#
+  - type: STR_DRONE_SHOTGUN_CLIP
+    requiresBuy:
+      - STR_DRONE_WARFARE
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    transferTime: 12
+    weight: 4
+    bigSprite: 1209
+    floorSprite: 12
+    hitSound: 13
+    hitAnimation: 26
+    aimRange: 5
+    snapRange: 3
+    dropoff: 4
+    power: 30
+    clipSize: 6
+    shotgunPellets: 5
+    damageType: 1
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    ignoreInCraftEquip: true
+    ignoreInBaseDefense: true
+    listOrder: 10920
+
 #
   - type: STR_TANK_CANNON_HE
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] ojito completar luego, ponersela a todos los items
