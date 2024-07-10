@@ -310,6 +310,12 @@ Sprite tweaks:
      ~ Cabe destacar q el cambio se producen al estar guardadas vs ser sostenidas en la mano, esto implica cambios en caracteristicas de espacios del inventario de estas
        ° ejemplo el sable plasma alien sera un item 2x1 ya q el haz de energia se activa solo al ser sostenida por el enemigo.
 
+ - mejorado el segundo tier de armaduras con un nuevo tipo de chalecos, con versiones distintas tanto para pilotos como para soldados comunes.
+   * disclaimer, aun tengo q agregar todos los cascos y adicionalmente mejorar la cobertura del mameluco para q cubra toda la piel
+     ~ se supone q vendrian en distintos talles, pero me doy cuenta q por mi composicion de de layers, hacerlo con la distribuicion actual seria negativo a largo plazo, asi q prefiero rehacer un poco la estructura actual para no terminar teniendo esfuerzo desperdiciado y sea contraproducente a largo plazo.
+     ~ la mejora de los cascos de los dos primeros tiers han sido postergados al siguiente parche, tambien recibiran mejoras los spritesheets de las unidades
+       ° he estado experimentando un poco con esto, pero necesitaria tiempo valioso q podria seguir siendo invertido en la mejora del tech tree
+
 craft changes:
  - todas las naves de xcom recibieron mejoras significativas sea en funcionalidad o en apariencia, ademas de retoques en estadisticas (ojito hacer esto)
    *dragonfly recibio correcciones menores con los LoS desde adentro del avion. velocidad mas baja
