@@ -8475,9 +8475,12 @@ armors:
       F71: ["", "MECH_BASIC_TANK_AP_F", "F71_NUDE", "", "", "", "", "", "MECH_DRIFTSUIT_F", "", "", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT", "", "", "CAP_GOOGLES_C"]
     customArmorPreviewIndex: 45
     allowInv: true
-    allowsRunning: true
+    allowsRunning: false
     allowsStrafing: false
     allowsKneeling: false
+#    painImmune: true
+#    bleedImmune: true
+    zombiImmune: true
     fearImmune: false
     corpseBattle:
      - STR_BASIC_TANK_RECOVER
@@ -8764,8 +8767,15 @@ armors:
     spriteSheet: LAND_DRONE.PCK
     spriteInv: Inventory_LAND_DRONE
     customArmorPreviewIndex: 54
+    allowInv: true
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
     corpseBattle:
       - STR_LAND_DRONE_CORPSE
+      - STR_BASIC_DRONE_RECOVER
+    corpseGeo: STR_BASIC_DRONE_RECOVER
+    storeItem: STR_DRONE_ROVER_CHASSIS
     visibilityAtDay: 15
     visibilityAtDark: 15
     camouflageAtDay: 12
@@ -8790,8 +8800,6 @@ armors:
       energy:
         energyRegen: 0.0
         flatHundred: 1.10
-    allowsRunning: false
-    allowsKneeling: false
     instantWoundRecovery: true
     units:
       - STR_DRONE_CORE
@@ -8828,7 +8836,15 @@ armors:
     spriteSheet: UAV.PCK
     corpseBattle:
       - STR_UAV_CORPSE
+      - STR_BASIC_DRONE_RECOVER
+    corpseGeo: STR_BASIC_DRONE_RECOVER
+    storeItem: STR_DRONE_QUADCOPTER_CHASSIS
     spriteInv: Inventory_UAV
+    customArmorPreviewIndex: 55
+    allowInv: true
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
     frontArmor: 15
     sideArmor: 15
     rearArmor: 15
@@ -8877,6 +8893,15 @@ armors:
 #    spriteInv: inventory_HELI_DRONE2
     corpseBattle:
       - STR_UAV_CORPSE
+      - STR_BASIC_DRONE_RECOVER
+    corpseGeo: STR_BASIC_DRONE_RECOVER
+    storeItem: STR_DRONE_UCAV_CHASSIS
+    spriteInv: Inventory_UAV
+    customArmorPreviewIndex: 55
+    allowInv: true
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
     frontArmor: 25
     sideArmor: 25
     rearArmor: 25
@@ -8910,6 +8935,7 @@ armors:
       - 1.4
       - 0.0
     builtInWeapons:
+      - STR_UCAV_ROCKET_LAUNCHER
       - STR_HWP_RANGEFINDER
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
@@ -8919,168 +8945,7 @@ armors:
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     loftempsSet: [ 5 ]
-
-
-###################### borrar todo esto de abajo
-  - type: UAV_ARMOR
-    spriteSheet: UAV.PCK
-    corpseBattle:
-      - STR_UAV_CORPSE
-    spriteInv: Inventory_UAV
-    frontArmor: 15
-    sideArmor: 15
-    rearArmor: 15
-    underArmor: 10
-    drawingRoutine: 19
-    movementType: 1
-    visibilityAtDay: 15
-    visibilityAtDark: 15
-    camouflageAtDay: 7
-    camouflageAtDark: 7
-    personalLight: 5
-    heatVision: 50
-    antiCamouflageAtDay: 5
-    antiCamouflageAtDark: 5
-    fearImmune: true
-    painImmune: true
-    bleedImmune: true
-    zombiImmune: true
-    size: 1
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.4
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 1.0
-      - 1.4
-      - 0.0
-    builtInWeapons:
-      - STR_HWP_RANGEFINDER
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    loftempsSet: [ 5 ]
-
-
-  - type: UAV_ARMOR2
-    spriteSheet: UAVROCKET.PCK
-#    spriteInv: inventory_HELI_DRONE2
-    corpseBattle:
-      - STR_UAV_CORPSE
-    frontArmor: 25
-    sideArmor: 25
-    rearArmor: 25
-    underArmor: 25
-    drawingRoutine: 4
-    movementType: 1
-    visibilityAtDay: 15
-    visibilityAtDark: 15
-    camouflageAtDay: 7
-    camouflageAtDark: 7
-    personalLight: 5
-    heatVision: 100
-    antiCamouflageAtDay: 7
-    antiCamouflageAtDark: 7
-    fearImmune: true
-    painImmune: true
-    bleedImmune: true
-    zombiImmune: true
-    size: 1
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.4
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 1.0
-      - 1.4
-      - 0.0
-    builtInWeapons:
-      - STR_HWP_RANGEFINDER
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    loftempsSet: [ 5 ]
-
-
-  - type: LAND_DRONE_ARMOR
-    spriteSheet: LAND_DRONE.PCK
-    spriteInv: Inventory_LAND_DRONE
-    customArmorPreviewIndex: 54
-    corpseBattle:
-      - STR_LAND_DRONE_CORPSE
-    visibilityAtDay: 15
-    visibilityAtDark: 15
-    camouflageAtDay: 12
-    camouflageAtDark: 12
-    personalLight: 5
-    heatVision: 50
-    antiCamouflageAtDay: 5
-    antiCamouflageAtDark: 5
-    frontArmor: 20
-    sideArmor: 20
-    rearArmor: 10
-    underArmor: 10
-    fearImmune: true
-    painImmune: true
-    bleedImmune: true
-    zombiImmune: true
-    drawingRoutine: 4
-    moveSound: 14
-    size: 1
-    createsMeleeThreat: false
-    recovery:
-      energy:
-        energyRegen: 0.0
-        flatHundred: 1.10
-    allowsRunning: false
-    allowsKneeling: false
-    instantWoundRecovery: true
-    overKill: 1.5
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.3
-      - 1.0
-      - 0.25
-      - 1.0
-      - 0.5
-      - 0.0
-      - 1.5
-      - 1.0
-      - 0.0
-      - 0.5
-      - 0.0
-      - 0.0
-    builtInWeapons:
-      - STR_HWP_RANGEFINDER
-      - STR_NULL_BACKPACK
-      - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
-    loftempsSet: [ 5 ]
-
-
-##########################################################################################
-
+################################################################
 # ojito doggos
   - type: STR_DOGE_ARMOR
     spriteSheet: DOGE.PCK

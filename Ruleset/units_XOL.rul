@@ -1,73 +1,8 @@
 # Made by B1ackwolf for XOPS-Legacy
 # Status: Reorder and clean, almost finished, improve the "#" notation
 units:
-###----- Drone and Support units -----###
-  - type: STR_UAV
-    race: STR_UAV
-    stats:
-      tu: 140
-      stamina: 110
-      health: 20
-      bravery: 110
-      reactions: 20
-      firing: 0
-      throwing: 0
-      strength: 10
-      psiStrength: 110
-      psiSkill: 0
-      melee: 0
-    armor: UAV_ARMOR
-    standHeight: 10
-    kneelHeight: 10
-    floatHeight: 15
-    value: 10
-    deathSound: 12
-    energyRecovery: 50
-    moveSound: 1000
-  - type: STR_UCAV_ROCKET_LAUNCHER
-    race: STR_UAV
-    stats:
-      tu: 140
-      stamina: 110
-      health: 20
-      bravery: 110
-      reactions: 20
-      firing: 70
-      throwing: 0
-      strength: 10
-      psiStrength: 110
-      psiSkill: 0
-      melee: 0
-    armor: UAV_ARMOR2
-    standHeight: 10
-    kneelHeight: 10
-    floatHeight: 15
-    value: 15
-    deathSound: 1003
-    energyRecovery: 50
-    moveSound: 1000
-  - type: STR_LAND_DRONE
-    race: STR_UAV
-    stats:
-      tu: 70
-      stamina: 100
-      health: 90
-      bravery: 110
-      reactions: 20
-      firing: 60
-      throwing: 0
-      strength: 60
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: LAND_DRONE_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 1003
-    moveSound: 1002
-    energyRecovery: 50
-#####reordenar todo arriba de esto
+
+#####reordenar todo 
 
 #----- Alien Races -----#
 # Sectoids #        

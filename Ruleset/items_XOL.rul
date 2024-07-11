@@ -28,7 +28,7 @@ items:
   - delete: STR_TANK_LASER_CANNON
   - delete: STR_POWER_SUIT
   - delete: STR_FLYING_SUIT
-#----- Deleting Final -----#
+#----- Deleting ENDING -----#
 #----- Pockets Items -----#
   - type: STR_NULL_JETPACK
     bigSprite: 2989
@@ -39,6 +39,7 @@ items:
     defaultInventorySlot: STR_BACK_PACK
     recover: false
     battleType: 11
+#    
   - type: STR_NULL_BACKPACK
     bigSprite: 2990
     weight: 0
@@ -48,6 +49,7 @@ items:
     defaultInventorySlot: STR_BACK_PACK
     recover: false
     battleType: 11
+#    
   - type: STR_NULL_SMALL_BACKPACK
     bigSprite: 2991
     weight: 0
@@ -57,6 +59,7 @@ items:
     defaultInventorySlot: STR_BACK_PACK
     recover: false
     battleType: 11
+#
   - type: STR_NULL_BELT
     bigSprite: 2992
     weight: 0
@@ -66,6 +69,7 @@ items:
     defaultInventorySlot: STR_BELT
     recover: false
     battleType: 11
+#
   - type: STR_NULL_POCKET_RS
     bigSprite: 2993
     weight: 0
@@ -75,6 +79,7 @@ items:
     defaultInventorySlot: STR_RIGHT_SHOULDER
     recover: false
     battleType: 11
+#
   - type: STR_NULL_POCKET_LS
     bigSprite: 2994
     weight: 0
@@ -84,6 +89,7 @@ items:
     defaultInventorySlot: STR_LEFT_SHOULDER
     recover: false
     battleType: 11
+#
   - type: STR_NULL_POCKET_RL
     bigSprite: 2995
     weight: 0
@@ -93,6 +99,7 @@ items:
     defaultInventorySlot: STR_RIGHT_LEG
     recover: false
     battleType: 11
+#
   - type: STR_NULL_POCKET_LL
     bigSprite: 2996
     weight: 0
@@ -102,6 +109,7 @@ items:
     defaultInventorySlot: STR_LEFT_LEG
     recover: false
     battleType: 11
+#
   - type: STR_NULL_HOLSTER
     bigSprite: 2997
     weight: 0
@@ -111,38 +119,44 @@ items:
     defaultInventorySlot: STR_QD_SLOT
     recover: false
     battleType: 11
-#----- Pocket blanks items ending -----#
+#----- Pocket blanks items ENDING -----#
 #----- Codex related -----#
   - type: STR_CODEX_1
     size: .5
     costSell: 100000
     battleType: 0
     listOrder: 1
+#
   - type: STR_CODEX_2
     size: 1
     costSell: 350000
     battleType: 0
     listOrder: 2
+#
   - type: STR_CODEX_3
     size: 2
     costSell: 500000
     battleType: 0
     listOrder: 3
+# 
   - type: STR_CODEX_4
     size: 5
     costSell: 1000000
     battleType: 0
     listOrder: 4
+#
   - type: STR_CODEX_5
     size: 10
     costSell: 5000000
     battleType: 0
     listOrder: 5
+#
   - type: STR_CODEX_COMPLETE
     size: 20
     costSell: 10000000
     battleType: 0
     listOrder: 6
+#
   - type: STR_CODEX_KEY
     size: 2
     weight: 10
@@ -154,6 +168,7 @@ items:
     battleType: 0
     recoveryPoints: 300
     listOrder: 7
+#----- Codex related ENDING -----#
 #----- Gameplay Resources -----#
   - type: STR_CODEX_FRAGMENT
     size: .1
@@ -169,10 +184,13 @@ items:
     recoveryPoints: 20
     armor: 65
     listOrder: 8
+#
   - type: STR_ALIEN_ALLOYS
     listOrder: 9
+#
   - type: STR_ELERIUM_115
     listOrder: 10
+#----- Gameplay Resources ENDING -----#
 #----- Manufactured items for profit -----#
   - type: STR_GOODS
     size: 0.1
@@ -180,42 +198,50 @@ items:
     battleType: 0
     transferTime: 24
     listOrder: 11
+#
   - type: STR_GOODS_2
     size: 0.1
     costSell: 9250
     battleType: 0
     transferTime: 24
     listOrder: 12
+#
   - type: STR_GOODS_3
     size: 0.1
     costSell: 9500
     battleType: 0
     transferTime: 24
     listOrder: 13
+#
   - type: STR_GOODS_4
     size: 0.1
     costSell: 9750
     battleType: 0
     transferTime: 24
     listOrder: 14
+#
   - type: STR_GOODS_5
     size: 0.1
     costSell: 10000
     battleType: 0
     transferTime: 24
     listOrder: 15
+#
   - type: STR_GOODS_6
     size: 0.1
     costSell: 15000
     battleType: 0
     transferTime: 24
+    
     listOrder: 16
+#
   - type: STR_GOODS_7
     size: 0.1
     costSell: 20000
     battleType: 0
     transferTime: 24
     listOrder: 17
+#----- Manufactured items for profit ENDING -----#
 
 ##### OJITO ORDENAR AQUI ABAJO #####
 
@@ -226,40 +252,47 @@ items:
     costSell: 20000
     specialType: 11
     recoveryPoints: 1
+#
   - type: STR_EXAMINATION_ROOM
     size: 0.2
     costSell: 20000
     specialType: 9
     recoveryPoints: 2
+#
   - type: STR_ELERIUM_REACTOR #may delete this
     size: 1
     costSell: 250000
     listOrder: 9599
-#----- Craft Components -----#
+#----- UFOs Components ENDING -----#
+#----- Terran Craft Components & Weaponry -----#
 # ojito agregar las armas de aviones humanas restantes
   - type: STR_CLUSTER_MISSILE_LAUNCHER
     size: 0.8
     costSell: 22500
     transferTime: 48
     listOrder: 605
+#
   - type: STR_CLUSTER_MISSILES
     size: 0.4
     costSell: 3750
     transferTime: 48
     clipSize: 1
     listOrder: 606
+#
   - type: STR_PILUM_LAUNCHER
     size: 1
     costSell: 31250
     transferTime: 48
     listOrder: 607
+#
   - type: STR_PILUM_MISSILES
     size: 1.5
     costSell: 12500
     transferTime: 48
     clipSize: 1
     listOrder: 608
-  - type: STR_ELERIUM_CELL
+#
+  - type: STR_ELERIUM_CELL # ojito i think its the ammo for the plasma plane weaponry?
     requires:
       - STR_ALIENS_ONLY
     size: 0.025
@@ -275,91 +308,35 @@ items:
     # ignoreInBaseDefense: true
     listOrder: 1001
 # ojito que debo modificar cuales aviones usaran combustible especial    
+#
   - type: STR_XCF_FUEL
     size: 0.1
     costSell: 1250
     listOrder: 1005
+#----- Terran Craft Components & Weaponry ENDING -----#
+
+
 ######----- Support units -----##### 
 
-  - type: STR_DRONE_ROVER_CHASSIS # Item for the armor
-    # categories:[STR_TANKS, STR_LIGHT_TANKS]
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 414
-#
-  - type: STR_DRONE_QUADCOPTER_CHASSIS 
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 415
-#
-  - type: STR_DRONE_UCAV_CHASSIS
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 416
-
-# tanks repair    
-  - type: STR_BASIC_DRONE_RECOVER
-    recover: true
+  - type: STR_LAND_DRONE_CORPSE
+    weight: 44
+    floorSprite: 1118
     battleType: 11
-    costSell: 8000
-    size: 0.8
-    weight: 100
-    listOrder: 417
-
-# ojito quizas se borre luego q se migre al otro metodo de armaduras. revisar de vuelta XFILES.
-  - type: STR_LAND_DRONE
-    size: 1
-    costSell: 160000
-    requiresBuy:
-      - STR_DRONE_WARFARE
-    transferTime: 96
-    weight: 1
-    bigSprite: 961
-    floorSprite: 0
-    handSprite: 0
-    bulletSprite: 4
-    fireSound: 12
-    compatibleAmmo:
-      - STR_DRONE_SHOTGUN_CLIP
-    accuracySnap: 40
-    accuracyAimed: 60
-    tuSnap: 33
-    tuAimed: 80
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    turretType: 8
-    aimRange: 5
-    snapRange: 3
-    dropoff: 4
-    listOrder: 1505
-  - type: STR_UAV
-    size: 5
-    costSell: 29000
+    recoveryPoints: 1
+    recover: false
+    armor: 46
+  - type: STR_UAV_CORPSE
     floorSprite: 960
-    requiresBuy:
-      - STR_DRONE_WARFARE
-    clipSize: -1
-    battleType: 1
-    invWidth: 2
-    invHeight: 3
-    tuUse: 25
-    fixedWeapon: true
-    listOrder: 1509
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false   
+
+# ojito quizas se borre
   - type: STR_UCAV_ROCKET_LAUNCHER
-    size: 5
     costSell: 350000
     bigSprite: 960
     floorSprite: 960
-    requiresBuy:
-      - STR_DRONE_WARFARE
     handSprite: 0
     bulletSprite: 0
     fireSound: 1001
@@ -375,87 +352,7 @@ items:
     invHeight: 3
     listOrder: 1510
     # defaultInventorySlot: STR_RIGHT_HAND
-#corpses de drones
-  - type: STR_LAND_DRONE_CORPSE
-    weight: 44
-    floorSprite: 1118
-    battleType: 11
-    recoveryPoints: 1
-    recover: false
-    armor: 46
-  - type: STR_UAV_CORPSE
-    floorSprite: 960
-    invWidth: 0
-    invHeight: 0
-    battleType: 11
-    recover: false    
-#armas de drones
-  - type: STR_DRONE_SHOTGUN
-    size: 6
-    costBuy: 0
-    bigSprite: 961
-    bulletSprite: 3
-    fireSound: 82
-    compatibleAmmo:
-      - STR_DRONE_SHOTGUN_CLIP
-    accuracyAimed: 150
-    tuAimed: 40
-    battleType: 0
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    aimRange: 5
-    snapRange: 3
-    dropoff: 4
-    # defaultInventorySlot: STR_RIGHT_HAND
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
-    listOrder: 10910
-  - type: STR_DRONE_SHOTGUN_CLIP
-    requiresBuy:
-      - STR_DRONE_WARFARE
-    size: 0.1
-    costBuy: 100
-    costSell: 50
-    transferTime: 12
-    weight: 4
-    bigSprite: 1209
-    floorSprite: 12
-    hitSound: 13
-    hitAnimation: 26
-    aimRange: 5
-    snapRange: 3
-    dropoff: 4
-    power: 30
-    clipSize: 6
-    shotgunPellets: 5
-    damageType: 1
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
-    listOrder: 10920
-##### ojito el error esta en uno de estos parametros####
-  - type: STR_HWP_RANGEFINDER
-    weight: 0
-    bigSprite: 1210
-    accuracyAimed: 100
-    tuAimed: 100
-    confAimed:
-      name: STR_MEASURE_RANGE
-    dropoff: -1
-    battleType: 7
-    power: 0
-    clipSize: -1
-    aimRange: 0
-    flatRate: true
-    # defaultInventorySlot: STR_LEFT_HAND
-    fixedWeapon: true
-    recover: false
-    invWidth: 2
-    invHeight: 3
-    noLOSAccuracyPenalty: 100
+#
   - type: STR_UCAV_ROCKETS
     size: 0.3
     costSell: 2250
@@ -485,11 +382,58 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 1511
-#######----TANKS WIP
-
-
+#
+  - type: STR_HWP_RANGEFINDER
+    weight: 0
+    bigSprite: 1210
+    accuracyAimed: 100
+    tuAimed: 100
+    confAimed:
+      name: STR_MEASURE_RANGE
+    dropoff: -1
+    battleType: 7
+    power: 0
+    clipSize: -1
+    aimRange: 0
+    flatRate: true
+    defaultInventorySlot: STR_LEFT_HAND
+    fixedWeapon: true
+    recover: false
+    invWidth: 2
+    invHeight: 3
+    noLOSAccuracyPenalty: 100
 
 ##### ojito luego moverlo hacia donde las armaduras para mantener el orden de mi lista
+  - type: STR_DRONE_ROVER_CHASSIS # Item for the armor
+    # categories:[STR_TANKS, STR_LIGHT_TANKS]
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 414
+#
+  - type: STR_DRONE_QUADCOPTER_CHASSIS 
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 415
+#
+  - type: STR_DRONE_UCAV_CHASSIS
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 416
+#   
+  - type: STR_BASIC_DRONE_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 417
+#
   - type: STR_TANK_HE_CHASSIS # Item for the armor
     # categories:[STR_TANKS, STR_LIGHT_TANKS]
     size: 6
@@ -511,86 +455,8 @@ items:
     costSell: 8000
     size: 0.8
     weight: 100
-    listOrder: 10601
-    
-#----- Tanks and Mech Weaponry -----#
-  - type: STR_LAND_DRONE
-    size: 1
-    costSell: 160000
-    requiresBuy:
-      - STR_DRONE_WARFARE
-    transferTime: 96
-    weight: 1
-    bigSprite: 961
-    floorSprite: 0
-    handSprite: 0
-    bulletSprite: 4
-    fireSound: 12
-    compatibleAmmo:
-      - STR_DRONE_SHOTGUN_CLIP
-    accuracySnap: 40
-    accuracyAimed: 60
-    tuSnap: 33
-    tuAimed: 80
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    turretType: 8
-    aimRange: 5
-    snapRange: 3
-    dropoff: 4
-    listOrder: 1505
-#    
-  - type: STR_DRONE_SHOTGUN
-    size: 6
-    costBuy: 0
-    bigSprite: 961
-    bulletSprite: 3
-    fireSound: 82
-    compatibleAmmo:
-      - STR_DRONE_SHOTGUN_CLIP
-    accuracyAimed: 150
-    tuAimed: 40
-    battleType: 0
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    aimRange: 5
-    snapRange: 3
-    dropoff: 4
-    # defaultInventorySlot: STR_RIGHT_HAND
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
-    listOrder: 10910
-#
-  - type: STR_DRONE_SHOTGUN_CLIP
-    requiresBuy:
-      - STR_DRONE_WARFARE
-    size: 0.1
-    costBuy: 100
-    costSell: 50
-    transferTime: 12
-    weight: 4
-    bigSprite: 1209
-    floorSprite: 12
-    hitSound: 13
-    hitAnimation: 26
-    aimRange: 5
-    snapRange: 3
-    dropoff: 4
-    power: 30
-    clipSize: 6
-    shotgunPellets: 5
-    damageType: 1
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    ignoreInCraftEquip: true
-    ignoreInBaseDefense: true
-    listOrder: 10920
-
-#
+    listOrder: 10601   
+#----- Mechanical units Weaponry -----#
   - type: STR_TANK_CANNON_HE
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] ojito completar luego, ponersela a todos los items
     size: 5

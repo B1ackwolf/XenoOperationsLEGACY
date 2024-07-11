@@ -1843,7 +1843,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UxUi/FlagSprites/ZZZDoges.png
-#----- Flags Ending -----#
+#----- Flags ENDING -----#
 #----- MISC Ojito -----#
   - type: TinyRanks
     width: 175
@@ -1859,7 +1859,7 @@ extraSprites:
     subY: 20
     files:
       0: Resources/UxUi/SpriteSheets/ArmorList_sheet.png
-#### MISC ending
+#### Misc ENDING
 #----- MEDALS -----#
   - type: Commendations #Hardcoded
     width: 31
@@ -5269,7 +5269,7 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_65_wide_down.gif
   - typeSingle: HUMAN__16__CAP_NERVE_GREEN_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Accessories/PsiCap_65_wide_down_right.gif
-####ENDING ARMORS
+####### Armors ENDING
   # - delete: GlobeMarkers
   # - type: GlobeMarkers
   #   width: 105
