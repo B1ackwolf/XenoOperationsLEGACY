@@ -303,16 +303,16 @@ ufopaedia:
     text: STR_PILUM_UFOPEDIA
     listOrder: 810
 #----- Mechanical Support Units -----#
-  - id: STR_UAV
-    type_id: 3
+  - id: STR_DRONE_QUADCOPTER_CHASSIS_UC
+    type_id: 5
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_DRONE_WARFARE
     text: STR_UAV_UFOPEDIA
     image_id: AIRDRONEUFO
     weapon: STR_NONE
-  - id: STR_UCAV_ROCKET_LAUNCHER
-    type_id: 3
+  - id: STR_DRONE_UCAV_CHASSIS_UC
+    type_id: 5
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_DRONE_WARFARE
@@ -320,8 +320,8 @@ ufopaedia:
     text: STR_UCAV_ROCKET_LAUNCHER_UFOPEDIA
     image_id: ROCKETSDRONEUFO
     weapon: STR_UCAV_ROCKETS
-  - id: STR_LAND_DRONE
-    type_id: 3
+  - id: STR_DRONE_ROVER_CHASSIS_UC
+    type_id: 5
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_DRONE_WARFARE
@@ -336,16 +336,16 @@ ufopaedia:
     text: STR_BASIC_TANK_ARMOR_UC_UFOPEDIA
     listOrder: 10262
 
-  - id: STR_TANK_AP_CHASSIS
-    type_id: 3
+  - id: STR_TANK_AP_CHASSIS_UC
+    type_id: 5
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_TANKS_UNITS
     text: STR_TANK_AP_CHASSIS_UFOPEDIA
     weapon: STR_25MM_TANK_CANNON
     image_id: APTANKUFO
-  - id: STR_HEAVY_TANK_HE
-    type_id: 3
+  - id: STR_TANK_HE_CHASSIS_UC
+    type_id: 5
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_TANKS_UNITS

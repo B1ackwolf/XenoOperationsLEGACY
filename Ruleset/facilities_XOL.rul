@@ -487,6 +487,7 @@ facilities:
     buildCost: 350000
     monthlyCost: 15000
     buildOverFacilities: [ STR_ADVANCED_SICK_BAY ]
+    provideBaseFunc: [ MEDBAY] #OJITO SI HACE FALTA EN MEDBAY BASICA, esto es para operar perritos y humanos luego
     buildTime: 21
     removalTime: 5
     refundValue: 120000
@@ -526,7 +527,7 @@ facilities:
     requires:
       - STR_ADVANCED_SICK_BAY
     maxAllowedPerBase: 1
-    provideBaseFunc: [ MEDBAY] #OJITO SI HACE FALTA EN MEDBAY BASICA, esto es para operar perritos y humanos luego
+    provideBaseFunc: [ MEDBAY, ADV_MEDBAY ] #OJITO SI HACE FALTA EN MEDBAY BASICA, esto es para operar perritos y humanos luego
 #    forbiddenBaseFunc: [ MEDBAY ] #OJITO MISMO DE ARRIBA
     sickBayAbsoluteBonus: 0.50
     sickBayRelativeBonus: 2.0

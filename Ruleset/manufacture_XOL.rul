@@ -381,7 +381,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 40
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
-  - name: STR_UAV
+#drones ojito
+
+  - name: STR_DRONE_QUADCOPTER_CHASSIS
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_DRONE_WARFARE
@@ -389,7 +391,7 @@ manufacture:
     time: 240
     cost: 150000
     listOrder: 490
-  - name: STR_UCAV_ROCKET_LAUNCHER
+  - name: STR_DRONE_UCAV_CHASSIS
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_DRONE_WARFARE
@@ -409,7 +411,7 @@ manufacture:
     time: 10
     cost: 2000
     listOrder: 496
-  - name: STR_LAND_DRONE
+  - name: STR_DRONE_ROVER_CHASSIS
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_DRONE_WARFARE
@@ -417,10 +419,21 @@ manufacture:
     time: 250
     cost: 110000
     listOrder: 488
-####### ojito, en realidad es la manufactura de una armadura de tanques, reordenar
+  - name: STR_REPAIR_BASIC_DRONE
+#    category: STR_ARMOR_REPAIR
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_BASIC_DRONE_RECOVER: 1
+    producedItems:
+      STR_DRONE_ROVER_CHASSIS: 1
+    listOrder: 2701
+
+####### ojito, en realidad es la manufactura de una armadura de tanques, reordenar y rebalancear numeros
 
   - name: STR_REPAIR_BASIC_TANK
-    category: STR_ARMOR_REPAIR
+#    category: STR_ARMOR_REPAIR
     space: 12
     time: 200
     cost: 5000
@@ -430,16 +443,16 @@ manufacture:
       STR_TANK_HE_CHASSIS: 1
     listOrder: 2701
 
-  - name: STR_REPAIR_BASIC_TANK
-    category: STR_ARMOR_REPAIR
-    space: 12
-    time: 200
-    cost: 5000
-    requiredItems:
-      STR_BASIC_TANK_RECOVER: 1
-    producedItems:
-      STR_TANK_AP_CHASSIS: 1
-    listOrder: 2702
+#  - name: STR_REPAIR_BASIC_TANK
+#    category: STR_ARMOR_REPAIR
+#    space: 12
+#    time: 200
+#    cost: 5000
+#    requiredItems:
+#      STR_BASIC_TANK_RECOVER: 1
+#    producedItems:
+#      STR_TANK_AP_CHASSIS: 1
+#    listOrder: 2702
 
 
 

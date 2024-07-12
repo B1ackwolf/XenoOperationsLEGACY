@@ -1,5 +1,5 @@
 # Made by B1ackwolf for XOPS-Legacy
-# Status:Reorder and clean, unify the numbers of all categories to relate better with the load and list orders, improve "#" notations. Add stuff from the To-Do list(new soldiers types for example)
+# Status: Done for the moment. general improvement for stats pending perhaps.
 soldiers:
 #
   - type: STR_SOLDIER
@@ -687,12 +687,12 @@ soldiers:
     femaleFrequency: 50
     deathMale: [994, 680, 681]
     deathFemale: [994, 680, 681]
-
-######Soldier Transformation
+#----- Soldier Transformation -----#
 soldierTransformation:
   - name: STR_OFFICER_PROMOTION
     cost: 20000
     producedSoldierType: STR_SOLDIER_OFFICER
+    requiresBaseFunc: [ TROOPERS_SCHOOL ]
     keepSoldierArmor: true
     minRank: 3
     transferTime: 168
@@ -742,5 +742,83 @@ soldierTransformation:
       firing: 4
       throwing: 2
       melee: 2
+#
+#  - name: STR_MECHA_TRAINING_PROGRAM
+#    cost: 20000
+#    requires: [ STR_MECHA_UNITS ]
+#    requiresBaseFunc: [ TROOPERS_SCHOOL ]
+#    producedSoldierType: STR_DRIVER
+#    keepSoldierArmor: true
+#    minRank: 2
+#    transferTime: 168
+#    allowsDeadSoldiers: false
+#    allowsLiveSoldiers: true
+#    createsClone: false
+#    allowedSoldierTypes:
+#      - STR_SOLDIER
+#      - STR_ELITE_SOLDIER
+#      - STR_SOLDIER_OFFICER
+#      - STR_DRIVER
+#    lowerBoundAtMinStats: false
+#    upperBoundAtMaxStats: false 
+#    upperBoundAtStatCaps: true
+#    resetRank: true
+#    flatOverallStatChange: 
+#      bravery: 10
+#      health: 5
+#      strength: 2
+#      reactions: 2
+#      firing: 4
+#      throwing: 2
+#     melee: 2
 #AGREGAR PERRITOS INTELIGENTES Y SAPIENS TAMBIEN
-      
+#
+  - name: STR_DOGE_EPIGENETIC
+    cost: 20000
+    producedSoldierType: STR_DOGE_PRESAPIENT
+    requiresBaseFunc: [ ADV_MEDBAY ]
+    keepSoldierArmor: true
+#    minRank: 3
+    transferTime: 168
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    createsClone: false
+    allowedSoldierTypes:
+      - STR_DOGE
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false 
+    upperBoundAtStatCaps: true
+    resetRank: true
+    flatOverallStatChange: 
+      bravery: 10
+      health: 5
+      strength: 2
+      reactions: 2
+      firing: 4
+      throwing: 2
+      melee: 2
+#
+  - name: STR_DOGE_UPLIFTING
+    cost: 20000
+    producedSoldierType: STR_DOGE_SAPIENS_SAPIENS
+    requiresBaseFunc: [ ADV_MEDBAY ]
+    keepSoldierArmor: true
+    minRank: 3
+    transferTime: 168
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    createsClone: false
+    allowedSoldierTypes:
+      - STR_DOGE_PRESAPIENT
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false 
+    upperBoundAtStatCaps: true
+    resetRank: true
+    flatOverallStatChange: 
+      bravery: 10
+      health: 5
+      strength: 2
+      reactions: 2
+      firing: 4
+      throwing: 2
+      melee: 2      

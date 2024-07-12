@@ -8815,14 +8815,8 @@ armors:
       - 1.0
       - 0.5
       - 0.0
-      - 1.5
-      - 1.0
-      - 0.0
-      - 0.5
-      - 0.0
-      - 0.0
     builtInWeapons:
-      - STR_HWP_RANGEFINDER
+#      - STR_TANK_LAUNCHER_SMOKE
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
@@ -8830,6 +8824,7 @@ armors:
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
+      - STR_NULL_HAND_LEFT
     loftempsSet: [ 5 ]
 #
   - type: STR_DRONE_QUADCOPTER_CHASSIS_UC
@@ -8878,7 +8873,7 @@ armors:
       - 1.4
       - 0.0
     builtInWeapons:
-      - STR_HWP_RANGEFINDER
+#      - STR_HWP_RANGEFINDER
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
@@ -8886,6 +8881,7 @@ armors:
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
+      - STR_NULL_HAND_LEFT
     loftempsSet: [ 5 ]
 #
   - type: STR_DRONE_UCAV_CHASSIS_UC
@@ -8945,6 +8941,117 @@ armors:
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     loftempsSet: [ 5 ]
+#
+  - type: STR_DRONE_ADVANCED_SMALL_CHASSIS_UC
+    spriteSheet: ADV_UCAV.PCK
+    spriteInv: Inventory_ADV_UCAV
+    customArmorPreviewIndex: 56
+    weight: 0
+    corpseBattle:
+      - STR_UAV_CORPSE
+      - STR_BASIC_DRONE_RECOVER
+    corpseGeo: STR_BASIC_DRONE_RECOVER
+    storeItem: STR_DRONE_ADVANCED_SMALL_CHASSIS
+    visibilityAtDark: 16
+    personalLight: 5
+    heatVision: 20
+    stats:
+      tu: 15
+      stamina: 30
+      reactions: 30
+      strength: 10
+    frontArmor: 34
+    sideArmor: 34
+    rearArmor: 34
+    underArmor: 28
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    drawingRoutine: 4
+    movementType: 1
+    moveSound: 40
+    size: 1
+    createsMeleeThreat: false
+    recovery:
+      energy:
+        energyRegen: 0.0
+        flatHundred: 1.10
+#    psiDefence: *MachineDynamicPsiDefence
+    allowsKneeling: false
+    instantWoundRecovery: true
+    overKill: 1.5
+#    damageModifier: *AlienDroneResists
+    units:
+      - STR_DRONE_CORE
+    builtInWeapons:
+#      - STR_ALIEN_DRONE_WEAPON
+      - STR_DRONE_LASER_GUN
+      - STR_HWP_RANGEFINDER
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    loftempsSet: [ 3 ]
+#
+  - type: STR_DRONE_ADVANCED_MEDIUM_CHASSIS_UC
+    spriteSheet: ADV_MEDIUM_UCAV.PCK
+    spriteInv: Inventory_ADV_MEDIUM_UCAV
+    customArmorPreviewIndex: 62
+    corpseBattle:
+      - STR_XCOM_LARGE_FLYING_DRONE_CORPSE_1
+      - STR_XCOM_LARGE_FLYING_DRONE_CORPSE_2
+      - STR_XCOM_LARGE_FLYING_DRONE_CORPSE_3
+      - STR_XCOM_LARGE_FLYING_DRONE_CORPSE_4
+    corpseGeo: STR_XCOM_FLYING_DRONE_CORPSE # ojito acomodar
+    storeItem: STR_DRONE_ADVANCED_MEDIUM_CHASSIS # ojito acomodar
+    visibilityAtDark: 16
+    heatVision: 20
+    stats:
+      tu: 10
+      stamina: 20
+      health: 25
+      reactions: 25
+      strength: 40
+    frontArmor: 44
+    sideArmor: 44
+    rearArmor: 44
+    underArmor: 35
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    moveSound: 40
+    size: 2
+    createsMeleeThreat: false
+    overKill: 1.5
+    recovery:
+      energy:
+        energyRegen: 0.0
+        flatHundred: 1.10
+#    psiDefence: *MachineDynamicPsiDefence
+    allowsKneeling: false
+    instantWoundRecovery: true
+#    damageModifier: *LargeAlienDroneResists
+    units:
+      - STR_DRONE_CORE
+    builtInWeapons:
+      - STR_DRONE_LASER_CANNON
+      - STR_HWP_RANGEFINDER
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
+      - STR_NULL_HOLSTER
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_LL
+    loftempsSet: [ 92, 89, 90, 91 ]
 ################################################################
 # ojito doggos
   - type: STR_DOGE_ARMOR

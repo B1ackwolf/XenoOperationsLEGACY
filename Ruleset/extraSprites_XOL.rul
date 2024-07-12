@@ -357,6 +357,11 @@ extraSprites:
       673: Resources/WeaponrySprites/11thMisc/Others/BigOb/HumanEleriumLamp.gif
       374: Resources/WeaponrySprites/11thMisc/Others/BigOb/AlienEleriumLamp.gif
 #----- Tier 11 Miscellaneous ends here -----#
+#----- Tier 12 mechanical weapons -----#
+      925: Resources/UnitSprites/XcomFaction/XcomMech/bigob/bigob_X-ComFlyingDroneWreck.png
+      872: Resources/UnitSprites/XcomFaction/XcomMech/invMech/Weaponry/bigob_DroneWeapon.png
+      873: Resources/UnitSprites/XcomFaction/XcomMech/invMech/Weaponry/bigob_LargeDroneWeapon.png
+#----- Tier 12 mechanical weapons ends here -----#
 #----- Inventory Nullifying slots -----#
       2989: Resources/UxUI/InvBlockers/Null_Jetpack.png
       2990: Resources/UxUI/InvBlockers/Null_Backpack.png
@@ -444,6 +449,11 @@ extraSprites:
       960: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/UAVDebris.gif
       1021: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_SmokeLauncherClip.png
       1118: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_Scoutdrone.png
+      210: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_X-ComFlyingDrone.png
+      947: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_X-ComLargeFlyingDrone_c1.png
+      948: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_X-ComLargeFlyingDrone_c2.png
+      949: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_X-ComLargeFlyingDrone_c3.png
+      956: Resources/UnitSprites/XcomFaction/XcomMech/FloorOb/floorob_X-ComLargeFlyingDrone_c4.png
 #----- Unit FloorObs Sprites for XCOM ends here -----#
 #----- Unit FloorObs Sprites for ALIENS -----#
       42: Resources/UnitSprites/AlienFaction/FloorOb/Sectoid_Corpse.png
@@ -950,7 +960,7 @@ extraSprites:
       76: Resources/WeaponrySprites/WeaponFx/HitFx/PsiHit.gif
       86: Resources/WeaponrySprites/WeaponFx/HitFx/PlasmaHitBlue.gif
       96: Resources/WeaponrySprites/WeaponFx/HitFx/ShockHit.gif
-      56: Resources/WeaponrySprites/WeaponFx/HitFx/Taserhit.png
+      56: Resources/WeaponrySprites/WeaponFx/HitFx/Taserhit.png #ojito
 ###### Ranks, mover a un smoke separado para mantener ordenado ######      
       20: Resources/UxUI/RankSprites/inBattlescape/Army0.png
       21: Resources/UxUI/RankSprites/inBattlescape/Army1.png
@@ -3443,6 +3453,22 @@ extraSprites:
     height: 400
     files:
       0: Resources/UnitSprites/XcomFaction/XcomMech/UAVRockets.gif
+  - type: ADV_UCAV.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 400
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/ADV_UCAV.gif
+#
+  - type: ADV_MEDIUM_UCAV.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 160
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/ADV_MEDIUM_UCAV.png
+#
   - type: LAND_DRONE.PCK
     subX: 32
     subY: 40
@@ -3614,6 +3640,14 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/LandDrone.png
+  - type: Inventory_ADV_UCAV
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/AdvancedDroneSmall.
+  - type: Inventory_ADV_MEDIUM_UCAV
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/AdvancedDroneMedium.png
 #----- ALIEN PAPERDOLL IMAGES -----#
   - type: Inventory_CELATID
     width: 320

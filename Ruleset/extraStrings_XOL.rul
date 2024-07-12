@@ -10,11 +10,24 @@ extraStrings:
 ############# reorder all the errors corrections entries
 
 #ufopaedia
-      STR_25MM_TANK_CANNON: 25mm M242 Bushmaster
-      STR_105MM_TANK_CANNON: 105 mm L/52 M68A1 rifled gun
+      STR_TANK_CANNON_AP: 25mm M242 Bushmaster
+      STR_TANK_CANNON_HE: 105 mm L/52 M68A1 rifled gun
+      STR_BASIC_DRONE_RECOVER: Basic Drone wreckage
+      STR_BASIC_TANK_RECOVER: Heavy tank wreckage
+      STR_REPAIR_BASIC_DRONE: Basic drone frame reparation
+      STR_REPAIR_BASIC_TANK: Basic tank chassis reparation
       STR_PM_SMALL_PISTOL_UFOPEDIA: Human compact plasma pistol (WIP)
       STR_PM_HEAVY_PISTOL_UFOPEDIA: Human Heavy plasma pistol (WIP)
       STR_PM_BULLPUP_UFOPEDIA: Human plasma carbine (WIP)
+      STR_UNPRIME_GRENADE: Attach safety pins
+      STR_BO_SATCHEL_CHARGE: Semtex Satchel
+      STR_BO_ELERIUM_CHARGE: Elerium Demolition Pack
+      STR_MECHA_DRIVER: Mech Ranger
+      STR_DRONE_CORE: Drone Uplink
+      STR_DOGE_EPIGENETIC: Epigenetic triggering therapy
+      STR_DOGE_PRESAPIENT: Canis Habilis
+      STR_DOGE_UPLIFTING: Sapience Manipulation
+      STR_DOGE_SAPIENS_SAPIENS: Canis Sapiens
 #extrasprites
       PAL_GEOSCAPE_NEW: Geoscape globe map
 #researches
@@ -631,7 +644,7 @@ extraStrings:
       STR_MECH_GUNNERY_SERGEANT: Gunnery Sergeant
       STR_MECH_MASTER_GUNNERY_OFFICER: Master Gunnery Sergeant
       STR_MECH_LIEUTENANT: 2nd. Lieutenant
-      STR_MECH_RANGER: Armored Ranger
+      STR_MECH_RANGER: Armored Commander
       STR_EX_BASIC_MEDI_KIT: "Standard Medikit"
       STR_EX_IMPROVED_MEDI_KIT: "Field Surgery kit"
       STR_MEDI_KIT: "Medi-Gel kit"
@@ -1043,6 +1056,8 @@ extraStrings:
       STR_NULL_POCKET_LS: ""
       STR_NULL_POCKET_RL: ""
       STR_NULL_POCKET_LL: ""
+      STR_NULL_HAND_LEFT: ""
+      STR_NULL_HAND_RIGHT: ""
 #-----Craft and Craft Weapons
       STR_SR71: XRS-71G CORMORANT
       STR_INTERCEPTOR: XCF-0 PAWN
@@ -1114,15 +1129,32 @@ extraStrings:
       STR_HYPER_WAVE_GLOBAL_NETWORK_UFOPEDIA: By bouncing an amplified Hyper-wave signal off of a network of satellites, XCom can achieve global Hyper-wave converge, though the energy costs will be rather high.
       STR_LARGE_PSIONIC_LABORATORY_UFOPEDIA: The large Psionic Laboratory has space to train and test up to 50 soldiers.
 #-----HWP
-      STR_UAV: UAV SHURIKEN
-      STR_UCAV_ROCKET_LAUNCHER: UCAV LONGBOW
+      STR_DRONE_QUADCOPTER_CHASSIS: UAV SHURIKEN
+      STR_DRONE_QUADCOPTER_CHASSIS_UC: UAV SHURIKEN
+      STR_DRONE_UCAV_CHASSIS_UC: UCAV LONGBOW
+      STR_DRONE_UCAV_CHASSIS: UCAV LONGBOW
+      STR_DRONE_ADVANCED_SMALL_CHASSIS: UXAV CHU KO NU
+      STR_DRONE_ADVANCED_SMALL_CHASSIS_UC: UXAV CHU KO NU
+      STR_DRONE_ADVANCED_MEDIUM_CHASSIS: UXAMV ARBALEST
+      STR_DRONE_ADVANCED_MEDIUM_CHASSIS_UC: UXAMV ARBALEST
+      STR_DRONE_LASER_GUN: Drone laser gun #ojito resolver
+      STR_DRONE_LASER_CANNON: Drone laser cannon #ojito resolver
+      STR_XCOM_FLYING_DRONE_CORPSE: drone advanced wreckage #ojito resolver
+      STR_XCOM_LARGE_FLYING_DRONE_CORPSE_1: large drone wreck
+      STR_XCOM_LARGE_FLYING_DRONE_CORPSE_2: large drone wreck
+      STR_XCOM_LARGE_FLYING_DRONE_CORPSE_3: large drone wreck
+      STR_XCOM_LARGE_FLYING_DRONE_CORPSE_4: large drone wreck
+      STR_UCAV_ROCKET_LAUNCHER: Longbow
       STR_UCAV_ROCKETS: Arrow rockets
-      STR_LAND_DRONE: UGV DAGGER
+      STR_DRONE_ROVER_CHASSIS: UGV DAGGER
+      STR_DRONE_ROVER_CHASSIS_UC: UGV DAGGER
       STR_DRONE_SHOTGUN_CLIP: Drone shotgun clips
       STR_UAV_CORPSE: Drone Debris
       STR_LAND_DRONE_CORPSE: Drone Debris
-      STR_TANK_AP_CHASSIS: Heavy Tank RAPIER 
+      STR_TANK_AP_CHASSIS: Heavy Tank RAPIER
+      STR_TANK_AP_CHASSIS_UC: Heavy Tank RAPIER  
       STR_TANK_HE_CHASSIS: Heavy Tank LONGSWORD
+      STR_TANK_HE_CHASSIS_UC: Heavy Tank LONGSWORD
       STR_HWP_RANGEFINDER: Drone Movement Sensor
 #-----Alien Weapons
       STR_LIGHT_ALIEN_WEAPONS: Light Alien Weapons
@@ -1652,7 +1684,7 @@ extraStrings:
       STR_AW_ADVANCED_HOLO_SHIELD: Alien Advanced Energy Shield #ojito mejorar nombre
       STR_BO_ANTIMATTER_EXPLOSIVE: Antimatter Charge
       STR_ELERIUM_GRENADE: Elerium Grenade
-      STR_BO_ELERIUM_PROXY_MINE: Elerium Mine
+      STR_BO_ELERIUM_PROXY_MINE: Seismic Mine
       STR_HUMAN_SMALL_LAUNCHER: Small Launcher
       STR_HUMAN_STUN_BOMB: Stun Bomb
       STR_PM_ANTIMATTER_LAUNCHER: Devastator Launcher

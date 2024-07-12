@@ -119,6 +119,24 @@ items:
     defaultInventorySlot: STR_QD_SLOT
     recover: false
     battleType: 11
+#
+  - type: STR_NULL_HAND_LEFT
+    weight: 0
+    bigSprite: 2991
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
+    recover: false
+#
+  - type: STR_NULL_HAND_RIGHT
+    weight: 0
+    bigSprite: 2991
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    recover: false
 #----- Pocket blanks items ENDING -----#
 #----- Codex related -----#
   - type: STR_CODEX_1
@@ -314,25 +332,115 @@ items:
     costSell: 1250
     listOrder: 1005
 #----- Terran Craft Components & Weaponry ENDING -----#
+#----- Drones chassis -----# 
+  - type: STR_DRONE_ROVER_CHASSIS # Item for the armor
+    # categories:[STR_TANKS, STR_LIGHT_TANKS]
+    size: 0.5
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 414
+#
+  - type: STR_DRONE_QUADCOPTER_CHASSIS 
+    size: 0.5
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 415
+#
+  - type: STR_DRONE_UCAV_CHASSIS
+    size: 0.5
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 416
+#  
+  - type: STR_DRONE_ADVANCED_SMALL_CHASSIS
+    size: 1
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 416
+#
+  - type: STR_DRONE_ADVANCED_MEDIUM_CHASSIS # item for the armor
+    size: 3
+    costSell: 550000
+    transferTime: 96
+    listOrder: 10926
+#
+#----- Drones chassis ENDING -----# 
+#----- Terran tanks chassis -----#
+  - type: STR_TANK_HE_CHASSIS # Item for the armor
+    # categories:[STR_TANKS, STR_LIGHT_TANKS]
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 1414
+#
+  - type: STR_TANK_AP_CHASSIS 
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+    listOrder: 1415
+#
 
-
-######----- Support units -----##### 
-
-  - type: STR_LAND_DRONE_CORPSE
-    weight: 44
-    floorSprite: 1118
-    battleType: 11
-    recoveryPoints: 1
+#----- Terran tanks chassis ENDING -----#
+#----- Mechanical units Weaponry -----#
+  - type: STR_TANK_LAUNCHER_SMOKE
+    weight: 0
+    bigSprite: 2501
+    fireSound: 114
+    compatibleAmmo:
+      - STR_TANK_SMOKE_GRENADE
+    accuracyAimed: 100
+    tuAimed: 45
+    confAimed:
+      name: STR_TANK_POP_SMOKE
+    battleType: 1
+    maxRange: 2
+    arcingShot: true
+    fixedWeapon: true
+#    ignoreInCraftEquip: true
+#    ignoreInBaseDefense: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3411
+#
+  - type: STR_TANK_SMOKE_GRENADE
+    weight: 0
+    bigSprite: 1209
+    power: 60
+    damageType: 9
+    clipSize: 6
+    battleType: 2
+#    ignoreInCraftEquip: true
+#    ignoreInBaseDefense: true
+    hitSound: 0
+    hitAnimation: 0
+    listOrder: 9000
+#
+  - type: STR_HWP_RANGEFINDER
+    weight: 0
+    bigSprite: 1210
+    accuracyAimed: 100
+    tuAimed: 100
+    confAimed:
+      name: STR_MEASURE_RANGE
+    dropoff: -1
+    battleType: 7
+    power: 0
+    clipSize: -1
+    aimRange: 0
+    flatRate: true
+    defaultInventorySlot: STR_LEFT_HAND
+    fixedWeapon: true
     recover: false
-    armor: 46
-  - type: STR_UAV_CORPSE
-    floorSprite: 960
-    invWidth: 0
-    invHeight: 0
-    battleType: 11
-    recover: false   
-
-# ojito quizas se borre
+    invWidth: 2
+    invHeight: 3
+    noLOSAccuracyPenalty: 100
+#
   - type: STR_UCAV_ROCKET_LAUNCHER
     costSell: 350000
     bigSprite: 960
@@ -383,80 +491,64 @@ items:
     invHeight: 3
     listOrder: 1511
 #
-  - type: STR_HWP_RANGEFINDER
-    weight: 0
-    bigSprite: 1210
-    accuracyAimed: 100
-    tuAimed: 100
-    confAimed:
-      name: STR_MEASURE_RANGE
-    dropoff: -1
-    battleType: 7
-    power: 0
-    clipSize: -1
-    aimRange: 0
-    flatRate: true
-    defaultInventorySlot: STR_LEFT_HAND
+  - type: STR_DRONE_LASER_GUN #ojito resolver
+#    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 872
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 20
+    fireSound: 83
+    hitSound: 85
+    hitAnimation: 86
+    power: 37
+    damageType: 4
+    accuracyCloseQuarters: 145
+    accuracySnap: 75
+    accuracyAuto: 30
+    tuSnap: 30
+    tuAuto: 70
+    battleType: 1
     fixedWeapon: true
+    invWidth: 1
+    invHeight: 1
+    clipSize: -1
+    autoShots: 8
+    sprayWaypoints: 2
     recover: false
-    invWidth: 2
-    invHeight: 3
-    noLOSAccuracyPenalty: 100
+#
+  - type: STR_DRONE_LASER_CANNON #ojito resolver
+#    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 873
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 20
+    fireSound: 83
+    hitSound: 85
+    hitAnimation: 86
+    power: 50
+    damageType: 4
+    accuracyCloseQuarters: 120
+    accuracySnap: 88
+    accuracyAuto: 38
+    tuSnap: 25
+    tuAuto: 55
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 1
+    invHeight: 2
+    clipSize: -1
+    autoShots: 4
+    sprayWaypoints: 2
+    recover: false
 
-##### ojito luego moverlo hacia donde las armaduras para mantener el orden de mi lista
-  - type: STR_DRONE_ROVER_CHASSIS # Item for the armor
-    # categories:[STR_TANKS, STR_LIGHT_TANKS]
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 414
+
+
+
+
+
 #
-  - type: STR_DRONE_QUADCOPTER_CHASSIS 
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 415
-#
-  - type: STR_DRONE_UCAV_CHASSIS
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 416
-#   
-  - type: STR_BASIC_DRONE_RECOVER
-    recover: true
-    battleType: 11
-    costSell: 8000
-    size: 0.8
-    weight: 100
-    listOrder: 417
-#
-  - type: STR_TANK_HE_CHASSIS # Item for the armor
-    # categories:[STR_TANKS, STR_LIGHT_TANKS]
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 1414
-#
-  - type: STR_TANK_AP_CHASSIS 
-    size: 6
-    costBuy: 12000
-    costSell: 18000
-    transferTime: 96
-    listOrder: 1415
-# tanks repair    
-  - type: STR_BASIC_TANK_RECOVER
-    recover: true
-    battleType: 11
-    costSell: 8000
-    size: 0.8
-    weight: 100
-    listOrder: 10601   
-#----- Mechanical units Weaponry -----#
   - type: STR_TANK_CANNON_HE
 #    categories: [STR_TANKS, STR_LIGHT_TANKS] ojito completar luego, ponersela a todos los items
     size: 5
@@ -582,38 +674,89 @@ items:
     invHeight: 3
     listOrder: 9001
 #
-  - type: STR_TANK_LAUNCHER_SMOKE
-    weight: 0
-    bigSprite: 2501
-    fireSound: 114
-    compatibleAmmo:
-      - STR_TANK_SMOKE_GRENADE
-    accuracyAimed: 100
-    tuAimed: 45
-    confAimed:
-      name: STR_TANK_POP_SMOKE
-    battleType: 1
-    maxRange: 2
-    arcingShot: true
-    fixedWeapon: true
-#    ignoreInCraftEquip: true
-#    ignoreInBaseDefense: true
-    invWidth: 2
-    invHeight: 3
-    listOrder: 3411
+#----- Mechanical units Weaponry ENDING -----#
+#----- Recovery and repair of mechanical units -----#   
+  - type: STR_BASIC_DRONE_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 417
 #
-  - type: STR_TANK_SMOKE_GRENADE
-    weight: 0
-    bigSprite: 1209
-    power: 60
-    damageType: 9
-    clipSize: 6
-    battleType: 2
-#    ignoreInCraftEquip: true
-#    ignoreInBaseDefense: true
-    hitSound: 0
-    hitAnimation: 0
-    listOrder: 9000
+  - type: STR_BASIC_TANK_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601   
+# CORPSES
+  - type: STR_LAND_DRONE_CORPSE
+    weight: 44
+    floorSprite: 1118
+    battleType: 11
+    recoveryPoints: 1
+    recover: false
+    armor: 46
+  - type: STR_UAV_CORPSE
+    floorSprite: 960
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false   
+#
+  - type: STR_XCOM_FLYING_DRONE_CORPSE
+#    categories: [STR_XCOM_TECH, STR_WRECKS]
+    size: 0.4
+    costSell: 8000
+    weight: 25
+    bigSprite: 925
+    floorSprite: 210
+    battleType: 11
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 1
+    recover: true
+    armor: 36
+    listOrder: 75480
+
+
+
+
+
+  - type: STR_XCOM_LARGE_FLYING_DRONE_CORPSE_1
+    recover: true
+    weight: 100
+    floorSprite: 947
+    battleType: 11
+    invWidth: 0
+    invHeight: 0
+  - type: STR_XCOM_LARGE_FLYING_DRONE_CORPSE_2
+    recover: false
+    floorSprite: 948
+    battleType: 11
+    invWidth: 0
+    invHeight: 0
+  - type: STR_XCOM_LARGE_FLYING_DRONE_CORPSE_3
+    recover: false
+    floorSprite: 949
+    battleType: 11
+    invWidth: 0
+    invHeight: 0
+  - type: STR_XCOM_LARGE_FLYING_DRONE_CORPSE_4
+    recover: false
+    floorSprite: 956
+    battleType: 11
+    invWidth: 0
+    invHeight: 0
+
+
+
+
+
+
+#----- Recovery and repair of mechanical units ENDING -----#   
 
 
 #################################
@@ -1139,6 +1282,7 @@ items:
     clipSize: 20
     battleType: 2
     listOrder: 2116
+#
   - type: STR_ST_LMG
     size: 0.2
     costBuy: 7
@@ -1434,6 +1578,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     listOrder: 2132
+###-----Human first tier Ballistic terran weapons ENDING-----###
 ###-----Human second tier Ballistic eXperimental weapons-----###
   - type: STR_XP_SMALL_PISTOL
     size: 0.1
@@ -5207,7 +5352,7 @@ items:
     bigSprite: 1114
     floorSprite: 91
     hitSound: 54
-    hitAnimation: 56
+    hitAnimation: 96
     power: 30
     damageType: 6
     damageAlter: #ojito continuar este, tenia blastradius 0, investigar si era por algo en especifico?
@@ -5221,7 +5366,7 @@ items:
       ToTile: 0
       ToItem: 0
       ToWound: 0
-      FixRadius: 5
+      FixRadius: 0 #antes 5? averiguar porq tenia rango
       RandomType: 2
       RadiusReduction: 5
       FireThreshold: 30
@@ -5298,7 +5443,7 @@ items:
     damageAlter: # continuar este, su rango era 0, investigar luego xq?
       RandomType: 2
       ResistType: 6
-      FixRadius: 10
+      FixRadius:  0 #antes 5? averiguar porq tenia rango
       RadiusReduction: 5
       FireThreshold: 30
       ToHealth: 2.0
@@ -5343,7 +5488,7 @@ items:
     floorSprite: 1506
     hitSound: 134
     handSprite: 2228
-    hitAnimation: 96
+    hitAnimation:  0 #antes 5? averiguar porq tenia rango
     power: 120
     damageType: 6
     damageAlter: # continuar este, investigar xq rango era 0
@@ -5965,7 +6110,7 @@ items:
     fuseType: -1
     attraction: 6
     listOrder: 2911
-  - type: STR_BO_SEMTEX_SATCHEL   #ojito luego editar para q tenga stats correctos
+  - type: STR_BO_SATCHEL_CHARGE   #ojito luego editar para q tenga stats correctos
     costBuy: 3
     costSell: 1
     bigSprite: 210
@@ -8180,15 +8325,6 @@ items:
     recover: true
     liveAlien: true
     costSell: 60000
-
-
-
-
-
-
-
-
-
   - type: STR_ABOMINATION
     size: 0.0
     recover: true
@@ -8204,19 +8340,12 @@ items:
     recover: true
     liveAlien: true
     costSell: 40000
-
-
   - type: STR_ANCIENT_SPAWN_TERRORIST
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
-
-
-
-
 # alien corpses
-
   - type: STR_FORMIC_CORPSE
     size: 0.4
     costSell: 20000
@@ -8338,10 +8467,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 65
-
-
-
-
   - type: STR_SOVEREIGN_CORPSE
     size: 0.4
     costSell: 20000

@@ -81,6 +81,17 @@ research:
     points: 10
     dependencies:
       - STR_SUPPORT_UNITS
+  - name: STR_DOGE_EPIGENETIC # ojito mejorar totalmente agregar mejores requisitos
+    cost: 10
+    points: 10
+    dependencies:
+      - STR_DOGE_RECRUITMENT
+      - STR_ADVANCED_SICK_BAY
+  - name: STR_DOGE_UPLIFTING # ojito mejorar totalmente agregar mejores requisitos
+    cost: 10
+    points: 10
+    dependencies:
+      - STR_ADVANCED_SICK_BAY
   - name: STR_DRONE_WARFARE
     cost: 10
     points: 10

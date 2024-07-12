@@ -110,6 +110,13 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
+ - revisar el tema de que en los transportes quepan unidades de un solo tile y de 4 tiles, etc.
+ - revisar q el drone avanzado este mas bajito unos cuantos pixeles
+ - revisar que el drone advanced funcione correctamente con un cadaver y un recovery especifico (checar el tema drone corpse), ademas de los respectivos articulos de la ufopedia
+ - crear articulos en ufopaedia respecto a los uplifting de perros
+ - reducir ligeramente el tamaño de la granada de humo
+ - agrandar tamaño de la granada de palo
+ - sombrear mejor sprites de los perritos
 #POSIBLEMENTE TERMINADO?
  - reajustar todo lo relacionado con ingenieros?
    * triplicar precio de proyectos de generacion de dinero
@@ -291,6 +298,7 @@ IMPORTANTE PARA LORE:
  - crear alguna especie de "CURRENT OBJECTIVE"
  - (NUEVO) aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
    * esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
+   * respecto a soldiertransformation para perritos, consultar si se puede aplicar un porcentaje de "fallo"
  - (NUEVO) Error in the new "inventory" image for enemies.
    * Firstly, add remaining images of enemy inventory.
    * Review the size of the "slots" position for 2x2 units.
@@ -420,6 +428,8 @@ IMPORTANTE PARA LORE:
      ~ Mitigated by the soldier's accuracy and strength stats.
    * This additional parameter could help in better balancing weapons (e.g., the PDW having little recoil but longer reload times).
  - Confirm the issue with the bullet sprite of the pistol taser.
+   * era el tamaño del sprite del hit, acomodar a 320x40?
+   * agregar explosion de la granada de shock
 #
  - Check all reloading TUs for every weapon.
    * Modify reload times, balance transfer times of items from one pocket to another.
@@ -444,15 +454,11 @@ IMPORTANTE PARA LORE:
  - Resolve the issue with the zombification of dogs (from xfiles).
 #nuevo
  - crear medalla para perros 
-#currently being worked on - Develop technology to uplift dogs to sapience.
-#currently being worked on   * Utilize a soldier transformation.
-#currently being worked on   * They would gain intelligence improvements and access to more abilities.
-#currently being worked on   * The lore should explain all ethical and moral implications.
-#
+ - improve doge attacks bigobs sprites
  - Modify dog armor.
-   * No pockets initially; perhaps add pockets to advanced versions to serve as mini-inventories.
+   * No pockets initially in the harness; perhaps add pockets to advanced versions (only the belt in the vest version?) to serve as mini-inventories.
    * Restore the strength stat.
-   * Balance the stat with the weight of the armors to prevent exploits like pack mules.
+   * Balance the stat with the weight of the armors to prevent exploits like pack mules with way to cumbersome weapons.
  - Modify dog armor sprites.
    * Basic ones will be a simple harness.
    * XOps (tier 2) will be armor similar to Riley Cod (done).
@@ -582,6 +588,18 @@ IMPORTANTE PARA LORE:
 #####
 
 + Major Changes:
+#nuevo queda pendiente
+ - balance the following stuff
+   * units stats
+     ~ improve the differences between units and mostly the bonus stats regarding promotions
+   * armor stats
+     ~ emphasis in tanks and new damage (antimatter)
+   * prices of items
+   * manufacture
+   * researches
+
+#
+ - agregate a roman numeral to every codex related technology to signify their current tier level ( I, II, III, IV, V, VI )
  - make base facilities needs ammunition to fire defenses and stuff
    * search "ammoneeded"
  - include xcom npcs in base defenses

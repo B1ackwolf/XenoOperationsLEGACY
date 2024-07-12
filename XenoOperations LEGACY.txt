@@ -141,9 +141,15 @@ gameplay changes:
 
  - agregado un nuevo tipo de soldier transformation:
    * entrenamiento para conduccion de tanqueros
- - adicionalmente esas transformaciones requieren de un large living quarters en la base para poder conseguirse.
-   * afecta tanto a la promocion a oficiales como el entraniemto de tanqueros
-
+     ~ adicionalmente esas transformaciones requieren de un large living quarters en la base para poder conseguirse.
+     ~ afecta tanto a la promocion a oficiales como el entraniemto de tanqueros
+   * agregada transformacion para perros
+     ~ un primer nivel de mejora de inteligencia (pre sapient level)
+       ° mejora en los stats y acceso a mejores items.
+     ~ agregada una transformacion adicional a FULL SAPIENCE
+       ° principales ventajas sera permitir el uso de servoarmaduras y demas artilugios como armas.
+       ° tendran un nivel de inteligencia al de un humano promedio.
+       ° el lore se enfocara en los dilemas eticos acerca de esta accion, ademas de una posible reaccion de los perros a todas las atrocidades que le hemos producido a los perros y un poble shock existencial, autodescubrimiento de su propia posicion en el mundo, the dread of the acknolewing of the conflict we are currently tossing them into, etc.  
    
  - creada nuevas armas de distintos tiers
    * nuevas armas melee agregadas para rellenar los gaps
