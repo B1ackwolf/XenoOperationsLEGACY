@@ -91,7 +91,21 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
    * Check TFTD+ or Unexcom to understand how the ruleset works for this.
      ~ must define using globemarkers.
      ~ Use the "marker" command assigned to each aircraft.
-   * Perhaps remove pockets from personal armor.
+ - Ensure all grenades have an implemented fuse type.
+   * This would differentiate three types of heavy explosives
+     ~ C4/Semtex as vanilla.
+     ~ A lighter satchel charge without a counting fuse that could be created.
+     ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
+ - Completely rebalance plasma weapons, especially weights.
+ - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
+   * Modify the handobs of the laser knife, plasma knife (both using the xelloy knife as example), alloy sword and plasma sword (using laser sword as an guide).
+     ~ also improve the laser sword handob slighty.
+   * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
+   * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out (alita damascus sword).
+ - Rename XX assault cannon to something 20mm flak.
+ - Rename tank AP cannon to 25 mm Bushmaster.
+ - Plane cannon is now a 30 mm GAU-8/A Avenger.
+   * Create an improved version that unlocks after researching xelloys?.
 #
  - acomodar los escudos para q en la mano se enciendan y en la mochila sean 2x2 o 2x1 segun dependa
    * integrar correctamente en el arbol de tecnologias
@@ -110,7 +124,9 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
- - revisar el tema de que en los transportes quepan unidades de un solo tile y de 4 tiles, etc.
+ - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
+
+ - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - revisar que el drone advanced funcione correctamente con un cadaver y un recovery especifico (checar el tema drone corpse), ademas de los respectivos articulos de la ufopedia
  - crear articulos en ufopaedia respecto a los uplifting de perros
  - sombrear mejor sprites de los perritos
@@ -241,24 +257,8 @@ IMPORTANTE PARA LORE:
 #
 + impending changes: 
  - agregar efecto purpura psionico pero solo a los ethereals
- - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - Later, create some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
    * Give this "terrain damage" sub-property to the plasma sword and knife?
- - Ensure all grenades have an implemented fuse type.
-   * This would differentiate three types of heavy explosives
-     ~ C4/Semtex as vanilla.
-     ~ A lighter satchel charge without a counting fuse that could be created.
-     ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
- - Completely rebalance plasma weapons, especially weights.
- - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
-   * Modify the handobs of the laser knife, plasma knife (both using the xelloy knife as example), alloy sword and plasma sword (using laser sword as an guide).
-     ~ also improve the laser sword handob slighty.
-   * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
-   * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out (alita damascus sword).
- - Rename XX assault cannon to something 20mm flak.
- - Rename tank AP cannon to 25 mm Bushmaster.
- - Plane cannon is now a 30 mm GAU-8/A Avenger.
-   * Create an improved version that unlocks after researching xelloys?.
 #
 + FINISH REORGANIZING FOLDERS:
  - Fix all relative routes inside extrasprites.rul for this.
@@ -282,6 +282,7 @@ IMPORTANTE PARA LORE:
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.
  - Clearly add the recommendation for the song mod.
+
 ###################################################################################################################################
 ###################################################################################################################################
 ###################################################################################################################################

@@ -229,7 +229,7 @@ TWEAKS AND BALANCE:
      ~ no more 1 Xelloy to produce one cartridge, and 3 to produce a rifle.
  - increased the weight of some weapons:
    * the XX autocannon goes to 26 from 17
- 
+ - cambiado la configuracion de los bolsillos de las armaduras personales.
  - balanceado finalmente implementado el tema del area de las explosiones cuyo daño varia en base a la distancia del centro de la explosiones
    * algunas armas tendran el mismo daño en todo el rango, esto para darle distincion
    * restaurado el daño en area tipo quimico a algunos explosivos que anteriormente no funcionaban correctamente
@@ -280,6 +280,10 @@ Sprite tweaks:
  - increased the total ammount of faces for the paperdolls by 17 per gender (para un total de 72 por sexo)
  - Reduced size of grenade launcher ammo a bit.
  - reajusted the position of the weapons in the first tier (continuar con esto)
+ - retocado la apariencia del rocket launcher inicial
+ - rediseñado enteramente la apariencia del lanza granadas, ahora tiene mas apariencia de un milkor
+ - finalizado (for real this time, i swear) el sprite del grenade launcher, ahora si parece verdaderamente un milkor MGL
+
  - "suavizado" la apariencia de los perritos.
  - toda el tier de melees recibio cambios sustanciales
  - pequeños retoques al
@@ -298,7 +302,6 @@ Sprite tweaks:
  - modificada ligeramente las insignias de first sergeants ahora tienen doble chevron en la parte de abajo
  - modifcadas y mejoradas practicamente todas las granadas
    * recibieron mejoras visuales al inv sprite, al floor sprite y al handsprite
- - finalizado (for real this time, i swear) el sprite del grenade launcher, ahora si parece verdaderamente un milkor MGL
    * reducido el tamaño de los sprites de sus municiones para mantener el estilo
    * cambios hechos tambien al floorsprite y el handsprite para q coincidan con estos cambios
  - pequeños retoques al LMG standar, para que parezca mas a la m249 en la q esta basada
@@ -325,20 +328,23 @@ Sprite tweaks:
 craft changes:
  - todas las naves de xcom recibieron mejoras significativas sea en funcionalidad o en apariencia, ademas de retoques en estadisticas (ojito hacer esto)
    *dragonfly recibio correcciones menores con los LoS desde adentro del avion. velocidad mas baja
+     ~ no podra llevar tanques pero podra llevar unidades mecanicas 1x1
    * firefly recibio ligeras menoras esteticas, ademas de una escalera en la puerta lateral, de modo q tambien podra ingresarse a la aeronave usando esta puerta.
+     ~ permite transportar 14 tropas y un solo tanque o unidad pesada 2x2
    * cambiado el nombre del sr-71 , ahora es cormorant
    * modificado el orden de las aeronaves finales, primero se agrega un avion de transporte extra llamado SCARAB
-     ~ funcion principal de movimiento de tropas
+     ~ funcion principal de movimiento de tropas no podra llevar tanques o unidades 2x2
 	 ~ estadisticas aqui
 	 ~ funciones aqui y como desbloquearse
    *la siguiente aeronave en desbloquearse sera el goliathus (anteriormente el hurricane)
      ~ diseño alterado, luego recibira un mejor rediseño
-	 ~ permitira volver a llevar hwp
+	 ~ permitira volver a llevar hwp, llevara 2 tanques, enfocado en el transporte pesado de tropas.
 	 ~ estadisticas aqui
 	 ~ recordatorio que tiene 22 pero le caben 12 mas (34)	 
    * penultima aeronave el hercules (anteriormente skywarden)
      ~ diseño mejorado
      ~ ligeramente menos tropas q el goliathus
+     ~ solo podra llevar una unidad pesada 2x2
      ~ su nicho es su alta velocidad, perfecto para despliegues con tropas de elite
 	 ~ recordatorio que tiene 18, pero le caben 8 tripulantes mas (26)
    * Overlord seguira siendo la ultima
@@ -357,10 +363,11 @@ craft changes:
 	 
 	 
 	 
- - cambios en los mapas
+cambios en los mapas
    * algunas modificaciones a edificios de la base tanto en estadisticas y precios
    * el hangar recibio algunos cambios para permitir mayor movilidad de las unidades HWP desde ciertos angulos, gracias reporte de (revisar en el foro quien me comento esto)   
 	 * agregado fuentes de iluminacion extras en la pared lejana con lockers en el living quarters grande
+
 under da hood changes:
  - implementados cambios a la esquema general de precios
  - todos los articulos que podian ser comprados al inicio de la invasion fueron reducidos en costo (en casos a precios casi insignificantes y hasta simbolicos)

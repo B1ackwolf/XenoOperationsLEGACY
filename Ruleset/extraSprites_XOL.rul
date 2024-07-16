@@ -3505,6 +3505,13 @@ extraSprites:
     height: 680
     files:
       0: Resources/UnitSprites/AlienFaction/Sectoid.png
+  - type: SECTOID_COMMANDER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/UnitSprites/AlienFaction/SectoidHead.png
   - type: MUTON.PCK
     subX: 32
     subY: 40
@@ -3643,7 +3650,7 @@ extraSprites:
   - type: Inventory_ADV_UCAV
     singleImage: true
     files:
-      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/AdvancedDroneSmall.
+      0: Resources/UnitSprites/XcomFaction/XcomMech/InvMech/Chassis/AdvancedDroneSmall.png
   - type: Inventory_ADV_MEDIUM_UCAV
     singleImage: true
     files:

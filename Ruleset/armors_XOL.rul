@@ -2740,6 +2740,11 @@ armors:
     underArmor: 30
     visibilityAtDark: 12
     heatVision: 40
+    builtInWeapons:
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_LL
+      - STR_NULL_POCKET_RL
     units:
       - STR_PILOT
     damageModifier:
@@ -2922,6 +2927,10 @@ armors:
     underArmor: 30
     visibilityAtDark: 12
     heatVision: 40
+    builtInWeapons:
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LL
+      - STR_NULL_POCKET_RL
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -3106,6 +3115,10 @@ armors:
     underArmor: 30
     visibilityAtDark: 12
     heatVision: 40
+    builtInWeapons:
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LL
+      - STR_NULL_POCKET_RL
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -3289,6 +3302,10 @@ armors:
     underArmor: 30
     visibilityAtDark: 12
     heatVision: 40
+    builtInWeapons:
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LL
+      - STR_NULL_POCKET_RL
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -3473,6 +3490,10 @@ armors:
     underArmor: 30
     visibilityAtDark: 12
     heatVision: 40
+    builtInWeapons:
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LL
+      - STR_NULL_POCKET_RL
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
@@ -3657,6 +3678,10 @@ armors:
     underArmor: 30
     visibilityAtDark: 12
     heatVision: 40
+    builtInWeapons:
+      - STR_NULL_POCKET_RS
+      - STR_NULL_POCKET_LL
+      - STR_NULL_POCKET_RL
     units:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER

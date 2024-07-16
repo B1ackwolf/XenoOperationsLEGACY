@@ -18,7 +18,7 @@ crafts:
     accel: 2
     avoidBonus: 15
     soldiers: 12
-    vehicles: 4 #ojito luego eliminare
+    vehicles: 8
     maxSmallUnits: 12
     maxLargeUnits: 0
     pilots: 1
@@ -64,9 +64,9 @@ crafts:
     accel: 2
     weapons: 1
     soldiers: 14
-    vehicles: 4 #OJITO ELIMINAR LUEGO
+    vehicles: 10
     maxSmallUnits: 14
-    maxLargeUnits: 2
+    maxLargeUnits: 1
     pilots: 1
     maxItems: 350
     costSell: 450000
@@ -113,7 +113,7 @@ crafts:
     accel: 2
     weapons: 2
     soldiers: 25
-    vehicles: 4 #OJITO ELIMINAR LUEGO
+    vehicles: 16
     maxSmallUnits: 25
     maxLargeUnits: 0
     pilots: 2
@@ -168,8 +168,8 @@ crafts:
 
       - [2, 9, 0, 2] #First in front of ramp
       - [4, 9, 0, 3] #Officer Seat
-      - [3, 12, 1, 0] #pilot 
-      - [5, 12, 1, 0] #pilot
+      - [5, 12, 1, 0] #pilot 
+      - [6, 12, 1, 0] #pilot
   - type: STR_GOLIATHUS
     sprite: 250
     fuelMax: 1800
@@ -177,10 +177,10 @@ crafts:
     speedMax: 1455 # mach 2,2 Supersonic
     accel: 6
     soldiers: 22
-    vehicles: 4 #OJITO ELIMINAR LUEGO
+    vehicles: 14
     maxSmallUnits: 22
     maxLargeUnits: 4
-    pilots: 3
+    pilots: 2
     maxItems: 500
     allowLanding: true
     costBuy: 0
@@ -195,6 +195,8 @@ crafts:
         - BLANKS
         - XOPSTRANSPORT2
         - XOPSTRANSPORT3
+        - PELICAN_CARGO_BAY_1
+        - PELICAN_COCKPIT_1
       mapBlocks:
         - name: XOPSHURRICANE
           width: 20
@@ -229,10 +231,10 @@ crafts:
     speedMax: 2315 # 3.5 mach Supersonic
     accel: 5
     soldiers: 18
-    vehicles: 4 #OJITO ELIMINAR LUEGO
+    vehicles: 12
     maxSmallUnits: 18
-    maxLargeUnits: 3
-    pilots: 2
+    maxLargeUnits: 1
+    pilots: 1
     maxItems: 400
     allowLanding: true
     costBuy: 0
@@ -247,12 +249,14 @@ crafts:
         - BLANKS
         - XOPSTRANSPORT2
         - XOPSTRANSPORT3
+        - PELICAN_CARGO_BAY_1
+        - PELICAN_COCKPIT_1
       mapBlocks:
         - name: XOPSNEWSKYWARDEN
           width: 10
           length: 20
     deployment:
-      - [4, 15, 1, 4]
+      - [4, 15, 1, 4] #scout and heavy tank
       - [5, 15, 1, 4]
       - [4, 14, 1, 4]
       - [5, 14, 1, 4]
@@ -269,7 +273,7 @@ crafts:
       - [4, 8, 1, 4]
       - [5, 8, 1, 4]
       - [4, 11, 1, 4]
-      - [5, 11, 1, 4]
+      - [5, 11, 1, 4] # 
   - type: STR_OVERLORD
     requires:
       - STR_OVERLORD
@@ -280,7 +284,9 @@ crafts:
     accel: 20
     weapons: 2
     soldiers: 30
-    vehicles: 5 #OJITO ELIMINAR LUEGO
+    vehicles: 20
+    maxSmallUnits: 30
+    maxLargeUnits: 4
     pilots: 4
     maxItems: 600 #ojito modificar estos y todos los valores iguales y reducirlos
     allowLanding: true
