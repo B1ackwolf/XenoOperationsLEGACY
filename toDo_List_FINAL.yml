@@ -104,8 +104,6 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
    * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out (alita damascus sword).
  - Rename XX assault cannon to something 20mm flak.
  - Rename tank AP cannon to 25 mm Bushmaster.
- - Plane cannon is now a 30 mm GAU-8/A Avenger.
-   * Create an improved version that unlocks after researching xelloys?.
 #
  - acomodar los escudos para q en la mano se enciendan y en la mochila sean 2x2 o 2x1 segun dependa
    * integrar correctamente en el arbol de tecnologias
@@ -124,6 +122,8 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
+ - recolorizar bien los pedacitos de sprite del scarab para q encaje con el resto del avion 
+   * es un gris muy oscuro, extraer y volver a repintar a uno un poco mas claro
  - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
 
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
@@ -143,7 +143,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
       ~ aprovechar y cambiar el nombre(pattern) a las armaduras
          ° armadura basica = Legionnaire / pilot = zero g suit
          ° armadura xops = praetorian / pilot = equite
-         ° Armadura personal = Ulfsark / pilot= ???
+         ° Armadura personal = Ulfsark / pilot= valkyrie
          ° Armadura alloy = Spartan / pilot=ithacan
          ° Armadura Voladora = cuāuhpilli / pilot= Quetzalcóatl 
          ° Armadura Power = Myrmidon / pilot=argonaut

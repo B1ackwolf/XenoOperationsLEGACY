@@ -179,7 +179,7 @@ crafts:
     soldiers: 22
     vehicles: 14
     maxSmallUnits: 22
-    maxLargeUnits: 4
+    maxLargeUnits: 2
     pilots: 2
     maxItems: 500
     allowLanding: true
@@ -286,7 +286,7 @@ crafts:
     soldiers: 30
     vehicles: 20
     maxSmallUnits: 30
-    maxLargeUnits: 4
+    maxLargeUnits: 3
     pilots: 4
     maxItems: 600 #ojito modificar estos y todos los valores iguales y reducirlos
     allowLanding: true
@@ -301,6 +301,8 @@ crafts:
         - BLANKS
         - XOPSTRANSPORT3
         - XOPSTRANSPORT2
+        - PELICAN_CARGO_BAY_1
+        - PELICAN_COCKPIT_1
       mapBlocks:
         - name: XOPSOVERLORD
           width: 10
