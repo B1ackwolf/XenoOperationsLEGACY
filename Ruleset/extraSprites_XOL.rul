@@ -3187,6 +3187,13 @@ extraSprites:
     height: 1480
     files:
       0: Resources/UnitSprites/XcomFaction/XcomHuman/XCOM8.gif
+  - type: XOPS_XCOM_9.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/UnitSprites/XcomFaction/XcomHuman/XCOM9.png
   - type: XOPS_XCOM_10.PCK
     subX: 32
     subY: 40

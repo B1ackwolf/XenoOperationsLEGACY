@@ -42,6 +42,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
+ - revisar los troops deployments de todas las naves (a partir del hercules)
  - revisar los precios de TODOS LOS ARTICULOS
  - OJITO SIGUIENTE PARCHE, CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
@@ -122,8 +123,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
- - recolorizar bien los pedacitos de sprite del scarab para q encaje con el resto del avion 
-   * es un gris muy oscuro, extraer y volver a repintar a uno un poco mas claro
+
  - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
 
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes

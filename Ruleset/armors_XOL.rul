@@ -8160,7 +8160,7 @@ armors:
       - 1.0
 #----- Tanks and Mech Drivers -----#
   - type: STR_MECH_DRIFTSUIT
-    spriteSheet: XOPS_XCOM_0.PCK
+    spriteSheet: XOPS_XCOM_9.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       8: MECH_DRIFTSUIT
