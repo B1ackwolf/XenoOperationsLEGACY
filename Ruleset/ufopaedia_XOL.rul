@@ -838,14 +838,14 @@ ufopaedia:
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_PSI_ARMOR
+      - STR_PSI_ARMOR_TAN
     text: STR_PSI_UFOPEDIA
     listOrder: 1720
   - id: STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_XOPS_POWER_ARMOR
+      - STR_XOPS_POWER_ARMOR_TAN
     text: STR_XOPS_POWER_UFOPEDIA
     listOrder: 1930
 

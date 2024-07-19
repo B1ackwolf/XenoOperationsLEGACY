@@ -173,13 +173,13 @@ armors:
     sideArmor: 2
     rearArmor: 2
     underArmor: 2
-    stats:
+    stats: &StatsforJumpsuit
       tu: 5
       stamina: 10
       health: 0
       bravery: 3
       reactions: 15
-    damageModifier:
+    damageModifier: &damageModifierJumpsuit
       - 1.0
       - 1.0
       - 0.3
@@ -189,7 +189,8 @@ armors:
       - 1.2
       - 1.0
       - 1.6
-      - 1.1
+      - 0.8
+      - 1.0
     builtInWeapons:
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
@@ -197,6 +198,7 @@ armors:
       - STR_NULL_POCKET_LS 
     units:
       - STR_PILOT
+#
   - type: STR_KEVLAR_VEST_ARMOR_TAN_UC
     spriteSheet: XOPS_XCOM_1.PCK
     customArmorPreviewIndex: 1
@@ -365,7 +367,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &modifiersForKevlarVest
       - 1.0
       - 1.0
       - 1.0
@@ -376,7 +378,9 @@ armors:
       - 1.2
       - 1.6
       - 1.0
+      - 1.0
     loftempsSet: [ 3 ]
+#
   - type: STR_KEVLAR_VEST_ARMOR_BLACK_UC
     spriteSheet: XOPS_XCOM_2.PCK
     layersDefaultPrefix: HUMAN
@@ -546,17 +550,8 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 1.0
+    damageModifier: *modifiersForKevlarVest
+#
   - type: STR_KEVLAR_VEST_ARMOR_GRAY_UC
     spriteSheet: XOPS_XCOM_3.PCK
     layersDefaultPrefix: HUMAN
@@ -726,17 +721,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 1.0
+    damageModifier: *modifiersForKevlarVest
   - type: STR_KEVLAR_VEST_ARMOR_WHITE_UC
     spriteSheet: XOPS_XCOM_4.PCK
     layersDefaultPrefix: HUMAN
@@ -906,17 +891,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 1.0
+    damageModifier: *modifiersForKevlarVest
   - type: STR_KEVLAR_VEST_ARMOR_GREEN_UC
     spriteSheet: XOPS_XCOM_5.PCK
     layersDefaultPrefix: HUMAN
@@ -1086,17 +1061,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 1.0
+    damageModifier: *modifiersForKevlarVest
   - type: STR_KEVLAR_VEST_ARMOR_BERET_UC
     spriteSheet: XOPS_XCOM_6.PCK
     layersDefaultPrefix: HUMAN
@@ -1266,17 +1231,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 1.0
+    damageModifier: *modifiersForKevlarVest
   - type: STR_VEST_HEC_ARMOR_UC
     spriteSheet: XOPS_XCOM_8.PCK
     layersDefaultPrefix: HUMAN
@@ -1436,7 +1391,7 @@ armors:
       - STR_CORPSE_HEC_ARMOR
     storeItem: STR_NONE
     weight: 4
-    stats:
+    stats: &StatsforHECarmor
       firing: -4
     loftempsSet: [ 3 ]
     frontArmor: 12
@@ -1462,6 +1417,8 @@ armors:
       - 1.0
       - 0.2
       - 0.0
+      - 1.0
+#
   - type: STR_XOPS_ARMOR_PILOT_UC
     spriteSheet: XOPS_XCOM_10.PCK
     customArmorPreviewIndex: 8
@@ -1621,7 +1578,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_PILOT
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats:
+    stats: &StatsforXOPSarmor
       firing: 4
     loftempsSet: [ 3 ]
     frontArmor: 25
@@ -1644,6 +1601,7 @@ armors:
       - 1.0
       - 0.9
       - 1.2
+      - 1.0
       - 1.0
   - type: STR_XOPS_ARMOR_UC
     spriteSheet: XOPS_XCOM_11.PCK
@@ -1804,7 +1762,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_TAN
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats:
+    stats: &StatsforXOPSPilotArmor
       firing: 4
     loftempsSet: [ 3 ]
     frontArmor: 25
@@ -1829,6 +1787,7 @@ armors:
       - 1.0
       - 0.9
       - 1.2
+      - 1.0
       - 1.0
   - type: STR_XOPS_ARMOR_BLACK_UC
     spriteSheet: XOPS_XCOM_12.PCK
@@ -1989,8 +1948,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_BLACK
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats:
-      firing: 4
+    stats: *StatsforXOPSarmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -2015,8 +1973,7 @@ armors:
       - 0.9
       - 1.2
       - 1.0
-
-
+      - 1.0
   - type: STR_XOPS_ARMOR_GRAY_UC
     spriteSheet: XOPS_XCOM_13.PCK
     customArmorPreviewIndex: 11
@@ -2176,8 +2133,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_GRAY
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats:
-      firing: 4
+    stats: *StatsforXOPSarmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -2201,6 +2157,7 @@ armors:
       - 1.0
       - 0.9
       - 1.2
+      - 1.0
       - 1.0
   - type: STR_XOPS_ARMOR_WHITE_UC
     spriteSheet: XOPS_XCOM_14.PCK
@@ -2361,8 +2318,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_WHITE
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats:
-      firing: 4
+    stats: *StatsforXOPSarmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -2386,6 +2342,7 @@ armors:
       - 1.0
       - 0.9
       - 1.2
+      - 1.0
       - 1.0
   - type: STR_XOPS_ARMOR_GREEN_UC
     spriteSheet: XOPS_XCOM_15.PCK
@@ -2546,8 +2503,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_GREEN
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats:
-      firing: 4
+    stats: *StatsforXOPSarmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -2572,6 +2528,8 @@ armors:
       - 0.9
       - 1.2
       - 1.0
+      - 1.0
+#
   - type: STR_PERSONAL_ARMOR_PILOT_UC
     customArmorPreviewIndex: 14
     spriteSheet: XOPS_XCOM_20.PCK
@@ -2730,7 +2688,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_PILOT
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats:
+    stats: &StatsforPersonalPilotArmor
       reactions: 5
       firing: 4
       melee: 6
@@ -2758,6 +2716,7 @@ armors:
       - 1.5
       - 1.0
       - 1.0
+      - 0.95
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_TAN_UC
     customArmorPreviewIndex: 15
@@ -2917,7 +2876,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_TAN
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats:
+    stats: &StatsforPersonalArmor
       reactions: 5
       firing: 4
       melee: 6
@@ -2946,6 +2905,7 @@ armors:
       - 1.5
       - 1.0
       - 1.0
+      - 0.95
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_BLACK_UC
     customArmorPreviewIndex: 16
@@ -3106,9 +3066,6 @@ armors:
       - STR_CORPSE_PERSONAL_ARMOR_BLACK
     storeItem: STR_PERSONAL_ARMOR_TAN
     stats:
-      reactions: 5
-      firing: 4
-      melee: 6
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3134,6 +3091,7 @@ armors:
       - 1.5
       - 1.0
       - 1.0
+      - 0.95
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_GRAY_UC
     customArmorPreviewIndex: 17
@@ -3293,9 +3251,6 @@ armors:
       - STR_CORPSE_PERSONAL_ARMOR_GRAY
     storeItem: STR_PERSONAL_ARMOR_TAN
     stats:
-      reactions: 5
-      firing: 4
-      melee: 6
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3321,6 +3276,7 @@ armors:
       - 1.5
       - 1.0
       - 1.0
+      - 0.95
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_WHITE_UC
     customArmorPreviewIndex: 18
@@ -3481,9 +3437,6 @@ armors:
       - STR_CORPSE_PERSONAL_ARMOR_WHITE
     storeItem: STR_PERSONAL_ARMOR_TAN
     stats:
-      reactions: 5
-      firing: 4
-      melee: 6
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3509,6 +3462,7 @@ armors:
       - 1.5
       - 1.0
       - 1.0
+      - 0.95
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_GREEN_UC
     customArmorPreviewIndex: 19
@@ -3669,9 +3623,6 @@ armors:
       - STR_CORPSE_PERSONAL_ARMOR_GREEN
     storeItem: STR_PERSONAL_ARMOR_TAN
     stats:
-      reactions: 5
-      firing: 4
-      melee: 6
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3697,6 +3648,8 @@ armors:
       - 1.5
       - 1.0
       - 1.0
+      - 0.95
+#
     loftempsSet: [ 3 ]
   - type: STR_ALLOY_ARMOR_PILOT_UC
     customArmorPreviewIndex: 20
@@ -3875,6 +3828,7 @@ armors:
       - 1.0
       - 1.1
       - 0.5
+      - 0.90
   - type: STR_ALLOY_ARMOR_UC
     customArmorPreviewIndex: 21
     spriteSheet: XOPS_XCOM_31.PCK
@@ -4054,6 +4008,7 @@ armors:
       - 1.0
       - 1.1
       - 0.5
+      - 0.90
   - type: STR_ALLOY_ARMOR_BLACK_UC
     customArmorPreviewIndex: 22
     spriteSheet: XOPS_XCOM_32.PCK
@@ -4233,6 +4188,7 @@ armors:
       - 1.0
       - 1.1
       - 0.5
+      - 0.90
   - type: STR_ALLOY_ARMOR_GRAY_UC
     customArmorPreviewIndex: 23
     spriteSheet: XOPS_XCOM_33.PCK
@@ -4412,6 +4368,7 @@ armors:
       - 1.0
       - 1.1
       - 0.5
+      - 0.90
   - type: STR_ALLOY_ARMOR_WHITE_UC
     customArmorPreviewIndex: 24
     spriteSheet: XOPS_XCOM_34.PCK
@@ -4591,6 +4548,7 @@ armors:
       - 1.0
       - 1.1
       - 0.5
+      - 0.90
   - type: STR_ALLOY_ARMOR_GREEN_UC
     customArmorPreviewIndex: 25
     spriteSheet: XOPS_XCOM_35.PCK
@@ -4770,6 +4728,8 @@ armors:
       - 1.0
       - 1.1
       - 0.5
+      - 0.90
+#
   - type: STR_SKY_STRIKE_ARMOR_PILOT_UC
     customArmorPreviewIndex: 26
     spriteSheet: XOPS_XCOM_40.PCK
@@ -4924,7 +4884,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_SKY_STRIKE_ARMOR_PILOT
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
-    stats:
+    stats: &StatsforSkyStrikePilotArmor
       tu: 15
     loftempsSet: [ 3 ]
     frontArmor: 38
@@ -4951,6 +4911,7 @@ armors:
       - 1.0
       - 1.1
       - 0.0
+      - 0.95
   - type: STR_SKY_STRIKE_ARMOR_UC
     customArmorPreviewIndex: 27
     spriteSheet: XOPS_XCOM_41.PCK
@@ -5105,7 +5066,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_SKY_STRIKE_ARMOR_TAN
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
-    stats:
+    stats: &StatsforSkyStrikeArmor
       tu: 15
     loftempsSet: [ 3 ]
     frontArmor: 38
@@ -5134,6 +5095,7 @@ armors:
       - 1.0
       - 1.1
       - 0.0
+      - 0.95
   - type: STR_SKY_STRIKE_ARMOR_BLACK_UC
     customArmorPreviewIndex: 28
     spriteSheet: XOPS_XCOM_42.PCK
@@ -5315,6 +5277,7 @@ armors:
       - 1.0
       - 1.1
       - 0.0
+      - 0.95
   - type: STR_SKY_STRIKE_ARMOR_GRAY_UC
     customArmorPreviewIndex: 29
     spriteSheet: XOPS_XCOM_43.PCK
@@ -5470,7 +5433,6 @@ armors:
       - STR_CORPSE_SKY_STRIKE_ARMOR_GRAY
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
     stats:
-      tu: 15
     loftempsSet: [ 3 ]
     frontArmor: 38
     sideArmor: 26
@@ -5498,6 +5460,7 @@ armors:
       - 1.0
       - 1.1
       - 0.0
+      - 0.95
   - type: STR_SKY_STRIKE_ARMOR_WHITE_UC
     customArmorPreviewIndex: 30
     spriteSheet: XOPS_XCOM_44.PCK
@@ -5653,7 +5616,6 @@ armors:
       - STR_CORPSE_SKY_STRIKE_ARMOR_WHITE
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
     stats:
-      tu: 15
     loftempsSet: [ 3 ]
     frontArmor: 38
     sideArmor: 26
@@ -5681,6 +5643,7 @@ armors:
       - 1.0
       - 1.1
       - 0.0
+      - 0.95
   - type: STR_SKY_STRIKE_ARMOR_CLOUD_UC
     customArmorPreviewIndex: 31
     spriteSheet: XOPS_XCOM_45.PCK
@@ -5836,7 +5799,6 @@ armors:
       - STR_CORPSE_SKY_STRIKE_ARMOR_CLOUD
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
     stats:
-      tu: 15
     loftempsSet: [ 3 ]
     frontArmor: 38
     sideArmor: 26
@@ -5864,6 +5826,8 @@ armors:
       - 1.0
       - 1.1
       - 0.0
+      - 0.95
+#
   - type: STR_XOPS_POWER_ARMOR_PILOT_UC
     customArmorPreviewIndex: 32
     spriteSheet: XOPS_XCOM_50.PCK
@@ -6017,8 +5981,8 @@ armors:
       F71: ["", "", "", "", "", "", "", "", "XOPS_POWER_ARMOR_PILOT_F", "", "F71_HEAD", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT"]
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_PILOT
-    storeItem: STR_XOPS_POWER_ARMOR
-    stats:
+    storeItem: STR_XOPS_POWER_ARMOR_TAN
+    stats: &StatsforPilotPowerArmor
       tu: 7
       stamina: 10
       bravery: 10
@@ -6052,6 +6016,7 @@ armors:
       - 0.8
       - 1.5
       - 0.0
+      - 0.90
   - type: STR_XOPS_POWER_ARMOR_UC
     customArmorPreviewIndex: 33
     spriteSheet: XOPS_XCOM_51.PCK
@@ -6205,8 +6170,8 @@ armors:
       F71: ["", "", "", "", "", "", "", "", "XOPS_POWER_ARMOR_TAN_F", "", "F71_HEAD", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT"]
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR
-    storeItem: STR_XOPS_POWER_ARMOR
-    stats:
+    storeItem: STR_XOPS_POWER_ARMOR_TAN
+    stats: &StatsforPowerArmor
       tu: 7
       stamina: 10
       bravery: 10
@@ -6242,6 +6207,7 @@ armors:
       - 0.8
       - 1.5
       - 0.0
+      - 0.90
   - type: STR_XOPS_POWER_ARMOR_BLACK_UC
     customArmorPreviewIndex: 34
     spriteSheet: XOPS_XCOM_52.PCK
@@ -6395,16 +6361,8 @@ armors:
       F71: ["", "", "", "", "", "", "", "", "XOPS_POWER_ARMOR_BLACK_F", "", "F71_HEAD", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT"]
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_BLACK
-    storeItem: STR_XOPS_POWER_ARMOR
-    stats:
-      tu: 7
-      stamina: 10
-      bravery: 10
-      reactions: 5
-      firing: 5
-      strength: 10
-      psiStrength: 25
-      psiSkill: -25
+    storeItem: STR_XOPS_POWER_ARMOR_TAN
+    stats: 
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -6432,6 +6390,7 @@ armors:
       - 0.8
       - 1.5
       - 0.0
+      - 0.90
   - type: STR_XOPS_POWER_ARMOR_GRAY_UC
     customArmorPreviewIndex: 35
     spriteSheet: XOPS_XCOM_53.PCK
@@ -6585,16 +6544,8 @@ armors:
       F71: ["", "", "", "", "", "", "", "", "XOPS_POWER_ARMOR_GRAY_F", "", "F71_HEAD", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT"]
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_GRAY
-    storeItem: STR_XOPS_POWER_ARMOR
+    storeItem: STR_XOPS_POWER_ARMOR_TAN
     stats:
-      tu: 7
-      stamina: 10
-      bravery: 10
-      reactions: 5
-      firing: 5
-      strength: 10
-      psiStrength: 25
-      psiSkill: -25
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -6621,7 +6572,8 @@ armors:
       - 0.5
       - 0.8
       - 1.5
-      - 0.0      
+      - 0.0
+      - 0.90    
   - type: STR_XOPS_POWER_ARMOR_WHITE_UC
     customArmorPreviewIndex: 36
     spriteSheet: XOPS_XCOM_54.PCK
@@ -6775,16 +6727,8 @@ armors:
       F71: ["", "", "", "", "", "", "", "", "XOPS_POWER_ARMOR_WHITE_F", "", "F71_HEAD", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT"]
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_WHITE
-    storeItem: STR_XOPS_POWER_ARMOR
+    storeItem: STR_XOPS_POWER_ARMOR_TAN
     stats:
-      tu: 7
-      stamina: 10
-      bravery: 10
-      reactions: 5
-      firing: 5
-      strength: 10
-      psiStrength: 25
-      psiSkill: -25
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -6812,6 +6756,7 @@ armors:
       - 0.8
       - 1.5
       - 0.0
+      - 0.90
   - type: STR_XOPS_POWER_ARMOR_GREEN_UC
     customArmorPreviewIndex: 37
     spriteSheet: XOPS_XCOM_55.PCK
@@ -6965,16 +6910,8 @@ armors:
       F71: ["", "", "", "", "", "", "", "", "XOPS_POWER_ARMOR_GREEN_F", "", "F71_HEAD", "CAP_ONESUIT_C", "", "F71_HAIR_FRONT"]
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_GREEN
-    storeItem: STR_XOPS_POWER_ARMOR
+    storeItem: STR_XOPS_POWER_ARMOR_TAN
     stats:
-      tu: 7
-      stamina: 10
-      bravery: 10
-      reactions: 5
-      firing: 5
-      strength: 10
-      psiStrength: 25
-      psiSkill: -25
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -7002,6 +6939,8 @@ armors:
       - 0.8
       - 1.5
       - 0.0
+      - 0.90
+#
   - type: STR_PSI_ARMOR_PILOT_UC
     customArmorPreviewIndex: 38
     spriteSheet: XOPS_XCOM_60.PCK
@@ -7159,8 +7098,8 @@ armors:
     spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_PILOT
-    storeItem: STR_PSI_ARMOR
-    stats:
+    storeItem: STR_PSI_ARMOR_TAN
+    stats: &StatsforPSIPilotArmor
       tu: 10
       reactions: 20
       firing: 10
@@ -7192,6 +7131,7 @@ armors:
       - 0.7
       - 2.0
       - 1.4
+      - 1.0
       - 1.0
   - type: STR_PSI_ARMOR_UC
     spriteSheet: XOPS_XCOM_61.PCK
@@ -7350,8 +7290,8 @@ armors:
     spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR
-    storeItem: STR_PSI_ARMOR
-    stats:
+    storeItem: STR_PSI_ARMOR_TAN
+    stats: &StatsforPSIArmor
       tu: 10
       reactions: 20
       firing: 10
@@ -7385,6 +7325,7 @@ armors:
       - 0.7
       - 2.0
       - 1.4
+      - 1.0
       - 1.0
   - type: STR_PSI_ARMOR_BLACK_UC
     customArmorPreviewIndex: 40
@@ -7543,14 +7484,8 @@ armors:
     spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_BLACK
-    storeItem: STR_PSI_ARMOR
+    storeItem: STR_PSI_ARMOR_TAN
     stats:
-      tu: 10
-      reactions: 20
-      firing: 10
-      throwing: 5
-      psiStrength: 25
-      psiSkill: 25
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -7578,6 +7513,7 @@ armors:
       - 0.7
       - 2.0
       - 1.4
+      - 1.0
       - 1.0
   - type: STR_PSI_ARMOR_GRAY_UC
     customArmorPreviewIndex: 41
@@ -7736,14 +7672,8 @@ armors:
     spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_GRAY
-    storeItem: STR_PSI_ARMOR
+    storeItem: STR_PSI_ARMOR_TAN
     stats:
-      tu: 10
-      reactions: 20
-      firing: 10
-      throwing: 5
-      psiStrength: 25
-      psiSkill: 25
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -7771,6 +7701,7 @@ armors:
       - 0.7
       - 2.0
       - 1.4
+      - 1.0
       - 1.0
   - type: STR_PSI_ARMOR_WHITE_UC
     customArmorPreviewIndex: 42
@@ -7929,14 +7860,8 @@ armors:
     spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_WHITE
-    storeItem: STR_PSI_ARMOR
+    storeItem: STR_PSI_ARMOR_TAN
     stats:
-      tu: 10
-      reactions: 20
-      firing: 10
-      throwing: 5
-      psiStrength: 25
-      psiSkill: 25
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -7964,6 +7889,7 @@ armors:
       - 0.7
       - 2.0
       - 1.4
+      - 1.0
       - 1.0
   - type: STR_PSI_ARMOR_GREEN_UC
     customArmorPreviewIndex: 43
@@ -8122,14 +8048,8 @@ armors:
     spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_GREEN
-    storeItem: STR_PSI_ARMOR
+    storeItem: STR_PSI_ARMOR_TAN
     stats:
-      tu: 10
-      reactions: 20
-      firing: 10
-      throwing: 5
-      psiStrength: 25
-      psiSkill: 25
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -8157,6 +8077,7 @@ armors:
       - 0.7
       - 2.0
       - 1.4
+      - 1.0
       - 1.0
 #----- Tanks and Mech Drivers -----#
   - type: STR_MECH_DRIFTSUIT
@@ -8322,7 +8243,7 @@ armors:
     sideArmor: 2
     rearArmor: 2
     underArmor: 2
-    stats:
+    stats: &StatsforMechSuit
       tu: 5
       stamina: 10
       health: 0
@@ -8338,7 +8259,8 @@ armors:
       - 1.2
       - 1.0
       - 1.6
-      - 1.1
+      - 0.8
+      - 1.0
     builtInWeapons:
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
@@ -8544,15 +8466,16 @@ armors:
       flatHundred: -0.15
     damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
       - 1.0 #0 None
-      - 0.3 #1 Armor Piercing
+      - 0.25 #1 Armor Piercing
       - 0.6 #2 Incendiary
-      - 0.5 #3 High Explosive
+      - 0.55 #3 High Explosive
       - 0.7 #4 Laser
-      - 1.0 #5 Plasma
+      - 0.9 #5 Plasma
       - 0.0 #6 Stun
       - 0.2 #7 Melee
       - 0.8 #8 Acid
       - 0.0 #9 Smoke
+      - 0.9 #10 Antimatter
     units:
       - STR_DRIVER
       - STR_MECHA_DRIVER
@@ -8761,15 +8684,16 @@ armors:
       flatHundred: -0.15
     damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
       - 1.0 #0 None
-      - 0.3 #1 Armor Piercing
+      - 0.25 #1 Armor Piercing
       - 0.6 #2 Incendiary
-      - 0.5 #3 High Explosive
+      - 0.55 #3 High Explosive
       - 0.7 #4 Laser
-      - 1.0 #5 Plasma
+      - 0.9 #5 Plasma
       - 0.0 #6 Stun
       - 0.2 #7 Melee
       - 0.8 #8 Acid
       - 0.0 #9 Smoke
+      - 0.9 #10 Antimatter
     units:
       - STR_DRIVER
       - STR_MECHA_DRIVER
@@ -8830,16 +8754,17 @@ armors:
       - STR_DRONE_CORE
     overKill: 1.5
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.3
-      - 1.0
-      - 0.25
-      - 1.0
-      - 0.5
-      - 0.0
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.8 #2 Incendiary
+      - 0.8 #3 High Explosive
+      - 1.2 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.25 #6 Stun
+      - 1.0 #7 Melee
+      - 0.8 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.0 #10 Antimatter
     builtInWeapons:
 #      - STR_TANK_LAUNCHER_SMOKE
       - STR_NULL_BACKPACK
@@ -8887,16 +8812,17 @@ armors:
       - STR_DRONE_CORE
     size: 1
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.4
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 1.0
-      - 1.4
-      - 0.0
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.9 #2 Incendiary
+      - 1.1 #3 High Explosive
+      - 1.2 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.25 #6 Stun
+      - 1.4 #7 Melee
+      - 0.9 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.0 #10 Antimatter
     builtInWeapons:
 #      - STR_HWP_RANGEFINDER
       - STR_NULL_BACKPACK
@@ -8945,16 +8871,17 @@ armors:
       - STR_DRONE_CORE
     size: 1
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.4
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 1.0
-      - 1.4
-      - 0.0
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.9 #2 Incendiary
+      - 1.1 #3 High Explosive
+      - 1.2 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.25 #6 Stun
+      - 1.3 #7 Melee
+      - 0.9 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.0 #10 Antimatter
     builtInWeapons:
       - STR_UCAV_ROCKET_LAUNCHER
       - STR_HWP_RANGEFINDER
@@ -9006,11 +8933,21 @@ armors:
     allowsKneeling: false
     instantWoundRecovery: true
     overKill: 1.5
-#    damageModifier: *AlienDroneResists
+    damageModifier:
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.75 #2 Incendiary
+      - 0.9 #3 High Explosive
+      - 1.1 #4 Laser
+      - 0.9 #5 Plasma
+      - 0.55 #6 Stun
+      - 1.3 #7 Melee
+      - 0.9 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.0 #10 Antimatter
     units:
       - STR_DRONE_CORE
     builtInWeapons:
-#      - STR_ALIEN_DRONE_WEAPON
       - STR_DRONE_LASER_GUN
       - STR_HWP_RANGEFINDER
       - STR_NULL_BACKPACK
@@ -9063,7 +9000,18 @@ armors:
 #    psiDefence: *MachineDynamicPsiDefence
     allowsKneeling: false
     instantWoundRecovery: true
-#    damageModifier: *LargeAlienDroneResists
+    damageModifier:
+      - 1.0 #0 None
+      - 0.7 #1 Armor Piercing
+      - 0.7 #2 Incendiary
+      - 0.8 #3 High Explosive
+      - 1.2 #4 Laser
+      - 0.9 #5 Plasma
+      - 0.60 #6 Stun
+      - 1.2 #7 Melee
+      - 0.8 #8 Acid
+      - 0.0 #9 Smoke
+      - 0.90 #10 Antimatter
     units:
       - STR_DRONE_CORE
     builtInWeapons:
@@ -9079,22 +9027,22 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 ################################################################
 # ojito doggos
-  - type: STR_DOGE_ARMOR
+  - type: STR_K9_HARNESS
     spriteSheet: DOGE.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 57
-    layersDefaultPrefix: DOGGO
+    layersDefaultPrefix: K9
     layersSpecificPrefix:
-      8: DOGGO_HARNESS
+      8: K9_HARNESS
     layersDefinition:
-      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
 ####temporary solution?####
     corpseBattle:
       - STR_DOGE_CORPSE
@@ -9138,42 +9086,40 @@ armors:
     drawingRoutine: 4
     overKill: 1.5
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.5
-      - 1.0
-      - 4.0
-      - 0.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
+      - 1.0 #0 None
+      - 1.3 #1 Armor Piercing
+      - 1.5 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.3 #4 Laser
+      - 1.5 #5 Plasma
+      - 0.90 #6 Stun
+      - 1.2 #7 Melee
+      - 0.9 #8 Acid
+      - 1.0 #9 Smoke
+      - 1.0 #10 Antimatter
     units:
       - STR_DOGE
+      - STR_DOGE_PRESAPIENT
     specialWeapon: STR_DOGE_TRACK
     loftempsSet: [ 2 ]
-  - type: STR_DOGE_COMBAT_VEST_ARMOR
+#
+  - type: STR_K9_COMBAT_VEST
     storeItem: STR_DOGE_COMBAT_VEST
     spriteSheet: DOGE_COMBAT_VEST.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 58
-    layersDefaultPrefix: DOGGO
+    layersDefaultPrefix: K9
     layersSpecificPrefix:
-      8: DOGGO_VEST
+      8: K9_VEST
     layersDefinition:
-      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_VEST_ALT_U", "", "", ""]
-      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
-      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
-      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
-      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_VEST_ALT_U", "", "", ""]
-      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
-      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
-      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_VEST_U", "", "", ""]
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "K9_VEST_ALT_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_VEST_ALT_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_COMBAT_VEST_CORPSE
     visibilityAtDay: 40
@@ -9216,21 +9162,17 @@ armors:
     drawingRoutine: 4
     overKill: 1.5
     damageModifier:
-      - 1.0
-      - 0.8
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 4.0
-      - 0.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
+      - 1.0 #0 None
+      - 1.2 #1 Armor Piercing
+      - 1.5 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.3 #4 Laser
+      - 1.5 #5 Plasma
+      - 0.85 #6 Stun
+      - 1.2 #7 Melee
+      - 0.9 #8 Acid
+      - 1.0 #9 Smoke
+      - 1.0 #10 Antimatter
     units:
       - STR_DOGE
     specialWeapon: STR_DOGE_TRACK
@@ -9241,18 +9183,18 @@ armors:
     spriteSheet: DOGE_DURATHREAD_VEST.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 59
-    layersDefaultPrefix: DOGGO
+    layersDefaultPrefix: K9
     layersSpecificPrefix:
-      8: DOGGO_HARNESS
+      8: K9_HARNESS
     layersDefinition:
-      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_DURATHREAD_VEST_CORPSE
     visibilityAtDay: 40
@@ -9294,42 +9236,40 @@ armors:
     drawingRoutine: 4
     overKill: 1.5
     damageModifier:
-      - 1.0
-      - 0.7
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.7
-      - 1.0
-      - 4.0
-      - 0.0
-      - 0.7
-      - 1.0
-      - 1.0
-      - 0.0
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.0 #2 Incendiary
+      - 0.90 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.75 #6 Stun
+      - 1.0 #7 Melee
+      - 1.0 #8 Acid
+      - 1.0 #9 Smoke
+      - 1.0 #10 Antimatter
     units:
       - STR_DOGE
+      - STR_DOGE_PRESAPIENT
     specialWeapon: STR_DOGE_TRACK
     loftempsSet: [ 2 ]
+#
   - type: STR_DOGE_ALLOY_VEST_ARMOR
     storeItem: STR_DOGE_AA_VEST
     spriteSheet: DOGE_ALLOY_VEST.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 60
-    layersDefaultPrefix: DOGGO
+    layersDefaultPrefix: K9
     layersSpecificPrefix:
-      8: DOGGO_HARNESS
+      8: K9_HARNESS
     layersDefinition:
-      M0: ["", "", "M0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M1: ["", "", "M1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M2: ["", "", "M2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      M3: ["", "", "M3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F0: ["", "", "F0_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F1: ["", "", "F1_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F2: ["", "", "F2_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
-      F3: ["", "", "F3_BREED", "", "", "", "", "", "DOGGO_HARNESS_U", "", "", ""]
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_ALLOY_VEST_CORPSE
     visibilityAtDay: 40
@@ -9388,280 +9328,11 @@ armors:
       - 0.0
     units:
       - STR_DOGE
+      - STR_DOGE_PRESAPIENT
+      - STR_DOGE_SAPIENS_SAPIENS
     specialWeapon: STR_DOGE_TRACK
     loftempsSet: [ 2 ]
-#------ #ojito Armors for ufopaedia display, check if this could be deleted later.
-  - type: STR_PILOT_UFOPEDIA_DISPLAY
-    spriteSheet: XCOM_0.PCK
-    spriteInv: PILOTUFOPEDIA
-    weight: 2
-    loftempsSet: [ 3 ]
-    frontArmor: 6
-    sideArmor: 2
-    rearArmor: 2
-    underArmor: 2
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT #OJITO BUSCAR ESTE UNIFORME Q ESTA REPETIDO PA LOS CADAVERES DISPLAY UFOPAEDIA
-    stats:
-      tu: 5
-      stamina: 10
-      health: 0
-      bravery: 3
-      reactions: 15
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.3
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.0
-      - 1.6
-      - 1.1
-  - type: STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_1.PCK
-    spriteInv: KEVLARUFOPEDIA
-    weight: 2
-    loftempsSet: [ 3 ]
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 1.0
-  - type: STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_8.PCK
-    spriteInv: HECUFOPEDIA
-    weight: 5
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      firing: -4
-    loftempsSet: [ 3 ]
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier:
-      - 1.0
-      - 0.8
-      - 0.5
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.5
-      - 1.0
-      - 0.2
-      - 0.0
-  - type: STR_XOPS_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_11.PCK
-    spriteInv: XOPSUFOPEDIA
-    weight: 5
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      firing: 4
-    loftempsSet: [ 3 ]
-    frontArmor: 25
-    sideArmor: 20
-    rearArmor: 20
-    underArmor: 10
-    damageModifier:
-      - 1.0
-      - 0.7
-      - 0.9
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.2
-      - 1.0
-  - type: STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_21.PCK
-    spriteInv: PERSONALUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_ARMOR
-    stats:
-      reactions: 5
-      firing: 4
-      melee: 6
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
-    damageModifier:
-      - 1.0
-      - 0.75
-      - 0.5
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.4
-      - 1.5
-      - 1.0
-      - 1.0
-    loftempsSet: [ 3 ]
-  - type: STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_31.PCK
-    spriteInv: ALLOYARMORUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    loftempsSet: [ 3 ]
-    frontArmor: 75
-    sideArmor: 65
-    rearArmor: 55
-    underArmor: 55
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.5
-  - type: STR_SKY_STRIKE_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_41.PCK
-    spriteInv: SKY_STRIKEUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      tu: 15
-    loftempsSet: [ 3 ]
-    frontArmor: 38
-    sideArmor: 26
-    rearArmor: 28
-    underArmor: 35
-    movementType: 1
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.0
-  # - type: STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY
-  #   spriteSheet: XCOM_61.PCK
-  #   spriteInv: POWERSUITUFOPEDIA
-  #   corpseBattle:
-  #     - STR_CORPSE_FLIGHT_JUMPSUIT
-  #   frontArmor: 100
-  #   sideArmor: 80
-  #   rearArmor: 70
-  #   underArmor: 60
-  #   damageModifier:
-  #     - 1.0
-  #     - 1.0
-  #     - 0.0
-  #     - 1.0
-  #     - 1.0
-  #     - 1.0
-  #     - 0.8
-  #     - 1.0
-  #     - 1.0
-  #     - 0.0
-  #   loftempsSet: [ 3 ]
-  # - type: STR_FLYING_SUIT_ARMOR_UFOPEDIA_DISPLAY
-  #   spriteSheet: XCOM_51.PCK
-  #   spriteInv: FLYINGSUITUFOPEDIA
-  #   corpseBattle:
-  #     - STR_CORPSE_FLIGHT_JUMPSUIT
-  #   frontArmor: 110
-  #   sideArmor: 90
-  #   rearArmor: 80
-  #   underArmor: 70
-  #   movementType: 1
-  #   damageModifier:
-  #     - 1.0
-  #     - 1.0
-  #     - 0.0
-  #     - 1.0
-  #     - 1.0
-  #     - 1.0
-  #     - 0.8
-  #     - 1.0
-  #     - 1.0
-  #     - 0.0
-  #   loftempsSet: [ 3 ]
-  - type: STR_PSI_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_61.PCK
-    spriteInv: PISONICUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      tu: 10
-      reactions: 20
-      firing: 10
-      throwing: 5
-      psiStrength: 25
-      psiSkill: 25
-    loftempsSet: [ 3 ]
-    frontArmor: 70
-    sideArmor: 60
-    rearArmor: 50
-    underArmor: 50
-    movementType: 0
-    damageModifier:
-      - 1.0
-      - 1.5
-      - 0.5
-      - 1.4
-      - 0.6
-      - 0.6
-      - 0.7
-      - 2.0
-      - 1.4
-      - 1.0
-  - type: STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_51.PCK
-    spriteInv: POWERARMORUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      tu: 7
-      stamina: 10
-      bravery: 10
-      reactions: 5
-      firing: 5
-      strength: 10
-      psiStrength: 25
-      psiSkill: -25
-    loftempsSet: [ 3 ]
-    frontArmor: 120
-    sideArmor: 90
-    rearArmor: 100
-    underArmor: 80
-    movementType: 1
-    damageModifier:
-      - 1.0
-      - 0.3
-      - 0.0
-      - 0.8
-      - 0.8
-      - 1.0
-      - 0.5
-      - 0.8
-      - 1.5
-      - 0.0
+#
 #---Alien Armors ---------------------------
   - type: CELATID_ARMOR
     spriteInv: Inventory_CELATID
@@ -10097,3 +9768,209 @@ armors:
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
 
+
+#------ #ojito Armors for ufopaedia display, check if this could be deleted later.
+  - type: STR_PILOT_UFOPEDIA_DISPLAY
+    spriteSheet: XCOM_0.PCK
+    spriteInv: PILOTUFOPEDIA
+    weight: 2
+    loftempsSet: [ 3 ]
+    frontArmor: 6
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT #OJITO BUSCAR ESTE UNIFORME Q ESTA REPETIDO PA LOS CADAVERES DISPLAY UFOPAEDIA
+    stats: *StatsforJumpsuit
+    damageModifier: *damageModifierJumpsuit
+#
+  - type: STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_1.PCK
+    spriteInv: KEVLARUFOPEDIA
+    weight: 2
+    loftempsSet: [ 3 ]
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    damageModifier: *modifiersForKevlarVest
+  - type: STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_8.PCK
+    spriteInv: HECUFOPEDIA
+    weight: 5
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    stats:
+      firing: -4
+    loftempsSet: [ 3 ]
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.5
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.5
+      - 1.0
+      - 0.2
+      - 0.0
+  - type: STR_XOPS_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_11.PCK
+    spriteInv: XOPSUFOPEDIA
+    weight: 5
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    stats:
+      firing: 4
+    loftempsSet: [ 3 ]
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.9
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.2
+      - 1.0
+  - type: STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_21.PCK
+    spriteInv: PERSONALUFOPEDIA
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    stats:
+      reactions: 5
+      firing: 4
+      melee: 6
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 0.75
+      - 0.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.4
+      - 1.5
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_31.PCK
+    spriteInv: ALLOYARMORUFOPEDIA
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    loftempsSet: [ 3 ]
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 55
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 0.5
+  - type: STR_SKY_STRIKE_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_41.PCK
+    spriteInv: SKY_STRIKEUFOPEDIA
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    stats:
+      tu: 15
+    loftempsSet: [ 3 ]
+    frontArmor: 38
+    sideArmor: 26
+    rearArmor: 28
+    underArmor: 35
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 0.0
+  - type: STR_PSI_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_61.PCK
+    spriteInv: PISONICUFOPEDIA
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    stats:
+      tu: 10
+      reactions: 20
+      firing: 10
+      throwing: 5
+      psiStrength: 25
+      psiSkill: 25
+    loftempsSet: [ 3 ]
+    frontArmor: 70
+    sideArmor: 60
+    rearArmor: 50
+    underArmor: 50
+    movementType: 0
+    damageModifier:
+      - 1.0
+      - 1.5
+      - 0.5
+      - 1.4
+      - 0.6
+      - 0.6
+      - 0.7
+      - 2.0
+      - 1.4
+      - 1.0
+  - type: STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY
+    spriteSheet: XOPS_XCOM_51.PCK
+    spriteInv: POWERARMORUFOPEDIA
+    corpseBattle:
+      - STR_CORPSE_FLIGHT_JUMPSUIT
+    stats:
+      tu: 7
+      stamina: 10
+      bravery: 10
+      reactions: 5
+      firing: 5
+      strength: 10
+      psiStrength: 25
+      psiSkill: -25
+    loftempsSet: [ 3 ]
+    frontArmor: 120
+    sideArmor: 90
+    rearArmor: 100
+    underArmor: 80
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.3
+      - 0.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.5
+      - 0.8
+      - 1.5
+      - 0.0

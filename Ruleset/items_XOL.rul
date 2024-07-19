@@ -8046,7 +8046,7 @@ items:
     size: 1
     costSell: 180000
     listOrder: 2050
-  - type: STR_XOPS_POWER_ARMOR
+  - type: STR_XOPS_POWER_ARMOR_TAN
     size: 1
     costSell: 180000
     listOrder: 2051
@@ -8132,7 +8132,7 @@ items:
     size: 0.5
     costSell: 90000
     listOrder: 2060
-  - type: STR_PSI_ARMOR
+  - type: STR_PSI_ARMOR_TAN
     size: 0.5
     costSell: 90000
     listOrder: 2061

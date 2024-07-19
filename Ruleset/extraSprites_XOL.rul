@@ -3743,21 +3743,21 @@ extraSprites:
       0: Resources/UnitSprites/AlienFaction/InvAlien/AlienProfiles/Carcharodon.gif
 #----- Paperdolls sprite layers -----#
 #----- Dogs breeds -----#
-  - typeSingle: DOGGO__2__M0_BREED
+  - typeSingle: K9__2__M0_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M0.png
-  - typeSingle: DOGGO__2__M1_BREED
+  - typeSingle: K9__2__M1_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M1.png
-  - typeSingle: DOGGO__2__M2_BREED
+  - typeSingle: K9__2__M2_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M2.png
-  - typeSingle: DOGGO__2__M3_BREED
+  - typeSingle: K9__2__M3_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M3.png
-  - typeSingle: DOGGO__2__F0_BREED
+  - typeSingle: K9__2__F0_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M0.png
-  - typeSingle: DOGGO__2__F1_BREED
+  - typeSingle: K9__2__F1_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M1.png
-  - typeSingle: DOGGO__2__F2_BREED
+  - typeSingle: K9__2__F2_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M2.png
-  - typeSingle: DOGGO__2__F3_BREED
+  - typeSingle: K9__2__F3_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M3.png
 #----- Human body -----#
   - typeSingle: HUMAN__2__M0_NUDE
@@ -4821,12 +4821,12 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_65mNv.gif
   - typeSingle: NERVE_ARMOR_GREEN__8__NERVE_ARMOR_GREEN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_65mNv.gif
-  - typeSingle: DOGGO_HARNESS__8__DOGGO_HARNESS_U
-    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeArmors/doggo_harness.png
-  - typeSingle: DOGGO_VEST__8__DOGGO_VEST_U
-    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeArmors/doggo_combat_vest.png
-  - typeSingle: DOGGO_VEST__8__DOGGO_VEST_ALT_U
-    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeArmors/doggo_combat_vest_alt.png
+  - typeSingle: K9_HARNESS__8__K9_HARNESS_U
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeArmors/K9_HARNESS.png
+  - typeSingle: K9_VEST__8__K9_VEST_U
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeArmors/K9_combat_vest.png
+  - typeSingle: K9_VEST__8__K9_VEST_ALT_U
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeArmors/K9_combat_vest_alt.png
 ### paperdolls mask de avanzados seran n° 11
   - typeSingle: HUMAN__11__CAP_ONESUIT_BR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_30AAPA_bigger_right.gif

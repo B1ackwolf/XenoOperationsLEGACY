@@ -2925,10 +2925,10 @@ manufacture:
     listOrder: 2004
 #--- Sky Strike Armor ----------------------------------END
 #--- PSI Armor ----------------------------------
-  - name: STR_PSI_ARMOR
+  - name: STR_PSI_ARMOR_TAN
     category: STR_MED_ARMOR
     requires:
-      - STR_PSI_ARMOR
+      - STR_PSI_ARMOR_TAN
     space: 7
     time: 480
     cost: 55000
@@ -2939,10 +2939,10 @@ manufacture:
     listOrder: 2005
 #--- PSI Armor ----------------------------------END
 #--- Power Armor ----------------------------------
-  - name: STR_XOPS_POWER_ARMOR
+  - name: STR_XOPS_POWER_ARMOR_TAN
     category: STR_HEAVY_ARMOR
     requires:
-      - STR_XOPS_POWER_ARMOR
+      - STR_XOPS_POWER_ARMOR_TAN
     space: 10
     time: 960
     cost: 120000

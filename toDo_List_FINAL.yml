@@ -42,7 +42,10 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
- - revisar los troops deployments de todas las naves (a partir del hercules)
+ - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens y en las display para simplificar el proceso de modificacion de stats a futuro)
+ - con esto podre crear el duplicado necesario para las versiones de armaduras de piloto correspondientes
+ - revisar los damage modifiers de los Aliens
+   * agregarle resistencias a energia y daño segun el caso (ejemplo sovereigns y antimateria)
  - revisar los precios de TODOS LOS ARTICULOS
  - OJITO SIGUIENTE PARCHE, CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
@@ -229,6 +232,8 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
        ~ esto se resolvio con brutal IA, igual seguir investigando
 #
 IMPORTANTE PARA LORE:
+ - explicar que los aliens no usan FTL, sino mas bien cosas parecidas a un alcubierre drive
+ - el viaje a marte tardaria aproximadamente 10 dias?
  - Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
    * Consists of high-entropy alloys of known and other alien elements.
    * The real problem is not knowing the elements but the proportion for the correct mix to obtain desired properties.

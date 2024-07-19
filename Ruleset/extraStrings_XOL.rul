@@ -827,9 +827,9 @@ extraStrings:
       STR_DOGE_BITE_UFOPEDIA: "Chomp!"
       STR_DOGE_COMBAT_VEST_CORPSE: "Dead Dog"
       STR_DOGE_COMBAT_VEST: "Dog Combat Gear"
-      STR_DOGE_COMBAT_VEST_ARMOR_UNDERWATER: "Dog Combat Gear"
-      STR_DOGE_COMBAT_VEST_ARMOR: "Dog Combat Gear"
-      STR_DOGE_COMBAT_VEST_ARMOR_UFOPEDIA: "This armor gives the dog some basic protection on the modern battlefield, but may tire it out quickly."
+      STR_K9_COMBAT_VESTTER: "Dog Combat Gear"
+      STR_K9_COMBAT_VEST: "Dog Combat Gear"
+      STR_K9_COMBAT_VEST_UFOPEDIA: "This armor gives the dog some basic protection on the modern battlefield, but may tire it out quickly."
       STR_DOGE_DURATHREAD_VEST_ARMOR: "DURATHREAD VEST"
       STR_DOGE_DURATHREAD_VEST_ARMOR_UNDERWATER: "DOG DURATHREAD VEST"
       STR_DOGE_DURATHREAD_VEST_ARMOR_UFOPEDIA: "The Durathread Vest is much less constricting than combat armor and also offers better protection. It increases the dog's carrying capacity by 4."
@@ -847,8 +847,8 @@ extraStrings:
       STR_DOGE_AA_VEST: "Dog Tritanium Gear"
       STR_DOGE_AA_VEST_ARMOR: "TRITANIUM GEAR"
       STR_DOGE: "Dog"
-      STR_DOGE_ARMOR: "Dog Harness"
-      STR_DOGE_ARMOR_UFOPEDIA: "Unarmored dogs have better effective stamina than those wearing armor."
+      STR_K9_HARNESS: "Dog Harness"
+      STR_K9_HARNESS_UFOPEDIA: "Unarmored dogs have better effective stamina than those wearing armor."
 #ojito      STR_DOGE: "Attack Dog"
       STR_DOGE_CORPSE: "Dead Dog"
       STR_DOGE_JAWS: "Bite"
@@ -1133,10 +1133,12 @@ extraStrings:
       STR_DRONE_QUADCOPTER_CHASSIS_UC: UAV SHURIKEN
       STR_DRONE_UCAV_CHASSIS_UC: UCAV LONGBOW
       STR_DRONE_UCAV_CHASSIS: UCAV LONGBOW
-      STR_DRONE_ADVANCED_SMALL_CHASSIS: UXAV CHU KO NU
-      STR_DRONE_ADVANCED_SMALL_CHASSIS_UC: UXAV CHU KO NU
-      STR_DRONE_ADVANCED_MEDIUM_CHASSIS: UXAMV ARBALEST
-      STR_DRONE_ADVANCED_MEDIUM_CHASSIS_UC: UXAMV ARBALEST
+      STR_DRONE_ADVANCED_SMALL_CHASSIS: UXV CHU KO NU
+      STR_DRONE_ADVANCED_SMALL_CHASSIS_UC: UXV CHU KO NU
+      STR_DRONE_ADVANCED_MEDIUM_CHASSIS: UXAV CROSSBOW
+      STR_DRONE_ADVANCED_MEDIUM_CHASSIS_UC: UXAV CROSSBOW
+      STR_DRONE_ADVANCED_LARGE_CHASSIS: UXLAV ARBALEST
+      STR_DRONE_ADVANCED_LARGE_CHASSIS_UC: UXLAV ARBALEST
       STR_DRONE_LASER_GUN: Drone laser gun #ojito resolver
       STR_DRONE_LASER_CANNON: Drone laser cannon #ojito resolver
       STR_XCOM_FLYING_DRONE_CORPSE: drone advanced wreckage #ojito resolver
@@ -1620,9 +1622,9 @@ extraStrings:
       STR_RL_RIFLE_CLIP2: Depleted Nails Clip
       STR_RL_RIFLE_CLIP3: Enriched Nails Clip
       STR_RL_LMG: Rail Repeater
-      STR_RL_LMG_CLIP1: Slugs Box
-      STR_RL_LMG_CLIP2: Depleted Slugs Box
-      STR_RL_LMG_CLIP3: Depleted Slugs Box
+      STR_RL_LMG_CLIP1: Thorns Box
+      STR_RL_LMG_CLIP2: Depleted Thorns Box
+      STR_RL_LMG_CLIP3: Depleted Thorns Box
       STR_RL_SNIPER: Rail Precision Rifle
       STR_RL_SNIPER_CLIP1: Darts Clip
       STR_RL_SNIPER_CLIP2: Depleted Darts Clip
@@ -1768,7 +1770,7 @@ extraStrings:
       STR_KEVLAR_VEST_ARMOR_BERET_GREEN_UC: BLACK KEVLAR WITH BERET
       STR_VEST_HEC_ARMOR: H.E.C. Suit
       STR_VEST_HEC_ARMOR_UC: H.E.C SUIT
-      STR_PSI_ARMOR: Nerve Suit
+      STR_PSI_ARMOR_TAN: Nerve Suit
       STR_PSI_ARMOR_UC: NERVE SUIT
       STR_PSI_ARMOR_PILOT: Nerve Suit Pilot
       STR_PSI_ARMOR_PILOT_UC: NERVE SUIT PILOT
@@ -1780,7 +1782,7 @@ extraStrings:
       STR_PSI_ARMOR_WHITE_UC: NERVE SUIT WHITE
       STR_PSI_ARMOR_BLACK: Nerve Suit Black
       STR_PSI_ARMOR_BLACK_UC: NERVE SUIT BLACK
-      STR_XOPS_POWER_ARMOR: Power Armor
+      STR_XOPS_POWER_ARMOR_TAN: Power Armor
       STR_XOPS_POWER_ARMOR_UC: POWER ARMOR
       STR_XOPS_POWER_ARMOR_PILOT: Power Armor Pilot
       STR_XOPS_POWER_ARMOR_PILOT_UC: POWER Armor Pilot

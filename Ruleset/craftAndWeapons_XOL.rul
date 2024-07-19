@@ -1,5 +1,5 @@
 # Made by B1ackwolf for XOPS-Legacy
-# Status: improve "#" notations #OJITO ajustar todos los fuelmax
+# Status: #OJITO ajustar todos los fuelmax
 # notes about soldiers facing 
 #
 # 6  7  0  #    W  NW  N
@@ -7,13 +7,13 @@
 # 4  3  2  #    S  SW  E
 #
 crafts:
-#---Deletions------------------------
+#----- Deletions -----#
   - delete: STR_SKYRANGER
   - delete: STR_LIGHTNING
   - delete: STR_FIRESTORM
   - delete: STR_AVENGER
-#---End Deletions--------------------
-#---Transport Crafts-----------------
+#----- End Deletions -----#
+#----- Transport Crafts -----#
   - type: STR_DRAGONFLY
     sprite: 1000
     maxSkinIndex: 2            # default 0
@@ -28,7 +28,7 @@ crafts:
     maxSmallUnits: 12
     maxLargeUnits: 0
     pilots: 1
-    maxItems: 250
+    maxItems: 350
     costBuy: 600000
     costSell: 250000
     costRent: 60000
@@ -50,18 +50,19 @@ crafts:
           length: 20
     craftInventoryTile: [10, 10, 0] #X, Y, Level
     deployment:
-      - [9, 11, 0, 6] #First Left Door    # W
-      - [9, 10, 0, 6] #Second Left Door   # W
-      - [11, 11, 0, 2] #First Right Door  # E
-      - [11, 10, 0, 2] #Second Right Door # E
-      - [10, 11, 0, 4] #First Middle      # S
-      - [10, 10, 0, 4] #Second Middle     # S
-      - [9, 12, 0, 0] #left of pilot      # N  
-      - [11, 12, 0, 0] #right of pilot    # N
-      - [9, 9, 0, 4] #back left           # S  
-      - [10, 9, 0, 4] #back middle        # S
-      - [11, 9, 0, 4] #back Right         # S  
-      - [10, 12, 0, 0] #pilot             # N
+      - [9, 11, 0, 6]  #First Left Door     # W
+      - [9, 10, 0, 6]  #Second Left Door    # W
+      - [11, 11, 0, 2] #First Right Door    # E
+      - [11, 10, 0, 2] #Second Right Door   # E
+      - [10, 11, 0, 4] #First Middle        # S
+      - [10, 10, 0, 4] #Second Middle       # S
+      - [9, 12, 0, 0]  #left of pilot       # N  
+      - [11, 12, 0, 0] #right of pilot      # N
+      - [9, 9, 0, 4]   #back left           # S  
+      - [10, 9, 0, 4]  #back middle         # S
+      - [11, 9, 0, 4]  #back Right          # S  
+      - [10, 12, 0, 0] #pilot               # N
+#
   - type: STR_FIREFLY
     sprite: 150
     fuelMax: 1900
@@ -74,7 +75,7 @@ crafts:
     maxSmallUnits: 14
     maxLargeUnits: 1
     pilots: 1
-    maxItems: 350
+    maxItems: 450
     costSell: 450000
     costRent: 130000
     refuelRate: 50
@@ -96,23 +97,24 @@ crafts:
           length: 20
     craftInventoryTile: [4, 9, 1]
     deployment:
-      - [3, 6, 1, 0] #First in front of ramp  # N
-      - [5, 7, 1, 0] #Second facing back ramp # N
-      - [3, 8, 1, 0] #Second row back ramp    # N
-      - [5, 8, 1, 0] #Second row back ramp    # N
-      - [3, 9, 1, 0] #third row back ramps    # N
-      - [5, 9, 1, 0] #third back ramp         # N
-      - [3, 10, 1, 0] #fourth row back ramp   # N
-      - [5, 10, 1, 0] #fourth row back ramp   # N
-      - [3, 11, 1, 0] #fith row back ramp     # N
-      - [5, 11, 1, 0] #fith row back ramp     # N
-      - [3, 12, 1, 0] #sixth row back ramp    # N
-      - [5, 12, 1, 0] #Sixt row back Door     # N
-      - [5, 13, 1, 0] #Last row right door    # N
-      - [4, 13, 1, 0] #pilot                  # N
+      - [3, 6, 1, 0]  #First in front of ramp   # N
+      - [5, 7, 1, 0]  #Second facing back ramp  # N
+      - [3, 8, 1, 0]  #Second row back ramp     # N
+      - [5, 8, 1, 0]  #Second row back ramp     # N
+      - [3, 9, 1, 0]  #third row back ramps     # N
+      - [5, 9, 1, 0]  #third back ramp          # N
+      - [3, 10, 1, 0] #fourth row back ramp     # N
+      - [5, 10, 1, 0] #fourth row back ramp     # N
+      - [3, 11, 1, 0] #fith row back ramp       # N
+      - [5, 11, 1, 0] #fith row back ramp       # N
+      - [3, 12, 1, 0] #sixth row back ramp      # N
+      - [5, 12, 1, 0] #Sixt row back Door       # N
+      - [5, 13, 1, 0] #Last row right door      # N
+      - [4, 13, 1, 0] #pilot                    # N
+#
   - type: STR_SCARAB
     sprite: 200
-    fuelMax: 1900
+    fuelMax: 2400
     damageMax: 250
     speedMax: 430 # mach 0.65 subsonic
     accel: 2
@@ -122,7 +124,7 @@ crafts:
     maxSmallUnits: 25
     maxLargeUnits: 0
     pilots: 2
-    maxItems: 450
+    maxItems: 650
     costSell: 450000
     costRent: 130000
     refuelRate: 50
@@ -158,36 +160,39 @@ crafts:
       - [5, 10, 0, 4] #First row in floor middle
       - [6, 10, 0, 6] #First row in floor right
 #
-      - [2, 9, 0, 2] #Second row in floor left
-      - [6, 9, 0, 6] #Second row in floor right
-      - [2, 8, 0, 2] #Third row in floor left
-      - [6, 8, 0, 6] #Third row in floor left
+      - [2, 9, 0, 2]  #Second row in floor left
+      - [6, 9, 0, 6]  #Second row in floor right
+      - [2, 8, 0, 2]  #Third row in floor left
+      - [6, 8, 0, 6]  #Third row in floor left
 #
-      - [2, 7, 0, 4] #Last row in floor left
-      - [3, 7, 0, 4] #Last row in floor middle
-      - [4, 7, 0, 4] #Last row in floor center
-      - [5, 7, 0, 4] #Last row in floor middle
-      - [6, 7, 0, 4] #Last row in floor right
+      - [2, 7, 0, 4]  #Last row in floor left
+      - [3, 7, 0, 4]  #Last row in floor middle
+      - [4, 7, 0, 4]  #Last row in floor center
+      - [5, 7, 0, 4]  #Last row in floor middle
+      - [6, 7, 0, 4]  #Last row in floor right
 #
-      - [3, 7, 1, 4] #Last row top level middle
-      - [4, 7, 1, 4] #Last row top level center
-      - [5, 7, 1, 4] #Last row top level middle
+      - [3, 7, 1, 4]  #Last row top level middle
+      - [4, 7, 1, 4]  #Last row top level center
+      - [5, 7, 1, 4]  #Last row top level middle
 #
       - [4, 9, 0, 4] #Officer Seat in floor
       - [5, 12, 1, 2] #First Pilot top level
       - [6, 12, 1, 7] #Second Pilot top level
+#
   - type: STR_GOLIATHUS
     sprite: 250
-    fuelMax: 1800
+    fuelMax: 10 #2500
+    refuelItem: STR_XCF_FUEL
     damageMax: 400
     speedMax: 1455 # mach 2,2 Supersonic
     accel: 6
+    weapons: 1
     soldiers: 22
     vehicles: 14
     maxSmallUnits: 22
     maxLargeUnits: 2
     pilots: 2
-    maxItems: 500
+    maxItems: 700
     allowLanding: true
     costBuy: 0
     costSell: 562500
@@ -210,15 +215,15 @@ crafts:
     craftInventoryTile: [6, 4, 1] #X, Y, Level
     deployment:
       - [7, 5, 1, 4]  #Ramp scout left
-      - [12, 5, 1, 4]  #Ramp scout right
+      - [12, 5, 1, 4] #Ramp scout right
 #
       - [5, 4, 1, 2]  #Left wing row back
       - [5, 5, 1, 2]  #Left wing row middle
       - [5, 6, 1, 2]  #Left wing row closer
 #
-      - [15, 4, 1, 6]  #Right wing row back
-      - [15, 5, 1, 6]  #Right wing row middle
-      - [15, 6, 1, 6]  #Right wing row closer
+      - [15, 4, 1, 6] #Right wing row back
+      - [15, 5, 1, 6] #Right wing row middle
+      - [15, 6, 1, 6] #Right wing row closer
 #
       - [6, 3, 1, 4]  #Back row left
       - [7, 3, 1, 4]  #Back row far middle
@@ -237,18 +242,21 @@ crafts:
 #
       - [9, 2, 1, 0]  #Pilot left seat
       - [11, 2, 1, 0] #Pilot right seat
+#
   - type: STR_HERCULES
     sprite: 300
-    fuelMax: 1500
+    fuelMax: 12
+    refuelItem: STR_XCF_FUEL
     damageMax: 475
     speedMax: 2315 # 3.5 mach Supersonic
     accel: 5
+    weapons: 1
     soldiers: 18
     vehicles: 12
     maxSmallUnits: 18
     maxLargeUnits: 1
     pilots: 1
-    maxItems: 400
+    maxItems: 500
     allowLanding: true
     costBuy: 0
     costSell: 562500
@@ -270,41 +278,50 @@ crafts:
           length: 20
     craftInventoryTile: [5, 6, 1] #X, Y, Level
     deployment:
-      - [4, 15, 1, 4] #scout and heavy tank
-      - [5, 15, 1, 4]
-      - [4, 14, 1, 4]
-      - [5, 14, 1, 4]
-      - [4, 13, 1, 4]
-      - [5, 13, 1, 4]
-      - [4, 12, 1, 4]
-      - [5, 12, 1, 4]
-      - [4, 5, 1, 6]
-      - [5, 5, 1, 2]
-      - [4, 7, 1, 6]
-      - [5, 7, 1, 2]
-      - [4, 6, 1, 4]
-      - [5, 6, 1, 4]
-      - [4, 8, 1, 4]
-      - [5, 8, 1, 4]
-      - [4, 11, 1, 4]
-      - [5, 11, 1, 4] # 
+      - [4, 15, 1, 4] #Ramp row first left
+      #- [5, 15, 1, 4] #Ramp row first right
+      #- [4, 14, 1, 4] #Ramp row Second left
+      #- [5, 14, 1, 4] #Ramp row Second right
+#      
+      #- [4, 13, 1, 4] #Cargo bay first row left 
+      - [5, 13, 1, 4] #Cargo bay first row right 
+      - [4, 12, 1, 4] #Cargo bay second row left 
+      - [5, 12, 1, 4] #Cargo bay second row right
+      - [4, 11, 1, 4] #Cargo bay third row left 
+      - [5, 11, 1, 4] #Cargo bay third row right
+      - [4, 10, 1, 4] #Cargo bay fourth row left  
+      - [5, 10, 1, 4] #Cargo bay fourth row right
+      - [4, 9, 1, 4]  #Cargo bay Last row right 
+      - [5, 9, 1, 4]  #Cargo bay Last row left 
+#
+      - [3, 8, 1, 2]  #Mid section seat near left
+      - [6, 8, 1, 6]  #Mid section seat near right
+      - [3, 7, 1, 2]  #Mid section seat far left
+      - [6, 7, 1, 6]  #Mid section seat far right
+#
+      - [4, 5, 1, 2]  #Back seats in cabin near
+      - [4, 4, 1, 2]  #Back seats in cabin far
+      - [4, 6, 1, 4]  #Officer back seat
+#
+      - [5, 3, 1, 0] # Pilot seat in front
+#
   - type: STR_OVERLORD
     requires:
       - STR_OVERLORD
     sprite: 350
-    fuelMax: 100 #25000
+    fuelMax: 2500 #625000 (in order to reach mars)
+    refuelItem: STR_XCF_FUEL
     damageMax: 1400
     speedMax: 6620 # mach 10 High-hypersonic 
     accel: 20
-    weapons: 2
+    weapons: 4
     soldiers: 30
     vehicles: 20
     maxSmallUnits: 30
     maxLargeUnits: 3
     pilots: 4
-    maxItems: 600 #ojito modificar estos y todos los valores iguales y reducirlos
+    maxItems: 800
     allowLanding: true
-    refuelItem: STR_ELERIUM_115
     costRent: 430000
     refuelRate: 50
     score: 10000
@@ -322,12 +339,44 @@ crafts:
           width: 10
           length: 20
     craftInventoryTile: [4, 11, 1] #X, Y, Level
-#    deployment:
-#      - [4, 15, 1, 4] #scout and heavy tank
-
-
-#--- End Transport Crafts---------------
-#--- Combat Crafts-------
+    deployment:
+      - [4, 3, 1, 0] #Ramp row first left
+      - [5, 3, 1, 0] #Ramp row first right
+      - [4, 4, 1, 0] #Ramp row first left
+      - [5, 4, 1, 0] #Ramp row first right
+#
+      - [4, 7, 1, 0] #Cargo bay mag far floor left
+      - [5, 7, 1, 0] #Cargo bay mag far floor right
+      - [4, 8, 1, 0] #Cargo bay mag far floor left
+      - [5, 8, 1, 0] #Cargo bay mag far floor right
+#
+      - [4, 9, 1, 0] #Cargo bay mag floor left
+      - [5, 9, 1, 0] #Cargo bay mag floor right
+      - [4, 10, 1, 0] #Cargo bay mag floor left
+      - [5, 10, 1, 0] #Cargo bay mag floor right
+#
+      - [3, 5, 1, 2] #Cargo bay seats first row left
+      - [6, 5, 1, 6] #Cargo bay seats first row right
+      - [3, 6, 1, 2] #Cargo bay seats second row left
+      - [6, 6, 1, 6] #Cargo bay seats second row right
+      - [3, 7, 1, 2] #Cargo bay seats third row left
+      - [6, 7, 1, 6] #Cargo bay seats third row right
+      - [3, 8, 1, 2] #Cargo bay seats fourth row left
+      - [6, 8, 1, 6] #Cargo bay seats fourth row right
+      - [3, 9, 1, 2] #Cargo bay seats fifth row left
+      - [6, 9, 1, 6] #Cargo bay seats fifth row right
+      - [3, 10, 1, 2] #Cargo bay seats last row left
+      - [6, 10, 1, 6] #Cargo bay seats last row right
+#      
+      - [4, 12, 1, 2] #Officer seat left
+      - [5, 12, 1, 6] #Officer seat right
+#
+      - [3, 15, 1, 4] #Pilot Seat back row left
+      - [6, 15, 1, 4] #Pilot Seat back row right
+      - [3, 17, 1, 4] #Pilot Seat bottom row left
+      - [6, 17, 1, 4] #Pilot Seat bottom row right
+#----- End Transport Crafts -----#
+#----- Combat Crafts -----#
   - type: STR_INTERCEPTOR
     sprite: 500
     fuelMax: 1000
@@ -343,9 +392,10 @@ crafts:
     refuelRate: 50
     transferTime: 96
     score: 100
+#
   - type: STR_UPDATED_INTERCEPTOR #ojito acomodar stats
     sprite: 550
-    fuelMax: 1200
+    fuelMax: 1250
     damageMax: 250
     speedMax: 1855 # Mach 2.8 Supersonic
     accel: 5
@@ -359,9 +409,10 @@ crafts:
     refuelRate: 50
     transferTime: 96
     score: 150
+#
   - type: STR_XCF2
     sprite: 600
-    fuelMax: 1200
+    fuelMax: 2000
     damageMax: 310
     speedMax: 2050 # Mach 3.10 Supersonic 
     accel: 5
@@ -375,9 +426,11 @@ crafts:
     refuelRate: 50
     transferTime: 96
     score: 150
+#
   - type: STR_XCF3 
     sprite: 650
-    fuelMax: 1000
+    fuelMax: 15 #3750
+    refuelItem: STR_XCF_FUEL
     damageMax: 430
     speedMax: 2650 # Mach 4 Supersonic
     costSell: 475000
@@ -387,13 +440,14 @@ crafts:
     soldiers: 1
     pilots: 1
     allowLanding: false
-    refuelItem: STR_XCF_FUEL
     refuelRate: 5
     transferTime: 96
     score: 200
+#
   - type: STR_XCF4 
     sprite: 700
     fuelMax: 30
+    refuelItem: STR_XCF_FUEL
     damageMax: 600
     speedMax: 3310 # Mach 5 Hypersonic
     costSell: 437500
@@ -403,7 +457,6 @@ crafts:
     soldiers: 2
     pilots: 2
     allowLanding: false
-    refuelItem: STR_XCF_FUEL
     refuelRate: 10
     transferTime: 96
     score: 250
@@ -425,37 +478,9 @@ crafts:
     refuelRate: 100
     transferTime: 120
     score: 150
-#--- End Combat and Patrolling Crafts------
-#####CraftWeapons
+#----- End Combat and Patrolling Crafts -----#
+#----- All Craft Weaponry -----#
 craftWeapons:
-  - type: STR_STINGRAY
-    sprite: 12
-    sound: 15
-    damage: 70
-    range: 30
-    accuracy: 70
-    reloadCautious: 64
-    reloadStandard: 48
-    reloadAggressive: 32
-    ammoMax: 6
-    launcher: STR_STINGRAY_LAUNCHER
-    clip: STR_STINGRAY_MISSILES
-    projectileType: 0
-    projectileSpeed: 8
-  - type: STR_AVALANCHE
-    sprite: 13
-    sound: 5
-    damage: 100
-    range: 60
-    accuracy: 80
-    reloadCautious: 96
-    reloadStandard: 72
-    reloadAggressive: 48
-    ammoMax: 3
-    launcher: STR_AVALANCHE_LAUNCHER
-    clip: STR_AVALANCHE_MISSILES
-    projectileType: 1
-    projectileSpeed: 8
   - type: STR_CANNON_UC
     sprite: 11
     sound: 4
@@ -471,6 +496,7 @@ craftWeapons:
     clip: STR_CANNON_ROUNDS_X50
     projectileType: 2
     projectileSpeed: 8
+#
   - type: STR_LASER_CANNON_UC
     sprite: 14
     sound: 8
@@ -484,6 +510,7 @@ craftWeapons:
     rearmRate: 50
     launcher: STR_LASER_CANNON
     projectileType: 4
+#
   - type: STR_PLASMA_BEAM_UC
     sprite: 15
     sound: 9
@@ -498,6 +525,7 @@ craftWeapons:
     launcher: STR_PLASMA_BEAM
     clip: STR_ELERIUM_CELL
     projectileType: 5
+#
   - type: STR_FUSION_BALL_UC
     sprite: 35
     sound: 7
@@ -512,6 +540,37 @@ craftWeapons:
     clip: STR_FUSION_BALL
     projectileType: 3
     projectileSpeed: 8
+#
+  - type: STR_STINGRAY
+    sprite: 12
+    sound: 15
+    damage: 70
+    range: 30
+    accuracy: 70
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 6
+    launcher: STR_STINGRAY_LAUNCHER
+    clip: STR_STINGRAY_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+#
+  - type: STR_AVALANCHE
+    sprite: 13
+    sound: 5
+    damage: 100
+    range: 60
+    accuracy: 80
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 3
+    launcher: STR_AVALANCHE_LAUNCHER
+    clip: STR_AVALANCHE_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+#
   - type: STR_CLUSTER_MISSILE_UC
     sprite: 35
     sound: 22
@@ -526,6 +585,7 @@ craftWeapons:
     clip: STR_CLUSTER_MISSILES
     projectileType: 1
     projectileSpeed: 8
+#
   - type: STR_PILUM_UC
     sprite: 36
     sound: 5

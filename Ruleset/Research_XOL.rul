@@ -282,7 +282,7 @@ research:
   - name: STR_ELERIUM_POWERED_SERVOS
     points: 20
     needItem: true
-  # - name: STR_XOPS_POWER_ARMOR
+  # - name: STR_XOPS_POWER_ARMOR_TAN
   #   cost: 200
   #   points: 25
   #   dependencies:
@@ -299,7 +299,7 @@ research:
   - name: STR_NERVE_INTERFACE
     points: 20
     needItem: true
-  - name: STR_PSI_ARMOR
+  - name: STR_PSI_ARMOR_TAN
     cost: 40
     points: 20
     dependencies:
@@ -310,7 +310,7 @@ research:
   - name: STR_REACTOR_MINIATURIZATION
     points: 20
     needItem: true
-  - name: STR_XOPS_POWER_ARMOR
+  - name: STR_XOPS_POWER_ARMOR_TAN
     cost: 55
     points: 25
     dependencies:
