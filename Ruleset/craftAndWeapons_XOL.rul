@@ -20,7 +20,7 @@ crafts:
     skinSprites: [1001,1002] # default empty, contains all sprites except for the first (index zero)
     fuelMax: 1500
     damageMax: 100
-    speedMax: 300 #mach 0.45 Subsonic
+    speedMax: 300 # Mach 0.45 Subsonic // 556kmh
     accel: 2
     avoidBonus: 15
     soldiers: 12
@@ -67,7 +67,7 @@ crafts:
     sprite: 150
     fuelMax: 1900
     damageMax: 200
-    speedMax: 530 # mach 0.80 Transonic
+    speedMax: 530 # Mach 0.80 Transonic // 989 kmh
     accel: 2
     weapons: 1
     soldiers: 14
@@ -116,7 +116,7 @@ crafts:
     sprite: 200
     fuelMax: 2400
     damageMax: 250
-    speedMax: 430 # mach 0.65 subsonic
+    speedMax: 430 # Mach 0.65 subsonic // 803 kmh
     accel: 2
     weapons: 2
     soldiers: 25
@@ -184,7 +184,7 @@ crafts:
     fuelMax: 10 #2500
     refuelItem: STR_XCF_FUEL
     damageMax: 400
-    speedMax: 1455 # mach 2,2 Supersonic
+    speedMax: 1455 # Mach 2,2 Supersonic // 2716 kmh
     accel: 6
     weapons: 1
     soldiers: 22
@@ -248,7 +248,7 @@ crafts:
     fuelMax: 12
     refuelItem: STR_XCF_FUEL
     damageMax: 475
-    speedMax: 2315 # 3.5 mach Supersonic
+    speedMax: 2315 # Mach 3.5 Supersonic // 4322 kmh 
     accel: 5
     weapons: 1
     soldiers: 18
@@ -312,7 +312,7 @@ crafts:
     fuelMax: 2500 #625000 (in order to reach mars)
     refuelItem: STR_XCF_FUEL
     damageMax: 1400
-    speedMax: 6620 # mach 10 High-hypersonic 
+    speedMax: 6620 # Mach 10 High-hypersonic // 12349 kmh
     accel: 20
     weapons: 4
     soldiers: 30
@@ -381,7 +381,7 @@ crafts:
     sprite: 500
     fuelMax: 1000
     damageMax: 180
-    speedMax: 1325 # Mach 2.0 Supersonic
+    speedMax: 1325 # Mach 2.0 Supersonic // 2470 kmh
     accel: 3
     weapons: 2
     soldiers: 1
@@ -397,7 +397,7 @@ crafts:
     sprite: 550
     fuelMax: 1250
     damageMax: 250
-    speedMax: 1855 # Mach 2.8 Supersonic
+    speedMax: 1855 # Mach 2.8 Supersonic // 3458 kmh
     accel: 5
     weapons: 2
     soldiers: 1
@@ -414,7 +414,7 @@ crafts:
     sprite: 600
     fuelMax: 2000
     damageMax: 310
-    speedMax: 2050 # Mach 3.10 Supersonic 
+    speedMax: 2050 # Mach 3.10 Supersonic // 3828 kmh
     accel: 5
     weapons: 2
     soldiers: 1
@@ -432,7 +432,7 @@ crafts:
     fuelMax: 15 #3750
     refuelItem: STR_XCF_FUEL
     damageMax: 430
-    speedMax: 2650 # Mach 4 Supersonic
+    speedMax: 2650 # Mach 4 Supersonic 4940 kmh
     costSell: 475000
     costRent: 265000
     accel: 6
@@ -449,7 +449,7 @@ crafts:
     fuelMax: 30
     refuelItem: STR_XCF_FUEL
     damageMax: 600
-    speedMax: 3310 # Mach 5 Hypersonic
+    speedMax: 3310 # Mach 5 Hypersonic // 6174 kmh
     costSell: 437500
     costRent: 300000
     accel: 7
@@ -465,7 +465,7 @@ crafts:
     sprite: 900
     fuelMax: 5000
     damageMax: 130
-    speedMax: 2250 # Mach 3.4 Supersonic
+    speedMax: 2250 # Mach 3.4 Supersonic // 4198 kmh
     accel: 5
     weapons: 0
     soldiers: 1

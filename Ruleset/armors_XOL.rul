@@ -173,7 +173,7 @@ armors:
     sideArmor: 2
     rearArmor: 2
     underArmor: 2
-    stats: &StatsforJumpsuit
+    stats: &StatsForJumpsuit
       tu: 5
       stamina: 10
       health: 0
@@ -367,7 +367,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier: &modifiersForKevlarVest
+    damageModifier: &ModifiersForKevlarArmor
       - 1.0
       - 1.0
       - 1.0
@@ -550,7 +550,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier: *modifiersForKevlarVest
+    damageModifier: *ModifiersForKevlarArmor
 #
   - type: STR_KEVLAR_VEST_ARMOR_GRAY_UC
     spriteSheet: XOPS_XCOM_3.PCK
@@ -721,7 +721,8 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier: *modifiersForKevlarVest
+    damageModifier: *ModifiersForKevlarArmor
+#
   - type: STR_KEVLAR_VEST_ARMOR_WHITE_UC
     spriteSheet: XOPS_XCOM_4.PCK
     layersDefaultPrefix: HUMAN
@@ -891,7 +892,8 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier: *modifiersForKevlarVest
+    damageModifier: *ModifiersForKevlarArmor
+#
   - type: STR_KEVLAR_VEST_ARMOR_GREEN_UC
     spriteSheet: XOPS_XCOM_5.PCK
     layersDefaultPrefix: HUMAN
@@ -1061,7 +1063,8 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier: *modifiersForKevlarVest
+    damageModifier: *ModifiersForKevlarArmor
+#
   - type: STR_KEVLAR_VEST_ARMOR_BERET_UC
     spriteSheet: XOPS_XCOM_6.PCK
     layersDefaultPrefix: HUMAN
@@ -1231,7 +1234,8 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier: *modifiersForKevlarVest
+    damageModifier: *ModifiersForKevlarArmor
+#
   - type: STR_VEST_HEC_ARMOR_UC
     spriteSheet: XOPS_XCOM_8.PCK
     layersDefaultPrefix: HUMAN
@@ -1391,7 +1395,7 @@ armors:
       - STR_CORPSE_HEC_ARMOR
     storeItem: STR_NONE
     weight: 4
-    stats: &StatsforHECarmor
+    stats: &StatsForHECarmor
       firing: -4
     loftempsSet: [ 3 ]
     frontArmor: 12
@@ -1406,7 +1410,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &ModifiersForHECArmor
       - 1.0
       - 0.8
       - 0.5
@@ -1578,7 +1582,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_PILOT
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats: &StatsforXOPSarmor
+    stats: &StatsForXOPsPilotArmor
       firing: 4
     loftempsSet: [ 3 ]
     frontArmor: 25
@@ -1591,7 +1595,7 @@ armors:
       - STR_NULL_POCKET_LS
     units:
       - STR_PILOT
-    damageModifier:
+    damageModifier: &ModifiersForXOPsPilotArmor
       - 1.0
       - 0.7
       - 0.9
@@ -1603,7 +1607,8 @@ armors:
       - 1.2
       - 1.0
       - 1.0
-  - type: STR_XOPS_ARMOR_UC
+#
+  - type: STR_XOPS_ARMOR_TAN_UC
     spriteSheet: XOPS_XCOM_11.PCK
     customArmorPreviewIndex: 9
     layersDefaultPrefix: HUMAN
@@ -1762,7 +1767,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_TAN
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats: &StatsforXOPSPilotArmor
+    stats: &StatsForXOPsArmor
       firing: 4
     loftempsSet: [ 3 ]
     frontArmor: 25
@@ -1777,7 +1782,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &ModifiersForXOPsArmor
       - 1.0
       - 0.7
       - 0.9
@@ -1948,7 +1953,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_BLACK
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats: *StatsforXOPSarmor
+    stats: *StatsForXOPsArmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -1962,18 +1967,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.7
-      - 0.9
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.2
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForXOPsArmor
   - type: STR_XOPS_ARMOR_GRAY_UC
     spriteSheet: XOPS_XCOM_13.PCK
     customArmorPreviewIndex: 11
@@ -2133,7 +2127,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_GRAY
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats: *StatsforXOPSarmor
+    stats: *StatsForXOPsArmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -2147,18 +2141,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.7
-      - 0.9
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.2
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForXOPsArmor
   - type: STR_XOPS_ARMOR_WHITE_UC
     spriteSheet: XOPS_XCOM_14.PCK
     customArmorPreviewIndex: 12
@@ -2318,7 +2301,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_WHITE
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats: *StatsforXOPSarmor
+    stats: *StatsForXOPsArmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -2332,18 +2315,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.7
-      - 0.9
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.2
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForXOPsArmor
   - type: STR_XOPS_ARMOR_GREEN_UC
     spriteSheet: XOPS_XCOM_15.PCK
     customArmorPreviewIndex: 13
@@ -2503,7 +2475,7 @@ armors:
       - STR_CORPSE_XOPS_ARMOR_GREEN
     storeItem: STR_XOPS_ARMOR_TAN
     weight: 5
-    stats: *StatsforXOPSarmor
+    stats: *StatsForXOPsArmor
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
@@ -2517,18 +2489,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.7
-      - 0.9
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.2
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForXOPsArmor
 #
   - type: STR_PERSONAL_ARMOR_PILOT_UC
     customArmorPreviewIndex: 14
@@ -2688,7 +2649,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_PILOT
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats: &StatsforPersonalPilotArmor
+    stats: &StatsForPersonalPilotArmor
       reactions: 5
       firing: 4
       melee: 6
@@ -2705,7 +2666,7 @@ armors:
       - STR_NULL_POCKET_RL
     units:
       - STR_PILOT
-    damageModifier:
+    damageModifier: &ModifiersForPersonalPilotArmor
       - 1.0
       - 0.75
       - 0.5
@@ -2876,7 +2837,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_TAN
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats: &StatsforPersonalArmor
+    stats: &StatsForPersonalArmor
       reactions: 5
       firing: 4
       melee: 6
@@ -2894,7 +2855,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &ModifiersForPersonalArmor
       - 1.0
       - 0.75
       - 0.5
@@ -3065,7 +3026,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_BLACK
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats:
+    stats: *StatsForPersonalArmor
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3080,18 +3041,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.75
-      - 0.5
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.4
-      - 1.5
-      - 1.0
-      - 1.0
-      - 0.95
+    damageModifier: *ModifiersForPersonalArmor
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_GRAY_UC
     customArmorPreviewIndex: 17
@@ -3250,7 +3200,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_GRAY
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats:
+    stats: *StatsForPersonalArmor
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3265,18 +3215,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.75
-      - 0.5
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.4
-      - 1.5
-      - 1.0
-      - 1.0
-      - 0.95
+    damageModifier: *ModifiersForPersonalArmor
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_WHITE_UC
     customArmorPreviewIndex: 18
@@ -3436,7 +3375,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_WHITE
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats:
+    stats: *StatsForPersonalArmor
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3451,18 +3390,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.75
-      - 0.5
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.4
-      - 1.5
-      - 1.0
-      - 1.0
-      - 0.95
+    damageModifier: *ModifiersForPersonalArmor
     loftempsSet: [ 3 ]
   - type: STR_PERSONAL_ARMOR_GREEN_UC
     customArmorPreviewIndex: 19
@@ -3622,7 +3550,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PERSONAL_ARMOR_GREEN
     storeItem: STR_PERSONAL_ARMOR_TAN
-    stats:
+    stats: *StatsForPersonalArmor
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
@@ -3637,20 +3565,9 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.75
-      - 0.5
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.4
-      - 1.5
-      - 1.0
-      - 1.0
-      - 0.95
-#
+    damageModifier: *ModifiersForPersonalArmor
     loftempsSet: [ 3 ]
+#
   - type: STR_ALLOY_ARMOR_PILOT_UC
     customArmorPreviewIndex: 20
     spriteSheet: XOPS_XCOM_30.PCK
@@ -3817,7 +3734,7 @@ armors:
       - STR_NULL_POCKET_RS
     units:
       - STR_PILOT
-    damageModifier:
+    damageModifier: &ModifiersForAlloyPilotArmor
       - 1.0
       - 1.0
       - 0.8
@@ -3829,7 +3746,7 @@ armors:
       - 1.1
       - 0.5
       - 0.90
-  - type: STR_ALLOY_ARMOR_UC
+  - type: STR_ALLOY_ARMOR__TAN_UC
     customArmorPreviewIndex: 21
     spriteSheet: XOPS_XCOM_31.PCK
     layersDefaultPrefix: HUMAN
@@ -3997,7 +3914,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &ModifiersForAlloyArmor
       - 1.0
       - 1.0
       - 0.8
@@ -4177,18 +4094,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.5
-      - 0.90
+    damageModifier: *ModifiersForAlloyArmor
   - type: STR_ALLOY_ARMOR_GRAY_UC
     customArmorPreviewIndex: 23
     spriteSheet: XOPS_XCOM_33.PCK
@@ -4357,18 +4263,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.5
-      - 0.90
+    damageModifier: *ModifiersForAlloyArmor
   - type: STR_ALLOY_ARMOR_WHITE_UC
     customArmorPreviewIndex: 24
     spriteSheet: XOPS_XCOM_34.PCK
@@ -4537,18 +4432,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.5
-      - 0.90
+    damageModifier: *ModifiersForAlloyArmor
   - type: STR_ALLOY_ARMOR_GREEN_UC
     customArmorPreviewIndex: 25
     spriteSheet: XOPS_XCOM_35.PCK
@@ -4717,18 +4601,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.5
-      - 0.90
+    damageModifier: *ModifiersForAlloyArmor
 #
   - type: STR_SKY_STRIKE_ARMOR_PILOT_UC
     customArmorPreviewIndex: 26
@@ -4884,7 +4757,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_SKY_STRIKE_ARMOR_PILOT
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
-    stats: &StatsforSkyStrikePilotArmor
+    stats: &StatsForSkyStrikePilotArmor
       tu: 15
     loftempsSet: [ 3 ]
     frontArmor: 38
@@ -4900,7 +4773,7 @@ armors:
       - STR_NULL_POCKET_LS
     units:
       - STR_PILOT
-    damageModifier:
+    damageModifier: &ModifiersForSkyStrikePilotArmor
       - 1.0
       - 1.0
       - 0.8
@@ -4912,7 +4785,7 @@ armors:
       - 1.1
       - 0.0
       - 0.95
-  - type: STR_SKY_STRIKE_ARMOR_UC
+  - type: STR_SKY_STRIKE_ARMOR_TAN_UC
     customArmorPreviewIndex: 27
     spriteSheet: XOPS_XCOM_41.PCK
     layersDefaultPrefix: HUMAN
@@ -5066,7 +4939,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_SKY_STRIKE_ARMOR_TAN
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
-    stats: &StatsforSkyStrikeArmor
+    stats: &StatsForSkyStrikeArmor
       tu: 15
     loftempsSet: [ 3 ]
     frontArmor: 38
@@ -5084,7 +4957,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &ModifiersForSkyStrikeArmor
       - 1.0
       - 1.0
       - 0.8
@@ -5266,18 +5139,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.0
-      - 0.95
+    damageModifier: *ModifiersForSkyStrikeArmor
   - type: STR_SKY_STRIKE_ARMOR_GRAY_UC
     customArmorPreviewIndex: 29
     spriteSheet: XOPS_XCOM_43.PCK
@@ -5432,7 +5294,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_SKY_STRIKE_ARMOR_GRAY
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
-    stats:
+    stats: *StatsForSkyStrikeArmor
     loftempsSet: [ 3 ]
     frontArmor: 38
     sideArmor: 26
@@ -5449,18 +5311,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.0
-      - 0.95
+    damageModifier: *ModifiersForSkyStrikeArmor
   - type: STR_SKY_STRIKE_ARMOR_WHITE_UC
     customArmorPreviewIndex: 30
     spriteSheet: XOPS_XCOM_44.PCK
@@ -5615,7 +5466,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_SKY_STRIKE_ARMOR_WHITE
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
-    stats:
+    stats: *StatsForSkyStrikeArmor
     loftempsSet: [ 3 ]
     frontArmor: 38
     sideArmor: 26
@@ -5632,18 +5483,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.0
-      - 0.95
+    damageModifier: *ModifiersForSkyStrikeArmor
   - type: STR_SKY_STRIKE_ARMOR_CLOUD_UC
     customArmorPreviewIndex: 31
     spriteSheet: XOPS_XCOM_45.PCK
@@ -5798,7 +5638,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_SKY_STRIKE_ARMOR_CLOUD
     storeItem: STR_SKY_STRIKE_ARMOR_TAN
-    stats:
+    stats: *StatsForSkyStrikeArmor
     loftempsSet: [ 3 ]
     frontArmor: 38
     sideArmor: 26
@@ -5815,18 +5655,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.0
-      - 0.95
+    damageModifier: *ModifiersForSkyStrikeArmor
 #
   - type: STR_XOPS_POWER_ARMOR_PILOT_UC
     customArmorPreviewIndex: 32
@@ -5982,7 +5811,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_PILOT
     storeItem: STR_XOPS_POWER_ARMOR_TAN
-    stats: &StatsforPilotPowerArmor
+    stats: &StatsForPilotPowerArmor
       tu: 7
       stamina: 10
       bravery: 10
@@ -6005,7 +5834,7 @@ armors:
       - STR_NULL_POCKET_LS
     units:
       - STR_PILOT
-    damageModifier:
+    damageModifier: &ModifiersForPowerPilotArmor
       - 1.0
       - 0.3
       - 0.0
@@ -6017,7 +5846,7 @@ armors:
       - 1.5
       - 0.0
       - 0.90
-  - type: STR_XOPS_POWER_ARMOR_UC
+  - type: STR_XOPS_POWER_ARMOR_TAN_UC
     customArmorPreviewIndex: 33
     spriteSheet: XOPS_XCOM_51.PCK
     layersDefaultPrefix: HUMAN
@@ -6171,7 +6000,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR
     storeItem: STR_XOPS_POWER_ARMOR_TAN
-    stats: &StatsforPowerArmor
+    stats: &StatsForPowerArmor
       tu: 7
       stamina: 10
       bravery: 10
@@ -6196,7 +6025,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &ModifiersForPowerArmor
       - 1.0
       - 0.3
       - 0.0
@@ -6362,7 +6191,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_BLACK
     storeItem: STR_XOPS_POWER_ARMOR_TAN
-    stats: 
+    stats: *StatsForPowerArmor
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -6379,18 +6208,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.3
-      - 0.0
-      - 0.8
-      - 0.8
-      - 1.0
-      - 0.5
-      - 0.8
-      - 1.5
-      - 0.0
-      - 0.90
+    damageModifier: *ModifiersForPowerArmor
   - type: STR_XOPS_POWER_ARMOR_GRAY_UC
     customArmorPreviewIndex: 35
     spriteSheet: XOPS_XCOM_53.PCK
@@ -6545,7 +6363,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_GRAY
     storeItem: STR_XOPS_POWER_ARMOR_TAN
-    stats:
+    stats: *StatsForPowerArmor
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -6562,18 +6380,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.3
-      - 0.0
-      - 0.8
-      - 0.8
-      - 1.0
-      - 0.5
-      - 0.8
-      - 1.5
-      - 0.0
-      - 0.90    
+    damageModifier: *ModifiersForPowerArmor  
   - type: STR_XOPS_POWER_ARMOR_WHITE_UC
     customArmorPreviewIndex: 36
     spriteSheet: XOPS_XCOM_54.PCK
@@ -6728,7 +6535,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_WHITE
     storeItem: STR_XOPS_POWER_ARMOR_TAN
-    stats:
+    stats: *StatsForPowerArmor
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -6745,18 +6552,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.3
-      - 0.0
-      - 0.8
-      - 0.8
-      - 1.0
-      - 0.5
-      - 0.8
-      - 1.5
-      - 0.0
-      - 0.90
+    damageModifier: *ModifiersForPowerArmor
   - type: STR_XOPS_POWER_ARMOR_GREEN_UC
     customArmorPreviewIndex: 37
     spriteSheet: XOPS_XCOM_55.PCK
@@ -6911,7 +6707,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_XOPS_POWER_ARMOR_GREEN
     storeItem: STR_XOPS_POWER_ARMOR_TAN
-    stats:
+    stats: *StatsForPowerArmor
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
@@ -6928,18 +6724,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 0.3
-      - 0.0
-      - 0.8
-      - 0.8
-      - 1.0
-      - 0.5
-      - 0.8
-      - 1.5
-      - 0.0
-      - 0.90
+    damageModifier: *ModifiersForPowerArmor
 #
   - type: STR_PSI_ARMOR_PILOT_UC
     customArmorPreviewIndex: 38
@@ -7099,7 +6884,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_PILOT
     storeItem: STR_PSI_ARMOR_TAN
-    stats: &StatsforPSIPilotArmor
+    stats: &StatsForPsiPilotArmor
       tu: 10
       reactions: 20
       firing: 10
@@ -7121,7 +6906,7 @@ armors:
       - STR_NULL_POCKET_LL
     units:
       - STR_PILOT
-    damageModifier:
+    damageModifier: &ModifiersForPsiPilotArmor
       - 1.0
       - 1.5
       - 0.5
@@ -7133,7 +6918,7 @@ armors:
       - 1.4
       - 1.0
       - 1.0
-  - type: STR_PSI_ARMOR_UC
+  - type: STR_PSI_ARMOR_TAN_UC
     spriteSheet: XOPS_XCOM_61.PCK
     customArmorPreviewIndex: 39
     layersDefaultPrefix: HUMAN
@@ -7291,7 +7076,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR
     storeItem: STR_PSI_ARMOR_TAN
-    stats: &StatsforPSIArmor
+    stats: &StatsForPsiArmor
       tu: 10
       reactions: 20
       firing: 10
@@ -7315,7 +7100,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
+    damageModifier: &ModifiersForPsiArmor
       - 1.0
       - 1.5
       - 0.5
@@ -7485,7 +7270,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_BLACK
     storeItem: STR_PSI_ARMOR_TAN
-    stats:
+    stats: *StatsForPsiArmor
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -7503,18 +7288,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.5
-      - 0.5
-      - 1.4
-      - 0.6
-      - 0.6
-      - 0.7
-      - 2.0
-      - 1.4
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForPsiArmor
   - type: STR_PSI_ARMOR_GRAY_UC
     customArmorPreviewIndex: 41
     spriteSheet: XOPS_XCOM_63.PCK
@@ -7673,7 +7447,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_GRAY
     storeItem: STR_PSI_ARMOR_TAN
-    stats:
+    stats: *StatsForPsiArmor
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -7691,18 +7465,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.5
-      - 0.5
-      - 1.4
-      - 0.6
-      - 0.6
-      - 0.7
-      - 2.0
-      - 1.4
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForPsiArmor
   - type: STR_PSI_ARMOR_WHITE_UC
     customArmorPreviewIndex: 42
     spriteSheet: XOPS_XCOM_64.PCK
@@ -7861,7 +7624,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_WHITE
     storeItem: STR_PSI_ARMOR_TAN
-    stats:
+    stats: *StatsForPsiArmor
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -7879,18 +7642,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.5
-      - 0.5
-      - 1.4
-      - 0.6
-      - 0.6
-      - 0.7
-      - 2.0
-      - 1.4
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForPsiArmor
   - type: STR_PSI_ARMOR_GREEN_UC
     customArmorPreviewIndex: 43
     spriteSheet: XOPS_XCOM_65.PCK
@@ -8049,7 +7801,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_GREEN
     storeItem: STR_PSI_ARMOR_TAN
-    stats:
+    stats: *StatsForPsiArmor
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
@@ -8067,18 +7819,7 @@ armors:
       - STR_SOLDIER
       - STR_SOLDIER_OFFICER
       - STR_ELITE_SOLDIER
-    damageModifier:
-      - 1.0
-      - 1.5
-      - 0.5
-      - 1.4
-      - 0.6
-      - 0.6
-      - 0.7
-      - 2.0
-      - 1.4
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForPsiArmor
 #----- Tanks and Mech Drivers -----#
   - type: STR_MECH_DRIFTSUIT
     spriteSheet: XOPS_XCOM_9.PCK
@@ -8243,13 +7984,13 @@ armors:
     sideArmor: 2
     rearArmor: 2
     underArmor: 2
-    stats: &StatsforMechSuit
+    stats: &StatsForMechSuit
       tu: 5
       stamina: 10
       health: 0
       bravery: 3
       reactions: 15
-    damageModifier:
+    damageModifier: &ModifiersForMechShuit
       - 1.0
       - 1.0
       - 0.3
@@ -8446,12 +8187,12 @@ armors:
     moveSound: 817
     #overKill: 3.0
 ############# ojito revisar stats
-    stats: &SECTION_LIGHT_TANK_STATS
+    stats: &StatsForTankChassis
        bravery: 20
        tu: 100
        stamina: 700
        reactions: -15
-    recovery:  &SECTION_LIGHT_TANK_RECOVERY
+    recovery: &RecoveryforTankChassis
       energy:
         flatHundred: 7.5
       morale:
@@ -8459,12 +8200,12 @@ armors:
         bravery: 0.0666
       stun:
         stunCurrent: 0.09
-    psiDefence:  &SECTION_TANK_PSIDEF
+    psiDefence: &PsiDefenceforTankChassis
       psiStrength: 1.0
       psiSkill: 0.2
       moraleCurrent: 0.25
       flatHundred: -0.15
-    damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
+    damageModifier: &damageResistancesTankChassis
       - 1.0 #0 None
       - 0.25 #1 Armor Piercing
       - 0.6 #2 Incendiary
@@ -8664,36 +8405,10 @@ armors:
     moveSound: 817
     #overKill: 3.0
 ############# ojito revisar stats
-    stats: &SECTION_LIGHT_TANK_STATS
-       bravery: 20
-       tu: 100
-       stamina: 700
-       reactions: -15
-    recovery:  &SECTION_LIGHT_TANK_RECOVERY
-      energy:
-        flatHundred: 7.5
-      morale:
-        moraleCurrent: -0.1333
-        bravery: 0.0666
-      stun:
-        stunCurrent: 0.09
-    psiDefence:  &SECTION_TANK_PSIDEF
-      psiStrength: 1.0
-      psiSkill: 0.2
-      moraleCurrent: 0.25
-      flatHundred: -0.15
-    damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
-      - 1.0 #0 None
-      - 0.25 #1 Armor Piercing
-      - 0.6 #2 Incendiary
-      - 0.55 #3 High Explosive
-      - 0.7 #4 Laser
-      - 0.9 #5 Plasma
-      - 0.0 #6 Stun
-      - 0.2 #7 Melee
-      - 0.8 #8 Acid
-      - 0.0 #9 Smoke
-      - 0.9 #10 Antimatter
+    stats: *StatsForTankChassis
+    recovery: *RecoveryforTankChassis  
+    psiDefence: *PsiDefenceforTankChassis  
+    damageModifier: *damageResistancesTankChassis
     units:
       - STR_DRIVER
       - STR_MECHA_DRIVER
@@ -9085,7 +8800,7 @@ armors:
     movementType: 0
     drawingRoutine: 4
     overKill: 1.5
-    damageModifier:
+    damageModifier: &damageResistancesK9Harness
       - 1.0 #0 None
       - 1.3 #1 Armor Piercing
       - 1.5 #2 Incendiary
@@ -9161,7 +8876,7 @@ armors:
     movementType: 0
     drawingRoutine: 4
     overKill: 1.5
-    damageModifier:
+    damageModifier: &damageResistancesK9CombatVest
       - 1.0 #0 None
       - 1.2 #1 Armor Piercing
       - 1.5 #2 Incendiary
@@ -9178,7 +8893,7 @@ armors:
     specialWeapon: STR_DOGE_TRACK
     loftempsSet: [ 2 ]
     # tags:
-  - type: STR_DOGE_DURATHREAD_VEST_ARMOR
+  - type: STR_K9_PERSONAL_ARMOR
     storeItem: STR_DOGE_DURATHREAD_VEST
     spriteSheet: DOGE_DURATHREAD_VEST.PCK
     # spriteInv: MAN_100
@@ -9235,7 +8950,7 @@ armors:
     movementType: 0
     drawingRoutine: 4
     overKill: 1.5
-    damageModifier:
+    damageModifier: &damageResistancesK9PersonalArmor
       - 1.0 #0 None
       - 1.0 #1 Armor Piercing
       - 1.0 #2 Incendiary
@@ -9253,7 +8968,7 @@ armors:
     specialWeapon: STR_DOGE_TRACK
     loftempsSet: [ 2 ]
 #
-  - type: STR_DOGE_ALLOY_VEST_ARMOR
+  - type: STR_K9_ALLOY_ARMOR
     storeItem: STR_DOGE_AA_VEST
     spriteSheet: DOGE_ALLOY_VEST.PCK
     # spriteInv: MAN_100
@@ -9310,7 +9025,7 @@ armors:
     movementType: 0
     drawingRoutine: 4
     overKill: 1.5
-    damageModifier:
+    damageModifier: &damageResistancesK9AlloyArmor
       - 1.0
       - 1.0
       - 1.0
@@ -9781,7 +9496,7 @@ armors:
     underArmor: 2
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT #OJITO BUSCAR ESTE UNIFORME Q ESTA REPETIDO PA LOS CADAVERES DISPLAY UFOPAEDIA
-    stats: *StatsforJumpsuit
+    stats: *StatsForJumpsuit
     damageModifier: *damageModifierJumpsuit
 #
   - type: STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY
@@ -9795,79 +9510,44 @@ armors:
     underArmor: 2
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT
-    damageModifier: *modifiersForKevlarVest
+    damageModifier: *ModifiersForKevlarArmor
   - type: STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_8.PCK
     spriteInv: HECUFOPEDIA
     weight: 5
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      firing: -4
+    stats: *StatsForHECarmor
     loftempsSet: [ 3 ]
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    damageModifier:
-      - 1.0
-      - 0.8
-      - 0.5
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.5
-      - 1.0
-      - 0.2
-      - 0.0
+    damageModifier: *ModifiersForHECArmor
   - type: STR_XOPS_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_11.PCK
     spriteInv: XOPSUFOPEDIA
     weight: 5
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      firing: 4
+    stats: *StatsForJumpsuit
     loftempsSet: [ 3 ]
     frontArmor: 25
     sideArmor: 20
     rearArmor: 20
     underArmor: 10
-    damageModifier:
-      - 1.0
-      - 0.7
-      - 0.9
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.2
-      - 1.0
+    damageModifier: *ModifiersForXOPsArmor
   - type: STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_21.PCK
     spriteInv: PERSONALUFOPEDIA
     corpseBattle:
       - STR_CORPSE_ARMOR
-    stats:
-      reactions: 5
-      firing: 4
-      melee: 6
+    stats: *StatsForXOPsArmor
     frontArmor: 50
     sideArmor: 40
     rearArmor: 30
     underArmor: 30
-    damageModifier:
-      - 1.0
-      - 0.75
-      - 0.5
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.4
-      - 1.5
-      - 1.0
-      - 1.0
+    damageModifier: *ModifiersForPersonalArmor
     loftempsSet: [ 3 ]
   - type: STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_31.PCK
@@ -9879,98 +9559,43 @@ armors:
     sideArmor: 65
     rearArmor: 55
     underArmor: 55
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 0.9
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.5
+    damageModifier: *ModifiersForAlloyArmor
   - type: STR_SKY_STRIKE_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_41.PCK
     spriteInv: SKY_STRIKEUFOPEDIA
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      tu: 15
+    stats: *StatsForSkyStrikeArmor
     loftempsSet: [ 3 ]
     frontArmor: 38
     sideArmor: 26
     rearArmor: 28
     underArmor: 35
     movementType: 1
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 0.0
+    damageModifier: *ModifiersForSkyStrikeArmor
   - type: STR_PSI_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_61.PCK
     spriteInv: PISONICUFOPEDIA
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      tu: 10
-      reactions: 20
-      firing: 10
-      throwing: 5
-      psiStrength: 25
-      psiSkill: 25
+    stats: *StatsForPsiArmor
     loftempsSet: [ 3 ]
     frontArmor: 70
     sideArmor: 60
     rearArmor: 50
     underArmor: 50
     movementType: 0
-    damageModifier:
-      - 1.0
-      - 1.5
-      - 0.5
-      - 1.4
-      - 0.6
-      - 0.6
-      - 0.7
-      - 2.0
-      - 1.4
-      - 1.0
+    damageModifier: *ModifiersForPsiArmor 
   - type: STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_51.PCK
     spriteInv: POWERARMORUFOPEDIA
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats:
-      tu: 7
-      stamina: 10
-      bravery: 10
-      reactions: 5
-      firing: 5
-      strength: 10
-      psiStrength: 25
-      psiSkill: -25
+    stats: *StatsForPowerArmor
     loftempsSet: [ 3 ]
     frontArmor: 120
     sideArmor: 90
     rearArmor: 100
     underArmor: 80
     movementType: 1
-    damageModifier:
-      - 1.0
-      - 0.3
-      - 0.0
-      - 0.8
-      - 0.8
-      - 1.0
-      - 0.5
-      - 0.8
-      - 1.5
-      - 0.0
+    damageModifier: *ModifiersForPowerArmor

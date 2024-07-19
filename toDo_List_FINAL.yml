@@ -42,8 +42,13 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
+ - revisar la velocidad de los UFOS en terminos relativos a mach
+ - revisar enteramente las armaduras de perritos para balanceo de stats
+   * agregar desde xfiles la armadura cyberarmadura
+   * eliminar cualquier trazo de nombres incorrectos como tritanium y durathread
  - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens y en las display para simplificar el proceso de modificacion de stats a futuro)
  - con esto podre crear el duplicado necesario para las versiones de armaduras de piloto correspondientes
+ - crear anclas para los builint(bolsillos) y units (unidades posibles)
  - revisar los damage modifiers de los Aliens
    * agregarle resistencias a energia y daño segun el caso (ejemplo sovereigns y antimateria)
  - revisar los precios de TODOS LOS ARTICULOS

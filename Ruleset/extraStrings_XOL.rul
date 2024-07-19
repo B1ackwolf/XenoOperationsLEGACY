@@ -830,18 +830,18 @@ extraStrings:
       STR_K9_COMBAT_VESTTER: "Dog Combat Gear"
       STR_K9_COMBAT_VEST: "Dog Combat Gear"
       STR_K9_COMBAT_VEST_UFOPEDIA: "This armor gives the dog some basic protection on the modern battlefield, but may tire it out quickly."
-      STR_DOGE_DURATHREAD_VEST_ARMOR: "DURATHREAD VEST"
-      STR_DOGE_DURATHREAD_VEST_ARMOR_UNDERWATER: "DOG DURATHREAD VEST"
-      STR_DOGE_DURATHREAD_VEST_ARMOR_UFOPEDIA: "The Durathread Vest is much less constricting than combat armor and also offers better protection. It increases the dog's carrying capacity by 4."
+      STR_K9_PERSONAL_ARMOR: "DURATHREAD VEST"
+      STR_K9_PERSONAL_ARMOR_UNDERWATER: "DOG DURATHREAD VEST"
+      STR_K9_PERSONAL_ARMOR_UFOPEDIA: "The Durathread Vest is much less constricting than combat armor and also offers better protection. It increases the dog's carrying capacity by 4."
       STR_DOGE_CYBERSUIT_ARMOR: "CYBERSUIT GEAR"
       STR_DOGE_CYBERSUIT: "Dog Cybersuit"
       STR_DOGE_CYBERSUIT_CORPSE: "Dead Dog"
       STR_DOGE_CYBERSUIT_ARMOR_UFOPEDIA: "State of the art protective gear for X-Com canine companions. Features enhanced protection and electronic sensory assistance."
       STR_DOGE_ALLOY_VEST_CORPSE: "Dead Dog"
       STR_DOGE_ALLOY_VEST: "Dog Tritanium Vest"
-      STR_DOGE_ALLOY_VEST_ARMOR_UNDERWATER: "TRITANIUM GEAR"
-      STR_DOGE_ALLOY_VEST_ARMOR: "TRITANIUM GEAR"
-      STR_DOGE_ALLOY_VEST_ARMOR_UFOPEDIA: "Made from Tritanium, this protective gear is both stronger and lighter than basic dog armor. It increases the dog's carrying capacity by 4."
+      STR_K9_ALLOY_ARMOR_UNDERWATER: "TRITANIUM GEAR"
+      STR_K9_ALLOY_ARMOR: "TRITANIUM GEAR"
+      STR_K9_ALLOY_ARMOR_UFOPEDIA: "Made from Tritanium, this protective gear is both stronger and lighter than basic dog armor. It increases the dog's carrying capacity by 4."
       STR_DOGE_DURATHREAD_VEST_CORPSE: "Dead Dog"
       STR_DOGE_DURATHREAD_VEST: "Dog Durathread Vest"
       STR_DOGE_AA_VEST: "Dog Tritanium Gear"
@@ -1718,7 +1718,7 @@ extraStrings:
       STR_XOPS_ARMOR_GREEN: Xeno Operations Armor Green
       STR_XOPS_ARMOR_GRAY: Xeno Operations Armor Grey
       STR_XOPS_ARMOR_WHITE: Xeno Operations Armor White
-      STR_XOPS_ARMOR_UC: XOPS ARMOR
+      STR_XOPS_ARMOR_TAN_UC: XOPS ARMOR
       STR_XOPS_ARMOR_BLACK_UC: XOPS ARMOR BLACK
       STR_XOPS_ARMOR_PILOT_UC: XOPS Armor Pilot
       STR_XOPS_ARMOR_GREEN_UC: XOPS ARMOR GREEN
@@ -1730,7 +1730,7 @@ extraStrings:
       STR_ALLOY_ARMOR_GREEN: Alloy Armor Green
       STR_ALLOY_ARMOR_GRAY: Alloy Armor Grey
       STR_ALLOY_ARMOR_WHITE: Alloy Armor White
-      STR_ALLOY_ARMOR_UC: ALLOY ARMOR
+      STR_ALLOY_ARMOR__TAN_UC: ALLOY ARMOR
       STR_ALLOY_ARMOR_BLACK_UC: ALLOY ARMOR BLACK
       STR_ALLOY_ARMOR_PILOT_UC: ALLOY Armor Pilot
       STR_ALLOY_ARMOR_GRAY_UC: ALLOY ARMOR GREY
@@ -1739,7 +1739,7 @@ extraStrings:
       STR_HEAVY_ALLOY_ARMOR: Heavy Alloy Armor
       STR_HEAVY_ALLOY_ARMOR_UC: HEAVY ALLOY ARMOR
       STR_SKY_STRIKE_ARMOR_TAN: Skystrike Armor
-      STR_SKY_STRIKE_ARMOR_UC: Skystrike ARMOR
+      STR_SKY_STRIKE_ARMOR_TAN_UC: Skystrike ARMOR
       STR_SKY_STRIKE_ARMOR_CLOUD: Skystrike Armor Sky Blue
       STR_SKY_STRIKE_ARMOR_CLOUD_UC: Skystrike ARMOR SKY BLUE
       STR_SKY_STRIKE_ARMOR_PILOT: Skystrike Armor Pilot
@@ -1771,7 +1771,7 @@ extraStrings:
       STR_VEST_HEC_ARMOR: H.E.C. Suit
       STR_VEST_HEC_ARMOR_UC: H.E.C SUIT
       STR_PSI_ARMOR_TAN: Nerve Suit
-      STR_PSI_ARMOR_UC: NERVE SUIT
+      STR_PSI_ARMOR_TAN_UC: NERVE SUIT
       STR_PSI_ARMOR_PILOT: Nerve Suit Pilot
       STR_PSI_ARMOR_PILOT_UC: NERVE SUIT PILOT
       STR_PSI_ARMOR_GRAY: Nerve Suit Grey
@@ -1783,7 +1783,7 @@ extraStrings:
       STR_PSI_ARMOR_BLACK: Nerve Suit Black
       STR_PSI_ARMOR_BLACK_UC: NERVE SUIT BLACK
       STR_XOPS_POWER_ARMOR_TAN: Power Armor
-      STR_XOPS_POWER_ARMOR_UC: POWER ARMOR
+      STR_XOPS_POWER_ARMOR_TAN_UC: POWER ARMOR
       STR_XOPS_POWER_ARMOR_PILOT: Power Armor Pilot
       STR_XOPS_POWER_ARMOR_PILOT_UC: POWER Armor Pilot
       STR_XOPS_POWER_ARMOR_GREEN: Power Armor Green
