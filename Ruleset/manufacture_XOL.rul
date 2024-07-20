@@ -2911,10 +2911,10 @@ manufacture:
     listOrder: 2013
 #--- Alloy Armor ----------------------------------END
 #--- Sky Strike Armor ----------------------------------
-  - name: STR_SKY_STRIKE_ARMOR_TAN
+  - name: STR_SKY_ARMOR_TAN
     category: STR_MED_ARMOR
     requires:
-      - STR_SKY_STRIKE_ARMOR_TAN
+      - STR_SKY_ARMOR_TAN
     space: 7
     time: 360
     cost: 35000

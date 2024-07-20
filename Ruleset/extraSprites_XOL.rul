@@ -2121,12 +2121,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/UfopediaImages/UPediaArmors/PersonalArmor.gif
-  - type: SKY_STRIKEUFOPEDIA.SPK
+  - type: SKYUFOPEDIA.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UPediaArmors/SKY_STRIKEArmor.gif
+      0: Resources/UfopediaImages/UPediaArmors/SKYArmor.gif
   - type: XOPSUFOPEDIA.SPK
     singleImage: true
     width: 320
@@ -4749,29 +4749,29 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_35uAv.gif
   - typeSingle: ALLOY_ARMOR_GREEN__8__ALLOY_ARMOR_GREEN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_35uAv.gif
-  - typeSingle: SKY_STRIKE_ARMOR_PILOT__8__SKY_STRIKE_ARMOR_PILOT_M
+  - typeSingle: SKY_ARMOR_PILOT__8__SKY_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_40uSSp.gif
-  - typeSingle: SKY_STRIKE_ARMOR_PILOT__8__SKY_STRIKE_ARMOR_PILOT_F
+  - typeSingle: SKY_ARMOR_PILOT__8__SKY_ARMOR_PILOT_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_40uSSp.gif
-  - typeSingle: SKY_STRIKE_ARMOR_TAN__8__SKY_STRIKE_ARMOR_TAN_M
+  - typeSingle: SKY_ARMOR_TAN__8__SKY_ARMOR_TAN_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_41uSSz.gif
-  - typeSingle: SKY_STRIKE_ARMOR_TAN__8__SKY_STRIKE_ARMOR_TAN_F
+  - typeSingle: SKY_ARMOR_TAN__8__SKY_ARMOR_TAN_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_41uSSz.gif
-  - typeSingle: SKY_STRIKE_ARMOR_BLACK__8__SKY_STRIKE_ARMOR_BLACK_M
+  - typeSingle: SKY_ARMOR_BLACK__8__SKY_ARMOR_BLACK_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_42uSSb.gif
-  - typeSingle: SKY_STRIKE_ARMOR_BLACK__8__SKY_STRIKE_ARMOR_BLACK_F
+  - typeSingle: SKY_ARMOR_BLACK__8__SKY_ARMOR_BLACK_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_42uSSb.gif
-  - typeSingle: SKY_STRIKE_ARMOR_GRAY__8__SKY_STRIKE_ARMOR_GRAY_M
+  - typeSingle: SKY_ARMOR_GRAY__8__SKY_ARMOR_GRAY_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_43uSSg.gif
-  - typeSingle: SKY_STRIKE_ARMOR_GRAY__8__SKY_STRIKE_ARMOR_GRAY_F
+  - typeSingle: SKY_ARMOR_GRAY__8__SKY_ARMOR_GRAY_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_43uSSg.gif
-  - typeSingle: SKY_STRIKE_ARMOR_WHITE__8__SKY_STRIKE_ARMOR_WHITE_M
+  - typeSingle: SKY_ARMOR_WHITE__8__SKY_ARMOR_WHITE_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_44uSSw.gif
-  - typeSingle: SKY_STRIKE_ARMOR_WHITE__8__SKY_STRIKE_ARMOR_WHITE_F
+  - typeSingle: SKY_ARMOR_WHITE__8__SKY_ARMOR_WHITE_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_44uSSw.gif
-  - typeSingle: SKY_STRIKE_ARMOR_CLOUD__8__SKY_STRIKE_ARMOR_CLOUD_M
+  - typeSingle: SKY_ARMOR_CLOUD__8__SKY_ARMOR_CLOUD_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
-  - typeSingle: SKY_STRIKE_ARMOR_CLOUD__8__SKY_STRIKE_ARMOR_CLOUD_F
+  - typeSingle: SKY_ARMOR_CLOUD__8__SKY_ARMOR_CLOUD_F
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_45uSSv.gif
   - typeSingle: XOPS_POWER_ARMOR_PILOT__8__XOPS_POWER_ARMOR_PILOT_M
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Equipment/man_50uPAp.gif
@@ -4861,37 +4861,37 @@ extraSprites:
   - typeSingle: HUMAN__11__CAP_ONESUIT_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_30AAPA_wide_down_right.gif
 ### skystrike armor
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_BR
+  - typeSingle: HUMAN__11__CAP_SKY_BR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_bigger_right.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_C
+  - typeSingle: HUMAN__11__CAP_SKY_C
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_center.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_D
+  - typeSingle: HUMAN__11__CAP_SKY_D
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_DBL
+  - typeSingle: HUMAN__11__CAP_SKY_DBL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down_bigger_left.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_DBR
+  - typeSingle: HUMAN__11__CAP_SKY_DBR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down_bigger_right.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_DD
+  - typeSingle: HUMAN__11__CAP_SKY_DD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_down_down.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_H
+  - typeSingle: HUMAN__11__CAP_SKY_H
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_high.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_HBL
+  - typeSingle: HUMAN__11__CAP_SKY_HBL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_high_bigger_left.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_R
+  - typeSingle: HUMAN__11__CAP_SKY_R
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_right.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SL
+  - typeSingle: HUMAN__11__CAP_SKY_SL
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_left.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SLD
+  - typeSingle: HUMAN__11__CAP_SKY_SLD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_left_down.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SR
+  - typeSingle: HUMAN__11__CAP_SKY_SR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_right.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_SS
+  - typeSingle: HUMAN__11__CAP_SKY_SS
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_smaller_shorter.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_W
+  - typeSingle: HUMAN__11__CAP_SKY_W
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_wide.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_WD
+  - typeSingle: HUMAN__11__CAP_SKY_WD
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_wide_down.gif
-  - typeSingle: HUMAN__11__CAP_SKY_STRIKE_WDR
+  - typeSingle: HUMAN__11__CAP_SKY_WDR
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Headgear/man_40SS_wide_down_right.gif
 #----- Headgear -----#
   - typeSingle: HUMAN__14__HELMET_KEVLAR_BL

@@ -272,7 +272,7 @@ research:
   - name: STR_ANTI_GRAV_DEVICE
     points: 20
     needItem: true
-  - name: STR_SKY_STRIKE_ARMOR_TAN
+  - name: STR_SKY_ARMOR_TAN
     cost: 25
     points: 20
     dependencies:

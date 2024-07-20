@@ -7956,32 +7956,32 @@ items:
     armor: 65
     recover: false
 # Fourth Tier #
-  - type: STR_SKY_STRIKE_ARMOR_PILOT
+  - type: STR_SKY_ARMOR_PILOT
     size: 0.6
     costSell: 57000
     listOrder: 2040
-  - type: STR_SKY_STRIKE_ARMOR_TAN
+  - type: STR_SKY_ARMOR_TAN
     size: 0.6
     costSell: 57000
     listOrder: 2041
-  - type: STR_SKY_STRIKE_ARMOR_BLACK
+  - type: STR_SKY_ARMOR_BLACK
     size: 0.6
     costSell: 57000
     listOrder: 2042
-  - type: STR_SKY_STRIKE_ARMOR_GRAY
+  - type: STR_SKY_ARMOR_GRAY
     size: 0.6
     costSell: 57000
     listOrder: 2043
-  - type: STR_SKY_STRIKE_ARMOR_WHITE
+  - type: STR_SKY_ARMOR_WHITE
     size: 0.6
     costSell: 57000
     listOrder: 2044
-  - type: STR_SKY_STRIKE_ARMOR_CLOUD
+  - type: STR_SKY_ARMOR_CLOUD
     size: 0.6
     costSell: 57000
     listOrder: 2045
 # Corpses
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_PILOT
+  - type: STR_CORPSE_SKY_ARMOR_PILOT
     name: STR_CORPSE
     weight: 24
     bigSprite: 107
@@ -7991,7 +7991,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_TAN
+  - type: STR_CORPSE_SKY_ARMOR_TAN
     name: STR_CORPSE
     weight: 24
     bigSprite: 106
@@ -8001,7 +8001,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_BLACK
+  - type: STR_CORPSE_SKY_ARMOR_BLACK
     name: STR_CORPSE
     weight: 24
     bigSprite: 111
@@ -8011,7 +8011,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_GRAY
+  - type: STR_CORPSE_SKY_ARMOR_GRAY
     name: STR_CORPSE
     weight: 24
     bigSprite: 110
@@ -8021,7 +8021,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_WHITE
+  - type: STR_CORPSE_SKY_ARMOR_WHITE
     name: STR_CORPSE
     weight: 24
     bigSprite: 109
@@ -8031,7 +8031,7 @@ items:
     battleType: 11
     armor: 65
     recover: false
-  - type: STR_CORPSE_SKY_STRIKE_ARMOR_CLOUD
+  - type: STR_CORPSE_SKY_ARMOR_CLOUD
     name: STR_CORPSE
     weight: 24
     bigSprite: 108

@@ -84,12 +84,12 @@ extraStrings:
       STR_CORPSE_ALLOY_ARMOR_GRAY: Corpse
       STR_CORPSE_ALLOY_ARMOR_WHITE: Corpse
       STR_CORPSE_ALLOY_ARMOR_GREEN: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_TAN: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_PILOT: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_CLOUD: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_WHITE: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_GRAY: Corpse
-      STR_CORPSE_SKY_STRIKE_ARMOR_BLACK: Corpse
+      STR_CORPSE_SKY_ARMOR_TAN: Corpse
+      STR_CORPSE_SKY_ARMOR_PILOT: Corpse
+      STR_CORPSE_SKY_ARMOR_CLOUD: Corpse
+      STR_CORPSE_SKY_ARMOR_WHITE: Corpse
+      STR_CORPSE_SKY_ARMOR_GRAY: Corpse
+      STR_CORPSE_SKY_ARMOR_BLACK: Corpse
       STR_CORPSE_PSI_ARMOR: Corpse
       STR_CORPSE_PSI_ARMOR_BLACK: Corpse
       STR_CORPSE_PSI_ARMOR_PILOT: Corpse
@@ -1738,18 +1738,18 @@ extraStrings:
       STR_ALLOY_ARMOR_WHITE_UC: ALLOY ARMOR WHITE
       STR_HEAVY_ALLOY_ARMOR: Heavy Alloy Armor
       STR_HEAVY_ALLOY_ARMOR_UC: HEAVY ALLOY ARMOR
-      STR_SKY_STRIKE_ARMOR_TAN: Skystrike Armor
-      STR_SKY_STRIKE_ARMOR_TAN_UC: Skystrike ARMOR
-      STR_SKY_STRIKE_ARMOR_CLOUD: Skystrike Armor Sky Blue
-      STR_SKY_STRIKE_ARMOR_CLOUD_UC: Skystrike ARMOR SKY BLUE
-      STR_SKY_STRIKE_ARMOR_PILOT: Skystrike Armor Pilot
-      STR_SKY_STRIKE_ARMOR_PILOT_UC: Skystrike Armor Pilot
-      STR_SKY_STRIKE_ARMOR_WHITE: Skystrike Armor White
-      STR_SKY_STRIKE_ARMOR_WHITE_UC: Skystrike ARMOR WHITE
-      STR_SKY_STRIKE_ARMOR_GRAY: Skystrike Armor Grey
-      STR_SKY_STRIKE_ARMOR_GRAY_UC: Skystrike ARMOR GREY
-      STR_SKY_STRIKE_ARMOR_BLACK: Skystrike Armor Black
-      STR_SKY_STRIKE_ARMOR_BLACK_UC: Skystrike ARMOR BLACK
+      STR_SKY_ARMOR_TAN: Skystrike Armor
+      STR_SKY_ARMOR_TAN_UC: Skystrike ARMOR
+      STR_SKY_ARMOR_CLOUD: Skystrike Armor Sky Blue
+      STR_SKY_ARMOR_CLOUD_UC: Skystrike ARMOR SKY BLUE
+      STR_SKY_ARMOR_PILOT: Skystrike Armor Pilot
+      STR_SKY_ARMOR_PILOT_UC: Skystrike Armor Pilot
+      STR_SKY_ARMOR_WHITE: Skystrike Armor White
+      STR_SKY_ARMOR_WHITE_UC: Skystrike ARMOR WHITE
+      STR_SKY_ARMOR_GRAY: Skystrike Armor Grey
+      STR_SKY_ARMOR_GRAY_UC: Skystrike ARMOR GREY
+      STR_SKY_ARMOR_BLACK: Skystrike Armor Black
+      STR_SKY_ARMOR_BLACK_UC: Skystrike ARMOR BLACK
       STR_KEVLAR_VEST_ARMOR_TAN: Kevlar Vest
       STR_KEVLAR_VEST_ARMOR_TAN_UC: KEVLAR VEST
       STR_KEVLAR_VEST_ARMOR_GREEN: Woodland Camo
@@ -1898,12 +1898,12 @@ extraStrings:
       STR_VEST_HEC_ARMOR_UFOPEDIA: A Hazardous Environment Combat suit that protects the wearer from smoke, chemical, and biological agents. However it is restrictive of vision though.
       STR_XOPS_UFOPEDIA: Xeno Operations Armor combines the best armor and tactical infantry combat technologies available on Earth. It provides a real time targeting computer and communication uplink system.
       STR_PSI_UFOPEDIA: This suit enhances numerous mental abilities and is resistant to plasma. However the skin tight suit is weak to most other forms of attack.
-      STR_SKY_STRIKE_UFOPEDIA: The anti gravity jet system of Skystrike armor grants the agent flight and also aids them in movement increasing their speed.
+      STR_SKY_UFOPEDIA: The anti gravity jet system of Skystrike armor grants the agent flight and also aids them in movement increasing their speed.
       STR_XOPS_POWER_UFOPEDIA: The pinnacle of armor technology. This powered armor enhances the agent in numerous ways. It also protects against psionic attack, but does so at the cost of the agent's psi skills.
       STR_XOPS_ARMOR_UFOPEDIA_DISPLAY: Xeno Operations Armor
       STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY: Alloy Armor
       STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY: Kevlar Vest
-      STR_SKY_STRIKE_ARMOR_UFOPEDIA_DISPLAY: Sky Strike Armor
+      STR_SKY_ARMOR_UFOPEDIA_DISPLAY: Sky Strike Armor
       STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY: HEC Suit
       STR_PSI_ARMOR_UFOPEDIA_DISPLAY: Nerve Suit
       STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY: Power Armor

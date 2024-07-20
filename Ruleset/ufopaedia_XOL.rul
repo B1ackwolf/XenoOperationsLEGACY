@@ -813,13 +813,13 @@ ufopaedia:
     listOrder: 1701
     requires:
       - STR_ALLOY_ARMOR_TAN
-  - id: STR_SKY_STRIKE_ARMOR_UFOPEDIA_DISPLAY
+  - id: STR_SKY_ARMOR_UFOPEDIA_DISPLAY
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SKY_STRIKE_UFOPEDIA
+    text: STR_SKY_UFOPEDIA
     listOrder: 1710
     requires:
-      - STR_SKY_STRIKE_ARMOR_TAN
+      - STR_SKY_ARMOR_TAN
   # - id: STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY ojito borrar
   #   type_id: 5
   #   section: STR_WEAPONS_AND_EQUIPMENT
