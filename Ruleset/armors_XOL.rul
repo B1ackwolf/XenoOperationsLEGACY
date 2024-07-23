@@ -5900,8 +5900,8 @@ armors:
     visibilityAtDark: 18
     heatVision: 100
     builtInWeapons: &PocketConfigurationForPowerArmor
-      - STR_NULL_SMALL_BACKPACK
       - STR_NULL_POCKET_LS
+      - STR_NULL_SMALL_BACKPACK
       - STR_NULL_POCKET_RS
     units: *CompatibilityWithSoldierUnits
     damageModifier: &ModifiersForPowerArmor
@@ -6754,10 +6754,10 @@ armors:
     movementType: 0
     psiVision: 8
     builtInWeapons:
-      - STR_NULL_BACKPACK
-      - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_RS
+      - STR_NULL_BACKPACK
+      - STR_NULL_BELT
       - STR_NULL_POCKET_LL
     units: *CompatibilityWithPilotUnits
     damageModifier: &ModifiersForPsiPilotArmor
@@ -6945,11 +6945,11 @@ armors:
     movementType: 0
     psiVision: 8
     builtInWeapons: &PocketConfigurationForPsiArmor
-      - STR_NULL_BACKPACK
-      - STR_NULL_POCKET_RS
       - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_RS
+      - STR_NULL_BACKPACK
       - STR_NULL_POCKET_LL
+      - STR_NULL_POCKET_RL
     units: *CompatibilityWithSoldierUnits
     damageModifier: &ModifiersForPsiArmor
       - 1.0
@@ -8484,6 +8484,7 @@ armors:
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
+      - STR_NULL_HAND_LEFT
     loftempsSet: [ 3 ]
 #
   - type: STR_DRONE_ADVANCED_MEDIUM_CHASSIS_UC
@@ -8550,11 +8551,12 @@ armors:
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
+      - STR_NULL_HAND_LEFT
     loftempsSet: [ 92, 89, 90, 91 ]
 ################################################################
 # ojito doggos
   - type: STR_K9_HARNESS
-    spriteSheet: DOGE.PCK
+    spriteSheet: XOPS_DOGE_0.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 57
     layersDefaultPrefix: K9
@@ -8565,10 +8567,26 @@ armors:
       M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M4: ["", "", "M4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M5: ["", "", "M5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M6: ["", "", "M6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M7: ["", "", "M7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M8: ["", "", "M8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M9: ["", "", "M9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M10: ["", "", "M10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M11: ["", "", "M11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F4: ["", "", "F4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F5: ["", "", "F5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F6: ["", "", "F6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F7: ["", "", "F7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F8: ["", "", "F8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F9: ["", "", "F9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
 ####temporary solution?####
     corpseBattle:
       - STR_DOGE_CORPSE
@@ -8632,7 +8650,7 @@ armors:
 #
   - type: STR_K9_COMBAT_VEST
     storeItem: STR_DOGE_COMBAT_VEST
-    spriteSheet: DOGE_COMBAT_VEST.PCK
+    spriteSheet: XOPS_DOGE_1.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 58
     layersDefaultPrefix: K9
@@ -8643,10 +8661,26 @@ armors:
       M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
       M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
       M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M4: ["", "", "M4_BREED", "", "", "", "", "", "K9_VEST_ALT_U", "", "", ""]
+      M5: ["", "", "M5_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M6: ["", "", "M6_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M7: ["", "", "M7_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M8: ["", "", "M8_BREED", "", "", "", "", "", "K9_VEST_ALT_U", "", "", ""]
+      M9: ["", "", "M9_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M10: ["", "", "M10_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      M11: ["", "", "M11_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
       F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_VEST_ALT_U", "", "", ""]
       F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
       F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
       F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F4: ["", "", "F4_BREED", "", "", "", "", "", "K9_VEST_ALT_U", "", "", ""]
+      F5: ["", "", "F5_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F6: ["", "", "F6_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F7: ["", "", "F7_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F8: ["", "", "F8_BREED", "", "", "", "", "", "K9_VEST_ALT_U", "", "", ""]
+      F9: ["", "", "F9_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
+      F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_COMBAT_VEST_CORPSE
     visibilityAtDay: 40
@@ -8660,13 +8694,11 @@ armors:
     builtInWeapons:
       - STR_DOGE_BARK
       - STR_DOGE_BITE
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RS
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
-      - STR_NULL_POCKET_LL
     weight: 6
     recovery:
       morale:
@@ -8706,7 +8738,7 @@ armors:
     # tags:
   - type: STR_K9_PERSONAL_ARMOR
     storeItem: STR_DOGE_DURATHREAD_VEST
-    spriteSheet: DOGE_DURATHREAD_VEST.PCK
+    spriteSheet: XOPS_DOGE_2.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 59
     layersDefaultPrefix: K9
@@ -8717,10 +8749,26 @@ armors:
       M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M4: ["", "", "M4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M5: ["", "", "M5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M6: ["", "", "M6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M7: ["", "", "M7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M8: ["", "", "M8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M9: ["", "", "M9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M10: ["", "", "M10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M11: ["", "", "M11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F4: ["", "", "F4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F5: ["", "", "F5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F6: ["", "", "F6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F7: ["", "", "F7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F8: ["", "", "F8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F9: ["", "", "F9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_DURATHREAD_VEST_CORPSE
     visibilityAtDay: 40
@@ -8736,10 +8784,10 @@ armors:
       - STR_DOGE_BARK
       - STR_DOGE_BITE
       - STR_NULL_BELT
-      - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
+      - STR_NULL_BACKPACK
       - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
+      - STR_NULL_POCKET_RS
+      - STR_NULL_HOLSTER
       - STR_NULL_POCKET_LL
     recovery:
       morale:
@@ -8779,7 +8827,7 @@ armors:
 #
   - type: STR_K9_ALLOY_ARMOR
     storeItem: STR_DOGE_AA_VEST
-    spriteSheet: DOGE_ALLOY_VEST.PCK
+    spriteSheet: XOPS_DOGE_3.PCK
     # spriteInv: MAN_100
     customArmorPreviewIndex: 60
     layersDefaultPrefix: K9
@@ -8790,10 +8838,26 @@ armors:
       M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M4: ["", "", "M4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M5: ["", "", "M5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M6: ["", "", "M6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M7: ["", "", "M7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M8: ["", "", "M8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M9: ["", "", "M9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M10: ["", "", "M10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M11: ["", "", "M11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F4: ["", "", "F4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F5: ["", "", "F5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F6: ["", "", "F6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F7: ["", "", "F7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F8: ["", "", "F8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F9: ["", "", "F9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
     corpseBattle:
       - STR_DOGE_ALLOY_VEST_CORPSE
     visibilityAtDay: 40
@@ -8808,11 +8872,11 @@ armors:
     builtInWeapons:
       - STR_DOGE_BITE
       - STR_DOGE_BARK
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RS
+      - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
-      - STR_NULL_POCKET_RS
-      - STR_NULL_POCKET_LS
-      - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
     recovery:
       morale:

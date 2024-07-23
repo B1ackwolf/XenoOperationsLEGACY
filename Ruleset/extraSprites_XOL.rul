@@ -3058,34 +3058,34 @@ extraSprites:
     height: 24  
     files:  
       108: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_SpIcon_Smell.png
-  - type: DOGE.PCK
+  - type: XOPS_DOGE_0.PCK
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE.png
-  - type: DOGE_COMBAT_VEST.PCK
+      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE0.png
+  - type: XOPS_DOGE_1.PCK
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE_COMBAT_VEST.png
-  - type: DOGE_DURATHREAD_VEST.PCK
+      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE1.png
+  - type: XOPS_DOGE_2.PCK
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE_DURATHREAD_VEST.png
-  - type: DOGE_ALLOY_VEST.PCK
+      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE2.png
+  - type: XOPS_DOGE_3.PCK
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE_ALLOY_VEST.png
+      0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE3.png
 #-----TANKS WIP, REORDER LATER OJITO
   - type: BASIC_TANK_AP_SPRITESHEET
     width: 256
@@ -3751,6 +3751,22 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M2.png
   - typeSingle: K9__2__M3_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M3.png
+  - typeSingle: K9__2__M4_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M4.png
+  - typeSingle: K9__2__M5_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M1.png
+  - typeSingle: K9__2__M6_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M6.png
+  - typeSingle: K9__2__M7_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M7.png
+  - typeSingle: K9__2__M8_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M8.png
+  - typeSingle: K9__2__M9_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M1.png
+  - typeSingle: K9__2__M10_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M2.png
+  - typeSingle: K9__2__M11_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M11.png
   - typeSingle: K9__2__F0_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M0.png
   - typeSingle: K9__2__F1_BREED
@@ -3759,6 +3775,22 @@ extraSprites:
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M2.png
   - typeSingle: K9__2__F3_BREED
     fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M3.png
+  - typeSingle: K9__2__F4_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M4.png
+  - typeSingle: K9__2__F5_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M1.png
+  - typeSingle: K9__2__F6_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M6.png
+  - typeSingle: K9__2__F7_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M7.png
+  - typeSingle: K9__2__F8_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M8.png
+  - typeSingle: K9__2__F9_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M1.png
+  - typeSingle: K9__2__F10_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M2.png
+  - typeSingle: K9__2__F11_BREED
+    fileSingle: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/Breed/DOG_M11.png
 #----- Human body -----#
   - typeSingle: HUMAN__2__M0_NUDE
     fileSingle: Resources/UnitSprites/XcomFaction/XcomHuman/InvHuman/Body/MAN_M0.png

@@ -128,5 +128,5 @@ startingBase:
   randomSoldiers:
     STR_SOLDIER: 7
     STR_ELITE_SOLDIER: 2
-    STR_PILOT: 5
     STR_SOLDIER_OFFICER: 1
+    STR_PILOT: 5

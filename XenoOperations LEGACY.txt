@@ -285,6 +285,8 @@ Sprite tweaks:
  - finalizado (for real this time, i swear) el sprite del grenade launcher, ahora si parece verdaderamente un milkor MGL
 
  - "suavizado" la apariencia de los perritos.
+   * adicionalmente se agregaron algunos fur patterns extras para testear cambios (en especial en el mallinois)
+   * mejorado directamente los sprites de los ataques de perritos ya q antes el ladrido y el mordisco eran demasiado similares entre si
  - toda el tier de melees recibio cambios sustanciales
  - pequeños retoques al
    * cuchillo alloy humano
@@ -324,7 +326,7 @@ Sprite tweaks:
      ~ se supone q vendrian en distintos talles, pero me doy cuenta q por mi composicion de de layers, hacerlo con la distribuicion actual seria negativo a largo plazo, asi q prefiero rehacer un poco la estructura actual para no terminar teniendo esfuerzo desperdiciado y sea contraproducente a largo plazo.
      ~ la mejora de los cascos de los dos primeros tiers han sido postergados al siguiente parche, tambien recibiran mejoras los spritesheets de las unidades
        ° he estado experimentando un poco con esto, pero necesitaria tiempo valioso q podria seguir siendo invertido en la mejora del tech tree
-
+   * recibido una mejora para la foto de la ufopedia de esta armadura (consultar si puedo modificar esto para reducir el clottering con una foto directamente en la ufopedia de fondo para todas las armaduras)
 craft changes:
  - todas las naves de xcom recibieron mejoras significativas sea en funcionalidad o en apariencia, ademas de retoques en estadisticas (ojito hacer esto)
    *dragonfly recibio correcciones menores con los LoS desde adentro del avion.
