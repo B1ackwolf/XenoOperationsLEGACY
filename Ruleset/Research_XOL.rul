@@ -317,6 +317,16 @@ research:
       - STR_ELERIUM_POWERED_SERVOS
       - STR_REACTOR_MINIATURIZATION
       - STR_CODEX_4
+#
+  - name: STR_DOGE_CYBERSUIT #ojito armadura perrito nueva
+    requiresBaseFunc: [ ADV_LAB ]
+    cost: 75
+    points: 10
+    dependencies:
+      - STR_XOPS_POWER_ARMOR_TAN
+      - STR_DOGE_UPLIFTING
+    listOrder: 17577
+
 #--Armor Tech Tree--------------------END
 #--Laser Weapons Tech Tree--------------------
   - name: STR_LASER_WEAPONIZATION
@@ -2534,3 +2544,16 @@ research:
     # dependencies:
     #   - STR_DOGE_RECRUITMENT
     # listOrder: 17512
+
+#  - name: STR_DOGE_BITE_CYBER
+   # cost: 0
+   # points: 0
+   # dependencies:
+   #   - STR_DOGE_CYBERSUIT
+   # listOrder: 17581
+#  - name: STR_DOGE_BARK_CYBER
+   # cost: 0
+   # points: 0
+   # dependencies:
+   #   - STR_DOGE_CYBERSUIT
+   # listOrder: 17592

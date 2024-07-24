@@ -2951,24 +2951,19 @@ manufacture:
       STR_ALIEN_ALLOYS: 25
       STR_CODEX_FRAGMENT: 20
     listOrder: 2006
-#--- Power Armor ----------------------------------END
-#--- Power Suit ojito, eliminate this----------------------------------
-  # - name: STR_POWER_SUIT
-  #   category: STR_HEAVY_ARMOR
-  #   time: 650
-  #   space: 10
-  #   requiredItems:
-  #     STR_ELERIUM_115: 5
-  #     STR_ALIEN_ALLOYS: 10
-  #     STR_CODEX_FRAGMENT: 5
-  # - name: STR_FLYING_SUIT
-  #   category: STR_HEAVY_ARMOR
-  #   time: 720
-  #   space: 10
-  #   requiredItems:
-  #     STR_ELERIUM_115: 15
-  #     STR_ALIEN_ALLOYS: 10
-  #     STR_CODEX_FRAGMENT: 7
+#
+  - name: STR_DOGE_CYBERSUIT #ojito armadura nueva de perrito, este debe ser mejorado
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_XOPS_POWER_ARMOR_TAN
+      - STR_DOGE_UPLIFTING
+    space: 5
+    time: 800
+    cost: 56000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+    requiresBaseFunc: [ ADV_WORKS ]
+    listOrder: 17577
 #--- Power Suit ----------------------------------END
 #--- Alien Component Breakdown ----------------------------------
 #--- UFO Component Breakdown ----------------------------------END

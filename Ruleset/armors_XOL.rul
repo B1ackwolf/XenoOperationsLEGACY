@@ -8914,6 +8914,103 @@ armors:
     specialWeapon: STR_DOGE_TRACK
     loftempsSet: [ 2 ]
 #
+  - type: STR_DOGE_CYBERSUIT_ARMOR #ojito armadura perrito nueva
+    storeItem: STR_DOGE_CYBERSUIT
+    spriteSheet: DOGE_CYBERSUIT.PCK
+    layersDefaultPrefix: DOGE_AGENT
+    layersDefinition:
+      M0: ["", "", "M0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M2: ["", "", "M2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M3: ["", "", "M3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M4: ["", "", "M4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M5: ["", "", "M5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M6: ["", "", "M6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M7: ["", "", "M7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M8: ["", "", "M8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M9: ["", "", "M9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M10: ["", "", "M10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      M11: ["", "", "M11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F0: ["", "", "F0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F1: ["", "", "F1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F2: ["", "", "F2_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F3: ["", "", "F3_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F4: ["", "", "F4_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F5: ["", "", "F5_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F6: ["", "", "F6_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F7: ["", "", "F7_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F8: ["", "", "F8_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F9: ["", "", "F9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+      F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
+    customArmorPreviewIndex: 61
+    corpseBattle:
+      - STR_DOGE_CYBERSUIT_CORPSE
+    visibilityAtDay: 40
+    visibilityAtDark: 18
+    personalLight: 5
+    heatVision: 50
+    antiCamouflageAtDay: 3
+    antiCamouflageAtDark: 2
+    frontArmor: 25
+    sideArmor: 36
+    rearArmor: 30
+    underArmor: 18
+#    psiDefence: *StandardDynamicPsiDefence #ojito , sacar luego de xfiles?
+    weight: -8
+    stats:
+      reactions: 10
+    recovery:
+      morale:
+        flatHundred: -0.05
+        manaNormalized: 14.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      energy:
+        manaNormalized: 40
+        healthCurrent: 0.25
+#      stun: *StandardAgentStunRes #ojit, sacar luego de xfiles?
+      health:
+        stunNormalized: -0.1
+    movementType: 0
+    drawingRoutine: 4
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    allowsKneeling: false
+    overKill: 1.5
+    damageModifier: &DogCybersuitResists
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.85
+      - 0.7
+      - 0.8
+      - 0.7
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.3
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    units:
+      - STR_DOGE_SAPIENS_SAPIENS
+    specialWeapon: STR_DOGE_TRACK
+    builtInWeapons: #&CyberDogWeapons
+#      - STR_DOGE_BARK_CYBER   #ojito aqui iria cañones como el del liger
+#      - STR_DOGE_BITE_CYBER   # ojito aqui iria un mordisco mejorado?
+      - STR_NULL_POCKET_LS
+      - STR_NULL_POCKET_RS
+      - STR_NULL_SMALL_BACKPACK
+      - STR_NULL_HOLSTER
+    loftempsSet: [ 2 ]
+    tags:
+      HANDCUFF_PROTECTION: 100
+
 #---Alien Armors ---------------------------
   - type: CELATID_ARMOR
     spriteInv: Inventory_CELATID

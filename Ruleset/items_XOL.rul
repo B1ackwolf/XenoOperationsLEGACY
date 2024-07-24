@@ -784,6 +784,11 @@ items:
     size: 0.5
     costSell: 30000
     listOrder: 10492
+  - type: STR_DOGE_CYBERSUIT #ojito armadura nueva de perrito
+#    categories: [STR_XCOM_TECH, STR_OUTFITS]
+    size: 0.5
+    costSell: 64000
+    listOrder: 17577
 # corpses armaduras doggos 
   - type: STR_DOGE_CORPSE
     weight: 25
@@ -825,7 +830,7 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-  - type: STR_DOGE_CYBERSUIT_CORPSE
+  - type: STR_DOGE_CYBERSUIT_CORPSE #ojito armadura nueva de perrito
     weight: 30
     bigSprite: 1068
     floorSprite: 918
@@ -835,7 +840,7 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-    # categories: [STR_HUMAN_TECH, STR_OUTFITS]
+    # categories: [STR_HUMAN_TECH, STR_OUTFITS]   
 # armas perritos
   - type: STR_DOGE_BARK
     weight: 0

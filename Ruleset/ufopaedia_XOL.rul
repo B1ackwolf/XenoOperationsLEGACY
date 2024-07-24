@@ -59,6 +59,48 @@ ufopaedia:
       width: 311
       height: 150
     listOrder: 784
+######## ojito cosas nuevas de perritos
+  - id: STR_K9_HARNESS
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_DOGE_RECRUITMENT
+    text: STR_DOGE_ARMOR_UFOPEDIA
+    listOrder: 17570
+#
+  - id: STR_K9_COMBAT_VEST
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_DOGE_RECRUITMENT
+    text: STR_DOGE_COMBAT_VEST_ARMOR_UFOPEDIA
+    listOrder: 17572
+#
+  - id: STR_K9_PERSONAL_ARMOR
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_DOGE_RECRUITMENT
+      - STR_PERSONAL_ARMOR
+    text: STR_DOGE_ALLOY_VEST_ARMOR_UFOPEDIA
+    listOrder: 17576
+#
+  - id: STR_K9_ALLOY_ARMOR
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_DOGE_RECRUITMENT
+      - STR_SKY_ARMOR_TAN
+    text: STR_DOGE_DURATHREAD_VEST_ARMOR_UFOPEDIA
+    listOrder: 17574
+#
+  - id: STR_DOGE_CYBERSUIT_ARMOR
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_DOGE_UPLIFTING
+      - STR_DOGE_CYBERSUIT
+#########
   - id: STR_DRONE_WARFARE
     type_id: 8
     section: STR_XCOM_PERSONNEL

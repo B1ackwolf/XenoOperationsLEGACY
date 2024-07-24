@@ -12,7 +12,7 @@ extraSprites:
       166: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_COMBAT_VEST_CORPSE.png
       167: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_ALLOY_VEST_CORPSE.png
       168: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_DURATHREAD_VEST_CORPSE.png
-      1068: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_CYBERSUIT_CORPSE.png
+      1068: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_CYBERSUIT_CORPSE.png    
       63: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Pilot_Inventory_corpse_Blue.png
       101: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_Blue.gif
       99: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse.gif
@@ -3086,6 +3086,14 @@ extraSprites:
     height: 200
     files:
       0: Resources/UnitSprites/XcomFaction/XcomDoge/DOGE3.png
+  - type: DOGE_CYBERSUIT.PCK #ojito armadura perrito nueva
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Doge/DOGE_CYBERSUIT.png
+
 #-----TANKS WIP, REORDER LATER OJITO
   - type: BASIC_TANK_AP_SPRITESHEET
     width: 256
