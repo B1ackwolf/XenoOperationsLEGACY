@@ -327,6 +327,10 @@ Sprite tweaks:
      ~ la mejora de los cascos de los dos primeros tiers han sido postergados al siguiente parche, tambien recibiran mejoras los spritesheets de las unidades
        ° he estado experimentando un poco con esto, pero necesitaria tiempo valioso q podria seguir siendo invertido en la mejora del tech tree
    * recibido una mejora para la foto de la ufopedia de esta armadura (consultar si puedo modificar esto para reducir el clottering con una foto directamente en la ufopedia de fondo para todas las armaduras)
+ - agregado un nuevo nivel de armaduras para los perros, el cybersuit, no solamente es equivalente a la power armor (siendo esta requisito) sino q adicionalmente requieren de un canido elevado a sapiencia para su uso correcto
+
+
+
 craft changes:
  - todas las naves de xcom recibieron mejoras significativas sea en funcionalidad o en apariencia, ademas de retoques en estadisticas (ojito hacer esto)
    *dragonfly recibio correcciones menores con los LoS desde adentro del avion.

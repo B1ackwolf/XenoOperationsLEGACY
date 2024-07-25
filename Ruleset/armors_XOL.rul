@@ -11,6 +11,7 @@ armors:
 ##### End of vainilla delete section #####-------------------------
 ##### First tier basic armors #####--------------------------------
   - type: STR_FLIGHT_JUMPSUIT
+    ufopediaType: STR_PILOT_UFOPEDIA_DISPLAY
     spriteSheet: XOPS_XCOM_0.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
