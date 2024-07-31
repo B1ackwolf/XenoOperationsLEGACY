@@ -78,6 +78,11 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #leer lo de arriba     
 #####
  - balancear TODOS LOS ITEMS q sean explosivos y/o con rango y concretar el tema de las explosiones que pierdan daño segun el area de impacto
+   * agregar al tema de las descripciones de ufopedia respecto a esto
+     ~ el small rocket tiene menor area de explosion, el misil large el area es mayor y ademas se mantiene el daño en el area a mas tiles, el incendiary tiene el mismo daño en casi todo y es mas amplio
+     ~ revisar que el rango de los rieles es "2" de range, testear a ver si deberia reducirse a 1 
+   * revisar luego los randomtype para q tengan tipo 2 o 3 segun sea el caso 
+     ~ tambien revisar de balancear luego el tema de los tomorale y demas efectos extras. 
    * meterle al tema del ataque en area acido
    * acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
@@ -238,7 +243,11 @@ IMPORTANTE PARA LORE:
  - describir que la barraca grande tambien proporciona el trooper school y es necesario para poder hacer el upgrade a oficiales y demas
 #
  - explicar que los aliens no usan FTL, sino mas bien cosas parecidas a un alcubierre drive
- - el viaje a marte tardaria aproximadamente 10 dias?
+ - el viaje a marte tardaria aproximadamente 10 dias para nosotros?
+   * por cuestiones de desaceleracion, la mitad del viaje se hace de espaldas asi q eso agrega tiempo.
+   * los aliens hacen el viaje a la mitad del tiempo.
+   * con un motor de esas caracteristicas el viaje a alpha centauri (4.5 años luz de distancia) seria aprox unos 10 años
+   * estariamos hablando de unos 18k/s a 20k/s, aproximadamente el 8%~ de la velocidad luz 
  - Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
    * Consists of high-entropy alloys of known and other alien elements.
    * The real problem is not knowing the elements but the proportion for the correct mix to obtain desired properties.

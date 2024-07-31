@@ -470,14 +470,13 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 70
-# ojito esto va a ser replicado en todos y cada uno de los blast radius en mayor o menor medida
 # doble ojito recordatorio agregar el ignore overkill en practicamente todos
     damageType: 3
     damageAlter:
       RandomType: 2
-      FixRadius: 4
+      FixRadius: 3
       RadiusReduction: 20
-      FireThreshold: 100
+      FireThreshold: 150
       ToHealth: 1.2
       ToMorale: 0.5
       ToArmorPre: 0.05
@@ -598,8 +597,8 @@ items:
     damageAlter: 
       RandomType: 2
       FixRadius: 4
-      RadiusReduction: 20
-      FireThreshold: 100
+      RadiusReduction: 25
+      FireThreshold: 1000
       ToHealth: 1.0
       ToMorale: 2.0
       ToArmorPre: 0.05
@@ -1478,7 +1477,7 @@ items:
     damageType: 3
     damageAlter: 
       RandomType: 6
-      FixRadius: 4
+      FixRadius: 3
       RadiusReduction: 15
       FireThreshold: 1000
       ToHealth: 1.2
@@ -1500,8 +1499,8 @@ items:
       RandomType: 7
       ResistType: 2
       FixRadius: 4
-      RadiusReduction: 10
-      FireThreshold: 40 #ojito confirmar bien este
+      RadiusReduction: 5
+      FireThreshold: 25 #ojito confirmar bien este
       ToHealth: 1.5
       ToMorale: 3.0
       ToArmorPre: 0.05
@@ -1509,19 +1508,19 @@ items:
 #      IgnoreOverKill: false
     listOrder: 2127
   - type: STR_HC_AP_AMMO #its smoke grenade
-    damageType: 3
     power: 65
     costBuy: 5
     costSell: 2
     bigSprite: 14
     floorSprite: 12
   #  handSprite: 312
-    damageAlter: # continuar este
+    damageType: 3
+    damageAlter: 
       RandomType: 2
       ResistType: 9
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 5
+      RadiusReduction: 50
+      FireThreshold: 300
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -1538,12 +1537,14 @@ items:
   - type: STR_SMALL_ROCKET
     costBuy: 60
     costSell: 30
-    damageAlter: # continuar este
+    damageType: 3
+    power: 75
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 3
+      RadiusReduction: 40
+      FireThreshold: 500
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -1555,12 +1556,14 @@ items:
     listOrder: 2131
     costBuy: 80
     costSell: 40
-    damageAlter: # continuar este
+    damageType: 3
+    power: 100
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 4
+      RadiusReduction: 20
+      FireThreshold: 400
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -1570,10 +1573,12 @@ items:
   - type: STR_INCENDIARY_ROCKET
     costBuy: 40
     costSell: 20
-    damageAlter: # continuar este
-      RandomType: 2
+    damageType: 3
+    power: 90
+    damageAlter:
+      RandomType: 7
       ResistType: 2
-      FixRadius: 10
+      FixRadius: 5
       RadiusReduction: 5
       FireThreshold: 30
       ToHealth: 2.0
@@ -1668,7 +1673,7 @@ items:
     bulletSprite: 29
     power: 37
     damageType: 1
-    damageAlter:  #ojito con esto, copiarselo al resto de las armas cuando confirme q pueda hacer andar el mod otra vez
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -1730,7 +1735,7 @@ items:
     hitAnimation: 26
     power: 40
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter: 
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -1793,7 +1798,7 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter: 
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -1889,7 +1894,7 @@ items:
     hitAnimation: 26
     power: 39
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -1952,7 +1957,7 @@ items:
     hitAnimation: 26
     power: 35
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -2045,7 +2050,7 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -2107,7 +2112,7 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -2168,7 +2173,7 @@ items:
     hitAnimation: 26
     power: 70
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -2228,7 +2233,7 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -2277,12 +2282,12 @@ items:
     hitAnimation: 0
     power: 53
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 3
+      RadiusReduction: 15
+      FireThreshold: 1000
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -2319,7 +2324,7 @@ items:
     hitAnimation: 26
     power: 73
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -2363,12 +2368,12 @@ items:
     hitAnimation: 0
     power: 85
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 4
+      RadiusReduction: 30
+      FireThreshold: 500
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -2390,12 +2395,12 @@ items:
     hitAnimation: 0
     power: 115
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 5
+      RadiusReduction: 20
+      FireThreshold: 300
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -2503,7 +2508,11 @@ items:
     hitAnimation: 46
     bulletSprite: 24
     power: 41
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 14
     battleType: 2
     armor: 65
@@ -2520,7 +2529,7 @@ items:
     bulletSprite: 1
     power: 51
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -2580,7 +2589,11 @@ items:
     hitSound: 95
     hitAnimation: 46
     power: 46
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 12
     battleType: 2
     armor: 65
@@ -2597,7 +2610,7 @@ items:
     hitAnimation: 26
     power: 50
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -2658,7 +2671,11 @@ items:
     hitSound: 95
     hitAnimation: 46
     power: 65
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 9
     battleType: 2
     armor: 65
@@ -2675,7 +2692,7 @@ items:
     hitAnimation: 26
     power: 71
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -2768,7 +2785,11 @@ items:
     hitSound: 95
     hitAnimation: 46
     power: 43
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 25
     battleType: 2
     armor: 65
@@ -2785,7 +2806,7 @@ items:
     hitAnimation: 26
     power: 47
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -2843,7 +2864,11 @@ items:
     hitSound: 95
     hitAnimation: 46
     power: 40
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 14
     shotgunPellets: 5
     battleType: 2
@@ -2858,7 +2883,7 @@ items:
     hitAnimation: 26
     power: 45
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -2948,7 +2973,11 @@ items:
     hitSound: 95
     hitAnimation: 46
     power: 52
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 20
     battleType: 2
     listOrder: 2326
@@ -2963,7 +2992,7 @@ items:
     hitAnimation: 26
     power: 60
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -3023,7 +3052,11 @@ items:
     hitSound: 95
     hitAnimation: 46
     power: 54
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 45
     battleType: 2
     invWidth: 2
@@ -3040,7 +3073,7 @@ items:
     hitAnimation: 26
     power: 61
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -3099,7 +3132,11 @@ items:
     hitSound: 95
     hitAnimation: 46
     power: 72
-    damageType: 8
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ResistType: 8
+      FixRadius: 0
     clipSize: 10
     battleType: 2
     listOrder: 2334
@@ -3114,7 +3151,7 @@ items:
     hitAnimation: 26
     power: 78
     damageType: 1
-    damageAlter:  #ojito con esto, verificar si es funcional e util
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 0
@@ -3175,12 +3212,12 @@ items:
     hitAnimation: 0
     power: 64
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 8
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 2
+      RadiusReduction: 25
+      FireThreshold: 75
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -3202,12 +3239,12 @@ items:
     hitAnimation: 0
     power: 70
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 2
+      RadiusReduction: 25
+      FireThreshold: 300
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -3256,12 +3293,12 @@ items:
     hitAnimation: 0
     power: 144
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 5
+      RadiusReduction: 35
+      FireThreshold: 500
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -3283,12 +3320,12 @@ items:
     hitAnimation: 0
     power: 115
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 8
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 5
+      RadiusReduction: 25
+      FireThreshold: 1000
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -3900,12 +3937,12 @@ items:
 #    hitAnimation: 26
     power: 37
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -3984,12 +4021,12 @@ items:
 #    hitAnimation: 26
     power: 36
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4068,12 +4105,12 @@ items:
 #    hitAnimation: 26
     power: 48
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 2
+      RadiusReduction: 8
+      FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4153,12 +4190,12 @@ items:
 #    hitAnimation: 26
     power: 56
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 2
+      RadiusReduction: 10
+      FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4235,12 +4272,12 @@ items:
 #    hitAnimation: 26
     power: 57
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 2
+      RadiusReduction: 10
+      FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4322,12 +4359,12 @@ items:
 #    hitAnimation: 26
     power: 66
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 3
+      RadiusReduction: 10
+      FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4408,12 +4445,12 @@ items:
 #    hitAnimation: 26
     power: 90
     damageType: 3
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 4
+      RadiusReduction: 15
+      FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4498,7 +4535,7 @@ items:
     damageType: 5
     clipSize: 6
     battleType: 2
-    damageAlter: # continuar este
+    damageAlter: #OJITO OJOTE, continuar este el tema de los explosivos
       RandomType: 2
       ResistType: 10
       FixRadius: 10
