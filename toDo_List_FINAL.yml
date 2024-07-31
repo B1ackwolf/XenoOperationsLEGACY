@@ -89,6 +89,11 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  - describir que la barraca grande tambien proporciona el trooper school y es necesario para poder hacer el upgrade a oficiales y demas
 # 
  - balancear TODOS LOS ITEMS q sean explosivos y/o con rango y concretar el tema de las explosiones que pierdan daño segun el area de impacto
+   * agregar al tema de las descripciones de ufopedia respecto a esto
+     ~ el small rocket tiene menor area de explosion, el misil large el area es mayor y ademas se mantiene el daño en el area a mas tiles, el incendiary tiene el mismo daño en casi todo y es mas amplio
+     ~ revisar que el rango de los rieles es "2" de range, testear a ver si deberia reducirse a 1 
+   * revisar luego los randomtype para q tengan tipo 2 o 3 segun sea el caso 
+     ~ tambien revisar de balancear luego el tema de los tomorale y demas efectos extras. 
    * meterle al tema del ataque en area acido
    * acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
@@ -240,8 +245,51 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
        ~ esto se resolvio con brutal IA, igual seguir investigando
 #
 IMPORTANTE PARA LORE:
+ - aprovechar para el lore, "el tema de los codex son fragmentos de una inteligencia primigenia, obtuvieron la ascencion y pasaron sus mentes a un mundo digital, cada nucleo de un codex es originalmente un individuo, cuya unica meta es reformarse a si mismo, parasitando formas de vida inteligentes para que hagan el trabajo por ellos."
+   * en un principio, esta especie era dominante, en la categoria 4 de la escala de kardashov, increible avanzados.
+   * al llegar a una cuspide dedicaron el resto de sus existencias a la autocomplacencia, alcanzaron una etapa superior a la post escasez, por lo tanto todas sus necesidades estaban cubierta. esto les hizo caer en un stagnation que duro eones.
+   * algun suceso no especificado disturbed su hegemonia. el mismo hecho de su avanzado estado tecnologico los hizo "smug" y desinterezados, se sobreconfiaron en su propia supremacia en q esto les protegeria de cualquier problema.
+   * desde hacia milenios ya existia una tendencia de descargar sus mentes en copias digitales, a modo de mantener su personalidad y de ese modo extender artificialmente su existencia.
+   * un evento subito al q se refieren como "the blackout" hizo q el 99.99% de la especie desapareciera repentinamente. unicamente estas mentes que habian sido descargadas temporalmente "sobrevivieron" a este primer "rapture".
+     ~ importante aclarar y hacer enfasis en que fue subito el suceso y que fue por mero azar y casualidad que se preservaron sus mentes. 
+     ~ esto no fue ningun acto heroico o sacrificio noble, simplemente los q ese dia recordaron hacer backup en la nube se salvaron.
+     ~ esto abre la posibilidad a una gran variedad de "personalidades" respaldadas, no todos eran mentes cientificas queriendo preservar su legado al futuro, tambien estaban magnates desinteresados, estaban lideres crueles, psicopatas, egolatras narcisistas, estaban mocosos ingenuos q simplmente se subscribieron a un free trail period en el gmail espacial y justo por eso se respaldaron.
+       °esto abre la posibilidad a que cada mente pueda poseer agendas propias acordes a su usuario original, no todos eran filantropos pero tampoco todos eran villanos.
+  * el 0.01% q si sobrevivio a esta primera pase estuvieron presentes en algo llamado "la noche eterna", estos que si evadieron el cataclismo pasaron el resto de su existencia intentando preservar estas mentes digitales.
+    ~ importante hacer enfasis en la ambiguedad tanto de las causas y la amenaza, la crisis, el apagon, etc. para mantener la atmosfera de terror cosmico de "QUE PORONGAS FUE CAPAZ DE EXTERMINAR UNA CIVILIZACION NIVEL 4" ademas de sobre todo el enigma de "SERA QUE LO Q SEA Q FUESE ESO....SIGUE AHI AFUERA?, ESPERANDO?"
+  * para preservar tanto a los individuos y sobre todo su civilizacion, iniciaron una caceria de estos "respaldos", cabe aclarar q cada servidor contenia una informacion casi infinita.
+  * cada "mente" fue entonces inyectada con una copia de la base de datos tecnologica de su civilizacion, esto abulto el ya de por si grotesco cantidad de informacion.
+  * para poder hacerlo mas manejable, toda estos "datos" fueron comprimidos en archivos rars llamado CODEX.
+    ~ el problema es q la compresion termino afectado algunas mentes, en algunos casos la degrado, en otras cambio totalmente la personalidad
+    ~ de por si la especie era indiferente a lo q consideraban especies inferiores, pero esto solo agravo el problema. 
+    ~ muchas lineas de codigo relacionado al usuario original fueron reemplazados por informacion tecnologica.
+  * igualmente los codex seguian siendo demasiado grandes por los que necesitaron ser doblados en computadoras cuanticas, este nivel de compresion degenero aun mas la "personalidad" de estos.
+  * debido al apagon la tecnologia necesaria para hacer estas sublimaciones (proceso de creacion del backup mental) era imposible de realizar nuevamente. los supervivientes se encontraban en la desesperante situacion de tener la informacion necesaria para evitar la catastrofe pero sin los medios ni mecanismos para salvaguardarlos de manera segura.
+  * algunos intentaron meter pistas y opiniones propias dentro de los codex, esto incremento aun mas la degeneracion de las mentes ya q algunos podian consistir incluso en amalgaciones de disntitas entidades. no hay q aclarar la volatibilidad que esto representa.
+  * como a los sobrevivientes se les agotaba el tiempo util, esto los empujo a tomar medidas cada vez mas desesperadas.
+  * algunos se resignaron a la idea de q iba a ser imposible para ellos restaurar su civilizacion y tomaron medidas extras. 
+     ~ 1) hacer q cada pieda de informacion del codex sea autoreplicable.
+     ~ 2) comprimir aun mas el codex hasta el punto de dejarlo hyper requete comprimido.
+     ~ 3) inventar las "keys", estas llaves cumplian una triple funcion.
+       ° a) funcionar como "seeders", llenos de material genetico y arcas, eran arrojados en distintas direcciones intentando aterrizar planetas con condiciones optimas que les permitiera desarrollar vida (seeded life theory) y q esta alcanzara un umbral tecnologico suficientemente alto para retomar la labor de reformar los codex.
+         ++ esto mantiene la tematica del juego original q somos creaciones de los aliens invasores, en este caso somos bioproductos de los codices
+         ++ quizas el meteorito q mato a los dinosaurios tenia un key incrustado en la piedra??? haciendo q la tierra sea uno de los casos raros donde no somos el producto de uno sino de dos KEYS, ya q cada key es unica respecto a la informacion q posee, asi q segun la key q caia en la tierra, produciria resultados y permutaciones distintas.
+       ° b) contener instrucciones de como funcionan los codex de modo q si una civilizacion alcanza el nivel necesario podria utilizarlo.
+       ° c) tener algoritmos especiales que al ser insertados dentro de un codex en construccion, ayudara a desdoblar/descomprimir la informacion mas rapido o eficientemente (Cada vez q un codex es "upgraded" es justamente eso, esta siendo descomprimido intentando alcanzar su tamaño original)
+  * en el presente cada contendiente en la guerra posee su propio codex, los humanos tienen uno al q le pueden aplicar dos llaves (Explicando asi como alcanzamos tan rapido a los aliens), los aliens solo tienen una sola llave, pero quieren usar los disponibles aqui para poder expandir el suyo.
+  * cada codex es unico con una agenda propia por lo que no necesaria mente son buenos ni malos, somos meramente herramientas en sus ambiciones por reformarse, cada "entidad" tiene la insaciable necesidad de reformarse a si misma como meta principal y esta voracidad es la que la lleva a producir las invasiones y utilizar a especies "menores" para su conveniencia.
+  * aun es un enigma cual es el objetivo final de nuestro codex, para que quiere reformarse? esta corrupto y solo tiene una voracidad consumista? desea elevar a una especia menor en una relacion simbiotica y asi luchar contra lo que fuese que los afecto originalmente y evitar otro cataclismo? de ser asi, estaria justificado hacer lo q se tenga q hacer para este fin?
+  * aunque al final se termine en un "hanz are we the baddies??" en el momento en q cuando ganemos nuestro codex nos apunte a otra civilizacion en desarrollo con llaves disponibles para hacer q el nuestro crezca y terminemos siendo la especie avanzada q invade a una mas pequeña. pero esto sea por un bien mayor?
+   * "si miras al abismo, este te devuelve la mirada" "aquellos q usen los artefactos del diablo, deben estar preparados para blandir su espada (osea del diablo)"
+ - ESTA SERIA LA IDEA GENERAL DEL LORE PRINCIPAL.
+
+###########
  - explicar que los aliens no usan FTL, sino mas bien cosas parecidas a un alcubierre drive
- - el viaje a marte tardaria aproximadamente 10 dias?
+ - el viaje a marte tardaria aproximadamente 10 dias para nosotros?
+   * por cuestiones de desaceleracion, la mitad del viaje se hace de espaldas asi q eso agrega tiempo.
+   * los aliens hacen el viaje a la mitad del tiempo.
+   * con un motor de esas caracteristicas el viaje a alpha centauri (4.5 años luz de distancia) seria aprox unos 10 años
+   * estariamos hablando de unos 18k/s a 20k/s, aproximadamente el 8%~ de la velocidad luz 
  - Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
    * Consists of high-entropy alloys of known and other alien elements.
    * The real problem is not knowing the elements but the proportion for the correct mix to obtain desired properties.
