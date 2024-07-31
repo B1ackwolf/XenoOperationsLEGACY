@@ -8556,9 +8556,8 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 ################################################################
 # ojito doggos
-  - type: STR_K9_HARNESS
+  - type: STR_K9_HARNESS_UC
     spriteSheet: XOPS_DOGE_0.PCK
-    # spriteInv: MAN_100
     customArmorPreviewIndex: 57
     layersDefaultPrefix: K9
     layersSpecificPrefix:
@@ -8588,9 +8587,8 @@ armors:
       F9: ["", "", "F9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
-####temporary solution?####
     corpseBattle:
-      - STR_DOGE_CORPSE
+      - STR_K9_HARNESS_CORPSE
     storeItem: STR_NONE
     visibilityAtDay: 40
     visibilityAtDark: 15
@@ -8601,8 +8599,8 @@ armors:
     rearArmor: 5
     underArmor: 5
     builtInWeapons:
-      - STR_DOGE_BARK
-      - STR_DOGE_BITE
+      - STR_CANID_BARK
+      - STR_CANID_BITE
       - STR_NULL_BACKPACK
       - STR_NULL_BELT
       - STR_NULL_HOLSTER
@@ -8610,7 +8608,7 @@ armors:
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RL
       - STR_NULL_POCKET_LL
-    recovery:
+    recovery: #OJITO agregar este stat a todas las armaduras?
       morale:
         flatHundred: -0.05
         manaNormalized: 14.0
@@ -8646,13 +8644,12 @@ armors:
       - STR_DOGE
       - STR_DOGE_PRESAPIENT
       - STR_DOGE_SAPIENS_SAPIENS
-    specialWeapon: STR_DOGE_TRACK
+    specialWeapon: STR_CANID_TRACKING
     loftempsSet: [ 2 ]
 #
-  - type: STR_K9_COMBAT_VEST
-    storeItem: STR_DOGE_COMBAT_VEST
+  - type: STR_K9_COMBAT_VEST_UC
+    storeItem: STR_K9_COMBAT_VEST
     spriteSheet: XOPS_DOGE_1.PCK
-    # spriteInv: MAN_100
     customArmorPreviewIndex: 58
     layersDefaultPrefix: K9
     layersSpecificPrefix:
@@ -8683,7 +8680,7 @@ armors:
       F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
       F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_VEST_U", "", "", ""]
     corpseBattle:
-      - STR_DOGE_COMBAT_VEST_CORPSE
+      - STR_K9_COMBAT_VEST_CORPSE
     visibilityAtDay: 40
     visibilityAtDark: 15
     personalLight: 5
@@ -8693,8 +8690,8 @@ armors:
     rearArmor: 13
     underArmor: 9
     builtInWeapons:
-      - STR_DOGE_BARK
-      - STR_DOGE_BITE
+      - STR_CANID_BARK
+      - STR_CANID_BITE
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RS
       - STR_NULL_BACKPACK
@@ -8734,13 +8731,12 @@ armors:
       - 1.0 #9 Smoke
       - 1.0 #10 Antimatter
     units: *CompatibilityWithDogeUnits
-    specialWeapon: STR_DOGE_TRACK
+    specialWeapon: STR_CANID_TRACKING
     loftempsSet: [ 2 ]
     # tags:
-  - type: STR_K9_PERSONAL_ARMOR
-    storeItem: STR_DOGE_DURATHREAD_VEST
+  - type: STR_K9_PERSONAL_GEAR_UC
+    storeItem: STR_K9_PERSONAL_GEAR
     spriteSheet: XOPS_DOGE_2.PCK
-    # spriteInv: MAN_100
     customArmorPreviewIndex: 59
     layersDefaultPrefix: K9
     layersSpecificPrefix:
@@ -8771,7 +8767,7 @@ armors:
       F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
     corpseBattle:
-      - STR_DOGE_DURATHREAD_VEST_CORPSE
+      - STR_K9_PERSONAL_GEAR_CORPSE
     visibilityAtDay: 40
     visibilityAtDark: 15
     personalLight: 5
@@ -8782,8 +8778,8 @@ armors:
     underArmor: 10
     weight: -4
     builtInWeapons:
-      - STR_DOGE_BARK
-      - STR_DOGE_BITE
+      - STR_CANID_BARK
+      - STR_CANID_BITE
       - STR_NULL_BELT
       - STR_NULL_BACKPACK
       - STR_NULL_POCKET_LS
@@ -8823,13 +8819,12 @@ armors:
       - 1.0 #9 Smoke
       - 1.0 #10 Antimatter
     units: *CompatibilityWithDogeUnits
-    specialWeapon: STR_DOGE_TRACK
+    specialWeapon: STR_CANID_TRACKING
     loftempsSet: [ 2 ]
 #
-  - type: STR_K9_ALLOY_ARMOR
-    storeItem: STR_DOGE_AA_VEST
+  - type: STR_K9_ALLOY_SUIT_UC
+    storeItem: STR_K9_ALLOY_SUIT
     spriteSheet: XOPS_DOGE_3.PCK
-    # spriteInv: MAN_100
     customArmorPreviewIndex: 60
     layersDefaultPrefix: K9
     layersSpecificPrefix:
@@ -8860,7 +8855,7 @@ armors:
       F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
     corpseBattle:
-      - STR_DOGE_ALLOY_VEST_CORPSE
+      - STR_K9_ALLOY_SUIT_CORPSE
     visibilityAtDay: 40
     visibilityAtDark: 15
     personalLight: 5
@@ -8871,8 +8866,8 @@ armors:
     underArmor: 12
     weight: -4
     builtInWeapons:
-      - STR_DOGE_BITE
-      - STR_DOGE_BARK
+      - STR_CANID_BITE
+      - STR_CANID_BARK
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RS
       - STR_NULL_BACKPACK
@@ -8912,13 +8907,16 @@ armors:
       - 0.8 #9 Smoke
       - 0.9 #10 Antimatter
     units: *CompatibilityWithDogeUnits
-    specialWeapon: STR_DOGE_TRACK
+    specialWeapon: STR_CANID_TRACKING
     loftempsSet: [ 2 ]
 #
-  - type: STR_DOGE_CYBERSUIT_ARMOR #ojito armadura perrito nueva
-    storeItem: STR_DOGE_CYBERSUIT
-    spriteSheet: DOGE_CYBERSUIT.PCK
-    layersDefaultPrefix: DOGE_AGENT
+  - type: STR_K9_POWER_ARMOR_UC #ojito armadura perrito nueva
+    storeItem: STR_K9_POWER_ARMOR
+    spriteSheet: XOPS_DOGE_3.PCK
+    customArmorPreviewIndex: 61
+    layersDefaultPrefix: K9
+    layersSpecificPrefix:
+      8: K9_HARNESS
     layersDefinition:
       M0: ["", "", "M0_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       M1: ["", "", "M1_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
@@ -8944,9 +8942,8 @@ armors:
       F9: ["", "", "F9_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F10: ["", "", "F10_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
       F11: ["", "", "F11_BREED", "", "", "", "", "", "K9_HARNESS_U", "", "", ""]
-    customArmorPreviewIndex: 61
     corpseBattle:
-      - STR_DOGE_CYBERSUIT_CORPSE
+      - STR_K9_POWER_ARMOR_CORPSE
     visibilityAtDay: 40
     visibilityAtDark: 18
     personalLight: 5
@@ -9000,10 +8997,10 @@ armors:
       - 1.0
     units:
       - STR_DOGE_SAPIENS_SAPIENS
-    specialWeapon: STR_DOGE_TRACK
+    specialWeapon: STR_CANID_TRACKING
     builtInWeapons: #&CyberDogWeapons
-#      - STR_DOGE_BARK_CYBER   #ojito aqui iria cañones como el del liger
-#      - STR_DOGE_BITE_CYBER   # ojito aqui iria un mordisco mejorado?
+#      - STR_CANID_BARK_CYBER   #ojito aqui iria cañones como el del liger
+#      - STR_CANID_BITE_CYBER   # ojito aqui iria un mordisco mejorado?
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RS
       - STR_NULL_SMALL_BACKPACK

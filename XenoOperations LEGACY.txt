@@ -222,21 +222,20 @@ TWEAKS AND BALANCE:
    * por eso paises como china tienen un nivel tan bajo, mientras q paises como argentina en busqueda de ser mas competitivos y arriesgarse con tal de obtener mejor posicion geopolitica, puede empezar con "tanto" a pesar del estado de su economia
    * si bien algunos recibieron aumentos y otros reducciones, todos aumentaron totalmente el TOPE TOTAL, dejando al menos un powerhouse entre cada macrocontinente (uno en asia, uno en europa y uno en america) 
  - aumentado la cantidad de meses necesarios para recibir medalla de longevidad, ahora es cada seis meses
- - modificado todos los tiempos, costos y requisitos necesarios para las 
+ -(ni idea) modificado todos los tiempos, costos y requisitos necesarios para las 
  - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.
-   * Change the requeriments for some projects to balance this.
+   * (OJITO) Change the requeriments for some projects to balance this.
    * The ammunition manufacture should be managed in "blocks" therefore, numbers should be more realist and intuitive.
      ~ no more 1 Xelloy to produce one cartridge, and 3 to produce a rifle.
  - increased the weight of some weapons:
    * the XX autocannon goes to 26 from 17
- - cambiado la configuracion de los bolsillos de las armaduras personales.
- - balanceado finalmente implementado el tema del area de las explosiones cuyo daño varia en base a la distancia del centro de la explosiones
+ - cambiado la configuracion de los bolsillos de las armaduras personales, tambien modificada la configuracion de las armaduras que estan destinadas para pilotos.
+ - (balancear, ojito) finalmente implementado el tema del area de las explosiones cuyo daño varia en base a la distancia del centro de la explosiones
    * algunas armas tendran el mismo daño en todo el rango, esto para darle distincion
    * restaurado el daño en area tipo quimico a algunos explosivos que anteriormente no funcionaban correctamente
      ~ el cohete quimico y la granada hybrida quimica ya no hacen incendiary sino quimico, debido a limitaciones del juego original no habian podido ser instauradas correctamente.
        ° con este nuevo sistema funcionan como esperado.
    * los knuckles hacen daño concussive ahora
-
  - the stun rods become aviable to buying only after unlocking xeno physiology research
  - the stun pistols nows requires xeno physiology and its an manufacture project 
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
@@ -252,7 +251,8 @@ TWEAKS AND BALANCE:
  - reajustado todo lo relacionado con cientificos
    * reducir cantidad de horas los proyectos ÷ 4 aproximadamente, algunos cuestan mas
    * numero total de cientificos aproximadamente 1/5 parte idealmente
-   
+ - se agrego un nuevo nivel de armadura para los perros, el cybertraje, requiere ademas de uplifting para ser equipados  
+
    
  - engineers recieved same treatment:
    * salaries increased to 180k (from 62k)
@@ -328,7 +328,7 @@ Sprite tweaks:
        ° he estado experimentando un poco con esto, pero necesitaria tiempo valioso q podria seguir siendo invertido en la mejora del tech tree
    * recibido una mejora para la foto de la ufopedia de esta armadura (consultar si puedo modificar esto para reducir el clottering con una foto directamente en la ufopedia de fondo para todas las armaduras)
  - agregado un nuevo nivel de armaduras para los perros, el cybersuit, no solamente es equivalente a la power armor (siendo esta requisito) sino q adicionalmente requieren de un canido elevado a sapiencia para su uso correcto
-
+ - el resto de las armaduras caninas fueron modificadas enteramente en cuanto a stats y utilidades se refiere
 
 
 craft changes:

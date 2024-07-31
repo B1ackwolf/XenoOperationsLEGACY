@@ -128,7 +128,7 @@ extraSounds:
       933: Resources/ImprovedSounds/UnitSounds/Doge_preparing.ogg #doge preparing to attack2
       685: Resources/ImprovedSounds/UnitSounds/Doge_maul2.wav #doge biting success 1
       686: Resources/ImprovedSounds/UnitSounds/Doge_maul3.wav #doge biting success 2
-      687: Resources/ImprovedSounds/UnitSounds/Doge_tracking.wav #doge tracking
+      687: Resources/ImprovedSounds/UnitSounds/Doge_Tracking.wav #doge tracking
       1002: Resources/ImprovedSounds/UnitSounds/Tank_move.ogg # tanks track movement
       1003: Resources/ImprovedSounds/UnitSounds/Tank_death.ogg # tanks destuction
       1330: Resources/ImprovedSounds/UnitSounds/TankHE_shot.wav #tank HE cannon from UNEXCOM

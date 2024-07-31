@@ -162,10 +162,11 @@ manufacture:
     listOrder: 1496
 #---Equipment ----------------------------------END
 #--- Crafts ----------------------------------
-  - name: STR_FIREFLY
+  - name: STR_SCARAB #OJITO OJITO
     category: STR_CRAFT
+    requiresBaseFunc: [ ADV_WORKS ]
     requires:
-      - STR_FIREFLY
+      - STR_FIREFLY #ojito checar esto
     requiredItems:
       STR_ALIEN_ALLOYS: 10
     space: 25
@@ -174,6 +175,7 @@ manufacture:
     listOrder: 291
   - name: STR_HERCULES
     category: STR_CRAFT
+    requiresBaseFunc: [ ADV_WORKS ]
     requires:
       - STR_HERCULES
     space: 14
@@ -185,6 +187,7 @@ manufacture:
     listOrder: 292
   - name: STR_GOLIATHUS
     category: STR_CRAFT
+    requiresBaseFunc: [ ADV_WORKS ]
     requires:
       - STR_GOLIATHUS
     space: 18
@@ -197,6 +200,7 @@ manufacture:
     listOrder: 293
   - name: STR_OVERLORD
     category: STR_CRAFT
+    requiresBaseFunc: [ ADV_WORKS ]
     requires:
       - STR_OVERLORD
     space: 20
@@ -222,6 +226,7 @@ manufacture:
     listOrder: 295
   - name: STR_XCF2 #ojito modificar precios
     category: STR_CRAFT
+    requiresBaseFunc: [ ADV_WORKS ]
     requires:
       - STR_XCF2
     requiredItems:
@@ -232,6 +237,7 @@ manufacture:
     listOrder: 295
   - name: STR_XCF3
     category: STR_CRAFT
+    requiresBaseFunc: [ ADV_WORKS ]
     requires:
       - STR_XCF3
     space: 12
@@ -244,6 +250,7 @@ manufacture:
     listOrder: 296
   - name: STR_XCF4
     category: STR_CRAFT
+    requiresBaseFunc: [ ADV_WORKS ]
     requires:
       - STR_XCF4
     space: 15
@@ -257,9 +264,13 @@ manufacture:
   - name: STR_XCF_FUEL
     category: STR_UFO_COMPONENT
     requires:
-      - STR_XCF4
+      - STR_XCF3 #ojito modificar y crear combustible propio apenas descubra este tipo de aviones y mejorar los valores y el balanceo
     space: 1
     time: 10
+    requiredItems:
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_XCF_FUEL: 30
     cost: 1000
     listOrder: 300
 #--- Crafts ----------------------------------
@@ -2852,7 +2863,7 @@ manufacture:
     time: 160
     cost: 11000
     listOrder: 2001
-  - name: STR_DOGE_COMBAT_VEST
+  - name: STR_K9_COMBAT_VEST
     category: STR_DOGE_EQUIPMENT
     requires:
       - STR_XOPS_ARMOR_TAN
@@ -2873,7 +2884,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 2
     listOrder: 2002
-  - name: STR_DOGE_DURATHREAD_VEST
+  - name: STR_K9_PERSONAL_GEAR
     category: STR_DOGE_EQUIPMENT
     requires:
       - STR_DOGE_RECRUITMENT
@@ -2898,7 +2909,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 10
       STR_CODEX_FRAGMENT: 2
     listOrder: 2003
-  - name: STR_DOGE_AA_VEST
+  - name: STR_K9_ALLOY_SUIT
     category: STR_DOGE_EQUIPMENT
     requires:
       - STR_ALLOY_ARMOR_TAN
@@ -2952,7 +2963,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 20
     listOrder: 2006
 #
-  - name: STR_DOGE_CYBERSUIT #ojito armadura nueva de perrito, este debe ser mejorado
+  - name: STR_K9_POWER_ARMOR #ojito armadura nueva de perrito, este debe ser mejorado
     category: STR_PERSONAL_ARMOR
     requires:
       - STR_XOPS_POWER_ARMOR_TAN

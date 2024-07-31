@@ -818,41 +818,38 @@ extraStrings:
       STR_SICK_BAY_UFOPEDIA: "WIP The Medical Bay allows for troops hospitalization right in the base, which shortens recovery time."   # OJITO
       STR_ADVANCED_SICK_BAY: "Advanced Medical Bay"    # OJITO
       STR_ADVANCED_SICK_BAY_UFOPEDIA: "WIP The Medical Bay allows for troops hospitalization right in the base, using advanced alien    # OJITOtechnologies which shortens recovery time."
-
-      STR_DOGE_TRACK: "Track"
-      STR_DOGE_TRACK_UFOPEDIA: "Dogs can be commanded to Track nearby units. Tracking reveals all targets moving nearby, but also makes the dog agitated, which is represented by 10 Morale loss."
-      STR_DOGE_BARK: "Dog Bark"
-      STR_DOGE_BARK_UFOPEDIA: "The ferocious bark of this savage attack dog can cause foes to freeze in place."
-      STR_DOGE_BITE: "Dog Bite"
-      STR_DOGE_BITE_UFOPEDIA: "Chomp!"
-      STR_DOGE_COMBAT_VEST_CORPSE: "Dead Dog"
-      STR_DOGE_COMBAT_VEST: "Dog Combat Gear"
-      STR_K9_COMBAT_VESTTER: "Dog Combat Gear"
-      STR_K9_COMBAT_VEST: "Dog Combat Gear"
-      STR_K9_COMBAT_VEST_UFOPEDIA: "This armor gives the dog some basic protection on the modern battlefield, but may tire it out quickly."
-      STR_K9_PERSONAL_ARMOR: "DURATHREAD VEST"
-      STR_K9_PERSONAL_ARMOR_UNDERWATER: "DOG DURATHREAD VEST"
-      STR_K9_PERSONAL_ARMOR_UFOPEDIA: "The Durathread Vest is much less constricting than combat armor and also offers better protection. It increases the dog's carrying capacity by 4."
-      STR_DOGE_CYBERSUIT_ARMOR: "CYBERSUIT GEAR"
-      STR_DOGE_CYBERSUIT: "Dog Cybersuit"
-      STR_DOGE_CYBERSUIT_CORPSE: "Dead Dog"
-      STR_DOGE_CYBERSUIT_ARMOR_UFOPEDIA: "State of the art protective gear for X-Com canine companions. Features enhanced protection and electronic sensory assistance."
-      STR_DOGE_ALLOY_VEST_CORPSE: "Dead Dog"
-      STR_DOGE_ALLOY_VEST: "Dog Tritanium Vest"
-      STR_K9_ALLOY_ARMOR_UNDERWATER: "TRITANIUM GEAR"
-      STR_K9_ALLOY_ARMOR: "TRITANIUM GEAR"
-      STR_K9_ALLOY_ARMOR_UFOPEDIA: "Made from Tritanium, this protective gear is both stronger and lighter than basic dog armor. It increases the dog's carrying capacity by 4."
-      STR_DOGE_DURATHREAD_VEST_CORPSE: "Dead Dog"
-      STR_DOGE_DURATHREAD_VEST: "Dog Durathread Vest"
-      STR_DOGE_AA_VEST: "Dog Tritanium Gear"
-      STR_DOGE_AA_VEST_ARMOR: "TRITANIUM GEAR"
-      STR_DOGE: "Dog"
-      STR_K9_HARNESS: "Dog Harness"
-      STR_K9_HARNESS_UFOPEDIA: "Unarmored dogs have better effective stamina than those wearing armor."
-#ojito      STR_DOGE: "Attack Dog"
-      STR_DOGE_CORPSE: "Dead Dog"
-      STR_DOGE_JAWS: "Bite"
+# doge unit components
+      STR_DOGE: "Military Trained Dog"
       STR_DOGE_UFOPEDIA: "These highly trained dogs are fully capable of operating in battlefield conditions. Always obedient, they won't attack unless ordered to do so."
+      STR_CANID_TRACKING: "Track"
+      STR_CANID_TRACKING_UFOPEDIA: "Dogs can be commanded to Track nearby units. Tracking reveals all targets moving nearby, but also makes the dog agitated, which is represented by 10 Morale loss."
+      STR_CANID_BARK: "Dog Bark"
+      STR_CANID_BARK_UFOPEDIA: "The ferocious bark of this savage attack dog can cause foes to freeze in place."
+      STR_CANID_BITE: "Dog Bite"
+      STR_CANID_BITE_UFOPEDIA: "[WIP] dog attag Chomp!"
+#doge armors
+      STR_K9_HARNESS: "k9 Harness"
+      STR_K9_HARNESS_UC: "K9 HARNESS"
+      STR_K9_COMBAT_VEST: "k9 Combat Vest"
+      STR_K9_COMBAT_VEST_UC: "K9 COMBAT VEST"
+      STR_K9_PERSONAL_GEAR: "k9 Personal Gear"
+      STR_K9_PERSONAL_GEAR_UC: "K9 PERSONAL GEAR"
+      STR_K9_ALLOY_SUIT: "k9 Exo-Suit"
+      STR_K9_ALLOY_SUIT_UC: "K9 EXO-SUIT"
+      STR_K9_POWER_ARMOR: "k9 Power Armor"
+      STR_K9_POWER_ARMOR_UC: "K9 POWER ARMOR"
+#doge corpses
+      STR_K9_HARNESS_CORPSE: "Dead Dog"
+      STR_K9_COMBAT_VEST_CORPSE: "Dead Dog"
+      STR_K9_PERSONAL_GEAR_CORPSE: "Dead Dog"
+      STR_K9_ALLOY_SUIT_CORPSE: "Dead Dog"
+      STR_K9_POWER_ARMOR_CORPSE: "Dead Dog"
+#doge description ufopaedia
+      STR_K9_HARNESS_UFOPEDIA: "Unarmored dogs have better effective stamina than those wearing armor."
+      STR_K9_COMBAT_VEST_UFOPEDIA: "This vest provides the dog some basic protection on the modern battlefield, but may tire it out quickly."
+      STR_K9_PERSONAL_GEAR_UFOPEDIA: "This Personal Gear is less constricting than combat armor and also offers better protection. It increases the dog's carrying capacity by 4."
+      STR_K9_ALLOY_SUIT_UFOPEDIA: "Made enterile from Xelloy, this protective gear is both stronger and lighter than basic dog armor. It increases the dog's carrying capacity by 4."
+      STR_K9_POWER_ARMOR_UFOPEDIA: "State of the art protective gear for X-Com canine companions. Features enhanced protection and electronic sensory assistance. Requires full Sapiency in order to be equipered."
 ######Ojito Medallas
       STR_COMMENDATIONS_UC: Commendations
       STR_MEDAL_ALIENS_KILLED: "Merit Star"
@@ -1581,6 +1578,8 @@ extraStrings:
       STR_BO_HYBRID_GRENADE2: Hybrid Chem Grenade
       STR_BO_HYBRID_GRENADE2_UFOPEDIA: This grenade uses codex replication technology to create highly flammable chemicals.
       STR_BO_AP_GRENADE: Saw Grenade
+      STR_BO_AP_GRENADE_UFOPEDIA: Saw Grenade that throws small disc in a area
+
 #-----Human Laser Weapons
       STR_LA_MAIN_PISTOL: Laser Pistol
       STR_LA_SMG: Laser Assaulter
@@ -2241,7 +2240,7 @@ extraStrings:
       STR_SUPPORT_UNITS_UFOPEDIA: "The available data unequivocally indicates that the alien threat possesses an astounding technological superiority. As a result, our foremost priority should be the development of strategies and tactics to engage them more effectively until a time when we can engage them on more equal terms. To this end, our focus should shift towards asymmetric warfare and the implementation of combined arms doctrines. Delegating reconnaissance and exploration roles to mechanical assets and K9 support units becomes imperative to safeguard our precious human resources from unnecessary peril."
       STR_DOGE_RECRUITMENT_UFOPEDIA: "These loyal companions are a valuable addition to any X-Com squad. Highly trained dogs, also known as K9 Units, are fully capable of functioning effectively in battlefield conditions. Their unwavering obedience ensures they won't engage in combat unless specifically ordered to do so, swiftly neutralizing any unfortunate lifeforms caught within their powerful jaws.{NEWLINE}{NEWLINE}It's a fitting tribute that humanity's oldest friend stands ready for what could potentially be their final battle."
       STR_DRONE_WARFARE_UFOPAEDIA: "Unmanned aerial vehicles (UAVs) have been employed in both combat and reconnaissance roles. Their capacity to conduct high-altitude scouting, well beyond the reach of ground-based threats, allows for precision strikes, including the deployment of various explosives, missiles, or even kamikaze-like missions directly onto intended targets, all of which greatly enhance our operational capabilities. {NEWLINE} Additionally, we can deploy compact autonomous Land Drones, equipped with short-range weaponry. These drones are ideal for breaching structures and confined spaces suspected of housing enemy troops, ensuring the safety of our personnel."
-      STR_TANKS_UNITS: Heavy Weapons Platforms
+      STR_TANKS_UNITS: Heavy Weapons Platforms #ojito esta mierda
       STR_HEAVY_TANKS_UNITS_UFOPEDIA: "As access to new materials and advanced technologies, such as the enigmatic alien alloys, became available, the imperative to deploy heavier and more formidable units on the battlefield grew exponentially. To meet this demand, our dedicated Research teams embarked on an ambitious endeavor, focusing on the creation of groundbreaking models characterized by a drastic reduction in weight and increased mobility. The primary objective was to engineer units so lightweight that they could be safely transported and swiftly deployed by our enhanced transport ships equipped with VTOL (Vertical Takeoff and Landing) capabilities. {NEWLINE}This engineering feat signifies a pivotal advancement, enabling us to rapidly respond to emerging threats and engage the alien menace with unparalleled agility. These innovative designs are a testament to the relentless pursuit of progress and efficiency in our mission to safeguard humanity against the looming extraterrestrial threat."
       STR_EX_ADRENO_KIT_UFOPEDIA: WIP{NEWLINE} gives 1 dose to revive stun soldiers (get discarded after use)
       STR_EX_FIST_AID_KIT_UFOPEDIA: Basic pouch kit made to stop small hemorrhages. Heals 1 point of bleeding, can be used on themselves (its discarded after use), Cost more TUs,so its slower than other medkits

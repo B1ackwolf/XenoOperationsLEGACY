@@ -2159,9 +2159,9 @@ interfaces:
   - type: articleArmor
     elements:
       - id: button
-        color: 239    # orange
+        color: 239    # Blueish gray
       - id: text
-        color: 8   # grey
+        color: 8   # chalky
         color2: 71  # green
       - id: list
         color: 6   # grey

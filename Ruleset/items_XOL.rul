@@ -770,27 +770,27 @@ items:
     costSell: 8000
     listOrder: 10489
 #armaduras doggos
-  - type: STR_DOGE_COMBAT_VEST
+  - type: STR_K9_COMBAT_VEST
     requires:
       - STR_TAC_INF_TECH
     size: 0.5
     costSell: 4000
     listOrder: 10490
-  - type: STR_DOGE_DURATHREAD_VEST
+  - type: STR_K9_PERSONAL_GEAR
     size: 0.5
     costSell: 6000
     listOrder: 10491
-  - type: STR_DOGE_AA_VEST
+  - type: STR_K9_ALLOY_SUIT
     size: 0.5
     costSell: 30000
     listOrder: 10492
-  - type: STR_DOGE_CYBERSUIT #ojito armadura nueva de perrito
+  - type: STR_K9_POWER_ARMOR #ojito armadura nueva de perrito
 #    categories: [STR_XCOM_TECH, STR_OUTFITS]
     size: 0.5
     costSell: 64000
     listOrder: 17577
 # corpses armaduras doggos 
-  - type: STR_DOGE_CORPSE
+  - type: STR_K9_HARNESS_CORPSE
     weight: 25
     bigSprite: 165
     floorSprite: 165
@@ -800,7 +800,7 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-  - type: STR_DOGE_COMBAT_VEST_CORPSE
+  - type: STR_K9_COMBAT_VEST_CORPSE
     weight: 28
     bigSprite: 166
     floorSprite: 166
@@ -810,7 +810,7 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-  - type: STR_DOGE_DURATHREAD_VEST_CORPSE
+  - type: STR_K9_PERSONAL_GEAR_CORPSE
     weight: 26
     bigSprite: 167
     floorSprite: 167
@@ -820,7 +820,7 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-  - type: STR_DOGE_ALLOY_VEST_CORPSE
+  - type: STR_K9_ALLOY_SUIT_CORPSE
     weight: 27
     bigSprite: 168
     floorSprite: 168
@@ -830,7 +830,7 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-  - type: STR_DOGE_CYBERSUIT_CORPSE #ojito armadura nueva de perrito
+  - type: STR_K9_POWER_ARMOR_CORPSE #ojito armadura nueva de perrito
     weight: 30
     bigSprite: 1068
     floorSprite: 918
@@ -842,7 +842,7 @@ items:
     armor: 65
     # categories: [STR_HUMAN_TECH, STR_OUTFITS]   
 # armas perritos
-  - type: STR_DOGE_BARK
+  - type: STR_CANID_BARK
     weight: 0
     bigSprite: 874
     bulletSprite: 27
@@ -883,7 +883,7 @@ items:
     defaultInventorySlot: STR_LEFT_HAND
     recover: false
     listOrder: 17513
-  - type: STR_DOGE_TRACK
+  - type: STR_CANID_TRACKING
     # categories: [STR_BUILT_INS]
     weight: 0
     bigSprite: 981
@@ -901,7 +901,7 @@ items:
     costUse:
       time: 15
       morale: 20
-  - type: STR_DOGE_BITE
+  - type: STR_CANID_BITE
     # categories: [STR_BUILT_INS]
     weight: 0
     bigSprite: 181

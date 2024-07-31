@@ -590,7 +590,6 @@ facilities:
       STR_MIND_PROBE:
         build: 2
         refund: 1
-
     buildOverFacilities: [ STR_PSIONIC_LABORATORY ]
     buildTime: 42
     removalTime: 8

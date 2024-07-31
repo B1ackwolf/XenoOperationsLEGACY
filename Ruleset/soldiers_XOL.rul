@@ -512,8 +512,8 @@ soldiers:
       psiSkill: 0
       melee: 90
       mana: 0
-    armor: STR_K9_HARNESS
-    armorForAvatar: STR_K9_HARNESS
+    armor: STR_K9_HARNESS_UC
+    armorForAvatar: STR_K9_HARNESS_UC
     avatarOffsetX: 87
     avatarOffsetY: 59
     soldierNames:
@@ -588,8 +588,8 @@ soldiers:
       psiSkill: 0
       melee: 90
       mana: 0
-    armor: STR_K9_HARNESS
-    armorForAvatar: STR_K9_HARNESS
+    armor: STR_K9_HARNESS_UC
+    armorForAvatar: STR_K9_HARNESS_UC
     avatarOffsetX: 87
     avatarOffsetY: 59
     soldierNames:
@@ -665,8 +665,8 @@ soldiers:
       psiSkill: 0
       melee: 90
       mana: 0
-    armor: STR_K9_HARNESS
-    armorForAvatar: STR_K9_HARNESS
+    armor: STR_K9_HARNESS_UC
+    armorForAvatar: STR_K9_HARNESS_UC
     avatarOffsetX: 87
     avatarOffsetY: 59
     soldierNames:

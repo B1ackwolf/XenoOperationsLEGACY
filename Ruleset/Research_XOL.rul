@@ -318,7 +318,7 @@ research:
       - STR_REACTOR_MINIATURIZATION
       - STR_CODEX_4
 #
-  - name: STR_DOGE_CYBERSUIT #ojito armadura perrito nueva
+  - name: STR_K9_POWER_ARMOR #ojito armadura perrito nueva
     requiresBaseFunc: [ ADV_LAB ]
     cost: 75
     points: 10
@@ -2532,28 +2532,28 @@ research:
 #     Ultimate Air Weapon
 #--Codex Tech Tree --------------------END
 #doggos#
-#  - name: STR_DOGE_BITE
+#  - name: STR_CANID_BITE
     # cost: 0
     # points: 0
     # dependencies:
     #   - STR_DOGE_RECRUITMENT
     # listOrder: 17580
-#  - name: STR_DOGE_TRACK
+#  - name: STR_CANID_TRACKING
     # cost: 0
     # points: 0
     # dependencies:
     #   - STR_DOGE_RECRUITMENT
     # listOrder: 17512
 
-#  - name: STR_DOGE_BITE_CYBER
+#  - name: STR_CANID_BITE_CYBER
    # cost: 0
    # points: 0
    # dependencies:
-   #   - STR_DOGE_CYBERSUIT
+   #   - STR_K9_POWER_ARMOR
    # listOrder: 17581
-#  - name: STR_DOGE_BARK_CYBER
+#  - name: STR_CANID_BARK_CYBER
    # cost: 0
    # points: 0
    # dependencies:
-   #   - STR_DOGE_CYBERSUIT
+   #   - STR_K9_POWER_ARMOR
    # listOrder: 17592

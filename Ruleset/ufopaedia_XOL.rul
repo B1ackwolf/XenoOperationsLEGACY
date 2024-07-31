@@ -60,46 +60,48 @@ ufopaedia:
       height: 150
     listOrder: 784
 ######## ojito cosas nuevas de perritos
-  - id: STR_K9_HARNESS
+  - id: STR_K9_HARNESS_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_DOGE_RECRUITMENT
-    text: STR_DOGE_ARMOR_UFOPEDIA
+    text: STR_K9_HARNESS_UFOPEDIA
     listOrder: 17570
 #
-  - id: STR_K9_COMBAT_VEST
+  - id: STR_K9_COMBAT_VEST_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_DOGE_RECRUITMENT
-    text: STR_DOGE_COMBAT_VEST_ARMOR_UFOPEDIA
+    text: STR_K9_COMBAT_VEST_UFOPEDIA
     listOrder: 17572
 #
-  - id: STR_K9_PERSONAL_ARMOR
+  - id: STR_K9_PERSONAL_GEAR_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_DOGE_RECRUITMENT
       - STR_PERSONAL_ARMOR
-    text: STR_DOGE_ALLOY_VEST_ARMOR_UFOPEDIA
+    text: STR_K9_PERSONAL_GEAR_UFOPEDIA
     listOrder: 17576
 #
-  - id: STR_K9_ALLOY_ARMOR
+  - id: STR_K9_ALLOY_SUIT_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_DOGE_RECRUITMENT
       - STR_SKY_ARMOR_TAN
-    text: STR_DOGE_DURATHREAD_VEST_ARMOR_UFOPEDIA
+    text: STR_K9_ALLOY_SUIT_UFOPEDIA
     listOrder: 17574
 #
-  - id: STR_DOGE_CYBERSUIT_ARMOR
+  - id: STR_K9_POWER_ARMOR_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_DOGE_UPLIFTING
-      - STR_DOGE_CYBERSUIT
+      - STR_K9_POWER_ARMOR
+    text: STR_K9_POWER_ARMOR_UFOPEDIA
+    listOrder: 17575
 #########
   - id: STR_DRONE_WARFARE
     type_id: 8
@@ -372,10 +374,10 @@ ufopaedia:
     image_id: LANDDRONEUFO
 
 ######## REORDENAR
-  - id: STR_BASIC_TANK_ARMOR_UC
+  - id: STR_BASIC_TANK_ARMOR_UC #OJITO ESTA MIERDA
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
-    text: STR_BASIC_TANK_ARMOR_UC_UFOPEDIA
+    text: STR_HEAVY_TANKS_UNITS_UFOPEDIA
     listOrder: 10262
 
   - id: STR_TANK_AP_CHASSIS_UC
@@ -384,15 +386,15 @@ ufopaedia:
     requires:
       - STR_TANKS_UNITS
     text: STR_TANK_AP_CHASSIS_UFOPEDIA
-    weapon: STR_25MM_TANK_CANNON
+#    weapon: STR_25MM_TANK_CANNON
     image_id: APTANKUFO
   - id: STR_TANK_HE_CHASSIS_UC
     type_id: 5
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_TANKS_UNITS
-    text: STR_HEAVY_TANK_HE_UFOPEDIA
-    weapon: STR_105MM_TANK_CANNON
+    text: STR_TANK_HE_CHASSIS_UFOPEDIA
+#    weapon: STR_105MM_TANK_CANNON
     image_id: HETANKUFO
   - id: STR_HOVERTANK_PLASMA
     type_id: 3
