@@ -474,8 +474,8 @@ items:
     damageType: 3
     damageAlter:
       RandomType: 2
-      FixRadius: 3
-      RadiusReduction: 20
+      FixRadius: 1
+      RadiusReduction: 25
       FireThreshold: 150
       ToHealth: 1.2
       ToMorale: 0.5
@@ -596,8 +596,8 @@ items:
     damageType: 3
     damageAlter: 
       RandomType: 2
-      FixRadius: 4
-      RadiusReduction: 25
+      FixRadius: 2
+      RadiusReduction: 35
       FireThreshold: 1000
       ToHealth: 1.0
       ToMorale: 2.0
@@ -663,6 +663,7 @@ items:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false #ojito checar luego
       RandomType: 6
+      FixRadius: 0
       ToTile: 1.4
       ToArmor: 0.8
       ToArmorPre: 0.7
@@ -849,14 +850,15 @@ items:
     floorSprite: 0
     handSprite: 0
     fireSound: 248
-    damageType: 0
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
     power: 20
+    damageType: 0
     damageAlter:
       RandomType: 2
       IgnoreDirection: true
+      FixRadius: 3
       ToHealth: 0.0
       ToStun: 0.0
       ToTile: 0
@@ -1477,8 +1479,8 @@ items:
     damageType: 3
     damageAlter: 
       RandomType: 6
-      FixRadius: 3
-      RadiusReduction: 15
+      FixRadius: 2
+      RadiusReduction: 18
       FireThreshold: 1000
       ToHealth: 1.2
       ToMorale: 2.0
@@ -1498,7 +1500,7 @@ items:
     damageAlter: 
       RandomType: 7
       ResistType: 2
-      FixRadius: 4
+      FixRadius: 2
       RadiusReduction: 5
       FireThreshold: 25 #ojito confirmar bien este
       ToHealth: 1.5
@@ -1518,8 +1520,8 @@ items:
     damageAlter: 
       RandomType: 2
       ResistType: 9
-      FixRadius: 5
-      RadiusReduction: 50
+      FixRadius: 3
+      RadiusReduction: 55
       FireThreshold: 300
       ToHealth: 2.0
       ToMorale: 5.0
@@ -1542,7 +1544,7 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 3
+      FixRadius: 1
       RadiusReduction: 40
       FireThreshold: 500
       ToHealth: 2.0
@@ -1561,8 +1563,8 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 4
-      RadiusReduction: 20
+      FixRadius: 2
+      RadiusReduction: 25
       FireThreshold: 400
       ToHealth: 2.0
       ToMorale: 5.0
@@ -1578,8 +1580,8 @@ items:
     damageAlter:
       RandomType: 7
       ResistType: 2
-      FixRadius: 5
-      RadiusReduction: 5
+      FixRadius: 2
+      RadiusReduction: 15
       FireThreshold: 30
       ToHealth: 2.0
       ToMorale: 5.0
@@ -2285,7 +2287,7 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 3
+      FixRadius: 1
       RadiusReduction: 15
       FireThreshold: 1000
       ToHealth: 2.0
@@ -2371,7 +2373,7 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 4
+      FixRadius: 1
       RadiusReduction: 30
       FireThreshold: 500
       ToHealth: 2.0
@@ -2398,7 +2400,7 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 5
+      FixRadius: 2
       RadiusReduction: 20
       FireThreshold: 300
       ToHealth: 2.0
@@ -3211,11 +3213,11 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 64
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 8
-      FixRadius: 2
+      FixRadius: 1
       RadiusReduction: 25
       FireThreshold: 75
       ToHealth: 2.0
@@ -3238,7 +3240,7 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 70
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
@@ -3296,8 +3298,8 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 5
-      RadiusReduction: 35
+      FixRadius: 4
+      RadiusReduction: 40
       FireThreshold: 500
       ToHealth: 2.0
       ToMorale: 5.0
@@ -3323,8 +3325,8 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 8
-      FixRadius: 5
-      RadiusReduction: 25
+      FixRadius: 3
+      RadiusReduction: 35
       FireThreshold: 1000
       ToHealth: 2.0
       ToMorale: 5.0
@@ -3936,12 +3938,12 @@ items:
     hitSound: 125
 #    hitAnimation: 26
     power: 37
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 2
-      RadiusReduction: 5
+      FixRadius: 1
+      RadiusReduction: 25
       FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
@@ -4020,12 +4022,12 @@ items:
     hitSound: 125
 #    hitAnimation: 26
     power: 36
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 2
-      RadiusReduction: 5
+      FixRadius: 1
+      RadiusReduction: 28
       FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
@@ -4104,12 +4106,12 @@ items:
     hitSound: 125
 #    hitAnimation: 26
     power: 48
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 2
-      RadiusReduction: 8
+      FixRadius: 1
+      RadiusReduction: 38
       FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
@@ -4189,12 +4191,12 @@ items:
     hitSound: 126
 #    hitAnimation: 26
     power: 56
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 2
-      RadiusReduction: 10
+      FixRadius: 1
+      RadiusReduction: 39
       FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
@@ -4271,12 +4273,12 @@ items:
     hitSound: 125
 #    hitAnimation: 26
     power: 57
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 2
-      RadiusReduction: 10
+      FixRadius: 1
+      RadiusReduction: 40
       FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
@@ -4358,12 +4360,12 @@ items:
     hitSound: 126
 #    hitAnimation: 26
     power: 66
-    damageType: 3
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 3
-      RadiusReduction: 10
+      FixRadius: 2
+      RadiusReduction: 30
       FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
@@ -4443,13 +4445,13 @@ items:
     bulletSprite: 23
     hitSound: 126
 #    hitAnimation: 26
-    power: 90
-    damageType: 3
+    power: 95
+    damageType: 1
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 4
-      RadiusReduction: 15
+      FixRadius: 3
+      RadiusReduction: 30
       FireThreshold: 150
       ToHealth: 2.0
       ToMorale: 5.0
@@ -4532,15 +4534,15 @@ items:
 #    hitAnimation: 76
     bulletSprite: 12
     power: 38
-    damageType: 5
+    damageType: 3
     clipSize: 6
     battleType: 2
-    damageAlter: #OJITO OJOTE, continuar este el tema de los explosivos
+    damageAlter: 
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 0
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 100
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4646,15 +4648,15 @@ items:
 #    hitAnimation: 76
     bulletSprite: 12
     power: 42
-    damageType: 5
+    damageType: 3
     clipSize: 9
     battleType: 2
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 0
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 100
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4760,13 +4762,13 @@ items:
 #    hitAnimation: 76
     bulletSprite: 12
     power: 60
-    damageType: 5
+    damageType: 3
     clipSize: 5
     battleType: 2
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
       FireThreshold: 30
       ToHealth: 2.0
@@ -4849,7 +4851,7 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 48
-    damageType: 5
+    damageType: 3
     clipSize: 6
     shotgunPellets: 3
     battleType: 2
@@ -4938,7 +4940,7 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 66
-    damageType: 5
+    damageType: 3
     clipSize: 10
     battleType: 2
     attraction: 1
@@ -5031,7 +5033,7 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 95
-    damageType: 5
+    damageType: 3
     clipSize: 14
     battleType: 2
     attraction: 1
@@ -5120,7 +5122,7 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 80
-    damageType: 5
+    damageType: 3
     clipSize: 5
     battleType: 2
     attraction: 1
@@ -5209,7 +5211,7 @@ items:
     hitSound: 19
 #    hitAnimation: 76
     power: 120
-    damageType: 5
+    damageType: 3
     clipSize: 6
     battleType: 2
     invWidth: 2

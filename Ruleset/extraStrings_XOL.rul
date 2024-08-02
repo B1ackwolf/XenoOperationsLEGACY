@@ -1633,9 +1633,9 @@ extraStrings:
       STR_RL_AUTO_CANNON_CLIP2: Depleted Spikes Magazine
       STR_RL_AUTO_CANNON_CLIP3: Enriched Spikes Magazine
       STR_RL_BAZOOKA: Rail Macrocannon
-      STR_RL_BAZOOKA_CLIP1: Sabots Magazine
-      STR_RL_BAZOOKA_CLIP2: Depleted Sabots Magazine
-      STR_RL_BAZOOKA_CLIP3: Enriched Sabots Magazine
+      STR_RL_BAZOOKA_CLIP1: Rods Magazine
+      STR_RL_BAZOOKA_CLIP2: Depleted Rods Magazine
+      STR_RL_BAZOOKA_CLIP3: Enriched Rods Magazine
 #-----Human Plasma Weapons
       STR_PM_SMALL_PISTOL: Plasma Compact Pistol
       STR_PM_SMALL_PISTOL_CLIP1: Nano Plasma Cell

@@ -77,12 +77,15 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
    * These changes would provide much more longevity to the use of drones by XCOM.
 #leer lo de arriba     
 #####
+ - agregarle a todas las armas melee el damagealter segun sea el caso correcto
  - balancear TODOS LOS ITEMS q sean explosivos y/o con rango y concretar el tema de las explosiones que pierdan daño segun el area de impacto
+ - le tengo q agregar a los q son explosivos dedicados un par de cuadros mas pero incrementar el tema de reduccion de daño de modo q quede equiparado al rango actual en base al daño real (y el cuadro adicional tendria solo un poquito de daño extra)
    * agregar al tema de las descripciones de ufopedia respecto a esto
      ~ el small rocket tiene menor area de explosion, el misil large el area es mayor y ademas se mantiene el daño en el area a mas tiles, el incendiary tiene el mismo daño en casi todo y es mas amplio
-     ~ revisar que el rango de los rieles es "2" de range, testear a ver si deberia reducirse a 1 
+     ~ el rango del cohete del lanzacohetes hybrido es de los blast radius
+     ~ el rango de los explosivos rieles es un fogonazo rapido, sin tanto daño en el area
    * revisar luego los randomtype para q tengan tipo 2 o 3 segun sea el caso 
-     ~ tambien revisar de balancear luego el tema de los tomorale y demas efectos extras. 
+     ~ tambien revisar de balancear luego el tema de los tomorale totiles y demas efectos extras. 
    * meterle al tema del ataque en area acido
    * acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
@@ -139,6 +142,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
    * reducir costo de horas proyectos un 1/3
    * resultando en numero total de ingenieros, la mitad aproximadamente 
 #
+ - balancear TODOS LOS STATS DE LAS ARMADURAS
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
@@ -234,6 +238,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
        ~ esto se resolvio con brutal IA, igual seguir investigando
 #
 IMPORTANTE PARA LORE:
+ - recordar el renombrar q las hybridas producen explosion termobarica gracias al elerium empobrecido en bajas cantidades como combustible, por eso aun asi son tan ligeros pero tan dañinos
  - explicar q aunque los drones no son humanos, necesitan de uno para manejarse y espacio en las instalaciones, ya despues aunque sean semi automaticos, igual requieren human input
      ~ aprovechar texto del edificio radar para completar la explicacion
  - Changed all drones to a system based on "a CPU platform that can be inserted into different chassis and with different equipment."
