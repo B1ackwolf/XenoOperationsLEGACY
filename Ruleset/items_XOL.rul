@@ -3298,7 +3298,7 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 4
+      FixRadius: 3
       RadiusReduction: 40
       FireThreshold: 500
       ToHealth: 2.0
@@ -3942,7 +3942,7 @@ items:
     damageAlter:
       RandomType: 2
       ResistType: 3
-      FixRadius: 1
+      FixRadius: 0
       RadiusReduction: 25
       FireThreshold: 150
       ToHealth: 2.0
@@ -4651,7 +4651,7 @@ items:
     damageType: 3
     clipSize: 9
     battleType: 2
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 10
       FixRadius: 0
@@ -4765,17 +4765,17 @@ items:
     damageType: 3
     clipSize: 5
     battleType: 2
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 10
       FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 120
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
       ToStun: 0.7
-      ToTile: 0.25
+      ToTile: 1.25
 #      IgnoreOverKill: false
     attraction: 1
     listOrder: 2614
@@ -4859,9 +4859,9 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 100
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -4944,12 +4944,12 @@ items:
     clipSize: 10
     battleType: 2
     attraction: 1
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 100
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -5037,12 +5037,12 @@ items:
     clipSize: 14
     battleType: 2
     attraction: 1
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 100
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -5126,12 +5126,12 @@ items:
     clipSize: 5
     battleType: 2
     attraction: 1
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 100
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -5217,12 +5217,12 @@ items:
     invWidth: 2
     invHeight: 1
     attraction: 1
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
+      FireThreshold: 100
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -5270,12 +5270,12 @@ items:
     invWidth: 2
     invHeight: 1
     waypoints: 5
-    damageAlter: # continuar este , ojito, hacerlo daño plasma?
+    damageAlter: 
       RandomType: 2
       ResistType: 5
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
+      FixRadius: 4
+      RadiusReduction: 35
+      FireThreshold: 300
       ToHealth: 2.0
       ToMorale: 5.0
       ToArmorPre: 0.05
@@ -5299,10 +5299,10 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    damageAlter: # continuar este
+    damageAlter: 
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 5
       RadiusReduction: 5
       FireThreshold: 30
       ToHealth: 2.0
@@ -5329,11 +5329,11 @@ items:
     invWidth: 2
     invHeight: 1
     waypoints: 5
-    damageAlter: # continuar este
+    damageAlter:
       RandomType: 2
       ResistType: 2
-      FixRadius: 10
-      RadiusReduction: 5
+      FixRadius: 4
+      RadiusReduction: 10
       FireThreshold: 30
       ToHealth: 2.0
       ToMorale: 5.0
@@ -5389,7 +5389,7 @@ items:
     maxRange: 4
     attraction: 6
     listOrder: 2704
-  - type: STR_SH_SMALL_PISTOL_CLIP
+  - type: STR_SH_SMALL_PISTOL_CLIP # ojito me quede aqui, continuar mañana
     size: 0.1
     costSell: 100
     weight: 2

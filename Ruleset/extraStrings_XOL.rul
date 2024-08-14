@@ -1556,7 +1556,7 @@ extraStrings:
       STR_HB_SHOTGUN_UFOPEDIA: This shotgun is a hybrid of alien Codex technology and ballistic technology. It has the particularity it can fires any shotgun ammunition made of alien alloys either in 10-gauge or in older 12-gauge versions. When fired, it sends a spray of high velocity projectiles that are devastating at close range.
       STR_HB_SNIPER: HY8 Sniper Rifle
       STR_HB_SNIPER_CLIP1: H. .52 SAAC Magazine
-      STR_HB_SNIPER_CLIP2: H. .52 SAAC Rifle Chem Mag
+      STR_HB_SNIPER_CLIP2: H. .52 SAAC Chem Mag
       STR_HB_SNIPER_CLIP3: H. .52 SAAC E115 Tipped Mag
       STR_HB_SNIPER_UFOPEDIA: This sniper rifle is a hybrid of alien Codex technology and ballistic technology. It fires the largest caliber aviable, made exclusively by xcom manufacturing industry the .52 SAAC  alien alloy cartridge, but can also be adapted to fire special forms of ammo. A long distance computerized scope greatly enhances accuracy.
       STR_HB_LMG: HY7 Squad Automatic Weapon

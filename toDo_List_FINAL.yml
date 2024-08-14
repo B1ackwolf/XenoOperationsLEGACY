@@ -45,15 +45,15 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  - revisar la velocidad de los UFOS en terminos relativos a mach
  - revisar enteramente las armaduras de perritos para balanceo de stats
  - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens y en las display para simplificar el proceso de modificacion de stats a futuro)
- - con esto podre crear el duplicado necesario para las versiones de armaduras de piloto correspondientes
+ - con esto podre crear el duplicado necesario para las versiones de armaduras de piloto correspondientes necesarias para la ufopedia
  - revisar los damage modifiers de los Aliens
    * agregarle resistencias a energia y daño segun el caso (ejemplo sovereigns y antimateria)
  - balancear todos los damage modifiers de TODAS LAS ARMADURAS  
  - revisar los precios de TODOS LOS ARTICULOS
- - OJITO SIGUIENTE PARCHE, CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
+ -  CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
-   - sera carisimo
-   - exotico 
+   - sera carisimo producir explosivos y municion
+   - exotico , los spawn seran casi inmunes
 #####
  - modificar ligeramente el mapa del security station para q encaje con el octagonal
  - cambiarle el nombre a las armas de aviones
@@ -62,7 +62,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
      ~ Create an improved version that unlocks after researching xelloys?.
 #esto ya se agrego, falta meterlo en el changelog   
  - reordenar el tema de los tipos de unidades y q los drones funcionen las armaduras correctamente
-     ~ crearles sus respectivos armor previews
+     ~ crearles sus respectivos armor previews correctamente (creando un duplicado display)
 #revisar chat con efren para la explicacion     
  - consultar respecto a los drons
      ~ confirm if i can recluse which kind of weapons can this unit pick up (to avoid picking pistols or basic medbags).
@@ -70,7 +70,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
        ° making it necessary to have a supplementary trooper to pick up the weapon and reloading it for the drone.
        ° it should also let the drone to equip stuff like advanced med-gel and the movement detector.
      ~ reduce trowing accuracy to 0 so it cant toss grenades of any kind, yet it should be able to drop or kamikaze itself with explosives.
-   * Additionally, they would have different "armors."
+   * Additionally, they would have different "armors" differences.
      ~ A light chassis, many TUs but low resistance.
      ~ Reinforced, heavier and stronger but with fewer TUs.
      ~ Versions with xelloys, first basic and then advanced.
@@ -85,12 +85,15 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
      ~ el rango del cohete del lanzacohetes hybrido es de los blast radius
      ~ el rango de los explosivos rieles es un fogonazo rapido, sin tanto daño en el area
    * revisar luego los randomtype para q tengan tipo 2 o 3 segun sea el caso 
-     ~ tambien revisar de balancear luego el tema de los tomorale totiles y demas efectos extras. 
+     ~ tambien revisar de balancear luego el tema de los tomorale totiles y demas efectos extras.
+       ° para esto tengo q fijarme en los resistype 10 que son los daño antimateria principalmente
+   * balancear waypoints totales de las armas blaster 
    * meterle al tema del ataque en area acido
+   * modificar el tema del knucles y el damagebonus siendo aplicado
    * acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
    * confirm which ones can be marked to avoid overkill
-
+#
  - balancear breaching charges
    * darle credits a dbrizo por inspirarme para breaching charge
    * aprovechar el comando "throwRange" para definir todos los objetos demasiado pesados o delicados para arrojarse
@@ -128,12 +131,14 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
-
+ - hacerle versiones scabbards a las espadas?
+   * giradas 180°, en fundas si es xelloy y apagadas y con un frame en case de la plasma?
  - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
 
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - revisar que el drone advanced funcione correctamente con un cadaver y un recovery especifico (checar el tema drone corpse), ademas de los respectivos articulos de la ufopedia
  - crear articulos en ufopaedia respecto a los uplifting de perros
+   * revisar video de cypher en matrix explained
  - sombrear mejor sprites de los perritos
  - resolver tema de las imagenes de la ufopaedia de los tanques y drones
 #POSIBLEMENTE TERMINADO?
@@ -281,7 +286,6 @@ IMPORTANTE PARA LORE:
  - Create new lore for the bishop (Interceptor improved xcf1).
    * in short, its an xelloy plated f35, renamed to xyf-36b
  - Improve the rider and rook ufopaedia lore.
- 
 #
 + impending changes: 
  - agregar efecto purpura psionico pero solo a los ethereals
@@ -316,7 +320,6 @@ IMPORTANTE PARA LORE:
 ###################################################################################################################################
 ###################################################################################################################################
 ###################################################################################################################################
-
 + PETICIONES A OXCE:
  - Inquire about making day and night sprites differentiation for armors sprites
    * for implementation in the first tier with lenses going up and down.
@@ -334,15 +337,11 @@ IMPORTANTE PARA LORE:
  - al momento de disparar un arma, el sprite de las armas a dos manos se "alinea" hacia adelante, consultar si existe una manera de q esto se mantenga permanentemente
    * de ese modo se simularia q el dron esta sosteniendo un arma.
  - confirmar como editar para q cada escudo reciba menos daño q el anterior?
-
 #####
-
 + EFRENESPARTANO HELP IN PLANES CHANGES:
- - Firefly
+ - Firefly and other planes
    * Resolve the issue with the ramp so that it doesn't deviate incorrectly (test by placing 3 tus).
-
 #####
-
 + IMPROVEMENTS TO JACKSTRAW2323 MOD RELATIVE TO NEW ETHEREALS:
  - The cape shouldn't disintegrate but should drop to the floor.
  - The cape should be the actual corpse.
@@ -528,7 +527,7 @@ IMPORTANTE PARA LORE:
  - For basic drones, use the drawing routine sprites of medusas to create an effect of going up and down at least one pixel when idle.
  - Maintain the blades of the Shuriken, add a portion of central blades to the Longbow.
    * Completely redesign the Longbow sprite.
-   ### esto ya esta haciendose
+   ### ojito esto ya esta haciendose
  - Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
    * uses three designs, small, medium and large drones
    * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
