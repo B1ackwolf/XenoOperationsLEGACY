@@ -44,8 +44,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #######
  - revisar la velocidad de los UFOS en terminos relativos a mach
  - revisar enteramente las armaduras de perritos para balanceo de stats
- - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens y en las display para simplificar el proceso de modificacion de stats a futuro)
- - con esto podre crear el duplicado necesario para las versiones de armaduras de piloto correspondientes necesarias para la ufopedia
+ - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens )
  - revisar los damage modifiers de los Aliens
    * agregarle resistencias a energia y daño segun el caso (ejemplo sovereigns y antimateria)
  - balancear todos los damage modifiers de TODAS LAS ARMADURAS  
@@ -62,7 +61,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
      ~ Create an improved version that unlocks after researching xelloys?.
 #esto ya se agrego, falta meterlo en el changelog   
  - reordenar el tema de los tipos de unidades y q los drones funcionen las armaduras correctamente
-     ~ crearles sus respectivos armor previews correctamente (creando un duplicado display)
+     ~ crearles sus respectivos armor previews correctamente 
 #revisar chat con efren para la explicacion     
  - consultar respecto a los drons
      ~ confirm if i can recluse which kind of weapons can this unit pick up (to avoid picking pistols or basic medbags).
@@ -132,9 +131,9 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 ####### Esto solo puedo hacerlo en casa
 #######
  - hacerle versiones scabbards a las espadas?
-   * giradas 180°, en fundas si es xelloy y apagadas y con un frame en case de la plasma?
+   * giradas 180°, en fundas si es xelloy y apagadas y con un framewire en case de la plasma?
  - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
-
+ - alargar ligeramente nuevamente la ump45 la parte del cañon (la smg tier 1)
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - revisar que el drone advanced funcione correctamente con un cadaver y un recovery especifico (checar el tema drone corpse), ademas de los respectivos articulos de la ufopedia
  - crear articulos en ufopaedia respecto a los uplifting de perros
@@ -151,7 +150,9 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
+   * preguntar a efren como aprovechar el "uc" para que tengan los nombres unicos en el articulo de la ufopedia, pa q no se repita el nombre en el inventario
       ~ aprovechar y cambiar el nombre(pattern) a las armaduras
+         ° armadura driftsuit = ????
          ° armadura basica = Legionnaire / pilot = zero g suit
          ° armadura xops = praetorian / pilot = equite
          ° Armadura personal = Ulfsark / pilot= valkyrie

@@ -821,78 +821,110 @@ ufopaedia:
     listOrder: 203
 #---XCOM Technology----------------------------------END
 #---Armor----------------------------------
-  - id: STR_PILOT_UFOPEDIA_DISPLAY
+  - id: STR_FLIGHT_JUMPSUIT_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FLIGHT_JUMPSUIT_UFOPEDIA
-    listOrder: 1696
-  - id: STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY
+    listOrder: 1999
+  - id: STR_MECH_DRIFTSUIT_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MECH_DRIFTSUIT_UFOPEDIA
+    listOrder: 2000
+  - id: STR_KEVLAR_VEST_ARMOR_TAN_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VEST_UFOPEDIA
-    listOrder: 1697
-  - id: STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY
+    listOrder: 2001
+  - id: STR_VEST_HEC_ARMOR_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VEST_HEC_ARMOR_UFOPEDIA
-    listOrder: 1698
-  - id: STR_XOPS_ARMOR_UFOPEDIA_DISPLAY
+    listOrder: 2008
+  - id: STR_XOPS_ARMOR_PILOT_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_XOPS_UFOPEDIA
-    listOrder: 1699
+    text: STR_XOPS_ARMOR_PILOT_UFOPEDIA
+    listOrder: 2010
     requires:
       - STR_XOPS_ARMOR_TAN
-  - id: STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY
+  - id: STR_XOPS_ARMOR_TAN_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_XOPS_ARMOR_UFOPEDIA
+    listOrder: 2011
+    requires:
+      - STR_XOPS_ARMOR_TAN
+  - id: STR_PERSONAL_ARMOR_PILOT_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PERSONAL_ARMOR_TAN
+    text: STR_PERSONAL_ARMOR_PILOT_UFOPEDIA
+    listOrder: 2020
+  - id: STR_PERSONAL_ARMOR_TAN_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_PERSONAL_ARMOR_TAN
     text: STR_PERSONAL_ARMOR_UFOPEDIA
-    listOrder: 1700
-  - id: STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY
+    listOrder: 2021
+  - id: STR_ALLOY_ARMOR_PILOT_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ALLOY_PILOT_UFOPEDIA
+    listOrder: 2030
+    requires:
+      - STR_ALLOY_ARMOR_TAN
+  - id: STR_ALLOY_ARMOR_TAN_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ALLOY_UFOPEDIA
-    listOrder: 1701
+    listOrder: 2031
     requires:
       - STR_ALLOY_ARMOR_TAN
-  - id: STR_SKY_ARMOR_UFOPEDIA_DISPLAY
+  - id: STR_SKY_ARMOR_PILOT_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SKY_PILOT_UFOPEDIA
+    listOrder: 2040
+    requires:
+      - STR_SKY_ARMOR_TAN
+  - id: STR_SKY_ARMOR_TAN_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SKY_UFOPEDIA
-    listOrder: 1710
+    listOrder: 2041
     requires:
       - STR_SKY_ARMOR_TAN
-  # - id: STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY ojito borrar
-  #   type_id: 5
-  #   section: STR_WEAPONS_AND_EQUIPMENT
-  #   requires:
-  #     - STR_POWER_SUIT
-  #   text: STR_POWER_SUIT_UFOPEDIA
-  #   listOrder: 1711
-  # - id: STR_FLYING_SUIT_ARMOR_UFOPEDIA_DISPLAY
-  #   type_id: 5
-  #   section: STR_WEAPONS_AND_EQUIPMENT
-  #   requires:
-  #     - STR_FLYING_SUIT
-  #   text: STR_FLYING_SUIT_UFOPEDIA
-  #   listOrder: 1712
-  - id: STR_PSI_ARMOR_UFOPEDIA_DISPLAY
+  - id: STR_XOPS_POWER_ARMOR_PILOT_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_PSI_ARMOR_TAN
-    text: STR_PSI_UFOPEDIA
-    listOrder: 1720
-  - id: STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY
+      - STR_XOPS_POWER_ARMOR_TAN
+    text: STR_XOPS_POWER__PILOT_UFOPEDIA
+    listOrder: 2050
+  - id: STR_XOPS_POWER_ARMOR_TAN_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_XOPS_POWER_ARMOR_TAN
     text: STR_XOPS_POWER_UFOPEDIA
-    listOrder: 1930
-
+    listOrder: 2051
+  - id: STR_PSI_ARMOR_PILOT_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PSI_ARMOR_TAN
+    text: STR_PSI_PILOT_UFOPEDIA
+    listOrder: 2060
+  - id: STR_PSI_ARMOR_TAN_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PSI_ARMOR_TAN
+    text: STR_PSI_UFOPEDIA
+    listOrder: 2061
 #-----XCOM Gear and Weapons----------------------------------
 #####-----First Tier Ballistic Weaponry
   - id: STR_ST_SMALL_PISTOL

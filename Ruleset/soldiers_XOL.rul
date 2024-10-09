@@ -171,8 +171,8 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 40
-    armor: STR_MECH_DRIFTSUIT
-    armorForAvatar: STR_MECH_DRIFTSUIT
+    armor: STR_MECH_DRIFTSUIT_UC
+    armorForAvatar: STR_MECH_DRIFTSUIT_UC
     rankTinySprite: 19      # este se modifica
     rankSprite: 911         # estos se modifican
     rankBattleSprite: 911   # estos se modifican
@@ -236,8 +236,8 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 40
-    armor: STR_MECH_DRIFTSUIT
-    armorForAvatar: STR_MECH_DRIFTSUIT
+    armor: STR_MECH_DRIFTSUIT_UC
+    armorForAvatar: STR_MECH_DRIFTSUIT_UC
     rankTinySprite: 19      # este se modifica
     rankSprite: 911         # estos se modifican
     rankBattleSprite: 911   # estos se modifican
@@ -367,8 +367,8 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 40
-    armor: STR_FLIGHT_JUMPSUIT
-    armorForAvatar: STR_FLIGHT_JUMPSUIT
+    armor: STR_FLIGHT_JUMPSUIT_UC
+    armorForAvatar: STR_FLIGHT_JUMPSUIT_UC
     rankTinySprite: 12 
     rankSprite: 900         # default 42 # basebits.pck
     rankBattleSprite: 900   # default 20 # smoke.pck

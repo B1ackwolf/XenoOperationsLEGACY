@@ -653,11 +653,11 @@ extraStrings:
       STR_SOLDIER: Soldier
       STR_ELITE_SOLDIER: Elite Soldier
       STR_SOLDIER_OFFICER: Officer
-      STR_MECH_DRIFTSUIT: MECH DRIFTSUIT
+      # reordenar ojito
+      STR_MECH_DRIFTSUIT: Mech driftsuits
       STR_MECH_DRIFTSUIT_UC: MECH DRIFTSUIT
-      STR_FLIGHT_JUMPSUIT: FLIGHT SUIT
+      STR_FLIGHT_JUMPSUIT: Ojota Flight Suit
       STR_FLIGHT_JUMPSUIT_UC: FLIGHT SUIT
-      STR_PILOT_UFOPEDIA_DISPLAY: Flight Suit
       STR_FLIGHT_JUMPSUIT_UFOPEDIA: Standard G-suit used by X-Com combat pilots. Made to resist high levels of acceleration forces, lightweight yet durable (includes fire retardant clothing). Its appearance is usually similar to a jumpsuit.
       STR_OFFICER_PROMOTION: Officer Promotion
       STR_TANK_TRAINING_PROGRAM: Armored training program
@@ -1710,7 +1710,12 @@ extraStrings:
       STR_PSI_AMP: Psionic Amplifier
       STR_EX_PSI_AMP_LARGE: Psionic Dominator
 #-----Human Armor
-#OJITO LIMPIAR ARMADURAS REMANENTES
+#OJITO LIMPIAR y reordenar ARMADURAS REMANENTES
+      STR_KEVLAR_VEST_ARMOR_TAN_UC: LEGIONNAIRE ARMOR PATTERN
+      STR_KEVLAR_VEST_ARMOR_TAN: Kevlar Vest
+
+
+
       STR_XOPS_ARMOR_TAN: Xeno Operations Armor
       STR_XOPS_ARMOR_BLACK: Xeno Operations Armor Black
       STR_XOPS_ARMOR_PILOT: Xeno Operations Armor Pilot
@@ -1729,7 +1734,7 @@ extraStrings:
       STR_ALLOY_ARMOR_GREEN: Alloy Armor Green
       STR_ALLOY_ARMOR_GRAY: Alloy Armor Grey
       STR_ALLOY_ARMOR_WHITE: Alloy Armor White
-      STR_ALLOY_ARMOR__TAN_UC: ALLOY ARMOR
+      STR_ALLOY_ARMOR_TAN_UC: ALLOY ARMOR
       STR_ALLOY_ARMOR_BLACK_UC: ALLOY ARMOR BLACK
       STR_ALLOY_ARMOR_PILOT_UC: ALLOY Armor Pilot
       STR_ALLOY_ARMOR_GRAY_UC: ALLOY ARMOR GREY
@@ -1749,8 +1754,8 @@ extraStrings:
       STR_SKY_ARMOR_GRAY_UC: Skystrike ARMOR GREY
       STR_SKY_ARMOR_BLACK: Skystrike Armor Black
       STR_SKY_ARMOR_BLACK_UC: Skystrike ARMOR BLACK
-      STR_KEVLAR_VEST_ARMOR_TAN: Kevlar Vest
-      STR_KEVLAR_VEST_ARMOR_TAN_UC: KEVLAR VEST
+
+
       STR_KEVLAR_VEST_ARMOR_GREEN: Woodland Camo
       STR_KEVLAR_VEST_ARMOR_GREEN_UC: WOODLAND CAMO
       STR_KEVLAR_VEST_ARMOR_PILOT: Blue Uniform
@@ -1899,16 +1904,7 @@ extraStrings:
       STR_PSI_UFOPEDIA: This suit enhances numerous mental abilities and is resistant to plasma. However the skin tight suit is weak to most other forms of attack.
       STR_SKY_UFOPEDIA: The anti gravity jet system of Skystrike armor grants the agent flight and also aids them in movement increasing their speed.
       STR_XOPS_POWER_UFOPEDIA: The pinnacle of armor technology. This powered armor enhances the agent in numerous ways. It also protects against psionic attack, but does so at the cost of the agent's psi skills.
-      STR_XOPS_ARMOR_UFOPEDIA_DISPLAY: Xeno Operations Armor
-      STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY: Alloy Armor
-      STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY: Kevlar Vest
-      STR_SKY_ARMOR_UFOPEDIA_DISPLAY: Sky Strike Armor
-      STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY: HEC Suit
-      STR_PSI_ARMOR_UFOPEDIA_DISPLAY: Nerve Suit
-      STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY: Power Armor
-      STR_POWER_SUIT_ARMOR_UFOPEDIA_DISPLAY: Power Suit
-      STR_FLYING_SUIT_ARMOR_UFOPEDIA_DISPLAY: Flying Suit
-      STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY: Personal Armor
+
       STR_SH_SMALL_PISTOL_UFOPEDIA: A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset.
 
 

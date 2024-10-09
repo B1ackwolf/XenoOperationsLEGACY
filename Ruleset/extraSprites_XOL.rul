@@ -1303,6 +1303,14 @@ extraSprites:
     height: 200
     files:
       0: Resources/UxUi/BackgroundFiles/MainBackground.gif
+
+  - type: BACK99.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UxUi/BackgroundFiles/BackgroundArmors.gif
+
 ### ojito, esto tendra distintos colores, son las imagenes de fondo
   # - type: BACK02.SCR
   #   singleImage: true

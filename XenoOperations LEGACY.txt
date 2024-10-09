@@ -284,6 +284,10 @@ Sprite tweaks:
  - rediseñado enteramente la apariencia del lanza granadas, ahora tiene mas apariencia de un milkor
  - finalizado (for real this time, i swear) el sprite del grenade launcher, ahora si parece verdaderamente un milkor MGL
 
+ - agregado articulos de armaduras en la ufopedia, incluyendo entradas adicionales para las versiones de pilotos
+   * implementado nuevo sistema de sprites dentro de la ufopedia para armaduras, gracias a Meridian
+     ~ con esto se simplifica el proceso y se asegura que este siempre actualizado la imagen dentro de la ufopedia
+
  - "suavizado" la apariencia de los perritos.
    * adicionalmente se agregaron algunos fur patterns extras para testear cambios (en especial en el mallinois)
    * mejorado directamente los sprites de los ataques de perritos ya q antes el ladrido y el mordisco eran demasiado similares entre si

@@ -10,8 +10,8 @@ armors:
   - delete: STR_FLYING_SUIT_UC
 ##### End of vainilla delete section #####-------------------------
 ##### First tier basic armors #####--------------------------------
-  - type: STR_FLIGHT_JUMPSUIT
-    ufopediaType: STR_PILOT_UFOPEDIA_DISPLAY
+  - type: STR_FLIGHT_JUMPSUIT_UC
+# ojito aqui    ufopediaType: STR_FLIGHT_JUMPSUIT
     spriteSheet: XOPS_XCOM_0.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -167,6 +167,7 @@ armors:
     spriteHairColor: &SpriteHairColorAgent [144, 144, 160, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225, 82, 144, 98, 246, 246, 246, 163, 246, 246, 146, 147, 20, 4, 164, 246, 246, 246, 224, 96, 159, 246, 246, 164, 246, 160, 33, 81, 163, 99, 23, 161, 213, 84, 144, 99, 197, 98, 246, 246, 246, 98, 144, 246, 96, 246, 246, 5, 246, 144, 146, 37, 144, 164, 245, 164, 245, 86, 80, 86, 85, 53, 86, 80, 246, 86, 86, 86, 198, 80, 246, 246, 246, 88, 100, 96, 245, 245, 245, 163, 164, 160, 144, 3, 160, 160, 37, 88, 160] #M0 F0 M1 F1 M2 F2 M3 F3
     customArmorPreviewIndex: 0 
     storeItem: STR_NONE
+#    listOrder: 1999
     loftempsSet: [ 3 ]
     corpseBattle:
       - STR_CORPSE_FLIGHT_JUMPSUIT
@@ -356,6 +357,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorAgent
     storeItem: STR_NONE
+#    listOrder: 2001
     corpseBattle:
       - STR_CORPSE_VEST_ARMOR_TAN
     frontArmor: 12
@@ -539,6 +541,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_VEST_ARMOR_BLACK
     storeItem: STR_NONE
+#    listOrder: 2002
     loftempsSet: [ 3 ]
     frontArmor: 12
     sideArmor: 8
@@ -706,6 +709,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_VEST_ARMOR_GRAY
     storeItem: STR_NONE
+#    listOrder: 2003
     loftempsSet: [ 3 ]
     frontArmor: 12
     sideArmor: 8
@@ -873,6 +877,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_VEST_ARMOR_WHITE
     storeItem: STR_NONE
+#    listOrder: 2004
     loftempsSet: [ 3 ]
     frontArmor: 12
     sideArmor: 8
@@ -1040,6 +1045,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_VEST_ARMOR_GREEN
     storeItem: STR_NONE
+#    listOrder: 2005
     loftempsSet: [ 3 ]
     frontArmor: 12
     sideArmor: 8
@@ -1207,6 +1213,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_VEST_ARMOR_TAN
     storeItem: STR_NONE
+    #    listOrder: 2006
     loftempsSet: [ 3 ]
     frontArmor: 12
     sideArmor: 8
@@ -1374,6 +1381,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_HEC_ARMOR
     storeItem: STR_NONE
+#    listOrder: 2008
     weight: 4
     stats: &StatsForHECarmor
       firing: -4
@@ -3678,7 +3686,7 @@ armors:
       - 1.1
       - 0.5
       - 0.90
-  - type: STR_ALLOY_ARMOR__TAN_UC
+  - type: STR_ALLOY_ARMOR_TAN_UC
     customArmorPreviewIndex: 21
     spriteSheet: XOPS_XCOM_31.PCK
     layersDefaultPrefix: HUMAN
@@ -7641,7 +7649,7 @@ armors:
     units: *CompatibilityWithSoldierUnits
     damageModifier: *ModifiersForPsiArmor
 #----- Tanks and Mech Drivers -----#
-  - type: STR_MECH_DRIFTSUIT
+  - type: STR_MECH_DRIFTSUIT_UC
     spriteSheet: XOPS_XCOM_9.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -9444,118 +9452,3 @@ armors:
       - 1.0
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-#------ #ojito Armors for ufopaedia display, check if this could be deleted later.
-  - type: STR_PILOT_UFOPEDIA_DISPLAY
-    spriteSheet: XCOM_0.PCK
-    spriteInv: PILOTUFOPEDIA
-    weight: 2
-    loftempsSet: [ 3 ]
-    frontArmor: 6
-    sideArmor: 2
-    rearArmor: 2
-    underArmor: 2
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT #OJITO BUSCAR ESTE UNIFORME Q ESTA REPETIDO PA LOS CADAVERES DISPLAY UFOPAEDIA
-    stats: *StatsForJumpsuit
-    damageModifier: *damageModifierJumpsuit
-#
-  - type: STR_KEVLAR_VEST_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_1.PCK
-    spriteInv: KEVLARUFOPEDIA
-    weight: 2
-    loftempsSet: [ 3 ]
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    damageModifier: *ModifiersForKevlarArmor
-  - type: STR_VEST_HEC_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_8.PCK
-    spriteInv: HECUFOPEDIA
-    weight: 5
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats: *StatsForHECarmor
-    loftempsSet: [ 3 ]
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: *ModifiersForHECArmor
-  - type: STR_XOPS_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_11.PCK
-    spriteInv: XOPSUFOPEDIA
-    weight: 5
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats: *StatsForJumpsuit
-    loftempsSet: [ 3 ]
-    frontArmor: 25
-    sideArmor: 20
-    rearArmor: 20
-    underArmor: 10
-    damageModifier: *ModifiersForXOPsArmor
-  - type: STR_PERSONAL_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_21.PCK
-    spriteInv: PERSONALUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_ARMOR
-    stats: *StatsForXOPsArmor
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
-    damageModifier: *ModifiersForPersonalArmor
-    loftempsSet: [ 3 ]
-  - type: STR_ALLOY_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_31.PCK
-    spriteInv: ALLOYARMORUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    loftempsSet: [ 3 ]
-    frontArmor: 75
-    sideArmor: 65
-    rearArmor: 55
-    underArmor: 55
-    damageModifier: *ModifiersForAlloyArmor
-  - type: STR_SKY_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_41.PCK
-    spriteInv: SKYUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats: *StatsForSkyArmor
-    loftempsSet: [ 3 ]
-    frontArmor: 38
-    sideArmor: 26
-    rearArmor: 28
-    underArmor: 35
-    movementType: 1
-    damageModifier: *ModifiersForSkyArmor
-  - type: STR_PSI_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_61.PCK
-    spriteInv: PISONICUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats: *StatsForPsiArmor
-    loftempsSet: [ 3 ]
-    frontArmor: 70
-    sideArmor: 60
-    rearArmor: 50
-    underArmor: 50
-    movementType: 0
-    damageModifier: *ModifiersForPsiArmor 
-  - type: STR_XOPS_POWER_ARMOR_UFOPEDIA_DISPLAY
-    spriteSheet: XOPS_XCOM_51.PCK
-    spriteInv: POWERARMORUFOPEDIA
-    corpseBattle:
-      - STR_CORPSE_FLIGHT_JUMPSUIT
-    stats: *StatsForPowerArmor
-    loftempsSet: [ 3 ]
-    frontArmor: 120
-    sideArmor: 90
-    rearArmor: 100
-    underArmor: 80
-    movementType: 1
-    damageModifier: *ModifiersForPowerArmor

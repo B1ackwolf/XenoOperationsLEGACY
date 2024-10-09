@@ -2157,6 +2157,7 @@ interfaces:
         color2: 244  # light blue
 #
   - type: articleArmor
+    backgroundImage: BACK99.SCR # prueba ojito
     elements:
       - id: button
         color: 239    # Blueish gray
