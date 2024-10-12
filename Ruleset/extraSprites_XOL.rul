@@ -88,29 +88,46 @@ extraSprites:
 #----- Unit sprites for ALIENS ends here -----#  
 #----- Tier 1 Ballistic tier BigObs -----#
       600: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.gif
+      600: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.gif      
+      345: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol.gif
       345: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol.gif
       346: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol_mag.gif
       306: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol.gif
+      306: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol.gif
       344: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol_mag.gif
+      347: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol.gif
       347: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol.gif
       348: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol_mag.gif
       602: Resources/WeaponrySprites/1stBallistic/BigOb/5Uzi.gif
+      602: Resources/WeaponrySprites/1stBallistic/BigOb/5Uzi.gif
+      309: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg.gif
       309: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg.gif
       603: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg_mag.gif
+      307: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.gif
+      307: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.gif
       307: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.gif
       308: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_shells.gif
       314: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_slugs.gif
       328: Resources/WeaponrySprites/1stBallistic/BigOb/8Pdw.gif
+      328: Resources/WeaponrySprites/1stBallistic/BigOb/8Pdw.gif
+      281: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle.gif
       281: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle.gif
       282: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle_mag.gif
       302: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg.gif
+      302: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg.gif
       303: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg_belt.gif
+      311: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle.gif
       311: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle.gif
       312: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle_mag.gif
       278: Resources/WeaponrySprites/1stBallistic/BigOb/12AMRifle.gif
+      278: Resources/WeaponrySprites/1stBallistic/BigOb/12AMRifle.gif
       279: Resources/WeaponrySprites/1stBallistic/BigOb/12AMRifle_mag.gif
       304: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun.gif
+      304: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun.gif
       305: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun_belt.gif
+      11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.gif
+      11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.gif
+      11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.gif
       11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.gif
       12: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_he.png
       13: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_inc.png
@@ -119,36 +136,62 @@ extraSprites:
 #----- Tier 1 ends here -----#
 #----- Tier 2 X ballistic BigObs -----#
       613: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.gif
+      613: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.gif
+      613: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.gif
+      604: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol.gif
+      604: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol.gif
       604: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol.gif
       606: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol_mag2.gif
       662: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol_mag3.gif
       286: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol.gif
+      286: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol.gif
+      286: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol.gif
       288: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol_mag2.gif
       661: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol_mag3.gif
+      607: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol.gif
+      607: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol.gif
       607: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol.gif
       609: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol_mag2.gif
       663: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol_mag3.gif
       616: Resources/WeaponrySprites/2ndXBallistic/BigOb/5XUzi.gif
+      616: Resources/WeaponrySprites/2ndXBallistic/BigOb/5XUzi.gif
+      616: Resources/WeaponrySprites/2ndXBallistic/BigOb/5XUzi.gif
+      295: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg.png
+      295: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg.png
       295: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg.png
       618: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg_mag2.gif
       664: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg_mag3.gif
       292: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun.gif
+      292: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun.gif
+      292: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun.gif
       294: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun_shells2.gif
       668: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun_shells3.gif
       610: Resources/WeaponrySprites/2ndXBallistic/BigOb/8XPdw.gif
+      610: Resources/WeaponrySprites/2ndXBallistic/BigOb/8XPdw.gif
+      610: Resources/WeaponrySprites/2ndXBallistic/BigOb/8XPdw.gif
+      289: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle.gif
+      289: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle.gif
       289: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle.gif
       291: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle_mag2.gif
       667: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle_mag3.gif
       283: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg.gif
+      283: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg.gif
+      283: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg.gif
       285: Resources/WeaponrySprites/2ndXBallistic/BigOb/10Xlmg_belt2.gif
       670: Resources/WeaponrySprites/2ndXBallistic/BigOb/10Xlmg_belt3.gif
+      298: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle.gif
+      298: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle.gif
       298: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle.gif
       300: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_mag2.gif
       669: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_mag3.gif
 #      324: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_shell.gif #ojito, ingresar como posible municion?
       680: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun.gif
+      680: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun.gif
+      680: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun.gif
       682: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun_belt2.gif
       683: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun_belt3.gif
+      676: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon.gif
+      676: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon.gif
       676: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon.gif
       677: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_belt1.gif
       678: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_belt2.gif
@@ -160,26 +203,47 @@ extraSprites:
 #----- Tier 2 X ballistic ends here-----#
 #----- Tier 4 Laser BigObs -----#
       270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
+      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
+      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
+      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
+      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
+      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
+      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
       317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
       271: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat1.gif
       336: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat2.gif
       337: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat3.gif
       319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
+      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
+      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
+      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
       320: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat1.gif
       338: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat2.gif
       339: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat3.gif
+      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
+      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
+      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
       272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
       273: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat1.gif
       332: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat2.gif
       333: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat3.gif
       321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
+      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
+      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
+      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
       322: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat1.gif
       334: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat2.gif
       335: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat3.gif
       274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
+      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
+      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
+      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
       275: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat1.gif
       342: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat2.gif
       343: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat3.gif
+      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
+      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
+      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
       276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
       277: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat1.gif
       330: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat2.gif
