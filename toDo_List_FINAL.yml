@@ -130,10 +130,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 #######
 ####### Esto solo puedo hacerlo en casa
 #######
- - hacerle versiones scabbards a las espadas?
-   * giradas 180°, en fundas si es xelloy y apagadas y con un framewire en case de la plasma?
  - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
- - alargar ligeramente nuevamente la ump45 la parte del cañon (la smg tier 1)
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - revisar que el drone advanced funcione correctamente con un cadaver y un recovery especifico (checar el tema drone corpse), ademas de los respectivos articulos de la ufopedia
  - crear articulos en ufopaedia respecto a los uplifting de perros
@@ -170,8 +167,6 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  #
  - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
  - sacar baseprites para edificios del tftd twots y tftd+
- - separar armas q estan en el mismo png
- - Attempt to resolve the issue that drones can no longer carry things. (deberia resolverse cuando termine los drones)
  - Tanks, UFOs, and Sectopods use pilots.
    * Training requires overcoming claustrophobia?, thus requiring a minimum bravery.
      ~ All tanks will be single-seaters, but the pilot cannot exit quickly, so with permanent destruction, the pilot dies.
