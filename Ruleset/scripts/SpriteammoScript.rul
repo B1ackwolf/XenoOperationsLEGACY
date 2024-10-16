@@ -60,58 +60,217 @@
 # Example of a mod where the script is used: https://github.com/Inventorum-Development-Team/CTO
 
 items:
-  - type: STR_UACPISTOL # ignoreDuplicate
+
+###-----Human first tier Ballistic terran weapons-----###
+
+  - type: STR_ST_SMALL_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACPISTOL_AMMO # ignoreDuplicate
-    tags:
-      AmmoNo: 1      
-  - type: STR_UACRIFLE # ignoreDuplicate
+  - type: STR_ST_AUTO_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACRIFLE_AMMO # ignoreDuplicate
+  - type: STR_ST_SMALL_PISTOL_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1  
+    
+  - type: STR_ST_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_ST_MAIN_PISTOL_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UACSHOTGUN # ignoreDuplicate
+
+  - type: STR_ST_HEAVY_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACSHOTGUN_AMMO # ignoreDuplicate
+  - type: STR_ST_HEAVY_PISTOL_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UACRL # ignoreDuplicate
+
+  - type: STR_ST_UZI # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACRL_AMMO # ignoreDuplicate
+  - type: STR_ST_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_ST_SMG_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UACPISTOL_ADVANCED # ignoreDuplicate
+
+  - type: STR_ST_SHOTGUN # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACPISTOL_AMMO_ADVANCED # ignoreDuplicate
+  - type: STR_ST_SHOTGUN_SHELLS1 # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UACRIFLE_ADVANCED # ignoreDuplicate
+  - type: STR_ST_SHOTGUN_SHELLS2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+
+  - type: STR_ST_BULLPUP # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACRIFLE_AMMO_ADVANCED # ignoreDuplicate
+  - type: STR_ST_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_ST_RIFLE_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UACSMG # ignoreDuplicate
+
+  - type: STR_ST_LMG # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACSMG_AMMO # ignoreDuplicate
+  - type: STR_ST_LMG_BELT # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UACHEVYNAILGUN # ignoreDuplicate
+
+  - type: STR_ST_SNIPER # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACHEVYNAILGUN_AMMO # ignoreDuplicate
+  - type: STR_ST_SNIPER_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UACRL_ADVANCED # ignoreDuplicate
+
+  - type: STR_ST_ANTI_MATERIEL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_UACRL_AMMO_ADVANCED # ignoreDuplicate
+  - type: STR_ST_ANTI_MATERIEL_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_ST_MINIGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_ST_MINIGUN_BELT # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_HEAVY_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HC_HE_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HC_I_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HC_AP_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+###-----Human first tier Ballistic terran weapons ENDING-----###
+###-----Human second tier Ballistic eXperimental weapons-----###
+
+  - type: STR_XP_SMALL_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_AUTO_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_SMALL_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_SMALL_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_XP_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_MAIN_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_MAIN_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_XP_HEAVY_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_HEAVY_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_HEAVY_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_XP_UZI # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_SMG_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_SMG_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_XP_SHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_SHOTGUN_SHELLS2 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_XP_SHOTGUN_SHELLS3 # ignoreDuplicate
+    tags:
+      AmmoNo: 4
+
+  - type: STR_XP_BULLPUP # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_RIFLE_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_RIFLE_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_ST_LMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_LMG_BELT2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_LMG_BELT3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_ST_SNIPER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_ST_SNIPER_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_ST_ANTI_MATERIEL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_ST_ANTI_MATERIEL_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_ST_MINIGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_ST_MINIGUN_BELT # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_HEAVY_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HC_HE_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HC_I_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HC_AP_AMMO # ignoreDuplicate
     tags:
       AmmoNo: 1
 
