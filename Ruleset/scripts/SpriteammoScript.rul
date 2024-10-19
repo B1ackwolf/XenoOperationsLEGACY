@@ -153,10 +153,10 @@ items:
       AmmoNo: 1
   - type: STR_HC_I_AMMO # ignoreDuplicate
     tags:
-      AmmoNo: 1
+      AmmoNo: 2
   - type: STR_HC_AP_AMMO # ignoreDuplicate
     tags:
-      AmmoNo: 1
+      AmmoNo: 3
 
 ###-----Human first tier Ballistic terran weapons ENDING-----###
 ###-----Human second tier Ballistic eXperimental weapons-----###
@@ -240,41 +240,504 @@ items:
     tags:
       AmmoNo: 3
 
-  - type: STR_ST_SNIPER # ignoreDuplicate
-    tags:
-      AmmoReSprite: 3
-  - type: STR_ST_SNIPER_CLIP # ignoreDuplicate
-    tags:
-      AmmoNo: 1
-
   - type: STR_ST_ANTI_MATERIEL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_ST_ANTI_MATERIEL_CLIP # ignoreDuplicate
+  - type: STR_XP_ANTI_MATERIEL_CLIP2 # ignoreDuplicate
     tags:
-      AmmoNo: 1
+      AmmoNo: 2
+  - type: STR_XP_ANTI_MATERIEL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
 
   - type: STR_ST_MINIGUN # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_ST_MINIGUN_BELT # ignoreDuplicate
+  - type: STR_XP_MINIGUN_BELT2 # ignoreDuplicate
     tags:
-      AmmoNo: 1
+      AmmoNo: 2
+  - type: STR_XP_MINIGUN_BELT3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
 
-  - type: STR_HEAVY_CANNON # ignoreDuplicate
+  - type: STR_XP_AUTO_CANNON # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_HC_HE_AMMO # ignoreDuplicate
+  - type: STR_XP_AUTO_CANNON_BELT # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HC_I_AMMO # ignoreDuplicate
+  - type: STR_XP_AUTO_CANNON_BELT2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_AUTO_CANNON_BELT3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+
+###-----Human third tier Ballistic hybrid weapons-----###
+
+  - type: STR_HB_SMALL_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_SMALL_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_SMALL_PISTOL_CLIP1 # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HC_AP_AMMO # ignoreDuplicate
+  - type: STR_HB_SMALL_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_SMALL_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_MAIN_PISTOL_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_MAIN_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_MAIN_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_HEAVY_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_HEAVY_PISTOL_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_HEAVY_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_HEAVY_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_UZI # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_SMG_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_SMG_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_SMG_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_SHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_SHOTGUN_SHELLS1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_SHOTGUN_SHELLS2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_SHOTGUN_SHELLS3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_BULLPUP # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_RIFLE_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_RIFLE_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_RIFLE_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_LMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_LMG_BELT1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_LMG_BELT2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_LMG_BELT3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_SNIPER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_SNIPER_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_SNIPER_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_SNIPER_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_HB_AUTO_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_AUTO_CANNON_BELT1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_AUTO_CANNON_BELT2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HB_AUTO_CANNON_BELT3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+###-----Human fourth tier Energy laser weapons-----###
+
+  - type: STR_LA_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_LA_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_LA_PISTOL_BATTERY1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LA_PISTOL_BATTERY2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LA_PISTOL_BATTERY3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_LA_SHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_LA_SHOTGUN_BATTERY1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LA_SHOTGUN_BATTERY2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LA_SHOTGUN_BATTERY3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_LA_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_LA_RIFLE_BATTERY1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LA_RIFLE_BATTERY2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LA_RIFLE_BATTERY3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_LA_LMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_LA_LMG_BATTERY1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LA_LMG_BATTERY2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LA_LMG_BATTERY3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_LA_SNIPER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_LA_SNIPER_BATTERY1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LA_SNIPER_BATTERY2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LA_SNIPER_BATTERY3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_LA_HEAVY_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_LA_HEAVY_CANNON_BATTERY1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LA_HEAVY_CANNON_BATTERY2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LA_HEAVY_CANNON_BATTERY3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+###-----Human fifth tier Ballistic Rail weapons-----###
+
+  - type: STR_RL_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_MAIN_PISTOL_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RL_MAIN_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RL_MAIN_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_RL_SHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_SHOTGUN_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RL_SHOTGUN_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RL_SHOTGUN_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_RL_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_RIFLE_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RL_RIFLE_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RL_RIFLE_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_RL_LMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_LMG_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RL_LMG_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RL_LMG_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_RL_SNIPER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_SNIPER_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RL_SNIPER_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RL_SNIPER_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_RL_AUTO_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_AUTO_CANNON_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RL_AUTO_CANNON_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RL_AUTO_CANNON_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_RL_BAZOOKA # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_RL_BAZOOKA_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RL_BAZOOKA_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RL_BAZOOKA_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+###-----Human sixth tier Energy plasma weapons-----###
+
+  - type: STR_PM_SMALL_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_SMALL_PISTOL_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_SMALL_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_SMALL_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_MAIN_PISTOL_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_MAIN_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_MAIN_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_HEAVY_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_BULLPUP # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_HEAVY_PISTOL_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_HEAVY_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_HEAVY_PISTOL_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_SHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_SHOTGUN_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_SHOTGUN_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_SHOTGUN_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_RIFLE_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_RIFLE_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_RIFLE_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_LMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_LMG_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_LMG_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_LMG_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_SNIPER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_SNIPER_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_SNIPER_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_SNIPER_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_HEAVY_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_HEAVY_CANNON_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_HEAVY_CANNON_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_HEAVY_CANNON_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_PM_ANTIMATTER_LAUNCHER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PM_ANTIMATTER_LAUNCHER_BOMB3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+###-----Human Stun Weapons Tier -----###
+
+  - type: STR_SH_SMALL_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_SH_SMALL_PISTOL_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_SH_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_SH_MAIN_PISTOL_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_SH_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_SH_MAIN_PISTOL_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_SH_HEAVY_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_SH_HEAVY_CANNON_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
 
 
+##############################################
 extended:
   tags:
    RuleItem:
