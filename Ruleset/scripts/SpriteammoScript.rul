@@ -736,6 +736,101 @@ items:
     tags:
       AmmoNo: 1
 
+#----- Tenth tier Alien Weaponry -----#
+
+  - type: STR_AW_MAIN_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_MAIN_PISTOL_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_AW_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_SMG_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_AW_SHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_SHOTGUN_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_AW_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_RIFLE_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_AW_RIFLE_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_AW_RIFLE_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_AW_LMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_LMG_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_AW_LMG_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_AW_LMG_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_AW_SNIPER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_SNIPER_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_AW_SNIPER_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+
+  - type: STR_AW_HEAVY_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_HEAVY_CANNON_CLIP1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_AW_HEAVY_CANNON_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+
+  - type: STR_AW_ELITE_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_ELITE_RIFLE_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_SMALL_LAUNCHER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_STUN_BOMB # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_STUN_BOMB2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_STUN_BOMB3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_BLASTER_LAUNCHER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_BLASTER_BOMB # ignoreDuplicate
+    tags:
+      AmmoNo: 1
 
 ##############################################
 extended:
