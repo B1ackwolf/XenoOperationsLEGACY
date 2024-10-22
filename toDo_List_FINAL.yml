@@ -179,8 +179,6 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  - implementar script de armas q varian en base al cartucho de filip h en jeilo
    * separarle el cargador del sprite a las armas balisticas
    * en caso de las pistolas, hacerlas gatilladas la corredera
-   * las armas de rieles tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
-   * las armas de plasma tambien tendran apagado las lineas azules cuando no tengan ninguna y de colores respectivos al tipo de municion
  - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
 ###################################################################################################################################
 + CAMBIOS RELATIVOS AL TECH TREE:
@@ -236,7 +234,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  - Investigate how to resolve the following error
    * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
    *[revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima]
-       ~ esto se resolvio con brutal IA, igual seguir investigando
+       ~ esto se resolvio con brutal IA, igual seguir investigando para estacionar varios en paralelo   
 #
 IMPORTANTE PARA LORE:
  - recordar el renombrar q las hybridas producen explosion termobarica gracias al elerium empobrecido en bajas cantidades como combustible, por eso aun asi son tan ligeros pero tan dañinos
