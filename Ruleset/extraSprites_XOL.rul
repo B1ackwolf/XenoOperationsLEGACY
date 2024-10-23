@@ -87,23 +87,23 @@ extraSprites:
       813: Resources/UnitSprites/AlienFaction/InvAlien/AlienAttacks/SharkBite.gif
 #----- Unit sprites for ALIENS ends here -----#  
 #----- Tier 1 Ballistic tier BigObs -----#
-      600: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.png
-      345: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol.png
-      346: Resources/WeaponrySprites/1stBallistic/BigOb/2LightPistol_mag.png
-      306: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol.png
-      344: Resources/WeaponrySprites/1stBallistic/BigOb/3MediumPistol_mag.png
-      347: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol.png
-      348: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol_mag.png
-      602: Resources/WeaponrySprites/1stBallistic/BigOb/5Uzi.png
-      309: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg.png
-      603: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg_mag.png
-      307: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.png
-      308: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_shells.png
-      314: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_slugs.png
-      328: Resources/WeaponrySprites/1stBallistic/BigOb/8Pdw.png
-      281: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle.png
-      282: Resources/WeaponrySprites/1stBallistic/BigOb/9MainRifle_mag.png
-      302: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg.png
+      3000: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.png
+      3008: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol.png
+      3016: Resources/WeaponrySprites/1stBallistic/BigOb/2LightPistol_mag.png
+      3024: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol.png
+      3032: Resources/WeaponrySprites/1stBallistic/BigOb/3MediumPistol_mag.png
+      3040: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol.png
+      3048: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol_mag.png
+      3056: Resources/WeaponrySprites/1stBallistic/BigOb/5Uzi.png
+      3064: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg.png
+      3072: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg_mag.png
+      3080: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.png
+      3088: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_shells.png
+      3096: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_slugs.png
+      3104: Resources/WeaponrySprites/1stBallistic/BigOb/8Pdw.png
+      3112: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle.png
+      3120: Resources/WeaponrySprites/1stBallistic/BigOb/9MainRifle_mag.png
+      3128: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg.png
       303: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg_belt.png
       311: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle.png
       312: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle_mag.png
