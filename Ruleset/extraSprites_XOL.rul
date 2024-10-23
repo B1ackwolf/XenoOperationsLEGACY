@@ -88,46 +88,29 @@ extraSprites:
 #----- Unit sprites for ALIENS ends here -----#  
 #----- Tier 1 Ballistic tier BigObs -----#
       600: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.png
-      600: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.png      
       345: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol.png
-      345: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol.png
-      346: Resources/WeaponrySprites/1stBallistic/BigOb/2MachinePistol_mag.png
+      346: Resources/WeaponrySprites/1stBallistic/BigOb/2LightPistol_mag.png
       306: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol.png
-      306: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol.png
-      344: Resources/WeaponrySprites/1stBallistic/BigOb/3ServicePistol_mag.png
-      347: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol.png
+      344: Resources/WeaponrySprites/1stBallistic/BigOb/3MediumPistol_mag.png
       347: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol.png
       348: Resources/WeaponrySprites/1stBallistic/BigOb/4HeavyPistol_mag.png
       602: Resources/WeaponrySprites/1stBallistic/BigOb/5Uzi.png
-      602: Resources/WeaponrySprites/1stBallistic/BigOb/5Uzi.png
-      309: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg.png
       309: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg.png
       603: Resources/WeaponrySprites/1stBallistic/BigOb/6Smg_mag.png
-      307: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.png
-      307: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.png
       307: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun.png
       308: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_shells.png
       314: Resources/WeaponrySprites/1stBallistic/BigOb/7Shotgun_slugs.png
       328: Resources/WeaponrySprites/1stBallistic/BigOb/8Pdw.png
-      328: Resources/WeaponrySprites/1stBallistic/BigOb/8Pdw.png
       281: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle.png
-      281: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle.png
-      282: Resources/WeaponrySprites/1stBallistic/BigOb/9AssaultRifle_mag.png
-      302: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg.png
+      282: Resources/WeaponrySprites/1stBallistic/BigOb/9MainRifle_mag.png
       302: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg.png
       303: Resources/WeaponrySprites/1stBallistic/BigOb/10Lmg_belt.png
       311: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle.png
-      311: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle.png
       312: Resources/WeaponrySprites/1stBallistic/BigOb/11SniperRifle_mag.png
-      278: Resources/WeaponrySprites/1stBallistic/BigOb/12AMRifle.png
       278: Resources/WeaponrySprites/1stBallistic/BigOb/12AMRifle.png
       279: Resources/WeaponrySprites/1stBallistic/BigOb/12AMRifle_mag.png
       304: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun.png
-      304: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun.png
       305: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun_belt.png
-      11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.png
-      11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.png
-      11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.png
       11: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.png
       12: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_he.png
       13: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_inc.png
@@ -136,62 +119,36 @@ extraSprites:
 #----- Tier 1 ends here -----#
 #----- Tier 2 X ballistic BigObs -----#
       613: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.png
-      613: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.png
-      613: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.png
       604: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol.png
-      604: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol.png
-      604: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol.png
-      606: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol_mag2.png
-      662: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XMachinePistol_mag3.png
+      606: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XLightPistol_mag2.png
+      662: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XLightPistol_mag3.png
       286: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol.png
-      286: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol.png
-      286: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol.png
-      288: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol_mag2.png
-      661: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XServicePistol_mag3.png
-      607: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol.png
-      607: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol.png
+      288: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XMediumPistol_mag2.png
+      661: Resources/WeaponrySprites/2ndXBallistic/BigOb/3XMediumPistol_mag3.png
       607: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol.png
       609: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol_mag2.png
       663: Resources/WeaponrySprites/2ndXBallistic/BigOb/4XHeavyPistol_mag3.png
       616: Resources/WeaponrySprites/2ndXBallistic/BigOb/5XUzi.png
-      616: Resources/WeaponrySprites/2ndXBallistic/BigOb/5XUzi.png
-      616: Resources/WeaponrySprites/2ndXBallistic/BigOb/5XUzi.png
-      295: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg.png
-      295: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg.png
       295: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg.png
       618: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg_mag2.png
       664: Resources/WeaponrySprites/2ndXBallistic/BigOb/6XSmg_mag3.png
       292: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun.png
-      292: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun.png
-      292: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun.png
       294: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun_shells2.png
       668: Resources/WeaponrySprites/2ndXBallistic/BigOb/7XShotgun_shells3.png
       610: Resources/WeaponrySprites/2ndXBallistic/BigOb/8XPdw.png
-      610: Resources/WeaponrySprites/2ndXBallistic/BigOb/8XPdw.png
-      610: Resources/WeaponrySprites/2ndXBallistic/BigOb/8XPdw.png
       289: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle.png
-      289: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle.png
-      289: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle.png
-      291: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle_mag2.png
-      667: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle_mag3.png
-      283: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg.png
-      283: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg.png
+      291: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XMainRifle_mag2.png
+      667: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XMainRifle_mag3.png
       283: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg.png
       285: Resources/WeaponrySprites/2ndXBallistic/BigOb/10Xlmg_belt2.png
       670: Resources/WeaponrySprites/2ndXBallistic/BigOb/10Xlmg_belt3.png
-      298: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle.png
-      298: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle.png
       298: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle.png
       300: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_mag2.png
       669: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_mag3.png
 #      324: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_shell.png #ojito, ingresar como posible municion?
       680: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun.png
-      680: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun.png
-      680: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun.png
       682: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun_belt2.png
       683: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun_belt3.png
-      676: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon.png
-      676: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon.png
       676: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon.png
       677: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_belt1.png
       678: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_belt2.png
@@ -203,47 +160,26 @@ extraSprites:
 #----- Tier 2 X ballistic ends here-----#
 #----- Tier 4 Laser BigObs -----#
       270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
-      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
-      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
-      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.gif
-      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
-      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
-      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
       317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.gif
       271: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat1.gif
       336: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat2.gif
       337: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat3.gif
       319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
-      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
-      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
-      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.gif
       320: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat1.gif
       338: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat2.gif
       339: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat3.gif
-      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
-      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
-      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
       272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.gif
       273: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat1.gif
       332: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat2.gif
       333: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat3.gif
       321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
-      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
-      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
-      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.gif
       322: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat1.gif
       334: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat2.gif
       335: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat3.gif
       274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
-      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
-      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
-      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.gif
       275: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat1.gif
       342: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat2.gif
       343: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat3.gif
-      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
-      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
-      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
       276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.gif
       277: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat1.gif
       330: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat2.gif
@@ -325,21 +261,21 @@ extraSprites:
       1114: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol_clip.png
 #----- Tier 7 Stun ends here -----#
 #----- Tier 8 Melee BigObs -----#
-      316: Resources/WeaponrySprites/8thMelee/BigOb/1HumanBrassKnuckles.gif
-      315: Resources/WeaponrySprites/8thMelee/BigOb/2HumanKnife.gif
-      430: Resources/WeaponrySprites/8thMelee/BigOb/3HumanAlloyKnife.gif
-      432: Resources/WeaponrySprites/8thMelee/BigOb/4HumanAlloySword.png
-      324: Resources/WeaponrySprites/8ThMelee/BigOb/5HumanLaserKnife_act.png
-      325: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword_act.gif
-      326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife_act.png
-      431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword_act.gif
+      316: Resources/WeaponrySprites/8thMelee/BigOb/1HumanBrassKnuckles_sheathed.png
+      315: Resources/WeaponrySprites/8thMelee/BigOb/2HumanKnife_sheathed.png
+      430: Resources/WeaponrySprites/8thMelee/BigOb/3HumanAlloyKnife_sheathed.png
+      432: Resources/WeaponrySprites/8thMelee/BigOb/4HumanAlloySword_sheathed.png
+      324: Resources/WeaponrySprites/8ThMelee/BigOb/5HumanLaserKnife_sheathed.png
+      325: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword_sheathed.png
+      326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife_sheathed.png
+      431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword_sheathed.png
       1078: Resources/WeaponrySprites/8thMelee/BigOb/10HumanBasicShield.png
       1079: Resources/WeaponrySprites/8thMelee/BigOb/11HumanAlloyShield.png
       1080: Resources/WeaponrySprites/8thMelee/BigOb/12HumanHoloShield.png
       1081: Resources/WeaponrySprites/8thMelee/BigOb/20AlienHoloShield.png
       1082: Resources/WeaponrySprites/8thMelee/BigOb/21AlienAdvHoloShield.png
-      372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade_act.gif
-      369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade_act.gif
+      372: Resources/WeaponrySprites/8thMelee/BigOb/15AlienAlloyBlade_sheathed.png
+      369: Resources/WeaponrySprites/8thMelee/BigOb/16AlienPlasmaBlade_sheathed.png
 #----- Tier 8 Melee ends here -----#
 #----- Tier 9 Ordnance BigObs -----#
       2650: Resources/WeaponrySprites/9thOrdnance/BigOb/1SmokeGrenade_inv.png
@@ -538,74 +474,74 @@ extraSprites:
       812: Resources/UnitSprites/AlienFaction/FloorOb/Abomination_Corpse.gif
 #----- Unit FloorObs Sprites for ALIENS ends here -----#
 #----- Tier 1 Ballistic tier FloorObs -----#
-      600: Resources/WeaponrySprites/1stBallistic/FloorOb/1CompactPistol_floor.gif
-      345: Resources/WeaponrySprites/1stBallistic/FloorOb/2MachinePistol_floor.gif
-      346: Resources/WeaponrySprites/1stBallistic/FloorOb/2MachinePistol_mag_floor.gif
-      306: Resources/WeaponrySprites/1stBallistic/FloorOb/3ServicePistol_floor.gif
-      344: Resources/WeaponrySprites/1stBallistic/FloorOb/3ServicePistol_mag_floor.gif
-      347: Resources/WeaponrySprites/1stBallistic/FloorOb/4HeavyPistol_floor.gif
-      348: Resources/WeaponrySprites/1stBallistic/FloorOb/4HeavyPistol_mag_floor.gif
-      602: Resources/WeaponrySprites/1stBallistic/FloorOb/5Uzi_floor.gif
-      309: Resources/WeaponrySprites/1stBallistic/FloorOb/6Smg_floor.gif
-      603: Resources/WeaponrySprites/1stBallistic/FloorOb/6Smg_mag_floor.gif
-      307: Resources/WeaponrySprites/1stBallistic/FloorOb/7Shotgun_floor.gif
-      308: Resources/WeaponrySprites/1stBallistic/FloorOb/7Shotgun_shells_floor.gif
-      314: Resources/WeaponrySprites/1stBallistic/FloorOb/7Shotgun_slugs_floor.gif
-      328: Resources/WeaponrySprites/1stBallistic/FloorOb/8Pdw_floor.gif
-      281: Resources/WeaponrySprites/1stBallistic/FloorOb/9AssaultRifle_floor.gif
-      282: Resources/WeaponrySprites/1stBallistic/FloorOb/9AssaultRifle_mag_floor.gif
-      302: Resources/WeaponrySprites/1stBallistic/FloorOb/10Lmg_floor.gif
-      303: Resources/WeaponrySprites/1stBallistic/FloorOb/10Lmg_belt_floor.gif
-      311: Resources/WeaponrySprites/1stBallistic/FloorOb/11SniperRifle_floor.gif
-      312: Resources/WeaponrySprites/1stBallistic/FloorOb/11SniperRifle_mag_floor.gif
-      278: Resources/WeaponrySprites/1stBallistic/FloorOb/12AMRifle_floor.gif
-      279: Resources/WeaponrySprites/1stBallistic/FloorOb/12AMRifle_mag_floor.gif
-      304: Resources/WeaponrySprites/1stBallistic/FloorOb/13Minigun_floor.gif
-      305: Resources/WeaponrySprites/1stBallistic/FloorOb/13Minigun_belt_floor.gif
+      600: Resources/WeaponrySprites/1stBallistic/FloorOb/1CompactPistol_floor.png
+      345: Resources/WeaponrySprites/1stBallistic/FloorOb/2MachinePistol_floor.png
+      346: Resources/WeaponrySprites/1stBallistic/FloorOb/2LightPistol_mag_floor.png
+      306: Resources/WeaponrySprites/1stBallistic/FloorOb/3ServicePistol_floor.png
+      344: Resources/WeaponrySprites/1stBallistic/FloorOb/3MediumPistol_mag_floor.png
+      347: Resources/WeaponrySprites/1stBallistic/FloorOb/4HeavyPistol_floor.png
+      348: Resources/WeaponrySprites/1stBallistic/FloorOb/4HeavyPistol_mag_floor.png
+      602: Resources/WeaponrySprites/1stBallistic/FloorOb/5Uzi_floor.png
+      309: Resources/WeaponrySprites/1stBallistic/FloorOb/6Smg_floor.png
+      603: Resources/WeaponrySprites/1stBallistic/FloorOb/6Smg_mag_floor.png
+      307: Resources/WeaponrySprites/1stBallistic/FloorOb/7Shotgun_floor.png
+      308: Resources/WeaponrySprites/1stBallistic/FloorOb/7Shotgun_shells_floor.png
+      314: Resources/WeaponrySprites/1stBallistic/FloorOb/7Shotgun_slugs_floor.png
+      328: Resources/WeaponrySprites/1stBallistic/FloorOb/8Pdw_floor.png
+      281: Resources/WeaponrySprites/1stBallistic/FloorOb/9AssaultRifle_floor.png
+      282: Resources/WeaponrySprites/1stBallistic/FloorOb/9MainRifle_mag_floor.png
+      302: Resources/WeaponrySprites/1stBallistic/FloorOb/10Lmg_floor.png
+      303: Resources/WeaponrySprites/1stBallistic/FloorOb/10Lmg_belt_floor.png
+      311: Resources/WeaponrySprites/1stBallistic/FloorOb/11SniperRifle_floor.png
+      312: Resources/WeaponrySprites/1stBallistic/FloorOb/11SniperRifle_mag_floor.png
+      278: Resources/WeaponrySprites/1stBallistic/FloorOb/12AMRifle_floor.png
+      279: Resources/WeaponrySprites/1stBallistic/FloorOb/12AMRifle_mag_floor.png
+      304: Resources/WeaponrySprites/1stBallistic/FloorOb/13Minigun_floor.png
+      305: Resources/WeaponrySprites/1stBallistic/FloorOb/13Minigun_belt_floor.png
       11: Resources/WeaponrySprites/1stBallistic/FloorOb/14GrenadeLauncher_floor.png
       12: Resources/WeaponrySprites/1stBallistic/FloorOb/14GrenadeLauncher_drum_floor.png
       15: Resources/WeaponrySprites/1stBallistic/FloorOb/15RocketLauncher_floor.png
 #----- Tier 1 ends here -----#
 #----- Tier 2 X ballistic FloorObs -----#
-      613: Resources/WeaponrySprites/2ndXBallistic/FloorOb/1XCompactPistol_floor.gif
-      604: Resources/WeaponrySprites/2ndXBallistic/FloorOb/2XMachinePistol_floor.gif
-      606: Resources/WeaponrySprites/2ndXBallistic/FloorOb/2XMachinePistol_mag2_floor.gif
-      662: Resources/WeaponrySprites/2ndXBallistic/FloorOb/2XMachinePistol_mag3_floor.gif
-      286: Resources/WeaponrySprites/2ndXBallistic/FloorOb/3XServicePistol_floor.gif
-      288: Resources/WeaponrySprites/2ndXBallistic/FloorOb/3XServicePistol_mag2_floor.gif
-      661: Resources/WeaponrySprites/2ndXBallistic/FloorOb/3XServicePistol_mag3_floor.gif
-      607: Resources/WeaponrySprites/2ndXBallistic/FloorOb/4XHeavyPistol_floor.gif
-      609: Resources/WeaponrySprites/2ndXBallistic/FloorOb/4XHeavyPistol_mag2_floor.gif
-      663: Resources/WeaponrySprites/2ndXBallistic/FloorOb/4XHeavyPistol_mag3_floor.gif
-      616: Resources/WeaponrySprites/2ndXBallistic/FloorOb/5XUzi_floor.gif
-      295: Resources/WeaponrySprites/2ndXBallistic/FloorOb/6XSmg_floor.gif
-      618: Resources/WeaponrySprites/2ndXBallistic/FloorOb/6XSmg_mag2_floor.gif
-      664: Resources/WeaponrySprites/2ndXBallistic/FloorOb/6XSmg_mag3_floor.gif
-      292: Resources/WeaponrySprites/2ndXBallistic/FloorOb/7XShotgun_floor.gif
-      294: Resources/WeaponrySprites/2ndXBallistic/FloorOb/7XShotgun_shells2_floor.gif
-      668: Resources/WeaponrySprites/2ndXBallistic/FloorOb/7XShotgun_shells3_floor.gif
-      610: Resources/WeaponrySprites/2ndXBallistic/FloorOb/8XPdw_floor.gif
-      289: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XAssaultRifle_floor.gif
-      291: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XAssaultRifle_mag2_floor.gif
-      667: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XAssaultRifle_mag3_floor.gif
-      283: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10XLmg_floor.gif
-      285: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10Xlmg_belt2_floor.gif
-      670: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10Xlmg_belt3_floor.gif
-      298: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_floor.gif
-      300: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_mag2_floor.gif
-      669: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_mag3_floor.gif
-#      324: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_shell_floor.gif #ojito, ingresar como posible municion?
-      680: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_floor.gif
-      682: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_belt2_floor.gif
-      683: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_belt3_floor.gif
-      676: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_floor.gif
-      677: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt1_floor.gif
-      678: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt2_floor.gif
-      679: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt3_floor.gif
-      647: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_floor.gif
-      648: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_rocket1_floor.gif
-      649: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_rocket2_floor.gif
-      280: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_rocket3_floor.gif
+      613: Resources/WeaponrySprites/2ndXBallistic/FloorOb/1XCompactPistol_floor.png
+      604: Resources/WeaponrySprites/2ndXBallistic/FloorOb/2XMachinePistol_floor.png
+      606: Resources/WeaponrySprites/2ndXBallistic/FloorOb/2XLightPistol_mag2_floor.png
+      662: Resources/WeaponrySprites/2ndXBallistic/FloorOb/2XLightPistol_mag3_floor.png
+      286: Resources/WeaponrySprites/2ndXBallistic/FloorOb/3XServicePistol_floor.png
+      288: Resources/WeaponrySprites/2ndXBallistic/FloorOb/3XMediumPistol_mag2_floor.png
+      661: Resources/WeaponrySprites/2ndXBallistic/FloorOb/3XMediumPistol_mag3_floor.png
+      607: Resources/WeaponrySprites/2ndXBallistic/FloorOb/4XHeavyPistol_floor.png
+      609: Resources/WeaponrySprites/2ndXBallistic/FloorOb/4XHeavyPistol_mag2_floor.png
+      663: Resources/WeaponrySprites/2ndXBallistic/FloorOb/4XHeavyPistol_mag3_floor.png
+      616: Resources/WeaponrySprites/2ndXBallistic/FloorOb/5XUzi_floor.png
+      295: Resources/WeaponrySprites/2ndXBallistic/FloorOb/6XSmg_floor.png
+      618: Resources/WeaponrySprites/2ndXBallistic/FloorOb/6XSmg_mag2_floor.png
+      664: Resources/WeaponrySprites/2ndXBallistic/FloorOb/6XSmg_mag3_floor.png
+      292: Resources/WeaponrySprites/2ndXBallistic/FloorOb/7XShotgun_floor.png
+      294: Resources/WeaponrySprites/2ndXBallistic/FloorOb/7XShotgun_shells2_floor.png
+      668: Resources/WeaponrySprites/2ndXBallistic/FloorOb/7XShotgun_shells3_floor.png
+      610: Resources/WeaponrySprites/2ndXBallistic/FloorOb/8XPdw_floor.png
+      289: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XAssaultRifle_floor.png
+      291: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XMainRifle_mag2_floor.png
+      667: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XMainRifle_mag3_floor.png
+      283: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10XLmg_floor.png
+      285: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10Xlmg_belt2_floor.png
+      670: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10Xlmg_belt3_floor.png
+      298: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_floor.png
+      300: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_mag2_floor.png
+      669: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_mag3_floor.png
+#      324: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_shell_floor.png #ojito, ingresar como posible municion?
+      680: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_floor.png
+      682: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_belt2_floor.png
+      683: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_belt3_floor.png
+      676: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_floor.png
+      677: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt1_floor.png
+      678: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt2_floor.png
+      679: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt3_floor.png
+      647: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_floor.png
+      648: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_rocket1_floor.png
+      649: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_rocket2_floor.png
+      280: Resources/WeaponrySprites/2ndXBallistic/FloorOb/14XRocketLauncher_rocket3_floor.png
 #----- Tier 2 X ballistic ends here -----#
 #----- Tier 4 Laser FloorObs -----#
       270: Resources/WeaponrySprites/4thLaser/FloorOb/1LaserPistol_b1_floor.gif
@@ -830,14 +766,14 @@ extraSprites:
     height: 40
     files:
 #----- Tier 1 Ballistic tier HandObs
-      610: Resources/WeaponrySprites/1stBallistic/HandOb/1CompactPistol_hand.gif
-      590: Resources/WeaponrySprites/1stBallistic/HandOb/2MachinePistol_hand.gif
+      610: Resources/WeaponrySprites/1stBallistic/HandOb/1CompactPistol_hand.png
+      590: Resources/WeaponrySprites/1stBallistic/HandOb/2MachinePistol_hand.png
       410: Resources/WeaponrySprites/1stBallistic/HandOb/3ServicePistol_hand.png
-      600: Resources/WeaponrySprites/1stBallistic/HandOb/4HeavyPistol_hand.gif
-      620: Resources/WeaponrySprites/1stBallistic/HandOb/5Uzi_hand.gif
+      600: Resources/WeaponrySprites/1stBallistic/HandOb/4HeavyPistol_hand.png
+      620: Resources/WeaponrySprites/1stBallistic/HandOb/5Uzi_hand.png
       430: Resources/WeaponrySprites/1stBallistic/HandOb/6Smg_hand.png
       420: Resources/WeaponrySprites/1stBallistic/HandOb/7Shotgun_hand.png
-      530: Resources/WeaponrySprites/1stBallistic/HandOb/8Pdw_hand.gif
+      530: Resources/WeaponrySprites/1stBallistic/HandOb/8Pdw_hand.png
       320: Resources/WeaponrySprites/1stBallistic/HandOb/9AssaultRifle_hand.png
       390: Resources/WeaponrySprites/1stBallistic/HandOb/10Lmg_hand.png
       440: Resources/WeaponrySprites/1stBallistic/HandOb/11SniperRifle_hand.png
@@ -852,20 +788,20 @@ extraSprites:
      # 1366: Resources/WeaponrySprites/1stBallistic/HandOb/PistolClip_hand.png #ojito usar para todos los cartuchos chikitos de este tier
 #----- Tier 1 ends here -----#
 #----- Tier 2 X ballistic HandObs -----#
-      570: Resources/WeaponrySprites/2ndXBallistic/HandOb/1XCompactPistol_hand.gif
-      540: Resources/WeaponrySprites/2ndXBallistic/HandOb/2XMachinePistol_hand.gif
+      570: Resources/WeaponrySprites/2ndXBallistic/HandOb/1XCompactPistol_hand.png
+      540: Resources/WeaponrySprites/2ndXBallistic/HandOb/2XMachinePistol_hand.png
       340: Resources/WeaponrySprites/2ndXBallistic/HandOb/3XServicePistol_hand.png
-      550: Resources/WeaponrySprites/2ndXBallistic/HandOb/4XHeavyPistol_hand.gif
-      580: Resources/WeaponrySprites/2ndXBallistic/HandOb/5XUzi_hand.gif
+      550: Resources/WeaponrySprites/2ndXBallistic/HandOb/4XHeavyPistol_hand.png
+      580: Resources/WeaponrySprites/2ndXBallistic/HandOb/5XUzi_hand.png
       370: Resources/WeaponrySprites/2ndXBallistic/HandOb/6XSmg_hand.png
       360: Resources/WeaponrySprites/2ndXBallistic/HandOb/7XShotgun_hand.png
-      560: Resources/WeaponrySprites/2ndXBallistic/HandOb/8XPdw_hand.gif
+      560: Resources/WeaponrySprites/2ndXBallistic/HandOb/8XPdw_hand.png
       350: Resources/WeaponrySprites/2ndXBallistic/HandOb/9XAssaultRifle_hand.png
       450: Resources/WeaponrySprites/2ndXBallistic/HandOb/10XLmg_hand.png
       330: Resources/WeaponrySprites/2ndXBallistic/HandOb/11XSniper_hand.png
-      2260: Resources/WeaponrySprites/2ndXBallistic/HandOb/12XMinigun_hand.gif
-      2270: Resources/WeaponrySprites/2ndXBallistic/HandOb/13XAssaultCannon_hand.gif
-      1090: Resources/WeaponrySprites/2ndXBallistic/HandOb/14XRocketLauncher_hand.gif
+      2260: Resources/WeaponrySprites/2ndXBallistic/HandOb/12XMinigun_hand.png
+      2270: Resources/WeaponrySprites/2ndXBallistic/HandOb/13XAssaultCannon_hand.png
+      1090: Resources/WeaponrySprites/2ndXBallistic/HandOb/14XRocketLauncher_hand.png
 #----- Tier 2 X ballistic ends here -----#
 #----- Tier 4 Laser HandObs -----#
       270: Resources/WeaponrySprites/4thLaser/HandOb/1LaserPistol_b1_hand.png

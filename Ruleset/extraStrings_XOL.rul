@@ -1220,9 +1220,9 @@ extraStrings:
       STR_EX_SYRINGE_SAMPLE_BREAKDOWN: Breakdown Alien Injector
       STR_EX_PORTABLE_HYPERWAVE_BREAKDOWN: Breakdown Alien Communicator
       STR_EX_PORTABLE_HYPERSENSORY_BREAKDOWN: Breakdown Small Entertainment
-      STR_PM_MAIN_PISTOL_CLIP4: Breakdown Plsm Pistol Clip
-      STR_PM_MAIN_PISTOL_CLIP5: Breakdown Plsm Pistol OR
-      STR_PM_MAIN_PISTOL_CLIP6: Breakdown Plsm Pistol AM
+      STR_PM_MEDIUM_PISTOL_CLIP4: Breakdown Plsm Pistol Clip
+      STR_PM_MEDIUM_PISTOL_CLIP5: Breakdown Plsm Pistol OR
+      STR_PM_MEDIUM_PISTOL_CLIP6: Breakdown Plsm Pistol AM
       STR_PM_SMG_CLIP4: Breakdown Plsm Assaulter Clip
       STR_PM_SMG_CLIP5: Breakdown Plsm Assaulter OR
       STR_PM_SMG_CLIP6: Breakdown Plsm Assaulter AM
@@ -1401,8 +1401,8 @@ extraStrings:
       STR_SH_SMALL_PISTOL_CLIP: Taser Shock Clip
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
       STR_XP_AUTO_PISTOL: X1 Machine Pistol
-      STR_XP_SMALL_PISTOL_CLIP2: 9mm Alloys Magazine
-      STR_XP_SMALL_PISTOL_CLIP3: 9mm Tech Magazine
+      STR_XP_LIGHT_PISTOL_CLIP2: 9mm Alloys Magazine
+      STR_XP_LIGHT_PISTOL_CLIP3: 9mm Tech Magazine
       STR_XP_SMALL_PISTOL: X1A Compact Pistol
       STR_XP_HEAVY_PISTOL: X3 Heavy Pistol
       STR_XP_HEAVY_PISTOL_CLIP2: .44 MAG Alloy Magazine
@@ -1412,8 +1412,8 @@ extraStrings:
       STR_XP_SMG_CLIP3: .45 ACP Tech Magazine
       STR_XP_BULLPUP: X6A Personal Defense Weapon
       STR_XP_MAIN_PISTOL: X2 Service Pistol
-      STR_XP_MAIN_PISTOL_CLIP2: .40 S&W Alloy Magazine
-      STR_XP_MAIN_PISTOL_CLIP3: .40 S&W Tech Magazine
+      STR_XP_MEDIUM_PISTOL_CLIP2: .40 S&W Alloy Magazine
+      STR_XP_MEDIUM_PISTOL_CLIP3: .40 S&W Tech Magazine
       STR_XP_SMG: X4 Submachine Gun
       STR_XP_RIFLE: X6 Assault Rifle
       STR_XP_RIFLE_CLIP2: 5.56mm Alloy Magazine
@@ -1462,10 +1462,10 @@ extraStrings:
       STR_ST_SMALL_PISTOL_UFOPEDIA: "The SIG SAUER P229, XCom's choice for a compact sidearm, boasts a global reputation for reliability and precision. Renowned among security agencies worldwide, it's the smallest and most concealable weapon in XCom's arsenal.{NEWLINE}{NEWLINE}Chambered with standard 9mm ammunition, it balances compactness with decent stopping power, its ergonomic design enhances control and maneuverability, ensuring XCom operatives remain prepared for any unexpected threats." # making it the perfect companion for covert missions where concealment and precision are paramount.
       STR_ST_AUTO_PISTOL: Machine Pistol
       STR_ST_AUTO_PISTOL_UFOPEDIA: "The Beretta 93R, XCom's rapid-fire sidearm specialist. This automatic pistol unleashes a controlled three-round burst. While it sacrifices some accuracy, the blistering rate of fire more than makes up for it.{NEWLINE}{NEWLINE}Chambered for standard 9mm ammunition, it's the ideal choice for close-quarters combat when sheer volume of fire can be the difference between victory and defeat."
-      STR_ST_SMALL_PISTOL_CLIP: 9mm Magazine
+      STR_ST_LIGHT_PISTOL_CLIP: 9mm Magazine
       STR_ST_MAIN_PISTOL: Service Pistol
       STR_ST_MAIN_PISTOL_UFOPEDIA: "The FN Herstal FNX-40, chosen as XCom's standard sidearm for our troops, is a global staple among armies and special forces. It's a versatile choice for backup and secondary roles.{NEWLINE}{NEWLINE}Chambered for .40 S&W Colt Pistol rounds, it boasts a twelve-round magazine capacity, ensuring a steady supply of firepower. Reliable and adaptable, the FNX-40 is the trusted companion for XCom operatives in a variety of combat scenarios, ready to deliver precision and stopping power when needed most."
-      STR_ST_MAIN_PISTOL_CLIP: .40 S&W Magazine
+      STR_ST_MEDIUM_PISTOL_CLIP: .40 S&W Magazine
       STR_ST_HEAVY_PISTOL: Heavy Pistol
       STR_ST_HEAVY_PISTOL_UFOPEDIA: "Enter the IMI Desert Eagle Mk XIX. This heavy pistol is the ultimate choice for agents who don't just want to defeat aliens but utterly obliterate them. Its unparalleled stopping power ensures that no threat goes unanswered. However, it comes at a cost, the Desert Eagle is a weighty sidearm with a substantial kick.{NEWLINE}{NEWLINE}Chambered for .44 Magnum rounds, It represents one of the most potent calibers available in XCom's arsenal, making it the weapon of choice when maximum firepower is required."
       STR_ST_HEAVY_PISTOL_CLIP: .44 MAG Magazine
@@ -1520,14 +1520,14 @@ extraStrings:
       STR_HB_SMALL_PISTOL: HY1A Compact Pistol
       STR_HB_SMALL_PISTOL_UFOPEDIA: This small compact pistol uses alien Codex technology to greatly enhance its weight, accuracy, and impact force. This hybrid design is far superior to even the most advanced human ballistic technology firing powerful 10mm Auto ammo.
       STR_HB_MAIN_PISTOL: HY2 Service Pistol
-      STR_HB_MAIN_PISTOL_CLIP1: H. .38 SPL Magazine
-      STR_HB_MAIN_PISTOL_CLIP2: H. .38 SPL Chem Mag
-      STR_HB_MAIN_PISTOL_CLIP3: H. .38 SPL E115 Tipped Mag
+      STR_HB_MEDIUM_PISTOL_CLIP1: H. .38 SPL Magazine
+      STR_HB_MEDIUM_PISTOL_CLIP2: H. .38 SPL Chem Mag
+      STR_HB_MEDIUM_PISTOL_CLIP3: H. .38 SPL E115 Tipped Mag
       STR_HB_MAIN_PISTOL_UFOPEDIA: This pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a special .38 S&W Special alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its alien alloy construction and light weight make it an ideal sidearm.
       STR_HB_AUTO_PISTOL: HY1 Machine Pistol
-      STR_HB_SMALL_PISTOL_CLIP1: H. 10mm Magazine
-      STR_HB_SMALL_PISTOL_CLIP2: H. 10mm Chem Mag
-      STR_HB_SMALL_PISTOL_CLIP3: H. 10mm E115 Tipped Mag
+      STR_HB_LIGHT_PISTOL_CLIP1: H. 10mm Magazine
+      STR_HB_LIGHT_PISTOL_CLIP2: H. 10mm Chem Mag
+      STR_HB_LIGHT_PISTOL_CLIP3: H. 10mm E115 Tipped Mag
       STR_HB_MAIN_PISTOL_MACHINE_UFOPEDIA: This machine pistol is a hybrid of alien Codex technology and human ballistic technology. It fires a powerful 10mm Auto alien alloy cartridge, but can also be adapted to fire other special forms of ammunition. Its high rate of fire comes at the cost of accuracy.
       STR_HB_HEAVY_PISTOL: HY3 Heavy Pistol
       STR_HB_HEAVY_PISTOL_CLIP1: H. .50 AE Magazine
@@ -1638,14 +1638,14 @@ extraStrings:
       STR_RL_BAZOOKA_CLIP3: Enriched Rods Magazine
 #-----Human Plasma Weapons
       STR_PM_SMALL_PISTOL: Plasma Compact Pistol
-      STR_PM_SMALL_PISTOL_CLIP1: Nano Plasma Cell
-      STR_PM_SMALL_PISTOL_CLIP2: Overcharged Nano Cell
-      STR_PM_SMALL_PISTOL_CLIP3: Nano Antimatter Cell
+      STR_PM_LIGHT_PISTOL_CLIP1: Nano Plasma Cell
+      STR_PM_LIGHT_PISTOL_CLIP2: Overcharged Nano Cell
+      STR_PM_LIGHT_PISTOL_CLIP3: Nano Antimatter Cell
       STR_PM_MAIN_PISTOL: Plasma Service Pistol
       STR_PM_SMG: Plasma Assaulter
-      STR_PM_MAIN_PISTOL_CLIP1: Micro Plasma Cell
-      STR_PM_MAIN_PISTOL_CLIP2: Overcharged Micro Cell
-      STR_PM_MAIN_PISTOL_CLIP3: Micro Antimatter Cell
+      STR_PM_MEDIUM_PISTOL_CLIP1: Micro Plasma Cell
+      STR_PM_MEDIUM_PISTOL_CLIP2: Overcharged Micro Cell
+      STR_PM_MEDIUM_PISTOL_CLIP3: Micro Antimatter Cell
       STR_PM_HEAVY_PISTOL: Heavy Handcannon
       STR_PM_BULLPUP: Plasma Carbine
       STR_PM_HEAVY_PISTOL_CLIP1: Mini Plasma Cell

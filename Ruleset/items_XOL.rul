@@ -938,7 +938,7 @@ items:
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
-      - STR_ST_SMALL_PISTOL_CLIP
+      - STR_ST_LIGHT_PISTOL_CLIP
     accuracySnap: 50
     accuracyAimed: 68
     tuSnap: 20
@@ -964,7 +964,7 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_ST_SMALL_PISTOL_CLIP
+      - STR_ST_LIGHT_PISTOL_CLIP
     accuracyAuto: 25
     accuracySnap: 53
     accuracyAimed: 72
@@ -981,7 +981,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2102
-  - type: STR_ST_SMALL_PISTOL_CLIP
+  - type: STR_ST_LIGHT_PISTOL_CLIP
     size: 0.025
     costBuy: 1
     costSell: 0
@@ -1009,7 +1009,7 @@ items:
     bulletSprite: 1
     fireSound: 122
     compatibleAmmo:
-      - STR_ST_MAIN_PISTOL_CLIP
+      - STR_ST_MEDIUM_PISTOL_CLIP
     accuracySnap: 60
     accuracyAimed: 78
     tuSnap: 18
@@ -1024,7 +1024,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2104
-  - type: STR_ST_MAIN_PISTOL_CLIP
+  - type: STR_ST_MEDIUM_PISTOL_CLIP
     size: 0.025
     costBuy: 1
     costSell: 0
@@ -1602,9 +1602,9 @@ items:
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
-      - STR_ST_SMALL_PISTOL_CLIP
-      - STR_XP_SMALL_PISTOL_CLIP2
-      - STR_XP_SMALL_PISTOL_CLIP3
+      - STR_ST_LIGHT_PISTOL_CLIP
+      - STR_XP_LIGHT_PISTOL_CLIP2
+      - STR_XP_LIGHT_PISTOL_CLIP3
     accuracySnap: 55
     accuracyAimed: 73
     tuSnap: 18
@@ -1629,9 +1629,9 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_ST_SMALL_PISTOL_CLIP
-      - STR_XP_SMALL_PISTOL_CLIP2
-      - STR_XP_SMALL_PISTOL_CLIP3
+      - STR_ST_LIGHT_PISTOL_CLIP
+      - STR_XP_LIGHT_PISTOL_CLIP2
+      - STR_XP_LIGHT_PISTOL_CLIP3
     accuracyAuto: 28
     accuracySnap: 58
     accuracyAimed: 76
@@ -1648,7 +1648,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2202
-  - type: STR_XP_SMALL_PISTOL_CLIP2
+  - type: STR_XP_LIGHT_PISTOL_CLIP2
     size: 0.025
     costSell: 1500
     weight: 2
@@ -1664,7 +1664,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2203
-  - type: STR_XP_SMALL_PISTOL_CLIP3
+  - type: STR_XP_LIGHT_PISTOL_CLIP3
     size: 0.025
     costSell: 8000
     weight: 2
@@ -1694,9 +1694,9 @@ items:
     fireSound: 122
     bulletSprite: 1
     compatibleAmmo:
-      - STR_ST_MAIN_PISTOL_CLIP
-      - STR_XP_MAIN_PISTOL_CLIP2
-      - STR_XP_MAIN_PISTOL_CLIP3
+      - STR_ST_MEDIUM_PISTOL_CLIP
+      - STR_XP_MEDIUM_PISTOL_CLIP2
+      - STR_XP_MEDIUM_PISTOL_CLIP3
     accuracySnap: 65
     accuracyAimed: 83
     tuSnap: 15
@@ -1710,7 +1710,7 @@ items:
     snapRange: 14
     minRange: 0
     listOrder: 2205
-  - type: STR_XP_MAIN_PISTOL_CLIP2
+  - type: STR_XP_MEDIUM_PISTOL_CLIP2
     size: 0.025
     costSell: 1625
     weight: 1
@@ -1726,7 +1726,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2206
-  - type: STR_XP_MAIN_PISTOL_CLIP3
+  - type: STR_XP_MEDIUM_PISTOL_CLIP3
     size: 0.025
     costSell: 7000
     weight: 1
@@ -2439,9 +2439,9 @@ items:
     handSprite: 1100
     fireSound: 97
     compatibleAmmo:
-      - STR_HB_SMALL_PISTOL_CLIP1
-      - STR_HB_SMALL_PISTOL_CLIP2
-      - STR_HB_SMALL_PISTOL_CLIP3
+      - STR_HB_LIGHT_PISTOL_CLIP1
+      - STR_HB_LIGHT_PISTOL_CLIP2
+      - STR_HB_LIGHT_PISTOL_CLIP3
     accuracySnap: 60
     accuracyAimed: 78
     tuSnap: 16
@@ -2465,9 +2465,9 @@ items:
     handSprite: 1116
     fireSound: 97
     compatibleAmmo:
-      - STR_HB_SMALL_PISTOL_CLIP1
-      - STR_HB_SMALL_PISTOL_CLIP2
-      - STR_HB_SMALL_PISTOL_CLIP3
+      - STR_HB_LIGHT_PISTOL_CLIP1
+      - STR_HB_LIGHT_PISTOL_CLIP2
+      - STR_HB_LIGHT_PISTOL_CLIP3
     accuracyAuto: 33
     accuracySnap: 63
     accuracyAimed: 81
@@ -2484,7 +2484,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2302
-  - type: STR_HB_SMALL_PISTOL_CLIP1
+  - type: STR_HB_LIGHT_PISTOL_CLIP1
     size: 0.025
     costSell: 750
     weight: 2
@@ -2500,7 +2500,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2303
-  - type: STR_HB_SMALL_PISTOL_CLIP2
+  - type: STR_HB_LIGHT_PISTOL_CLIP2
     size: 0.025
     costSell: 1750
     weight: 2
@@ -2520,7 +2520,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2304
-  - type: STR_HB_SMALL_PISTOL_CLIP3
+  - type: STR_HB_LIGHT_PISTOL_CLIP3
     size: 0.025
     costSell: 1750
     weight: 2
@@ -2549,9 +2549,9 @@ items:
     handSprite: 1108
     fireSound: 97
     compatibleAmmo:
-      - STR_HB_MAIN_PISTOL_CLIP1
-      - STR_HB_MAIN_PISTOL_CLIP2
-      - STR_HB_MAIN_PISTOL_CLIP3
+      - STR_HB_MEDIUM_PISTOL_CLIP1
+      - STR_HB_MEDIUM_PISTOL_CLIP2
+      - STR_HB_MEDIUM_PISTOL_CLIP3
     accuracySnap: 70
     accuracyAimed: 88
     tuSnap: 14
@@ -2565,7 +2565,7 @@ items:
     snapRange: 14
     minRange: 0
     listOrder: 2306
-  - type: STR_HB_MAIN_PISTOL_CLIP1
+  - type: STR_HB_MEDIUM_PISTOL_CLIP1
     size: 0.025
     costSell: 650
     weight: 1
@@ -2581,7 +2581,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2307
-  - type: STR_HB_MAIN_PISTOL_CLIP2
+  - type: STR_HB_MEDIUM_PISTOL_CLIP2
     size: 0.025
     costSell: 1625
     weight: 1
@@ -2601,7 +2601,7 @@ items:
     armor: 65
     attraction: 1
     listOrder: 2308
-  - type: STR_HB_MAIN_PISTOL_CLIP3
+  - type: STR_HB_MEDIUM_PISTOL_CLIP3
     size: 0.025
     costSell: 1625
     weight: 1
@@ -4473,9 +4473,9 @@ items:
     floorSprite: 508
     handSprite: 810
     compatibleAmmo:
-      - STR_PM_SMALL_PISTOL_CLIP1
-      - STR_PM_SMALL_PISTOL_CLIP2
-      - STR_PM_SMALL_PISTOL_CLIP3
+      - STR_PM_LIGHT_PISTOL_CLIP1
+      - STR_PM_LIGHT_PISTOL_CLIP2
+      - STR_PM_LIGHT_PISTOL_CLIP3
     accuracySnap: 58
     # accuracyAimed: 77
     tuSnap: 32
@@ -4491,7 +4491,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2601
-  - type: STR_PM_SMALL_PISTOL_CLIP1
+  - type: STR_PM_LIGHT_PISTOL_CLIP1
     size: 0.025
     costSell: 4440
     weight: 2
@@ -4507,7 +4507,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2602
-  - type: STR_PM_SMALL_PISTOL_CLIP2
+  - type: STR_PM_LIGHT_PISTOL_CLIP2
     size: 0.025
     costSell: 4740
     weight: 2
@@ -4523,7 +4523,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2603
-  - type: STR_PM_SMALL_PISTOL_CLIP3
+  - type: STR_PM_LIGHT_PISTOL_CLIP3
     size: 0.025
     costSell: 4940
     weight: 2
@@ -4559,9 +4559,9 @@ items:
     floorSprite: 377
     handSprite: 980
     compatibleAmmo:
-      - STR_PM_MAIN_PISTOL_CLIP1
-      - STR_PM_MAIN_PISTOL_CLIP2
-      - STR_PM_MAIN_PISTOL_CLIP3
+      - STR_PM_MEDIUM_PISTOL_CLIP1
+      - STR_PM_MEDIUM_PISTOL_CLIP2
+      - STR_PM_MEDIUM_PISTOL_CLIP3
     accuracySnap: 63
     accuracyAimed: 83
     tuSnap: 30
@@ -4585,9 +4585,9 @@ items:
     floorSprite: 379
     handSprite: 960
     compatibleAmmo:
-      - STR_PM_MAIN_PISTOL_CLIP1
-      - STR_PM_MAIN_PISTOL_CLIP2
-      - STR_PM_MAIN_PISTOL_CLIP3
+      - STR_PM_MEDIUM_PISTOL_CLIP1
+      - STR_PM_MEDIUM_PISTOL_CLIP2
+      - STR_PM_MEDIUM_PISTOL_CLIP3
     accuracyAuto: 50
     accuracySnap: 72
     tuAuto: 35
@@ -4605,7 +4605,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2606
-  - type: STR_PM_MAIN_PISTOL_CLIP1
+  - type: STR_PM_MEDIUM_PISTOL_CLIP1
     size: 0.025
     costSell: 4440
     weight: 3
@@ -4621,7 +4621,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2607
-  - type: STR_PM_MAIN_PISTOL_CLIP2
+  - type: STR_PM_MEDIUM_PISTOL_CLIP2
     size: 0.025
     costSell: 4740
     weight: 3
@@ -4637,7 +4637,7 @@ items:
     battleType: 2
     attraction: 1
     listOrder: 2608
-  - type: STR_PM_MAIN_PISTOL_CLIP3
+  - type: STR_PM_MEDIUM_PISTOL_CLIP3
     size: 0.025
     costSell: 4940
     weight: 3

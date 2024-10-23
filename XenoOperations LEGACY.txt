@@ -416,6 +416,7 @@ under da hood changes:
 
 bugfixes:
 
+- corregido un problema que impedia a los drones cargar explosivos, vuelve a recuperarse el comportamiento kamikaze
 - corregido un problema en el archivo metadata, ahora tiene un identificador propio, en caso q si quisieran instalar el Xenoperations original, podrian interferir entre si, ahora usa la etiqueta XOPSLegacy como corresponde.
 - fixed a problem where the firefly appeared when you started a new campaing.
 - resuelto error q mostraba ciertos edificios avanzados en la ufopedia desde el principio de la campaña 

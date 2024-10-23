@@ -506,7 +506,7 @@ manufacture:
     time: 110
     cost: 7000
     listOrder: 2202
-  - name: STR_XP_SMALL_PISTOL_CLIP2
+  - name: STR_XP_LIGHT_PISTOL_CLIP2
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -517,9 +517,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_XP_SMALL_PISTOL_CLIP2: 10
+      STR_XP_LIGHT_PISTOL_CLIP2: 10
     listOrder: 2203
-  - name: STR_XP_SMALL_PISTOL_CLIP3
+  - name: STR_XP_LIGHT_PISTOL_CLIP3
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -530,7 +530,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_XP_SMALL_PISTOL_CLIP3: 10
+      STR_XP_LIGHT_PISTOL_CLIP3: 10
     listOrder: 2204
   - name: STR_XP_MAIN_PISTOL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -540,7 +540,7 @@ manufacture:
     time: 100
     cost: 6500
     listOrder: 2205
-  - name: STR_XP_MAIN_PISTOL_CLIP2
+  - name: STR_XP_MEDIUM_PISTOL_CLIP2
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_ALLOY_AMMUNITION
@@ -551,9 +551,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
     producedItems:
-      STR_XP_MAIN_PISTOL_CLIP2: 10    
+      STR_XP_MEDIUM_PISTOL_CLIP2: 10    
     listOrder: 2206
-  - name: STR_XP_MAIN_PISTOL_CLIP3
+  - name: STR_XP_MEDIUM_PISTOL_CLIP3
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_TECH_ROUNDS
@@ -564,7 +564,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_XP_MAIN_PISTOL_CLIP3: 10
+      STR_XP_MEDIUM_PISTOL_CLIP3: 10
     listOrder: 2207
   - name: STR_XP_HEAVY_PISTOL
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -940,7 +940,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 3
     listOrder: 2302
-  - name: STR_HB_SMALL_PISTOL_CLIP1
+  - name: STR_HB_LIGHT_PISTOL_CLIP1
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
@@ -950,9 +950,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HB_SMALL_PISTOL_CLIP1: 10
+      STR_HB_LIGHT_PISTOL_CLIP1: 10
     listOrder: 2303
-  - name: STR_HB_SMALL_PISTOL_CLIP2
+  - name: STR_HB_LIGHT_PISTOL_CLIP2
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_CHEMICAL_ROUNDS
@@ -964,9 +964,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HB_SMALL_PISTOL_CLIP2: 10
+      STR_HB_LIGHT_PISTOL_CLIP2: 10
     listOrder: 2304
-  - name: STR_HB_SMALL_PISTOL_CLIP3
+  - name: STR_HB_LIGHT_PISTOL_CLIP3
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_E115_ROUNDS
@@ -978,7 +978,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HB_SMALL_PISTOL_CLIP3: 10
+      STR_HB_LIGHT_PISTOL_CLIP3: 10
     listOrder: 2305
   - name: STR_HB_MAIN_PISTOL
     category: STR_HYBRID_BALLISTICS
@@ -991,7 +991,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
       STR_CODEX_FRAGMENT: 3
     listOrder: 2306
-  - name: STR_HB_MAIN_PISTOL_CLIP1
+  - name: STR_HB_MEDIUM_PISTOL_CLIP1
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
@@ -1001,9 +1001,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_HB_MAIN_PISTOL_CLIP1: 10
+      STR_HB_MEDIUM_PISTOL_CLIP1: 10
     listOrder: 2307
-  - name: STR_HB_MAIN_PISTOL_CLIP2
+  - name: STR_HB_MEDIUM_PISTOL_CLIP2
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_CHEMICAL_ROUNDS
@@ -1015,9 +1015,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_HB_MAIN_PISTOL_CLIP2: 10
+      STR_HB_MEDIUM_PISTOL_CLIP2: 10
     listOrder: 2308
-  - name: STR_HB_MAIN_PISTOL_CLIP3
+  - name: STR_HB_MEDIUM_PISTOL_CLIP3
     category: STR_HYBRID_BALLISTICS
     requires:
       - STR_E115_ROUNDS
@@ -1029,7 +1029,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
       STR_ELERIUM_115: 1
     producedItems:
-      STR_HB_MAIN_PISTOL_CLIP3: 10
+      STR_HB_MEDIUM_PISTOL_CLIP3: 10
     listOrder: 2309
   - name: STR_HB_HEAVY_PISTOL
     category: STR_HYBRID_BALLISTICS
@@ -2187,7 +2187,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 8
       STR_ELERIUM_115: 5
     listOrder: 2601
-  - name: STR_PM_SMALL_PISTOL_CLIP1
+  - name: STR_PM_LIGHT_PISTOL_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2197,9 +2197,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_PM_SMALL_PISTOL_CLIP1: 10
+      STR_PM_LIGHT_PISTOL_CLIP1: 10
     listOrder: 2602
-  - name: STR_PM_SMALL_PISTOL_CLIP2
+  - name: STR_PM_LIGHT_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2211,9 +2211,9 @@ manufacture:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_PM_SMALL_PISTOL_CLIP2: 10
+      STR_PM_LIGHT_PISTOL_CLIP2: 10
     listOrder: 2603
-  - name: STR_PM_SMALL_PISTOL_CLIP3
+  - name: STR_PM_LIGHT_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2225,7 +2225,7 @@ manufacture:
       STR_ELERIUM_115: 3
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_PM_SMALL_PISTOL_CLIP3: 10
+      STR_PM_LIGHT_PISTOL_CLIP3: 10
     listOrder: 2604
   - name: STR_PM_MAIN_PISTOL
     category: STR_PLASMA_WEAPONS
@@ -2251,7 +2251,7 @@ manufacture:
       STR_CODEX_FRAGMENT: 12
       STR_ELERIUM_115: 7
     listOrder: 2606
-  - name: STR_PM_MAIN_PISTOL_CLIP1
+  - name: STR_PM_MEDIUM_PISTOL_CLIP1
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_LIGHT_PLASMA_WEAPONS
@@ -2261,9 +2261,9 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_PM_MAIN_PISTOL_CLIP1: 10
+      STR_PM_MEDIUM_PISTOL_CLIP1: 10
     listOrder: 2607
-  - name: STR_PM_MAIN_PISTOL_CLIP2
+  - name: STR_PM_MEDIUM_PISTOL_CLIP2
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_CHARGED_PLASMA_CELLS
@@ -2275,9 +2275,9 @@ manufacture:
       STR_ELERIUM_115: 1
       STR_CODEX_FRAGMENT: 1
     producedItems:
-      STR_PM_MAIN_PISTOL_CLIP2: 10
+      STR_PM_MEDIUM_PISTOL_CLIP2: 10
     listOrder: 2608
-  - name: STR_PM_MAIN_PISTOL_CLIP3
+  - name: STR_PM_MEDIUM_PISTOL_CLIP3
     category: STR_PLASMA_WEAPONS
     requires:
       - STR_ANTIMATTER_CLIP
@@ -2289,7 +2289,7 @@ manufacture:
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
     producedItems:
-      STR_PM_MAIN_PISTOL_CLIP3: 10
+      STR_PM_MEDIUM_PISTOL_CLIP3: 10
     listOrder: 2609
   - name: STR_PM_HEAVY_PISTOL
     category: STR_PLASMA_WEAPONS
