@@ -42,6 +42,25 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
+ - revisar tema de armor backgrounds (parche nuevo de meridian)
+ - revisar el tema de q ahora las armas tendran el daño modificado en el arma y no en la municion en si (excelente para balancear)
+ - crear los loadouts iniciales
+   * quizas crear para mid game y para late game?
+ -
+
+
+ - revisar todas las carpetas en los distintos tiers que tengan tanto en handob, floorob y bigobs
+   * misma cantidad de imagenes
+      ~ en el primer tier faltan imagenes de los cohetes de la bazuka
+      ~ rehacer apariencia de los cohetes de bazuka basico tanto en bigob,floorob y handob
+   * misma nomenclatura de nombres en cuanto a "espacios y underscores _ "
+   * mismo formato de imagen PNG
+   * detalles de colores de los cargadores
+      ~ en armas de segundo nivel confirmar q las armas de correa tengan 3 duplicados, uno laton, uno azulito y uno marroncito
+      ~ en armas de segundo nivel confirmar que handobs tengan los cargadores respectivos
+      ~ confirmar que en las armas hibridas el floorobs sean los correctos (en especial desde desde la lmg)
+   * cambiar todo de png a gif     
+
  - revisar la velocidad de los UFOS en terminos relativos a mach
  - revisar enteramente las armaduras de perritos para balanceo de stats
  - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens )
@@ -376,7 +395,7 @@ IMPORTANTE PARA LORE:
    * confirmed i can, raven found a way, i need to found how to apply considering the colors of my armors.
    * specialy if i can change them using the same color varying for ranks.
      ~ something like "for rank 1, change color X, for rank 2  changes color Y instead"
-   * Focus especially to restablish the nomenclatures on the bodies and corpses png and gif files.
+   * Focus especially to restablish the nomenclatures on the bodies and corpses of png files.
    * Perhaps increase the Size of frontal pockets to 2x2 squares?.
    * Rename the "backpack" category to something more generic.
  - I havent found the way to alter armor order yet, i need to keep investigating about it.
@@ -673,8 +692,6 @@ IMPORTANTE PARA LORE:
    * Confirm functionality of sprites.
    * Add a "whistling" sound bulletsound to scare tactics.
      ~ Check conversation with EfrenEspartano.
- - Convert all images to PNG.
-   * This way, I can establish transparent alpha correctly.
  - Improve the entire ufopedia implementing this line of code of "removedBy" (https://openxcom.org/forum/index.php/topic,7639.msg0.html#new)
 
 #####

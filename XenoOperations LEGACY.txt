@@ -406,7 +406,7 @@ under da hood changes:
        ° adicionalmente por loopholes en las clausulas del contrato, aunque un cientifico vaya a recibir una pequeña fortuna mensual, ese dinero no podra ser utilizado HASTA Q ACABE EL CONFLICTO. efectivamente congelando todo sus activos hasta la victoria en la guerra, de nuevo haciendo que el "salario" neto sea irrelevante considerado el estatus actual del planeta.
        ° esto tambien generaria posibles caminos argumentales interesantes para ser explorados mas adelantes, haciendo q las tramas de traiciones a cambio de compesacion economicas o disgusto con el sistema de pago sea mas creible.
 
-      
+ - convertidas todas las imagenes de formato GIF pasado a PNG     
  - corregido ciertas definiciones erradas relacionada a los distintos rangos de los soldados, se supone q esto debio hacerse hace varios parches pero nunca lo habia inmplementado, ahora es mucho mas clarificado
  - limpieza de archivos relacionados con los mapas usando las versiones nuevas de CMP, la primera vez use metodos muy ordinarios, por la falta de experiencia. esta ves use un planteo mas metodico confirmando que no habrian errores, faltaria reordenar y luego 
  -  modificado el nombre de todos los archivos RULESET, las notaciones de los cambios q necesitan y el estado actual de cada uno fue anotado internamente, ayuda a la pulcritud del mod.
