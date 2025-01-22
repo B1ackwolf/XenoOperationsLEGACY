@@ -937,7 +937,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ST_AUTO_PISTOL_UFOPEDIA
     listOrder: 2102
-  - id: STR_ST_LIGHT_PISTOL_CLIP
+  - id: STR_ST_SMALL_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_ST_MAIN_PISTOL
@@ -945,7 +945,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ST_MAIN_PISTOL_UFOPEDIA
     listOrder: 2103
-  - id: STR_ST_MEDIUM_PISTOL_CLIP
+  - id: STR_ST_MAIN_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_ST_HEAVY_PISTOL 

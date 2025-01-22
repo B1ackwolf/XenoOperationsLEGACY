@@ -111,11 +111,11 @@ extraSprites:
       3168: Resources/WeaponrySprites/1stBallistic/BigOb/12AMRifle_mag.png
       3176: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun.png
       3184: Resources/WeaponrySprites/1stBallistic/BigOb/13Minigun_belt.png
-      3192: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher.png
-      3200: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_he.png
-      3208: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_inc.png
-      3216: Resources/WeaponrySprites/1stBallistic/BigOb/14GrenadeLauncher_drum_smoke.png
-      3224: Resources/WeaponrySprites/1stBallistic/BigOb/15RocketLauncher.png
+      3192: Resources/WeaponrySprites/1stBallistic/BigOb/14Launcher_he.png
+      3200: Resources/WeaponrySprites/1stBallistic/BigOb/14Launcher_drum1.png
+      3208: Resources/WeaponrySprites/1stBallistic/BigOb/14Launcher_drum2.png
+      3216: Resources/WeaponrySprites/1stBallistic/BigOb/14Launcher_drum3.png
+      3224: Resources/WeaponrySprites/1stBallistic/BigOb/15Bazooka.png
 #----- Tier 1 ends here -----#
 #----- Tier 2 X ballistic BigObs -----#
       3232: Resources/WeaponrySprites/2ndXBallistic/BigOb/1XCompactPistol.png
@@ -139,17 +139,17 @@ extraSprites:
       3376: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XAssaultRifle.png
       3384: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XMainRifle_mag2.png
       3392: Resources/WeaponrySprites/2ndXBallistic/BigOb/9XMainRifle_mag3.png
-      3400: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg.png
+      3400: Resources/WeaponrySprites/2ndXBallistic/BigOb/10XLmg_b1.png
       3408: Resources/WeaponrySprites/2ndXBallistic/BigOb/10Xlmg_belt2.png
       3416: Resources/WeaponrySprites/2ndXBallistic/BigOb/10Xlmg_belt3.png
       3424: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle.png
       3432: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_mag2.png
       3440: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_mag3.png
 #      3448: Resources/WeaponrySprites/2ndXBallistic/BigOb/11XSniperRifle_shell.png #ojito, ingresar como posible municion?
-      3456: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun.png
+      3456: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun_b1.png
       3464: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun_belt2.png
       3472: Resources/WeaponrySprites/2ndXBallistic/BigOb/12XMinigun_belt3.png
-      3480: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon.png
+      3480: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_b1.png
       3488: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_belt1.png
       3496: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_belt2.png
       34: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_belt3.png
@@ -318,9 +318,9 @@ extraSprites:
       362: Resources/WeaponrySprites/10thAlien/BigOb/7AlienPlasmaCannon_c1.png
       363: Resources/WeaponrySprites/10thAlien/BigOb/7AlienPlasmaCannon_clip1.png
       411: Resources/WeaponrySprites/10thAlien/BigOb/7AlienPlasmaCannon_clip3.png
-      391: Resources/WeaponrySprites/10thAlien/BigOb/13ElitePlasmaRifle.png
+      391: Resources/WeaponrySprites/10thAlien/BigOb/13ElitePlasmaRifle_c1.png
       392: Resources/WeaponrySprites/10thAlien/BigOb/13ElitePlasmaRifle_clip1.png
-      375: Resources/WeaponrySprites/10thAlien/BigOb/16AlienSmallLauncher.png
+      375: Resources/WeaponrySprites/10thAlien/BigOb/16AlienSmallLauncher_c1.png
       376: Resources/WeaponrySprites/10thAlien/BigOb/16AlienSmallLauncher_rack1.png
       400: Resources/WeaponrySprites/10thAlien/BigOb/16AlienSmallLauncher_rack2.png
       401: Resources/WeaponrySprites/10thAlien/BigOb/16AlienSmallLauncher_rack3.png
@@ -498,9 +498,9 @@ extraSprites:
       279: Resources/WeaponrySprites/1stBallistic/FloorOb/12AMRifle_mag_floor.png
       304: Resources/WeaponrySprites/1stBallistic/FloorOb/13Minigun_floor.png
       305: Resources/WeaponrySprites/1stBallistic/FloorOb/13Minigun_belt_floor.png
-      11: Resources/WeaponrySprites/1stBallistic/FloorOb/14GrenadeLauncher_floor.png
-      12: Resources/WeaponrySprites/1stBallistic/FloorOb/14GrenadeLauncher_drum_floor.png
-      15: Resources/WeaponrySprites/1stBallistic/FloorOb/15RocketLauncher_floor.png
+      11: Resources/WeaponrySprites/1stBallistic/FloorOb/14Launcher_he_floor.png
+      12: Resources/WeaponrySprites/1stBallistic/FloorOb/14Launcher_drum1_floor.png
+      15: Resources/WeaponrySprites/1stBallistic/FloorOb/15Bazooka_floor.png
 #----- Tier 1 ends here -----#
 #----- Tier 2 X ballistic FloorObs -----#
       613: Resources/WeaponrySprites/2ndXBallistic/FloorOb/1XCompactPistol_floor.png
@@ -524,17 +524,17 @@ extraSprites:
       289: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XAssaultRifle_floor.png
       291: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XMainRifle_mag2_floor.png
       667: Resources/WeaponrySprites/2ndXBallistic/FloorOb/9XMainRifle_mag3_floor.png
-      283: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10XLmg_floor.png
+      283: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10XLmg_b1_floor.png
       285: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10Xlmg_belt2_floor.png
       670: Resources/WeaponrySprites/2ndXBallistic/FloorOb/10Xlmg_belt3_floor.png
       298: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_floor.png
       300: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_mag2_floor.png
       669: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_mag3_floor.png
 #      324: Resources/WeaponrySprites/2ndXBallistic/FloorOb/11XSniperRifle_shell_floor.png #ojito, ingresar como posible municion?
-      680: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_floor.png
+      680: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_b1_floor.png
       682: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_belt2_floor.png
       683: Resources/WeaponrySprites/2ndXBallistic/FloorOb/12XMinigun_belt3_floor.png
-      676: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_floor.png
+      676: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_b1_floor.png
       677: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt1_floor.png
       678: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt2_floor.png
       679: Resources/WeaponrySprites/2ndXBallistic/FloorOb/13XAssaultCannon_belt3_floor.png
@@ -745,7 +745,7 @@ extraSprites:
     width: 128
     height: 520
     files:
-      450: Resources/WeaponrySprites/3rdHybrid/FloorOb/HybridWeaponsTier_floor.gif
+      450: Resources/WeaponrySprites/3rdHybrid/FloorOb/HybridWeaponsTier_floor.png
 #----- Tier 3 Hybrid ends here -----#
 #----- Tier 7 Stun FloorObs -----#
   - type: FLOOROB.PCK
@@ -754,7 +754,7 @@ extraSprites:
     width: 224
     height: 48
     files:
-      1501: Resources/WeaponrySprites/7thStun/FloorOb/ShockWeaponsTier_floor.gif
+      1501: Resources/WeaponrySprites/7thStun/FloorOb/ShockWeaponsTier_floor.png
 #----- Tier 7 Stun ends here -----#
 #-----FLOOR OBJECTS ENDS HERE-----#
 
@@ -779,11 +779,11 @@ extraSprites:
       440: Resources/WeaponrySprites/1stBallistic/HandOb/11SniperRifle_hand.png
       310: Resources/WeaponrySprites/1stBallistic/HandOb/12AMRifle_hand.png
       400: Resources/WeaponrySprites/1stBallistic/HandOb/13Minigun_hand.png
-      72: Resources/WeaponrySprites/1stBallistic/HandOb/15RocketLauncher_hand.png
-      256: Resources/WeaponrySprites/1stBallistic/HandOb/SmallRocket_hand.png
-      1264: Resources/WeaponrySprites/1stBallistic/HandOb/LargeRocket_hand.png
-      1272: Resources/WeaponrySprites/1stBallistic/HandOb/INRocket_hand.png
-      90: Resources/WeaponrySprites/1stBallistic/HandOb/14GrenadeLauncher_hand.png
+      72: Resources/WeaponrySprites/1stBallistic/HandOb/15Bazooka_hand.png
+      256: Resources/WeaponrySprites/1stBallistic/HandOb/15Rocket_small_hand.png
+      1264: Resources/WeaponrySprites/1stBallistic/HandOb/15Rocket_large_hand.png
+      1272: Resources/WeaponrySprites/1stBallistic/HandOb/15Rocket_in_hand.png
+      90: Resources/WeaponrySprites/1stBallistic/HandOb/14Launcher_he_hand.png
      # 1352: Resources/WeaponrySprites/1stBallistic/HandOb/RifleClip_hand.png # ojito usar para cartuchos grandes de este tier
      # 1366: Resources/WeaponrySprites/1stBallistic/HandOb/PistolClip_hand.png #ojito usar para todos los cartuchos chikitos de este tier
 #----- Tier 1 ends here -----#
@@ -797,10 +797,10 @@ extraSprites:
       360: Resources/WeaponrySprites/2ndXBallistic/HandOb/7XShotgun_hand.png
       560: Resources/WeaponrySprites/2ndXBallistic/HandOb/8XPdw_hand.png
       350: Resources/WeaponrySprites/2ndXBallistic/HandOb/9XAssaultRifle_hand.png
-      450: Resources/WeaponrySprites/2ndXBallistic/HandOb/10XLmg_hand.png
+      450: Resources/WeaponrySprites/2ndXBallistic/HandOb/10XLmg_b1_hand.png
       330: Resources/WeaponrySprites/2ndXBallistic/HandOb/11XSniper_hand.png
-      2260: Resources/WeaponrySprites/2ndXBallistic/HandOb/12XMinigun_hand.png
-      2270: Resources/WeaponrySprites/2ndXBallistic/HandOb/13XAssaultCannon_hand.png
+      2260: Resources/WeaponrySprites/2ndXBallistic/HandOb/12XMinigun_b1_hand.png
+      2270: Resources/WeaponrySprites/2ndXBallistic/HandOb/13XAssaultCannon_b1_hand.png
       1090: Resources/WeaponrySprites/2ndXBallistic/HandOb/14XRocketLauncher_hand.png
 #----- Tier 2 X ballistic ends here -----#
 #----- Tier 4 Laser HandObs -----#
@@ -905,7 +905,7 @@ extraSprites:
     width: 256
     height: 520
     files:
-      1100: Resources/WeaponrySprites/3rdHybrid/HandOb/HybridWeaponsTier_hand.gif
+      1100: Resources/WeaponrySprites/3rdHybrid/HandOb/HybridWeaponsTier_hand.png
 #----- Tier 3 Hybrid ends here -----#
 #----- Tier 7 Stun HandObs -----#
   - type: HANDOB.PCK
@@ -914,7 +914,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      2204: Resources/WeaponrySprites/7thStun/HandOb/ShockWeaponsTier_hand.gif
+      2204: Resources/WeaponrySprites/7thStun/HandOb/ShockWeaponsTier_hand.png
 #----- Tier 7 Stun ends here -----#
 #-----HAND OBJETCS ENDS HERE-----#
 
@@ -927,10 +927,10 @@ extraSprites:
     files:
       385: Resources/WeaponrySprites/WeaponFX/BulletSprite/bulletplasmaorange.png #11
       420: Resources/WeaponrySprites/WeaponFX/BulletSprite/bulletplasmapurple.png #12
-      455: Resources/WeaponrySprites/WeaponFX/BulletSprite/bulletplasmablue.gif #13
-      490: Resources/WeaponrySprites/WeaponFX/BulletSprite/alloybullet.gif #14
-      840: Resources/WeaponrySprites/WeaponFX/BulletSprite/chembullet.gif #24
-      1015: Resources/WeaponrySprites/WeaponFX/BulletSprite/techbullet.gif #29
+      455: Resources/WeaponrySprites/WeaponFX/BulletSprite/bulletplasmablue.png #13
+      490: Resources/WeaponrySprites/WeaponFX/BulletSprite/alloybullet.png #14
+      840: Resources/WeaponrySprites/WeaponFX/BulletSprite/chembullet.png #24
+      1015: Resources/WeaponrySprites/WeaponFX/BulletSprite/techbullet.png #29
     #  1455: Resources/WeaponrySprites/WeaponFX/BulletSprite/Taser_bullet.png #ojito averiguar como diantres se asigna el numero 
   - type: Projectiles
     width: 105
@@ -938,7 +938,7 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      35: Resources/WeaponrySprites/WeaponFX/BulletSprite/bullet.gif #1 and 2
+      35: Resources/WeaponrySprites/WeaponFX/BulletSprite/bullet.png #1 and 2
   - type: Projectiles
     width: 105
     height: 9
@@ -956,10 +956,10 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      66: Resources/WeaponrySprites/WeaponFx/HitFx/PlasmaHit.gif
-      76: Resources/WeaponrySprites/WeaponFx/HitFx/PsiHit.gif
-      86: Resources/WeaponrySprites/WeaponFx/HitFx/PlasmaHitBlue.gif
-      96: Resources/WeaponrySprites/WeaponFx/HitFx/ShockHit.gif
+      66: Resources/WeaponrySprites/WeaponFx/HitFx/PlasmaHit.png
+      76: Resources/WeaponrySprites/WeaponFx/HitFx/PsiHit.png
+      86: Resources/WeaponrySprites/WeaponFx/HitFx/PlasmaHitBlue.png
+      96: Resources/WeaponrySprites/WeaponFx/HitFx/ShockHit.png
       56: Resources/WeaponrySprites/WeaponFx/HitFx/Taserhit.png #ojito
 ###### Ranks, mover a un smoke separado para mantener ordenado ######      
       20: Resources/UxUI/RankSprites/inBattlescape/Army0.png
@@ -994,21 +994,21 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      8: Resources/WeaponrySprites/WeaponFx/ExplosionFx/SmokeCloud.gif
+      8: Resources/WeaponrySprites/WeaponFx/ExplosionFx/SmokeCloud.png
   - type: HIT.PCK
     width: 128
     height: 40
     subX: 32
     subY: 40
     files:
-      4: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeBasic.gif
-      16: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleePlasma.gif
-      28: Resources/WeaponrySprites/WeaponFx/MeleeFx/AttackChry.gif
-      40: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeLaser.gif
-      52: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeShock.gif
-      64: Resources/WeaponrySprites/WeaponFx/MeleeFx/AttackReap.gif
-      76: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeEleriumShock.gif
-      88: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleePlasmaBlue.gif
+      4: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeBasic.png
+      16: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleePlasma.png
+      28: Resources/WeaponrySprites/WeaponFx/MeleeFx/AttackChry.png
+      40: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeLaser.png
+      52: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeShock.png
+      64: Resources/WeaponrySprites/WeaponFx/MeleeFx/AttackReap.png
+      76: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleeEleriumShock.png
+      88: Resources/WeaponrySprites/WeaponFx/MeleeFx/MeleePlasmaBlue.png
 #-----FACILITIES IMAGES-----#
   - type: BASEBITS.PCK #ojito reordenar
     files:

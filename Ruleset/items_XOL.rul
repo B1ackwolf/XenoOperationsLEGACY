@@ -938,7 +938,7 @@ items:
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
-      - STR_ST_LIGHT_PISTOL_CLIP
+      - STR_ST_SMALL_PISTOL_CLIP
     accuracySnap: 50
     accuracyAimed: 68
     tuSnap: 20
@@ -964,7 +964,7 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_ST_LIGHT_PISTOL_CLIP
+      - STR_ST_SMALL_PISTOL_CLIP
     accuracyAuto: 25
     accuracySnap: 53
     accuracyAimed: 72
@@ -981,7 +981,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2102
-  - type: STR_ST_LIGHT_PISTOL_CLIP
+  - type: STR_ST_SMALL_PISTOL_CLIP
     size: 0.025
     costBuy: 1
     costSell: 0
@@ -1009,7 +1009,7 @@ items:
     bulletSprite: 1
     fireSound: 122
     compatibleAmmo:
-      - STR_ST_MEDIUM_PISTOL_CLIP
+      - STR_ST_MAIN_PISTOL_CLIP
     accuracySnap: 60
     accuracyAimed: 78
     tuSnap: 18
@@ -1024,7 +1024,7 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 2104
-  - type: STR_ST_MEDIUM_PISTOL_CLIP
+  - type: STR_ST_MAIN_PISTOL_CLIP
     size: 0.025
     costBuy: 1
     costSell: 0
@@ -1602,7 +1602,7 @@ items:
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
-      - STR_ST_LIGHT_PISTOL_CLIP
+      - STR_ST_SMALL_PISTOL_CLIP
       - STR_XP_LIGHT_PISTOL_CLIP2
       - STR_XP_LIGHT_PISTOL_CLIP3
     accuracySnap: 55
@@ -1629,7 +1629,7 @@ items:
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
-      - STR_ST_LIGHT_PISTOL_CLIP
+      - STR_ST_SMALL_PISTOL_CLIP
       - STR_XP_LIGHT_PISTOL_CLIP2
       - STR_XP_LIGHT_PISTOL_CLIP3
     accuracyAuto: 28
@@ -1694,7 +1694,7 @@ items:
     fireSound: 122
     bulletSprite: 1
     compatibleAmmo:
-      - STR_ST_MEDIUM_PISTOL_CLIP
+      - STR_ST_MAIN_PISTOL_CLIP
       - STR_XP_MEDIUM_PISTOL_CLIP2
       - STR_XP_MEDIUM_PISTOL_CLIP3
     accuracySnap: 65
