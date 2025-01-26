@@ -206,6 +206,7 @@ QOL CHANGES:
  - renombrado todos los tipos de daño dentro de la Ufopedia
    * adicionalmente incluido que el numero del daño varia de color en base al tipo de daño dentro de la ufopaedia
 
+ - agregado un nuevo sistema de visualizacion de armor previews en la ufopaedia (thanks a lot to meridian for his suport on this)
 
  - cambiado nombre de apex launcher a devastator launcher
  - cambiado los nombres de referencia de los medikits
@@ -267,6 +268,7 @@ TWEAKS AND BALANCE:
      ~ maintenance price increased to 70k
 
 Sprite tweaks:
+ - todos los archivos adentro de weaponrysprites ahora deberian ser png, sera de ayuda para unificar sistemas
  - ahora los pilotos son representados por el color rojo
    * tanto los uniformes, los ranks sprites y los tini sprites fueron modificados a este tono
    * el tono de los tiny sprites y rank sprites del perrito fue modificado a verde y el de pliotos a rojo correctamente

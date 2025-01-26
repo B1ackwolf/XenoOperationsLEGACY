@@ -1,0 +1,35 @@
+
+# Ideas for the mod, in no particular order:
+# Check the following notes:
++ Important data to consider when balancing certain expenses:
+# These are notes to keep in mind regarding the elimination of zeros within the game:
+ - Total annual U.S. budget approx. 841,000,000,000, equals 70,083,333,333 monthly.
+ - Total annual NATO budget approx. 380,000,000,000, equals 31,666,666,666 monthly.
+ - To adjust prices, they would need to be reduced by a thousand?
+
+# Material drop rates:
+ - Survey skiff = 6x / 10e
+ - Raider gunship = 10x / 10e
+ - Scanner boat = 10x / 10e
+ - Scout escort = 23x / 10e
+ - Research corvette = 42x / 10e
+ - Cloner frigate = 40x / 10e
+ - Harvester destroyer = 60x / 20e
+ - Abductor cruiser = 52x / 20e
+ - Laboratory ship = 75x / 20e
+ - Supply tanker = 110x / 30e + 28 supplies
+ - Constructor barge = 135x / 40e + 70 supplies
+ - Battlecruiser = 105x / 20e
+ - Terror battleship = 133x / 30e
+ - Dreadnought = 203x / 40e + 15 supplies
+ - Base defense = 75X / 20e + 180 supplies
+
++ Species naming considerations:
+ - Give all ranks of all species appealing names, take note.
+ - Confirm distinct names for "alien armor" to ensure coherence, currently a mess, especially for new Muton variants.
+ - New names to consider for ranks of other species:
+  * Psion, Archon, Elder, Apex, Hunter, Stalker, Broodmother, Drone (insect).
+  * Brute, Hoplite (???), Darter, Nightscale, Savant (scientist-type members of the race?), Reaver, Burner, Gnawer, Harasser, Scourger, Zealot, Evoker, Priest, Wizard (???), Casters (???), Heretic (individuals disgraced, dishonorable warriors for assassination missions, something pitiful to Sebillians), Servant, Devourer, Spitter (some could apply to Reapers, conceptualized as warhounds).
+  * Refer to species and creature rank names in *Gears of War* (e.g., Scion).
+
+# ... (truncated for demonstration purposes due to length)

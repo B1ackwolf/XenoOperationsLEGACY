@@ -42,8 +42,19 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
- - revisar tema de armor backgrounds (parche nuevo de meridian)
+
+####balanceo?
+
  - revisar el tema de q ahora las armas tendran el daño modificado en el arma y no en la municion en si (excelente para balancear)
+ - revisar enteramente las armaduras de perritos para balanceo de stats
+ - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens )
+ - revisar los damage modifiers de los Aliens
+   * agregarle resistencias a energia y daño segun el caso (ejemplo sovereigns y antimateria)
+ - balancear todos los damage modifiers de TODAS LAS ARMADURAS  
+ - revisar los precios de TODOS LOS ARTICULOS
+
+ ######
+  - armaduras despues de personal, usar ejemplo de warhammer 40k el snipper y vanguard
  - crear los loadouts iniciales
    * quizas crear para mid game y para late game?
  - intercambiar colores de armas de plasma alien
@@ -63,15 +74,11 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
       ~ en armas de segundo nivel confirmar q las armas de correa tengan 3 duplicados, uno laton, uno azulito y uno marroncito
       ~ en armas de segundo nivel confirmar que handobs tengan los cargadores respectivos
       ~ confirmar que en las armas hibridas el floorobs sean los correctos (en especial desde desde la lmg)
-   * cambiar todo de png a gif     
+   * cambiar todo de png a gif
+      ~ conseguido con las armas, faltarian en el resto de recursos 
 
- - revisar la velocidad de los UFOS en terminos relativos a mach
- - revisar enteramente las armaduras de perritos para balanceo de stats
- - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens )
- - revisar los damage modifiers de los Aliens
-   * agregarle resistencias a energia y daño segun el caso (ejemplo sovereigns y antimateria)
- - balancear todos los damage modifiers de TODAS LAS ARMADURAS  
- - revisar los precios de TODOS LOS ARTICULOS
+#posiblemente listo - revisar la velocidad de los UFOS en terminos relativos a mach
+
  -  CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
    - sera carisimo producir explosivos y municion
@@ -260,7 +267,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
        ~ esto se resolvio con brutal IA, igual seguir investigando para estacionar varios en paralelo   
 #
 IMPORTANTE PARA LORE:
- - recordar el renombrar q las hybridas producen explosion termobarica gracias al elerium empobrecido en bajas cantidades como combustible, por eso aun asi son tan ligeros pero tan dañinos
+ - recordar el renombrar q las granadas y explosivos hybridas producen explosion termobarica gracias al elerium empobrecido en bajas cantidades como combustible, por eso aun asi son tan ligeros pero tan dañinos
  - explicar q aunque los drones no son humanos, necesitan de uno para manejarse y espacio en las instalaciones, ya despues aunque sean semi automaticos, igual requieren human input
      ~ aprovechar texto del edificio radar para completar la explicacion
  - Changed all drones to a system based on "a CPU platform that can be inserted into different chassis and with different equipment."

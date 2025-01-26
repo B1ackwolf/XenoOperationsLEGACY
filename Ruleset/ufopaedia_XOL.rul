@@ -1112,12 +1112,12 @@ ufopaedia:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
     text: STR_XP_AUTO_PISTOL_UFOPEDIA
     listOrder: 2202
-  - id: STR_XP_LIGHT_PISTOL_CLIP2
+  - id: STR_XP_SMALL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_LIGHT_PISTOL_CLIP3
+  - id: STR_XP_SMALL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1129,12 +1129,12 @@ ufopaedia:
       - STR_NEXT_GEN_BALLISTICS_LIGHT
     text: STR_XP_MAIN_PISTOL_UFOPEDIA
     listOrder: 2203
-  - id: STR_XP_MEDIUM_PISTOL_CLIP2
+  - id: STR_XP_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_ALLOY_AMMUNITION
-  - id: STR_XP_MEDIUM_PISTOL_CLIP3
+  - id: STR_XP_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1325,15 +1325,15 @@ ufopaedia:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
     text: STR_HB_MAIN_PISTOL_MACHINE_UFOPEDIA
     listOrder: 2302
-  - id: STR_HB_LIGHT_PISTOL_CLIP1
+  - id: STR_HB_SMALL_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_LIGHT_PISTOL_CLIP2
+  - id: STR_HB_SMALL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_LIGHT_PISTOL_CLIP3
+  - id: STR_HB_SMALL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1345,15 +1345,15 @@ ufopaedia:
       - STR_LIGHT_HYBRID_BALLISTICS_WEAPONS
     text: STR_HB_MAIN_PISTOL_UFOPEDIA
     listOrder: 2303
-  - id: STR_HB_MEDIUM_PISTOL_CLIP1
+  - id: STR_HB_MAIN_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_HB_MEDIUM_PISTOL_CLIP2
+  - id: STR_HB_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHEMICAL_ROUNDS
-  - id: STR_HB_MEDIUM_PISTOL_CLIP3
+  - id: STR_HB_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1827,15 +1827,15 @@ ufopaedia:
       - STR_LIGHT_PLASMA_WEAPONS
     text: STR_PM_SMALL_PISTOL_UFOPEDIA
     listOrder: 2601
-  - id: STR_PM_LIGHT_PISTOL_CLIP1
+  - id: STR_PM_SMALL_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PM_LIGHT_PISTOL_CLIP2
+  - id: STR_PM_SMALL_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PM_LIGHT_PISTOL_CLIP3
+  - id: STR_PM_SMALL_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
@@ -1854,15 +1854,15 @@ ufopaedia:
       - STR_LIGHT_PLASMA_WEAPONS
     text: STR_PM_SMG_UFOPEDIA
     listOrder: 2603
-  - id: STR_PM_MEDIUM_PISTOL_CLIP1
+  - id: STR_PM_MAIN_PISTOL_CLIP1
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_PM_MEDIUM_PISTOL_CLIP2
+  - id: STR_PM_MAIN_PISTOL_CLIP2
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
       - STR_CHARGED_PLASMA_CELLS
-  - id: STR_PM_MEDIUM_PISTOL_CLIP3
+  - id: STR_PM_MAIN_PISTOL_CLIP3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
