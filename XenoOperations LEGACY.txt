@@ -23,7 +23,7 @@ Features
 Highly Recommended Settings
 Alien weapon self-destruction: YES. The game is balanced with this option in mind. Playing without self-destructing alien weapons will not be game breaking, but it makes it far easier and makes alien weapons far more abundant to the player which renders much of the human weapons redundant.
 UFO Extender accuracy: YES. The mod does take this into account and this option greatly diversifies weapons. Playing without this option renders many of the weapons redundant.
-allow manual promotions: improves granularity and icreases immersion, the officers sistem was created with this option aviable in mind. 
+allow manual promotions: improves granularity and icreases immersion, the officers sistem was created with this option aviable in mind.
 
 Base Mod Setting Recommendations
 Any improved or defensive starting base is largely unnecessary. Xeno Ops already has a pre-built base that takes into account the changes in staff size and the new facilities
@@ -36,7 +36,7 @@ The Following base mods won't harm the game, but will have no effect if enabled.
 
 TO THOSE WHO WISH TO USE MY GRAPHICS
 I only ask that I get a mention in the credits. Modders may use whatever they wish.
-  
+
 Credits and special Thanks to:
 
 All of the OpenXcom crew for allowing me to play my favorite game again while also giving me the means to tweak it.
@@ -107,7 +107,7 @@ gameplay changes:
    * High explosive = concussive
    * Laser Beam = energy
    * Plasma beam = Plasma
-   * stun = electric 
+   * stun = electric
    * melee = cutting
    * acid = chemical
    * smoke = no changes
@@ -124,7 +124,7 @@ gameplay changes:
      ~ el lore detras de este comportamiento es municion inteligente con sensores hechos de tecnologia codex, cuando determina q se encuentra dentro del objetivo, procede a estallar, produciendo una "explosion interna"
      ~ el XX cannon tiene dos municiones concussive, una high explosive (explosion externa clasica) y la tech con el mismo concepto
        ° cualquiera familiarizado con Gantz podra imaginarse el concepto.
-   * el tier 3 (HYbrid weapons)    
+   * el tier 3 (HYbrid weapons)
      ~ implementado mejor el concepto de daño acido, en teoria deberia funcionar mejor
      ~ la e115 tipped ammo hacen daño incendiario
      ~ el lore detras de esto es que son balas creadas a base de virutas/escorias de e115 inertes luego de ser usadaas en otros sistemas. no son nada eficientes para producir energia pero producen una reaccion exotermica al dispararse.
@@ -134,7 +134,7 @@ gameplay changes:
        ° como addemdun, esta en discusion si la municion empobrecida y la basica recibiran algun tipo de cambio de daño. el CUTTING es tentativo. quizas un poco de testeo y feedback adicional sea necesario.
    * el tier   (PlasMa weapons)
      ~ los primeros en recibir el nuevo tipo de daño antimateria.
-     ~ produce una pequeña explosion en un area pequeña alrededor de la zona de impacto.   
+     ~ produce una pequeña explosion en un area pequeña alrededor de la zona de impacto.
 
 
 
@@ -149,8 +149,8 @@ gameplay changes:
      ~ agregada una transformacion adicional a FULL SAPIENCE
        ° principales ventajas sera permitir el uso de servoarmaduras y demas artilugios como armas.
        ° tendran un nivel de inteligencia al de un humano promedio.
-       ° el lore se enfocara en los dilemas eticos acerca de esta accion, ademas de una posible reaccion de los perros a todas las atrocidades que le hemos producido a los perros y un poble shock existencial, autodescubrimiento de su propia posicion en el mundo, the dread of the acknolewing of the conflict we are currently tossing them into, etc.  
-   
+       ° el lore se enfocara en los dilemas eticos acerca de esta accion, ademas de una posible reaccion de los perros a todas las atrocidades que le hemos producido a los perros y un poble shock existencial, autodescubrimiento de su propia posicion en el mundo, the dread of the acknolewing of the conflict we are currently tossing them into, etc.
+
  - creada nuevas armas de distintos tiers
    * nuevas armas melee agregadas para rellenar los gaps
      ~ una espada alloy
@@ -165,7 +165,7 @@ gameplay changes:
    * nuevos explosivos agregados
      ~ cargas bangalore diseñadas para perforar los ufos y crear distintos angulos de ingreso.
      ~ tienen un alto daño contra el terreno.
-       ° con esto se evita ser usado como granadas, tampoco tienen mucho rango para ser arrojados.  
+       ° con esto se evita ser usado como granadas, tampoco tienen mucho rango para ser arrojados.
        ° existen de tres niveles, cada vez mas livianos y portatiles, consideracion q el modelo inicial no puede ser arrojado
      * sprites retocadas de articulos pertenecientes a otros mods (MAYORITARIAMENTE XFILES)
 
@@ -180,23 +180,23 @@ gameplay changes:
    * construir edificaciones encima de otras hace que el tiempo que se gasto en construirla se reste del edificio final (solo el tiempo, el coste economico se mantiene)
      ~ especialmente util para upgradear tus bases sin necesidad de desperdiciar tiempo adicional construyendo en otros espacios o teniendo q perder el layout defensivo si esto habia sido tomado en cuenta
      ~ tener en consideracion q mientras se construye un edificio encima de otro ESTE QUEDA TEMPORALMENTE DESHABILITADO. recuerden tomar precauciones en este aspecto.
-       ° example: tienes un radar basico, quieres mejorarlo a un radar largo, aunque el tiempo de construccion se vera reducido, durante el tiempo de construccion el original se desactiva, asi que quedarias sin cobertura hasta q este termine	 
+       ° example: tienes un radar basico, quieres mejorarlo a un radar largo, aunque el tiempo de construccion se vera reducido, durante el tiempo de construccion el original se desactiva, asi que quedarias sin cobertura hasta q este termine
  - todos los edificios pueden construirse encima de los bloques basicos (corredores y salas vacias) pero el resto de edificaciones tiene restricciones relativamente straightforward, tienen un patron relativamente logico y fueron divididos en grandes rasgos entre:
    * edificios de deteccion (radars y hyperwave) pueden ser upgradeados encima de los otros del mismo tipo
    * edificios residenciales y de almacenamiento.
-   * edificios de funciones (laboratorios y workshops por ejemplo), aunque cada "linea" de edificios solo puede construirse entre si 
-     ~(no se puede colocar un workshop encima de un laboratory, pero si un LARGE laboratory encima de 4 labs estandar y/o alien containtment)   
+   * edificios de funciones (laboratorios y workshops por ejemplo), aunque cada "linea" de edificios solo puede construirse entre si
+     ~(no se puede colocar un workshop encima de un laboratory, pero si un LARGE laboratory encima de 4 labs estandar y/o alien containtment)
    * edificios defensivos (contra incursiones de platillos, no confundir con la estacion de seguridad)
    * servicios y extras , digase cualquiera q no entre en los anteriores, en general donde los soldados mejoren sus stats. ejemplo gyms y psi labs, adicionalmente dos edificios nuevos (explicados a continuacion)
- - added two new buildings, the sickbay and the advanced sickbay. 
+ - added two new buildings, the sickbay and the advanced sickbay.
    * aumentan el tiempo q tarda en recuperarse un soldado herido, solo se puede tener uno por base y solo uno de cualquiera de ambos niveles (no se puede tener un sick bay y un advanced sick bay at the same time)
    * la version upgradeada requiere una investigacion adicional.
    * custom made resources, including new battlescape maps, base sprites
-       ° as an extra note, these desings will be added into my base uplift standalone mod, so any other medical buildings added from mods like FMP will be compatible.	 
+       ° as an extra note, these desings will be added into my base uplift standalone mod, so any other medical buildings added from mods like FMP will be compatible.
  - el coste total de la construccion, mantenimiento, materiales necesarios y demas fueron totalmente balanceados principalmente aumentado ( otras fuentes de ingresos fueron aumentadas para balancear, aunque cabe destacar que xcom siempre tuvo acceso a diferentes fuentes dinero, asi q el dinero nunca fue realmente un problema, se intenta balancear para estabilizar mejor la curva de cuando este deja de ser una preocupacion)
  - el costo total de los salarios ha sido reducido significativamente
    * ademas cada tipo de soldado gana un bono en salario en base a su rango
- - reducido el costo inicial de mantenimiento y alquiler de los dragonfly e interceptor inicial.  
+ - reducido el costo inicial de mantenimiento y alquiler de los dragonfly e interceptor inicial.
 QOL CHANGES:
  - comenzado el proceso de recoloracion de todAS LAS INTERFACES, por ahora hice solo menus , de partidas guardadas, de opciones, de mods, etc.
    * esperare a ver que opinion tienen al respecto, requiere bastante trabajo por lo q no quiero meterle 10 horas mas a editar esos parametros para luego descubrir que es un cambio impopular y seguramente requiera rollback y tener un monton de esfuerzo desperdiciado.
@@ -214,16 +214,16 @@ QOL CHANGES:
  - (TERMINAR DE APLICAR) cambiado las funciones de ciertas armas
    * checar cambios en rieles
    * el lance es el equivalente a un auto cannon
-   * el mas pesado ahora es bazooka y tiene menos municion por cartucho 
+   * el mas pesado ahora es bazooka y tiene menos municion por cartucho
    * ahora la carbine plasma es mas un bullpup, modificado la sprite para reflejar esto
 
 TWEAKS AND BALANCE:
  - increased starting funding money (from 6M to 8M )
  - modificado totalmente los funding levels de todos los paises, luego se explicara en el lore, no se basa implicitamente en el poder economico de cada pais, sino estuvo mas bien derivado de la "cantidad de fe en el proyecto"
    * por eso paises como china tienen un nivel tan bajo, mientras q paises como argentina en busqueda de ser mas competitivos y arriesgarse con tal de obtener mejor posicion geopolitica, puede empezar con "tanto" a pesar del estado de su economia
-   * si bien algunos recibieron aumentos y otros reducciones, todos aumentaron totalmente el TOPE TOTAL, dejando al menos un powerhouse entre cada macrocontinente (uno en asia, uno en europa y uno en america) 
+   * si bien algunos recibieron aumentos y otros reducciones, todos aumentaron totalmente el TOPE TOTAL, dejando al menos un powerhouse entre cada macrocontinente (uno en asia, uno en europa y uno en america)
  - aumentado la cantidad de meses necesarios para recibir medalla de longevidad, ahora es cada seis meses
- -(ni idea) modificado todos los tiempos, costos y requisitos necesarios para las 
+ -(ni idea) modificado todos los tiempos, costos y requisitos necesarios para las
  - Tweaked and balance the ammount of Xelloys and Elerium recovered from UFO PARTS dissasemble.
    * (OJITO) Change the requeriments for some projects to balance this.
    * The ammunition manufacture should be managed in "blocks" therefore, numbers should be more realist and intuitive.
@@ -238,7 +238,7 @@ TWEAKS AND BALANCE:
        ° con este nuevo sistema funcionan como esperado.
    * los knuckles hacen daño concussive ahora
  - the stun rods become aviable to buying only after unlocking xeno physiology research
- - the stun pistols nows requires xeno physiology and its an manufacture project 
+ - the stun pistols nows requires xeno physiology and its an manufacture project
  - modified the ammount of ammo produced, this might help reduce micro and also improve the general balance and scarcity of Xelloys , numbers still requires tweaks in hours cost
  - tiempo de espera de arribo de contratos nuevos reducidos a 48h
  - la ametralladora ligera, el lanzagranadas y el rifle antimaterial ahora ocupan un espacio de 2x3 en el inventario
@@ -252,13 +252,13 @@ TWEAKS AND BALANCE:
  - reajustado todo lo relacionado con cientificos
    * reducir cantidad de horas los proyectos ÷ 4 aproximadamente, algunos cuestan mas
    * numero total de cientificos aproximadamente 1/5 parte idealmente
- - se agrego un nuevo nivel de armadura para los perros, el cybertraje, requiere ademas de uplifting para ser equipados  
+ - se agrego un nuevo nivel de armadura para los perros, el cybertraje, requiere ademas de uplifting para ser equipados
 
-   
+
  - engineers recieved same treatment:
    * salaries increased to 180k (from 62k)
    * small workshop size reduction to 20
-   * large workshop size reducted to 
+   * large workshop size reducted to
    * reducir cantidad de horas los proyectos a la mitad
    * numero total de ingenieros aproximadamente 1/3 parte idealmente
 
@@ -274,11 +274,11 @@ Sprite tweaks:
    * el tono de los tiny sprites y rank sprites del perrito fue modificado a verde y el de pliotos a rojo correctamente
  - cambios en los sprites de armaduras de pilotos, pasan de ser color azul/purpura a ser rojos, parcialmente inspirados en sprites de neoworm.
    ~ tambien lo hace compatible con el mod ps1 ASSETS (quizas lo fusione con mi mod)
- - armadura de tanqueros sera color azul y estan basadas en una recoloracion y retoques del trabajo previo de neoworm  
+ - armadura de tanqueros sera color azul y estan basadas en una recoloracion y retoques del trabajo previo de neoworm
  - cambios varios en distintas armaduras humanas
    * todas las armaduras basicas recibieron cambio en las versiones femeninas, incluyendo posicion del parche y tamaño de bandoleras y bolsillos para cargadores.
-   * removido el baggy pants de todos las armaduras skystrike   
- - cambios menores en las texturas del mapa mundi, "suavizado la diferencia de sombreado en el agua, evitando cierto efecto puntillista q era demasiado pesado en ciertas iluminaciones                                  
+   * removido el baggy pants de todos las armaduras skystrike
+ - cambios menores en las texturas del mapa mundi, "suavizado la diferencia de sombreado en el agua, evitando cierto efecto puntillista q era demasiado pesado en ciertas iluminaciones
  - increased the total ammount of faces for the paperdolls by 17 per gender (para un total de 72 por sexo)
  - Reduced size of grenade launcher ammo a bit.
  - reajusted the position of the weapons in the first tier (continuar con esto)
@@ -297,16 +297,16 @@ Sprite tweaks:
  - pequeños retoques al
    * cuchillo alloy humano
    * cuchillo basico humano
- - rediseñado el hand y floor sprite de la xsmg6 para que tenga mas apariencia de kriss vector.  
+ - rediseñado el hand y floor sprite de la xsmg6 para que tenga mas apariencia de kriss vector.
  - agregados sprites para cargadores de pistola y rifle de la primera generacion
    * espada laser humana
      ~ tambien recibio cambios en floorsprite y handsprite
    * espada plasma humana
      ~ tambien recibio cambios en floorsprite y handsprite
    * cuchillo alloy alien rediseñado por completo
-     ~ cambiado handsprite y floorsprite	 
-   * espada plasma alien modificada ligeramente	 
- - agregado handsprites para los cargadores de pistola y rifle de tier inicial	
+     ~ cambiado handsprite y floorsprite
+   * espada plasma alien modificada ligeramente
+ - agregado handsprites para los cargadores de pistola y rifle de tier inicial
  - modificada ligeramente las insignias de first sergeants ahora tienen doble chevron en la parte de abajo
  - modifcadas y mejoradas practicamente todas las granadas
    * recibieron mejoras visuales al inv sprite, al floor sprite y al handsprite
@@ -320,7 +320,7 @@ Sprite tweaks:
    * large living quarters
 [EN PROGRESO]
  - las sprites de las armas cambian dinamicamente en base al tipo de municion (o falta de esta) equipado
-   * cambios tambien se ven reflejados tanto en el Handob y el floorOb 
+   * cambios tambien se ven reflejados tanto en el Handob y el floorOb
      ~ de este modo habra visual cues para saber que tipo de municion tus tropas o las enemigas tienen en su arma actualmente.
    * cambios tambien a las granadas y explosivos, con sprites para cuando estan en "reposo" y cuando estan "primed"
    * cambios a armas melees con misma idea q la anterior.
@@ -355,12 +355,12 @@ craft changes:
      ~ tiene un nicho especializado en mover gran cantidad de tropas
        ° ideal para asaltos en objetivos estaticos como terror sites o bases enemigas
      ~ es mas lento que el firefly pero compensa con un rango ligeramente mayor
-   * important recalcar que desde aqui TODOS LOS TRANSPORTES USAN COMBUSTIBLE ESPECIAL (se produce destilando elerium)  
+   * important recalcar que desde aqui TODOS LOS TRANSPORTES USAN COMBUSTIBLE ESPECIAL (se produce destilando elerium)
    *la siguiente aeronave en desbloquearse sera el goliathus (anteriormente llamado hurricane)
      ~ diseño completamente alterado y mejorado, tanto estetica como en jugabilidad.
        ° en forma de ala delta, agregados elementos tanto externos como internos que le dan mas atractivo visual.
        ° distribuicion interna de las tropas cambiada para adecuarse al nuevo diseño.
-     ~ mejora sustancial en velocidad y autonomia  
+     ~ mejora sustancial en velocidad y autonomia
 	   ~ permitira volver a llevar hwp, llevara 2 tanques, enfocado en el transporte pesado de tropas.
      ~ si bien es una mejora respecto a naves anteriores, tambien requerira mas recursos para volverse el mainstay de xcom.
    * penultima aeronave el hercules (anteriormente skywarden)
@@ -371,7 +371,7 @@ craft changes:
      ~ su nicho es la especializacion en despliegues de alta velocidad, en zonas criticas y q requieran atencion inmediata. perfecto para despliegues con tropas de elite
    * Overlord seguira siendo la ultima aeronave desbloqueable
      * elementos internos y estetico rediseñado, mismo tratamiento que otras aeronaves.
-   * extremadamente caro y dificil de mantener, diseñado para la fase final de la partida cuando la economia deje de ser tan problematica.  
+   * extremadamente caro y dificil de mantener, diseñado para la fase final de la partida cuando la economia deje de ser tan problematica.
 	 ~ aparicion retrasada a ultimas escalas del juego
 
 
@@ -382,15 +382,15 @@ craft changes:
    * segundo avion renombrado a RIDER , primer proyecto integramente creado por xcom, mejora sustancial respecto a la aeronave inicial
      ~ recibio una imagen de ufopedia unica, pero no estoy del todo satisfecho con el resultado, seguro reciba un retoque posterior.
    * tercer avion sera el ROOK, requerira combustible especial para usarse
-   * cuarto y avion final sera el caza definitivo, tambien requerira combustible especial, requerira una inversion importante de recursos para desplegarse. 
- - en consecuencia tambien los UFOs recibieron modificaciones menores tanto en velocidad como en resistencia para ajustarse a los nuevos parametros   
+   * cuarto y avion final sera el caza definitivo, tambien requerira combustible especial, requerira una inversion importante de recursos para desplegarse.
+ - en consecuencia tambien los UFOs recibieron modificaciones menores tanto en velocidad como en resistencia para ajustarse a los nuevos parametros
  - todas las aeronaves recibieron cambios esteticos tanto en los basebits como en las ufopaedias
- - modificada la descripcion de tamaño del UFO labship, ahora es medium size.	 
-	 
-	 
+ - modificada la descripcion de tamaño del UFO labship, ahora es medium size.
+
+
 cambios en los mapas
    * algunas modificaciones a edificios de la base tanto en estadisticas y precios
-   * el hangar recibio algunos cambios para permitir mayor movilidad de las unidades HWP desde ciertos angulos, gracias reporte de (revisar en el foro quien me comento esto)   
+   * el hangar recibio algunos cambios para permitir mayor movilidad de las unidades HWP desde ciertos angulos, gracias reporte de (revisar en el foro quien me comento esto)
 	 * agregado fuentes de iluminacion extras en la pared lejana con lockers en el living quarters grande
 
 under da hood changes:
@@ -408,9 +408,9 @@ under da hood changes:
        ° adicionalmente por loopholes en las clausulas del contrato, aunque un cientifico vaya a recibir una pequeña fortuna mensual, ese dinero no podra ser utilizado HASTA Q ACABE EL CONFLICTO. efectivamente congelando todo sus activos hasta la victoria en la guerra, de nuevo haciendo que el "salario" neto sea irrelevante considerado el estatus actual del planeta.
        ° esto tambien generaria posibles caminos argumentales interesantes para ser explorados mas adelantes, haciendo q las tramas de traiciones a cambio de compesacion economicas o disgusto con el sistema de pago sea mas creible.
 
- - convertidas todas las imagenes de formato GIF pasado a PNG     
+ - convertidas todas las imagenes de formato GIF pasado a PNG
  - corregido ciertas definiciones erradas relacionada a los distintos rangos de los soldados, se supone q esto debio hacerse hace varios parches pero nunca lo habia inmplementado, ahora es mucho mas clarificado
- - limpieza de archivos relacionados con los mapas usando las versiones nuevas de CMP, la primera vez use metodos muy ordinarios, por la falta de experiencia. esta ves use un planteo mas metodico confirmando que no habrian errores, faltaria reordenar y luego 
+ - limpieza de archivos relacionados con los mapas usando las versiones nuevas de CMP, la primera vez use metodos muy ordinarios, por la falta de experiencia. esta ves use un planteo mas metodico confirmando que no habrian errores, faltaria reordenar y luego
  -  modificado el nombre de todos los archivos RULESET, las notaciones de los cambios q necesitan y el estado actual de cada uno fue anotado internamente, ayuda a la pulcritud del mod.
  - modificado como se referencian un monton de objetos dentro de los rulesets, si bien no reflejan un cambio apreciable en la jugabilidad, permite tener una mejor nomenclatura de los articulos, como contraparte, deja de ser compatible con el parche anterior
  - corregido un monton de errores en el pacing del arbol de investigaciones. deberian reducirse la cantidad de puntos muertos causados por investigaciones fantasmas  remanentes del mod original
@@ -421,10 +421,10 @@ bugfixes:
 - corregido un problema que impedia a los drones cargar explosivos, vuelve a recuperarse el comportamiento kamikaze
 - corregido un problema en el archivo metadata, ahora tiene un identificador propio, en caso q si quisieran instalar el Xenoperations original, podrian interferir entre si, ahora usa la etiqueta XOPSLegacy como corresponde.
 - fixed a problem where the firefly appeared when you started a new campaing.
-- resuelto error q mostraba ciertos edificios avanzados en la ufopedia desde el principio de la campaña 
+- resuelto error q mostraba ciertos edificios avanzados en la ufopedia desde el principio de la campaña
 - corregido un problema q impidia q el abomination y el ancient spawn usaran sus armas q venian incorporadas.
 - corregido un error en la sprite de los sectoides en la ufopaedia, habian pixeles coloreados erroneamente generando mucho contraste en su carita.
-- corregido un error producido durante el merging de mapas del CMP,en ciertas circustancias se podian producir CTDs relacionados con los ACULTA (gothic terrain), al fin pudo ser resuelto, gracias crazedHarpooner por el insight. 
+- corregido un error producido durante el merging de mapas del CMP,en ciertas circustancias se podian producir CTDs relacionados con los ACULTA (gothic terrain), al fin pudo ser resuelto, gracias crazedHarpooner por el insight.
 
 - solved some early instances related to the tech tree and medic units. you could obtain warlord and chieftains as free research topics unlocking operation ENDGAME prematurely (thanks scamps for the report).
 - solved the XCF3 appearing before it was intended (it should be a reward for codex 3 tier research)
@@ -628,7 +628,7 @@ Bugfixes:
  - Resolved a problem related to duplicate final mission unlocks.
  - Used pedrothezeroTool to address acknowledged problems in VSC, improving mod stability.
  - Temporarily deactivated "gothic church" maps due to their inconsistent performance and costant CTDs.
-  
+
 #################
 ------------------------
 v.097.03 LE changelog:
@@ -648,7 +648,7 @@ Various Changes:
   * "Basic Soldiers"
   * "The Other Types"
     ° This will help when reordering your troops by types in the base interface.
-	
+
 Enhanced Descriptions:
 - Included additional descriptions related to the CODEX, like corrupted files.
 - Corrected some commendation errors and improved spacing, with more in-depth revisions required.
@@ -667,7 +667,7 @@ Sprites Changes:
 - Modified the Rocket Launcher sprite to maintain consistency with the mod's general artwork. The base is taken from X-Files and was further refined.
 - Tweaked the sprites for the Grenade Launcher, where ammunition is now depicted as grenades in a drum. The floor-ob is ready, while the hand-ob still needs refinement. All assets are also sourced from X-Files.
 
-Tweaked: 
+Tweaked:
 - Hopefully this first sweep of the drop rate of materials will help aleviate somewhat the ammount of resources aviable until a more intricate balance is done
   * Significantly increased the amount of materials produced by breakdown projects. Remember to interact with this feature, as each component can be reduced to more basic components. The next step is improving manufacturing projects to create ammo in bundles, this change will take some time.
   * Additionally, more breakdown projects will be added for various items (e.g., mechanical cadavers for parts or alien weapons for materials). This comes with increased costs and time requirements to maintain balance.
@@ -739,9 +739,9 @@ Balances and Tweaks:
 - Removed the "fixed" option for INSTANT GRENADES, as it was originally necessary for AI competence but has since become obsolete with the Brutal AI MOD. Seeking feedback on this change.
 - Replaced the Alloy knife texture with a retouched version from Woofington's vanilla weapon resprite pack. Plasma and laser blades are next in line for replacement.
 - The Heavy Cannon has undergone a complete transformation. The names of both the weapon and its associated ammunition have been updated:
-  * Now is called automatic grenade launcher. Grenades are now called "40mm (type) grenade" 
+  * Now is called automatic grenade launcher. Grenades are now called "40mm (type) grenade"
     ~ Additionally the AP ammunition has been replaced with smoke rounds.
-  * To reflect this changes, the ammunition types have been reordered, making "high explosive" the new standard. 
+  * To reflect this changes, the ammunition types have been reordered, making "high explosive" the new standard.
   * All their ammo got some tweaks and a slight reduction in terms of damage.
   * The amount of ammunition for this weapon at the beginning of a new campaign has been rebalanced.
 - The AmRifle damage got buffed a bit, as is was underperforming.
@@ -801,7 +801,7 @@ Revamped the UI:
   * Improved the Craft weapon ufopaedia page.
   * Enhanced the facilities ufopaedia page.
   * Redesigned the HWP ufopaedia image to provide a preview of how they look and estimate their size in battlescape.
-  * Improved the soldier stats viewer (both in the base and battlescape) with a more pleasing and structured green hue.  
+  * Improved the soldier stats viewer (both in the base and battlescape) with a more pleasing and structured green hue.
 
 Changed and Improved some general artwork and Battlescape Sprites:
 - Craft weapons got some retouches:
@@ -863,7 +863,7 @@ Changed and Improved some general artwork and Battlescape Sprites:
     ° Adjusted the names of all hybrid ammunition to reduce verbiage and prevent UI clipping issues.
     ° Changed the hybrid SMG and UZI to .357 MAG.
     ° Switched the hybrid shotgun to 10-gauge shells.
-  * Revamped laser weaponry, tweaked stats and behavior to create more diverse roles while keeping all weapons useful:	
+  * Revamped laser weaponry, tweaked stats and behavior to create more diverse roles while keeping all weapons useful:
   * In general , laser weapons are weaker in terms of raw damage, but are lightier, more accurate and faster than previous TIER
   * Renamed all the laser weapons.
     ° Reduced the damage of Laser weapons, making them nearly equivalent to the hybrid tier.
@@ -887,7 +887,7 @@ Changed and Improved some general artwork and Battlescape Sprites:
       ~ These modifications create a deliberate tradeoff and investment decision when considering them as your standard ammunition for the laser tier.
       ~ They shine as "backup weapons" during the mid to late game when your A and B teams are armed with more exotic and specialized weaponry. For other soldiers, especially those on guard duty in additional bases, a single investment in Elerium Batteries eliminates the need for micromanaging ammunition, streamlining your operations.
     ° All laser battery types have had their ammo counts adjusted to align with their new firing characteristics.
-  * This comprehensive overhaul aims to provide a more balanced and strategic approach to choosing laser weaponry, offering a variety of options to suit different playstyles and scenarios.  
+  * This comprehensive overhaul aims to provide a more balanced and strategic approach to choosing laser weaponry, offering a variety of options to suit different playstyles and scenarios.
   * Renamed Hypervelocity to "Rail Weaponry."
   * Some weapons lost their auto-shot ability, but in general terms, they are versatile.
     ° Rail Pistol lost its auto-shot and shares ammo with the Assaulter.
@@ -912,14 +912,14 @@ Changed and Improved some general artwork and Battlescape Sprites:
     ° Plasma Blaster (Shotgun) lost its aimed ability but gained auto-shot.
     ° Plasma Rifle lost its auto ability (to prevent the rifle from being the main workhorse of your squads and to open the "automatic niche" to other specialized arms).
     ° Plasma Caster (LMG) can't aim and auto-shot fires a 5-bullet burst.
-    ° Plasma Sniper Rifle takes time to charge and fire safely, thus can only make Aimed Shots. 
+    ° Plasma Sniper Rifle takes time to charge and fire safely, thus can only make Aimed Shots.
     ° Plasma Heavy Cannon, equivalent to a rocket launcher in this tier, can't perform auto-shots.
   * The entire tier had weapons renamed, and the ammo is called "cells."
     ° "Plasma cells" are common, got their ammo count adjusted.
 	° "Overcharged cells" hit harder, ammo count and damage output tweaked
 	° "Antimatter cells" are exotic ammunition that explodes on contact, ammo count increased in most istances.
       ~ Their production costs and material requirements heavily incresed.
-	  
+
 Improved Manufacturing:
 - In response to previous weapon changes, the entire Manufacturing section recieved a revamp:
   * Streamlined Project List removing redundant projects that were causing clutter in the Manufacture screen
@@ -931,13 +931,13 @@ Improved Manufacturing:
   * The cost of Laser Elerium Batteries has been significantly increased.
     ° These batteries now come at a price point and materials that's nearly on par with or even double that of their corresponding weapons. This adjustment is made to balance the gameplay, considering their unique feature of providing unlimited ammo.
 - Plasma Antimatter cells pricing adjustment
-  * Adjusted parameters so they need a little bit more E-115 to be constructed. 
-  
-  
+  * Adjusted parameters so they need a little bit more E-115 to be constructed.
+
+
 Bugfixes:
 - Corrected Hybrid rocket damagetype to CHEMICAL DAMAGE (it was incendiary before)
 - Corrected Muton floorobs, handoobs, and inventory sprites to display their accurate colors.
-- Corrected some autopsies pictures having wrong version of the nameplates, creating some uneaven appearence in some istances 
+- Corrected some autopsies pictures having wrong version of the nameplates, creating some uneaven appearence in some istances
 - Added changes to Bahrain and Qatar that were unintentionally missed in the last patch.
 - Adjusted the size of the plasma compact pistol to 1x1 in the inventory as intended.
 - Replaced the letter "ė" in Lithuanian namesets with "é" to resolve inconsistencies caused by the missing character in the mod's alphabet.
@@ -967,7 +967,7 @@ v0.96.v8 LE:
     -Finally learned how to add new nationalities:
 	  *There are now 115 nationalities
       °Some flags are entirely new, others were retouched
-	  °expanded the name pools of almost all countries (my target is to add at least 500 names per gender and 1000 surnames,thera still some cases were the number werent enough to consider it finished) 
+	  °expanded the name pools of almost all countries (my target is to add at least 500 names per gender and 1000 surnames,thera still some cases were the number werent enough to consider it finished)
 	  °focused on adding missing countries with either high military spending, or history of cooperation with bigger supperpowers or UN peacekeeping forces (colombia and malasya for example)
 	 *reorganized "nationalities" (i.e. the flags) into (imho) a more intiutive order, basically into alphabetical order, (so now USA and EGYPT are moved lower on the list, to name a few changes)
 	  °be wary that with this changes, most of the soldiers flags will be flipped all over the place, so you might need to manually fix this yourself, sorry :s .
@@ -980,12 +980,12 @@ v0.96.v8 LE:
 	  *stripped the smoke launcher (way too weak for their breaching role ) , now uses a shotgun like weapon, with very small range, but decent damage output (stick boom turns sectoids into meat confetti)
     -UAV its renamed to "shuriken", got a new ufopedia description
     -UAV rocket launcher renamed to : UCAV 'Longbow', to avoid any confusion, also to maintain a continous nomenclature, they'll be named after historical weapons
-      * updated the requirements to unlock, improved the stats and got a new ufopedia description, hopefully it got a better niche to shine on.	  
+      * updated the requirements to unlock, improved the stats and got a new ufopedia description, hopefully it got a better niche to shine on.
 	-NEW STARTING SHIP! called the DRAGONFLY thanks a lot to efrenspartano for his gorgeos spritework, increible compadre, te la rifaste!
 	 *based on the newest bell valor 280 from boeing:
 	  °capacity for only twelve soldiers
 	  °cant take any HWP TANKS, only dogs and small drones as auxiliary units.
-	 *Should be your mainstay unit for troop transporting 
+	 *Should be your mainstay unit for troop transporting
 	-Old starting ship (the CUSTODIAN/dragonfly) was renamed into FIREFLY has became a new ship on their own:
      *its a crude step foward.
       °can haul 14 units, including heavy tanks
@@ -993,9 +993,9 @@ v0.96.v8 LE:
 	  °slighty faster than before
 	  °more expensive all around
 	  °uses an improved battlescape map, courtesy of EFRENSPARTANO
-	- Small Rebalance to EVERY COMBAT AND TRANSPORT PLANE (will be expanded further, for now the balance should improve some oversights) 
+	- Small Rebalance to EVERY COMBAT AND TRANSPORT PLANE (will be expanded further, for now the balance should improve some oversights)
 	-Now tanks are finally done (sprites are placeholder, planing to use the coelacanth spritesheet, so threads are animated, the same with the turret)
-      *first tier  requires allien alloys for their construction (so they are light enough to be airlifted on VTOL transports)	
+      *first tier  requires allien alloys for their construction (so they are light enough to be airlifted on VTOL transports)
 	  *tanks comes in two varieties for now and all use the same chassis (imported and repurporsed from XENONAUTS 1)
 	   °AP (an 20mm IFV) intended for infantry support, small smoke launcher as secondary weapon .
 	   °HE (classic 105mm MBT) intended for brawling aggainst heavier alien units. also with smoke launcher as backup
@@ -1016,7 +1016,7 @@ v0.96.v8 LE:
 	  °on a related note OVERLORD ALIENS (the golden crystaline shards) are renamed to SOVEREIGN (firstly to avoid confusions of having same elements, secondly, cuz without making too much spoilers, it didnt make sense considering their position in the chain command)
     - Commendations mods, BY Shoes, Ivan Dogovich and hellrazor  its fully integrated:
 	 *Some descriptions, were added, expanded or modified (either for balance or to fit better in the mod.
-    - Changed the starting date (again, this will be the last time i swear) to first monday of 2027, already planned some lore changes that'll be added progressively unto future patchs. 
+    - Changed the starting date (again, this will be the last time i swear) to first monday of 2027, already planned some lore changes that'll be added progressively unto future patchs.
     -BugFixes:
 	 °Declustered and streamlined some folders and files(specially names), and to make finding stuff more easier. mostly for my sanity, also in case anyone wish to use resources from the mod, remember to give credits for other people work...in the veeeeeeeeeeeery few cases where the sprites or files are entirely being made by me (like dogs sprites for example), are free to use without any issues, dont worry
 	 °balanced X3 HEAVY PISTOL alloy ammunition: 50 > to 42 (it was hitting harder than a AM-Rifle )
@@ -1027,10 +1027,10 @@ v0.96.v8 LE:
 	  ~Pilot Flight Suit now correctly have a picture following the armors patterns
 	  ~Kevlar armor now uses new sprites (with the quadscoped Night Vision googles)
 	  ~Xops Armor Recieved same treatment
-	 °Updated congo flag now use the Official (since 2006) DRC 
-     °okay now for real,Fixed(?) tinyranks spritesheet, last patch i changed color combinations correctly to green, they used to be RED. If anyone preffers that version, i left both files on the folder, change the names and use as your preference. 
+	 °Updated congo flag now use the Official (since 2006) DRC
+     °okay now for real,Fixed(?) tinyranks spritesheet, last patch i changed color combinations correctly to green, they used to be RED. If anyone preffers that version, i left both files on the folder, change the names and use as your preference.
 	 °corrected the army rank description : HIGHER RANK SHOULD BE a LT. COLONEL now (instead of simply a colonel, thats reserved for pilots ranks)
-	 
+
 ##########
 
 v0.96.v7 LE:
@@ -1073,17 +1073,17 @@ v0.96.v7 LE:
 	 °added (and removed in some occasions) items from starting base in new campaings.
 	 °finally managed to fix the visual bug of rank sprites on the baseview, should work as intended
 	 °last patch i said i finished tinyranks sprites, found i loaded the wrong file (SHOULD BE FINISHED NOW), (still trying to find how to add different tinysprite for different soldiertypes tho)
-	 
-	  
----------------Reorder below ------------------	
-	 
+
+
+---------------Reorder below ------------------
+
 v0.96.v6 LE:
     -Slowly but steadely restructurating some .RUL files (eliminated redundant ones, cleaning, merging and organizing others, tbh they were a mess and dear lord, i increased this mess), still a lot to do tho
 	-Updated Death sounds, now all races (should) be consistent on the sound deparment, used firaxis 2012 XCOM sounds  (corrected basic mutons using new sound but more advanced versions using vainilla instead)
      °Fixed some crashes related to death sounds (thanks a lot to eleriumWard for pointing this)
-	-Changed armors , finally into layers system! 
+	-Changed armors , finally into layers system!
 	(so many thanks to SolariusScorch, his amazing work with XFILES mod helped me a lot to understand what the hell i was doing wrong)
-    (used his body sprites as basis for every edit i made to the armors sprites,to assure the maximum compatibility possible.... so hopefully , he or anyone who whises to include this armors on their mod shouldnt have bigger problems   	
+    (used his body sprites as basis for every edit i made to the armors sprites,to assure the maximum compatibility possible.... so hopefully , he or anyone who whises to include this armors on their mod shouldnt have bigger problems
 	 °pilots only use blue variants
 	 °other classes cant use pilot variants (gonna edit them further to make them more unique visually and conceptually)
 	 °custom preview mini sprite for every armor (with the exception of skystrike and the nerve ones, this is on the to do list)
@@ -1091,7 +1091,7 @@ v0.96.v6 LE:
 	  *redone the helmets a bit ,added microphones and new night vision google system, with QUAD lenses (heavily inspired from CTO mod from EFRENSPARTANO, check it out, its pretty rad!)
 	 °second tier its being worked currently, wont have any helmet until i finish retouching them.
 	 °the rest of the tiers are theoretically done,their "helmets" (they use kinda astronaut thing attached to their head/neck, dont know the correct word sorry) will be finished really soon
-	 SO I HUMBLY REQUEST that any rebel/floating/extra pixel i missed could be reported so i can fix them ASAP 
+	 SO I HUMBLY REQUEST that any rebel/floating/extra pixel i missed could be reported so i can fix them ASAP
 	-Replaced some ufopaedia images:
 	 °handcrafted version for pilots (despcription still to be done)
 	 °a temporal soldiers picture until i find other that satisfy me more.
@@ -1101,7 +1101,7 @@ v0.96.v6 LE:
 	- made new paperdolls for DOGGOS!
      °now first two tiers use newer papperdolls, still pretty rough collored, (hope i can improve them as i learn to paint better tho)
 	  *first tier a simple collar, second tier now uses a more intricated harness, with lots of straps and stuff), already drafted general ideas for next ones.
-	  *plans are to integrate this with the LAYERS so instead of faces, there are others breeds (currently working on a mallinois, a doberman and a rottweiler, any ideas will be appreciated) 	
+	  *plans are to integrate this with the LAYERS so instead of faces, there are others breeds (currently working on a mallinois, a doberman and a rottweiler, any ideas will be appreciated)
 	-Replaced basic drone with a four rotors quadcopter version (added unique sound, so it buzz like commercial drones and differentiate from the rocket drone)
 	-Replaced Basic sectoid sprites:
 	 °Sectoids now uses a recoloured version of AQUATOIDS (my favorite alien from tftd), imho they had a more striking and unique profile, im happy with the results but currently thinking on changing the color into a more blueish gray (so the brown/kaki/coyote/ scheme is "reserved" for xcom units), kinda the palette of xcom2012 firaxis sectoids.
@@ -1116,9 +1116,9 @@ v0.96.v6 LE:
 	-Added a new unit type, a land drone armed with a small smoke launcher, useful for scouting ahead and helping with the deployment phase, you can set up some screening before sending rookies to their (assured) death
      °eliminated mortar tank (seemed redundant, thinking on doing the same with the MRLS and repurporsed in another variant )
      °currently thinking pushing the standard tank into requiring A-Alloys to construct and delay their apparition a bit later (kinda like the laser tank on vainilla)
-    -Tried adding new flags but couldnt find a way to make it work (i decided to stop making new flags, they are free to use by anyone, they took me less than 10 minutes each so if anyone is interested of making more, just DM and i would gladly help 
-	- citing a very wise modder i know: Several Bugfixes done. (sorry a lot of RLI happened so i lost track of some changes made) 
-	
+    -Tried adding new flags but couldnt find a way to make it work (i decided to stop making new flags, they are free to use by anyone, they took me less than 10 minutes each so if anyone is interested of making more, just DM and i would gladly help
+	- citing a very wise modder i know: Several Bugfixes done. (sorry a lot of RLI happened so i lost track of some changes made)
+
 vO.96.V5 LE:
    -Some fixes, tweaks and changes to SPRITES:
     °Taser pistol fliped (so itsnt the only weapon facing the other way around)
@@ -1126,7 +1126,7 @@ vO.96.V5 LE:
     °compac tpistol, auto pistol , X1a pistol and x2 auto pistol got the magazines sprites reduced in size so it look compatible between each other (used the clip for the auto before, was too long compared to compact pistol for example)
     °hybrid compact and auto hybrid pistols had the same change as above. it should fits better now.
 	°the basic smg and the x5 smg now has a "straighter" mag on the sprite (it shares ammo with the uzi and it looked weird having a banana curved in the main sprite yet straight mags on the pockets)
-    °PDW and x5a PDW got their mags size increased (only graphically) same as above, its suposed it used 5.56 ammo yet had a tiny mag attached, it looks like a bullpup now (as intended) 
+    °PDW and x5a PDW got their mags size increased (only graphically) same as above, its suposed it used 5.56 ammo yet had a tiny mag attached, it looks like a bullpup now (as intended)
     °Pilots basic flight suit changed from moss green into a purplish blue, every tier has this purple blueish color so i thought it would be cool if this was to identify pilots.
 	° Nerve Armors got their sprites slighty modified, until i retouch it further, it doesnt share the exact same sprite with personal armors (googles were changed from GREEN to PURPLE)
    -Power armors lost their ability to FLOAT (they were too op, maybe i'll add an upgraded version of the skystrike later)
@@ -1142,7 +1142,7 @@ vO.96.V5 LE:
 
 v0.96.v4 LE:
    -correctly remplaced some wrong RUL files compressed by mistake from a very old build (sorry :C) (some tweaks to base facilities for example)
-   -finally managed to make doggos unable to equip human clothing   
+   -finally managed to make doggos unable to equip human clothing
    -streamlined shock (stun weapons), reduced to just two ammo types (three if you count your first taser pistol into this category):
     °pistol and rifle uses the same battery (you must pick between the accuracy/reliabilty of the rifle or portability and swiftness of the pistol)
 	°added missing shock weapons ufopedia entries (tried my best to translate my ideas, will prolly change later for better grammar)
@@ -1156,8 +1156,8 @@ v0.96.v4 LE:
 *****THIS marks the end of the planning reunification and streamlining the ammunition of all weapon tiers ...at least for now until more tweaks are needed.
     -With this in mind, the general ammount of unique ammunition its reduced unto around half of the original number And (hopefully) mitigates the micro needed and puts some weapons under the spotlight
 	(this specially on the first three tiers as these were the bigest culprits )
-   
-   
+
+
 
 v0.96.v3 LE:
    -streamlined third tier of weapons (hybrid) and first balance sweept, changed the list orders and some strings to reflect this.
@@ -1166,16 +1166,16 @@ v0.96.v3 LE:
    -added new feature for weapon reloading times (it adds the TUs needed to move the item from respective inventory slots into the weapon itself, needs a lot of testing, prolly imma increase time for specific weapons and stuff).
    -small tweaks and balance for some early weapons (minigun pellets and ammo reduced).
    -increased substantially the ammount of time you must spend to breakdown ufo components (they had only 1 hour each, you could dissasemble entire batch on less than 2 hours with a bit of micro).
-   
+
 
 v0.96v2 LE:
   -Streamlined first two tiers ammunition and stats;
    *As many other mods did before, the ammo system is changed so first two tiers (ballistics and improved ballistic) share magazine, both between tiers
-    and between some weapons of the same tier thereby reducing (hopefully) the micro needed to operate and field a diverse collection of weapons, also (alledgedly) would give better oportunities to 
+    and between some weapons of the same tier thereby reducing (hopefully) the micro needed to operate and field a diverse collection of weapons, also (alledgedly) would give better oportunities to
     bring some criminally underused weapons into the spotlight.
    *X Ballistic weapons had their basic ammo replaced with standard starting ammunition thus making the upgrade less of a headache and balancing a bit so the real power spike is when you start fielding
    alloy jacketed ammunition (with the respective drawback of having to spend resources for the upgrade)
-   ##example: 
+   ##example:
    °small pistol and machine pistol both uses now a 9mm magazine.
    °Their upgraded version the X1a small pistol and the X2 machine pistol uses the same 9mm magazine (from previous tier) and both uses the new 9mm alloy and 9mm tech ammunition magazine
    °The total number of ammo types needed to field(and total aviable for them) reduced from 8 to only 3
@@ -1184,7 +1184,7 @@ v0.96v2 LE:
   -Updated the manufacture list to reflect the changes
   -updated ufopaedia entries to inform of this changes (still a lot of wording to do, in the pending list)
   -Fixes and minors tweaks here and there
-  
+
 
 v0.96v1 Legacy Extended:
   -updated to newest OXCE (7.1.4)
@@ -1203,17 +1203,17 @@ v0.96v1 Legacy Extended:
   * Pilots : required to operate every ship , they are combat competent but should be used as backline troops
   * Officers: PRomoted soldiers who showed to be skilled enough to take leadership responsabilities (they must be manually chosen in the SOLDIERS tab, might improve this feature later...hopefully)
   -improved GLOBE with new countries, cities, better frontiers and terrain types (needs testing, and doble checks on balancing) (all thanks to CMP hard work to create this)
-  -added new terror sites missions and types (cruisers line are back, currently needs improving, some cruiser maps lacks with a retreat zone, making it a NON RETREAT kind of mission, a total HELL if facing sectoid, needs further balance) 
+  -added new terror sites missions and types (cruisers line are back, currently needs improving, some cruiser maps lacks with a retreat zone, making it a NON RETREAT kind of mission, a total HELL if facing sectoid, needs further balance)
   -small revision of early game weapons stats and general items:
    *tweaked some stats to better balance first two tiers of ballistic weapons
    *Increased total resistence of all objects (so you wont lose your beloved new toys to a random SMOKE grenade explosion, planning to tweak further so UPPER tiers have EVEN MORE resistance)
   -tons of other changes that i might not remember now but i know i did.....THANKS a lot to EFRENSPARTANO for all his insights and ungodly amount of patience.
   -Changed all the music and reeplaced it with the 2012 xcom (firaxis) version, THANKS TO Xover88 for his work.
-  
-  
-  
+
+
+
 ##### Versions previous to Legacy #####
-  
+
 V0.96
   - Updated compatibility with OXC nightly and OXCE
 V0.958

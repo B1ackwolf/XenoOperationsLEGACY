@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 20
   - 60
   - 15
@@ -1713,20 +1713,20 @@ maleLast:
   -	Norton
   -	Nugent
   -	Nunn
-  -	O'Brien
-  -	O'Callaghan
-  -	O'Connell
-  -	O'Connor
-  -	O'Donnell
-  -	O'Halloran
-  -	O'Keefe
-  -	O'Keeffe
-  -	O'Leary
-  -	O'Neill
-  -	O'Reilly
-  -	O'Rourke
-  -	O'Shea
-  -	O'Sullivan
+  -	"O'Brien"
+  -	"O'Callaghan"
+  -	"O'Connell"
+  -	"O'Connor"
+  -	"O'Donnell"
+  -	"O'Halloran"
+  -	"O'Keefe"
+  -	"O'Keeffe"
+  -	"O'Leary"
+  -	"O'Neill"
+  -	"O'Reilly"
+  -	"O'Rourke"
+  -	"O'Shea"
+  -	"O'Sullivan"
   -	Oakley
   -	Oates
   -	Obrien

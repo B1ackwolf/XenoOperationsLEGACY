@@ -565,7 +565,7 @@ research:
       - STR_SECTOID_NAVIGATOR
       - STR_ARMORED_SECTOID_NAVIGATOR
       - STR_CARCHARODON_NAVIGATOR
-  - name: STR_LEADER_UNLOCK  
+  - name: STR_LEADER_UNLOCK
     requires:
       - STR_ALIEN_ORIGINS
     dependencies:
@@ -675,7 +675,7 @@ research:
     dependencies:
       - STR_FINAL_UNLOCK
       - STR_ALIEN_THREAT
-  - name: STR_OVERLORD 
+  - name: STR_OVERLORD
     cost: 500
     points: 10
     dependencies:
@@ -855,7 +855,7 @@ research:
     points: 15
     dependencies:
       - STR_NEW_FIGHTER_PROGRAM
-  - name: STR_SCARAB 
+  - name: STR_SCARAB
     cost: 40
     points: 30
     dependencies:
@@ -864,7 +864,7 @@ research:
   - name: STR_NEXT_GEN_TRANSPORT
     points: 25
     needItem: true
-  - name: STR_GOLIATHUS 
+  - name: STR_GOLIATHUS
     cost: 150
     points: 25
     dependencies:
@@ -876,7 +876,7 @@ research:
   - name: STR_UFO_MASTERY
     points: 25
     needItem: true
-  - name: STR_HERCULES 
+  - name: STR_HERCULES
     cost: 220
     points: 25
     dependencies:
@@ -886,7 +886,7 @@ research:
   - name: STR_GRAV_SHIELD #ojito sobrante
     cost: 0
     points: 25
-    needItem: true  
+    needItem: true
   # - name: STR_AVENGER #OJITO SOBRANTE
   #   cost: 450
   #   points: 25
@@ -899,7 +899,7 @@ research:
 
 
 ###########
- 
+
 
 
 
@@ -1165,7 +1165,7 @@ research:
     cost: 5
     points: 6
     needItem: true
-  - name: STR_EX_PORTABLE_COMPUTER 
+  - name: STR_EX_PORTABLE_COMPUTER
     cost: 5
     points: 6
     needItem: true
@@ -1539,7 +1539,7 @@ research:
   - name: STR_ARMORED_MUTON #ojito quizas mover a otro sitio ojito mover a otro lado
     cost: 25
     points: 50
-    lookup: STR_ARMORED_MUTON 
+    lookup: STR_ARMORED_MUTON
     needItem: true
     destroyItem: true
   - name: STR_MUTON_BERSERKER
@@ -1553,7 +1553,7 @@ research:
     points: 50
     lookup: STR_MUTON_WARLORD
     needItem: true
-    destroyItem: true 
+    destroyItem: true
   - name: STR_ANCIENT_SPAWN_TERRORIST
     cost: 50
     points: 50

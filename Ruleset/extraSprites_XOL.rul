@@ -12,7 +12,7 @@ extraSprites:
       166: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_COMBAT_VEST_CORPSE.png
       167: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_ALLOY_VEST_CORPSE.png
       168: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_DURATHREAD_VEST_CORPSE.png
-      1068: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_CYBERSUIT_CORPSE.png    
+      1068: Resources/UnitSprites/XcomFaction/XcomDoge/BigOb/DOGE_CYBERSUIT_CORPSE.png
       63: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Pilot_Inventory_corpse_Blue.png
       101: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse_Blue.gif
       99: Resources/UnitSprites/XcomFaction/XcomHuman/BigOb/Vest_Inventory_Corpse.gif
@@ -85,7 +85,7 @@ extraSprites:
       812: Resources/UnitSprites/AlienFaction/BigOb/AbominationInventoryCorpse.gif
       811: Resources/UnitSprites/AlienFaction/BigOb/CarcharodonInventoryCorpse.gif
       813: Resources/UnitSprites/AlienFaction/InvAlien/AlienAttacks/SharkBite.gif
-#----- Unit sprites for ALIENS ends here -----#  
+#----- Unit sprites for ALIENS ends here -----#
 #----- Tier 1 Ballistic tier BigObs -----#
       3000: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.png
       3008: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol_empty.png
@@ -310,7 +310,7 @@ extraSprites:
       433: Resources/WeaponrySprites/9thOrdnance/BigOb/11EleriumSeismicMine_inv.png
       210: Resources/WeaponrySprites/9thOrdnance/BigOb/15SemtexSatchel_primed.png
       22: Resources/WeaponrySprites/9thOrdnance/BigOb/16c4Block_primed.png
-      439: Resources/WeaponrySprites/9thOrdnance/BigOb/17HumanEleriumCharge_primed.png #otro explosivo 
+      439: Resources/WeaponrySprites/9thOrdnance/BigOb/17HumanEleriumCharge_primed.png #otro explosivo
       434: Resources/WeaponrySprites/9thOrdnance/BigOb/18HumaAntiMatterCharge_inv.png
       250: Resources/WeaponrySprites/9thOrdnance/BigOb/20BangaloreCharge_primed.png
       251: Resources/WeaponrySprites/9thOrdnance/BigOb/21BreachingElerium_primed.png
@@ -950,7 +950,7 @@ extraSprites:
       490: Resources/WeaponrySprites/WeaponFX/BulletSprite/alloybullet.png #14
       840: Resources/WeaponrySprites/WeaponFX/BulletSprite/chembullet.png #24
       1015: Resources/WeaponrySprites/WeaponFX/BulletSprite/techbullet.png #29
-    #  1455: Resources/WeaponrySprites/WeaponFX/BulletSprite/Taser_bullet.png #ojito averiguar como diantres se asigna el numero 
+    #  1455: Resources/WeaponrySprites/WeaponFX/BulletSprite/Taser_bullet.png #ojito averiguar como diantres se asigna el numero
   - type: Projectiles
     width: 105
     height: 6
@@ -980,7 +980,7 @@ extraSprites:
       86: Resources/WeaponrySprites/WeaponFx/HitFx/PlasmaHitBlue.png
       96: Resources/WeaponrySprites/WeaponFx/HitFx/ShockHit.png
       56: Resources/WeaponrySprites/WeaponFx/HitFx/Taserhit.png #ojito
-###### Ranks, mover a un smoke separado para mantener ordenado ######      
+###### Ranks, mover a un smoke separado para mantener ordenado ######
       20: Resources/UxUI/RankSprites/inBattlescape/Army0.png
       21: Resources/UxUI/RankSprites/inBattlescape/Army1.png
       22: Resources/UxUI/RankSprites/inBattlescape/Army2.png
@@ -1039,14 +1039,14 @@ extraSprites:
       64: Resources/UxUI/BaseBits/PlaneSprites/Fusion.gif
       83: Resources/UxUI/BaseBits/PlaneSprites/Cluster.gif
       84: Resources/UxUI/BaseBits/PlaneSprites/Pilum.gif
-#----- Crafts base view sprites -----#      
+#----- Crafts base view sprites -----#
       1033: Resources/UxUI/BaseBits/PlaneSprites/XTP0a_base.png
       1034: Resources/UxUI/BaseBits/PlaneSprites/XTP0b_base.png
       1035: Resources/UxUI/BaseBits/PlaneSprites/XTP0c_base.png
       183: Resources/UxUI/BaseBits/PlaneSprites/XTP1_base.png
-      233: Resources/UxUI/BaseBits/PlaneSprites/XTP2_base.png      
+      233: Resources/UxUI/BaseBits/PlaneSprites/XTP2_base.png
       283: Resources/UxUI/BaseBits/PlaneSprites/XTP3_base.gif
-      333: Resources/UxUI/BaseBits/PlaneSprites/XTP4_base.gif      
+      333: Resources/UxUI/BaseBits/PlaneSprites/XTP4_base.gif
       383: Resources/UxUI/BaseBits/PlaneSprites/XTPX_base.gif
 #
       533: Resources/UxUI/BaseBits/PlaneSprites/XCF0_base.gif
@@ -1055,7 +1055,7 @@ extraSprites:
       683: Resources/UxUI/BaseBits/PlaneSprites/XCF3_base.gif
       733: Resources/UxUI/BaseBits/PlaneSprites/XCF4_base.png
 
-#----- Patrolling crafts -----#      
+#----- Patrolling crafts -----#
       933: Resources/UxUI/BaseBits/PlaneSprites/XRS71_base.gif
 
       ####
@@ -1309,7 +1309,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/UxUi/InterfaceNew/Cursor.gif
-#----- Background Images -----#      
+#----- Background Images -----#
   - type: GEOBORD.SCR
     singleImage: true
     width: 320
@@ -1902,14 +1902,14 @@ extraSprites:
     width: 31
     height: 496
     subX: 31
-    subY: 8 
+    subY: 8
     files:
       0: Resources/UxUi/SpriteSheets/Medals_sheet.png
   - type: CommendationDecorations #Hardcoded
     width: 31
     height: 80
     subX: 31
-    subY: 8 
+    subY: 8
     files:
       0: Resources/UxUi/SpriteSheets/Condecorations_sheet.png
 ####OJITO Reorder below this
@@ -1923,7 +1923,7 @@ extraSprites:
     singleImage: true
     files:
       0: resources/UxUi/BackgroundFiles/UNIBORD.png
-###### Reordenar ######      
+###### Reordenar ######
   - type: oxceLinks
     width: 32
     height: 16
@@ -2239,7 +2239,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UPediaMedals/UfoPaedia_Medal_AllBattleTypes.png 
+      0: Resources/UfopediaImages/UPediaMedals/UfoPaedia_Medal_AllBattleTypes.png
   - type: ALLMISSIONS
     singleImage: true
     width: 320
@@ -3000,7 +3000,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/UfopediaImages/UpediaRaces/Silicoid_body.gif
-#----- Ufopedia Weapons Entries -----#      
+#----- Ufopedia Weapons Entries -----#
   - type: ALIENWEAPONSLIGHT
     singleImage: true
     width: 320
@@ -3082,8 +3082,8 @@ extraSprites:
 #DOGGOS#
   - type: SPICONS.DAT
     width: 32
-    height: 24  
-    files:  
+    height: 24
+    files:
       108: Resources/UnitSprites/XcomFaction/XcomDoge/InvDoge/DogeWeaponry/ojito_SpIcon_Smell.png
   - type: XOPS_DOGE_0.PCK
     subX: 32

@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 0
   - 1
   - 98
@@ -101,7 +101,7 @@ maleFirst:
   -	Chi
   -	Chin
   -	Ching
-  -	Ch'ng
+  -	"Ch'ng"
   -	Chon
   -	Chong
   -	Choo

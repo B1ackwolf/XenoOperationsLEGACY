@@ -2,10 +2,10 @@
 # Status: Reorder and clean, almost finished, improve the "#" notation
 units:
 
-#####reordenar todo 
+#####reordenar todo
 
 #----- Alien Races -----#
-# Sectoids #        
+# Sectoids #
   - type: STR_SECTOID_SOLDIER
     deathSound: [901, 902]
   - type: STR_SECTOID_ENGINEER
@@ -306,7 +306,7 @@ units:
     aggroSound: 910
     deathSound: 911
     moveSound: 912
-  - type: STR_SNAKEMAN_NAVIGATOR 
+  - type: STR_SNAKEMAN_NAVIGATOR
     aggroSound: 910
     deathSound: 911
     moveSound: 912

@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 0
   - 10
   - 80
@@ -177,7 +177,7 @@ maleFirst:
   -	Med
   -	Mehdi
   -	Mhamed
-  -	M'Hamed
+  -	"M'Hamed"
   -	Mhammed
   -	Miloud
   -	Mimoun

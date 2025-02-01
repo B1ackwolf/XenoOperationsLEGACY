@@ -6,7 +6,7 @@
 # How to use:
 # To use the script sprite indexes need to be ordered in a very specific way, with each sprite being 8 indexes apart (like handObs normally)
 # The weapon itself should have the first index number in its ruleset
-# Example weapon: a MP5 that can hold magazines of 4 different sizes 
+# Example weapon: a MP5 that can hold magazines of 4 different sizes
 #      752: Resources/BallisticWeapons/SMGs/BigMP5SDnomag.png  # Sprite for empty weapon
 #      760: Resources/BallisticWeapons/SMGs/BigMP5SD10.png # Sprite for smallest magazine/ammo type 1
 #      768: Resources/BallisticWeapons/SMGs/BigMP5SD20.png # Sprite for second smallest magazine/ammo type 2
@@ -15,7 +15,7 @@
 # the MP5 item should have bigSprite: 752
 # Floor and Hand sprites must be spaced in the same way (though they are not required to have the same index number) and each sprite must have a corresponding floor and hand sprite
 # Note: if you want to have the same sprite for all ammo states for floor and hand sprites, you can assign the same sprite to multiple index numbers
-# You Need to add tags (consisting of a number between 1 and 4) to every ammo type 
+# You Need to add tags (consisting of a number between 1 and 4) to every ammo type
 # Example:
 #  - type: STR_9MM_PARABELLUM_X10 # Smallest magazine/ammo type 1
 #    tags:
@@ -71,8 +71,8 @@ items:
       AmmoReSprite: 3
   - type: STR_ST_SMALL_PISTOL_CLIP # ignoreDuplicate
     tags:
-      AmmoNo: 1  
-    
+      AmmoNo: 1
+
   - type: STR_ST_MAIN_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
@@ -840,8 +840,8 @@ extended:
       AmmoNo: int
       FoldStock: int
       UBS: int
-   
-   
+
+
   scripts:
      selectItemSprite: #Switches between weapon sprites depending on ammo
        - offset: 1
@@ -908,7 +908,7 @@ extended:
               end;
             end;
            end;
-          
+
 
           if eq x 3;
            item.getAmmoItem ammoptr;
@@ -967,7 +967,7 @@ extended:
             end;
            end;
 
-          return sprite_index; 
+          return sprite_index;
 
 
 
@@ -975,10 +975,10 @@ extended:
 # First, every weapon that will be affected by sprite changing depending on what ammo is loaded will have a tag with the value of 1, if they don't the script will not affect them.
 # Every ammotype will get a tag, i.e a number attached to them, currently only the 9mm types do. Currently the 30x has a tag with the value of 3, the 20x has 2 and the 10x has 1.
 # The script will first check the ammos tag and see what value it has, if there is no ammo loaded, the script does nothing and the sprite is the one defined in the weapons ruleset (which should be the sprite that has no mag).
-# If the value of the tag is 1, the script will add 8 to every sprite index of a weapon, e.g. if a weapon had the bigsprite of 10 it will now have 18, a floorsprite of 10 would be 18 and a handsprite of 492 would be 500. 
+# If the value of the tag is 1, the script will add 8 to every sprite index of a weapon, e.g. if a weapon had the bigsprite of 10 it will now have 18, a floorsprite of 10 would be 18 and a handsprite of 492 would be 500.
 # If the value of the tag is 2, the script will add 16 to every sprite index instead of 8. if the value of the tag is 3, it will add 24.
 # This is why there needs to be a specific order of sprite indexes, because a weapons bigob, floorob and handob might be any of 4 different indexes depending on what weapon is loaded.
-# The reason of why the script is this way is because it can easily be extended to different sets of ammo, just by adding tags to them with the value of 1-3. the script can be easily extended to support more ammotypes per weapon (infact i just did that in 20 seconds, you can now have tags with values 4 and 5 which add 32 and 40 to the indexes). 
+# The reason of why the script is this way is because it can easily be extended to different sets of ammo, just by adding tags to them with the value of 1-3. the script can be easily extended to support more ammotypes per weapon (infact i just did that in 20 seconds, you can now have tags with values 4 and 5 which add 32 and 40 to the indexes).
 # The main drawback of the script is that it wastes indexes, as some floorobs and handobs are defined to multiple indexes. Also the way i'm going to arrange the indexes is going to leave a lot of empty ones, as i don't have the will of doing it the efficient but more convoluted way.
- 
+
 

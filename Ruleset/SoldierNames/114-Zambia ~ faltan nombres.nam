@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 0
   - 0
   - 5
@@ -193,7 +193,7 @@ maleLast:
   -	Hamusonde
   -	Hamweemba
   -	Hamweene
-  -	Hang'andu
+  -	"Hang'andu"
   -	Hangandu
   -	Hangoma
   -	Hara
@@ -824,13 +824,13 @@ maleLast:
   -	Ndhlovu
   -	Ndonji
   -	Ndumba
-  -	Ng'ambi
-  -	Ng'andu
-  -	Ng'andwe
-  -	Ng'oma
-  -	Ng'ombe
-  -	Ng'uni
-  -	Ngala
+  -	"Ng'ambi"
+  -	"Ng'andu"
+  -	"Ng'andwe"
+  -	"Ng'oma"
+  -	"Ng'ombe"
+  -	"Ng'uni"
+  -	"Ngala"
   -	Ngalande
   -	Ngambi
   -	Ngandu

@@ -16,10 +16,10 @@ interfaces:
     elements:
       - id: palette  # main "offset palette"
         color: 6     # yellow oxide # just like in others screens
-      - id: window   
+      - id: window
         color: 249   # Even Darker gray # The margin borders of the entire window
       - id: text
-        color: 6     # white # Main Title and number version text color 
+        color: 6     # white # Main Title and number version text color
       - id: button
         color: 247   # dark gray main tone # the main menu buttons
       - id: battlescapeTheme #?
@@ -78,7 +78,7 @@ interfaces:
       - id: window
         color: 249   # even Darker gray # The margin borders of the entire window
       - id: text
-        color: 6     # white # "select difficulty" text color 
+        color: 6     # white # "select difficulty" text color
       - id: ironman
         color: 39   # Red # Ironman mode selection button
       - id: button
@@ -89,7 +89,7 @@ interfaces:
     palette: PAL_BATTLESCAPE
     elements:
       - id: palette
-        color: 6     # yellow oxide # just like in others 
+        color: 6     # yellow oxide # just like in others
       - id: window
         color: 249   # Even Darker gray # The margin borders of the entire window
       - id: text
@@ -164,7 +164,7 @@ interfaces:
         color: 6     # white# categories header letter color
       - id: text2
         color: 245   # slighty clearer gray # name in the list
-#        
+#
   - type: modsMenu # Mods Window in the main menu
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     palette: PAL_BATTLESCAPE
@@ -1048,7 +1048,7 @@ interfaces:
         border: 218  # blue
       - id: button
         color: 218   # blue
-#   
+#
   # - type: geoscape
   #   backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
   #   elements:
@@ -2145,7 +2145,7 @@ interfaces:
       - id: text
         color: 239   # grey
         color2: 244  # light blue
-#        
+#
   - type: articleTextImage
     elements:
       - id: button
@@ -2212,17 +2212,17 @@ interfaces:
       - id: ammoColorDTSmoke
         color: 5    # gray, Smoke  # (DONE)
       - id: ammoColorDT10
-        color: 197    #red 
+        color: 197    #red
       #- id: ammoColorDT11
-      #  color: 32    #red 
+      #  color: 32    #red
       #- id: ammoColorDT12
-      #  color: 32    #red 
+      #  color: 32    #red
       #- id: ammoColorDT13
-      #  color: 32    #red 
+      #  color: 32    #red
       #- id: ammoColorDT14
-      #  color: 32    #red 
+      #  color: 32    #red
       #- id: ammoColorDT15
-      #  color: 32    #red 
+      #  color: 32    #red
       #- id: ammoColorDT16
       #  color: 32    # red
       #- id: ammoColorDT17

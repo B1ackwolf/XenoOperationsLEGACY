@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 20
   - 30
   - 40
@@ -1295,7 +1295,7 @@ maleLast:
   -	Cunha
   -	Curbelo
   -	Custodio
-  -	D'Angelo
+  -	"D'Angelo"
   -	da Costa
   -	da Cunha
   -	da Luz

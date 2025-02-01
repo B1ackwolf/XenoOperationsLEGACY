@@ -305,7 +305,7 @@ soldiers:
     armorForAvatar: STR_KEVLAR_VEST_ARMOR_BERET_UC
     standHeight: 22
     kneelHeight: 14
-    rankTinySprite: 6 
+    rankTinySprite: 6
     rankSprite: 800         # default 42 # basebits.pck
     rankBattleSprite: 800   # default 20 # smoke.pck
 #    femaleFrequency: 25
@@ -369,7 +369,7 @@ soldiers:
       melee: 40
     armor: STR_FLIGHT_JUMPSUIT_UC
     armorForAvatar: STR_FLIGHT_JUMPSUIT_UC
-    rankTinySprite: 12 
+    rankTinySprite: 12
     rankSprite: 900         # default 42 # basebits.pck
     rankBattleSprite: 900   # default 20 # smoke.pck
     standHeight: 22
@@ -704,10 +704,10 @@ soldierTransformation:
       - STR_ELITE_SOLDIER
       - STR_DRIVER
     lowerBoundAtMinStats: false
-    upperBoundAtMaxStats: false 
+    upperBoundAtMaxStats: false
     upperBoundAtStatCaps: true
     resetRank: true
-    flatOverallStatChange: 
+    flatOverallStatChange:
       bravery: 10
       health: 5
       strength: 2
@@ -731,10 +731,10 @@ soldierTransformation:
       - STR_ELITE_SOLDIER
       - STR_SOLDIER_OFFICER
     lowerBoundAtMinStats: false
-    upperBoundAtMaxStats: false 
+    upperBoundAtMaxStats: false
     upperBoundAtStatCaps: true
     resetRank: true
-    flatOverallStatChange: 
+    flatOverallStatChange:
       bravery: 10
       health: 5
       strength: 2
@@ -760,10 +760,10 @@ soldierTransformation:
 #      - STR_SOLDIER_OFFICER
 #      - STR_DRIVER
 #    lowerBoundAtMinStats: false
-#    upperBoundAtMaxStats: false 
+#    upperBoundAtMaxStats: false
 #    upperBoundAtStatCaps: true
 #    resetRank: true
-#    flatOverallStatChange: 
+#    flatOverallStatChange:
 #      bravery: 10
 #      health: 5
 #      strength: 2
@@ -786,10 +786,10 @@ soldierTransformation:
     allowedSoldierTypes:
       - STR_DOGE
     lowerBoundAtMinStats: false
-    upperBoundAtMaxStats: false 
+    upperBoundAtMaxStats: false
     upperBoundAtStatCaps: true
     resetRank: true
-    flatOverallStatChange: 
+    flatOverallStatChange:
       bravery: 10
       health: 5
       strength: 2
@@ -811,14 +811,14 @@ soldierTransformation:
     allowedSoldierTypes:
       - STR_DOGE_PRESAPIENT
     lowerBoundAtMinStats: false
-    upperBoundAtMaxStats: false 
+    upperBoundAtMaxStats: false
     upperBoundAtStatCaps: true
     resetRank: true
-    flatOverallStatChange: 
+    flatOverallStatChange:
       bravery: 10
       health: 5
       strength: 2
       reactions: 2
       firing: 4
       throwing: 2
-      melee: 2      
+      melee: 2

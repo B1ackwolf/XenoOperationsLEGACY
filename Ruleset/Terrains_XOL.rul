@@ -240,7 +240,7 @@ terrains:
         width: 10
         length: 10
         groups: 6
-      - name: CULTARED10 # cornfield, new grown 
+      - name: CULTARED10 # cornfield, new grown
         width: 10
         length: 10
         groups: 6
@@ -1151,7 +1151,7 @@ terrains:
       - name: MOUNT12
         width: 20
         length: 20
-  - name: MOUNTSNOW # by bulletdesigner 
+  - name: MOUNTSNOW # by bulletdesigner
     mapDataSets:
       - BLANKS
       - MOUNTSNOW
@@ -1336,7 +1336,7 @@ terrains:
       - name: MOUNT11
         width: 20
         length: 20
-      - name: MOUNT12 
+      - name: MOUNT12
         width: 20
         length: 20
   - name: MOUNTROCK # by bulletdesigner
@@ -1388,7 +1388,7 @@ terrains:
         length: 20
   - name: MOUNTTROP # by bulletdesigner
 #    ambience: 888 #swamp
-#    ambientVolume: 0.25  
+#    ambientVolume: 0.25
     mapDataSets:
       - BLANKS
       - MOUNTTROP
@@ -1433,7 +1433,7 @@ terrains:
         width: 20
         length: 20
       - name: MOUNT12
-        width: 20 
+        width: 20
         length: 20
   - name: PLAINS # by bulletdesigner
     mapDataSets:
@@ -1837,7 +1837,7 @@ terrains:
         width: 10
         length: 10
         groups: 2
-      - name: FUELD19 # dont use 
+      - name: FUELD19 # dont use
         width: 30
         length: 30
         groups: 4
@@ -3768,7 +3768,7 @@ terrains:
         length: 10
       - name: JURBAN16
         width: 10
-        length: 10        
+        length: 10
       - name: URBAN17
         width: 10
         length: 10
@@ -4088,7 +4088,7 @@ terrains:
         length: 10
       - name: JURBAN16
         width: 10
-        length: 10        
+        length: 10
       - name: URBAN17
         width: 10
         length: 10
@@ -5778,7 +5778,7 @@ terrains:
         width: 20
         length: 20
         groups: 3
-# XCom Base tiles, vainilla blocks, trying to be improved by blackwolf        
+# XCom Base tiles, vainilla blocks, trying to be improved by blackwolf
   - name: XBASE
     mapDataSets:
       - BLANKS

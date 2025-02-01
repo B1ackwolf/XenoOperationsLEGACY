@@ -54,7 +54,7 @@ fixedUserOptions:
   retainCorpses: true
   sneakyAI: false
   battleUFOExtenderAccuracy: true
-  battleExplosionHeight: 3 
+  battleExplosionHeight: 3
   battleInstantGrenade: false
   weaponSelfDestruction: true
 #BOXCE
@@ -121,7 +121,7 @@ operationNamesFirst:
   - Dark
   - Defiant
   - Demon
-  - Devil's
+  - "Devil's"
   - Driving
   - Dying
   - Empty
@@ -134,7 +134,7 @@ operationNamesFirst:
   - Forgotten
   - Frozen
   - Glass
-  - God's
+  - "God's"
   - Golden
   - Gothic
   - Glorious
@@ -566,7 +566,7 @@ extended:
           var int temp;
           var int hittype;
           var int hitpower;
-          
+
           unit.getTag temp Tag.LAST_HIT_FRAME;
           unit.getTag hittype Tag.LAST_HIT_TYPE;
           unit.getTag hitpower Tag.LAST_HIT_POWER;
@@ -612,6 +612,6 @@ extended:
               end;
             end;
           end;
-          
+
           return new_pixel;
 ########

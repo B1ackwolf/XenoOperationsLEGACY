@@ -79,7 +79,7 @@ extraStrings:
       STR_CORPSE_PERSONAL_ARMOR_BLACK: Corpse
       STR_CORPSE_PERSONAL_ARMOR_PILOT: Corpse
       STR_CORPSE_ALLOY_ARMOR_TAN: Corpse
-      STR_CORPSE_ALLOY_ARMOR_PILOT: Corpse      
+      STR_CORPSE_ALLOY_ARMOR_PILOT: Corpse
       STR_CORPSE_ALLOY_ARMOR_BLACK: Corpse
       STR_CORPSE_ALLOY_ARMOR_GRAY: Corpse
       STR_CORPSE_ALLOY_ARMOR_WHITE: Corpse
@@ -120,7 +120,7 @@ extraStrings:
       MUTON_ARMOR0: Muton
       MUTON_ARMOR1: Muton
       MUTON_ARMOR2: Muton
-      ARMORED_MUTON_ARMOR: Muton Warrior 
+      ARMORED_MUTON_ARMOR: Muton Warrior
       MUTON_BERSERKER_ARMOR: Muton Berseker
       MUTON_COMMANDO_ARMOR: Muton Enforcer
       MUTON_GUARD_ARMOR: Muton Broodguard
@@ -145,7 +145,7 @@ extraStrings:
 
 
 
- 
+
 ##########
       STR_INTERCEPT: "ㄷ INTERCEPT ㄹ"
 
@@ -159,7 +159,7 @@ extraStrings:
       STR_5_MINUTES: "ㅍ 5m"
       STR_30_MINUTES: "ㅌ 30m"
       STR_1_HOUR: "ㅎ 1h"
-      STR_1_DAY: "ㅆ 1ㅉ"  
+      STR_1_DAY: "ㅆ 1ㅉ"
       STR_EX_ADRENO_KIT: "Adrenaline Syringe"
       MAP_ACULTA: "Gothic Grass"
       MAP_ACULTASNOW: "Gothic Snow"
@@ -214,7 +214,7 @@ extraStrings:
       MAP_TPURBAN: "Snow City"
       MAP_TJURBAN: "Jungle City"
       MAP_TMURBAN: "Mountain City"
-      
+
 #########################################
       STR_TERROR_MISSION: TERROR MISSION URBAN
       STR_TERROR_MISSION_BRIEFING: "A city is under attack. Mission will be successful when all enemy units have been eliminated or neutralized. You must attempt to save the lives of any civilians in the area by neutralizing the alien menace. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
@@ -808,7 +808,7 @@ extraStrings:
       STR_TRANSFER_TIME: "Transfer Time>{ALT}{0}"
       STR_RECOVERY_TIME: "Recovery Time>{ALT}{0}"
       STR_CURRENT_STATS: "Current stats"
-      STR_CHANGES: "Changes" 
+      STR_CHANGES: "Changes"
       STR_FIREFLY_UFOPEDIA: "The ATU-760X 'Firefly' emerged victorious in the bid submitted to the X-Com project for an enhanced transport aircraft. Developed through a collaborative partnership between the Russian OAK conglomerate and the Ukrainian UOP Group, this versatile vessel boasts VTOL (Vertical Takeoff and Landing) capabilities. It can efficiently transport up to 14 agents and accommodate up to three heavier weapons platforms, delivering them directly to the operational site."
       STR_DRAGONFLY_UFOPEDIA: "The Bell Valor 280, codenamed DRAGONFLY, is a Boeing creation designed for rapid troop transport. This versatile aircraft can comfortably accommodate up to 12 troops but is unable to carry heavy support units. Its agility and speed make it a valuable asset for swift deployment and extraction during critical operations."
       STR_SCARAB_UFOPEDIA: "wip based on dr4-viking, tons of troops capacity, but cant haul any hwp." #ojito
@@ -878,7 +878,7 @@ extraStrings:
       STR_MEDAL_ALLMISSIONS_UFOPEDIA: " 'You can tell 'em that {NEWLINE} I've been from hell and back {NEWLINE} When the heat is on, I fire back {NEWLINE} In this cold world, where your lighters at {NEWLINE} Let's burn it down, fire back' {NEWLINE} --Brian Todd Collins {NEWLINE}{NEWLINE}This soldier has seen it all.. crashed UFOs, Landed UFOs, Terror missions, base mission, even kicking in the enemy's door and invading his base. {NEWLINE} {NEWLINE}This commendation is awarded to soldiers who participate in every type of mission. "
       STR_MEDAL_ALLRANKS: "Order of the Black Legion"
       STR_MEDAL_ALLRANKS_DESCRIPTION: "Given to a soldier who has killed aliens of all ranks."
-      STR_MEDAL_ALLRANKS_UFOPEDIA: " Taking names came from the idea of beating an enemy so bad that you removed names from his Troop Roster. Troopers who earned this citation had become fundamental instruments in our battle to defend mankind.{NEWLINE}{NEWLINE}This award is given to a soldier that kills one of every rank of alien, from Soldier to Commander.  " 
+      STR_MEDAL_ALLRANKS_UFOPEDIA: " Taking names came from the idea of beating an enemy so bad that you removed names from his Troop Roster. Troopers who earned this citation had become fundamental instruments in our battle to defend mankind.{NEWLINE}{NEWLINE}This award is given to a soldier that kills one of every rank of alien, from Soldier to Commander.  "
       STR_MEDAL_ALLUFOS: "TECHINT Badge"
       STR_MEDAL_ALLUFOS_DESCRIPTION: "Given to a soldier who has participated in missions involving every UFO type."
       STR_MEDAL_ALLUFOS_UFOPEDIA: "TECHINT, or Technical Intelligence, involves gaining knowledge of enemy capabilities through exploitation of captured equipment.{NEWLINE}{NEWLINE}X-Com gains knowledge and materiel from every UFO that they recover.  {NEWLINE} {NEWLINE}Soldiers involved in missions with every UFO Type will receive this award.  This award is issued once."
@@ -980,16 +980,16 @@ extraStrings:
       STR_MEDAL_REVIVE_UFOPEDIA: " ''No, you're not going to die on my watch.' said Doc. Just before the chopper arrived, his heart stopped.  Doc revived him again by pounding on his chest and giving him mouth-to-mouth.  The chopper finally arrived and we loaded him in.' {NEWLINE} -- Stephen Paul Campos {NEWLINE} {NEWLINE} When the soldier lies unconscious and bleeding on the battlefield, this trooper is their angel that knows what it takes to bring them back. {NEWLINE} {NEWLINE} This award is issued every time a casualty is revived, up to three times."
       STR_MEDAL_SAPPER: "Sapper Medal"
       STR_MEDAL_SAPPER_DESCRIPTION: "Given to a soldier who kills a metal foe with a high explosive pack"
-      STR_MEDAL_SAPPER_UFOPEDIA: " 'There's a tank at the tree line. It will steamroll over us... Unless someone can stop it with a satchel charge.'{NEWLINE} .... 'There's not that many men left.'{NEWLINE} -- 'I'll go.' {NEWLINE}      -- Pvt. Juoksu haudantie {NEWLINE} {NEWLINE} This award is given to soldiers who kill a metal foe such as CyberDiscs and Sectopods with a High Explosive pack. Hazardous in the extreme, these acts of heroism are recognized with this award. {NEWLINE} {NEWLINE} This award is issued for every HE Pack kill of a robotic enemy and is awarded up to ten times."     
+      STR_MEDAL_SAPPER_UFOPEDIA: " 'There's a tank at the tree line. It will steamroll over us... Unless someone can stop it with a satchel charge.'{NEWLINE} .... 'There's not that many men left.'{NEWLINE} -- 'I'll go.' {NEWLINE}      -- Pvt. Juoksu haudantie {NEWLINE} {NEWLINE} This award is given to soldiers who kill a metal foe such as CyberDiscs and Sectopods with a High Explosive pack. Hazardous in the extreme, these acts of heroism are recognized with this award. {NEWLINE} {NEWLINE} This award is issued for every HE Pack kill of a robotic enemy and is awarded up to ten times."
       STR_MEDAL_SECTOPOD_KILL: "Metal Menace Badge"
       STR_MEDAL_SECTOPOD_KILL_DESCRIPTION: "Given to a soldier that kills the most fearsome enemy construct: The Sectopod!"
-      STR_MEDAL_SECTOPOD_KILL_UFOPEDIA: " 'A robot may not injure humanity, or, through inaction, allow humanity to come to harm.' {NEWLINE}-Isaac Asimov: 'The Zeroth Law of Robotics' {NEWLINE} {NEWLINE} The ground shaking crunch of the Sectopod sends a shudder into the bravest soldier. The difficulty of bringing down this Metal Menace is recognized by this citation. {NEWLINE} {NEWLINE} This citation is presented to every soldier that kills a sectopod, regardless of means. Ten levels of award are available for up to ten kills. "  
+      STR_MEDAL_SECTOPOD_KILL_UFOPEDIA: " 'A robot may not injure humanity, or, through inaction, allow humanity to come to harm.' {NEWLINE}-Isaac Asimov: 'The Zeroth Law of Robotics' {NEWLINE} {NEWLINE} The ground shaking crunch of the Sectopod sends a shudder into the bravest soldier. The difficulty of bringing down this Metal Menace is recognized by this citation. {NEWLINE} {NEWLINE} This citation is presented to every soldier that kills a sectopod, regardless of means. Ten levels of award are available for up to ten kills. "
       STR_MEDAL_SEVEN_IN_ONE: "Order of Glory"
       STR_MEDAL_SEVEN_IN_ONE_DESCRIPTION: "Given to a soldier who was instrumental in a missions success."
       STR_MEDAL_SEVEN_IN_ONE_UFOPEDIA: "'If you take more than your fair share of objectives, you will have more than your fair share objectives to take.' {NEWLINE}     -- Murphy's Laws of Combat {NEWLINE} {NEWLINE} This citation is given to honor a soldier who has killed seven enemies in a single mission. This feat is unparalleled and demonstrates the true grit of this lethal trooper. {NEWLINE} {NEWLINE}This award may be issued three times. "
       STR_MEDAL_SLAVEKILLS: "Mind Flayer Badge"
       STR_MEDAL_SLAVEKILLS_DESCRIPTION: "Given to a soldier who has used aliens against one another."
-      STR_MEDAL_SLAVEKILLS_UFOPEDIA: "Since the discovery of Psionic Warfare, humanity has speculated on the idea of controlling the enemy, bending it to his will and even manipulating it against their allies.{NEWLINE}{NEWLINE}This achievement requires not only to impose the will over the host but to completely override whatever trace of individuality and transform it into a mindless puppet, weak enough to pull the trigger even aggainst their own comrades. This award may be issued four times, each for every enemy killed with this method."     
+      STR_MEDAL_SLAVEKILLS_UFOPEDIA: "Since the discovery of Psionic Warfare, humanity has speculated on the idea of controlling the enemy, bending it to his will and even manipulating it against their allies.{NEWLINE}{NEWLINE}This achievement requires not only to impose the will over the host but to completely override whatever trace of individuality and transform it into a mindless puppet, weak enough to pull the trigger even aggainst their own comrades. This award may be issued four times, each for every enemy killed with this method."
       STR_MEDAL_SNIPER: "Marksman Citation"
       STR_MEDAL_SNIPER_DESCRIPTION: "Given to a soldier who has landed long distance shots on intended targets."
       STR_MEDAL_SNIPER_UFOPEDIA: "{NEWLINE}'My crosshairs steady, {NEWLINE} My trigger cold,{NEWLINE}I feel the recoil{NEWLINE} and watch him fold.{NEWLINE}The mission accomplished,{NEWLINE} I grab my gear.{NEWLINE}I'll clean my rifle{NEWLINE} in the rear.'{NEWLINE}   -- Marine Sniper{NEWLINE} {NEWLINE} This citation is designed to recognize expertise in dealing death to long dinstance targets. {NEWLINE} {NEWLINE} Presented for every three long-range hits, this citation has four levels."
@@ -1035,20 +1035,20 @@ extraStrings:
       STR_MEDAL_WOUNDED: "Purple Heart"
       STR_MEDAL_WOUNDED_DESCRIPTION: "Given to a soldier who was wounded on the battlefield."
       STR_MEDAL_WOUNDED_UFOPEDIA: "Wounds received on the battlefield are tangible evidence of the willingness of X-Com soldiers to put themselves in harm's way.  This sacrifice is honored in this version of the classic award for wounded soldiers. {NEWLINE} {NEWLINE} This medal is given to soldiers who are wounded on the battlefield.  This award is issued once."
- 
+
 ##################################
 ##### reorder everything above this #####-------------------------------------
 #GENERAL
 #-----misc
       STR_LEFT_SHOULDER: "LEFT POCKETS"
-      STR_RIGHT_SHOULDER: "RIGHT POCKETS"  
+      STR_RIGHT_SHOULDER: "RIGHT POCKETS"
       STR_BELT: "       BELT"
       STR_QD_SLOT: "HOLSTER"
       STR_NULL_JETPACK: "JETPACK"
       STR_NULL_BACKPACK: ""
       STR_NULL_SMALL_BACKPACK: ""
       STR_NULL_BELT: ""
-      STR_NULL_HOLSTER: ""  
+      STR_NULL_HOLSTER: ""
       STR_NULL_POCKET_RS: ""
       STR_NULL_POCKET_LS: ""
       STR_NULL_POCKET_RL: ""
@@ -1151,7 +1151,7 @@ extraStrings:
       STR_UAV_CORPSE: Drone Debris
       STR_LAND_DRONE_CORPSE: Drone Debris
       STR_TANK_AP_CHASSIS: Heavy Tank RAPIER
-      STR_TANK_AP_CHASSIS_UC: Heavy Tank RAPIER  
+      STR_TANK_AP_CHASSIS_UC: Heavy Tank RAPIER
       STR_TANK_HE_CHASSIS: Heavy Tank LONGSWORD
       STR_TANK_HE_CHASSIS_UC: Heavy Tank LONGSWORD
       STR_HWP_RANGEFINDER: Drone Movement Sensor
@@ -1268,7 +1268,7 @@ extraStrings:
       STR_ALIEN_ENTERTAINMENT_BREAKDOWN: Dissesamble Alien Entertainment
       STR_UFO_NAVIGATION_BREAKDOWN: Dissesamble UFO Computer
       STR_ALIEN_FOOD_BREAKDOWN: Breakdown Alien Supplies
-      # STR_ALIEN_SURGERY_BREAKDOWN: Dissesamble Unused 
+      # STR_ALIEN_SURGERY_BREAKDOWN: Dissesamble Unused
       STR_EXAMINATION_ROOM_BREAKDOWN: Dissesamble UFO Sensor
       STR_UFO_POWER_SOURCE_BREAKDOWN: Dissesamble UFO Power Source
       STR_ALIEN_REPRODUCTION_BREAKDOWN: Dissesamble Alien Cloner
@@ -1498,12 +1498,12 @@ extraStrings:
 #aqui me quede
       STR_HEAVY_CANNON: Grenade Launcher
       STR_HEAVY_CANNON_UFOPEDIA: "The Milkor Automatic Grenade Launcher, a formidable yet unwieldy addition to XCom's arsenal.{NEWLINE}{NEWLINE}Its true strength lies in its versatility, as it can unleash an array of 40mm grenades, including smoke, high explosive, and incendiary rounds, in a high-arcing trajectory."
-      STR_HC_HE_AMMO: 40mm Frag Grenade 
+      STR_HC_HE_AMMO: 40mm Frag Grenade
       STR_HC_AP_AMMO: 40mm Smoke Grenade
       STR_HC_I_AMMO: 40mm Napalm Grenade
       # STR_ROCKET LAUNCHER:
       # STR_SMALL_ROCKET:
-      # STR_LARGE_ROCKET: 
+      # STR_LARGE_ROCKET:
 
 
 
@@ -1610,7 +1610,7 @@ extraStrings:
       STR_RL_MAIN_PISTOL: Rail Pistol
       STR_RL_SMG: Rail Assaulter
       STR_RL_MAIN_PISTOL_CLIP1: Needles Clip
-      STR_RL_MAIN_PISTOL_CLIP2: Depleted Needles Clip 
+      STR_RL_MAIN_PISTOL_CLIP2: Depleted Needles Clip
       STR_RL_MAIN_PISTOL_CLIP3: Enriched Needles Clip
       STR_RL_SHOTGUN: Rail Shards Thrower
       STR_RL_SHOTGUN_CLIP1: Shards Clip
@@ -1679,7 +1679,7 @@ extraStrings:
       STR_ME_PLASMA_KNIFE: Plasma Knife #ojito
       STR_ME_PLASMA_SWORD: Plasma Sword
       STR_ME_HUMAN_BASIC_SHIELD: Ballistic Shield
-      STR_ME_HUMAN_ALLOY_SHIELD: Xelloy Shield 
+      STR_ME_HUMAN_ALLOY_SHIELD: Xelloy Shield
       STR_ME_HUMAN_HOLO_SHIELD: Energy Shield #ojito mejorar nombre
       STR_AW_HOLO_SHIELD: Alien Energy Shield # Ojito mejorar nombre
       STR_AW_ADVANCED_HOLO_SHIELD: Alien Advanced Energy Shield #ojito mejorar nombre
@@ -1700,7 +1700,7 @@ extraStrings:
       STR_SH_HEAVY_CANNON: Shock Cannon
       STR_SH_HEAVY_CANNON_BATTERY: Large Shock Battery
       STR_SH_GRENADE: Shock Grenade
-      STR_SH_MAIN_PISTOL_UFOPEDIA: The Small Shock Pistol administers a high-voltage electroshock current that overloads the neural systems of the target, leaving them zapped and disoriented for several hours. This sidearm utilizes a standard shock battery, prioritizing portability and ease of handling over pinpoint accuracy. It serves as an ideal addition to the gear of troops tasked with capturing targets. 
+      STR_SH_MAIN_PISTOL_UFOPEDIA: The Small Shock Pistol administers a high-voltage electroshock current that overloads the neural systems of the target, leaving them zapped and disoriented for several hours. This sidearm utilizes a standard shock battery, prioritizing portability and ease of handling over pinpoint accuracy. It serves as an ideal addition to the gear of troops tasked with capturing targets.
       STR_SH_RIFLE_UFOPEDIA: The Shock Rifle represents a significant advancement in our mission to provide our troops with a safer means of apprehending valuable targets. It boasts superior precision and an extended effective range compared to its smaller counterpart. Due to its size and primary role, troopers should carry suitable backup weaponry in case of unexpected situations. The Shock Rifle operates using a Standard Shock Battery.
       STR_SH_HEAVY_CANNON_UFOPEDIA: This upgraded version is tailored for handling targets that have demonstrated resilience against smaller iterations of shock technology. With its Double Coils, it significantly enhances the total current output while incorporating an improved cooling subsystem to ensure the safety of its operator, albeit at the expense of increased size and weight. Given the rapid energy consumption rate of this weapon, it necessitates an enhanced but bulkier battery to supply the entire system.
 ###### ojito
@@ -1910,7 +1910,7 @@ extraStrings:
 
 
       STR_XP_AUTO_PISTOL_UFOPEDIA: The X1 Machine Pistol is a precision engineered rapid fire pistol with a three round burst using 9mm ammo.
-      STR_XP_SMALL_PISTOL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition. 
+      STR_XP_SMALL_PISTOL_UFOPEDIA: X1A is a shortened version of the X1 Pistol. This version is more compact with a lighter weight at the cost of stopping power. Uses a 9mm ammunition.
       STR_XP_HEAVY_PISTOL_UFOPEDIA: X3 Heavy Pistol uses a high caliber .44 MAG round for extra power. The high quality engineering makes this the most powerful ballistic pistol in the world.
       STR_XP_UZI_UFOPEDIA: The X4A design is based heavily on the Uzi. The design has been further refined to increase performance using .45 ACP ammunition.
       STR_XP_BULLPUP_UFOPEDIA: X6A is a precision machined Personal Defense Weapon made exclusively by XCom chambering 5.56mm ammunition.
@@ -1970,9 +1970,9 @@ extraStrings:
       STR_UAV_UFOPEDIA: The Unmanned Aerial Vehicle RQ-40B 'Shuriken' excels at reconnaissance missions in open terrains, utilizing its silent hovering capabilities powered by fans. However, it features minimal armor and lacks weaponry, yet it possesses sufficient vertical lift capacity to carry a compact High Explosive charge. This allows it to deploy an explosive payload strategically onto unsuspecting enemies or, if necessary, execute a direct suicide run in critical situations.
       STR_UCAV_ROCKET_LAUNCHER_UFOPEDIA: The MQ-X 'Longbow' is the result of a joint effort between the USAF and the X-Com Research team. Leveraging Alien Alloys accessibility, they've successfully created a downsized REAPER drone. Armed with four compact 'Arrow' rockets, effective for eliminating light targets. However, its primary advantage is also their major drawback-its considerably reduced fuselage severely limits its potential flight range and autonomy, restricting its use to local operations.
 
-      STR_LAND_DRONE_UFOPEDIA: "The FMT-X3 'Dagger' designed by Qinetiq, stands as one of the swiftest robots in production, capable of traversing diverse and dificult terrains. Equipped with an advanced signal repeater that can be loaded into any of our transport ships, enabling remote control from the safety within our main base installation. Armed with a short-range, high-impact shotgun, designed to lead dangerous breach operations and flush out adversaries, providing troops a safe entry." #the DAGGER transmits in color, black and white, infrared, and night vision, offering versatile surveillance capabilities. This signal repeater 
+      STR_LAND_DRONE_UFOPEDIA: "The FMT-X3 'Dagger' designed by Qinetiq, stands as one of the swiftest robots in production, capable of traversing diverse and dificult terrains. Equipped with an advanced signal repeater that can be loaded into any of our transport ships, enabling remote control from the safety within our main base installation. Armed with a short-range, high-impact shotgun, designed to lead dangerous breach operations and flush out adversaries, providing troops a safe entry." #the DAGGER transmits in color, black and white, infrared, and night vision, offering versatile surveillance capabilities. This signal repeater
       STR_TANK_AP_CHASSIS_UFOPEDIA: Tank with a small armour piercing Cannon.
-      STR_TANK_HE_CHASSIS_UFOPEDIA: Tank with a BIG high explosive CANNON. 
+      STR_TANK_HE_CHASSIS_UFOPEDIA: Tank with a BIG high explosive CANNON.
       STR_STINGRAY_UFOPEDIA: This advanced air-to-air weapon, equipped with shielded electronics, stands as one of the premier choices for intercepting extraterrestrial threats. Renowned for its precision and reliability, it is the vanguard against alien incursions.
       STR_AVALANCHE_UFOPEDIA: Featuring a compact depleted uranium warhead, the SPEAR is a heavyweight air-to-air missile, offering superior stopping power in the fight against extraterrestrial threats. It's a potent asset for intercepting and neutralizing any menace from beyond the stars.
       STR_CANNON_UFOPEDIA: A robust upgrade to the renowned General Electric GAU-8/A Avenger, the SLING is a heavyweight automatic cannon. Its exceptional firepower, capable of penetrating 3 inches of steel, makes it a vital asset for intercepting any threat that dares to approach at close range.
@@ -2011,7 +2011,7 @@ extraStrings:
       STR_SOVEREIGN_AUTOPSY_UFOPEDIA: This alien is made of now inert Elerium 115 shards. Its mere existence is a mockery of everything we thought we knew about physics. How its 'biology' works in unknown though it seems to somehow control the matter states of the Elerium crystal to allow for movement. The Crystal is immune to heat and we theorize that it could live in a star if it wished. As such incendiary and plasma weapons are completely useless against it and lasers reflect off of the crystalline structure. However the crystal lattice can be easily shattered by ballistic solid mass rounds.
       STR_ENERGYALIEN_AUTOPSY_UFOPEDIA: This residue is all that remains of the strange energy alien encountered. Analysis shows most of the residue consists of space dust and microscopic bits of Elerium 115 crystal. Combat footage shows most solid mass projectiles and objects pass harmlessly through it however plasma and laser based weapons seem to disrupt the energy field around it causing the field to dissipate. Explosives and incendiary weapons seem largely useless against it as well.
       STR_FORMIC_UFOPEDIA: These beings are an alien insect species that bear a striking resemblance to Earth's ants, earning them the classification "Formics." They have achieved their colossal size due to thriving in environments characterized by low gravity and elevated oxygen levels. Despite their resilience, these creatures exhibit limited cognitive abilities, predominantly relying on instinctual behaviors rather than complex strategic thinking. The aliens maintain direct control over these insectoid beings, deploying them when required their formidable physical attributes. Outside of their designated missions, they occupy their time with activities such as foraging for sustenance and mating. Notably, their rapid rate of reproduction renders them a valuable resource for the aliens, who employ them as expendable shock troops in terror operations and suicidal assaults.
-      STR_FORMIC_AUTOPSY_UFOPEDIA: This specimen, referred as "Formics" bears a semblance to the earthly Ant, albeit probably having undergone an extraordinary process of accelerated growth and genetic manipulation. In contrast to numerous alien autopsies, the Formics display minimal cybernetic augmentation with the exception of a cybernetic device intricately linked to its neural network. This exercises direct control over the Formics, suppressing its innate instincts and enabling remote guidance. It's crucial to note that Earth's environmental conditions, including gravity and oxygen levels, would render the Formics unable to survive for extended periods of time. The Formics boast a robust and resilient exoskeleton, particularly on their dorsal side with remarkable resistance to corrosive substances, their primitive nervous system exhibits resilience to stunning effects rendering them exceptionally resistant to incapacitation through conventional means. Although it remains susceptible to combustion under certain conditions. 
+      STR_FORMIC_AUTOPSY_UFOPEDIA: This specimen, referred as "Formics" bears a semblance to the earthly Ant, albeit probably having undergone an extraordinary process of accelerated growth and genetic manipulation. In contrast to numerous alien autopsies, the Formics display minimal cybernetic augmentation with the exception of a cybernetic device intricately linked to its neural network. This exercises direct control over the Formics, suppressing its innate instincts and enabling remote guidance. It's crucial to note that Earth's environmental conditions, including gravity and oxygen levels, would render the Formics unable to survive for extended periods of time. The Formics boast a robust and resilient exoskeleton, particularly on their dorsal side with remarkable resistance to corrosive substances, their primitive nervous system exhibits resilience to stunning effects rendering them exceptionally resistant to incapacitation through conventional means. Although it remains susceptible to combustion under certain conditions.
       STR_ARMORED_MUTON_UFOPEDIA: These formidable adversaries, known as Muton Warriors, bear a striking physical resemblance to their standard Muton counterparts. What sets them apart is the remarkable upgrade in the form of heavy powered armor. Clad in this formidable exosuit, they transform into walking tanks on the battlefield, significantly enhancing their combat endurance and resilience.However, despite their imposing physical presence and enhanced armor, these Warriors are not without their vulnerabilities. Their mental faculties remain as susceptible as those of regular Mutons, making them ripe targets for psionic attacks. This discrepancy between their physical might and mental fragility is a double-edged sword, presenting both an advantage and a critical weakness for these imposing soldiers. While their armored forms make them formidable adversaries in direct combat, their limited resistance to psionics leaves them susceptible to mind-controlling and debilitating psychic abilities employed by X-Com operatives. Consequently, a well-placed psionic strike can be just as effective at neutralizing a Muton Warrior as a barrage of conventional weaponry.
       STR_MUTON_BERSERKER_UFOPEDIA: A rare psychological anomaly afflicts approximately one in a thousand Mutons, rendering them immune to psionic control while subjecting them to unending fits of uncontrollable rage. Instead of discarding these unique individuals, the Aliens have devised a sinister purpose for them in terror operations. These tormented Mutons are carefully sedated and preserved, awaiting their moment of awakening.Upon revival, they are administered a potent chemical cocktail, amplifying their already boundless rage to unprecedented levels. In this frenzied state, these creatures become known as "Berserkers." Remarkably, Berserkers remain impervious to the sensations of pain and fear, consumed solely by an unrelenting wellspring of hatred and aggression. This makes them exceptionally formidable opponents on the battlefield, charging relentlessly at any perceived threat with an insatiable fury that knows no bounds. Facing a Berserker in combat is a harrowing ordeal, as they become living embodiments of relentless violence and destruction, sparing neither X-Com operatives nor their own Alien counterparts in their blind pursuit of annihilation.
       STR_ANCIENT_SPAWN_UFOPEDIA: This thing is not an individual life form, but an extension of something far larger. The rest of its body exists in an external dimension. This powerful, almost god-like creature has existed before our own universe. This ancient abomination is not quite alive. It is clear that the alien collective does not fully understand what this ancient thing is, but have somehow allied with it.

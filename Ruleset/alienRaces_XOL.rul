@@ -3,7 +3,7 @@
 
 alienRaces:
   - delete: STR_MIXED
-#----- Alien Species -----#  
+#----- Alien Species -----#
   - id: STR_FORMIC
     members:
       - STR_FORMIC_ALPHA

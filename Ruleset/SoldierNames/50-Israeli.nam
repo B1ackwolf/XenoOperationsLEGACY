@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 20
   - 35
   - 40
@@ -12,7 +12,7 @@ maleFirst:
   -	Abner
   -	Absalom
   -	Adam
-  -	A'Deel
+  -	"A'Deel"
   -	Adiel
   -	Adiyr
   -	Adnan
@@ -184,7 +184,7 @@ maleFirst:
   -	Hunas
   -	Husin
   -	Hussam
-  -	H'Usseen
+  -	"H'Usseen"
   -	Ibrahim
   -	Idan
   -	Ido
@@ -1367,7 +1367,7 @@ maleLast:
   -	Gurevich
   -	Gutman
   -	Guy
-  -	H'Usseen
+  -	"H'Usseen"
   -	Habashi
   -	Habib
   -	Habibullah
@@ -1632,7 +1632,7 @@ maleLast:
   -	Partos
   -	Parvar
   -	Paz
-  -	Pe'er
+  -	"Pe'er"
   -	Pearl
   -	Pearlman
   -	Peled

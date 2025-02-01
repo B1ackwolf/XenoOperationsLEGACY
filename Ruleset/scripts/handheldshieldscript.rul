@@ -1,4 +1,4 @@
-items:  
+items:
   - type: STR_ME_HUMAN_BASIC_SHIELD # ignoreDuplicate
     tags:
       Shield: 1
@@ -20,12 +20,12 @@ extended:
   tags:
    RuleItem:
       Shield: int
-   
-   
+
+
   scripts:
 
 
-     hitUnit: 
+     hitUnit:
          - offset: 6 #Shield Script
            code: |
             var ptr BattleItem righthand;
@@ -49,6 +49,6 @@ extended:
               set power 0;
               end;
             end;
-            
-            
+
+
             return power part side;

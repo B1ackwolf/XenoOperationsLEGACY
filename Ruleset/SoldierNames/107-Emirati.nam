@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 0
   - 5
   - 90
@@ -2280,9 +2280,9 @@ maleLast:
   -	Dev
   -	Dmello
   -	Dsilva
-  -	D'Silva
+  -	"D'Silva"
   -	Dsouza
-  -	D'Souza
+  -	"D'Souza"
   -	Dutta
   -	E
   -	Eid

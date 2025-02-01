@@ -39,7 +39,7 @@ items:
     defaultInventorySlot: STR_BACK_PACK
     recover: false
     battleType: 11
-#    
+#
   - type: STR_NULL_BACKPACK
     bigSprite: 2990
     weight: 0
@@ -49,7 +49,7 @@ items:
     defaultInventorySlot: STR_BACK_PACK
     recover: false
     battleType: 11
-#    
+#
   - type: STR_NULL_SMALL_BACKPACK
     bigSprite: 2991
     weight: 0
@@ -156,7 +156,7 @@ items:
     costSell: 500000
     battleType: 0
     listOrder: 3
-# 
+#
   - type: STR_CODEX_4
     size: 5
     costSell: 1000000
@@ -250,7 +250,7 @@ items:
     costSell: 15000
     battleType: 0
     transferTime: 24
-    
+
     listOrder: 16
 #
   - type: STR_GOODS_7
@@ -325,14 +325,14 @@ items:
     # ignoreInCraftEquip: true
     # ignoreInBaseDefense: true
     listOrder: 1001
-# ojito que debo modificar cuales aviones usaran combustible especial    
+# ojito que debo modificar cuales aviones usaran combustible especial
 #
   - type: STR_XCF_FUEL
     size: 0.1
     costSell: 1250
     listOrder: 1005
 #----- Terran Craft Components & Weaponry ENDING -----#
-#----- Drones chassis -----# 
+#----- Drones chassis -----#
   - type: STR_DRONE_ROVER_CHASSIS # Item for the armor
     # categories:[STR_TANKS, STR_LIGHT_TANKS]
     size: 0.5
@@ -341,7 +341,7 @@ items:
     transferTime: 96
     listOrder: 414
 #
-  - type: STR_DRONE_QUADCOPTER_CHASSIS 
+  - type: STR_DRONE_QUADCOPTER_CHASSIS
     size: 0.5
     costBuy: 12000
     costSell: 18000
@@ -354,7 +354,7 @@ items:
     costSell: 18000
     transferTime: 96
     listOrder: 416
-#  
+#
   - type: STR_DRONE_ADVANCED_SMALL_CHASSIS
     size: 1
     costBuy: 12000
@@ -368,7 +368,7 @@ items:
     transferTime: 96
     listOrder: 10926
 #
-#----- Drones chassis ENDING -----# 
+#----- Drones chassis ENDING -----#
 #----- Terran tanks chassis -----#
   - type: STR_TANK_HE_CHASSIS # Item for the armor
     # categories:[STR_TANKS, STR_LIGHT_TANKS]
@@ -378,7 +378,7 @@ items:
     transferTime: 96
     listOrder: 1414
 #
-  - type: STR_TANK_AP_CHASSIS 
+  - type: STR_TANK_AP_CHASSIS
     size: 6
     costBuy: 12000
     costSell: 18000
@@ -481,7 +481,7 @@ items:
       ToMorale: 0.5
       ToArmorPre: 0.05
       ToStun: 0.5
-      ToTile: 0.45   
+      ToTile: 0.45
     clipSize: 4
     # ignoreInCraftEquip: true #ojito cuando implemente los nuevos IAs basados en unidades estandar esto va a eliminarse posiblemente
     # ignoreInBaseDefense: true # idem arriba
@@ -594,7 +594,7 @@ items:
     hitAnimation: 26
     power: 100
     damageType: 3
-    damageAlter: 
+    damageAlter:
       RandomType: 2
       FixRadius: 2
       RadiusReduction: 35
@@ -675,7 +675,7 @@ items:
     listOrder: 9001
 #
 #----- Mechanical units Weaponry ENDING -----#
-#----- Recovery and repair of mechanical units -----#   
+#----- Recovery and repair of mechanical units -----#
   - type: STR_BASIC_DRONE_RECOVER
     recover: true
     battleType: 11
@@ -690,7 +690,7 @@ items:
     costSell: 8000
     size: 0.8
     weight: 100
-    listOrder: 10601   
+    listOrder: 10601
 # CORPSES
   - type: STR_LAND_DRONE_CORPSE
     weight: 44
@@ -704,7 +704,7 @@ items:
     invWidth: 0
     invHeight: 0
     battleType: 11
-    recover: false   
+    recover: false
 #
   - type: STR_XCOM_FLYING_DRONE_CORPSE
 #    categories: [STR_XCOM_TECH, STR_WRECKS]
@@ -756,7 +756,7 @@ items:
 
 
 
-#----- Recovery and repair of mechanical units ENDING -----#   
+#----- Recovery and repair of mechanical units ENDING -----#
 
 
 #################################
@@ -789,7 +789,7 @@ items:
     size: 0.5
     costSell: 64000
     listOrder: 17577
-# corpses armaduras doggos 
+# corpses armaduras doggos
   - type: STR_K9_HARNESS_CORPSE
     weight: 25
     bigSprite: 165
@@ -840,7 +840,7 @@ items:
     recover: false
     recoveryPoints: 1
     armor: 65
-    # categories: [STR_HUMAN_TECH, STR_OUTFITS]   
+    # categories: [STR_HUMAN_TECH, STR_OUTFITS]
 # armas perritos
   - type: STR_CANID_BARK
     weight: 0
@@ -1478,7 +1478,7 @@ items:
     floorSprite: 12
      #   handSprite: 320
     damageType: 3
-    damageAlter: 
+    damageAlter:
       RandomType: 6
       FixRadius: 2
       RadiusReduction: 18
@@ -1488,7 +1488,7 @@ items:
       ToArmorPre: 0.05
       ToStun: 0.6
       ToTile: 0.35
-#      IgnoreOverKill: false 
+#      IgnoreOverKill: false
     listOrder: 2126
   - type: STR_HC_I_AMMO
     power: 55
@@ -1498,7 +1498,7 @@ items:
     floorSprite: 12
 #   handSprite: 328
     damageType: 3
-    damageAlter: 
+    damageAlter:
       RandomType: 7
       ResistType: 2
       FixRadius: 2
@@ -1518,7 +1518,7 @@ items:
     floorSprite: 12
   #  handSprite: 312
     damageType: 3
-    damageAlter: 
+    damageAlter:
       RandomType: 2
       ResistType: 9
       FixRadius: 3
@@ -1531,7 +1531,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     listOrder: 2128
-# ojito mejorar    
+# ojito mejorar
   - type: STR_ROCKET_LAUNCHER
     size: 0.4
     costBuy: 150
@@ -1739,7 +1739,7 @@ items:
     hitAnimation: 26
     power: 40
     damageType: 1
-    damageAlter: 
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -1802,7 +1802,7 @@ items:
     hitAnimation: 26
     power: 49
     damageType: 1
-    damageAlter: 
+    damageAlter:
       RandomType: 3
       ResistType: 3
       FixRadius: 0
@@ -1848,7 +1848,7 @@ items:
     bigSprite: 295
     floorSprite: 295
     handSprite: 370
-    bulletSprite: 2 
+    bulletSprite: 2
     fireSound: 121
     compatibleAmmo:
       - STR_ST_SMG_CLIP
@@ -3485,7 +3485,7 @@ items:
     weight: 2
     bigSprite: 320
     floorSprite: 320
-    bulletSprite: 6 
+    bulletSprite: 6
     hitSound: 19
     hitAnimation: 36
     power: 45
@@ -4539,7 +4539,7 @@ items:
     damageType: 3
     clipSize: 6
     battleType: 2
-    damageAlter: 
+    damageAlter:
       RandomType: 2
       ResistType: 10
       FixRadius: 0
@@ -5272,7 +5272,7 @@ items:
     invWidth: 2
     invHeight: 1
     waypoints: 5
-    damageAlter: 
+    damageAlter:
       RandomType: 2
       ResistType: 5
       FixRadius: 4
@@ -5301,7 +5301,7 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    damageAlter: 
+    damageAlter:
       RandomType: 2
       ResistType: 10
       FixRadius: 5
@@ -5401,9 +5401,9 @@ items:
     hitAnimation: 96
     power: 30
     damageType: 1
-    damageAlter: 
+    damageAlter:
       ResistType: 6
-      IgnorePainImmunity: true 
+      IgnorePainImmunity: true
       IgnoreSelfDestruct: true
       RandomWound: false
       ArmorEffectiveness: 1.35
@@ -5497,7 +5497,7 @@ items:
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
-      IgnorePainImmunity: true 
+      IgnorePainImmunity: true
       IgnoreSelfDestruct: true
       RandomWound: false
       ArmorEffectiveness: 0.25
@@ -5556,7 +5556,7 @@ items:
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
-      IgnorePainImmunity: true 
+      IgnorePainImmunity: true
       IgnoreSelfDestruct: true
       RandomWound: false
       ArmorEffectiveness: 0.25
@@ -5588,7 +5588,7 @@ items:
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
-      IgnorePainImmunity: true 
+      IgnorePainImmunity: true
       IgnoreSelfDestruct: true
       RandomWound: false
       ArmorEffectiveness: 0.25
@@ -5941,11 +5941,11 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     listOrder: 2901
-##############    
+##############
 #  - type: STR_BO_FLASH_GRENADE   #ojito luego implementarla correctanme
 #    listOrder: 2902
 ##############
-  - type: STR_BO_FIERY_GRENADE 
+  - type: STR_BO_FIERY_GRENADE
     size: 0.05
     costBuy: 1
     costSell: 0
@@ -6940,7 +6940,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     listOrder: 3021
-# Elite alien weaponry    
+# Elite alien weaponry
   - type: STR_AW_ELITE_RIFLE
     requires:
       - STR_ELITE_ALIEN_WEAPONS
@@ -7754,7 +7754,7 @@ items:
     invHeight: 3
     battleType: 11
     armor: 65
-    recover: false    
+    recover: false
   - type: STR_CORPSE_HEC_ARMOR
     name: STR_CORPSE
     weight: 24

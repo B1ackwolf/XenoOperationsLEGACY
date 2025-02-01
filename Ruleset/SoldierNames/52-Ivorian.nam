@@ -1,4 +1,3 @@
-
 lookWeights:
   - 0
   - 0
@@ -382,7 +381,7 @@ maleFirst:
   -	Louis
   -	Loukou
   -	Lucien
-  -	M'Bra
+  -	"M'Bra"
   -	Madou
   -	Mahama
   -	Mahamadou
@@ -417,22 +416,21 @@ maleFirst:
   -	Moumouni
   -	Moussa
   -	Moustapha
-  -	N
-  -	N'Cho
-  -	N'Da
-  -	N'Dah
-  -	N'Doua
-  -	N'Dri
-  -	N'Drin
-  -	N'Gbin
-  -	N'Golo
-  -	N'Goran
-  -	N'Gouan
-  -	N'Guessan
-  -	N'Guetta
-  -	N'Guettia
-  -	N'Takpe
-  -	N'Zi
+  -	"N'Cho"
+  -	"N'Da"
+  -	"N'Dah"
+  -	"N'Doua"
+  -	"N'Dri"
+  -	"N'Drin"
+  -	"N'Gbin"
+  -	"N'Golo"
+  -	"N'Goran"
+  -	"N'Gouan"
+  -	"N'Guessan"
+  -	"N'Guetta"
+  -	"N'Guettia"
+  -	"N'Takpe"
+  -	"N'Zi"
   -	Nahounou
   -	Nalourgo
   -	Namogo
@@ -897,15 +895,15 @@ femaleFirst:
   -	Moussokoura
   -	Moya
   -	Moyamou
-  -	N'Da
-  -	N'Dah
-  -	N'Doua
-  -	N'Gbesso
-  -	N'Gbin
-  -	N'Gotta
-  -	N'Taho
-  -	N'Zi
-  -	N'Zue
+  -	"N'Da"
+  -	"N'Dah"
+  -	"N'Doua"
+  -	"N'Gbesso"
+  -	"N'Gbin"
+  -	"N'Gotta"
+  -	"N'Taho"
+  -	"N'Zi"
+  -	"N'Zue"
   -	Nabintou
   -	Naboundou
   -	Nadege
@@ -1744,34 +1742,34 @@ maleLast:
   -	Moussa
   -	Mousso
   -	N Guessan
-  -	N'Cho
-  -	N'Da
-  -	N'Dah
-  -	N'Depo
-  -	N'Din
-  -	N'Dja
-  -	N'Djore
-  -	N'Doli
-  -	N'Doua
-  -	N'Douba
-  -	N'Draman
-  -	N'Dre
-  -	N'Dri
-  -	N'Drin
-  -	N'Gatta
-  -	N'Gbesso
-  -	N'Gbra
-  -	N'Goran
-  -	N'Gotta
-  -	N'Gouan
-  -	N'Guessan
-  -	N'Guetta
-  -	N'Guettia
-  -	N'Takpe
-  -	N'Tamon
-  -	N'Zebo
-  -	N'Zi
-  -	N'Zue
+  -	"N'Cho"
+  -	"N'Da"
+  -	"N'Dah"
+  -	"N'Depo"
+  -	"N'Din"
+  -	"N'Dja"
+  -	"N'Djore"
+  -	"N'Doli"
+  -	"N'Doua"
+  -	"N'Douba"
+  -	"N'Draman"
+  -	"N'Dre"
+  -	"N'Dri"
+  -	"N'Drin"
+  -	"N'Gatta"
+  -	"N'Gbesso"
+  -	"N'Gbra"
+  -	"N'Goran"
+  -	"N'Gotta"
+  -	"N'Gouan"
+  -	"N'Guessan"
+  -	"N'Guetta"
+  -	"N'Guettia"
+  -	"N'Takpe"
+  -	"N'Tamon"
+  -	"N'Zebo"
+  -	"N'Zi"
+  -	"N'Zue"
   -	Nahi
   -	Nahounou
   -	Naminata

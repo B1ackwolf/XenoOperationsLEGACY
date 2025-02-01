@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 0
   - 0
   - 5
@@ -829,7 +829,7 @@ femaleFirst:
   -	Neema
   -	Nelly
   -	Ngolo
-  -	Ng'walu
+  -	"Ng'walu"
   -	Njile
   -	Nkamba
   -	Nkwaya
@@ -1617,7 +1617,7 @@ maleLast:
   -	Mmbaga
   -	Mmbando
   -	Mndeme
-  -	Mng'ong'o
+  -	"Mng'ong'o"
   -	Mnkondya
   -	Mnzava
   -	Modest
@@ -1754,7 +1754,7 @@ maleLast:
   -	Ngonyani
   -	Ngowi
   -	Ngusa
-  -	Ng'wandu
+  -	"Ng'wandu"
   -	Nicholaus
   -	Nicodemus
   -	Nicolaus

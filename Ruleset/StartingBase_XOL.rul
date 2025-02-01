@@ -5,7 +5,7 @@ startingBase:
     - type: STR_ACCESS_LIFT #done
       x: 2
       y: 2
-    - type: STR_HANGAR 
+    - type: STR_HANGAR
       x: 0
       y: 0
     - type: STR_HANGAR #done

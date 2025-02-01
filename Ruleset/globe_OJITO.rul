@@ -830,8 +830,8 @@ globe:
       - 128.4
       - -38.65
   textures:
-    - id: 0 # Cold forest/Taiga/Tundra 
-      terrain: 
+    - id: 0 # Cold forest/Taiga/Tundra
+      terrain:
         # - name: FOREST
         #   area: [0, 360, -90, 0]
         # - name: JUNGLE

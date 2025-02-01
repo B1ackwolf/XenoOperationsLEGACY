@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 35
   - 50
   - 10
@@ -1718,9 +1718,9 @@ maleLast:
   -	Noel
   -	Norman
   -	Norris
-  -	O'Brien
-  -	O'Connor
-  -	O'Neill
+  -	"O'Brien"
+  -	"O'Connor"
+  -	"O'Neill"
   -	Oliver
   -	Olsen
   -	Olson

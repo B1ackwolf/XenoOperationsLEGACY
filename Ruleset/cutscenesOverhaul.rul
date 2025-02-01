@@ -1,4 +1,4 @@
-#status: candidate for deletion when the ps1 assets are implemented. 
+#status: candidate for deletion when the ps1 assets are implemented.
 ####modify later to adjust to new lore
 cutscenes:
   - delete: winGame

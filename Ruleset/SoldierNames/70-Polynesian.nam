@@ -1061,7 +1061,7 @@ femaleFirst:
   -	Oke
   -	Olga
   -	Olivia
-  -	Onaona  
+  -	Onaona
   -	Paige
   -	Palila
   -	Pam
@@ -1816,8 +1816,8 @@ maleLast:
   -	Julian
   -	Julie
   -	Jury
-  -	Ka'ana'ana
-  -	Ka'aukai
+  -	"Ka'ana'ana"
+  -	"Ka'aukai"
   -	Kahale
   -	Kahananui
   -	Kahele
@@ -1839,7 +1839,7 @@ maleLast:
   -	Kakewahine
   -	Kalama
   -	Kalani
-  -	Kalawai'a
+  -	"Kalawai'a"
   -	Kalili
   -	Kalua
   -	Kama
@@ -1868,7 +1868,7 @@ maleLast:
   -	Katete
   -	Katipa
   -	Kauamo
-  -	Ka'uhane
+  -	"Ka'uhane"
   -	Kaui
   -	Kaukau
   -	Kaur
@@ -1889,7 +1889,7 @@ maleLast:
   -	Keith
   -	Kekoa
   -	Kelekolio
-  -	Keli'i
+  -	"Keli'i"
   -	Kelly
   -	Kemp
   -	Kena
@@ -2012,13 +2012,13 @@ maleLast:
   -	Maguire
   -	Mahaka
   -	Mahauariki
-  -	Mahe'ai
+  -	"Mahe'ai"
   -	Mahelona
   -	Maher
   -	Mahia
   -	Mahima
   -	Mahoe
-  -	Mahu  
+  -	Mahu
   -	Mahuta
   -	Mahutoto
   -	Maihi
@@ -2239,22 +2239,22 @@ maleLast:
   -	Nukaiahu
   -	Nutana
   -	Nutira
-  -	O'Brien
-  -	O'Connell
-  -	O'Connor
-  -	O'Donnell
+  -	"O'Brien"
+  -	"O'Connell"
+  -	"O'Connor"
+  -	"O'Donnell"
   -	Ohutu
   -	Oketopa
-  -	O'Leary
+  -	"O'Leary"
   -	Oliver
   -	Olsen
-  -	O'Neill
+  -	"O'Neill"
   -	Oneroa
-  -	O'Reilly
+  -	"O'Reilly"
   -	Ormsby
   -	Orr
   -	Osborne
-  -	O'Sullivan
+  -	"O'Sullivan"
   -	Otene
   -	Otimi
   -	Owen

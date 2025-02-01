@@ -790,7 +790,7 @@ ufopaedia:
     requires:
       - STR_CODEX_COMPLETE
     listOrder: 199
-    text: STR_CODEX_COMPLETE_UFOPAEDIA  
+    text: STR_CODEX_COMPLETE_UFOPAEDIA
   - id: STR_GOODS_UNLOCK_6
     type_id: 8
     section: STR_HEAVY_WEAPONS_PLATFORMS
@@ -948,7 +948,7 @@ ufopaedia:
   - id: STR_ST_MAIN_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_ST_HEAVY_PISTOL 
+  - id: STR_ST_HEAVY_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ST_HEAVY_PISTOL_UFOPEDIA
@@ -1191,12 +1191,12 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
-      - STR_ALLOY_AMMUNITION 
+      - STR_ALLOY_AMMUNITION
   - id: STR_XP_SHOTGUN_SHELLS3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
-      - STR_TECH_ROUNDS 
+      - STR_TECH_ROUNDS
   - id: STR_XP_BULLPUP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1419,12 +1419,12 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
-      - STR_CHEMICAL_ROUNDS 
+      - STR_CHEMICAL_ROUNDS
   - id: STR_HB_SHOTGUN_SHELLS3
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
-      - STR_E115_ROUNDS 
+      - STR_E115_ROUNDS
   - id: STR_HB_BULLPUP
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -3383,7 +3383,7 @@ ufopaedia:
   - id: STR_MEDAL_WEAPON_PROFICIENCY
     type_id: 7
     section: STR_COMMENDATIONS_UC
-    image_id: WEAPON_PROFICIENCY 
+    image_id: WEAPON_PROFICIENCY
     text: STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA
     text_width: 175
     listOrder: 6150

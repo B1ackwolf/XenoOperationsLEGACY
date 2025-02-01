@@ -1,4 +1,4 @@
-﻿lookWeights:
+lookWeights:
   - 30
   - 40
   - 20
@@ -1361,7 +1361,7 @@ maleLast:
   -	Cuesta
   -	Cuevas
   -	Cufre
-  -	D'Angelo
+  -	"D'Angelo"
   -	da Rosa
   -	da Silva
   -	Davalos

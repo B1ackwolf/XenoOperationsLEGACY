@@ -6,7 +6,7 @@ ufos:
   - delete: STR_SMALL_SCOUT
 #----- Finish deletions -----#
 #----- Survey Skiff -----#
-  - type: STR_SURVEY 
+  - type: STR_SURVEY
     size: STR_VERY_SMALL
     modSprite: UFOSURVEY
     splashdownSurvivalChance: 0
@@ -38,7 +38,7 @@ ufos:
           width: 10
           length: 10
 #----- Raider Gunship -----#
-  - type: STR_RAIDER 
+  - type: STR_RAIDER
     size: STR_VERY_SMALL
     modSprite: UFORAIDER
     splashdownSurvivalChance: 0

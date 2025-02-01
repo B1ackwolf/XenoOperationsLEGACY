@@ -19,7 +19,7 @@ extraSounds:
       11: Resources/ImprovedSounds/GeoSounds/geo_ufodestroyed.ogg	#ufo destroyed
       12: Resources/ImprovedSounds/GeoSounds/geo_ufohit.ogg	#ufo hit
       13: Resources/ImprovedSounds/GeoSounds/geo_planedestroyed.ogg #xcom craft destroy
-#----- New plane weapons Sounds Already in XENOPS-----#    
+#----- New plane weapons Sounds Already in XENOPS-----#
       22: Resources/ImprovedSounds/GeoSounds/geo_missileMedium.ogg # Cluster missile
 #----- #OJITO NEW, ADDITIONAL sounds
       14: Resources/ImprovedSounds/GeoSounds/geo_laser.ogg #LASER
@@ -109,7 +109,7 @@ extraSounds:
       94: Resources/ImprovedSounds/FxSounds/plasmasword.ogg
       95: Resources/ImprovedSounds/FxSounds/plasmaswordhit.ogg
       92: Resources/ImprovedSounds/FxSounds/psiattack2.ogg
-#ojito modificar nombres      
+#ojito modificar nombres
       1332: Resources/ImprovedSounds/FxSounds/TankHE_hit_UNEXCOM.wav
       1335: Resources/ImprovedSounds/FxSounds/TankAP_hit_UNEXCOM.wav
 #----- FXSounds end here ----#
@@ -155,7 +155,7 @@ extraSounds:
       98: Resources/ImprovedSounds/WeaponSounds/HYMedium_shot.ogg # HYheavyPistol, HYpdw, HYrifle
       99: Resources/ImprovedSounds/WeaponSounds/HYLarge_shot.ogg # HYlmg, HYsniper, HYShotgun
       100: Resources/ImprovedSounds/WeaponSounds/HYAutoCannon_shot.ogg # HYcannon
-# Tier 4 
+# Tier 4
       401: Resources/ImprovedSounds/WeaponSounds/LaserPistol_shot.ogg # laserPistol, LaserSmg
       403: Resources/ImprovedSounds/WeaponSounds/LaserShotgun_shot.ogg # LaserShotgun
       11: Resources/ImprovedSounds/WeaponSounds/LaserRifle_shot.ogg # LaserRifle, LaserLmg
@@ -172,19 +172,19 @@ extraSounds:
 # Tier 6 (ojito, hacer q cada tipo de municion tenga su propio sonido)
       601: Resources/ImprovedSounds/WeaponSounds/PlasmaPistol_shot.ogg # HPlasmaCompactPistol123, HPlasmaServicePistol123, HPlasmaSmg123 /// APlasmaPistol, APlasmaSmg
       607: Resources/ImprovedSounds/WeaponSounds/PlasmaRifle_shot.ogg ### HPlasmaHeavyPistol123, HPlasmaCarbine123, HPlasmaShotgun123, HPlasmaRifle123  /// APlasmaRifle3, APlasmashotgun, ElitePlasmaRifle
-      609: Resources/ImprovedSounds/WeaponSounds/PlasmaSniper_shot.ogg ### 
-      610: Resources/ImprovedSounds/WeaponSounds/PlasmaHeavy_shot.ogg ### 
+      609: Resources/ImprovedSounds/WeaponSounds/PlasmaSniper_shot.ogg ###
+      610: Resources/ImprovedSounds/WeaponSounds/PlasmaHeavy_shot.ogg ###
 
       53: Resources/ImprovedSounds/WeaponSounds/BlasterLauncher_shot.ogg	### HBlasterLauncher /// AClusterLauncher, AlienBlasterLauncher
       1016: Resources/ImprovedSounds/WeaponSounds/ClusterLauncher_shot.ogg #AClusterLauncher
 
-# Tier 7 
+# Tier 7
       61: Resources/ImprovedSounds/WeaponSounds/TaserPistol_shot.ogg # TaserPistol
       130: Resources/ImprovedSounds/WeaponSounds/ShockPistol_shot.ogg # ShockPistol
       131: Resources/ImprovedSounds/WeaponSounds/ShockRifle_shot.ogg # ShockRifle
       132: Resources/ImprovedSounds/WeaponSounds/ShockCannon_shot.ogg # ShockCannon
 # posible hitsound? de ser asi, se mueve a carpeta de FX
-      90: Resources/ImprovedSounds/WeaponSounds/emp.ogg   #OJITO   
+      90: Resources/ImprovedSounds/WeaponSounds/emp.ogg   #OJITO
 #----- Weapon Sounds end here -----#
 #----- Xtra Sounds Improved -----#
       300: Resources/ImprovedSounds/XtraSounds/ambientAlienBase.ogg
