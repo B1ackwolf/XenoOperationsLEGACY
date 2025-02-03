@@ -7,6 +7,6 @@ description: "A complete overhaul mod."
 requiredExtendedVersion: "7.4"
 author: XOps and revamped by b1ackwolf
 id: XOPSLEGACY
-reservedSpace: 5
+reservedSpace: 12
 isMaster: false
 master: xcom1
