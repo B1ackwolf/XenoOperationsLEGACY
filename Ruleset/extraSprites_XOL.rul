@@ -86,6 +86,17 @@ extraSprites:
       811: Resources/UnitSprites/AlienFaction/BigOb/CarcharodonInventoryCorpse.gif
       813: Resources/UnitSprites/AlienFaction/InvAlien/AlienAttacks/SharkBite.gif
 #----- Unit sprites for ALIENS ends here -----#
+#----- Inventory Nullifying slots -----#
+      2989: Resources/UxUI/InvBlockers/Null_Jetpack.png
+      2990: Resources/UxUI/InvBlockers/Null_Backpack.png
+      2991: Resources/UxUI/InvBlockers/Null_2x3.png
+      2992: Resources/UxUI/InvBlockers/Null_Belt.png
+      2993: Resources/UxUI/InvBlockers/Null_PocketRS.png
+      2994: Resources/UxUI/InvBlockers/Null_PocketLS.png
+      2995: Resources/UxUI/InvBlockers/Null_PocketRL.png
+      2996: Resources/UxUI/InvBlockers/Null_PocketLL.png
+      2997: Resources/UxUI/InvBlockers/Null_Holster.png
+#----- Inventory Nullifying slots ends here -----#
 #----- Tier 1 Ballistic tier BigObs -----#
       4000: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol_empty.png
       4008: Resources/WeaponrySprites/1stBallistic/BigOb/1CompactPistol.png
@@ -119,9 +130,10 @@ extraSprites:
       4232: Resources/WeaponrySprites/1stBallistic/BigOb/14Launcher_smoke.png
       4240: Resources/WeaponrySprites/1stBallistic/BigOb/15Bazooka_empty.png
       4248: Resources/WeaponrySprites/1stBallistic/BigOb/15Bazooka.png
-      4256: Resources/WeaponrySprites/1stBallistic/BigOb/16BazookaExtra_empty.png
-      4264: Resources/WeaponrySprites/1stBallistic/BigOb/16BazookaExtra.png
-
+      4256: Resources/WeaponrySprites/1stBallistic/BigOb/15Bazooka.png
+      4264: Resources/WeaponrySprites/1stBallistic/BigOb/15Bazooka.png
+      4272: Resources/WeaponrySprites/1stBallistic/BigOb/16BazookaExtra_empty.png
+      4280: Resources/WeaponrySprites/1stBallistic/BigOb/16BazookaExtra.png
 #Ammo
       4300: Resources/WeaponrySprites/1stBallistic/BigOb/2LightPistol_mag.png
       4308: Resources/WeaponrySprites/1stBallistic/BigOb/3MediumPistol_mag.png
@@ -194,6 +206,8 @@ extraSprites:
       5116: Resources/WeaponrySprites/2ndXBallistic/BigOb/13XAssaultCannon_b3.png
       5124: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XBazooka_empty.png
       5132: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XBazooka.png
+      5140: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XBazooka.png
+      5148: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XBazooka.png
 #Ammo
       5300: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XLightPistol_mag2.png
       5308: Resources/WeaponrySprites/2ndXBallistic/BigOb/2XLightPistol_mag3.png
@@ -221,107 +235,286 @@ extraSprites:
       5476: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XRocketLauncher_rocket2.png
       5484: Resources/WeaponrySprites/2ndXBallistic/BigOb/14XRocketLauncher_rocket3.png
 #----- Tier 2 X ballistic ends here-----#
+#----- Tier 3 Hybrid ballistic BigObs -----#
+      5500: Resources/WeaponrySprites/3rdHybrid/BigOb/1HybCompactPistol_empty.png
+      5508: Resources/WeaponrySprites/3rdHybrid/BigOb/1HybCompactPistol.png
+      5516: Resources/WeaponrySprites/3rdHybrid/BigOb/1HybCompactPistol.png
+      5524: Resources/WeaponrySprites/3rdHybrid/BigOb/1HybCompactPistol.png
+      5532: Resources/WeaponrySprites/3rdHybrid/BigOb/2HybMachinePistol_empty.png
+      5540: Resources/WeaponrySprites/3rdHybrid/BigOb/2HybMachinePistol.png
+      5548: Resources/WeaponrySprites/3rdHybrid/BigOb/2HybMachinePistol.png
+      5556: Resources/WeaponrySprites/3rdHybrid/BigOb/2HybMachinePistol.png
+      5564: Resources/WeaponrySprites/3rdHybrid/BigOb/3HybServicePistol_empty.png
+      5572: Resources/WeaponrySprites/3rdHybrid/BigOb/3HybServicePistol.png
+      5580: Resources/WeaponrySprites/3rdHybrid/BigOb/3HybServicePistol.png
+      5588: Resources/WeaponrySprites/3rdHybrid/BigOb/3HybServicePistol.png
+      5596: Resources/WeaponrySprites/3rdHybrid/BigOb/4HybHeavyPistol_empty.png
+      5604: Resources/WeaponrySprites/3rdHybrid/BigOb/4HybHeavyPistol.png
+      5612: Resources/WeaponrySprites/3rdHybrid/BigOb/4HybHeavyPistol.png
+      5620: Resources/WeaponrySprites/3rdHybrid/BigOb/4HybHeavyPistol.png
+      5628: Resources/WeaponrySprites/3rdHybrid/BigOb/5HybUzi_empty.png
+      5636: Resources/WeaponrySprites/3rdHybrid/BigOb/5HybUzi_c1.png
+      5644: Resources/WeaponrySprites/3rdHybrid/BigOb/5HybUzi_c2.png
+      5652: Resources/WeaponrySprites/3rdHybrid/BigOb/5HybUzi_c3.png
+      5660: Resources/WeaponrySprites/3rdHybrid/BigOb/6HybSmg_empty.png
+      5668: Resources/WeaponrySprites/3rdHybrid/BigOb/6HybSmg_c1.png
+      5676: Resources/WeaponrySprites/3rdHybrid/BigOb/6HybSmg_c2.png
+      5684: Resources/WeaponrySprites/3rdHybrid/BigOb/6HybSmg_c3.png
+      5692: Resources/WeaponrySprites/3rdHybrid/BigOb/7HybShotgun_empty.png
+      5700: Resources/WeaponrySprites/3rdHybrid/BigOb/7HybShotgun.png
+      5708: Resources/WeaponrySprites/3rdHybrid/BigOb/7HybShotgun.png
+      5716: Resources/WeaponrySprites/3rdHybrid/BigOb/7HybShotgun.png
+      5724: Resources/WeaponrySprites/3rdHybrid/BigOb/8HybPdw_empty.png
+      5732: Resources/WeaponrySprites/3rdHybrid/BigOb/8HybPdw_c1.png
+      5740: Resources/WeaponrySprites/3rdHybrid/BigOb/8HybPdw_c2.png
+      5748: Resources/WeaponrySprites/3rdHybrid/BigOb/8HybPdw_c3.png
+      5756: Resources/WeaponrySprites/3rdHybrid/BigOb/9HybAssaultRifle_empty.png
+      5764: Resources/WeaponrySprites/3rdHybrid/BigOb/9HybAssaultRifle_c1.png
+      5772: Resources/WeaponrySprites/3rdHybrid/BigOb/9HybAssaultRifle_c2.png
+      5780: Resources/WeaponrySprites/3rdHybrid/BigOb/9HybAssaultRifle_c3.png
+      5788: Resources/WeaponrySprites/3rdHybrid/BigOb/10HybLmg_empty.png
+      5796: Resources/WeaponrySprites/3rdHybrid/BigOb/10HybLmg_b1.png
+      5804: Resources/WeaponrySprites/3rdHybrid/BigOb/10HybLmg_b2.png
+      5812: Resources/WeaponrySprites/3rdHybrid/BigOb/10HybLmg_b3.png
+      5820: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_empty.png
+      5828: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_c1.png
+      5836: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_c2.png
+      5844: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_c3.png
+      5852: Resources/WeaponrySprites/3rdHybrid/BigOb/12HybAssaultCannon_empty.png
+      5860: Resources/WeaponrySprites/3rdHybrid/BigOb/12HybAssaultCannon_b1.png
+      5868: Resources/WeaponrySprites/3rdHybrid/BigOb/12HybAssaultCannon_b2.png
+      5876: Resources/WeaponrySprites/3rdHybrid/BigOb/12HybAssaultCannon_b3.png
+      5884: Resources/WeaponrySprites/3rdHybrid/BigOb/13HybBazooka_empty.png
+      5892: Resources/WeaponrySprites/3rdHybrid/BigOb/13HybBazooka.png
+      5900: Resources/WeaponrySprites/3rdHybrid/BigOb/13HybBazooka.png
+      5908: Resources/WeaponrySprites/3rdHybrid/BigOb/13HybBazooka.png
+#Ammo
+      6000: Resources/WeaponrySprites/3rdHybrid/BigOb/2HybLightPistol_mag1.png
+      6008: Resources/WeaponrySprites/3rdHybrid/BigOb/2HybLightPistol_mag2.png
+      6016: Resources/WeaponrySprites/3rdHybrid/BigOb/2HybLightPistol_mag3.png
+      6024: Resources/WeaponrySprites/3rdHybrid/BigOb/3HybMediumPistol_mag1.png
+      6032: Resources/WeaponrySprites/3rdHybrid/BigOb/3HybMediumPistol_mag2.png
+      6040: Resources/WeaponrySprites/3rdHybrid/BigOb/3HybMediumPistol_mag3.png
+      6048: Resources/WeaponrySprites/3rdHybrid/BigOb/4HybHeavyPistol_mag1.png
+      6056: Resources/WeaponrySprites/3rdHybrid/BigOb/4HybHeavyPistol_mag2.png
+      6064: Resources/WeaponrySprites/3rdHybrid/BigOb/4HybHeavyPistol_mag3.png
+      6072: Resources/WeaponrySprites/3rdHybrid/BigOb/6HybSmg_mag1.png
+      6080: Resources/WeaponrySprites/3rdHybrid/BigOb/6HybSmg_mag2.png
+      6088: Resources/WeaponrySprites/3rdHybrid/BigOb/6HybSmg_mag3.png
+      6096: Resources/WeaponrySprites/3rdHybrid/BigOb/7HybShotgun_shells1.png
+      6104: Resources/WeaponrySprites/3rdHybrid/BigOb/7HybShotgun_shells2.png
+      6112: Resources/WeaponrySprites/3rdHybrid/BigOb/7HybShotgun_shells3.png
+      6120: Resources/WeaponrySprites/3rdHybrid/BigOb/9HybMainRifle_mag1.png
+      6128: Resources/WeaponrySprites/3rdHybrid/BigOb/9HybMainRifle_mag2.png
+      6136: Resources/WeaponrySprites/3rdHybrid/BigOb/9HybMainRifle_mag3.png
+      6144: Resources/WeaponrySprites/3rdHybrid/BigOb/10Hyblmg_belt1.png
+      6152: Resources/WeaponrySprites/3rdHybrid/BigOb/10Hyblmg_belt2.png
+      6160: Resources/WeaponrySprites/3rdHybrid/BigOb/10Hyblmg_belt3.png
+      6168: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_mag1.png
+      6176: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_mag2.png
+      6184: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_mag3.png
+#      5428: Resources/WeaponrySprites/3rdHybrid/BigOb/11HybSniperRifle_shell.png #ojito, ingresar como posible municion?
+      6192: Resources/WeaponrySprites/3rdHybrid/BigOb/12HybAssaultCannon_belt1.png
+      6200: Resources/WeaponrySprites/3rdHybrid/BigOb/12HybAssaultCannon_belt2.png
+      6208: Resources/WeaponrySprites/3rdHybrid/BigOb/12HybAssaultCannon_belt3.png
+      6216: Resources/WeaponrySprites/3rdHybrid/BigOb/13HybBazooka_rocket1.png
+      6224: Resources/WeaponrySprites/3rdHybrid/BigOb/13HybBazooka_rocket2.png
+#----- Tier 3 Hybrid ballistic ends here-----#
 #----- Tier 4 Laser BigObs -----#
-      270: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.png
-      317: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.png
-      271: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat1.png
-      336: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat2.png
-      337: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat3.png
-      319: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.png
-      320: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat1.png
-      338: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat2.png
-      339: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat3.png
-      272: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.png
-      273: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat1.png
-      332: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat2.png
-      333: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat3.png
-      321: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.png
-      322: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat1.png
-      334: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat2.png
-      335: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat3.png
-      274: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.png
-      275: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat1.png
-      342: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat2.png
-      343: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat3.png
-      276: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.png
-      277: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat1.png
-      330: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat2.png
-      331: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat3.png
+      6300: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_off.png
+      6308: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b1.png
+      6316: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b2.png
+      6324: Resources/WeaponrySprites/4thLaser/BigOb/1LaserPistol_b3.png
+      6332: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_off.png
+      6340: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b1.png
+      6348: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b2.png
+      6356: Resources/WeaponrySprites/4thLaser/BigOb/2LaserSmg_b3.png
+      6364: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_off.png
+      6372: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b1.png
+      6380: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b2.png
+      6388: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b3.png
+      6396: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_off.png
+      6404: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.png
+      6428: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.png
+      6436: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.png
+      6444: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_off.png
+      6452: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.png
+      6460: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b2.png
+      6468: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b3.png
+      6476: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_off.png
+      6484: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b1.png
+      6492: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b2.png
+      6500: Resources/WeaponrySprites/4thLaser/BigOb/6LaserSniper_b3.png
+      6508: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_off.png
+      6516: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b1.png
+      6524: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b2.png
+      6532: Resources/WeaponrySprites/4thLaser/BigOb/7LaserCannon_b3.png
+#Ammo
+      6700: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat1.png
+      6708: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat2.png
+      6716: Resources/WeaponrySprites/4thLaser/BigOb/2Micro_bat3.png
+      6724: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat1.png
+      6732: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat2.png
+      6740: Resources/WeaponrySprites/4thLaser/BigOb/3Shotgun_bat3.png
+      6748: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat1.png
+      6756: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat2.png
+      6764: Resources/WeaponrySprites/4thLaser/BigOb/4Small_bat3.png
+      6772: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat1.png
+      6780: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat2.png
+      6788: Resources/WeaponrySprites/4thLaser/BigOb/5Large_bat3.png
+      6796: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat1.png
+      6804: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat2.png
+      6812: Resources/WeaponrySprites/4thLaser/BigOb/6Medium_bat3.png
+      6820: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat1.png
+      6828: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat2.png
+      6836: Resources/WeaponrySprites/4thLaser/BigOb/7Giga_bat3.png
 #----- Tier 4 Laser ends here-----#
 #----- Tier 5 Hypervelocity  BigObs -----#
-      619: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol_c1.png
-      621: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg_c1.png
-      620: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip1.png
-      633: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip2.png
-      650: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip3.png
-      625: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_c1.png
-      626: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip1.png
-      636: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip2.png
-      653: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip3.png
-      623: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_c1.png
-      624: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip1.png
-      635: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip2.png
-      652: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip3.png
-      629: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_c1.png
-      630: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box1.png
-      638: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box2.png
-      655: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box3.png
-      627: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_c1.png
-      628: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag1.png
-      637: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag2.png
-      654: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag3.png
-      640: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_c1.png
-      641: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip1.png
-      642: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip2.png
-      656: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip3.png
-      631: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_c1.png
-      632: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip1.png
-      639: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip2.png
-      657: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip3.png
+      6900: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol_off.png
+      6908: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol_c1.png
+      6916: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol_c2.png
+      6924: Resources/WeaponrySprites/5thRail/BigOb/1RailPistol_c3.png
+      6932: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg_off.png
+      6940: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg_c1.png
+      6948: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg_c2.png
+      6956: Resources/WeaponrySprites/5thRail/BigOb/2RailSmg_c3.png
+      6964: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_off.png
+      6972: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_c1.png
+      6980: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_c2.png
+      6988: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_c3.png
+      6996: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_off.png
+      7004: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_c1.png
+      7012: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_c2.png
+      7020: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_c3.png
+      7028: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_off.png
+      7036: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_c1.png
+      7044: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_c2.png
+      7052: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_c3.png
+      7060: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_off.png
+      7068: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_c1.png
+      7076: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_c2.png
+      7084: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_c3.png
+      7092: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_off.png
+      7100: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_c1.png
+      7108: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_c2.png
+      7116: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_c3.png
+      7124: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_off.png
+      7132: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_c1.png
+      7140: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_c2.png
+      7148: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_c3.png
+#Ammo
+      7300: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip1.png
+      7308: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip2.png
+      7316: Resources/WeaponrySprites/5thRail/BigOb/2RailPistol_clip3.png
+      7324: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip1.png
+      7332: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip2.png
+      7340: Resources/WeaponrySprites/5thRail/BigOb/3RailShotgun_clip3.png
+      7348: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip1.png
+      7356: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip2.png
+      7364: Resources/WeaponrySprites/5thRail/BigOb/4RailRifle_clip3.png
+      7372: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box1.png
+      7380: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box2.png
+      7388: Resources/WeaponrySprites/5thRail/BigOb/5RailLmg_box3.png
+      7396: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag1.png
+      7404: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag2.png
+      7412: Resources/WeaponrySprites/5thRail/BigOb/6RailSniper_mag3.png
+      7420: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip1.png
+      7428: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip2.png
+      7436: Resources/WeaponrySprites/5thRail/BigOb/7RailHeavy_clip3.png
+      7444: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip1.png
+      7452: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip2.png
+      7460: Resources/WeaponrySprites/5thRail/BigOb/8RailCannon_clip3.png
 #----- Tier 5 Hypervelocity ends here -----#
 #----- Tier 6 Terran plasma BigObs -----#
-      508: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_c1.png
-      378: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip1.png
-      412: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip2.png
-      413: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip3.png
-      377: Resources/WeaponrySprites/6thPlasma/BigOb/2HumanPlasmaServicePistol_c1.png
-      379: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_c1.png
-      513: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip1.png
-      514: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip2.png
-      515: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip3.png
-      512: Resources/WeaponrySprites/6thPlasma/BigOb/4HumanPlasmaHeavyPistol_c1.png
-      516: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_c1.png
-      517: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip1.png
-      518: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip2.png
-      519: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip3.png
-      383: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_c1.png
-      384: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip1.png
-      418: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip2.png
-      419: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip3.png
-      381: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_c1.png
-      382: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip1.png
-      416: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip2.png
-      417: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip3.png
-      387: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_c1.png
-      388: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt1.png
-      422: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt2.png
-      423: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt3.png
-      385: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_c1.png
-      386: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip1.png
-      420: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip2.png
-      421: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip3.png
-      389: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_c1.png
-      390: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip1.png
-      424: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip2.png
-      425: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip3.png
-      643: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_c1.png
-      644: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb1.png
-      645: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb2.png
-      646: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb3.png
+      7532: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_off.png
+      7540: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_c1.png
+      7548: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_c2.png
+      7556: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_c3.png
+      7564: Resources/WeaponrySprites/6thPlasma/BigOb/2HumanPlasmaServicePistol_off.png
+      7572: Resources/WeaponrySprites/6thPlasma/BigOb/2HumanPlasmaServicePistol_c1.png
+      7580: Resources/WeaponrySprites/6thPlasma/BigOb/2HumanPlasmaServicePistol_c2.png
+      7588: Resources/WeaponrySprites/6thPlasma/BigOb/2HumanPlasmaServicePistol_c3.png
+      7596: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_off.png
+      7604: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_c1.png
+      7612: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_c2.png
+      7620: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_c3.png
+      7628: Resources/WeaponrySprites/6thPlasma/BigOb/4HumanPlasmaHeavyPistol_off.png
+      7636: Resources/WeaponrySprites/6thPlasma/BigOb/4HumanPlasmaHeavyPistol_c1.png
+      7644: Resources/WeaponrySprites/6thPlasma/BigOb/4HumanPlasmaHeavyPistol_c2.png
+      7652: Resources/WeaponrySprites/6thPlasma/BigOb/4HumanPlasmaHeavyPistol_c3.png
+      7660: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_off.png
+      7668: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_c1.png
+      7676: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_c2.png
+      7684: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_c3.png
+      7692: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_off.png
+      7700: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_c1.png
+      7708: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_c2.png
+      7716: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_c3.png
+      7724: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_off.png
+      7732: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_c1.png
+      7740: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_c2.png
+      7748: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_c3.png
+      7756: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_off.png
+      7764: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_c1.png
+      7772: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_c2.png
+      7780: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_c3.png
+      7788: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_off.png
+      7796: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_c1.png
+      7804: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_c2.png
+      7812: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_c3.png
+      7820: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_off.png
+      7828: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_c1.png
+      7836: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_c2.png
+      7844: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_c3.png
+      7852: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_off.png
+      7860: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_c1.png
+      7868: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_c2.png
+      7876: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_c3.png
+#Ammo
+      7900: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip1.png
+      7908: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip2.png
+      7916: Resources/WeaponrySprites/6thPlasma/BigOb/1HumanPlasmaCompactPistol_clip3.png
+      7924: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip1.png
+      7932: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip2.png
+      7940: Resources/WeaponrySprites/6thPlasma/BigOb/3HumanPlasmaSmg_clip3.png
+      7948: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip1.png
+      7956: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip2.png
+      7964: Resources/WeaponrySprites/6thPlasma/BigOb/5HumanPlasmaCarbine_clip3.png
+      7972: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip1.png
+      7980: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip2.png
+      7988: Resources/WeaponrySprites/6thPlasma/BigOb/6HumanPlasmaShotgun_clip3.png
+      7996: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip1.png
+      8004: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip2.png
+      8012: Resources/WeaponrySprites/6thPlasma/BigOb/7HumanPlasmaRifle_clip3.png
+      8020: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt1.png
+      8028: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt2.png
+      8036: Resources/WeaponrySprites/6thPlasma/BigOb/8HumanPlasmaLmg_belt3.png
+      8044: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip1.png
+      8052: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip2.png
+      8060: Resources/WeaponrySprites/6thPlasma/BigOb/9HumanPlasmaSniper_clip3.png
+      8068: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip1.png
+      8076: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip2.png
+      8084: Resources/WeaponrySprites/6thPlasma/BigOb/10HumanPlasmaHeavyCannon_clip3.png
+      8092: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb1.png
+      8100: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb2.png
+      8108: Resources/WeaponrySprites/6thPlasma/BigOb/11HumanBlasterLauncher_bomb3.png
 #----- Tier 6 Terran plasma ends here -----#
 #----- Tier 7 Stun BigObs -----#
-      1113: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol.png
-      1114: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol_clip.png
+      8300: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol_off.png
+      8308: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol.png
+      8316: Resources/WeaponrySprites/7thStun/BigOb/5ShockPistol_off.png
+      8324: Resources/WeaponrySprites/7thStun/BigOb/5ShockPistol_b1.png
+      8332: Resources/WeaponrySprites/7thStun/BigOb/6ShockRifle_off.png
+      8340: Resources/WeaponrySprites/7thStun/BigOb/6ShockRifle_b1.png
+      8348: Resources/WeaponrySprites/7thStun/BigOb/7ShockCannon_off.png
+      8356: Resources/WeaponrySprites/7thStun/BigOb/7ShockCannon_b1.png
+#ojito Granada
+      8364: Resources/WeaponrySprites/7thStun/BigOb/8ShockGrenade_primed.png
+      8372: Resources/WeaponrySprites/7thStun/BigOb/8ShockGrenade_inv.png
+#ammo
+      8500: Resources/WeaponrySprites/7thStun/BigOb/4TaserPistol_clip.png
+      8508: Resources/WeaponrySprites/7thStun/BigOb/6SmallShock_bat1.png
+      8516: Resources/WeaponrySprites/7thStun/BigOb/7LargeShock_bat1.png
 #----- Tier 7 Stun ends here -----#
 #----- Tier 8 Melee BigObs -----#
       316: Resources/WeaponrySprites/8thMelee/BigOb/1HumanBrassKnuckles_sheathed.png
@@ -329,7 +522,8 @@ extraSprites:
       430: Resources/WeaponrySprites/8thMelee/BigOb/3HumanAlloyKnife_sheathed.png
       432: Resources/WeaponrySprites/8thMelee/BigOb/4HumanAlloySword_sheathed.png
       324: Resources/WeaponrySprites/8ThMelee/BigOb/5HumanLaserKnife_sheathed.png
-      325: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword_sheathed.png
+      8000: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword_act.png #still trying
+      8032: Resources/WeaponrySprites/8thMelee/BigOb/6HumanLaserSword_sheathed.png # still trying
       326: Resources/WeaponrySprites/8ThMelee/BigOb/7HumanPlasmaKnife_sheathed.png
       431: Resources/WeaponrySprites/8thMelee/BigOb/8HumanPlasmaSword_sheathed.png
       1078: Resources/WeaponrySprites/8thMelee/BigOb/10HumanBasicShield.png
@@ -425,17 +619,10 @@ extraSprites:
       872: Resources/UnitSprites/XcomFaction/XcomMech/invMech/Weaponry/bigob_DroneWeapon.png
       873: Resources/UnitSprites/XcomFaction/XcomMech/invMech/Weaponry/bigob_LargeDroneWeapon.png
 #----- Tier 12 mechanical weapons ends here -----#
-#----- Inventory Nullifying slots -----#
-      2989: Resources/UxUI/InvBlockers/Null_Jetpack.png
-      2990: Resources/UxUI/InvBlockers/Null_Backpack.png
-      2991: Resources/UxUI/InvBlockers/Null_2x3.png
-      2992: Resources/UxUI/InvBlockers/Null_Belt.png
-      2993: Resources/UxUI/InvBlockers/Null_PocketRS.png
-      2994: Resources/UxUI/InvBlockers/Null_PocketLS.png
-      2995: Resources/UxUI/InvBlockers/Null_PocketRL.png
-      2996: Resources/UxUI/InvBlockers/Null_PocketLL.png
-      2997: Resources/UxUI/InvBlockers/Null_Holster.png
-#----- Inventory Nullifying slots ends here -----#
+
+
+
+
 #----- Tier 3 Hybrid BigObs -----#
   - type: BIGOBS.PCK
     subX: 32

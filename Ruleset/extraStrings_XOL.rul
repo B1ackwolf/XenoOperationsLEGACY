@@ -1435,7 +1435,7 @@ extraStrings:
       STR_XP_MINIGUN_BELT2: 5.56mm Alloy Box
       STR_XP_MINIGUN_BELT3: 5.56mm Tech Box
       STR_XP_AUTO_CANNON: XX Assault Cannon
-      STR_XP_AUTO_CANNON_BELT: 20mm Belt
+      STR_XP_AUTO_CANNON_BELT1: 20mm Belt
       STR_XP_AUTO_CANNON_BELT2: 20mm Alloy Belt
       STR_XP_AUTO_CANNON_BELT3: 20mm Tech Belt
       STR_BO_FIERY_GRENADE: Napalm Grenade

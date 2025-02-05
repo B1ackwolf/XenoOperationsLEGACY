@@ -2257,7 +2257,7 @@ items:
     bulletSprite: 3
     fireSound: 213
     compatibleAmmo:
-      - STR_XP_AUTO_CANNON_BELT
+      - STR_XP_AUTO_CANNON_BELT1
       - STR_XP_AUTO_CANNON_BELT2
       - STR_XP_AUTO_CANNON_BELT3
     accuracyAuto: 37
@@ -2276,7 +2276,7 @@ items:
     autoRange: 10
     minRange: 0
     listOrder: 2231
-  - type: STR_XP_AUTO_CANNON_BELT
+  - type: STR_XP_AUTO_CANNON_BELT1
     size: 0.1
     costSell: 2500
     weight: 4
@@ -2436,7 +2436,7 @@ items:
     size: 0.1
     costSell: 6250
     weight: 2
-    bigSprite: 450
+    bigSprite: 5508
     floorSprite: 450
     handSprite: 1100
     fireSound: 97
@@ -2462,7 +2462,7 @@ items:
     size: 0.1
     costSell: 8750
     weight: 4
-    bigSprite: 458
+    bigSprite: 5540
     floorSprite: 458
     handSprite: 1116
     fireSound: 97
@@ -2490,7 +2490,7 @@ items:
     size: 0.025
     costSell: 750
     weight: 2
-    bigSprite: 459
+    bigSprite: 6000
     floorSprite: 459
     bulletSprite: 14
     hitSound: 22
@@ -2506,7 +2506,7 @@ items:
     size: 0.025
     costSell: 1750
     weight: 2
-    bigSprite: 460
+    bigSprite: 6008
     floorSprite: 460
     hitSound: 95
     hitAnimation: 46
@@ -2526,7 +2526,7 @@ items:
     size: 0.025
     costSell: 1750
     weight: 2
-    bigSprite: 461
+    bigSprite: 6016
     floorSprite: 461
     hitSound: 22
     hitAnimation: 26
@@ -2546,7 +2546,7 @@ items:
     size: 0.1
     costSell: 8125
     weight: 3
-    bigSprite: 454
+    bigSprite: 5572
     floorSprite: 454
     handSprite: 1108
     fireSound: 97
@@ -2571,7 +2571,7 @@ items:
     size: 0.025
     costSell: 650
     weight: 1
-    bigSprite: 455
+    bigSprite: 6024
     floorSprite: 455
     bulletSprite: 14
     hitSound: 22
@@ -2587,7 +2587,7 @@ items:
     size: 0.025
     costSell: 1625
     weight: 1
-    bigSprite: 456
+    bigSprite: 6032
     floorSprite: 456
     bulletSprite: 24
     hitSound: 95
@@ -2607,7 +2607,7 @@ items:
     size: 0.025
     costSell: 1625
     weight: 1
-    bigSprite: 457
+    bigSprite: 6040
     floorSprite: 457
     bulletSprite: 1
     hitSound: 22
@@ -2627,7 +2627,7 @@ items:
     size: 0.1
     costSell: 10000
     weight: 5
-    bigSprite: 462
+    bigSprite: 5604
     floorSprite: 462
     handSprite: 1124
     fireSound: 98
@@ -2653,7 +2653,7 @@ items:
     size: 0.025
     costSell: 1000
     weight: 3
-    bigSprite: 463
+    bigSprite: 6048
     floorSprite: 463
     bulletSprite: 14
     hitSound: 22
@@ -2669,7 +2669,7 @@ items:
     size: 0.025
     costSell: 2500
     weight: 3
-    bigSprite: 464
+    bigSprite: 6056
     floorSprite: 464
     bulletSprite: 24
     hitSound: 95
@@ -2689,7 +2689,7 @@ items:
     size: 0.025
     costSell: 2500
     weight: 3
-    bigSprite: 465
+    bigSprite: 6064
     floorSprite: 465
     bulletSprite: 1
     hitSound: 22
@@ -2709,7 +2709,7 @@ items:
     size: 0.1
     costSell: 9375
     weight: 3
-    bigSprite: 466
+    bigSprite: 5636
     floorSprite: 466
     handSprite: 1132
     fireSound: 97
@@ -2738,7 +2738,7 @@ items:
     size: 0.2
     costSell: 10000
     weight: 4
-    bigSprite: 474
+    bigSprite: 5668
     floorSprite: 474
     handSprite: 1148
     fireSound: 97
@@ -2755,7 +2755,7 @@ items:
     battleType: 1
     twoHanded: true
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     maxRange: 200
     aimRange: 200
     snapRange: 18
@@ -2767,7 +2767,7 @@ items:
     size: 0.025
     costSell: 750
     weight: 2
-    bigSprite: 467
+    bigSprite: 6072
     floorSprite: 467
     bulletSprite: 14
     hitSound: 22
@@ -2783,7 +2783,7 @@ items:
     size: 0.025
     costSell: 1750
     weight: 2
-    bigSprite: 468
+    bigSprite: 6080
     floorSprite: 468
     bulletSprite: 24
     hitSound: 95
@@ -2803,7 +2803,7 @@ items:
     size: 0.025
     costSell: 1750
     weight: 2
-    bigSprite: 469
+    bigSprite: 6088
     floorSprite: 469
     bulletSprite: 1
     hitSound: 22
@@ -2823,7 +2823,7 @@ items:
     size: 0.2
     costSell: 15000
     weight: 6
-    bigSprite: 482
+    bigSprite: 5700
     floorSprite: 482
     handSprite: 1164
     fireSound: 99
@@ -2849,7 +2849,7 @@ items:
     size: 0.025
     costSell: 1200
     weight: 2
-    bigSprite: 483
+    bigSprite: 6096
     floorSprite: 483
     hitSound: 13
     hitAnimation: 26
@@ -2863,7 +2863,7 @@ items:
     size: 0.025
     costSell: 3000
     weight: 3
-    bigSprite: 484
+    bigSprite: 6104
     floorSprite: 484
     hitSound: 95
     hitAnimation: 46
@@ -2881,7 +2881,7 @@ items:
     size: 0.025
     costSell: 3000
     weight: 3
-    bigSprite: 485
+    bigSprite: 6112
     floorSprite: 485
     hitSound: 13
     hitAnimation: 26
@@ -2899,7 +2899,7 @@ items:
     size: 0.1
     costSell: 10625
     weight: 4
-    bigSprite: 470
+    bigSprite: 5732
     floorSprite: 470
     handSprite: 1140
     fireSound: 98
@@ -2916,7 +2916,7 @@ items:
     battleType: 1
     twoHanded: true
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     maxRange: 200
     aimRange: 200
     snapRange: 22
@@ -2928,7 +2928,7 @@ items:
     size: 0.2
     costSell: 15000
     weight: 6
-    bigSprite: 478
+    bigSprite: 5764
     floorSprite: 478
     handSprite: 1156
     fireSound: 98
@@ -2957,7 +2957,7 @@ items:
     size: 0.025
     costSell: 1200
     weight: 2
-    bigSprite: 479
+    bigSprite: 6120
     floorSprite: 479
     bulletSprite: 14
     hitSound: 22
@@ -2971,7 +2971,7 @@ items:
     size: 0.025
     costSell: 3000
     weight: 3
-    bigSprite: 480
+    bigSprite: 6128
     floorSprite: 480
     bulletSprite: 24
     hitSound: 95
@@ -2989,7 +2989,7 @@ items:
     size: 0.025
     costSell: 3000
     weight: 3
-    bigSprite: 481
+    bigSprite: 6136
     floorSprite: 481
     bulletSprite: 2
     hitSound: 22
@@ -3007,7 +3007,7 @@ items:
     size: 0.2
     costSell: 27500
     weight: 7
-    bigSprite: 490
+    bigSprite: 5796
     floorSprite: 490
     handSprite: 1180
     fireSound: 99
@@ -3034,7 +3034,7 @@ items:
     size: 0.1
     costSell: 2200
     weight: 3
-    bigSprite: 491
+    bigSprite: 6144
     floorSprite: 491
     bulletSprite: 14
     hitSound: 22
@@ -3050,7 +3050,7 @@ items:
     size: 0.1
     costSell: 5500
     weight: 3
-    bigSprite: 492
+    bigSprite: 6152
     floorSprite: 492
     bulletSprite: 24
     hitSound: 95
@@ -3070,7 +3070,7 @@ items:
     size: 0.1
     costSell: 5500
     weight: 3
-    bigSprite: 493
+    bigSprite: 6160
     floorSprite: 493
     bulletSprite: 2
     hitSound: 22
@@ -3090,7 +3090,7 @@ items:
     size: 0.2
     costSell: 30000
     weight: 7
-    bigSprite: 486
+    bigSprite: 5828
     floorSprite: 486
     handSprite: 1172
     fireSound: 99
@@ -3116,7 +3116,7 @@ items:
     size: 0.025
     costSell: 2400
     weight: 2
-    bigSprite: 487
+    bigSprite: 6168
     floorSprite: 487
     bulletSprite: 14
     hitSound: 22
@@ -3128,9 +3128,9 @@ items:
     listOrder: 2333
   - type: STR_HB_SNIPER_CLIP2
     size: 0.025
-    costSell: 6000
+    costSell: 6176
     weight: 3
-    bigSprite: 488
+    bigSprite: 6176
     floorSprite: 488
     bulletSprite: 24
     hitSound: 95
@@ -3148,7 +3148,7 @@ items:
     size: 0.025
     costSell: 2400
     weight: 2
-    bigSprite: 489
+    bigSprite: 6184
     floorSprite: 489
     bulletSprite: 2
     hitSound: 22
@@ -3166,7 +3166,7 @@ items:
     size: 0.3
     costSell: 10125
     weight: 12
-    bigSprite: 494
+    bigSprite: 5860
     floorSprite: 494
     handSprite: 1188
     bulletSprite: 3
@@ -3195,7 +3195,7 @@ items:
     size: 0.1
     costSell: 400
     weight: 5
-    bigSprite: 495
+    bigSprite: 6192
     floorSprite: 495
     hitSound: 13
     hitAnimation: 26
@@ -3210,7 +3210,7 @@ items:
     size: 0.1
     costSell: 400
     weight: 5
-    bigSprite: 496
+    bigSprite: 6200
     floorSprite: 496
     hitSound: 0
     hitAnimation: 0
@@ -3237,7 +3237,7 @@ items:
     size: 0.1
     costSell: 520
     weight: 5
-    bigSprite: 497
+    bigSprite: 6208
     floorSprite: 497
     hitSound: 0
     hitAnimation: 0
@@ -3264,7 +3264,7 @@ items:
     size: 0.4
     costSell: 40000
     weight: 7
-    bigSprite: 498
+    bigSprite: 5892
     floorSprite: 498
     handSprite: 1196
     bulletSprite: 0
@@ -3291,7 +3291,7 @@ items:
     size: 0.2
     costSell: 12000
     weight: 4
-    bigSprite: 499
+    bigSprite: 6216
     floorSprite: 499
     hitSound: 0
     hitAnimation: 0
@@ -3318,7 +3318,7 @@ items:
     size: 0.2
     costSell: 16000
     weight: 4
-    bigSprite: 500
+    bigSprite: 6224
     floorSprite: 500
     hitSound: 0
     hitAnimation: 0
@@ -3346,7 +3346,7 @@ items:
     size: 0.1
     costSell: 19600
     weight: 4
-    bigSprite: 270
+    bigSprite: 6308
     floorSprite: 270
     handSprite: 270
     fireSound: 401
@@ -3377,7 +3377,7 @@ items:
     size: 0.1
     costSell: 20000
     weight: 5
-    bigSprite: 317
+    bigSprite: 6340
     floorSprite: 317
     handSprite: 480
     fireSound: 401
@@ -3408,7 +3408,7 @@ items:
     size: 0.025
     costSell: 500
     weight: 2
-    bigSprite: 271
+    bigSprite: 6700
     floorSprite: 271
     bulletSprite: 5
     hitSound: 19
@@ -3423,7 +3423,7 @@ items:
     size: 0.025
     costSell: 500
     weight: 2
-    bigSprite: 336
+    bigSprite: 6708
     floorSprite: 336
     bulletSprite: 15
     hitSound: 19
@@ -3438,7 +3438,7 @@ items:
     size: 0.025
     costSell: 25000
     weight: 2
-    bigSprite: 337
+    bigSprite: 6716
     floorSprite: 337
     bulletSprite: 18
     fireSound: 410
@@ -3454,7 +3454,7 @@ items:
     size: 0.2
     costSell: 36400
     weight: 6
-    bigSprite: 319
+    bigSprite: 6372
     floorSprite: 319
     handSprite: 490
     fireSound: 403
@@ -3483,7 +3483,7 @@ items:
     size: 0.025
     costSell: 2000
     weight: 2
-    bigSprite: 320
+    bigSprite: 6724
     floorSprite: 320
     bulletSprite: 6
     hitSound: 19
@@ -3499,7 +3499,7 @@ items:
     size: 0.025
     costSell: 2000
     weight: 2
-    bigSprite: 338
+    bigSprite: 6732
     floorSprite: 338
     bulletSprite: 16
     hitSound: 19
@@ -3515,7 +3515,7 @@ items:
     size: 0.025
     costSell: 30000
     weight: 2
-    bigSprite: 339
+    bigSprite: 6740
     floorSprite: 339
     bulletSprite: 19
     fireSound: 410
@@ -3532,7 +3532,7 @@ items:
     size: 0.2
     costSell: 36400
     weight: 6
-    bigSprite: 272
+    bigSprite: 6404
     floorSprite: 272
     handSprite: 280
     fireSound: 11
@@ -3564,7 +3564,7 @@ items:
     size: 0.025
     costSell: 2000
     weight: 2
-    bigSprite: 273
+    bigSprite: 6748
     floorSprite: 273
     bulletSprite: 6
     hitSound: 19
@@ -3579,7 +3579,7 @@ items:
     size: 0.025
     costSell: 2000
     weight: 2
-    bigSprite: 332
+    bigSprite: 6756
     floorSprite: 332
     bulletSprite: 16
     hitSound: 19
@@ -3594,7 +3594,7 @@ items:
     size: 0.025
     costSell: 30000
     weight: 2
-    bigSprite: 333
+    bigSprite: 6764
     floorSprite: 333
     bulletSprite: 19
     fireSound: 410
@@ -3610,7 +3610,7 @@ items:
     size: 0.3
     costSell: 59000
     weight: 14
-    bigSprite: 321
+    bigSprite: 6452
     floorSprite: 321
     handSprite: 500
     fireSound: 11
@@ -3638,7 +3638,7 @@ items:
     size: 0.1
     costSell: 3000
     weight: 4
-    bigSprite: 322
+    bigSprite: 6772
     floorSprite: 322
     bulletSprite: 7
     hitSound: 19
@@ -3655,7 +3655,7 @@ items:
     size: 0.1
     costSell: 3000
     weight: 4
-    bigSprite: 334
+    bigSprite: 6780
     floorSprite: 334
     bulletSprite: 16
     hitSound: 19
@@ -3672,7 +3672,7 @@ items:
     size: 0.1
     costSell: 65000
     weight: 4
-    bigSprite: 335
+    bigSprite: 6788
     floorSprite: 335
     bulletSprite: 20
     fireSound: 410
@@ -3690,7 +3690,7 @@ items:
     size: 0.2
     costSell: 44400
     weight: 9
-    bigSprite: 274
+    bigSprite: 6484
     floorSprite: 274
     handSprite: 290
     fireSound: 406
@@ -3720,7 +3720,7 @@ items:
     size: 0.025
     costSell: 2500
     weight: 2
-    bigSprite: 275
+    bigSprite: 6796
     floorSprite: 275
     bulletSprite: 6
     hitSound: 19
@@ -3735,7 +3735,7 @@ items:
     size: 0.025
     costSell: 2500
     weight: 2
-    bigSprite: 342
+    bigSprite: 6804
     floorSprite: 342
     bulletSprite: 16
     hitSound: 19
@@ -3750,7 +3750,7 @@ items:
     size: 0.025
     costSell: 45000
     weight: 2
-    bigSprite: 343
+    bigSprite: 6812
     floorSprite: 343
     bulletSprite: 19
     fireSound: 410
@@ -3766,7 +3766,7 @@ items:
     size: 0.3
     costSell: 60400
     weight: 14
-    bigSprite: 276
+    bigSprite: 6516
     floorSprite: 276
     handSprite: 300
     fireSound: 407
@@ -3797,7 +3797,7 @@ items:
     size: 0.1
     costSell: 3200
     weight: 4
-    bigSprite: 277
+    bigSprite: 6820
     floorSprite: 277
     bulletSprite: 7
     hitSound: 19
@@ -3814,7 +3814,7 @@ items:
     size: 0.1
     costSell: 3200
     weight: 4
-    bigSprite: 330
+    bigSprite: 6828
     floorSprite: 330
     bulletSprite: 17
     hitSound: 19
@@ -3831,7 +3831,7 @@ items:
     size: 0.1
     costSell: 7000
     weight: 4
-    bigSprite: 331
+    bigSprite: 6836
     floorSprite: 331
     bulletSprite: 20
     fireSound: 410
@@ -3850,7 +3850,7 @@ items:
     size: 0.1
     costSell: 75000
     weight: 4
-    bigSprite: 619
+    bigSprite: 6908
     floorSprite: 619
     handSprite: 630
     fireSound: 501
@@ -3875,7 +3875,7 @@ items:
     size: 0.2
     costSell: 140000
     weight: 5
-    bigSprite: 621
+    bigSprite: 6940
     floorSprite: 621
     handSprite: 640
     fireSound: 501
@@ -3902,7 +3902,7 @@ items:
     size: 0.025
     costSell: 5000
     weight: 2
-    bigSprite: 620
+    bigSprite: 7300
     floorSprite: 620
     bulletSprite: 21
     hitSound: 125
@@ -3918,7 +3918,7 @@ items:
     size: 0.025
     costSell: 5000
     weight: 2
-    bigSprite: 633
+    bigSprite: 7308
     floorSprite: 633
     bulletSprite: 21
     hitSound: 125
@@ -3934,7 +3934,7 @@ items:
     size: 0.025
     costSell: 5000
     weight: 2
-    bigSprite: 650
+    bigSprite: 7316
     floorSprite: 650
     bulletSprite: 21
     hitSound: 125
@@ -3962,7 +3962,7 @@ items:
     size: 0.2
     costSell: 125000
     weight: 7
-    bigSprite: 625
+    bigSprite: 6972
     floorSprite: 625
     handSprite: 660
     fireSound: 503
@@ -3988,7 +3988,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 4
-    bigSprite: 626
+    bigSprite: 7324
     floorSprite: 626
     bulletSprite: 22
     hitSound: 125
@@ -4003,7 +4003,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 4
-    bigSprite: 636
+    bigSprite: 7332
     floorSprite: 636
     bulletSprite: 22
     hitSound: 125
@@ -4018,7 +4018,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 4
-    bigSprite: 653
+    bigSprite: 7340
     floorSprite: 653
     bulletSprite: 22
     hitSound: 125
@@ -4045,7 +4045,7 @@ items:
     size: 0.2
     costSell: 125000
     weight: 7
-    bigSprite: 623
+    bigSprite: 7004
     floorSprite: 623
     handSprite: 650
     fireSound: 504
@@ -4074,7 +4074,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 3
-    bigSprite: 624
+    bigSprite: 7348
     floorSprite: 624
     bulletSprite: 22
     hitSound: 125
@@ -4088,7 +4088,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 3
-    bigSprite: 635
+    bigSprite: 7356
     floorSprite: 635
     bulletSprite: 22
     hitSound: 125
@@ -4102,7 +4102,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 3
-    bigSprite: 652
+    bigSprite: 7364
     floorSprite: 652
     bulletSprite: 22
     hitSound: 125
@@ -4128,7 +4128,7 @@ items:
     size: 0.2
     costSell: 187500
     weight: 8
-    bigSprite: 629
+    bigSprite: 7036
     floorSprite: 629
     handSprite: 680
     fireSound: 504
@@ -4155,7 +4155,7 @@ items:
     size: 0.1
     costSell: 10000
     weight: 4
-    bigSprite: 630
+    bigSprite: 7372
     floorSprite: 630
     bulletSprite: 23
     hitSound: 126
@@ -4171,7 +4171,7 @@ items:
     size: 0.1
     costSell: 10000
     weight: 4
-    bigSprite: 638
+    bigSprite: 7380
     floorSprite: 638
     bulletSprite: 23
     hitSound: 126
@@ -4187,7 +4187,7 @@ items:
     size: 0.1
     costSell: 10000
     weight: 4
-    bigSprite: 655
+    bigSprite: 7388
     floorSprite: 655
     bulletSprite: 23
     hitSound: 126
@@ -4215,7 +4215,7 @@ items:
     size: 0.2
     costSell: 125000
     weight: 8
-    bigSprite: 627
+    bigSprite: 7068
     floorSprite: 627
     handSprite: 670
     fireSound: 506
@@ -4241,7 +4241,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 4
-    bigSprite: 628
+    bigSprite: 7396
     floorSprite: 628
     bulletSprite: 22
     hitSound: 125
@@ -4255,7 +4255,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 4
-    bigSprite: 637
+    bigSprite: 7404
     floorSprite: 637
     bulletSprite: 22
     hitSound: 125
@@ -4269,7 +4269,7 @@ items:
     size: 0.025
     costSell: 7500
     weight: 4
-    bigSprite: 654
+    bigSprite: 7412
     floorSprite: 654
     bulletSprite: 22
     hitSound: 125
@@ -4295,7 +4295,7 @@ items:
     size: 0.2
     costSell: 250000
     weight: 8
-    bigSprite: 640
+    bigSprite: 7100
     floorSprite: 640
     handSprite: 700
     fireSound: 507
@@ -4324,7 +4324,7 @@ items:
     size: 0.025
     costSell: 12500
     weight: 4
-    bigSprite: 641
+    bigSprite: 7420
     floorSprite: 641
     bulletSprite: 23
     hitSound: 126
@@ -4340,7 +4340,7 @@ items:
     size: 0.025
     costSell: 12500
     weight: 4
-    bigSprite: 642
+    bigSprite: 7428
     floorSprite: 642
     bulletSprite: 23
     hitSound: 126
@@ -4356,7 +4356,7 @@ items:
     size: 0.025
     costSell: 12500
     weight: 4
-    bigSprite: 656
+    bigSprite: 7436
     floorSprite: 656
     bulletSprite: 23
     hitSound: 126
@@ -4384,7 +4384,7 @@ items:
     size: 0.2
     costSell: 375000
     weight: 10
-    bigSprite: 631
+    bigSprite: 7132
     floorSprite: 631
     handSprite: 690
     fireSound: 508
@@ -4410,7 +4410,7 @@ items:
     size: 0.025
     costSell: 25000
     weight: 4
-    bigSprite: 632
+    bigSprite: 7444
     floorSprite: 632
     bulletSprite: 23
     hitSound: 126
@@ -4426,7 +4426,7 @@ items:
     size: 0.025
     costSell: 25000
     weight: 4
-    bigSprite: 639
+    bigSprite: 7452
     floorSprite: 639
     bulletSprite: 23
     hitSound: 126
@@ -4442,7 +4442,7 @@ items:
     size: 0.025
     costSell: 25000
     weight: 4
-    bigSprite: 657
+    bigSprite: 7460
     floorSprite: 657
     bulletSprite: 23
     hitSound: 126
@@ -4471,7 +4471,7 @@ items:
     size: 0.1
     costSell: 84000
     weight: 2
-    bigSprite: 508
+    bigSprite: 7540
     floorSprite: 508
     handSprite: 810
     compatibleAmmo:
@@ -4497,7 +4497,7 @@ items:
     size: 0.025
     costSell: 4440
     weight: 2
-    bigSprite: 378
+    bigSprite: 7900
     floorSprite: 378
     bulletSprite: 8
     fireSound: 601
@@ -4513,7 +4513,7 @@ items:
     size: 0.025
     costSell: 4740
     weight: 2
-    bigSprite: 412
+    bigSprite: 7908
     floorSprite: 412
     bulletSprite: 13
     fireSound: 601
@@ -4529,7 +4529,7 @@ items:
     size: 0.025
     costSell: 4940
     weight: 2
-    bigSprite: 413
+    bigSprite: 7916
     floorSprite: 413
     fireSound: 601
     hitSound: 19
@@ -4557,7 +4557,7 @@ items:
     size: 0.1
     costSell: 84000
     weight: 3
-    bigSprite: 377
+    bigSprite: 7572
     floorSprite: 377
     handSprite: 980
     compatibleAmmo:
@@ -4583,7 +4583,7 @@ items:
     size: 0.1
     costSell: 89000
     weight: 4
-    bigSprite: 379
+    bigSprite: 7604
     floorSprite: 379
     handSprite: 960
     compatibleAmmo:
@@ -4611,7 +4611,7 @@ items:
     size: 0.025
     costSell: 4440
     weight: 3
-    bigSprite: 513
+    bigSprite: 7924
     floorSprite: 513
     bulletSprite: 8
     fireSound: 601
@@ -4627,7 +4627,7 @@ items:
     size: 0.025
     costSell: 4740
     weight: 3
-    bigSprite: 514
+    bigSprite: 7932
     floorSprite: 514
     bulletSprite: 13
     fireSound: 601
@@ -4643,7 +4643,7 @@ items:
     size: 0.025
     costSell: 4940
     weight: 3
-    bigSprite: 515
+    bigSprite: 7940
     floorSprite: 515
     fireSound: 601
     hitSound: 19
@@ -4671,7 +4671,7 @@ items:
     size: 0.1
     costSell: 84000
     weight: 6
-    bigSprite: 512
+    bigSprite: 7636
     floorSprite: 512
     handSprite: 820
     compatibleAmmo:
@@ -4697,7 +4697,7 @@ items:
     size: 0.1
     costSell: 89000
     weight: 6
-    bigSprite: 516
+    bigSprite: 7668
     floorSprite: 516
     handSprite: 710
     compatibleAmmo:
@@ -4725,7 +4725,7 @@ items:
     size: 0.025
     costSell: 4440
     weight: 4
-    bigSprite: 517
+    bigSprite: 7948
     floorSprite: 517
     bulletSprite: 8
     fireSound: 607
@@ -4741,7 +4741,7 @@ items:
     size: 0.025
     costSell: 4740
     weight: 4
-    bigSprite: 518
+    bigSprite: 7956
     floorSprite: 518
     bulletSprite: 13
     fireSound: 607
@@ -4757,7 +4757,7 @@ items:
     size: 0.025
     costSell: 4940
     weight: 4
-    bigSprite: 519
+    bigSprite: 7964
     floorSprite: 519
     fireSound: 607
     hitSound: 19
@@ -4785,7 +4785,7 @@ items:
     size: 0.2
     costSell: 126500
     weight: 5
-    bigSprite: 383
+    bigSprite: 7700
     floorSprite: 383
     handSprite: 970
     compatibleAmmo:
@@ -4812,7 +4812,7 @@ items:
     size: 0.025
     costSell: 6290
     weight: 3
-    bigSprite: 384
+    bigSprite: 7972
     floorSprite: 384
     bulletSprite: 8
     fireSound: 607
@@ -4829,7 +4829,7 @@ items:
     size: 0.025
     costSell: 6790
     weight: 3
-    bigSprite: 418
+    bigSprite: 7980
     floorSprite: 418
     bulletSprite: 13
     fireSound: 607
@@ -4846,7 +4846,7 @@ items:
     size: 0.025
     costSell: 6990
     weight: 3
-    bigSprite: 419
+    bigSprite: 7988
     floorSprite: 419
     bulletSprite: 12
     fireSound: 607
@@ -4875,7 +4875,7 @@ items:
     size: 0.2
     costSell: 126500
     weight: 5
-    bigSprite: 381
+    bigSprite: 7732
     floorSprite: 381
     handSprite: 990
     compatibleAmmo:
@@ -4903,7 +4903,7 @@ items:
     size: 0.025
     costSell: 6290
     weight: 3
-    bigSprite: 382
+    bigSprite: 7996
     floorSprite: 382
     bulletSprite: 8
     fireSound: 607
@@ -4919,7 +4919,7 @@ items:
     size: 0.025
     costSell: 6690
     weight: 3
-    bigSprite: 416
+    bigSprite: 8004
     floorSprite: 416
     bulletSprite: 13
     fireSound: 607
@@ -4933,9 +4933,9 @@ items:
     listOrder: 2621
   - type: STR_PM_RIFLE_CLIP3
     size: 0.025
-    costSell: 6990
+    costSell: 8012
     weight: 3
-    bigSprite: 417
+    bigSprite: 8012
     floorSprite: 417
     bulletSprite: 12
     fireSound: 607
@@ -4963,7 +4963,7 @@ items:
     size: 0.2
     costSell: 171600
     weight: 8
-    bigSprite: 387
+    bigSprite: 7764
     floorSprite: 387
     handSprite: 940
     compatibleAmmo:
@@ -4992,7 +4992,7 @@ items:
     size: 0.1
     costSell: 9590
     weight: 3
-    bigSprite: 388
+    bigSprite: 8020
     floorSprite: 388
     bulletSprite: 8
     fireSound: 610
@@ -5010,7 +5010,7 @@ items:
     size: 0.1
     costSell: 12200
     weight: 3
-    bigSprite: 422
+    bigSprite: 8028
     floorSprite: 422
     bulletSprite: 13
     fireSound: 610
@@ -5028,7 +5028,7 @@ items:
     size: 0.1
     costSell: 14000
     weight: 3
-    bigSprite: 423
+    bigSprite: 8036
     floorSprite: 423
     bulletSprite: 12
     fireSound: 610
@@ -5058,7 +5058,7 @@ items:
     size: 0.2
     costSell: 150000
     weight: 7
-    bigSprite: 385
+    bigSprite: 7796
     floorSprite: 385
     handSprite: 1000
     compatibleAmmo:
@@ -5085,7 +5085,7 @@ items:
     size: 0.025
     costSell: 7000
     weight: 3
-    bigSprite: 386
+    bigSprite: 8044
     floorSprite: 386
     bulletSprite: 8
     fireSound: 609
@@ -5101,7 +5101,7 @@ items:
     size: 0.025
     costSell: 7700
     weight: 3
-    bigSprite: 420
+    bigSprite: 8052
     floorSprite: 420
     bulletSprite: 13
     fireSound: 609
@@ -5117,7 +5117,7 @@ items:
     size: 0.025
     costSell: 7900
     weight: 3
-    bigSprite: 421
+    bigSprite: 8060
     floorSprite: 421
     bulletSprite: 12
     fireSound: 609
@@ -5145,7 +5145,7 @@ items:
     size: 0.2
     costSell: 250000
     weight: 10
-    bigSprite: 389
+    bigSprite: 7828
     floorSprite: 389
     handSprite: 950
     fireSound: 610
@@ -5173,7 +5173,7 @@ items:
     size: 0.2
     costSell: 12000
     weight: 3
-    bigSprite: 390
+    bigSprite: 8068
     floorSprite: 390
     bulletSprite: 8
     hitSound: 19
@@ -5190,7 +5190,7 @@ items:
     size: 0.2
     costSell: 14000
     weight: 3
-    bigSprite: 424
+    bigSprite: 8076
     floorSprite: 424
     bulletSprite: 13
     hitSound: 19
@@ -5207,7 +5207,7 @@ items:
     size: 0.2
     costSell: 16000
     weight: 3
-    bigSprite: 425
+    bigSprite: 8084
     floorSprite: 425
     bulletSprite: 12
     hitSound: 19
@@ -5238,7 +5238,7 @@ items:
     size: 0.3
     costSell: 144000
     weight: 16
-    bigSprite: 643
+    bigSprite: 7860
     floorSprite: 643
     handSprite: 1080
     bulletSprite: 10
@@ -5261,7 +5261,7 @@ items:
     size: 0.2
     costSell: 17028
     weight: 3
-    bigSprite: 644
+    bigSprite: 8092
     floorSprite: 644
     hitSound: 0
     hitAnimation: 0
@@ -5291,7 +5291,7 @@ items:
     size: 0.2
     costSell: 17028
     weight: 3
-    bigSprite: 645
+    bigSprite: 8100
     floorSprite: 645
     hitSound: 0
     hitAnimation: 0
@@ -5320,7 +5320,7 @@ items:
     size: 0.2
     costSell: 17028
     weight: 3
-    bigSprite: 646
+    bigSprite: 8108
     floorSprite: 646
     hitSound: 0
     hitAnimation: 0
@@ -5372,7 +5372,7 @@ items:
     size: 0.2
     costSell: 600
     weight: 5
-    bigSprite: 1113
+    bigSprite: 8308
     floorSprite: 83
     handSprite: 200
     bulletSprite: 25 #ojito resolver quilombo del taser
@@ -5395,7 +5395,7 @@ items:
     size: 0.1
     costSell: 100
     weight: 2
-    bigSprite: 1114
+    bigSprite: 8500
     floorSprite: 91
     hitSound: 54
     hitAnimation: 96
@@ -5429,7 +5429,7 @@ items:
     size: 0.1
     costSell: 600
     weight: 3
-    bigSprite: 1501
+    bigSprite: 8324
     floorSprite: 1501
     handSprite: 2204
     bulletSprite: 25
@@ -5454,7 +5454,7 @@ items:
     size: 0.2
     costSell: 2250
     weight: 8
-    bigSprite: 1503
+    bigSprite: 8340
     floorSprite: 1503
     handSprite: 2212
     bulletSprite: 26
@@ -5479,7 +5479,7 @@ items:
     size: 0.025
     costSell: 150
     weight: 2
-    bigSprite: 1504
+    bigSprite: 8508
     floorSprite: 1504
     handSprite: 2228
     hitSound: 90
@@ -5513,7 +5513,7 @@ items:
     size: 0.2
     costSell: 2250
     weight: 16
-    bigSprite: 1505
+    bigSprite: 8356
     floorSprite: 1505
     handSprite: 2220
     bulletSprite: 27
@@ -5538,7 +5538,7 @@ items:
     size: 0.025
     costSell: 150
     weight: 5
-    bigSprite: 1506
+    bigSprite: 8516
     floorSprite: 1506
     hitSound: 134
     handSprite: 2228
@@ -5571,7 +5571,7 @@ items:
     size: 0.05
     costSell: 5000
     weight: 3
-    bigSprite: 1507
+    bigSprite: 8372
     floorSprite: 1507
     handSprite: 2228
     power: 90
@@ -5723,7 +5723,7 @@ items:
     size: 0.1
     costSell: 37500
     weight: 4
-    bigSprite: 325
+    bigSprite: 8032
     floorSprite: 325
     handSprite: 520
     power: 80

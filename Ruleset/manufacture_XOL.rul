@@ -828,13 +828,15 @@ manufacture:
     time: 220
     cost: 14000
     listOrder: 2231
-  - name: STR_XP_AUTO_CANNON_BELT # ojito cambiar esta version de municion por algo mas cool, como incendiary? o directamente eliminar en todas las otras pags
+  - name: STR_XP_AUTO_CANNON_BELT1 # ojito cambiar esta version de municion por algo mas cool, como incendiary? o directamente eliminar en todas las otras pags
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     space: 1
     time: 28
     cost: 2000
+    producedItems:
+      STR_XP_AUTO_CANNON_BELT1: 10
     listOrder: 2232
   - name: STR_XP_AUTO_CANNON_BELT2
     category: STR_HIGH_PERFORMANCE_BALLISTICS
@@ -860,7 +862,7 @@ manufacture:
     requiredItems:
       STR_CODEX_FRAGMENT: 3
     producedItems:
-      STR_XP_AUTO_CANNON_BELT2: 10
+      STR_XP_AUTO_CANNON_BELT3: 10
     listOrder: 2234
   - name: STR_XP_BAZOOKA
     category: STR_HIGH_PERFORMANCE_BALLISTICS

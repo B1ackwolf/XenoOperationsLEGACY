@@ -1279,7 +1279,7 @@ ufopaedia:
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
     listOrder: 2213
-  - id: STR_XP_AUTO_CANNON_BELT
+  - id: STR_XP_AUTO_CANNON_BELT1
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_XP_AUTO_CANNON_BELT2

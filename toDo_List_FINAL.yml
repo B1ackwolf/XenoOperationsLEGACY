@@ -42,6 +42,20 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
+ - sacarles el kraken rotorcannon backpack de 40k rosigma, revisar como funciona
+ - tambien revisar como implementaron el gibs of gory
+
+ + dinamic sprites fallando:
+ - en iniciales
+   * bazooka (ya hay una bazooka, debo resolver las sprites)
+   * bazooka desechable
+ - en xtier
+   * posiblemente todo inicia por la escopeta
+   * bullpup.
+   * rifle standard
+ - en hybrid
+
+
 
 ####balanceo?
 

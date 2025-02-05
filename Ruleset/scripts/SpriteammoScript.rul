@@ -158,6 +158,19 @@ items:
     tags:
       AmmoNo: 3
 
+  - type: STR_ROCKET_LAUNCHER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_SMALL_ROCKET # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LARGE_ROCKET # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_INCENDIARY_ROCKET # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
 ###-----Human first tier Ballistic terran weapons ENDING-----###
 ###-----Human second tier Ballistic eXperimental weapons-----###
 
@@ -230,7 +243,7 @@ items:
     tags:
       AmmoNo: 3
 
-  - type: STR_ST_LMG # ignoreDuplicate
+  - type: STR_XP_LMG # ignoreDuplicate
     tags:
       AmmoReSprite: 3
   - type: STR_XP_LMG_BELT2 # ignoreDuplicate
@@ -240,7 +253,7 @@ items:
     tags:
       AmmoNo: 3
 
-  - type: STR_ST_ANTI_MATERIEL # ignoreDuplicate
+  - type: STR_XP_ANTI_MATERIEL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
   - type: STR_XP_ANTI_MATERIEL_CLIP2 # ignoreDuplicate
@@ -250,7 +263,7 @@ items:
     tags:
       AmmoNo: 3
 
-  - type: STR_ST_MINIGUN # ignoreDuplicate
+  - type: STR_XP_MINIGUN # ignoreDuplicate
     tags:
       AmmoReSprite: 3
   - type: STR_XP_MINIGUN_BELT2 # ignoreDuplicate
@@ -263,7 +276,7 @@ items:
   - type: STR_XP_AUTO_CANNON # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_XP_AUTO_CANNON_BELT # ignoreDuplicate
+  - type: STR_XP_AUTO_CANNON_BELT1 # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_XP_AUTO_CANNON_BELT2 # ignoreDuplicate
@@ -273,10 +286,25 @@ items:
     tags:
       AmmoNo: 3
 
+  - type: STR_XP_BAZOOKA # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_XP_ROCKET1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_XP_ROCKET2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_XP_APROCKET # ignoreDuplicate
+    tags:
+      AmmoNo: 3
 
 ###-----Human third tier Ballistic hybrid weapons-----###
 
   - type: STR_HB_SMALL_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_AUTO_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
   - type: STR_HB_SMALL_PISTOL # ignoreDuplicate
@@ -401,6 +429,16 @@ items:
   - type: STR_HB_AUTO_CANNON_BELT3 # ignoreDuplicate
     tags:
       AmmoNo: 3
+
+  - type: STR_HB_BAZOOKA # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HB_ROCKET1 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HB_ROCKET2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
 
 ###-----Human fourth tier Energy laser weapons-----###
 
@@ -735,6 +773,14 @@ items:
   - type: STR_SH_HEAVY_CANNON_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
+
+#----- Eight tier Alien Weaponry -----#
+
+  - type: STR_ME_LASER_SWORD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+      FoldStock: 1
+
 
 #----- Tenth tier Alien Weaponry -----#
 
