@@ -158,6 +158,11 @@ items:
     tags:
       AmmoNo: 3
 
+  - type: STR_ST_BAZOOKA # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
   - type: STR_ROCKET_LAUNCHER # ignoreDuplicate
     tags:
       AmmoReSprite: 3
@@ -239,7 +244,7 @@ items:
   - type: STR_XP_RIFLE_CLIP2 # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_XP_RIFLE_CLIP2 # ignoreDuplicate
+  - type: STR_XP_RIFLE_CLIP3 # ignoreDuplicate
     tags:
       AmmoNo: 3
 
@@ -305,9 +310,6 @@ items:
     tags:
       AmmoReSprite: 3
   - type: STR_HB_AUTO_PISTOL # ignoreDuplicate
-    tags:
-      AmmoReSprite: 3
-  - type: STR_HB_SMALL_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
   - type: STR_HB_SMALL_PISTOL_CLIP1 # ignoreDuplicate
@@ -744,14 +746,17 @@ items:
     tags:
       AmmoNo: 3
 
-###-----Human Stun Weapons Tier -----###
+###-----Human Seventh Stun Weapons Tier -----###
 
   - type: STR_SH_SMALL_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_SH_SMALL_PISTOL_CLIP # ignoreDuplicate
+  - type: STR_SH_SMALL_PISTOL_CLIP1 # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_SH_SMALL_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
 
   - type: STR_SH_MAIN_PISTOL # ignoreDuplicate
     tags:
@@ -774,12 +779,160 @@ items:
     tags:
       AmmoNo: 1
 
-#----- Eight tier Alien Weaponry -----#
+  - type: STR_SH_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+#----- Human Eight tier Melee Weaponry -----#
+
+  - type: STR_ME_KNUCKLES # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_BASIC_KNIFE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_ALLOY_KNIFE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_ALLOY_SWORD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_LASER_KNIFE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
 
   - type: STR_ME_LASER_SWORD # ignoreDuplicate
     tags:
-      AmmoReSprite: 3
+      AmmoReSprite: 1
       FoldStock: 1
+
+  - type: STR_ME_PLASMA_KNIFE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_PLASMA_SWORD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_HUMAN_BASIC_SHIELD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_HUMAN_ALLOY_SHIELD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_ME_HUMAN_HOLO_SHIELD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_AW_HOLO_SHIELD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_AW_ADVANCED_HOLO_SHIELD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_AW_ALLOY_BLADE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+  - type: STR_AW_PLASMA_BLADE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+      FoldStock: 1
+
+#----- Human Ninth tier Ordnance Weaponry -----#
+
+  - type: STR_SMOKE_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  # - type: STR_BO_FLASH_GRENADE # ignoreDuplicate
+  #   tags:
+  #     PrimeSprite: 1
+
+  - type: STR_BO_FIERY_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_STICK_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_PROXIMITY_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_HYBRID_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_HYBRID_GRENADE2 # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_AP_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_ELERIUM_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_ELERIUM_PROXY_MINE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_SATCHEL_CHARGE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_HIGH_EXPLOSIVE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_ELERIUM_CHARGE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_ANTIMATTER_EXPLOSIVE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_BREACHING_BANGALORE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_BREACHING_ELERIUM # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_BO_BREACHING_ANTIMATTER # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
 
 
 #----- Tenth tier Alien Weaponry -----#
@@ -787,16 +940,15 @@ items:
   - type: STR_AW_MAIN_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_AW_MAIN_PISTOL_CLIP1 # ignoreDuplicate
-    tags:
-      AmmoNo: 1
-
   - type: STR_AW_SMG # ignoreDuplicate
     tags:
       AmmoReSprite: 3
-  - type: STR_AW_SMG_CLIP1 # ignoreDuplicate
+  - type: STR_AW_MAIN_PISTOL_CLIP1 # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_AW_MAIN_PISTOL_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
 
   - type: STR_AW_SHOTGUN # ignoreDuplicate
     tags:
@@ -804,6 +956,9 @@ items:
   - type: STR_AW_SHOTGUN_CLIP1 # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_AW_SHOTGUN_CLIP2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
 
   - type: STR_AW_RIFLE # ignoreDuplicate
     tags:
@@ -847,9 +1002,34 @@ items:
   - type: STR_AW_HEAVY_CANNON_CLIP1 # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_AW_HEAVY_CANNON_CLIP3 # ignoreDuplicate
+  - type: STR_AW_HEAVY_CANNON_CLIP2 # ignoreDuplicate
     tags:
       AmmoNo: 2
+
+  - type: STR_AW_HEAVY_CANNON_CLIP3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+  - type: STR_AW_ELITE_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_ELITE_PISTOL_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_AW_ELITE_SMG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_ELITE_SMG_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+  - type: STR_AW_ELITE_SHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_AW_ELITE_SHOTGUN_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
 
   - type: STR_AW_ELITE_RIFLE # ignoreDuplicate
     tags:
@@ -877,6 +1057,28 @@ items:
   - type: STR_BLASTER_BOMB # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_BLASTER_BOMB2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_BLASTER_BOMB3 # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+
+
+
+
+  - type: STR_ALIEN_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_AW_PROXY_GRENADE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
+  - type: STR_AW_DEMOLITION_EXPLOSIVE # ignoreDuplicate
+    tags:
+      PrimeSprite: 1
+
 
 ##############################################
 extended:
@@ -886,10 +1088,35 @@ extended:
       AmmoNo: int
       FoldStock: int
       UBS: int
+      PrimeSprite: int
 
 
   scripts:
+
      selectItemSprite: #Switches between weapon sprites depending on ammo
+      #  - offset: 3  #ojito este es el tag viejo
+      #    code: |
+      #     var int x;
+      #     var int y;
+      #     item.getTag x Tag.PrimeSprite;
+      #     item.isFuseEnabled y;
+      #     if and eq x 1 eq y 1;
+      #       if eq blit_part blit_item_big;
+      #         add sprite_index 1;
+      #       end;
+      #     end;
+      #     return sprite_index;
+       - offset: 3
+         code: |
+          var int x;
+          var int y;
+          item.getTag x Tag.PrimeSprite;
+          item.isFuseEnabled y;
+          if and eq x 1 eq y 1;
+              add sprite_index 8;
+          end;
+          return sprite_index;
+#
        - offset: 1
          code: |
           var int x;

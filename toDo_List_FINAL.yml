@@ -1,59 +1,45 @@
 #ideas for the mod, in any specific order:
 #checar los ojitos siguientes
-+ datos importantes para considerar cuando balancee ciertos gastos :
-#estos son notaciones para tener en cuenta respecto a la eliminacion de ceros dentro del juego
- - presupuesto anual gringo total aprox 841.000.000.000, igual a 70.083.333.333 mensual
- - presupuesto anual otan total aprox 380.000.000.000,   igual a 31.666.666.666 mensual
- - para q ajuste precios, tendrian q ser entre mil?
-#Dropeo de materiales
- - survey skiff = 6x / 10e
- - raider gunship = 10x / 10e
- - scanner boat = 10x / 10e
- - scout escort = 23x / 10e
- - research corvette = 42x / 10e
- - cloner frigate = 40x / 10e
- - harvester destroyer = 60x / 20e
- - abductor cruiser = 52x / 20e
- - laboratory ship = 75x / 20e
- - supply tanker = 110x / 30e + 28 supplies
- - constructor barge = 135x / 40e + 70 supplies
- - battlecruiser = 105x / 20e
- - terror battleship = 133x / 30e
- - dreagnought = 203x / 40e + 15 supplies
- - Base defense = 75X / 20e + 180 supplies
+
 + cosas de nombres de especies:
  - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
  - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
  - nombres nuevos a considerar para rangos otras especies
   * psion, archon, elder, apex, hunter, stalker, broodmother, drone(insect)
-  * Brute,,Hoplite(????),Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal sebbilians found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
+  * Brute,Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal mutons found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
   * revisar nombres de rangos especies y criaturas de gears of war (ejem, scion.)
  - nombres a considerar para nombres clave de naves , animales mitologicos
   * scylla, behemoth, etc
  - Posibles descripciones mutones
 Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
 Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
-Gladiator/Centurion(brute?)**:  the backbone of the sebilian invaders, they are the TRUE warrior caste, sebillians who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
+Gladiator/Centurion(brute?)**:  the backbone of the Muton invaders, they are the TRUE warrior caste, Mutons who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
 Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
-Warchief:  they are veterans of a hundred battles at least, only few sebilians show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
-Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average sebillian, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
-Warlord: the only and true leader of the seb-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the sebilian structures get the same goal, achieve the Warlord desires for plunder and conquest.
+Warchief:  they are veterans of a hundred battles at least, only few Mutons show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
+Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average Muton, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
+Warlord: the only and true leader of the muton-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the Muton structures get the same goal, achieve the Warlord desires for plunder and conquest.
 
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
  - sacarles el kraken rotorcannon backpack de 40k rosigma, revisar como funciona
  - tambien revisar como implementaron el gibs of gory
+ - confirmar como hacen para tener "dinamic hands" q se estiran en base al tamaño del arma
+ - sacar piezas de armaduras der la steellegion
+   * el casco de tanquero y los arneses de cuero
+ - sacar de unexcom
+   * sonidos de las armas
+   * sacar rastros de vapor del plasma y otras armas
+   * implementar sistema de torretas
+      ~ en naves aliens
+      ~ en naves humanas (transportes)
+      ~ en bases enemigas
+      ~ en bases humanas
+ - revisar medallas de unexcom
 
- + dinamic sprites fallando:
- - en iniciales
-   * bazooka (ya hay una bazooka, debo resolver las sprites)
-   * bazooka desechable
- - en xtier
-   * posiblemente todo inicia por la escopeta
-   * bullpup.
-   * rifle standard
- - en hybrid
+ - aprovechar el walker de rogozunbenjoyer64
+ - preguntarle a osobist respecto al dron
+ - preguntar en idt acerca de la velocidad de los perritos
 
 
 
@@ -71,9 +57,6 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  - armaduras despues de personal_armor , usar ejemplo de warhammer 40k el snipper y vanguard
  - crear los loadouts iniciales
    * quizas crear para mid game y para late game?
- - intercambiar colores de armas de plasma alien
-   * verde sera el basico como en los humanos
-   * amarillo sera plasma potenciado
 
  - conseguir nuevos pngs de ataques melee
    * el ataque de chrysalida sera uno de garras verdes (tendra daño chem)
@@ -92,7 +75,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
       ~ conseguido con las armas, faltarian en el resto de recursos
 
 #posiblemente listo - revisar la velocidad de los UFOS en terminos relativos a mach
-
+ - blaster bombs y armas laser elite necesitan de sus respectivos sprites, en especial cargadores
  -  CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
    - sera carisimo producir explosivos y municion
@@ -158,7 +141,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
  - Rename XX assault cannon to something 20mm flak.
  - Rename tank AP cannon to 25 mm Bushmaster.
 #
- - acomodar los escudos para q en la mano se enciendan y en la mochila sean 2x2 o 2x1 segun dependa
+ - acomodar los escudos
    * integrar correctamente en el arbol de tecnologias
    * Use metalhit.ogg as effect sound
    * confirmar todos los handobs que esten habilitados correctamente y recolorizar la version holo humana
@@ -208,6 +191,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
    * las armas elite seran daño laser porq son reliquias antiguas
      ~ con esto podria hacerlas mas fuertes que el plasma sin hacerlas redundantes
  - acomodar colores del bulletsprite q coincidan con el color del arma
+ - verificar si puedo implementar el laser BEAM
  #
  - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
  - sacar baseprites para edificios del tftd twots y tftd+
@@ -218,11 +202,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
      ~ Create a special building to help with vehicle maintenance.
    * Integrate Sectopods with human pilots; they will be brown like in vanilla for human homogeneity.
    * When "destroyed," a "ruined chassis that can be repaired" remains.
- #
- # de esto se esta encargando primeramente efren, una vez q tenga el ejemplo empezare a proceder yo
- - implementar script de armas q varian en base al cartucho de filip h en jeilo
-   * separarle el cargador del sprite a las armas balisticas
-   * en caso de las pistolas, hacerlas gatilladas la corredera
+
  - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
 ###################################################################################################################################
 + CAMBIOS RELATIVOS AL TECH TREE:
@@ -241,7 +221,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
    * STR_ANOMALOUS_EQUATION
    * STR_SOLVE_ANOMALOUS_EQUATION
  - agregar data corrupta en todos los niveles, hasta el 4 para q siempre haya posibilidad de fallos.
-   * esto funciona aplicandole el lookup propiedad.
+   * esto funciona aplicandole la propiedad "lookup".
  - a partir del 4 , se reemplaza con el anomalous equation y data fragments.
  - Checar que onda que hacer con elerium CELL que es la municion del cañon plasma de aviones
  - hacer que "STR_XENO_PHYSIOLOGY" requiera distintas especies antes de desbloquearse
@@ -267,7 +247,7 @@ Warlord: the only and true leader of the seb-folk ,one only the most though,stro
 ###################
 + Cosas pendientes PARA EL SIGUIENTE PARCHE:
  - De este modo ya queda para el siguiente parche cambiar y modificar todo lo q sean nombres y lores en el EXTRA strings ( finalmente en ese parche seran ordenados el rule extrastrings), luego de ese parche (esperemos el 98.02), ahi si empezare a revisar de vuelta el TODO-list y ver que puedo ir agregando como features nuevos.
- - siguiente parche tendra el revamp completo de las armaduras al uso correcto de layers, el rewowrk completo de los sprites de los tanques, del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
+ - siguiente parche tendra el revamp completo de las armaduras al uso correcto de layers, el rework completo de los sprites de los tanques, del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
 #
 + PRIORITIES FIXES:
  - ojito revisar el sonido de aggro de los carcharodones
@@ -363,6 +343,7 @@ IMPORTANTE PARA LORE:
 ###################################################################################################################################
 ###################################################################################################################################
 + PETICIONES A OXCE:
+ - Confirm how the fuck do i edit the world .
  - Inquire about making day and night sprites differentiation for armors sprites
    * for implementation in the first tier with lenses going up and down.
  - (NUEVO) acomodar las imagenes basebits.
@@ -808,3 +789,24 @@ IMPORTANTE PARA LORE:
 
 
 ###########
++ datos importantes para considerar cuando balancee ciertos gastos :
+#estos son notaciones para tener en cuenta respecto a la eliminacion de ceros dentro del juego
+ - presupuesto anual gringo total aprox 841.000.000.000, igual a 70.083.333.333 mensual
+ - presupuesto anual otan total aprox 380.000.000.000,   igual a 31.666.666.666 mensual
+ - para q ajuste precios, tendrian q ser entre mil?
+#Dropeo de materiales
+ - survey skiff = 6x / 10e
+ - raider gunship = 10x / 10e
+ - scanner boat = 10x / 10e
+ - scout escort = 23x / 10e
+ - research corvette = 42x / 10e
+ - cloner frigate = 40x / 10e
+ - harvester destroyer = 60x / 20e
+ - abductor cruiser = 52x / 20e
+ - laboratory ship = 75x / 20e
+ - supply tanker = 110x / 30e + 28 supplies
+ - constructor barge = 135x / 40e + 70 supplies
+ - battlecruiser = 105x / 20e
+ - terror battleship = 133x / 30e
+ - dreagnought = 203x / 40e + 15 supplies
+ - Base defense = 75X / 20e + 180 supplies

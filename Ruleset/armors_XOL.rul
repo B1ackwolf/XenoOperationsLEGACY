@@ -8012,7 +8012,7 @@ armors:
     underArmor: 60
     drawingRoutine: 2
     size: 2
-    moveSound: 817
+#    moveSound: 817
     #overKill: 3.0
 ############# ojito revisar stats
     stats: &StatsForTankChassis
@@ -8228,7 +8228,7 @@ armors:
     underArmor: 60
     drawingRoutine: 2
     size: 2
-    moveSound: 817
+#    moveSound: 817
     #overKill: 3.0
 ############# ojito revisar stats
     stats: *StatsForTankChassis
@@ -8261,7 +8261,7 @@ armors:
     allowsKneeling: false
     corpseBattle:
       - STR_LAND_DRONE_CORPSE
-      - STR_BASIC_DRONE_RECOVER
+#ojito me tira error, preguntar como resolver      - STR_BASIC_DRONE_RECOVER
     corpseGeo: STR_BASIC_DRONE_RECOVER
     storeItem: STR_DRONE_ROVER_CHASSIS
     visibilityAtDay: 15
@@ -8320,7 +8320,7 @@ armors:
     spriteSheet: UAV.PCK
     corpseBattle:
       - STR_UAV_CORPSE
-      - STR_BASIC_DRONE_RECOVER
+   #ojito me tira error, preguntar como resolver    - STR_BASIC_DRONE_RECOVER
     corpseGeo: STR_BASIC_DRONE_RECOVER
     storeItem: STR_DRONE_QUADCOPTER_CHASSIS
     spriteInv: Inventory_UAV
@@ -8378,7 +8378,7 @@ armors:
 #    spriteInv: inventory_HELI_DRONE2
     corpseBattle:
       - STR_UAV_CORPSE
-      - STR_BASIC_DRONE_RECOVER
+#ojito me tira error, preguntar como resolver       - STR_BASIC_DRONE_RECOVER
     corpseGeo: STR_BASIC_DRONE_RECOVER
     storeItem: STR_DRONE_UCAV_CHASSIS
     spriteInv: Inventory_UAV
@@ -8438,7 +8438,7 @@ armors:
     weight: 0
     corpseBattle:
       - STR_UAV_CORPSE
-      - STR_BASIC_DRONE_RECOVER
+#ojito me tira error, preguntar como resolver       - STR_BASIC_DRONE_RECOVER
     corpseGeo: STR_BASIC_DRONE_RECOVER
     storeItem: STR_DRONE_ADVANCED_SMALL_CHASSIS
     visibilityAtDark: 16

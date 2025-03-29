@@ -806,7 +806,7 @@ research:
 ###### aviones de combate
 
 
-  - name: STR_UPDATED_INTERCEPTOR # bishop is f35 upgraded
+  - name: STR_UPDATED_INTERCEPTOR # Bishop is f35 upgraded
     cost: 40
     points: 15
     dependencies:
@@ -818,7 +818,7 @@ research:
       - STR_ALIEN_ALLOYS
 
 
-  - name: STR_XCF2 #xf2 rider
+  - name: STR_XCF2 #xf2 Rider
     cost: 40
     points: 25
     dependencies:
@@ -828,7 +828,7 @@ research:
     points: 25
     needItem: true
 
-  - name: STR_XCF3 #xf3 rook
+  - name: STR_XCF3 #xf3 Rook
     cost: 70
     points: 25
     dependencies:
@@ -838,7 +838,7 @@ research:
     points: 25
     needItem: true
 
-  - name: STR_XCF4 #xf4 empress
+  - name: STR_XCF4 #xf4 Empress
     cost: 320
     points: 25
     dependencies:
@@ -1010,6 +1010,45 @@ research:
     cost: 5
     points: 7
     needItem: true
+#eliteweapons ojito
+  - name: STR_AW_ELITE_PISTOL
+    cost: 20
+    points: 10
+    needItem: true
+  - name: STR_AW_ELITE_PISTOL_CLIP
+    cost: 5
+    points: 7
+    needItem: true
+
+  - name: STR_AW_ELITE_SMG
+    cost: 20
+    points: 10
+    needItem: true
+  - name: STR_AW_ELITE_SMG_CLIP
+    cost: 5
+    points: 7
+    needItem: true
+
+  - name: STR_AW_ELITE_SHOTGUN
+    cost: 20
+    points: 10
+    needItem: true
+  - name: STR_AW_ELITE_SHOTGUN_CLIP
+    cost: 5
+    points: 7
+    needItem: true
+
+  - name: STR_AW_ELITE_RIFLE
+    cost: 20
+    points: 10
+    needItem: true
+  - name: STR_AW_ELITE_RIFLE_CLIP
+    cost: 5
+    points: 7
+    needItem: true
+
+
+
 #--Alien Plasma Weapons --------------------END
 #--Alien Other Weapons --------------------
   - name: STR_ALIEN_GRENADE
@@ -1033,6 +1072,14 @@ research:
     points: 25
     needItem: true
   - name: STR_BLASTER_BOMB
+    cost: 20
+    points: 10
+    needItem: true
+  - name: STR_BLASTER_BOMB2
+    cost: 20
+    points: 10
+    needItem: true
+  - name: STR_BLASTER_BOMB3
     cost: 20
     points: 10
     needItem: true

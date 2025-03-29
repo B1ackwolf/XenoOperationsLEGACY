@@ -1057,11 +1057,11 @@ extraStrings:
       STR_NULL_HAND_RIGHT: ""
 #-----Craft and Craft Weapons
       STR_SR71: XRS-71G CORMORANT
-      STR_INTERCEPTOR: XCF-0 PAWN
-      STR_UPDATED_INTERCEPTOR: XCF-1 BISHOP
-      STR_XCF2: XCF-2 RIDER
-      STR_XCF3: XCF-3 ROOK
-      STR_XCF4: XCF-4 EMPRESS
+      STR_INTERCEPTOR: XCF-0 BISHOP
+      STR_UPDATED_INTERCEPTOR: XCF-1 RIDER
+      STR_XCF2: XCF-2 ROOK
+      STR_XCF3: XCF-3 EMPRESS
+      STR_XCF4: XCF-4 MONARCH
       STR_DRAGONFLY: XTP-1 DRAGONFLY
       STR_FIREFLY: XTP-2 FIREFLY
       STR_SCARAB: XTP-3 SCARAB
@@ -1166,9 +1166,6 @@ extraStrings:
       STR_AW_MAIN_PISTOL_CLIP2: Pistol Overcharged Clip
       STR_AW_MAIN_PISTOL_CLIP3: Pistol Antimatter Clip
       STR_AW_SMG: Alien Plasma Assaulter
-      STR_AW_SMG_CLIP1: Alien Plasma Assaulter Clip
-      STR_AW_SMG_CLIP2: Assaulter Overcharged Clip
-      STR_AW_SMG_CLIP3: Assaulter Antimatter Clip
       STR_AW_RIFLE: Alien Plasma Rifle
       STR_AW_RIFLE_CLIP1: Alien Plasma Rifle Clip
       STR_AW_RIFLE_CLIP2: Rifle Overcharged Clip
@@ -1187,8 +1184,8 @@ extraStrings:
       STR_AW_HEAVY_CANNON_CLIP1: Alien Plasma Cannon Clip
       STR_AW_HEAVY_CANNON_CLIP12: Cannon Overcharged Clip
       STR_AW_HEAVY_CANNON_CLIP3: Cannon Antimatter Clip
-      STR_AW_ELITE_RIFLE: Elite Plasma
-      STR_AW_ELITE_RIFLE_CLIP: Elite Plasma Clip
+      STR_AW_ELITE_RIFLE: Alien Elite Rifle
+      STR_AW_ELITE_RIFLE_CLIP: Alien Elite Clip
       STR_AW_ALLOY_BLADE: Alien Alloy Blade
       STR_AW_PLASMA_BLADE: Alien Plasma Sword
       STR_AW_PROXY_GRENADE: Alien Mine
@@ -1398,7 +1395,8 @@ extraStrings:
 #-----Human Weapons
 
       STR_SH_SMALL_PISTOL: Taser Pistol
-      STR_SH_SMALL_PISTOL_CLIP: Taser Shock Clip
+      STR_SH_SMALL_PISTOL_CLIP1: Taser Shock Clip
+      STR_SH_SMALL_PISTOL_CLIP2: Taser Shock Blue Clip
       STR_HIGH_PERFORMANCE_BALLISTICS: High Performance Ballistics
       STR_XP_AUTO_PISTOL: X1 Machine Pistol
       STR_XP_SMALL_PISTOL_CLIP2: 9mm Alloys Magazine
@@ -1427,10 +1425,10 @@ extraStrings:
       STR_XP_ANTI_MATERIEL: X8 Sniper Rifle
       STR_XP_ANTI_MATERIEL_CLIP2: .50 BMG Alloy Magazine
       STR_XP_ANTI_MATERIEL_CLIP3: .50 BMG Tech Magazine
-      STR_XP_BAZOOKA: XXX Rocket Launcher
-      STR_XP_ROCKET1: X Light Rocket
-      STR_XP_ROCKET2: X Heavy Rocket
-      STR_XP_APROCKET: XAP Rocket
+      STR_XP_BAZOOKA: XXX Bazooka
+      STR_XP_ROCKET1: X Light Shell
+      STR_XP_ROCKET2: X Heavy Shell
+      STR_XP_APROCKET: XAP Shell
       STR_XP_MINIGUN: X9 Minigun
       STR_XP_MINIGUN_BELT2: 5.56mm Alloy Box
       STR_XP_MINIGUN_BELT3: 5.56mm Tech Box
@@ -1501,7 +1499,7 @@ extraStrings:
       STR_HC_HE_AMMO: 40mm Frag Grenade
       STR_HC_AP_AMMO: 40mm Smoke Grenade
       STR_HC_I_AMMO: 40mm Napalm Grenade
-      # STR_ROCKET LAUNCHER:
+      STR_ST_BAZOOKA: Bazooka
       # STR_SMALL_ROCKET:
       # STR_LARGE_ROCKET:
 
@@ -1555,10 +1553,10 @@ extraStrings:
       STR_HB_SHOTGUN_SHELLS3: H. 10-gauge E115 Shells
       STR_HB_SHOTGUN_UFOPEDIA: This shotgun is a hybrid of alien Codex technology and ballistic technology. It has the particularity it can fires any shotgun ammunition made of alien alloys either in 10-gauge or in older 12-gauge versions. When fired, it sends a spray of high velocity projectiles that are devastating at close range.
       STR_HB_SNIPER: HY8 Sniper Rifle
-      STR_HB_SNIPER_CLIP1: H. .52 SAAC Magazine
-      STR_HB_SNIPER_CLIP2: H. .52 SAAC Chem Mag
-      STR_HB_SNIPER_CLIP3: H. .52 SAAC E115 Tipped Mag
-      STR_HB_SNIPER_UFOPEDIA: This sniper rifle is a hybrid of alien Codex technology and ballistic technology. It fires the largest caliber aviable, made exclusively by xcom manufacturing industry the .52 SAAC  alien alloy cartridge, but can also be adapted to fire special forms of ammo. A long distance computerized scope greatly enhances accuracy.
+      STR_HB_SNIPER_CLIP1: H. .950 JDJ Magazine
+      STR_HB_SNIPER_CLIP2: H. .950 JDJ Chem Mag
+      STR_HB_SNIPER_CLIP3: H. .950 JDJ E115 Tipped Mag
+      STR_HB_SNIPER_UFOPEDIA: This sniper rifle is a hybrid of alien Codex technology and ballistic technology. It fires the largest caliber aviable, made exclusively by xcom manufacturing industry the .950 JDJ SAAC  alien alloy cartridge, but can also be adapted to fire special forms of ammo. A long distance computerized scope greatly enhances accuracy.
       STR_HB_LMG: HY7 Squad Automatic Weapon
       STR_HB_LMG_BELT1: H. 6.8mm Belt
       STR_HB_LMG_BELT2: H. 6.8mm Chem Belt
@@ -1569,10 +1567,10 @@ extraStrings:
       STR_HB_AUTO_CANNON_BELT2: H. Cannon Chem Belt
       STR_HB_AUTO_CANNON_BELT3: H. Cannon E115 Tipped Belt
       STR_HB_AUTO_CANNON_UFOPEDIA: This automatic cannon is a hybrid of alien Codex technology and ballistic technology. It fires a powerful alien alloy shell, but can also be adapted to fire special forms of ammo. Although slower than most hybrid weapons, its firepower is unrivaled.
-      STR_HB_BAZOOKA: HY10 Rocket Launcher
-      STR_HB_ROCKET1: HY Elerium Missile
-      STR_HB_ROCKET2: HY Chemical Missile
-      STR_HB_BAZOOKA_UFOPEDIA: This rocket launcher is a hybrid of alien Codex technology and human technology. It fires a deadly elerium enhanced explosive rocket. While both the weapon and its ammo are expensive, their destructive force is beyond even the High Explosive.
+      STR_HB_BAZOOKA: HY10 Bazooka
+      STR_HB_ROCKET1: HY Elerium Shell
+      STR_HB_ROCKET2: HY Chemical Shell
+      STR_HB_BAZOOKA_UFOPEDIA: This rocket launcher is a hybrid of alien Codex technology and human technology. It fires a deadly elerium enhanced explosive round. While both the weapon and its ammo are expensive, their destructive force is beyond even the High Explosive.
       STR_BO_HYBRID_GRENADE: Hybrid Grenade
       STR_BO_HYBRID_GRENADE_UFOPEDIA: This grenade uses alien alloys to greatly enhance its explosive power while reducing its weight.
       STR_BO_HYBRID_GRENADE2: Hybrid Chem Grenade
@@ -1857,9 +1855,8 @@ extraStrings:
       STR_AW_MAIN_PISTOL_UFOPEDIA: The Alien Plasma Pistol uses an Elerium generated containment field to encase a super heated gas core. The containment field likely mitigates energy loss from energy blooming. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_AW_MAIN_PISTOL_CLIP1_UFOPEDIA: This clip is built around a small Elerium battery. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Pistol. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
       STR_AW_SMG_UFOPEDIA: The Alien Plasma Assaulter has a high rate of fire, but loses accuracy over long ranges quickly. This weapon was likely designed as a short range assault weapon comparable to a Submachine Gun in role. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
-      STR_AW_SMG_CLIP1_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
-      STR_AW_SMG_CLIP2_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
-      STR_AW_SMG_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
+      # STR_AW_SMG_CLIP2_UFOPEDIA: This clip is built around a couple small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
+      # STR_AW_SMG_CLIP3_UFOPEDIA: This clip is built around an Antimatter core contained by an Elerium field. This allows the weapon fire an Antimatter bolt shielded by a weak Elerium powered containment field that explodes on contact. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Assaulter. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
       STR_AW_RIFLE_UFOPEDIA: The Alien Plasma Rifle fires a super heated gas bolt. A medium level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture.
       STR_AW_RIFLE_CLIP1_UFOPEDIA: This clip is built around a few small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip.
       STR_AW_RIFLE_CLIP2_UFOPEDIA: This clip is built around a few small Elerium batteries. The mechanical hooks attach and slide in automatically when pressed against the loading chamber of the Plasma Rifle. When depleted, the clip hooks detach and fall to the ground clearing the chamber for another clip. This clip is overcharged limiting its energy capacity, but increasing damage.
@@ -1920,7 +1917,7 @@ extraStrings:
       STR_XP_SHOTGUN_UFOPEDIA: The X5 Shotgun uses principles we have learned earlier in the X weapons program to adapt it to a well manufactured shotgun. It can be used with already existing 12-gauge shotgun ammo.
       STR_XP_SMG_UFOPEDIA: X4 Submachine Gun is a high performance .45 ACP weapon developed and produced by XCom. It out performs the conventional Submachine Gun available for purchase.
       STR_XP_ANTI_MATERIEL_UFOPEDIA: The X8 Sniper Rifle is the pinnacle of the X weapons development program. This highly accurate sniper rifle outperforms any other model currently held by human militaries including anti-materiel rifles. Using improved machined pieces, it can endure the wear and tear produced by .50 BMG ammunition fired at faster rates.
-      STR_XP_BAZOOKA_UFOPEDIA: The XXX Rocket Launcher fires light weight, but destructive rockets more accurately than any missile system available to conventional earth forces. Additionaly it can use any of the rockets already aviable on the market for extra usability.
+      STR_XP_BAZOOKA_UFOPEDIA: The XXX Recoiless Rifle fires light weight, but destructive shells more accurately than any missile system available to conventional earth forces. #Additionaly it can use any of the rockets already aviable on the market for extra usability.
       STR_XP_APROCKET_UFOPEDIA: This Armor Piercing rocket is enhanced using Alien Alloys. While not explosive, it will punch through most armor. It is fired using the Rocket Launcher.
       STR_XP_AUTO_CANNON_UFOPEDIA: The XX Assault cannon combines the power of the conventional Heavy Cannon with the rapid fire capabilities of the Autocannon.
       STR_XP_MINIGUN_UFOPEDIA: The X9 Minigun is lighter and more accurate than the conventional minigun.
@@ -1979,10 +1976,10 @@ extraStrings:
       STR_CLUSTER_MISSILE_UFOPEDIA: A short-range anti-UFO missile system, the TRIDENT relies on chain-reacting explosions for extensive aerial coverage. Its rapid-fire capability is unmatched, though it excels at close encounters. It's the frontline choice for defending against UFO threats in the skies.
       STR_PILUM_UFOPEDIA: Pioneered by XCom, the PILUM marks the first true anti-UFO missile. Focusing on Precision thanks to advanced flight computers, a long-range nuclear warhead delivers maximum destructive force. It provides a needed choice for countering UFO threats at long range.
       STR_SR71_UFOPEDIA: The former USAF recon aircraft has been re-purposed as a long range radar craft.
-      STR_INTERCEPTOR_UFOPEDIA: As UFO activity escalated, X-Com collaborated with the USAF to expedite a program aimed at potential upgrades for their fifth-generation strike fighter. The outcome is the F35U, codenamed XCF-0 'Pawn', a current pinnacle of humanity's cutting-edge air supremacy technology.
+      STR_INTERCEPTOR_UFOPEDIA: As UFO activity escalated, X-Com collaborated with the USAF to expedite a program aimed at potential upgrades for their fifth-generation strike fighter. The outcome is the F35U, codenamed XCF-0 'Bishop', a current pinnacle of humanity's cutting-edge air supremacy technology.
       STR_UPDATED_INTERCEPTOR_UFOPEDIA: (WIP) new and improved f35 with xelloys.
-      STR_XCF2_UFOPEDIA: The XCF-2 'Rider' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Knight is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
-      STR_XCF3_UFOPEDIA: (WIP) The XCF-3 'Rook' is a step up from the XCF-2 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
+      STR_XCF2_UFOPEDIA: The XCF-2 'Rook' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Knight is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
+      STR_XCF3_UFOPEDIA: (WIP) The XCF-3 'Empress' is a step up from the XCF-2 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
       STR_XCF4_UFOPEDIA: A fourth generation XCom interceptor, the XCF-4 'Empress' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
       STR_HERCULES_UFOPEDIA: The HERCULES is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
       STR_GOLIATHUS_UFOPEDIA: The GOLIATHUS transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hercules' roof.

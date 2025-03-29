@@ -2695,8 +2695,8 @@ manufacture:
     space: 2
     time: 150
     cost: 20000
-    listOrder: 2707
-  - name: STR_SH_SMALL_PISTOL_CLIP
+    listOrder: 2706
+  - name: STR_SH_SMALL_PISTOL_CLIP1
     category: STR_SHOCK_WEAPONS
     requires:
       - STR_XENO_PHYSIOLOGY
@@ -2704,8 +2704,19 @@ manufacture:
     time: 50
     cost: 1200
     producedItems:
-      STR_SH_SMALL_PISTOL_CLIP: 10
+      STR_SH_SMALL_PISTOL_CLIP1: 10
+    listOrder: 2707
+  - name: STR_SH_SMALL_PISTOL_CLIP2
+    category: STR_SHOCK_WEAPONS
+    requires:
+      - STR_XENO_PHYSIOLOGY
+    space: 1
+    time: 50
+    cost: 1200
+    producedItems:
+      STR_SH_SMALL_PISTOL_CLIP2: 10
     listOrder: 2708
+
   - name: STR_SH_MAIN_PISTOL
     category: STR_SHOCK_WEAPONS
     requires:

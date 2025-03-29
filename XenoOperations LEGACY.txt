@@ -121,7 +121,7 @@ gameplay changes:
  - modificado el daño de algunos tipos de armas:
    * el tier 2 (eXPerimental weapons) recibio un cambio en la municion tech
      ~ ahora hace daño concussive, pero sin explosion o daño en area.
-     ~ el lore detras de este comportamiento es municion inteligente con sensores hechos de tecnologia codex, cuando determina q se encuentra dentro del objetivo, procede a estallar, produciendo una "explosion interna"
+       ° el lore detras de este comportamiento es municion inteligente con sensores hechos de tecnologia codex, cuando determina q se encuentra dentro del objetivo, procede a estallar, produciendo una "explosion interna"
      ~ el XX cannon tiene dos municiones concussive, una high explosive (explosion externa clasica) y la tech con el mismo concepto
        ° cualquiera familiarizado con Gantz podra imaginarse el concepto.
    * el tier 3 (HYbrid weapons)
@@ -148,15 +148,18 @@ gameplay changes:
        ° mejora en los stats y acceso a mejores items.
      ~ agregada una transformacion adicional a FULL SAPIENCE
        ° principales ventajas sera permitir el uso de servoarmaduras y demas artilugios como armas.
-       ° tendran un nivel de inteligencia al de un humano promedio.
+       ° tendran un nivel de inteligencia equiparable al de un humano promedio.
        ° el lore se enfocara en los dilemas eticos acerca de esta accion, ademas de una posible reaccion de los perros a todas las atrocidades que le hemos producido a los perros y un poble shock existencial, autodescubrimiento de su propia posicion en el mundo, the dread of the acknolewing of the conflict we are currently tossing them into, etc.
 
  - creada nuevas armas de distintos tiers
+   * bazooka descartable en primer tier
+     ~ diferenciado del rocket launcher
    * nuevas armas melee agregadas para rellenar los gaps
      ~ una espada alloy
 	   ~ un cuchillo laser
 	   ~ un cuchillo plasma
    * nuevos escudos portatiles
+     ~ con sprite dinamica basa en su posicion en el inventario
      ~ Escudo balistico inicial
      ~ version mejorada hecha de xelloys, mucho mas livianos
      ~ version hecha de energia (holo shield)
@@ -167,8 +170,9 @@ gameplay changes:
      ~ tienen un alto daño contra el terreno.
        ° con esto se evita ser usado como granadas, tampoco tienen mucho rango para ser arrojados.
        ° existen de tres niveles, cada vez mas livianos y portatiles, consideracion q el modelo inicial no puede ser arrojado
-     * sprites retocadas de articulos pertenecientes a otros mods (MAYORITARIAMENTE XFILES)
-
+     ~ sprites retocadas de articulos pertenecientes a otros mods (MAYORITARIAMENTE XFILES)
+   * agregados nuevos tipos de municiones
+     - casi todos los tiers recibieron alguna municion extra.
 
 
  - completamente nuevas mecanicas para el manejo y construccion de modulos de las bases:
@@ -216,6 +220,10 @@ QOL CHANGES:
    * el lance es el equivalente a un auto cannon
    * el mas pesado ahora es bazooka y tiene menos municion por cartucho
    * ahora la carbine plasma es mas un bullpup, modificado la sprite para reflejar esto
+
+
+
+
 
 TWEAKS AND BALANCE:
  - increased starting funding money (from 6M to 8M )
@@ -268,6 +276,15 @@ TWEAKS AND BALANCE:
      ~ maintenance price increased to 70k
 
 Sprite tweaks:
+
+ - Implementado el sistema de cambio dinamico de sprites de filip h
+   * Todas las armas ahora varian el sprite de su inventario basado en el tipo de cargador que tienen equipado (o si tienen municion restantes)
+   * Las armas melee funciona de manera especial, el sprite cambia en base a si estan siendo sostenidas en la mano de un usuario.
+   * los explosivos varian en base a si estan "primed"
+
+ - intercambiado el color del plasma alienigena
+   * se mantiene la coherencia con el armamento plasma humanoy
+
  - todos los archivos adentro de weaponrysprites ahora deberian ser png, sera de ayuda para unificar sistemas
  - ahora los pilotos son representados por el color rojo
    * tanto los uniformes, los ranks sprites y los tini sprites fueron modificados a este tono

@@ -31,7 +31,7 @@ items:
 #----- Deleting ENDING -----#
 #----- Pockets Items -----#
   - type: STR_NULL_JETPACK
-    bigSprite: 2989
+    bigSprite: 3989
     weight: 0
     invWidth: 3
     invHeight: 3
@@ -41,7 +41,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_BACKPACK
-    bigSprite: 2990
+    bigSprite: 3990
     weight: 0
     invWidth: 3
     invHeight: 3
@@ -51,7 +51,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_SMALL_BACKPACK
-    bigSprite: 2991
+    bigSprite: 3991
     weight: 0
     invWidth: 2
     invHeight: 3
@@ -61,7 +61,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_BELT
-    bigSprite: 2992
+    bigSprite: 3992
     weight: 0
     invWidth: 4
     invHeight: 2
@@ -71,7 +71,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_POCKET_RS
-    bigSprite: 2993
+    bigSprite: 3993
     weight: 0
     invWidth: 2
     invHeight: 1
@@ -81,7 +81,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_POCKET_LS
-    bigSprite: 2994
+    bigSprite: 3994
     weight: 0
     invWidth: 2
     invHeight: 1
@@ -91,7 +91,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_POCKET_RL
-    bigSprite: 2995
+    bigSprite: 3995
     weight: 0
     invWidth: 2
     invHeight: 1
@@ -101,7 +101,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_POCKET_LL
-    bigSprite: 2996
+    bigSprite: 3996
     weight: 0
     invWidth: 2
     invHeight: 1
@@ -111,7 +111,7 @@ items:
     battleType: 11
 #
   - type: STR_NULL_HOLSTER
-    bigSprite: 2997
+    bigSprite: 3997
     weight: 0
     invWidth: 1
     invHeight: 2
@@ -122,7 +122,7 @@ items:
 #
   - type: STR_NULL_HAND_LEFT
     weight: 0
-    bigSprite: 2991
+    bigSprite: 3991
     invWidth: 2
     invHeight: 3
     fixedWeapon: true
@@ -131,7 +131,7 @@ items:
 #
   - type: STR_NULL_HAND_RIGHT
     weight: 0
-    bigSprite: 2991
+    bigSprite: 3991
     invWidth: 2
     invHeight: 3
     fixedWeapon: true
@@ -846,7 +846,7 @@ items:
     weight: 0
     bigSprite: 874
     bulletSprite: 27
-    hitAnimation: 206
+    # hitAnimation: 206  #OJITO RESOLVER
     floorSprite: 0
     handSprite: 0
     fireSound: 248
@@ -933,8 +933,8 @@ items:
     costSell: 0
     weight: 3
     bigSprite: 4008
-    floorSprite: 600
-    handSprite: 610
+    floorSprite: 4008
+    handSprite: 4008
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
@@ -959,8 +959,8 @@ items:
     costSell: 0
     weight: 6
     bigSprite: 4024
-    floorSprite: 345
-    handSprite: 590
+    floorSprite: 4024
+    handSprite: 4024
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
@@ -986,9 +986,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 2
-    bigSprite: 4300
-    floorSprite: 346
-  #  handSprite: 1366
+    bigSprite: 4400
+    floorSprite: 4400
+    handSprite: 4400
     hitSound: 22
     hitAnimation: 26
     power: 22
@@ -1004,8 +1004,8 @@ items:
     costSell: 0
     weight: 6
     bigSprite: 4040
-    floorSprite: 306
-    handSprite: 410
+    floorSprite: 4040
+    handSprite: 4040
     bulletSprite: 1
     fireSound: 122
     compatibleAmmo:
@@ -1029,9 +1029,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 3
-    bigSprite: 4308
-    floorSprite: 344
-  #  handSprite: 1366
+    bigSprite: 4408
+    floorSprite: 4408
+    handSprite: 4408
     hitSound: 22
     hitAnimation: 26
     power: 26
@@ -1047,8 +1047,8 @@ items:
     costSell: 0
     weight: 7
     bigSprite: 4056
-    floorSprite: 347
-    handSprite: 600
+    floorSprite: 4056
+    handSprite: 4056
     bulletSprite: 1
     fireSound: 84
     compatibleAmmo:
@@ -1072,9 +1072,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 3
-    bigSprite: 4316
-    floorSprite: 348
-  #  handSprite: 1366
+    bigSprite: 4416
+    floorSprite: 4416
+    handSprite: 4416
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -1090,8 +1090,8 @@ items:
     costSell: 0
     weight: 5
     bigSprite: 4072
-    floorSprite: 602
-    handSprite: 620
+    floorSprite: 4072
+    handSprite: 4072
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
@@ -1119,8 +1119,8 @@ items:
     costSell: 1
     weight: 6
     bigSprite: 4088
-    floorSprite: 309
-    handSprite: 430
+    floorSprite: 4088
+    handSprite: 4088
     bulletSprite: 2
     fireSound: 121
     compatibleAmmo:
@@ -1147,9 +1147,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 3
-    bigSprite: 4324
-    floorSprite: 603
-  #  handSprite: 1366
+    bigSprite: 4424
+    floorSprite: 4424
+    handSprite: 4424
     hitSound: 22
     hitAnimation: 26
     power: 24
@@ -1165,8 +1165,8 @@ items:
     costSell: 1
     weight: 8
     bigSprite: 4104
-    floorSprite: 307
-    handSprite: 420
+    floorSprite: 4104
+    handSprite: 4104
     bulletSprite: 2
     fireSound: 82
     compatibleAmmo:
@@ -1191,8 +1191,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 4
-    bigSprite: 4332
-    floorSprite: 308
+    bigSprite: 4432
+    floorSprite: 4432
+    handSprite: 4432
     hitSound: 13
     hitAnimation: 26
     power: 20
@@ -1206,8 +1207,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 5
-    bigSprite: 4340
-    floorSprite: 314
+    bigSprite: 4440
+    floorSprite: 4440
+    handSprite: 4440
     hitSound: 13
     hitAnimation: 26
     power: 35
@@ -1220,9 +1222,9 @@ items:
     costBuy: 4
     costSell: 2
     weight: 6
-    bigSprite: 4120
-    floorSprite: 328
-    handSprite: 530
+    bigSprite: 4128
+    floorSprite: 4128
+    handSprite: 4128
     bulletSprite: 2
     fireSound: 81
     compatibleAmmo:
@@ -1249,9 +1251,9 @@ items:
     costBuy: 4
     costSell: 2
     weight: 8
-    bigSprite: 4136
-    floorSprite: 281
-    handSprite: 320
+    bigSprite: 4144
+    floorSprite: 4144
+    handSprite: 4144
     bulletSprite: 2
     fireSound: 81
     compatibleAmmo:
@@ -1278,9 +1280,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 3
-    bigSprite: 4348
-    floorSprite: 282
-   # handSprite: 1352
+    bigSprite: 4448
+    floorSprite: 4448
+    handSprite: 4448
     hitSound: 22
     hitAnimation: 26
     power: 30
@@ -1294,9 +1296,9 @@ items:
     costBuy: 7
     costSell: 3
     weight: 12
-    bigSprite: 4152
-    floorSprite: 302
-    handSprite: 390
+    bigSprite: 4160
+    floorSprite: 4160
+    handSprite: 4160
     bulletSprite: 2
     fireSound: 81
     compatibleAmmo:
@@ -1321,8 +1323,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 5
-    bigSprite: 4356
-    floorSprite: 303
+    bigSprite: 4456
+    floorSprite: 4456
+    handSprite: 4456
     hitSound: 22
     hitAnimation: 26
     power: 30
@@ -1337,9 +1340,9 @@ items:
     costBuy: 8
     costSell: 4
     weight: 9
-    bigSprite: 4168
-    floorSprite: 311
-    handSprite: 440
+    bigSprite: 4176
+    floorSprite: 4176
+    handSprite: 4176
     bulletSprite: 2
     fireSound: 83
     compatibleAmmo:
@@ -1363,9 +1366,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 4
-    bigSprite: 4364
-    floorSprite: 312
-   # handSprite: 1352
+    bigSprite: 4464
+    floorSprite: 4464
+    handSprite: 4464
     hitSound: 22
     hitAnimation: 26
     power: 40
@@ -1378,9 +1381,9 @@ items:
     costBuy: 10
     costSell: 5
     weight: 20
-    bigSprite: 4184
-    floorSprite: 278
-    handSprite: 310
+    bigSprite: 4192
+    floorSprite: 4192
+    handSprite: 4192
     bulletSprite: 2
     fireSound: 80
     compatibleAmmo:
@@ -1404,9 +1407,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 4
-    bigSprite: 4372
-    floorSprite: 279
-   # handSprite: 1352
+    bigSprite: 4472
+    floorSprite: 4472
+    handSprite: 4472
     hitSound: 22
     hitAnimation: 26
     power: 65
@@ -1419,9 +1422,9 @@ items:
     costBuy: 500
     costSell: 200
     weight: 27
-    bigSprite: 4200
-    floorSprite: 304
-    handSprite: 400
+    bigSprite: 4208
+    floorSprite: 4208
+    handSprite: 4208
     bulletSprite: 2
     fireSound: 85
     compatibleAmmo:
@@ -1445,8 +1448,10 @@ items:
     costBuy: 40
     costSell: 20
     weight: 9
-    bigSprite: 4380
-    floorSprite: 305
+    bigSprite: 4480
+    floorSprite: 4480
+    handSprite: 4480
+
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -1467,16 +1472,17 @@ items:
     costBuy: 25
     costSell: 10
     fireSound: 114
-    bigSprite: 4216
-    handSprite: 90
+    bigSprite: 4224
+    floorSprite: 4224
+    handSprite: 4224
     listOrder: 2125
   - type: STR_HC_HE_AMMO
     power: 45
-    bigSprite: 4388
     costBuy: 5
     costSell: 2
-    floorSprite: 12
-     #   handSprite: 320
+    bigSprite: 4488
+    floorSprite: 4488
+    handSprite: 4488
     damageType: 3
     damageAlter:
       RandomType: 6
@@ -1494,9 +1500,9 @@ items:
     power: 55
     costBuy: 5
     costSell: 2
-    bigSprite: 4396
-    floorSprite: 12
-#   handSprite: 328
+    bigSprite: 4496
+    floorSprite: 4496
+    handSprite: 4496
     damageType: 3
     damageAlter:
       RandomType: 7
@@ -1514,9 +1520,9 @@ items:
     power: 65
     costBuy: 5
     costSell: 2
-    bigSprite: 4404
-    floorSprite: 12
-  #  handSprite: 312
+    bigSprite: 4504
+    floorSprite: 4504
+    handSprite: 4504
     damageType: 3
     damageAlter:
       RandomType: 2
@@ -1531,13 +1537,58 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     listOrder: 2128
+####ojito bazooka nueva descartable
+  - type: STR_ST_BAZOOKA
+#    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_US_TECH, STR_ARTILLERY ]
+    size: 0.04
+    costBuy: 9
+    costSell: 5
+#    requiresBuyCountry: STR_USA
+    weight: 7
+    bigSprite: 4248
+    floorSprite: 4248 #ojito resolver
+    handSprite: 4248 #ojito resolver
+    bulletSprite: 0
+    fireSound: 86  #ojito resolver
+    power: 65
+    damageAlter:
+      IgnoreOverKill: false
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToWound: 0.8
+      RandomWound: true
+      ToTile: 0.5
+    accuracySnap: 55
+    accuracyAimed: 100
+    #    oneHandedPenalty: 80
+    tuSnap: 40
+    tuAimed: 66
+    maxRange: 200 # 0
+    aimRange: 80 # 0
+    snapRange: 15 # 0
+    minRange: 8
+    dropoff: 2
+    clipSize: 1
+    battleType: 1
+    twoHanded: true
+    blockBothHands: false
+    invWidth: 1
+    invHeight: 3
+    armor: 20
+    damageType: 3
+    blastRadius: 2
+#    hitSound: 143
+    listOrder: 2129
+#####
 # ojito mejorar
   - type: STR_ROCKET_LAUNCHER
     size: 0.4
     costBuy: 150
     costSell: 80
-    bigSprite: 4248
-    listOrder: 2129
+    bigSprite: 4296
+    floorSprite: 4296
+    handSprite: 4296
+    listOrder: 2130
   - type: STR_SMALL_ROCKET
     costBuy: 60
     costSell: 30
@@ -1555,9 +1606,12 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
-    listOrder: 2130
-  - type: STR_LARGE_ROCKET
+    bigSprite: 4512
+    floorSprite: 4512
+    handSprite: 4512
     listOrder: 2131
+  - type: STR_LARGE_ROCKET
+    listOrder: 2132
     costBuy: 80
     costSell: 40
     damageType: 3
@@ -1574,6 +1628,9 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
+    bigSprite: 4520
+    floorSprite: 4520
+    handSprite: 4520
   - type: STR_INCENDIARY_ROCKET
     costBuy: 40
     costSell: 20
@@ -1591,7 +1648,10 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
-    listOrder: 2132
+    bigSprite: 4528
+    floorSprite: 4528
+    handSprite: 4528
+    listOrder: 2133
 ###-----Human first tier Ballistic terran weapons ENDING-----###
 ###-----Human second tier Ballistic eXperimental weapons-----###
   - type: STR_XP_SMALL_PISTOL
@@ -1599,8 +1659,8 @@ items:
     costSell: 6250
     weight: 2
     bigSprite: 4708
-    floorSprite: 613
-    handSprite: 570
+    floorSprite: 4708
+    handSprite: 4708
     bulletSprite: 1
     fireSound: 123
     compatibleAmmo:
@@ -1626,8 +1686,8 @@ items:
     costSell: 8750
     weight: 5
     bigSprite: 4740
-    floorSprite: 604
-    handSprite: 540
+    floorSprite: 4740
+    handSprite: 4740
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
@@ -1655,7 +1715,8 @@ items:
     costSell: 1500
     weight: 2
     bigSprite: 5300
-    floorSprite: 606
+    floorSprite: 5300
+    handSprite: 5300
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14
@@ -1671,7 +1732,8 @@ items:
     costSell: 8000
     weight: 2
     bigSprite: 5308
-    floorSprite: 662
+    floorSprite: 5308
+    handSprite: 5308
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 29
@@ -1691,8 +1753,8 @@ items:
     costSell: 8125
     weight: 4
     bigSprite: 4772
-    floorSprite: 286
-    handSprite: 340
+    floorSprite: 4772
+    handSprite: 4772
     fireSound: 122
     bulletSprite: 1
     compatibleAmmo:
@@ -1717,7 +1779,8 @@ items:
     costSell: 1625
     weight: 1
     bigSprite: 5316
-    floorSprite: 288
+    floorSprite: 5316
+    handSprite: 5316
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -1733,7 +1796,8 @@ items:
     costSell: 7000
     weight: 1
     bigSprite: 5324
-    floorSprite: 661
+    floorSprite: 5324
+    handSprite: 5324
     bulletSprite: 29
     hitSound: 22
     hitAnimation: 26
@@ -1753,8 +1817,8 @@ items:
     costSell: 10000
     weight: 6
     bigSprite: 4804
-    floorSprite: 607
-    handSprite: 550
+    floorSprite: 4804
+    handSprite: 4804
     bulletSprite: 1
     fireSound: 84
     compatibleAmmo:
@@ -1780,7 +1844,8 @@ items:
     costSell: 2500
     weight: 3
     bigSprite: 5332
-    floorSprite: 609
+    floorSprite: 5332
+    handSprite: 5332
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -1796,7 +1861,8 @@ items:
     costSell: 15000
     weight: 3
     bigSprite: 5340
-    floorSprite: 663
+    floorSprite: 5340
+    handSprite: 5340
     bulletSprite: 29
     hitSound: 22
     hitAnimation: 26
@@ -1816,8 +1882,8 @@ items:
     costSell: 9375
     weight: 4
     bigSprite: 4836
-    floorSprite: 616
-    handSprite: 580
+    floorSprite: 4836
+    handSprite: 4836
     bulletSprite: 1
     fireSound: 121
     compatibleAmmo:
@@ -1846,8 +1912,8 @@ items:
     costSell: 10000
     weight: 5
     bigSprite: 4868
-    floorSprite: 295
-    handSprite: 370
+    floorSprite: 4868
+    handSprite: 4868
     bulletSprite: 2
     fireSound: 121
     compatibleAmmo:
@@ -1876,7 +1942,8 @@ items:
     costSell: 1750
     weight: 2
     bigSprite: 5348
-    floorSprite: 618
+    floorSprite: 5348
+    handSprite: 5348
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -1892,7 +1959,8 @@ items:
     costSell: 9000
     weight: 2
     bigSprite: 5356
-    floorSprite: 664
+    floorSprite: 5356
+    handSprite: 5356
     bulletSprite: 29
     hitSound: 22
     hitAnimation: 26
@@ -1912,8 +1980,8 @@ items:
     costSell: 15000
     weight: 7
     bigSprite: 4900
-    floorSprite: 292
-    handSprite: 360
+    floorSprite: 4900
+    handSprite: 4900
     bulletSprite: 2
     fireSound: 82
     compatibleAmmo:
@@ -1940,7 +2008,8 @@ items:
     costSell: 3000
     weight: 3
     bigSprite: 5364
-    floorSprite: 294
+    floorSprite: 5364
+    handSprite: 5364
     bulletSprite: 14
     hitSound: 13
     hitAnimation: 26
@@ -1955,7 +2024,8 @@ items:
     costSell: 18000
     weight: 3
     bigSprite: 5372
-    floorSprite: 668
+    floorSprite: 5372
+    handSprite: 5372
     bulletSprite: 29
     hitSound: 13
     hitAnimation: 26
@@ -1974,8 +2044,8 @@ items:
     costSell: 10625
     weight: 6
     bigSprite: 4940
-    floorSprite: 610
-    handSprite: 560
+    floorSprite: 4940
+    handSprite: 4940
     bulletSprite: 2
     fireSound: 81
     compatibleAmmo:
@@ -2004,8 +2074,8 @@ items:
     costSell: 15000
     weight: 7
     bigSprite: 4972
-    floorSprite: 289
-    handSprite: 350
+    floorSprite: 4972
+    handSprite: 4972
     bulletSprite: 2
     fireSound: 81
     compatibleAmmo:
@@ -2034,7 +2104,8 @@ items:
     costSell: 3000
     weight: 3
     bigSprite: 5380
-    floorSprite: 291
+    floorSprite: 5380
+    handSprite: 5380
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2048,7 +2119,8 @@ items:
     costSell: 18000
     weight: 3
     bigSprite: 5388
-    floorSprite: 667
+    floorSprite: 5388
+    handSprite: 5388
     bulletSprite: 29
     hitSound: 22
     hitAnimation: 26
@@ -2066,8 +2138,8 @@ items:
     costSell: 27500
     weight: 8
     bigSprite: 5004
-    floorSprite: 283
-    handSprite: 450
+    floorSprite: 5004
+    handSprite: 5004
     bulletSprite: 2
     fireSound: 81
     compatibleAmmo:
@@ -2094,7 +2166,8 @@ items:
     costSell: 5500
     weight: 3
     bigSprite: 5396
-    floorSprite: 285
+    floorSprite: 5396
+    handSprite: 5396
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2110,7 +2183,8 @@ items:
     costSell: 14000
     weight: 3
     bigSprite: 5404
-    floorSprite: 670
+    floorSprite: 5404
+    handSprite: 5404
     bulletSprite: 29
     hitSound: 22
     hitAnimation: 26
@@ -2130,8 +2204,8 @@ items:
     costSell: 30000
     weight: 8
     bigSprite: 5036
-    floorSprite: 298
-    handSprite: 330
+    floorSprite: 5036
+    handSprite: 5036
     bulletSprite: 2
     fireSound: 80
     compatibleAmmo:
@@ -2157,7 +2231,8 @@ items:
     costSell: 6000
     weight: 3
     bigSprite: 5412
-    floorSprite: 300
+    floorSprite: 5412
+    handSprite: 5412
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2171,7 +2246,8 @@ items:
     costSell: 14000
     weight: 3
     bigSprite: 5420
-    floorSprite: 669
+    floorSprite: 5420
+    handSprite: 5420
     bulletSprite: 29
     hitSound: 22
     hitAnimation: 26
@@ -2189,8 +2265,8 @@ items:
     costSell: 18000
     weight: 22
     bigSprite: 5068
-    floorSprite: 680
-    handSprite: 2260
+    floorSprite: 5068
+    handSprite: 5068
     bulletSprite: 0
     fireSound: 85
     compatibleAmmo:
@@ -2216,7 +2292,8 @@ items:
     costSell: 5000
     weight: 6
     bigSprite: 5428
-    floorSprite: 682
+    floorSprite: 5428
+    handSprite: 5428
     hitSound: 22
     hitAnimation: 26
     power: 44
@@ -2232,7 +2309,8 @@ items:
     costSell: 25000
     weight: 5
     bigSprite: 5436
-    floorSprite: 683
+    floorSprite: 5436
+    handSprite: 5436
     hitSound: 22
     hitAnimation: 26
     power: 49
@@ -2252,8 +2330,8 @@ items:
     costSell: 15000
     weight: 26
     bigSprite: 5100
-    floorSprite: 676
-    handSprite: 2270
+    floorSprite: 5100
+    handSprite: 5100
     bulletSprite: 3
     fireSound: 213
     compatibleAmmo:
@@ -2281,7 +2359,8 @@ items:
     costSell: 2500
     weight: 4
     bigSprite: 5444
-    floorSprite: 677
+    floorSprite: 5444
+    handSprite: 5444
     hitSound: 0
     hitAnimation: 0
     power: 53
@@ -2308,7 +2387,8 @@ items:
     costSell: 4500
     weight: 3
     bigSprite: 5452
-    floorSprite: 678
+    floorSprite: 5452
+    handSprite: 5452
     hitSound: 13
     hitAnimation: 26
     power: 68
@@ -2323,7 +2403,8 @@ items:
     costSell: 45000
     weight: 3
     bigSprite: 5460
-    floorSprite: 679
+    floorSprite: 5460
+    handSprite: 5460
     hitSound: 13
     hitAnimation: 26
     power: 73
@@ -2342,17 +2423,14 @@ items:
     costSell: 40000
     weight: 8
     bigSprite: 5132
-    floorSprite: 647
-    handSprite: 1090
+    floorSprite: 5132
+    handSprite: 5132
     bulletSprite: 0
     fireSound: 86
     compatibleAmmo:
       - STR_XP_ROCKET1
       - STR_XP_ROCKET2
       - STR_XP_APROCKET
-      - STR_SMALL_ROCKET
-      - STR_LARGE_ROCKET
-      - STR_INCENDIARY_ROCKET
     accuracySnap: 60
     accuracyAimed: 125
     tuSnap: 42
@@ -2367,7 +2445,8 @@ items:
     costSell: 12000
     weight: 4
     bigSprite: 5468
-    floorSprite: 648
+    floorSprite: 5468
+    handSprite: 5468
     hitSound: 0
     hitAnimation: 0
     power: 85
@@ -2394,7 +2473,8 @@ items:
     costSell: 16000
     weight: 6
     bigSprite: 5476
-    floorSprite: 649
+    floorSprite: 5476
+    handSprite: 5476
     hitSound: 0
     hitAnimation: 0
     power: 115
@@ -2421,7 +2501,8 @@ items:
     costSell: 7500
     weight: 5
     bigSprite: 5484
-    floorSprite: 280
+    floorSprite: 5484
+    handSprite: 5484
     hitSound: 93
     hitAnimation: 26
     power: 175
@@ -2437,8 +2518,8 @@ items:
     costSell: 6250
     weight: 2
     bigSprite: 5508
-    floorSprite: 450
-    handSprite: 1100
+    floorSprite: 5508
+    handSprite: 5508
     fireSound: 97
     compatibleAmmo:
       - STR_HB_SMALL_PISTOL_CLIP1
@@ -2463,8 +2544,8 @@ items:
     costSell: 8750
     weight: 4
     bigSprite: 5540
-    floorSprite: 458
-    handSprite: 1116
+    floorSprite: 5540
+    handSprite: 5540
     fireSound: 97
     compatibleAmmo:
       - STR_HB_SMALL_PISTOL_CLIP1
@@ -2491,7 +2572,8 @@ items:
     costSell: 750
     weight: 2
     bigSprite: 6000
-    floorSprite: 459
+    floorSprite: 6000
+    handSprite: 6000
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2507,7 +2589,8 @@ items:
     costSell: 1750
     weight: 2
     bigSprite: 6008
-    floorSprite: 460
+    floorSprite: 6008
+    handSprite: 6000
     hitSound: 95
     hitAnimation: 46
     bulletSprite: 24
@@ -2527,7 +2610,8 @@ items:
     costSell: 1750
     weight: 2
     bigSprite: 6016
-    floorSprite: 461
+    floorSprite: 6016
+    handSprite: 6000
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 1
@@ -2547,8 +2631,8 @@ items:
     costSell: 8125
     weight: 3
     bigSprite: 5572
-    floorSprite: 454
-    handSprite: 1108
+    floorSprite: 5572
+    handSprite: 5572
     fireSound: 97
     compatibleAmmo:
       - STR_HB_MAIN_PISTOL_CLIP1
@@ -2572,7 +2656,8 @@ items:
     costSell: 650
     weight: 1
     bigSprite: 6024
-    floorSprite: 455
+    floorSprite: 6024
+    handSprite: 6024
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2588,7 +2673,8 @@ items:
     costSell: 1625
     weight: 1
     bigSprite: 6032
-    floorSprite: 456
+    floorSprite: 6032
+    handSprite: 6032
     bulletSprite: 24
     hitSound: 95
     hitAnimation: 46
@@ -2608,7 +2694,8 @@ items:
     costSell: 1625
     weight: 1
     bigSprite: 6040
-    floorSprite: 457
+    floorSprite: 6040
+    handSprite: 6040
     bulletSprite: 1
     hitSound: 22
     hitAnimation: 26
@@ -2628,8 +2715,8 @@ items:
     costSell: 10000
     weight: 5
     bigSprite: 5604
-    floorSprite: 462
-    handSprite: 1124
+    floorSprite: 5604
+    handSprite: 5604
     fireSound: 98
     compatibleAmmo:
       - STR_HB_HEAVY_PISTOL_CLIP1
@@ -2654,7 +2741,8 @@ items:
     costSell: 1000
     weight: 3
     bigSprite: 6048
-    floorSprite: 463
+    floorSprite: 6048
+    handSprite: 6048
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2670,7 +2758,8 @@ items:
     costSell: 2500
     weight: 3
     bigSprite: 6056
-    floorSprite: 464
+    floorSprite: 6056
+    handSprite: 6056
     bulletSprite: 24
     hitSound: 95
     hitAnimation: 46
@@ -2690,7 +2779,8 @@ items:
     costSell: 2500
     weight: 3
     bigSprite: 6064
-    floorSprite: 465
+    floorSprite: 6064
+    handSprite: 6064
     bulletSprite: 1
     hitSound: 22
     hitAnimation: 26
@@ -2710,8 +2800,8 @@ items:
     costSell: 9375
     weight: 3
     bigSprite: 5636
-    floorSprite: 466
-    handSprite: 1132
+    floorSprite: 5636
+    handSprite: 5636
     fireSound: 97
     compatibleAmmo:
       - STR_HB_SMG_CLIP1
@@ -2739,8 +2829,8 @@ items:
     costSell: 10000
     weight: 4
     bigSprite: 5668
-    floorSprite: 474
-    handSprite: 1148
+    floorSprite: 5668
+    handSprite: 5668
     fireSound: 97
     compatibleAmmo:
       - STR_HB_SMG_CLIP1
@@ -2768,7 +2858,8 @@ items:
     costSell: 750
     weight: 2
     bigSprite: 6072
-    floorSprite: 467
+    floorSprite: 6072
+    handSprite: 6072
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2784,7 +2875,8 @@ items:
     costSell: 1750
     weight: 2
     bigSprite: 6080
-    floorSprite: 468
+    floorSprite: 6080
+    handSprite: 6080
     bulletSprite: 24
     hitSound: 95
     hitAnimation: 46
@@ -2804,7 +2896,8 @@ items:
     costSell: 1750
     weight: 2
     bigSprite: 6088
-    floorSprite: 469
+    floorSprite: 6088
+    handSprite: 6088
     bulletSprite: 1
     hitSound: 22
     hitAnimation: 26
@@ -2824,8 +2917,8 @@ items:
     costSell: 15000
     weight: 6
     bigSprite: 5700
-    floorSprite: 482
-    handSprite: 1164
+    floorSprite: 5700
+    handSprite: 5700
     fireSound: 99
     compatibleAmmo:
       - STR_HB_SHOTGUN_SHELLS1
@@ -2850,7 +2943,8 @@ items:
     costSell: 1200
     weight: 2
     bigSprite: 6096
-    floorSprite: 483
+    floorSprite: 6096
+    handSprite: 6096
     hitSound: 13
     hitAnimation: 26
     power: 36
@@ -2864,7 +2958,8 @@ items:
     costSell: 3000
     weight: 3
     bigSprite: 6104
-    floorSprite: 484
+    floorSprite: 6104
+    handSprite: 6104
     hitSound: 95
     hitAnimation: 46
     power: 40
@@ -2882,7 +2977,8 @@ items:
     costSell: 3000
     weight: 3
     bigSprite: 6112
-    floorSprite: 485
+    floorSprite: 6112
+    handSprite: 6112
     hitSound: 13
     hitAnimation: 26
     power: 45
@@ -2900,8 +2996,8 @@ items:
     costSell: 10625
     weight: 4
     bigSprite: 5732
-    floorSprite: 470
-    handSprite: 1140
+    floorSprite: 5732
+    handSprite: 5732
     fireSound: 98
     compatibleAmmo:
       - STR_HB_RIFLE_CLIP1
@@ -2929,8 +3025,8 @@ items:
     costSell: 15000
     weight: 6
     bigSprite: 5764
-    floorSprite: 478
-    handSprite: 1156
+    floorSprite: 5764
+    handSprite: 5764
     fireSound: 98
     compatibleAmmo:
       - STR_HB_RIFLE_CLIP1
@@ -2958,7 +3054,8 @@ items:
     costSell: 1200
     weight: 2
     bigSprite: 6120
-    floorSprite: 479
+    floorSprite: 6120
+    handSprite: 6120
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -2972,7 +3069,8 @@ items:
     costSell: 3000
     weight: 3
     bigSprite: 6128
-    floorSprite: 480
+    floorSprite: 6128
+    handSprite: 6128
     bulletSprite: 24
     hitSound: 95
     hitAnimation: 46
@@ -2990,7 +3088,8 @@ items:
     costSell: 3000
     weight: 3
     bigSprite: 6136
-    floorSprite: 481
+    floorSprite: 6136
+    handSprite: 6136
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
@@ -3008,8 +3107,8 @@ items:
     costSell: 27500
     weight: 7
     bigSprite: 5796
-    floorSprite: 490
-    handSprite: 1180
+    floorSprite: 5796
+    handSprite: 5796
     fireSound: 99
     compatibleAmmo:
       - STR_HB_LMG_BELT1
@@ -3035,7 +3134,8 @@ items:
     costSell: 2200
     weight: 3
     bigSprite: 6144
-    floorSprite: 491
+    floorSprite: 6144
+    handSprite: 6144
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -3051,7 +3151,8 @@ items:
     costSell: 5500
     weight: 3
     bigSprite: 6152
-    floorSprite: 492
+    floorSprite: 6152
+    handSprite: 6152
     bulletSprite: 24
     hitSound: 95
     hitAnimation: 46
@@ -3071,7 +3172,8 @@ items:
     costSell: 5500
     weight: 3
     bigSprite: 6160
-    floorSprite: 493
+    floorSprite: 6160
+    handSprite: 6160
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
@@ -3091,8 +3193,8 @@ items:
     costSell: 30000
     weight: 7
     bigSprite: 5828
-    floorSprite: 486
-    handSprite: 1172
+    floorSprite: 5828
+    handSprite: 5828
     fireSound: 99
     compatibleAmmo:
       - STR_HB_SNIPER_CLIP1
@@ -3117,7 +3219,8 @@ items:
     costSell: 2400
     weight: 2
     bigSprite: 6168
-    floorSprite: 487
+    floorSprite: 6168
+    handSprite: 6168
     bulletSprite: 14
     hitSound: 22
     hitAnimation: 26
@@ -3131,7 +3234,8 @@ items:
     costSell: 6176
     weight: 3
     bigSprite: 6176
-    floorSprite: 488
+    floorSprite: 6176
+    handSprite: 6176
     bulletSprite: 24
     hitSound: 95
     hitAnimation: 46
@@ -3149,7 +3253,8 @@ items:
     costSell: 2400
     weight: 2
     bigSprite: 6184
-    floorSprite: 489
+    floorSprite: 6184
+    handSprite: 6184
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
@@ -3167,8 +3272,8 @@ items:
     costSell: 10125
     weight: 12
     bigSprite: 5860
-    floorSprite: 494
-    handSprite: 1188
+    floorSprite: 5860
+    handSprite: 5860
     bulletSprite: 3
     fireSound: 100
     compatibleAmmo:
@@ -3196,7 +3301,8 @@ items:
     costSell: 400
     weight: 5
     bigSprite: 6192
-    floorSprite: 495
+    floorSprite: 6192
+    handSprite: 6192
     hitSound: 13
     hitAnimation: 26
     power: 58
@@ -3211,7 +3317,8 @@ items:
     costSell: 400
     weight: 5
     bigSprite: 6200
-    floorSprite: 496
+    floorSprite: 6200
+    handSprite: 6200
     hitSound: 0
     hitAnimation: 0
     power: 64
@@ -3238,7 +3345,8 @@ items:
     costSell: 520
     weight: 5
     bigSprite: 6208
-    floorSprite: 497
+    floorSprite: 6208
+    handSprite: 6208
     hitSound: 0
     hitAnimation: 0
     power: 70
@@ -3265,8 +3373,8 @@ items:
     costSell: 40000
     weight: 7
     bigSprite: 5892
-    floorSprite: 498
-    handSprite: 1196
+    floorSprite: 5892
+    handSprite: 5892
     bulletSprite: 0
     fireSound: 86
     compatibleAmmo:
@@ -3275,9 +3383,6 @@ items:
       - STR_XP_ROCKET1
       - STR_XP_ROCKET2
       - STR_XP_APROCKET
-      - STR_SMALL_ROCKET
-      - STR_LARGE_ROCKET
-      - STR_INCENDIARY_ROCKET
     accuracySnap: 65
     accuracyAimed: 130
     tuSnap: 38
@@ -3292,7 +3397,8 @@ items:
     costSell: 12000
     weight: 4
     bigSprite: 6216
-    floorSprite: 499
+    floorSprite: 6216
+    handSprite: 6216
     hitSound: 0
     hitAnimation: 0
     power: 144
@@ -3319,7 +3425,8 @@ items:
     costSell: 16000
     weight: 4
     bigSprite: 6224
-    floorSprite: 500
+    floorSprite: 6224
+    handSprite: 6224
     hitSound: 0
     hitAnimation: 0
     power: 115
@@ -3347,8 +3454,8 @@ items:
     costSell: 19600
     weight: 4
     bigSprite: 6308
-    floorSprite: 270
-    handSprite: 270
+    floorSprite: 6308
+    handSprite: 6308
     fireSound: 401
     compatibleAmmo:
       - STR_LA_PISTOL_BATTERY1
@@ -3378,8 +3485,8 @@ items:
     costSell: 20000
     weight: 5
     bigSprite: 6340
-    floorSprite: 317
-    handSprite: 480
+    floorSprite: 6340
+    handSprite: 6340
     fireSound: 401
     compatibleAmmo:
       - STR_LA_PISTOL_BATTERY1
@@ -3409,7 +3516,8 @@ items:
     costSell: 500
     weight: 2
     bigSprite: 6700
-    floorSprite: 271
+    floorSprite: 6700
+    handSprite: 6700
     bulletSprite: 5
     hitSound: 19
     hitAnimation: 36
@@ -3424,7 +3532,8 @@ items:
     costSell: 500
     weight: 2
     bigSprite: 6708
-    floorSprite: 336
+    floorSprite: 6708
+    handSprite: 6700
     bulletSprite: 15
     hitSound: 19
     hitAnimation: 36
@@ -3439,7 +3548,8 @@ items:
     costSell: 25000
     weight: 2
     bigSprite: 6716
-    floorSprite: 337
+    floorSprite: 6716
+    handSprite: 6700
     bulletSprite: 18
     fireSound: 410
     hitSound: 19
@@ -3455,8 +3565,8 @@ items:
     costSell: 36400
     weight: 6
     bigSprite: 6372
-    floorSprite: 319
-    handSprite: 490
+    floorSprite: 6372
+    handSprite: 6372
     fireSound: 403
     compatibleAmmo:
       - STR_LA_SHOTGUN_BATTERY1
@@ -3484,7 +3594,8 @@ items:
     costSell: 2000
     weight: 2
     bigSprite: 6724
-    floorSprite: 320
+    floorSprite: 6724
+    handSprite: 6724
     bulletSprite: 6
     hitSound: 19
     hitAnimation: 36
@@ -3500,7 +3611,8 @@ items:
     costSell: 2000
     weight: 2
     bigSprite: 6732
-    floorSprite: 338
+    floorSprite: 6732
+    handSprite: 6732
     bulletSprite: 16
     hitSound: 19
     hitAnimation: 36
@@ -3516,7 +3628,8 @@ items:
     costSell: 30000
     weight: 2
     bigSprite: 6740
-    floorSprite: 339
+    floorSprite: 6740
+    handSprite: 6740
     bulletSprite: 19
     fireSound: 410
     hitSound: 19
@@ -3533,8 +3646,8 @@ items:
     costSell: 36400
     weight: 6
     bigSprite: 6404
-    floorSprite: 272
-    handSprite: 280
+    floorSprite: 6404
+    handSprite: 6404
     fireSound: 11
     compatibleAmmo:
       - STR_LA_RIFLE_BATTERY1
@@ -3565,7 +3678,8 @@ items:
     costSell: 2000
     weight: 2
     bigSprite: 6748
-    floorSprite: 273
+    floorSprite: 6748
+    handSprite: 6748
     bulletSprite: 6
     hitSound: 19
     hitAnimation: 36
@@ -3580,7 +3694,8 @@ items:
     costSell: 2000
     weight: 2
     bigSprite: 6756
-    floorSprite: 332
+    floorSprite: 6756
+    handSprite: 6756
     bulletSprite: 16
     hitSound: 19
     hitAnimation: 36
@@ -3595,7 +3710,8 @@ items:
     costSell: 30000
     weight: 2
     bigSprite: 6764
-    floorSprite: 333
+    floorSprite: 6764
+    handSprite: 6764
     bulletSprite: 19
     fireSound: 410
     hitSound: 19
@@ -3611,8 +3727,8 @@ items:
     costSell: 59000
     weight: 14
     bigSprite: 6452
-    floorSprite: 321
-    handSprite: 500
+    floorSprite: 6452
+    handSprite: 6452
     fireSound: 11
     compatibleAmmo:
       - STR_LA_LMG_BATTERY1
@@ -3639,7 +3755,8 @@ items:
     costSell: 3000
     weight: 4
     bigSprite: 6772
-    floorSprite: 322
+    floorSprite: 6772
+    handSprite: 6772
     bulletSprite: 7
     hitSound: 19
     hitAnimation: 36
@@ -3656,7 +3773,8 @@ items:
     costSell: 3000
     weight: 4
     bigSprite: 6780
-    floorSprite: 334
+    floorSprite: 6780
+    handSprite: 6780
     bulletSprite: 16
     hitSound: 19
     hitAnimation: 36
@@ -3673,7 +3791,8 @@ items:
     costSell: 65000
     weight: 4
     bigSprite: 6788
-    floorSprite: 335
+    floorSprite: 6788
+    handSprite: 6788
     bulletSprite: 20
     fireSound: 410
     hitSound: 19
@@ -3691,8 +3810,8 @@ items:
     costSell: 44400
     weight: 9
     bigSprite: 6484
-    floorSprite: 274
-    handSprite: 290
+    floorSprite: 6484
+    handSprite: 6484
     fireSound: 406
     compatibleAmmo:
       - STR_LA_SNIPER_BATTERY1
@@ -3721,7 +3840,8 @@ items:
     costSell: 2500
     weight: 2
     bigSprite: 6796
-    floorSprite: 275
+    floorSprite: 6796
+    handSprite: 6796
     bulletSprite: 6
     hitSound: 19
     hitAnimation: 36
@@ -3736,7 +3856,8 @@ items:
     costSell: 2500
     weight: 2
     bigSprite: 6804
-    floorSprite: 342
+    floorSprite: 6804
+    handSprite: 6804
     bulletSprite: 16
     hitSound: 19
     hitAnimation: 36
@@ -3751,7 +3872,8 @@ items:
     costSell: 45000
     weight: 2
     bigSprite: 6812
-    floorSprite: 343
+    handSprite: 6812
+    floorSprite: 6812
     bulletSprite: 19
     fireSound: 410
     hitSound: 19
@@ -3767,8 +3889,8 @@ items:
     costSell: 60400
     weight: 14
     bigSprite: 6516
-    floorSprite: 276
-    handSprite: 300
+    floorSprite: 6516
+    handSprite: 6516
     fireSound: 407
     compatibleAmmo:
       - STR_LA_HEAVY_CANNON_BATTERY1
@@ -3798,7 +3920,8 @@ items:
     costSell: 3200
     weight: 4
     bigSprite: 6820
-    floorSprite: 277
+    floorSprite: 6820
+    handSprite: 6820
     bulletSprite: 7
     hitSound: 19
     hitAnimation: 36
@@ -3815,7 +3938,8 @@ items:
     costSell: 3200
     weight: 4
     bigSprite: 6828
-    floorSprite: 330
+    floorSprite: 6828
+    handSprite: 6828
     bulletSprite: 17
     hitSound: 19
     hitAnimation: 36
@@ -3832,7 +3956,8 @@ items:
     costSell: 7000
     weight: 4
     bigSprite: 6836
-    floorSprite: 331
+    floorSprite: 6836
+    handSprite: 6836
     bulletSprite: 20
     fireSound: 410
     hitSound: 19
@@ -3851,8 +3976,8 @@ items:
     costSell: 75000
     weight: 4
     bigSprite: 6908
-    floorSprite: 619
-    handSprite: 630
+    floorSprite: 6908
+    handSprite: 6908
     fireSound: 501
     compatibleAmmo:
       - STR_RL_MAIN_PISTOL_CLIP1
@@ -3876,8 +4001,8 @@ items:
     costSell: 140000
     weight: 5
     bigSprite: 6940
-    floorSprite: 621
-    handSprite: 640
+    floorSprite: 6940
+    handSprite: 6940
     fireSound: 501
     compatibleAmmo:
       - STR_RL_MAIN_PISTOL_CLIP1
@@ -3903,7 +4028,8 @@ items:
     costSell: 5000
     weight: 2
     bigSprite: 7300
-    floorSprite: 620
+    floorSprite: 7300
+    handSprite: 7300
     bulletSprite: 21
     hitSound: 125
     hitAnimation: 26
@@ -3919,7 +4045,8 @@ items:
     costSell: 5000
     weight: 2
     bigSprite: 7308
-    floorSprite: 633
+    floorSprite: 7308
+    handSprite: 7308
     bulletSprite: 21
     hitSound: 125
     hitAnimation: 26
@@ -3935,7 +4062,8 @@ items:
     costSell: 5000
     weight: 2
     bigSprite: 7316
-    floorSprite: 650
+    floorSprite: 7316
+    handSprite: 7316
     bulletSprite: 21
     hitSound: 125
 #    hitAnimation: 26
@@ -3963,8 +4091,8 @@ items:
     costSell: 125000
     weight: 7
     bigSprite: 6972
-    floorSprite: 625
-    handSprite: 660
+    floorSprite: 6972
+    handSprite: 6972
     fireSound: 503
     compatibleAmmo:
       - STR_RL_SHOTGUN_CLIP1
@@ -3989,7 +4117,8 @@ items:
     costSell: 7500
     weight: 4
     bigSprite: 7324
-    floorSprite: 626
+    floorSprite: 7324
+    handSprite: 7324
     bulletSprite: 22
     hitSound: 125
     hitAnimation: 26
@@ -4004,7 +4133,8 @@ items:
     costSell: 7500
     weight: 4
     bigSprite: 7332
-    floorSprite: 636
+    floorSprite: 7332
+    handSprite: 7332
     bulletSprite: 22
     hitSound: 125
     hitAnimation: 26
@@ -4019,7 +4149,8 @@ items:
     costSell: 7500
     weight: 4
     bigSprite: 7340
-    floorSprite: 653
+    floorSprite: 7340
+    handSprite: 7340
     bulletSprite: 22
     hitSound: 125
 #    hitAnimation: 26
@@ -4046,8 +4177,8 @@ items:
     costSell: 125000
     weight: 7
     bigSprite: 7004
-    floorSprite: 623
-    handSprite: 650
+    floorSprite: 7004
+    handSprite: 7004
     fireSound: 504
     compatibleAmmo:
       - STR_RL_RIFLE_CLIP1
@@ -4075,7 +4206,8 @@ items:
     costSell: 7500
     weight: 3
     bigSprite: 7348
-    floorSprite: 624
+    floorSprite: 7348
+    handSprite: 7348
     bulletSprite: 22
     hitSound: 125
     hitAnimation: 26
@@ -4089,7 +4221,8 @@ items:
     costSell: 7500
     weight: 3
     bigSprite: 7356
-    floorSprite: 635
+    floorSprite: 7356
+    handSprite: 7356
     bulletSprite: 22
     hitSound: 125
     hitAnimation: 26
@@ -4103,7 +4236,8 @@ items:
     costSell: 7500
     weight: 3
     bigSprite: 7364
-    floorSprite: 652
+    floorSprite: 7364
+    handSprite: 7364
     bulletSprite: 22
     hitSound: 125
 #    hitAnimation: 26
@@ -4129,8 +4263,8 @@ items:
     costSell: 187500
     weight: 8
     bigSprite: 7036
-    floorSprite: 629
-    handSprite: 680
+    floorSprite: 7036
+    handSprite: 7036
     fireSound: 504
     compatibleAmmo:
       - STR_RL_LMG_CLIP1
@@ -4156,7 +4290,8 @@ items:
     costSell: 10000
     weight: 4
     bigSprite: 7372
-    floorSprite: 630
+    floorSprite: 7372
+    handSprite: 7372
     bulletSprite: 23
     hitSound: 126
     hitAnimation: 26
@@ -4172,7 +4307,8 @@ items:
     costSell: 10000
     weight: 4
     bigSprite: 7380
-    floorSprite: 638
+    floorSprite: 7380
+    handSprite: 7380
     bulletSprite: 23
     hitSound: 126
     hitAnimation: 26
@@ -4188,7 +4324,8 @@ items:
     costSell: 10000
     weight: 4
     bigSprite: 7388
-    floorSprite: 655
+    floorSprite: 7388
+    handSprite: 7388
     bulletSprite: 23
     hitSound: 126
 #    hitAnimation: 26
@@ -4216,8 +4353,8 @@ items:
     costSell: 125000
     weight: 8
     bigSprite: 7068
-    floorSprite: 627
-    handSprite: 670
+    floorSprite: 7068
+    handSprite: 7068
     fireSound: 506
     compatibleAmmo:
       - STR_RL_SNIPER_CLIP1
@@ -4242,7 +4379,8 @@ items:
     costSell: 7500
     weight: 4
     bigSprite: 7396
-    floorSprite: 628
+    floorSprite: 7396
+    handSprite: 7396
     bulletSprite: 22
     hitSound: 125
     hitAnimation: 26
@@ -4256,7 +4394,8 @@ items:
     costSell: 7500
     weight: 4
     bigSprite: 7404
-    floorSprite: 637
+    floorSprite: 7404
+    handSprite: 7404
     bulletSprite: 22
     hitSound: 125
     hitAnimation: 26
@@ -4270,7 +4409,8 @@ items:
     costSell: 7500
     weight: 4
     bigSprite: 7412
-    floorSprite: 654
+    floorSprite: 7412
+    handSprite: 7412
     bulletSprite: 22
     hitSound: 125
 #    hitAnimation: 26
@@ -4296,8 +4436,8 @@ items:
     costSell: 250000
     weight: 8
     bigSprite: 7100
-    floorSprite: 640
-    handSprite: 700
+    floorSprite: 7100
+    handSprite: 7100
     fireSound: 507
     compatibleAmmo:
       - STR_RL_AUTO_CANNON_CLIP1
@@ -4325,7 +4465,8 @@ items:
     costSell: 12500
     weight: 4
     bigSprite: 7420
-    floorSprite: 641
+    floorSprite: 7420
+    handSprite: 7420
     bulletSprite: 23
     hitSound: 126
     hitAnimation: 26
@@ -4341,7 +4482,8 @@ items:
     costSell: 12500
     weight: 4
     bigSprite: 7428
-    floorSprite: 642
+    floorSprite: 7428
+    handSprite: 7428
     bulletSprite: 23
     hitSound: 126
     hitAnimation: 26
@@ -4357,7 +4499,8 @@ items:
     costSell: 12500
     weight: 4
     bigSprite: 7436
-    floorSprite: 656
+    floorSprite: 7436
+    handSprite: 7436
     bulletSprite: 23
     hitSound: 126
 #    hitAnimation: 26
@@ -4385,8 +4528,8 @@ items:
     costSell: 375000
     weight: 10
     bigSprite: 7132
-    floorSprite: 631
-    handSprite: 690
+    floorSprite: 7132
+    handSprite: 7132
     fireSound: 508
     compatibleAmmo:
       - STR_RL_BAZOOKA_CLIP1
@@ -4411,7 +4554,8 @@ items:
     costSell: 25000
     weight: 4
     bigSprite: 7444
-    floorSprite: 632
+    floorSprite: 7444
+    handSprite: 7444
     bulletSprite: 23
     hitSound: 126
     hitAnimation: 26
@@ -4427,7 +4571,8 @@ items:
     costSell: 25000
     weight: 4
     bigSprite: 7452
-    floorSprite: 639
+    floorSprite: 7452
+    handSprite: 7452
     bulletSprite: 23
     hitSound: 126
     hitAnimation: 26
@@ -4443,7 +4588,8 @@ items:
     costSell: 25000
     weight: 4
     bigSprite: 7460
-    floorSprite: 657
+    floorSprite: 7460
+    handSprite: 7460
     bulletSprite: 23
     hitSound: 126
 #    hitAnimation: 26
@@ -4472,8 +4618,8 @@ items:
     costSell: 84000
     weight: 2
     bigSprite: 7540
-    floorSprite: 508
-    handSprite: 810
+    floorSprite: 7540
+    handSprite: 7540
     compatibleAmmo:
       - STR_PM_SMALL_PISTOL_CLIP1
       - STR_PM_SMALL_PISTOL_CLIP2
@@ -4498,7 +4644,8 @@ items:
     costSell: 4440
     weight: 2
     bigSprite: 7900
-    floorSprite: 378
+    floorSprite: 7900
+    handSprite: 7900
     bulletSprite: 8
     fireSound: 601
     hitSound: 19
@@ -4514,7 +4661,8 @@ items:
     costSell: 4740
     weight: 2
     bigSprite: 7908
-    floorSprite: 412
+    floorSprite: 7908
+    handSprite: 7908
     bulletSprite: 13
     fireSound: 601
     hitSound: 19
@@ -4530,7 +4678,8 @@ items:
     costSell: 4940
     weight: 2
     bigSprite: 7916
-    floorSprite: 413
+    floorSprite: 7916
+    handSprite: 7916
     fireSound: 601
     hitSound: 19
 #    hitAnimation: 76
@@ -4558,8 +4707,8 @@ items:
     costSell: 84000
     weight: 3
     bigSprite: 7572
-    floorSprite: 377
-    handSprite: 980
+    floorSprite: 7572
+    handSprite: 7572
     compatibleAmmo:
       - STR_PM_MAIN_PISTOL_CLIP1
       - STR_PM_MAIN_PISTOL_CLIP2
@@ -4584,8 +4733,8 @@ items:
     costSell: 89000
     weight: 4
     bigSprite: 7604
-    floorSprite: 379
-    handSprite: 960
+    floorSprite: 7604
+    handSprite: 7604
     compatibleAmmo:
       - STR_PM_MAIN_PISTOL_CLIP1
       - STR_PM_MAIN_PISTOL_CLIP2
@@ -4612,7 +4761,8 @@ items:
     costSell: 4440
     weight: 3
     bigSprite: 7924
-    floorSprite: 513
+    floorSprite: 7924
+    handSprite: 7924
     bulletSprite: 8
     fireSound: 601
     hitSound: 19
@@ -4628,7 +4778,8 @@ items:
     costSell: 4740
     weight: 3
     bigSprite: 7932
-    floorSprite: 514
+    floorSprite: 7932
+    handSprite: 7932
     bulletSprite: 13
     fireSound: 601
     hitSound: 19
@@ -4644,7 +4795,8 @@ items:
     costSell: 4940
     weight: 3
     bigSprite: 7940
-    floorSprite: 515
+    floorSprite: 7940
+    handSprite: 7940
     fireSound: 601
     hitSound: 19
 #    hitAnimation: 76
@@ -4672,8 +4824,8 @@ items:
     costSell: 84000
     weight: 6
     bigSprite: 7636
-    floorSprite: 512
-    handSprite: 820
+    floorSprite: 7636
+    handSprite: 7636
     compatibleAmmo:
       - STR_PM_HEAVY_PISTOL_CLIP1
       - STR_PM_HEAVY_PISTOL_CLIP2
@@ -4698,8 +4850,8 @@ items:
     costSell: 89000
     weight: 6
     bigSprite: 7668
-    floorSprite: 516
-    handSprite: 710
+    floorSprite: 7668
+    handSprite: 7668
     compatibleAmmo:
       - STR_PM_HEAVY_PISTOL_CLIP1
       - STR_PM_HEAVY_PISTOL_CLIP2
@@ -4726,7 +4878,8 @@ items:
     costSell: 4440
     weight: 4
     bigSprite: 7948
-    floorSprite: 517
+    floorSprite: 7948
+    handSprite: 7948
     bulletSprite: 8
     fireSound: 607
     hitSound: 19
@@ -4742,7 +4895,8 @@ items:
     costSell: 4740
     weight: 4
     bigSprite: 7956
-    floorSprite: 518
+    floorSprite: 7956
+    handSprite: 7956
     bulletSprite: 13
     fireSound: 607
     hitSound: 19
@@ -4758,7 +4912,8 @@ items:
     costSell: 4940
     weight: 4
     bigSprite: 7964
-    floorSprite: 519
+    floorSprite: 7964
+    handSprite: 7964
     fireSound: 607
     hitSound: 19
 #    hitAnimation: 76
@@ -4786,8 +4941,8 @@ items:
     costSell: 126500
     weight: 5
     bigSprite: 7700
-    floorSprite: 383
-    handSprite: 970
+    floorSprite: 7700
+    handSprite: 7700
     compatibleAmmo:
       - STR_PM_SHOTGUN_CLIP1
       - STR_PM_SHOTGUN_CLIP2
@@ -4813,7 +4968,8 @@ items:
     costSell: 6290
     weight: 3
     bigSprite: 7972
-    floorSprite: 384
+    floorSprite: 7972
+    handSprite: 7972
     bulletSprite: 8
     fireSound: 607
     hitSound: 19
@@ -4830,7 +4986,8 @@ items:
     costSell: 6790
     weight: 3
     bigSprite: 7980
-    floorSprite: 418
+    floorSprite: 7980
+    handSprite: 7980
     bulletSprite: 13
     fireSound: 607
     hitSound: 19
@@ -4847,7 +5004,8 @@ items:
     costSell: 6990
     weight: 3
     bigSprite: 7988
-    floorSprite: 419
+    floorSprite: 7988
+    handSprite: 7988
     bulletSprite: 12
     fireSound: 607
     hitSound: 19
@@ -4876,8 +5034,8 @@ items:
     costSell: 126500
     weight: 5
     bigSprite: 7732
-    floorSprite: 381
-    handSprite: 990
+    floorSprite: 7732
+    handSprite: 7732
     compatibleAmmo:
       - STR_PM_RIFLE_CLIP1
       - STR_PM_RIFLE_CLIP2
@@ -4904,7 +5062,8 @@ items:
     costSell: 6290
     weight: 3
     bigSprite: 7996
-    floorSprite: 382
+    floorSprite: 7996
+    handSprite: 7996
     bulletSprite: 8
     fireSound: 607
     hitSound: 19
@@ -4920,7 +5079,8 @@ items:
     costSell: 6690
     weight: 3
     bigSprite: 8004
-    floorSprite: 416
+    floorSprite: 8004
+    handSprite: 8004
     bulletSprite: 13
     fireSound: 607
     hitSound: 19
@@ -4936,7 +5096,8 @@ items:
     costSell: 8012
     weight: 3
     bigSprite: 8012
-    floorSprite: 417
+    floorSprite: 8012
+    handSprite: 8012
     bulletSprite: 12
     fireSound: 607
     hitSound: 19
@@ -4964,8 +5125,8 @@ items:
     costSell: 171600
     weight: 8
     bigSprite: 7764
-    floorSprite: 387
-    handSprite: 940
+    floorSprite: 7764
+    handSprite: 7764
     compatibleAmmo:
       - STR_PM_LMG_CLIP1
       - STR_PM_LMG_CLIP2
@@ -4993,7 +5154,8 @@ items:
     costSell: 9590
     weight: 3
     bigSprite: 8020
-    floorSprite: 388
+    floorSprite: 8020
+    handSprite: 8020
     bulletSprite: 8
     fireSound: 610
     hitSound: 19
@@ -5011,7 +5173,8 @@ items:
     costSell: 12200
     weight: 3
     bigSprite: 8028
-    floorSprite: 422
+    floorSprite: 8028
+    handSprite: 8028
     bulletSprite: 13
     fireSound: 610
     hitSound: 19
@@ -5029,7 +5192,8 @@ items:
     costSell: 14000
     weight: 3
     bigSprite: 8036
-    floorSprite: 423
+    floorSprite: 8036
+    handSprite: 8036
     bulletSprite: 12
     fireSound: 610
     hitSound: 19
@@ -5059,8 +5223,8 @@ items:
     costSell: 150000
     weight: 7
     bigSprite: 7796
-    floorSprite: 385
-    handSprite: 1000
+    floorSprite: 7796
+    handSprite: 7796
     compatibleAmmo:
       - STR_PM_SNIPER_CLIP1
       - STR_PM_SNIPER_CLIP2
@@ -5086,7 +5250,8 @@ items:
     costSell: 7000
     weight: 3
     bigSprite: 8044
-    floorSprite: 386
+    floorSprite: 8044
+    handSprite: 8044
     bulletSprite: 8
     fireSound: 609
     hitSound: 19
@@ -5102,7 +5267,8 @@ items:
     costSell: 7700
     weight: 3
     bigSprite: 8052
-    floorSprite: 420
+    floorSprite: 8052
+    handSprite: 8052
     bulletSprite: 13
     fireSound: 609
     hitSound: 19
@@ -5118,7 +5284,8 @@ items:
     costSell: 7900
     weight: 3
     bigSprite: 8060
-    floorSprite: 421
+    floorSprite: 8060
+    handSprite: 8060
     bulletSprite: 12
     fireSound: 609
     hitSound: 19
@@ -5146,8 +5313,8 @@ items:
     costSell: 250000
     weight: 10
     bigSprite: 7828
-    floorSprite: 389
-    handSprite: 950
+    floorSprite: 7828
+    handSprite: 7828
     fireSound: 610
     compatibleAmmo:
       - STR_PM_HEAVY_CANNON_CLIP1
@@ -5174,7 +5341,8 @@ items:
     costSell: 12000
     weight: 3
     bigSprite: 8068
-    floorSprite: 390
+    floorSprite: 8068
+    handSprite: 8068
     bulletSprite: 8
     hitSound: 19
     hitAnimation: 46
@@ -5191,7 +5359,8 @@ items:
     costSell: 14000
     weight: 3
     bigSprite: 8076
-    floorSprite: 424
+    floorSprite: 8076
+    handSprite: 8076
     bulletSprite: 13
     hitSound: 19
     hitAnimation: 83
@@ -5208,7 +5377,8 @@ items:
     costSell: 16000
     weight: 3
     bigSprite: 8084
-    floorSprite: 425
+    floorSprite: 8084
+    handSprite: 8084
     bulletSprite: 12
     hitSound: 19
 #    hitAnimation: 76
@@ -5239,8 +5409,8 @@ items:
     costSell: 144000
     weight: 16
     bigSprite: 7860
-    floorSprite: 643
-    handSprite: 1080
+    floorSprite: 7860
+    handSprite: 7860
     bulletSprite: 10
     fireSound: 53
     compatibleAmmo:
@@ -5262,7 +5432,8 @@ items:
     costSell: 17028
     weight: 3
     bigSprite: 8092
-    floorSprite: 644
+    floorSprite: 8092
+    handSprite: 8092
     hitSound: 0
     hitAnimation: 0
     power: 180
@@ -5292,7 +5463,8 @@ items:
     costSell: 17028
     weight: 3
     bigSprite: 8100
-    floorSprite: 645
+    floorSprite: 8100
+    handSprite: 8100
     hitSound: 0
     hitAnimation: 0
     power: 195
@@ -5321,7 +5493,8 @@ items:
     costSell: 17028
     weight: 3
     bigSprite: 8108
-    floorSprite: 646
+    floorSprite: 8108
+    handSprite: 8108
     hitSound: 0
     hitAnimation: 0
     power: 150
@@ -5372,13 +5545,14 @@ items:
     size: 0.2
     costSell: 600
     weight: 5
-    bigSprite: 8308
-    floorSprite: 83
-    handSprite: 200
+    bigSprite: 8428
+    floorSprite: 8428
+    handSprite: 8428
     bulletSprite: 25 #ojito resolver quilombo del taser
     fireSound: 61
     compatibleAmmo:
-      - STR_SH_SMALL_PISTOL_CLIP
+      - STR_SH_SMALL_PISTOL_CLIP1
+      - STR_SH_SMALL_PISTOL_CLIP2
     accuracySnap: 40
     accuracyAimed: 70
     tuSnap: 18
@@ -5390,13 +5564,49 @@ items:
     armor: 65
     maxRange: 4
     attraction: 6
-    listOrder: 2704
-  - type: STR_SH_SMALL_PISTOL_CLIP # ojito me quede aqui, continuar mañana
+    listOrder: 2703
+  - type: STR_SH_SMALL_PISTOL_CLIP1 # ojito me quede aqui, continuar mañana
     size: 0.1
     costSell: 100
     weight: 2
-    bigSprite: 8500
-    floorSprite: 91
+    bigSprite: 8508
+    floorSprite: 8508
+    handSprite: 8508
+    hitSound: 54
+    hitAnimation: 96
+    power: 30
+    damageType: 1
+    damageAlter:
+      ResistType: 6
+      IgnorePainImmunity: true
+      IgnoreSelfDestruct: true
+      RandomWound: false
+      ArmorEffectiveness: 1.35
+      ToStun: 4.0
+      ToArmor: 0
+      ToTile: 0
+      ToItem: 0
+      ToWound: 0
+      FixRadius: 0
+      RandomType: 2
+      RadiusReduction: 0
+      FireThreshold: 30
+      ToHealth: 0.25
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+#      IgnoreOverKill: false
+    clipSize: 2
+    battleType: 2
+    armor: 65
+    attraction: 6
+    listOrder: 2704
+  - type: STR_SH_SMALL_PISTOL_CLIP2 # ojito me quede aqui, continuar mañana
+    size: 0.1
+    costSell: 100
+    weight: 2
+    bigSprite: 8516
+    floorSprite: 8516
+    handSprite: 8516
     hitSound: 54
     hitAnimation: 96
     power: 30
@@ -5429,9 +5639,9 @@ items:
     size: 0.1
     costSell: 600
     weight: 3
-    bigSprite: 8324
-    floorSprite: 1501
-    handSprite: 2204
+    bigSprite: 8452
+    floorSprite: 8452
+    handSprite: 8452
     bulletSprite: 25
     fireSound: 130
     compatibleAmmo:
@@ -5454,9 +5664,9 @@ items:
     size: 0.2
     costSell: 2250
     weight: 8
-    bigSprite: 8340
-    floorSprite: 1503
-    handSprite: 2212
+    bigSprite: 8468
+    floorSprite: 8468
+    handSprite: 8468
     bulletSprite: 26
     fireSound: 131
     compatibleAmmo:
@@ -5479,9 +5689,9 @@ items:
     size: 0.025
     costSell: 150
     weight: 2
-    bigSprite: 8508
-    floorSprite: 1504
-    handSprite: 2228
+    bigSprite: 8524
+    floorSprite: 8524
+    handSprite: 8524
     hitSound: 90
     hitAnimation: 96
     power: 70
@@ -5505,7 +5715,6 @@ items:
       ToItem: 0
       ToWound: 0
 #      IgnoreOverKill: false
-
     clipSize: 12
     battleType: 2
     listOrder: 2708
@@ -5513,9 +5722,9 @@ items:
     size: 0.2
     costSell: 2250
     weight: 16
-    bigSprite: 8356
-    floorSprite: 1505
-    handSprite: 2220
+    bigSprite: 8484
+    floorSprite: 8484
+    handSprite: 8484
     bulletSprite: 27
     fireSound: 132
     compatibleAmmo:
@@ -5538,10 +5747,10 @@ items:
     size: 0.025
     costSell: 150
     weight: 5
-    bigSprite: 8516
-    floorSprite: 1506
+    bigSprite: 8532
+    floorSprite: 8532
+    handSprite: 8532
     hitSound: 134
-    handSprite: 2228
     hitAnimation:  0 #antes 5? averiguar porq tenia rango
     power: 120
     damageType: 6
@@ -5571,9 +5780,9 @@ items:
     size: 0.05
     costSell: 5000
     weight: 3
-    bigSprite: 8372
-    floorSprite: 1507
-    handSprite: 2228
+    bigSprite: 8492 #ojito porq puede q necesite el otro para q se note el primed/unprimed
+    floorSprite: 8492
+    handSprite: 8492
     power: 90
     damageType: 3
     battleType: 4
@@ -5603,9 +5812,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 1
-    bigSprite: 316
-    floorSprite: 316
-    handSprite: 470
+    bigSprite: 8700
+    floorSprite: 8700
+    handSprite: 8700
     power: 8
     strengthApplied: true #ojito change to damageBonus
     damageType: 3
@@ -5630,9 +5839,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 2
-    bigSprite: 315
-    floorSprite: 315
-    handSprite: 460
+    bigSprite: 8740
+    floorSprite: 8740
+    handSprite: 8740
     power: 15
     strengthApplied: true #ojito change to damageBonus
     damageType: 7
@@ -5651,9 +5860,9 @@ items:
     size: 0.1
     costSell: 5000
     weight: 2
-    bigSprite: 430
-    floorSprite: 430
-    handSprite: 1060
+    bigSprite: 8780
+    floorSprite: 8780
+    handSprite: 8780
     power: 40
     strengthApplied: true #ojito change to damageBonus
     damageType: 7
@@ -5675,9 +5884,9 @@ items:
     size: 0.1
     costSell: 12000
     weight: 5
-    bigSprite: 432
-    floorSprite: 430
-    handSprite: 2060
+    bigSprite: 8820
+    floorSprite: 8820
+    handSprite: 8820
     power: 65
     strengthApplied: true #ojito change to damageBonus
     damageType: 7
@@ -5699,9 +5908,9 @@ items:
     size: 0.1
     costSell: 5000
     weight: 2
-    bigSprite: 324
-    floorSprite: 324
-    handSprite: 1432
+    bigSprite: 8860
+    floorSprite: 8860
+    handSprite: 8860
     power: 60
     strengthApplied: false #ojito change to damageBonus
     damageType: 4
@@ -5723,9 +5932,9 @@ items:
     size: 0.1
     costSell: 37500
     weight: 4
-    bigSprite: 8032
-    floorSprite: 325
-    handSprite: 520
+    bigSprite: 8900
+    floorSprite: 8900
+    handSprite: 8900
     power: 80
     damageType: 4
     clipSize: -1
@@ -5744,9 +5953,9 @@ items:
     size: 0.1
     costSell: 5000
     weight: 2
-    bigSprite: 326
-    floorSprite: 326
-    handSprite: 2815
+    bigSprite: 8940
+    floorSprite: 8940
+    handSprite: 8940
     power: 95
     strengthApplied: false #ojito change to damageBonus
     damageType: 5
@@ -5768,9 +5977,9 @@ items:
     size: 0.2
     costSell: 20000
     weight: 4
-    bigSprite: 431
-    floorSprite: 431
-    handSprite: 1070
+    bigSprite: 8980
+    floorSprite: 8980
+    handSprite: 8980
     power: 130
     strengthApplied: false #ojito change to damageBonus
     damageType: 5
@@ -5780,7 +5989,7 @@ items:
     battleType: 3
     twoHanded: false
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     armor: 65
     meleeSound: 94
     meleeHitSound: 95
@@ -5795,9 +6004,9 @@ items:
     weight: 40
     costBuy: 5
     costSell: 2
-    bigSprite: 1078
-    handSprite: 2078
-    floorSprite: 1078
+    bigSprite: 9020
+    handSprite: 9020
+    floorSprite: 9020
     flatRate: true
     hidePower: true
     battleType: 3
@@ -5810,9 +6019,9 @@ items:
     size: 0.5
     weight: 15
     costSell: 12000
-    bigSprite: 1079
-    handSprite: 2088
-    floorSprite: 1079
+    bigSprite: 9060
+    handSprite: 9060
+    floorSprite: 9060
     flatRate: true
     hidePower: true
     battleType: 3
@@ -5825,15 +6034,15 @@ items:
     size: 0.5
     weight: 8
     costSell: 12000
-    bigSprite: 1080
-    handSprite: 2098
-    floorSprite: 1080
+    bigSprite: 9100
+    handSprite: 9100
+    floorSprite: 9100
     flatRate: true
     hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2
-    invHeight: 3
+    invHeight: 2
     listOrder: 2812
 # Alien portable Shields
   - type: STR_AW_HOLO_SHIELD
@@ -5841,30 +6050,30 @@ items:
     size: 0.5
     weight: 8
     costSell: 12000
-    bigSprite: 1081
-    handSprite: 2108
-    floorSprite: 1081
+    bigSprite: 9220
+    handSprite: 9220
+    floorSprite: 9220
     flatRate: true
     hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2
-    invHeight: 3
+    invHeight: 2
     listOrder: 2820
   - type: STR_AW_ADVANCED_HOLO_SHIELD
 #    categories: [STR_WEAPONS, STR_MELEE, ]
     size: 0.5
     weight: 4
     costSell: 12000
-    bigSprite: 1082
-    handSprite: 2118
-    floorSprite: 1082
+    bigSprite: 9260
+    handSprite: 9260
+    floorSprite: 9260
     flatRate: true
     hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2
-    invHeight: 3
+    invHeight: 2
     listOrder: 2821
 # Alien melee weaponry
   - type: STR_AW_ALLOY_BLADE
@@ -5874,9 +6083,9 @@ items:
     size: 0.1
     costSell: 5000
     weight: 2
-    bigSprite: 372
-    floorSprite: 372
-    handSprite: 930
+    bigSprite: 9140
+    floorSprite: 9140
+    handSprite: 9140
     power: 45
     strengthApplied: true #ojito change to damageBonus
     damageType: 7
@@ -5901,9 +6110,9 @@ items:
     size: 0.2
     costSell: 20000
     weight: 4
-    bigSprite: 369
-    floorSprite: 369
-    handSprite: 800
+    bigSprite: 9180
+    floorSprite: 9180
+    handSprite: 9180
     power: 150
     strengthApplied: false #ojito change to damageBonus
     damageType: 5
@@ -5913,7 +6122,7 @@ items:
     battleType: 3
     twoHanded: false
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     armor: 65
     meleeSound: 94
     meleeHitSound: 95
@@ -5925,9 +6134,9 @@ items:
   - type: STR_SMOKE_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 1
     costSell: 0
-    bigSprite: 2650
-    floorSprite: 2659
-    handSprite: 1340
+    bigSprite: 9700
+    floorSprite: 9700
+    handSprite: 9700
     damageAlter: # continuar este revisar en xfiles la granada de humo
       RandomType: 2
       ResistType: 9
@@ -5943,6 +6152,9 @@ items:
     listOrder: 2901
 ##############
 #  - type: STR_BO_FLASH_GRENADE   #ojito luego implementarla correctanme
+#    bigSprite: 9716
+#    floorSprite: 9716
+#    handSprite: 9716
 #    listOrder: 2902
 ##############
   - type: STR_BO_FIERY_GRENADE
@@ -5950,9 +6162,9 @@ items:
     costBuy: 1
     costSell: 0
     weight: 3
-    bigSprite: 301
-    floorSprite: 301
-    handSprite: 1348
+    bigSprite: 9732
+    floorSprite: 9732
+    handSprite: 9732
     power: 70
     damageType: 3
     battleType: 4
@@ -5973,9 +6185,9 @@ items:
   - type: STR_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 1
     costSell: 0
-    bigSprite: 2651
-    floorSprite: 2651
-    handSprite: 2651
+    bigSprite: 9748
+    floorSprite: 9748
+    handSprite: 9748
     damageAlter: # continuar este, revisar equivalente xfiles
       RandomType: 2
       ResistType: 3
@@ -5996,9 +6208,9 @@ items:
     size: 0.05
     costSell: 5000
     weight: 2
-    bigSprite: 313
-    floorSprite: 313
-   # handSprite: 1340 OJITO
+    bigSprite: 9764
+    floorSprite: 9764
+    handSprite: 9764
     power: 65
     damageType: 3
     battleType: 4
@@ -6019,10 +6231,12 @@ items:
   - type: STR_PROXIMITY_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_PROXIMITY_GRENADE
-    handSprite: 232
+#    bigSprite: 9780
+#    floorSprite: 9780
+    handSprite: 9780
     size: 0.05
     costSell: 2200
-   # bigSprite: 301
+   # bigSprite: 9725
    # floorSprite: 301
    # handSprite: 1340 OJITO
     weight: 3
@@ -6047,9 +6261,9 @@ items:
     size: 0.05
     costSell: 8000
     weight: 2
-    bigSprite: 674
-    floorSprite: 674
-   # handSprite: 1340 OJITO
+    bigSprite: 9796
+    floorSprite: 9796
+    handSprite: 9796
     power: 75
     damageType: 3
     battleType: 4
@@ -6073,9 +6287,9 @@ items:
     size: 0.05
     costSell: 8500
     weight: 2
-    bigSprite: 675
-    floorSprite: 675
-   # handSprite: 1340 OJITO
+    bigSprite: 9812
+    floorSprite: 9812
+    handSprite: 9812
     power: 80
     damageType: 3
     battleType: 4
@@ -6100,9 +6314,9 @@ items:
     size: 0.12
     costSell: 16000
     weight: 4
-    bigSprite: 2652
-    floorSprite: 2652
-    handSprite: 2662
+    bigSprite: 9828
+    floorSprite: 9828
+    handSprite: 9828
     power: 80
     damageType: 3
     damageAlter: # ojito revisar mejor equivalente de xfiles
@@ -6133,9 +6347,9 @@ items:
     size: 0.1
     costSell: 14850
     weight: 3
-    bigSprite: 2653
-    floorSprite: 38
-    handSprite: 2672
+    bigSprite: 9844
+    floorSprite: 9844
+    handSprite: 9844
     power: 85
     damageType: 3
     battleType: 4
@@ -6157,9 +6371,9 @@ items:
     size: 0.025
     costSell: 17500
     weight: 3
-    bigSprite: 433
-    floorSprite: 433
-   # handSprite: 1340 OJITO
+    bigSprite: 9860
+    floorSprite: 9860
+    handSprite: 9860
     power: 90
     damageType: 3
     battleType: 5
@@ -6181,10 +6395,10 @@ items:
   - type: STR_BO_SATCHEL_CHARGE   #ojito luego editar para q tenga stats correctos
     costBuy: 3
     costSell: 1
-    bigSprite: 210
-   # floorSprite: 301
+    bigSprite: 9876
+    floorSprite: 9876
+    handSprite: 9876
     power: 65
-    handSprite: 216
     damageType: 3
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
@@ -6200,7 +6414,6 @@ items:
 #      IgnoreOverKill: false
     size: 0.25
     weight: 6
-    floorSprite: 434
     battleType: 4
     invWidth: 1
     invHeight: 1
@@ -6213,9 +6426,9 @@ items:
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 3
     costSell: 1
-   # bigSprite: 301
-   # floorSprite: 301
-    handSprite: 216
+    bigSprite: 9892
+    floorSprite: 9892
+    handSprite: 9892
     damageType: 3
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
@@ -6232,9 +6445,9 @@ items:
     listOrder: 2916
   - type: STR_BO_ELERIUM_CHARGE   #ojito ordenar bien q onda los stats
     costSell: 1
-    bigSprite: 439
-   # floorSprite: 301
-    handSprite: 216
+    bigSprite: 9908
+    floorSprite: 9908
+    handSprite: 9908
     damageType: 3
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
@@ -6250,7 +6463,6 @@ items:
 #      IgnoreOverKill: false
     size: 0.25
     weight: 6
-    floorSprite: 434
     power: 200
     battleType: 4
     invWidth: 2
@@ -6263,9 +6475,9 @@ items:
     size: 0.25
     costSell: 20000
     weight: 6
-    bigSprite: 434
-    floorSprite: 434
-    handSprite: 1050
+    bigSprite: 9924
+    floorSprite: 9924
+    handSprite: 9924
     power: 200
     damageType: 3
     battleType: 4
@@ -6297,9 +6509,9 @@ items:
     costSell: 1200
     weight: 40
     throwRange: 2
-    bigSprite: 250
-    floorSprite: 250
-    handSprite: 190
+    bigSprite: 9940
+    floorSprite: 9940
+    handSprite: 9940
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -6342,9 +6554,9 @@ items:
     costSell: 1200
     throwRange: 5
     weight: 22
-    bigSprite: 251
-    floorSprite: 251
-    handSprite: 1245
+    bigSprite: 9956
+    floorSprite: 9956
+    handSprite: 9956
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -6377,7 +6589,6 @@ items:
     invWidth: 2
     invHeight: 2
     listOrder: 2921
-
 #######3
   - type: STR_BO_BREACHING_ANTIMATTER
 #    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
@@ -6387,9 +6598,9 @@ items:
     costBuy: 1600
     costSell: 1200
     weight: 8
-    bigSprite: 252
-    floorSprite: 252
-    handSprite: 1290
+    bigSprite: 9972
+    floorSprite: 9972
+    handSprite: 9972
     power: 150
     hitSound: 0
     hitAnimation: 0
@@ -6430,15 +6641,16 @@ items:
     size: 0.1
     costSell: 84000
     weight: 3
-    bigSprite: 350
-    floorSprite: 350
-    handSprite: 900
+    bigSprite: 10108
+    floorSprite: 10108
+    handSprite: 10108
     compatibleAmmo:
       - STR_AW_MAIN_PISTOL_CLIP1
-    accuracyAuto: 50
+      - STR_AW_MAIN_PISTOL_CLIP2
+    #accuracyAuto: 50
     accuracySnap: 65
     accuracyAimed: 85
-    tuAuto: 30
+    #tuAuto: 30
     tuSnap: 30
     tuAimed: 60
     battleType: 1
@@ -6453,26 +6665,6 @@ items:
     minRange: 0
     dropoff: 2
     listOrder: 3001
-  - type: STR_AW_MAIN_PISTOL_CLIP1
-    requires:
-      - STR_LIGHT_ALIEN_WEAPONS
-      - STR_AW_MAIN_PISTOL
-    size: 0.025
-    costSell: 4440
-    weight: 3
-    bigSprite: 351
-    floorSprite: 351
-    bulletSprite: 11
-    fireSound: 601
-    hitSound: 19
-    hitAnimation: 66
-    power: 56
-    damageType: 5
-    clipSize: 26
-    battleType: 2
-    recoveryPoints: 1
-    attraction: 10
-    listOrder: 3002
   - type: STR_AW_SMG
     requires:
       - STR_LIGHT_ALIEN_WEAPONS
@@ -6480,17 +6672,18 @@ items:
     size: 0.1
     costSell: 89000
     weight: 4
-    bigSprite: 352
-    floorSprite: 352
-    handSprite: 880
+    bigSprite: 10132
+    floorSprite: 10132
+    handSprite: 10132
     compatibleAmmo:
-      - STR_AW_SMG_CLIP1
+      - STR_AW_MAIN_PISTOL_CLIP1
+      - STR_AW_MAIN_PISTOL_CLIP2
     accuracyAuto: 52
     accuracySnap: 75
-    accuracyAimed: 97
+    #accuracyAimed: 97
     tuAuto: 28
     tuSnap: 25
-    tuAimed: 45
+    #tuAimed: 45
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -6504,23 +6697,45 @@ items:
     autoRange: 9
     minRange: 0
     dropoff: 2
-    listOrder: 3003
-  - type: STR_AW_SMG_CLIP1
+    listOrder: 3002
+  - type: STR_AW_MAIN_PISTOL_CLIP1
     requires:
       - STR_LIGHT_ALIEN_WEAPONS
-      - STR_AW_SMG
+      - STR_AW_MAIN_PISTOL
     size: 0.025
-    costSell: 4600
+    costSell: 4440
     weight: 3
-    bigSprite: 353
-    floorSprite: 353
+    bigSprite: 10500
+    floorSprite: 10500
+    handSprite: 10500
     bulletSprite: 11
     fireSound: 601
     hitSound: 19
     hitAnimation: 66
-    power: 67
+    power: 56
     damageType: 5
-    clipSize: 30
+    clipSize: 26
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3003
+  - type: STR_AW_MAIN_PISTOL_CLIP2
+    requires:
+      - STR_LIGHT_ALIEN_WEAPONS
+      - STR_AW_MAIN_PISTOL
+    size: 0.025
+    costSell: 4440
+    weight: 3
+    bigSprite: 10508
+    floorSprite: 10508
+    handSprite: 10508
+    bulletSprite: 11
+    fireSound: 601
+    hitSound: 19
+    hitAnimation: 66
+    power: 56
+    damageType: 5
+    clipSize: 26
     battleType: 2
     recoveryPoints: 1
     attraction: 10
@@ -6532,11 +6747,12 @@ items:
     size: 0.2
     costSell: 126500
     weight: 5
-    bigSprite: 356
-    floorSprite: 356
-    handSprite: 890
+    bigSprite: 10164
+    floorSprite: 10164
+    handSprite: 10164
     compatibleAmmo:
       - STR_AW_SHOTGUN_CLIP1
+      - STR_AW_SHOTGUN_CLIP2
     accuracyAuto: 40
     accuracySnap: 75
     accuracyAimed: 90
@@ -6563,9 +6779,9 @@ items:
     size: 0.025
     costSell: 6290
     weight: 3
-    bigSprite: 357
-    floorSprite: 357
-    bulletSprite: 11
+    bigSprite: 10532
+    floorSprite: 10532
+    #bulletSprite: 10532
     fireSound: 607
     hitSound: 19
     hitAnimation: 66
@@ -6577,6 +6793,28 @@ items:
     recoveryPoints: 1
     attraction: 10
     listOrder: 3006
+  - type: STR_AW_SHOTGUN_CLIP2
+    requires:
+      - STR_AW_SHOTGUN
+      - STR_MEDIUM_ALIEN_WEAPONS
+    size: 0.025
+    costSell: 6290
+    weight: 3
+    bigSprite: 10540
+    floorSprite: 10540
+    handSprite: 10540
+    bulletSprite: 11
+    fireSound: 607
+    hitSound: 19
+    hitAnimation: 66
+    power: 60
+    damageType: 5
+    clipSize: 12
+    shotgunPellets: 4
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3007
   - type: STR_AW_RIFLE
     requires:
       - STR_AW_RIFLE
@@ -6584,9 +6822,9 @@ items:
     size: 0.2
     costSell: 126500
     weight: 5
-    bigSprite: 354
-    floorSprite: 354
-    handSprite: 910
+    bigSprite: 10188
+    floorSprite: 10188
+    handSprite: 10188
     compatibleAmmo:
       - STR_AW_RIFLE_CLIP1
       - STR_AW_RIFLE_CLIP2
@@ -6610,7 +6848,7 @@ items:
     autoRange: 15
     minRange: 0
     dropoff: 2
-    listOrder: 3007
+    listOrder: 3008
   - type: STR_AW_RIFLE_CLIP1
     requires:
       - STR_MEDIUM_ALIEN_WEAPONS
@@ -6618,8 +6856,9 @@ items:
     size: 0.025
     costSell: 6290
     weight: 3
-    bigSprite: 355
-    floorSprite: 355
+    bigSprite: 10548
+    floorSprite: 10548
+    handSprite: 10548
     bulletSprite: 11
     fireSound: 607
     hitSound: 19
@@ -6630,7 +6869,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    listOrder: 3008
+    listOrder: 3009
   - type: STR_AW_RIFLE_CLIP2
     requires:
       - STR_AW_RIFLE_CLIP2
@@ -6638,8 +6877,9 @@ items:
     size: 0.025
     costSell: 6690
     weight: 3
-    bigSprite: 402
-    floorSprite: 402
+    bigSprite: 10556
+    floorSprite: 10556
+    handSprite: 10556
     bulletSprite: 8
     fireSound: 607
     hitSound: 19
@@ -6650,7 +6890,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    listOrder: 3009
+    listOrder: 3010
   - type: STR_AW_RIFLE_CLIP3
     requires:
       - STR_AW_RIFLE_CLIP3
@@ -6658,8 +6898,9 @@ items:
     size: 0.025
     costSell: 6990
     weight: 3
-    bigSprite: 403
-    floorSprite: 403
+    bigSprite: 10564
+    floorSprite: 10564
+    handSprite: 10564
     bulletSprite: 12
     fireSound: 607
     hitSound: 19
@@ -6682,7 +6923,7 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
-    listOrder: 3010
+    listOrder: 3011
   - type: STR_AW_LMG
     requires:
       - STR_AW_LMG
@@ -6690,9 +6931,9 @@ items:
     size: 0.2
     costSell: 171600
     weight: 8
-    bigSprite: 360
-    floorSprite: 360
-    handSprite: 860
+    bigSprite: 10220
+    floorSprite: 10220
+    handSprite: 10220
     compatibleAmmo:
       - STR_AW_LMG_CLIP1
       - STR_AW_LMG_CLIP2
@@ -6716,7 +6957,7 @@ items:
     autoRange: 12
     minRange: 0
     dropoff: 2
-    listOrder: 3011
+    listOrder: 3012
   - type: STR_AW_LMG_CLIP1
     requires:
       - STR_AW_LMG
@@ -6724,8 +6965,9 @@ items:
     size: 0.1
     costSell: 9590
     weight: 3
-    bigSprite: 361
-    floorSprite: 361
+    bigSprite: 10572
+    floorSprite: 10572
+    handSprite: 10572
     bulletSprite: 11
     fireSound: 610
     hitSound: 19
@@ -6736,7 +6978,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    listOrder: 3012
+    listOrder: 3013
   - type: STR_AW_LMG_CLIP2
     requires:
       - STR_AW_LMG_CLIP2
@@ -6744,8 +6986,9 @@ items:
     size: 0.1
     costSell: 12200
     weight: 3
-    bigSprite: 408
-    floorSprite: 408
+    bigSprite: 10580
+    floorSprite: 10508
+    handSprite: 10508
     bulletSprite: 8
     fireSound: 610
     hitSound: 19
@@ -6756,7 +6999,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    listOrder: 3013
+    listOrder: 3014
   - type: STR_AW_LMG_CLIP3
     requires:
       - STR_AW_LMG_CLIP3
@@ -6764,8 +7007,9 @@ items:
     size: 0.1
     costSell: 14000
     weight: 3
-    bigSprite: 409
-    floorSprite: 409
+    bigSprite: 10588
+    floorSprite: 10588
+    handSprite: 10588
     bulletSprite: 12
     fireSound: 610
     hitSound: 19
@@ -6788,7 +7032,7 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
-    listOrder: 3014
+    listOrder: 3015
   - type: STR_AW_SNIPER
     requires:
       - STR_AW_SNIPER
@@ -6796,9 +7040,9 @@ items:
     size: 0.2
     costSell: 150000
     weight: 7
-    bigSprite: 358
-    floorSprite: 358
-    handSprite: 920
+    bigSprite: 10252
+    floorSprite: 10252
+    handSprite: 10252
     compatibleAmmo:
       - STR_AW_SNIPER_CLIP1
       - STR_AW_SNIPER_CLIP2
@@ -6818,7 +7062,7 @@ items:
     snapRange: 28
     minRange: 4
     dropoff: 2
-    listOrder: 3015
+    listOrder: 3016
   - type: STR_AW_SNIPER_CLIP1
     requires:
       - STR_AW_SNIPER
@@ -6826,8 +7070,9 @@ items:
     size: 0.025
     costSell: 7000
     weight: 3
-    bigSprite: 359
-    floorSprite: 359
+    bigSprite: 10596
+    floorSprite: 10596
+    handSprite: 10596
     bulletSprite: 11
     fireSound: 609
     hitSound: 19
@@ -6838,7 +7083,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    listOrder: 3016
+    listOrder: 3017
   - type: STR_AW_SNIPER_CLIP2
     requires:
       - STR_AW_SNIPER_CLIP2
@@ -6846,8 +7091,9 @@ items:
     size: 0.025
     costSell: 7700
     weight: 3
-    bigSprite: 406
-    floorSprite: 406
+    bigSprite: 10604
+    floorSprite: 10604
+    handSprite: 10604
     bulletSprite: 8
     fireSound: 609
     hitSound: 19
@@ -6858,7 +7104,7 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    listOrder: 3017
+    listOrder: 3018
   - type: STR_AW_HEAVY_CANNON
     requires:
       - STR_AW_HEAVY_CANNON
@@ -6866,12 +7112,13 @@ items:
     size: 0.2
     costSell: 250000
     weight: 10
-    bigSprite: 362
-    floorSprite: 362
-    handSprite: 870
+    bigSprite: 10276
+    floorSprite: 10276
+    handSprite: 10276
     fireSound: 610
     compatibleAmmo:
       - STR_AW_HEAVY_CANNON_CLIP1
+      - STR_AW_HEAVY_CANNON_CLIP2
       - STR_AW_HEAVY_CANNON_CLIP3
     accuracySnap: 70
     accuracyAimed: 100
@@ -6889,7 +7136,7 @@ items:
     snapRange: 15
     minRange: 5
     dropoff: 2
-    listOrder: 3018
+    listOrder: 3019
   - type: STR_AW_HEAVY_CANNON_CLIP1
     requires:
       - STR_AW_HEAVY_CANNON
@@ -6897,8 +7144,9 @@ items:
     size: 0.2
     costSell: 12000
     weight: 3
-    bigSprite: 363
-    floorSprite: 363
+    bigSprite: 10612
+    floorSprite: 10612
+    handSprite: 10612
     bulletSprite: 11
     hitSound: 19
     hitAnimation: 66
@@ -6908,7 +7156,27 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 10
-    listOrder: 3019
+    listOrder: 3020
+  - type: STR_AW_HEAVY_CANNON_CLIP2
+    requires:
+      - STR_AW_HEAVY_CANNON
+      - STR_HEAVY_ALIEN_WEAPONS
+    size: 0.2
+    costSell: 12000
+    weight: 3
+    bigSprite: 10620
+    floorSprite: 10620
+    handSprite: 10620
+    bulletSprite: 11
+    hitSound: 19
+    hitAnimation: 66
+    power: 150
+    damageType: 5
+    clipSize: 8
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 10
+    listOrder: 3021
   - type: STR_AW_HEAVY_CANNON_CLIP3
     requires:
       - STR_AW_HEAVY_CANNON_CLIP3
@@ -6916,8 +7184,9 @@ items:
     size: 0.2
     costSell: 16000
     weight: 3
-    bigSprite: 411
-    floorSprite: 411
+    bigSprite: 10628
+    floorSprite: 10628
+    handSprite: 10628
     bulletSprite: 12
     hitSound: 19
 #    hitAnimation: 76
@@ -6939,8 +7208,152 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
-    listOrder: 3021
-# Elite alien weaponry
+    listOrder: 3022
+# Elite alien weaponry #ojito
+  - type: STR_AW_ELITE_PISTOL
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 10308
+    floorSprite: 10308
+    handSprite: 10308
+    bulletSprite: 8
+    fireSound: 607
+    compatibleAmmo:
+      - STR_AW_ELITE_PISTOL_CLIP
+    accuracyAuto: 70
+    accuracySnap: 85
+    accuracyAimed: 130
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 5
+    armor: 65
+    attraction: 1
+    listOrder: 3030 #ojito modificar cuando agregue armas elite nuevas
+  - type: STR_AW_ELITE_PISTOL_CLIP
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE_CLIP
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 10636
+    floorSprite: 10636
+    handSprite: 10636
+    hitSound: 19
+    hitAnimation: 46
+    power: 125
+    damageType: 4
+    clipSize: 35
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 1
+    listOrder: 3031 #ojito modificar cuando agregue armas elites nuevas
+
+  - type: STR_AW_ELITE_SMG
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 10324
+    floorSprite: 10324
+    handSprite: 10324
+    bulletSprite: 8
+    fireSound: 607
+    compatibleAmmo:
+      - STR_AW_ELITE_SMG_CLIP
+    accuracyAuto: 70
+    accuracySnap: 85
+    accuracyAimed: 130
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 5
+    armor: 65
+    attraction: 1
+    listOrder: 3033 #ojito modificar cuando agregue armas elite nuevas
+  - type: STR_AW_ELITE_SMG_CLIP
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE_CLIP
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 10652
+    floorSprite: 10652
+    handSprite: 10652
+    hitSound: 19
+    hitAnimation: 46
+    power: 125
+    damageType: 4
+    clipSize: 35
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 1
+    listOrder: 3032 #ojito modificar cuando agregue armas elites nuevas
+
+  - type: STR_AW_ELITE_SHOTGUN
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 10340
+    floorSprite: 10340
+    handSprite: 10340
+    bulletSprite: 8
+    fireSound: 607
+    compatibleAmmo:
+      - STR_AW_ELITE_SHOTGUN_CLIP
+    accuracyAuto: 70
+    accuracySnap: 85
+    accuracyAimed: 130
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 65
+    attraction: 1
+    listOrder: 3034 #ojito modificar cuando agregue armas elite nuevas
+  - type: STR_AW_ELITE_SHOTGUN_CLIP
+    requires:
+      - STR_ELITE_ALIEN_WEAPONS
+#      - STR_AW_ELITE_RIFLE_CLIP
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 10668
+    floorSprite: 10668
+    handSprite: 10668
+    hitSound: 19
+    hitAnimation: 46
+    power: 125
+    damageType: 4
+    clipSize: 35
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 1
+    listOrder: 3035 #ojito modificar cuando agregue armas elites nuevas
+
   - type: STR_AW_ELITE_RIFLE
     requires:
       - STR_ELITE_ALIEN_WEAPONS
@@ -6948,9 +7361,9 @@ items:
     size: 0.2
     costSell: 171600
     weight: 8
-    bigSprite: 391
-    floorSprite: 391
-    handSprite: 1030
+    bigSprite: 10356
+    floorSprite: 10356
+    handSprite: 10356
     bulletSprite: 8
     fireSound: 607
     compatibleAmmo:
@@ -6968,7 +7381,7 @@ items:
     recoveryPoints: 5
     armor: 65
     attraction: 1
-    listOrder: 3030 #ojito modificar cuando agregue armas elite nuevas
+    listOrder: 3036 #ojito modificar cuando agregue armas elite nuevas
   - type: STR_AW_ELITE_RIFLE_CLIP
     requires:
       - STR_ELITE_ALIEN_WEAPONS
@@ -6976,8 +7389,9 @@ items:
     size: 0.3
     costSell: 9590
     weight: 3
-    bigSprite: 392
-    floorSprite: 392
+    bigSprite: 10684
+    floorSprite: 10684
+    handSprite: 10684
     hitSound: 19
     hitAnimation: 46
     power: 125
@@ -6986,15 +7400,16 @@ items:
     battleType: 2
     recoveryPoints: 1
     attraction: 1
-    listOrder: 3031 #ojito modificar cuando agregue armas elites nuevas
+    listOrder: 3037 #ojito modificar cuando agregue armas elites nuevas
 # Extra alien weaponry
   - type: STR_SMALL_LAUNCHER   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_SMALL_LAUNCHER
       - STR_MEDIUM_ALIEN_WEAPONS
-    bigSprite: 375
-    floorSprite: 375
-    handSprite: 1020
+    arcingShot: true #ojito experimentando
+    bigSprite: 10372
+    floorSprite: 10372
+    handSprite: 10372
     bulletSprite: 9
     attraction: 10
     size: 0.2
@@ -7019,8 +7434,9 @@ items:
     requires:
       - STR_STUN_BOMB
       - STR_MEDIUM_ALIEN_WEAPONS
-    bigSprite: 376
-    floorSprite: 376
+    bigSprite: 10700
+    floorSprite: 10700
+    handSprite: 10372
     attraction: 10
     size: 0.1
     costSell: 15200
@@ -7051,8 +7467,9 @@ items:
     requires:
       - STR_STUN_BOMB2
       - STR_MEDIUM_ALIEN_WEAPONS
-    bigSprite: 400
-    floorSprite: 400
+    bigSprite: 10708
+    floorSprite: 10708
+    handSprite: 10708
     attraction: 10
     size: 0.1
     costSell: 15200
@@ -7083,8 +7500,9 @@ items:
     requires:
       - STR_STUN_BOMB3
       - STR_HEAVY_ALIEN_WEAPONS
-    bigSprite: 401
-    floorSprite: 401
+    bigSprite: 10716
+    floorSprite: 10716
+    handSprite: 10716
     attraction: 10
     size: 0.1
     costSell: 15200
@@ -7118,13 +7536,15 @@ items:
     size: 0.3
     costSell: 144000
     weight: 16
-    bigSprite: 35
-    floorSprite: 34
-    handSprite: 56
+    bigSprite: 10404
+    floorSprite: 10404
+    handSprite: 10404
     bulletSprite: 10
     fireSound: 53
     compatibleAmmo:
       - STR_BLASTER_BOMB
+      - STR_BLASTER_BOMB2
+      - STR_BLASTER_BOMB3
     accuracyAimed: 120
     tuAimed: 80
     battleType: 1
@@ -7139,19 +7559,70 @@ items:
     requires:
       - STR_BLASTER_BOMB
       - STR_SPECIAL_ALIEN_WEAPONS
-    bigSprite: 373
-    floorSprite: 373
-    handSprite: 1280
+    bigSprite: 10724
+    floorSprite: 10724
+    handSprite: 10724
     invWidth: 2
     invHeight: 1
     attraction: 10
     listOrder: 3045
+  - type: STR_BLASTER_BOMB2 #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_BLASTER_BOMB2
+      - STR_SPECIAL_ALIEN_WEAPONS
+    bigSprite: 10732
+    floorSprite: 10732
+    handSprite: 10732
+    invWidth: 2
+    invHeight: 1
+    power: 250
+    damageType: 2
+    damageAlter: # continuar este revisar equivalente xfiles
+      RandomType: 2
+      ResistType: 2
+      FixRadius: 10
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+#      IgnoreOverKill: false
+    attraction: 10
+    listOrder: 3046
+  - type: STR_BLASTER_BOMB3  #ojito luego cambiar nombre para mantener nomenclatura
+    requires:
+      - STR_BLASTER_BOMB3
+      - STR_SPECIAL_ALIEN_WEAPONS
+    bigSprite: 10740
+    floorSprite: 10740
+    handSprite: 10740
+    power: 350
+    damageType: 10
+    damageAlter: # continuar este revisar equivalente xfiles ojito
+      RandomType: 2
+      ResistType: 10
+      FixRadius: 2
+      RadiusReduction: 5
+      FireThreshold: 30
+      ToHealth: 2.0
+      ToMorale: 5.0
+      ToArmorPre: 0.05
+      ToStun: 0.7
+      ToTile: 0.25
+    invWidth: 2
+    invHeight: 1
+    attraction: 10
+    listOrder: 3047
 #----- Alien Ordnance Tier -----#
   - type: STR_ALIEN_GRENADE   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_ALIEN_GRENADE
       - STR_LIGHT_ALIEN_WEAPONS
-    bigSprite: 364
+    bigSprite: 10900
+    floorSprite: 10900
+    handSprite: 10900
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
       ResistType: 5
@@ -7165,8 +7636,6 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     fuseType: -1
-    floorSprite: 364
-    handSprite: 850
     attraction: 6
     listOrder: 3051
   - type: STR_AW_PROXY_GRENADE
@@ -7176,8 +7645,9 @@ items:
     size: 0.025
     costSell: 17500
     weight: 3
-    bigSprite: 370
-    floorSprite: 370
+    bigSprite: 10916
+    floorSprite: 10916
+    handSprite: 10916
     power: 95
     damageType: 3
     battleType: 5
@@ -7204,9 +7674,9 @@ items:
     size: 0.25
     costSell: 20000
     weight: 5
-    bigSprite: 366
-    floorSprite: 366
-    handSprite: 1040
+    bigSprite: 10932
+    floorSprite: 10932
+    handSprite: 10932
     power: 225
     damageType: 3
     battleType: 4
