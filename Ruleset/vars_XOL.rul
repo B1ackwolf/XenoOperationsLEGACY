@@ -58,7 +58,7 @@ fixedUserOptions:
   battleInstantGrenade: false
   weaponSelfDestruction: true
 #BOXCE
-  displayHiddenAlienActivity: 1
+  displayHiddenAlienActivity: 0
   baseDefenseProbability: true
   baseDetectionProbability: true
   battleRealisticAccuracy: true

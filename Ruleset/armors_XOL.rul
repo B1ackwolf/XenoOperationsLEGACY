@@ -203,6 +203,7 @@ armors:
 #
   - type: STR_KEVLAR_VEST_ARMOR_TAN_UC
     spriteSheet: XOPS_XCOM_1.PCK
+    ufopediaType: STR_KEVLAR_VEST_ARMOR_TAN_UC
     customArmorPreviewIndex: 1
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -385,6 +386,7 @@ armors:
 #
   - type: STR_KEVLAR_VEST_ARMOR_BLACK_UC
     spriteSheet: XOPS_XCOM_2.PCK
+    ufopediaType: STR_KEVLAR_VEST_ARMOR_TAN_UC
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       8: VEST_BLACK

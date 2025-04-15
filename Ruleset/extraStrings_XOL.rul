@@ -1,4 +1,4 @@
-# Made by B1ackwolf for XOPS-Legacy
+﻿# Made by B1ackwolf for XOPS-Legacy
 # Consideration to delete this and migrate it into the "language folder" format, making it compatible with transifex
 # Status:SEVERELY Reorder and clean, improve "#" notations. Add stuff from the To-Do list (improve LORE and add new strings).
 
@@ -1057,11 +1057,11 @@ extraStrings:
       STR_NULL_HAND_RIGHT: ""
 #-----Craft and Craft Weapons
       STR_SR71: XRS-71G CORMORANT
-      STR_INTERCEPTOR: XCF-0 BISHOP
-      STR_UPDATED_INTERCEPTOR: XCF-1 RIDER
-      STR_XCF2: XCF-2 ROOK
-      STR_XCF3: XCF-3 EMPRESS
-      STR_XCF4: XCF-4 MONARCH
+      STR_INTERCEPTOR: XCF-0 GAMBIT
+      STR_UPDATED_INTERCEPTOR: XCF-1 BISHOP
+      STR_XCF2: XCF-2 RIDER
+      STR_XCF3: XCF-3 ROOK
+      STR_XCF4: XCF-4 EMPRESS
       STR_DRAGONFLY: XTP-1 DRAGONFLY
       STR_FIREFLY: XTP-2 FIREFLY
       STR_SCARAB: XTP-3 SCARAB
@@ -1709,8 +1709,8 @@ extraStrings:
       STR_EX_PSI_AMP_LARGE: Psionic Dominator
 #-----Human Armor
 #OJITO LIMPIAR y reordenar ARMADURAS REMANENTES
-      STR_KEVLAR_VEST_ARMOR_TAN_UC: LEGIONNAIRE ARMOR PATTERN
-      STR_KEVLAR_VEST_ARMOR_TAN: Kevlar Vest
+      STR_KEVLAR_VEST_ARMOR_TAN_UC: LEGIONNAIRE ARMOR (menu?)
+      STR_KEVLAR_VEST_ARMOR_TAN: Kevlar Vest ni idea
 
 
 
@@ -1891,7 +1891,7 @@ extraStrings:
       STR_BLASTER_LAUNCHER_UFOPEDIA: "This is an alien guided missile launcher which fires powerful 'blaster bombs'. When you click to fire the weapon it will generate 'way points' for the blaster bomb to follow. When you have positioned enough way points click on the special launch icon. A special level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture."
       STR_ALIEN_GRENADE_UFOPEDIA: "This device works in the same way as a terrestrial grenade - except that it is more powerful. A basic level lock prevents human use of this weapon and the technological components of this device are too advanced for XCom to manufacture."
 #-----UFOPaedia Human Equipment
-      STR_KEVLAR_VEST_ARMOR_UFOPEDIA: Kevlar Vest
+      STR_KEVLAR_VEST_ARMOR_UFOPEDIA: Kevlar Vest Ufopedia?
       STR_XOPS_ARMOR_UFOPEDIA: Xeno Operations Armor
       STR_ALLOY_ARMOR_UFOPEDIA: Alloy Armor
       STR_ALLOY_UFOPEDIA: Armor made from Alien Alloys. This gives a XCom agent a chance to survive against light alien firepower.
@@ -1976,10 +1976,10 @@ extraStrings:
       STR_CLUSTER_MISSILE_UFOPEDIA: A short-range anti-UFO missile system, the TRIDENT relies on chain-reacting explosions for extensive aerial coverage. Its rapid-fire capability is unmatched, though it excels at close encounters. It's the frontline choice for defending against UFO threats in the skies.
       STR_PILUM_UFOPEDIA: Pioneered by XCom, the PILUM marks the first true anti-UFO missile. Focusing on Precision thanks to advanced flight computers, a long-range nuclear warhead delivers maximum destructive force. It provides a needed choice for countering UFO threats at long range.
       STR_SR71_UFOPEDIA: The former USAF recon aircraft has been re-purposed as a long range radar craft.
-      STR_INTERCEPTOR_UFOPEDIA: As UFO activity escalated, X-Com collaborated with the USAF to expedite a program aimed at potential upgrades for their fifth-generation strike fighter. The outcome is the F35U, codenamed XCF-0 'Bishop', a current pinnacle of humanity's cutting-edge air supremacy technology.
+      STR_INTERCEPTOR_UFOPEDIA: As UFO activity escalated, X-Com collaborated with the USAF to expedite a program aimed at potential upgrades for their fifth-generation strike fighter. The outcome is the F35U, codenamed XCF-0 'Gambit', a current pinnacle of humanity's cutting-edge air supremacy technology.
       STR_UPDATED_INTERCEPTOR_UFOPEDIA: (WIP) new and improved f35 with xelloys.
-      STR_XCF2_UFOPEDIA: The XCF-2 'Rook' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the Knight is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
-      STR_XCF3_UFOPEDIA: (WIP) The XCF-3 'Empress' is a step up from the XCF-2 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
+      STR_XCF2_UFOPEDIA: The XCF-2 'Rider' is the first step in XCom aviation. Using new composite materials and a central hyper jet engine system, the rook is faster and more durable than any human fighter currently employed by Earth military forces. It should prove a match for smaller UFOs.
+      STR_XCF3_UFOPEDIA: (WIP) The XCF-3 'Rook' is a step up from the XCF-2 program. Partially constructed with Alien Alloys combined with a reverse wing configuration allows it to reach even faster speeds while offering superior maneuverability. The Rook surpasses most small UFOs in performance and can rival medium sized ones.
       STR_XCF4_UFOPEDIA: A fourth generation XCom interceptor, the XCF-4 'Empress' is made completely with Alien Alloys to reduce weight and increase durability. Its experimental engine is powerful enough to catch up to medium sized UFOs, however it requires special fuels that only XCom can manufacture.
       STR_HERCULES_UFOPEDIA: The HERCULES is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
       STR_GOLIATHUS_UFOPEDIA: The GOLIATHUS transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hercules' roof.

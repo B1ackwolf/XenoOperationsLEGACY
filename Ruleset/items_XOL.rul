@@ -599,8 +599,8 @@ items:
       FixRadius: 2
       RadiusReduction: 35
       FireThreshold: 1000
-      ToHealth: 1.0
-      ToMorale: 2.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.5
       ToTile: 0.35
@@ -1490,7 +1490,7 @@ items:
       RadiusReduction: 18
       FireThreshold: 1000
       ToHealth: 1.2
-      ToMorale: 2.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.6
       ToTile: 0.35
@@ -1523,15 +1523,15 @@ items:
     bigSprite: 4504
     floorSprite: 4504
     handSprite: 4504
-    damageType: 3
-    damageAlter:
+    damageType: 9
+    damageAlter: # Check how this interacts with the smoke grenade, specifically its damage type, radius, and effects on units or tiles.
       RandomType: 2
       ResistType: 9
       FixRadius: 3
       RadiusReduction: 55
       FireThreshold: 300
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 0.05
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -1600,8 +1600,8 @@ items:
       FixRadius: 1
       RadiusReduction: 40
       FireThreshold: 500
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -1622,8 +1622,8 @@ items:
       FixRadius: 2
       RadiusReduction: 25
       FireThreshold: 400
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.4
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -1642,8 +1642,8 @@ items:
       FixRadius: 2
       RadiusReduction: 15
       FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 2.4
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -2371,8 +2371,8 @@ items:
       FixRadius: 1
       RadiusReduction: 15
       FireThreshold: 1000
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -2457,8 +2457,8 @@ items:
       FixRadius: 1
       RadiusReduction: 30
       FireThreshold: 500
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -2485,8 +2485,8 @@ items:
       FixRadius: 2
       RadiusReduction: 20
       FireThreshold: 300
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -3329,8 +3329,8 @@ items:
       FixRadius: 1
       RadiusReduction: 25
       FireThreshold: 75
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -3357,8 +3357,8 @@ items:
       FixRadius: 2
       RadiusReduction: 25
       FireThreshold: 300
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -3409,8 +3409,8 @@ items:
       FixRadius: 3
       RadiusReduction: 40
       FireThreshold: 500
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -3437,8 +3437,8 @@ items:
       FixRadius: 3
       RadiusReduction: 35
       FireThreshold: 1000
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4075,8 +4075,8 @@ items:
       FixRadius: 0
       RadiusReduction: 25
       FireThreshold: 150
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4162,8 +4162,8 @@ items:
       FixRadius: 1
       RadiusReduction: 28
       FireThreshold: 150
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4249,8 +4249,8 @@ items:
       FixRadius: 1
       RadiusReduction: 38
       FireThreshold: 150
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4337,8 +4337,8 @@ items:
       FixRadius: 1
       RadiusReduction: 39
       FireThreshold: 150
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4422,8 +4422,8 @@ items:
       FixRadius: 1
       RadiusReduction: 40
       FireThreshold: 150
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4512,8 +4512,8 @@ items:
       FixRadius: 2
       RadiusReduction: 30
       FireThreshold: 150
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4601,8 +4601,8 @@ items:
       FixRadius: 3
       RadiusReduction: 30
       FireThreshold: 150
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4694,8 +4694,8 @@ items:
       FixRadius: 0
       RadiusReduction: 5
       FireThreshold: 100
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4811,8 +4811,8 @@ items:
       FixRadius: 0
       RadiusReduction: 5
       FireThreshold: 100
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -4928,8 +4928,8 @@ items:
       FixRadius: 1
       RadiusReduction: 5
       FireThreshold: 120
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 1.25
@@ -5022,8 +5022,8 @@ items:
       FixRadius: 1
       RadiusReduction: 5
       FireThreshold: 100
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5113,8 +5113,8 @@ items:
       FixRadius: 1
       RadiusReduction: 5
       FireThreshold: 100
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5209,8 +5209,8 @@ items:
       FixRadius: 1
       RadiusReduction: 5
       FireThreshold: 100
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5301,8 +5301,8 @@ items:
       FixRadius: 1
       RadiusReduction: 5
       FireThreshold: 100
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5395,8 +5395,8 @@ items:
       FixRadius: 2
       RadiusReduction: 5
       FireThreshold: 100
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5449,8 +5449,8 @@ items:
       FixRadius: 4
       RadiusReduction: 35
       FireThreshold: 300
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.8
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5478,9 +5478,9 @@ items:
       ResistType: 10
       FixRadius: 5
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 1000
+      ToHealth: 2.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5509,9 +5509,9 @@ items:
       ResistType: 2
       FixRadius: 4
       RadiusReduction: 10
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 100
+      ToHealth: 1.8
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5590,9 +5590,9 @@ items:
       FixRadius: 0
       RandomType: 2
       RadiusReduction: 0
-      FireThreshold: 30
+      FireThreshold: 300
       ToHealth: 0.25
-      ToMorale: 5.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
 #      IgnoreOverKill: false
     clipSize: 2
@@ -5625,9 +5625,9 @@ items:
       FixRadius: 0
       RandomType: 2
       RadiusReduction: 0
-      FireThreshold: 30
+      FireThreshold: 300
       ToHealth: 0.25
-      ToMorale: 5.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
 #      IgnoreOverKill: false
     clipSize: 2
@@ -5701,9 +5701,9 @@ items:
       ResistType: 6
       FixRadius:  0 #antes 5? averiguar porq tenia rango
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 0.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5757,11 +5757,11 @@ items:
     damageAlter: # continuar este, investigar xq rango era 0
       RandomType: 2
       ResistType: 6
-      FixRadius: 10
+      FixRadius: 0
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 0.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -5789,11 +5789,11 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 6
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 0.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6140,15 +6140,15 @@ items:
     damageAlter: # continuar este revisar en xfiles la granada de humo
       RandomType: 2
       ResistType: 9
-      FixRadius: 10
-      RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FixRadius: 3
+      RadiusReduction: 25
+      FireThreshold: 300
+      ToHealth: 0.05
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
-#      IgnoreOverKill: false
+# #      IgnoreOverKill: false
     listOrder: 2901
 ##############
 #  - type: STR_BO_FLASH_GRENADE   #ojito luego implementarla correctanme
@@ -6171,11 +6171,11 @@ items:
     damageAlter: # continuar este, revisar granadas incendiarias de xfiles
       RandomType: 2
       ResistType: 2
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
       FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6191,11 +6191,11 @@ items:
     damageAlter: # continuar este, revisar equivalente xfiles
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6217,11 +6217,11 @@ items:
     damageAlter: # continuar este, revisar equivalente xfiles
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 3
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 3000
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6246,11 +6246,11 @@ items:
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6270,11 +6270,11 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6296,11 +6296,11 @@ items:
     damageAlter: # continuar este, revisar algun equivalente granada quimica xfiles
       RandomType: 2
       ResistType: 8
-      FixRadius: 10
+      FixRadius: 3
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6356,11 +6356,11 @@ items:
     damageAlter: # continuar este revisar equivalente a xfiles
       RandomType: 2
       ResistType: 5
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6380,11 +6380,11 @@ items:
     damageAlter: # continuar este, revisar equivalente xfiles
       RandomType: 2
       ResistType: 5
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6403,11 +6403,11 @@ items:
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 3
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 300
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6433,11 +6433,11 @@ items:
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 3
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 100
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6452,11 +6452,11 @@ items:
     damageAlter: # continuar este, revisar xfiles
       RandomType: 2
       ResistType: 5
-      FixRadius: 10
+      FixRadius: 3
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 150
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6486,11 +6486,11 @@ items:
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 4
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 3000
+      ToHealth: 1.8
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -6914,11 +6914,11 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 3000
+      ToHealth: 1.8
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7023,11 +7023,11 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 3000
+      ToHealth: 1.8
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7199,11 +7199,11 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 10
-      FixRadius: 10
+      FixRadius: 1
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 3000
+      ToHealth: 1.8
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7448,11 +7448,11 @@ items:
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
       ResistType: 6
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 3000
+      ToHealth: 0.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7481,11 +7481,11 @@ items:
     damageAlter: # continuar este revisar explosivos quimicos xfiles
       RandomType: 2
       ResistType: 8
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
       FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      ToHealth: 1.0
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7514,11 +7514,11 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 3
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 100
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7580,11 +7580,11 @@ items:
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
       ResistType: 2
-      FixRadius: 10
+      FixRadius: 3
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 150
+      ToHealth: 1.8
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7605,9 +7605,9 @@ items:
       ResistType: 10
       FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 150
+      ToHealth: 2.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7626,11 +7626,11 @@ items:
     damageAlter: # continuar este revisar equivalente xfiles
       RandomType: 2
       ResistType: 5
-      FixRadius: 10
+      FixRadius: 2
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 120
+      ToHealth: 1.3
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7656,9 +7656,9 @@ items:
       ResistType: 5
       FixRadius: 10
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 150
+      ToHealth: 1.2
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25
@@ -7685,11 +7685,11 @@ items:
     damageAlter: # continuar este
       RandomType: 2
       ResistType: 5
-      FixRadius: 10
+      FixRadius: 5
       RadiusReduction: 5
-      FireThreshold: 30
-      ToHealth: 2.0
-      ToMorale: 5.0
+      FireThreshold: 3000
+      ToHealth: 2.5
+      ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
       ToTile: 0.25

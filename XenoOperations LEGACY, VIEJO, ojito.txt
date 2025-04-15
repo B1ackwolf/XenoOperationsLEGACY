@@ -84,7 +84,7 @@ Changelog:
 
 #################
 
-Version 0.97.07 LE /// ultima revision de changelog: "merge branch 11-3-24"
+Version 0.98.01 LE (beta candidate 1?) /// last revision of the changelog: "merge branch 11-3-24" ###(WIP, refine later)
 
 these options are now enforced in the options, some options will apply only if you play using BRUTAL AI (heavily recommended)
 - Lazy Loading (fundamental to avoiding startups CTDs)
