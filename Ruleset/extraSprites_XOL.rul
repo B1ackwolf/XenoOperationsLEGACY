@@ -341,8 +341,8 @@ extraSprites:
       6388: Resources/WeaponrySprites/4thLaser/BigOb/3LaserShotgun_b3.png
       6396: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_off.png
       6404: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.png
-      6428: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.png
-      6436: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b1.png
+      6428: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b2.png
+      6436: Resources/WeaponrySprites/4thLaser/BigOb/4LaserRifle_b3.png
       6444: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_off.png
       6452: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b1.png
       6460: Resources/WeaponrySprites/4thLaser/BigOb/5LaserLmg_b2.png
@@ -2303,7 +2303,7 @@ extraSprites:
       911: Resources/UxUi/InterWin/CraftIcons/SR71_dogfight.gif
 
 
-#----- NEW UFO IMAGES -----# ###### Ojito acomodar nombres? ######
+#----- NEW UFO IMAGES -----# #ojito acomodar nombres? ######
   - type: UFOLABSHIP
     singleImage: true
     width: 160
@@ -2417,7 +2417,7 @@ extraSprites:
     files:
       0: Resources/UxUi/BackgroundFiles/BackgroundArmors.gif
 
-### ojito, esto tendra distintos colores, son las imagenes de fondo
+##ojito, esto tendra distintos colores, son las imagenes de fondo
   # - type: BACK02.SCR
   #   singleImage: true
   #   width: 320
@@ -2968,7 +2968,7 @@ extraSprites:
     files:
       0: Resources/UxUi/FlagSprites/ZZZDoges.png
 #----- Flags ENDING -----#
-#----- MISC Ojito -----#
+#----- MISC#ojito -----#
   - type: TinyRanks
     width: 175
     height: 7
@@ -2999,7 +2999,7 @@ extraSprites:
     subY: 8
     files:
       0: Resources/UxUi/SpriteSheets/Condecorations_sheet.png
-####OJITO Reorder below this
+##ojito Reorder below this
   - type: GRAPHS.SPK
     singleImage: true
     width: 320
@@ -3772,7 +3772,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/UfopediaImages/UpediaPlanes/XTPX.gif
-#----- Xcom Mechanical support Unitos OJITO -----#
+#----- Xcom Mechanical support Unitos#ojito -----#
   - type: AIRDRONEUFO
     singleImage: true
     width: 320
@@ -3833,13 +3833,13 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/SectoidArmored_race.gif
+      0: Resources/UfopediaImages/UpediaRaces/Mechtoid_race.gif
   - type: UFOPAEDIA_IMG_ARMORED_SECTOID_CORPSE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/SectoidArmored_body.gif
+      0: Resources/UfopediaImages/UpediaRaces/Mechtoid_body.gif
   - type: UP018.SPK
     singleImage: true
     width: 320
@@ -3857,25 +3857,25 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Formic_race.gif
+      0: Resources/UfopediaImages/UpediaRaces/Formid_race.gif
   - type: UFOPAEDIA_IMG_FORMIC_CORPSE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Formic_body.png
+      0: Resources/UfopediaImages/UpediaRaces/Formid_body.png
   - type: UP030.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Serpentoid_race.gif
+      0: Resources/UfopediaImages/UpediaRaces/Snakeman_race.gif
   - type: UP031.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Serpentoid_body.gif
+      0: Resources/UfopediaImages/UpediaRaces/Snakeman_body.gif
   - type: UP020.SPK
     singleImage: true
     width: 320
@@ -3887,7 +3887,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonWarrior_race.gif
+      0: Resources/UfopediaImages/UpediaRaces/MutonArmored_race.gif
   - type: UFOPAEDIA_IMG_MUTON_BERSERKER
     singleImage: true
     width: 320
@@ -3899,19 +3899,19 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonBasic_body.gif
+      0: Resources/UfopediaImages/UpediaRaces/MutonWarrior_body.gif
   - type: UFOPAEDIA_IMG_MUTON_COMMANDO
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonEnforcer_race.gif
+      0: Resources/UfopediaImages/UpediaRaces/MutonCommando_race.gif
   - type: UFOPAEDIA_IMG_MUTON_GUARD
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonElite_race.gif
+      0: Resources/UfopediaImages/UpediaRaces/MutonGuard_race.gif
   - type: UFOPAEDIA_IMG_MUTON_COMMANDO_CORPSE
     singleImage: true
     width: 320
@@ -3935,7 +3935,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/MutonCommander_body.gif
+      0: Resources/UfopediaImages/UpediaRaces/MutonElder_body.gif
   - type: UFOPAEDIA_IMG_CARCHARODON
     singleImage: true
     width: 320
@@ -3953,13 +3953,13 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Overlord_race.gif
+      0: Resources/UfopediaImages/UpediaRaces/Sovereign_race.gif
   - type: UFOPAEDIA_IMG_SOVEREIGN_CORPSE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UfopediaImages/UpediaRaces/Overlord_body.gif
+      0: Resources/UfopediaImages/UpediaRaces/Sovereign_body.gif
   - type: UP016.SPK
     singleImage: true
     width: 320
@@ -4015,6 +4015,22 @@ extraSprites:
     height: 200
     files:
       0: Resources/UfopediaImages/UpediaRaces/Spawn_body.gif
+
+  - type: UFOPAEDIA_IMG_ZOMBIE_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Zombie_body.png
+  - type: UFOPAEDIA_IMG_ZOMBIE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UfopediaImages/UpediaRaces/Zombie_race.png
+
+
+
   - type: UP012.SPK
     singleImage: true
     width: 320
@@ -4075,6 +4091,8 @@ extraSprites:
     height: 200
     files:
       0: Resources/UfopediaImages/UpediaRaces/Sectopod_body.gif
+
+ ##ojito eliminar silacoid raza
   - type: UP028.SPK
     singleImage: true
     width: 320
@@ -4208,7 +4226,7 @@ extraSprites:
     files:
       0: Resources/Doge/DOGE_CYBERSUIT.png
 
-#-----TANKS WIP, REORDER LATER OJITO
+#-----TANKS WIP, REORDER LATER#ojito
   - type: BASIC_TANK_AP_SPRITESHEET
     width: 256
     height: 160

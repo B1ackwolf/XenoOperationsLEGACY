@@ -1,23 +1,30 @@
-# Made by B1ackwolf for XOPS-Legacy
-# Status: Reorder and clean, almost finished, improve the "#" notation
+# Made by B1ackwolf for XOPS-Legacy.
+# Status:
+  # Reordering: Finished
+  # Pending: subject to change for balance and bug fixing purposes, edit "agression" and "intelligence" values.
+# Future edits: eliminate Silicoids entirely.
 units:
 
-#####reordenar todo
-
-#----- Alien Races -----#
-# Sectoids #
+#----- Main Alien Races -----#
+#-Sectoids-#
   - type: STR_SECTOID_SOLDIER
     deathSound: [901, 902]
+#
   - type: STR_SECTOID_ENGINEER
     deathSound: [901, 902]
+#
   - type: STR_SECTOID_MEDIC
     deathSound: [901, 902]
+#
   - type: STR_SECTOID_NAVIGATOR
     deathSound: [901, 902]
+#
   - type: STR_SECTOID_LEADER
     deathSound: [901, 902]
+#
   - type: STR_SECTOID_COMMANDER
     deathSound: [901, 902]
+#-Armored Sectoids-#
   - type: STR_ARMORED_SECTOID_SOLDIER
     race: STR_ARMORED_SECTOID
     rank: STR_LIVE_SOLDIER
@@ -40,6 +47,7 @@ units:
     deathSound: [901, 902]
     intelligence: 3
     aggression: 2
+#
   - type: STR_ARMORED_SECTOID_ENGINEER
     race: STR_ARMORED_SECTOID
     rank: STR_LIVE_ENGINEER
@@ -62,6 +70,7 @@ units:
     deathSound: [901, 902]
     intelligence: 6
     aggression: 2
+#
   - type: STR_ARMORED_SECTOID_MEDIC
     race: STR_ARMORED_SECTOID
     rank: STR_LIVE_MEDIC
@@ -84,6 +93,7 @@ units:
     deathSound: [901, 902]
     intelligence: 5
     aggression: 1
+#
   - type: STR_ARMORED_SECTOID_NAVIGATOR
     race: STR_ARMORED_SECTOID
     rank: STR_LIVE_NAVIGATOR
@@ -106,6 +116,7 @@ units:
     deathSound: [901, 902]
     intelligence: 4
     aggression: 2
+#
   - type: STR_ARMORED_SECTOID_LEADER
     race: STR_ARMORED_SECTOID
     rank: STR_LIVE_LEADER
@@ -128,6 +139,7 @@ units:
     deathSound: [901, 902]
     intelligence: 7
     aggression: 1
+#
   - type: STR_ARMORED_SECTOID_COMMANDER
     race: STR_ARMORED_SECTOID
     rank: STR_LIVE_COMMANDER
@@ -150,7 +162,7 @@ units:
     deathSound: [901, 902]
     intelligence: 8
     aggression: 0
-# Floaters #
+#-Floaters-#
   - type: STR_FLOATER_SOLDIER
     race: STR_FLOATER
     rank: STR_LIVE_SOLDIER
@@ -176,6 +188,7 @@ units:
     moveSound: 999
     intelligence: 4
     aggression: 2
+#
   - type: STR_FLOATER_ENGINEER
     race: STR_FLOATER
     rank: STR_LIVE_ENGINEER
@@ -201,6 +214,7 @@ units:
     moveSound: 999
     intelligence: 7
     aggression: 2
+#
   - type: STR_FLOATER_NAVIGATOR
     race: STR_FLOATER
     rank: STR_LIVE_NAVIGATOR
@@ -226,6 +240,7 @@ units:
     moveSound: 999
     intelligence: 5
     aggression: 2
+#
   - type: STR_FLOATER_MEDIC
     race: STR_FLOATER
     rank: STR_LIVE_MEDIC
@@ -251,6 +266,7 @@ units:
     moveSound: 999
     intelligence: 6
     aggression: 1
+#
   - type: STR_FLOATER_LEADER
     race: STR_FLOATER
     rank: STR_LIVE_LEADER
@@ -276,6 +292,7 @@ units:
     moveSound: 999
     intelligence: 8
     aggression: 0
+#
   - type: STR_FLOATER_COMMANDER
     race: STR_FLOATER
     rank: STR_LIVE_COMMANDER
@@ -301,234 +318,8 @@ units:
     moveSound: 999
     intelligence: 8
     aggression: 0
-# Serpentoids #
-  - type: STR_SNAKEMAN_SOLDIER
-    aggroSound: 910
-    deathSound: 911
-    moveSound: 912
-  - type: STR_SNAKEMAN_NAVIGATOR
-    aggroSound: 910
-    deathSound: 911
-    moveSound: 912
-  - type: STR_SNAKEMAN_ENGINEER
-    aggroSound: 910
-    deathSound: 911
-    moveSound: 912
-  - type: STR_SNAKEMAN_LEADER
-    aggroSound: 910
-    deathSound: 911
-    moveSound: 912
-  - type: STR_SNAKEMAN_COMMANDER
-    aggroSound: 910
-    deathSound: 911
-    moveSound: 912
-# Mutons #
-  - type: STR_MUTON_SOLDIER
-    aggroSound: 915
-    deathSound: 917
-  - type: STR_MUTON_NAVIGATOR
-    aggroSound: 915
-    deathSound: 917
-  - type: STR_MUTON_ENGINEER
-    aggroSound: 915
-    deathSound: 917
-  - type: STR_ARMORED_MUTON_SOLDIER
-    race: STR_ARMORED_MUTON
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 56
-      stamina: 90
-      health: 125
-      bravery: 80
-      reactions: 60
-      firing: 54
-      throwing: 62
-      strength: 70
-      psiStrength: 25
-      psiSkill: 0
-      melee: 76
-    armor: ARMORED_MUTON_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    aggroSound: 915
-    deathSound: 917
-    intelligence: 2
-    aggression: 2
-    energyRecovery: 40
-  - type: STR_ARMORED_MUTON_NAVIGATOR
-    race: STR_ARMORED_MUTON
-    rank: STR_LIVE_NAVIGATOR
-    stats:
-      tu: 56
-      stamina: 90
-      health: 125
-      bravery: 80
-      reactions: 60
-      firing: 54
-      throwing: 62
-      strength: 70
-      psiStrength: 25
-      psiSkill: 0
-      melee: 76
-    armor: ARMORED_MUTON_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 21
-    aggroSound: 915
-    deathSound: 917
-    intelligence: 3
-    aggression: 2
-    energyRecovery: 40
-  - type: STR_ARMORED_MUTON_ENGINEER
-    race: STR_ARMORED_MUTON
-    rank: STR_LIVE_ENGINEER
-    stats:
-      tu: 56
-      stamina: 90
-      health: 125
-      bravery: 80
-      reactions: 60
-      firing: 54
-      throwing: 62
-      strength: 70
-      psiStrength: 25
-      psiSkill: 0
-      melee: 76
-    armor: ARMORED_MUTON_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 23
-    aggroSound: 915
-    deathSound: 917
-    intelligence: 4
-    aggression: 2
-    energyRecovery: 40
-  - type: STR_MUTON_COMMANDO_SOLDIER
-    race: STR_MUTON_COMMANDO
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 75
-      stamina: 120
-      health: 155
-      bravery: 90
-      reactions: 75
-      firing: 62
-      throwing: 70
-      strength: 80
-      psiStrength: 70
-      psiSkill: 0
-      melee: 82
-    armor: MUTON_COMMANDO_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    aggroSound: 915
-    deathSound: 917
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
-  - type: STR_MUTON_GUARD
-    race: STR_MIXED
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 80
-      stamina: 150
-      health: 175
-      bravery: 110
-      reactions: 80
-      firing: 70
-      throwing: 75
-      strength: 80
-      psiStrength: 150
-      psiSkill: 0
-      melee: 90
-    armor: MUTON_GUARD_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    aggroSound: 915
-    deathSound: 916
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
-  - type: STR_MUTON_CHIEFTAIN
-    race: STR_ARMORED_MUTON
-    rank: STR_LIVE_COMMANDER
-    stats:
-      tu: 80
-      stamina: 150
-      health: 180
-      bravery: 95
-      reactions: 85
-      firing: 75
-      throwing: 75
-      strength: 85
-      psiStrength: 80
-      psiSkill: 0
-      melee: 95
-    armor: MUTON_CHIEFTAIN_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    aggroSound: 915
-    deathSound: 916
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
-  - type: STR_MUTON_WARLORD
-    race: STR_MUTON_COMMANDO
-    rank: STR_LIVE_COMMANDER
-    stats:
-      tu: 80
-      stamina: 150
-      health: 180
-      bravery: 95
-      reactions: 85
-      firing: 75
-      throwing: 75
-      strength: 85
-      psiStrength: 80
-      psiSkill: 0
-      melee: 95
-    armor: MUTON_WARLORD_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 19
-    aggroSound: 915
-    deathSound: 916
-    intelligence: 6
-    aggression: 2
-    energyRecovery: 50
-  - type: STR_MUTON_BERSERKER
-    race: STR_ARMORED_MUTON
-    rank: STR_LIVE_TERRORIST
-    stats:
-      tu: 80
-      stamina: 120
-      health: 155
-      bravery: 255
-      reactions: 80
-      firing: 5
-      throwing: 5
-      strength: 85
-      psiStrength: 255
-      psiSkill: 0
-      melee: 85
-    armor: MUTON_BERSERKER_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 25
-    aggroSound: 918
-    deathSound: 919
-    intelligence: 1
-    aggression: 2
-    energyRecovery: 40
-    builtInWeaponSets:
-      -
-        - STR_AW_ALLOY_BLADE
-# Formics #
-  - type: STR_FORMIC
+#-Formics-#
+  - type: STR_FORMIC_SOLDIER
     race: STR_FORMIC
     rank: STR_LIVE_SOLDIER
     stats:
@@ -550,7 +341,7 @@ units:
     deathSound: 920
     intelligence: 1
     aggression: 3
-  - type: STR_FORMIC_BETA
+  - type: STR_FORMIC_NAVIGATOR
     race: STR_FORMIC
     rank: STR_LIVE_NAVIGATOR
     stats:
@@ -572,7 +363,7 @@ units:
     deathSound: 920
     intelligence: 3
     aggression: 3
-  - type: STR_FORMIC_ALPHA
+  - type: STR_FORMIC_LEADER
     race: STR_FORMIC
     rank: STR_LIVE_LEADER
     stats:
@@ -594,7 +385,30 @@ units:
     deathSound: 920
     intelligence: 7
     aggression: 3
-# Carcharodons #
+#-Serpentoids-#
+
+  - type: STR_SNAKEMAN_SOLDIER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_NAVIGATOR
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_ENGINEER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_LEADER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+  - type: STR_SNAKEMAN_COMMANDER
+    aggroSound: 910
+    deathSound: 911
+    moveSound: 912
+
+#-Carcharodons-#
   - type: STR_CARCHARODON_SOLDIER
     race: STR_CARCHARODON
     rank: STR_LIVE_SOLDIER
@@ -720,7 +534,195 @@ units:
     aggression: 2
     meleeWeapon: STR_JAWS
     energyRecovery: 40
-# Sovereigns #
+
+#-Mutons-#
+  - type: STR_MUTON_SOLDIER
+    aggroSound: 915
+    deathSound: 917
+  - type: STR_MUTON_NAVIGATOR
+    aggroSound: 915
+    deathSound: 917
+  - type: STR_MUTON_ENGINEER
+    aggroSound: 915
+    deathSound: 917
+  - type: STR_ARMORED_MUTON_SOLDIER
+    race: STR_ARMORED_MUTON
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 125
+      bravery: 80
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+
+#-Muton Veterans-#
+    armor: ARMORED_MUTON_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 917
+    intelligence: 2
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_ARMORED_MUTON_NAVIGATOR
+    race: STR_ARMORED_MUTON
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 56
+      stamina: 90
+      health: 125
+      bravery: 80
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+    armor: ARMORED_MUTON_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 21
+    aggroSound: 915
+    deathSound: 917
+    intelligence: 3
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_ARMORED_MUTON_ENGINEER
+    race: STR_ARMORED_MUTON
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 125
+      bravery: 80
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+    armor: ARMORED_MUTON_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 23
+    aggroSound: 915
+    deathSound: 917
+    intelligence: 4
+    aggression: 2
+    energyRecovery: 40
+
+#-Muton Champions-#
+  - type: STR_MUTON_COMMANDO_SOLDIER
+    race: STR_MUTON_COMMANDO
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 75
+      stamina: 120
+      health: 155
+      bravery: 90
+      reactions: 75
+      firing: 62
+      throwing: 70
+      strength: 80
+      psiStrength: 70
+      psiSkill: 0
+      melee: 82
+    armor: MUTON_COMMANDO_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 917
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
+
+#-Muton Oathguards-#
+  - type: STR_MUTON_GUARD
+    race: STR_MIXED
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 150
+      health: 175
+      bravery: 110
+      reactions: 80
+      firing: 70
+      throwing: 75
+      strength: 80
+      psiStrength: 150
+      psiSkill: 0
+      melee: 90
+    armor: MUTON_GUARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 916
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
+
+#-Muton Chieftains and Warlords-#
+  - type: STR_MUTON_CHIEFTAIN
+    race: STR_ARMORED_MUTON
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 80
+      stamina: 150
+      health: 180
+      bravery: 95
+      reactions: 85
+      firing: 75
+      throwing: 75
+      strength: 85
+      psiStrength: 80
+      psiSkill: 0
+      melee: 95
+    armor: MUTON_CHIEFTAIN_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 916
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
+  - type: STR_MUTON_WARLORD
+    race: STR_MUTON_COMMANDO
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 80
+      stamina: 150
+      health: 180
+      bravery: 95
+      reactions: 85
+      firing: 75
+      throwing: 75
+      strength: 85
+      psiStrength: 80
+      psiSkill: 0
+      melee: 95
+    armor: MUTON_WARLORD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    aggroSound: 915
+    deathSound: 916
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 50
+
+#-Sovereigns-#
   - type: STR_SOVEREIGN
     race: STR_SOVEREIGN
     rank: STR_LIVE_SOLDIER
@@ -744,34 +746,72 @@ units:
     intelligence: 6
     aggression: 1
     energyRecovery: 50
-# Ethereals #
+
+#-Ethereals-#
   - type: STR_ETHEREAL_SOLDIER
     deathSound: 935
   - type: STR_ETHEREAL_LEADER
     deathSound: 935
   - type: STR_ETHEREAL_COMMANDER
     deathSound: 935
-# Chryssalids #
+
+#----- Alien Companion Races-----#
+
+#-Chryssalids-#
   - type: STR_CHRYSSALID_TERRORIST
     aggroSound: 940
     deathSound: 941
-# Zombies #
+
+#-Zombies-#
   - type: STR_ZOMBIE
     deathSound: 945
-# Reapers #
+
+#-Reapers-#
   - type: STR_REAPER_TERRORIST
     aggroSound: 950
     deathSound: 951
-# Celatids #
+
+#-Spitters-#
   - type: STR_CELATID_TERRORIST
     deathSound: 955
     moveSound: 912
     armor: CELATID_ARMOR
-# Silacoids #
+
+#-Muton Berserkers-#
+  - type: STR_MUTON_BERSERKER
+    race: STR_ARMORED_MUTON
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 120
+      health: 155
+      bravery: 255
+      reactions: 80
+      firing: 5
+      throwing: 5
+      strength: 85
+      psiStrength: 255
+      psiSkill: 0
+      melee: 85
+    armor: MUTON_BERSERKER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    aggroSound: 918
+    deathSound: 919
+    intelligence: 1
+    aggression: 2
+    energyRecovery: 40
+    builtInWeaponSets:
+      -
+        - STR_AW_ALLOY_BLADE
+
+#-Silacoids-# (silacoids will be replaced entirely by a better fitting race)
   - type: STR_SILACOID_TERRORIST
     deathSound: 961
     moveSound: 962
-# Abominations #
+
+#-Spawns-#
   - type: STR_ANCIENT_SPAWN_TERRORIST
     race: STR_ANCIENT_SPAWN_TERRORIST
     rank: STR_LIVE_TERRORIST
@@ -798,7 +838,8 @@ units:
     aggression: 2
     energyRecovery: 40
     livingWeapon: true
-# Abomination #
+
+#-Abomination-#
   - type: STR_ABOMINATION
     race: STR_ABOMINATION
     rank: STR_LIVE_TERRORIST
@@ -825,7 +866,8 @@ units:
     aggression: 1
     energyRecovery: 20
     livingWeapon: true
-# Solarites #
+
+#-Solarites-#
   - type: STR_ENERGYALIEN
     race: STR_ENERGYALIEN
     rank: STR_LIVE_TERRORIST
@@ -853,11 +895,13 @@ units:
     energyRecovery: 40
     specab: 2
     livingWeapon: true
-# Cyberdiscs #
+
+#-Cyberdiscs-#
   - type: STR_CYBERDISC_TERRORIST
     deathSound: 980
     moveSound: 981
-# Sectopods #
+
+#-Sectopods-#
   - type: STR_SECTOPOD_TERRORIST
     deathSound: 985
   - type: STR_SECTOPOD_ELITE_TERRORIST
@@ -884,7 +928,8 @@ units:
     aggression: 1
     energyRecovery: 50
     livingWeapon: true
-###reordenar desde aqui abajo
+
+#-----Possibly unused, check this later-----#
   - type: NPC_SOLDIER
     race: STR_CIVILIAN
     stats:

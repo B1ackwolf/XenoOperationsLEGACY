@@ -1,6 +1,6 @@
 # Made by B1ackwolf for XOPS-Legacy
 # Status: Reorder and clean.
-# OJITO
+##ojito
 
 armors:
 #----- delete vainilla armors -----#
@@ -11,7 +11,7 @@ armors:
 ##### End of vainilla delete section #####-------------------------
 ##### First tier basic armors #####--------------------------------
   - type: STR_FLIGHT_JUMPSUIT_UC
-# ojito aqui    ufopediaType: STR_FLIGHT_JUMPSUIT
+##ojito aqui    ufopediaType: STR_FLIGHT_JUMPSUIT
     spriteSheet: XOPS_XCOM_0.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -8016,7 +8016,7 @@ armors:
     size: 2
 #    moveSound: 817
     #overKill: 3.0
-############# ojito revisar stats
+#ojito revisar stats
     stats: &StatsForTankChassis
        bravery: 20
        tu: 100
@@ -8232,7 +8232,7 @@ armors:
     size: 2
 #    moveSound: 817
     #overKill: 3.0
-############# ojito revisar stats
+#ojito revisar stats
     stats: *StatsForTankChassis
     recovery: *RecoveryforTankChassis
     psiDefence: *PsiDefenceforTankChassis
@@ -8251,7 +8251,7 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 
 ########################################
-############# OJITO BORRAR DESPUES Q VIENE LOS TANKS
+#ojito BORRAR DESPUES Q VIENE LOS TANKS
 #---Supporting Units----------------------------------------------------------------------------------
   - type: STR_DRONE_ROVER_CHASSIS_UC
     spriteSheet: LAND_DRONE.PCK
@@ -8507,8 +8507,8 @@ armors:
       - STR_XCOM_LARGE_FLYING_DRONE_CORPSE_2
       - STR_XCOM_LARGE_FLYING_DRONE_CORPSE_3
       - STR_XCOM_LARGE_FLYING_DRONE_CORPSE_4
-    corpseGeo: STR_XCOM_FLYING_DRONE_CORPSE # ojito acomodar
-    storeItem: STR_DRONE_ADVANCED_MEDIUM_CHASSIS # ojito acomodar
+    corpseGeo: STR_XCOM_FLYING_DRONE_CORPSE ##ojito acomodar
+    storeItem: STR_DRONE_ADVANCED_MEDIUM_CHASSIS ##ojito acomodar
     visibilityAtDark: 16
     heatVision: 20
     stats:
@@ -8565,7 +8565,7 @@ armors:
       - STR_NULL_HAND_LEFT
     loftempsSet: [ 92, 89, 90, 91 ]
 ################################################################
-# ojito doggos
+##ojito doggos
   - type: STR_K9_HARNESS_UC
     spriteSheet: XOPS_DOGE_0.PCK
     customArmorPreviewIndex: 57
@@ -9010,7 +9010,7 @@ armors:
     specialWeapon: STR_CANID_TRACKING
     builtInWeapons: #&CyberDogWeapons
 #      - STR_CANID_BARK_CYBER   #ojito aqui iria cañones como el del liger
-#      - STR_CANID_BITE_CYBER   # ojito aqui iria un mordisco mejorado?
+#      - STR_CANID_BITE_CYBER   ##ojito aqui iria un mordisco mejorado?
       - STR_NULL_POCKET_LS
       - STR_NULL_POCKET_RS
       - STR_NULL_SMALL_BACKPACK

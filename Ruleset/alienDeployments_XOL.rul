@@ -5150,7 +5150,7 @@ alienDeployments:
     civilians: 16
     terrains:
       - IDT_SNOWVILLAGE
-      - TPURBAN # ojito error del mapa
+      - TPURBAN #ojito error del mapa
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:

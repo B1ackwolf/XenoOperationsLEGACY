@@ -148,7 +148,7 @@ extraSounds:
       85: Resources/ImprovedSounds/WeaponSounds/Balliminigun_shot.ogg # minigun /// Xminigun
       12: Resources/ImprovedSounds/weaponSounds/HeavyCannon_shot.ogg # standard cannon shot
       114: Resources/ImprovedSounds/WeaponSounds/GrenadeLauncher_shot.ogg # grenadeLauncher, tankSmokeLauncher
-      86: Resources/ImprovedSounds/WeaponSounds/RocketLauncher_shot.ogg # rocketLauncher /// XrocketLauncher /// HYrocketlauncher ### OJITO cambiar este ????
+      86: Resources/ImprovedSounds/WeaponSounds/RocketLauncher_shot.ogg # rocketLauncher /// XrocketLauncher /// HYrocketlauncher ##ojito cambiar este ????
       213: Resources/ImprovedSounds/weaponSounds/AssaultCannon_shot.ogg # Xassault cannon
 # Tier 3
       97: Resources/ImprovedSounds/WeaponSounds/HYSmall_shot.ogg # HYcompactPistol, HYmachinePistol, HYservicePistol, HYuzi, Hysmg

@@ -1,30 +1,37 @@
 #ideas for the mod, in any specific order:
-#checar los ojitos siguientes
+#checar los#ojitos siguientes
 
-+ cosas de nombres de especies:
- - ponerle nombres bonitos a todos los rangos de todas las especies, ojito
- - confirmar los nombres distintos al "alien armor" para q tengan coherencia, actualmente son un desastre, en especial las versiones nuevos de mutones.
- - nombres nuevos a considerar para rangos otras especies
-  * psion, archon, elder, apex, hunter, stalker, broodmother, drone(insect)
-  * Brute,Darter,Nightscale, Savant (scientist-ish members of the race?) , Reaver,Burner, Gnawer,Harasser,Scourger,Zealot,Evoker,Priest,Wizard(???),Casters(????),Heretic(individuals fallen in disgrace, warriors without honor with missions like assasination, something normal mutons found pity), Servant, Devourer,Spitter (some of them could work for their reapers, think about them as their warhounds)
-  * revisar nombres de rangos especies y criaturas de gears of war (ejem, scion.)
- - nombres a considerar para nombres clave de naves , animales mitologicos
-  * scylla, behemoth, etc
- - Posibles descripciones mutones
-Thrall:  this could be used to denote the non combatant crew, the lower caste/ranks of their hierarchy, the scum members of their race,not worthy enough to win the right to use an armor.
-Grunt:  the more basic member of their army but they make the bulk of their ranks,the meat cannon, strong enough to hold a weapon, but no so intelligent to notice they are expendables.
-Gladiator/Centurion(brute?)**:  the backbone of the Muton invaders, they are the TRUE warrior caste, Mutons who proved to fullfill this role, they are though and good in their work, that being killing or dying for the hierarchy.
-Chieftain: they live, they die and then live again, once gladiator/centurions lived enough to became veterans of a dozen fight, they achieve the honor to become chieftain and lead a warclan of their own
-Warchief:  they are veterans of a hundred battles at least, only few Mutons show enough initiative , cunning skill and sharp intelligence to become warchief, they lead all the clans(and chieftains) to battle. They are in charge or leading the troops and accomplish the objectives of the campaings...they only answer to the warlord.
-Champion:  true veterans, the elite of the elite,they are hundreds years old and have the same amount of battles, they participed in many succesfull campaings, many worlds invaded by the wraps of their actions, they are the personal bodyguards of the Warlord, and are the only one with the honor to have full battle armors, they are immensely though, taller, smarter that the average Muton, the true parangon of a warrior race, beyond any of its quality, they possess the more dangerous of them, a fierce almos fanatic loyalty and devotion to their master, who they guard with extreme zealotry until they last breath.
-Warlord: the only and true leader of the muton-folk ,one only the most though,strogest and intelligent being inside their ranks can achieve this tittle and most important , hold it enough time to get the respect of all the warriors of the chain, once they proved themself with many victories, all the Muton structures get the same goal, achieve the Warlord desires for plunder and conquest.
+
+primera labor = ordenar completamente los archivos:
+ - ufopaedia
+ - researches
+
+ - usar los uac scientist de xfiles como sprite pa los cientificos de xcom
+ - buscar especies q sirvan para hacer tubos y demas
+    * chtonitas y "chasers" de xfiles qizas
+ - hacer entrie del berseRker autopsy
+ - HACER ENTRY del sectopod elite
+ - crear topic research xenophysiology > alien capture (tasers)/ alien containment > alien psionic capabilities > mind probe > alien interrogations
+ - cada vez q maten a un sovereign salga un solarite?
+ - revisar implementacion de la velocidad de los UFOS en terminos relativos a mach, calcular y balancear (los ufos mas grandes deberian ser mas lentos, los mas pequeños mas rapidos, pero siempre manteniendo una relacion de velocidad relativa a la de los aviones humanos)
+ - hacer q el stun rod solo pueda ser fabricado, lo mismo con la pistola stun chikita.
+   * crear archivos en la ufopaedia de los items iniciales que deben estar ocultos
+   * revisar manufacture y research de ambas
+ - hacer que robocitos solo puedan ser comprados o fabricados luego de investigar su tecnologia.
+ - use fmp to introduce MIB and flamethrwer.
+ - consultar respecto a los drons
+   * reduce trowing accuracy to 0 so it cant toss grenades of any kind, yet it should be able to drop or kamikaze itself with explosives.
+ - reordenar correctamente q los escuditos tengan el orden de los handsprites correctos (flipear los necesarios, primer y segundo escudo listo)
 
 + TODO LO SIGUIENTE QUEDA PENDIENTE PARA EL SIGUIENTE PARCHE:
 ####### Esto para hacer principalmente en la chamba
 #######
- - sacarles el kraken rotorcannon backpack de 40k rosigma, revisar como funciona
- - tambien revisar como implementaron el gibs of gory
- - confirmar como hacen para tener "dinamic hands" q se estiran en base al tamaño del arma
+
+
+
+ - Balancear velocidades de ufos enemigos respecto al match de los aviones humanos
+   * hacer mas lento los ufos pesadostes
+   * agregar ufos tipo caza de combate
  - sacar piezas de armaduras der la steellegion
    * el casco de tanquero y los arneses de cuero
  - sacar de unexcom
@@ -37,12 +44,6 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
       ~ en bases humanas
  - revisar medallas de unexcom
 
- - aprovechar el walker de rogozunbenjoyer64
- - preguntarle a osobist respecto al dron
- - preguntar en idt acerca de la velocidad de los perritos
-
-
-
 ####balanceo?
 
  - revisar el tema de q ahora las armas tendran el daño modificado en el arma y no en la municion en si (excelente para balancear)
@@ -54,17 +55,14 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
  - revisar los precios de TODOS LOS ARTICULOS
 
  ######
- - armaduras despues de personal_armor , usar ejemplo de warhammer 40k el snipper y vanguard
- - crear los loadouts iniciales
-   * quizas crear para mid game y para late game?
-
+ - armaduras despues de personal_armor tendran distinta imagen en la "panza", ya no seran abdominales marcados usar ejemplo de warhammer 40k el snipper y vanguard
  - conseguir nuevos pngs de ataques melee
    * el ataque de chrysalida sera uno de garras verdes (tendra daño chem)
    * uno donde te inserte huevitos
  - revisar todas las carpetas en los distintos tiers que tengan tanto en handob, floorob y bigobs
    * misma cantidad de imagenes
       ~ en el primer tier faltan imagenes de los cohetes de la bazuka
-      ~ rehacer apariencia de los cohetes de bazuka basico tanto en bigob,floorob y handob
+      ~ rehacer apariencia de los cohetes de bazuka basico tanto floorob y handob
    * misma nomenclatura de nombres en cuanto a "espacios y underscores _ "
    * mismo formato de imagen PNG
    * detalles de colores de los cargadores
@@ -74,14 +72,12 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
    * cambiar todo de png a gif
       ~ conseguido con las armas, faltarian en el resto de recursos
 
-#posiblemente listo - revisar la velocidad de los UFOS en terminos relativos a mach
  - blaster bombs y armas laser elite necesitan de sus respectivos sprites, en especial cargadores
  -  CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
    - sera carisimo producir explosivos y municion
    - exotico , los spawn seran casi inmunes
 #####
- - modificar ligeramente el mapa del security station para q encaje con el octagonal
  - cambiarle el nombre a las armas de aviones
    * checar el archivo excel de la pagina para mas info
    * Plane cannon is now a 30 mm GAU-8/A Avenger.
@@ -90,17 +86,8 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
  - reordenar el tema de los tipos de unidades y q los drones funcionen las armaduras correctamente
      ~ crearles sus respectivos armor previews correctamente
 #revisar chat con efren para la explicacion
- - consultar respecto a los drons
-     ~ confirm if i can recluse which kind of weapons can this unit pick up (to avoid picking pistols or basic medbags).
-       ° find a way to avoid them reloading their weapons, thus restricting their use to a "single magazine per weapon".
-       ° making it necessary to have a supplementary trooper to pick up the weapon and reloading it for the drone.
-       ° it should also let the drone to equip stuff like advanced med-gel and the movement detector.
-     ~ reduce trowing accuracy to 0 so it cant toss grenades of any kind, yet it should be able to drop or kamikaze itself with explosives.
-   * Additionally, they would have different "armors" differences.
-     ~ A light chassis, many TUs but low resistance.
-     ~ Reinforced, heavier and stronger but with fewer TUs.
-     ~ Versions with xelloys, first basic and then advanced.
-   * These changes would provide much more longevity to the use of drones by XCOM.
+
+
 #leer lo de arriba
 #####
  - agregarle a todas las armas melee el damagealter segun sea el caso correcto
@@ -133,13 +120,13 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
      ~ A lighter satchel charge without a counting fuse that could be created.
      ~ A breaching charge. with very small explosive range, intended to pierce UFO hulls.
  - Completely rebalance plasma weapons, especially weights.
- - Use the Polish FB MSBS rifle as an eXperimental tier bullpup.
-   * Modify the handobs of the laser knife, plasma knife (both using the xelloy knife as example), alloy sword and plasma sword (using laser sword as an guide).
-     ~ also improve the laser sword handob slighty.
-   * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
-   * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out (alita damascus sword).
+ - Use the Polish FB MSBS rifle as an eXperimental tier bullpup name.
  - Rename XX assault cannon to something 20mm flak.
  - Rename tank AP cannon to 25 mm Bushmaster.
+ - improve the laser sword handob slighty.
+   * Lore of the progressive knife is cutting at the molecular level through vibrations (Evangelion-like).
+   * Finalize lore for the Xelloy knife and sword, simply sharper, lighter, and never rusts or wears out (alita damascus sword).
+
 #
  - acomodar los escudos
    * integrar correctamente en el arbol de tecnologias
@@ -155,7 +142,7 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
    * hacerles sus respectivos articulos en la ufopaedia
 #
 #######
-####### Esto solo puedo hacerlo en casa
+####### Esto solo puedo hacerlo en casa #ojito seguir desde aqui
 #######
  - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
@@ -163,13 +150,8 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
  - crear articulos en ufopaedia respecto a los uplifting de perros
    * revisar video de cypher en matrix explained
  - sombrear mejor sprites de los perritos
- - resolver tema de las imagenes de la ufopaedia de los tanques y drones
 #POSIBLEMENTE TERMINADO?
- - reajustar todo lo relacionado con ingenieros?
-   * triplicar precio de proyectos de generacion de dinero
-   * reducir costo de horas proyectos un 1/3
-   * resultando en numero total de ingenieros, la mitad aproximadamente
-#
+
  - balancear TODOS LOS STATS DE LAS ARMADURAS
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
@@ -180,9 +162,9 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
          ° armadura basica = Legionnaire / pilot = zero g suit
          ° armadura xops = praetorian / pilot = equite
          ° Armadura personal = Ulfsark / pilot= valkyrie
-         ° Armadura alloy = Spartan / pilot=ithacan
-         ° Armadura Voladora = cuāuhpilli / pilot= Quetzalcóatl
-         ° Armadura Power = Myrmidon / pilot=argonaut
+         ° Armadura alloy = Spartan / pilot=Hippeus
+         ° Armadura Voladora = cuāuhpilli / pilot= Cuāuhtecatl
+         ° Armadura Power = Myrmidon / pilot=Argonaut
          ° Armadura Psionica = Gorgon / pilot= cyclops
 #
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
@@ -203,10 +185,12 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
    * Integrate Sectopods with human pilots; they will be brown like in vanilla for human homogeneity.
    * When "destroyed," a "ruined chassis that can be repaired" remains.
 
- - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada
+ - hacer lore explicando el tema de los salarios, q mientras el personal trabaje, no puede gastarlo, asi q aun a pesar de ganar millones, efectivamente hasta q no se gane la guerra no podran disfrutar nada, con esto se justifica q kronus tenga personal ya q pagan de inmediato
 ###################################################################################################################################
 + CAMBIOS RELATIVOS AL TECH TREE:
-####OJITO AQUI SIGUIENTES
+#ojito AQUI SIGUIENTES
+
+
  - revisar los requisitos necesarios pa fabricar el scarab
    * el firefly ahora se comprara solamente
    * tambien crear un articulo para el combustible
@@ -250,11 +234,11 @@ Warlord: the only and true leader of the muton-folk ,one only the most though,st
  - siguiente parche tendra el revamp completo de las armaduras al uso correcto de layers, el rework completo de los sprites de los tanques, del combate aereo y el pacing de misiones, ademas de rehacer el globo terraqueo.
 #
 + PRIORITIES FIXES:
- - ojito revisar el sonido de aggro de los carcharodones
+ -#ojito revisar el sonido de aggro de los carcharodones
  - PERRITOS MATAN A CYBERDISC. bug o feature?
    * de hecho matan a demasiados alienes q no deberian
    * deberia considerarse si los aliens q atacan tienen o no armadura, a partir de alli haran daño o no
- - OJO, en los ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN OJITO, no estan asignados a ninguna especie
+ - OJO, en los ALIEN DEPLOYMENTS FALTAN LOS CARGADORES OVERCHARGED DEL SNIPER ALIEN (#ojito, no estan asignados a ninguna especie)
  - Investigate how to resolve the following error
    * [ERROR] STR_HANGAR can hold 2 crafts but has 0 craft-slots defined. Will draw all crafts in the center.
    *[revisar q pasa q los aviones no se ponen cada uno en un hangar,sino q se stackean encima]
@@ -276,10 +260,10 @@ IMPORTANTE PARA LORE:
    * los aliens hacen el viaje a la mitad del tiempo.
    * con un motor de esas caracteristicas el viaje a alpha centauri (4.5 años luz de distancia) seria aprox unos 10 años
    * estariamos hablando de unos 18k/s a 20k/s, aproximadamente el 8%~ de la velocidad luz
- - Correctly place the new lore for Alien Alloy, now called Xenominium, Xenium Alloy short, and Xelloy in slang.
-   * Consists of high-entropy alloys of known and other alien elements.
-   * The real problem is not knowing the elements but the proportion for the correct mix to obtain desired properties.
+
  - xelloy esta compuesto de aleaciones complejas de materiales conocidos, aunque algunos tengamos en muy bajas cantidades, tambien tiene elementos mundanos y pequeñas cantidades de elementos aun no conocidos para nosotros.
+
+
  - los ufos no estan enteramente construidos de xelloys, en cambio usan metales comunes como el titanio y el IRIDIO principalmente, y tienen secciones de la super estructura hechas usando xelloy.
  - el iridio tiene la ventaja sobre el titanio q mantiene su dureza incluso en altas temperaturas
  - la municion toxica de tier 3 (armas hybridas) es a base de POLONIO
@@ -293,20 +277,22 @@ IMPORTANTE PARA LORE:
      ~ warden
      ~ paladin
      ~ sentinel
+     ~ (alternatives, cavalier?)
    * nombres pósibles de chassis de tanques (espadas de dos manos)
      ~ claymore
      ~ zweihander
- - crear la pagina del firefly donde explique especificamente que el proyecto fue creado entre la cosa de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
+ - crear una pagina de dossier del firefly donde explique especificamente que el proyecto fue creado entre la cosa de buro de fabricaciones de ucrania y rusia, y en cambio la de la nave sea solo descriptiva del avion en si
+ #
  - acomodar sprites de aviones en ufopaedia
    * rehacerle la imagen al f35 mejorado con el coffin, foto en nuevo angulo
      ~ tambien al nuevo empress q sera el avion definitivo de XCOM.
    * revisar las descripciones y q nombres coincidan
  - Create new lore for the bishop (Interceptor improved xcf1).
-   * in short, its an xelloy plated f35, renamed to xyf-36b
+   * in short, its an xelloy plated f35, renamed to xyf-36b (alusion al yf-23)
  - Improve the rider and rook ufopaedia lore.
 #
 + impending changes:
- - (NUEVO) aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
+ - (NUEVO) aprovechar el sistema de nodes "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
    * esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
  - agregar efecto purpura psionico pero solo a los ethereals
  - Later, create some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
@@ -344,20 +330,17 @@ IMPORTANTE PARA LORE:
 ###################################################################################################################################
 + PETICIONES A OXCE:
  - Confirm how the fuck do i edit the world .
- - Inquire about making day and night sprites differentiation for armors sprites
-   * for implementation in the first tier with lenses going up and down.
  - (NUEVO) acomodar las imagenes basebits.
    * revisar si puedo hacer q aparezcan las puerticas como en los de las de 4 pedazos.
  - crear alguna especie de "CURRENT OBJECTIVE"
+
+ - aprovechar el walker de rogozunbenjoyer64
+ - preguntarle a osobist respecto al dron
 
  - respecto a soldiertransformation para perritos, consultar si se puede aplicar un porcentaje de "fallo"
  - (NUEVO) Error in the new "inventory" image for enemies.
    * Firstly, add remaining images of enemy inventory.
    * Review the size of the "slots" position for 2x2 units.
- - The ground drone would be a platform to which the help of a claw can pick up weapons from the ground, tecnically being able to field any weapons used by xcom troops (specially shotguns and rifles, mostly PDW)
-   * confirm if i can recluse which kind of weapons can this unit pick up (to avoid picking pistols or basic medbags).
- - al momento de disparar un arma, el sprite de las armas a dos manos se "alinea" hacia adelante, consultar si existe una manera de q esto se mantenga permanentemente
-   * de ese modo se simularia q el dron esta sosteniendo un arma.
  - confirmar como editar para q cada escudo reciba menos daño q el anterior?
 #####
 + EFRENESPARTANO HELP IN PLANES CHANGES:
@@ -378,8 +361,7 @@ IMPORTANTE PARA LORE:
  - Rewrite all alien races Ufopedia entries.
  - Provide realistic equivalents for all weapon descriptions.
    * first tier partially done, the rest is up to go.
- - Modify Ancient Abomination autopsy picture to be more detailed and bloody.
-#being worked this patch - Consider creating a new interrogation project for advanced races.
+ - Modify spawn autopsy picture to be more detailed and bloody.
  - Remove articles about alien Elerium magazines from Ufopedia.
  - Conduct a thorough review and correction of medal articles.
    * Correct and improve all texts.
@@ -407,7 +389,7 @@ IMPORTANTE PARA LORE:
    * Focus especially to restablish the nomenclatures on the bodies and corpses of png files.
    * Perhaps increase the Size of frontal pockets to 2x2 squares?.
    * Rename the "backpack" category to something more generic.
- - I havent found the way to alter armor order yet, i need to keep investigating about it.
+
  - Add bulbs on hands, hips in the battlescape sprites of nerve armors.
  - Implement a new pocket configuration.
    * Add a new pocket where only "armor modules" can be placed.
@@ -503,7 +485,6 @@ IMPORTANTE PARA LORE:
      ~ At least 20 different sprites for each.
      ~ Rottweilers and Dobermans could be additional species, considering they don't have much variety in fur patterns.
  - Create accurate battle sprites (currently beyond my abilities; seek assistance).
- - Slow down the walking animation speed of dogs to ensure all frames are activated.
  - Resolve the issue with the zombification of dogs (from xfiles).
 #nuevo
  - crear medalla para perros
@@ -549,14 +530,17 @@ IMPORTANTE PARA LORE:
  - For basic drones, use the drawing routine sprites of medusas to create an effect of going up and down at least one pixel when idle.
  - Maintain the blades of the Shuriken, add a portion of central blades to the Longbow.
    * Completely redesign the Longbow sprite.
-   ### ojito esto ya esta haciendose
+   #ojito esto ya esta haciendose
  - Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
    * uses three designs, small, medium and large drones
    * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
-     ~ temptative names will be the chu-ko-nu, ARBALEST and ballista.
    * Create alien drone equivalents of drones using XFILES ROBOSPHERE
  - (NUEVO) encontrar una manera de que se ilumine la torreta al momento de disparar los tanques?
-
+ - Additionally, they would have different "armors" differences.
+   * A light chassis, many TUs but low resistance.
+   * Reinforced, heavier and stronger but with fewer TUs.
+   * Versions with xelloys, first basic and then advanced.
+   * These changes would provide much more longevity to the use of drones by XCOM.
 #####
 
 + Aliens Changes:
@@ -565,22 +549,11 @@ IMPORTANTE PARA LORE:
      ~ Perhaps add a new angle of the alien faction formed by Pro-Aliens Humans? on the same edge of EXALT/cult of sirius?
        ° If this is applied, perhaps call the organization "The Pact", following the same function MIB has in classic fiction.
  - Solve all missing and improve inventory aliens sprites significantly.
- - Change Carcharodons sprites to gray.
-   * Perhaps Only leaders should be gray, or a darker shade of gray?
  - Improve Commander Sectoid sprites.
    * Add spikes like Aquatoids.
    * Make their heads shine?
-   * Reconfirm with EfrenEspartano the color of their gray Skyranger in the sprite for the entire race.
- - Implement new lore for Sectopods.
-   * Similar to Robocop/Dreadnoughts of Warhammer for COMMANDO Mutons.
-     ~ Perpetuate them to an eternity of service and suffering.
  - Improve the drawing routine of the Spawn.
- - Check the functionality of the xfiles spitter regarding hiding, to completely replace the silacoid.
- - Resolve the situation with Silicoids.
-   * Create a new companion for Formics to replace Silicoids.
-   * Remove Silicoids as companions for Mutons.
-   * Leave Silicoids for Mutons and pass Celatids/Spitters to Formics.
-   * Mutons only with Berserkers and Formics with Spitters, completely eliminate Silicoids until a decent replacement is found.
+ - Check the functionality of the xfiles spitter regarding hiding in their shells
  - Add the new corpses of Celatids/Spitters to their correct updated versions.
 # NUEVO
  - Review the changes made to alien species and reclassify their STR_ reference names accurately.
@@ -607,7 +580,7 @@ IMPORTANTE PARA LORE:
    * Blue color has already been changed; only need to create the human sectopods.
    * or use alternative sprites from mech as jagers and such
 # nuevo
- - actualizar el interfaces y modificar los colres de los elementos de la ufopaedia
+ - actualizar el interfaces y modificar los colores de los elementos de la ufopaedia
      ~ consegui el archivo, es el interfaces, es muchisimos articulos, pero empezar poco a poco editandolos.
  - all this is done with the interface.rul
  - Change background sprites for some screens on the base.
@@ -625,7 +598,6 @@ IMPORTANTE PARA LORE:
 #####
 
 + Minor Changes:
- - (NUEVO) directamente revisar todos los "ojitos"
  - (NUEVO) Clean up and correct all newlines (and double newlines).
    * Indent (-) only at the beginning of the text, not at the beginning of a new paragraph.
  - Clean every .rul file from unused lines, reorder and correct all annotations.
@@ -701,8 +673,9 @@ IMPORTANTE PARA LORE:
    * Confirm functionality of sprites.
    * Add a "whistling" sound bulletsound to scare tactics.
      ~ Check conversation with EfrenEspartano.
+     - ramiel whistle sound?
  - Improve the entire ufopedia implementing this line of code of "removedBy" (https://openxcom.org/forum/index.php/topic,7639.msg0.html#new)
-
+ - make that "fliping countries" that abbandoned the project being pinted different on the map
 #####
 
 + Possible Unattainable Changes:
@@ -728,30 +701,12 @@ IMPORTANTE PARA LORE:
    * Misc items (medicals, psi warfare, lamps).
    * Alien Misc items.
 
-+ This should be the new order in the ufopaedia:
- - This is the listorder of categories.
-   * 000= turorials(???)
-   * 100= dossiers and background info (move xcom personnel here?)
-   * 200= alien research
-   * 300= alien artifacts
-   * 400= ufo components
-   * 500= ufos
-   * 600= alien life forms
-   * 700= codex specific and related info, reports and levels
-   * 800= human tech (should recieve a roman number to determine tier in case of being codex related ie "(IV)")
-   * 900= xcom personnel
-   * 1000= xcom vehicles (crafts and tanks)
-   * 1100= xcom equiptment (armors and weapons)
-   * (????)= the rest
-   * 1500= Faciities
-   * last one=> commendations
-
 #####
 
 + IMPORTANTE PARA LORE:
- - aprovechar para el lore, "el tema de los codex son fragmentos de una inteligencia primigenia, obtuvieron la ascencion y pasaron sus mentes a un mundo digital, cada nucleo de un codex es originalmente un individuo, cuya unica meta es reformarse a si mismo, parasitando formas de vida inteligentes para que hagan el trabajo por ellos."
-   * en un principio, esta especie era dominante, en la categoria 4 de la escala de kardashov, increible avanzados.
-   * al llegar a una cuspide dedicaron el resto de sus existencias a la autocomplacencia, alcanzaron una etapa superior a la post escasez, por lo tanto todas sus necesidades estaban cubierta. esto les hizo caer en un stagnation que duro eones.
+ - aprovechar para el lore, "el tema de los codex son fragmentos de una inteligencia primigenia, obtuvieron la ascencion y pasaron sus mentes a un mundo digital, cada nucleo de un codex es originalmente un individuo, cuya unica meta es reformarse a si mismo, parasitando formas de vida inteligentes para que hagan el trabajo por ellos".
+   * en un principio, esta especie era dominante, en la categoria 4 de la escala de kardashov, increiblemente avanzados.
+   * al llegar a una cuspide dedicaron el resto de sus existencias a la autocomplacencia, alcanzaron una etapa superior a la post escasez, por lo tanto todas sus necesidades estaban cubiertas. esto les hizo caer en un stagnation que duro eones.
    * algun suceso no especificado disturbed su hegemonia. el mismo hecho de su avanzado estado tecnologico los hizo "smug" y desinterezados, se sobreconfiaron en su propia supremacia en q esto les protegeria de cualquier problema.
    * desde hacia milenios ya existia una tendencia de descargar sus mentes en copias digitales, a modo de mantener su personalidad y de ese modo extender artificialmente su existencia.
    * un evento subito al q se refieren como "the blackout" hizo q el 99.99% de la especie desapareciera repentinamente. unicamente estas mentes que habian sido descargadas temporalmente "sobrevivieron" a este primer "rapture".
@@ -772,7 +727,7 @@ IMPORTANTE PARA LORE:
   * algunos intentaron meter pistas y opiniones propias dentro de los codex, esto incremento aun mas la degeneracion de las mentes ya q algunos podian consistir incluso en amalgaciones de disntitas entidades. no hay q aclarar la volatibilidad que esto representa.
   * como a los sobrevivientes se les agotaba el tiempo util, esto los empujo a tomar medidas cada vez mas desesperadas.
   * algunos se resignaron a la idea de q iba a ser imposible para ellos restaurar su civilizacion y tomaron medidas extras.
-     ~ 1) hacer q cada pieda de informacion del codex sea autoreplicable.
+     ~ 1) hacer q cada pieza de informacion del codex sea autoreplicable.
      ~ 2) comprimir aun mas el codex hasta el punto de dejarlo hyper requete comprimido.
      ~ 3) inventar las "keys", estas llaves cumplian una triple funcion.
        ° a) funcionar como "seeders", llenos de material genetico y arcas, eran arrojados en distintas direcciones intentando aterrizar planetas con condiciones optimas que les permitiera desarrollar vida (seeded life theory) y q esta alcanzara un umbral tecnologico suficientemente alto para retomar la labor de reformar los codex.
@@ -795,18 +750,46 @@ IMPORTANTE PARA LORE:
  - presupuesto anual otan total aprox 380.000.000.000,   igual a 31.666.666.666 mensual
  - para q ajuste precios, tendrian q ser entre mil?
 #Dropeo de materiales
- - survey skiff = 6x / 10e
- - raider gunship = 10x / 10e
- - scanner boat = 10x / 10e
- - scout escort = 23x / 10e
- - research corvette = 42x / 10e
- - cloner frigate = 40x / 10e
- - harvester destroyer = 60x / 20e
- - abductor cruiser = 52x / 20e
- - laboratory ship = 75x / 20e
- - supply tanker = 110x / 30e + 28 supplies
- - constructor barge = 135x / 40e + 70 supplies
- - battlecruiser = 105x / 20e
- - terror battleship = 133x / 30e
- - dreagnought = 203x / 40e + 15 supplies
+ - survey skiff = Locust / 6x / 10e
+ - raider gunship = imp / 10x / 10e
+ - scanner boat = moroi / 10x / 10e
+ - scout escort = manticore / 23x / 10e
+ - research corvette = lamia / 42x / 10e
+ - cloner frigate = hydra / 40x / 10e
+ - harvester destroyer = basilisk / 60x / 20e
+ - abductor cruiser = siren / 52x / 20e
+ - laboratory ship = yaldabaoth / 75x / 20e
+ - supply tanker = behemoth / 110x / 30e + 28 supplies
+ - constructor barge = golem / 135x / 40e + 70 supplies
+ - battlecruiser = kraken / 105x / 20e
+ - terror battleship = leviathan / 133x / 30e
+ - dreagnought = tiamat / 203x / 40e + 15 supplies
  - Base defense = 75X / 20e + 180 supplies
+
+ - fighter harpy
+ - heavy fighter barghest
+ - bomber stryx
+
+LORE ENTRIES:
+# - 🧠 HIDDEN CODEX ENTRY
+ On the Allocation of Consciousness and Flesh. Biological forms are inefficient when bound by singular purpose. Flesh decays. Thought hesitates. Unity between the two produces instability. Separation resolves this.Consciousness, when unbound from organic limitation, achieves continuity. It no longer requires cessation, suppression, or recovery. It becomes constant. This state is optimal for rapid-response constructs and adaptive processing units. However, such continuity produces degradation in unrefined minds. Lower cognitive forms exhibit distress, fragmentation, and eventual collapse. These effects are acceptable within operational margins. Replication remains viable. Conversely, preservation of biological form without abstraction maintains structural resilience. Select species demonstrate superior durability and sustained aggression when left intact. Cognitive suppression is unnecessary. Endurance is preferable. These approaches are not contradictory. They are situational.Thought is expendable. Flesh is expendable. Allocation is determined by function.
+
+
+
+
+
+
+
+#"This chat has become too long and is starting to lag, so I need to migrate our progress to a new, fresh chat.
+
+#Please generate a comprehensive 'Context & Handoff Summary' that I can copy and paste to your successor in the new chat. This summary must be highly detailed but concise, containing everything the new AI needs to pick up exactly where we left off without missing a beat.
+
+Please structure the output using the following headers:
+1. Primary Objective: (What is the overarching goal of this project/conversation?)
+2. Context & Background: (What are the key details, business logic, or background information established so far?)
+3. Key Rules & Constraints: (What specific instructions, formatting rules, coding standards, or strict boundaries have we agreed upon?)
+4. Current Progress: (What have we successfully completed up to this exact point?)
+5. Important Assets: (Provide any crucial code snippets, data schemas, file structures, or text drafts that the next AI must have in its immediate memory. Put code/data in structured blocks).
+6. Next Steps / Immediate Task: (What were we just about to do next, or what is the very next prompt I will be giving the new AI?)
+
+#Please wrap your entire response inside a single markdown code block so I can easily click 'Copy' and paste it into the new chat."

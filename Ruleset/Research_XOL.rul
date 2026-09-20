@@ -2,7 +2,7 @@
 # Status: Clean, reorder and deffinitely fix tree just as explained in the To-Do List
 
 research:
-#--Deletions
+#----- Deletions -----#
   - delete: STR_LASER_WEAPONS
   - delete: STR_FLYING_SUIT
   - delete: STR_POWER_SUIT
@@ -63,7 +63,84 @@ research:
   - delete: STR_CYBERDISC_TERRORIST
   - delete: STR_COMMANDER_PLUS # check if this doesnt create problems later
   - delete: STR_CYDONIA_OR_BUST # check if this doesnt create problems later
-#--Dummy--------------------
+#----- Deletions Ending -----#
+#####
+#----- #000 Field Manual -----#
+#
+#----- #099 End of Field Manual -----#
+#####
+#----- #100 Dossiers and Background Information -----#
+#
+#----- #199 End of Dossiers and Background Information -----#
+#####
+#----- #200 Codex Specific Techs, Levels and Unlocks -----#
+#
+#----- #299 End of Codex Specific Techs, Levels and Unlocks -----#
+#####
+#----- #300 Alien Technology -----#
+#
+#----- #399 End of Alien Technology -----#
+#####
+#----- #400 Alien Artifacts and Weaponry -----#
+#
+#----- #499 End of Alien Artifacts and Weaponry -----#
+#####
+#----- #500 Alien UFOs -----#
+#
+#----- #599 End of Alien UFOs -----#
+#####
+#----- #600 Aliens UFOs Components and Systems -----#
+#
+#----- #699 End of Aliens UFOs Components and Systems -----#
+#####
+#----- #700 Alien Life Forms -----#
+#
+#----- #999 End of Alien Life Forms -----#
+#####
+#----- #1000 Enemy Human Collaborators -----#
+#
+#----- #1099 End of Enemy Human Collaborators -----#
+#####
+#----- #1100 Human Technology -----#
+#
+#----- #1199 End of Human Technology -----#
+#####
+#----- #1200 XCOM Personnel -----#
+#
+#----- #1299 End of XCOM Personnel -----#
+#####
+#----- #1300 XCOM Planes and Craft Weaponry -----#
+#
+#----- #1399 End of XCOM Planes and Craft Weaponry -----#
+#####
+#----- #1400 XCOM Ground Vehicles and Heavy Weapons -----#
+#
+#----- #1499 End of XCOM Ground Vehicles and Heavy Weapons -----#
+#####
+#----- #1500 XCOM Equipment, Armors and Weapons -----#
+#
+#----- #1999 End of XCOM Equipment, Armors and Weapons -----#
+#####
+#----- #2000 Alien Operations and Missions -----#
+#
+#----- #2099 End of Alien Operations and Missions -----#
+#####
+#----- #2100 XCOM Facilities -----#
+#
+#----- #2199 End of XCOM Facilities -----#
+#####
+#
+#----- #2500 Commendations and medals -----#
+#
+#----- #2599 End of Commendations and medals -----#
+#
+##########
+
+
+
+
+
+#----- Dummy -----# #OJITO Check this if i could eliminate it later
   - name: STR_ALIENS_ONLY
     cost: 0
     points: 0
@@ -72,7 +149,7 @@ research:
     cost: 0
     points: 0
     needItem: true
-#--Supporting units Tech Tree--------------------
+#----- Supporting units Tech Tree -----#
   - name: STR_SUPPORT_UNITS
     cost: 20
     points: 10
@@ -81,13 +158,13 @@ research:
     points: 10
     dependencies:
       - STR_SUPPORT_UNITS
-  - name: STR_DOGE_EPIGENETIC # ojito mejorar totalmente agregar mejores requisitos
+  - name: STR_DOGE_EPIGENETIC #ojito mejorar totalmente agregar mejores requisitos
     cost: 10
     points: 10
     dependencies:
       - STR_DOGE_RECRUITMENT
       - STR_ADVANCED_SICK_BAY
-  - name: STR_DOGE_UPLIFTING # ojito mejorar totalmente agregar mejores requisitos
+  - name: STR_DOGE_UPLIFTING #ojito mejorar totalmente agregar mejores requisitos
     cost: 10
     points: 10
     dependencies:
@@ -104,8 +181,8 @@ research:
       - STR_SUPPORT_UNITS
       - STR_NEXT_GEN_BALLISTICS
       - STR_ALIEN_ALLOYS
-#--Drone Warfare Tech Tree-------------------- END
-#--Medi Kit and Motion Tracker--------------------
+#----- Drone Warfare Tech Tree ----- END
+#----- Medi Kit and Motion Tracker -----
   - name: STR_MOTION_SCANNER
     cost: 5
     points: 20
@@ -124,8 +201,8 @@ research:
     points: 10
     dependencies:
       - STR_MEDI_KIT
-#--Medi Kit and Motion Tracker--------------------END
-#--New Ballistic Tech Tree--------------------
+#----- Medi Kit and Motion Tracker -----END
+#----- New Ballistic Tech Tree -----
   - name: STR_NEXT_GEN_BALLISTICS
     cost: 20
     points: 10
@@ -164,8 +241,8 @@ research:
     dependencies:
       - STR_ALLOY_AMMUNITION
       - STR_CODEX_1
-#--New Ballistic Tech Tree--------------------END
-#-- Shock Weapon Tech Tree--------------------
+#----- New Ballistic Tech Tree -----END
+#-----  Shock Weapon Tech Tree -----
   - name: STR_SHOCK_WEAPONS
     cost: 15
     points: 150
@@ -201,8 +278,8 @@ research:
     points: 0
     dependencies:
       - STR_SH_HEAVY_CANNON
-#-- Shock Weapon Tech Tree--------------------END
-#--Hybrid Ballistic Tech Tree--------------------
+#-----  Shock Weapon Tech Tree -----END
+#----- Hybrid Ballistic Tech Tree -----
   - name: STR_HYBRID_BALLISTICS_WEAPONS
     points: 65
     needItem: true
@@ -237,9 +314,9 @@ research:
     dependencies:
       - STR_CHEMICAL_ROUNDS
       - STR_CODEX_2
-#--Hybrid Ballistic Tech Tree--------------------END
-#--Armor Tech Tree----------------------------
-#----Starting Armor-----------------------
+#----- Hybrid Ballistic Tech Tree -----END
+#----- Armor Tech Tree-----
+#----- Starting Armor-----
   - name: STR_TAC_INF_TECH
     cost: 10
     points: 10
@@ -248,7 +325,7 @@ research:
     points: 15
     dependencies:
       - STR_TAC_INF_TECH
-#----Personal Armor-----------------------
+#----- Personal Armor-----
   - name: STR_ALLOY_MESH
     points: 10
     needItem: true
@@ -258,7 +335,7 @@ research:
     dependencies:
       - STR_ALLOY_MESH
       - STR_CODEX_1
-#----Alloy Armor-----------------------
+#----- Alloy Armor-----
   - name: STR_PLASMA_REACTIVE_PLATING
     points: 15
     needItem: true
@@ -268,7 +345,7 @@ research:
     dependencies:
       - STR_PLASMA_REACTIVE_PLATING
       - STR_CODEX_2
-#----Sky Strike Armor-----------------------
+#----- Sky Strike Armor-----
   - name: STR_ANTI_GRAV_DEVICE
     points: 20
     needItem: true
@@ -278,7 +355,7 @@ research:
     dependencies:
       - STR_ANTI_GRAV_DEVICE
       - STR_CODEX_2
-#----Power Suit Armor-----------------------
+#----- Power Suit Armor-----
   - name: STR_ELERIUM_POWERED_SERVOS
     points: 20
     needItem: true
@@ -288,14 +365,14 @@ research:
   #   dependencies:
   #     - STR_REACTOR_MINIATURIZATION
   #     - STR_CODEX_4
-#----Power Suit Armor-----------------------
+#----- Power Suit Armor-----
   # - name: STR_FLYING_SUIT
   #   cost: 60
   #   points: 20
   #   dependencies:
   #     - STR_POWER_SUIT
   #     - STR_ANTI_GRAV_DEVICE
-#----Nerve Suit Armor-----------------------
+#----- Nerve Suit Armor-----
   - name: STR_NERVE_INTERFACE
     points: 20
     needItem: true
@@ -306,7 +383,7 @@ research:
       - STR_PSIONIC_WARFARE
       - STR_NERVE_INTERFACE
       - STR_CODEX_4
-#----Power Armor-----------------------
+#----- Power Armor-----
   - name: STR_REACTOR_MINIATURIZATION
     points: 20
     needItem: true
@@ -327,8 +404,8 @@ research:
       - STR_DOGE_UPLIFTING
     listOrder: 17577
 
-#--Armor Tech Tree--------------------END
-#--Laser Weapons Tech Tree--------------------
+#----- Armor Tech Tree-----END
+#----- Laser Weapons Tech Tree-----
   - name: STR_LASER_WEAPONIZATION
     points: 20
     dependencies:
@@ -380,8 +457,8 @@ research:
       - STR_HEAVY_LASER_WEAPONS
       - STR_CODEX_3
       # - STR_CHARGED_CELLS #ojito
-#--Laser Weapons Tech Tree--------------------END
-#--Alien Alloy Tech Tree--------------------END
+#----- Laser Weapons Tech Tree-----END
+#----- Alien Alloy Tech Tree-----END
   - name: STR_ALIEN_ALLOYS
     cost: 25
     points: 30
@@ -396,8 +473,8 @@ research:
       - STR_ZEROG_SMELTING
       - STR_CODEX_4
       - STR_ALIEN_ALLOYS
-#--Alien Alloy Tech Tree--------------------END
-#--Elerium 115 Tech Tree--------------------
+#----- Alien Alloy Tech Tree-----END
+#----- Elerium 115 Tech Tree-----
   - name: STR_ELERIUM_115
     cost: 10
     points: 60
@@ -409,7 +486,7 @@ research:
     cost: 100
     points: 10
     dependencies:
-    ### ojito, aqui agregare a los soberanos para el trasquilamiento de elerium
+    #ojito, aqui agregare a los soberanos para el trasquilamiento de elerium
       - STR_MATTER_CREATION
       - STR_CODEX_COMPLETE #ojito reducir a codex 5
       - STR_ELERIUM_115
@@ -431,8 +508,8 @@ research:
 #    dependencies:
 #      - STR_ELERIUM_PROCESSING_3_UNLOCK
 #      - STR_CODEX_5
-#--Elerium 115 Tech Tree--------------------END
-#--Codex Fragment Tech Tree--------------------
+#----- Elerium 115 Tech Tree-----END
+#----- Codex Fragment Tech Tree-----
 #  - name: STR_CODEX_CELL
 #    cost: 30
 #    points: 10
@@ -466,8 +543,8 @@ research:
 #    dependencies:
 #      - STR_CODEX_CELL_REPLICATION_3_UNLOCK
 #      - STR_CODEX_4
-#--Tech Cell Tech Tree--------------------END
-#--Plasma Tech Tree--------------------
+#----- Tech Cell Tech Tree-----END
+#----- Plasma Tech Tree-----
   - name: STR_ADVANCED_PLASMA
     points: 10
     needItem: true
@@ -515,25 +592,25 @@ research:
     dependencies:
       - STR_CHARGED_PLASMA_CELLS
       - STR_CODEX_5
-#--Human Plasma Weapons --------------------
+#----- Human Plasma Weapons -----
   - name: STR_HOVER_HWP_PLASMA
     cost: 120
     points: 25
     dependencies:
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_ANTI_GRAV_DEVICE
-#--Human Plasma Weapons --------------------END
-#--Plasma Tech Tree--------------------END
+#----- Human Plasma Weapons -----END
+#----- Plasma Tech Tree-----END
   - name: STR_CYBERNETICS
     points: 25
     needItem: true
-  - name: STR_CYBER_SOLDIER ###ojito
+  - name: STR_CYBER_SOLDIER #ojito
     cost: 150
     points: 25
     dependencies:
       - STR_CYBERNETICS
       - STR_CODEX_4
-#--Unlock Techs--------------------
+#----- Unlock Techs-----
   - name: STR_THREAT_UNLOCK
     requires:
       - STR_THE_ALIEN_MIND
@@ -549,7 +626,7 @@ research:
       - STR_FLOATER_LEADER
       - STR_ARMORED_SECTOID_COMMANDER
       - STR_ARMORED_SECTOID_LEADER
-#      - STR_FORMIC_ALPHA
+#      - STR_FORMIC_LEADER
       - STR_MUTON_COMMANDO
       - STR_MUTON_CHIEFTAIN
       - STR_SOVEREIGN
@@ -580,7 +657,7 @@ research:
       - STR_ARMORED_SECTOID_COMMANDER
       - STR_ARMORED_SECTOID_LEADER
       - STR_MUTON_CHIEFTAIN
-#      - STR_FORMIC_ALPHA
+#      - STR_FORMIC_LEADER
       - STR_CARCHARODON_LEADER
       - STR_CARCHARODON_COMMANDER
   - name: STR_COMMANDER_UNLOCK
@@ -600,8 +677,8 @@ research:
     dependencies:
       - STR_ETHEREAL_COMMANDER
       - STR_MUTON_CHIEFTAIN
-#--Unlock Techs--------------------END
-#--Alien Biology and Psychology Tech Tree--------------------
+#----- Unlock Techs -----END
+#----- Alien Biology and Psychology Tech Tree -----
   - name: STR_XENO_PHYSIOLOGY
     cost: 10
     points: 10
@@ -648,8 +725,8 @@ research:
     dependencies:
       - STR_THREAT_UNLOCK
       - STR_THE_ALIEN_MIND
-#--Alien Biology and Psychology Tech Tree--------------------END
-#--Victory Tech Tree--------------------
+#----- Alien Biology and Psychology Tech Tree -----END
+#----- Victory Tech Tree -----
   - name: STR_ALIEN_ORIGINS
     cost: 80
     points: 60
@@ -693,8 +770,8 @@ research:
   #   points: 60
   #   dependencies:
   #     - STR_ENDGAME
-#--Victory Tech Tree--------------------END
-#--Hyper Wave Tech Tree--------------------
+#----- Victory Tech Tree -----END
+#----- Hyper Wave Tech Tree -----
   - name: STR_CODEX_HYPERWAVE_THEORY
     points: 10
     needItem: true
@@ -725,8 +802,8 @@ research:
       - STR_DIMENSIONAL_FATIGUE
       - STR_HYPER_WAVE_DECODER
       - STR_CODEX_4
-#--Hyper Wave Tech Tree--------------------END
-#--Psionics Tech Tree--------------------
+#----- Hyper Wave Tech Tree -----END
+#----- Psionics Tech Tree -----
   - name: STR_MIND_PROBE
     cost: 15
     points: 25
@@ -782,7 +859,7 @@ research:
     cost: 40
     points: 50
     needItem: true
-#--Terran Craft Tech Tree-------------------- #
+#----- Terran Craft Tech Tree ----- #
   - name: STR_NEW_CRAFT_WEAPON
     cost: 4
     points: 10
@@ -903,8 +980,8 @@ research:
 
 
 
-#--Terran Craft Tech Tree--------------------END
-#--UFO Tech Tree--------------------
+#----- Terran Craft Tech Tree -----END
+#----- UFO Tech Tree -----
   - name: STR_UFO_POWER_SOURCE
     cost: 50
     points: 30
@@ -937,9 +1014,9 @@ research:
     cost: 8
     points: 30
     needItem: true
-#--UFO Tech Tree--------------------END
+#----- UFO Tech Tree -----END
 
-#--Alien Plasma Weapons --------------------END
+#----- Alien Plasma Weapons  -----END
   - name: STR_AW_MAIN_PISTOL
     cost: 15
     points: 10
@@ -1010,7 +1087,7 @@ research:
     cost: 5
     points: 7
     needItem: true
-#eliteweapons ojito
+#eliteweapons#ojito
   - name: STR_AW_ELITE_PISTOL
     cost: 20
     points: 10
@@ -1049,8 +1126,8 @@ research:
 
 
 
-#--Alien Plasma Weapons --------------------END
-#--Alien Other Weapons --------------------
+#----- Alien Plasma Weapons  -----END
+#----- Alien Other Weapons  -----
   - name: STR_ALIEN_GRENADE
     cost: 10
     points: 20
@@ -1103,8 +1180,8 @@ research:
     cost: 5
     points: 10
     needItem: true
-#--Alien Other Weapons  --------------------END
-#--Human Other Weapons  --------------------
+#----- Alien Other Weapons   -----END
+#----- Human Other Weapons   -----
   - name: STR_ELERIUM_EXPLOSIVES
     points: 10
     needItem: true
@@ -1129,7 +1206,7 @@ research:
       - STR_ELERIUM_EXPLOSIVES
       - STR_AW_DEMOLITION_EXPLOSIVE
       - STR_CODEX_3
-######ojito este son los bangalores, prioridad, revisar todos los bangalores e implementarlos mejor al techtree
+#ojito este son los bangalores, prioridad, revisar todos los bangalores e implementarlos mejor al techtree
   - name: STR_BO_BREACHING_BANGALORE
     cost: 20
     points: 5
@@ -1190,8 +1267,8 @@ research:
     dependencies:
       - STR_PM_ANTIMATTER_LAUNCHER
       - STR_ANTI_GRAV_DEVICE
-#--Human Other Weapons  --------------------END
-#--Alien Gear --------------------
+#----- Human Other Weapons   -----END
+#----- Alien Gear  -----
   - name: STR_EX_PORTABLE_HYPERWAVE
     cost: 5
     points: 6
@@ -1232,10 +1309,10 @@ research:
     cost: 5
     points: 6
     needItem: true
-#--Alien Gear --------------------END
-#--Component Production --------------------
-#--Component Production  --------------------END
-#--Hyper Velocity Tech Tree --------------------
+#----- Alien Gear  -----END
+#----- Component Production  -----
+#----- Component Production   -----END
+#----- Hyper Velocity Tech Tree  -----
   - name: STR_HYPERVELOCITY_PROJECTILES
     needItem: true
     points: 20
@@ -1270,9 +1347,9 @@ research:
     dependencies:
       - STR_HYPERVELOCITY_SLUGS
       - STR_CODEX_4
-#--Hyper Velocity Tech Tree --------------------END
-#--Alien Research --------------------
-#--Races --------------------
+#----- Hyper Velocity Tech Tree  -----END
+#----- Alien Research  -----
+#----- Races  -----
   - name: STR_SECTOID
     points: 50
     cost: 15
@@ -1325,11 +1402,16 @@ research:
     cost: 15
     points: 50
     needItem: true
+  - name: STR_FORMIC
+    cost: 15
+    points: 50
+    needItem: true
+
   - name: STR_ANCIENT_SPAWN
     cost: 50
     points: 50
     needItem: true
-#--Corpses --------------------
+#----- Corpses  -----
   - name: STR_ARMORED_SECTOID_CORPSE
     cost: 10
     points: 50
@@ -1358,6 +1440,16 @@ research:
       - STR_XENO_PHYSIOLOGY
     lookup: STR_ABOMINATION_AUTOPSY
     needItem: true
+    #ojito esta mierda
+  - name: STR_ZOMBIE_CORPSE
+    cost: 10
+    points: 50
+    unlocks:
+      - STR_XENO_PHYSIOLOGY
+    lookup: STR_ZOMBIE_AUTOPSY
+    needItem: true
+
+
   - name: STR_SOVEREIGN_CORPSE
     cost: 10
     points: 50
@@ -1438,7 +1530,7 @@ research:
       - STR_XENO_PHYSIOLOGY
     lookup: STR_FLOATER_AUTOPSY
     needItem: true
-  - name: STR_FORMIC_CORPSE # ojito posiblemente ya cambie el precio, confirmar con los otros igual
+  - name: STR_FORMIC_CORPSE #ojito posiblemente ya cambie el precio, confirmar con los otros igual
     cost: 4
     points: 50
     unlocks:
@@ -1489,6 +1581,9 @@ research:
   - name: STR_ABOMINATION_AUTOPSY
     points: 50
     needItem: true
+  - name: STR_ZOMBIE_AUTOPSY
+    points: 50
+    needItem: true
   - name: STR_SOVEREIGN_AUTOPSY
     points: 50
     needItem: true
@@ -1534,7 +1629,7 @@ research:
   - name: STR_ANCIENT_SPAWN_AUTOPSY
     points: 50
     needItem: true
-#--Live Alien Terrorists --------------------#
+#----- Live Alien Terrorists  -----#
   - name: STR_ABOMINATION
     cost: 25
     points: 50
@@ -1583,7 +1678,7 @@ research:
     lookup: STR_SECTOPOD
     needItem: true
     destroyItem: true
-  - name: STR_ARMORED_MUTON #ojito quizas mover a otro sitio ojito mover a otro lado
+  - name: STR_ARMORED_MUTON #ojito quizas mover a otro sitio#ojito mover a otro lado
     cost: 25
     points: 50
     lookup: STR_ARMORED_MUTON
@@ -1607,7 +1702,7 @@ research:
     lookup: STR_ANCIENT_SPAWN
     needItem: true
     destroyItem: true
-#--Live Alien Soldiers --------------------
+#----- Live Alien Soldiers  -----
   - name: STR_SECTOID_SOLDIER
     cost: 20
     points: 50
@@ -1675,7 +1770,7 @@ research:
       - STR_THREAT_UNLOCK
       - STR_PSIONIC_UNLOCK
       - STR_THE_ALIEN_MIND
-  - name: STR_FORMIC
+  - name: STR_FORMIC_SOLDIER
     cost: 20
     points: 50
     lookup: STR_FORMIC
@@ -1687,7 +1782,7 @@ research:
     lookup: STR_CARCHARODON
     needItem: true
     destroyItem: true
-#--Live Alien Navigators --------------------
+#----- Live Alien Navigators  -----
   - name: STR_SECTOID_NAVIGATOR
     cost: 20
     points: 50
@@ -1814,7 +1909,7 @@ research:
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
       #- STR_CODEX_RECOVERY
-#--Live Alien Medics --------------------
+#----- Live Alien Medics  -----
   - name: STR_SECTOID_MEDIC
     cost: 25
     points: 50
@@ -1840,9 +1935,9 @@ research:
       - STR_MUTON_CORPSE
 #      - STR_MUTON_COMMANDO
 #      - STR_MUTON_GUARD
-      - STR_MUTON_COMMANDO_CORPSE # ojito renombrar
+      - STR_MUTON_COMMANDO_CORPSE #ojito renombrar
 #      - STR_MUTON_CHIEFTAIN
-#      - STR_MUTON_CHIEFTAIN_CORPSE # ojito renombrar
+#      - STR_MUTON_CHIEFTAIN_CORPSE #ojito renombrar
 #      - STR_SOVEREIGN
 #      - STR_SOVEREIGN_CORPSE
 #      - STR_ENERGYALIEN
@@ -1889,9 +1984,9 @@ research:
       - STR_MUTON_CORPSE
       - STR_MUTON_COMMANDO
       - STR_MUTON_GUARD
-      - STR_MUTON_COMMANDO_CORPSE # ojito renombrar
+      - STR_MUTON_COMMANDO_CORPSE #ojito renombrar
 #      - STR_MUTON_CHIEFTAIN
-#      - STR_MUTON_CHIEFTAIN_CORPSE # ojito renombrar
+#      - STR_MUTON_CHIEFTAIN_CORPSE #ojito renombrar
 #      - STR_SOVEREIGN
       - STR_SOVEREIGN_CORPSE
       - STR_ENERGYALIEN
@@ -1938,9 +2033,9 @@ research:
       - STR_MUTON_CORPSE
 #      - STR_MUTON_COMMANDO
 #      - STR_MUTON_GUARD
-      - STR_MUTON_COMMANDO_CORPSE # ojito renombrar
+      - STR_MUTON_COMMANDO_CORPSE #ojito renombrar
 #      - STR_MUTON_CHIEFTAIN
-#      - STR_MUTON_CHIEFTAIN_CORPSE # ojito renombrar
+#      - STR_MUTON_CHIEFTAIN_CORPSE #ojito renombrar
 #      - STR_SOVEREIGN
 #      - STR_SOVEREIGN_CORPSE
 #      - STR_ENERGYALIEN
@@ -1962,7 +2057,7 @@ research:
       - STR_CYBERDISC_CORPSE
       - STR_SECTOPOD
       - STR_SECTOPOD_CORPSE
-#--Live Alien Engineers --------------------
+#----- Live Alien Engineers  -----
   - name: STR_SECTOID_ENGINEER
     cost: 25
     points: 50
@@ -2101,7 +2196,7 @@ research:
       - STR_LABSHIP
       - STR_DESTROYER
       - STR_CONSTRUCTOR
-#--Live Alien Leaders --------------------
+#----- Live Alien Leaders  -----
   - name: STR_SECTOID_LEADER
     cost: 40
     points: 50
@@ -2171,7 +2266,7 @@ research:
     unlocks:
       - STR_LEADER_UNLOCK
       - STR_THREAT_UNLOCK
-#--Live Aliens Commanders --------------------
+#----- Live Aliens Commanders  -----
   - name: STR_SECTOID_COMMANDER
     cost: 60
     points: 50
@@ -2273,8 +2368,8 @@ research:
       - STR_LEADER_UNLOCK
       - STR_COMMANDER_UNLOCK
       - STR_THREAT_UNLOCK
-#--Alien Research --------------------END
-#--UFOS --------------------
+#----- Alien Research  -----END
+#----- UFOS  -----
   - name: STR_SURVEY
     points: 50
     needItem: true
@@ -2317,13 +2412,13 @@ research:
   - name: STR_CONSTRUCTOR
     points: 50
     needItem: true
-#--UFOS --------------------END
-#--Goods Tech Tree --------------------END
+#----- UFOS  -----END
+#----- Goods Tech Tree  -----END
   - name: STR_GOODS_UNLOCK_6
     cost: 0
     points: 0
     needItem: true
-#--Goods -------------------- #ojito luego meterle tiempo?
+#----- Goods  ----- #ojito luego meterle tiempo?
   - name: STR_GOODS_2
     cost: 10
     points: 5
@@ -2349,10 +2444,10 @@ research:
     points: 200
     dependencies:
       - STR_GOODS_UNLOCK_6
-      - STR_CODEX_COMPLETE # ojito reducir a codex 5
-#--Goods --------------------END
-#--Goods Tech Tree --------------------END
-#--Alien Gear Tech Tree --------------------
+      - STR_CODEX_COMPLETE #ojito reducir a codex 5
+#----- Goods  -----END
+#----- Goods Tech Tree  -----END
+#----- Alien Gear Tech Tree  -----
   - name: STR_LIGHT_ALIEN_WEAPONS
     cost: 10
     points: 0
@@ -2373,8 +2468,8 @@ research:
     cost: 20
     points: 0
     needItem: true
-#--Alien Gear Tech Tree --------------------END
-#--Dead Techs ------------------------- ojito corregir esto, aumentar la cantidad de corrupted datas a 14 minimo
+#----- Alien Gear Tech Tree  -----END
+#----- Dead Techs -----#ojito corregir esto, aumentar la cantidad de corrupted datas a 14 minimo
   - name: STR_CORRUPTED_DATA
     cost: 0
     points: 0
@@ -2404,7 +2499,7 @@ research:
     points: 0
     lookup: STR_CORRUPTED_DATA
     needItem: true
-  - name: STR_DATA_RECOVERY #Shock Weapons ojito corregir esto y hacerle su propia articulo, ademas esto servira como buffers de informacion para hacer perder el tiempo
+  - name: STR_DATA_RECOVERY #Shock Weapons#ojito corregir esto y hacerle su propia articulo, ademas esto servira como buffers de informacion para hacer perder el tiempo
     cost: 200
     points: 150
     dependencies:
@@ -2471,8 +2566,8 @@ research:
       - STR_ANOMOLOUS_EQUATION_1
       - STR_ANOMOLOUS_EQUATION_2
       - STR_ANOMOLOUS_EQUATION_3
-#--Dead Techs -------------------------END
-#--Codex Tech Tree --------------------
+#----- Dead Techs -----END
+#----- Codex Tech Tree  -----
   - name: STR_CODEX_FRAGMENT
     cost: 15
     points: 50
@@ -2577,7 +2672,7 @@ research:
 #     Perfect Psi Amp
 #     Lose Game
 #     Ultimate Air Weapon
-#--Codex Tech Tree --------------------END
+#----- Codex Tech Tree  -----END
 #doggos#
 #  - name: STR_CANID_BITE
     # cost: 0

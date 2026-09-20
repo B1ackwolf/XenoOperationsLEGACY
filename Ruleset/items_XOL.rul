@@ -2,7 +2,7 @@
 # Status:Reorder and clean, unify the numbers of all categories to relate better with the load and list orders, improve "#" notations. Add stuff from the To-Do list.
 
 items:
-#-----Deleting starts-----#
+#----- Deleting starts -----#
   - delete: STR_PISTOL_CLIP
   - delete: STR_PISTOL
   - delete: STR_RIFLE
@@ -261,10 +261,10 @@ items:
     listOrder: 17
 #----- Manufactured items for profit ENDING -----#
 
-##### OJITO ORDENAR AQUI ABAJO #####
+#ojito ORDENAR AQUI ABAJO #####
 
 #----- UFOs Components -----#
-# ojito agregar los componentes restantes
+#ojito agregar los componentes restantes
   - type: STR_ALIEN_HABITAT
     size: 0.1
     costSell: 20000
@@ -283,7 +283,7 @@ items:
     listOrder: 9599
 #----- UFOs Components ENDING -----#
 #----- Terran Craft Components & Weaponry -----#
-# ojito agregar las armas de aviones humanas restantes
+#ojito agregar las armas de aviones humanas restantes
   - type: STR_CLUSTER_MISSILE_LAUNCHER
     size: 0.8
     costSell: 22500
@@ -310,7 +310,7 @@ items:
     clipSize: 1
     listOrder: 608
 #
-  - type: STR_ELERIUM_CELL # ojito i think its the ammo for the plasma plane weaponry?
+  - type: STR_ELERIUM_CELL #ojito i think its the ammo for the plasma plane weaponry?
     requires:
       - STR_ALIENS_ONLY
     size: 0.025
@@ -325,7 +325,7 @@ items:
     # ignoreInCraftEquip: true
     # ignoreInBaseDefense: true
     listOrder: 1001
-# ojito que debo modificar cuales aviones usaran combustible especial
+#ojito que debo modificar cuales aviones usaran combustible especial
 #
   - type: STR_XCF_FUEL
     size: 0.1
@@ -385,7 +385,6 @@ items:
     transferTime: 96
     listOrder: 1415
 #
-
 #----- Terran tanks chassis ENDING -----#
 #----- Mechanical units Weaponry -----#
   - type: STR_TANK_LAUNCHER_SMOKE
@@ -470,7 +469,7 @@ items:
     hitSound: 0
     hitAnimation: 0
     power: 70
-# doble ojito recordatorio agregar el ignore overkill en practicamente todos
+# doble#ojito recordatorio agregar el ignore overkill en practicamente todos
     damageType: 3
     damageAlter:
       RandomType: 2
@@ -549,7 +548,7 @@ items:
 
 #
   - type: STR_TANK_CANNON_HE
-#    categories: [STR_TANKS, STR_LIGHT_TANKS] ojito completar luego, ponersela a todos los items
+#    categories: [STR_TANKS, STR_LIGHT_TANKS]#ojito completar luego, ponersela a todos los items
     size: 5
     costSell: 600000
     transferTime: 96
@@ -924,7 +923,7 @@ items:
     experienceTrainingMode: 13
     recover: false
     listOrder: 17580
-##### OJITO ORDENAR AQUI HASTA ARRIBA QUE MARCA #####
+#ojito ORDENAR AQUI HASTA ARRIBA QUE MARCA #####
 
 ###-----Human first tier Ballistic terran weapons-----###
   - type: STR_ST_SMALL_PISTOL
@@ -1219,8 +1218,8 @@ items:
     listOrder: 2113
   - type: STR_ST_BULLPUP
     size: 0.1
-    costBuy: 4
-    costSell: 2
+    costBuy: 3
+    costSell: 1
     weight: 6
     bigSprite: 4128
     floorSprite: 4128
@@ -1249,7 +1248,7 @@ items:
   - type: STR_ST_RIFLE
     size: 0.2
     costBuy: 4
-    costSell: 2
+    costSell: 1
     weight: 8
     bigSprite: 4144
     floorSprite: 4144
@@ -1294,7 +1293,7 @@ items:
   - type: STR_ST_LMG
     size: 0.2
     costBuy: 7
-    costSell: 3
+    costSell: 1
     weight: 12
     bigSprite: 4160
     floorSprite: 4160
@@ -1337,8 +1336,8 @@ items:
     listOrder: 2118
   - type: STR_ST_SNIPER
     size: 0.2
-    costBuy: 8
-    costSell: 4
+    costBuy: 5
+    costSell: 1
     weight: 9
     bigSprite: 4176
     floorSprite: 4176
@@ -1379,7 +1378,7 @@ items:
   - type: STR_ST_ANTI_MATERIEL
     size: 0.3
     costBuy: 10
-    costSell: 5
+    costSell: 1
     weight: 20
     bigSprite: 4192
     floorSprite: 4192
@@ -1419,8 +1418,8 @@ items:
     listOrder: 2122
   - type: STR_ST_MINIGUN
     size: 0.3
-    costBuy: 500
-    costSell: 200
+    costBuy: 150
+    costSell: 10
     weight: 27
     bigSprite: 4208
     floorSprite: 4208
@@ -1445,13 +1444,12 @@ items:
     listOrder: 2123
   - type: STR_ST_MINIGUN_BELT
     size: 0.1
-    costBuy: 40
-    costSell: 20
+    costBuy: 10
+    costSell: 1
     weight: 9
     bigSprite: 4480
     floorSprite: 4480
     handSprite: 4480
-
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -1462,15 +1460,15 @@ items:
     invWidth: 1
     invHeight: 3
     listOrder: 2124
-##### Ojito ignorar para no hacer cagada, pensar como resolver luego #####
+#ojito ignorar para no hacer cagada se mantiene nombre original, pensar como resolver luego #####
   - type: STR_HEAVY_CANNON
     compatibleAmmo:
       - STR_HC_HE_AMMO
       - STR_HC_I_AMMO
       - STR_HC_AP_AMMO
     arcingShot: true
-    costBuy: 25
-    costSell: 10
+    costBuy: 50
+    costSell: 1
     fireSound: 114
     bigSprite: 4224
     floorSprite: 4224
@@ -1479,7 +1477,7 @@ items:
   - type: STR_HC_HE_AMMO
     power: 45
     costBuy: 5
-    costSell: 2
+    costSell: 0
     bigSprite: 4488
     floorSprite: 4488
     handSprite: 4488
@@ -1499,7 +1497,7 @@ items:
   - type: STR_HC_I_AMMO
     power: 55
     costBuy: 5
-    costSell: 2
+    costSell: 0
     bigSprite: 4496
     floorSprite: 4496
     handSprite: 4496
@@ -1519,7 +1517,7 @@ items:
   - type: STR_HC_AP_AMMO #its smoke grenade
     power: 65
     costBuy: 5
-    costSell: 2
+    costSell: 0
     bigSprite: 4504
     floorSprite: 4504
     handSprite: 4504
@@ -1537,20 +1535,19 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     listOrder: 2128
-####ojito bazooka nueva descartable
+#ojito bazooka nueva descartable
   - type: STR_ST_BAZOOKA
 #    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_US_TECH, STR_ARTILLERY ]
     size: 0.04
-    costBuy: 9
+    costBuy: 25
     costSell: 5
-#    requiresBuyCountry: STR_USA
     weight: 7
     bigSprite: 4248
     floorSprite: 4248 #ojito resolver
     handSprite: 4248 #ojito resolver
     bulletSprite: 0
     fireSound: 86  #ojito resolver
-    power: 65
+    power: 55
     damageAlter:
       IgnoreOverKill: false
       RandomType: 6
@@ -1580,18 +1577,18 @@ items:
 #    hitSound: 143
     listOrder: 2129
 #####
-# ojito mejorar
+#ojito mejorar
   - type: STR_ROCKET_LAUNCHER
     size: 0.4
     costBuy: 150
-    costSell: 80
+    costSell: 10
     bigSprite: 4296
     floorSprite: 4296
     handSprite: 4296
     listOrder: 2130
   - type: STR_SMALL_ROCKET
     costBuy: 60
-    costSell: 30
+    costSell: 0
     damageType: 3
     power: 75
     damageAlter:
@@ -1613,7 +1610,7 @@ items:
   - type: STR_LARGE_ROCKET
     listOrder: 2132
     costBuy: 80
-    costSell: 40
+    costSell: 0
     damageType: 3
     power: 100
     damageAlter:
@@ -1633,7 +1630,7 @@ items:
     handSprite: 4520
   - type: STR_INCENDIARY_ROCKET
     costBuy: 40
-    costSell: 20
+    costSell: 0
     damageType: 3
     power: 90
     damageAlter:
@@ -5521,7 +5518,7 @@ items:
   - type: STR_STUN_ROD   #ojito luego cambiar nombre para mantener nomenclatura
     requires:
       - STR_XENO_PHYSIOLOGY
-    size: 0.1
+    size: 0.3
     costBuy: 10
     costSell: 5
     weight: 6
@@ -5542,6 +5539,8 @@ items:
     skillApplied: false
     listOrder: 2701
   - type: STR_SH_SMALL_PISTOL
+    requires:
+      - STR_XENO_PHYSIOLOGY
     size: 0.2
     costSell: 600
     weight: 5
@@ -5565,7 +5564,7 @@ items:
     maxRange: 4
     attraction: 6
     listOrder: 2703
-  - type: STR_SH_SMALL_PISTOL_CLIP1 # ojito me quede aqui, continuar mañana
+  - type: STR_SH_SMALL_PISTOL_CLIP1 #ojito me quede aqui, continuar mañana
     size: 0.1
     costSell: 100
     weight: 2
@@ -5600,7 +5599,9 @@ items:
     armor: 65
     attraction: 6
     listOrder: 2704
-  - type: STR_SH_SMALL_PISTOL_CLIP2 # ojito me quede aqui, continuar mañana
+  - type: STR_SH_SMALL_PISTOL_CLIP2 #ojito me quede aqui, continuar mañana
+    requires:
+      -  STR_NEXT_GEN_BALLISTICS
     size: 0.1
     costSell: 100
     weight: 2
@@ -5997,7 +5998,7 @@ items:
     skillApplied: true
     attraction: 10
     listOrder: 2808
-#### OJITO MELEE SHIELDS
+#ojito MELEE SHIELDS
   - type: STR_ME_HUMAN_BASIC_SHIELD
 #    categories: [STR_WEAPONS, STR_MELEE, ]
     size: 0.5
@@ -6238,7 +6239,7 @@ items:
     costSell: 2200
    # bigSprite: 9725
    # floorSprite: 301
-   # handSprite: 1340 OJITO
+   # handSprite: 1340#ojito
     weight: 3
     power: 60
     damageType: 3
@@ -6319,7 +6320,7 @@ items:
     handSprite: 9828
     power: 80
     damageType: 3
-    damageAlter: # ojito revisar mejor equivalente de xfiles
+    damageAlter: #ojito revisar mejor equivalente de xfiles
       ResistType: 7
       FixRadius: 5
       RadiusReduction: 5
@@ -6393,8 +6394,8 @@ items:
     attraction: 6
     listOrder: 2911
   - type: STR_BO_SATCHEL_CHARGE   #ojito luego editar para q tenga stats correctos
-    costBuy: 3
-    costSell: 1
+    costBuy: 2
+    costSell: 0
     bigSprite: 9876
     floorSprite: 9876
     handSprite: 9876
@@ -6424,8 +6425,8 @@ items:
     listOrder: 2915
 #
   - type: STR_HIGH_EXPLOSIVE   #ojito luego cambiar nombre para mantener nomenclatura
-    costBuy: 3
-    costSell: 1
+    costBuy: 5
+    costSell: 0
     bigSprite: 9892
     floorSprite: 9892
     handSprite: 9892
@@ -6499,7 +6500,7 @@ items:
     twoHanded: true
     attraction: 6
     listOrder: 2918
-#####Ojito Prueba Bangalores
+#ojito Prueba Bangalores
   - type: STR_BO_BREACHING_BANGALORE
 #    categories: [STR_HUMAN_TECH, STR_EQUIPMENT]
     size: 0.2
@@ -7451,7 +7452,7 @@ items:
       FixRadius: 2
       RadiusReduction: 5
       FireThreshold: 3000
-      ToHealth: 0.5
+      ToHealth: 0
       ToMorale: 0.0
       ToArmorPre: 0.05
       ToStun: 0.7
@@ -7600,7 +7601,7 @@ items:
     handSprite: 10740
     power: 350
     damageType: 10
-    damageAlter: # continuar este revisar equivalente xfiles ojito
+    damageAlter: # continuar este revisar equivalente xfiles#ojito
       RandomType: 2
       ResistType: 10
       FixRadius: 2
@@ -7707,7 +7708,7 @@ items:
     weight: 2
     bigSprite: 996
     floorSprite: 996
-    #hitSound: 116#checar este luego ojito
+    #hitSound: 116#checar este luego#ojito
     battleType: 6
     stimulant: 1
     medikitType: 2
@@ -7743,8 +7744,8 @@ items:
     listOrder: 3102
   - type: STR_EX_BASIC_MEDI_KIT
     size: 0.5
-    costBuy: 10
-    costSell: 4
+    costBuy: 5
+    costSell: 0
     weight: 8
     bigSprite: 998
     floorSprite: 998
@@ -7766,7 +7767,8 @@ items:
     listOrder: 3103
   - type: STR_EX_IMPROVED_MEDI_KIT #leer to-do LISTO
     size: 0.6
-    costSell: 1250
+    Costbuy: 25
+    costSell: 0
     weight: 12
     bigSprite: 999
     floorSprite: 999
@@ -7790,7 +7792,7 @@ items:
 # Ilumination items
   - type: STR_ELECTRO_FLARE   #ojito luego cambiar nombre para mantener nomenclatura
     costBuy: 2
-    costSell: 1
+    costSell: 0
     handSprite: 240
     listOrder: 3110
   - type: STR_EX_ELERIUM_LAMP
@@ -8006,7 +8008,7 @@ items:
     listOrder: 3133
 #----- Weaponry incorporated inside aliens -----#
 # Melee units Weaponry
-  - type: STR_JAWS # ojito does it works correctly?
+  - type: STR_JAWS #ojito does it works correctly?
     bigSprite: 813
     meleeSound: 927
     strengthApplied: true #ojito change to damageBonus
@@ -8788,12 +8790,12 @@ items:
     recover: true
     liveAlien: true
     costSell: 40000
-  - type: STR_FORMIC_BETA
+  - type: STR_FORMIC_NAVIGATOR
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 50000
-  - type: STR_FORMIC_ALPHA
+  - type: STR_FORMIC_LEADER
     size: 0.0
     recover: true
     liveAlien: true
@@ -8972,6 +8974,18 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 65
+  - type: STR_ZOMBIE_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 804
+    floorSprite: 804
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 65
+
   - type: STR_ABOMINATION_CORPSE
     size: 0.4
     costSell: 20000

@@ -259,6 +259,7 @@ facilities:
 #----- Detection base Buildings -----#
   - type: STR_SMALL_RADAR_SYSTEM   #ojito luego cambiar nombre para mantener nomenclatura
     mapName: XBASE_04
+    spriteShape: 1
     buildCost: 550000
     monthlyCost: 25000
     buildTime: 14
@@ -518,7 +519,7 @@ facilities:
       STR_ALIEN_ALLOYS:
         build: 10
         refund: 5
-#      STR: OJITO alguno de los productos medicos q cargan encima los aliens????
+#      STR:#ojito alguno de los productos medicos q cargan encima los aliens????
 #        build: 1
 #       refund: 1
     buildOverFacilities: [ STR_SICK_BAY ]

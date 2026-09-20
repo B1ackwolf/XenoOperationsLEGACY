@@ -2,7 +2,7 @@ interfaces:
 
 # recordar agregar primero el parametro de palette aqui abajo para ponerle los colores correctos
 #    palette: PAL_BATTLESCAPE
-# OJITO REVISAR LOS NUEVOS COLORES
+##ojito REVISAR LOS NUEVOS COLORES
 # los botones usaran el tono principal de gris (247) (NUEVO COLOR, antes 245)
 # bordes y marcos seran gris mas oscuro (249) (NUEVO COLOR, antes 247)
 # letras de headers seran (242) (NUEVO COLOR, antes 243)
@@ -27,7 +27,7 @@ interfaces:
         color2: -1
         border: 0
 #
-  - type: tests     #NO IDEA WHAT IT DOES (?)
+  - type: tests     #OJITO O IDEA WHAT IT DOES (?)
     backgroundImage: BACK05.SCR
     palette: PAL_BATTLESCAPE
     elements:
@@ -203,7 +203,7 @@ interfaces:
 
 ###############################aqui voy
 
-  - type: saveMenus
+  - type: saveMenus # The save and load menu, and the delete save confirmation pop up
     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
     elements:
       - id: palette
@@ -226,7 +226,7 @@ interfaces:
 
 #   - type: saveMenus
 #     backgroundImage: BACK01.SCR   # Inside the CODEX menu Image
-# #    palette: PAL_BATTLESCAPE
+# #
 #     elements:
 #       - id: palette
 #         color: 6     # yellow oxide # just like in others screens
@@ -1941,7 +1941,7 @@ interfaces:
         color: 48    # green
         color2: 32   # red
         border: 218  # blue
-  - type: battlescape ####ojito de aqui intentar sacar el color blanco con bordes negros
+  - type: battlescape ##ojito de aqui intentar sacar el color blanco con bordes negros
     palette: PAL_BATTLESCAPE
     elements:
       - id: textLoad
@@ -2157,15 +2157,15 @@ interfaces:
         color2: 244  # light blue
 #
   - type: articleArmor
-    backgroundImage: BACK99.SCR # prueba ojito
+    backgroundImage: BACK99.SCR # prueba#ojito
     elements:
       - id: button
-        color: 239    # Blueish gray
+        color: 244    # Blueish gray
       - id: text
-        color: 8   # chalky
-        color2: 71  # green
+        color: 239  # chalky
+        color2: 244  # green
       - id: list
-        color: 6   # grey
+        color: 239   # grey
         color2: 71  # green
 #
   - type: articleCraftWeapon
@@ -2183,13 +2183,13 @@ interfaces:
     palette: PAL_BATTLESCAPE
     elements:
       - id: button
-        color: 239   # blueish (was 144)
+        color: 244   # blueish (was 144)
       - id: text
-        color: 8   # main grey? (was 239)
-        color2: 33  # yellow (was 244)
+        color: 239   # main grey? (was 239)
+        color2: 244  # light gray (was 244)
       - id: list
         color: 3   # grey (was 239)
-        color2: 5  # light blue (was 244)
+        color2: 6  # light gray (was 244)
       - id: ammoColor
         color: 16    # red
 #

@@ -6,11 +6,11 @@ startingTime:
   second: 0
   minute: 0
   hour: 12
-  weekday: 2
-  day: 4
-  month: 1
-  year: 2027
-costEngineer: 180000
+  weekday: 4
+  day: 1
+  month: 8
+  year: 2029
+costEngineer: 230000
 costScientist: 450000
 maxLookVariant: 17
 timePersonnel: 48
@@ -251,7 +251,7 @@ operationNamesLast:
   - Whisper
   - Wrath
   - Zeus
-### Ojito, move this to another more appropiate rul?
+##ojito, move this to another more appropiate rul?
 #####o dejarlo aca pero moverlo a ultimo de todo todo.
 interfaces:
   - type: inventory

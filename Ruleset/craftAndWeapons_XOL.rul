@@ -29,7 +29,7 @@ crafts:
     maxLargeUnits: 0
     pilots: 1
     maxItems: 350
-    costBuy: 600000
+    costBuy: 800000
     costSell: 250000
     costRent: 60000
     refuelRate: 20
@@ -125,7 +125,7 @@ crafts:
     maxLargeUnits: 0
     pilots: 2
     maxItems: 650
-    costSell: 450000
+    costSell: 750000
     costRent: 130000
     refuelRate: 50
     radarRange: 700
@@ -195,7 +195,7 @@ crafts:
     maxItems: 700
     allowLanding: true
     costBuy: 0
-    costSell: 562500
+    costSell: 762500
     costRent: 230000
     refuelRate: 60
     transferTime: 72
@@ -259,8 +259,8 @@ crafts:
     maxItems: 500
     allowLanding: true
     costBuy: 0
-    costSell: 562500
-    costRent: 200000
+    costSell: 762500
+    costRent: 230000
     refuelRate: 50
     transferTime: 72
     score: 200
@@ -322,7 +322,7 @@ crafts:
     pilots: 4
     maxItems: 800
     allowLanding: true
-    costRent: 430000
+    costRent: 830000
     refuelRate: 50
     score: 10000
     spacecraft: true
@@ -387,8 +387,8 @@ crafts:
     soldiers: 1
     pilots: 1
     allowLanding: false
-    costBuy: 600000
-    costRent: 90000
+    costBuy: 800000
+    costRent: 110000
     refuelRate: 50
     transferTime: 96
     score: 100
@@ -405,7 +405,7 @@ crafts:
     allowLanding: false
     costBuy: 0
     costSell: 375000
-    costRent: 170000
+    costRent: 180000
     refuelRate: 50
     transferTime: 96
     score: 150
@@ -421,8 +421,8 @@ crafts:
     pilots: 1
     allowLanding: false
     costBuy: 0
-    costSell: 375000
-    costRent: 170000
+    costSell: 475000
+    costRent: 270000
     refuelRate: 50
     transferTime: 96
     score: 150
@@ -433,8 +433,8 @@ crafts:
     refuelItem: STR_XCF_FUEL
     damageMax: 430
     speedMax: 2650 # Mach 4 Supersonic 4940 kmh
-    costSell: 475000
-    costRent: 265000
+    costSell: 675000
+    costRent: 365000
     accel: 6
     weapons: 2
     soldiers: 1
@@ -450,8 +450,8 @@ crafts:
     refuelItem: STR_XCF_FUEL
     damageMax: 600
     speedMax: 3310 # Mach 5 Hypersonic // 6174 kmh
-    costSell: 437500
-    costRent: 300000
+    costSell: 837500
+    costRent: 500000
     accel: 7
     weapons: 2
     soldiers: 2

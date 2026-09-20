@@ -184,7 +184,7 @@ terrains:
         width: 10
         length: 10
         # groups: 2 # rice
-      - name: ALT_BARN_19 #estaba desactivado, lo active para checar el mod, ojito
+      - name: ALT_BARN_19 #estaba desactivado, lo active para checar el mod,#ojito
         width: 10
         length: 10
         groups: 4 # HILLS

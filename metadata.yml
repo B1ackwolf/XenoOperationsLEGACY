@@ -2,9 +2,9 @@
 # metadata.yaml for XCOM1
 
 name: "Xeno Operations LEGACY"
-version: 0.97.07.LE
+version: 0.98.01.LE EARLY BETA 2
 description: "A complete overhaul mod."
-requiredExtendedVersion: "7.4"
+
 author: XOps and revamped by b1ackwolf
 id: XOPSLEGACY
 reservedSpace: 15

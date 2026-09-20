@@ -100,6 +100,8 @@ these options are activated by default YET you can change them in case you found
 - field promotions and automatic promotions are deactivated, and soldiers should be promoted manually by clicking in the rank icons , i preffer this way to handle the officers promotions (and roleplaying better), but i respect if anyone dont care or dont want to handle dozens or even a hundred of soldiers, so its up for everyone to decide what they want to do.
 
 gameplay changes:
+ - eliminados completamente los silicoids
+
  - Modificado todos los nombres de los tipos de daño:
    * none= Special
    * Armor piercing = Kinect
@@ -117,7 +119,7 @@ gameplay changes:
    * mucha precaucion requerida para su uso adecuado
    * algunas granadas y explosivos tanto "humanos" como alienigena recibieron este tipo de daño.
 
-
+ -implementado loadouts iniciales (gracias meridian)
  - modificado el daño de algunos tipos de armas:
    * el tier 2 (eXPerimental weapons) recibio un cambio en la municion tech
      ~ ahora hace daño concussive, pero sin explosion o daño en area.
@@ -239,7 +241,7 @@ TWEAKS AND BALANCE:
  - increased the weight of some weapons:
    * the XX autocannon goes to 26 from 17
  - cambiado la configuracion de los bolsillos de las armaduras personales, tambien modificada la configuracion de las armaduras que estan destinadas para pilotos.
- - (balancear, ojito) finalmente implementado el tema del area de las explosiones cuyo daño varia en base a la distancia del centro de la explosiones
+ - (balancear,#ojito) finalmente implementado el tema del area de las explosiones cuyo daño varia en base a la distancia del centro de la explosiones
    * algunas armas tendran el mismo daño en todo el rango, esto para darle distincion
    * restaurado el daño en area tipo quimico a algunos explosivos que anteriormente no funcionaban correctamente
      ~ el cohete quimico y la granada hybrida quimica ya no hacen incendiary sino quimico, debido a limitaciones del juego original no habian podido ser instauradas correctamente.
@@ -276,6 +278,8 @@ TWEAKS AND BALANCE:
      ~ maintenance price increased to 70k
 
 Sprite tweaks:
+
+ - solved an issue with the walking animation of doggos, used to look desync, now it works as intended (thanks a lot crazedharpooner)
 
  - Implementado el sistema de cambio dinamico de sprites de filip h
    * Todas las armas ahora varian el sprite de su inventario basado en el tipo de cargador que tienen equipado (o si tienen municion restantes)

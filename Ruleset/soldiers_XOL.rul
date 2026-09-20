@@ -11,12 +11,12 @@ soldiers:
     costSalaryColonel: 6000
     costSalaryCommander: 16000
     rankStrings:
-    - STR_ARMY_RECRUIT
-    - STR_ARMY_PRIVATE
-    - STR_ARMY_CORPORAL
-    - STR_ARMY_SERGEANT
-    - STR_ARMY_STAFF_SERGEANT
-    - STR_ARMY_FIRST_SERGEANT
+    - STR_ARMY_RANK0
+    - STR_ARMY_RANK1
+    - STR_ARMY_RANK2
+    - STR_ARMY_RANK3
+    - STR_ARMY_RANK4
+    - STR_ARMY_RANK5
     minStats:
       tu: 35
       stamina: 40
@@ -74,12 +74,12 @@ soldiers:
     costSalaryColonel: 8000
     costSalaryCommander: 13000
     rankStrings:
-    - STR_ARMY_RECRUIT
-    - STR_ARMY_PRIVATE
-    - STR_ARMY_CORPORAL
-    - STR_ARMY_SERGEANT
-    - STR_ARMY_STAFF_SERGEANT
-    - STR_ARMY_FIRST_SERGEANT
+    - STR_ARMY_RANK0
+    - STR_ARMY_RANK1
+    - STR_ARMY_RANK2
+    - STR_ARMY_RANK3
+    - STR_ARMY_RANK4
+    - STR_ARMY_RANK5
     minStats:
       tu: 55
       stamina: 50
@@ -186,12 +186,12 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_MECH_SPECIALIST
-    - STR_MECH_TECHNICAL_SERGEANT
-    - STR_MECH_GUNNERY_SERGEANT
-    - STR_MECH_MASTER_GUNNERY_OFFICER
-    - STR_MECH_LIEUTENANT
-    - STR_MECH_RANGER
+    - STR_MECH_RANK0
+    - STR_MECH_RANK1
+    - STR_MECH_RANK2
+    - STR_MECH_RANK3
+    - STR_MECH_RANK4
+    - STR_MECH_RANK5
 #
   - type: STR_MECHA_DRIVER
     costSalary: 15000
@@ -251,12 +251,12 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_MECH_SPECIALIST
-    - STR_MECH_TECHNICAL_SERGEANT
-    - STR_MECH_GUNNERY_SERGEANT
-    - STR_MECH_MASTER_GUNNERY_OFFICER
-    - STR_MECH_LIEUTENANT
-    - STR_MECH_RANGER
+    - STR_JAEGER_RANK0
+    - STR_JAEGER_RANK1
+    - STR_JAEGER_RANK2
+    - STR_JAEGER_RANK3
+    - STR_JAEGER_RANK4
+    - STR_JAEGER_RANK5
 #
   - type: STR_SOLDIER_OFFICER
     costSalary: 12000
@@ -316,12 +316,12 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_ARMY_DEPUTY_OFICER
-    - STR_ARMY_SUB_LIEUTENANT
-    - STR_ARMY_LIEUTENANT
-    - STR_ARMY_CAPTAIN
-    - STR_ARMY_MAJOR
-    - STR_ARMY_LT_COLONEL
+    - STR_ARMY_OFFICER_RANK0
+    - STR_ARMY_OFFICER_RANK1
+    - STR_ARMY_OFFICER_RANK2
+    - STR_ARMY_OFFICER_RANK3
+    - STR_ARMY_OFFICER_RANK4
+    - STR_ARMY_OFFICER_RANK5
 #
   - type: STR_PILOT
     costBuy: 50000
@@ -386,12 +386,12 @@ soldiers:
       reactions: 75
       firing: 100
     rankStrings:
-    - STR_AIR_SUB_LIEUTENANT
-    - STR_AIR_LIEUTENANT
-    - STR_AIR_CAPTAIN
-    - STR_AIR_MAJOR
-    - STR_AIR_COLONEL
-    - STR_AIR_BRIGADIER
+    - STR_AIR_RANK0
+    - STR_AIR_RANK1
+    - STR_AIR_RANK2
+    - STR_AIR_RANK3
+    - STR_AIR_RANK4
+    - STR_AIR_RANK5
 #
   - type: STR_DRONE_CORE
     requires:
@@ -406,7 +406,7 @@ soldiers:
       reactions: 0
       firing: 40
       throwing: 0
-      strength: 0
+      strength: 20
       psiStrength: 0
       psiSkill: 0
       melee: 0
@@ -443,8 +443,8 @@ soldiers:
 #    armorForAvatar: carita del dron?
     avatarOffsetX: 79
     avatarOffsetY: 62
-    standHeight: 10
-    kneelHeight: 10
+    standHeight: 8
+    kneelHeight: 8
     femaleFrequency: 0
     soldierNames:
       - delete
@@ -526,8 +526,8 @@ soldiers:
     rankBattleSprite: 910   # default 20 # smoke.pck
     moraleLossWhenKilled: 33
     rankTinySprite: 18
-    standHeight: 12
-    kneelHeight: 12
+    standHeight: 10
+    kneelHeight: 6
     requires:
       - STR_DOGE_RECRUITMENT
     femaleFrequency: 50
@@ -602,8 +602,8 @@ soldiers:
     rankBattleSprite: 910   # default 20 # smoke.pck
     moraleLossWhenKilled: 33
     rankTinySprite: 18
-    standHeight: 12
-    kneelHeight: 12
+    standHeight: 10
+    kneelHeight: 6
     requires:
       - STR_DOGE_RECRUITMENT
       - STR_DOGE_EPIGENETIC
@@ -679,8 +679,8 @@ soldiers:
     rankBattleSprite: 910   # default 20 # smoke.pck
     moraleLossWhenKilled: 33
     rankTinySprite: 18
-    standHeight: 12
-    kneelHeight: 12
+    standHeight: 10
+    kneelHeight: 6
     requires:
       - STR_DOGE_RECRUITMENT
       - STR_DOGE_UPLIFTING

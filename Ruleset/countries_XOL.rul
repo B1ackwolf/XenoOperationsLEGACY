@@ -1,6 +1,6 @@
 # Made by B1ackwolf for XOPS-Legacy
 # Status: improve "#" notations
-# OJITO
+##ojito
 ###This File contain all new contries,diferent funding levels and surface area
 # need to improve the area that covers each countrie
 countries:
@@ -189,13 +189,13 @@ countries:
       - [349.5, 352, -55, -53.93] #Donegal
 #END IRELAND
 #BEGIN ISRAEL
-  - type: STR_ISRAEL
-    fundingBase: 45
-    fundingCap: 6000
-    labelLon: 34.7
-    labelLat: -32.9
-    areas:
-      - [33.5, 36, -34, -29] #Israel
+#  - type: STR_ISRAEL
+#    fundingBase: 45
+#    fundingCap: 6000
+#    labelLon: 34.7
+#    labelLat: -32.9
+#    areas:
+#      - [33.5, 36, -34, -29] #Israel
 #END ISRAEL
 #BEGIN ITALY
   - type: STR_ITALY

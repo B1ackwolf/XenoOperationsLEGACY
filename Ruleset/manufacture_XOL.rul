@@ -162,7 +162,7 @@ manufacture:
     listOrder: 1496
 #---Equipment ----------------------------------END
 #--- Crafts ----------------------------------
-  - name: STR_SCARAB #OJITO OJITO
+  - name: STR_SCARAB #OJITO#ojito
     category: STR_CRAFT
     requiresBaseFunc: [ ADV_WORKS ]
     requires:
@@ -392,7 +392,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 40
       STR_ELERIUM_115: 5
       STR_CODEX_FRAGMENT: 5
-#drones ojito
+#drones#ojito
 
   - name: STR_DRONE_QUADCOPTER_CHASSIS
     category: STR_HEAVY_WEAPONS_PLATFORM
@@ -441,7 +441,7 @@ manufacture:
       STR_DRONE_ROVER_CHASSIS: 1
     listOrder: 2701
 
-####### ojito, en realidad es la manufactura de una armadura de tanques, reordenar y rebalancear numeros
+#ojito, en realidad es la manufactura de una armadura de tanques, reordenar y rebalancear numeros
 
   - name: STR_REPAIR_BASIC_TANK
 #    category: STR_ARMOR_REPAIR
@@ -828,7 +828,7 @@ manufacture:
     time: 220
     cost: 14000
     listOrder: 2231
-  - name: STR_XP_AUTO_CANNON_BELT1 # ojito cambiar esta version de municion por algo mas cool, como incendiary? o directamente eliminar en todas las otras pags
+  - name: STR_XP_AUTO_CANNON_BELT1 ##ojito cambiar esta version de municion por algo mas cool, como incendiary? o directamente eliminar en todas las otras pags
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
       - STR_NEXT_GEN_BALLISTICS_HEAVY
@@ -909,7 +909,7 @@ manufacture:
     producedItems:
       STR_XP_APROCKET: 10
     listOrder: 2238
-#temporal, ojito, separar luego a ordnance tier correctamente
+#temporal,#ojito, separar luego a ordnance tier correctamente
   - name: STR_BO_STICK_GRENADE
     category: STR_HIGH_PERFORMANCE_BALLISTICS
     requires:
@@ -1448,7 +1448,7 @@ manufacture:
     producedItems:
       STR_HB_ROCKET2: 10
     listOrder: 2342
-#temporal , ojito separar luego a ordnance
+#temporal ,#ojito separar luego a ordnance
   - name: STR_BO_HYBRID_GRENADE
     category: STR_HYBRID_BALLISTICS
     requires:
@@ -1803,7 +1803,7 @@ manufacture:
     producedItems:
       STR_LA_HEAVY_CANNON_BATTERY3: 10
     listOrder: 2425
-#### ojito, ordenar luego en caTEGORIA propia de melee
+###ojito, ordenar luego en caTEGORIA propia de melee
 
 #--- Laser Weapons ----------------------------------
 #--- Fith Tier Hypervelocity Weapons ----------------------------------
@@ -2617,7 +2617,7 @@ manufacture:
     producedItems:
       STR_PM_HEAVY_CANNON_CLIP3: 10
     listOrder: 2634
-######Ojito pasar a armas meelee
+#ojito pasar a armas meelee
   - name: STR_ME_ALLOY_KNIFE
     category: STR_PLASMA_WEAPONS
     requires:
@@ -2776,7 +2776,7 @@ manufacture:
     producedItems:
       STR_SH_HEAVY_CANNON_BATTERY: 10
     listOrder: 2710
-#####ojito agregar a ordnance
+###ojito agregar a ordnance
   - name: STR_SH_GRENADE
     category: STR_SHOCK_WEAPONS
     requires:

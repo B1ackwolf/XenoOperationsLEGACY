@@ -45,14 +45,14 @@ startingBase:
       fuel: 1500
       damage: 0
       items:
-        STR_GRENADE: 10
-        STR_SMOKE_GRENADE: 10
         STR_ST_MAIN_PISTOL: 5
         STR_ST_MAIN_PISTOL_CLIP: 10
         STR_ST_RIFLE: 10
         STR_ST_RIFLE_CLIP: 20
-        STR_ELECTRO_FLARE: 10
+        STR_GRENADE: 10
+        STR_SMOKE_GRENADE: 10
         STR_ME_BASIC_KNIFE: 10
+        STR_ELECTRO_FLARE: 10
       status: STR_READY
     - type: STR_SR71
       id: 1
@@ -80,49 +80,56 @@ startingBase:
       status: STR_READY
 ###ojito , reorder below this
   items:
+    STR_ST_SMALL_PISTOL: 5
+    STR_ST_AUTO_PISTOL: 2
+    STR_ST_SMALL_PISTOL_CLIP: 15
+    STR_ST_MAIN_PISTOL: 10
+    STR_ST_MAIN_PISTOL_CLIP: 20
+    STR_ST_HEAVY_PISTOL: 2
+    STR_ST_HEAVY_PISTOL_CLIP: 5
+    STR_ST_UZI: 2
+    STR_ST_SMG: 2
+    STR_ST_SMG_CLIP: 10
+    STR_ST_SHOTGUN: 2
+    STR_ST_SHOTGUN_SHELLS1: 10
+    STR_ST_SHOTGUN_SHELLS2: 4
+    STR_ST_BULLPUP: 5
     STR_ST_RIFLE: 5
     STR_ST_RIFLE_CLIP: 30
     STR_ST_LMG: 2
     STR_ST_LMG_BELT: 10
-    STR_ST_SHOTGUN: 2
-    STR_ST_SHOTGUN_SHELLS1: 10
     STR_ST_SNIPER: 2
     STR_ST_SNIPER_CLIP: 10
-    STR_ST_UZI: 2
-    STR_ST_SMG: 2
-    STR_ST_SMG_CLIP: 10
-    STR_ST_BULLPUP: 10
-    STR_ST_MAIN_PISTOL: 10
-    STR_ST_MAIN_PISTOL_CLIP: 20
-    STR_ST_SMALL_PISTOL: 5
-    STR_ST_AUTO_PISTOL: 2
-    STR_ST_SMALL_PISTOL_CLIP: 15
-    STR_ST_HEAVY_PISTOL: 2
-    STR_ST_HEAVY_PISTOL_CLIP: 5
-    STR_GRENADE: 15
-    STR_ROCKET_LAUNCHER: 1
-    STR_SMALL_ROCKET: 5
+    STR_ST_ANTI_MATERIEL: 1
+    STR_ST_ANTI_MATERIEL_CLIP: 5
     STR_ST_MINIGUN: 1
     STR_ST_MINIGUN_BELT: 5
     STR_HEAVY_CANNON: 2
     STR_HC_HE_AMMO: 5
     STR_HC_I_AMMO: 5
     STR_HC_AP_AMMO: 3
+    STR_ST_BAZOOKA: 5
+    STR_ROCKET_LAUNCHER: 1
+    STR_SMALL_ROCKET: 5
+    STR_LARGE_ROCKET: 2
+    STR_INCENDIARY_ROCKET: 2
+    STR_GRENADE: 15
     STR_SMOKE_GRENADE: 15
-    STR_ST_ANTI_MATERIEL: 1
-    STR_ST_ANTI_MATERIEL_CLIP: 5
+    STR_BO_FIERY_GRENADE: 10
+    STR_HIGH_EXPLOSIVE: 5
+    STR_ME_KNUCKLES: 5
+    STR_ME_BASIC_KNIFE: 10
+    STR_ME_HUMAN_BASIC_SHIELD: 2
+    STR_ELECTRO_FLARE: 10
     STR_EX_ADRENO_KIT: 4
     STR_EX_FIST_AID_KIT: 7
     STR_EX_BASIC_MEDI_KIT: 3
     STR_EX_IMPROVED_MEDI_KIT: 1
+####
     STR_CANNON_ROUNDS_X50: 3
     STR_STINGRAY_MISSILES: 25
     STR_AVALANCHE_MISSILES: 10
-    STR_ELECTRO_FLARE: 10
-    STR_ME_BASIC_KNIFE: 10
-    STR_HIGH_EXPLOSIVE: 5
-    STR_ME_KNUCKLES: 5
-    STR_BO_FIERY_GRENADE: 10
+####
   scientists: 2
   engineers: 5
   randomSoldiers:
@@ -130,3 +137,287 @@ startingBase:
     STR_ELITE_SOLDIER: 2
     STR_SOLDIER_OFFICER: 1
     STR_PILOT: 5
+###################
+  globalTemplates:
+    globalEquipmentLayout0:
+      - itemType: STR_ST_RIFLE
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_RIFLE_CLIP
+        ammoItemSlots:
+          - STR_ST_RIFLE_CLIP
+      - itemType: STR_ST_RIFLE_CLIP
+        slot: STR_RIGHT_LEG
+      - itemType: STR_ST_RIFLE_CLIP
+        slot: STR_RIGHT_LEG
+        slotX: 1
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+        slotX: 1
+      - itemType: STR_ST_MAIN_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_MAIN_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_MAIN_PISTOL_CLIP
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+    globalEquipmentLayoutName0: Trooper
+#
+    globalEquipmentLayout1:
+      - itemType: STR_ST_SHOTGUN
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_SHOTGUN_SHELLS1
+        ammoItemSlots:
+          - STR_ST_SHOTGUN_SHELLS1
+      - itemType: STR_ST_SHOTGUN_SHELLS1
+        slot: STR_RIGHT_LEG
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+        slotX: 1
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_ST_AUTO_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_SMALL_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_SMALL_PISTOL_CLIP
+    globalEquipmentLayoutName1: Breacher
+#
+    globalEquipmentLayout2:
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ST_LMG
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_LMG_BELT
+        ammoItemSlots:
+          - STR_ST_LMG_BELT
+      - itemType: STR_ST_SMALL_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_SMALL_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_SMALL_PISTOL_CLIP
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+        slotX: 1
+      - itemType: STR_ST_LMG_BELT
+        slot: STR_RIGHT_LEG
+    globalEquipmentLayoutName2: Gunner
+#
+    globalEquipmentLayout3:
+      - itemType: STR_ST_BULLPUP
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_RIFLE_CLIP
+        ammoItemSlots:
+          - STR_ST_RIFLE_CLIP
+      - itemType: STR_ST_RIFLE_CLIP
+        slot: STR_RIGHT_LEG
+      - itemType: STR_ST_MAIN_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_MAIN_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_MAIN_PISTOL_CLIP
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+    globalEquipmentLayoutName3: Defender
+#
+    globalEquipmentLayout4:
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ST_AUTO_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_SMALL_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_SMALL_PISTOL_CLIP
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+        slotX: 1
+      - itemType: STR_ST_SNIPER
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_SNIPER_CLIP
+        ammoItemSlots:
+          - STR_ST_SNIPER_CLIP
+      - itemType: STR_ST_SNIPER_CLIP
+        slot: STR_RIGHT_LEG
+    globalEquipmentLayoutName4: Sharpshooter
+#
+    globalEquipmentLayout5:
+      - itemType: STR_EX_BASIC_MEDI_KIT
+        slot: STR_BELT
+        slotX: 2
+      - itemType: STR_EX_IMPROVED_MEDI_KIT
+        slot: STR_BACK_PACK
+        slotY: 1
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+        slotX: 1
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+      - itemType: STR_ST_SMG
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_SMG_CLIP
+        ammoItemSlots:
+          - STR_ST_SMG_CLIP
+      - itemType: STR_ST_SMG_CLIP
+        slot: STR_RIGHT_LEG
+    globalEquipmentLayoutName5: Medic
+#
+    globalEquipmentLayout6:
+      - itemType: STR_ROCKET_LAUNCHER
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_SMALL_ROCKET
+        ammoItemSlots:
+          - STR_SMALL_ROCKET
+      - itemType: STR_SMALL_ROCKET
+        slot: STR_BACK_PACK
+      - itemType: STR_SMALL_ROCKET
+        slot: STR_BACK_PACK
+        slotX: 1
+      - itemType: STR_SMALL_ROCKET
+        slot: STR_BACK_PACK
+        slotX: 2
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ST_SMALL_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_SMALL_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_SMALL_PISTOL_CLIP
+    globalEquipmentLayoutName6: Rocketeer
+#
+    globalEquipmentLayout7:
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_HIGH_EXPLOSIVE
+        slot: STR_BACK_PACK
+        slotY: 2
+      - itemType: STR_HIGH_EXPLOSIVE
+        slot: STR_BACK_PACK
+        slotY: 1
+      - itemType: STR_HIGH_EXPLOSIVE
+        slot: STR_BACK_PACK
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+
+      - itemType: STR_HEAVY_CANNON
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_HC_HE_AMMO
+        ammoItemSlots:
+          - STR_HC_HE_AMMO
+      - itemType: STR_HC_I_AMMO
+        slot: STR_LEFT_LEG
+      - itemType: STR_HC_AP_AMMO
+        slot: STR_RIGHT_LEG
+    globalEquipmentLayoutName7: Sapper
+#
+    globalEquipmentLayout8:
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_HEAVY_CANNON
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_HC_HE_AMMO
+        ammoItemSlots:
+          - STR_HC_HE_AMMO
+      - itemType: STR_ST_AUTO_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_SMALL_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_SMALL_PISTOL_CLIP
+      - itemType: STR_HC_I_AMMO
+        slot: STR_LEFT_LEG
+      - itemType: STR_HC_AP_AMMO
+        slot: STR_RIGHT_LEG
+    globalEquipmentLayoutName8: Pyro
+#
+    globalEquipmentLayout9:
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+        slotX: 1
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ST_BULLPUP
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_RIFLE_CLIP
+        ammoItemSlots:
+          - STR_ST_RIFLE_CLIP
+      - itemType: STR_ST_SMALL_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_SMALL_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_SMALL_PISTOL_CLIP
+    globalEquipmentLayoutName9: Pilot
+#
+    globalEquipmentLayout10:
+      - itemType: STR_ST_RIFLE
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_RIFLE_CLIP
+        ammoItemSlots:
+          - STR_ST_RIFLE_CLIP
+      - itemType: STR_ST_RIFLE_CLIP
+        slot: STR_RIGHT_LEG
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+      - itemType: STR_SMOKE_GRENADE
+        slot: STR_LEFT_LEG
+        slotX: 1
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_ST_HEAVY_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_HEAVY_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_HEAVY_PISTOL_CLIP
+    globalEquipmentLayoutName10: Officer
+#
+    globalEquipmentLayout11:
+      - itemType: STR_ST_BULLPUP
+        slot: STR_RIGHT_HAND
+        ammoItem: STR_ST_RIFLE_CLIP
+        ammoItemSlots:
+          - STR_ST_RIFLE_CLIP
+      - itemType: STR_ST_RIFLE_CLIP
+        slot: STR_RIGHT_LEG
+      - itemType: STR_ST_MAIN_PISTOL
+        slot: STR_QD_SLOT
+        ammoItem: STR_ST_MAIN_PISTOL_CLIP
+        ammoItemSlots:
+          - STR_ST_MAIN_PISTOL_CLIP
+      - itemType: STR_ME_BASIC_KNIFE
+        slot: STR_BELT
+      - itemType: STR_ELECTRO_FLARE
+        slot: STR_LEFT_SHOULDER
+      - itemType: STR_GRENADE
+        slot: STR_LEFT_LEG
+    globalEquipmentLayoutName11: Reservist
