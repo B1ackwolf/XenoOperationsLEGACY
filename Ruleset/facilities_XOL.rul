@@ -91,7 +91,7 @@ facilities:
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
     provideBaseFunc: [ TROOPERS_SCHOOL ]
     personnel: 80
-    storage: 30
+    storage: 50
     storageTiles:
       - [17, 12, 0]
       - [17, 11, 0]
@@ -107,7 +107,7 @@ facilities:
     removalTime: 3
     refundValue: 70000
     leavesBehindOnSell: [ STR_EMPTY_ROOM ]
-    storage: 20
+    storage: 25
     storageTiles:
       - [5, 5, 1]
       - [7, 5, 1]

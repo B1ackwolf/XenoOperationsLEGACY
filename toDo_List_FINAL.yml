@@ -2,23 +2,37 @@
 #checar los#ojitos siguientes
 
 
+#>>> REPETIDO-13 <<<
 primera labor = ordenar completamente los archivos:
  - ufopaedia
  - researches
+ - reordenar especies para que esten acomodadas sus entries y sus terroristas
+   * reapers luego de floaters
+   * celatids luego de snakemen
+   * chryssalids luego de formics
 
  - usar los uac scientist de xfiles como sprite pa los cientificos de xcom
  - buscar especies q sirvan para hacer tubos y demas
     * chtonitas y "chasers" de xfiles qizas
  - hacer entrie del berseRker autopsy
+ #>>> REPETIDO-7 <<<
  - HACER ENTRY del sectopod elite
  - crear topic research xenophysiology > alien capture (tasers)/ alien containment > alien psionic capabilities > mind probe > alien interrogations
  - cada vez q maten a un sovereign salga un solarite?
+
+
+
  - revisar implementacion de la velocidad de los UFOS en terminos relativos a mach, calcular y balancear (los ufos mas grandes deberian ser mas lentos, los mas pequeños mas rapidos, pero siempre manteniendo una relacion de velocidad relativa a la de los aviones humanos)
+   * hacer mas lento los ufos pesadotes
+   * agregar ufos tipo caza de combate
+
+
  - hacer q el stun rod solo pueda ser fabricado, lo mismo con la pistola stun chikita.
    * crear archivos en la ufopaedia de los items iniciales que deben estar ocultos
    * revisar manufacture y research de ambas
  - hacer que robocitos solo puedan ser comprados o fabricados luego de investigar su tecnologia.
  - use fmp to introduce MIB and flamethrwer.
+ #>>> REPETIDO-9 <<<
  - consultar respecto a los drons
    * reduce trowing accuracy to 0 so it cant toss grenades of any kind, yet it should be able to drop or kamikaze itself with explosives.
  - reordenar correctamente q los escuditos tengan el orden de los handsprites correctos (flipear los necesarios, primer y segundo escudo listo)
@@ -28,15 +42,14 @@ primera labor = ordenar completamente los archivos:
 #######
 
 
-
- - Balancear velocidades de ufos enemigos respecto al match de los aviones humanos
-   * hacer mas lento los ufos pesadostes
-   * agregar ufos tipo caza de combate
  - sacar piezas de armaduras der la steellegion
    * el casco de tanquero y los arneses de cuero
  - sacar de unexcom
+   #>>> REPETIDO-10 <<<
    * sonidos de las armas
+   #>>> REPETIDO-11 <<<
    * sacar rastros de vapor del plasma y otras armas
+   #>>> REPETIDO-12 <<<
    * implementar sistema de torretas
       ~ en naves aliens
       ~ en naves humanas (transportes)
@@ -44,14 +57,14 @@ primera labor = ordenar completamente los archivos:
       ~ en bases humanas
  - revisar medallas de unexcom
 
-####balanceo?
+####balanceo importante
 
  - revisar el tema de q ahora las armas tendran el daño modificado en el arma y no en la municion en si (excelente para balancear)
  - revisar enteramente las armaduras de perritos para balanceo de stats
  - agregar las anclas de los stats y damage modifiers de todas las armaduras q falta (enfasis en aliens )
  - revisar los damage modifiers de los Aliens
    * agregarle resistencias a energia y daño segun el caso (ejemplo sovereigns y antimateria)
- - balancear todos los damage modifiers de TODAS LAS ARMADURAS
+
  - revisar los precios de TODOS LOS ARTICULOS
 
  ######
@@ -72,6 +85,7 @@ primera labor = ordenar completamente los archivos:
    * cambiar todo de png a gif
       ~ conseguido con las armas, faltarian en el resto de recursos
 
+ #>>> REPETIDO-7 <<<
  - blaster bombs y armas laser elite necesitan de sus respectivos sprites, en especial cargadores
  -  CREAR DAÑO ANTI MATERIA q use el color purpurita como tipo de daño color
    - desintegrara todo en el area de explosion.
@@ -90,6 +104,7 @@ primera labor = ordenar completamente los archivos:
 
 #leer lo de arriba
 #####
+ #>>> REPETIDO-15 <<<
  - agregarle a todas las armas melee el damagealter segun sea el caso correcto
  - balancear TODOS LOS ITEMS q sean explosivos y/o con rango y concretar el tema de las explosiones que pierdan daño segun el area de impacto
  - le tengo q agregar a los q son explosivos dedicados un par de cuadros mas pero incrementar el tema de reduccion de daño de modo q quede equiparado al rango actual en base al daño real (y el cuadro adicional tendria solo un poquito de daño extra)
@@ -102,12 +117,14 @@ primera labor = ordenar completamente los archivos:
        ° para esto tengo q fijarme en los resistype 10 que son los daño antimateria principalmente
    * balancear waypoints totales de las armas blaster
    * meterle al tema del ataque en area acido
+   #>>> REPETIDO-15 <<<
    * modificar el tema del knucles y el damagebonus siendo aplicado
    * acomodar todos las areas de rangos de todos los explosivos q sean incendiarios y quimicos para intentar hacerle el efecto de rangos
    * a la granada quimica pintar el humo de verde y usarlo para eso (aprovechar el sprite q ya existe).
    * confirm which ones can be marked to avoid overkill
 #
  - balancear breaching charges
+   #>>> REPETIDO-14 <<<
    * darle credits a dbrizo por inspirarme para breaching charge
    * aprovechar el comando "throwRange" para definir todos los objetos demasiado pesados o delicados para arrojarse
  - Explore sources for improved versions of map and globe symbols.
@@ -133,18 +150,20 @@ primera labor = ordenar completamente los archivos:
    * Use metalhit.ogg as effect sound
    * confirmar todos los handobs que esten habilitados correctamente y recolorizar la version holo humana
    * usar el script de halo del kin-yar gauntlet
+     #>>> REPETIDO-14 <<<
      ~ recordar darle credits a filip-H
      ~ Scutum/testudo el basico?
      ~ ASPIS (Hoplite) el mas avanzado q es de alloys (haria juego con spartan armor)
      ~ no se me ocurre para el escudo plasma
    * agregar las dos variedades dorada(basico) y rojo de plasma a alos alien deployments
      ~ sectoides buen candidato para esto
-   * hacerles sus respectivos articulos en la ufopaedia
 #
 #######
 ####### Esto solo puedo hacerlo en casa #ojito seguir desde aqui
 #######
  - confirmar que todos los items nuevos tengan sus respectivas entradas en la ufopaedia
+   * prioridad escudos
+   * tambien crear un articulo para el combustible de los aviones nuevos
  - confirmar correctamente sprites nuevos para lideres sectoides con implantes
  - revisar que el drone advanced funcione correctamente con un cadaver y un recovery especifico (checar el tema drone corpse), ademas de los respectivos articulos de la ufopedia
  - crear articulos en ufopaedia respecto a los uplifting de perros
@@ -153,11 +172,14 @@ primera labor = ordenar completamente los archivos:
 #POSIBLEMENTE TERMINADO?
 
  - balancear TODOS LOS STATS DE LAS ARMADURAS
+   * especialmente los damage modifiers
+   * agregar la resistencia a flashbang?
+    ~ emphasis in tanks and new damage (antimatter)
  - Remake the FLUFF TEXT for the armors.
    * Consider renaming tiers.
    * Rename each armor individually.
    * preguntar a efren como aprovechar el "uc" para que tengan los nombres unicos en el articulo de la ufopedia, pa q no se repita el nombre en el inventario
-      ~ aprovechar y cambiar el nombre(pattern) a las armaduras
+    ~ aprovechar y cambiar el nombre(pattern) a las armaduras
          ° armadura driftsuit = ????
          ° armadura basica = Legionnaire / pilot = zero g suit
          ° armadura xops = praetorian / pilot = equite
@@ -168,6 +190,7 @@ primera labor = ordenar completamente los archivos:
          ° Armadura Psionica = Gorgon / pilot= cyclops
 #
  - Change all lines of the report sprite in the ufopedia from color 227 to 229 (the brightness is too intense).
+ #>>> REPETIDO-7 <<<
  - terminar de hacer las floorobs y handobs de las armas elites alien
    * mejorar detalles del color rojo y tambien al cargador
    * las armas elite seran daño laser porq son reliquias antiguas
@@ -175,7 +198,7 @@ primera labor = ordenar completamente los archivos:
  - acomodar colores del bulletsprite q coincidan con el color del arma
  - verificar si puedo implementar el laser BEAM
  #
- - hacer siguiente nivel de armadura de perritos, si puedo, confio en mi.
+ - hacer siguiente nivel de armadura de perritos (more armored akin to warhammer 40k canid units), si puedo, confio en mi.
  - sacar baseprites para edificios del tftd twots y tftd+
  - Tanks, UFOs, and Sectopods use pilots.
    * Training requires overcoming claustrophobia?, thus requiring a minimum bravery.
@@ -193,7 +216,6 @@ primera labor = ordenar completamente los archivos:
 
  - revisar los requisitos necesarios pa fabricar el scarab
    * el firefly ahora se comprara solamente
-   * tambien crear un articulo para el combustible
  - balancear requerimientos en materiales de todos los edificios. hacer sprites de armas elites, de cargadores de la minigun .
  - ahi si puedo proceder a hacer los cambios en el research tree(recordatorio de darle enfasis en los articulos nuevos, como los aviones y las entries q falten) y ademas balancear todo en manufactures haciendo enfasis en los xelloys (usando la lista arriba de referencias a recuperacion), para finalizar ordenando todo en el rul de research, manufactures y ufopaedia (incluyendo los listorders de items.rul como guia y ejemplo).
  - revisar enteramente arbol de investigaciones dandole enfasis a los siguientes proyectos
@@ -248,6 +270,7 @@ IMPORTANTE PARA LORE:
  - recordar el renombrar q las granadas y explosivos hybridas producen explosion termobarica gracias al elerium empobrecido en bajas cantidades como combustible, por eso aun asi son tan ligeros pero tan dañinos
  - explicar q aunque los drones no son humanos, necesitan de uno para manejarse y espacio en las instalaciones, ya despues aunque sean semi automaticos, igual requieren human input
      ~ aprovechar texto del edificio radar para completar la explicacion
+ #>>> REPETIDO-9 <<<
  - Changed all drones to a system based on "a CPU platform that can be inserted into different chassis and with different equipment."
    * The ground drone would be a platform to which the help of a claw can pick up weapons from the ground, tecnically being able to field any weapons used by xcom troops (specially shotguns and rifles, mostly PDW)
  - el lore de los spawns sera como leliel
@@ -298,24 +321,29 @@ IMPORTANTE PARA LORE:
  - Later, create some kind of torch/drill/specialized melee weapon to break walls and enter UFOs??.
    * Give this "terrain damage" sub-property to the plasma sword and knife?
 #
+#>>> REPETIDO-13 <<<
 + FINISH REORGANIZING FOLDERS:
  - Fix all relative routes inside extrasprites.rul for this.
    * Be cautious, CHECK and modify the names of ALL sprites in "unitSprites" folders.
    * Rename all files within ufopaedia folder.
  - Delete the extras sound folder as I test the new sounds.
+ #>>> REPETIDO-10 <<<
  - Finish the Audio enhancement
    * Confirmar todas las carpetas quedan correctamente utilizadas
    * aprovechar carpeta de into the abyss que tiene sonidos buenos, en especial para primeros dos tiers.
    * aprovechar de CTO los efectos de sonido, en especial los de recarga de armamento
+ #>>> REPETIDO-11 <<<
  - conseguir explosiones diferentes para efectos de granadas
 #
 + sacar de into the abbyss:
  - cascos para soldados basicos, recordar ponerle quadlentes, aprovechar microfonos y orejeras
   ~ confirmar si necesitaria modificar sprite battlescape, de todas maneras recordar ponerle el quadlentes que esta en el de CTO
  - lore de algunas armas
+ #>>> REPETIDO-10 <<<
  - Confirmar que sonidos puedo sacar de aca, sobre todo para segundo y tercer nivel de armas bailisticas
    * sacar de apoc tambien, sobre todo sonido de swarmids para dron
 #MISC
+ #>>> REPETIDO-14 <<<
  - Create a "Credits" section in the post and the Read me, where i list all the mods already integrated here.
    * Acknowledge the one who removed the letters from Amiga Kittencon (https://mod.io/g/openxcom/m/amigapsx-font-visual-upgrade-symbols).
    * Should create a section that says "INTEGRATED MODS" and also add Daedalus FMP HQSounds.
@@ -336,7 +364,6 @@ IMPORTANTE PARA LORE:
 
  - aprovechar el walker de rogozunbenjoyer64
  - preguntarle a osobist respecto al dron
-
  - respecto a soldiertransformation para perritos, consultar si se puede aplicar un porcentaje de "fallo"
  - (NUEVO) Error in the new "inventory" image for enemies.
    * Firstly, add remaining images of enemy inventory.
@@ -357,8 +384,8 @@ IMPORTANTE PARA LORE:
 #####
 
 + UFOPEDIA CHANGES:
- - Reorder every Ufopedia and create new sections.
- - Rewrite all alien races Ufopedia entries.
+ - Finish Reordering the Ufopedia and create new sections.
+ - Rewrite all alien races Ufopedia entries. #(in progress, all entries are made, needs to be reviewed and corrected to format into screen, and add the entries from the CODEX perspective)
  - Provide realistic equivalents for all weapon descriptions.
    * first tier partially done, the rest is up to go.
  - Modify spawn autopsy picture to be more detailed and bloody.
@@ -417,8 +444,6 @@ IMPORTANTE PARA LORE:
        ° usar esos tamaños de plantillas para el resto de las versiones de colores
    * separar mascaras de cascos en versiones oscuras black ops.
    * raparle pelo a "heads" nuevas para que calse con los cascos
-   * aprovechar el sistema "spriteFaceColor; *SpriteFaceColorAgent" pa reducir espacio necesario en archivo
-     ~ esto ya se aplico, pero recordar hacerlo con los tanqueros nuevos, consultar si se puede aplicar a los perros, preguntarle a scorch
 #
  - Improve armor sprites.
    * hacer mas bulkies el battle sprite
@@ -477,10 +502,10 @@ IMPORTANTE PARA LORE:
  - Rebalance the weight of all objects for more intuitive values.
    * Would a total rebalancing of the soldiers' strength be needed to maintain coherent values?
 #####
-
 + Doggos Changes:
  - Create more sprites for dog paper dolls.
    * Introduce more breeds?
+     ~ review the possibility to add "different colouration" using same script that with normal soldier units
    * Provide a wide variety of fur patterns for different species.
      ~ At least 20 different sprites for each.
      ~ Rottweilers and Dobermans could be additional species, considering they don't have much variety in fur patterns.
@@ -527,14 +552,17 @@ IMPORTANTE PARA LORE:
    * HyperVelocity Coilgun
    * Fusion Launcher
  - Perhaps add a more sturdier chassis
+ #>>> REPETIDO-9 <<<
  - For basic drones, use the drawing routine sprites of medusas to create an effect of going up and down at least one pixel when idle.
  - Maintain the blades of the Shuriken, add a portion of central blades to the Longbow.
    * Completely redesign the Longbow sprite.
    #ojito esto ya esta haciendose
+ #>>> REPETIDO-9 <<<
  - Use Xenonauts' drones and large drones as upgrades and improvements to classic drones.
    * uses three designs, small, medium and large drones
    * Require research on the anti-gravity core, equivalent to Skystrike armors in terms of research.
    * Create alien drone equivalents of drones using XFILES ROBOSPHERE
+ #>>> REPETIDO-12 <<<
  - (NUEVO) encontrar una manera de que se ilumine la torreta al momento de disparar los tanques?
  - Additionally, they would have different "armors" differences.
    * A light chassis, many TUs but low resistance.
@@ -600,6 +628,7 @@ IMPORTANTE PARA LORE:
 + Minor Changes:
  - (NUEVO) Clean up and correct all newlines (and double newlines).
    * Indent (-) only at the beginning of the text, not at the beginning of a new paragraph.
+ #>>> REPETIDO-13 <<<
  - Clean every .rul file from unused lines, reorder and correct all annotations.
    * "#----- topic -----#" should be the correct format.
    * Eliminate all that have an excess of dashes.
@@ -617,11 +646,7 @@ IMPORTANTE PARA LORE:
  - balance the following stuff
    * units stats
      ~ improve the differences between units and mostly the bonus stats regarding promotions
-   * armor stats
-     ~ emphasis in tanks and new damage (antimatter)
-   * prices of items
-   * manufacture
-   * researches
+
 
 #
  - agregate a roman numeral to every codex related technology to signify their current tier level ( I, II, III, IV, V, VI )
@@ -663,12 +688,15 @@ IMPORTANTE PARA LORE:
  - Adjust the position of the Russian peninsula above the Kuril Islands, finalize changes to the world map.
  - Each council country must have at least 4 cities on the map.
  - Later add ambient music to different maps.
+ #>>> REPETIDO-10 <<<
  - Completely improve the sound database.
    * To all weapons, different effects, explosions, etc.
+ #>>> REPETIDO-11 <<<
  - Completely improve explosion sprites (check XFILES and other mods).
    * Eliminate the cheesy effect of a skull as an explosion.
    * Create explosions of different colors according to the effect or damage caused.
    * Find out how to create an "implosion" effect that grows, then collapses and immediately expands again.
+ #>>> REPETIDO-7 <<<
  - Implement elite alien weapons.
    * Confirm functionality of sprites.
    * Add a "whistling" sound bulletsound to scare tactics.

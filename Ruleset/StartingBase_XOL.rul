@@ -116,6 +116,7 @@ startingBase:
     STR_GRENADE: 15
     STR_SMOKE_GRENADE: 15
     STR_BO_FIERY_GRENADE: 10
+    STR_BO_SATCHEL_CHARGE: 5
     STR_HIGH_EXPLOSIVE: 5
     STR_ME_KNUCKLES: 5
     STR_ME_BASIC_KNIFE: 10
@@ -126,9 +127,8 @@ startingBase:
     STR_EX_BASIC_MEDI_KIT: 3
     STR_EX_IMPROVED_MEDI_KIT: 1
 ####
-    STR_CANNON_ROUNDS_X50: 3
-    STR_STINGRAY_MISSILES: 25
-    STR_AVALANCHE_MISSILES: 10
+    STR_STINGRAY_MISSILES: 30
+    STR_AVALANCHE_MISSILES: 12
 ####
   scientists: 2
   engineers: 5
@@ -215,18 +215,15 @@ startingBase:
     globalEquipmentLayoutName2: Gunner
 #
     globalEquipmentLayout3:
-      - itemType: STR_ST_BULLPUP
-        slot: STR_RIGHT_HAND
-        ammoItem: STR_ST_RIFLE_CLIP
-        ammoItemSlots:
-          - STR_ST_RIFLE_CLIP
-      - itemType: STR_ST_RIFLE_CLIP
-        slot: STR_RIGHT_LEG
       - itemType: STR_ST_MAIN_PISTOL
-        slot: STR_QD_SLOT
+        slot: STR_RIGHT_HAND
         ammoItem: STR_ST_MAIN_PISTOL_CLIP
         ammoItemSlots:
           - STR_ST_MAIN_PISTOL_CLIP
+      - itemType: STR_ST_MAIN_PISTOL_CLIP
+        slot: STR_RIGHT_LEG
+      - itemType: STR_ME_HUMAN_BASIC_SHIELD
+        slot: STR_LEFT_HAND
       - itemType: STR_ME_BASIC_KNIFE
         slot: STR_BELT
       - itemType: STR_ELECTRO_FLARE
@@ -318,11 +315,13 @@ startingBase:
       - itemType: STR_HIGH_EXPLOSIVE
         slot: STR_BACK_PACK
         slotY: 1
-      - itemType: STR_HIGH_EXPLOSIVE
+      - itemType: STR_BO_SATCHEL_CHARGE
         slot: STR_BACK_PACK
+      - itemType: STR_BO_SATCHEL_CHARGE
+        slot: STR_BACK_PACK
+        slotX: 1
       - itemType: STR_ME_BASIC_KNIFE
         slot: STR_BELT
-
       - itemType: STR_HEAVY_CANNON
         slot: STR_RIGHT_HAND
         ammoItem: STR_HC_HE_AMMO

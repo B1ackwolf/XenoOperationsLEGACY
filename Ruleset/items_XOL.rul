@@ -6414,7 +6414,7 @@ items:
       ToTile: 0.25
 #      IgnoreOverKill: false
     size: 0.25
-    weight: 6
+    weight: 4
     battleType: 4
     invWidth: 1
     invHeight: 1
@@ -6443,6 +6443,7 @@ items:
       ToStun: 0.7
       ToTile: 0.25
 #      IgnoreOverKill: false
+    weight: 8
     listOrder: 2916
   - type: STR_BO_ELERIUM_CHARGE   #ojito ordenar bien q onda los stats
     costSell: 1
@@ -7767,7 +7768,7 @@ items:
     listOrder: 3103
   - type: STR_EX_IMPROVED_MEDI_KIT #leer to-do LISTO
     size: 0.6
-    Costbuy: 25
+    costBuy: 25
     costSell: 0
     weight: 12
     bigSprite: 999

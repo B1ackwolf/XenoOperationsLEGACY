@@ -6,9 +6,9 @@ startingTime:
   second: 0
   minute: 0
   hour: 12
-  weekday: 4
+  weekday: 2
   day: 1
-  month: 8
+  month: 10
   year: 2029
 costEngineer: 230000
 costScientist: 450000
